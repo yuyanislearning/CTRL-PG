@@ -59,6 +59,38 @@ class InputExample(object):
         """Serializes this instance to a JSON string."""
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
+class Input_Graph_Example(object):
+    """
+    A single training/test example for simple sequence classification.
+
+    Args:
+        guid: Unique id for the example.
+        text_a: string. The untokenized text of the first sequence. For single
+        sequence tasks, only this sequence must be specified.
+        text_b: (Optional) string. The untokenized text of the second sequence.
+        Only must be specified for sequence pair tasks.
+        label: (Optional) string. The label of the example. This should be
+        specified for train and dev examples, but not for test examples.
+    """
+    def __init__(self, guid, text, matrix, relations, doc_id):
+        self.guid = guid
+        self.text = text
+        self.matrix = matrix
+        self.relations = relations
+        self.doc_id = doc_id
+
+    def __repr__(self):
+        return str(self.to_json_string())
+
+    def to_dict(self):
+        """Serializes this instance to a Python dictionary."""
+        output = copy.deepcopy(self.__dict__)
+        return output
+
+    def to_json_string(self):
+        """Serializes this instance to a JSON string."""
+        return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
+
 
 class InputFeatures(object):
     """
@@ -317,6 +349,135 @@ def glue_convert_examples_to_features(examples, tokenizer,
               'attention_mask': tf.TensorShape([None]),
               'token_type_ids': tf.TensorShape([None])},
              tf.TensorShape([])))
+
+    return features
+
+
+def graph_convert_examples_to_features(examples, tokenizer,
+                                      max_length=64,
+                                      task=None,
+                                      label_list=None,
+                                      output_mode=None,
+                                      pad_on_left=False,
+                                      pad_token=0,
+                                      pad_token_segment_id=0,
+                                      mask_padding_with_zero=True):
+    """
+    Loads a data file into a list of ``InputFeatures``
+
+    Args:
+        examples: List of ``InputExamples`` or ``tf.data.Dataset`` containing the examples.
+        tokenizer: Instance of a tokenizer that will tokenize the examples
+        max_length: Maximum example length
+        task: GLUE task
+        label_list: List of labels. Can be obtained from the processor using the ``processor.get_labels()`` method
+        output_mode: String indicating the output mode. Either ``regression`` or ``classification``
+        pad_on_left: If set to ``True``, the examples will be padded on the left rather than on the right (default)
+        pad_token: Padding token
+        pad_token_segment_id: The segment ID for the padding token (It is usually 0, but can vary such as for XLNet where it is 4)
+        mask_padding_with_zero: If set to ``True``, the attention mask will be filled by ``1`` for actual values
+            and by ``0`` for padded values. If set to ``False``, inverts it (``1`` for padded values, ``0`` for
+            actual values)
+
+    Returns:
+        If the ``examples`` input is a ``tf.data.Dataset``, will return a ``tf.data.Dataset``
+        containing the task-specific features. If the input is a list of ``InputExamples``, will return
+        a list of task-specific ``InputFeatures`` which can be fed to the model.
+
+    """
+    is_tf_dataset = False
+    if is_tf_available() and isinstance(examples, tf.data.Dataset):
+        is_tf_dataset = True
+    if task is not None:
+        processor = glue_processors[task]()
+        if label_list is None:
+            label_list = processor.get_labels()
+            logger.info("Using label list %s for task %s" % (label_list, task))
+        if output_mode is None:
+            output_mode = glue_output_modes[task]
+            logger.info("Using output mode %s for task %s" % (output_mode, task))
+
+    label_map = {label.lower(): i for i, label in enumerate(label_list)}    
+
+    features = []
+    for (ex_index, example) in enumerate(examples):
+
+        if ex_index % 10000 == 0:
+            logger.info("Writing example %d" % (ex_index))
+        if is_tf_dataset:
+            example = processor.get_example_from_tensor_dict(example)
+            example = processor.tfds_map(example)
+
+        input_ids, token_type_ids, attention_masks = [], [], []
+        for text in example.text:
+            inputs = tokenizer.encode_plus(
+                example.text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+            # The mask has 1 for real tokens and 0 for padding tokens. Only real
+            # tokens are attended to.
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_ids)
+            if pad_on_left:
+                input_ids = ([pad_token] * padding_length) + input_ids
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_ids = input_ids + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        relations = []
+        for node1, node2, label in example.relations:
+            relations.append([node1, node2, label_map[label.lower()]])
+
+        if ex_index < 5:
+            logger.info("*** Example ***")
+            logger.info("guid: %s" % (example.guid))
+            logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
+            logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
+            logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
+
+        features.append(
+                Input_Graph_Features(input_ids=input_ids,
+                              attention_masks=attention_masks,
+                              token_type_ids=token_type_ids,
+                              matrix=example.matrix,
+                              relations=relations,
+                              doc_id=example.doc_id
+                              ))
+
+    # if is_tf_available() and is_tf_dataset:
+    #     def gen():
+    #         for ex in features:
+    #             yield  ({'input_ids': ex.input_ids,
+    #                      'attention_mask': ex.attention_mask,
+    #                      'token_type_ids': ex.token_type_ids},
+    #                     ex.label)
+
+    #     return tf.data.Dataset.from_generator(gen,
+    #         ({'input_ids': tf.int32,
+    #           'attention_mask': tf.int32,
+    #           'token_type_ids': tf.int32},
+    #          tf.int64),
+    #         ({'input_ids': tf.TensorShape([None]),
+    #           'attention_mask': tf.TensorShape([None]),
+    #           'token_type_ids': tf.TensorShape([None])},
+    #          tf.TensorShape([])))
 
     return features
 
@@ -725,6 +886,46 @@ class I2b2Processor(DataProcessor):
                 InputExample(guid=guid, text_a=text_a, text_b=None, label=label))
         return examples
 
+class I2b2_Graph_Processor(DataProcessor):
+    """Processor for the i2b2-m data set (GLUE version)."""
+
+
+    def get_train_examples(self, data_dir):
+        """See base class."""
+        return self._create_examples(
+            self._read_json(os.path.join(data_dir, "train.tsv")), "train")
+
+    def get_dev_examples(self, data_dir):
+        """See base class."""
+        return self._create_examples(
+            self._read_json(os.path.join(data_dir, "dev.tsv")), "dev")
+
+    def get_labels(self):
+        """See base class."""
+        return ["overlap", "before", "after"]
+
+    def _create_examples(self, lines, set_type):
+        """Creates examples for the training and dev sets."""
+        examples = []
+        for (key, val) in lines.items():
+
+            guid = "%s-%s" % (set_type, int(key))
+            try:
+                text = val['nodes']
+                matrix = val['matrix']
+                relations = val['relations']
+                doc_id = int(key)
+            except:
+                print(line)
+                continue
+            examples.append(
+                Input_Graph_Example(guid=guid, text=text, matrix=matrix, relations=relations, doc_id=doc_id))
+        return examples
+
+    def _read_json(self, path):
+        """Reads a tab separated value file."""
+        return json.load(open(path))
+
 glue_tasks_num_labels = {
     "cola": 2,
     "mnli": 3,
@@ -736,6 +937,7 @@ glue_tasks_num_labels = {
     "rte": 2,
     "wnli": 2,
     "i2b2-m": 3,
+    "i2b2-g": 3,
 }
 
 glue_processors = {
@@ -750,6 +952,7 @@ glue_processors = {
     "rte": RteProcessor,
     "wnli": WnliProcessor,
     "i2b2-m": I2b2Processor,
+    "i2b2-g": I2b2_Graph_Processor,
 }
 
 glue_output_modes = {
@@ -764,6 +967,7 @@ glue_output_modes = {
     "rte": "classification",
     "wnli": "classification",
     "i2b2-m": "classification",
+    "i2b2-g": "classification",
 }
 
 
@@ -837,6 +1041,8 @@ if _has_sklearn:
         elif task_name == "wnli":
             return {"acc": simple_accuracy(preds, labels)}
         elif task_name == "i2b2-m":
+            return p_r_f1(preds, labels)
+        elif task_name == "i2b2-g":
             return p_r_f1(preds, labels)
         else:
             raise KeyError(task_name)
