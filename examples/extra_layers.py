@@ -26,9 +26,9 @@ import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
 
-from .modeling_utils import PreTrainedModel, prune_linear_layer
-from .configuration_bert import BertConfig
-from .file_utils import add_start_docstrings
+from utils_modeling import PreTrainedModel, prune_linear_layer
+from configuration_bert import BertConfig
+from utils_file import add_start_docstrings
 
 logger = logging.getLogger(__name__)
 
@@ -572,7 +572,7 @@ BERT_INPUTS_DOCSTRING = r"""
 """
 
 @add_start_docstrings("The bare Bert Model transformer outputting raw hidden-states without any specific head on top.",
-                      BERT_START_DOCSTRING, BERT_INPUTS_DOCSTRING)
+                     BERT_START_DOCSTRING, BERT_INPUTS_DOCSTRING)
 class BertModel(BertPreTrainedModel):
     r"""
     Outputs: `Tuple` comprising various elements depending on the configuration (config) and inputs:
@@ -725,9 +725,9 @@ class BertModel(BertPreTrainedModel):
 
 
 @add_start_docstrings("""Bert Model with two heads on top as done during the pre-training:
-                       a `masked language modeling` head and a `next sentence prediction (classification)` head. """,
-                      BERT_START_DOCSTRING,
-                      BERT_INPUTS_DOCSTRING)
+                      a `masked language modeling` head and a `next sentence prediction (classification)` head. """,
+                     BERT_START_DOCSTRING,
+                     BERT_INPUTS_DOCSTRING)
 class BertForPreTraining(BertPreTrainedModel):
     r"""
         **masked_lm_labels**: (`optional`) ``torch.LongTensor`` of shape ``(batch_size, sequence_length)``:
@@ -802,8 +802,8 @@ class BertForPreTraining(BertPreTrainedModel):
 
 
 @add_start_docstrings("""Bert Model with a `language modeling` head on top. """,
-                      BERT_START_DOCSTRING,
-                      BERT_INPUTS_DOCSTRING)
+                     BERT_START_DOCSTRING,
+                     BERT_INPUTS_DOCSTRING)
 class BertForMaskedLM(BertPreTrainedModel):
     r"""
         **masked_lm_labels**: (`optional`) ``torch.LongTensor`` of shape ``(batch_size, sequence_length)``:
@@ -892,8 +892,8 @@ class BertForMaskedLM(BertPreTrainedModel):
 
 
 @add_start_docstrings("""Bert Model with a `next sentence prediction (classification)` head on top. """,
-                      BERT_START_DOCSTRING,
-                      BERT_INPUTS_DOCSTRING)
+                     BERT_START_DOCSTRING,
+                     BERT_INPUTS_DOCSTRING)
 class BertForNextSentencePrediction(BertPreTrainedModel):
     r"""
         **next_sentence_label**: (`optional`) ``torch.LongTensor`` of shape ``(batch_size,)``:
@@ -956,9 +956,9 @@ class BertForNextSentencePrediction(BertPreTrainedModel):
 
 
 @add_start_docstrings("""Bert Model transformer with a sequence classification/regression head on top (a linear layer on top of
-                      the pooled output) e.g. for GLUE tasks. """,
-                      BERT_START_DOCSTRING,
-                      BERT_INPUTS_DOCSTRING)
+                     the pooled output) e.g. for GLUE tasks. """,
+                     BERT_START_DOCSTRING,
+                     BERT_INPUTS_DOCSTRING)
 class BertForSequenceClassification(BertPreTrainedModel):
     r"""
         **labels**: (`optional`) ``torch.LongTensor`` of shape ``(batch_size,)``:
@@ -1032,9 +1032,9 @@ class BertForSequenceClassification(BertPreTrainedModel):
 
 ### Self-Defined Graph Model
 @add_start_docstrings("""Bert Model transformer with a node embedding head on top (a linear layer on top of
-                      the pooled output) e.g. for I2B2 tasks. """,
-                      BERT_START_DOCSTRING,
-                      BERT_INPUTS_DOCSTRING)
+                     the pooled output) e.g. for I2B2 tasks. """,
+                     BERT_START_DOCSTRING,
+                     BERT_INPUTS_DOCSTRING)
 class BertForNodeEmbedding(BertPreTrainedModel):
 
     def __init__(self, config):
@@ -1060,9 +1060,9 @@ class BertForNodeEmbedding(BertPreTrainedModel):
 
 
 @add_start_docstrings("""Bert Model transformer with a relation classification/regression head on top (a linear layer on top of
-                      the pooled output) e.g. for GLUE tasks. """,
-                      BERT_START_DOCSTRING,
-                      BERT_INPUTS_DOCSTRING)
+                     the pooled output) e.g. for GLUE tasks. """,
+                     BERT_START_DOCSTRING,
+                     BERT_INPUTS_DOCSTRING)
 class BertForRelationClassification(BertPreTrainedModel):
 
     def __init__(self, config):
