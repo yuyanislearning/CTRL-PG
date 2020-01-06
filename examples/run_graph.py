@@ -382,7 +382,7 @@ def build_relation_dataset(node_embeddings, relations):
     for e1,e2,r in relations:
         emb1 = node_embeddings[e1]
         emb2 = node_embeddings[e2]
-        relation_dataset.append([emb1[i]+emb2[i] for i in range(len(emb1)), r])
+        relation_dataset.append([[emb1[i]+emb2[i] for i in range(len(emb1))], r])
     return relation_dataset
 
 def main():
