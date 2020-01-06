@@ -1031,10 +1031,10 @@ class BertForSequenceClassification(BertPreTrainedModel):
 
 
 ### Self-Defined Graph Model
-@add_start_docstrings("""Bert Model transformer with a node embedding head on top (a linear layer on top of
-                     the pooled output) e.g. for I2B2 tasks. """,
-                     BERT_START_DOCSTRING,
-                     BERT_INPUTS_DOCSTRING)
+# @add_start_docstrings("""Bert Model transformer with a node embedding head on top (a linear layer on top of
+#                      the pooled output) e.g. for I2B2 tasks. """,
+#                      BERT_START_DOCSTRING,
+#                      BERT_INPUTS_DOCSTRING)
 class BertForNodeEmbedding(BertPreTrainedModel):
 
     def __init__(self, config):
@@ -1059,10 +1059,10 @@ class BertForNodeEmbedding(BertPreTrainedModel):
 
 
 
-@add_start_docstrings("""Bert Model transformer with a relation classification/regression head on top (a linear layer on top of
-                     the pooled output) e.g. for GLUE tasks. """,
-                     BERT_START_DOCSTRING,
-                     BERT_INPUTS_DOCSTRING)
+# @add_start_docstrings("""Bert Model transformer with a relation classification/regression head on top (a linear layer on top of
+#                      the pooled output) e.g. for GLUE tasks. """,
+#                      BERT_START_DOCSTRING,
+#                      BERT_INPUTS_DOCSTRING)
 class BertForRelationClassification(BertPreTrainedModel):
 
     def __init__(self, config):
