@@ -56,8 +56,8 @@ from transformers import (WEIGHTS_NAME, BertConfig,
 from extra_layers import (ConvGraph,
                                   BertForRelationClassification,
                                   BertForNodeEmbedding,
-                                  RobertaForRelationClassification,
-                                  RobertaForNodeEmbedding,
+                                  #RobertaForRelationClassification,
+                                  #RobertaForNodeEmbedding,
                                 )
 
 from transformers import AdamW, get_linear_schedule_with_warmup
@@ -83,7 +83,7 @@ MODEL_CLASSES = {
 
 GRAPH_CLASSES = {
     'bert': (BertConfig, BertForRelationClassification, BertTokenizer, BertForNodeEmbedding),
-    'roberta': (RobertaConfig, RobertaForRelationClassification, RobertaTokenizer, RobertaForNodeEmbedding)
+    #'roberta': (RobertaConfig, RobertaForRelationClassification, RobertaTokenizer, RobertaForNodeEmbedding)
 }
 
 
