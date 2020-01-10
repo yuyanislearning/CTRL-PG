@@ -531,7 +531,10 @@ def main():
                                         from_tf=bool('.ckpt' in args.model_name_or_path),
                                         #config=config,
                                         cache_dir=args.cache_dir if args.cache_dir else None)
-    conv_graph = ConvGraph() #config=config
+    conv_graph = ConvGraph.from_pretrained(args.model_name_or_path,
+                                        from_tf=bool('.ckpt' in args.model_name_or_path),
+                                        #config=config,
+                                        cache_dir=args.cache_dir if args.cache_dir else None)
 
 
     if args.local_rank == 0:
@@ -553,7 +556,7 @@ def main():
         # do classification with mini-batch
         global_step, tr_loss = train(args, train_dataset, model, tokenizer)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
-
+    
 
     # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
     if args.do_train and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
