@@ -137,9 +137,9 @@ class Input_Graph_Features(object):
         label: Label corresponding to the input
     """
 
-    def __init__(self, input_ids, attention_mask, token_type_ids, matrix, relations, doc_id):
+    def __init__(self, input_ids, attention_masks, token_type_ids, matrix, relations, doc_id):
         self.input_ids = input_ids
-        self.attention_mask = attention_mask
+        self.attention_masks = attention_masks
         self.token_type_ids = token_type_ids
         self.matrix = matrix
         self.relations = relations
@@ -315,8 +315,8 @@ def glue_convert_examples_to_features(examples, tokenizer,
             example = processor.get_example_from_tensor_dict(example)
             example = processor.tfds_map(example)
 
-        print(text_a)
-        print(text_b)
+        logger.info(text_a)
+        logger.info(text_b)
         inputs = tokenizer.encode_plus(
             example.text_a,
             example.text_b,
