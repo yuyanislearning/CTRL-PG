@@ -124,6 +124,41 @@ class InputFeatures(object):
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
 
+class Input_Graph_Features(object):
+    """
+    A single set of features of data.
+
+    Args:
+        input_ids: Indices of input sequence tokens in the vocabulary.
+        attention_mask: Mask to avoid performing attention on padding token indices.
+            Mask values selected in ``[0, 1]``:
+            Usually  ``1`` for tokens that are NOT MASKED, ``0`` for MASKED (padded) tokens.
+        token_type_ids: Segment token indices to indicate first and second portions of the inputs.
+        label: Label corresponding to the input
+    """
+
+    def __init__(self, input_ids, attention_mask, token_type_ids, matrix, relations, doc_id):
+        self.input_ids = input_ids
+        self.attention_mask = attention_mask
+        self.token_type_ids = token_type_ids
+        self.matrix = matrix
+        self.relations = relations
+        self.doc_id = doc_id
+
+    def __repr__(self):
+        return str(self.to_json_string())
+
+    def to_dict(self):
+        """Serializes this instance to a Python dictionary."""
+        output = copy.deepcopy(self.__dict__)
+        return output
+
+    def to_json_string(self):
+        """Serializes this instance to a JSON string."""
+        return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
+
+
+
 class DataProcessor(object):
     """Base class for data converters for sequence classification data sets."""
 
@@ -280,6 +315,8 @@ def glue_convert_examples_to_features(examples, tokenizer,
             example = processor.get_example_from_tensor_dict(example)
             example = processor.tfds_map(example)
 
+        print(text_a)
+        print(text_b)
         inputs = tokenizer.encode_plus(
             example.text_a,
             example.text_b,
@@ -450,8 +487,8 @@ def graph_convert_examples_to_features(examples, tokenizer,
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
             logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
-            logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
-            logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
+            #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
+            #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
 
         features.append(
                 Input_Graph_Features(input_ids=input_ids,
