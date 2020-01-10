@@ -893,12 +893,12 @@ class I2b2_Graph_Processor(DataProcessor):
     def get_train_examples(self, data_dir):
         """See base class."""
         return self._create_examples(
-            self._read_json(os.path.join(data_dir, "train.tsv")), "train")
+            self._read_json(os.path.join(data_dir, "train.json")), "train")
 
     def get_dev_examples(self, data_dir):
         """See base class."""
         return self._create_examples(
-            self._read_json(os.path.join(data_dir, "dev.tsv")), "dev")
+            self._read_json(os.path.join(data_dir, "dev.json")), "dev")
 
     def get_labels(self):
         """See base class."""
