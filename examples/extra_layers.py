@@ -1303,9 +1303,11 @@ import numpy as np
 from torch_geometric.nn import SAGEConv, GATConv
 from scipy.sparse import coo_matrix
 
-class ConvGraph:
+class ConvGraph(BertPreTrainedModel):
 
     def __init__(self, config, GAT=False):
+        super(ConvGraph, self).__init__(config)
+    #def __init__(self, config, GAT=False):
 
         if GAT:
             self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
