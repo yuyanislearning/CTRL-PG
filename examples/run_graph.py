@@ -531,7 +531,7 @@ def main():
                                         from_tf=bool('.ckpt' in args.model_name_or_path),
                                         #config=config,
                                         cache_dir=args.cache_dir if args.cache_dir else None)
-    conv_graph = ConvGraph(config=config)
+    conv_graph = ConvGraph() #config=config
 
 
     if args.local_rank == 0:
