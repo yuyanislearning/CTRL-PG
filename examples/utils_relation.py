@@ -24,6 +24,7 @@ import csv
 import sys
 import copy
 import json
+import numpy as np
 
 logger = logging.getLogger(__name__)
 
@@ -489,19 +490,22 @@ def graph_convert_examples_to_features(examples, tokenizer,
         # logger.info("current length: %s" % (str(len(input_ids))))
         # logger.info("max length: %s" % (str(max_length_input)))
 
+        padding_size = max_node_size - len(inputs)
+        input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
+        attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
+        token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
+
         if ex_index < 5:
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
+            logger.info("node number: %s" % str(len(input_ids)))
+            logger.info("node dim: % " % str(np.shape(input_ids)))
             logger.info("text: %s" % (text))
             logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
             logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
 
-        padding_size = max_node_size - len(inputs)
-        input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
-        attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
-        token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
 
         features.append(
                 Input_Graph_Features(input_ids=input_ids,
