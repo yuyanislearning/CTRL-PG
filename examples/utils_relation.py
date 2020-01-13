@@ -435,6 +435,7 @@ def graph_convert_examples_to_features(examples, tokenizer,
     label_map = {label.lower(): i for i, label in enumerate(label_list)}    
 
     features = []
+    max_length_input = 0
     for (ex_index, example) in enumerate(examples):
 
         if ex_index % 10000 == 0:
@@ -471,8 +472,6 @@ def graph_convert_examples_to_features(examples, tokenizer,
                 attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
                 token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
 
-            logger.info("test_input_ids: %s" % " ".join([str(x) for x in input_id]))
-            logger.info("test_text: %s" % text)
             assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
             assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
             assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
@@ -485,6 +484,10 @@ def graph_convert_examples_to_features(examples, tokenizer,
         for node1, node2, label in example.relations:
             relations.append([node1, node2, label_map[label.lower()]])
 
+        if len(input_ids) > max_length_input: max_length_input = len(input_ids)
+        logger.info("current length: %s" % (str(len(input_ids))))
+        logger.info("max length: %s" % (str(max_length_input)))
+        
         if ex_index < 5:
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
