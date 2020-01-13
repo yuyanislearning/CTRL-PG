@@ -447,7 +447,7 @@ def graph_convert_examples_to_features(examples, tokenizer,
 
         for text in example.text:
             inputs = tokenizer.encode_plus(
-                example.text,
+                text,
                 add_special_tokens=True,
                 max_length=max_length,
             )
@@ -471,6 +471,8 @@ def graph_convert_examples_to_features(examples, tokenizer,
                 attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
                 token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
 
+            logger.info("test_input_ids: %s" % " ".join([str(x) for x in input_id]))
+            logger.info("test_text: %s" % text)
             assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
             assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
             assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
