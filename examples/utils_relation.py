@@ -396,7 +396,8 @@ def graph_convert_examples_to_features(examples, tokenizer,
                                       pad_on_left=False,
                                       pad_token=0,
                                       pad_token_segment_id=0,
-                                      mask_padding_with_zero=True):
+                                      mask_padding_with_zero=True,
+                                      max_node_size=650):
     """
     Loads a data file into a list of ``InputFeatures``
 
@@ -435,7 +436,7 @@ def graph_convert_examples_to_features(examples, tokenizer,
     label_map = {label.lower(): i for i, label in enumerate(label_list)}    
 
     features = []
-    max_length_input = 0
+    #max_length_input = 0
     for (ex_index, example) in enumerate(examples):
 
         if ex_index % 10000 == 0:
@@ -484,10 +485,10 @@ def graph_convert_examples_to_features(examples, tokenizer,
         for node1, node2, label in example.relations:
             relations.append([node1, node2, label_map[label.lower()]])
 
-        if len(input_ids) > max_length_input: max_length_input = len(input_ids)
-        logger.info("current length: %s" % (str(len(input_ids))))
-        logger.info("max length: %s" % (str(max_length_input)))
-        
+        # if len(input_ids) > max_length_input: max_length_input = len(input_ids)
+        # logger.info("current length: %s" % (str(len(input_ids))))
+        # logger.info("max length: %s" % (str(max_length_input)))
+
         if ex_index < 5:
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
@@ -497,6 +498,10 @@ def graph_convert_examples_to_features(examples, tokenizer,
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
 
+        padding_size = max_node_size - len(inputs)
+        input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
+        attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
+        token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
 
         features.append(
                 Input_Graph_Features(input_ids=input_ids,
