@@ -315,8 +315,6 @@ def glue_convert_examples_to_features(examples, tokenizer,
             example = processor.get_example_from_tensor_dict(example)
             example = processor.tfds_map(example)
 
-        logger.info(example.text_a)
-        logger.info(example.text_b)
         inputs = tokenizer.encode_plus(
             example.text_a,
             example.text_b,
@@ -446,6 +444,10 @@ def graph_convert_examples_to_features(examples, tokenizer,
             example = processor.tfds_map(example)
 
         input_ids, token_type_ids, attention_masks = [], [], []
+
+        logger.info("print text for testing")
+        logger.info(example)
+        logger.info(example.text)
         for text in example.text:
             inputs = tokenizer.encode_plus(
                 example.text,
