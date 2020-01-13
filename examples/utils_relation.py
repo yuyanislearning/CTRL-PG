@@ -445,15 +445,13 @@ def graph_convert_examples_to_features(examples, tokenizer,
 
         input_ids, token_type_ids, attention_masks = [], [], []
 
-        logger.info("print text for testing")
-        logger.info(example)
-        logger.info(example.text)
         for text in example.text:
             inputs = tokenizer.encode_plus(
                 example.text,
                 add_special_tokens=True,
                 max_length=max_length,
             )
+
             input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
 
 
@@ -465,7 +463,7 @@ def graph_convert_examples_to_features(examples, tokenizer,
             padding_length = max_length - len(input_id)
 
             if pad_on_left:
-                input_ids = ([pad_token] * padding_length) + input_ids
+                input_id = ([pad_token] * padding_length) + input_id
                 attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
                 token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
             else:
@@ -488,9 +486,12 @@ def graph_convert_examples_to_features(examples, tokenizer,
         if ex_index < 5:
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
+            logger.info("text: %s" % (text))
             logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
+            logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
+
 
         features.append(
                 Input_Graph_Features(input_ids=input_ids,
