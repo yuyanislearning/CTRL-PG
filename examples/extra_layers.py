@@ -1254,7 +1254,8 @@ class BertForNodeEmbedding(BertPreTrainedModel):
                             position_ids=position_ids,
                             head_mask=head_mask,
                             inputs_embeds=inputs_embeds)
-
+        print(outputs[0].size())
+        print(outputs[1].size())
         pooled_output = outputs[1]
         return pooled_output 
 

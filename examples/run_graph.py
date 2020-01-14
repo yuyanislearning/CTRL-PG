@@ -95,7 +95,7 @@ def set_seed(args):
         torch.cuda.manual_seed_all(args.seed)
 
 
-def train(args, dataset, model, classifer, conv_graph, tokenizer):
+def train(args, dataset, model, classifier, conv_graph, tokenizer):
     """ Train the model """
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
@@ -175,7 +175,9 @@ def train(args, dataset, model, classifer, conv_graph, tokenizer):
             batch = tuple(t.to(args.device) for t in batch[0])
             inputs = {'input_ids':      batch[0],
                       'attention_mask': batch[1],
-                      'e_id':         batch[3]} # TODO: check the position of e_id
+                      'token_type_ids': batch[2],
+                      #'e_id':         batch[3]
+                      } # TODO: check the position of e_id
 
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
