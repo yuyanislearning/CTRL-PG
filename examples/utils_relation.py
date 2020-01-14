@@ -490,7 +490,7 @@ def graph_convert_examples_to_features(examples, tokenizer,
         # logger.info("current length: %s" % (str(len(input_ids))))
         # logger.info("max length: %s" % (str(max_length_input)))
 
-        padding_size = max_node_size - len(inputs)
+        padding_size = max_node_size - len(input_ids)
         input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
         attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
         token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)

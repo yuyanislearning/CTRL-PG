@@ -360,11 +360,13 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
 
     # Convert to Tensors and build dataset
 
-    all_input_ids = torch.tensor([[f.input_ids for f in feature] for feature in features], dtype=torch.long)
-    all_attention_mask = torch.tensor([[f.attention_masks for f in feature] for feature in features], dtype=torch.long)
-    all_token_type_ids = torch.tensor([[f.token_type_ids for f in feature] for feature in features], dtype=torch.long)
-    all_matrix = [f.matrix for f in features]
-    all_relation = [f.relations for f in features]
+
+
+    all_input_ids = torch.tensor([[f for f in feature.input_ids] for feature in features], dtype=torch.long)
+    all_attention_mask = torch.tensor([[f for f in feature.attention_masks] for feature in features], dtype=torch.long)
+    all_token_type_ids = torch.tensor([[f for f in feature.token_type_ids] for feature in features], dtype=torch.long)
+    all_matrix = [feature.matrix for feature in features]
+    all_relation = [feature.relations for feature in features]
 
     print(all_input_ids.shape())
     print(all_attention_mask.shape())
