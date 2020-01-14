@@ -368,9 +368,9 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_matrix = [feature.matrix for feature in features]
     all_relation = [feature.relations for feature in features]
 
-    print(all_input_ids.shape())
-    print(all_attention_mask.shape())
-    print(all_token_type_ids.shape())
+    print(all_input_ids.size())
+    print(all_attention_mask.size())
+    print(all_token_type_ids.size())
     sys.exit()
 
     # if output_mode == "classification":
