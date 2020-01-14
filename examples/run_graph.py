@@ -95,7 +95,7 @@ def set_seed(args):
         torch.cuda.manual_seed_all(args.seed)
 
 
-def train(args, dataset, model, tokenizer):
+def train(args, dataset, model, classifer, conv_graph, tokenizer):
     """ Train the model """
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
@@ -368,10 +368,12 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_matrix = [feature.matrix for feature in features]
     all_relation = [feature.relations for feature in features]
 
-    print(all_input_ids.size())
-    print(all_attention_mask.size())
-    print(all_token_type_ids.size())
-    sys.exit()
+    logger.info("all_input_ids: %s" % str(all_input_ids.size()))
+    logger.info("all_attention_mask: %s" % str(all_attention_mask.size()))
+    logger.info("all_token_type_ids: %s" % str(all_token_type_ids.size()))
+
+    logger.info("matrix example: %s" % str(np.array(all_matrix[0])))
+    logger.info("relation example: %s" % str(np.array(all_relation[0])))
 
     # if output_mode == "classification":
     #     all_labels = torch.tensor([f.label for f in features], dtype=torch.long)
