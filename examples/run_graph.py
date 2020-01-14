@@ -104,9 +104,9 @@ def train(args, dataset, model, tokenizer):
     #args.train_graph_batch_size = 1 #args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
-    adjacency_matrixs = MatrixLoader()
+    #adjacency_matrixs = MatrixLoader()
     train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
-    relation_lists = RelationLoader()
+    #relation_lists = RelationLoader()
     train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
     
     # each relation list: [(0,1,overlap), (1,2,before), (7,8,after)]

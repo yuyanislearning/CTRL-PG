@@ -499,7 +499,7 @@ def graph_convert_examples_to_features(examples, tokenizer,
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
             logger.info("node number: %s" % str(len(input_ids)))
-            logger.info("node dim: % " % str(np.shape(input_ids)))
+            logger.info("node dim: %s " % str(np.shape(input_ids)))
             logger.info("text: %s" % (text))
             logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
             logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
