@@ -95,11 +95,12 @@ def set_seed(args):
         torch.cuda.manual_seed_all(args.seed)
 
 
-def train(args, train_dataset, model, tokenizer):
+def train(args, dataset, model, tokenizer):
     """ Train the model """
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
+    train_dataset,adjacency_matrixs,relation_lists=dataset
     #args.train_graph_batch_size = 1 #args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
@@ -359,12 +360,15 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
 
     # Convert to Tensors and build dataset
 
-    all_input_ids = torch.tensor([[f.input_ids for f in features] for feature in features], dtype=torch.long)
-    all_attention_mask = torch.tensor([[f.attention_mask for f in feature] for feature in features], dtype=torch.long)
-    all_token_type_ids = torch.tensor([[f.token_type_ids for f in features] for feature in features], dtype=torch.long)
+    all_input_ids = torch.tensor([[f.input_ids for f in feature] for feature in features], dtype=torch.long)
+    all_attention_mask = torch.tensor([[f.attention_masks for f in feature] for feature in features], dtype=torch.long)
+    all_token_type_ids = torch.tensor([[f.token_type_ids for f in feature] for feature in features], dtype=torch.long)
     all_matrix = [f.matrix for f in features]
+    all_relation = [f.relations for f in features]
 
     print(all_input_ids.shape())
+    print(all_attention_mask.shape())
+    print(all_token_type_ids.shape())
     sys.exit()
 
     # if output_mode == "classification":
@@ -372,7 +376,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     # elif output_mode == "regression":
     #     all_labels = torch.tensor([f.label for f in features], dtype=torch.float)
  
-    dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids)
+    dataset = (TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids),all_matrix,all_relation)
     return dataset
 
 
