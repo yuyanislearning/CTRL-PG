@@ -372,8 +372,8 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     logger.info("all_attention_mask: %s" % str(all_attention_mask.size()))
     logger.info("all_token_type_ids: %s" % str(all_token_type_ids.size()))
 
-    logger.info("matrix example: %s" % str(np.array(all_matrix[0])))
-    logger.info("relation example: %s" % str(np.array(all_relation[0])))
+    logger.info("matrix example size: %s" % str(np.shape(all_matrix[0])))
+    logger.info("relation example: %s" % str(np.array(all_relation[0][:3])))
 
     # if output_mode == "classification":
     #     all_labels = torch.tensor([f.label for f in features], dtype=torch.long)
@@ -561,7 +561,7 @@ def main():
         # achieve the embeddings from BERT
         # optimize the embeddings in graphs
         # do classification with mini-batch
-        global_step, tr_loss = train(args, train_dataset, model, tokenizer)
+        global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
     
 
