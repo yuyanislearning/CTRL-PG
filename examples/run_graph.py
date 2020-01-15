@@ -101,7 +101,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
         tb_writer = SummaryWriter()
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
-    #args.train_graph_batch_size = 1 #args.per_gpu_train_batch_size * max(1, args.n_gpu)
+    args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
     #adjacency_matrixs = MatrixLoader()
@@ -163,6 +163,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
     model.zero_grad()
+    classifier.zero_grad()
+    conv_graph.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=args.local_rank not in [-1, 0])
     set_seed(args)  # Added here for reproductibility (even between python 2 and 3)
     for _ in train_iterator:
@@ -217,7 +219,9 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
-                    model.zero_grad()
+                    model.zero_grad()                    
+                    classifier.zero_grad()
+                    conv_graph.zero_grad()
                     global_step += 1
 
                     if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
@@ -515,6 +519,7 @@ def main():
     args.output_mode = output_modes[args.task_name]
     label_list = processor.get_labels()
     num_labels = len(label_list)
+    logger.info("num_labels: %s" % str(num_labels))
 
     # Load pretrained model and tokenizer
     if args.local_rank not in [-1, 0]:
