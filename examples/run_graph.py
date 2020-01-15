@@ -174,16 +174,17 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             conv_graph.train() #TODO: import a graph embedding model
             classifier.train() #TODO: build a simple FFN + softmax
 
-            batch = tuple(t.to(args.device) for t in batch[0])
+            batch = tuple(t.to(args.device) for t in batch)
             inputs = {'input_ids':      batch[0],
                       'attention_mask': batch[1],
-                      'token_type_ids': batch[2],
+                      #'token_type_ids': batch[2],
                       #'e_id':         batch[3]
                       } # TODO: check the position of e_id
 
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
             outputs = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+            logger.info("context_emb_size: %s" % str(outputs.size()))
             node_embeddings = conv_graph(outputs, adjacency_matrix[step])
 
             # build the dataset of relation classification
