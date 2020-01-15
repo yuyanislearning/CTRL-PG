@@ -183,7 +183,12 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
-            outputs = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+            
+            #  TODO: dataloader, random_sampler
+            for step3, node_batch in enumerate(node_epoch_iterator)
+                output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+                outputs.append(output)
+
             logger.info("context_emb_size: %s" % str(outputs.size()))
             node_embeddings = conv_graph(outputs, adjacency_matrix[step])
 
@@ -549,7 +554,7 @@ def main():
     #                                     cache_dir=args.cache_dir if args.cache_dir else None)
     classifier = model_class(config = config)
     conv_graph = ConvGraph(config = config)
-    
+
     # conv_graph = ConvGraph.from_pretrained(args.model_name_or_path,
     #                                     from_tf=bool('.ckpt' in args.model_name_or_path),
     #                                     #config=config,
