@@ -537,19 +537,23 @@ def main():
     tokenizer = tokenizer_class.from_pretrained(args.tokenizer_name if args.tokenizer_name else args.model_name_or_path,
                                                 do_lower_case=args.do_lower_case,
                                                 cache_dir=args.cache_dir if args.cache_dir else None)
-    classifier = model_class.from_pretrained(args.model_name_or_path,
-                                        from_tf=bool('.ckpt' in args.model_name_or_path),
-                                        #config=config,
-                                        cache_dir=args.cache_dir if args.cache_dir else None)
 
     model = model_emb.from_pretrained(args.model_name_or_path,
                                         from_tf=bool('.ckpt' in args.model_name_or_path),
-                                        #config=config,
+                                        config=config,
                                         cache_dir=args.cache_dir if args.cache_dir else None)
-    conv_graph = ConvGraph.from_pretrained(args.model_name_or_path,
-                                        from_tf=bool('.ckpt' in args.model_name_or_path),
-                                        #config=config,
-                                        cache_dir=args.cache_dir if args.cache_dir else None)
+
+    # classifier = model_class.from_pretrained(args.model_name_or_path,
+    #                                     from_tf=bool('.ckpt' in args.model_name_or_path),
+    #                                     #config=config,
+    #                                     cache_dir=args.cache_dir if args.cache_dir else None)
+    classifier = model_class(config = config)
+    conv_graph = ConvGraph(config = config)
+    
+    # conv_graph = ConvGraph.from_pretrained(args.model_name_or_path,
+    #                                     from_tf=bool('.ckpt' in args.model_name_or_path),
+    #                                     #config=config,
+    #                                     cache_dir=args.cache_dir if args.cache_dir else None)
 
 
     if args.local_rank == 0:
