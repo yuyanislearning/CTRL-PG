@@ -26,6 +26,11 @@ from torch.nn import CrossEntropyLoss, MSELoss
 
 from transformers import  BertPreTrainedModel, BertModel
 
+import numpy as np
+from torch_geometric.nn import SAGEConv, GATConv
+from scipy.sparse import coo_matrix
+
+
 
 class BertForRelationClassification(nn.Module):
 
@@ -33,17 +38,18 @@ class BertForRelationClassification(nn.Module):
         super(BertForRelationClassification, self).__init__()
         self.num_labels = config.num_labels
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+        self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
 
     def forward(
         self, 
         inputs=None, 
         labels=None
     ):
+        """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
         inputs = self.dropout(inputs)
         logits = self.classifier(inputs)
-        outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
+        outputs = logits  
 
         if labels is not None:
             if self.num_labels == 1:
@@ -68,29 +74,26 @@ class BertForNodeEmbedding(BertPreTrainedModel):
         self.bert = BertModel(config)
         self.init_weights()
 
-    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None,
-                position_ids=None, head_mask=None, inputs_embeds=None, labels=None):
+    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None ):
+        input_ids = torch.squeeze(input_ids, 0)
+        attention_mask = torch.squeeze(attention_mask, 0)
+        token_type_ids = torch.squeeze(token_type_ids, 0)
 
         outputs = self.bert(input_ids,
                             attention_mask=attention_mask,
-                            token_type_ids=token_type_ids,
-                            position_ids=position_ids,
-                            head_mask=head_mask,
-                            inputs_embeds=inputs_embeds)
+                            token_type_ids=token_type_ids)
+        # outputs[0] is loss; outputs[1] is pooled output
+        # should be (doc_size, node_size, (1), feature_size)
 
         pooled_output = outputs[1]
         return pooled_output 
 
 
-import numpy as np
-from torch_geometric.nn import SAGEConv, GATConv
-from scipy.sparse import coo_matrix
-
 class ConvGraph(nn.Module):
 
     def __init__(self, config, GAT=False):
         super(ConvGraph, self).__init__()
-        if GAT:
+        if not GAT:
             self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
         else:
             self.Graphmodel = GATConv(config.hidden_size,config.hidden_size,heads=1) # GAT

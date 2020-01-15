@@ -53,7 +53,7 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                   AlbertForSequenceClassification, 
                                   AlbertTokenizer,
                                 )
-from extra_layers import (ConvGraph,
+from extra_layers_2 import (ConvGraph,
                                   BertForRelationClassification,
                                   BertForNodeEmbedding,
                                   #RobertaForRelationClassification,
