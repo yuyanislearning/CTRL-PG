@@ -1249,6 +1249,7 @@ class BertForNodeEmbedding(BertPreTrainedModel):
                 position_ids=None, head_mask=None, inputs_embeds=None, labels=None):
 
         print(input_ids.size())
+        input_ids = torch.squeeze(input_ids,0)
         outputs = self.bert(input_ids,
                             attention_mask=attention_mask,
                             token_type_ids=token_type_ids,
