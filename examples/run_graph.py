@@ -189,13 +189,16 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             node_dataloader = DataLoader(batch, sampler=train_sampler, batch_size=8)
             node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
+            outputs = []
             for step3, node_batch in enumerate(node_epoch_iterator):
                 node_batch = tuple(t.to(args.device) for t in node_batch)
                 inputs = {'input_ids': node_batch[0], 
-                'attention_mask': node_batch[1]}
+                'attention_mask': node_batch[1],
+                'token_type_ids': node_batch[2]}
                 output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
-                outputs.append(output) # TODO: merge the output to one tensor
+                outputs = output # TODO: merge the output to one tensor, order matters
 
+            outputs = 
             logger.info("context_emb_size: %s" % str(outputs.size()))
             node_embeddings = conv_graph(outputs, adjacency_matrix[step])
 

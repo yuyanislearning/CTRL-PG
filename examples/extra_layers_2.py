@@ -83,7 +83,7 @@ class BertForNodeEmbedding(BertPreTrainedModel):
                             attention_mask=attention_mask,
                             token_type_ids=token_type_ids)
         # outputs[0] is loss; outputs[1] is pooled output
-        # should be (doc_size, node_size, (1), feature_size)
+        # should be ( node_size, (1), feature_size)
 
         pooled_output = outputs[1]
         return pooled_output 
