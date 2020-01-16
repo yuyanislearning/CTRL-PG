@@ -101,6 +101,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
         tb_writer = SummaryWriter()
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
+    print(train_dataset.size())
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
@@ -184,8 +185,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
             
-            #  TODO: dataloader, random_sampler
-            node_sampler = RandomSampler(batch) if args.local_rank == -1 else DistributedSampler(batch)
+            node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(batch)
             node_dataloader = DataLoader(batch, sampler=train_sampler, batch_size=8)
             node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
