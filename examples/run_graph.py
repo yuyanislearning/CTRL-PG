@@ -175,19 +175,26 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             classifier.train() #TODO: build a simple FFN + softmax
 
             batch = tuple(t.to(args.device) for t in batch)
-            inputs = {'input_ids':      batch[0],
+            '''inputs = {'input_ids':      batch[0],
                       'attention_mask': batch[1],
                       #'token_type_ids': batch[2],
                       #'e_id':         batch[3]
-                      } # TODO: check the position of e_id
+                      } # TODO: check the position of e_id'''
 
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
             
             #  TODO: dataloader, random_sampler
-            for step3, node_batch in enumerate(node_epoch_iterator)
+            node_sampler = RandomSampler(batch) if args.local_rank == -1 else DistributedSampler(batch)
+            node_dataloader = DataLoader(batch, sampler=train_sampler, batch_size=8)
+            node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
+
+            for step3, node_batch in enumerate(node_epoch_iterator):
+                node_batch = tuple(t.to(args.device) for t in node_batch)
+                inputs = {'input_ids': node_batch[0], 
+                'attention_mask': node_batch[1]}
                 output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
-                outputs.append(output)
+                outputs.append(output) # TODO: merge the output to one tensor
 
             logger.info("context_emb_size: %s" % str(outputs.size()))
             node_embeddings = conv_graph(outputs, adjacency_matrix[step])
