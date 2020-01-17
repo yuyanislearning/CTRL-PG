@@ -190,7 +190,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
             node_sampler = SequentialSampler(batch ) if args.local_rank == -1 else DistributedSampler(train_dataset)
-            node_dataloader = DataLoader(batch, sampler = node_sampler,  batch_size=1)
+            node_dataloader = DataLoader(batch, sampler = node_sampler,  batch_size=50)
 
             node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
