@@ -72,12 +72,14 @@ class BertForNodeEmbedding(BertPreTrainedModel):
         self.num_labels = config.num_labels
 
         self.bert = BertModel(config)
+        self.weight = nn.Linear(config.hidden_size, 100)
+
         self.init_weights()
 
     def forward(self, input_ids=None, attention_mask=None, token_type_ids=None ):
-        input_ids = torch.squeeze(input_ids, 0)
-        attention_mask = torch.squeeze(attention_mask, 0)
-        token_type_ids = torch.squeeze(token_type_ids, 0)
+        input_ids = torch.squeeze(input_ids, 1)
+        attention_mask = torch.squeeze(attention_mask, 1)
+        token_type_ids = torch.squeeze(token_type_ids, 1)
 
         outputs = self.bert(input_ids,
                             attention_mask=attention_mask,
@@ -85,8 +87,11 @@ class BertForNodeEmbedding(BertPreTrainedModel):
         # outputs[0] is loss; outputs[1] is pooled output
         # should be ( node_size, (1), feature_size)
 
+
         pooled_output = outputs[1]
+        
         return pooled_output 
+    
 
 
 class ConvGraph(nn.Module):
@@ -108,7 +113,7 @@ class ConvGraph(nn.Module):
         edge_index = np.asarray([row,column])
 
         # model input
-        edge_index = torch.LongTensor(edge_index)
+        edge_index = torch.LongTensor(edge_index).cuda()
         outputs = self.Graphmodel(features,edge_index)  
 
         return outputs
