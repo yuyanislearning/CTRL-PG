@@ -105,11 +105,15 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
-    #adjacency_matrixs = MatrixLoader()
     train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
-    #relation_lists = RelationLoader()
     train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
     
+    train_adjacency_matrixs = []
+    for m in train_adjacency_matrix: train_adjacency_matrixs.append(m)
+    train_relation_lists = []
+    for r in train_relation_list: train_relation_lists.append(m)
+
+
     # each relation list: [(0,1,overlap), (1,2,before), (7,8,after)]
     # each adjacency matrix: [[1,1,0,0],[1,0,0,0],[0,0,1,0],[0,0,0,1]]
     # TODO: read adjacency matrix and relation list and then using the same sampler to shuffle it
@@ -214,13 +218,13 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             outputs = torch.cat(outputs).cuda()
             # print("output size", outputs.size()) [650, 768]
             logger.info("node embedding size: %s" % str(outputs.size()))
-            node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
+            node_embeddings = conv_graph(outputs, train_adjacency_matrixs[step])
             logger.info("node embedding type: %s" % type(node_embeddings))
             logger.info("node embedding size: %s" % str(node_embeddings.size()))
 
 
             # build the dataset of relation classification
-            relation_dataset = build_relation_dataset(node_embeddings, train_relation_list[step])
+            relation_dataset = build_relation_dataset(node_embeddings, train_relation_lists[step])
 
             all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
             all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long)
