@@ -216,6 +216,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             print("output size", outputs.size())
             logger.info("context_emb_size: %s" % str(outputs.size()))
             node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
+            logger.info("node embedding size: %" % str(node_embeddings.size()))
+
 
             # build the dataset of relation classification
             relation_dataset = build_relation_dataset(node_embeddings, train_relation_list[step])
