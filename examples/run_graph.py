@@ -218,9 +218,11 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             outputs = torch.cat(outputs).cuda()
             # print("output size", outputs.size()) [650, 768]
             logger.info("node embedding size: %s" % str(outputs.size()))
+            logger.info("maxtrix size: %s" % str(train_adjacency_matrixs[step].size()))
+            print(train_adjacency_matrixs[step])
             node_embeddings = conv_graph(outputs, train_adjacency_matrixs[step])
-            logger.info("node embedding type: %s" % type(node_embeddings))
-            logger.info("node embedding size: %s" % str(node_embeddings.size()))
+            #logger.info("node embedding type: %s" % type(node_embeddings))
+            #logger.info("node embedding size: %s" % str(node_embeddings.size()))
 
 
             # build the dataset of relation classification
