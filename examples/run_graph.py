@@ -218,7 +218,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             outputs = torch.cat(outputs).cuda()
             # print("output size", outputs.size()) [650, 768]
             logger.info("node embedding size: %s" % str(outputs.size()))
-            logger.info("maxtrix size: %s" % str(train_adjacency_matrixs[step].size()))
+            logger.info("maxtrix size: %s" % str(np.shape(train_adjacency_matrixs[step])))
             print(train_adjacency_matrixs[step])
             node_embeddings = conv_graph(outputs, train_adjacency_matrixs[step])
             #logger.info("node embedding type: %s" % type(node_embeddings))
