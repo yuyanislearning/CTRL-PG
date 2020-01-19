@@ -101,7 +101,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
         tb_writer = SummaryWriter()
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
-    print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
+    # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
@@ -176,10 +176,10 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             classifier.train() #TODO: build a simple FFN + softmax
             
             # change batch to be size of ( node_size,3, seq_len)
-            print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
+            # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
             batch = tuple(t.to(args.device) for t in batch)
-            batch = change_shape(batch )
-            print('after batch size: ', batch.size() )
+            batch = change_shape(batch)
+            # print('after batch size: ', batch.size() )
             '''inputs = {'input_ids':      batch[0],
                       'attention_mask': batch[1],
                       #'token_type_ids': batch[2],
@@ -189,9 +189,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
-            node_sampler = SequentialSampler(batch ) if args.local_rank == -1 else DistributedSampler(train_dataset)
+            node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(train_dataset)
             node_dataloader = DataLoader(batch, sampler = node_sampler,  batch_size=50)
-
             node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
             #outputs = torch.Tensor().cuda() 
@@ -213,21 +212,31 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
                 #print('out size:', output.size())
 
             outputs = torch.cat(outputs).cuda()
-            print("output size", outputs.size())
-            logger.info("context_emb_size: %s" % str(outputs.size()))
+            # print("output size", outputs.size()) [650, 768]
+            logger.info("node embedding size: %s" % str(outputs.size()))
             node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
-            logger.info("node embedding size: %" % str(node_embeddings.size()))
+            logger.info("node embedding type: %" % type(node_embeddings))
+            logger.info("node embedding size: %" % str(np.shape(node_embeddings)))
 
 
             # build the dataset of relation classification
             relation_dataset = build_relation_dataset(node_embeddings, train_relation_list[step])
+
+            all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
+            all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long)
+            relation_dataset = TensorDataset(all_inputs, all_labels)
+
             relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
             relation_train_dataloader = DataLoader(relation_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size)
             relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
 
-            for step2, batch in enumerate(relation_epoch_iterator):
+            for step2, rel_batch in enumerate(relation_epoch_iterator):
 
-                outputs = classifier(outputs, relations)
+                rel_batch = rel_batch.to(args.device)
+                inputs = {'inputs': rel_batch[0],
+                            'label': rel_batch[1]}
+
+                outputs = classifier(**inputs)
 
                 loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
 
@@ -428,7 +437,8 @@ def build_relation_dataset(node_embeddings, relations):
     for e1,e2,r in relations:
         emb1 = node_embeddings[e1]
         emb2 = node_embeddings[e2]
-        relation_dataset.append([[emb1[i]+emb2[i] for i in range(len(emb1))], r])
+        #relation_dataset.append([[emb1[i]+emb2[i] for i in range(len(emb1))], r])
+        relation_dataset.append([emb1 + emb2, r])
     return relation_dataset
 
 def change_shape(batch):
