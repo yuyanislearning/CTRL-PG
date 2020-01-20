@@ -219,7 +219,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
             # print("output size", outputs.size()) [650, 768]
             logger.info("node embedding size: %s" % str(outputs.size()))
             logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
-            node_embeddings = conv_graph(outputs, train_adjacency_matrixs[step])
+            node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
             #logger.info("node embedding type: %s" % type(node_embeddings))
             #logger.info("node embedding size: %s" % str(node_embeddings.size()))
 
@@ -366,7 +366,7 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
         outputs = torch.cat(outputs).cuda()
         logger.info("node embedding size: %s" % str(outputs.size()))
         logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
-        node_embeddings = conv_graph(outputs, eval_adjacency_matrixs[step])
+        node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
         logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
         relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #eval_relation_lists
 
