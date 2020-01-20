@@ -53,7 +53,7 @@ class BertForRelationClassification(nn.Module):
         if label is not None:
 
             loss_fct = CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+            loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
             outputs = (loss,) + outputs
 
         return outputs  
