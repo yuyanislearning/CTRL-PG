@@ -318,7 +318,7 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
     # Evaluate!
     logger.info("***** Running Evaluation *****")
     logger.info("  Num examples = %d", len(eval_dataset))
-    logger.info("  Batch size = %d", args.eval_batch_size)
+    logger.info("  Batch size = %d", args.per_gpu_eval_batch_size)
 
     set_seed(args)  # Added here for reproductibility (even between python 2 and 3)
     epoch_iterator = tqdm(eval_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
@@ -363,7 +363,7 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
         relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #eval_relation_lists
 
         relation_eval_sampler = SequentialSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
-        relation_eval_dataloader = DataLoader(relation_dataset, sampler=relation_eval_sampler, batch_size=args.eval_batch_size)
+        relation_eval_dataloader = DataLoader(relation_dataset, sampler=relation_eval_sampler, batch_size=args.per_gpu_eval_batch_size)
         relation_epoch_iterator = tqdm(relation_eval_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
 
         for step2, rel_batch in enumerate(relation_epoch_iterator):
@@ -542,7 +542,7 @@ def build_relation_dataset(node_embeddings, relations):
 
     all_inputs = torch.stack(embeds).cuda()
     all_labels = torch.tensor(labels,dtype=torch.long).cuda()   
-    logger.info("relation dataset node embedding size: %s" % str(all_inputs.size()))
+    #logger.info("relation dataset node embedding size: %s" % str(all_inputs.size()))
     relation_dataset = TensorDataset(all_inputs, all_labels)
 
     return relation_dataset
