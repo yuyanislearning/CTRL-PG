@@ -104,7 +104,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
     # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
-    train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=1)
+    train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
     train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
     train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
     
@@ -218,14 +218,14 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             outputs = torch.cat(outputs).cuda()
             # print("output size", outputs.size()) [650, 768]
             logger.info("node embedding size: %s" % str(outputs.size()))
-            logger.info("maxtrix size: %s" % str(np.shape(train_adjacency_matrixs[step])))
+            logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
             node_embeddings = conv_graph(outputs, train_adjacency_matrixs[step])
             #logger.info("node embedding type: %s" % type(node_embeddings))
             #logger.info("node embedding size: %s" % str(node_embeddings.size()))
 
 
             # build the dataset of relation classification
-            logger.info("relation list size: %s" % str(np.shape(train_relation_lists[step])))
+            logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
             logger.info("relation list example: %s" % str(np.shape(train_relation_lists[step][0])))
             relation_dataset = build_relation_dataset(node_embeddings, train_relation_lists[step])
 
