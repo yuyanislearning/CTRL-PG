@@ -194,7 +194,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
             node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(train_dataset)
-            node_dataloader = DataLoader(batch, sampler = node_sampler,  batch_size=50)
+            node_dataloader = DataLoader(batch, shuffle=False, batch_size=50)#sampler = node_sampler,
             node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
             #outputs = torch.Tensor().cuda() 
@@ -231,10 +231,11 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
             logger.info("relation dataset size: %s" % str(np.shape(relation_dataset)))
             logger.info("relation dataset node embedding size: %s" % str(np.shape(relation_dataset[0][0])))
-            logger.info("relation dataset example: %s" % str(relation_dataset[0]))
+            #logger.info("relation dataset example: %s" % str(relation_dataset[0]))
 
-            all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
-            all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long)
+            #node embeddings are tensors on GPU
+            #all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
+            all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long).cuda()
             relation_dataset = TensorDataset(all_inputs, all_labels)
 
             relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
@@ -243,7 +244,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
 
-                rel_batch = rel_batch.to(args.device)
+                #rel_batch = rel_batch.to(args.device)
                 inputs = {'inputs': rel_batch[0],
                             'label': rel_batch[1]}
 
