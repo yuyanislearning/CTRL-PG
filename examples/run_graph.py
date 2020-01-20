@@ -241,7 +241,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
                 outputs = classifier(**inputs)
 
-                loss = outputs[0]  # model outputs are always tuple in transformers (see doc)
+                loss,_ = outputs  # model outputs are always tuple in transformers (see doc)
 
                 if args.n_gpu > 1:
                     loss = loss.mean() # mean() to average on multi-gpu parallel training
