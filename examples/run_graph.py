@@ -226,8 +226,10 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
             # build the dataset of relation classification
             logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
-            logger.info("relation list example: %s" % str(np.shape(train_relation_lists[step][0])))
-            relation_dataset = build_relation_dataset(node_embeddings, train_relation_lists[step])
+            logger.info("relation list example: %s" % str(np.shape(relation_lists[step][0])))
+            relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #train_relation_lists
+
+            logger.info("relation dataset size: %s" % str(np.shape(relation_dataset)))
 
             all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
             all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long)
