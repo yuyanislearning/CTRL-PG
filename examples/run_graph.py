@@ -226,7 +226,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
             # build the dataset of relation classification
             logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
-            logger.info("relation list example: %s" % str(np.shape(relation_lists[step][0])))
+            #logger.info("relation list example: %s" % str(np.shape(relation_lists[step][0])))
             relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #train_relation_lists
 
             relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
@@ -445,7 +445,7 @@ def build_relation_dataset(node_embeddings, relations):
         labels.append(r)
         embeds.append(emb1 + emb2)
 
-    all_inputs = torch.cat(embeds).cuda()
+    all_inputs = torch.stack(embeds).cuda()
     all_labels = torch.tensor(labels,dtype=torch.long).cuda()   
     logger.info("relation dataset node embedding size: %s" % str(all_inputs.size()))
     relation_dataset = TensorDataset(all_inputs, all_labels)
