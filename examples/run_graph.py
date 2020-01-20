@@ -443,7 +443,7 @@ def build_relation_dataset(node_embeddings, relations):
         emb2 = node_embeddings[e2]
         #relation_dataset.append([[emb1[i]+emb2[i] for i in range(len(emb1))], r])
         labels.append(r)
-        embeds.append(torch.concat((emb1,emb2),dim=0))
+        embeds.append(torch.cat((emb1,emb2),dim=0))
 
     all_inputs = torch.stack(embeds).cuda()
     all_labels = torch.tensor(labels,dtype=torch.long).cuda()   
