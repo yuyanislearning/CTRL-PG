@@ -384,7 +384,7 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
 
         eval_loss = eval_loss / nb_eval_steps
         preds = np.argmax(preds, axis=1)
-        result = compute_metrics(eval_task, preds, out_label_ids)
+        result = compute_metrics(args.task_name, preds, out_label_ids)
         results.update(result)
 
         output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
