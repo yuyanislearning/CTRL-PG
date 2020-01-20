@@ -101,6 +101,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
         tb_writer = SummaryWriter()
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
+    print(relation_lists[0])
+    print("###---###---###")
     # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
