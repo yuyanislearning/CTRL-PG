@@ -201,32 +201,24 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
             outputs = []
             for step3, node_batch in enumerate(node_epoch_iterator):
                 node_batch = node_batch.to(args.device)
-                #print('node batch size', node_batch.size())
                 inputs = {'input_ids': node_batch[:, 0], 
                         'attention_mask': node_batch[:,1]}
  
                 if args.model_type != 'distilbert':
                     inputs['token_type_ids'] = node_batch[:, 2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
-                #print("inputs size:  ",inputs['input_ids'].size())
                 output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
                 output = output.detach().cpu()
-                #outputs = torch.cat((outputs, output)) # TODO: merge the output to one tensor, order matters
                 outputs.append(output)
-                #print('out size:', output.size())
 
             outputs = torch.cat(outputs).cuda()
-            # print("output size", outputs.size()) [650, 768]
-            logger.info("node embedding size: %s" % str(outputs.size()))
-            logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
+            #logger.info("node embedding size: %s" % str(outputs.size()))
+            #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
             node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
-            #logger.info("node embedding type: %s" % type(node_embeddings))
-            #logger.info("node embedding size: %s" % str(node_embeddings.size()))
 
 
             # build the dataset of relation classification
-            logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
-            #logger.info("relation list example: %s" % str(np.shape(relation_lists[step][0])))
+            #logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
             relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #train_relation_lists
 
             relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
@@ -235,7 +227,6 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
 
-                #rel_batch = rel_batch.to(args.device)
                 inputs = {'inputs': rel_batch[0],
                             'label': rel_batch[1]}
 
@@ -271,9 +262,10 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
                     conv_graph.zero_grad()
                     global_step += 1
 
-                    if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
+                    if args.do_eval and args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                         # Log metrics
                         if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
+                            logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
                             results = evaluate(args, eval_dataset, model, classifier, conv_graph, tokenizer)
                             for key, value in results.items():
                                 tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
@@ -353,11 +345,11 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
         for step3, node_batch in enumerate(node_epoch_iterator):
             with torch.no_grad():
                 node_batch = node_batch.to(args.device)
-                inputs = {'input_ids': node_batch[:, 0], 
-                        'attention_mask': node_batch[:,1]}
+                inputs = {'input_ids':      node_batch[:,0], 
+                          'attention_mask': node_batch[:,1]}
 
                 if args.model_type != 'distilbert':
-                    inputs['token_type_ids'] = node_batch[:, 2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
+                    inputs['token_type_ids'] = node_batch[:,2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
                 output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
                 output = output.detach().cpu()
@@ -741,6 +733,7 @@ def main():
     
     if args.do_eval and args.do_train:
         eval_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=True)
+        train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
         global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer, eval_dataset=eval_dataset)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
