@@ -229,15 +229,6 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             logger.info("relation list example: %s" % str(np.shape(relation_lists[step][0])))
             relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #train_relation_lists
 
-            logger.info("relation dataset size: %s" % str(np.shape(relation_dataset)))
-            logger.info("relation dataset node embedding size: %s" % str(np.shape(relation_dataset[0][0])))
-            #logger.info("relation dataset example: %s" % str(relation_dataset[0]))
-
-            #node embeddings are tensors on GPU
-            #all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
-            all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long).cuda()
-            relation_dataset = TensorDataset(all_inputs, all_labels)
-
             relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
             relation_train_dataloader = DataLoader(relation_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size)
             relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
@@ -445,12 +436,20 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
 
 
 def build_relation_dataset(node_embeddings, relations):
-    relation_dataset = []
+    embeds = []
+    labels = []
     for [e1,e2,r] in relations:
         emb1 = node_embeddings[e1]
         emb2 = node_embeddings[e2]
         #relation_dataset.append([[emb1[i]+emb2[i] for i in range(len(emb1))], r])
-        relation_dataset.append([emb1 + emb2, r])
+        labels.append(r)
+        embeds.append(emb1 + emb2)
+
+    all_inputs = torch.cat(embeds).cuda()
+    all_labels = torch.tensor(labels,dtype=torch.long).cuda()   
+    logger.info("relation dataset node embedding size: %s" % str(all_inputs.size()))
+    relation_dataset = TensorDataset(all_inputs, all_labels)
+
     return relation_dataset
 
 def change_shape(batch):
