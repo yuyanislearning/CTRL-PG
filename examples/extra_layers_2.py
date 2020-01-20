@@ -48,7 +48,8 @@ class BertForRelationClassification(nn.Module):
         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
         inputs = self.dropout(inputs)
-        outputs = self.classifier(inputs)
+        logits = self.classifier(inputs)
+        outputs = logits
 
         if label is not None:
 
