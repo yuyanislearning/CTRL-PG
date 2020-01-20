@@ -265,7 +265,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
                     if args.do_eval and args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                         # Log metrics
                         if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                            logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+                            #logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
                             results = evaluate(args, eval_dataset, model, classifier, conv_graph, tokenizer)
                             for key, value in results.items():
                                 tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
@@ -356,10 +356,10 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
                 outputs.append(output)
 
         outputs = torch.cat(outputs).cuda()
-        logger.info("node embedding size: %s" % str(outputs.size()))
-        logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
+        #logger.info("node embedding size: %s" % str(outputs.size()))
+        #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
         node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
-        logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
+        #logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
         relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #eval_relation_lists
 
         relation_eval_sampler = SequentialSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
@@ -377,8 +377,10 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
             nb_eval_steps += 1
             if preds is None:
                 preds = logits.detach().cpu().numpy()
+                print(logits.size())
                 out_label_ids = inputs['label'].detach().cpu().numpy()
             else:
+                print(logits.size())
                 preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
                 out_label_ids = np.append(out_label_ids, inputs['label'].detach().cpu().numpy(), axis=0)
 
