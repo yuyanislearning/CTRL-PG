@@ -101,8 +101,6 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
         tb_writer = SummaryWriter()
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
-    print(relation_lists[0])
-    print("###---###---###")
     # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
@@ -221,13 +219,14 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             # print("output size", outputs.size()) [650, 768]
             logger.info("node embedding size: %s" % str(outputs.size()))
             logger.info("maxtrix size: %s" % str(np.shape(train_adjacency_matrixs[step])))
-            print(train_adjacency_matrixs[step])
             node_embeddings = conv_graph(outputs, train_adjacency_matrixs[step])
             #logger.info("node embedding type: %s" % type(node_embeddings))
             #logger.info("node embedding size: %s" % str(node_embeddings.size()))
 
 
             # build the dataset of relation classification
+            logger.info("relation list size: %s" % str(np.shape(train_relation_lists[step])))
+            logger.info("relation list example: %s" % str(np.shape(train_relation_lists[step][0])))
             relation_dataset = build_relation_dataset(node_embeddings, train_relation_lists[step])
 
             all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
@@ -442,7 +441,6 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
 
 def build_relation_dataset(node_embeddings, relations):
     relation_dataset = []
-    print(relations[:5])
     for [e1,e2,r] in relations:
         emb1 = node_embeddings[e1]
         emb2 = node_embeddings[e2]
