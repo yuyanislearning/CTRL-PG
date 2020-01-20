@@ -230,7 +230,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #train_relation_lists
 
             logger.info("relation dataset size: %s" % str(np.shape(relation_dataset)))
-
+            logger.info("relation dataset example: %s" % str(np.shape(relation_dataset[0])))
+            
             all_inputs = torch.tensor([feature[0] for feature in relation_dataset],dtype=torch.float) 
             all_labels = torch.tensor([feature[1] for feature in relation_dataset],dtype=torch.long)
             relation_dataset = TensorDataset(all_inputs, all_labels)
