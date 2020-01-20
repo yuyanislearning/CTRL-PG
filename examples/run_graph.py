@@ -250,9 +250,9 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
 
                 if args.fp16:
                     with amp.scale_loss(loss, optimizer) as scaled_loss:
-                        scaled_loss.backward()
+                        scaled_loss.backward(retain_graph=True)
                 else:
-                    loss.backward()
+                    loss.backward(retain_graph=True)
 
                 tr_loss += loss.item()
 
