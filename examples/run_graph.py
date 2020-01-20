@@ -95,7 +95,7 @@ def set_seed(args):
         torch.cuda.manual_seed_all(args.seed)
 
 
-def train(args, dataset, model, classifier, conv_graph, tokenizer):
+def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=None):
     """ Train the model """
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
@@ -175,9 +175,9 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
     for _ in train_iterator:
         epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
         for step, batch in enumerate(epoch_iterator):
-            model.train() # TODO: change the model to generate node embeddings
-            conv_graph.train() #TODO: import a graph embedding model
-            classifier.train() #TODO: build a simple FFN + softmax
+            model.train()  
+            conv_graph.train()  
+            classifier.train()  
             
             # change batch to be size of ( node_size,3, seq_len)
             # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
@@ -261,6 +261,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
                         torch.nn.utils.clip_grad_norm_(amp.master_params(optimizer), args.max_grad_norm)
                     else:
                         torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
+                        torch.nn.utils.clip_grad_norm_(classifier.parameters(), args.max_grad_norm)
+                        torch.nn.utils.clip_grad_norm_(conv_graph.parameters(), args.max_grad_norm)
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
@@ -272,7 +274,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
                     if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                         # Log metrics
                         if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                            results = evaluate(args, model, tokenizer)
+                            results = evaluate(args, eval_dataset, model, classifier, conv_graph, tokenizer)
                             for key, value in results.items():
                                 tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
                         tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
@@ -296,54 +298,89 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer):
             train_iterator.close()
             break
 
+        #evaluate(args, eval_dataset, model, classifier, conv_graph, tokenizer)
+
     if args.local_rank in [-1, 0]:
         tb_writer.close()
 
     return global_step, tr_loss / global_step
 
 
-def evaluate(args, model, tokenizer, prefix=""):
-    # Loop to handle MNLI double evaluation (matched, mis-matched)
-    eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
-    eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
 
-    results = {}
-    for eval_task, eval_output_dir in zip(eval_task_names, eval_outputs_dirs):
-        eval_dataset = load_and_cache_examples(args, eval_task, tokenizer, evaluate=True)
+def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix=""):
+    """ evaluate the model """
+    results={}
+    eval_output_dir = args.output_dir
+    eval_dataset,adjacency_matrixs,relation_lists=dataset
+    args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
+    #eval_sampler = RandomSampler(eval_dataset) if args.local_rank == -1 else DistributedSampler(eval_dataset)
+    eval_dataloader = DataLoader(eval_dataset, shuffle=False, batch_size=1) # sampler=eval_sampler,
+    # eval_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=eval_sampler, batch_size=1)
+    # eval_relation_list = DataLoader(relation_lists, sampler=eval_sampler, batch_size=1)
+    
+    # eval_adjacency_matrixs = []
+    # for m in eval_adjacency_matrix: eval_adjacency_matrixs.append(m)
+    # eval_relation_lists = []
+    # for r in eval_relation_list: eval_relation_lists.append(m)
 
-        if not os.path.exists(eval_output_dir) and args.local_rank in [-1, 0]:
-            os.makedirs(eval_output_dir)
+    # Evaluate!
+    logger.info("***** Running Evaluation *****")
+    logger.info("  Num examples = %d", len(eval_dataset))
+    logger.info("  Batch size = %d", args.eval_batch_size)
 
-        args.eval_batch_size = args.per_gpu_eval_batch_size * max(1, args.n_gpu)
-        # Note that DistributedSampler samples randomly
-        eval_sampler = SequentialSampler(eval_dataset) if args.local_rank == -1 else DistributedSampler(eval_dataset)
-        eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
+    set_seed(args)  # Added here for reproductibility (even between python 2 and 3)
+    epoch_iterator = tqdm(eval_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
+    eval_loss = 0.0
+    nb_eval_steps = 0
+    preds = None
+    out_label_ids = None
+    for step, batch in enumerate(epoch_iterator):
+        
+        model.eval()
+        classifier.eval()
+        conv_graph.eval()
+        # change batch to be size of ( node_size,3, seq_len)
+        # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
+        batch = tuple(t.to(args.device) for t in batch)
+        batch = change_shape(batch)
+        
+        #node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(eval_dataset)
+        node_dataloader = DataLoader(batch, shuffle=False, batch_size=50)#sampler = node_sampler,
+        node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
-        # multi-gpu eval
-        if args.n_gpu > 1:
-            model = torch.nn.DataParallel(model)
-
-        # Eval!
-        logger.info("***** Running evaluation {} *****".format(prefix))
-        logger.info("  Num examples = %d", len(eval_dataset))
-        logger.info("  Batch size = %d", args.eval_batch_size)
-        eval_loss = 0.0
-        nb_eval_steps = 0
-        preds = None
-        out_label_ids = None
-        for batch in tqdm(eval_dataloader, desc="Evaluating"):
-            model.eval()
-            batch = tuple(t.to(args.device) for t in batch)
-
+        #outputs = torch.Tensor().cuda() 
+        outputs = []
+        for step3, node_batch in enumerate(node_epoch_iterator):
             with torch.no_grad():
-                inputs = {'input_ids':      batch[0],
-                          'attention_mask': batch[1],
-                          'labels':         batch[3]}
-                if args.model_type != 'distilbert':
-                    inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
-                outputs = model(**inputs)
-                tmp_eval_loss, logits = outputs[:2]
+                node_batch = node_batch.to(args.device)
+                inputs = {'input_ids': node_batch[:, 0], 
+                        'attention_mask': node_batch[:,1]}
 
+                if args.model_type != 'distilbert':
+                    inputs['token_type_ids'] = node_batch[:, 2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
+            
+                output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+                output = output.detach().cpu()
+                outputs.append(output)
+
+        outputs = torch.cat(outputs).cuda()
+        logger.info("node embedding size: %s" % str(outputs.size()))
+        logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
+        node_embeddings = conv_graph(outputs, eval_adjacency_matrixs[step])
+        logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
+        relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #eval_relation_lists
+
+        relation_eval_sampler = SequentialSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
+        relation_eval_dataloader = DataLoader(relation_dataset, sampler=relation_eval_sampler, batch_size=args.eval_batch_size)
+        relation_epoch_iterator = tqdm(relation_eval_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
+
+        for step2, rel_batch in enumerate(relation_epoch_iterator):
+            with torch.no_grad():
+                inputs = {'inputs': rel_batch[0],
+                          'label':  rel_batch[1]}
+
+                outputs = classifier(**inputs)
+                tmp_eval_loss,logits = outputs  
                 eval_loss += tmp_eval_loss.mean().item()
             nb_eval_steps += 1
             if preds is None:
@@ -354,10 +391,7 @@ def evaluate(args, model, tokenizer, prefix=""):
                 out_label_ids = np.append(out_label_ids, inputs['labels'].detach().cpu().numpy(), axis=0)
 
         eval_loss = eval_loss / nb_eval_steps
-        if args.output_mode == "classification":
-            preds = np.argmax(preds, axis=1)
-        elif args.output_mode == "regression":
-            preds = np.squeeze(preds)
+        preds = np.argmax(preds, axis=1)
         result = compute_metrics(eval_task, preds, out_label_ids)
         results.update(result)
 
@@ -369,6 +403,75 @@ def evaluate(args, model, tokenizer, prefix=""):
                 writer.write("%s = %s\n" % (key, str(result[key])))
 
     return results
+
+
+# def evaluate2(args, model, tokenizer, prefix=""):
+#     # Loop to handle MNLI double evaluation (matched, mis-matched)
+#     eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
+#     eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
+
+#     results = {}
+#     for eval_task, eval_output_dir in zip(eval_task_names, eval_outputs_dirs):
+#         eval_dataset = load_and_cache_examples(args, eval_task, tokenizer, evaluate=True)
+
+#         if not os.path.exists(eval_output_dir) and args.local_rank in [-1, 0]:
+#             os.makedirs(eval_output_dir)
+
+#         args.eval_batch_size = args.per_gpu_eval_batch_size * max(1, args.n_gpu)
+#         # Note that DistributedSampler samples randomly
+#         eval_sampler = SequentialSampler(eval_dataset) if args.local_rank == -1 else DistributedSampler(eval_dataset)
+#         eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
+
+#         # multi-gpu eval
+#         if args.n_gpu > 1:
+#             model = torch.nn.DataParallel(model)
+
+#         # Eval!
+#         logger.info("***** Running evaluation {} *****".format(prefix))
+#         logger.info("  Num examples = %d", len(eval_dataset))
+#         logger.info("  Batch size = %d", args.eval_batch_size)
+#         eval_loss = 0.0
+#         nb_eval_steps = 0
+#         preds = None
+#         out_label_ids = None
+#         for batch in tqdm(eval_dataloader, desc="Evaluating"):
+#             model.eval()
+#             batch = tuple(t.to(args.device) for t in batch)
+
+#             with torch.no_grad():
+#                 inputs = {'input_ids':      batch[0],
+#                           'attention_mask': batch[1],
+#                           'labels':         batch[3]}
+#                 if args.model_type != 'distilbert':
+#                     inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
+#                 outputs = model(**inputs)
+#                 tmp_eval_loss, logits = outputs[:2]
+
+#                 eval_loss += tmp_eval_loss.mean().item()
+#             nb_eval_steps += 1
+#             if preds is None:
+#                 preds = logits.detach().cpu().numpy()
+#                 out_label_ids = inputs['labels'].detach().cpu().numpy()
+#             else:
+#                 preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+#                 out_label_ids = np.append(out_label_ids, inputs['labels'].detach().cpu().numpy(), axis=0)
+
+#         eval_loss = eval_loss / nb_eval_steps
+#         if args.output_mode == "classification":
+#             preds = np.argmax(preds, axis=1)
+#         elif args.output_mode == "regression":
+#             preds = np.squeeze(preds)
+#         result = compute_metrics(eval_task, preds, out_label_ids)
+#         results.update(result)
+
+#         output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
+#         with open(output_eval_file, "w") as writer:
+#             logger.info("***** Eval results {} *****".format(prefix))
+#             for key in sorted(result.keys()):
+#                 logger.info("  %s = %s", key, str(result[key]))
+#                 writer.write("%s = %s\n" % (key, str(result[key])))
+
+#     return results
 
 
 def load_and_cache_examples(args, task, tokenizer, evaluate=False):
@@ -630,40 +733,46 @@ def main():
 
     logger.info("Training/evaluation parameters %s", args)
 
-
     # Training
-    if args.do_train:
+    if args.do_train and not args.do_eval:
         train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
         global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
     
+    if args.do_eval and args.do_train:
+        eval_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=True)
+        global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer, eval_dataset=eval_dataset)
+        logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
-    # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
-    if args.do_train and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
-        # Create output directory if needed
-        if not os.path.exists(args.output_dir) and args.local_rank in [-1, 0]:
-            os.makedirs(args.output_dir)
 
-        logger.info("Saving model checkpoint to %s", args.output_dir)
-        # Save a trained model, configuration and tokenizer using `save_pretrained()`.
-        # They can then be reloaded using `from_pretrained()`
-        model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
-        model_to_save.save_pretrained(args.output_dir)
-        tokenizer.save_pretrained(args.output_dir)
-        torch.save(classifier.state_dict(), args.output_dir)
-        torch.save(conv_graph.state_dict(), args.output_dir)
+    # # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
+    # if args.do_train and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
+    #     # Create output directory if needed
+    #     if not os.path.exists(args.output_dir) and args.local_rank in [-1, 0]:
+    #         os.makedirs(args.output_dir)
 
-        # Good practice: save your training arguments together with the trained model
-        torch.save(args, os.path.join(args.output_dir, 'training_args.bin'))
+    #     logger.info("Saving model checkpoint to %s", args.output_dir)
+    #     # Save a trained model, configuration and tokenizer using `save_pretrained()`.
+    #     # They can then be reloaded using `from_pretrained()`
+    #     model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
+    #     model_to_save.save_pretrained(args.output_dir)
+    #     tokenizer.save_pretrained(args.output_dir)
+    #     torch.save(classifier.state_dict(), args.output_dir)
+    #     torch.save(conv_graph.state_dict(), args.output_dir)
 
-        # Load a trained model and vocabulary that you have fine-tuned
-        model = model_emb.from_pretrained(args.output_dir)
-        classifier = model_class(config = config)
-        conv_graph = ConvGraph(config = config)
-        classifier.load_state_dict(torch.load(args.output_dir))
-        conv_graph.load_state_dict(torch.load(args.output_dir))
-        tokenizer = tokenizer_class.from_pretrained(args.output_dir)
-        model.to(args.device)
+    #     # Good practice: save your training arguments together with the trained model
+    #     torch.save(args, os.path.join(args.output_dir, 'training_args.bin'))
+
+    #     # Load a trained model and vocabulary that you have fine-tuned
+    #     model = model_emb.from_pretrained(args.output_dir)
+    #     classifier = model_class(config = config)
+    #     conv_graph = ConvGraph(config = config)
+    #     classifier.load_state_dict(torch.load(args.output_dir))
+    #     conv_graph.load_state_dict(torch.load(args.output_dir))
+    #     tokenizer = tokenizer_class.from_pretrained(args.output_dir)
+    #     model.to(args.device)
+    #     conv_graph.to(args.device)
+    #     classifier.to(args.device)
 
     # # Evaluation
     # results = {}
