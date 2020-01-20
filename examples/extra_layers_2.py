@@ -49,7 +49,7 @@ class BertForRelationClassification(nn.Module):
 
         inputs = self.dropout(inputs)
         logits = self.classifier(inputs)
-        outputs = logits
+        outputs = (logits,) + inputs
 
         if label is not None:
 
