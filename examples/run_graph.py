@@ -634,10 +634,6 @@ def main():
     # Training
     if args.do_train:
         train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
-        # build graphs one by one
-        # achieve the embeddings from BERT
-        # optimize the embeddings in graphs
-        # do classification with mini-batch
         global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
     
@@ -654,15 +650,20 @@ def main():
         model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
         model_to_save.save_pretrained(args.output_dir)
         tokenizer.save_pretrained(args.output_dir)
+        torch.save(classifier.state_dict(), args.output_dir)
+        torch.save(conv_graph.state_dict(), args.output_dir)
 
         # Good practice: save your training arguments together with the trained model
         torch.save(args, os.path.join(args.output_dir, 'training_args.bin'))
 
         # Load a trained model and vocabulary that you have fine-tuned
-        model = model_class.from_pretrained(args.output_dir)
+        model = model_emb.from_pretrained(args.output_dir)
+        classifier = model_class(config = config)
+        conv_graph = ConvGraph(config = config)
+        classifier.load_state_dict(torch.load(args.output_dir))
+        conv_graph.load_state_dict(torch.load(args.output_dir))
         tokenizer = tokenizer_class.from_pretrained(args.output_dir)
         model.to(args.device)
-
 
     # # Evaluation
     # results = {}
