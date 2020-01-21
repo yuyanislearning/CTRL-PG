@@ -377,10 +377,11 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
             nb_eval_steps += 1
             if preds is None:
                 preds = logits.detach().cpu().numpy()
-                print(logits.size())
+                print("c1:",logits.size())
                 out_label_ids = inputs['label'].detach().cpu().numpy()
             else:
-                print(logits.size())
+                print("c2:",logits.size())
+                print("preds shape:",np.shape(preds))
                 preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
                 out_label_ids = np.append(out_label_ids, inputs['label'].detach().cpu().numpy(), axis=0)
 
