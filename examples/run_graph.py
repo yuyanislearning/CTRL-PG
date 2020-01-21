@@ -377,25 +377,22 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
             nb_eval_steps += 1
             if preds is None:
                 preds = logits.detach().cpu().numpy()
-                print("c1:",logits.size())
                 out_label_ids = inputs['label'].detach().cpu().numpy()
             else:
-                print("c2:",logits.size())
-                print("preds shape:",np.shape(preds))
                 preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
                 out_label_ids = np.append(out_label_ids, inputs['label'].detach().cpu().numpy(), axis=0)
 
-        eval_loss = eval_loss / nb_eval_steps
-        preds = np.argmax(preds, axis=1)
-        result = compute_metrics(args.task_name, preds, out_label_ids)
-        results.update(result)
+    eval_loss = eval_loss / nb_eval_steps
+    preds_max = np.argmax(preds, axis=1)
+    result = compute_metrics(args.task_name, preds_max, out_label_ids)
+    results.update(result)
 
-        output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
-        with open(output_eval_file, "w") as writer:
-            logger.info("***** Eval results {} *****".format(prefix))
-            for key in sorted(result.keys()):
-                logger.info("  %s = %s", key, str(result[key]))
-                writer.write("%s = %s\n" % (key, str(result[key])))
+    output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
+    with open(output_eval_file, "w") as writer:
+        logger.info("***** Eval results {} *****".format(prefix))
+        for key in sorted(result.keys()):
+            logger.info("  %s = %s", key, str(result[key]))
+            writer.write("%s = %s\n" % (key, str(result[key])))
 
     return results
 
@@ -617,9 +614,9 @@ def main():
     parser.add_argument("--warmup_steps", default=0, type=int,
                         help="Linear warmup over warmup_steps.")
 
-    parser.add_argument('--logging_steps', type=int, default=50,
+    parser.add_argument('--logging_steps', type=int, default=500,
                         help="Log every X updates steps.")
-    parser.add_argument('--save_steps', type=int, default=50,
+    parser.add_argument('--save_steps', type=int, default=500,
                         help="Save checkpoint every X updates steps.")
     parser.add_argument("--eval_all_checkpoints", action='store_true',
                         help="Evaluate all checkpoints starting with the same prefix as model_name ending and ending with step number")
