@@ -101,6 +101,9 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
     # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
+    tmp = np.array(adjacency_matrixs[0])
+    print("size: ", tmp.size)
+    print("sum: ", np.sum(tmp))
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     #train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
@@ -126,8 +129,8 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
-        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
-        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
+        #{'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
+        #{'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         {'params': [p for n, p in classifier.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in classifier.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         #{'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
@@ -135,7 +138,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
         ]
 
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=np.ceil(543*160/args.per_gpu_train_batch_size))
 
     if args.fp16:
         try:
@@ -238,7 +241,13 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
                             'label': rel_batch[1] }
 
                 outputs = classifier(**inputs)
-
+                '''
+                for name, param in classifier.named_parameters():
+                    if name == 'Graphmodel.weight':# or name == 'classifier.weight':
+                        print('Graph: ', param[0][0])
+                    if name == 'classifier.weight':
+                        print("classifier: ", param[0][0])
+                '''
                 loss,_ = outputs  # model outputs are always tuple in transformers (see doc)
                 
 
@@ -253,6 +262,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
                 else:
                     loss.backward()
 
+
                 tr_loss += loss.item()
 
                 if (step2 + 1) % args.gradient_accumulation_steps == 0:
@@ -265,7 +275,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
-                    model.zero_grad()                    
+                    #model.zero_grad()                    
                     classifier.zero_grad()
                     #conv_graph.zero_grad()
                     global_step += 1

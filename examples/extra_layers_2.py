@@ -34,13 +34,16 @@ from scipy.sparse import coo_matrix
 
 class GraphConvClassification(nn.Module):
 
-    def __init__(self, config, GAT = False):
+    def __init__(self, config, GAT = True):
         super(GraphConvClassification, self).__init__()
+        self.linear = nn.Linear(config.hidden_size, 100)
         self.num_labels = config.num_labels
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+        self.classifier = nn.Linear(100*2, config.num_labels)
+        #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
         if not GAT:
-            self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
+            self.Graphmodel = SAGEConv(100, 100)
+            #self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
         else:
             self.Graphmodel = GATConv(config.hidden_size,config.hidden_size,heads=1) # GAT
 
@@ -51,6 +54,7 @@ class GraphConvClassification(nn.Module):
     ):
         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
+        #TODO: remove to outside
         A = adjacency_matrix
         # transfor A into sparse matrix, to get desired model input
         A_coo = coo_matrix(A)
@@ -60,11 +64,12 @@ class GraphConvClassification(nn.Module):
 
         # model input
         edge_index = torch.LongTensor(edge_index).cuda()
-        node_embeddings = self.Graphmodel(node_embeddings,edge_index)  
+        node_embeddings = self.linear(node_embeddings)
+        #node_embeddings = self.Graphmodel(node_embeddings,edge_index)  
+        #node_embeddings = node_out + node_embeddings
 
         
         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
-
         inputs = self.dropout(outputs)
         logits = self.classifier(inputs)
         outputs = logits

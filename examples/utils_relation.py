@@ -1028,7 +1028,7 @@ glue_output_modes = {
 
 try:
     from scipy.stats import pearsonr, spearmanr
-    from sklearn.metrics import matthews_corrcoef, f1_score
+    from sklearn.metrics import matthews_corrcoef, f1_score, confusion_matrix
     from sklearn.metrics import precision_recall_fscore_support as prf
     _has_sklearn = True
 except (AttributeError, ImportError) as e:
@@ -1056,10 +1056,11 @@ if _has_sklearn:
     def p_r_f1(preds, labels):
         f1 = f1_score(y_true=labels, y_pred=preds, average='micro')
         p,r,_,_ = prf(y_true=labels, y_pred=preds, average='micro')
+        #conf = confusion_matrix(labels, preds)
         return {
             "precision": p,
             "recall": r,
-            "f1": f1,
+            "f1": f1
         }
 
 
