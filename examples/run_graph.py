@@ -53,8 +53,7 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                   AlbertForSequenceClassification, 
                                   AlbertTokenizer,
                                 )
-from extra_layers_2 import (ConvGraph,
-                                  BertForRelationClassification,
+from extra_layers_2 import (GraphConvClassification,
                                   BertForNodeEmbedding,
                                   #RobertaForRelationClassification,
                                   #RobertaForNodeEmbedding,
@@ -82,7 +81,7 @@ MODEL_CLASSES = {
 }
 
 GRAPH_CLASSES = {
-    'bert': (BertConfig, BertForRelationClassification, BertTokenizer, BertForNodeEmbedding),
+    'bert': (BertConfig, GraphConvClassification, BertTokenizer, BertForNodeEmbedding),
     #'roberta': (RobertaConfig, RobertaForRelationClassification, RobertaTokenizer, RobertaForNodeEmbedding)
 }
 
@@ -95,7 +94,7 @@ def set_seed(args):
         torch.cuda.manual_seed_all(args.seed)
 
 
-def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=None):
+def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv_graph
     """ Train the model """
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
@@ -103,16 +102,16 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
     train_dataset,adjacency_matrixs,relation_lists=dataset
     # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
-    train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
+    #train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
-    train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
-    train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
-    
+    #train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
+    #train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
+    '''
     train_adjacency_matrixs = []
     for m in train_adjacency_matrix: train_adjacency_matrixs.append(m)
     train_relation_lists = []
     for r in train_relation_list: train_relation_lists.append(m)
-
+    '''
 
     # each relation list: [(0,1,overlap), (1,2,before), (7,8,after)]
     # each adjacency matrix: [[1,1,0,0],[1,0,0,0],[0,0,1,0],[0,0,0,1]]
@@ -131,8 +130,8 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         {'params': [p for n, p in classifier.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in classifier.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
-        {'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
-        {'params': [p for n, p in conv_graph.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+        #{'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
+        #{'params': [p for n, p in conv_graph.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
         ]
 
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
@@ -167,16 +166,18 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
 
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
-    model.zero_grad()
+    #model.zero_grad()
+    for param in model.parameters():
+        param.requires_grad = False
     classifier.zero_grad()
-    conv_graph.zero_grad()
+    #conv_graph.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=args.local_rank not in [-1, 0])
     set_seed(args)  # Added here for reproductibility (even between python 2 and 3)
     for _ in train_iterator:
         epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
         for step, batch in enumerate(epoch_iterator):
             model.train()  
-            conv_graph.train()  
+            #conv_graph.train()  
             classifier.train()  
             
             # change batch to be size of ( node_size,3, seq_len)
@@ -193,7 +194,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
-            node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(train_dataset)
+            #node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(train_dataset)
             node_dataloader = DataLoader(batch, shuffle=False, batch_size=50)#sampler = node_sampler,
             node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
 
@@ -211,11 +212,10 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
                 output = output.detach().cpu()
                 outputs.append(output)
 
-            outputs = torch.cat(outputs).cuda()
+            node_embeddings = torch.cat(outputs).cuda()
             #logger.info("node embedding size: %s" % str(outputs.size()))
             #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
-            node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
-
+            #node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
 
             # build the dataset of relation classification
             #logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
@@ -226,13 +226,21 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
             relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
-
-                inputs = {'inputs': rel_batch[0],
-                            'label': rel_batch[1]}
+                '''
+                print('adj: ',len(adjacency_matrixs[step]), adjacency_matrixs[step])
+                print('node emb ',node_embeddings.size())
+                print('idx ',rel_batch[0].size(), rel_batch[0])
+                print('label ',rel_batch[1].size(),rel_batch[1])
+                '''
+                inputs = {'adjacency_matrix':  adjacency_matrixs[step],
+                        'node_embeddings' : node_embeddings,
+                        'idx': rel_batch[0],
+                            'label': rel_batch[1] }
 
                 outputs = classifier(**inputs)
 
                 loss,_ = outputs  # model outputs are always tuple in transformers (see doc)
+                
 
                 if args.n_gpu > 1:
                     loss = loss.mean() # mean() to average on multi-gpu parallel training
@@ -241,9 +249,9 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
 
                 if args.fp16:
                     with amp.scale_loss(loss, optimizer) as scaled_loss:
-                        scaled_loss.backward(retain_graph=True)
+                        scaled_loss.backward()
                 else:
-                    loss.backward(retain_graph=True)
+                    loss.backward()
 
                 tr_loss += loss.item()
 
@@ -253,20 +261,20 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
                     else:
                         torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
                         torch.nn.utils.clip_grad_norm_(classifier.parameters(), args.max_grad_norm)
-                        torch.nn.utils.clip_grad_norm_(conv_graph.parameters(), args.max_grad_norm)
+                        #torch.nn.utils.clip_grad_norm_(conv_graph.parameters(), args.max_grad_norm)
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
                     model.zero_grad()                    
                     classifier.zero_grad()
-                    conv_graph.zero_grad()
+                    #conv_graph.zero_grad()
                     global_step += 1
 
                     if args.do_eval and args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                         # Log metrics
                         if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
                             #logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-                            results = evaluate(args, eval_dataset, model, classifier, conv_graph, tokenizer)
+                            results = evaluate(args, eval_dataset, model, classifier, tokenizer)#conv_graph, 
                             for key, value in results.items():
                                 tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
                         tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
@@ -299,7 +307,7 @@ def train(args, dataset, model, classifier, conv_graph, tokenizer, eval_dataset=
 
 
 
-def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix=""):
+def evaluate(args, dataset, model, classifier,  tokenizer, prefix=""):#conv_gragh
     """ evaluate the model """
     results={}
     eval_output_dir = args.output_dir
@@ -330,7 +338,7 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
         
         model.eval()
         classifier.eval()
-        conv_graph.eval()
+        #conv_graph.eval()
         # change batch to be size of ( node_size,3, seq_len)
         # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
         batch = tuple(t.to(args.device) for t in batch)
@@ -355,10 +363,10 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
                 output = output.detach().cpu()
                 outputs.append(output)
 
-        outputs = torch.cat(outputs).cuda()
+        node_embeddings = torch.cat(outputs).cuda()
         #logger.info("node embedding size: %s" % str(outputs.size()))
         #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
-        node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
+        #node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
         #logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
         relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #eval_relation_lists
 
@@ -368,7 +376,9 @@ def evaluate(args, dataset, model, classifier, conv_graph, tokenizer, prefix="")
 
         for step2, rel_batch in enumerate(relation_epoch_iterator):
             with torch.no_grad():
-                inputs = {'inputs': rel_batch[0],
+                inputs = {'idx': rel_batch[0],
+                        'node_embeddings': node_embeddings,
+                        'adjacency_matrix': adjacency_matrixs[step],
                           'label':  rel_batch[1]}
 
                 outputs = classifier(**inputs)
@@ -529,16 +539,13 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     dataset = (TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids),all_matrix,all_relation)
     return dataset
 
-
 def build_relation_dataset(node_embeddings, relations):
     embeds = []
     labels = []
     for [e1,e2,r] in relations:
-        emb1 = node_embeddings[e1]
-        emb2 = node_embeddings[e2]
         #relation_dataset.append([[emb1[i]+emb2[i] for i in range(len(emb1))], r])
         labels.append(r)
-        embeds.append(torch.cat((emb1,emb2),dim=0))
+        embeds.append(torch.tensor([e1,e2]))
 
     all_inputs = torch.stack(embeds).cuda()
     all_labels = torch.tensor(labels,dtype=torch.long).cuda()   
@@ -546,6 +553,7 @@ def build_relation_dataset(node_embeddings, relations):
     relation_dataset = TensorDataset(all_inputs, all_labels)
 
     return relation_dataset
+
 
 def change_shape(batch):
     in_dim = batch[0][0].size()[0]
@@ -708,7 +716,7 @@ def main():
     #                                     #config=config,
     #                                     cache_dir=args.cache_dir if args.cache_dir else None)
     classifier = model_class(config = config)
-    conv_graph = ConvGraph(config = config)
+    #conv_graph = ConvGraph(config = config)
 
     # conv_graph = ConvGraph.from_pretrained(args.model_name_or_path,
     #                                     from_tf=bool('.ckpt' in args.model_name_or_path),
@@ -720,7 +728,7 @@ def main():
         torch.distributed.barrier()  # Make sure only the first process in distributed training will download model & vocab
 
     model.to(args.device)
-    conv_graph.to(args.device)
+    #conv_graph.to(args.device)
     classifier.to(args.device)
 
     logger.info("Training/evaluation parameters %s", args)
@@ -728,13 +736,13 @@ def main():
     # Training
     if args.do_train and not args.do_eval:
         train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
-        global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer)
+        global_step, tr_loss = train(args, train_dataset, model, classifier,tokenizer)# conv_graph, 
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
     
     if args.do_eval and args.do_train:
         eval_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=True)
-        train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
-        global_step, tr_loss = train(args, train_dataset, model, classifier, conv_graph, tokenizer, eval_dataset=eval_dataset)
+        train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)# conv_graph, 
+        global_step, tr_loss = train(args, train_dataset, model, classifier,tokenizer, eval_dataset=eval_dataset)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
 

@@ -32,22 +32,40 @@ from scipy.sparse import coo_matrix
 
 
 
-class BertForRelationClassification(nn.Module):
+class GraphConvClassification(nn.Module):
 
-    def __init__(self, config):
-        super(BertForRelationClassification, self).__init__()
+    def __init__(self, config, GAT = False):
+        super(GraphConvClassification, self).__init__()
         self.num_labels = config.num_labels
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+        if not GAT:
+            self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
+        else:
+            self.Graphmodel = GATConv(config.hidden_size,config.hidden_size,heads=1) # GAT
+
 
     def forward(
-        self, 
-        inputs=None, 
+        self, idx= None, adjacency_matrix=None, node_embeddings = None,
         label=None
     ):
         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
-        inputs = self.dropout(inputs)
+        A = adjacency_matrix
+        # transfor A into sparse matrix, to get desired model input
+        A_coo = coo_matrix(A)
+        row = A_coo.row
+        column = A_coo.col
+        edge_index = np.asarray([row,column])
+
+        # model input
+        edge_index = torch.LongTensor(edge_index).cuda()
+        node_embeddings = self.Graphmodel(node_embeddings,edge_index)  
+
+        
+        outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
+
+        inputs = self.dropout(outputs)
         logits = self.classifier(inputs)
         outputs = logits
 
