@@ -23,6 +23,7 @@ import os
 import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
+import torch.nn.functional as F
 
 from transformers import  BertPreTrainedModel, BertModel
 
@@ -34,18 +35,20 @@ from scipy.sparse import coo_matrix
 
 class GraphConvClassification(nn.Module):
 
-    def __init__(self, config, GAT = True):
+    def __init__(self, config, GAT = False):
         super(GraphConvClassification, self).__init__()
-        self.linear = nn.Linear(config.hidden_size, 100)
+        self.dim_emb = 16
+        #self.dim_emb = config.hidden_size
+        self.linear = nn.Linear(config.hidden_size, self.dim_emb)
         self.num_labels = config.num_labels
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(100*2, config.num_labels)
+        self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
         #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
         if not GAT:
-            self.Graphmodel = SAGEConv(100, 100)
+            self.Graphmodel = SAGEConv(self.dim_emb,self.dim_emb)
             #self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
         else:
-            self.Graphmodel = GATConv(config.hidden_size,config.hidden_size,heads=1) # GAT
+            self.Graphmodel = GATConv(self.dim_emb,self.dim_emb,heads=1) # GAT
 
 
     def forward(
@@ -64,9 +67,9 @@ class GraphConvClassification(nn.Module):
 
         # model input
         edge_index = torch.LongTensor(edge_index).cuda()
-        node_embeddings = self.linear(node_embeddings)
-        #node_embeddings = self.Graphmodel(node_embeddings,edge_index)  
-        #node_embeddings = node_out + node_embeddings
+        node_embeddings = F.relu(self.linear(node_embeddings))
+        node_out = self.Graphmodel(node_embeddings,edge_index)  
+        node_embeddings = node_out + node_embeddings
 
         
         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)

@@ -101,9 +101,6 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
     # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
-    tmp = np.array(adjacency_matrixs[0])
-    print("size: ", tmp.size)
-    print("sum: ", np.sum(tmp))
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     #train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
@@ -126,11 +123,14 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     else:
         t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
 
+    for n,p in model.named_parameters(): print(n)
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
+    # fine tune only the last three layers and pooler
+    #lst_three = ['bert.encoder.layer.11', 'bert.pooler']#'bert.encoder.layer.9', 'bert.encoder.layer.10', 
     optimizer_grouped_parameters = [
-        #{'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
-        #{'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
+        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay) ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_three))
+        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay) ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_three))
         {'params': [p for n, p in classifier.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in classifier.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         #{'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
@@ -169,9 +169,10 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
+    for n, p in model.named_parameters():
+        #if not any( n.startswith(ln) for ln in lst_three):
+        p.requires_grad = False
     #model.zero_grad()
-    for param in model.parameters():
-        param.requires_grad = False
     classifier.zero_grad()
     #conv_graph.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=args.local_rank not in [-1, 0])
@@ -212,10 +213,10 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
                     inputs['token_type_ids'] = node_batch[:, 2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
                 output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
-                output = output.detach().cpu()
+                #output = output.detach().cpu()
                 outputs.append(output)
 
-            node_embeddings = torch.cat(outputs).cuda()
+            node_embeddings = torch.cat(outputs)
             #logger.info("node embedding size: %s" % str(outputs.size()))
             #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
             #node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
