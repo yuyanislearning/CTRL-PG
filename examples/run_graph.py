@@ -36,6 +36,9 @@ except:
     from tensorboardX import SummaryWriter
 
 from tqdm import tqdm, trange
+from knockknock import slack_sender
+
+
 
 from transformers import (WEIGHTS_NAME, BertConfig,
                                   BertForSequenceClassification, BertTokenizer,
@@ -577,7 +580,8 @@ def change_shape(batch):
     batch = batch.permute(1,0,2)
     return batch
 
-
+webhook_url = "https://hooks.slack.com/services/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"
+@slack_sender(webhook_url=webhook_url, channel="coding-notification")
 def main():
     parser = argparse.ArgumentParser()
 
