@@ -88,6 +88,36 @@ class GraphConvClassification(nn.Module):
 
         return (loss, outputs)  
 
+class NoGraphClassification(nn.Module):
+
+    def __init__(self, config):
+        super(NoGraphClassification, self).__init__()
+        self.num_labels = config.num_labels
+        self.dim_emb = 768
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+        #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+
+    def forward(
+        self, idx = None, node_embeddings = None,
+        label=None
+    ):
+        """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
+
+        # select nodes to be classify
+        outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
+        inputs = self.dropout(outputs)
+        logits = self.classifier(inputs)
+        outputs = logits
+
+        if label is not None:
+
+            loss_fct = CrossEntropyLoss()
+            loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
+            #outputs = (loss,) + outputs
+
+        return (loss, outputs)  
+
 
 
 class BertForNodeEmbedding(BertPreTrainedModel):

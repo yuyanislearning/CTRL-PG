@@ -58,6 +58,7 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                 )
 from extra_layers_2 import (GraphConvClassification,
                                   BertForNodeEmbedding,
+                                  NoGraphClassification
                                   #RobertaForRelationClassification,
                                   #RobertaForNodeEmbedding,
                                 )
@@ -85,6 +86,7 @@ MODEL_CLASSES = {
 
 GRAPH_CLASSES = {
     'bert': (BertConfig, GraphConvClassification, BertTokenizer, BertForNodeEmbedding),
+    #'bert': (BertConfig, NoGraphClassification, BertTokenizer, BertForNodeEmbedding),
     #'roberta': (RobertaConfig, RobertaForRelationClassification, RobertaTokenizer, RobertaForNodeEmbedding)
 }
 
@@ -115,12 +117,6 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
     #train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
     #train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
-    '''
-    train_adjacency_matrixs = []
-    for m in train_adjacency_matrix: train_adjacency_matrixs.append(m)
-    train_relation_lists = []
-    for r in train_relation_list: train_relation_lists.append(m)
-    '''
 
     # each relation list: [(0,1,overlap), (1,2,before), (7,8,after)]
     # each adjacency matrix: [[1,1,0,0],[1,0,0,0],[0,0,1,0],[0,0,0,1]]
@@ -136,10 +132,12 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
     # fine tune only the last three layers and pooler
-    lst_three = ['bert.encoder.layer.11','bert.encoder.layer.9', 'bert.encoder.layer.10', 'bert.pooler']#'bert.encoder.layer.9', 'bert.encoder.layer.10', 
+    n_layer = 6
+    lst_n = ['bert.encoder.layer.'+ str(11-i) for i in range(n_layer)] + ['bert.pooler']
+    print("Bert layer that are being trained: ",lst_n)
     optimizer_grouped_parameters = [
-        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)  ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_three))
-        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)  ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_three))
+        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay) and any(n.startswith(ln) for ln in lst_three) ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_three))
+        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay) and any(n.startswith(ln) for ln in lst_three) ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_three))
         {'params': [p for n, p in classifier.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in classifier.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         #{'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
@@ -178,9 +176,9 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
-    #for n, p in model.named_parameters():
-        #if not any( n.startswith(ln) for ln in lst_three):
-        #p.requires_grad = False
+    for n, p in model.named_parameters():
+        if not any( n.startswith(ln) for ln in lst_n):
+            p.requires_grad = False
     model.zero_grad()
     classifier.zero_grad()
     #conv_graph.zero_grad()
@@ -204,11 +202,11 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
                 adjacency_matrix = np.array(adjacency_matrixs[step])
-                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix).astype(int)
+                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix).astype('int')
                 #print("# neighboring nodes: ",neighbors)
                 # reconstruct index
-                #print(rel_batch[0].size())
                 temp_rel = np.array(rel_batch[0].cpu())
+                #print("rel_batch size: ",temp_rel)
                 rel_batch[0] = torch.tensor([[int(np.where(neighbors==x)[0]) for x in temp_rel[i]] for i in range(temp_rel.shape[0])])
                 rel_batch[0].cuda()
                 #print("rel_batch: ",rel_batch[0])
@@ -576,17 +574,18 @@ def change_shape(batch):
 
 def find_neighbors(idx, adj,  thres = 70):#order = 1,
     #find all neighbors of given nodes(including itself)
-    idx = np.array(torch.flatten(idx).cpu())
+    idx = np.array(torch.flatten(idx).cpu()).astype("int")
     #for _ in range(order):
     trun_adj = adj[idx, :]
     _, neighbors = np.where(trun_adj==1)
     neighbors = np.array(list(set(neighbors)- set(idx)))
-
+    #print("neighbors shape before:",neighbors.shape)
     #avoid sampling out self loop
     if neighbors.shape[0]>thres:
         neighbors = np.random.choice(neighbors, thres)
+        #print("neighbors shape after:", neighbors.shape)
 
-    return np.concatenate((idx.astype(int),neighbors))
+    return np.array(list(set(idx).union(set(neighbors))))
 
 
 
