@@ -37,7 +37,7 @@ class GraphConvClassification(nn.Module):
 
     def __init__(self, config, GAT = False):
         super(GraphConvClassification, self).__init__()
-        self.dim_emb = 64
+        self.dim_emb = 768
         #self.dim_emb = config.hidden_size
         self.linear = nn.Linear(config.hidden_size, self.dim_emb)
         self.linear2 = nn.Linear(self.dim_emb, self.dim_emb)
@@ -69,10 +69,10 @@ class GraphConvClassification(nn.Module):
         # model input
         edge_index = torch.LongTensor(edge_index).cuda()
         node_embeddings = F.relu(self.linear(node_embeddings))
-        node_embeddings = F.relu(self.linear2(node_embeddings))
-        #node_out = self.Graphmodel(node_embeddings,edge_index)  
+        #node_embeddings = F.relu(self.linear2(node_embeddings))
+        node_out = self.Graphmodel(node_embeddings,edge_index)  
         # residual block
-        #node_embeddings = node_out + node_embeddings
+        node_embeddings = node_out + node_embeddings
 
         # select nodes to be classify
         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)

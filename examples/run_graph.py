@@ -103,7 +103,13 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
         tb_writer = SummaryWriter()
 
     train_dataset,adjacency_matrixs,relation_lists=dataset
-    # print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
+    #print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
+    #(181, 3, [650, 128])
+    #(doc, (input_msk, att_msk, token_type), [node, seq_len])
+    #print('adj dataset: ',len(adjacency_matrixs), len(adjacency_matrixs[0]))
+    #(181,[[132,132]])
+    #print('relation dataset: ',len(relation_lists), len(relation_lists[0]), len(relation_lists[0][0]))
+    #(181, 154(#relations), 3)
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     #train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
@@ -126,14 +132,14 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     else:
         t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
 
-    for n,p in model.named_parameters(): print(n)
+    #for n,p in model.named_parameters(): print(n)
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
     # fine tune only the last three layers and pooler
-    #lst_three = ['bert.encoder.layer.11', 'bert.pooler']#'bert.encoder.layer.9', 'bert.encoder.layer.10', 
+    lst_three = ['bert.encoder.layer.11','bert.encoder.layer.9', 'bert.encoder.layer.10', 'bert.pooler']#'bert.encoder.layer.9', 'bert.encoder.layer.10', 
     optimizer_grouped_parameters = [
-        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay) ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_three))
-        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay) ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_three))
+        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)  ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_three))
+        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)  ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_three))
         {'params': [p for n, p in classifier.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in classifier.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         #{'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
@@ -172,10 +178,10 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
-    for n, p in model.named_parameters():
+    #for n, p in model.named_parameters():
         #if not any( n.startswith(ln) for ln in lst_three):
-        p.requires_grad = False
-    #model.zero_grad()
+        #p.requires_grad = False
+    model.zero_grad()
     classifier.zero_grad()
     #conv_graph.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=args.local_rank not in [-1, 0])
@@ -187,62 +193,47 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
             #conv_graph.train()  
             classifier.train()  
             
-            # change batch to be size of ( node_size,3, seq_len)
-            # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
             batch = tuple(t.to(args.device) for t in batch)
             batch = change_shape(batch)
-            # print('after batch size: ', batch.size() )
-            '''inputs = {'input_ids':      batch[0],
-                      'attention_mask': batch[1],
-                      #'token_type_ids': batch[2],
-                      #'e_id':         batch[3]
-                      } # TODO: check the position of e_id
-
-            if args.model_type != 'distilbert':
-                inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
             
-            #node_sampler = SequentialSampler(batch) if args.local_rank == -1 else DistributedSampler(train_dataset)
-            node_dataloader = DataLoader(batch, shuffle=False, batch_size=50)#sampler = node_sampler,
-            node_epoch_iterator = tqdm(node_dataloader, desc="Node Iteration", disable=args.local_rank not in [-1, 0])
-
-            #outputs = torch.Tensor().cuda() 
-            outputs = []
-            for step3, node_batch in enumerate(node_epoch_iterator):
-                node_batch = node_batch.to(args.device)
-                inputs = {'input_ids': node_batch[:, 0], 
-                        'attention_mask': node_batch[:,1]}
- 
-                if args.model_type != 'distilbert':
-                    inputs['token_type_ids'] = node_batch[:, 2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
-            
-                output = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
-                #output = output.detach().cpu()
-                outputs.append(output)
-
-            node_embeddings = torch.cat(outputs)
-            #logger.info("node embedding size: %s" % str(outputs.size()))
-            #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
-            #node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
-
-            # build the dataset of relation classification
-            #logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
-            relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #train_relation_lists
-
+            relation_dataset = build_relation_dataset(relation_lists[step]) #train_relation_lists
+            # (batch_size,[e1,e2]), (batch_size, rel)
             relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
             relation_train_dataloader = DataLoader(relation_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size)
             relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
-                '''
-                print('adj: ',len(adjacency_matrixs[step]), adjacency_matrixs[step])
-                print('node emb ',node_embeddings.size())
-                print('idx ',rel_batch[0].size(), rel_batch[0])
-                print('label ',rel_batch[1].size(),rel_batch[1])
-                '''
-                inputs = {'adjacency_matrix':  adjacency_matrixs[step],
+                adjacency_matrix = np.array(adjacency_matrixs[step])
+                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix).astype(int)
+                #print("# neighboring nodes: ",neighbors)
+                # reconstruct index
+                #print(rel_batch[0].size())
+                temp_rel = np.array(rel_batch[0].cpu())
+                rel_batch[0] = torch.tensor([[int(np.where(neighbors==x)[0]) for x in temp_rel[i]] for i in range(temp_rel.shape[0])])
+                rel_batch[0].cuda()
+                #print("rel_batch: ",rel_batch[0])
+                adjacency_matrix = adjacency_matrix[neighbors, :][:, neighbors]
+                # change batch to be size of ( node_size,3, seq_len)
+                # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
+
+                mini_batch = batch[neighbors]
+                #print("batch: ", len(mini_batch))
+                #print("adj, ", adjacency_matrix.shape)
+                #print("rel_batch: ", rel_batch[0].size())
+                # print('after batch size: ', batch.size() )
+                inputs = {'input_ids': mini_batch[:, 0], 
+                        'attention_mask': mini_batch[:,1]}
+ 
+                if args.model_type != 'distilbert':
+                    inputs['token_type_ids'] = mini_batch[:, 2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
+                #print("inputs", inputs)
+                node_embeddings = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+                #output = output.detach().cpu()
+
+                inputs = {'adjacency_matrix':  adjacency_matrix,
                         'node_embeddings' : node_embeddings,
                         'idx': rel_batch[0],
-                            'label': rel_batch[1] }
+                        'label': rel_batch[1] }
 
                 outputs = classifier(**inputs)
                 '''
@@ -279,7 +270,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
-                    #model.zero_grad()                    
+                    model.zero_grad()                    
                     classifier.zero_grad()
                     #conv_graph.zero_grad()
                     global_step += 1
@@ -382,7 +373,7 @@ def evaluate(args, dataset, model, classifier,  tokenizer, prefix=""):#conv_grag
         #logger.info("maxtrix size: %s" % str(np.shape(adjacency_matrixs[step])))
         #node_embeddings = conv_graph(outputs, adjacency_matrixs[step])
         #logger.info("relation list size: %s" % str(np.shape(relation_lists[step])))
-        relation_dataset = build_relation_dataset(node_embeddings, relation_lists[step]) #eval_relation_lists
+        relation_dataset = build_relation_dataset( relation_lists[step]) #eval_relation_lists
 
         relation_eval_sampler = SequentialSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
         relation_eval_dataloader = DataLoader(relation_dataset, sampler=relation_eval_sampler, batch_size=args.per_gpu_eval_batch_size)
@@ -553,7 +544,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     dataset = (TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids),all_matrix,all_relation)
     return dataset
 
-def build_relation_dataset(node_embeddings, relations):
+def build_relation_dataset(relations):
     embeds = []
     labels = []
     for [e1,e2,r] in relations:
@@ -569,7 +560,10 @@ def build_relation_dataset(node_embeddings, relations):
     return relation_dataset
 
 
+
+
 def change_shape(batch):
+    # changing shape to adapte the size requirement
     in_dim = batch[0][0].size()[0]
     batch = list(batch)
     for index, sbatch in enumerate(batch):
@@ -579,6 +573,22 @@ def change_shape(batch):
     batch = batch.view(3,in_dim, -1 )
     batch = batch.permute(1,0,2)
     return batch
+
+def find_neighbors(idx, adj,  thres = 70):#order = 1,
+    #find all neighbors of given nodes(including itself)
+    idx = np.array(torch.flatten(idx).cpu())
+    #for _ in range(order):
+    trun_adj = adj[idx, :]
+    _, neighbors = np.where(trun_adj==1)
+    neighbors = np.array(list(set(neighbors)- set(idx)))
+
+    #avoid sampling out self loop
+    if neighbors.shape[0]>thres:
+        neighbors = np.random.choice(neighbors, thres)
+
+    return np.concatenate((idx.astype(int),neighbors))
+
+
 
 webhook_url = "https://hooks.slack.com/services/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"
 @slack_sender(webhook_url=webhook_url, channel="coding-notification")
