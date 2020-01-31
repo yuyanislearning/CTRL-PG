@@ -37,6 +37,7 @@ except:
 
 from tqdm import tqdm, trange
 from knockknock import slack_sender
+import networkx as nx
 
 
 
@@ -132,12 +133,11 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
     # fine tune only the last three layers and pooler
-    n_layer = 6
-    lst_n = ['bert.encoder.layer.'+ str(11-i) for i in range(n_layer)] + ['bert.pooler']
-    print("Bert layer that are being trained: ",lst_n)
+    lst_n = ['bert.encoder.layer.'+ str(11-i) for i in range(args.n_layer)] + ['bert.pooler']
+    #print("Bert layer that are being trained: ",lst_n)
     optimizer_grouped_parameters = [
-        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay) and any(n.startswith(ln) for ln in lst_three) ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_three))
-        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay) and any(n.startswith(ln) for ln in lst_three) ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_three))
+        #{'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay) and any(n.startswith(ln) for ln in lst_n) ], 'weight_decay': args.weight_decay},#and any(n.startswith(ln) for ln in lst_n))
+        #{'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay) and any(n.startswith(ln) for ln in lst_n) ], 'weight_decay': 0.0},#and any(n.startswith(ln) for ln in lst_n))
         {'params': [p for n, p in classifier.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in classifier.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         #{'params': [p for n, p in conv_graph.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
@@ -177,9 +177,9 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
     for n, p in model.named_parameters():
-        if not any( n.startswith(ln) for ln in lst_n):
-            p.requires_grad = False
-    model.zero_grad()
+        #if not any( n.startswith(ln) for ln in lst_n):
+        p.requires_grad = False
+    #model.zero_grad()
     classifier.zero_grad()
     #conv_graph.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=args.local_rank not in [-1, 0])
@@ -202,8 +202,11 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
                 adjacency_matrix = np.array(adjacency_matrixs[step])
-                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix).astype('int')
-                #print("# neighboring nodes: ",neighbors)
+                #g = nx.from_numpy_matrix(adjacency_matrix)
+                #print(g.number_of_edges())
+                adjacency_matrix = neiAdj(adj = adjacency_matrix)
+                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix, order = 1,thres = 250).astype(int)
+                #print("# neighboring nodes: ",neighbors.shape)
                 # reconstruct index
                 temp_rel = np.array(rel_batch[0].cpu())
                 #print("rel_batch size: ",temp_rel)
@@ -268,7 +271,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
-                    model.zero_grad()                    
+                    #model.zero_grad()                    
                     classifier.zero_grad()
                     #conv_graph.zero_grad()
                     global_step += 1
@@ -572,21 +575,37 @@ def change_shape(batch):
     batch = batch.permute(1,0,2)
     return batch
 
-def find_neighbors(idx, adj,  thres = 70):#order = 1,
+def find_neighbors(idx, adj,  thres = 250,order = 1):
     #find all neighbors of given nodes(including itself)
-    idx = np.array(torch.flatten(idx).cpu()).astype("int")
-    #for _ in range(order):
-    trun_adj = adj[idx, :]
-    _, neighbors = np.where(trun_adj==1)
-    neighbors = np.array(list(set(neighbors)- set(idx)))
+    idx = np.array(torch.flatten(idx).cpu()).astype(int)
+    neighbors = idx
+    for _ in range(order):
+        trun_adj = adj[neighbors, :]
+        _, neighbors = np.where(trun_adj==1)
+        neighbors = np.array(list(set(neighbors))).astype(int)
     #print("neighbors shape before:",neighbors.shape)
-    #avoid sampling out self loop
     if neighbors.shape[0]>thres:
         neighbors = np.random.choice(neighbors, thres)
         #print("neighbors shape after:", neighbors.shape)
 
     return np.array(list(set(idx).union(set(neighbors))))
 
+def fakeAdj(adj = None, num_edge = None):
+    # generate a random graph
+    n = adj.shape[0]
+    return nx.adjacency_matrix(nx.gnm_random_graph(n, num_edge)) + np.eye(n)
+
+def neiAdj(adj = None):
+    n = adj.shape[0]
+    adj = np.zeros(adj.shape) + np.eye(adj.shape[0])
+    adj[0,1] = 1
+    adj[n-1,n-2] = 1
+    for i in range(2, n-2):
+        adj[i,i+1] = 1
+        adj[i,i-1] = 1
+        #adj[i,i+2] = 1
+        #adj[i,i-2] = 1
+    return adj
 
 
 webhook_url = "https://hooks.slack.com/services/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"
@@ -670,6 +689,7 @@ def main():
                         help="For distributed training: local_rank")
     parser.add_argument('--server_ip', type=str, default='', help="For distant debugging.")
     parser.add_argument('--server_port', type=str, default='', help="For distant debugging.")
+    parser.add_argument('--n_layer', type=int, default='', help="number of layer updated in bert")
     args = parser.parse_args()
 
     if os.path.exists(args.output_dir) and os.listdir(args.output_dir) and args.do_train and not args.overwrite_output_dir:

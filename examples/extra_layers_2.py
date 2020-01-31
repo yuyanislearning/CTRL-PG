@@ -46,7 +46,7 @@ class GraphConvClassification(nn.Module):
         self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
         #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
         if not GAT:
-            self.Graphmodel = SAGEConv(self.dim_emb,self.dim_emb)
+            self.Graphmodel = SAGEConv(self.dim_emb,self.dim_emb,aggr = "mean")
             #self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
         else:
             self.Graphmodel = GATConv(self.dim_emb,self.dim_emb,heads=1) # GAT
@@ -68,11 +68,14 @@ class GraphConvClassification(nn.Module):
 
         # model input
         edge_index = torch.LongTensor(edge_index).cuda()
+        #print("number of links: ",edge_index.size())
         node_embeddings = F.relu(self.linear(node_embeddings))
-        #node_embeddings = F.relu(self.linear2(node_embeddings))
         node_out = self.Graphmodel(node_embeddings,edge_index)  
         # residual block
         node_embeddings = node_out + node_embeddings
+        # second layer of graph
+        #node_out = self.Graphmodel(node_embeddings,edge_index) 
+        #node_embeddings = node_out + node_embeddings
 
         # select nodes to be classify
         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
