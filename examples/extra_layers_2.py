@@ -74,8 +74,8 @@ class GraphConvClassification(nn.Module):
         # residual block
         node_embeddings = node_out + node_embeddings
         # second layer of graph
-        #node_out = self.Graphmodel(node_embeddings,edge_index) 
-        #node_embeddings = node_out + node_embeddings
+        node_out = self.Graphmodel(node_embeddings,edge_index) 
+        node_embeddings = node_out + node_embeddings
 
         # select nodes to be classify
         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)

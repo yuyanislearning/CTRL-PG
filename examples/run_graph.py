@@ -205,7 +205,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
                 #g = nx.from_numpy_matrix(adjacency_matrix)
                 #print(g.number_of_edges())
                 adjacency_matrix = neiAdj(adj = adjacency_matrix)
-                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix, order = 1,thres = 250).astype(int)
+                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix, order = 2,thres = 250).astype(int)
                 #print("# neighboring nodes: ",neighbors.shape)
                 # reconstruct index
                 temp_rel = np.array(rel_batch[0].cpu())
@@ -521,7 +521,26 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
 
     # Convert to Tensors and build dataset
-
+    # convert origin matrix to before matrix and after matrix
+    # augment data from transivity rules
+    for i in range(len(features)):
+        n = len(features[i].matrix)
+        print("nodes: ", n)
+        print("Before, # relations ", len(features[i].relations) )
+        BM = np.zeros((n,n))
+        OM = np.zeros((n,n))
+        for [j,k,r] in features[i].relations:
+            if r==0:
+                OM[j,k]=1
+            if r==1:
+                BM[j,k]=1
+            if r==2:
+                BM[k,j]=1
+        print("Before Before:", 2*len(np.where(BM>0)[0]))
+        print("Before Overlap:", len(np.where(OM>0)[0]))
+        BM, OM = iter_rule_update(BM, OM, n_iter = 3)
+        print("Updated Before:", 2*len(np.where(BM>0)[0]))
+        print("UPdated Overlap:", len(np.where(OM>0)[0]))
 
 
     all_input_ids = torch.tensor([[f for f in feature.input_ids] for feature in features], dtype=torch.long)
@@ -597,15 +616,39 @@ def fakeAdj(adj = None, num_edge = None):
 
 def neiAdj(adj = None):
     n = adj.shape[0]
-    adj = np.zeros(adj.shape) + np.eye(adj.shape[0])
+    # only paper neighbor
+    #adj = np.zeros(adj.shape) + np.eye(adj.shape[0])
     adj[0,1] = 1
     adj[n-1,n-2] = 1
     for i in range(2, n-2):
         adj[i,i+1] = 1
         adj[i,i-1] = 1
-        #adj[i,i+2] = 1
-        #adj[i,i-2] = 1
+        adj[i,i+2] = 1
+        adj[i,i-2] = 1
     return adj
+
+def iter_rule_update(BM, OM, n_iter = 3):
+    '''
+    iteratively find the ground truth by applying rules
+    rules: 
+    if Bij Ojk, then Bik
+    if Oij Bjk, then Bik
+    if Bij Bjk, then Bik
+    if Oij Ojk, then Oik
+    if Oij, then Oji
+    '''
+    # first complete OM
+    OM = OM + OM.transpose()
+    OM = OM + np.matmul(OM, OM)
+    # iteratively update BM
+    for _ in range(n_iter):
+        BM = BM + np.matmul(BM, OM)
+        BM = BM + np.matmul(OM, BM)
+        BM = BM + np.matmul(BM, BM)
+    # normalize
+    BM[np.where(BM>0)] = 1
+    OM[np.where(OM>0)] = 1
+    return BM, OM
 
 
 webhook_url = "https://hooks.slack.com/services/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"
