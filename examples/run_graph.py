@@ -523,10 +523,11 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     # Convert to Tensors and build dataset
     # convert origin matrix to before matrix and after matrix
     # augment data from transivity rules
+    # TODO: put in cache
     for i in range(len(features)):
         n = len(features[i].matrix)
-        print("nodes: ", n)
-        print("Before, # relations ", len(features[i].relations) )
+        #print("nodes: ", n)
+        #print("Before, # relations ", len(features[i].relations) )
         BM = np.zeros((n,n))
         OM = np.zeros((n,n))
         for [j,k,r] in features[i].relations:
@@ -536,11 +537,30 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
                 BM[j,k]=1
             if r==2:
                 BM[k,j]=1
-        print("Before Before:", 2*len(np.where(BM>0)[0]))
-        print("Before Overlap:", len(np.where(OM>0)[0]))
+        #print("Before Before:", 2*len(np.where(BM>0)[0]))
+        #print("Before Overlap:", len(np.where(OM>0)[0]))
         BM, OM = iter_rule_update(BM, OM, n_iter = 3)
-        print("Updated Before:", 2*len(np.where(BM>0)[0]))
-        print("UPdated Overlap:", len(np.where(OM>0)[0]))
+        #print("Updated Before:", 2*len(np.where(BM>0)[0]))
+        #print("UPdated Overlap:", len(np.where(OM>0)[0]))
+        #B_link = len(np.where(BM>0)[0])
+        #O_link = len(np.where(OM>0)[0])
+        #print("connectivity: ", (B_link+O_link)/n/(n-1))
+
+        # construct all rules tensor
+        BBB = rule_tensor(BM, BM)
+        BOB = rule_tensor(BM, OM)
+        OBB = rule_tensor(OM, BM)
+        OOO = rule_tensor(OM, OM)
+        All_rules = BBB+BOB+OBB+OOO
+        all_x, all_y, all_z = np.where(All_rules>0)
+        for [j,k,r] in features[i].relations:
+            if np.where(all_x==j)[0].shape[0]==0 or np.where(all_y==k)[0].shape[0]==0:
+                #TODO
+            rule_exist = set(np.where(all_x==j)).intersection(set(np.where(all_y==k)))
+            
+
+
+
 
 
     all_input_ids = torch.tensor([[f for f in feature.input_ids] for feature in features], dtype=torch.long)
@@ -649,6 +669,19 @@ def iter_rule_update(BM, OM, n_iter = 3):
     BM[np.where(BM>0)] = 1
     OM[np.where(OM>0)] = 1
     return BM, OM
+
+def rule_tensor(A, B):
+    '''
+    Cijk = Aij * Bjk
+    '''
+    n = A.shape[0]
+    A = A.reshape(1,-1)
+    B = B.reshape(1,-1)
+    C = np.matmul(A.transpose(), B)
+    C = C.reshape(n,n,n)
+    
+    return C
+
 
 
 webhook_url = "https://hooks.slack.com/services/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"
