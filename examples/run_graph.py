@@ -190,22 +190,24 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
             model.train()  
             #conv_graph.train()  
             classifier.train()  
-            
+
+                      
             batch = tuple(t.to(args.device) for t in batch)
             batch = change_shape(batch)
             
-            relation_dataset = build_relation_dataset(relation_lists[step]) #train_relation_lists
+            PSL_dataset, dense_adj = build_PSL_dataset(adj = np.array(adjacency_matrixs[step]), rel = relation_lists[step])
+            # relation_dataset = build_relation_dataset(relation_lists[step]) #train_relation_lists
             # (batch_size,[e1,e2]), (batch_size, rel)
-            relation_train_sampler = RandomSampler(relation_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
-            relation_train_dataloader = DataLoader(relation_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size)
+            relation_train_sampler = RandomSampler(PSL_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
+            relation_train_dataloader = DataLoader(PSL_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size*6)
             relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
 
             for step2, rel_batch in enumerate(relation_epoch_iterator):
-                adjacency_matrix = np.array(adjacency_matrixs[step])
+                adjacency_matrix = dense_adj
                 #g = nx.from_numpy_matrix(adjacency_matrix)
                 #print(g.number_of_edges())
-                adjacency_matrix = neiAdj(adj = adjacency_matrix)
-                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix, order = 2,thres = 250).astype(int)
+                #adjacency_matrix = neiAdj(adj = adjacency_matrix)
+                neighbors = find_neighbors(rel_batch[0] ,adjacency_matrix, order = 2,thres = 650).astype(int)
                 #print("# neighboring nodes: ",neighbors.shape)
                 # reconstruct index
                 temp_rel = np.array(rel_batch[0].cpu())
@@ -234,7 +236,7 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
                 inputs = {'adjacency_matrix':  adjacency_matrix,
                         'node_embeddings' : node_embeddings,
                         'idx': rel_batch[0],
-                        'label': rel_batch[1] }
+                        'label': rel_batch[1]}
 
                 outputs = classifier(**inputs)
                 '''
@@ -521,48 +523,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
 
     # Convert to Tensors and build dataset
-    # convert origin matrix to before matrix and after matrix
-    # augment data from transivity rules
-    # TODO: put in cache
-    for i in range(len(features)):
-        n = len(features[i].matrix)
-        #print("nodes: ", n)
-        #print("Before, # relations ", len(features[i].relations) )
-        BM = np.zeros((n,n))
-        OM = np.zeros((n,n))
-        for [j,k,r] in features[i].relations:
-            if r==0:
-                OM[j,k]=1
-            if r==1:
-                BM[j,k]=1
-            if r==2:
-                BM[k,j]=1
-        #print("Before Before:", 2*len(np.where(BM>0)[0]))
-        #print("Before Overlap:", len(np.where(OM>0)[0]))
-        BM, OM = iter_rule_update(BM, OM, n_iter = 3)
-        #print("Updated Before:", 2*len(np.where(BM>0)[0]))
-        #print("UPdated Overlap:", len(np.where(OM>0)[0]))
-        #B_link = len(np.where(BM>0)[0])
-        #O_link = len(np.where(OM>0)[0])
-        #print("connectivity: ", (B_link+O_link)/n/(n-1))
-
-        # construct all rules tensor
-        BBB = rule_tensor(BM, BM)
-        BOB = rule_tensor(BM, OM)
-        OBB = rule_tensor(OM, BM)
-        OOO = rule_tensor(OM, OM)
-        All_rules = BBB+BOB+OBB+OOO
-        all_x, all_y, all_z = np.where(All_rules>0)
-        for [j,k,r] in features[i].relations:
-            if np.where(all_x==j)[0].shape[0]==0 or np.where(all_y==k)[0].shape[0]==0:
-                #TODO
-            rule_exist = set(np.where(all_x==j)).intersection(set(np.where(all_y==k)))
             
-
-
-
-
-
     all_input_ids = torch.tensor([[f for f in feature.input_ids] for feature in features], dtype=torch.long)
     all_attention_mask = torch.tensor([[f for f in feature.attention_masks] for feature in features], dtype=torch.long)
     all_token_type_ids = torch.tensor([[f for f in feature.token_type_ids] for feature in features], dtype=torch.long)
@@ -675,12 +636,92 @@ def rule_tensor(A, B):
     Cijk = Aij * Bjk
     '''
     n = A.shape[0]
-    A = A.reshape(1,-1)
-    B = B.reshape(1,-1)
-    C = np.matmul(A.transpose(), B)
-    C = C.reshape(n,n,n)
+    A = A.reshape(n,n,1)
+    B = B.reshape(1,n,n)
+    C = A*B
     
     return C
+
+def build_PSL_dataset(adj = None, rel = None):
+    # convert origin matrix to before matrix and after matrix
+    # augment data from transivity rules
+
+    n = adj.shape[0]
+    BM = np.zeros((n,n))
+    OM = np.zeros((n,n))
+    for [j,k,r] in rel:
+        if r==0:
+            OM[j,k]=1
+        if r==1:
+            BM[j,k]=1
+        if r==2:
+            BM[k,j]=1
+    #print("Before Before:", 2*len(np.where(BM>0)[0]))
+    #print("Before Overlap:", len(np.where(OM>0)[0]))
+    BM, OM = iter_rule_update(BM, OM, n_iter = 3)
+    dense_adj = BM+OM+BM.transpose()
+    dense_adj[np.where(dense_adj>0)] = 1
+    #print("Updated Before:", 2*len(np.where(BM>0)[0]))
+    #print("UPdated Overlap:", len(np.where(OM>0)[0]))
+    #B_link = len(np.where(BM>0)[0])
+    #O_link = len(np.where(OM>0)[0])
+    #print("connectivity: ", (B_link+O_link)/n/(n-1))
+
+    # construct all rules tensor
+    BBB = rule_tensor(BM, BM)
+    BOB = rule_tensor(BM, OM)
+    OBB = rule_tensor(OM, BM)
+    OOO = rule_tensor(OM, OM)
+    All_rules = BBB+BOB+OBB+OOO
+    all_x, all_y, all_z = np.where(All_rules>0)
+    emb =[]
+    labels = []
+    for [j,k,r] in rel:
+        if r==2:
+            j,k = k,j
+        # for no rules found
+        if np.where(all_x==j)[0].shape[0]==0 or np.where(all_y==k)[0].shape[0]==0 or len(set(np.where(all_x==j)[0]).intersection(set(np.where(all_y==k)[0])))==0:
+            emb.extend([torch.tensor([j,k]),torch.tensor([j,k]),torch.tensor([j,k]),
+            torch.tensor([k,j]),torch.tensor([k,j]),torch.tensor([k,j])])
+            if r ==0:
+                labels.extend([r,r,r,r,r,r])
+            if r ==1:
+                labels.extend([r,r,r,2,2,2])
+            if r ==2:
+                labels.extend([r,r,r,1,1,1])
+            
+        # sample from rules
+        rule_exist = set(np.where(all_x==j)[0]).intersection(set(np.where(all_y==k)[0]))
+        common_neigh = random.sample(rule_exist, 1)[0]
+        # build PSL dataset, and their sysmetric version
+        '''
+        rules encoding:
+        BBB:0, AAA:1, BOB:2, AOA:3, OBB:4, OAA:5, OOO:6, None:7
+        '''
+        if BBB[j,k,common_neigh]>0:
+            emb.extend([torch.tensor([j,k]),torch.tensor([k,common_neigh]),torch.tensor([j,common_neigh]),
+            torch.tensor([k,j]),torch.tensor([common_neigh,k]),torch.tensor([common_neigh,j])])
+            labels.extend([1,1,1,2,2,2])
+        if BOB[j,k,common_neigh]>0:
+            emb.extend([torch.tensor([j,k]),torch.tensor([k,common_neigh]),torch.tensor([j,common_neigh]),
+            torch.tensor([k,j]),torch.tensor([common_neigh,k]),torch.tensor([common_neigh,j])])
+            labels.extend([1,0,1,2,0,2])
+        if OBB[j,k,common_neigh]>0:
+            emb.extend([torch.tensor([j,k]),torch.tensor([k,common_neigh]),torch.tensor([j,common_neigh]),
+            torch.tensor([k,j]),torch.tensor([common_neigh,k]),torch.tensor([common_neigh,j])])
+            labels.extend([0,1,1,0,2,2])
+        if OOO[j,k,common_neigh]>0:
+            emb.extend([torch.tensor([j,k]),torch.tensor([k,common_neigh]),torch.tensor([j,common_neigh]),
+            torch.tensor([k,j]),torch.tensor([common_neigh,k]),torch.tensor([common_neigh,j])])
+            labels.extend([0,0,0,0,0,0])
+
+    all_embs = torch.stack(emb).cuda()
+    all_labels = torch.tensor(labels,dtype=torch.long).cuda()   
+    #logger.info("relation dataset node embedding size: %s" % str(all_inputs.size()))
+    relation_dataset = TensorDataset(all_embs, all_labels, all_rules)
+
+    return relation_dataset, dense_adj
+
 
 
 

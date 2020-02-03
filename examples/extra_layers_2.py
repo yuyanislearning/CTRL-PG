@@ -74,8 +74,8 @@ class GraphConvClassification(nn.Module):
         # residual block
         node_embeddings = node_out + node_embeddings
         # second layer of graph
-        node_out = self.Graphmodel(node_embeddings,edge_index) 
-        node_embeddings = node_out + node_embeddings
+        #node_out = self.Graphmodel(node_embeddings,edge_index) 
+        #node_embeddings = node_out + node_embeddings
 
         # select nodes to be classify
         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
@@ -88,6 +88,9 @@ class GraphConvClassification(nn.Module):
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
             #outputs = (loss,) + outputs
+
+        loss = loss + PSL_loss(label, logits)
+
 
         return (loss, outputs)  
 
@@ -118,6 +121,8 @@ class NoGraphClassification(nn.Module):
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
             #outputs = (loss,) + outputs
+
+        loss = loss + PSL_loss(label, logits)
 
         return (loss, outputs)  
 
@@ -176,6 +181,20 @@ class ConvGraph(nn.Module):
 
         return outputs
 
+
+def PSL_loss(label=None, logits=None):
+    psl_loss = torch.tensor(0)
+    for n_batch in range(label.size()[0]/3):
+        rules = [(1,1,1),(2,2,2),(1,0,1),(2,0,2),(0,1,1),(0,2,2),(0,0,0)]
+        if (label[n_batch*3+0],label[n_batch*3+1],label[n_batch*3+2]) in rules:
+            i = logits[n_batch*3+0,label[n_batch*3+0]]
+            j = logits[n_batch*3+1,label[n_batch*3+1]]
+            k = logits[n_batch*3+2,label[n_batch*3+2]]
+            exp_all = math.exp(i) + math.exp(j) + math.exp(k)
+            i = math.exp(i)/exp_all
+            j = math.exp(j)/exp_all
+            k = math.exp(k)/exp_all
+            psl_loss = psl_loss + max(0, max(i+j-1)-k)
 
 
 ### End
