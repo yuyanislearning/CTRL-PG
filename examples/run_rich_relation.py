@@ -340,6 +340,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
                                                 pad_on_left=bool(args.model_type in ['xlnet']),                 # pad on the left for xlnet
                                                 pad_token=tokenizer.convert_tokens_to_ids([tokenizer.pad_token])[0],
                                                 pad_token_segment_id=4 if args.model_type in ['xlnet'] else 0,
+                                                data_aug = args.data_aug,
                                                 evaluate = evaluate,
         )
         if args.local_rank in [-1, 0]:
@@ -396,6 +397,8 @@ def main():
                              "than this will be truncated, sequences shorter will be padded.")
     parser.add_argument("--do_train", action='store_true',
                         help="Whether to run training.")
+    parser.add_argument("--data_aug", default=None, type=str,
+                        help="Whether to run data aug.")
     parser.add_argument("--do_eval", action='store_true',
                         help="Whether to run eval on the dev set.")
     parser.add_argument("--evaluate_during_training", action='store_true',

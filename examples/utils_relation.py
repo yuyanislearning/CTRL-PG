@@ -466,7 +466,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
                                       pad_token=0,
                                       pad_token_segment_id=0,
                                       mask_padding_with_zero=True,
-                                      data_aug = 'rules',
+                                      data_aug ='rules',
                                       evaluate = False,
                                       ):#max_node_size=650
     """
