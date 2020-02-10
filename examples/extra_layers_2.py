@@ -96,23 +96,23 @@ class GraphConvClassification(nn.Module):
 
 class NoGraphClassification(nn.Module):
 
-    def __init__(self, config):
+    def __init__(self, config, cal_hidden_loss = True):
         super(NoGraphClassification, self).__init__()
         self.num_labels = config.num_labels
         self.dim_emb = 768
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+        self.classifier = nn.Linear(self.dim_emb, config.num_labels)
+        self.hidden_classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+        #self.cal_hidden_loss = cal_hidden_loss
         #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
 
     def forward(
-        self, idx = None, node_embeddings = None,
-        label=None
+        self, adjacency_matrix = None, idx = None, node_embeddings = None,
+        label=None, cal_hidden_loss = True, weight =0.3
     ):
         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
-        # select nodes to be classify
-        outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
-        inputs = self.dropout(outputs)
+        inputs = self.dropout(node_embeddings)
         logits = self.classifier(inputs)
         outputs = logits
 
@@ -121,8 +121,22 @@ class NoGraphClassification(nn.Module):
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
             #outputs = (loss,) + outputs
+        
+        #print(label)
 
-        loss = loss + PSL_loss(label, logits)
+        if cal_hidden_loss:
+            hidden_loss = torch.tensor(0, dtype = torch.float64).cuda()
+            for n_batch in range(int(label.size()[0]/2)):
+                #print(node_embeddings.size())
+                #print(label.size())
+                #print(node_embeddings[n_batch*2,:].size())
+                hidden_inputs = torch.cat((node_embeddings[n_batch*2,:], node_embeddings[n_batch*2+1,:]))
+                hidden_inputs = self.dropout(hidden_inputs)
+                hidden_logits = self.hidden_classifier(hidden_inputs)
+                hidden_label = torch.tensor(identify_label(label[n_batch*2], label[n_batch*2+1]))
+                loss_fct = CrossEntropyLoss()
+                hidden_loss = hidden_loss + loss_fct(hidden_logits.view(-1, self.num_labels), hidden_label.view(-1).cuda())
+            loss = loss + weight * hidden_loss
 
         return (loss, outputs)  
 
@@ -183,8 +197,9 @@ class ConvGraph(nn.Module):
 
 
 def PSL_loss(label=None, logits=None):
-    psl_loss = torch.tensor(0)
-    for n_batch in range(label.size()[0]/3):
+    psl_loss = torch.tensor(0, dtype = torch.float64)
+
+    for n_batch in range(int(label.size()[0]/3)):
         rules = [(1,1,1),(2,2,2),(1,0,1),(2,0,2),(0,1,1),(0,2,2),(0,0,0)]
         if (label[n_batch*3+0],label[n_batch*3+1],label[n_batch*3+2]) in rules:
             i = logits[n_batch*3+0,label[n_batch*3+0]]
@@ -194,7 +209,24 @@ def PSL_loss(label=None, logits=None):
             i = math.exp(i)/exp_all
             j = math.exp(j)/exp_all
             k = math.exp(k)/exp_all
-            psl_loss = psl_loss + max(0, max(i+j-1)-k)
+            psl_loss = psl_loss + max(0, max(0,i+j-1)-k)
+    
+    return psl_loss
+
+def identify_label(label1 = None, label2 = None):
+    ruleB = [(1,1),(1,0),(0,1)]
+    ruleO = [(0,0)]
+    ruleA = [(2,2),(2,0),(0,2)]
+    #print(label1, label2)
+    if any(nd==(label1, label2) for nd in ruleB):
+        label = 1
+    if any(nd==(label1, label2) for nd in ruleO):
+        label = 0
+    if any(nd==(label1, label2) for nd in ruleA):
+        label = 2
+
+    return label
+
 
 
 ### End

@@ -54,11 +54,11 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                 )
 
 from transformers import AdamW, get_linear_schedule_with_warmup
-#from utils_relation import *
-from utils_relation import glue_compute_metrics as compute_metrics
-from utils_relation import glue_output_modes as output_modes
-from utils_relation import glue_processors as processors
-from utils_relation import glue_convert_examples_to_features as convert_examples_to_features
+
+from transformers import glue_compute_metrics as compute_metrics
+from transformers import glue_output_modes as output_modes
+from transformers import glue_processors as processors
+from transformers import glue_convert_examples_to_features as convert_examples_to_features
 
 logger = logging.getLogger(__name__)
 
@@ -143,7 +143,7 @@ def train(args, train_dataset, model, tokenizer):
         epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
         for step, batch in enumerate(epoch_iterator):
             model.train()
-            batch = tuple(t.to(args.device) for t in batch) 
+            batch = tuple(t.to(args.device) for t in batch)
             inputs = {'input_ids':      batch[0],
                       'attention_mask': batch[1],
                       'labels':         batch[3]}
@@ -179,8 +179,8 @@ def train(args, train_dataset, model, tokenizer):
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
                         results = evaluate(args, model, tokenizer)
-                        '''for key, value in results.items():
-                            tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
+                        for key, value in results.items():
+                            tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
                     tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
                     tb_writer.add_scalar('loss', (tr_loss - logging_loss)/args.logging_steps, global_step)
                     logging_loss = tr_loss

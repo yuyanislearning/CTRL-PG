@@ -25,6 +25,7 @@ import sys
 import copy
 import json
 import numpy as np
+import random
 
 logger = logging.getLogger(__name__)
 
@@ -92,6 +93,39 @@ class Input_Graph_Example(object):
         """Serializes this instance to a JSON string."""
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
+class Input_SB_Example(object):
+    """
+    A single training/test example for simple sequence classification.
+
+    Args:
+        guid: Unique id for the example.
+        text_a: string. The untokenized text of the first sequence. For single
+        sequence tasks, only this sequence must be specified.
+        text_b: (Optional) string. The untokenized text of the second sequence.
+        Only must be specified for sequence pair tasks.
+        label: (Optional) string. The label of the example. This should be
+        specified for train and dev examples, but not for test examples.
+    """
+    def __init__(self, guid, text,  relations, doc_id, sen_id):
+        self.guid = guid
+        self.text = text
+        #self.matrix = matrix
+        self.relations = relations
+        self.doc_id = doc_id
+        self.sen_id = sen_id
+
+    def __repr__(self):
+        return str(self.to_json_string())
+
+    def to_dict(self):
+        """Serializes this instance to a Python dictionary."""
+        output = copy.deepcopy(self.__dict__)
+        return output
+
+    def to_json_string(self):
+        """Serializes this instance to a JSON string."""
+        return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
+
 
 class InputFeatures(object):
     """
@@ -138,11 +172,11 @@ class Input_Graph_Features(object):
         label: Label corresponding to the input
     """
 
-    def __init__(self, input_ids, attention_masks, token_type_ids, matrix, relations, doc_id):
+    def __init__(self, input_ids, attention_masks, token_type_ids,  relations, doc_id):#matrix,
         self.input_ids = input_ids
         self.attention_masks = attention_masks
         self.token_type_ids = token_type_ids
-        self.matrix = matrix
+        #self.matrix = matrix
         self.relations = relations
         self.doc_id = doc_id
 
@@ -158,6 +192,41 @@ class Input_Graph_Features(object):
         """Serializes this instance to a JSON string."""
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
+
+class Input_SB_Features(object):
+    """
+    A single set of features of data.
+
+    Args:
+        input_ids: Indices of input sequence tokens in the vocabulary.
+        attention_mask: Mask to avoid performing attention on padding token indices.
+            Mask values selected in ``[0, 1]``:
+            Usually  ``1`` for tokens that are NOT MASKED, ``0`` for MASKED (padded) tokens.
+        token_type_ids: Segment token indices to indicate first and second portions of the inputs.
+        label: Label corresponding to the input
+    """
+
+    def __init__(self, input_ids, attention_masks, token_type_ids,  relations, doc_id, sen_id, ids):#matrix,
+        self.input_ids = input_ids
+        self.attention_masks = attention_masks
+        self.token_type_ids = token_type_ids
+        #self.matrix = matrix
+        self.relations = relations
+        self.doc_id = doc_id
+        self.sen_id = sen_id
+        self.ids = ids
+
+    def __repr__(self):
+        return str(self.to_json_string())
+
+    def to_dict(self):
+        """Serializes this instance to a Python dictionary."""
+        output = copy.deepcopy(self.__dict__)
+        return output
+
+    def to_json_string(self):
+        """Serializes this instance to a JSON string."""
+        return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
 
 class DataProcessor(object):
@@ -388,8 +457,430 @@ def glue_convert_examples_to_features(examples, tokenizer,
 
     return features
 
+def sb_convert_examples_to_features(examples, tokenizer,
+                                      max_length=64,
+                                      task=None,
+                                      label_list=None,
+                                      output_mode=None,
+                                      pad_on_left=False,
+                                      pad_token=0,
+                                      pad_token_segment_id=0,
+                                      mask_padding_with_zero=True,
+                                      data_aug = 'rules',
+                                      evaluate = False,
+                                      ):#max_node_size=650
+    """
+    Loads a data file into a list of ``InputFeatures``
 
-def graph_convert_examples_to_features(examples, tokenizer,
+    Args:
+        examples: List of ``InputExamples`` or ``tf.data.Dataset`` containing the examples.
+        tokenizer: Instance of a tokenizer that will tokenize the examples
+        max_length: Maximum example length
+        task: GLUE task
+        label_list: List of labels. Can be obtained from the processor using the ``processor.get_labels()`` method
+        output_mode: String indicating the output mode. Either ``regression`` or ``classification``
+        pad_on_left: If set to ``True``, the examples will be padded on the left rather than on the right (default)
+        pad_token: Padding token
+        pad_token_segment_id: The segment ID for the padding token (It is usually 0, but can vary such as for XLNet where it is 4)
+        mask_padding_with_zero: If set to ``True``, the attention mask will be filled by ``1`` for actual values
+            and by ``0`` for padded values. If set to ``False``, inverts it (``1`` for padded values, ``0`` for
+            actual values)
+
+    Returns:
+        If the ``examples`` input is a ``tf.data.Dataset``, will return a ``tf.data.Dataset``
+        containing the task-specific features. If the input is a list of ``InputExamples``, will return
+        a list of task-specific ``InputFeatures`` which can be fed to the model.
+
+    """
+    is_tf_dataset = False
+    if is_tf_available() and isinstance(examples, tf.data.Dataset):
+        is_tf_dataset = True
+    if task is not None:
+        processor = glue_processors[task]()
+        if label_list is None:
+            label_list = processor.get_labels()
+            logger.info("Using label list %s for task %s" % (label_list, task))
+        if output_mode is None:
+            output_mode = glue_output_modes[task]
+            logger.info("Using output mode %s for task %s" % (output_mode, task))
+
+    label_map = {label.lower(): i for i, label in enumerate(label_list)}    
+
+    features = []
+    #max_length_input = 0
+
+    dict_IndenToID = {}
+
+    for (ex_index, example) in enumerate(examples):
+        if ex_index % 10000 == 0:
+            logger.info("Writing example %d" % (ex_index))
+        if is_tf_dataset:
+            example = processor.get_example_from_tensor_dict(example)
+            example = processor.tfds_map(example)
+
+        input_ids, token_type_ids, attention_masks = [], [], []
+
+        # for one document
+        #rel = build_sb_relations(rel = example.relations)
+
+        IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
+        dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID
+        if evaluate: 
+            data_aug = None
+        if data_aug == "reverse":
+            for rel in example.relations:
+                texts = [] 
+                for text in example.text:
+                    texts.extend(text)
+                texts = texts[0:rel[0]] + ['<e1>'] + texts[rel[0]:(rel[1]+1)] + ['</e1>'] + texts[(rel[1]+1):rel[3]] + ['<e2>'] + texts[rel[3]:(rel[4]+1)] + ['</e2>'] + texts[(rel[4]+1):len(texts)]
+                #print("This is texts:",texts)
+                #print("This is rel",rel)
+                
+                texts = ' '.join(texts)
+                inputs = tokenizer.encode_plus(
+                    texts,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+                # The mask has 1 for real tokens and 0 for padding tokens. Only real
+                # tokens are attended to.
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                # print("texts:",texts)
+                # print("label", rel[6])
+                # print("label", reltonum(rel[6]))
+                # print("input_ids", input_id)
+                # print("attention_mask", attention_mask)
+                # print("token_type_id", token_type_id)
+                # print("")
+
+                features.append(
+                    Input_SB_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=reltonum(rel[6]),
+                                doc_id=example.doc_id,
+                                sen_id=example.sen_id,
+                                ids=(IDToIndex[rel[2]], IDToIndex[rel[5]])
+                                ))           
+                texts = [] 
+                for text in example.text:
+                    texts.extend(text)
+                texts = texts[0:rel[0]] + ['<e2>'] + texts[rel[0]:(rel[1]+1)] + ['</e2>'] + texts[(rel[1]+1):rel[3]] + ['<e1>'] + texts[rel[3]:(rel[4]+1)] + ['</e1>'] + texts[(rel[4]+1):len(texts)]
+                #print("This is texts:",texts)
+                #print("This is rel",rel)
+                
+                texts = ' '.join(texts)
+                inputs = tokenizer.encode_plus(
+                    texts,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+                # The mask has 1 for real tokens and 0 for padding tokens. Only real
+                # tokens are attended to.
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                features.append(
+                    Input_SB_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=reverse(reltonum(rel[6])),
+                                doc_id=example.doc_id,
+                                sen_id=example.sen_id,
+                                ids=(IDToIndex[rel[5]], IDToIndex[rel[2]])
+                                )) 
+ 
+        elif data_aug == "rules":
+            BM, OM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+            BM, OM = iter_rule_update(BM, OM, n_iter = 1)
+            
+            texts = []
+            for text in example.text:
+                texts.extend(text)
+            
+            all_x, all_y = np.where(BM>0)
+            for i in range(all_x.size):
+                x1, x2 = pos_dict[all_x[i]]
+                y1, y2 = pos_dict[all_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+                # The mask has 1 for real tokens and 0 for padding tokens. Only real
+                # tokens are attended to.
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                features.append(
+                    Input_SB_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=1,
+                                doc_id=example.doc_id,
+                                sen_id=example.sen_id,
+                                ids=(all_x[i], all_y[i])
+                                ))
+ 
+            AM = BM.transpose()
+            all_x, all_y = np.where(AM>0)
+            for i in range(all_x.size):
+                x1, x2 = pos_dict[all_x[i]]
+                y1, y2 = pos_dict[all_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+                # The mask has 1 for real tokens and 0 for padding tokens. Only real
+                # tokens are attended to.
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                features.append(
+                    Input_SB_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=2,
+                                doc_id=example.doc_id,
+                                sen_id=example.sen_id,
+                                ids=(all_x[i], all_y[i])
+                                ))
+
+            all_x, all_y = np.where(OM>0)
+            for i in range(all_x.size):
+                x1, x2 = pos_dict[all_x[i]]
+                y1, y2 = pos_dict[all_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+                # The mask has 1 for real tokens and 0 for padding tokens. Only real
+                # tokens are attended to.
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                features.append(
+                    Input_SB_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=0,
+                                doc_id=example.doc_id,
+                                sen_id=example.sen_id,
+                                ids=(all_x[i], all_y[i])
+                                ))
+
+
+        else:
+            for rel in example.relations:
+                texts = [] 
+                for text in example.text:
+                    texts.extend(text)
+                texts = texts[0:rel[0]] + ['<e1>'] + texts[rel[0]:(rel[1]+1)] + ['</e1>'] + texts[(rel[1]+1):rel[3]] + ['<e2>'] + texts[rel[3]:(rel[4]+1)] + ['</e2>'] + texts[(rel[4]+1):len(texts)]
+                #print("This is texts:",texts)
+                #print("This is rel",rel)
+                
+                texts = ' '.join(texts)
+                inputs = tokenizer.encode_plus(
+                    texts,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+                # The mask has 1 for real tokens and 0 for padding tokens. Only real
+                # tokens are attended to.
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                features.append(
+                    Input_SB_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=reltonum(rel[6]),
+                                doc_id=example.doc_id,
+                                sen_id=example.sen_id,
+                                ids=(IDToIndex[rel[2]], IDToIndex[rel[5]])
+                                ))
+
+        # if ex_index < 5:
+        #     logger.info("*** Example ***")
+        #     logger.info("guid: %s" % (example.guid))
+        #     #logger.info("node number: %s" % str(len(input_id)))
+        #     logger.info("node dim: %s " % str(np.shape(input_id)))
+
+        # if len(input_ids) > max_length_input: max_length_input = len(input_ids)
+        # logger.info("current length: %s" % (str(len(input_ids))))
+        # logger.info("max length: %s" % (str(max_length_input)))
+        '''
+        max_node_size = 10000
+        padding_size = max_node_size - len(input_ids)
+        if padding_size <0:
+            input_ids = input_ids[0:(max_node_size-1)]
+            attention_masks = attention_masks[0:(max_node_size-1)]
+            token_type_ids = token_type_ids[0:(max_node_size-1)]
+        else:
+            input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
+            attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
+            token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
+        '''
+            #logger.info("text: %s" % (text))
+            #logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
+            #logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
+            #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
+            #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
+
+    return features, dict_IndenToID
+
+
+def graph_convert_examples_to_features2(examples, tokenizer,
                                       max_length=64,
                                       task=None,
                                       label_list=None,
@@ -438,8 +929,8 @@ def graph_convert_examples_to_features(examples, tokenizer,
 
     features = []
     #max_length_input = 0
-    for (ex_index, example) in enumerate(examples):
 
+    for (ex_index, example) in enumerate(examples):
         if ex_index % 10000 == 0:
             logger.info("Writing example %d" % (ex_index))
         if is_tf_dataset:
@@ -448,7 +939,15 @@ def graph_convert_examples_to_features(examples, tokenizer,
 
         input_ids, token_type_ids, attention_masks = [], [], []
 
-        for text in example.text:
+        # for one document
+        emb  = build_PSL_dataset(adj = example.matrix, rel = example.relations,no_rule = True, random_sampling = False, n_rule = 100)
+        texts = [text for text in example.text]
+        for i, j,r in emb:
+            text1 = texts[i].replace('<e>','<e1>')
+            text1 = texts[i].replace('</e>','</e1>')
+            text2 = texts[j].replace('<e>','<e2>')
+            text2 = texts[j].replace('</e>','</e2>')
+            text = text1 + text2
             inputs = tokenizer.encode_plus(
                 text,
                 add_special_tokens=True,
@@ -478,43 +977,92 @@ def graph_convert_examples_to_features(examples, tokenizer,
             assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
             assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
 
-            input_ids.append(input_id)
-            token_type_ids.append(token_type_id)
-            attention_masks.append(attention_mask)
+            
+            features.append(
+                Input_Graph_Features(input_ids=input_id,
+                            attention_masks=attention_mask,
+                            token_type_ids=token_type_id,
+                            #matrix=example.matrix,
+                            relations=r,
+                            doc_id=example.doc_id
+                            ))
+            '''
+            # augment data by reverse e1,e2 and r
+            text1 = texts[i].replace('<e>','<e2>')
+            text2 = texts[j].replace('<e>','<e1>')
+            text1 = texts[i].replace('</e>','</e2>')
+            text2 = texts[j].replace('</e>','</e1>')
+            text = text1 + text2
+            inputs = tokenizer.encode_plus(
+                text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
 
-        relations = []
-        for node1, node2, label in example.relations:
-            relations.append([node1, node2, label_map[label.lower()]])
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+            # The mask has 1 for real tokens and 0 for padding tokens. Only real
+            # tokens are attended to.
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            
+            features.append(
+                Input_Graph_Features(input_ids=input_id,
+                            attention_masks=attention_mask,
+                            token_type_ids=token_type_id,
+                            #matrix=example.matrix,
+                            relations=reverse(r),
+                            doc_id=example.doc_id
+                            ))
+            '''
+        #relations = emb
+        #print("emb",emb)
 
         # if len(input_ids) > max_length_input: max_length_input = len(input_ids)
         # logger.info("current length: %s" % (str(len(input_ids))))
         # logger.info("max length: %s" % (str(max_length_input)))
-
+        '''
+        max_node_size = 10000
         padding_size = max_node_size - len(input_ids)
-        input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
-        attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
-        token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
-
+        if padding_size <0:
+            input_ids = input_ids[0:(max_node_size-1)]
+            attention_masks = attention_masks[0:(max_node_size-1)]
+            token_type_ids = token_type_ids[0:(max_node_size-1)]
+        else:
+            input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
+            attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
+            token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
+        '''
         if ex_index < 5:
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
             logger.info("node number: %s" % str(len(input_ids)))
             logger.info("node dim: %s " % str(np.shape(input_ids)))
-            logger.info("text: %s" % (text))
-            logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
-            logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
+            #logger.info("text: %s" % (text))
+            #logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
+            #logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
 
 
-        features.append(
-                Input_Graph_Features(input_ids=input_ids,
-                              attention_masks=attention_masks,
-                              token_type_ids=token_type_ids,
-                              matrix=example.matrix,
-                              relations=relations,
-                              doc_id=example.doc_id
-                              ))
+
 
     # if is_tf_available() and is_tf_dataset:
     #     def gen():
@@ -534,6 +1082,158 @@ def graph_convert_examples_to_features(examples, tokenizer,
     #           'token_type_ids': tf.TensorShape([None])},
     #          tf.TensorShape([])))
 
+    return features
+
+def graph_convert_examples_to_features(examples, tokenizer,
+                                      max_length=64,
+                                      task=None,
+                                      label_list=None,
+                                      output_mode=None,
+                                      pad_on_left=False,
+                                      pad_token=0,
+                                      pad_token_segment_id=0,
+                                      mask_padding_with_zero=True,
+                                      max_node_size=650):
+    """
+    Loads a data file into a list of ``InputFeatures``
+    Args:
+        examples: List of ``InputExamples`` or ``tf.data.Dataset`` containing the examples.
+        tokenizer: Instance of a tokenizer that will tokenize the examples
+        max_length: Maximum example length
+        task: GLUE task
+        label_list: List of labels. Can be obtained from the processor using the ``processor.get_labels()`` method
+        output_mode: String indicating the output mode. Either ``regression`` or ``classification``
+        pad_on_left: If set to ``True``, the examples will be padded on the left rather than on the right (default)
+        pad_token: Padding token
+        pad_token_segment_id: The segment ID for the padding token (It is usually 0, but can vary such as for XLNet where it is 4)
+        mask_padding_with_zero: If set to ``True``, the attention mask will be filled by ``1`` for actual values
+            and by ``0`` for padded values. If set to ``False``, inverts it (``1`` for padded values, ``0`` for
+            actual values)
+    Returns:
+        If the ``examples`` input is a ``tf.data.Dataset``, will return a ``tf.data.Dataset``
+        containing the task-specific features. If the input is a list of ``InputExamples``, will return
+        a list of task-specific ``InputFeatures`` which can be fed to the model.
+    """
+    is_tf_dataset = False
+    if is_tf_available() and isinstance(examples, tf.data.Dataset):
+        is_tf_dataset = True
+    if task is not None:
+        processor = glue_processors[task]()
+        if label_list is None:
+            label_list = processor.get_labels()
+            logger.info("Using label list %s for task %s" % (label_list, task))
+        if output_mode is None:
+            output_mode = glue_output_modes[task]
+            logger.info("Using output mode %s for task %s" % (output_mode, task))
+
+    label_map = {label.lower(): i for i, label in enumerate(label_list)}    
+
+    features = []
+    #max_length_input = 0
+    print("examples", len(examples))
+    
+    for (ex_index, example) in enumerate(examples):
+
+        if ex_index % 10000 == 0:
+            logger.info("Writing example %d" % (ex_index))
+        if is_tf_dataset:
+            example = processor.get_example_from_tensor_dict(example)
+            example = processor.tfds_map(example)
+
+        input_ids, token_type_ids, attention_masks = [], [], []
+        emb  = build_eval_dataset( rel = example.relations)
+        texts = [text for text in example.text]
+        print("emb", len(emb))
+        for i, j,r in emb:
+            text1 = texts[i].replace('<e>','<e1>')
+            text2 = texts[j].replace('<e>','<e2>')
+            text1 = texts[i].replace('</e>','</e1>')
+            text2 = texts[j].replace('</e>','</e2>')
+            text = text1 + text2
+            inputs = tokenizer.encode_plus(
+                text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+
+
+            # The mask has 1 for real tokens and 0 for padding tokens. Only real
+            # tokens are attended to.
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+            features.append(
+                    Input_Graph_Features(input_ids=input_id,
+                                attention_masks=attention_mask,
+                                token_type_ids=token_type_id,
+                                #matrix=example.matrix,
+                                relations=r,
+                                doc_id=example.doc_id
+                                ))
+            '''
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)'''
+
+        #relations = emb
+
+        # if len(input_ids) > max_length_input: max_length_input = len(input_ids)
+        # logger.info("current length: %s" % (str(len(input_ids))))
+        # logger.info("max length: %s" % (str(max_length_input)))
+        '''
+        padding_size = max_node_size - len(input_ids)
+        input_ids = input_ids + ([[pad_token] * max_length] * padding_size)
+        attention_masks = attention_masks + ([[0 if mask_padding_with_zero else 1] * max_length] * padding_size)
+        token_type_ids = token_type_ids + ([[pad_token_segment_id] * max_length] * padding_size)
+        '''
+        if ex_index < 5:
+            logger.info("*** Example ***")
+            logger.info("guid: %s" % (example.guid))
+            #logger.info("node number: %s" % str(len(input_ids)))
+            #logger.info("node dim: %s " % str(np.shape(input_ids)))
+            logger.info("text: %s" % (text))
+                #logger.info("input_ids: %s" % " ".join([str(x) for x in input_id]))
+                #logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
+                #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
+                #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
+
+
+
+
+    # if is_tf_available() and is_tf_dataset:
+    #     def gen():
+    #         for ex in features:
+    #             yield  ({'input_ids': ex.input_ids,
+    #                      'attention_mask': ex.attention_mask,
+    #                      'token_type_ids': ex.token_type_ids},
+    #                     ex.label)
+
+    #     return tf.data.Dataset.from_generator(gen,
+    #         ({'input_ids': tf.int32,
+    #           'attention_mask': tf.int32,
+    #           'token_type_ids': tf.int32},
+    #          tf.int64),
+    #         ({'input_ids': tf.TensorShape([None]),
+    #           'attention_mask': tf.TensorShape([None]),
+    #           'token_type_ids': tf.TensorShape([None])},
+    #          tf.TensorShape([])))
+    #print("length of features", len(features))
     return features
 
 
@@ -981,6 +1681,274 @@ class I2b2_Graph_Processor(DataProcessor):
         """Reads a tab separated value file."""
         return json.load(open(path))
 
+class I2b2_SB_Processor(DataProcessor):
+    """Processor for the i2b2-m data set (GLUE version)."""
+
+
+    def get_train_examples(self, data_dir):
+        """See base class."""
+        return self._create_examples(
+            self._read_json(os.path.join(data_dir, "train.json")), "train")
+
+    def get_dev_examples(self, data_dir):
+        """See base class."""
+        return self._create_examples(
+            self._read_json(os.path.join(data_dir, "dev.json")), "dev")
+
+    def get_labels(self):
+        """See base class."""
+        return ["overlap", "before", "after"]
+
+    def _create_examples(self, lines, set_type):
+        """Creates examples for the training and dev sets."""
+        examples = []
+        for (key, val) in lines.items():
+
+            guid = "%s-%s" % (set_type, int(key))
+            for skey, sval in val.items():
+                # try:
+                text = sval['text']
+                relations = sval['relation']
+                if len(relations)==0:
+                    continue
+                doc_id = int(key)
+                sen_id = skey
+                # except:
+                #     print(lines)
+                #     print("*****************************")
+                examples.append(
+                    Input_SB_Example(guid=guid, text=text,  relations=relations, doc_id=doc_id, sen_id=sen_id))
+        return examples
+
+    def _read_json(self, path):
+        """Reads a tab separated value file."""
+        return json.load(open(path))
+
+
+def build_PSL_dataset(adj = None, rel = None, no_rule = True ,random_sampling = False, n_rule = 100):
+    emb =[]
+    if no_rule:
+        for [j,k,r] in rel:
+            if r=="OVERLAP":
+                emb.append([j,k,0])
+            if r=="BEFORE":
+                emb.append([j,k,1])
+            if r=="OVERLAP":
+                emb.append([j,k,2])
+        return emb
+    # convert origin matrix to before matrix and after matrix
+    # augment data from transivity rules
+    n = len(adj)
+    BM = np.zeros((n,n))
+    OM = np.zeros((n,n))
+    #print('rel',rel)
+    for [j,k,r] in rel:
+        if r=="OVERLAP":
+            OM[j,k]=1
+        if r=="BEFORE":
+            BM[j,k]=1
+        if r=="OVERLAP":
+            BM[k,j]=1
+    #print("Before Before:", 2*len(np.where(BM>0)[0]))
+    #print("Before Overlap:", len(np.where(OM>0)[0]))
+    BM, OM = iter_rule_update(BM, OM, n_iter = 5)
+    #dense_adj = BM+OM+BM.transpose()
+    #dense_adj[np.where(dense_adj>0)] = 1
+    #print("Updated Before:", 2*len(np.where(BM>0)[0]))
+    #print("UPdated Overlap:", len(np.where(OM>0)[0]))
+    #B_link = len(np.where(BM>0)[0])
+    #O_link = len(np.where(OM>0)[0])
+    #print("connectivity: ", (B_link+O_link)/n/(n-1))
+
+    # construct all rules tensor
+    BBB = rule_tensor(BM, BM)
+    BOB = rule_tensor(BM, OM)
+    OBB = rule_tensor(OM, BM)
+    OOO = rule_tensor(OM, OM)
+    All_rules = BBB+BOB+OBB+OOO
+    all_x, all_y, all_z = np.where(All_rules>0)
+    print("rules in origin data:", all_x.shape)
+    
+
+    for [j,k,r] in rel:
+        # for no rules found
+        if np.where(all_x==j)[0].shape[0]==0 or np.where(all_y==k)[0].shape[0]==0 or len(set(np.where(all_x==j)[0]).intersection(set(np.where(all_y==k)[0])))==0:
+            continue
+            '''
+            #emb.append(torch.tensor([j,k]))
+            emb.extend([torch.tensor([j,k]),torch.tensor([j,k]),torch.tensor([j,k])])
+            emb.extend([torch.tensor([k,j]),torch.tensor([k,j]),torch.tensor([k,j])])
+            if r ==0:
+                #labels.append(r)
+                labels.extend([r,r,r])
+                labels.extend([r,r,r])
+            if r ==1:
+                #labels.append(r)
+                labels.extend([r,r,r])
+                labels.extend([2,2,2])
+            if r ==2:
+                #labels.append(r)
+                labels.extend([r,r,r])
+                labels.extend([1,1,1])
+            continue'''
+        if r==2:
+            j,k = k,j
+        # sample from rules
+        rule_exist = set(np.where(all_x==j)[0]).intersection(set(np.where(all_y==k)[0]))
+        common_neigh = all_z[random.sample(rule_exist, 1)[0]]
+        # build PSL dataset, and their sysmetric version
+        '''
+        rules encoding:
+        BBB:0, AAA:1, BOB:2, AOA:3, OBB:4, OAA:5, OOO:6, None:7
+        '''
+        if BBB[j,k,common_neigh]>0:
+            #emb.append([j,k,1])
+            #emb.append([k,j,2])
+            emb.extend([[j,k,1],[k,common_neigh,1]])
+            emb.extend([[k,j,2],[common_neigh,k,2]])
+            #labels.append(1)
+        if BOB[j,k,common_neigh]>0:
+            #emb.append([j,k, 1])
+            #emb.append([k,j,2])
+            emb.extend([[j,k,1],[k,common_neigh,0]])
+            emb.extend([[k,j,2],[common_neigh,k,0]])
+        if OBB[j,k,common_neigh]>0:
+            #emb.append([j,k,0])
+            #emb.append([k,j,0])
+            emb.extend([[j,k,0],[k,common_neigh,1]])
+            emb.extend([[k,j,0],[common_neigh,k,2]])
+        if OOO[j,k,common_neigh]>0:
+            #emb.append([j,k, 0])
+            #emb.append([k,j,0])
+            emb.extend([[j,k,0],[k,common_neigh,0]])
+            emb.extend([[k,j,0],[common_neigh,k,0]])
+
+    return emb
+
+def build_eval_dataset( rel = None):
+    emb = []
+    for [j,k,r] in rel:
+        if r == 'OVERLAP':
+            emb.append([j,k,0])
+        if r == 'BEFORE':
+            emb.append([j,k,1])
+        if r == 'AFTER':
+            emb.append([j,k,2])
+    return emb
+
+def build_rules(rule = None, rule_tensor = None, n_rule = None):
+    all_x, all_y, all_z = np.where(rule_tensor>0)
+    n = all_x.shape[0]
+    if n==0:
+        return [],[]
+    rules = [random.randint(0,n-1) for _ in range(n_rule)]
+    all_x, all_y, all_z = all_x[rules], all_y[rules], all_z[rules]
+    emb = []
+    labels = []
+    #TODO: think of vector way
+    for i in range(n_rule):
+        x,y,z = all_x[i],all_y[i], all_z[i]
+        emb.extend([torch.tensor([x,y]),torch.tensor([y,z]),torch.tensor([x,z])])
+        emb.extend([torch.tensor([y,x]),torch.tensor([z,y]),torch.tensor([z,x])])
+
+    if rule == 'BBB':
+        for i in range(n_rule):
+            labels.extend([1,1,1])
+            labels.extend([2,2,2])
+    if rule == 'BOB':
+        for i in range(n_rule):
+            labels.extend([1,0,1])
+            labels.extend([2,0,2])
+    if rule == 'OBB':
+        for i in range(n_rule):
+            labels.extend([0,1,1])
+            labels.extend([0,2,2])            
+    if rule == 'OOO':
+        for i in range(n_rule):
+            labels.extend([0,0,0])
+            labels.extend([0,0,0])
+    
+    return emb, labels
+
+
+def iter_rule_update(BM, OM, n_iter = 3):
+    '''
+    iteratively find the ground truth by applying rules
+    rules: 
+    if Bij Ojk, then Bik
+    if Oij Bjk, then Bik
+    if Bij Bjk, then Bik
+    if Oij Ojk, then Oik
+    if Oij, then Oji
+    '''
+    # first complete OM
+    OM = OM + OM.transpose()
+    OM = OM + np.matmul(OM, OM)
+    # iteratively update BM
+    for _ in range(n_iter):
+        BM = BM + np.matmul(BM, OM)
+        BM = BM + np.matmul(OM, BM)
+        BM = BM + np.matmul(BM, BM)
+    # normalize
+    BM[np.where(BM>0)] = 1
+    OM[np.where(OM>0)] = 1
+    return BM, OM
+
+
+def rule_tensor(A, B):
+    '''
+    Cijk = Aij * Bjk
+    '''
+    n = A.shape[0]
+    A = A.reshape(n,n,1)
+    B = B.reshape(1,n,n)
+    C = A*B
+    
+    return C
+
+def reverse(r):
+    # reverse TLINK
+    if r == 0:
+        return 0
+    if r==1:
+        return 2
+    if r==2:
+        return 1
+
+def reltonum(r):
+    # convert rel to num
+    if r == 'OVERLAP':
+        return 0
+    if r=="AFTER":
+        return 2
+    if r=="BEFORE":
+        return 1
+
+def IDIndexDic(rel = None):
+    id_list = list(set([r[2] for r in rel]+[r[5] for r in rel]))
+    d = {}
+    rd = {}
+    for i, iid in enumerate(id_list):
+        d[iid] = i
+        rd[i] = iid
+    return d,rd
+
+def build_BO(rel = None, IDToIndex= None):
+    n = len(IDToIndex)
+    BM = np.zeros((n,n))
+    OM = np.zeros((n,n))
+    pos_dict = {}
+    for r in rel:
+        pos_dict[IDToIndex[r[2]]] = (r[0],r[1])
+        pos_dict[IDToIndex[r[5]]] = (r[3],r[4])
+        if r[6] == "OVERLAP":
+            OM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+        if r[6] == "BEFORE":
+            BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+        if r[6] == "AFTER":
+            BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
+    return BM, OM, pos_dict
+
 glue_tasks_num_labels = {
     "cola": 2,
     "mnli": 3,
@@ -1007,7 +1975,8 @@ glue_processors = {
     "rte": RteProcessor,
     "wnli": WnliProcessor,
     "i2b2-m": I2b2Processor,
-    "i2b2-g": I2b2_Graph_Processor,
+    #"i2b2-g": I2b2_Graph_Processor,
+    'i2b2-g': I2b2_SB_Processor,
 }
 
 glue_output_modes = {
@@ -1056,11 +2025,17 @@ if _has_sklearn:
     def p_r_f1(preds, labels):
         f1 = f1_score(y_true=labels, y_pred=preds, average='micro')
         p,r,_,_ = prf(y_true=labels, y_pred=preds, average='micro')
-        #conf = confusion_matrix(labels, preds)
+        f2 = f1_score(y_true=labels, y_pred=preds, average='macro')
+        p2,r2,_,_ = prf(y_true=labels, y_pred=preds, average='macro')
+        conf = confusion_matrix(labels, preds)
         return {
-            "precision": p,
-            "recall": r,
-            "f1": f1
+            "micro-precision": p,
+            "micro-recall": r,
+            "micro-f1": f1,
+            "macro-precision": p2,
+            "macro-recall": r2,
+            "macro-f1": f2,
+            "conf": conf
         }
 
 

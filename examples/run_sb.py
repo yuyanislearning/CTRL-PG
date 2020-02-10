@@ -70,8 +70,7 @@ from utils_relation import glue_compute_metrics as compute_metrics
 from utils_relation import glue_output_modes as output_modes
 from utils_relation import glue_processors as processors
 from utils_relation import graph_convert_examples_to_features as convert_examples_to_features
-from utils_relation import graph_convert_examples_to_features2 as convert_examples_to_features2
-from utils_relation import sb_convert_examples_to_features as sb_convert_examples_to_features
+from utils_relation import sb_convert_examples_to_features as convert_examples_to_features2
 
 logger = logging.getLogger(__name__)
 
@@ -107,27 +106,34 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
-    results = evaluate(args, eval_dataset, model, classifier, tokenizer)#conv_graph, 
+    #results = evaluate(args, eval_dataset, model, classifier, tokenizer)#conv_graph, 
 
-    #all_input_ids, all_attention_masks, all_token_type_ids,relation_lists=dataset#adjacency_matrixs,
-    #print()
-
+    all_input_ids, all_attention_masks, all_token_type_ids,adjacency_matrixs,relation_lists=dataset
+    #print('training dataset: ',len(train_dataset), len(train_dataset[0]), train_dataset[0][0].size())
+    #(181, 3, [650, 128])
+    #(doc, (input_msk, att_msk, token_type), [node, seq_len])
+    #print('adj dataset: ',len(adjacency_matrixs), len(adjacency_matrixs[0]))
+    #(181,[[132,132]])
+    #print('relation dataset: ',len(relation_lists), len(relation_lists[0]), len(relation_lists[0][0]))
+    #(181, 154(#relations), 3)
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
-    train_sampler = RandomSampler(dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
-    train_dataloader = DataLoader(dataset, sampler=train_sampler, batch_size=args.train_batch_size) # sampler=train_sampler,
+    #train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
+    #train_dataloader = DataLoader(train_dataset, shuffle=False, batch_size=1) # sampler=train_sampler,
     #train_adjacency_matrix = DataLoader(adjacency_matrixs, sampler=train_sampler, batch_size=1)
     #train_relation_list = DataLoader(relation_lists, sampler=train_sampler, batch_size=1)
 
+    # each relation list: [(0,1,overlap), (1,2,before), (7,8,after)]
+    # each adjacency matrix: [[1,1,0,0],[1,0,0,0],[0,0,1,0],[0,0,0,1]]
     # TODO: read adjacency matrix and relation list and then using the same sampler to shuffle it
 
-    #t_total = 10000
-    
+    t_total = 10000
+    '''
     if args.max_steps > 0:
         t_total = args.max_steps
         args.num_train_epochs = args.max_steps // (len(train_dataloader) // args.gradient_accumulation_steps) + 1
     else:
         t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
-    
+    '''
     #for n,p in model.named_parameters(): print(n)
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
@@ -180,26 +186,29 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
         #p.requires_grad = False
     model.zero_grad()
     classifier.zero_grad()
-    train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=args.local_rank not in [-1, 0])#args.num_train_epochs
+    #conv_graph.zero_grad()
+    #train_iterator = trange(int(1), desc="Epoch", disable=args.local_rank not in [-1, 0])#args.num_train_epochs
     set_seed(args)  # Added here for reproductibility (even between python 2 and 3)
-    for _ in train_iterator:
-        epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
-        for step, batch in enumerate(epoch_iterator):
+    for _ in range(1):
+        #epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
+        for step in range(181):
             model.train()  
+            #conv_graph.train()  
             classifier.train()  
 
-            input_id, attention_mask, token_type_id,relation=batch[0].cuda(), batch[1].cuda(), batch[2].cuda(), batch[3].cuda()
-            label = relation
                       
             #batch = tuple(t.to(args.device) for t in batch)
             #batch = change_shape(batch)
 
-            #PSL_dataset = build_super_dataset(rel = relation_lists[step], batch = (all_input_ids[step], all_attention_masks[step], all_token_type_ids[step]))
+            PSL_dataset = build_super_dataset(rel = relation_lists[step], batch = (all_input_ids[step], all_attention_masks[step], all_token_type_ids[step]))
+            #print("relations: ",relation_lists[step])
             #PSL_dataset, dense_adj = build_PSL_dataset(adj = np.array(adjacency_matrixs[step]), rel = relation_lists[step])
-            #relation_train_sampler = SequentialSampler(PSL_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
-            #relation_train_dataloader = DataLoader(PSL_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size*4)
-            #relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
-            '''
+            # relation_dataset = build_relation_dataset(relation_lists[step]) #train_relation_lists
+            # (batch_size,[e1,e2]), (batch_size, rel)
+            relation_train_sampler = SequentialSampler(PSL_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
+            relation_train_dataloader = DataLoader(PSL_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size*4)
+            relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
+
             for step2, rel_batch in enumerate(relation_epoch_iterator):
                 #adjacency_matrix = dense_adj
                 adjacency_matrix = np.array(adjacency_matrixs[step])
@@ -217,92 +226,90 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
                 #adjacency_matrix = adjacency_matrix[neighbors, :][:, neighbors]
                 # change batch to be size of ( node_size,3, seq_len)
                 # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
-                '''
+
                 #mini_batch = rel_batch[2]#[neighbors]
                 #print("batch: ", len(mini_batch))
                 #print("adj, ", adjacency_matrix.shape)
                 #print("rel_batch: ", rel_batch[0].size())
                 # print('after batch size: ', batch.size() )
-            inputs = {'input_ids': input_id, 
-                    'attention_mask': attention_mask}
-
-            if args.model_type != 'distilbert':
-                inputs['token_type_ids'] = token_type_id if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
+                inputs = {'input_ids': rel_batch[2], 
+                        'attention_mask': rel_batch[3]}
+ 
+                if args.model_type != 'distilbert':
+                    inputs['token_type_ids'] = rel_batch[4] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
                 #print("inputs", inputs)
-            node_embeddings = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+                node_embeddings = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
                 #output = output.detach().cpu()
-            #print(node_embeddings.size())
-            #print(label.size())
-            inputs = {#'adjacency_matrix':  adjacency_matrix,
-                        'node_embeddings' : node_embeddings,
-                        #'idx': rel_batch[0],
-                        'label': label,
-                        'cal_hidden_loss': False}
 
-            outputs = classifier(**inputs)
-            '''
+                inputs = {'adjacency_matrix':  adjacency_matrix,
+                        'node_embeddings' : node_embeddings,
+                        'idx': rel_batch[0],
+                        'label': rel_batch[1]}
+
+                outputs = classifier(**inputs)
+                '''
                 for name, param in classifier.named_parameters():
                     if name == 'Graphmodel.weight':# or name == 'classifier.weight':
                         print('Graph: ', param[0][0])
                     if name == 'classifier.weight':
                         print("classifier: ", param[0][0])
-            '''
-            loss,_ = outputs  # model outputs are always tuple in transformers (see doc)
-            
+                '''
+                loss,_ = outputs  # model outputs are always tuple in transformers (see doc)
+                
 
-            if args.n_gpu > 1:
-                loss = loss.mean() # mean() to average on multi-gpu parallel training
-            if args.gradient_accumulation_steps > 1:
-                loss = loss / args.gradient_accumulation_steps
+                if args.n_gpu > 1:
+                    loss = loss.mean() # mean() to average on multi-gpu parallel training
+                if args.gradient_accumulation_steps > 1:
+                    loss = loss / args.gradient_accumulation_steps
 
-            if args.fp16:
-                with amp.scale_loss(loss, optimizer) as scaled_loss:
-                    scaled_loss.backward()
-            else:
-                loss.backward()
-
-
-            tr_loss += loss.item()
-
-            if (step + 1) % args.gradient_accumulation_steps == 0:
                 if args.fp16:
-                    torch.nn.utils.clip_grad_norm_(amp.master_params(optimizer), args.max_grad_norm)
+                    with amp.scale_loss(loss, optimizer) as scaled_loss:
+                        scaled_loss.backward()
                 else:
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
-                    torch.nn.utils.clip_grad_norm_(classifier.parameters(), args.max_grad_norm)
-                    #torch.nn.utils.clip_grad_norm_(conv_graph.parameters(), args.max_grad_norm)
+                    loss.backward()
 
-                optimizer.step()
-                scheduler.step()  # Update learning rate schedule
-                model.zero_grad()                    
-                classifier.zero_grad()
-                #conv_graph.zero_grad()
-                global_step += 1
 
-                if args.do_eval and args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
-                    # Log metrics
-                    if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                        #logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-                        results = evaluate(args, eval_dataset, model, classifier, tokenizer)#conv_graph, 
-                        #for key, value in results.items():
-                            #tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
-                    tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
-                    tb_writer.add_scalar('loss', (tr_loss - logging_loss)/args.logging_steps, global_step)
-                    logging_loss = tr_loss
+                tr_loss += loss.item()
 
-                if args.local_rank in [-1, 0] and args.save_steps > 0 and global_step % args.save_steps == 0:
-                    # Save model checkpoint
-                    output_dir = os.path.join(args.output_dir, 'checkpoint-{}'.format(global_step))
-                    if not os.path.exists(output_dir):
-                        os.makedirs(output_dir)
-                    model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
-                    model_to_save.save_pretrained(output_dir)
-                    torch.save(args, os.path.join(output_dir, 'training_args.bin'))
-                    logger.info("Saving model checkpoint to %s", output_dir)
+                if (step2 + 1) % args.gradient_accumulation_steps == 0:
+                    if args.fp16:
+                        torch.nn.utils.clip_grad_norm_(amp.master_params(optimizer), args.max_grad_norm)
+                    else:
+                        torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
+                        torch.nn.utils.clip_grad_norm_(classifier.parameters(), args.max_grad_norm)
+                        #torch.nn.utils.clip_grad_norm_(conv_graph.parameters(), args.max_grad_norm)
 
-            if args.max_steps > 0 and global_step > args.max_steps:
-                epoch_iterator.close()
-                break
+                    optimizer.step()
+                    scheduler.step()  # Update learning rate schedule
+                    model.zero_grad()                    
+                    classifier.zero_grad()
+                    #conv_graph.zero_grad()
+                    global_step += 1
+
+                    if args.do_eval and args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
+                        # Log metrics
+                        if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
+                            #logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+                            results = evaluate(args, eval_dataset, model, classifier, tokenizer)#conv_graph, 
+                            #for key, value in results.items():
+                                #tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
+                        tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
+                        tb_writer.add_scalar('loss', (tr_loss - logging_loss)/args.logging_steps, global_step)
+                        logging_loss = tr_loss
+
+                    if args.local_rank in [-1, 0] and args.save_steps > 0 and global_step % args.save_steps == 0:
+                        # Save model checkpoint
+                        output_dir = os.path.join(args.output_dir, 'checkpoint-{}'.format(global_step))
+                        if not os.path.exists(output_dir):
+                            os.makedirs(output_dir)
+                        model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
+                        model_to_save.save_pretrained(output_dir)
+                        torch.save(args, os.path.join(output_dir, 'training_args.bin'))
+                        logger.info("Saving model checkpoint to %s", output_dir)
+
+                if args.max_steps > 0 and global_step > args.max_steps:
+                    epoch_iterator.close()
+                    break
         if args.max_steps > 0 and global_step > args.max_steps:
             # TODO: early stopping
             train_iterator.close()
@@ -320,10 +327,8 @@ def train(args, dataset, model, classifier,  tokenizer, eval_dataset=None):#conv
 def evaluate(args, dataset, model, classifier,  tokenizer, prefix=""):#conv_gragh
     """ evaluate the model """
     results={}
-    
     eval_output_dir = args.output_dir
-    #all_input_ids, all_attention_masks, all_token_type_ids,relation_lists=dataset
-    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",dataset)
+    all_input_ids, all_attention_masks, all_token_type_ids,adjacency_matrixs,relation_lists=dataset
     #eval_dataset,adjacency_matrixs,relation_lists=dataset
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     #eval_sampler = RandomSampler(eval_dataset) if args.local_rank == -1 else DistributedSampler(eval_dataset)
@@ -347,49 +352,52 @@ def evaluate(args, dataset, model, classifier,  tokenizer, prefix=""):#conv_grag
     nb_eval_steps = 0
     preds = None
     out_label_ids = None
-    
-    model.eval()
-    classifier.eval()
-    #conv_graph.eval()
-    # change batch to be size of ( node_size,3, seq_len)
-    # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
+    for step in range(len(relation_lists)):
         
-    #PSL_dataset = build_super_dataset(rel = relation_lists[step], batch = (all_input_ids[step], all_attention_masks[step], all_token_type_ids[step]))
-    relation_train_sampler = SequentialSampler(dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
-    relation_train_dataloader = DataLoader(dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size)
-    relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
-    
-    outputs = []
-    with torch.no_grad():
-        for step2, rel_batch in enumerate(relation_epoch_iterator):
-            #adjacency_matrix = np.array(adjacency_matrixs[step])
-            #rel_batch.cuda()
+        model.eval()
+        classifier.eval()
+        #conv_graph.eval()
+        # change batch to be size of ( node_size,3, seq_len)
+        # print('before batch size: ',len(batch),len(batch[0]), batch[0][0].size() )
+        
 
-            #mini_batch = rel_batch[2]#[neighbors]
-            inputs = {'input_ids': rel_batch[0].cuda(), 
-                    'attention_mask': rel_batch[1].cuda()}
+        
+        PSL_dataset = build_super_dataset(rel = relation_lists[step], batch = (all_input_ids[step], all_attention_masks[step], all_token_type_ids[step]))
+        relation_train_sampler = SequentialSampler(PSL_dataset) if args.local_rank == -1 else DistributedSampler(relation_dataset)
+        relation_train_dataloader = DataLoader(PSL_dataset, sampler=relation_train_sampler, batch_size=args.train_batch_size*4)
+        relation_epoch_iterator = tqdm(relation_train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
+        
+        outputs = []
+        with torch.no_grad():
+            for step2, rel_batch in enumerate(relation_epoch_iterator):
+                adjacency_matrix = np.array(adjacency_matrixs[step])
+                rel_batch[0].cuda()
 
-            if args.model_type != 'distilbert':
-                inputs['token_type_ids'] = rel_batch[2].cuda() if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
-            node_embeddings = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
+                #mini_batch = rel_batch[2]#[neighbors]
+                inputs = {'input_ids': rel_batch[2], 
+                        'attention_mask': rel_batch[3]}
 
-            inputs = {#'adjacency_matrix':  adjacency_matrix,
-                    'node_embeddings' : node_embeddings,
-                    #'idx': rel_batch[0],
-                    'label': rel_batch[3].cuda(),
-                    'cal_hidden_loss': False}
+                if args.model_type != 'distilbert':
+                    inputs['token_type_ids'] = rel_batch[4] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids'''
+                node_embeddings = model(**inputs) # outputs should be a floattensor list which are nodes embeddings
 
-            outputs = classifier(**inputs)
-            tmp_eval_loss,logits = outputs  
-            eval_loss += tmp_eval_loss.mean().item()
+                inputs = {'adjacency_matrix':  adjacency_matrix,
+                        'node_embeddings' : node_embeddings,
+                        'idx': rel_batch[0],
+                        'label': rel_batch[1],
+                        'cal_hidden_loss': False}
 
-            nb_eval_steps += 1
-            if preds is None:
-                preds = logits.detach().cpu().numpy()
-                out_label_ids = inputs['label'].detach().cpu().numpy()
-            else:
-                preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
-                out_label_ids = np.append(out_label_ids, inputs['label'].detach().cpu().numpy(), axis=0)
+                outputs = classifier(**inputs)
+                tmp_eval_loss,logits = outputs  
+                eval_loss += tmp_eval_loss.mean().item()
+
+                nb_eval_steps += 1
+                if preds is None:
+                    preds = logits.detach().cpu().numpy()
+                    out_label_ids = inputs['label'].detach().cpu().numpy()
+                else:
+                    preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+                    out_label_ids = np.append(out_label_ids, inputs['label'].detach().cpu().numpy(), axis=0)
 
     eval_loss = eval_loss / nb_eval_steps
     preds_max = np.argmax(preds, axis=1)
@@ -495,8 +503,9 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         label_list = processor.get_labels()
 
         examples = processor.get_dev_examples(args.data_dir) if evaluate else processor.get_train_examples(args.data_dir)
+        print()
         if evaluate:
-            features = sb_convert_examples_to_features(examples,
+            features = convert_examples_to_features(examples,
                                         tokenizer,
                                         label_list=label_list,
                                         max_length=args.max_seq_length,
@@ -506,7 +515,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
                                         pad_token_segment_id=4 if args.model_type in ['xlnet'] else 0,
             )
         else:
-            features = sb_convert_examples_to_features(examples,
+            features = convert_examples_to_features2(examples,
                                                     tokenizer,
                                                     label_list=label_list,
                                                     max_length=args.max_seq_length,
@@ -533,25 +542,11 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     #all_input_ids = [[f for f in feature.input_ids] for feature in features]
     #all_attention_mask = [[f for f in feature.attention_masks] for feature in features]
     #all_token_type_ids = [[f for f in feature.token_type_ids] for feature in features]
-    #print("length of features", len(features))
-    all_input_ids = []
-    for feature in features:
-        all_input_ids.append(feature.input_ids)
-    all_input_ids = torch.tensor(all_input_ids).cuda()
-    all_attention_masks = []
-    for feature in features:
-        all_attention_masks.append(feature.attention_masks)
-    all_attention_masks = torch.tensor(all_attention_masks).cuda()
-    all_token_type_ids = []
-    for feature in features:
-        all_token_type_ids.append(feature.token_type_ids)
-    all_token_type_ids = torch.tensor(all_token_type_ids).cuda()
-    
-    all_relations = []
-    for feature in features:
-        all_relations.append(feature.relations)
-    all_relations = torch.tensor(all_relations).cuda()
-  
+    all_input_ids = [feature.input_ids for feature in features]
+    all_attention_mask = [ feature.attention_masks for feature in features]
+    all_token_type_ids = [feature.token_type_ids for feature in features]
+    all_matrix = [feature.matrix for feature in features]
+    all_relation = [feature.relations for feature in features]
     '''
     print(all_relation[0])
     for i in range(int(len(all_relation[0])/2)):
@@ -559,18 +554,18 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     exit()'''
 
     logger.info("all_input_ids: %s" % str(len(all_input_ids[0])))
-    logger.info("all_attention_mask: %s" % str(len(all_attention_masks[0])))
+    logger.info("all_attention_mask: %s" % str(len(all_attention_mask[0])))
     logger.info("all_token_type_ids: %s" % str(len(all_token_type_ids[0])))
 
-    #logger.info("matrix example size: %s" % str(np.shape(all_matrix[0])))
-    #logger.info("relation example: %s" % str(np.array(all_relations[0][:3])))
+    logger.info("matrix example size: %s" % str(np.shape(all_matrix[0])))
+    logger.info("relation example: %s" % str(np.array(all_relation[0][:3])))
 
     # if output_mode == "classification":
     #     all_labels = torch.tensor([f.label for f in features], dtype=torch.long)
     # elif output_mode == "regression":
     #     all_labels = torch.tensor([f.label for f in features], dtype=torch.float)
-    print("input ids", all_input_ids.size())
-    dataset = TensorDataset(all_input_ids, all_attention_masks, all_token_type_ids,all_relations)#all_matrix,
+ 
+    dataset = (all_input_ids, all_attention_mask, all_token_type_ids,all_matrix,all_relation)
     return dataset
 
 def build_relation_dataset(relations):
@@ -1018,9 +1013,11 @@ def main():
     if args.do_eval and args.do_train:
         eval_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=True)
         epoch = args.num_train_epochs
-        train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)# conv_graph, 
-        global_step, tr_loss = train(args, train_dataset, model, classifier,tokenizer, eval_dataset=eval_dataset)
-        logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
+        for i in range(int(epoch)):
+            print("This is the %dth epoch"%(i+1))
+            train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)# conv_graph, 
+            global_step, tr_loss = train(args, train_dataset, model, classifier,tokenizer, eval_dataset=eval_dataset)
+            logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
 
     # # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
