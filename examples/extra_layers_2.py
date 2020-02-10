@@ -23,6 +23,7 @@ import os
 import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
+import torch.nn.functional as F
 
 from transformers import  BertPreTrainedModel, BertModel
 
@@ -32,22 +33,53 @@ from scipy.sparse import coo_matrix
 
 
 
-class BertForRelationClassification(nn.Module):
+class GraphConvClassification(nn.Module):
 
-    def __init__(self, config):
-        super(BertForRelationClassification, self).__init__()
+    def __init__(self, config, GAT = False):
+        super(GraphConvClassification, self).__init__()
+        self.dim_emb = 768
+        #self.dim_emb = config.hidden_size
+        self.linear = nn.Linear(config.hidden_size, self.dim_emb)
+        self.linear2 = nn.Linear(self.dim_emb, self.dim_emb)
         self.num_labels = config.num_labels
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+        self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+        #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+        if not GAT:
+            self.Graphmodel = SAGEConv(self.dim_emb,self.dim_emb,aggr = "mean")
+            #self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
+        else:
+            self.Graphmodel = GATConv(self.dim_emb,self.dim_emb,heads=1) # GAT
+
 
     def forward(
-        self, 
-        inputs=None, 
+        self, idx= None, adjacency_matrix=None, node_embeddings = None,
         label=None
     ):
         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
-        inputs = self.dropout(inputs)
+        #TODO: remove to outside
+        A = adjacency_matrix
+        # transfor A into sparse matrix, to get desired model input
+        A_coo = coo_matrix(A)
+        row = A_coo.row
+        column = A_coo.col
+        edge_index = np.asarray([row,column])
+
+        # model input
+        edge_index = torch.LongTensor(edge_index).cuda()
+        #print("number of links: ",edge_index.size())
+        node_embeddings = F.relu(self.linear(node_embeddings))
+        node_out = self.Graphmodel(node_embeddings,edge_index)  
+        # residual block
+        node_embeddings = node_out + node_embeddings
+        # second layer of graph
+        #node_out = self.Graphmodel(node_embeddings,edge_index) 
+        #node_embeddings = node_out + node_embeddings
+
+        # select nodes to be classify
+        outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
+        inputs = self.dropout(outputs)
         logits = self.classifier(inputs)
         outputs = logits
 
@@ -56,6 +88,55 @@ class BertForRelationClassification(nn.Module):
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
             #outputs = (loss,) + outputs
+
+        loss = loss + PSL_loss(label, logits)
+
+
+        return (loss, outputs)  
+
+class NoGraphClassification(nn.Module):
+
+    def __init__(self, config, cal_hidden_loss = True):
+        super(NoGraphClassification, self).__init__()
+        self.num_labels = config.num_labels
+        self.dim_emb = 768
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = nn.Linear(self.dim_emb, config.num_labels)
+        self.hidden_classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+        #self.cal_hidden_loss = cal_hidden_loss
+        #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+
+    def forward(
+        self, adjacency_matrix = None, idx = None, node_embeddings = None,
+        label=None, cal_hidden_loss = True, weight =0.3
+    ):
+        """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
+
+        inputs = self.dropout(node_embeddings)
+        logits = self.classifier(inputs)
+        outputs = logits
+
+        if label is not None:
+
+            loss_fct = CrossEntropyLoss()
+            loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
+            #outputs = (loss,) + outputs
+        
+        #print(label)
+
+        if cal_hidden_loss:
+            hidden_loss = torch.tensor(0, dtype = torch.float64).cuda()
+            for n_batch in range(int(label.size()[0]/2)):
+                #print(node_embeddings.size())
+                #print(label.size())
+                #print(node_embeddings[n_batch*2,:].size())
+                hidden_inputs = torch.cat((node_embeddings[n_batch*2,:], node_embeddings[n_batch*2+1,:]))
+                hidden_inputs = self.dropout(hidden_inputs)
+                hidden_logits = self.hidden_classifier(hidden_inputs)
+                hidden_label = torch.tensor(identify_label(label[n_batch*2], label[n_batch*2+1]))
+                loss_fct = CrossEntropyLoss()
+                hidden_loss = hidden_loss + loss_fct(hidden_logits.view(-1, self.num_labels), hidden_label.view(-1).cuda())
+            loss = loss + weight * hidden_loss
 
         return (loss, outputs)  
 
@@ -113,6 +194,38 @@ class ConvGraph(nn.Module):
         outputs = self.Graphmodel(features,edge_index)  
 
         return outputs
+
+
+def PSL_loss(label=None, logits=None):
+    psl_loss = torch.tensor(0, dtype = torch.float64)
+
+    for n_batch in range(int(label.size()[0]/3)):
+        rules = [(1,1,1),(2,2,2),(1,0,1),(2,0,2),(0,1,1),(0,2,2),(0,0,0)]
+        if (label[n_batch*3+0],label[n_batch*3+1],label[n_batch*3+2]) in rules:
+            i = logits[n_batch*3+0,label[n_batch*3+0]]
+            j = logits[n_batch*3+1,label[n_batch*3+1]]
+            k = logits[n_batch*3+2,label[n_batch*3+2]]
+            exp_all = math.exp(i) + math.exp(j) + math.exp(k)
+            i = math.exp(i)/exp_all
+            j = math.exp(j)/exp_all
+            k = math.exp(k)/exp_all
+            psl_loss = psl_loss + max(0, max(0,i+j-1)-k)
+    
+    return psl_loss
+
+def identify_label(label1 = None, label2 = None):
+    ruleB = [(1,1),(1,0),(0,1)]
+    ruleO = [(0,0)]
+    ruleA = [(2,2),(2,0),(0,2)]
+    #print(label1, label2)
+    if any(nd==(label1, label2) for nd in ruleB):
+        label = 1
+    if any(nd==(label1, label2) for nd in ruleO):
+        label = 0
+    if any(nd==(label1, label2) for nd in ruleA):
+        label = 2
+
+    return label
 
 
 
