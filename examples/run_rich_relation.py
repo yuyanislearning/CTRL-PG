@@ -28,7 +28,7 @@ import torch
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler,
                               TensorDataset)
 from torch.utils.data.distributed import DistributedSampler
-#from evaluation import evaluation as closure_evaluate
+from closure import evaluation as closure_evaluate
 
 try:
     from torch.utils.tensorboard import SummaryWriter
@@ -181,7 +181,7 @@ def train(args, train_dataset, model, tokenizer):
                 if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                        results = evaluate(args, model, tokenizer)
+                        results = evaluate(args, model, tokenizer, dict_IndenToID)
                         '''for key, value in results.items():
                             tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
                     tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
@@ -211,7 +211,7 @@ def train(args, train_dataset, model, tokenizer):
     return global_step, tr_loss / global_step
 
 
-def evaluate(args, model, tokenizer, prefix=""):
+def evaluate(args, model, tokenizer, dict_IndenToID, prefix=""):
     # Loop to handle MNLI double evaluation (matched, mis-matched)
     eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
     eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
@@ -233,9 +233,6 @@ def evaluate(args, model, tokenizer, prefix=""):
             model = torch.nn.DataParallel(model)
 
         # Eval!
-        # #TODO
-        # ce = closure_evaluate()
-
         logger.info("***** Running evaluation {} *****".format(prefix))
         logger.info("  Num examples = %d", len(eval_dataset))
         logger.info("  Batch size = %d", args.eval_batch_size)
@@ -244,6 +241,7 @@ def evaluate(args, model, tokenizer, prefix=""):
         preds = None
         out_label_ids = None
         events = None
+        doc_ids = None
         for batch in tqdm(eval_dataloader, desc="Evaluating"):
             model.eval()
             batch = tuple(t.to(args.device) for t in batch)
@@ -252,7 +250,8 @@ def evaluate(args, model, tokenizer, prefix=""):
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
                           'labels':         batch[4]}
-                # event_ids = batch[4]
+                event_ids = batch[3]
+                document_ids = batch[5]
                 if args.model_type != 'distilbert':
                     inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
                 outputs = model(**inputs)
@@ -260,6 +259,7 @@ def evaluate(args, model, tokenizer, prefix=""):
 
                 eval_loss += tmp_eval_loss.mean().item()
             nb_eval_steps += 1
+
             if preds is None:
                 preds = logits.detach().cpu().numpy()
                 out_label_ids = inputs['labels'].detach().cpu().numpy()
@@ -267,10 +267,15 @@ def evaluate(args, model, tokenizer, prefix=""):
                 preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
                 out_label_ids = np.append(out_label_ids, inputs['labels'].detach().cpu().numpy(), axis=0)
 
-            # if events is None:
-            #     events = event_ids.detach().cpu().numpy()
-            # else:
-            #     events = np.append(events, event_ids.detach().cpu().numpy(), axis=0)
+            if events is None:
+                events = event_ids.detach().cpu().numpy()
+            else:
+                events = np.append(events, event_ids.detach().cpu().numpy(), axis=0)
+
+            if doc_ids is None:
+                doc_ids = document_ids.detach().cpu().numpy()
+            else:
+                doc_ids = np.append(doc_ids, document_ids.detach().cpu().numpy(), axis=0)
 
         eval_loss = eval_loss / nb_eval_steps
         if args.output_mode == "classification":
@@ -287,8 +292,20 @@ def evaluate(args, model, tokenizer, prefix=""):
                 logger.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
 
-    #     ce.eval(preds, events)
-    # os.system(' '.join(["python i2b2Evaluation.py --tempeval",str(gold_file),str(write_xml)]))
+        doc_dict = {}
+        for doc_id, pred, event in zip(doc_ids, preds, events):
+            if doc_id not in doc_dict:
+                doc_dict[doc_id] = {"preds":[], "events":[]}
+            event = [dict_IndenToID[x] for x in event]
+            doc_dict[doc_id]["preds"].append(pred)
+            doc_dict[doc_id]["events"].append(event)
+
+        for doc_id in doc_dict.keys():
+            preds = doc_dict[doc_id]["preds"]
+            events = doc_dict[doc_id]["events"]
+            ce = closure_evaluate(doc_id, args.xml_folder)
+            ce.eval(preds, events)
+        os.system(' '.join(["python i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return results
 
@@ -305,7 +322,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         list(filter(None, args.model_name_or_path.split('/'))).pop(),
         str(args.max_seq_length),
         str(task)))
-    if False:# os.path.exists(cached_features_file) and not args.overwrite_cache:
+    if os.path.exists(cached_features_file) and not args.overwrite_cache:
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
     else:
@@ -354,6 +371,10 @@ def main():
     ## Required parameters
     parser.add_argument("--data_dir", default=None, type=str, required=True,
                         help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
+    parser.add_argument("--gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
+                        help="The input data dir. ")
+    parser.add_argument("--xml_folder", default="glue_data/I2B2-R/ rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str, required=True,
+                        help="The input data dir. ")
     parser.add_argument("--model_type", default=None, type=str, required=True,
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
     parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
@@ -500,7 +521,7 @@ def main():
     # Training
     if args.do_train:
         train_dataset, dict_IndenToID = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
-        global_step, tr_loss = train(args, train_dataset, model, tokenizer)
+        global_step, tr_loss = train(args, train_dataset, model, tokenizer, dict_IndenToID)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
 
@@ -542,7 +563,7 @@ def main():
             
             model = model_class.from_pretrained(checkpoint)
             model.to(args.device)
-            result = evaluate(args, model, tokenizer,prefix=prefix)
+            result = evaluate(args, model, tokenizer, dict_IndenToID, prefix=prefix)
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
 
