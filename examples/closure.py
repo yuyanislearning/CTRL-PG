@@ -45,7 +45,7 @@ class evaluation:
 		lines = xmlfile.readlines()
 		writefile = open(os.path.join(self.xml_folder, str(self.document_id)+'.xml'), 'w')
 		for line in lines:
-			if "</TAGS>" not in line and "<TLINK" not in the line:
+			if "</TAGS>" not in line and "<TLINK" not in line:
 				writefile.write(line)
 			else:
 				for i,([id1, id2], label) in enumerate(zip(event_ids, preds)):
