@@ -1,14 +1,14 @@
-from tidylib import tidy_document
+#from tidylib import tidy_document
 import xml.etree.ElementTree as ET
 import tempfile
 import os
 
 class evaluation:
 
-	def __init__(document_id, xml_folder, dev=True): #label_dict
+	def __init__(self, document_id, xml_folder, dev=True): #label_dict
 
-		self.events = []
-		self.timex3 = []
+		self.events = {}
+		self.timex3 = {}
 		self.document_id = document_id
 		#self.label_dict = label_dict
 		self.dev = dev
@@ -17,15 +17,11 @@ class evaluation:
 	def eval(self, preds, event_ids):
 
 		# read the corresponding xml file without tlinks
-		xml_file = open(os.path.join(self.xml_folder, str(self.document_id)+'.xml'), 'r')
-		document, _ = tidy_document(xml_file.read(), {"input_xml": True})
-
-		with tempfile.NamedTemporaryFile() as temp:
-			temp.write(document)
-			temp.seek(0)
-			tree = ET.parse(temp)
-			root = tree.getroot()
-			self.parseTags(root[1])
+		xml_file = os.path.join(self.xml_folder, str(self.document_id)+'.xml')
+		#print(xml_file) #document, _ = tidy_document(xml_file.read(), {"input_xml": True})
+		tree = ET.parse(xml_file)
+		root = tree.getroot()
+		self.parseTags(root[1])
 
 		# et = ET.parse(xml_file)
 		# for i,(id1, id2, label_ids) in enumerate(zip(event_ids, preds)):
@@ -45,21 +41,22 @@ class evaluation:
 		lines = xmlfile.readlines()
 		writefile = open(os.path.join(self.xml_folder, str(self.document_id)+'.xml'), 'w')
 		for line in lines:
-			if "</TAGS>" not in line and "<TLINK" not in line:
+			if "<TLINK" in line: continue
+			elif "</TAGS>" not in line:# and "<TLINK" not in line:
 				writefile.write(line)
 			else:
 				for i,([id1, id2], label) in enumerate(zip(event_ids, preds)):
 
 					#label = label_dict[label_ids]
-					event1 = self.events[id1] if "E" in id1 else self.timex3[id1]
-					event2 = self.events[id2] if "E" in id1 else self.timex3[id2]
+					event1 = (self.events[id1] if "E" in id1 else self.timex3[id1]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
+					event2 = (self.events[id2] if "E" in id2 else self.timex3[id2]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 
-					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" />'.format(str(i), id1, event1, id2, event2, label) + '\n')
+					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" />'.format(str(i), id1, event1, id2, event2, label.upper()) + '\n')
 				writefile.write(line)
 		writefile.close()
 		
 
-	def parseTags(self, tree):
+	def parseTags(self, tags):
 
 		for child in tags:
 			if child.tag == 'EVENT':
@@ -68,4 +65,5 @@ class evaluation:
 			elif child.tag == 'TIMEX3':
 				self.timex3[child.attrib['id']] = child.attrib['text'] 
 
-
+		#print(self.events)
+		#print(self.timex3)
