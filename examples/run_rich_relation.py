@@ -54,6 +54,8 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                   AlbertTokenizer,
                                 )
 
+from extra_layers_2 import BertForRelationClassification
+
 from transformers import AdamW, get_linear_schedule_with_warmup
 #from utils_relation import *
 from utils_relation import glue_compute_metrics as compute_metrics
@@ -145,9 +147,16 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         for step, batch in enumerate(epoch_iterator):
             model.train()
             batch = tuple(t.to(args.device) for t in batch) 
-            inputs = {'input_ids':      batch[0],
-                      'attention_mask': batch[1],
-                      'labels':         batch[4]}
+            if args.node_embed:
+                inputs = {'input_ids':      batch[0],
+                          'attention_mask': batch[1],
+                          'node_pos_ids':   batch[7],
+                          'labels':         batch[4]}
+            else:
+                inputs = {'input_ids':      batch[0],
+                          'attention_mask': batch[1],
+                          'labels':         batch[4]}
+
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
             outputs = model(**inputs)
@@ -246,9 +255,16 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
             batch = tuple(t.to(args.device) for t in batch)
 
             with torch.no_grad():
-                inputs = {'input_ids':      batch[0],
-                          'attention_mask': batch[1],
-                          'labels':         batch[4]}
+                if args.node_embed:
+                    inputs = {'input_ids':      batch[0],
+                              'attention_mask': batch[1],
+                              'node_pos_ids':   batch[7],
+                              'labels':         batch[4]}
+                else:
+                    inputs = {'input_ids':      batch[0],
+                              'attention_mask': batch[1],
+                              'labels':         batch[4]}
+
                 event_ids = batch[3]
                 document_ids = batch[5]
                 sentence_ids = batch[6]
@@ -366,6 +382,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_attention_mask = torch.tensor([f.attention_masks for f in features], dtype=torch.long)
     all_token_type_ids = torch.tensor([f.token_type_ids for f in features], dtype=torch.long)
     all_event_ids = torch.tensor([f.ids for f in features], dtype=torch.long)
+    all_node_pos = torch.tensor([f.node_pos for f in features], dtype=torch.long)
     if output_mode == "classification":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.long)
     elif output_mode == "regression":
@@ -373,7 +390,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_doc_ids = torch.tensor([int(f.doc_id) for f in features], dtype = torch.int)
     all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
  
-    dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#, all_event_ids)
+    dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids, all_node_pos)#, all_event_ids)
     return dataset, dict_IndenToID, label_dict
 
 

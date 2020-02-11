@@ -229,7 +229,7 @@ def identify_label(label1 = None, label2 = None):
 
 
 
-class BertForSequenceClassification(BertPreTrainedModel):
+class BertForRelationClassification(BertPreTrainedModel):
 
     def __init__(self, config):
         super(BertForSequenceClassification, self).__init__(config)
@@ -238,10 +238,12 @@ class BertForSequenceClassification(BertPreTrainedModel):
         self.bert = BertModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
+        self.converter = nn.linear(2*config.hidden_size, config.hidden_size)
+        self.hidden_size = config.hidden_size
 
         self.init_weights()
 
-    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None,
+    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None, node_pos_ids=None,
                 position_ids=None, head_mask=None, inputs_embeds=None, labels=None):
 
         outputs = self.bert(input_ids,
@@ -251,7 +253,17 @@ class BertForSequenceClassification(BertPreTrainedModel):
                             head_mask=head_mask,
                             inputs_embeds=inputs_embeds)
 
-        pooled_output = outputs[1]
+        pooled_output = outputs[1] # (8, 768)
+
+        # shape of outputs[0]: (8,128,768) -> (batch_size, sequence_length, embedding_size)
+        # shape of node_pos_ids: (8, 2, 128)
+        if node_pos_ids is not None:
+
+            node_embedding = torch.matmul(outputs[0], node_pos_ids) # (8, 2, 768)
+            node_embedding = node_embedding.view(-1, 2*self.hidden_size) # (8, 1536)
+            pooled_output = self.converter(node_embedding)
+            # pooled_output += self.converter(node_embedding)
+
 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
@@ -259,13 +271,9 @@ class BertForSequenceClassification(BertPreTrainedModel):
         outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
 
         if labels is not None:
-            if self.num_labels == 1:
-                #  We are doing regression
-                loss_fct = MSELoss()
-                loss = loss_fct(logits.view(-1), labels.view(-1))
-            else:
-                loss_fct = CrossEntropyLoss()
-                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+
+            loss_fct = CrossEntropyLoss()
+            loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
             outputs = (loss,) + outputs
 
         return outputs  # (loss), logits, (hidden_states), (attentions)
