@@ -343,6 +343,16 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.float)
     all_doc_ids = torch.tensor([int(f.doc_id) for f in features], dtype = torch.int)
     all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
+    all_sources = [f.sources for f in features]
+    data_type = "origin data"
+    if data_type == 'origin data':
+        l = np.array([i==1 for i in all_sources])
+        all_input_ids = all_input_ids[l,:]
+        all_attention_mask = all_attention_mask[l,:]
+        all_token_type_ids = all_token_type_ids[l,:]
+        all_labels = all_labels[l,:]
+        all_doc_ids = all_doc_ids[l,:]
+        all_sen_ids = all_sen_ids[l,:]
  
     dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#, all_event_ids)
     return dataset, dict_IndenToID
