@@ -1918,8 +1918,8 @@ def reltonum(r):
         return 1
 
 def IDIndexDic(rel = None):
-    
-    id_list = list(set([(r[0],r[2]) for r in rel]+[(r[3], r[5]) for r in rel])).sort()
+    id_list = list(set([(r[0],r[2]) for r in rel]+[(r[3], r[5]) for r in rel]))
+    id_list.sort()
     d = {}
     rd = {}
     for i, iid in enumerate(id_list):
