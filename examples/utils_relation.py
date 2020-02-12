@@ -512,8 +512,12 @@ def sb_convert_examples_to_features(examples, tokenizer,
     #max_length_input = 0
 
     dict_IndenToID = {}
+    
+    wrong_count = 0
+    sen_count = 0
 
     for (ex_index, example) in enumerate(examples):
+        sen_count+=1
         if ex_index % 10000 == 0:
             logger.info("Writing example %d" % (ex_index))
         if is_tf_dataset:
@@ -636,7 +640,9 @@ def sb_convert_examples_to_features(examples, tokenizer,
         elif data_aug == "rules":
             BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
             #print("origin BM", BM)
-            BM, OM = iter_rule_update(BM, OM, n_iter = 1)
+            BM, OM, wrong_count = iter_rule_update(BM, OM,  1,wrong_count)
+            print("wrong count ",wrong_count)
+            print("number of sentence", sen_count)
             #print("update BM", BM)
             AM = BM.transpose()
             temp_BM = (BM - IDM)*2
@@ -646,6 +652,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
             temp_OM[np.where(temp_OM<0)] = 0
             temp_AM[np.where(temp_AM<0)] = 0
             IDM = IDM + temp_BM + temp_OM + temp_AM# TODO modify case 4
+
 
 
             texts = []
@@ -735,7 +742,8 @@ def sb_convert_examples_to_features(examples, tokenizer,
             #logger.info("relations: %s" % " ".join([str(x) for x in relations[:5]]))
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
-
+    print("wrong number", wrong_count)
+    #exit()
     return features, dict_IndenToID
 
 
@@ -1746,7 +1754,8 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
             sources = 2
         if IDM[all_x[i],all_y[i]]==1:
             sources = 1
-        assert IDM[all_x[i],all_y[i]]==1 or IDM[all_x[i],all_y[i]]==2, 'Error with IDM'
+        
+        #assert IDM[all_x[i],all_y[i]]==1 or IDM[all_x[i],all_y[i]]==2, 'Error with IDM'
 
         features.append(
             Input_SB_Features(input_ids=input_id,
@@ -1757,7 +1766,7 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
                         doc_id=doc_id,
                         sen_id=sen_id,
                         ids=(all_x[i], all_y[i]),
-                        sources = 1  ,
+                        sources = sources  ,
                         node_pos = (node_pos_1, node_pos_2),
                         ))
 
@@ -1809,7 +1818,7 @@ def build_rules(rule = None, rule_tensor = None, n_rule = None):
     return emb, labels
 
 
-def iter_rule_update(BM= None, OM=None, n_iter = 3):
+def iter_rule_update(BM= None, OM=None,n_iter= 3,  wrong_count=None):
     '''
     iteratively find the ground truth by applying rules
     rules: 
@@ -1820,27 +1829,31 @@ def iter_rule_update(BM= None, OM=None, n_iter = 3):
     if Oij, then Oji
     '''
     # first complete OM
+    OOM = np.copy(OM)
+    OBM = np.copy(BM)
     OM = OM + OM.transpose()
     OM = OM + np.matmul(OM, OM)
-    print("BM", BM)
-    print("OM", OM)
+
     # iteratively update BM
     for _ in range(n_iter):
         BM = BM + np.matmul(BM, OM)
-        print("BBO", BM)
         BM = BM + np.matmul(OM, BM)
-        print("OOB", BM)
         BM = BM + np.matmul(BM, BM)
-    print("BM after", BM)
-    print("OM after", OM)
+    
     # normalize
     BM[np.where(BM>0)] = 1
     OM[np.where(OM>0)] = 1
 
-    
     for i in range(OM.shape[0]):
         OM[i,i] = 0
-    return BM, OM
+
+    if judge_rule(BM):
+        wrong_count+=1
+        OM = OOM
+        BM = OBM
+           
+
+    return BM, OM, wrong_count
 
 
 def rule_tensor(A, B):
@@ -1900,6 +1913,15 @@ def build_BO(rel = None, IDToIndex= None):
             BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
             IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
     return BM, OM, IDM, pos_dict
+
+
+def judge_rule(BM):
+    for i in range(BM.shape[0]):
+        if BM[i,i] == 1:
+            return True
+    if np.sum(np.sum(BM* BM.transpose())):
+        return True
+    return False
 
 glue_tasks_num_labels = {
     "cola": 2,
