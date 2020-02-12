@@ -532,7 +532,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
         dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID
         if evaluate: 
-            data_aug = 'rules'
+            data_aug = None
         if data_aug == "reverse":
             for rel in example.relations:
                 texts = [] 
@@ -641,8 +641,8 @@ def sb_convert_examples_to_features(examples, tokenizer,
             BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
             #print("origin BM", BM)
             BM, OM, wrong_count = iter_rule_update(BM, OM,  1,wrong_count)
-            print("wrong count ",wrong_count)
-            print("number of sentence", sen_count)
+            #print("wrong count ",wrong_count)
+            #print("number of sentence", sen_count)
             #print("update BM", BM)
             AM = BM.transpose()
             temp_BM = (BM - IDM)*2
@@ -667,54 +667,20 @@ def sb_convert_examples_to_features(examples, tokenizer,
             add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
         else:
-            for rel in example.relations:
-                texts = [] 
-                for text in example.text:
-                    texts.extend(text)
-                texts = texts[0:rel[0]] + ['<e1>'] + texts[rel[0]:(rel[1]+1)] + ['</e1>'] + texts[(rel[1]+1):rel[3]] + ['<e2>'] + texts[rel[3]:(rel[4]+1)] + ['</e2>'] + texts[(rel[4]+1):len(texts)]
-                #print("This is texts:",texts)
-                #print("This is rel",rel)
-                
-                texts = ' '.join(texts)
-                inputs = tokenizer.encode_plus(
-                    texts,
-                    add_special_tokens=True,
-                    max_length=max_length,
-                )
+            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+            #print("origin BM", BM)
+            BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count)
 
-                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            texts = []
+            for text in example.text:
+                texts.extend(text)
+            
+            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+ 
+            AM = BM.transpose()
+            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-
-                # The mask has 1 for real tokens and 0 for padding tokens. Only real
-                # tokens are attended to.
-                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
-
-                # Zero-pad up to the sequence length.
-                padding_length = max_length - len(input_id)
-
-                if pad_on_left:
-                    input_id = ([pad_token] * padding_length) + input_id
-                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
-                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
-                else:
-                    input_id = input_id + ([pad_token] * padding_length)
-                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
-                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
-
-                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
-                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
-                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
-
-                features.append(
-                    Input_SB_Features(input_ids=input_id,
-                                attention_masks=attention_mask,
-                                token_type_ids=token_type_id,
-                                #matrix=example.matrix,
-                                relations=reltonum(rel[6]),
-                                doc_id=example.doc_id,
-                                sen_id=example.sen_id,
-                                ids=(IDToIndex[rel[2]], IDToIndex[rel[5]])
-                                ))
+            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
         # if ex_index < 5:
         #     logger.info("*** Example ***")
@@ -1749,7 +1715,7 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
         assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
         #print("IDM",IDM)
         #print("index",all_x[i], all_y[i])
-        sample_method = "random"# "random": retain all origin and random sample rest;"closest", retain origin and neighbor relation
+        sample_method = "closest"# "random": retain all origin and random sample rest;"closest", retain origin and neighbor relation
         if IDM[all_x[i],all_y[i]]==2:
             # 2 means generated data, 1 origin data
             sources = 2
