@@ -1749,15 +1749,14 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
         assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
         #print("IDM",IDM)
         #print("index",all_x[i], all_y[i])
+        sample_method = "random"# "random": retain all origin and random sample rest;"closest", retain origin and neighbor relation
         if IDM[all_x[i],all_y[i]]==2:
             # 2 means generated data, 1 origin data
             sources = 2
-        if IDM[all_x[i],all_y[i]]==1:
-            sources = 1
-        
-        #assert IDM[all_x[i],all_y[i]]==1 or IDM[all_x[i],all_y[i]]==2, 'Error with IDM'
-
-        features.append(
+            if sample_method=='random':
+                sample_rate=0.2
+                if np.random.rand()<sample_rate:
+                    features.append(
             Input_SB_Features(input_ids=input_id,
                         attention_masks=attention_mask,
                         token_type_ids=token_type_id,
@@ -1769,6 +1768,39 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
                         sources = sources  ,
                         node_pos = (node_pos_1, node_pos_2),
                         ))
+            if sample_method == 'closest':
+                close_thre = 3
+                if abs(all_x[i]-all_y[i])<=close_thre:
+                    features.append(
+            Input_SB_Features(input_ids=input_id,
+                        attention_masks=attention_mask,
+                        token_type_ids=token_type_id,
+                        #matrix=example.matrix,
+                        relations=r,
+                        doc_id=doc_id,
+                        sen_id=sen_id,
+                        ids=(all_x[i], all_y[i]),
+                        sources = sources  ,
+                        node_pos = (node_pos_1, node_pos_2),
+                        ))
+        if IDM[all_x[i],all_y[i]]==1:
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_id,
+                        attention_masks=attention_mask,
+                        token_type_ids=token_type_id,
+                        #matrix=example.matrix,
+                        relations=r,
+                        doc_id=doc_id,
+                        sen_id=sen_id,
+                        ids=(all_x[i], all_y[i]),
+                        sources = sources  ,
+                        node_pos = (node_pos_1, node_pos_2),
+                        ))
+        
+        #assert IDM[all_x[i],all_y[i]]==1 or IDM[all_x[i],all_y[i]]==2, 'Error with IDM'
+
+
 
 
 
@@ -1886,12 +1918,13 @@ def reltonum(r):
         return 1
 
 def IDIndexDic(rel = None):
-    id_list = list(set([r[2] for r in rel]+[r[5] for r in rel]))
+    
+    id_list = list(set([(r[0],r[2]) for r in rel]+[(r[3], r[5]) for r in rel])).sort()
     d = {}
     rd = {}
     for i, iid in enumerate(id_list):
-        d[iid] = i
-        rd[i] = iid
+        d[iid[1]] = i
+        rd[i] = iid[1]
     return d,rd
 
 def build_BO(rel = None, IDToIndex= None):

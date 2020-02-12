@@ -344,7 +344,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_doc_ids = torch.tensor([int(f.doc_id) for f in features], dtype = torch.int)
     all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
     all_sources = [f.sources for f in features]
-    data_type = "origin data"
+    data_type = None
     if data_type == 'origin data':
         l = np.array([i==1 for i in all_sources])
         all_input_ids = all_input_ids[l,:]
