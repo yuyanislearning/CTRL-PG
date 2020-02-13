@@ -1091,7 +1091,6 @@ def graph_convert_examples_to_features(examples, tokenizer,
     #print("length of features", len(features))
     return features
 
-
 class MrpcProcessor(DataProcessor):
     """Processor for the MRPC data set (GLUE version)."""
 
@@ -1453,6 +1452,7 @@ class WnliProcessor(DataProcessor):
             examples.append(
                 InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
         return examples
+
 
 class I2b2Processor(DataProcessor):
     """Processor for the i2b2-m data set (GLUE version)."""
