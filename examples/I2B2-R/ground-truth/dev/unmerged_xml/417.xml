@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-09-13
+Discharge Date :
+2017-09-15
+Service :
+NSU
+HISTORY OF PRESENT ILLNESS :
+The patient is a 45 - year-old female here for a diagnostic cerebral angiogram with coiling .
+HOSPITAL COURSE :
+On admission , the patient 's vital signs were stable .
+Her blood pressure was 102/82 .
+Her heart rate was 71 .
+Her SPO2 was 98 percent on room air .
+MEDICATIONS ON ADMISSION :
+1. Plavix 75 mg times 6 doses .
+2. Xanax q.d.
+3. Prozac 20 mg q.d.
+4. Cyclobenzaprine 10 mg q.d.
+5. Aspirin 325 mg times 3 doses .
+6. Vitamin E .
+PAST SURGICAL HISTORY :
+Tubal ligation , 1986 .
+Cystectomy , 1992 and 1998 .
+Breast lesion excision , 1989 .
+ALLERGIES :
+TETRACYCLINE .
+SOCIAL HISTORY :
+The patient uses alcohol socially ; was a smoker , used tobacco , she quit 4 years ago ; denies using recreational drug .
+HOSPITAL COURSE :
+On 2017-09-13 , the patient was brought to the operating room and underwent a coiling with stent placement of the left carotid ophthalmic aneurysm .
+The patient underwent coiling and stent placement without complications .
+She was discharged to the PACU in stable condition .
+Postoperative check , the patient 's vital signs were stable .
+Her temperature was 96.3 degrees , blood pressure was 128/63 .
+Her pulse was 61 , respirations 12 , and her O2 saturation was 98 percent on room air .
+Her labs showed a white blood count of 7.7 , hematocrit of 33.3 , and platelets were 305 .
+Her coags , her PT was 14.5 , PTT was 143.4 , and her INR was 1.3 .
+Her electrolytes were all within normal limits .
+On physical exam , the patient was awake , alert , and oriented times 3 .
+She had a symmetric smile .
+Her extraocular movements were full .
+Her pupils were 3 to 2 bilaterally , briskly reactive .
+The visual fields were intact .
+Her strength was 05-31 throughout except for right was not tested due to the angiocele in her groin .
+Angiocele was intact without hematoma , and she exhibited strong pedal pulses on the right side .
+The assessment at that time was she was neurologically stable .
+The plan was q. 1-hour neuro checks .
+She was started on a heparin drip at 800 per hour .
+Her PTT goes 50 to 60 at that time .
+She was cleared to take sips of clear fluids and was to remain flat for 4 hours .
+On postoperative day 1 , the patient was alert and oriented times 3 .
+She exhibited no drift .
+Her IPs were full at 5/5 .
+She had no hematoma in her groin site .
+Visual fields were full , her pupils were round and reactive bilaterally .
+Her vital signs were stable with a temperature of 97.8 degrees , blood pressure was 104 to 121 over 50s .
+Pulse was 60 to 70 .
+Respirations were 15 , and she was saturating at 96 percent on room air .
+Her PTT at that time was 67.8 .
+She was started on aspirin 325 mg q.d. and Plavix 75 mg q.d.
+On 2017-09-14 , she was transferred to the regular floor at Far 5 .
+Postoperative day 2 , the patient was stable without events , all vital signs were stable .
+She was moving all extremities and exhibiting good strength .
+Her visual fields were intact .
+Her extraocular movements were full .
+Angio site was clean , dry , and intact without bleeding or drainage .
+She was to be discharged today and encouraged to ambulate on her own .
+Discharge condition for this patient was good .
+She was ambulating on her own and tolerating a p.o. diet .
+She was discharged to home in stable condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1011" end="1026" text="stent placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1035" end="1048" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E64" start="1059" end="1069" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="1073" end="1081" text="the PACU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="1085" end="1101" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1104" end="1123" text="Postoperative check" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="1126" end="1152" text="the patient 's vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="1158" end="1164" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1167" end="1182" text="Her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1202" end="1216" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1230" end="1239" text="Her pulse" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1249" end="1261" text="respirations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1271" end="1288" text="her O2 saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1318" end="1326" text="Her labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1327" end="1333" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1334" end="1353" text="a white blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1363" end="1373" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1388" end="1397" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1409" end="1418" text="Her coags" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1421" end="1427" text="her PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1439" end="1442" text="PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="1459" end="1466" text="her INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="147" end="178" text="a diagnostic cerebral angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1477" end="1493" text="Her electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1529" end="1542" text="physical exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1827" end="1853" text="the angiocele in her groin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="184" end="191" text="coiling" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1856" end="1865" text="Angiocele" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1885" end="1893" text="hematoma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1954" end="1968" text="The assessment" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="1994" end="2015" text="neurologically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2041" end="2053" text="neuro checks" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E31" start="2075" end="2089" text="a heparin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2108" end="2115" text="Her PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="215" end="224" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2201" end="2212" text="remain flat" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="227" end="253" text="the patient 's vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2268" end="2273" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2314" end="2319" text="drift" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="2322" end="2329" text="Her IPs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2360" end="2386" text="hematoma in her groin site" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="2464" end="2479" text="Her vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2485" end="2491" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="2497" end="2510" text="a temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2529" end="2543" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2570" end="2575" text="Pulse" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="2591" end="2603" text="Respirations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2626" end="2636" text="saturating" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2665" end="2672" text="Her PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="268" end="286" text="Her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2716" end="2723" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2740" end="2746" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2782" end="2793" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2797" end="2814" text="the regular floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E77" start="2864" end="2870" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2879" end="2885" text="events" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E79" start="2888" end="2903" text="all vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2909" end="2915" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2980" end="2997" text="Her visual fields" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="300" end="314" text="Her heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="3003" end="3009" text="intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="3012" end="3037" text="Her extraocular movements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="3043" end="3047" text="full" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="3050" end="3060" text="Angio site" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="3065" end="3076" text="clean , dry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="3083" end="3118" text="intact without bleeding or drainage" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="3135" end="3145" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="3192" end="3211" text="Discharge condition" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="324" end="332" text="Her SPO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E89" start="3233" end="3237" text="good" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3248" end="3269" text="ambulating on her own" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="3274" end="3296" text="tolerating a p.o. diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="3307" end="3325" text="discharged to home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="3329" end="3345" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="392" end="398" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="424" end="429" text="Xanax" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="438" end="444" text="Prozac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="459" end="474" text="Cyclobenzaprine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="489" end="496" text="Aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="523" end="532" text="Vitamin E" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="559" end="573" text="Tubal ligation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="583" end="593" text="Cystectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="583" end="593" text="Cystectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="612" end="634" text="Breast lesion excision" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="656" end="668" text="TETRACYCLINE" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="728" end="736" text="a smoker" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="744" end="751" text="tobacco" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="790" end="807" text="recreational drug" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E62" start="871" end="889" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="904" end="913" text="a coiling" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="919" end="934" text="stent placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="938" end="974" text="the left carotid ophthalmic aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="999" end="1006" text="coiling" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="18" end="28" text="2017-09-13" type="DATE" val="2017-09-13" mod="NA" />
+<TIMEX3 id="T17" start="1972" end="1981" text="that time" type="DATE" val="2017-09-13" mod="NA" />
+<TIMEX3 id="T18" start="2031" end="2040" text="q. 1-hour" type="FREQUENCY" val="RP1H" mod="NA" />
+<TIMEX3 id="T19" start="2217" end="2224" text="4 hours" type="DURATION" val="P4H" mod="NA" />
+<TIMEX3 id="T3" start="2230" end="2249" text="postoperative day 1" type="DATE" val="2017-09-14" mod="NA" />
+<TIMEX3 id="T20" start="2676" end="2685" text="that time" type="DATE" val="2017-09-14" mod="NA" />
+<TIMEX3 id="T21" start="2731" end="2735" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T22" start="2753" end="2757" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T4" start="2761" end="2771" text="2017-09-14" type="DATE" val="2017-09-14" mod="NA" />
+<TIMEX3 id="T5" start="2826" end="2845" text="Postoperative day 2" type="DATE" val="2017-09-15" mod="NA" />
+<TIMEX3 id="T6" start="3146" end="3151" text="today" type="DATE" val="2017-09-15" mod="NA" />
+<TIMEX3 id="T7" start="405" end="412" text="times 6" type="FREQUENCY" val="RP4H" mod="NA" />
+<TIMEX3 id="T8" start="430" end="434" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T9" start="451" end="455" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T0" start="46" end="56" text="2017-09-15" type="DATE" val="2019-09-15" mod="NA" />
+<TIMEX3 id="T10" start="481" end="485" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T11" start="504" end="511" text="times 3" type="FREQUENCY" val="RP8H" mod="NA" />
+<TIMEX3 id="T12" start="576" end="580" text="1986" type="DATE" val="1986" mod="NA" />
+<TIMEX3 id="T13" start="596" end="600" text="1992" type="DATE" val="1992" mod="NA" />
+<TIMEX3 id="T14" start="605" end="609" text="1998" type="DATE" val="1998" mod="NA" />
+<TIMEX3 id="T15" start="637" end="641" text="1989" type="DATE" val="1989" mod="NA" />
+<TIMEX3 id="T16" start="763" end="774" text="4 years ago" type="DATE" val="2013" mod="NA" />
+<TIMEX3 id="T2" start="831" end="841" text="2017-09-13" type="DATE" val="2017-09-13" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2017-09-13" type="OVERLAP" />
+<TLINK id="TL1" fromID="E8" fromText="coiling" toID="E5" toText="a coiling" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E2" fromText="Her blood pressure" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL11" fromID="E3" fromText="Her heart rate" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL12" fromID="E4" fromText="Her SPO2" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL13" fromID="E49" fromText="Plavix" toID="T7" toText="times 6" type="OVERLAP" />
+<TLINK id="TL14" fromID="E49" fromText="Plavix" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL15" fromID="E50" fromText="Xanax" toID="T8" toText="q.d." type="OVERLAP" />
+<TLINK id="TL16" fromID="E50" fromText="Xanax" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL17" fromID="E51" fromText="Prozac" toID="T9" toText="q.d." type="OVERLAP" />
+<TLINK id="TL18" fromID="E51" fromText="Prozac" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL19" fromID="E52" fromText="Cyclobenzaprine" toID="T10" toText="q.d." type="OVERLAP" />
+<TLINK id="TL2" fromID="E9" fromText="stent placement" toID="E6" toText="stent placement" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E53" fromText="Aspirin" toID="T11" toText="times 3" type="OVERLAP" />
+<TLINK id="TL21" fromID="E54" fromText="Vitamin E" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL22" fromID="E53" fromText="Aspirin" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL23" fromID="E55" fromText="Tubal ligation" toID="T12" toText="1986" type="OVERLAP" />
+<TLINK id="TL24" fromID="E56" fromText="Cystectomy" toID="T13" toText="1992" type="OVERLAP" />
+<TLINK id="TL25" fromID="E94" fromText="Cystectomy" toID="T14" toText="1998" type="OVERLAP" />
+<TLINK id="TL26" fromID="E57" fromText="Breast lesion excision" toID="T15" toText="1989" type="OVERLAP" />
+<TLINK id="TL27" fromID="E59" fromText="a smoker" toID="E60" toText="tobacco" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E59" fromText="a smoker" toID="T16" toText="4 years ago" type="ENDED_BY" />
+<TLINK id="TL29" fromID="E62" fromText="the operating room" toID="T2" toText="2017-09-13" type="OVERLAP" />
+<TLINK id="TL3" fromID="E21" fromText="Her coags" toID="E17" toText="Her labs" type="OVERLAP" />
+<TLINK id="TL30" fromID="E5" fromText="a coiling" toID="E62" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL31" fromID="E6" fromText="stent placement" toID="E5" toText="a coiling" type="OVERLAP" />
+<TLINK id="TL33" fromID="E7" fromText="the left carotid ophthalmic aneurysm" toID="E6" toText="stent placement" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E63" fromText="complications" toID="E8" toText="coiling" type="OVERLAP" />
+<TLINK id="TL35" fromID="E65" fromText="the PACU" toID="E64" toText="discharged" type="BEGUN_BY" />
+<TLINK id="TL36" fromID="E66" fromText="stable condition" toID="E64" toText="discharged" type="OVERLAP" />
+<TLINK id="TL37" fromID="E10" fromText="Postoperative check" toID="E64" toText="discharged" type="AFTER" />
+<TLINK id="TL38" fromID="E11" fromText="the patient 's vital signs" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL39" fromID="E67" fromText="stable" toID="E11" toText="the patient 's vital signs" type="OVERLAP" />
+<TLINK id="TL40" fromID="E12" fromText="Her temperature" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL41" fromID="E13" fromText="blood pressure" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL42" fromID="E14" fromText="Her pulse" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL43" fromID="E15" fromText="respirations" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL44" fromID="E16" fromText="her O2 saturation" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL45" fromID="E17" fromText="Her labs" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL46" fromID="E17" fromText="Her labs" toID="E44" toText="showed" type="OVERLAP" />
+<TLINK id="TL47" fromID="E18" fromText="a white blood count" toID="E44" toText="showed" type="OVERLAP" />
+<TLINK id="TL48" fromID="E19" fromText="hematocrit" toID="E44" toText="showed" type="OVERLAP" />
+<TLINK id="TL49" fromID="E20" fromText="platelets" toID="E44" toText="showed" type="OVERLAP" />
+<TLINK id="TL5" fromID="E45" fromText="discharged" toID="T6" toText="today" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E21" fromText="Her coags" toID="E22" toText="her PT" type="OVERLAP" />
+<TLINK id="TL51" fromID="E22" fromText="her PT" toID="E23" toText="PTT" type="OVERLAP" />
+<TLINK id="TL52" fromID="E23" fromText="PTT" toID="E24" toText="her INR" type="OVERLAP" />
+<TLINK id="TL53" fromID="E25" fromText="Her electrolytes" toID="E10" toText="Postoperative check" type="OVERLAP" />
+<TLINK id="TL54" fromID="E27" fromText="the angiocele in her groin" toID="E28" toText="Angiocele" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E28" fromText="Angiocele" toID="E29" toText="hematoma" type="OVERLAP" />
+<TLINK id="TL56" fromID="E30" fromText="The assessment" toID="T17" toText="that time" type="OVERLAP" />
+<TLINK id="TL57" fromID="E68" fromText="neurologically stable" toID="E30" toText="The assessment" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E69" fromText="neuro checks" toID="E30" toText="The assessment" type="AFTER" />
+<TLINK id="TL59" fromID="E69" fromText="neuro checks" toID="T18" toText="q. 1-hour" type="OVERLAP" />
+<TLINK id="TL6" fromID="E46" fromText="Discharge" toID="T0" toText="2017-09-15" type="OVERLAP" />
+<TLINK id="TL60" fromID="E31" fromText="a heparin drip" toID="E30" toText="The assessment" type="OVERLAP" />
+<TLINK id="TL61" fromID="E32" fromText="Her PTT" toID="E31" toText="a heparin drip" type="DURING" />
+<TLINK id="TL62" fromID="E71" fromText="alert" toID="T3" toText="postoperative day 1" type="OVERLAP" />
+<TLINK id="TL63" fromID="E72" fromText="drift" toID="T3" toText="postoperative day 1" type="OVERLAP" />
+<TLINK id="TL64" fromID="E33" fromText="Her IPs" toID="T3" toText="postoperative day 1" type="OVERLAP" />
+<TLINK id="TL65" fromID="E34" fromText="hematoma in her groin site" toID="T3" toText="postoperative day 1" type="OVERLAP" />
+<TLINK id="TL66" fromID="E35" fromText="Her vital signs" toID="E73" toText="stable" type="OVERLAP" />
+<TLINK id="TL67" fromID="E35" fromText="Her vital signs" toID="E36" toText="a temperature" type="OVERLAP" />
+<TLINK id="TL68" fromID="E35" fromText="Her vital signs" toID="E37" toText="blood pressure" type="OVERLAP" />
+<TLINK id="TL69" fromID="E38" fromText="Pulse" toID="E35" toText="Her vital signs" type="OVERLAP" />
+<TLINK id="TL7" fromID="E47" fromText="a diagnostic cerebral angiogram" toID="E48" toText="coiling" type="OVERLAP" />
+<TLINK id="TL70" fromID="E39" fromText="Respirations" toID="E35" toText="Her vital signs" type="OVERLAP" />
+<TLINK id="TL71" fromID="E74" fromText="saturating" toID="E39" toText="Respirations" type="OVERLAP" />
+<TLINK id="TL72" fromID="E40" fromText="Her PTT" toID="E35" toText="Her vital signs" type="OVERLAP" />
+<TLINK id="TL73" fromID="E40" fromText="Her PTT" toID="T20" toText="that time" type="OVERLAP" />
+<TLINK id="TL74" fromID="E41" fromText="aspirin" toID="T20" toText="that time" type="BEGUN_BY" />
+<TLINK id="TL75" fromID="E41" fromText="aspirin" toID="T21" toText="q.d." type="OVERLAP" />
+<TLINK id="TL76" fromID="E42" fromText="Plavix" toID="T20" toText="that time" type="BEGUN_BY" />
+<TLINK id="TL77" fromID="E42" fromText="Plavix" toID="T22" toText="q.d." type="OVERLAP" />
+<TLINK id="TL78" fromID="E75" fromText="transferred" toID="T4" toText="2017-09-14" type="OVERLAP" />
+<TLINK id="TL79" fromID="E76" fromText="the regular floor" toID="E75" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL8" fromID="E1" fromText="the patient 's vital signs" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL80" fromID="E77" fromText="stable" toID="T5" toText="Postoperative day 2" type="OVERLAP" />
+<TLINK id="TL81" fromID="E78" fromText="events" toID="E77" toText="stable" type="OVERLAP" />
+<TLINK id="TL82" fromID="E79" fromText="all vital signs" toID="E80" toText="stable" type="OVERLAP" />
+<TLINK id="TL83" fromID="E79" fromText="all vital signs" toID="T5" toText="Postoperative day 2" type="OVERLAP" />
+<TLINK id="TL84" fromID="E81" fromText="Her visual fields" toID="E82" toText="intact" type="OVERLAP" />
+<TLINK id="TL85" fromID="E83" fromText="Her extraocular movements" toID="E84" toText="full" type="OVERLAP" />
+<TLINK id="TL86" fromID="E86" fromText="Angio site" toID="E85" toText="clean , dry" type="OVERLAP" />
+<TLINK id="TL87" fromID="E86" fromText="Angio site" toID="E87" toText="intact without bleeding or drainage" type="OVERLAP" />
+<TLINK id="TL88" fromID="E88" fromText="Discharge condition" toID="E89" toText="good" type="OVERLAP" />
+<TLINK id="TL89" fromID="E45" fromText="discharged" toID="E46" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E43" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E91" fromText="tolerating a p.o. diet" toID="E90" toText="ambulating on her own" type="OVERLAP" />
+<TLINK id="TL91" fromID="E92" fromText="discharged to home" toID="E93" toText="stable condition" type="OVERLAP" />
+<TLINK id="TL92" fromID="E92" fromText="discharged to home" toID="E45" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E9" fromText="stent placement" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E63" fromText="complications" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E64" fromText="discharged" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E65" fromText="the PACU" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E66" fromText="stable condition" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E10" fromText="Postoperative check" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E11" fromText="the patient 's vital signs" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E67" fromText="stable" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E12" fromText="Her temperature" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E13" fromText="blood pressure" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E14" fromText="Her pulse" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E15" fromText="respirations" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E16" fromText="her O2 saturation" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E17" fromText="Her labs" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E44" fromText="showed" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E18" fromText="a white blood count" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E19" fromText="hematocrit" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E20" fromText="platelets" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E21" fromText="Her coags" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E22" fromText="her PT" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E23" fromText="PTT" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E24" fromText="her INR" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E47" fromText="a diagnostic cerebral angiogram" toID="T1" toText="2017-09-13" type="AFTER" />
+<TLINK id="Sectime22" fromID="E25" fromText="Her electrolytes" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E26" fromText="physical exam" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E27" fromText="the angiocele in her groin" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E48" fromText="coiling" toID="T1" toText="2017-09-13" type="AFTER" />
+<TLINK id="Sectime25" fromID="E28" fromText="Angiocele" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E29" fromText="hematoma" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E30" fromText="The assessment" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E68" fromText="neurologically stable" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E69" fromText="neuro checks" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E31" fromText="a heparin drip" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E32" fromText="Her PTT" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E43" fromText="admission" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E70" fromText="remain flat" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E1" fromText="the patient 's vital signs" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E71" fromText="alert" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E72" fromText="drift" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E33" fromText="Her IPs" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E34" fromText="hematoma in her groin site" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E35" fromText="Her vital signs" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E73" fromText="stable" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E36" fromText="a temperature" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E37" fromText="blood pressure" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E38" fromText="Pulse" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E39" fromText="Respirations" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E74" fromText="saturating" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E40" fromText="Her PTT" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E2" fromText="Her blood pressure" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E41" fromText="aspirin" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E42" fromText="Plavix" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E75" fromText="transferred" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E76" fromText="the regular floor" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E77" fromText="stable" toID="T0" toText="2017-09-15" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime53" fromID="E78" fromText="events" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime54" fromID="E79" fromText="all vital signs" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E80" fromText="stable" toID="T0" toText="2017-09-15" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime56" fromID="E81" fromText="Her visual fields" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E3" fromText="Her heart rate" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E82" fromText="intact" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime59" fromID="E83" fromText="Her extraocular movements" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E84" fromText="full" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime61" fromID="E86" fromText="Angio site" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime62" fromID="E85" fromText="clean , dry" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime63" fromID="E87" fromText="intact without bleeding or drainage" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime64" fromID="E45" fromText="discharged" toID="T0" toText="2017-09-15" type="OVERLAP" />
+<TLINK id="Sectime65" fromID="E88" fromText="Discharge condition" toID="T0" toText="2017-09-15" type="OVERLAP" />
+<TLINK id="Sectime66" fromID="E4" fromText="Her SPO2" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime67" fromID="E89" fromText="good" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime68" fromID="E90" fromText="ambulating on her own" toID="T0" toText="2017-09-15" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime69" fromID="E91" fromText="tolerating a p.o. diet" toID="T0" toText="2017-09-15" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime70" fromID="E92" fromText="discharged to home" toID="T0" toText="2017-09-15" type="OVERLAP" />
+<TLINK id="Sectime71" fromID="E93" fromText="stable condition" toID="T0" toText="2017-09-15" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime72" fromID="E49" fromText="Plavix" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime73" fromID="E50" fromText="Xanax" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime74" fromID="E51" fromText="Prozac" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime75" fromID="E52" fromText="Cyclobenzaprine" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime76" fromID="E53" fromText="Aspirin" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime77" fromID="E54" fromText="Vitamin E" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime78" fromID="E55" fromText="Tubal ligation" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime79" fromID="E56" fromText="Cystectomy" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime80" fromID="E94" fromText="Cystectomy" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime81" fromID="E57" fromText="Breast lesion excision" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime82" fromID="E58" fromText="TETRACYCLINE" toID="T0" toText="2017-09-15" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime83" fromID="E59" fromText="a smoker" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime84" fromID="E60" fromText="tobacco" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime85" fromID="E61" fromText="recreational drug" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime86" fromID="E62" fromText="the operating room" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime87" fromID="E5" fromText="a coiling" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime88" fromID="E6" fromText="stent placement" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime89" fromID="E7" fromText="the left carotid ophthalmic aneurysm" toID="T0" toText="2017-09-15" type="BEFORE" />
+<TLINK id="Sectime90" fromID="E8" fromText="coiling" toID="T0" toText="2017-09-15" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2017-09-13" type="ADMISSION" dvalue="2017-09-13" />
+<SECTIME id="S1" start="46" end="56" text="2017-09-15" type="DISCHARGE" dvalue="2017-09-15" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

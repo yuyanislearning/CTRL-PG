@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE : 
+12/25/96 
+DISCHARGE DATE : 
+12/29/96 
+HISTORY OF PRESENT ILLNESS : 
+Ms. Lenkpruskihkooglekih is a 63-year-old lady with a history of frequent premature ventricular contractions and infrequent short runs of non-sustained ventricular tachycardia ( one four-beat run ) in 1991 , for which several antiarrhythmic agents including Propranolol , Quinidine , Procainamide , Tenormin , Norpace , Corgard , and Flecainide were used , but were stopped because of intolerance . 
+At that time , she had clear coronary arteries on coronary angiography and an ejection fraction greater than 50% . 
+She did well off antiarrhythmic agents until October of this year when she was noted to have atrial fibrillation with a rapid ventricular rate after several days of decreased exercise tolerance . 
+She was started on Coumadin and had a failed attempt at DC electrical cardioversion on 11/16/96 . 
+She has been on Coumadin since and has continued to have occasional palpitations and mild shortness of breath . 
+HOSPITAL COURSE AND TREATMENT : 
+The patient was started on Propafenone 300 mg three times a day and underwent an attempt at electrical cardioversion after seven doses of this . 
+This failed , despite one shock at 300 joules and two shocks at 360 joules . 
+The Propafenone was stopped , and the patient was changed to Amiodarone 400 mg t.i.d. , which was continued for two days . 
+The patient was discharged to home on Amiodarone 200 mg daily on 12/29/96 . 
+An electrocardiogram showed no evidence of QT prolongation prior to discharge , and pulmonary function tests will be performed before the patient goes home today . 
+The patient will follow up with Dr. Ther Ludzjesc at Shiekeu Hospital Medical Centers in Connecticut . 
+In addition , she will return to this hospital in early February for repeat attempt at electrical cardioversion on Amiodarone . 
+She will continue her Coumadin until then and arrangements for her readmission can be made through Dr. Iceca Rhaltkaaispehbreun 's office here . 
+MEDICATIONS : 
+Other than the addition of Amiodarone 200 mg daily , will be the same as her admission medications . 
+STA BODEJOVE , M.D. 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1072" end="1083" text="Propafenone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1137" end="1161" text="electrical cardioversion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1191" end="1202" text="This failed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1217" end="1222" text="shock" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1245" end="1251" text="shocks" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1269" end="1284" text="The Propafenone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1330" end="1340" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1409" end="1419" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1431" end="1441" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1470" end="1490" text="An electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1491" end="1497" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="152" end="195" text="frequent premature ventricular contractions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1513" end="1528" text="QT prolongation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1538" end="1547" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1554" end="1578" text="pulmonary function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1616" end="1625" text="goes home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="200" end="262" text="infrequent short runs of non-sustained ventricular tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2056" end="2066" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2102" end="2127" text="her admission medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="313" end="334" text="antiarrhythmic agents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="345" end="356" text="Propranolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="359" end="368" text="Quinidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="371" end="383" text="Procainamide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="386" end="394" text="Tenormin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="397" end="404" text="Norpace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="407" end="414" text="Corgard" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="421" end="431" text="Flecainide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="453" end="460" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="472" end="483" text="intolerance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="537" end="557" text="coronary angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="562" end="582" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="607" end="615" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="620" end="641" text="antiarrhythmic agents" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E18" start="682" end="687" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="696" end="715" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="721" end="745" text="a rapid ventricular rate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="768" end="796" text="decreased exercise tolerance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="819" end="827" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="836" end="852" text="a failed attempt" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="856" end="883" text="DC electrical cardioversion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="915" end="923" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="956" end="979" text="occasional palpitations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="984" end="1008" text="mild shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1091" end="1108" text="three times a day" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T9" start="1168" end="1173" text="seven" type="FREQUENCY" val="R7" mod="NA" />
+<TIMEX3 id="T10" start="1213" end="1216" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T11" start="1241" end="1244" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T12" start="1348" end="1354" text="t.i.d." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T13" start="1381" end="1389" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T14" start="1449" end="1454" text="daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T15" start="1458" end="1466" text="12/29/96" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T16" start="1626" end="1631" text="today" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T0" start="19" end="27" text="12/25/96" type="DATE" val="1996-12-25" mod="NA" />
+<TIMEX3 id="T17" start="2074" end="2079" text="daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T2" start="265" end="268" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T3" start="288" end="292" text="1991" type="DATE" val="1991" mod="NA" />
+<TIMEX3 id="T4" start="305" end="312" text="several" type="FREQUENCY" val="R3" mod="APPROX" />
+<TIMEX3 id="T1" start="47" end="55" text="12/29/96" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T5" start="648" end="668" text="October of this year" type="DATE" val="1996-10" mod="NA" />
+<TIMEX3 id="T6" start="752" end="764" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T7" start="887" end="895" text="11/16/96" type="DATE" val="1996-11-16" mod="NA" />
+<SECTIME id="S0" start="19" end="27" text="12/25/96" type="ADMISSION" dvalue="1996-12-25" />
+<SECTIME id="S1" start="47" end="55" text="12/29/96" type="DISCHARGE" dvalue="1996-12-29" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="12/25/96" type="OVERLAP" />
+<TLINK id="TL1" fromID="E27" fromText="occasional palpitations" toID="E25" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL2" fromID="E27" fromText="occasional palpitations" toID="E28" toText="mild shortness of breath" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="DISCHARGE" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL4" fromID="E16" fromText="did well" toID="T5" toText="October of this year" type="BEFORE" />
+<TLINK id="TL5" fromID="E19" fromText="atrial fibrillation" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL6" fromID="E16" fromText="did well" toID="E17" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL7" fromID="E19" fromText="atrial fibrillation" toID="T5" toText="October of this year" type="OVERLAP" />
+<TLINK id="TL8" fromID="E20" fromText="a rapid ventricular rate" toID="T6" toText="several days" type="AFTER" />
+<TLINK id="TL9" fromID="E22" fromText="Coumadin" toID="E18" toText="noted" type="AFTER" />
+<TLINK id="TL10" fromID="E19" fromText="atrial fibrillation" toID="E20" toText="a rapid ventricular rate" type="OVERLAP" />
+<TLINK id="TL11" fromID="E21" fromText="decreased exercise tolerance" toID="T6" toText="several days" type="OVERLAP" />
+<TLINK id="TL12" fromID="E38" fromText="An electrocardiogram" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL13" fromID="E40" fromText="QT prolongation" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL14" fromID="E38" fromText="An electrocardiogram" toID="E39" toText="showed" type="OVERLAP" />
+<TLINK id="TL15" fromID="E43" fromText="goes home" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL16" fromID="E43" fromText="goes home" toID="T16" toText="today" type="OVERLAP" />
+<TLINK id="TL17" fromID="E44" fromText="Amiodarone" toID="T17" toText="daily" type="OVERLAP" />
+<TLINK id="TL18" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E4" toText="antiarrhythmic agents" type="BEFORE" />
+<TLINK id="TL19" fromID="E11" fromText="Flecainide" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL20" fromID="E13" fromText="intolerance" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL21" fromID="E2" fromText="frequent premature ventricular contractions" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="OVERLAP" />
+<TLINK id="TL22" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="T3" toText="1991" type="AFTER" />
+<TLINK id="TL23" fromID="E4" fromText="antiarrhythmic agents" toID="E5" toText="Propranolol" type="OVERLAP" />
+<TLINK id="TL24" fromID="E5" fromText="Propranolol" toID="E6" toText="Quinidine" type="OVERLAP" />
+<TLINK id="TL25" fromID="E6" fromText="Quinidine" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL26" fromID="E8" fromText="Tenormin" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL27" fromID="E9" fromText="Norpace" toID="E8" toText="Tenormin" type="OVERLAP" />
+<TLINK id="TL28" fromID="E10" fromText="Corgard" toID="E9" toText="Norpace" type="OVERLAP" />
+<TLINK id="TL29" fromID="E11" fromText="Flecainide" toID="E10" toText="Corgard" type="OVERLAP" />
+<TLINK id="TL30" fromID="E14" fromText="coronary angiography" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL31" fromID="E37" fromText="Amiodarone" toID="E36" toText="discharged" type="AFTER" />
+<TLINK id="TL32" fromID="E42" fromText="pulmonary function tests" toID="E36" toText="discharged" type="AFTER" />
+<TLINK id="TL33" fromID="E36" fromText="discharged" toID="T15" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL34" fromID="E37" fromText="Amiodarone" toID="T14" toText="daily" type="OVERLAP" />
+<TLINK id="TL35" fromID="E41" fromText="discharge" toID="E36" toText="discharged" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="electrical cardioversion" toID="T9" toText="seven" type="AFTER" />
+<TLINK id="TL37" fromID="E29" fromText="Propafenone" toID="T8" toText="three times a day" type="OVERLAP" />
+<TLINK id="TL38" fromID="E31" fromText="This failed" toID="E30" toText="electrical cardioversion" type="BEFORE" />
+<TLINK id="TL39" fromID="E22" fromText="Coumadin" toID="E23" toText="a failed attempt" type="OVERLAP" />
+<TLINK id="TL40" fromID="E22" fromText="Coumadin" toID="E25" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL41" fromID="E23" fromText="a failed attempt" toID="E24" toText="DC electrical cardioversion" type="OVERLAP" />
+<TLINK id="TL42" fromID="E24" fromText="DC electrical cardioversion" toID="T7" toText="11/16/96" type="OVERLAP" />
+<TLINK id="TL43" fromID="E34" fromText="The Propafenone" toID="E31" toText="This failed" type="BEFORE" />
+<TLINK id="TL44" fromID="E33" fromText="shocks" toID="E32" toText="shock" type="OVERLAP" />
+<TLINK id="TL45" fromID="E35" fromText="Amiodarone" toID="E31" toText="This failed" type="AFTER" />
+<TLINK id="TL46" fromID="E29" fromText="Propafenone" toID="E34" toText="The Propafenone" type="OVERLAP" />
+<TLINK id="TL47" fromID="E32" fromText="shock" toID="E31" toText="This failed" type="OVERLAP" />
+<TLINK id="TL48" fromID="E32" fromText="shock" toID="T10" toText="one" type="OVERLAP" />
+<TLINK id="TL49" fromID="E33" fromText="shocks" toID="T11" toText="two" type="OVERLAP" />
+<TLINK id="TL50" fromID="E15" fromText="an ejection fraction" toID="E14" toText="coronary angiography" type="OVERLAP" />
+<TLINK id="TL51" fromID="E17" fromText="antiarrhythmic agents" toID="E4" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL52" fromID="E35" fromText="Amiodarone" toID="T12" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL53" fromID="E35" fromText="Amiodarone" toID="T13" toText="two days" type="OVERLAP" />
+<TLINK id="TL54" fromID="E37" fromText="Amiodarone" toID="E35" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL55" fromID="E0" fromText="ADMISSION" toID="T0" toText="12/25/96" type="OVERLAP" />
+<TLINK id="TL56" fromID="T0" fromText="12/25/96" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL57" fromID="E27" fromText="occasional palpitations" toID="E25" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL58" fromID="E28" fromText="mild shortness of breath" toID="E25" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL59" fromID="E27" fromText="occasional palpitations" toID="E28" toText="mild shortness of breath" type="OVERLAP" />
+<TLINK id="TL60" fromID="E28" fromText="mild shortness of breath" toID="E27" toText="occasional palpitations" type="OVERLAP" />
+<TLINK id="TL61" fromID="E25" fromText="Coumadin" toID="E27" toText="occasional palpitations" type="AFTER" />
+<TLINK id="TL62" fromID="E25" fromText="Coumadin" toID="E28" toText="mild shortness of breath" type="AFTER" />
+<TLINK id="TL63" fromID="E1" fromText="DISCHARGE" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL64" fromID="T1" fromText="12/29/96" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL65" fromID="E16" fromText="did well" toID="T5" toText="October of this year" type="BEFORE" />
+<TLINK id="TL66" fromID="E16" fromText="did well" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL67" fromID="E16" fromText="did well" toID="E19" toText="atrial fibrillation" type="BEFORE" />
+<TLINK id="TL68" fromID="E16" fromText="did well" toID="E20" toText="a rapid ventricular rate" type="BEFORE" />
+<TLINK id="TL69" fromID="E17" fromText="antiarrhythmic agents" toID="T5" toText="October of this year" type="BEFORE" />
+<TLINK id="TL70" fromID="E17" fromText="antiarrhythmic agents" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL71" fromID="E17" fromText="antiarrhythmic agents" toID="E19" toText="atrial fibrillation" type="BEFORE" />
+<TLINK id="TL72" fromID="E17" fromText="antiarrhythmic agents" toID="E20" toText="a rapid ventricular rate" type="BEFORE" />
+<TLINK id="TL73" fromID="T5" fromText="October of this year" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL74" fromID="T5" fromText="October of this year" toID="E22" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL75" fromID="E18" fromText="noted" toID="E22" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL76" fromID="E19" fromText="atrial fibrillation" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL77" fromID="E19" fromText="atrial fibrillation" toID="E22" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL78" fromID="E20" fromText="a rapid ventricular rate" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL79" fromID="E20" fromText="a rapid ventricular rate" toID="E22" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL80" fromID="T6" fromText="several days" toID="T5" toText="October of this year" type="BEFORE" />
+<TLINK id="TL81" fromID="T6" fromText="several days" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL82" fromID="T6" fromText="several days" toID="E19" toText="atrial fibrillation" type="BEFORE" />
+<TLINK id="TL83" fromID="T6" fromText="several days" toID="E20" toText="a rapid ventricular rate" type="BEFORE" />
+<TLINK id="TL84" fromID="E21" fromText="decreased exercise tolerance" toID="T5" toText="October of this year" type="BEFORE" />
+<TLINK id="TL85" fromID="E21" fromText="decreased exercise tolerance" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL86" fromID="E21" fromText="decreased exercise tolerance" toID="E19" toText="atrial fibrillation" type="BEFORE" />
+<TLINK id="TL87" fromID="E21" fromText="decreased exercise tolerance" toID="E20" toText="a rapid ventricular rate" type="BEFORE" />
+<TLINK id="TL88" fromID="E16" fromText="did well" toID="E17" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL89" fromID="E17" fromText="antiarrhythmic agents" toID="E16" toText="did well" type="OVERLAP" />
+<TLINK id="TL90" fromID="T5" fromText="October of this year" toID="E19" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL91" fromID="T5" fromText="October of this year" toID="E20" toText="a rapid ventricular rate" type="OVERLAP" />
+<TLINK id="TL92" fromID="E19" fromText="atrial fibrillation" toID="T5" toText="October of this year" type="OVERLAP" />
+<TLINK id="TL93" fromID="E19" fromText="atrial fibrillation" toID="E20" toText="a rapid ventricular rate" type="OVERLAP" />
+<TLINK id="TL94" fromID="E20" fromText="a rapid ventricular rate" toID="T5" toText="October of this year" type="OVERLAP" />
+<TLINK id="TL95" fromID="E20" fromText="a rapid ventricular rate" toID="E19" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL96" fromID="T6" fromText="several days" toID="E21" toText="decreased exercise tolerance" type="OVERLAP" />
+<TLINK id="TL97" fromID="E21" fromText="decreased exercise tolerance" toID="T6" toText="several days" type="OVERLAP" />
+<TLINK id="TL98" fromID="T5" fromText="October of this year" toID="E16" toText="did well" type="AFTER" />
+<TLINK id="TL99" fromID="T5" fromText="October of this year" toID="E17" toText="antiarrhythmic agents" type="AFTER" />
+<TLINK id="TL100" fromID="T5" fromText="October of this year" toID="T6" toText="several days" type="AFTER" />
+<TLINK id="TL101" fromID="T5" fromText="October of this year" toID="E21" toText="decreased exercise tolerance" type="AFTER" />
+<TLINK id="TL102" fromID="E18" fromText="noted" toID="E16" toText="did well" type="AFTER" />
+<TLINK id="TL103" fromID="E18" fromText="noted" toID="E17" toText="antiarrhythmic agents" type="AFTER" />
+<TLINK id="TL104" fromID="E18" fromText="noted" toID="T5" toText="October of this year" type="AFTER" />
+<TLINK id="TL105" fromID="E18" fromText="noted" toID="E19" toText="atrial fibrillation" type="AFTER" />
+<TLINK id="TL106" fromID="E18" fromText="noted" toID="E20" toText="a rapid ventricular rate" type="AFTER" />
+<TLINK id="TL107" fromID="E18" fromText="noted" toID="T6" toText="several days" type="AFTER" />
+<TLINK id="TL108" fromID="E18" fromText="noted" toID="E21" toText="decreased exercise tolerance" type="AFTER" />
+<TLINK id="TL109" fromID="E19" fromText="atrial fibrillation" toID="E16" toText="did well" type="AFTER" />
+<TLINK id="TL110" fromID="E19" fromText="atrial fibrillation" toID="E17" toText="antiarrhythmic agents" type="AFTER" />
+<TLINK id="TL111" fromID="E19" fromText="atrial fibrillation" toID="T6" toText="several days" type="AFTER" />
+<TLINK id="TL112" fromID="E19" fromText="atrial fibrillation" toID="E21" toText="decreased exercise tolerance" type="AFTER" />
+<TLINK id="TL113" fromID="E20" fromText="a rapid ventricular rate" toID="E16" toText="did well" type="AFTER" />
+<TLINK id="TL114" fromID="E20" fromText="a rapid ventricular rate" toID="E17" toText="antiarrhythmic agents" type="AFTER" />
+<TLINK id="TL115" fromID="E20" fromText="a rapid ventricular rate" toID="T6" toText="several days" type="AFTER" />
+<TLINK id="TL116" fromID="E20" fromText="a rapid ventricular rate" toID="E21" toText="decreased exercise tolerance" type="AFTER" />
+<TLINK id="TL117" fromID="E22" fromText="Coumadin" toID="T5" toText="October of this year" type="AFTER" />
+<TLINK id="TL118" fromID="E22" fromText="Coumadin" toID="E18" toText="noted" type="AFTER" />
+<TLINK id="TL119" fromID="E22" fromText="Coumadin" toID="E19" toText="atrial fibrillation" type="AFTER" />
+<TLINK id="TL120" fromID="E22" fromText="Coumadin" toID="E20" toText="a rapid ventricular rate" type="AFTER" />
+<TLINK id="TL121" fromID="E40" fromText="QT prolongation" toID="E38" toText="An electrocardiogram" type="BEFORE" />
+<TLINK id="TL122" fromID="E40" fromText="QT prolongation" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL123" fromID="E41" fromText="discharge" toID="E38" toText="An electrocardiogram" type="BEFORE" />
+<TLINK id="TL124" fromID="E41" fromText="discharge" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL125" fromID="E41" fromText="discharge" toID="E43" toText="goes home" type="BEFORE" />
+<TLINK id="TL126" fromID="E41" fromText="discharge" toID="T16" toText="today" type="BEFORE" />
+<TLINK id="TL127" fromID="E38" fromText="An electrocardiogram" toID="E39" toText="showed" type="OVERLAP" />
+<TLINK id="TL128" fromID="E39" fromText="showed" toID="E38" toText="An electrocardiogram" type="OVERLAP" />
+<TLINK id="TL129" fromID="E43" fromText="goes home" toID="T16" toText="today" type="OVERLAP" />
+<TLINK id="TL130" fromID="T16" fromText="today" toID="E43" toText="goes home" type="OVERLAP" />
+<TLINK id="TL131" fromID="E38" fromText="An electrocardiogram" toID="E40" toText="QT prolongation" type="AFTER" />
+<TLINK id="TL132" fromID="E38" fromText="An electrocardiogram" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL133" fromID="E39" fromText="showed" toID="E40" toText="QT prolongation" type="AFTER" />
+<TLINK id="TL134" fromID="E39" fromText="showed" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL135" fromID="E43" fromText="goes home" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL136" fromID="T16" fromText="today" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL137" fromID="E44" fromText="Amiodarone" toID="T17" toText="daily" type="OVERLAP" />
+<TLINK id="TL138" fromID="T17" fromText="daily" toID="E44" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL139" fromID="E2" fromText="frequent premature ventricular contractions" toID="E4" toText="antiarrhythmic agents" type="BEFORE" />
+<TLINK id="TL140" fromID="E2" fromText="frequent premature ventricular contractions" toID="E5" toText="Propranolol" type="BEFORE" />
+<TLINK id="TL141" fromID="E2" fromText="frequent premature ventricular contractions" toID="E6" toText="Quinidine" type="BEFORE" />
+<TLINK id="TL142" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E4" toText="antiarrhythmic agents" type="BEFORE" />
+<TLINK id="TL143" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E5" toText="Propranolol" type="BEFORE" />
+<TLINK id="TL144" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E6" toText="Quinidine" type="BEFORE" />
+<TLINK id="TL145" fromID="T3" fromText="1991" toID="E2" toText="frequent premature ventricular contractions" type="BEFORE" />
+<TLINK id="TL146" fromID="T3" fromText="1991" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="BEFORE" />
+<TLINK id="TL147" fromID="T3" fromText="1991" toID="E4" toText="antiarrhythmic agents" type="BEFORE" />
+<TLINK id="TL148" fromID="T3" fromText="1991" toID="E5" toText="Propranolol" type="BEFORE" />
+<TLINK id="TL149" fromID="T3" fromText="1991" toID="E6" toText="Quinidine" type="BEFORE" />
+<TLINK id="TL150" fromID="E9" fromText="Norpace" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL151" fromID="E10" fromText="Corgard" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL152" fromID="E11" fromText="Flecainide" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL153" fromID="E13" fromText="intolerance" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL154" fromID="E14" fromText="coronary angiography" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL155" fromID="E2" fromText="frequent premature ventricular contractions" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="OVERLAP" />
+<TLINK id="TL156" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E2" toText="frequent premature ventricular contractions" type="OVERLAP" />
+<TLINK id="TL157" fromID="E4" fromText="antiarrhythmic agents" toID="E5" toText="Propranolol" type="OVERLAP" />
+<TLINK id="TL158" fromID="E4" fromText="antiarrhythmic agents" toID="E6" toText="Quinidine" type="OVERLAP" />
+<TLINK id="TL159" fromID="E5" fromText="Propranolol" toID="E4" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL160" fromID="E5" fromText="Propranolol" toID="E6" toText="Quinidine" type="OVERLAP" />
+<TLINK id="TL161" fromID="E5" fromText="Propranolol" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL162" fromID="E6" fromText="Quinidine" toID="E4" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL163" fromID="E6" fromText="Quinidine" toID="E5" toText="Propranolol" type="OVERLAP" />
+<TLINK id="TL164" fromID="E6" fromText="Quinidine" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL165" fromID="E6" fromText="Quinidine" toID="E8" toText="Tenormin" type="OVERLAP" />
+<TLINK id="TL166" fromID="E7" fromText="Procainamide" toID="E5" toText="Propranolol" type="OVERLAP" />
+<TLINK id="TL167" fromID="E7" fromText="Procainamide" toID="E6" toText="Quinidine" type="OVERLAP" />
+<TLINK id="TL168" fromID="E7" fromText="Procainamide" toID="E8" toText="Tenormin" type="OVERLAP" />
+<TLINK id="TL169" fromID="E7" fromText="Procainamide" toID="E9" toText="Norpace" type="OVERLAP" />
+<TLINK id="TL170" fromID="E8" fromText="Tenormin" toID="E6" toText="Quinidine" type="OVERLAP" />
+<TLINK id="TL171" fromID="E8" fromText="Tenormin" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL172" fromID="E8" fromText="Tenormin" toID="E9" toText="Norpace" type="OVERLAP" />
+<TLINK id="TL173" fromID="E8" fromText="Tenormin" toID="E10" toText="Corgard" type="OVERLAP" />
+<TLINK id="TL174" fromID="E9" fromText="Norpace" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL175" fromID="E9" fromText="Norpace" toID="E8" toText="Tenormin" type="OVERLAP" />
+<TLINK id="TL176" fromID="E9" fromText="Norpace" toID="E10" toText="Corgard" type="OVERLAP" />
+<TLINK id="TL177" fromID="E9" fromText="Norpace" toID="E11" toText="Flecainide" type="OVERLAP" />
+<TLINK id="TL178" fromID="E10" fromText="Corgard" toID="E8" toText="Tenormin" type="OVERLAP" />
+<TLINK id="TL179" fromID="E10" fromText="Corgard" toID="E9" toText="Norpace" type="OVERLAP" />
+<TLINK id="TL180" fromID="E10" fromText="Corgard" toID="E11" toText="Flecainide" type="OVERLAP" />
+<TLINK id="TL181" fromID="E11" fromText="Flecainide" toID="E9" toText="Norpace" type="OVERLAP" />
+<TLINK id="TL182" fromID="E11" fromText="Flecainide" toID="E10" toText="Corgard" type="OVERLAP" />
+<TLINK id="TL183" fromID="E2" fromText="frequent premature ventricular contractions" toID="T3" toText="1991" type="AFTER" />
+<TLINK id="TL184" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="T3" toText="1991" type="AFTER" />
+<TLINK id="TL185" fromID="E4" fromText="antiarrhythmic agents" toID="E2" toText="frequent premature ventricular contractions" type="AFTER" />
+<TLINK id="TL186" fromID="E4" fromText="antiarrhythmic agents" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="AFTER" />
+<TLINK id="TL187" fromID="E4" fromText="antiarrhythmic agents" toID="T3" toText="1991" type="AFTER" />
+<TLINK id="TL188" fromID="E5" fromText="Propranolol" toID="E2" toText="frequent premature ventricular contractions" type="AFTER" />
+<TLINK id="TL189" fromID="E5" fromText="Propranolol" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="AFTER" />
+<TLINK id="TL190" fromID="E5" fromText="Propranolol" toID="T3" toText="1991" type="AFTER" />
+<TLINK id="TL191" fromID="E6" fromText="Quinidine" toID="E2" toText="frequent premature ventricular contractions" type="AFTER" />
+<TLINK id="TL192" fromID="E6" fromText="Quinidine" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="AFTER" />
+<TLINK id="TL193" fromID="E6" fromText="Quinidine" toID="T3" toText="1991" type="AFTER" />
+<TLINK id="TL194" fromID="E12" fromText="stopped" toID="E9" toText="Norpace" type="AFTER" />
+<TLINK id="TL195" fromID="E12" fromText="stopped" toID="E10" toText="Corgard" type="AFTER" />
+<TLINK id="TL196" fromID="E12" fromText="stopped" toID="E11" toText="Flecainide" type="AFTER" />
+<TLINK id="TL197" fromID="E12" fromText="stopped" toID="E13" toText="intolerance" type="AFTER" />
+<TLINK id="TL198" fromID="E12" fromText="stopped" toID="E14" toText="coronary angiography" type="AFTER" />
+<TLINK id="TL199" fromID="E36" fromText="discharged" toID="E37" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL200" fromID="E36" fromText="discharged" toID="T14" toText="daily" type="BEFORE" />
+<TLINK id="TL201" fromID="E36" fromText="discharged" toID="E42" toText="pulmonary function tests" type="BEFORE" />
+<TLINK id="TL202" fromID="T15" fromText="12/29/96" toID="E37" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL203" fromID="T15" fromText="12/29/96" toID="T14" toText="daily" type="BEFORE" />
+<TLINK id="TL204" fromID="T15" fromText="12/29/96" toID="E42" toText="pulmonary function tests" type="BEFORE" />
+<TLINK id="TL205" fromID="E41" fromText="discharge" toID="E37" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL206" fromID="E41" fromText="discharge" toID="T14" toText="daily" type="BEFORE" />
+<TLINK id="TL207" fromID="E41" fromText="discharge" toID="E42" toText="pulmonary function tests" type="BEFORE" />
+<TLINK id="TL208" fromID="E36" fromText="discharged" toID="T15" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL209" fromID="E36" fromText="discharged" toID="E41" toText="discharge" type="OVERLAP" />
+<TLINK id="TL210" fromID="E37" fromText="Amiodarone" toID="T14" toText="daily" type="OVERLAP" />
+<TLINK id="TL211" fromID="T14" fromText="daily" toID="E37" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL212" fromID="T15" fromText="12/29/96" toID="E36" toText="discharged" type="OVERLAP" />
+<TLINK id="TL213" fromID="T15" fromText="12/29/96" toID="E41" toText="discharge" type="OVERLAP" />
+<TLINK id="TL214" fromID="E41" fromText="discharge" toID="E36" toText="discharged" type="OVERLAP" />
+<TLINK id="TL215" fromID="E41" fromText="discharge" toID="T15" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL216" fromID="E37" fromText="Amiodarone" toID="E36" toText="discharged" type="AFTER" />
+<TLINK id="TL217" fromID="E37" fromText="Amiodarone" toID="T15" toText="12/29/96" type="AFTER" />
+<TLINK id="TL218" fromID="E37" fromText="Amiodarone" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL219" fromID="T14" fromText="daily" toID="E36" toText="discharged" type="AFTER" />
+<TLINK id="TL220" fromID="T14" fromText="daily" toID="T15" toText="12/29/96" type="AFTER" />
+<TLINK id="TL221" fromID="T14" fromText="daily" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL222" fromID="E42" fromText="pulmonary function tests" toID="E36" toText="discharged" type="AFTER" />
+<TLINK id="TL223" fromID="E42" fromText="pulmonary function tests" toID="T15" toText="12/29/96" type="AFTER" />
+<TLINK id="TL224" fromID="E42" fromText="pulmonary function tests" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL225" fromID="T9" fromText="seven" toID="E30" toText="electrical cardioversion" type="BEFORE" />
+<TLINK id="TL226" fromID="E31" fromText="This failed" toID="E30" toText="electrical cardioversion" type="BEFORE" />
+<TLINK id="TL227" fromID="E29" fromText="Propafenone" toID="T8" toText="three times a day" type="OVERLAP" />
+<TLINK id="TL228" fromID="T8" fromText="three times a day" toID="E29" toText="Propafenone" type="OVERLAP" />
+<TLINK id="TL229" fromID="E30" fromText="electrical cardioversion" toID="T9" toText="seven" type="AFTER" />
+<TLINK id="TL230" fromID="E30" fromText="electrical cardioversion" toID="E31" toText="This failed" type="AFTER" />
+<TLINK id="TL231" fromID="E22" fromText="Coumadin" toID="E23" toText="a failed attempt" type="OVERLAP" />
+<TLINK id="TL232" fromID="E22" fromText="Coumadin" toID="E24" toText="DC electrical cardioversion" type="OVERLAP" />
+<TLINK id="TL233" fromID="E22" fromText="Coumadin" toID="E25" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL234" fromID="E23" fromText="a failed attempt" toID="E22" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL235" fromID="E23" fromText="a failed attempt" toID="E24" toText="DC electrical cardioversion" type="OVERLAP" />
+<TLINK id="TL236" fromID="E23" fromText="a failed attempt" toID="T7" toText="11/16/96" type="OVERLAP" />
+<TLINK id="TL237" fromID="E23" fromText="a failed attempt" toID="E25" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL238" fromID="E24" fromText="DC electrical cardioversion" toID="E22" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL239" fromID="E24" fromText="DC electrical cardioversion" toID="E23" toText="a failed attempt" type="OVERLAP" />
+<TLINK id="TL240" fromID="E24" fromText="DC electrical cardioversion" toID="T7" toText="11/16/96" type="OVERLAP" />
+<TLINK id="TL241" fromID="T7" fromText="11/16/96" toID="E23" toText="a failed attempt" type="OVERLAP" />
+<TLINK id="TL242" fromID="T7" fromText="11/16/96" toID="E24" toText="DC electrical cardioversion" type="OVERLAP" />
+<TLINK id="TL243" fromID="E25" fromText="Coumadin" toID="E22" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL244" fromID="E25" fromText="Coumadin" toID="E23" toText="a failed attempt" type="OVERLAP" />
+<TLINK id="TL245" fromID="E29" fromText="Propafenone" toID="E31" toText="This failed" type="BEFORE" />
+<TLINK id="TL246" fromID="E29" fromText="Propafenone" toID="T10" toText="one" type="BEFORE" />
+<TLINK id="TL247" fromID="E29" fromText="Propafenone" toID="E32" toText="shock" type="BEFORE" />
+<TLINK id="TL248" fromID="E29" fromText="Propafenone" toID="E33" toText="shocks" type="BEFORE" />
+<TLINK id="TL249" fromID="E29" fromText="Propafenone" toID="E35" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL250" fromID="E31" fromText="This failed" toID="E35" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL251" fromID="T10" fromText="one" toID="E35" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL252" fromID="E32" fromText="shock" toID="E35" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL253" fromID="E33" fromText="shocks" toID="E35" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL254" fromID="E34" fromText="The Propafenone" toID="E31" toText="This failed" type="BEFORE" />
+<TLINK id="TL255" fromID="E34" fromText="The Propafenone" toID="T10" toText="one" type="BEFORE" />
+<TLINK id="TL256" fromID="E34" fromText="The Propafenone" toID="E32" toText="shock" type="BEFORE" />
+<TLINK id="TL257" fromID="E34" fromText="The Propafenone" toID="E33" toText="shocks" type="BEFORE" />
+<TLINK id="TL258" fromID="E34" fromText="The Propafenone" toID="E35" toText="Amiodarone" type="BEFORE" />
+<TLINK id="TL259" fromID="E29" fromText="Propafenone" toID="E34" toText="The Propafenone" type="OVERLAP" />
+<TLINK id="TL260" fromID="E31" fromText="This failed" toID="T10" toText="one" type="OVERLAP" />
+<TLINK id="TL261" fromID="E31" fromText="This failed" toID="E32" toText="shock" type="OVERLAP" />
+<TLINK id="TL262" fromID="E31" fromText="This failed" toID="E33" toText="shocks" type="OVERLAP" />
+<TLINK id="TL263" fromID="T10" fromText="one" toID="E31" toText="This failed" type="OVERLAP" />
+<TLINK id="TL264" fromID="T10" fromText="one" toID="E32" toText="shock" type="OVERLAP" />
+<TLINK id="TL265" fromID="T10" fromText="one" toID="E33" toText="shocks" type="OVERLAP" />
+<TLINK id="TL266" fromID="E32" fromText="shock" toID="E31" toText="This failed" type="OVERLAP" />
+<TLINK id="TL267" fromID="E32" fromText="shock" toID="T10" toText="one" type="OVERLAP" />
+<TLINK id="TL268" fromID="E32" fromText="shock" toID="T11" toText="two" type="OVERLAP" />
+<TLINK id="TL269" fromID="E32" fromText="shock" toID="E33" toText="shocks" type="OVERLAP" />
+<TLINK id="TL270" fromID="T11" fromText="two" toID="E32" toText="shock" type="OVERLAP" />
+<TLINK id="TL271" fromID="T11" fromText="two" toID="E33" toText="shocks" type="OVERLAP" />
+<TLINK id="TL272" fromID="E33" fromText="shocks" toID="E31" toText="This failed" type="OVERLAP" />
+<TLINK id="TL273" fromID="E33" fromText="shocks" toID="T10" toText="one" type="OVERLAP" />
+<TLINK id="TL274" fromID="E33" fromText="shocks" toID="E32" toText="shock" type="OVERLAP" />
+<TLINK id="TL275" fromID="E33" fromText="shocks" toID="T11" toText="two" type="OVERLAP" />
+<TLINK id="TL276" fromID="E34" fromText="The Propafenone" toID="E29" toText="Propafenone" type="OVERLAP" />
+<TLINK id="TL277" fromID="E31" fromText="This failed" toID="E29" toText="Propafenone" type="AFTER" />
+<TLINK id="TL278" fromID="E31" fromText="This failed" toID="E34" toText="The Propafenone" type="AFTER" />
+<TLINK id="TL279" fromID="T10" fromText="one" toID="E29" toText="Propafenone" type="AFTER" />
+<TLINK id="TL280" fromID="T10" fromText="one" toID="E34" toText="The Propafenone" type="AFTER" />
+<TLINK id="TL281" fromID="E32" fromText="shock" toID="E29" toText="Propafenone" type="AFTER" />
+<TLINK id="TL282" fromID="E32" fromText="shock" toID="E34" toText="The Propafenone" type="AFTER" />
+<TLINK id="TL283" fromID="E33" fromText="shocks" toID="E29" toText="Propafenone" type="AFTER" />
+<TLINK id="TL284" fromID="E33" fromText="shocks" toID="E34" toText="The Propafenone" type="AFTER" />
+<TLINK id="TL285" fromID="E35" fromText="Amiodarone" toID="E29" toText="Propafenone" type="AFTER" />
+<TLINK id="TL286" fromID="E35" fromText="Amiodarone" toID="E31" toText="This failed" type="AFTER" />
+<TLINK id="TL287" fromID="E35" fromText="Amiodarone" toID="T10" toText="one" type="AFTER" />
+<TLINK id="TL288" fromID="E35" fromText="Amiodarone" toID="E32" toText="shock" type="AFTER" />
+<TLINK id="TL289" fromID="E35" fromText="Amiodarone" toID="E33" toText="shocks" type="AFTER" />
+<TLINK id="TL290" fromID="E35" fromText="Amiodarone" toID="E34" toText="The Propafenone" type="AFTER" />
+<TLINK id="TL291" fromID="E4" fromText="antiarrhythmic agents" toID="E17" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL292" fromID="E14" fromText="coronary angiography" toID="E15" toText="an ejection fraction" type="OVERLAP" />
+<TLINK id="TL293" fromID="E15" fromText="an ejection fraction" toID="E14" toText="coronary angiography" type="OVERLAP" />
+<TLINK id="TL294" fromID="E17" fromText="antiarrhythmic agents" toID="E4" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL295" fromID="E35" fromText="Amiodarone" toID="T12" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL296" fromID="E35" fromText="Amiodarone" toID="T13" toText="two days" type="OVERLAP" />
+<TLINK id="TL297" fromID="E35" fromText="Amiodarone" toID="E37" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL298" fromID="T12" fromText="t.i.d." toID="E35" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL299" fromID="T12" fromText="t.i.d." toID="T13" toText="two days" type="OVERLAP" />
+<TLINK id="TL300" fromID="T12" fromText="t.i.d." toID="E37" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL301" fromID="T13" fromText="two days" toID="E35" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL302" fromID="T13" fromText="two days" toID="T12" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL303" fromID="T13" fromText="two days" toID="E37" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL304" fromID="E37" fromText="Amiodarone" toID="E35" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL305" fromID="E37" fromText="Amiodarone" toID="T12" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL306" fromID="E37" fromText="Amiodarone" toID="T13" toText="two days" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

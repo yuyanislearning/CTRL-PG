@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+5-30-93
+DISCHARGE DATE :
+6-2-93
+DISCHARGE DATE :
+6-2-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 63 year old woman with a history of mixed adenocarcinoma and large cell carcinoma of the left upper lobe of the lung who is being admitted for Neoadjuvant chemotherapy with Cisplatinum , 5-FU and Velban .
+Her history has been well documented in her previous notes .
+Briefly , she was originally diagnosed in April 1993 with lung carcinoma .
+Bronchoscopy and mediastinoscopy revealed an unresectable mediastinal tumor with the left tracheobronchial angle node positive for cancer , and the right paratracheal node positive for anthracosis .
+Formal pathology revealed a poorly differentiated adenocarcinoma with focal giant cells .
+Bone scan , head CT and other staging studies were all negative for evidence of metastatic disease .
+The patient is being treated with preoperative neoadjuvant chemotherapy using 5 FU , Vinblastine , Cisplatinum and concomitant radiation therapy .
+She is now admitted for her second course of that therapy .
+HOSPITAL COURSE :
+The patient was admitted to the Oncology Service on Founder &apos;s 7 and received intravenous chemotherapy with a 72 hour continuous infusion of 5-FU , Vinblastine on day 1 and day 3 , and Cisplatinum on day 1 .
+She tolerated the chemotherapy well with mild nausea and vomiting .
+She had mild increase in her hypertension during the hospitalization , likely secondary to fluid overload .
+She also had some modest anemia , at the time of discharge her hematocrit was 30.9 .
+Overall there were no unanticipated side effects of this chemotherapy .
+Following her recovery from chemotherapy , she will proceed to surgical resection .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1009" end="1017" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1022" end="1055" text="her second course of that therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1092" end="1100" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1104" end="1124" text="the Oncology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="1159" end="1183" text="intravenous chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1210" end="1240" text="infusion of 5-FU , Vinblastine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1229" end="1240" text="Vinblastine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1266" end="1277" text="Cisplatinum" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1293" end="1302" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1303" end="1319" text="the chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1320" end="1324" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1335" end="1341" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1346" end="1354" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1365" end="1378" text="mild increase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1370" end="1378" text="increase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1382" end="1398" text="her hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1406" end="1425" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1448" end="1462" text="fluid overload" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1483" end="1496" text="modest anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1514" end="1523" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1524" end="1538" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="156" end="176" text="mixed adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1572" end="1598" text="unanticipated side effects" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="1602" end="1619" text="this chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1632" end="1644" text="her recovery" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1650" end="1662" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1685" end="1703" text="surgical resection" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="181" end="224" text="large cell carcinoma of the left upper lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="250" end="258" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="263" end="287" text="Neoadjuvant chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="293" end="304" text="Cisplatinum" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="307" end="311" text="5-FU" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="316" end="322" text="Velban" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="415" end="424" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="444" end="458" text="lung carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="461" end="473" text="Bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="478" end="493" text="mediastinoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="494" end="502" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="503" end="536" text="an unresectable mediastinal tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="592" end="598" text="cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="646" end="657" text="anthracosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="660" end="676" text="Formal pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="677" end="685" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="686" end="724" text="a poorly differentiated adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="730" end="747" text="focal giant cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="750" end="759" text="Bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="762" end="769" text="head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="780" end="795" text="staging studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="830" end="848" text="metastatic disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E48" start="885" end="922" text="preoperative neoadjuvant chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="929" end="933" text="5 FU" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="936" end="947" text="Vinblastine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="950" end="961" text="Cisplatinum" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="966" end="995" text="concomitant radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="1191" end="1198" text="72 hour" type="DURATION" val="PT72H" mod="NA" />
+<TIMEX3 id="T5" start="1244" end="1249" text="day 1" type="DATE" val="1993-05-30" mod="NA" />
+<TIMEX3 id="T6" start="1254" end="1259" text="day 3" type="DATE" val="1993-06-01" mod="NA" />
+<TIMEX3 id="T7" start="1281" end="1286" text="day 1" type="DATE" val="1993-05-30" mod="NA" />
+<TIMEX3 id="T8" start="1502" end="1510" text="the time" type="DATE" val="1993-06-02" mod="NA" />
+<TIMEX3 id="T1" start="18" end="25" text="5-30-93" type="DATE" val="1993-05-30" mod="NA" />
+<TIMEX3 id="T4" start="428" end="438" text="April 1993" type="DATE" val="1993-04" mod="NA" />
+<TIMEX3 id="T2" start="43" end="49" text="6-2-93" type="DATE" val="1993-06-02" mod="NA" />
+<TIMEX3 id="T3" start="67" end="73" text="6-2-93" type="DATE" val="1993-06-02" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="large cell carcinoma of the left upper lobe" toID="E7" toText="lung carcinoma" type="OVERLAP" />
+<TLINK id="TL10" fromID="E1" fromText="mixed adenocarcinoma" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL11" fromID="E2" fromText="large cell carcinoma of the left upper lobe" toID="E1" toText="mixed adenocarcinoma" type="OVERLAP" />
+<TLINK id="TL12" fromID="E43" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL13" fromID="E3" fromText="Neoadjuvant chemotherapy" toID="E43" toText="admitted" type="AFTER" />
+<TLINK id="TL14" fromID="E4" fromText="Cisplatinum" toID="E3" toText="Neoadjuvant chemotherapy" type="OVERLAP" />
+<TLINK id="TL15" fromID="E5" fromText="5-FU" toID="E4" toText="Cisplatinum" type="OVERLAP" />
+<TLINK id="TL16" fromID="E6" fromText="Velban" toID="E5" toText="5-FU" type="OVERLAP" />
+<TLINK id="TL17" fromID="E38" fromText="diagnosed" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL18" fromID="E38" fromText="diagnosed" toID="T4" toText="April 1993" type="OVERLAP" />
+<TLINK id="TL19" fromID="E7" fromText="lung carcinoma" toID="T4" toText="April 1993" type="BEFORE" />
+<TLINK id="TL2" fromID="E28" fromText="the chemotherapy" toID="E36" toText="this chemotherapy" type="OVERLAP" />
+<TLINK id="TL20" fromID="E8" fromText="Bronchoscopy" toID="E38" toText="diagnosed" type="OVERLAP" />
+<TLINK id="TL21" fromID="E9" fromText="mediastinoscopy" toID="E8" toText="Bronchoscopy" type="OVERLAP" />
+<TLINK id="TL22" fromID="E44" fromText="revealed" toID="E9" toText="mediastinoscopy" type="OVERLAP" />
+<TLINK id="TL23" fromID="E10" fromText="an unresectable mediastinal tumor" toID="E44" toText="revealed" type="BEFORE" />
+<TLINK id="TL24" fromID="E11" fromText="cancer" toID="E10" toText="an unresectable mediastinal tumor" type="OVERLAP" />
+<TLINK id="TL25" fromID="E12" fromText="anthracosis" toID="E11" toText="cancer" type="OVERLAP" />
+<TLINK id="TL26" fromID="E13" fromText="Formal pathology" toID="E9" toText="mediastinoscopy" type="OVERLAP" />
+<TLINK id="TL27" fromID="E46" fromText="revealed" toID="E13" toText="Formal pathology" type="OVERLAP" />
+<TLINK id="TL28" fromID="E14" fromText="a poorly differentiated adenocarcinoma" toID="E46" toText="revealed" type="BEFORE" />
+<TLINK id="TL29" fromID="E15" fromText="focal giant cells" toID="E14" toText="a poorly differentiated adenocarcinoma" type="OVERLAP" />
+<TLINK id="TL3" fromID="E4" fromText="Cisplatinum" toID="E22" toText="Cisplatinum" type="OVERLAP" />
+<TLINK id="TL30" fromID="E16" fromText="Bone scan" toID="E13" toText="Formal pathology" type="OVERLAP" />
+<TLINK id="TL31" fromID="E17" fromText="head CT" toID="E16" toText="Bone scan" type="OVERLAP" />
+<TLINK id="TL32" fromID="E47" fromText="staging studies" toID="E17" toText="head CT" type="OVERLAP" />
+<TLINK id="TL33" fromID="E19" fromText="metastatic disease" toID="E47" toText="staging studies" type="BEFORE" />
+<TLINK id="TL34" fromID="E48" fromText="preoperative neoadjuvant chemotherapy" toID="E3" toText="Neoadjuvant chemotherapy" type="OVERLAP" />
+<TLINK id="TL35" fromID="E49" fromText="5 FU" toID="E48" toText="preoperative neoadjuvant chemotherapy" type="OVERLAP" />
+<TLINK id="TL36" fromID="E21" fromText="Vinblastine" toID="E49" toText="5 FU" type="OVERLAP" />
+<TLINK id="TL37" fromID="E22" fromText="Cisplatinum" toID="E21" toText="Vinblastine" type="OVERLAP" />
+<TLINK id="TL38" fromID="E23" fromText="concomitant radiation therapy" toID="E22" toText="Cisplatinum" type="OVERLAP" />
+<TLINK id="TL39" fromID="E50" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL4" fromID="E24" fromText="her second course of that therapy" toID="E25" toText="intravenous chemotherapy" type="OVERLAP" />
+<TLINK id="TL40" fromID="E24" fromText="her second course of that therapy" toID="E48" toText="preoperative neoadjuvant chemotherapy" type="OVERLAP" />
+<TLINK id="TL41" fromID="E39" fromText="admitted" toID="E50" toText="admitted" type="OVERLAP" />
+<TLINK id="TL42" fromID="E40" fromText="the Oncology Service" toID="E39" toText="admitted" type="AFTER" />
+<TLINK id="TL43" fromID="E25" fromText="intravenous chemotherapy" toID="E40" toText="the Oncology Service" type="OVERLAP" />
+<TLINK id="TL44" fromID="E51" fromText="infusion of 5-FU , Vinblastine" toID="E25" toText="intravenous chemotherapy" type="OVERLAP" />
+<TLINK id="TL45" fromID="E51" fromText="infusion of 5-FU , Vinblastine" toID="T0" toText="72 hour" type="OVERLAP" />
+<TLINK id="TL46" fromID="E26" fromText="Vinblastine" toID="E51" toText="infusion of 5-FU , Vinblastine" type="OVERLAP" />
+<TLINK id="TL5" fromID="E21" fromText="Vinblastine" toID="E26" toText="Vinblastine" type="OVERLAP" />
+<TLINK id="TL50" fromID="E26" fromText="Vinblastine" toID="T5" toText="day 1" type="OVERLAP" />
+<TLINK id="TL51" fromID="E26" fromText="Vinblastine" toID="T6" toText="day 3" type="OVERLAP" />
+<TLINK id="TL52" fromID="E27" fromText="Cisplatinum" toID="T7" toText="day 1" type="OVERLAP" />
+<TLINK id="TL53" fromID="E26" fromText="Vinblastine" toID="E27" toText="Cisplatinum" type="OVERLAP" />
+<TLINK id="TL56" fromID="E28" fromText="the chemotherapy" toID="E25" toText="intravenous chemotherapy" type="OVERLAP" />
+<TLINK id="TL57" fromID="E41" fromText="tolerated" toID="E28" toText="the chemotherapy" type="OVERLAP" />
+<TLINK id="TL58" fromID="E41" fromText="tolerated" toID="E60" toText="well" type="OVERLAP" />
+<TLINK id="TL59" fromID="E52" fromText="nausea" toID="E60" toText="well" type="OVERLAP" />
+<TLINK id="TL6" fromID="E36" fromText="this chemotherapy" toID="E37" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL60" fromID="E30" fromText="vomiting" toID="E52" toText="nausea" type="OVERLAP" />
+<TLINK id="TL61" fromID="E54" fromText="the hospitalization" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL62" fromID="E54" fromText="the hospitalization" toID="E42" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL63" fromID="E31" fromText="mild increase" toID="E32" toText="her hypertension" type="OVERLAP" />
+<TLINK id="TL64" fromID="E31" fromText="mild increase" toID="E54" toText="the hospitalization" type="OVERLAP" />
+<TLINK id="TL65" fromID="E55" fromText="fluid overload" toID="E31" toText="mild increase" type="BEFORE" />
+<TLINK id="TL66" fromID="E56" fromText="modest anemia" toID="E31" toText="mild increase" type="OVERLAP" />
+<TLINK id="TL67" fromID="T8" fromText="the time" toID="E57" toText="discharge" type="OVERLAP" />
+<TLINK id="TL68" fromID="E57" fromText="discharge" toID="E42" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL69" fromID="E34" fromText="her hematocrit" toID="T8" toText="the time" type="OVERLAP" />
+<TLINK id="TL7" fromID="E25" fromText="intravenous chemotherapy" toID="E28" toText="the chemotherapy" type="OVERLAP" />
+<TLINK id="TL70" fromID="E36" fromText="this chemotherapy" toID="E28" toText="the chemotherapy" type="OVERLAP" />
+<TLINK id="TL71" fromID="E36" fromText="this chemotherapy" toID="E35" toText="unanticipated side effects" type="BEFORE" />
+<TLINK id="TL72" fromID="E58" fromText="her recovery" toID="E36" toText="this chemotherapy" type="AFTER" />
+<TLINK id="TL73" fromID="E37" fromText="chemotherapy" toID="E36" toText="this chemotherapy" type="OVERLAP" />
+<TLINK id="TL74" fromID="E59" fromText="surgical resection" toID="E58" toText="her recovery" type="AFTER" />
+<TLINK id="TL8" fromID="E22" fromText="Cisplatinum" toID="E27" toText="Cisplatinum" type="OVERLAP" />
+<TLINK id="TL9" fromID="E42" fromText="DISCHARGE" toID="T2" toText="6-2-93" type="OVERLAP" />
+
+
+<TLINK id="SECTIME0" fromID="E50" fromText="admitted" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E24" fromText="her second course of that therapy" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E39" fromText="admitted" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E40" fromText="the Oncology Service" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E25" fromText="intravenous chemotherapy" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E51" fromText="infusion of 5-FU , Vinblastine" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E26" fromText="Vinblastine" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E27" fromText="Cisplatinum" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E41" fromText="tolerated" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E28" fromText="the chemotherapy" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E60" fromText="well" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E52" fromText="nausea" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E30" fromText="vomiting" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E31" fromText="mild increase" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E53" fromText="increase" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E32" fromText="her hypertension" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E54" fromText="the hospitalization" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E55" fromText="fluid overload" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E56" fromText="modest anemia" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E57" fromText="discharge" toID="T2" toText="6-2-93" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E34" fromText="her hematocrit" toID="T2" toText="6-2-93" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E1" fromText="mixed adenocarcinoma" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E35" fromText="unanticipated side effects" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E36" fromText="this chemotherapy" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E58" fromText="her recovery" toID="T2" toText="6-2-93" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E37" fromText="chemotherapy" toID="T2" toText="6-2-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E59" fromText="surgical resection" toID="T2" toText="6-2-93" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E2" fromText="large cell carcinoma of the left upper lobe" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E43" fromText="admitted" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E3" fromText="Neoadjuvant chemotherapy" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E4" fromText="Cisplatinum" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME31" fromID="E5" fromText="5-FU" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E6" fromText="Velban" toID="T1" toText="5-30-93" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E38" fromText="diagnosed" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E7" fromText="lung carcinoma" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E8" fromText="Bronchoscopy" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E9" fromText="mediastinoscopy" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E44" fromText="revealed" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E10" fromText="an unresectable mediastinal tumor" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E11" fromText="cancer" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E12" fromText="anthracosis" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E13" fromText="Formal pathology" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E46" fromText="revealed" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E14" fromText="a poorly differentiated adenocarcinoma" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E15" fromText="focal giant cells" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E16" fromText="Bone scan" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E17" fromText="head CT" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E47" fromText="staging studies" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E19" fromText="metastatic disease" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E48" fromText="preoperative neoadjuvant chemotherapy" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E49" fromText="5 FU" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E21" fromText="Vinblastine" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E22" fromText="Cisplatinum" toID="T1" toText="5-30-93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E23" fromText="concomitant radiation therapy" toID="T1" toText="5-30-93" type="BEFORE" />
+
+<SECTIME id="S0" start="18" end="25" text="5-30-93" type="ADMISSION" dvalue="1993-05-30" />
+<SECTIME id="S1" start="43" end="49" text="6-2-93" type="DISCHARGE" dvalue="1993-06-02" />
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

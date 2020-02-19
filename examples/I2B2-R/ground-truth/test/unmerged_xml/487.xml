@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-06-07
+Discharge Date :
+2010-06-12
+Service :
+CARDIOTHORACIC SURGERY
+HISTORY OF THE PRESENT ILLNESS :
+This is a 55 - year-old male with critical aortic stenosis who was referred to Dr. Brenda Hummer for discussion for surgical options to free this condition .
+The patient reportedly had been experiencing increasing fatigue and dyspnea with exertion for the year prior to his admission .
+The patient reported increasingly frequent episodes of dizziness and shortness of breath accompanied with coughing spells after walking approximately a half a mile or climbing three flights of stairs .
+On 2010-05-27 , an echocardiogram was done which revealed critical fibrocalcific aortic stenosis with a peak gradient of 125 mmHg , a mean gradient of 74 mmHg , an Oak Bluffs of 0.44 , and 1+ aortic and mitral insufficiency .
+The patient subsequently underwent a cardiac catheterization on 2010-06-01 , which demonstrated no hemodynamically significant coronary artery disease , but critical aortic stenosis consistent with his echocardiogram study results .
+The patient was subsequently scheduled for a mechanical aortic valve replacement procedure with aortic replacement on 2010-06-07 .
+HOSPITAL COURSE :
+On 2010-06-07 , the patient underwent a mechanical aortic valve replacement with a 23 mm Carbomedics mechanical valve and a Supra coronary aortic graft with gelweave 28 mm .
+The patient tolerated the procedure well with a bypass time of 155 minutes and a crossclamp time of
+130 minutes , and a rest time of 16 minutes .
+The patient 's pericardium was left open ; lines placed included a right radial line and a right IJ line ; both ventricular and atrial wires were placed ; two mediastinal tubes were placed .
+The patient was subsequently transferred to the Cardiac Surgery Recovery Unit , intubated , for further evaluation and management .
+On transfer , the patient 's mean arterial pressure was 76 , CVP 12 , PAD 17 , and his Bennie was 25 .
+The patient was AV paced at a rate of 88 beats per minute .
+Active drips included milrinone , Levophed , propofol , and insulin .
+On postoperative day number one , the patient was successfully weaned and extubated without complication .
+The patient was then advanced to oral intake which he tolerated without complication .
+On postoperative day number two , the patient 's chest tubes were removed without complication and the patient was subsequently cleared for transfer to the floor .
+The patient was subsequently admitted to the cardiothoracic service under the direction of Dr. Brenda Hummer .
+Postoperatively , the patient 's clinical course was largely unremarkable .
+The patient was evaluated by Physical Therapy , who declared him a suitable candidate for discharge directly to home following resolution of his medical therapy .
+The patient was advanced to a full regular diet , which he tolerated without complication , and had adequate pain control provided via oral pain medications .
+The patient was begun on anticoagulation therapy for a target INR of 2.5 .
+On the evening of postoperative day number four , the patient had a transient episode of disorientation and confusion which subsequently resolved spontaneously .
+By postoperative day number five , the patient was noted to be afebrile and stable .
+His incision was noted to be clean , dry , and intact with no evidence of cellulitis or purulent drainage .
+The patient was noted to be independently ambulatory and was productive of adequate amounts of urine .
+The patient was tolerant of a full regular diet and had his pain well controlled via oral pain medications .
+The patient 's INR was noted to be 2.3 .
+The patient was subsequently cleared for discharge to home with instructions for follow-up on postoperative day number five , 2010-06-12 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1035" end="1067" text="his echocardiogram study results" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="1113" end="1160" text="a mechanical aortic valve replacement procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1166" end="1184" text="aortic replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1257" end="1294" text="a mechanical aortic valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="1300" end="1336" text="a 23 mm Carbomedics mechanical valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1341" end="1370" text="a Supra coronary aortic graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="1376" end="1384" text="gelweave" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1415" end="1428" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1439" end="1452" text="a bypass time" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1472" end="1489" text="a crossclamp time" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="1511" end="1522" text="a rest time" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="1554" end="1579" text="pericardium was left open" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="157" end="181" text="critical aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1582" end="1587" text="lines" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1604" end="1623" text="a right radial line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1628" end="1643" text="a right IJ line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1651" end="1679" text="ventricular and atrial wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1694" end="1715" text="two mediastinal tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1759" end="1770" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1774" end="1807" text="the Cardiac Surgery Recovery Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1810" end="1819" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1826" end="1844" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1849" end="1859" text="management" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1865" end="1873" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1876" end="1913" text="the patient 's mean arterial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1923" end="1926" text="CVP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1932" end="1935" text="PAD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1945" end="1955" text="his Bennie" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1981" end="1989" text="AV paced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="2025" end="2037" text="Active drips" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="2047" end="2056" text="milrinone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="2059" end="2067" text="Levophed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="2070" end="2078" text="propofol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="2085" end="2092" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="2158" end="2164" text="weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2169" end="2178" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="2187" end="2199" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E56" start="2223" end="2246" text="advanced to oral intake" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2256" end="2265" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2274" end="2286" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E59" start="2323" end="2349" text="the patient 's chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2355" end="2362" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2371" end="2383" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="239" end="255" text="surgical options" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2429" end="2437" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2441" end="2450" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E64" start="2482" end="2490" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2494" end="2520" text="the cardiothoracic service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="2597" end="2612" text="clinical course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2625" end="2637" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="264" end="278" text="this condition" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2656" end="2665" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2730" end="2739" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2781" end="2800" text="his medical therapy" modality="CONDITIONAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E71" start="2819" end="2850" text="advanced to a full regular diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2862" end="2871" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="2880" end="2892" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2903" end="2924" text="adequate pain control" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2938" end="2959" text="oral pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2987" end="3010" text="anticoagulation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="3015" end="3027" text="a target INR" modality="CONDITIONAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="3126" end="3140" text="disorientation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="3145" end="3154" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="3174" end="3182" text="resolved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="326" end="344" text="increasing fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="3262" end="3270" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="3275" end="3281" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="3284" end="3296" text="His incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="3313" end="3337" text="clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="3358" end="3368" text="cellulitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E85" start="3372" end="3389" text="purulent drainage" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="349" end="356" text="dyspnea" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="3511" end="3542" text="tolerant of a full regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="3551" end="3559" text="his pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="3580" end="3601" text="oral pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3604" end="3622" text="The patient 's INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="3686" end="3695" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="3726" end="3735" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="393" end="406" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="421" end="429" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="464" end="473" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="478" end="497" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="515" end="530" text="coughing spells" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="627" end="644" text="an echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="660" end="668" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="669" end="707" text="critical fibrocalcific aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="713" end="728" text="a peak gradient" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="743" end="758" text="a mean gradient" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="772" end="785" text="an Oak Bluffs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="800" end="834" text="1+ aortic and mitral insufficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="872" end="897" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="920" end="932" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="936" end="987" text="hemodynamically significant coronary artery disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="994" end="1018" text="critical aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1188" end="1198" text="2010-06-07" type="DATE" val="2010-06-07" mod="NA" />
+<TIMEX3 id="T6" start="1222" end="1232" text="2010-06-07" type="DATE" val="2010-06-07" mod="NA" />
+<TIMEX3 id="T7" start="1456" end="1467" text="155 minutes" type="DURATION" val="PT155M" mod="NA" />
+<TIMEX3 id="T8" start="1493" end="1504" text="130 minutes" type="DURATION" val="PT130M" mod="NA" />
+<TIMEX3 id="T9" start="1526" end="1536" text="16 minutes" type="DURATION" val="PT16M" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2010-06-07" type="DATE" val="2010-06-07" mod="NA" />
+<TIMEX3 id="T15" start="2098" end="2126" text="postoperative day number one" type="DATE" val="2010-06-08" mod="NA" />
+<TIMEX3 id="T14" start="2292" end="2320" text="postoperative day number two" type="DATE" val="2010-06-09" mod="NA" />
+<TIMEX3 id="T13" start="3040" end="3084" text="the evening of postoperative day number four" type="DATE" val="2010-06-11" mod="END" />
+<TIMEX3 id="T12" start="3202" end="3231" text="postoperative day number five" type="DATE" val="2010-06-12" mod="NA" />
+<TIMEX3 id="T10" start="3739" end="3768" text="postoperative day number five" type="DATE" val="2010-06-12" mod="NA" />
+<TIMEX3 id="T2" start="375" end="383" text="the year" type="DURATION" val="P1Y" mod="NA" />
+<TIMEX3 id="T11" start="3771" end="3781" text="2010-06-12" type="DATE" val="2010-06-12" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2010-06-12" type="DATE" val="2010-06-12" mod="NA" />
+<TIMEX3 id="T3" start="614" end="624" text="2010-05-27" type="DATE" val="2010-05-27" mod="NA" />
+<TIMEX3 id="T4" start="901" end="911" text="2010-06-01" type="DATE" val="2010-06-01" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="2010-06-07" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E7" fromText="his admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="T2" fromText="the year" toID="E7" toText="his admission" type="ENDED_BY" />
+<TLINK id="TL100" fromID="E78" fromText="confusion" toID="E79" toText="resolved" type="ENDED_BY" />
+<TLINK id="TL101" fromID="E80" fromText="afebrile" toID="T12" toText="postoperative day number five" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E82" fromText="His incision" toID="T12" toText="postoperative day number five" type="BEFORE_OVERLAP" />
+<TLINK id="TL103" fromID="E86" fromText="tolerant of a full regular diet" toID="T12" toText="postoperative day number five" type="OVERLAP" />
+<TLINK id="TL104" fromID="E81" fromText="stable" toID="T12" toText="postoperative day number five" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E82" fromText="His incision" toID="E83" toText="clean , dry , and intact" type="OVERLAP" />
+<TLINK id="TL106" fromID="E84" fromText="cellulitis" toID="E82" toText="His incision" type="OVERLAP" />
+<TLINK id="TL107" fromID="E82" fromText="His incision" toID="E85" toText="purulent drainage" type="OVERLAP" />
+<TLINK id="TL108" fromID="E87" fromText="his pain" toID="T12" toText="postoperative day number five" type="BEFORE_OVERLAP" />
+<TLINK id="TL109" fromID="E87" fromText="his pain" toID="E88" toText="oral pain medications" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="dizziness" toID="E8" toText="reported" type="BEFORE_OVERLAP" />
+<TLINK id="TL110" fromID="E74" fromText="oral pain medications" toID="E88" toText="oral pain medications" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E89" fromText="The patient 's INR" toID="T12" toText="postoperative day number five" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E91" fromText="follow-up" toID="E90" toText="discharge" type="AFTER" />
+<TLINK id="TL114" fromID="T11" fromText="2010-06-12" toID="T10" toText="postoperative day number five" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E90" fromText="discharge" toID="T10" toText="postoperative day number five" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E9" fromText="dizziness" toID="E10" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="shortness of breath" toID="E11" toText="coughing spells" type="OVERLAP" />
+<TLINK id="TL14" fromID="T3" fromText="2010-05-27" toID="E12" toText="an echocardiogram" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E23" fromText="his echocardiogram study results" toID="E12" toText="an echocardiogram" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E12" fromText="an echocardiogram" toID="E19" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL17" fromID="E12" fromText="an echocardiogram" toID="E13" toText="revealed" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="a peak gradient" toID="E12" toText="an echocardiogram" type="OVERLAP" />
+<TLINK id="TL19" fromID="E15" fromText="a peak gradient" toID="E16" toText="a mean gradient" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="Discharge" toID="T1" toText="2010-06-12" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E14" fromText="critical fibrocalcific aortic stenosis" toID="E15" toText="a peak gradient" type="OVERLAP" />
+<TLINK id="TL21" fromID="E16" fromText="a mean gradient" toID="E17" toText="an Oak Bluffs" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="an Oak Bluffs" toID="E18" toText="1+ aortic and mitral insufficiency" type="OVERLAP" />
+<TLINK id="TL24" fromID="E14" fromText="critical fibrocalcific aortic stenosis" toID="E12" toText="an echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E19" fromText="a cardiac catheterization" toID="T4" toText="2010-06-01" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E19" fromText="a cardiac catheterization" toID="E20" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL27" fromID="E22" fromText="critical aortic stenosis" toID="E19" toText="a cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="hemodynamically significant coronary artery disease" toID="E19" toText="a cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL29" fromID="E22" fromText="critical aortic stenosis" toID="E21" toText="hemodynamically significant coronary artery disease" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="Discharge" toID="E90" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E14" fromText="critical fibrocalcific aortic stenosis" toID="E22" toText="critical aortic stenosis" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E23" fromText="his echocardiogram study results" toID="E19" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL32" fromID="E25" fromText="aortic replacement" toID="E24" toText="a mechanical aortic valve replacement procedure" type="OVERLAP" />
+<TLINK id="TL33" fromID="E24" fromText="a mechanical aortic valve replacement procedure" toID="T5" toText="2010-06-07" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E19" fromText="a cardiac catheterization" toID="E24" toText="a mechanical aortic valve replacement procedure" type="BEFORE" />
+<TLINK id="TL35" fromID="E25" fromText="aortic replacement" toID="T5" toText="2010-06-07" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="T6" fromText="2010-06-07" toID="E26" toText="a mechanical aortic valve replacement" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E29" fromText="the procedure" toID="E26" toText="a mechanical aortic valve replacement" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E26" fromText="a mechanical aortic valve replacement" toID="E94" toText="a 23 mm Carbomedics mechanical valve" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E28" fromText="a Supra coronary aortic graft" toID="E26" toText="a mechanical aortic valve replacement" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="critical aortic stenosis" toID="E3" toText="surgical options" type="BEFORE_OVERLAP" />
+<TLINK id="TL40" fromID="E28" fromText="a Supra coronary aortic graft" toID="E95" toText="gelweave" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E28" fromText="a Supra coronary aortic graft" toID="E25" toText="aortic replacement" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E30" fromText="a bypass time" toID="E29" toText="the procedure" type="DURING" />
+<TLINK id="TL43" fromID="E31" fromText="a crossclamp time" toID="E29" toText="the procedure" type="DURING" />
+<TLINK id="TL44" fromID="E92" fromText="a rest time" toID="E29" toText="the procedure" type="DURING" />
+<TLINK id="TL45" fromID="E41" fromText="transferred" toID="E29" toText="the procedure" type="AFTER" />
+<TLINK id="TL46" fromID="E28" fromText="a Supra coronary aortic graft" toID="E29" toText="the procedure" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E30" fromText="a bypass time" toID="T7" toText="155 minutes" type="DURING" />
+<TLINK id="TL48" fromID="E31" fromText="a crossclamp time" toID="T8" toText="130 minutes" type="DURING" />
+<TLINK id="TL49" fromID="E92" fromText="a rest time" toID="T9" toText="16 minutes" type="DURING" />
+<TLINK id="TL5" fromID="E4" fromText="this condition" toID="E2" toText="critical aortic stenosis" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E32" fromText="lines" toID="E93" toText="pericardium was left open" type="OVERLAP" />
+<TLINK id="TL51" fromID="E32" fromText="lines" toID="E33" toText="a right radial line" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E34" fromText="a right IJ line" toID="E32" toText="lines" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E33" fromText="a right radial line" toID="E34" toText="a right IJ line" type="OVERLAP" />
+<TLINK id="TL54" fromID="E35" fromText="ventricular and atrial wires" toID="E36" toText="two mediastinal tubes" type="OVERLAP" />
+<TLINK id="TL55" fromID="E35" fromText="ventricular and atrial wires" toID="E32" toText="lines" type="OVERLAP" />
+<TLINK id="TL56" fromID="E41" fromText="transferred" toID="E42" toText="transfer" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E37" fromText="the Cardiac Surgery Recovery Unit" toID="E41" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL58" fromID="E39" fromText="further evaluation" toID="E37" toText="the Cardiac Surgery Recovery Unit" type="OVERLAP" />
+<TLINK id="TL59" fromID="E40" fromText="management" toID="E39" toText="further evaluation" type="OVERLAP" />
+<TLINK id="TL6" fromID="E14" fromText="critical fibrocalcific aortic stenosis" toID="E2" toText="critical aortic stenosis" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E38" fromText="intubated" toID="E54" toText="extubated" type="ENDED_BY" />
+<TLINK id="TL61" fromID="E38" fromText="intubated" toID="E37" toText="the Cardiac Surgery Recovery Unit" type="OVERLAP" />
+<TLINK id="TL62" fromID="E44" fromText="CVP" toID="E43" toText="the patient 's mean arterial pressure" type="OVERLAP" />
+<TLINK id="TL63" fromID="E43" fromText="the patient 's mean arterial pressure" toID="E42" toText="transfer" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E45" fromText="PAD" toID="E46" toText="his Bennie" type="OVERLAP" />
+<TLINK id="TL65" fromID="E44" fromText="CVP" toID="E45" toText="PAD" type="OVERLAP" />
+<TLINK id="TL66" fromID="E46" fromText="his Bennie" toID="E47" toText="AV paced" type="OVERLAP" />
+<TLINK id="TL68" fromID="E48" fromText="Active drips" toID="E49" toText="milrinone" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E49" fromText="milrinone" toID="E50" toText="Levophed" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="increasing fatigue" toID="E6" toText="dyspnea" type="OVERLAP" />
+<TLINK id="TL70" fromID="E50" fromText="Levophed" toID="E51" toText="propofol" type="OVERLAP" />
+<TLINK id="TL71" fromID="E51" fromText="propofol" toID="E52" toText="insulin" type="OVERLAP" />
+<TLINK id="TL72" fromID="T15" fromText="postoperative day number one" toID="E53" toText="weaned" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E54" fromText="extubated" toID="T15" toText="postoperative day number one" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E53" fromText="weaned" toID="E54" toText="extubated" type="ENDED_BY" />
+<TLINK id="TL75" fromID="E54" fromText="extubated" toID="E55" toText="complication" type="OVERLAP" />
+<TLINK id="TL76" fromID="E54" fromText="extubated" toID="E56" toText="advanced to oral intake" type="BEFORE" />
+<TLINK id="TL77" fromID="E56" fromText="advanced to oral intake" toID="E57" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL78" fromID="E56" fromText="advanced to oral intake" toID="E58" toText="complication" type="OVERLAP" />
+<TLINK id="TL79" fromID="E60" fromText="removed" toID="T14" toText="postoperative day number two" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E6" fromText="dyspnea" toID="T2" toText="the year" type="DURING" />
+<TLINK id="TL80" fromID="E59" fromText="the patient 's chest tubes" toID="E60" toText="removed" type="ENDED_BY" />
+<TLINK id="TL81" fromID="E36" fromText="two mediastinal tubes" toID="E59" toText="the patient 's chest tubes" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E60" fromText="removed" toID="E61" toText="complication" type="OVERLAP" />
+<TLINK id="TL83" fromID="E63" fromText="the floor" toID="E62" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL84" fromID="E60" fromText="removed" toID="E62" toText="transfer" type="BEFORE" />
+<TLINK id="TL85" fromID="E65" fromText="the cardiothoracic service" toID="E64" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL86" fromID="E64" fromText="admitted" toID="E62" toText="transfer" type="OVERLAP" />
+<TLINK id="TL87" fromID="E66" fromText="clinical course" toID="E67" toText="unremarkable" type="OVERLAP" />
+<TLINK id="TL88" fromID="E68" fromText="evaluated" toID="E69" toText="discharge" type="BEFORE" />
+<TLINK id="TL89" fromID="E70" fromText="his medical therapy" toID="E69" toText="discharge" type="BEFORE" />
+<TLINK id="TL9" fromID="E5" fromText="increasing fatigue" toID="T2" toText="the year" type="DURING" />
+<TLINK id="TL90" fromID="E69" fromText="discharge" toID="E90" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E96" fromText="complication" toID="E71" toText="advanced to a full regular diet" type="OVERLAP" />
+<TLINK id="TL92" fromID="E96" fromText="complication" toID="E73" toText="adequate pain control" type="OVERLAP" />
+<TLINK id="TL93" fromID="E73" fromText="adequate pain control" toID="E74" toText="oral pain medications" type="BEFORE_OVERLAP" />
+<TLINK id="TL94" fromID="E75" fromText="anticoagulation therapy" toID="E76" toText="a target INR" type="BEFORE_OVERLAP" />
+<TLINK id="TL95" fromID="E75" fromText="anticoagulation therapy" toID="E64" toText="admitted" type="AFTER" />
+<TLINK id="TL96" fromID="E77" fromText="disorientation" toID="T13" toText="the evening of postoperative day number four" type="SIMULTANEOUS" />
+<TLINK id="TL97" fromID="E78" fromText="confusion" toID="T13" toText="the evening of postoperative day number four" type="SIMULTANEOUS" />
+<TLINK id="TL98" fromID="E77" fromText="disorientation" toID="E78" toText="confusion" type="OVERLAP" />
+<TLINK id="TL99" fromID="E77" fromText="disorientation" toID="E79" toText="resolved" type="ENDED_BY" />
+<SECTIME id="S0" start="18" end="28" text="2010-06-07" type="ADMISSION" dvalue="2010-06-07" />
+<SECTIME id="S1" start="46" end="56" text="2010-06-12" type="DISCHARGE" dvalue="2010-06-12" />
+<TLINK id="SECTIME0" fromID="E23" fromText="his echocardiogram study results" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E24" fromText="a mechanical aortic valve replacement procedure" toID="T0" toText="2010-06-07" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E25" fromText="aortic replacement" toID="T0" toText="2010-06-07" type="AFTER" />
+<TLINK id="SECTIME3" fromID="E26" fromText="a mechanical aortic valve replacement" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E94" fromText="a 23 mm Carbomedics mechanical valve" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E28" fromText="a Supra coronary aortic graft" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E95" fromText="gelweave" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E29" fromText="the procedure" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E30" fromText="a bypass time" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E31" fromText="a crossclamp time" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E92" fromText="a rest time" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E93" fromText="pericardium was left open" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E2" fromText="critical aortic stenosis" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME13" fromID="E32" fromText="lines" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E33" fromText="a right radial line" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E34" fromText="a right IJ line" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E35" fromText="ventricular and atrial wires" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E36" fromText="two mediastinal tubes" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E41" fromText="transferred" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E37" fromText="the Cardiac Surgery Recovery Unit" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E38" fromText="intubated" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E39" fromText="further evaluation" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E40" fromText="management" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E42" fromText="transfer" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E43" fromText="the patient 's mean arterial pressure" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E44" fromText="CVP" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E45" fromText="PAD" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E46" fromText="his Bennie" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E47" fromText="AV paced" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E48" fromText="Active drips" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E49" fromText="milrinone" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E50" fromText="Levophed" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E51" fromText="propofol" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E52" fromText="insulin" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E53" fromText="weaned" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E54" fromText="extubated" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E55" fromText="complication" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E56" fromText="advanced to oral intake" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E57" fromText="tolerated" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E58" fromText="complication" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E59" fromText="the patient 's chest tubes" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E60" fromText="removed" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E61" fromText="complication" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E3" fromText="surgical options" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E62" fromText="transfer" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E63" fromText="the floor" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E64" fromText="admitted" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E65" fromText="the cardiothoracic service" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E66" fromText="clinical course" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E67" fromText="unremarkable" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E4" fromText="this condition" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME51" fromID="E68" fromText="evaluated" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E69" fromText="discharge" toID="T1" toText="2010-06-12" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E70" fromText="his medical therapy" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E71" fromText="advanced to a full regular diet" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E72" fromText="tolerated" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E96" fromText="complication" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E73" fromText="adequate pain control" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E74" fromText="oral pain medications" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E75" fromText="anticoagulation therapy" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E76" fromText="a target INR" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E77" fromText="disorientation" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E78" fromText="confusion" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E79" fromText="resolved" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E5" fromText="increasing fatigue" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME65" fromID="E80" fromText="afebrile" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E81" fromText="stable" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E82" fromText="His incision" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E83" fromText="clean , dry , and intact" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E84" fromText="cellulitis" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E85" fromText="purulent drainage" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E6" fromText="dyspnea" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME72" fromID="E86" fromText="tolerant of a full regular diet" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E87" fromText="his pain" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E88" fromText="oral pain medications" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E89" fromText="The patient 's INR" toID="T1" toText="2010-06-12" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E90" fromText="discharge" toID="T1" toText="2010-06-12" type="OVERLAP" />
+<TLINK id="SECTIME77" fromID="E91" fromText="follow-up" toID="T1" toText="2010-06-12" type="AFTER" />
+<TLINK id="SECTIME78" fromID="E7" fromText="his admission" toID="T0" toText="2010-06-07" type="OVERLAP" />
+<TLINK id="SECTIME79" fromID="E8" fromText="reported" toID="T0" toText="2010-06-07" type="OVERLAP" />
+<TLINK id="SECTIME80" fromID="E9" fromText="dizziness" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME81" fromID="E10" fromText="shortness of breath" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME82" fromID="E11" fromText="coughing spells" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME83" fromID="E12" fromText="an echocardiogram" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E13" fromText="revealed" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E14" fromText="critical fibrocalcific aortic stenosis" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME86" fromID="E15" fromText="a peak gradient" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E16" fromText="a mean gradient" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E17" fromText="an Oak Bluffs" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E18" fromText="1+ aortic and mitral insufficiency" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME90" fromID="E19" fromText="a cardiac catheterization" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E20" fromText="demonstrated" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E21" fromText="hemodynamically significant coronary artery disease" toID="T0" toText="2010-06-07" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E22" fromText="critical aortic stenosis" toID="T0" toText="2010-06-07" type="BEFORE_OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

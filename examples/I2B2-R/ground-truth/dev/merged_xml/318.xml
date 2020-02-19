@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+8/21/93
+DISCHARGE DATE :
+8/23/93
+HISTORY OF PRESENT ILLNESS :
+This 68 year old female has rheumatic heart disease .
+Mitral and possibly tricuspid valve surgery is scheduled for Labor Day by Dr. Riemund C. Kennedy .
+Her history is detailed in the discharge summary of August 10 of this year .
+She is admitted now for a neuro-interventional radiology procedure to decrease the likelihood of epistaxis on Coumadin .
+HOSPITAL COURSE :
+The interventional neuro-radiology procedure was performed by Dr. A Skizeis , on August 22 , via the right femoral artery .
+The right internal maxillary artery supply to the nasal mucosa was embolized .
+The left external carotid artery was occluded at its origin , with collaterals from the internal carotid artery .
+Thus , embolization on the left side was not possible .
+The patient received Coumadin , 10 mg. , on the evening following the procedure , and is discharged the next day .
+Her prothrombin time will be rechecked on August 27 by her primary care physician , Dr. Naka Gift .
+Once her prothrombin time is in therapeutic range , she will be observed for epistaxis .
+She will take her last dose of Coumadin on September 1 in anticipation of cardiac surgery .
+If her prothrombin time does not come into therapeutic range promptly , then surgery may be delayed .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1042" end="1062" text="her prothrombin time" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1069" end="1086" text="therapeutic range" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="108" end="131" text="rheumatic heart disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1101" end="1109" text="observed" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="1114" end="1123" text="epistaxis" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1135" end="1153" text="take her last dose" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1157" end="1165" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1200" end="1215" text="cardiac surgery" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1221" end="1241" text="her prothrombin time" modality="CONDITIONAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1251" end="1278" text="come into therapeutic range" modality="CONDITIONAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E28" start="1295" end="1302" text="surgery" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="1310" end="1317" text="delayed" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="134" end="177" text="Mitral and possibly tricuspid valve surgery" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="260" end="281" text="the discharge summary" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="317" end="325" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="334" end="376" text="a neuro-interventional radiology procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="407" end="416" text="epistaxis" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="420" end="428" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="449" end="493" text="The interventional neuro-radiology procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="640" end="649" text="embolized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="689" end="697" text="occluded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="719" end="730" text="collaterals" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="773" end="802" text="embolization on the left side" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E16" start="843" end="851" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="888" end="901" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="911" end="921" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="937" end="957" text="Her prothrombin time" modality="PROPOSED" polarity="POS" type="TEST" />
+<TIMEX3 id="T8" start="1169" end="1180" text="September 1" type="DATE" val="1993-09-01" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="8/21/93" type="DATE" val="1993-08-21" mod="NA" />
+<TIMEX3 id="T4" start="195" end="204" text="Labor Day" type="DATE" val="1993-09-06" mod="NA" />
+<TIMEX3 id="T1" start="285" end="294" text="August 10" type="DATE" val="1993-08-10" mod="NA" />
+<TIMEX3 id="T3" start="43" end="50" text="8/23/93" type="DATE" val="1993-08-23" mod="NA" />
+<TIMEX3 id="T5" start="530" end="539" text="August 22" type="DATE" val="1993-08-22" mod="NA" />
+<TIMEX3 id="T6" start="866" end="901" text="the evening following the procedure" type="TIME" val="1993-08-22T19:00" mod="END" />
+<TIMEX3 id="T7" start="922" end="934" text="the next day" type="DATE" val="1993-08-23" mod="NA" />
+<TIMEX3 id="T2" start="979" end="988" text="August 27" type="DATE" val="1993-08-27" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="8/21/93" type="" />
+<TLINK id="TL1" fromID="E7" fromText="DISCHARGE" toID="T3" toText="8/23/93" type="" />
+<TLINK id="TL10" fromID="T5" fromText="August 22" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" />
+<TLINK id="TL11" fromID="E2" fromText="embolized" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" />
+<TLINK id="TL12" fromID="E2" fromText="embolized" toID="E3" toText="occluded" type="" />
+<TLINK id="TL13" fromID="E3" fromText="occluded" toID="E14" toText="collaterals" type="" />
+<TLINK id="TL14" fromID="E15" fromText="embolization on the left side" toID="E2" toText="embolized" type="OVERLAP" />
+<TLINK id="TL15" fromID="E16" fromText="Coumadin" toID="E1" toText="The interventional neuro-radiology procedure" type="AFTER" />
+<TLINK id="TL16" fromID="E16" fromText="Coumadin" toID="T6" toText="the evening following the procedure" type="OVERLAP" />
+<TLINK id="TL17" fromID="E18" fromText="discharged" toID="E17" toText="the procedure" type="AFTER" />
+<TLINK id="TL18" fromID="E18" fromText="discharged" toID="T7" toText="the next day" type="OVERLAP" />
+<TLINK id="TL19" fromID="E19" fromText="Her prothrombin time" toID="T2" toText="August 27" type="OVERLAP" />
+<TLINK id="TL2" fromID="E8" fromText="rheumatic heart disease" toID="E9" toText="Mitral and possibly tricuspid valve surgery" type="BEFORE" />
+<TLINK id="TL20" fromID="E19" fromText="Her prothrombin time" toID="E20" toText="her prothrombin time" type="OVERLAP" />
+<TLINK id="TL21" fromID="E20" fromText="her prothrombin time" toID="E21" toText="therapeutic range" type="OVERLAP" />
+<TLINK id="TL22" fromID="E22" fromText="observed" toID="E21" toText="therapeutic range" type="AFTER" />
+<TLINK id="TL23" fromID="E22" fromText="observed" toID="E4" toText="epistaxis" type="OVERLAP" />
+<TLINK id="TL24" fromID="T8" fromText="September 1" toID="E23" toText="take her last dose" type="OVERLAP" />
+<TLINK id="TL25" fromID="E24" fromText="Coumadin" toID="E23" toText="take her last dose" type="BEFORE" />
+<TLINK id="TL26" fromID="E25" fromText="cardiac surgery" toID="T8" toText="September 1" type="AFTER" />
+<TLINK id="TL27" fromID="E20" fromText="her prothrombin time" toID="E26" toText="her prothrombin time" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="therapeutic range" toID="E27" toText="come into therapeutic range" type="OVERLAP" />
+<TLINK id="TL29" fromID="E28" fromText="surgery" toID="E25" toText="cardiac surgery" type="OVERLAP" />
+<TLINK id="TL3" fromID="E9" fromText="Mitral and possibly tricuspid valve surgery" toID="T4" toText="Labor Day" type="OVERLAP" />
+<TLINK id="TL30" fromID="E6" fromText="delayed" toID="E27" toText="come into therapeutic range" type="AFTER" />
+<TLINK id="TL4" fromID="E5" fromText="the discharge summary" toID="T1" toText="August 10" type="OVERLAP" />
+<TLINK id="TL5" fromID="E0" fromText="ADMISSION" toID="E10" toText="admitted" type="OVERLAP" />
+<TLINK id="TL6" fromID="E10" fromText="admitted" toID="E11" toText="a neuro-interventional radiology procedure" type="OVERLAP" />
+<TLINK id="TL7" fromID="E12" fromText="epistaxis" toID="E11" toText="a neuro-interventional radiology procedure" type="AFTER" />
+<TLINK id="TL8" fromID="E13" fromText="Coumadin" toID="E12" toText="epistaxis" type="BEFORE" />
+<TLINK id="TL9" fromID="E11" fromText="a neuro-interventional radiology procedure" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" />
+
+
+<TLINK id="SECTIME0" fromID="E20" fromText="her prothrombin time" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E21" fromText="therapeutic range" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E8" fromText="rheumatic heart disease" toID="T0" toText="8/21/93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E22" fromText="observed" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME4" fromID="E4" fromText="epistaxis" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E23" fromText="take her last dose" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME6" fromID="E24" fromText="Coumadin" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E25" fromText="cardiac surgery" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E26" fromText="her prothrombin time" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E27" fromText="come into therapeutic range" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E28" fromText="surgery" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME11" fromID="E6" fromText="delayed" toID="T3" toText="8/23/93" type="AFTER" />
+<TLINK id="SECTIME12" fromID="E9" fromText="Mitral and possibly tricuspid valve surgery" toID="T0" toText="8/21/93" type="AFTER" />
+<TLINK id="SECTIME13" fromID="E5" fromText="the discharge summary" toID="T0" toText="8/21/93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E10" fromText="admitted" toID="T0" toText="8/21/93" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E11" fromText="a neuro-interventional radiology procedure" toID="T0" toText="8/21/93" type="AFTER" />
+<TLINK id="SECTIME16" fromID="E12" fromText="epistaxis" toID="T0" toText="8/21/93" type="AFTER" />
+<TLINK id="SECTIME17" fromID="E13" fromText="Coumadin" toID="T0" toText="8/21/93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E1" fromText="The interventional neuro-radiology procedure" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E2" fromText="embolized" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E3" fromText="occluded" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E14" fromText="collaterals" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E15" fromText="embolization on the left side" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E16" fromText="Coumadin" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E17" fromText="the procedure" toID="T3" toText="8/23/93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E18" fromText="discharged" toID="T3" toText="8/23/93" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E19" fromText="Her prothrombin time" toID="T3" toText="8/23/93" type="AFTER" />
+
+
+<SECTIME id="S0" start="18" end="25" text="8/21/93" type="ADMISSION" dvalue="1993-8-21" />
+<SECTIME id="S1" start="43" end="50" text="8/23/93" type="DISCHARGE" dvalue="1993-8-23" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

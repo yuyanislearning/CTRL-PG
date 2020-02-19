@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date : 
+02/03/1992 
+Discharge Date : 
+02/07/1992 
+HISTORY OF PRESENT ILLNESS : 
+The patient is a 48-year-old white man who is 20 days status post orthotopic cardiac transplant who was readmitted for sternal wound infection . 
+He has insulin dependent diabetes mellitus and a history of a dilated cardiomyopathy . 
+He had progressive symptoms of congestive heart failure which led to his evaluation of his cardiac transplant in Jan , of 1992 . 
+Preoperatively , he had a severely dilated left ventricle with markedly diminished function . 
+His post transplant course was initially complicated by hyperglycemia and seizure on postoperative day number one . 
+He was , however , extubted without difficulty and after that did quite well . 
+He had a predischarge biopsy . 
+He felt well at home without fevers , chills or rigors . 
+There were no rashes . 
+He had no chest pain or shortness of breath . 
+When he was seen on 2/3 in the Transplant Clinic , his incision was noted to be more erythematous . 
+He was referred to the Surgical Clinic where the wound was opened and the patient was admitted for intravenous antibiotics . 
+HOSPITAL COURSE : 
+The patient was admitted and pancultured . 
+He was treated with vancomycin and ceftazidime while awaiting wound cultures . 
+He had dressing changes twice a day . 
+Surgery was consulted and followed him while he was in house . 
+Cyclosporin levels were followed and his sugars were followed with a sliding scale . 
+During the first two days , he required 14 and 22 units of additional coverage . 
+However , by day three he required no additional insulin coverage . 
+On the day prior to discharge , his intravenous antibiotics were discontinued and he was begun on tetracycline . 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1028" end="1047" text="the Surgical Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1054" end="1063" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1068" end="1074" text="opened" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1095" end="1103" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1108" end="1131" text="intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1170" end="1178" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1183" end="1194" text="pancultured" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1218" end="1228" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1233" end="1244" text="ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1260" end="1274" text="wound cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1285" end="1301" text="dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1317" end="1324" text="Surgery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1372" end="1377" text="house" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1381" end="1399" text="Cyclosporin levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1418" end="1428" text="his sugars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1448" end="1463" text="a sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1507" end="1545" text="14 and 22 units of additional coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="157" end="186" text="orthotopic cardiac transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1587" end="1614" text="additional insulin coverage" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E51" start="1638" end="1647" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1650" end="1677" text="his intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1716" end="1728" text="tetracycline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="195" end="205" text="readmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="210" end="233" text="sternal wound infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="244" end="279" text="insulin dependent diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="297" end="321" text="a dilated cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="31" end="40" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="356" end="380" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="394" end="408" text="his evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="412" end="434" text="his cardiac transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="455" end="469" text="Preoperatively" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="479" end="512" text="a severely dilated left ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="518" end="546" text="markedly diminished function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="550" end="576" text="His post transplant course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="606" end="619" text="hyperglycemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="624" end="631" text="seizure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="686" end="694" text="extubted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="703" end="713" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="729" end="743" text="did quite well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="754" end="775" text="a predischarge biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="795" end="799" text="home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="808" end="814" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="817" end="823" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="827" end="833" text="rigors" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="851" end="857" text="rashes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="871" end="881" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="885" end="904" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="935" end="956" text="the Transplant Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="959" end="971" text="his incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="976" end="981" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="988" end="1005" text="more erythematous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1302" end="1313" text="twice a day" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T2" start="137" end="144" text="20 days" type="DURATION" val="P20D" mod="NA" />
+<TIMEX3 id="T6" start="1484" end="1492" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T7" start="1562" end="1571" text="day three" type="DATE" val="1992-02-05" mod="NA" />
+<TIMEX3 id="T8" start="1621" end="1628" text="the day" type="DATE" val="1992-02-06" mod="NA" />
+<TIMEX3 id="T0" start="19" end="29" text="02/03/1992" type="DATE" val="1992-02-03" mod="NA" />
+<TIMEX3 id="T3" start="438" end="451" text="Jan , of 1992" type="DATE" val="1992-01" mod="NA" />
+<TIMEX3 id="T1" start="49" end="59" text="02/07/1992" type="DATE" val="1992-02-07" mod="NA" />
+<TIMEX3 id="T9" start="635" end="663" text="postoperative day number one" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T4" start="928" end="931" text="2/3" type="DATE" val="1992-02-03" mod="NA" />
+<SECTIME id="S0" start="19" end="29" text="02/03/1992" type="ADMISSION" dvalue="1992-02-03" />
+<SECTIME id="S1" start="49" end="59" text="02/07/1992" type="DISCHARGE" dvalue="1992-02-07" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-10-10
+Discharge Date :
+2019-10-19
+Service :
+ORTHOPAEDICS
+History of Present Illness :
+Mr. Steadman is a 25 year old man who was locked out of his apartment and tried to enter by climbing up two stories to get in by a window .
+He fell 15-20 feet onto concrete , denies any loss of consiousness .
+Brief Hospital Course :
+Mr. Steadman is a 25 year old man who presented to the The Hospital for Orthopedics on
+2019-10-10 via ambulance after falling 15-20 feet onto concrete .
+He was evaluated by the trauma surgery department and the orthopaedic surgery department .
+He was intoxicated and tachycardic in the trauma bay .
+His injuries were identified as a left elbow disloaction with was reduced and splinted .
+Also a left distal radius fracture with was reduced and splinted .
+Also a Left non displaced sacral wing fracture and left inferior pubic ramus fx extending the to inferior acetabulum .
+He was admitted to the trauma intensive care unit due to his tachycardia which was not resolved with pain medication .
+On 2019-10-11 he was started on lopressor for his tachycardia which had good effect .
+He was then transfered to the floor in the care of the orthopaedic surgery service .
+Also on 2019-10-11 he was taken to the operating room for an ORIF of his left distal radius fracture .
+His pelvis fracture are closed treated and he can be weight bearing as tolerated on his right leg and and nonweight bearing on his left leg .
+He tolerated the procedure without difficulty .
+He begain to work with physical therapy to improve his strenght and mobility .
+His heart rate continued to be well controlled with his lopressor .
+Throught the stay his labs remained normal and his pain controlled .
+He was discharged home in stable conditions .
+He was instructed to follow up with Dr. Conway in 2 weeks and an appointment was made on 11-15 for him at the Louis Schubert Community Health Center to follow his heart rate and continued need for lopressor .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1003" end="1011" text="resolved" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E9" start="1017" end="1032" text="pain medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1067" end="1076" text="lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1081" end="1096" text="his tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1107" end="1118" text="good effect" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1133" end="1143" text="transfered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1147" end="1156" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1241" end="1259" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1264" end="1271" text="an ORIF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1275" end="1306" text="his left distal radius fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1309" end="1328" text="His pelvis fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1333" end="1347" text="closed treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1362" end="1389" text="weight bearing as tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1415" end="1432" text="nonweight bearing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1464" end="1477" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1486" end="1496" text="difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="151" end="178" text="locked out of his apartment" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1512" end="1538" text="work with physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1542" end="1575" text="improve his strenght and mobility" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1578" end="1592" text="His heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1609" end="1624" text="well controlled" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1630" end="1643" text="his lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1655" end="1663" text="the stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1664" end="1672" text="his labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1693" end="1701" text="his pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1702" end="1712" text="controlled" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1722" end="1732" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1741" end="1758" text="stable conditions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1782" end="1791" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1867" end="1909" text="the Louis Schubert Community Health Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="1913" end="1919" text="follow" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1920" end="1934" text="his heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1958" end="1967" text="lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="201" end="212" text="climbing up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="249" end="256" text="He fell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="284" end="290" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="295" end="315" text="loss of consiousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="380" end="389" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="393" end="425" text="the The Hospital for Orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E31" start="444" end="453" text="ambulance" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="460" end="467" text="falling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="502" end="511" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="593" end="604" text="intoxicated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="609" end="620" text="tachycardic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="624" end="638" text="the trauma bay" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="641" end="653" text="His injuries" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="673" end="697" text="a left elbow disloaction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="707" end="714" text="reduced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="719" end="727" text="splinted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="735" end="764" text="a left distal radius fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="774" end="781" text="reduced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="786" end="794" text="splinted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="802" end="843" text="a Left non displaced sacral wing fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="848" end="876" text="left inferior pubic ramus fx" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="923" end="931" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="935" end="965" text="the trauma intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="973" end="988" text="his tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1038" end="1048" text="2019-10-11" type="DATE" val="2019-10-11" mod="NA" />
+<TIMEX3 id="T0" start="1214" end="1224" text="2019-10-11" type="DATE" val="2019-10-11" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2019-10-10" type="DATE" val="2019-10-10" mod="NA" />
+<TIMEX3 id="T6" start="1811" end="1818" text="2 weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T5" start="1850" end="1855" text="11-15" type="DATE" val="2019-11-15" mod="NA" />
+<TIMEX3 id="T3" start="429" end="439" text="2019-10-10" type="DATE" val="2019-10-10" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2019-10-19" type="DATE" val="2019-10-19" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2019-10-10" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E8" fromText="his tachycardia" toID="E9" toText="pain medication" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="E30" fromText="the The Hospital for Orthopedics" toID="T2" toText="2019-10-19" type="ENDED_BY" />
+<TLINK id="TL11" fromID="E31" fromText="ambulance" toID="E27" toText="He fell" type="AFTER" />
+<TLINK id="TL12" fromID="E20" fromText="falling" toID="E27" toText="He fell" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E31" fromText="ambulance" toID="E29" toText="presented" type="BEFORE" />
+<TLINK id="TL16" fromID="E34" fromText="the trauma bay" toID="E29" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL17" fromID="E32" fromText="evaluated" toID="E34" toText="the trauma bay" type="OVERLAP" />
+<TLINK id="TL18" fromID="E33" fromText="intoxicated" toID="E34" toText="the trauma bay" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E2" fromText="tachycardic" toID="E34" toText="the trauma bay" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E10" fromText="lopressor" toID="T4" toText="2019-10-11" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E3" fromText="His injuries" toID="E27" toText="He fell" type="BEGUN_BY" />
+<TLINK id="TL22" fromID="E4" fromText="a left elbow disloaction" toID="E35" toText="reduced" type="ENDED_BY" />
+<TLINK id="TL23" fromID="E4" fromText="a left elbow disloaction" toID="E27" toText="He fell" type="BEGUN_BY" />
+<TLINK id="TL24" fromID="E36" fromText="splinted" toID="E35" toText="reduced" type="BEGUN_BY" />
+<TLINK id="TL25" fromID="E5" fromText="a left distal radius fracture" toID="E27" toText="He fell" type="BEGUN_BY" />
+<TLINK id="TL26" fromID="E5" fromText="a left distal radius fracture" toID="E37" toText="reduced" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E38" fromText="splinted" toID="E37" toText="reduced" type="BEGUN_BY" />
+<TLINK id="TL28" fromID="E6" fromText="a Left non displaced sacral wing fracture" toID="E27" toText="He fell" type="BEGUN_BY" />
+<TLINK id="TL29" fromID="E7" fromText="left inferior pubic ramus fx" toID="E27" toText="He fell" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E24" fromText="Discharge" toID="T2" toText="2019-10-19" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E34" fromText="the trauma bay" toID="E21" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL31" fromID="E39" fromText="the trauma intensive care unit" toID="E21" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E21" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E9" fromText="pain medication" toID="E40" toText="resolved" type="OVERLAP" />
+<TLINK id="TL34" fromID="E9" fromText="pain medication" toID="E34" toText="the trauma bay" type="OVERLAP" />
+<TLINK id="TL35" fromID="E11" fromText="his tachycardia" toID="E8" toText="his tachycardia" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E41" fromText="good effect" toID="E10" toText="lopressor" type="OVERLAP" />
+<TLINK id="TL37" fromID="E39" fromText="the trauma intensive care unit" toID="E22" toText="transfered" type="ENDED_BY" />
+<TLINK id="TL38" fromID="E42" fromText="the floor" toID="E22" toText="transfered" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E43" fromText="the operating room" toID="T0" toText="2019-10-11" type="OVERLAP" />
+<TLINK id="TL4" fromID="E26" fromText="climbing up" toID="E25" toText="locked out of his apartment" type="OVERLAP" />
+<TLINK id="TL40" fromID="E12" fromText="an ORIF" toID="E43" toText="the operating room" type="DURING" />
+<TLINK id="TL41" fromID="E13" fromText="his left distal radius fracture" toID="E12" toText="an ORIF" type="BEFORE_OVERLAP" />
+<TLINK id="TL42" fromID="E13" fromText="his left distal radius fracture" toID="E5" toText="a left distal radius fracture" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E12" fromText="an ORIF" toID="E35" toText="reduced" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E14" fromText="His pelvis fracture" toID="E6" toText="a Left non displaced sacral wing fracture" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E14" fromText="His pelvis fracture" toID="E44" toText="closed treated" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E45" fromText="weight bearing as tolerated" toID="E46" toText="nonweight bearing" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E44" fromText="closed treated" toID="E45" toText="weight bearing as tolerated" type="OVERLAP" />
+<TLINK id="TL48" fromID="E15" fromText="the procedure" toID="E12" toText="an ORIF" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E47" fromText="difficulty" toID="E15" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL5" fromID="E27" fromText="He fell" toID="E26" toText="climbing up" type="AFTER" />
+<TLINK id="TL50" fromID="E15" fromText="the procedure" toID="E48" toText="work with physical therapy" type="BEFORE" />
+<TLINK id="TL51" fromID="E48" fromText="work with physical therapy" toID="E49" toText="improve his strenght and mobility" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E16" fromText="His heart rate" toID="E50" toText="well controlled" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E17" fromText="his lopressor" toID="E50" toText="well controlled" type="OVERLAP" />
+<TLINK id="TL54" fromID="E17" fromText="his lopressor" toID="E10" toText="lopressor" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E51" fromText="the stay" toID="E30" toText="the The Hospital for Orthopedics" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E18" fromText="his labs" toID="E18" toText="his labs" type="DURING" />
+<TLINK id="TL57" fromID="E19" fromText="his pain" toID="E18" toText="his labs" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E52" fromText="controlled" toID="E51" toText="the stay" type="DURING" />
+<TLINK id="TL6" fromID="E28" fromText="denies" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL60" fromID="E23" fromText="discharged" toID="E24" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E53" fromText="stable conditions" toID="E23" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL62" fromID="T6" fromText="2 weeks" toID="T2" toText="2019-10-19" type="BEGUN_BY" />
+<TLINK id="TL63" fromID="T6" fromText="2 weeks" toID="E54" toText="follow up" type="ENDED_BY" />
+<TLINK id="TL64" fromID="E55" fromText="the Louis Schubert Community Health Center" toID="T5" toText="11-15" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E58" fromText="follow" toID="E55" toText="the Louis Schubert Community Health Center" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E56" fromText="his heart rate" toID="E58" toText="follow" type="BEFORE_OVERLAP" />
+<TLINK id="TL67" fromID="E57" fromText="lopressor" toID="E17" toText="his lopressor" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E57" fromText="lopressor" toID="E55" toText="the Louis Schubert Community Health Center" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E29" fromText="presented" toID="T3" toText="2019-10-10" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E1" fromText="loss of consiousness" toID="E27" toText="He fell" type="OVERLAP" />
+<TLINK id="TL8" fromID="E29" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL9" fromID="E30" fromText="the The Hospital for Orthopedics" toID="T1" toText="2019-10-10" type="BEGUN_BY" />
+<SECTIME id="S0" start="18" end="28" text="2019-10-10" type="ADMISSION" dvalue="2019-10-10" />
+<SECTIME id="S1" start="46" end="56" text="2019-10-19" type="DISCHARGE" dvalue="2019-10-19" />
+<TLINK id="SECTIME0" fromID="E40" fromText="resolved" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E9" fromText="pain medication" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E10" fromText="lopressor" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E11" fromText="his tachycardia" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E41" fromText="good effect" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E22" fromText="transfered" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E42" fromText="the floor" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E43" fromText="the operating room" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E12" fromText="an ORIF" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E13" fromText="his left distal radius fracture" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E14" fromText="His pelvis fracture" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E44" fromText="closed treated" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E45" fromText="weight bearing as tolerated" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E46" fromText="nonweight bearing" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E15" fromText="the procedure" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E47" fromText="difficulty" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E25" fromText="locked out of his apartment" toID="T1" toText="2019-10-10" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E48" fromText="work with physical therapy" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E49" fromText="improve his strenght and mobility" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E16" fromText="His heart rate" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E50" fromText="well controlled" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E17" fromText="his lopressor" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E51" fromText="the stay" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E18" fromText="his labs" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E19" fromText="his pain" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E52" fromText="controlled" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E23" fromText="discharged" toID="T2" toText="2019-10-19" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E53" fromText="stable conditions" toID="T2" toText="2019-10-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME28" fromID="E54" fromText="follow up" toID="T2" toText="2019-10-19" type="AFTER" />
+<TLINK id="SECTIME29" fromID="E55" fromText="the Louis Schubert Community Health Center" toID="T2" toText="2019-10-19" type="AFTER" />
+<TLINK id="SECTIME30" fromID="E58" fromText="follow" toID="T2" toText="2019-10-19" type="AFTER" />
+<TLINK id="SECTIME31" fromID="E56" fromText="his heart rate" toID="T2" toText="2019-10-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME32" fromID="E57" fromText="lopressor" toID="T2" toText="2019-10-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E26" fromText="climbing up" toID="T1" toText="2019-10-10" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E27" fromText="He fell" toID="T1" toText="2019-10-10" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E28" fromText="denies" toID="T1" toText="2019-10-10" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E1" fromText="loss of consiousness" toID="T1" toText="2019-10-10" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E29" fromText="presented" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E31" fromText="ambulance" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E20" fromText="falling" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E32" fromText="evaluated" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E33" fromText="intoxicated" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E2" fromText="tachycardic" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E34" fromText="the trauma bay" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E3" fromText="His injuries" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E4" fromText="a left elbow disloaction" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E35" fromText="reduced" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E36" fromText="splinted" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E5" fromText="a left distal radius fracture" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E37" fromText="reduced" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E38" fromText="splinted" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E6" fromText="a Left non displaced sacral wing fracture" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E7" fromText="left inferior pubic ramus fx" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E21" fromText="admitted" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E39" fromText="the trauma intensive care unit" toID="T2" toText="2019-10-19" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E8" fromText="his tachycardia" toID="T2" toText="2019-10-19" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

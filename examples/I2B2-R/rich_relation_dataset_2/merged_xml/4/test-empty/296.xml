@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+1-3-94
+DISCHARGE DATE :
+1-9-94
+HISTORY OF PRESENT ILLNESS :
+The patient is a 66 year old white female with metastatic colon carcinoma with a mass in the left superhilar region , who presents for bronchoscopy , mediastinal exploration and resection .
+The patient was in her usual state of health until she experienced the onset of abdominal pain in early 1992 .
+In December of 1992 , she underwent a transverse colectomy for colon carcinoma which was Duke &apos;s grade B-II , lymph nodes were negative .
+She received postoperative chemotherapy .
+In September of 1992 , she underwent an exploratory laparotomy because of an increased level of CEA in her blood with the presence of a liver abnormality on computerized tomography scan .
+The exploratory laparotomy was negative .
+She continued to have a rise in her CEA level which prompted a further work up .
+In September of 1993 , an abdominal and pelvic computerized tomography scan was negative and in June of 1993 , she had a negative bone scan .
+In December of 1994 , a thoracic computerized tomography scan showed a four centimeter soft tissue mass on the left suprahilar region , adjacent to the aortopulmonary window .
+She also experienced increased hoarseness over the preceding months , which was due to left vocal cord paralysis .
+She also complains of increased shortness of breath for the preceding month and now presents for mediastinal exploration and resection of her probable metastatic mass .
+HOSPITAL COURSE :
+The patient was admitted to the Fairm of Ijordcompmac Hospital .
+The patient was brought to the Operating Room on January 3 , 1994 where she underwent a median sternotomy with removal of her mediastinal mass .
+This mass was situated in the aortopulmonary window and was sent to pathology .
+The frozen section analysis revealed this to be adenocarcinoma , metastatic disease from the colon most likely .
+She had a chest tube placed intraoperatively and another placed postoperatively in the recovery room , for what was presumed to be a left pleural effusion .
+This tube drained only a small amount of fluid and it was likely that the effusion was made to look more severe in the presence of left hemidiaphragm elevation .
+This additional chest tube was removed the following day .
+Her postoperative hematocrit was 31 , compared to a preoperative level of 43 .
+Her postoperative recovery was really quite remarkable .
+Mediastinal chest tube was removed on postoperative day three .
+The patient was discharged home in stable condition on postoperative day six .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1039" end="1078" text="a thoracic computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1079" end="1085" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="1086" end="1150" text="a four centimeter soft tissue mass on the left suprahilar region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1214" end="1234" text="increased hoarseness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="125" end="151" text="metastatic colon carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1280" end="1305" text="left vocal cord paralysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1317" end="1326" text="complains" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="1330" end="1359" text="increased shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1392" end="1400" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E48" start="1405" end="1428" text="mediastinal exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1433" end="1442" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1459" end="1474" text="metastatic mass" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1511" end="1519" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1523" end="1557" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="157" end="193" text="a mass in the left superhilar region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1587" end="1605" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="1646" end="1665" text="a median sternotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1671" end="1678" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1682" end="1702" text="her mediastinal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1705" end="1714" text="This mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1785" end="1812" text="The frozen section analysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1813" end="1821" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="1833" end="1847" text="adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1850" end="1883" text="metastatic disease from the colon" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1906" end="1918" text="a chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1981" end="1998" text="the recovery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="200" end="208" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="2029" end="2052" text="a left pleural effusion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="2055" end="2064" text="This tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="2096" end="2101" text="fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="213" end="225" text="bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="2125" end="2137" text="the effusion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2186" end="2214" text="left hemidiaphragm elevation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2217" end="2243" text="This additional chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="228" end="251" text="mediastinal exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2276" end="2304" text="Her postoperative hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2326" end="2346" text="a preoperative level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="2355" end="2381" text="Her postoperative recovery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="2412" end="2434" text="Mediastinal chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2492" end="2502" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="25" end="34" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2511" end="2527" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="256" end="265" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="287" end="312" text="her usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="348" end="362" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="415" end="437" text="a transverse colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="442" end="457" text="colon carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="468" end="491" text="Duke &apos;s grade B-II" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="494" end="505" text="lymph nodes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="535" end="561" text="postoperative chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="601" end="626" text="an exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="638" end="663" text="an increased level of CEA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="667" end="676" text="her blood" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="698" end="717" text="a liver abnormality" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="721" end="749" text="computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="752" end="778" text="The exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="816" end="822" text="a rise" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="826" end="839" text="her CEA level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="855" end="872" text="a further work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="898" end="950" text="an abdominal and pelvic computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="994" end="1014" text="a negative bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T9" start="1020" end="1036" text="December of 1994" type="DATE" val="1994-12" mod="NA" />
+<TIMEX3 id="T10" start="1240" end="1260" text="the preceding months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T11" start="1364" end="1383" text="the preceding month" type="DURATION" val="P1M" mod="NA" />
+<TIMEX3 id="T7" start="1609" end="1625" text="January 3 , 1994" type="DATE" val="1994-01-03" mod="NA" />
+<TIMEX3 id="T1" start="18" end="24" text="1-3-94" type="DATE" val="1994-01-03" mod="NA" />
+<TIMEX3 id="T15" start="2256" end="2273" text="the following day" type="DATE" val="1994-01-04" mod="NA" />
+<TIMEX3 id="T16" start="2450" end="2473" text="postoperative day three" type="DATE" val="1994-01-06" mod="NA" />
+<TIMEX3 id="T8" start="2531" end="2552" text="postoperative day six" type="DATE" val="1994-01-09" mod="NA" />
+<TIMEX3 id="T3" start="366" end="376" text="early 1992" type="DATE" val="1992" mod="START" />
+<TIMEX3 id="T0" start="382" end="398" text="December of 1992" type="DATE" val="1992-12" mod="NA" />
+<TIMEX3 id="T2" start="42" end="48" text="1-9-94" type="DATE" val="1994-01-09" mod="NA" />
+<TIMEX3 id="T4" start="567" end="584" text="September of 1992" type="DATE" val="1992-09" mod="NA" />
+<TIMEX3 id="T5" start="878" end="895" text="September of 1993" type="DATE" val="1993-09" mod="NA" />
+<TIMEX3 id="T6" start="971" end="983" text="June of 1993" type="DATE" val="1993-06" mod="NA" />
+<SECTIME id="S0" start="18" end="24" text="1-3-94" type="ADMISSION" dvalue="1994-01-03" />
+<SECTIME id="S1" start="42" end="48" text="1-9-94" type="DISCHARGE" dvalue="1994-01-09" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

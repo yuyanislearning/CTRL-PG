@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+07/03/1998
+Discharge Date :
+07/10/1998
+HISTORY OF PRESENT ILLNESS :
+This is a 50 year old man in his usual state of health until two weeks prior to admission when the patient developed epigastric pain after meals .
+The next morning , the patient felt dizzy and went to his private medical doctor at Eifro Medical Center , and was found to have elevated bilirubins , alkaline phosphatase , and transaminases .
+The patient reported fatigue and nausea , as well as noted coca cola colored urine .
+The patient has been constipated with hard stool , but no bright red blood per rectum .
+The patient also reported an 18 lb weight loss over the last 4-5 months .
+HOSPITAL COURSE :
+The patient was admitted preoperatively for surgery on 7/4/98 .
+The patient &apos;s workup up until that time included a diagnosis of periampullary adenocarcinoma , which was proven by EGD directed biopsy , and a left renal mass , which was biopsied and found to be an oncocytoma .
+On 7/4/98 , the patient underwent a Whipple procedure , which proceeded without complications .
+Postoperatively , the patient did extremely well and was extubated the following morning .
+The NG tube was D/C&apos;d on postoperative day #2 .
+The patient was to be transferred to the floor on postoperative day #2 , however , due to the lack of beds , he remained in the ICU until postoperative day #3 .
+On postoperative day #4 , the patient began tolerating clear liquids and his diet was advanced as tolerated by postoperative day #6 and 7 .
+The patient was out of bed , doing fine , and tolerating a regular diet on 7/10/98 .
+The patient is to be discharged to home with services and in stable condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1008" end="1027" text="a Whipple procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1054" end="1067" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1104" end="1118" text="extremely well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1127" end="1136" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="115" end="140" text="his usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1161" end="1172" text="The NG tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1236" end="1247" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1251" end="1260" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="1326" end="1334" text="remained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1338" end="1345" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="1430" end="1443" text="clear liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1461" end="1469" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1473" end="1482" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1531" end="1541" text="out of bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1544" end="1554" text="doing fine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1572" end="1586" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1621" end="1631" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1645" end="1653" text="services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="166" end="175" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1661" end="1677" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="203" end="218" text="epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="269" end="274" text="dizzy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="317" end="337" text="Eifro Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="362" end="424" text="elevated bilirubins , alkaline phosphatase , and transaminases" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="439" end="447" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="448" end="455" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="460" end="466" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="486" end="509" text="coca cola colored urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="533" end="544" text="constipated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="550" end="560" text="hard stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="570" end="597" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="617" end="625" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="626" end="646" text="an 18 lb weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="708" end="716" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="736" end="743" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="756" end="785" text="The patient &apos;s workup up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="813" end="822" text="diagnosis" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="826" end="854" text="periampullary adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="867" end="873" text="proven" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="877" end="896" text="EGD directed biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="903" end="920" text="a left renal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="933" end="941" text="biopsied" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="958" end="971" text="an oncocytoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1137" end="1158" text="the following morning" type="DATE" val="1998-07-05" mod="START" />
+<TIMEX3 id="T9" start="1191" end="1211" text="postoperative day #2" type="DATE" val="1998-07-06" mod="NA" />
+<TIMEX3 id="T10" start="1264" end="1284" text="postoperative day #2" type="DATE" val="1998-07-06" mod="NA" />
+<TIMEX3 id="T11" start="1352" end="1372" text="postoperative day #3" type="DATE" val="1998-07-07" mod="NA" />
+<TIMEX3 id="T12" start="1378" end="1398" text="postoperative day #4" type="DATE" val="1998-07-08" mod="NA" />
+<TIMEX3 id="T0" start="147" end="156" text="two weeks" type="DATE" val="1998-06-19" mod="NA" />
+<TIMEX3 id="T13" start="1486" end="1506" text="postoperative day #6" type="DATE" val="1998-07-10" mod="NA" />
+<TIMEX3 id="T14" start="1511" end="1512" text="7" type="DATE" val="1998-07-11" mod="NA" />
+<TIMEX3 id="T15" start="1590" end="1597" text="7/10/98" type="DATE" val="1998-07-10" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="07/03/1998" type="DATE" val="1998-07-03" mod="NA" />
+<TIMEX3 id="T3" start="233" end="249" text="The next morning" type="DATE" val="1998-06-20" mod="START" />
+<TIMEX3 id="T2" start="46" end="56" text="07/10/1998" type="DATE" val="1998-07-10" mod="NA" />
+<TIMEX3 id="T4" start="661" end="671" text="4-5 months" type="DURATION" val="P4.5M" mod="APPROX" />
+<TIMEX3 id="T5" start="747" end="753" text="7/4/98" type="DATE" val="1998-07-04" mod="NA" />
+<TIMEX3 id="T6" start="792" end="801" text="that time" type="DATE" val="1998-07-04" mod="NA" />
+<TIMEX3 id="T7" start="977" end="983" text="7/4/98" type="DATE" val="1998-07-04" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="07/03/1998" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E24" fromText="Discharge" toID="T2" toText="07/10/1998" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E2" fromText="dizzy" toID="E27" toText="Eifro Medical Center" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E3" fromText="elevated bilirubins , alkaline phosphatase , and transaminases" toID="E27" toText="Eifro Medical Center" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E28" fromText="reported" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E4" fromText="fatigue" toID="E28" toText="reported" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E5" fromText="nausea" toID="E28" toText="reported" type="OVERLAP" />
+<TLINK id="TL15" fromID="E6" fromText="coca cola colored urine" toID="E5" toText="nausea" type="OVERLAP" />
+<TLINK id="TL16" fromID="E7" fromText="constipated" toID="E6" toText="coca cola colored urine" type="OVERLAP" />
+<TLINK id="TL17" fromID="E8" fromText="hard stool" toID="E7" toText="constipated" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E9" fromText="bright red blood per rectum" toID="E8" toText="hard stool" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E38" fromText="reported" toID="E28" toText="reported" type="OVERLAP" />
+<TLINK id="TL2" fromID="E23" fromText="discharged" toID="E24" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E10" fromText="an 18 lb weight loss" toID="T4" toText="4-5 months" type="DURING" />
+<TLINK id="TL21" fromID="T4" fromText="4-5 months" toID="E38" toText="reported" type="BEFORE" />
+<TLINK id="TL22" fromID="E30" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E11" fromText="surgery" toID="T5" toText="7/4/98" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="T5" fromText="7/4/98" toID="E30" toText="admitted" type="AFTER" />
+<TLINK id="TL25" fromID="T6" fromText="that time" toID="E30" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E12" fromText="The patient &apos;s workup up" toID="T6" toText="that time" type="BEFORE" />
+<TLINK id="TL27" fromID="E31" fromText="diagnosis" toID="E12" toText="The patient &apos;s workup up" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E13" fromText="periampullary adenocarcinoma" toID="E31" toText="diagnosis" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E14" fromText="EGD directed biopsy" toID="E31" toText="diagnosis" type="OVERLAP" />
+<TLINK id="TL3" fromID="E25" fromText="his usual state of health" toID="T0" toText="two weeks" type="ENDED_BY" />
+<TLINK id="TL30" fromID="E15" fromText="a left renal mass" toID="E13" toText="periampullary adenocarcinoma" type="OVERLAP" />
+<TLINK id="TL31" fromID="E15" fromText="a left renal mass" toID="E33" toText="biopsied" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E16" fromText="an oncocytoma" toID="E15" toText="a left renal mass" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="T7" fromText="7/4/98" toID="T5" toText="7/4/98" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E17" fromText="a Whipple procedure" toID="T7" toText="7/4/98" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E18" fromText="complications" toID="E17" toText="a Whipple procedure" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E34" fromText="extremely well" toID="E17" toText="a Whipple procedure" type="AFTER" />
+<TLINK id="TL37" fromID="E21" fromText="extubated" toID="T8" toText="the following morning" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="T8" fromText="the following morning" toID="E34" toText="extremely well" type="OVERLAP" />
+<TLINK id="TL39" fromID="T9" fromText="postoperative day #2" toID="T8" toText="the following morning" type="AFTER" />
+<TLINK id="TL4" fromID="E1" fromText="epigastric pain" toID="T0" toText="two weeks" type="BEGUN_BY" />
+<TLINK id="TL40" fromID="E19" fromText="The NG tube" toID="T9" toText="postoperative day #2" type="ENDED_BY" />
+<TLINK id="TL41" fromID="T10" fromText="postoperative day #2" toID="T9" toText="postoperative day #2" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E35" fromText="transferred" toID="T10" toText="postoperative day #2" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E36" fromText="the floor" toID="E35" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL44" fromID="E22" fromText="remained" toID="E35" toText="transferred" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E37" fromText="the ICU" toID="E36" toText="the floor" type="BEFORE" />
+<TLINK id="TL46" fromID="T11" fromText="postoperative day #3" toID="T10" toText="postoperative day #2" type="AFTER" />
+<TLINK id="TL47" fromID="E37" fromText="the ICU" toID="T11" toText="postoperative day #3" type="ENDED_BY" />
+<TLINK id="TL48" fromID="T12" fromText="postoperative day #4" toID="T11" toText="postoperative day #3" type="AFTER" />
+<TLINK id="TL49" fromID="E20" fromText="clear liquids" toID="T12" toText="postoperative day #4" type="BEGUN_BY" />
+<TLINK id="TL50" fromID="E20" fromText="clear liquids" toID="E39" toText="advanced" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E40" fromText="tolerated" toID="E39" toText="advanced" type="BEGUN_BY" />
+<TLINK id="TL53" fromID="E39" fromText="advanced" toID="T13" toText="postoperative day #6" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="T13" fromText="postoperative day #6" toID="T12" toText="postoperative day #4" type="AFTER" />
+<TLINK id="TL55" fromID="T14" fromText="7" toID="T13" toText="postoperative day #6" type="AFTER" />
+<TLINK id="TL56" fromID="T15" fromText="7/10/98" toID="T14" toText="7" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E41" fromText="out of bed" toID="T15" toText="7/10/98" type="OVERLAP" />
+<TLINK id="TL58" fromID="E42" fromText="doing fine" toID="E41" toText="out of bed" type="OVERLAP" />
+<TLINK id="TL59" fromID="E43" fromText="a regular diet" toID="E42" toText="doing fine" type="OVERLAP" />
+<TLINK id="TL6" fromID="T0" fromText="two weeks" toID="E26" toText="admission" type="BEFORE" />
+<TLINK id="TL60" fromID="E23" fromText="discharged" toID="T15" toText="7/10/98" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E44" fromText="services" toID="E23" toText="discharged" type="AFTER" />
+<TLINK id="TL62" fromID="E45" fromText="stable condition" toID="E23" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E0" fromText="Admission" toID="E26" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="T3" fromText="The next morning" toID="E2" toText="dizzy" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="T0" fromText="two weeks" toID="T3" toText="The next morning" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="07/03/1998" type="ADMISSION" dvalue="1998-07-03" />
+<SECTIME id="S1" start="46" end="56" text="07/10/1998" type="DISCHARGE" dvalue="1998-07-10" />
+<TLINK id="SECTIME0" fromID="E17" fromText="a Whipple procedure" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E18" fromText="complications" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E34" fromText="extremely well" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E21" fromText="extubated" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E25" fromText="his usual state of health" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E19" fromText="The NG tube" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E35" fromText="transferred" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E36" fromText="the floor" toID="T2" toText="07/10/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME8" fromID="E22" fromText="remained" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E37" fromText="the ICU" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E20" fromText="clear liquids" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="advanced" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="tolerated" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="out of bed" toID="T2" toText="07/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E42" fromText="doing fine" toID="T2" toText="07/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E43" fromText="a regular diet" toID="T2" toText="07/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E23" fromText="discharged" toID="T2" toText="07/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E44" fromText="services" toID="T2" toText="07/10/1998" type="AFTER" />
+<TLINK id="SECTIME18" fromID="E26" fromText="admission" toID="T1" toText="07/03/1998" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E45" fromText="stable condition" toID="T2" toText="07/10/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME20" fromID="E1" fromText="epigastric pain" toID="T1" toText="07/03/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME21" fromID="E2" fromText="dizzy" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E27" fromText="Eifro Medical Center" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E3" fromText="elevated bilirubins , alkaline phosphatase , and transaminases" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E28" fromText="reported" toID="T1" toText="07/03/1998" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E4" fromText="fatigue" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E5" fromText="nausea" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E6" fromText="coca cola colored urine" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E7" fromText="constipated" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E8" fromText="hard stool" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E9" fromText="bright red blood per rectum" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E38" fromText="reported" toID="T1" toText="07/03/1998" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E10" fromText="an 18 lb weight loss" toID="T1" toText="07/03/1998" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E30" fromText="admitted" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E11" fromText="surgery" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E12" fromText="The patient &apos;s workup up" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E31" fromText="diagnosis" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E13" fromText="periampullary adenocarcinoma" toID="T2" toText="07/10/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME38" fromID="E32" fromText="proven" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E14" fromText="EGD directed biopsy" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E15" fromText="a left renal mass" toID="T2" toText="07/10/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME41" fromID="E33" fromText="biopsied" toID="T2" toText="07/10/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E16" fromText="an oncocytoma" toID="T2" toText="07/10/1998" type="BEFORE_OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

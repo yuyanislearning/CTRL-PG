@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-03-29
+Discharge Date :
+2019-04-01
+Service :
+NEUROLOGY
+History of Present Illness :
+The patient is a 83 yo R-handed man with a history of multiple intracranial hemorrhages during the last few years , pacemaker , hyperlipidemia , arrhythmia who now presents with gradual decline in gait and slowing of mentation over the last week .
+The patient had a fall about ten days ago , when he was walking the dog .
+The leash got wrapped around his legs .
+According to his wife he had a small abrasion on the top of his head , but nothing major .
+He did not complain about a headache .
+He was at baseline with respect to his gait ( at baseline unsteady , though he refuses to walk with a walker ) and his mentation ( at baseline difficulties with memory since months ; keeps forgetting appointments ).
+Then about a week ago , the patient and his wife noted that his gait became even more unsteady , though he did not fall .
+He also had difficulties navigating through his apartment , having difficulties finding the fridge for example .
+They were concerned that the fall might have caused another bleed , as had happened in the past , and this prompted them to come to the Deanna .
+No headache , neckpain , nausea , vomiting or focal weakness / numbness .
+Review of systems : denies any fever , chills , weight loss , visual changes , hearing changes , dysphagia , tingling , numbness , bowel-bladder dysfunction , chest pain , shortness of breath , abdominal pain , dysuria , hematuria , or bright red blood per rectum .
+His legs have been feeling weaker , bilaterally since the last week .
+Brief Hospital Course :
+The patient is a 83 yo man with a history of past intracranial hemorrhages ( most recent 07-01 with R-frontal hemorrhage ) who presented with gradually slowing of mentation and increased gait instability since one week .
+On initial exam the patient was not oriented to time , seemed somewhat slow , and had difficulties generating a list of animals .
+His cranial nerves and strength were full , and the sensory exam showed mildly decreased vibration and proprioception in both LE , suggesting peripheral neuropathy .
+A CT was performed in the Deanna that showed a new significant R-frontal intraparenchymal hemorrhage in the same location as the prior bleed .
+The patient was seen by both neurology and neurosurgery , and the two teams agreed that the etiology seemed to be related to underlying amyloidosis .
+During the last admission the question of a mass underlying a hemorrhage in the R-frontal region was raised .
+The location of the hemorrhage was not felt to be typical for hypertensive bleed ( cortical ) and it was felt to be unlikely that the recent fall was related to the bleed .
+The patient could not undergo an MRI due to his pacer .
+He was admitted to the neurology ICU for closer monitoring and was stable overnight - BP was initially elevated and required a labetalol drip for < 24 hours , then stabilized .
+The goal SBP of < 150 was achieved .
+Coags and UA were checked and were normal .
+For the question of seizure activity associated with a cortical bleed , he was started prophylactically on Keppra ( given questionable allergy to dilantin ) , at 500 mg bid ; no seizure activity was seen .
+This medication should be continued as an outpatient at least while the bleed has time to clear up , with planned titration up to 1000 mg bid on 04-05 .
+Head CT repeated on 03-30 was unchanged , and the patient remained stable with only very suble focal exam findings ( very mild right pronator drift ) as well as his persistently poor memory related to dementia .
+The plan after 24 hours was to transfer him to the floor , but the hospital was full and he never got a bed .
+Cardiovascularly , lipitor and amiodarone were continued .
+He could not get an MRI due to his pacemaker .
+There were no telemetry events , and he ruled out by enzyme .
+Pulmonlologically , his chest xray was negative and he complained of no breathing problems .
+Endocrinologically , BG was monitored to improve outcome in ICU setting though he had no history of DM .
+Of note , Hba1c done 03-04 was slightly elevated ( " borderline DM " ) at 6.3 ; this was repeated and was still pending on the day of discharge .
+Ins / outs and electrolytes were monitored and were not abnormal ; he was on a bowel regimen , VD boots and PUD prophylaxis with protonix during the admission .
+Walking was assessed later and the patient was unstable on his feet .
+PT was asked to see him for this gait problem .
+Brandon felt well and was seen by PT who suggested a rehab/Hahnemann Hospital ( Worcester ) to work on walking with the eventual goal of returning to assisted living with his wife when walking improved .
+Follow-up was arranged with neurosurgery in 5-6 weeks with repeat head ct to be arranged by neurosurgery office to make sure blood has cleared , and if indicated , to look for a possible underlying lesion ( although unlikely ) .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1003" end="1046" text="difficulties finding the fridge for example" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1059" end="1068" text="concerned" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E70" start="1074" end="1082" text="the fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1101" end="1114" text="another bleed" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1181" end="1191" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="1197" end="1205" text="headache" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E74" start="1208" end="1216" text="neckpain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E75" start="1219" end="1225" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="1228" end="1236" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E77" start="1240" end="1254" text="focal weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E78" start="1257" end="1265" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="1288" end="1294" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E80" start="1295" end="1304" text="any fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E81" start="1307" end="1313" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="1316" end="1327" text="weight loss" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="1330" end="1344" text="visual changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="1347" end="1362" text="hearing changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E85" start="1365" end="1374" text="dysphagia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E86" start="1377" end="1385" text="tingling" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E87" start="1388" end="1396" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="1399" end="1424" text="bowel-bladder dysfunction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E89" start="1427" end="1437" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E90" start="1440" end="1459" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E91" start="1462" end="1476" text="abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E92" start="1479" end="1486" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E93" start="1489" end="1498" text="hematuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E94" start="1504" end="1531" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="1561" end="1581" text="weaker , bilaterally" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="160" end="193" text="multiple intracranial hemorrhages" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="1673" end="1702" text="past intracranial hemorrhages" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="1728" end="1748" text="R-frontal hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="1755" end="1764" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="1770" end="1800" text="gradually slowing of mentation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1805" end="1831" text="increased gait instability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="1852" end="1864" text="initial exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="1881" end="1901" text="not oriented to time" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1911" end="1924" text="somewhat slow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1935" end="1976" text="difficulties generating a list of animals" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E164" start="1979" end="2020" text="His cranial nerves and strength were full" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="2027" end="2043" text="the sensory exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="2051" end="2107" text="mildly decreased vibration and proprioception in both LE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="2121" end="2142" text="peripheral neuropathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="2145" end="2149" text="A CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="2167" end="2177" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="2183" end="2189" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E99" start="2190" end="2266" text="a new significant R-frontal intraparenchymal hemorrhage in the same location" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="222" end="231" text="pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="2270" end="2285" text="the prior bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="2304" end="2308" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="2317" end="2326" text="neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="234" end="248" text="hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="2331" end="2343" text="neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E103" start="2350" end="2370" text="the two teams agreed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="2413" end="2435" text="underlying amyloidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2445" end="2463" text="the last admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2480" end="2486" text="a mass" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="2498" end="2534" text="a hemorrhage in the R-frontal region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="251" end="261" text="arrhythmia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="2564" end="2578" text="the hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="2610" end="2641" text="hypertensive bleed ( cortical )" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2678" end="2693" text="the recent fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="270" end="278" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="2709" end="2718" text="the bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2751" end="2757" text="an MRI" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E20" start="2765" end="2774" text="his pacer" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="2784" end="2792" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2796" end="2813" text="the neurology ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="2818" end="2835" text="closer monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="284" end="307" text="gradual decline in gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="2844" end="2850" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2863" end="2865" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2870" end="2888" text="initially elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2902" end="2918" text="a labetalol drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="2941" end="2951" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2954" end="2966" text="The goal SBP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="2991" end="2996" text="Coags" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="3001" end="3003" text="UA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="3026" end="3032" text="normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3055" end="3071" text="seizure activity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="3088" end="3104" text="a cortical bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="312" end="332" text="slowing of mentation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="3142" end="3148" text="Keppra" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E116" start="3170" end="3177" text="allergy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="3181" end="3189" text="dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E118" start="3213" end="3229" text="seizure activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="3241" end="3256" text="This medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E119" start="3267" end="3276" text="continued" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="3309" end="3318" text="the bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="3355" end="3367" text="titration up" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="3394" end="3401" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="3420" end="3433" text="was unchanged" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E122" start="3461" end="3467" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="3478" end="3508" text="very suble focal exam findings" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3511" end="3541" text="very mild right pronator drift" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="3555" end="3583" text="his persistently poor memory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="3595" end="3603" text="dementia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="3637" end="3645" text="transfer" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E128" start="3653" end="3662" text="the floor" modality="POSSIBLE" polarity="NEG" type="CLINICAL_DEPT" />
+<EVENT id="E129" start="3669" end="3690" text="the hospital was full" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="3716" end="3732" text="Cardiovascularly" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="370" end="376" text="a fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E131" start="3735" end="3742" text="lipitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="3747" end="3757" text="amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="3792" end="3798" text="an MRI" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E134" start="3806" end="3819" text="his pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="3836" end="3852" text="telemetry events" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E136" start="3862" end="3871" text="ruled out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="3875" end="3881" text="enzyme" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="3904" end="3918" text="his chest xray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E138" start="3923" end="3931" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="3939" end="3949" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E139" start="3956" end="3974" text="breathing problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="3998" end="4000" text="BG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E140" start="4018" end="4033" text="improve outcome" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E141" start="4037" end="4040" text="ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E142" start="4077" end="4079" text="DM" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="4092" end="4097" text="Hba1c" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="4113" end="4130" text="slightly elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="4135" end="4148" text="borderline DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E143" start="4171" end="4179" text="repeated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E144" start="4194" end="4201" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="4228" end="4238" text="Ins / outs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="4243" end="4255" text="electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E145" start="4261" end="4270" text="monitored" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="4305" end="4320" text="a bowel regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="4323" end="4331" text="VD boots" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="4336" end="4351" text="PUD prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="4357" end="4365" text="protonix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="4373" end="4386" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E146" start="4389" end="4396" text="Walking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="4401" end="4409" text="assessed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E148" start="4436" end="4456" text="unstable on his feet" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E151" start="4459" end="4461" text="PT" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E149" start="4475" end="4482" text="see him" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E150" start="4487" end="4504" text="this gait problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E152" start="4515" end="4524" text="felt well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E153" start="4533" end="4543" text="seen by PT" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E154" start="4558" end="4598" text="a rehab/Hahnemann Hospital ( Worcester )" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E155" start="4602" end="4617" text="work on walking" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E156" start="4644" end="4672" text="returning to assisted living" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E157" start="4692" end="4708" text="walking improved" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E158" start="4711" end="4720" text="Follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E159" start="4739" end="4751" text="neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E160" start="4770" end="4784" text="repeat head ct" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E161" start="4803" end="4822" text="neurosurgery office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E162" start="4836" end="4841" text="blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E163" start="4898" end="4915" text="underlying lesion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="497" end="513" text="a small abrasion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="570" end="578" text="complain" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E57" start="585" end="595" text="a headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="608" end="616" text="baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="633" end="641" text="his gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="656" end="664" text="unsteady" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="713" end="726" text="his mentation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="741" end="765" text="difficulties with memory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="787" end="810" text="forgetting appointments" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="863" end="868" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="874" end="882" text="his gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="890" end="908" text="even more unsteady" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="929" end="933" text="fall" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E4" start="948" end="960" text="difficulties" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="961" end="993" text="navigating through his apartment" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T8" start="1588" end="1601" text="the last week" type="DATE" val="2019-03-22" mod="NA" />
+<TIMEX3 id="T9" start="1717" end="1722" text="07-01" type="DATE" val="2019-07-01" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-03-29" type="DATE" val="2019-03-29" mod="NA" />
+<TIMEX3 id="T10" start="1838" end="1846" text="one week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T4" start="210" end="219" text="few years" type="DURATION" val="P2Y" mod="APPROX" />
+<TIMEX3 id="T11" start="2851" end="2860" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T12" start="2925" end="2933" text="24 hours" type="DURATION" val="PT24H" mod="LESS" />
+<TIMEX3 id="T13" start="3204" end="3207" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T14" start="3379" end="3382" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T1" start="3386" end="3391" text="04-05" type="DATE" val="2019-04-05" mod="NA" />
+<TIMEX3 id="T2" start="3414" end="3419" text="03-30" type="DATE" val="2019-03-30" mod="NA" />
+<TIMEX3 id="T5" start="338" end="351" text="the last week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T15" start="3621" end="3629" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T6" start="383" end="395" text="ten days ago" type="DATE" val="2019-03-19" mod="NA" />
+<TIMEX3 id="T17" start="4103" end="4108" text="03-04" type="DATE" val="2019-03-04" mod="NA" />
+<TIMEX3 id="T16" start="4205" end="4225" text="the day of discharge" type="DATE" val="2029-04-01" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2019-04-01" type="DATE" val="2019-04-01" mod="NA" />
+<TIMEX3 id="T18" start="4755" end="4764" text="5-6 weeks" type="DURATION" val="P5.5W" mod="APPROX" />
+<TIMEX3 id="T19" start="772" end="778" text="months" type="DURATION" val="P2M" mod="APPROX" />
+<TIMEX3 id="T7" start="827" end="835" text="week ago" type="DATE" val="2019-03-22" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2019-03-29" type="ADMISSION" dvalue="2019-03-29" />
+<SECTIME id="S1" start="46" end="56" text="2019-04-01" type="DISCHARGE" dvalue="2019-04-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12/4/95
+DISCHARGE DATE :
+12/8/95
+COURSE IN HOSPITAL :
+The patient was hydrated well and given Adriamycin 27 mg and DTIC 450 mg daily for four days .
+He also got ifosfamide 3.6 grams a day with mesna .
+He tolerated treatment well and was discharged in good condition .
+FOLLOWUP :
+by private physician .
+]]></TEXT>
+<TAGS>
+<EVENT id="E6" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="112" end="122" text="Adriamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="133" end="137" text="DTIC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="179" end="189" text="ifosfamide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="211" end="216" text="mesna" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="222" end="231" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="232" end="241" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="242" end="246" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="255" end="265" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="269" end="283" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="88" end="96" text="hydrated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="145" end="164" text="daily for four days" type="FREQUENCY" val="R4P1D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="25" text="12/4/95" type="DATE" val="1995-12-04" mod="NA" />
+<TIMEX3 id="T3" start="200" end="205" text="a day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T2" start="43" end="50" text="12/8/95" type="DATE" val="1995-12-08" mod="NA" />
+<TLINK id="TL0" fromID="E6" fromText="ADMISSION" toID="T1" toText="12/4/95" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="Adriamycin" toID="E2" toText="DTIC" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="tolerated" toID="E5" toText="treatment" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="well" toID="E8" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL12" fromID="E5" fromText="treatment" toID="E10" toText="discharged" type="BEFORE" />
+<TLINK id="TL13" fromID="E11" fromText="good condition" toID="E10" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E10" fromText="discharged" toID="E7" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E7" fromText="DISCHARGE" toID="T2" toText="12/8/95" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E0" fromText="hydrated" toID="E1" toText="Adriamycin" type="OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="DTIC" toID="T0" toText="daily for four days" type="DURING" />
+<TLINK id="TL6" fromID="E3" fromText="ifosfamide" toID="T3" toText="a day" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="mesna" toID="E3" toText="ifosfamide" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="ifosfamide" toID="E2" toText="DTIC" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="25" text="12/4/95" type="ADMISSION" dvalue="1995-12-4" />
+<SECTIME id="S1" start="43" end="50" text="12/8/95" type="DISCHARGE" dvalue="1995-12-8" />
+<TLINK id="SECTIME0" fromID="E1" fromText="Adriamycin" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E2" fromText="DTIC" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E3" fromText="ifosfamide" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E4" fromText="mesna" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E8" fromText="tolerated" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E5" fromText="treatment" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E9" fromText="well" toID="T1" toText="12/4/95" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E10" fromText="discharged" toID="T1" toText="12/4/95" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E11" fromText="good condition" toID="T1" toText="12/4/95" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME9" fromID="E0" fromText="hydrated" toID="T1" toText="12/4/95" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

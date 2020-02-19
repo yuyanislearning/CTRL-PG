@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+6-30-92
+DISCHARGE DATE :
+7-1-92 ( SOUTHOBASSKING&apos;S VILLEMARG HOSPITAL )
+DISCHARGE DATE :
+7-1-92 ( SOUTHOBASSKING&apos;S VILLEMARG HOSPITAL )
+HISTORY OF PRESENT ILLNESS :
+The history of this 49 year old male is provided in detail in the typed admission note dated June 30 , 1992 .
+HOSPITAL COURSE :
+The patient worsened rapidly following admission and it was clear to his family and to his physician that he was pre-terminal .
+All efforts were directed to his comfort and he died on July 1 , 1992 .
+Autopsy permission was declined by the family .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="255" end="279" text="the typed admission note" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="333" end="341" text="worsened" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="360" end="369" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="434" end="446" text="pre-terminal" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="449" end="460" text="All efforts" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="478" end="489" text="his comfort" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="497" end="501" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="521" end="528" text="Autopsy" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E11" start="544" end="552" text="declined" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="95" end="104" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T2" start="112" end="118" text="7-1-92" type="DATE" val="1992-07-01" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="6-30-92" type="DATE" val="1992-06-30" mod="NA" />
+<TIMEX3 id="T3" start="286" end="300" text="June 30 , 1992" type="DATE" val="1992-06-30" mod="NA" />
+<TIMEX3 id="T1" start="43" end="49" text="7-1-92" type="DATE" val="1992-07-01" mod="NA" />
+<TIMEX3 id="T4" start="505" end="518" text="July 1 , 1992" type="DATE" val="1992-07-01" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="E5" toText="admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="6-30-92" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="All efforts" toID="E8" toText="his comfort" type="OVERLAP" />
+<TLINK id="TL11" fromID="E7" fromText="All efforts" toID="E9" toText="died" type="BEFORE" />
+<TLINK id="TL12" fromID="E9" fromText="died" toID="T4" toText="July 1 , 1992" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="Autopsy" toID="E9" toText="died" type="AFTER" />
+<TLINK id="TL14" fromID="E11" fromText="declined" toID="E10" toText="Autopsy" type="BEFORE" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="7-1-92" type="OVERLAP" />
+<TLINK id="TL3" fromID="T1" fromText="7-1-92" toID="T4" toText="July 1 , 1992" type="OVERLAP" />
+<TLINK id="TL4" fromID="T2" fromText="7-1-92" toID="T1" toText="7-1-92" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="DISCHARGE" toID="E2" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="DISCHARGE" toID="T2" toText="7-1-92" type="OVERLAP" />
+<TLINK id="TL7" fromID="E3" fromText="the typed admission note" toID="T3" toText="June 30 , 1992" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="worsened" toID="E5" toText="admission" type="AFTER" />
+<TLINK id="TL9" fromID="E4" fromText="worsened" toID="E6" toText="pre-terminal" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="25" text="6-30-92" type="ADMISSION" dvalue="1992-06-30" />
+<SECTIME id="S1" start="43" end="49" text="7-1-92" type="DISCHARGE" dvalue="1992-07-01" />
+<TLINK id="SECTIME0" fromID="E3" fromText="the typed admission note" toID="T0" toText="6-30-92" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E4" fromText="worsened" toID="T1" toText="7-1-92" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E5" fromText="admission" toID="T1" toText="7-1-92" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E6" fromText="pre-terminal" toID="T1" toText="7-1-92" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E7" fromText="All efforts" toID="T1" toText="7-1-92" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E8" fromText="his comfort" toID="T1" toText="7-1-92" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E9" fromText="died" toID="T1" toText="7-1-92" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E10" fromText="Autopsy" toID="T1" toText="7-1-92" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E11" fromText="declined" toID="T1" toText="7-1-92" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E2" fromText="DISCHARGE" toID="T1" toText="7-1-92" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

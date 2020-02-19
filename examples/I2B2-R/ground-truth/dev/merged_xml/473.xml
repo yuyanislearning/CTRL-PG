@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE : 
+12/25/96 
+DISCHARGE DATE : 
+12/29/96 
+HISTORY OF PRESENT ILLNESS : 
+Ms. Lenkpruskihkooglekih is a 63-year-old lady with a history of frequent premature ventricular contractions and infrequent short runs of non-sustained ventricular tachycardia ( one four-beat run ) in 1991 , for which several antiarrhythmic agents including Propranolol , Quinidine , Procainamide , Tenormin , Norpace , Corgard , and Flecainide were used , but were stopped because of intolerance . 
+At that time , she had clear coronary arteries on coronary angiography and an ejection fraction greater than 50% . 
+She did well off antiarrhythmic agents until October of this year when she was noted to have atrial fibrillation with a rapid ventricular rate after several days of decreased exercise tolerance . 
+She was started on Coumadin and had a failed attempt at DC electrical cardioversion on 11/16/96 . 
+She has been on Coumadin since and has continued to have occasional palpitations and mild shortness of breath . 
+HOSPITAL COURSE AND TREATMENT : 
+The patient was started on Propafenone 300 mg three times a day and underwent an attempt at electrical cardioversion after seven doses of this . 
+This failed , despite one shock at 300 joules and two shocks at 360 joules . 
+The Propafenone was stopped , and the patient was changed to Amiodarone 400 mg t.i.d. , which was continued for two days . 
+The patient was discharged to home on Amiodarone 200 mg daily on 12/29/96 . 
+An electrocardiogram showed no evidence of QT prolongation prior to discharge , and pulmonary function tests will be performed before the patient goes home today . 
+The patient will follow up with Dr. Ther Ludzjesc at Shiekeu Hospital Medical Centers in Connecticut . 
+In addition , she will return to this hospital in early February for repeat attempt at electrical cardioversion on Amiodarone . 
+She will continue her Coumadin until then and arrangements for her readmission can be made through Dr. Iceca Rhaltkaaispehbreun 's office here . 
+MEDICATIONS : 
+Other than the addition of Amiodarone 200 mg daily , will be the same as her admission medications . 
+STA BODEJOVE , M.D. 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1072" end="1083" text="Propafenone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1137" end="1161" text="electrical cardioversion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1191" end="1202" text="This failed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1217" end="1222" text="shock" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1245" end="1251" text="shocks" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1269" end="1284" text="The Propafenone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1330" end="1340" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1409" end="1419" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1431" end="1441" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1470" end="1490" text="An electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1491" end="1497" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="152" end="195" text="frequent premature ventricular contractions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1513" end="1528" text="QT prolongation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1538" end="1547" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1554" end="1578" text="pulmonary function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1616" end="1625" text="goes home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="200" end="262" text="infrequent short runs of non-sustained ventricular tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2056" end="2066" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2102" end="2127" text="her admission medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="313" end="334" text="antiarrhythmic agents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="345" end="356" text="Propranolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="359" end="368" text="Quinidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="371" end="383" text="Procainamide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="386" end="394" text="Tenormin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="397" end="404" text="Norpace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="407" end="414" text="Corgard" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="421" end="431" text="Flecainide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="453" end="460" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="472" end="483" text="intolerance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="537" end="557" text="coronary angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="562" end="582" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="607" end="615" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="620" end="641" text="antiarrhythmic agents" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E18" start="682" end="687" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="696" end="715" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="721" end="745" text="a rapid ventricular rate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="768" end="796" text="decreased exercise tolerance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="819" end="827" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="836" end="852" text="a failed attempt" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="856" end="883" text="DC electrical cardioversion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="915" end="923" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="956" end="979" text="occasional palpitations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="984" end="1008" text="mild shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1091" end="1108" text="three times a day" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T9" start="1168" end="1173" text="seven" type="FREQUENCY" val="R7" mod="NA" />
+<TIMEX3 id="T10" start="1213" end="1216" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T11" start="1241" end="1244" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T12" start="1348" end="1354" text="t.i.d." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T13" start="1381" end="1389" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T14" start="1449" end="1454" text="daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T15" start="1458" end="1466" text="12/29/96" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T16" start="1626" end="1631" text="today" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T0" start="19" end="27" text="12/25/96" type="DATE" val="1996-12-25" mod="NA" />
+<TIMEX3 id="T17" start="2074" end="2079" text="daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T2" start="265" end="268" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T3" start="288" end="292" text="1991" type="DATE" val="1991" mod="NA" />
+<TIMEX3 id="T4" start="305" end="312" text="several" type="FREQUENCY" val="R3" mod="APPROX" />
+<TIMEX3 id="T1" start="47" end="55" text="12/29/96" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T5" start="648" end="668" text="October of this year" type="DATE" val="1996-10" mod="NA" />
+<TIMEX3 id="T6" start="752" end="764" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T7" start="887" end="895" text="11/16/96" type="DATE" val="1996-11-16" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="12/25/96" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="Corgard" toID="E9" toText="Norpace" type="OVERLAP" />
+<TLINK id="TL11" fromID="E11" fromText="Flecainide" toID="E10" toText="Corgard" type="OVERLAP" />
+<TLINK id="TL12" fromID="E11" fromText="Flecainide" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL13" fromID="E13" fromText="intolerance" toID="E12" toText="stopped" type="BEFORE" />
+<TLINK id="TL14" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E4" toText="antiarrhythmic agents" type="BEFORE" />
+<TLINK id="TL15" fromID="E15" fromText="an ejection fraction" toID="E14" toText="coronary angiography" type="OVERLAP" />
+<TLINK id="TL16" fromID="E14" fromText="coronary angiography" toID="E12" toText="stopped" type="OVERLAP" />
+<TLINK id="TL17" fromID="E17" fromText="antiarrhythmic agents" toID="E4" toText="antiarrhythmic agents" type="OVERLAP" />
+<TLINK id="TL18" fromID="E16" fromText="did well" toID="E17" toText="antiarrhythmic agents" type="AFTER" />
+<TLINK id="TL19" fromID="E16" fromText="did well" toID="T5" toText="October of this year" type="BEFORE" />
+<TLINK id="TL2" fromID="E2" fromText="frequent premature ventricular contractions" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="OVERLAP" />
+<TLINK id="TL20" fromID="E19" fromText="atrial fibrillation" toID="T5" toText="October of this year" type="AFTER" />
+<TLINK id="TL21" fromID="E19" fromText="atrial fibrillation" toID="E20" toText="a rapid ventricular rate" type="OVERLAP" />
+<TLINK id="TL22" fromID="E20" fromText="a rapid ventricular rate" toID="T6" toText="several days" type="AFTER" />
+<TLINK id="TL23" fromID="E21" fromText="decreased exercise tolerance" toID="T6" toText="several days" type="OVERLAP" />
+<TLINK id="TL24" fromID="E19" fromText="atrial fibrillation" toID="E18" toText="noted" type="BEFORE" />
+<TLINK id="TL25" fromID="E22" fromText="Coumadin" toID="E25" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL26" fromID="E22" fromText="Coumadin" toID="E18" toText="noted" type="AFTER" />
+<TLINK id="TL27" fromID="E24" fromText="DC electrical cardioversion" toID="T7" toText="11/16/96" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="a failed attempt" toID="E24" toText="DC electrical cardioversion" type="OVERLAP" />
+<TLINK id="TL29" fromID="E22" fromText="Coumadin" toID="E23" toText="a failed attempt" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="frequent premature ventricular contractions" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL31" fromID="E27" fromText="occasional palpitations" toID="E25" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL33" fromID="E25" fromText="Coumadin" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL34" fromID="E27" fromText="occasional palpitations" toID="E28" toText="mild shortness of breath" type="OVERLAP" />
+<TLINK id="TL35" fromID="E29" fromText="Propafenone" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL36" fromID="E29" fromText="Propafenone" toID="T8" toText="three times a day" type="OVERLAP" />
+<TLINK id="TL37" fromID="E29" fromText="Propafenone" toID="E34" toText="The Propafenone" type="OVERLAP" />
+<TLINK id="TL38" fromID="E30" fromText="electrical cardioversion" toID="T9" toText="seven" type="AFTER" />
+<TLINK id="TL39" fromID="E31" fromText="This failed" toID="E30" toText="electrical cardioversion" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="T3" toText="1991" type="OVERLAP" />
+<TLINK id="TL40" fromID="E32" fromText="shock" toID="E31" toText="This failed" type="OVERLAP" />
+<TLINK id="TL41" fromID="E33" fromText="shocks" toID="E32" toText="shock" type="AFTER" />
+<TLINK id="TL42" fromID="E32" fromText="shock" toID="T10" toText="one" type="OVERLAP" />
+<TLINK id="TL43" fromID="E33" fromText="shocks" toID="T11" toText="two" type="OVERLAP" />
+<TLINK id="TL44" fromID="E34" fromText="The Propafenone" toID="E31" toText="This failed" type="BEFORE" />
+<TLINK id="TL45" fromID="E35" fromText="Amiodarone" toID="T13" toText="two days" type="OVERLAP" />
+<TLINK id="TL46" fromID="E35" fromText="Amiodarone" toID="T12" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL47" fromID="E35" fromText="Amiodarone" toID="E31" toText="This failed" type="AFTER" />
+<TLINK id="TL48" fromID="E37" fromText="Amiodarone" toID="T14" toText="daily" type="OVERLAP" />
+<TLINK id="TL49" fromID="E37" fromText="Amiodarone" toID="E35" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL5" fromID="E4" fromText="antiarrhythmic agents" toID="E5" toText="Propranolol" type="OVERLAP" />
+<TLINK id="TL50" fromID="E37" fromText="Amiodarone" toID="E36" toText="discharged" type="BEFORE" />
+<TLINK id="TL51" fromID="E36" fromText="discharged" toID="T15" toText="12/29/96" type="OVERLAP" />
+<TLINK id="TL52" fromID="E36" fromText="discharged" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL53" fromID="E41" fromText="discharge" toID="E36" toText="discharged" type="OVERLAP" />
+<TLINK id="TL54" fromID="E38" fromText="An electrocardiogram" toID="E41" toText="discharge" type="BEFORE" />
+<TLINK id="TL55" fromID="E38" fromText="An electrocardiogram" toID="E39" toText="showed" type="OVERLAP" />
+<TLINK id="TL56" fromID="E40" fromText="QT prolongation" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL57" fromID="E42" fromText="pulmonary function tests" toID="E36" toText="discharged" type="BEFORE" />
+<TLINK id="TL58" fromID="E43" fromText="goes home" toID="T16" toText="today" type="OVERLAP" />
+<TLINK id="TL59" fromID="E43" fromText="goes home" toID="E41" toText="discharge" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="Propranolol" toID="E6" toText="Quinidine" type="OVERLAP" />
+<TLINK id="TL60" fromID="E44" fromText="Amiodarone" toID="T17" toText="daily" type="OVERLAP" />
+<TLINK id="TL61" fromID="E44" fromText="Amiodarone" toID="E37" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL62" fromID="E26" fromText="her admission medications" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL7" fromID="E6" fromText="Quinidine" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="Tenormin" toID="E7" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL9" fromID="E9" fromText="Norpace" toID="E8" toText="Tenormin" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E29" fromText="Propafenone" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E30" fromText="electrical cardioversion" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="This failed" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E32" fromText="shock" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E33" fromText="shocks" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E34" fromText="The Propafenone" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E35" fromText="Amiodarone" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E36" fromText="discharged" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E37" fromText="Amiodarone" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E38" fromText="An electrocardiogram" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E39" fromText="showed" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E2" fromText="frequent premature ventricular contractions" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="QT prolongation" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="discharge" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E42" fromText="pulmonary function tests" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E43" fromText="goes home" toID="T1" toText="12/29/96" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E44" fromText="Amiodarone" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E26" fromText="her admission medications" toID="T1" toText="12/29/96" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E4" fromText="antiarrhythmic agents" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E5" fromText="Propranolol" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E6" fromText="Quinidine" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E7" fromText="Procainamide" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E8" fromText="Tenormin" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E9" fromText="Norpace" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E10" fromText="Corgard" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E11" fromText="Flecainide" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E12" fromText="stopped" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E13" fromText="intolerance" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E14" fromText="coronary angiography" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E15" fromText="an ejection fraction" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E16" fromText="did well" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E17" fromText="antiarrhythmic agents" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E18" fromText="noted" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E19" fromText="atrial fibrillation" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E20" fromText="a rapid ventricular rate" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E21" fromText="decreased exercise tolerance" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E22" fromText="Coumadin" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E23" fromText="a failed attempt" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E24" fromText="DC electrical cardioversion" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E25" fromText="Coumadin" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E27" fromText="occasional palpitations" toID="T0" toText="12/25/96" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E28" fromText="mild shortness of breath" toID="T0" toText="12/25/96" type="BEFORE" />
+<SECTIME id="S0" start="19" end="27" text="12/25/96" type="ADMISSION" dvalue="1996-12-25" />
+<SECTIME id="S1" start="47" end="55" text="12/29/96" type="DISCHARGE" dvalue="1996-12-29" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

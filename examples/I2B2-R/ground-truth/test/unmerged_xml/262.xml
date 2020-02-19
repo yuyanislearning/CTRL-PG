@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-08-04
+Discharge Date :
+2018-08-16
+Service :
+SURGERY
+History of Present Illness :
+This is a 32 year old male who was recently discharged from Mediplex Rehab Hospital and presents again to us with chief complaint of abdominal pain ( sudden onset left-sided abdominal pain ).
+Of note , he had a recent kidney biopsy on 2018-07-30 and his Cr bumped from 4.7 to 5.7 .
+Also , HCT on admission 21 from 25 .
+Brief Hospital Course :
+This patient was admitted on 08-04 after a recent discharge from the hospital for sudden onset of left sided abdominal pain .
+In the emergency room , his ultrasound showed mild hydronephrosis with new perinephric fluid surrounding the transplant kidney and hence , underwent a CT scan of his abdomen / pelvis which showed a large left-sided of retroperitoneal hemorrhage extending down to the level of the renal transplant possibly related to recent transplant biopsy .
+Renal transplant medicine and transplant surgery were made aware and the pt was admitted to transplant
+CMED and to the ICU .
+Serial hematocrits and abdominal exams were performed .
+He was not taken to the OR .
+On 08-06 , he received 2 units of pRBC and underwent plasmaphersis , followed by 10mg of IVIG .
+He received another unit pRBC on 08-07 .
+By 08-07 , it was thought there was improvement of his labs .
+In the am of 8-08 , he was given 1 unit pRBC for a Hct of 21.8 .
+His Hct was stable on 08-09 at 24.4 ; he had plasmapheresis on 08-09 ( followed by 10 mg IVIG ).
+He was transfered to the floor on 08-09 .
+On 08-10 , his am Hct was 21.9 , hence , he received 1 unit pRBC .
+On 08-10 class I and II antibody levels were sent .
+He had plasmapheresis on 08-11 , followed by 10 mg IVIG .
+This was repeated on 08-13 .
+Hct remained stable .
+On 08-15 , he went for pheresis / IVIG .
+No new issues .
+LLQ pain has improved over the course of this hospitalization .
+He is eating and ambulating w/o difficulties .
+Pheresis to continue as an outpatient with supervision of transplant nephrology on 08-17 , 08-20 and 08-22 .
+Prograf was increased to 12 mg bid on 08-16 for a trough level of 7.1 .
+He was instructed to have labs drawn on 08-17 to check trough level of prograf as well as cbc , chem 10 , coags .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1020" end="1024" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="1032" end="1039" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="1042" end="1060" text="Serial hematocrits" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="1065" end="1080" text="abdominal exams" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1086" end="1095" text="performed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1109" end="1114" text="taken" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E60" start="1118" end="1124" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="1161" end="1165" text="pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1180" end="1193" text="plasmaphersis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1216" end="1220" text="IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1235" end="1252" text="another unit pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1300" end="1311" text="improvement" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1315" end="1323" text="his labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1359" end="1370" text="1 unit pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1375" end="1380" text="a Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="139" end="158" text="recently discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1391" end="1398" text="His Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1436" end="1450" text="plasmapheresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1480" end="1484" text="IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1495" end="1505" text="transfered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1509" end="1518" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="1541" end="1551" text="his am Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1583" end="1594" text="1 unit pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1606" end="1636" text="class I and II antibody levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="164" end="187" text="Mediplex Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1656" end="1670" text="plasmapheresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1694" end="1704" text="10 mg IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1716" end="1724" text="repeated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1736" end="1739" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1749" end="1755" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="1781" end="1789" text="pheresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1792" end="1796" text="IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1802" end="1812" text="new issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="1815" end="1823" text="LLQ pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1828" end="1836" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1856" end="1876" text="this hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1885" end="1891" text="eating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1896" end="1906" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1911" end="1923" text="difficulties" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="192" end="200" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1926" end="1934" text="Pheresis" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1938" end="1946" text="continue" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1984" end="2005" text="transplant nephrology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="2035" end="2042" text="Prograf" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2047" end="2056" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="2083" end="2097" text="a trough level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2133" end="2137" text="labs" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2162" end="2185" text="trough level of prograf" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2197" end="2200" text="cbc" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2203" end="2210" text="chem 10" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2213" end="2218" text="coags" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E45" start="237" end="251" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="254" end="292" text="sudden onset left-sided abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="313" end="335" text="a recent kidney biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="354" end="360" text="his Cr" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="393" end="396" text="HCT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="400" end="409" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="464" end="472" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="488" end="506" text="a recent discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="512" end="524" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="545" end="570" text="left sided abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="576" end="594" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="597" end="611" text="his ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="612" end="618" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="619" end="638" text="mild hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="644" end="665" text="new perinephric fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="722" end="755" text="a CT scan of his abdomen / pelvis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="762" end="768" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="791" end="817" text="retroperitoneal hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="849" end="869" text="the renal transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="879" end="886" text="related" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="890" end="914" text="recent transplant biopsy" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E54" start="917" end="942" text="Renal transplant medicine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="947" end="965" text="transplant surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="976" end="981" text="aware" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="997" end="1005" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T2" start="1130" end="1135" text="08-06" type="DATE" val="2018-08-06" mod="NA" />
+<TIMEX3 id="T12" start="1256" end="1261" text="08-07" type="DATE" val="2018-08-07" mod="NA" />
+<TIMEX3 id="T13" start="1267" end="1272" text="08-07" type="DATE" val="2018-08-07" mod="NA" />
+<TIMEX3 id="T14" start="1329" end="1343" text="the am of 8-08" type="DATE" val="2018-08-08" mod="START" />
+<TIMEX3 id="T3" start="1413" end="1418" text="08-09" type="DATE" val="2018-08-09" mod="NA" />
+<TIMEX3 id="T4" start="1454" end="1459" text="08-09" type="DATE" val="2018-08-09" mod="NA" />
+<TIMEX3 id="T5" start="1522" end="1527" text="08-09" type="DATE" val="2018-08-09" mod="NA" />
+<TIMEX3 id="T6" start="1533" end="1538" text="08-10" type="DATE" val="2018-08-10" mod="NA" />
+<TIMEX3 id="T7" start="1600" end="1605" text="08-10" type="DATE" val="2018-08-10" mod="NA" />
+<TIMEX3 id="T15" start="1674" end="1679" text="08-11" type="DATE" val="2018-08-11" mod="NA" />
+<TIMEX3 id="T16" start="1728" end="1733" text="08-13" type="DATE" val="2018-08-13" mod="NA" />
+<TIMEX3 id="T8" start="1761" end="1766" text="08-15" type="DATE" val="2018-08-15" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2018-08-04" type="DATE" val="2018-08-04" mod="NA" />
+<TIMEX3 id="T9" start="2009" end="2014" text="08-17" type="DATE" val="2018-08-17" mod="NA" />
+<TIMEX3 id="T17" start="2017" end="2022" text="08-20" type="DATE" val="2018-08-20" mod="NA" />
+<TIMEX3 id="T18" start="2027" end="2032" text="08-22" type="DATE" val="2018-08-22" mod="NA" />
+<TIMEX3 id="T19" start="2073" end="2078" text="08-16" type="DATE" val="2018-08-16" mod="NA" />
+<TIMEX3 id="T20" start="2147" end="2152" text="08-17" type="DATE" val="2018-08-17" mod="NA" />
+<TIMEX3 id="T1" start="339" end="349" text="2018-07-30" type="DATE" val="2018-07-30" mod="NA" />
+<TIMEX3 id="T10" start="46" end="56" text="2018-08-16" type="DATE" val="2018-08-16" mod="NA" />
+<TIMEX3 id="T11" start="476" end="481" text="08-04" type="DATE" val="2018-08-04" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2018-08-04" type="OVERLAP" />
+<TLINK id="TL1" fromID="E19" fromText="IVIG" toID="E18" toText="plasmapheresis" type="AFTER" />
+<TLINK id="TL10" fromID="E2" fromText="his Cr" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL11" fromID="E47" fromText="HCT" toID="E48" toText="admission" type="OVERLAP" />
+<TLINK id="TL12" fromID="E48" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E31" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E31" fromText="admitted" toID="T11" toText="08-04" type="OVERLAP" />
+<TLINK id="TL15" fromID="E49" fromText="a recent discharge" toID="E31" toText="admitted" type="BEFORE" />
+<TLINK id="TL16" fromID="E32" fromText="the hospital" toID="E49" toText="a recent discharge" type="ENDED_BY" />
+<TLINK id="TL17" fromID="E30" fromText="Mediplex Rehab Hospital" toID="E32" toText="the hospital" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E50" fromText="left sided abdominal pain" toID="E45" toText="abdominal pain" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E33" fromText="the emergency room" toID="E31" toText="admitted" type="AFTER" />
+<TLINK id="TL2" fromID="E42" fromText="Discharge" toID="T10" toText="2018-08-16" type="OVERLAP" />
+<TLINK id="TL20" fromID="E3" fromText="his ultrasound" toID="E33" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL21" fromID="E3" fromText="his ultrasound" toID="E34" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E4" fromText="mild hydronephrosis" toID="E34" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E4" fromText="mild hydronephrosis" toID="E51" toText="new perinephric fluid" type="OVERLAP" />
+<TLINK id="TL24" fromID="E5" fromText="a CT scan of his abdomen / pelvis" toID="E33" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL25" fromID="E5" fromText="a CT scan of his abdomen / pelvis" toID="E35" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E6" fromText="retroperitoneal hemorrhage" toID="E35" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E7" fromText="the renal transplant" toID="E6" toText="retroperitoneal hemorrhage" type="AFTER" />
+<TLINK id="TL28" fromID="E7" fromText="the renal transplant" toID="E53" toText="related" type="OVERLAP" />
+<TLINK id="TL29" fromID="E52" fromText="recent transplant biopsy" toID="E53" toText="related" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E43" fromText="recently discharged" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E54" fromText="Renal transplant medicine" toID="E56" toText="aware" type="OVERLAP" />
+<TLINK id="TL31" fromID="E55" fromText="transplant surgery" toID="E56" toText="aware" type="OVERLAP" />
+<TLINK id="TL32" fromID="E36" fromText="admitted" toID="E56" toText="aware" type="AFTER" />
+<TLINK id="TL33" fromID="E57" fromText="CMED" toID="E36" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL34" fromID="E58" fromText="the ICU" toID="E57" toText="CMED" type="OVERLAP" />
+<TLINK id="TL35" fromID="E8" fromText="Serial hematocrits" toID="E59" toText="performed" type="OVERLAP" />
+<TLINK id="TL36" fromID="E9" fromText="abdominal exams" toID="E59" toText="performed" type="OVERLAP" />
+<TLINK id="TL37" fromID="E61" fromText="taken" toID="E60" toText="the OR" type="OVERLAP" />
+<TLINK id="TL38" fromID="E10" fromText="pRBC" toID="T2" toText="08-06" type="OVERLAP" />
+<TLINK id="TL39" fromID="E11" fromText="plasmaphersis" toID="T2" toText="08-06" type="OVERLAP" />
+<TLINK id="TL4" fromID="E30" fromText="Mediplex Rehab Hospital" toID="E43" toText="recently discharged" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E12" fromText="IVIG" toID="E11" toText="plasmaphersis" type="AFTER" />
+<TLINK id="TL41" fromID="E13" fromText="another unit pRBC" toID="T12" toText="08-07" type="OVERLAP" />
+<TLINK id="TL42" fromID="E62" fromText="improvement" toID="E14" toText="his labs" type="OVERLAP" />
+<TLINK id="TL43" fromID="E62" fromText="improvement" toID="T13" toText="08-07" type="BEFORE_OVERLAP" />
+<TLINK id="TL44" fromID="E15" fromText="1 unit pRBC" toID="T14" toText="the am of 8-08" type="OVERLAP" />
+<TLINK id="TL45" fromID="E16" fromText="a Hct" toID="E15" toText="1 unit pRBC" type="AFTER" />
+<TLINK id="TL46" fromID="E17" fromText="His Hct" toID="T3" toText="08-09" type="OVERLAP" />
+<TLINK id="TL47" fromID="E18" fromText="plasmapheresis" toID="T4" toText="08-09" type="AFTER" />
+<TLINK id="TL49" fromID="E37" fromText="transfered" toID="T5" toText="08-09" type="OVERLAP" />
+<TLINK id="TL5" fromID="E44" fromText="presents" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E41" fromText="the floor" toID="E37" toText="transfered" type="BEGUN_BY" />
+<TLINK id="TL51" fromID="E58" fromText="the ICU" toID="E37" toText="transfered" type="ENDED_BY" />
+<TLINK id="TL52" fromID="E20" fromText="his am Hct" toID="T6" toText="08-10" type="OVERLAP" />
+<TLINK id="TL53" fromID="E21" fromText="1 unit pRBC" toID="E20" toText="his am Hct" type="AFTER" />
+<TLINK id="TL54" fromID="E21" fromText="1 unit pRBC" toID="T6" toText="08-10" type="OVERLAP" />
+<TLINK id="TL55" fromID="E22" fromText="class I and II antibody levels" toID="T7" toText="08-10" type="OVERLAP" />
+<TLINK id="TL56" fromID="E63" fromText="plasmapheresis" toID="T15" toText="08-11" type="OVERLAP" />
+<TLINK id="TL57" fromID="E23" fromText="10 mg IVIG" toID="E63" toText="plasmapheresis" type="AFTER" />
+<TLINK id="TL58" fromID="E23" fromText="10 mg IVIG" toID="T15" toText="08-11" type="OVERLAP" />
+<TLINK id="TL59" fromID="E64" fromText="repeated" toID="T16" toText="08-13" type="OVERLAP" />
+<TLINK id="TL6" fromID="E45" fromText="abdominal pain" toID="E44" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E24" fromText="Hct" toID="E65" toText="stable" type="OVERLAP" />
+<TLINK id="TL61" fromID="E65" fromText="stable" toID="T16" toText="08-13" type="BEFORE_OVERLAP" />
+<TLINK id="TL62" fromID="E25" fromText="pheresis" toID="T8" toText="08-15" type="OVERLAP" />
+<TLINK id="TL63" fromID="E26" fromText="IVIG" toID="T8" toText="08-15" type="OVERLAP" />
+<TLINK id="TL64" fromID="E27" fromText="new issues" toID="T8" toText="08-15" type="AFTER" />
+<TLINK id="TL65" fromID="E28" fromText="LLQ pain" toID="E66" toText="improved" type="OVERLAP" />
+<TLINK id="TL66" fromID="E66" fromText="improved" toID="E67" toText="this hospitalization" type="DURING" />
+<TLINK id="TL67" fromID="E67" fromText="this hospitalization" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL68" fromID="E67" fromText="this hospitalization" toID="E42" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL69" fromID="E39" fromText="eating" toID="E68" toText="difficulties" type="OVERLAP" />
+<TLINK id="TL7" fromID="E46" fromText="sudden onset left-sided abdominal pain" toID="E45" toText="abdominal pain" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E38" fromText="ambulating" toID="E68" toText="difficulties" type="OVERLAP" />
+<TLINK id="TL71" fromID="E69" fromText="Pheresis" toID="E70" toText="continue" type="OVERLAP" />
+<TLINK id="TL72" fromID="E71" fromText="transplant nephrology" toID="E69" toText="Pheresis" type="OVERLAP" />
+<TLINK id="TL73" fromID="E70" fromText="continue" toID="T9" toText="08-17" type="OVERLAP" />
+<TLINK id="TL74" fromID="E70" fromText="continue" toID="T17" toText="08-20" type="OVERLAP" />
+<TLINK id="TL75" fromID="E70" fromText="continue" toID="T18" toText="08-22" type="OVERLAP" />
+<TLINK id="TL76" fromID="E72" fromText="Prograf" toID="E40" toText="increased" type="OVERLAP" />
+<TLINK id="TL77" fromID="E40" fromText="increased" toID="T19" toText="08-16" type="OVERLAP" />
+<TLINK id="TL78" fromID="E29" fromText="a trough level" toID="T19" toText="08-16" type="OVERLAP" />
+<TLINK id="TL79" fromID="E73" fromText="labs" toID="T20" toText="08-17" type="OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="a recent kidney biopsy" toID="T1" toText="2018-07-30" type="OVERLAP" />
+<TLINK id="TL80" fromID="E74" fromText="trough level of prograf" toID="E73" toText="labs" type="BEFORE_OVERLAP" />
+<TLINK id="TL81" fromID="E75" fromText="cbc" toID="E73" toText="labs" type="OVERLAP" />
+<TLINK id="TL82" fromID="E76" fromText="chem 10" toID="E75" toText="cbc" type="OVERLAP" />
+<TLINK id="TL83" fromID="E77" fromText="coags" toID="E76" toText="chem 10" type="OVERLAP" />
+<TLINK id="TL9" fromID="E2" fromText="his Cr" toID="T1" toText="2018-07-30" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2018-08-04" type="ADMISSION" dvalue="2018-08-04" />
+<SECTIME id="S1" start="46" end="56" text="2018-08-16" type="DISCHARGE" dvalue="2018-08-16" />
+<TLINK id="SECTIME0" fromID="E57" fromText="CMED" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E58" fromText="the ICU" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E8" fromText="Serial hematocrits" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E9" fromText="abdominal exams" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E59" fromText="performed" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E61" fromText="taken" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E60" fromText="the OR" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E10" fromText="pRBC" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E11" fromText="plasmaphersis" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E12" fromText="IVIG" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E13" fromText="another unit pRBC" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E62" fromText="improvement" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="his labs" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E15" fromText="1 unit pRBC" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E16" fromText="a Hct" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E43" fromText="recently discharged" toID="T0" toText="2018-08-04" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E17" fromText="His Hct" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E18" fromText="plasmapheresis" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E19" fromText="IVIG" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E37" fromText="transfered" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E41" fromText="the floor" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E20" fromText="his am Hct" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E21" fromText="1 unit pRBC" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E22" fromText="class I and II antibody levels" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E30" fromText="Mediplex Rehab Hospital" toID="T0" toText="2018-08-04" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E63" fromText="plasmapheresis" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E23" fromText="10 mg IVIG" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E64" fromText="repeated" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E24" fromText="Hct" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E65" fromText="stable" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E25" fromText="pheresis" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E26" fromText="IVIG" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E27" fromText="new issues" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E28" fromText="LLQ pain" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E66" fromText="improved" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E67" fromText="this hospitalization" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E39" fromText="eating" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E38" fromText="ambulating" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E68" fromText="difficulties" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E44" fromText="presents" toID="T0" toText="2018-08-04" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E69" fromText="Pheresis" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E70" fromText="continue" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME42" fromID="E71" fromText="transplant nephrology" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME43" fromID="E72" fromText="Prograf" toID="T10" toText="2018-08-16" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME44" fromID="E40" fromText="increased" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E29" fromText="a trough level" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E73" fromText="labs" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E74" fromText="trough level of prograf" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E75" fromText="cbc" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME49" fromID="E76" fromText="chem 10" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME50" fromID="E77" fromText="coags" toID="T10" toText="2018-08-16" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E45" fromText="abdominal pain" toID="T0" toText="2018-08-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME52" fromID="E46" fromText="sudden onset left-sided abdominal pain" toID="T0" toText="2018-08-04" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E1" fromText="a recent kidney biopsy" toID="T0" toText="2018-08-04" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E2" fromText="his Cr" toID="T0" toText="2018-08-04" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E47" fromText="HCT" toID="T0" toText="2018-08-04" type="OVERLAP" />
+<TLINK id="SECTIME56" fromID="E48" fromText="admission" toID="T0" toText="2018-08-04" type="OVERLAP" />
+<TLINK id="SECTIME57" fromID="E31" fromText="admitted" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E49" fromText="a recent discharge" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E32" fromText="the hospital" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E50" fromText="left sided abdominal pain" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E33" fromText="the emergency room" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E3" fromText="his ultrasound" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E34" fromText="showed" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E4" fromText="mild hydronephrosis" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E51" fromText="new perinephric fluid" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E5" fromText="a CT scan of his abdomen / pelvis" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E35" fromText="showed" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E6" fromText="retroperitoneal hemorrhage" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E7" fromText="the renal transplant" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E53" fromText="related" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E52" fromText="recent transplant biopsy" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E54" fromText="Renal transplant medicine" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E55" fromText="transplant surgery" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E56" fromText="aware" toID="T10" toText="2018-08-16" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E36" fromText="admitted" toID="T10" toText="2018-08-16" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

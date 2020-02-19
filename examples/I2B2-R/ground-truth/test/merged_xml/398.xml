@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date : 
+02/03/1992 
+Discharge Date : 
+02/07/1992 
+HISTORY OF PRESENT ILLNESS : 
+The patient is a 48-year-old white man who is 20 days status post orthotopic cardiac transplant who was readmitted for sternal wound infection . 
+He has insulin dependent diabetes mellitus and a history of a dilated cardiomyopathy . 
+He had progressive symptoms of congestive heart failure which led to his evaluation of his cardiac transplant in Jan , of 1992 . 
+Preoperatively , he had a severely dilated left ventricle with markedly diminished function . 
+His post transplant course was initially complicated by hyperglycemia and seizure on postoperative day number one . 
+He was , however , extubted without difficulty and after that did quite well . 
+He had a predischarge biopsy . 
+He felt well at home without fevers , chills or rigors . 
+There were no rashes . 
+He had no chest pain or shortness of breath . 
+When he was seen on 2/3 in the Transplant Clinic , his incision was noted to be more erythematous . 
+He was referred to the Surgical Clinic where the wound was opened and the patient was admitted for intravenous antibiotics . 
+HOSPITAL COURSE : 
+The patient was admitted and pancultured . 
+He was treated with vancomycin and ceftazidime while awaiting wound cultures . 
+He had dressing changes twice a day . 
+Surgery was consulted and followed him while he was in house . 
+Cyclosporin levels were followed and his sugars were followed with a sliding scale . 
+During the first two days , he required 14 and 22 units of additional coverage . 
+However , by day three he required no additional insulin coverage . 
+On the day prior to discharge , his intravenous antibiotics were discontinued and he was begun on tetracycline . 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1028" end="1047" text="the Surgical Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1054" end="1063" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1068" end="1074" text="opened" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1095" end="1103" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1108" end="1131" text="intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1170" end="1178" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1183" end="1194" text="pancultured" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1218" end="1228" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1233" end="1244" text="ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1260" end="1274" text="wound cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1285" end="1301" text="dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1317" end="1324" text="Surgery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1372" end="1377" text="house" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1381" end="1399" text="Cyclosporin levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1418" end="1428" text="his sugars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1448" end="1463" text="a sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1507" end="1545" text="14 and 22 units of additional coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="157" end="186" text="orthotopic cardiac transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1587" end="1614" text="additional insulin coverage" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E51" start="1638" end="1647" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1650" end="1677" text="his intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1716" end="1728" text="tetracycline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="195" end="205" text="readmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="210" end="233" text="sternal wound infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="244" end="279" text="insulin dependent diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="297" end="321" text="a dilated cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="31" end="40" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="356" end="380" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="394" end="408" text="his evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="412" end="434" text="his cardiac transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="455" end="469" text="Preoperatively" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="479" end="512" text="a severely dilated left ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="518" end="546" text="markedly diminished function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="550" end="576" text="His post transplant course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="606" end="619" text="hyperglycemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="624" end="631" text="seizure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="686" end="694" text="extubted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="703" end="713" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="729" end="743" text="did quite well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="754" end="775" text="a predischarge biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="795" end="799" text="home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="808" end="814" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="817" end="823" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="827" end="833" text="rigors" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="851" end="857" text="rashes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="871" end="881" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="885" end="904" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="935" end="956" text="the Transplant Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="959" end="971" text="his incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="976" end="981" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="988" end="1005" text="more erythematous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1302" end="1313" text="twice a day" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T2" start="137" end="144" text="20 days" type="DURATION" val="P20D" mod="NA" />
+<TIMEX3 id="T6" start="1484" end="1492" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T7" start="1562" end="1571" text="day three" type="DATE" val="1992-02-05" mod="NA" />
+<TIMEX3 id="T8" start="1621" end="1628" text="the day" type="DATE" val="1992-02-06" mod="NA" />
+<TIMEX3 id="T0" start="19" end="29" text="02/03/1992" type="DATE" val="1992-02-03" mod="NA" />
+<TIMEX3 id="T3" start="438" end="451" text="Jan , of 1992" type="DATE" val="1992-01" mod="NA" />
+<TIMEX3 id="T1" start="49" end="59" text="02/07/1992" type="DATE" val="1992-02-07" mod="NA" />
+<TIMEX3 id="T9" start="635" end="663" text="postoperative day number one" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T4" start="928" end="931" text="2/3" type="DATE" val="1992-02-03" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="E34" toText="admitted" type="OVERLAP" />
+<TLINK id="TL10" fromID="T2" fromText="20 days" toID="E2" toText="orthotopic cardiac transplant" type="AFTER" />
+<TLINK id="TL11" fromID="E2" fromText="orthotopic cardiac transplant" toID="E3" toText="readmitted" type="BEFORE" />
+<TLINK id="TL12" fromID="E4" fromText="sternal wound infection" toID="E2" toText="orthotopic cardiac transplant" type="AFTER" />
+<TLINK id="TL13" fromID="E4" fromText="sternal wound infection" toID="E3" toText="readmitted" type="BEFORE" />
+<TLINK id="TL14" fromID="E7" fromText="congestive heart failure" toID="E8" toText="his evaluation" type="BEFORE" />
+<TLINK id="TL15" fromID="E9" fromText="his cardiac transplant" toID="T3" toText="Jan , of 1992" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="His post transplant course" toID="E9" toText="his cardiac transplant" type="AFTER" />
+<TLINK id="TL17" fromID="E2" fromText="orthotopic cardiac transplant" toID="E9" toText="his cardiac transplant" type="OVERLAP" />
+<TLINK id="TL18" fromID="E8" fromText="his evaluation" toID="E9" toText="his cardiac transplant" type="AFTER" />
+<TLINK id="TL19" fromID="E12" fromText="markedly diminished function" toID="E11" toText="a severely dilated left ventricle" type="OVERLAP" />
+<TLINK id="TL20" fromID="E14" fromText="hyperglycemia" toID="E13" toText="His post transplant course" type="OVERLAP" />
+<TLINK id="TL21" fromID="T9" fromText="postoperative day number one" toID="E9" toText="his cardiac transplant" type="AFTER" />
+<TLINK id="TL22" fromID="E15" fromText="seizure" toID="T9" toText="postoperative day number one" type="OVERLAP" />
+<TLINK id="TL23" fromID="E16" fromText="extubted" toID="E13" toText="His post transplant course" type="OVERLAP" />
+<TLINK id="TL24" fromID="E16" fromText="extubted" toID="E14" toText="hyperglycemia" type="AFTER" />
+<TLINK id="TL25" fromID="E17" fromText="difficulty" toID="E16" toText="extubted" type="OVERLAP" />
+<TLINK id="TL26" fromID="E17" fromText="difficulty" toID="E18" toText="did quite well" type="BEFORE" />
+<TLINK id="TL27" fromID="E19" fromText="a predischarge biopsy" toID="E20" toText="home" type="BEFORE" />
+<TLINK id="TL28" fromID="E21" fromText="fevers" toID="E20" toText="home" type="OVERLAP" />
+<TLINK id="TL29" fromID="E22" fromText="chills" toID="E20" toText="home" type="OVERLAP" />
+<TLINK id="TL3" fromID="T2" fromText="20 days" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E23" fromText="rigors" toID="E20" toText="home" type="OVERLAP" />
+<TLINK id="TL31" fromID="E24" fromText="rashes" toID="E21" toText="fevers" type="OVERLAP" />
+<TLINK id="TL32" fromID="E25" fromText="chest pain" toID="E26" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL33" fromID="E28" fromText="his incision" toID="T4" toText="2/3" type="BEFORE" />
+<TLINK id="TL34" fromID="E27" fromText="the Transplant Clinic" toID="T4" toText="2/3" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="more erythematous" toID="T4" toText="2/3" type="BEFORE" />
+<TLINK id="TL36" fromID="E29" fromText="noted" toID="E31" toText="the Surgical Clinic" type="BEFORE" />
+<TLINK id="TL37" fromID="E35" fromText="intravenous antibiotics" toID="E31" toText="the Surgical Clinic" type="AFTER" />
+<TLINK id="TL38" fromID="E32" fromText="the wound" toID="E31" toText="the Surgical Clinic" type="BEFORE" />
+<TLINK id="TL39" fromID="E33" fromText="opened" toID="E31" toText="the Surgical Clinic" type="OVERLAP" />
+<TLINK id="TL4" fromID="E42" fromText="house" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL40" fromID="E31" fromText="the Surgical Clinic" toID="E34" toText="admitted" type="AFTER" />
+<TLINK id="TL41" fromID="E31" fromText="the Surgical Clinic" toID="E27" toText="the Transplant Clinic" type="AFTER" />
+<TLINK id="TL42" fromID="E38" fromText="vancomycin" toID="E36" toText="admitted" type="AFTER" />
+<TLINK id="TL43" fromID="E37" fromText="pancultured" toID="E36" toText="admitted" type="AFTER" />
+<TLINK id="TL44" fromID="E38" fromText="vancomycin" toID="E39" toText="ceftazidime" type="OVERLAP" />
+<TLINK id="TL45" fromID="E40" fromText="wound cultures" toID="E37" toText="pancultured" type="AFTER" />
+<TLINK id="TL46" fromID="E41" fromText="dressing changes" toID="T5" toText="twice a day" type="OVERLAP" />
+<TLINK id="TL47" fromID="E46" fromText="Surgery" toID="E42" toText="house" type="OVERLAP" />
+<TLINK id="TL48" fromID="E43" fromText="Cyclosporin levels" toID="E42" toText="house" type="OVERLAP" />
+<TLINK id="TL49" fromID="E44" fromText="his sugars" toID="E42" toText="house" type="OVERLAP" />
+<TLINK id="TL5" fromID="T6" fromText="two days" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL52" fromID="E44" fromText="his sugars" toID="E45" toText="a sliding scale" type="OVERLAP" />
+<TLINK id="TL53" fromID="E47" fromText="14 and 22 units of additional coverage" toID="T6" toText="two days" type="OVERLAP" />
+<TLINK id="TL54" fromID="E48" fromText="additional insulin coverage" toID="T7" toText="day three" type="BEFORE" />
+<TLINK id="TL55" fromID="T8" fromText="the day" toID="E51" toText="discharge" type="OVERLAP" />
+<TLINK id="TL56" fromID="E49" fromText="his intravenous antibiotics" toID="T8" toText="the day" type="BEFORE" />
+<TLINK id="TL57" fromID="E50" fromText="tetracycline" toID="T8" toText="the day" type="AFTER" />
+<TLINK id="TL6" fromID="E42" fromText="house" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL8" fromID="E1" fromText="Discharge" toID="T1" toText="02/07/1992" type="OVERLAP" />
+<TLINK id="TL9" fromID="E1" fromText="Discharge" toID="E51" toText="discharge" type="OVERLAP" />
+<SECTIME id="S0" start="19" end="29" text="02/03/1992" type="ADMISSION" dvalue="1992-02-03" />
+<SECTIME id="S1" start="49" end="59" text="02/07/1992" type="DISCHARGE" dvalue="1992-02-07" />
+<TLINK id="SECTIME0" fromID="E31" fromText="the Surgical Clinic" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E32" fromText="the wound" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E33" fromText="opened" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E34" fromText="admitted" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E35" fromText="intravenous antibiotics" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E36" fromText="admitted" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E37" fromText="pancultured" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E38" fromText="vancomycin" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E39" fromText="ceftazidime" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E40" fromText="wound cultures" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E41" fromText="dressing changes" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E46" fromText="Surgery" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E42" fromText="house" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E43" fromText="Cyclosporin levels" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E44" fromText="his sugars" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E45" fromText="a sliding scale" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E47" fromText="14 and 22 units of additional coverage" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E2" fromText="orthotopic cardiac transplant" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E48" fromText="additional insulin coverage" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E51" fromText="discharge" toID="T1" toText="02/07/1992" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E49" fromText="his intravenous antibiotics" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E50" fromText="tetracycline" toID="T1" toText="02/07/1992" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E3" fromText="readmitted" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E4" fromText="sternal wound infection" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E5" fromText="insulin dependent diabetes mellitus" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E6" fromText="a dilated cardiomyopathy" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E7" fromText="congestive heart failure" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E8" fromText="his evaluation" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E9" fromText="his cardiac transplant" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E10" fromText="Preoperatively" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E11" fromText="a severely dilated left ventricle" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E12" fromText="markedly diminished function" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E13" fromText="His post transplant course" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E14" fromText="hyperglycemia" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E15" fromText="seizure" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E16" fromText="extubted" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E17" fromText="difficulty" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E18" fromText="did quite well" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E19" fromText="a predischarge biopsy" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E20" fromText="home" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E21" fromText="fevers" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E22" fromText="chills" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E23" fromText="rigors" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E24" fromText="rashes" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E25" fromText="chest pain" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E26" fromText="shortness of breath" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E27" fromText="the Transplant Clinic" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME47" fromID="E28" fromText="his incision" toID="T0" toText="02/03/1992" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E29" fromText="noted" toID="T0" toText="02/03/1992" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E30" fromText="more erythematous" toID="T0" toText="02/03/1992" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

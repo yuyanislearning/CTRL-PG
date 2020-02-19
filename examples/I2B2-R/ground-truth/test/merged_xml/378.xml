@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+10/24/96
+DISCHARGE DATE :
+Halloween
+OTHER PROCEDURES :
+Echocardiogram , neurovascular ultrasound .
+HISTORY :
+Patient is a 73-year-old retired cook with a history of cervical myelopathy , who is admitted for new left hemiparesis .
+He had undergone C-spine surgery for spinal stenosis with a question of myelopathy and radiculopathy in 1992 with residual spastic paresis and monoparesis of the left upper extremity , but was ambulatory until a day prior to admission .
+At his baseline , he was able to perform limited tasks with his left upper extremity , and was clearly able to move his hand and able to ambulate .
+He also at baseline has had urinary and fecal urgencies / incontinence .
+His history is now that he has had a week of progressive left upper extremity weakness , to the point of being unable to move the left hand and one day of being unable to walk secondary to left leg weakness with a marked tendency to fall leftward .
+HOSPITAL COURSE AND TREATMENT :
+Mr. Finger was admitted for what appeared to be a stroke syndrome involving his left middle cerebral artery territory .
+He underwent neurovascular doppler studies which showed no significant change in either common carotid or in the left common internal ophthalmic system .
+However , there were hemodynamic changes which raised the question of right siphon disease .
+He had normal cervical vertebral arteries .
+Transcranial dopplers showed no abnormalities in the ophthalmic siphon systems , distal vertebrals , or proximal basilar artery .
+The proximal , middle , anterior and posterior cerebral arteries , however , could not be insinuated .
+Over the course of the first hospital day , the patient &apos;s exam deteriorated in a manner that appeared to be blood pressure dependent .
+He had been started on Heparin from the time of his admission .
+A computerized tomography scan had showed multiple lacunes , right greater than left , and the deep gray and white matters suspicious for proximal middle cerebral artery stem occlusion or stenosis .
+MRI / MRA was performed with diffusion weighted images , showing subcortical white matter and basal ganglia infarcts , but preserved middle cerebral artery territory cortex .
+Because of his blood pressure , dependence of his left sided extremities , the lower leg specifically , he was transferred to the Intensive Care Unit where he underwent hypertensive therapy for several days .
+His systolic blood pressure goal was initially 170-190 , which he was able to achieve spontaneously for the most part .
+However , due to the absence of clear benefit at this level , and further deterioration in his left sided strength , this goal was increased and Neo-Synephrine was added to his regimen to achieve mean arterial pressures in the 110-120 range .
+This strategy and its incumbent risks , particularly in a patient on Heparin , were discussed at length with both the patient and his family , who were very clear in wanting to proceed with all possible efforts to save the use of his left leg .
+While in the Intensive Care Unit , his strength deteriorated from being able to hold his left leg off the bed up to several inches to loosing virtually all distal extremity strength , and having a 2-3/5 power in his proximal left leg groups .
+He also , as Neo-Synephrinewas tapered , developed mild sensory findings , in particular diminished large fiber sensibility in his left hand , although he at times , including near the end of his Intensive Care Unit stay had a right gaze preference .
+In terms of exploring his visual space , he was able to look to the left , and it was not possible to elicit clear evidence for a field deficit .
+He was followed by speech and swallowing service , who assisted in the management of po intake which gradually improved , although he clearly had problems with manipulation of food in the left side of his mouth and would tend to accumulate a pouch of food in his left cheek .
+I should mention that his blood pressure therapy was at times limited by a severe headache , although he also had this off the pressor .
+He had several repeat imaging studies during his Intensive Care Unit stay which showed further demarcation , but not extension of his prior infarct , both on computerized tomography scan and DWI images .
+Additionally , he had a perfusion , diffusion MR study earlier on , which suggested the presence of viable penumbra , including the overlying cortex .
+He was transferred to the regular neurology floor once it became clear that he was not receiving any significant benefit from hypertensive therapy .
+At this time , his neurologic exam is notable for hemiplegia of his left arm , severe hemiparesis of his left leg , mild large fiber sensory loss in his left arm , and otherwise fairly intact mental status , cranial nerve function , and right sided motor and sensory function .
+We anticipate that he represents a good rehab potential .
+He will be discharged to rehab on a regimen of Coumadin 5 mg po today then daily for an INR goal of 2-3 , Ofloxacin 400 mg po bid to be discontinued on 11/05/96 , Dexedrine 5 mg po qd , Omeprazole 20mg po qd , Erythromycin eye ointment OU bid , Heparin at its present rate adjusting per partial thromboplastin time bid , and discontinuing when the Coumadin is therapeutic , Tylenol 650 mg po q4 prn , Colace 100 mg po bid .
+Follow up will be with Dr. Tvi Fine of Neurology , and Dr. Doll Grendbly of internal medicine and primary care , shortly after discharge from rehab .
+BETHTATCHA W R NEW , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1002" end="1010" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1035" end="1052" text="a stroke syndrome" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1120" end="1149" text="neurovascular doppler studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1156" end="1162" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E27" start="1166" end="1184" text="significant change" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E28" start="1282" end="1301" text="hemodynamic changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1331" end="1351" text="right siphon disease" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1398" end="1419" text="Transcranial dopplers" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1420" end="1426" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E32" start="1430" end="1476" text="abnormalities in the ophthalmic siphon systems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="1675" end="1699" text="the patient &apos;s exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1700" end="1712" text="deteriorated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1745" end="1769" text="blood pressure dependent" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1795" end="1802" text="Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="183" end="202" text="cervical myelopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1820" end="1833" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1836" end="1866" text="A computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1871" end="1877" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1878" end="1894" text="multiple lacunes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1974" end="2020" text="proximal middle cerebral artery stem occlusion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2024" end="2032" text="stenosis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2035" end="2044" text="MRI / MRA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2092" end="2099" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="2100" end="2124" text="subcortical white matter" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="212" end="220" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="2129" end="2151" text="basal ganglia infarcts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="2221" end="2239" text="his blood pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="225" end="245" text="new left hemiparesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2242" end="2282" text="dependence of his left sided extremities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2321" end="2332" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="2336" end="2359" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="2379" end="2399" text="hypertensive therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="2419" end="2446" text="His systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="2605" end="2653" text="further deterioration in his left sided strength" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="265" end="280" text="C-spine surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2684" end="2698" text="Neo-Synephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2712" end="2723" text="his regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="2735" end="2758" text="mean arterial pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="285" end="300" text="spinal stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2851" end="2858" text="Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="3036" end="3059" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="3062" end="3087" text="his strength deteriorated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="320" end="330" text="myelopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="3283" end="3300" text="Neo-Synephrinewas" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="3301" end="3308" text="tapered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="3326" end="3342" text="sensory findings" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="335" end="348" text="radiculopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="3359" end="3410" text="diminished large fiber sensibility in his left hand" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="3462" end="3490" text="his Intensive Care Unit stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="3495" end="3518" text="a right gaze preference" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="3569" end="3593" text="able to look to the left" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="362" end="386" text="residual spastic paresis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="3649" end="3664" text="a field deficit" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="3686" end="3715" text="speech and swallowing service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="3734" end="3761" text="the management of po intake" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="3768" end="3786" text="gradually improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="3813" end="3847" text="problems with manipulation of food" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="3896" end="3922" text="accumulate a pouch of food" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="391" end="430" text="monoparesis of the left upper extremity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="3965" end="3991" text="his blood pressure therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="4016" end="4033" text="a severe headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="4066" end="4077" text="the pressor" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E78" start="4095" end="4117" text="repeat imaging studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="4125" end="4153" text="his Intensive Care Unit stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="4160" end="4166" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E81" start="4167" end="4186" text="further demarcation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="4197" end="4227" text="extension of his prior infarct" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="4238" end="4266" text="computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="4271" end="4281" text="DWI images" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="4306" end="4338" text="a perfusion , diffusion MR study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="4384" end="4399" text="viable penumbra" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="441" end="451" text="ambulatory" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="4442" end="4453" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="4457" end="4484" text="the regular neurology floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E89" start="4532" end="4555" text="any significant benefit" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E90" start="4561" end="4581" text="hypertensive therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="4599" end="4618" text="his neurologic exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="4634" end="4660" text="hemiplegia of his left arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="4663" end="4697" text="severe hemiparesis of his left leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="4705" end="4745" text="large fiber sensory loss in his left arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="473" end="482" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="4895" end="4917" text="a good rehab potential" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="488" end="500" text="his baseline" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="4931" end="4941" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="4945" end="4950" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="4967" end="4975" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="5005" end="5011" text="an INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="5026" end="5035" text="Ofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="5083" end="5092" text="Dexedrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="5106" end="5116" text="Omeprazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="5130" end="5155" text="Erythromycin eye ointment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="5165" end="5172" text="Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="5207" end="5234" text="partial thromboplastin time" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="526" end="539" text="limited tasks" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="5264" end="5276" text="the Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="5280" end="5291" text="therapeutic" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="5294" end="5301" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E109" start="5321" end="5327" text="Colace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="644" end="652" text="baseline" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="661" end="688" text="urinary and fecal urgencies" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="691" end="703" text="incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="751" end="792" text="progressive left upper extremity weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="817" end="845" text="unable to move the left hand" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="867" end="881" text="unable to walk" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="895" end="912" text="left leg weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="918" end="952" text="a marked tendency to fall leftward" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1650" end="1672" text="the first hospital day" type="DATE" val="1996-10-24" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="10/24/96" type="DATE" val="1996-10-24" mod="NA" />
+<TIMEX3 id="T9" start="1808" end="1816" text="the time" type="DATE" val="1996-10-24" mod="NA" />
+<TIMEX3 id="T10" start="2404" end="2416" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T3" start="352" end="356" text="1992" type="DATE" val="1992" mod="NA" />
+<TIMEX3 id="T0" start="4087" end="4094" text="several" type="FREQUENCY" val="R4" mod="APPROX" />
+<TIMEX3 id="T2" start="44" end="53" text="Halloween" type="DATE" val="1996-10-31" mod="NA" />
+<TIMEX3 id="T4" start="458" end="463" text="a day" type="DATE" val="1996-10-23" mod="NA" />
+<TIMEX3 id="T11" start="4587" end="4596" text="this time" type="DATE" val="1996-10-31" mod="NA" />
+<TIMEX3 id="T12" start="4984" end="4989" text="today" type="DATE" val="1996-10-31" mod="NA" />
+<TIMEX3 id="T13" start="4995" end="5000" text="daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T18" start="5046" end="5049" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T14" start="5072" end="5080" text="11/05/96" type="DATE" val="1996-11-05" mod="NA" />
+<TIMEX3 id="T15" start="5101" end="5103" text="qd" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T16" start="5125" end="5127" text="qd" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T17" start="5159" end="5162" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T19" start="5235" end="5238" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T21" start="5312" end="5314" text="q4" type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T20" start="5338" end="5341" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T5" start="721" end="724" text="now" type="DATE" val="1996-10-24" mod="NA" />
+<TIMEX3 id="T6" start="741" end="747" text="a week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T7" start="850" end="857" text="one day" type="DURATION" val="P1D" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="10/24/96" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T2" toText="Halloween" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="monoparesis of the left upper extremity" toID="E9" toText="residual spastic paresis" type="OVERLAP" />
+<TLINK id="TL100" fromID="E85" fromText="a perfusion , diffusion MR study" toID="E84" toText="DWI images" type="BEFORE" />
+<TLINK id="TL101" fromID="E86" fromText="viable penumbra" toID="E85" toText="a perfusion , diffusion MR study" type="BEFORE" />
+<TLINK id="TL102" fromID="T11" fromText="this time" toID="E87" toText="transferred" type="AFTER" />
+<TLINK id="TL103" fromID="T11" fromText="this time" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL104" fromID="E91" fromText="his neurologic exam" toID="T11" toText="this time" type="OVERLAP" />
+<TLINK id="TL105" fromID="E92" fromText="hemiplegia of his left arm" toID="E91" toText="his neurologic exam" type="BEFORE" />
+<TLINK id="TL106" fromID="E93" fromText="severe hemiparesis of his left leg" toID="E92" toText="hemiplegia of his left arm" type="OVERLAP" />
+<TLINK id="TL107" fromID="E94" fromText="large fiber sensory loss in his left arm" toID="E93" toText="severe hemiparesis of his left leg" type="OVERLAP" />
+<TLINK id="TL108" fromID="E95" fromText="a good rehab potential" toID="T11" toText="this time" type="BEFORE" />
+<TLINK id="TL109" fromID="E96" fromText="discharged" toID="T11" toText="this time" type="OVERLAP" />
+<TLINK id="TL11" fromID="E11" fromText="ambulatory" toID="E10" toText="monoparesis of the left upper extremity" type="OVERLAP" />
+<TLINK id="TL110" fromID="E97" fromText="rehab" toID="E96" toText="discharged" type="AFTER" />
+<TLINK id="TL112" fromID="T12" fromText="today" toID="E96" toText="discharged" type="OVERLAP" />
+<TLINK id="TL113" fromID="E98" fromText="Coumadin" toID="T12" toText="today" type="OVERLAP" />
+<TLINK id="TL114" fromID="T13" fromText="daily" toID="T12" toText="today" type="AFTER" />
+<TLINK id="TL115" fromID="E98" fromText="Coumadin" toID="T13" toText="daily" type="OVERLAP" />
+<TLINK id="TL116" fromID="E98" fromText="Coumadin" toID="E99" toText="an INR" type="BEFORE" />
+<TLINK id="TL117" fromID="E100" fromText="Ofloxacin" toID="E98" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL118" fromID="E100" fromText="Ofloxacin" toID="T18" toText="bid" type="OVERLAP" />
+<TLINK id="TL119" fromID="E100" fromText="Ofloxacin" toID="T14" toText="11/05/96" type="BEFORE" />
+<TLINK id="TL12" fromID="T4" fromText="a day" toID="E12" toText="admission" type="BEFORE" />
+<TLINK id="TL120" fromID="T14" fromText="11/05/96" toID="E96" toText="discharged" type="AFTER" />
+<TLINK id="TL121" fromID="E101" fromText="Dexedrine" toID="E98" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL122" fromID="E101" fromText="Dexedrine" toID="T15" toText="qd" type="OVERLAP" />
+<TLINK id="TL123" fromID="E101" fromText="Dexedrine" toID="E102" toText="Omeprazole" type="OVERLAP" />
+<TLINK id="TL124" fromID="E102" fromText="Omeprazole" toID="T16" toText="qd" type="OVERLAP" />
+<TLINK id="TL125" fromID="E103" fromText="Erythromycin eye ointment" toID="E102" toText="Omeprazole" type="OVERLAP" />
+<TLINK id="TL126" fromID="E103" fromText="Erythromycin eye ointment" toID="T17" toText="bid" type="OVERLAP" />
+<TLINK id="TL127" fromID="E104" fromText="Heparin" toID="E105" toText="partial thromboplastin time" type="OVERLAP" />
+<TLINK id="TL128" fromID="E104" fromText="Heparin" toID="T19" toText="bid" type="OVERLAP" />
+<TLINK id="TL129" fromID="E106" fromText="the Coumadin" toID="E98" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL13" fromID="E12" fromText="admission" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL130" fromID="E106" fromText="the Coumadin" toID="E107" toText="therapeutic" type="BEFORE" />
+<TLINK id="TL131" fromID="E104" fromText="Heparin" toID="E107" toText="therapeutic" type="BEFORE" />
+<TLINK id="TL132" fromID="E108" fromText="Tylenol" toID="E106" toText="the Coumadin" type="OVERLAP" />
+<TLINK id="TL133" fromID="E108" fromText="Tylenol" toID="T21" toText="q4" type="OVERLAP" />
+<TLINK id="TL134" fromID="E109" fromText="Colace" toID="E108" toText="Tylenol" type="OVERLAP" />
+<TLINK id="TL135" fromID="E109" fromText="Colace" toID="T20" toText="bid" type="OVERLAP" />
+<TLINK id="TL14" fromID="E11" fromText="ambulatory" toID="T4" toText="a day" type="BEFORE" />
+<TLINK id="TL15" fromID="E13" fromText="his baseline" toID="E12" toText="admission" type="BEFORE" />
+<TLINK id="TL16" fromID="E14" fromText="limited tasks" toID="E13" toText="his baseline" type="OVERLAP" />
+<TLINK id="TL17" fromID="E15" fromText="baseline" toID="E13" toText="his baseline" type="OVERLAP" />
+<TLINK id="TL18" fromID="E16" fromText="urinary and fecal urgencies" toID="E15" toText="baseline" type="OVERLAP" />
+<TLINK id="TL19" fromID="E17" fromText="incontinence" toID="E16" toText="urinary and fecal urgencies" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="cervical myelopathy" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL20" fromID="T6" fromText="a week" toID="T5" toText="now" type="BEFORE" />
+<TLINK id="TL21" fromID="T7" fromText="one day" toID="T5" toText="now" type="BEFORE" />
+<TLINK id="TL22" fromID="E18" fromText="progressive left upper extremity weakness" toID="T6" toText="a week" type="OVERLAP" />
+<TLINK id="TL23" fromID="E19" fromText="unable to move the left hand" toID="E18" toText="progressive left upper extremity weakness" type="AFTER" />
+<TLINK id="TL24" fromID="T7" fromText="one day" toID="T6" toText="a week" type="OVERLAP" />
+<TLINK id="TL25" fromID="E20" fromText="unable to walk" toID="T7" toText="one day" type="OVERLAP" />
+<TLINK id="TL26" fromID="E21" fromText="left leg weakness" toID="E20" toText="unable to walk" type="BEFORE" />
+<TLINK id="TL27" fromID="E22" fromText="a marked tendency to fall leftward" toID="E21" toText="left leg weakness" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="admitted" toID="T5" toText="now" type="OVERLAP" />
+<TLINK id="TL29" fromID="E24" fromText="a stroke syndrome" toID="E23" toText="admitted" type="BEFORE" />
+<TLINK id="TL3" fromID="E3" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL30" fromID="E24" fromText="a stroke syndrome" toID="E18" toText="progressive left upper extremity weakness" type="OVERLAP" />
+<TLINK id="TL31" fromID="E25" fromText="neurovascular doppler studies" toID="E23" toText="admitted" type="AFTER" />
+<TLINK id="TL32" fromID="E26" fromText="showed" toID="E25" toText="neurovascular doppler studies" type="OVERLAP" />
+<TLINK id="TL33" fromID="E27" fromText="significant change" toID="E26" toText="showed" type="BEFORE" />
+<TLINK id="TL34" fromID="E28" fromText="hemodynamic changes" toID="E27" toText="significant change" type="OVERLAP" />
+<TLINK id="TL35" fromID="E29" fromText="right siphon disease" toID="E28" toText="hemodynamic changes" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="Transcranial dopplers" toID="E25" toText="neurovascular doppler studies" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="showed" toID="E30" toText="Transcranial dopplers" type="OVERLAP" />
+<TLINK id="TL38" fromID="E32" fromText="abnormalities in the ophthalmic siphon systems" toID="E31" toText="showed" type="BEFORE" />
+<TLINK id="TL39" fromID="T8" fromText="the first hospital day" toID="E23" toText="admitted" type="AFTER" />
+<TLINK id="TL4" fromID="E4" fromText="new left hemiparesis" toID="E3" toText="admitted" type="BEFORE" />
+<TLINK id="TL40" fromID="E33" fromText="the patient &apos;s exam" toID="T8" toText="the first hospital day" type="OVERLAP" />
+<TLINK id="TL41" fromID="E34" fromText="deteriorated" toID="E33" toText="the patient &apos;s exam" type="OVERLAP" />
+<TLINK id="TL42" fromID="E35" fromText="blood pressure dependent" toID="E34" toText="deteriorated" type="OVERLAP" />
+<TLINK id="TL43" fromID="E37" fromText="his admission" toID="E23" toText="admitted" type="OVERLAP" />
+<TLINK id="TL44" fromID="T9" fromText="the time" toID="E37" toText="his admission" type="OVERLAP" />
+<TLINK id="TL45" fromID="E36" fromText="Heparin" toID="T9" toText="the time" type="AFTER" />
+<TLINK id="TL46" fromID="E38" fromText="A computerized tomography scan" toID="E30" toText="Transcranial dopplers" type="OVERLAP" />
+<TLINK id="TL47" fromID="E39" fromText="showed" toID="E38" toText="A computerized tomography scan" type="OVERLAP" />
+<TLINK id="TL48" fromID="E40" fromText="multiple lacunes" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL49" fromID="E41" fromText="proximal middle cerebral artery stem occlusion" toID="E40" toText="multiple lacunes" type="OVERLAP" />
+<TLINK id="TL5" fromID="E6" fromText="spinal stenosis" toID="E5" toText="C-spine surgery" type="BEFORE" />
+<TLINK id="TL50" fromID="E42" fromText="stenosis" toID="E41" toText="proximal middle cerebral artery stem occlusion" type="OVERLAP" />
+<TLINK id="TL51" fromID="E43" fromText="MRI / MRA" toID="E38" toText="A computerized tomography scan" type="AFTER" />
+<TLINK id="TL52" fromID="E44" fromText="showing" toID="E43" toText="MRI / MRA" type="OVERLAP" />
+<TLINK id="TL53" fromID="E45" fromText="subcortical white matter" toID="E44" toText="showing" type="BEFORE" />
+<TLINK id="TL54" fromID="E46" fromText="basal ganglia infarcts" toID="E45" toText="subcortical white matter" type="OVERLAP" />
+<TLINK id="TL55" fromID="E47" fromText="his blood pressure" toID="T8" toText="the first hospital day" type="BEFORE" />
+<TLINK id="TL56" fromID="E48" fromText="dependence of his left sided extremities" toID="E47" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL57" fromID="T8" fromText="the first hospital day" toID="E49" toText="transferred" type="BEFORE" />
+<TLINK id="TL58" fromID="E50" fromText="the Intensive Care Unit" toID="E49" toText="transferred" type="AFTER" />
+<TLINK id="TL59" fromID="T10" fromText="several days" toID="E50" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="C-spine surgery" toID="T3" toText="1992" type="OVERLAP" />
+<TLINK id="TL60" fromID="E51" fromText="hypertensive therapy" toID="T10" toText="several days" type="OVERLAP" />
+<TLINK id="TL61" fromID="E52" fromText="His systolic blood pressure" toID="E47" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL62" fromID="E53" fromText="further deterioration in his left sided strength" toID="E34" toText="deteriorated" type="AFTER" />
+<TLINK id="TL63" fromID="E55" fromText="his regimen" toID="E54" toText="Neo-Synephrine" type="BEFORE" />
+<TLINK id="TL64" fromID="E55" fromText="his regimen" toID="T9" toText="the time" type="AFTER" />
+<TLINK id="TL65" fromID="E54" fromText="Neo-Synephrine" toID="E56" toText="mean arterial pressures" type="BEFORE" />
+<TLINK id="TL66" fromID="E104" fromText="Heparin" toID="E57" toText="Heparin" type="OVERLAP" />
+<TLINK id="TL67" fromID="E57" fromText="Heparin" toID="E55" toText="his regimen" type="OVERLAP" />
+<TLINK id="TL68" fromID="E50" fromText="the Intensive Care Unit" toID="E58" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL69" fromID="E59" fromText="his strength deteriorated" toID="E58" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="C-spine surgery" toID="E9" toText="residual spastic paresis" type="BEFORE" />
+<TLINK id="TL70" fromID="E58" fromText="the Intensive Care Unit" toID="E88" toText="the regular neurology floor" type="BEFORE" />
+<TLINK id="TL71" fromID="E58" fromText="the Intensive Care Unit" toID="E87" toText="transferred" type="BEFORE" />
+<TLINK id="TL72" fromID="E88" fromText="the regular neurology floor" toID="E87" toText="transferred" type="AFTER" />
+<TLINK id="TL73" fromID="E89" fromText="any significant benefit" toID="E90" toText="hypertensive therapy" type="OVERLAP" />
+<TLINK id="TL74" fromID="E90" fromText="hypertensive therapy" toID="E87" toText="transferred" type="BEFORE" />
+<TLINK id="TL75" fromID="E60" fromText="Neo-Synephrinewas" toID="E54" toText="Neo-Synephrine" type="OVERLAP" />
+<TLINK id="TL76" fromID="E60" fromText="Neo-Synephrinewas" toID="E61" toText="tapered" type="BEFORE" />
+<TLINK id="TL77" fromID="E62" fromText="sensory findings" toID="E61" toText="tapered" type="OVERLAP" />
+<TLINK id="TL78" fromID="E64" fromText="diminished large fiber sensibility in his left hand" toID="E62" toText="sensory findings" type="OVERLAP" />
+<TLINK id="TL79" fromID="E65" fromText="his Intensive Care Unit stay" toID="E58" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL8" fromID="E7" fromText="myelopathy" toID="E6" toText="spinal stenosis" type="OVERLAP" />
+<TLINK id="TL80" fromID="E65" fromText="his Intensive Care Unit stay" toID="E66" toText="a right gaze preference" type="BEFORE" />
+<TLINK id="TL81" fromID="E67" fromText="able to look to the left" toID="E66" toText="a right gaze preference" type="OVERLAP" />
+<TLINK id="TL82" fromID="E68" fromText="a field deficit" toID="E67" toText="able to look to the left" type="OVERLAP" />
+<TLINK id="TL83" fromID="E70" fromText="speech and swallowing service" toID="E68" toText="a field deficit" type="OVERLAP" />
+<TLINK id="TL84" fromID="E71" fromText="the management of po intake" toID="E70" toText="speech and swallowing service" type="OVERLAP" />
+<TLINK id="TL85" fromID="E71" fromText="the management of po intake" toID="E72" toText="gradually improved" type="BEFORE" />
+<TLINK id="TL86" fromID="E73" fromText="problems with manipulation of food" toID="E72" toText="gradually improved" type="OVERLAP" />
+<TLINK id="TL87" fromID="E74" fromText="accumulate a pouch of food" toID="E73" toText="problems with manipulation of food" type="OVERLAP" />
+<TLINK id="TL89" fromID="E75" fromText="his blood pressure therapy" toID="E65" toText="his Intensive Care Unit stay" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="radiculopathy" toID="E7" toText="myelopathy" type="OVERLAP" />
+<TLINK id="TL90" fromID="E76" fromText="a severe headache" toID="E75" toText="his blood pressure therapy" type="OVERLAP" />
+<TLINK id="TL91" fromID="E76" fromText="a severe headache" toID="E77" toText="the pressor" type="BEFORE" />
+<TLINK id="TL92" fromID="E78" fromText="repeat imaging studies" toID="E79" toText="his Intensive Care Unit stay" type="OVERLAP" />
+<TLINK id="TL93" fromID="E79" fromText="his Intensive Care Unit stay" toID="E65" toText="his Intensive Care Unit stay" type="OVERLAP" />
+<TLINK id="TL94" fromID="E80" fromText="showed" toID="E78" toText="repeat imaging studies" type="OVERLAP" />
+<TLINK id="TL95" fromID="E81" fromText="further demarcation" toID="E78" toText="repeat imaging studies" type="BEFORE" />
+<TLINK id="TL96" fromID="E82" fromText="extension of his prior infarct" toID="E81" toText="further demarcation" type="OVERLAP" />
+<TLINK id="TL97" fromID="E83" fromText="computerized tomography scan" toID="E78" toText="repeat imaging studies" type="OVERLAP" />
+<TLINK id="TL98" fromID="E84" fromText="DWI images" toID="E83" toText="computerized tomography scan" type="OVERLAP" />
+<TLINK id="TL99" fromID="E84" fromText="DWI images" toID="E78" toText="repeat imaging studies" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="10/24/96" type="ADMISSION" dvalue="1996-10-24" />
+<SECTIME id="S1" start="44" end="53" text="Halloween" type="DISCHARGE" dvalue="1996-10-31" />
+<TLINK id="SECTIME0" fromID="E23" fromText="admitted" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E24" fromText="a stroke syndrome" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E25" fromText="neurovascular doppler studies" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E26" fromText="showed" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E27" fromText="significant change" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E28" fromText="hemodynamic changes" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E29" fromText="right siphon disease" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E30" fromText="Transcranial dopplers" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E31" fromText="showed" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E32" fromText="abnormalities in the ophthalmic siphon systems" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E33" fromText="the patient &apos;s exam" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E34" fromText="deteriorated" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E35" fromText="blood pressure dependent" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E36" fromText="Heparin" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E2" fromText="cervical myelopathy" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E37" fromText="his admission" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E38" fromText="A computerized tomography scan" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E39" fromText="showed" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E40" fromText="multiple lacunes" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E41" fromText="proximal middle cerebral artery stem occlusion" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E42" fromText="stenosis" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E43" fromText="MRI / MRA" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E44" fromText="showing" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E45" fromText="subcortical white matter" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E3" fromText="admitted" toID="T1" toText="10/24/96" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E46" fromText="basal ganglia infarcts" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E47" fromText="his blood pressure" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E4" fromText="new left hemiparesis" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E48" fromText="dependence of his left sided extremities" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E49" fromText="transferred" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E50" fromText="the Intensive Care Unit" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E51" fromText="hypertensive therapy" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E52" fromText="His systolic blood pressure" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E53" fromText="further deterioration in his left sided strength" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E5" fromText="C-spine surgery" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E54" fromText="Neo-Synephrine" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E55" fromText="his regimen" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E56" fromText="mean arterial pressures" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E6" fromText="spinal stenosis" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E57" fromText="Heparin" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E58" fromText="the Intensive Care Unit" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E59" fromText="his strength deteriorated" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E7" fromText="myelopathy" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E60" fromText="Neo-Synephrinewas" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E61" fromText="tapered" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E62" fromText="sensory findings" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E8" fromText="radiculopathy" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E64" fromText="diminished large fiber sensibility in his left hand" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E65" fromText="his Intensive Care Unit stay" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E66" fromText="a right gaze preference" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E67" fromText="able to look to the left" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E9" fromText="residual spastic paresis" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E68" fromText="a field deficit" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E70" fromText="speech and swallowing service" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E71" fromText="the management of po intake" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E72" fromText="gradually improved" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E73" fromText="problems with manipulation of food" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E74" fromText="accumulate a pouch of food" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E10" fromText="monoparesis of the left upper extremity" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E75" fromText="his blood pressure therapy" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E76" fromText="a severe headache" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E77" fromText="the pressor" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E78" fromText="repeat imaging studies" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E79" fromText="his Intensive Care Unit stay" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E80" fromText="showed" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E81" fromText="further demarcation" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E82" fromText="extension of his prior infarct" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E83" fromText="computerized tomography scan" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E84" fromText="DWI images" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E85" fromText="a perfusion , diffusion MR study" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E86" fromText="viable penumbra" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E11" fromText="ambulatory" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E87" fromText="transferred" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E88" fromText="the regular neurology floor" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E89" fromText="any significant benefit" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E90" fromText="hypertensive therapy" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E91" fromText="his neurologic exam" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E92" fromText="hemiplegia of his left arm" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E93" fromText="severe hemiparesis of his left leg" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E94" fromText="large fiber sensory loss in his left arm" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E12" fromText="admission" toID="T1" toText="10/24/96" type="OVERLAP" />
+<TLINK id="SECTIME81" fromID="E95" fromText="a good rehab potential" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E13" fromText="his baseline" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E96" fromText="discharged" toID="T2" toText="Halloween" type="OVERLAP" />
+<TLINK id="SECTIME84" fromID="E97" fromText="rehab" toID="T2" toText="Halloween" type="AFTER" />
+<TLINK id="SECTIME85" fromID="E98" fromText="Coumadin" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E99" fromText="an INR" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E100" fromText="Ofloxacin" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E101" fromText="Dexedrine" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E102" fromText="Omeprazole" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E103" fromText="Erythromycin eye ointment" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E104" fromText="Heparin" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E105" fromText="partial thromboplastin time" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E14" fromText="limited tasks" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E106" fromText="the Coumadin" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E107" fromText="therapeutic" toID="T2" toText="Halloween" type="AFTER" />
+<TLINK id="SECTIME96" fromID="E108" fromText="Tylenol" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E109" fromText="Colace" toID="T2" toText="Halloween" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E15" fromText="baseline" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E16" fromText="urinary and fecal urgencies" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E17" fromText="incontinence" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E18" fromText="progressive left upper extremity weakness" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E19" fromText="unable to move the left hand" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E20" fromText="unable to walk" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E21" fromText="left leg weakness" toID="T1" toText="10/24/96" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E22" fromText="a marked tendency to fall leftward" toID="T1" toText="10/24/96" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

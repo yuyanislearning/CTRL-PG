@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+12/23/2009
+Discharge Date :
+12/30/2009
+HISTORY OF PRESENT ILLNESS :
+Patient is a 64 year old white male with a past medical history of smoking , coronary artery disese , hypertension , and hypercholesterolemia with a l0 cm abdominal aortic aneurysm .
+Patient presented to his private medical doctor in Gewestster with transient calf pain on walking less than fifty yards .
+Abdominal aortic aneurysm was discovered on examination and patient was referred to Retelk County Medical Center .
+He was admitted on 10/17/09 and echocardiogram done on 11/13/09 revealed poor left ventricular function and cardiac catheterization was done on admission which showed three vessel disease .
+Patient was referred to Cardiology and underwent a three vessel coronary artery bypass graft on 11/25/09 .
+His post-operative course was complicated by an E. coli urinary tract infection and transient acute renal failure with increasing creatinine .
+Patient &apos;s renal function returned to normal over several days , however .
+The patient &apos;s last ultrasound of his aorta revealed a l0 cm aneurysm and he presented at the time of admission for an abdominal aortic aneurysm repair .
+HOSPITAL COURSE :
+Patient was admitted and taken to the Operating Room the next day on 12/24/09 where patient underwent an abdominal aortic aneurysm repair .
+In his post-operative course , patient was sent to the unit and was put on perioperative Vancomycin .
+Post-operatively , patient was found to have frequent aberrant atrial premature beats and some rare ventricular premature beats .
+His lungs were found to have decreased breath sounds with a question of fluid overload .
+There was a question of whether to start him on Quinidine versus beta blockers .
+An echocardiogram was obtained which showed moderate left ventricular dysfunction with hypokinetic and akinetic areas throughout the left and right ventricle .
+Patient was loaded with Quinidine and then started on a maintenance dose .
+Patient converted to normal sinus rhythm once on Quinidine .
+Patient was discharged from the unit on 12/30/09 and was sent to the floor .
+His digoxin was found to be elevated so his Digoxin was held for four days while levels slowly came down .
+Patient was restarted on Digoxin just prior to discharge .
+Patient also was found to have elevated LDH , alkaline phosphatase , and amylase prior to admission .
+Lipase was within normal limits .
+Ultrasound was obtained of the biliary tree which demonstrated no abnormalities .
+Patient was also found to have several complaints of awaking in the middle of the night with tachypnea and some bilateral chest pain associated with breathing .
+Serial EKG and CK were obtained which were negative .
+A chest X-Ray demonstrated some pulmonary edema .
+An arterial blood gas at that time showed pO2 of 68 , saturation of 95% , a pH of 7.5l , pCO2 of 37 , a bicarbonate of 37 , and a pCO2 of 3l with a +7 base .
+Patient &apos;s chest X-Ray , as mentioned above , showed pulmonary edema .
+Patient was aggressively diuresed with resolution of symptoms .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1026" end="1074" text="The patient &apos;s last ultrasound of his aorta" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="1075" end="1083" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="1084" end="1100" text="a l0 cm aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1108" end="1117" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1133" end="1142" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="1147" end="1182" text="an abdominal aortic aneurysm repair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1215" end="1223" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1237" end="1255" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="1305" end="1340" text="an abdominal aortic aneurysm repair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1394" end="1402" text="the unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="1418" end="1442" text="perioperative Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1476" end="1481" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="1490" end="1530" text="frequent aberrant atrial premature beats" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="153" end="160" text="smoking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1535" end="1572" text="some rare ventricular premature beats" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="1590" end="1595" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="1604" end="1627" text="decreased breath sounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="163" end="185" text="coronary artery disese" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1647" end="1661" text="fluid overload" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1712" end="1721" text="Quinidine" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1729" end="1742" text="beta blockers" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1745" end="1762" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="1782" end="1788" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="1789" end="1826" text="moderate left ventricular dysfunction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1832" end="1902" text="hypokinetic and akinetic areas throughout the left and right ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="188" end="200" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1929" end="1938" text="Quinidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1959" end="1977" text="a maintenance dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2001" end="2020" text="normal sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2029" end="2038" text="Quinidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="2053" end="2063" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="207" end="227" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2069" end="2077" text="the unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="2106" end="2115" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="2118" end="2129" text="His digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2134" end="2139" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="2146" end="2154" text="elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2158" end="2169" text="his Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2199" end="2205" text="levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2213" end="2222" text="came down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2250" end="2257" text="Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2272" end="2281" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2301" end="2306" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="2315" end="2364" text="elevated LDH , alkaline phosphatase , and amylase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="233" end="266" text="a l0 cm abdominal aortic aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2374" end="2383" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2386" end="2392" text="Lipase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="2420" end="2430" text="Ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="2470" end="2482" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="2486" end="2499" text="abnormalities" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E87" start="2519" end="2524" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E88" start="2555" end="2589" text="awaking in the middle of the night" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2595" end="2604" text="tachypnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2609" end="2634" text="some bilateral chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2663" end="2680" text="Serial EKG and CK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2717" end="2730" text="A chest X-Ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="2731" end="2743" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E41" start="2744" end="2764" text="some pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2767" end="2788" text="An arterial blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="277" end="286" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="2802" end="2808" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E43" start="2809" end="2812" text="pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2821" end="2831" text="saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="2841" end="2845" text="a pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="2856" end="2860" text="pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="2869" end="2882" text="a bicarbonate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="2895" end="2901" text="a pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2913" end="2922" text="a +7 base" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="2925" end="2952" text="Patient &apos;s chest X-Ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2976" end="2982" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="2983" end="2998" text="pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="3026" end="3034" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="3054" end="3062" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="336" end="355" text="transient calf pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="391" end="416" text="Abdominal aortic aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="421" end="431" text="discovered" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="435" end="446" text="examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="475" end="503" text="Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="513" end="521" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="538" end="552" text="echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="570" end="578" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="579" end="609" text="poor left ventricular function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="614" end="637" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="650" end="659" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="666" end="672" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="673" end="693" text="three vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="720" end="730" text="Cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="745" end="788" text="a three vessel coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="848" end="882" text="an E. coli urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="887" end="916" text="transient acute renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="922" end="943" text="increasing creatinine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="946" end="976" text="Patient &apos;s renal function" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="977" end="995" text="returned to normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T9" start="1001" end="1013" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T10" start="1121" end="1129" text="the time" type="DATE" val="2009-12-23" mod="NA" />
+<TIMEX3 id="T12" start="1256" end="1268" text="the next day" type="DATE" val="2009-12-24" mod="NA" />
+<TIMEX3 id="T4" start="1272" end="1280" text="12/24/09" type="DATE" val="2009-12-24" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="12/23/2009" type="DATE" val="2009-12-23" mod="NA" />
+<TIMEX3 id="T13" start="2081" end="2089" text="12/30/09" type="DATE" val="2009-12-30" mod="NA" />
+<TIMEX3 id="T14" start="2183" end="2192" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T5" start="46" end="56" text="12/30/2009" type="DATE" val="2009-12-30" mod="NA" />
+<TIMEX3 id="T6" start="525" end="533" text="10/17/09" type="DATE" val="2009-10-17" mod="NA" />
+<TIMEX3 id="T7" start="561" end="569" text="11/13/09" type="DATE" val="2009-11-13" mod="NA" />
+<TIMEX3 id="T3" start="792" end="800" text="11/25/09" type="DATE" val="2009-11-25" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="12/23/2009" type="ADMISSION" dvalue="2009-12-23" />
+<SECTIME id="S1" start="46" end="56" text="12/30/2009" type="DISCHARGE" dvalue="2009-12-30" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

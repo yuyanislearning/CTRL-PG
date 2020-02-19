@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-03-30
+Discharge Date :
+2016-04-03
+Service :
+CCU
+HISTORY OF PRESENT ILLNESS :
+This is a 64-year-old female with a history of hypertension , hypercholesterolemia , diabetes mellitus , and dilated cardiomyopathy ( with a transthoracic echocardiogram in 2016-01-13 showing an ejection fraction of 40% , posterior and inferior apical akinesis , and large left ventricular thrombus ).
+The patient was admitted from 2016-01-21 to 2016-02-03 ; at which time she was ruled out for a myocardial infarction .
+She had a cardiac catheterization which revealed 3-vessel disease with normal left main , mid left anterior descending artery 60% , diffuse 90% mid distal stenosis at the origin of the diagonal , serial 70% and 90% left circumflex lesions , and 90% first obtuse marginal , and mid right coronary artery 60% .
+During initial evaluation for a coronary artery bypass graft , 80% to 90% of the right coronary artery stenosis was found ; for which she underwent a right internal carotid artery stent .
+She was discharged on Coumadin for a goal INR of 2.5 to 3 .
+She was then admitted again on 2016-03-30 for an elective coronary artery bypass graft .
+At surgery , the descending aorta was noted to be calcified , and an intraoperative transesophageal echocardiogram revealed an irregular intra-aortic pedunculated lesion .
+Given the elevated stroke risk of aortic cross-clamping in the setting of this finding , the plan for a bypass graft was aborted .
+The patient was then transferred to the Coronary Care Unit Service for medical management in anticipation of possible percutaneous coronary intervention later in the admission .
+HOSPITAL COURSE :
+The patient is a 64-year-old female with 3-vessel disease who was admitted to the Coronary Care Unit Service for Western Mass . Hospital medical optimization and management following an aborted coronary artery bypass graft when a mobile aortic atheroma was noted .
+The patient was continued on aspirin , Plavix , and statin .
+Once the patient was titrated off dopamine , the beta blocker and ACE inhibitor were restarted .
+With regard to the left ventricular thrombus , her goal INR remained 2.5 to 3 ; and the goal was to start heparin once the patient was stable from a thoracotomy and chest tube
+standpoint .
+The patient remained comfortable .
+By 04-01 , on postoperative day two , the patient was doing well and the chest tube was discontinued .
+The patient still had transcutaneous pacing wires in place .
+Likewise , on 04-01 , the patient was weaned off surgery without difficulty .
+Thus , the beta blocker and ACE inhibitor were started to be titrated up .
+In addition , the patient was started on Wellbutrin for smoking cessation .
+At this point , it was determined that the patient would not receive percutaneous coronary intervention on this admission and would likely be discharged to the floor for stabilization with followup .
+The patient did well and was transferred to the floor on 04-02 .
+After evaluation and a discussion with Dr. Gunter , it was determined that the patient no longer needed anticoagulation since there was no aortic thrombus but only an aortic plaque , and there was no anterior/apical akinesis noted .
+At this point , the left ventricular thrombus ( for which she was initially started therapy for ) was no longer present .
+The patient was noted to have a slight hematocrit drop and was transfused one unit of packed red blood cells for a goal hematocrit of greater than 30 .
+By 04-03 , captopril and atenolol were started , and the patient 's leg bandage from the vein harvest was removed .
+The patient continued to do well on the medical regimen and was without chest pain , shortness of breath , or any other symptoms .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1026" end="1036" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1040" end="1048" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1053" end="1063" text="a goal INR" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1091" end="1099" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1124" end="1164" text="an elective coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1170" end="1177" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1205" end="1210" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="1217" end="1226" text="calcified" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1233" end="1281" text="an intraoperative transesophageal echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1282" end="1290" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1291" end="1336" text="an irregular intra-aortic pedunculated lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1345" end="1369" text="the elevated stroke risk" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1373" end="1394" text="aortic cross-clamping" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1413" end="1425" text="this finding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1441" end="1455" text="a bypass graft" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E3" start="147" end="159" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1491" end="1502" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1506" end="1536" text="the Coronary Care Unit Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="1541" end="1559" text="medical management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1588" end="1622" text="percutaneous coronary intervention" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="162" end="182" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1632" end="1645" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1707" end="1723" text="3-vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1732" end="1740" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1744" end="1802" text="the Coronary Care Unit Service for Western Mass . Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="1849" end="1888" text="an aborted coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="185" end="202" text="diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1894" end="1918" text="a mobile aortic atheroma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1960" end="1967" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1970" end="1976" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1983" end="1989" text="statin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="2026" end="2034" text="dopamine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="2037" end="2053" text="the beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2058" end="2071" text="ACE inhibitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="209" end="231" text="dilated cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2104" end="2133" text="the left ventricular thrombus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2136" end="2148" text="her goal INR" modality="CONDITIONAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="2195" end="2202" text="heparin" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2224" end="2230" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2236" end="2249" text="a thoracotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2254" end="2264" text="chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2299" end="2310" text="comfortable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2367" end="2377" text="doing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2382" end="2396" text="the chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="239" end="269" text="a transthoracic echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="2438" end="2465" text="transcutaneous pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2526" end="2533" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2542" end="2552" text="difficulty" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E70" start="2562" end="2578" text="the beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2583" end="2596" text="ACE inhibitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2671" end="2681" text="Wellbutrin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2686" end="2703" text="smoking cessation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2775" end="2809" text="percutaneous coronary intervention" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E75" start="2813" end="2827" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2848" end="2858" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="284" end="291" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E77" start="2862" end="2871" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E78" start="2876" end="2889" text="stabilization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2895" end="2903" text="followup" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2918" end="2926" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2935" end="2946" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="292" end="312" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="2950" end="2959" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E83" start="2977" end="2987" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="3075" end="3090" text="anticoagulation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E85" start="3110" end="3125" text="aortic thrombus" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E86" start="3135" end="3151" text="an aortic plaque" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="3171" end="3201" text="anterior/apical akinesis noted" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="3220" end="3249" text="the left ventricular thrombus" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="322" end="360" text="posterior and inferior apical akinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="3256" end="3261" text="which" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3288" end="3295" text="therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="3316" end="3323" text="present" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E92" start="3356" end="3380" text="a slight hematocrit drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="3389" end="3434" text="transfused one unit of packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="3439" end="3456" text="a goal hematocrit" modality="CONDITIONAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="3489" end="3498" text="captopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="3503" end="3511" text="atenolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E97" start="3531" end="3557" text="the patient 's leg bandage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="3563" end="3579" text="the vein harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="3619" end="3626" text="do well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="3630" end="3649" text="the medical regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="3666" end="3676" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="367" end="398" text="large left ventricular thrombus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3679" end="3698" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E103" start="3704" end="3722" text="any other symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="418" end="426" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="481" end="486" text="ruled" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="495" end="518" text="a myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="529" end="554" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="555" end="560" text="which" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="561" end="569" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="570" end="586" text="3-vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="653" end="684" text="diffuse 90% mid distal stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="67" end="70" text="CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="732" end="759" text="90% left circumflex lesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="837" end="855" text="initial evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="860" end="890" text="a coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="907" end="941" text="the right coronary artery stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="946" end="951" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="958" end="963" text="which" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="978" end="1015" text="a right internal carotid artery stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T6" start="1109" end="1119" text="2016-03-30" type="DATE" val="2016-03-30" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2016-03-30" type="DATE" val="2016-03-30" mod="NA" />
+<TIMEX3 id="T7" start="2316" end="2321" text="04-01" type="DATE" val="2016-04-01" mod="NA" />
+<TIMEX3 id="T8" start="2327" end="2348" text="postoperative day two" type="DATE" val="2016-04-01" mod="NA" />
+<TIMEX3 id="T9" start="2491" end="2496" text="04-01" type="DATE" val="2016-04-01" mod="NA" />
+<TIMEX3 id="T2" start="273" end="283" text="2016-01-13" type="DATE" val="2016-01-13" mod="NA" />
+<TIMEX3 id="T10" start="2963" end="2968" text="04-02" type="DATE" val="2016-04-02" mod="NA" />
+<TIMEX3 id="T11" start="3481" end="3486" text="04-03" type="DATE" val="2016-04-03" mod="NA" />
+<TIMEX3 id="T3" start="432" end="442" text="2016-01-21" type="DATE" val="2016-01-21" mod="NA" />
+<TIMEX3 id="T4" start="446" end="456" text="2016-02-03" type="DATE" val="2016-02-03" mod="NA" />
+<TIMEX3 id="T5" start="462" end="472" text="which time" type="DURATION" val="P14D" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2016-04-03" type="DATE" val="2016-04-03" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2016-03-30" type="ADMISSION" dvalue="2016-03-30" />
+<SECTIME id="S1" start="46" end="56" text="2016-04-03" type="DISCHARGE" dvalue="2016-04-03" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

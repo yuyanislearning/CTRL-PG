@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-05-05
+Discharge Date :
+2016-06-15
+Service :
+NEONATOLOGY
+HISTORY OF PRESENT ILLNESS :
+The patient is a 30 and 08-01 week gestation female , triplet number two , delivered by cesarean section due to progressive preterm labor and triplet gestation .
+PERINATAL HISTORY :
+Mother is a 29 year-old gravida 4 , para 1 mother , Marian Jane conception , EDC 2016-07-08 .
+Prenatal screen , O positive , antibody negative , RPR nonreactive , hepatitis B surface antigen negative , reportedly GBS negative , Rubella immune .
+Pregnancy complicated by gestational diabetes mellitus , then possible preterm labor .
+Mother presented with abdominal discomfort and vaginal pressure at 23 and 1/7 weeks .
+At that time she was admitted and received a full course of betamethasone at 24 weeks and remained in house until delivery .
+Mother presented on day of delivery with preterm labor , cervical dilation , therefore delivered by repeat cesarean section .
+This triplet required only blow by oxygen and routine care in delivery room .
+Apgars were 8 at one minute and 9 at five minutes .
+Infant demonstrated mild increased work of breathing in the delivery room .
+Infant transported to Neonatal Intensive Care Unit on facial CPAP .
+HOSPITAL COURSE :
+1. Pulmonary :
+On admission the infant required CPAP 6 cm of water , 30% oxygen .
+Initial capillary blood gas was pH 7.29 , CO2 47 .
+Infant was intubated on day of life two for increased respiratory distress and received one dose of surfactant .
+Infant was extubated on day of life four to CPAP and transitioned to room air on day of life six .
+The infant has remained in room air throughout the hospitalization .
+Caffeine citrate was started on day of life six and was discontinued on 05-23 ( day of life 18 ).
+The last apnea and bradycardia was on 06-10 .
+2. Cardiovascular :
+The infant has remained hemodynamically stable throughout this hospitalization , no murmur .
+Heart rate 150 to 160 , mean blood pressure 40 to 54 .
+3. Fluid , electrolytes and nutrition :
+Infant was initially nothing by mouth receiving 80 cc per kilogram per day of D10W intravenously .
+Infant was started on enteral feedings on day of life four and advanced to full volume feedings of 150 cc per kilogram per day by day of life seven .
+During feeding advancement infant was given parenteral nutrition and intralipids .
+The infant tolerated feeding advancement without difficulty .
+Infant was advanced to maximum caloric density of breast milk or premature Enfamil 26 calories per ounce with ProMod by day of life 11 .
+Infant is currently on breast milk or Enfamil 24 calories per ounce po minimum 140 cc per kilogram per day .
+The most recent weight is 2525 g.
+Head circumference 24.5 cm , length 45.5 cm .
+The most recent electrolytes on day of life five were sodium 145 , chloride 115 , potassium 4 , TCO2 of 21 .
+On day of life 25 , calcium 10.1 , phosphorus 6.9 , alkaline phosphatase 341 .
+4. Gastrointestinal :
+Infant was started on double phototherapy on day of life two for a maximum bilirubin level of 8.1 with a direct of 0.3 .
+Infant decreased to single phototherapy and phototherapy was discontinued on day of life six .
+Rebound bilirubin level on day of life seven was 5.3 with a direct of 0.3 .
+5. Hematology :
+The infant did not receive any blood transfusions this hospitalization .
+The most recent hematocrit on day of life two was 47% .
+CBC on admission white blood cell count 8.9 , hematocrit 47% , platelets 243,000 , 6% neutrophils , 0 bands .
+Repeat CBC on day of life two showed a white blood cell count of 8.4 , platelets 95 , 41% neutrophils , 0 bands .
+Repeat platelet count on day of life three was 229 .
+6. Infectious disease :
+The infant received 48 hours of ampicillin and gentamicin for rule out sepsis .
+Blood cultures remained negative to date .
+Infant has not had any issues with sepsis this hospitalization .
+7. Neurology :
+Head ultrasound on day of life seven showed no intraventricular hemorrhage .
+A repeat head ultrasound on day of life 33 06-07 showed a slight increase of echogenicity in the caudothalamic groove , which may represent tiny bilateral germinal matrix hemorrhages , no periventricular leukomalacia .
+A repeat head ultrasound is recommended in one month .
+Normal neurological examination .
+Sensory , hearing screening was performed with automated auditory brain stem responses .
+Infant passed both ears .
+Ophthalmology , eyes examined most recently on 05-30 revealing immaturity of the retinal vessels , but no ROP as of yet .
+A follow up examination should be scheduled for the week of 06-20 .
+Ophthalmologist is Dr. Cruea Franklin .
+8. Psycho / social :
+Parents involved .
+Triplet number one is still in the Neonatal Intensive Care Unit and triplet number three is home with family and there is also a 2 year-old sibling .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1005" end="1017" text="routine care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="1021" end="1034" text="delivery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="1037" end="1043" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1109" end="1141" text="mild increased work of breathing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="1145" end="1162" text="the delivery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E112" start="1187" end="1215" text="Neonatal Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E113" start="1219" end="1230" text="facial CPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="1269" end="1278" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1299" end="1303" text="CPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1320" end="1330" text="30% oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1333" end="1360" text="Initial capillary blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1365" end="1367" text="pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1375" end="1378" text="CO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1395" end="1404" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1428" end="1458" text="increased respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="143" end="152" text="gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1484" end="1494" text="surfactant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1508" end="1517" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1541" end="1545" text="CPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1550" end="1562" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="1566" end="1574" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="1611" end="1619" text="remained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="1623" end="1631" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="1643" end="1662" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1665" end="1681" text="Caffeine citrate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1763" end="1777" text="The last apnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1782" end="1793" text="bradycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="183" end="192" text="delivered" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="1853" end="1875" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="1887" end="1907" text="this hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E119" start="1913" end="1919" text="murmur" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E31" start="1922" end="1932" text="Heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1946" end="1965" text="mean blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="196" end="212" text="cesarean section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2038" end="2054" text="nothing by mouth" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2095" end="2113" text="D10W intravenously" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2138" end="2154" text="enteral feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="2179" end="2187" text="advanced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="220" end="245" text="progressive preterm labor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="2191" end="2211" text="full volume feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2273" end="2292" text="feeding advancement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2310" end="2330" text="parenteral nutrition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2335" end="2346" text="intralipids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="2360" end="2369" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2370" end="2389" text="feeding advancement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2398" end="2408" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E123" start="2422" end="2430" text="advanced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E124" start="2461" end="2472" text="breast milk" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2476" end="2493" text="premature Enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="250" end="267" text="triplet gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="2521" end="2527" text="ProMod" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="2571" end="2582" text="breast milk" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2586" end="2593" text="Enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2657" end="2679" text="The most recent weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="2691" end="2709" text="Head circumference" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="2720" end="2726" text="length" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="2737" end="2765" text="The most recent electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="2791" end="2797" text="sodium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="2804" end="2812" text="chloride" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="2819" end="2828" text="potassium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="2833" end="2837" text="TCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2866" end="2873" text="calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="2881" end="2891" text="phosphorus" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="2898" end="2918" text="alkaline phosphatase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="2969" end="2988" text="double phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="3012" end="3037" text="a maximum bilirubin level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="3050" end="3058" text="a direct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E126" start="3088" end="3107" text="single phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3112" end="3124" text="phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="314" end="332" text="gravida 4 , para 1" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="3163" end="3186" text="Rebound bilirubin level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="3221" end="3229" text="a direct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="3282" end="3304" text="any blood transfusions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E60" start="3305" end="3325" text="this hospitalization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="3328" end="3354" text="The most recent hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="3384" end="3387" text="CBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="3391" end="3400" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="3401" end="3423" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="3430" end="3440" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="3447" end="3456" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="3470" end="3481" text="neutrophils" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="3486" end="3491" text="bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="3494" end="3504" text="Repeat CBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E127" start="3524" end="3530" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E69" start="3531" end="3555" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="354" end="364" text="conception" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="3565" end="3574" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="3584" end="3595" text="neutrophils" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="3600" end="3605" text="bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="3608" end="3629" text="Repeat platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="367" end="370" text="EDC" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="3717" end="3727" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="3732" end="3742" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="3756" end="3762" text="sepsis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="3765" end="3779" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="3827" end="3849" text="any issues with sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="384" end="399" text="Prenatal screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E129" start="3850" end="3870" text="this hospitalization" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E78" start="3888" end="3903" text="Head ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E130" start="3925" end="3931" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E79" start="3935" end="3962" text="intraventricular hemorrhage" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="3965" end="3989" text="A repeat head ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E131" start="4014" end="4020" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E81" start="4021" end="4082" text="a slight increase of echogenicity in the caudothalamic groove" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="4105" end="4147" text="tiny bilateral germinal matrix hemorrhages" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="415" end="423" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="4153" end="4181" text="periventricular leukomalacia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E133" start="4184" end="4208" text="A repeat head ultrasound" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E134" start="4246" end="4270" text="neurological examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="4273" end="4300" text="Sensory , hearing screening" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E135" start="4320" end="4359" text="automated auditory brain stem responses" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="435" end="438" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E136" start="4404" end="4417" text="eyes examined" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E139" start="4441" end="4450" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E84" start="4451" end="4484" text="immaturity of the retinal vessels" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="4494" end="4497" text="ROP" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E137" start="4510" end="4533" text="A follow up examination" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E5" start="453" end="480" text="hepatitis B surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E138" start="4689" end="4721" text="the Neonatal Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="503" end="506" text="GBS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="518" end="525" text="Rubella" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E99" start="535" end="544" text="Pregnancy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="560" end="589" text="gestational diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="606" end="619" text="preterm labor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="629" end="638" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="644" end="664" text="abdominal discomfort" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="669" end="685" text="vaginal pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="729" end="737" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="751" end="781" text="a full course of betamethasone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="822" end="830" text="delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="840" end="849" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="860" end="868" text="delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="874" end="887" text="preterm labor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="890" end="907" text="cervical dilation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="920" end="929" text="delivered" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="933" end="956" text="repeat cesarean section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="986" end="1000" text="blow by oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T26" start="1054" end="1064" text="one minute" type="DURATION" val="PT1M" mod="NA" />
+<TIMEX3 id="T27" start="1074" end="1086" text="five minutes" type="DURATION" val="PT5M" mod="NA" />
+<TIMEX3 id="T22" start="125" end="142" text="30 and 08-01 week" type="DURATION" val="P30W" mod="APPROX" />
+<TIMEX3 id="T4" start="1408" end="1423" text="day of life two" type="DATE" val="2016-05-07" mod="NA" />
+<TIMEX3 id="T5" start="1521" end="1537" text="day of life four" type="DATE" val="2016-05-09" mod="NA" />
+<TIMEX3 id="T6" start="1578" end="1593" text="day of life six" type="DATE" val="2016-05-11" mod="NA" />
+<TIMEX3 id="T7" start="1697" end="1712" text="day of life six" type="DATE" val="2016-05-11" mod="NA" />
+<TIMEX3 id="T29" start="1737" end="1742" text="05-23" type="DATE" val="2016-05-23" mod="NA" />
+<TIMEX3 id="T28" start="1745" end="1759" text="day of life 18" type="DATE" val="2016-05-23" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2016-05-05" type="DATE" val="2016-05-05" mod="NA" />
+<TIMEX3 id="T9" start="1801" end="1806" text="06-10" type="DATE" val="2016-06-10" mod="NA" />
+<TIMEX3 id="T10" start="2158" end="2174" text="day of life four" type="DATE" val="2016-05-09" mod="NA" />
+<TIMEX3 id="T11" start="2246" end="2263" text="day of life seven" type="DATE" val="2016-05-12" mod="NA" />
+<TIMEX3 id="T30" start="2531" end="2545" text="day of life 11" type="DATE" val="2016-05-16" mod="NA" />
+<TIMEX3 id="T12" start="2769" end="2785" text="day of life five" type="DATE" val="2016-05-10" mod="NA" />
+<TIMEX3 id="T13" start="2849" end="2863" text="day of life 25" type="DATE" val="2016-05-30" mod="NA" />
+<TIMEX3 id="T14" start="2992" end="3007" text="day of life two" type="DATE" val="2016-05-07" mod="NA" />
+<TIMEX3 id="T15" start="3145" end="3160" text="day of life six" type="DATE" val="2016-05-11" mod="NA" />
+<TIMEX3 id="T16" start="3190" end="3207" text="day of life seven" type="DATE" val="2016-05-12" mod="NA" />
+<TIMEX3 id="T17" start="3358" end="3373" text="day of life two" type="DATE" val="2016-05-07" mod="NA" />
+<TIMEX3 id="T31" start="3508" end="3523" text="day of life two" type="DATE" val="2016-05-07" mod="NA" />
+<TIMEX3 id="T18" start="3633" end="3650" text="day of life three" type="DATE" val="2016-05-08" mod="NA" />
+<TIMEX3 id="T32" start="3705" end="3713" text="48 hours" type="DURATION" val="PT48H" mod="NA" />
+<TIMEX3 id="T3" start="371" end="381" text="2016-07-08" type="DATE" val="2016-07-08" mod="NA" />
+<TIMEX3 id="T19" start="3907" end="3924" text="day of life seven" type="DATE" val="2016-05-12" mod="NA" />
+<TIMEX3 id="T20" start="4008" end="4013" text="06-07" type="DATE" val="2016-06-07" mod="NA" />
+<TIMEX3 id="T33" start="3993" end="4007" text="day of life 33" type="DATE" val="2016-06-07" mod="NA" />
+<TIMEX3 id="T34" start="4227" end="4236" text="one month" type="DATE" val="2016-07-15" mod="APPROX" />
+<TIMEX3 id="T21" start="4435" end="4440" text="05-30" type="DATE" val="2016-05-30" mod="NA" />
+<TIMEX3 id="T35" start="4558" end="4575" text="the week of 06-20" type="DATE" val="2016-06-20" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2016-06-15" type="DATE" val="2016-06-15" mod="NA" />
+<TIMEX3 id="T23" start="689" end="705" text="23 and 1/7 weeks" type="DURATION" val="P23.14W" mod="NA" />
+<TIMEX3 id="T24" start="785" end="793" text="24 weeks" type="DURATION" val="P24W" mod="NA" />
+<TIMEX3 id="T36" start="853" end="856" text="day" type="DATE" val="2016-05-05" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2016-05-05" type="ADMISSION" dvalue="2016-05-05" />
+<SECTIME id="S1" start="46" end="56" text="2016-06-15" type="DISCHARGE" dvalue="2016-06-15" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

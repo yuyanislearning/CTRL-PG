@@ -88,6 +88,7 @@ def set_seed(args):
 
 def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     """ Train the model """
+    #results = evaluate(args, model, tokenizer, dict_IndenToID, label_dict)
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
@@ -298,6 +299,7 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
             else:
                 sent_ids = np.append(sent_ids, sentence_ids.detach().cpu().numpy(), axis=0)
 
+
         eval_loss = eval_loss / nb_eval_steps
         if args.output_mode == "classification":
             preds = np.argmax(preds, axis=1)
@@ -305,6 +307,55 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
             preds = np.squeeze(preds)
         result = compute_metrics(eval_task, preds, out_label_ids)
         results.update(result)
+
+        evaluate_aug = True
+        if evaluate_aug:
+            old_doc_id = doc_ids[0]
+            old_sen_id = sent_ids[0]
+            temp = []
+            for i in range(len(doc_ids)):
+                new_doc_id = doc_ids[i]
+                new_sen_id = sent_ids[i]
+                if new_doc_id==old_doc_id and new_sen_id[0]==old_sen_id[0]:
+                    temp.append([preds[i], doc_ids[i], events[i],  sent_ids[i]])
+                else:
+                    n = np.max(np.array([e[2] for e in temp])) 
+                    OM = np.zeros((n+1,n+1))
+                    BM = np.zeros((n+1,n+1))
+                    for j in range(len(temp)):
+                        if temp[j][0] == 0:
+                            OM[temp[j][2][0],temp[j][2][1]] = 1
+                        if temp[j][0] == 1:
+                            BM[temp[j][2][0],temp[j][2][1]] = 1
+                        if temp[j][0] == 2:
+                            BM[temp[j][2][1],temp[j][2][0]] = 1
+                    BM, OM = iter_rule_update(BM= BM, OM=OM,n_iter= 1)
+                    all_x, all_y = np.where(BM>0)
+                    for k in range(all_x.size):
+                        doc_ids = np.append(doc_ids, np.array([temp[0][1]]), axis=0)
+                        sent_ids = np.append(sent_ids, np.array([temp[0][3]]), axis=0)
+                        events = np.append(events, np.array([[all_x[k], all_y[k]]]), axis=0)
+                        preds = np.append(preds, np.array([1]), axis=0)
+                    all_x, all_y = np.where(OM>0)
+                    for k in range(all_x.size):
+                        doc_ids = np.append(doc_ids, np.array([temp[0][1]]), axis=0)
+                        sent_ids = np.append(sent_ids, np.array([temp[0][3]]), axis=0)
+                        events = np.append(events, np.array([[all_x[k], all_y[k]]]), axis=0)
+                        preds = np.append(preds, np.array([0]), axis=0)
+                    AM = BM.transpose()
+                    all_x, all_y = np.where(AM>0)
+                    for k in range(all_x.size):
+                        doc_ids = np.append(doc_ids, np.array([temp[0][1]]), axis=0)
+                        sent_ids = np.append(sent_ids, np.array([temp[0][3]]), axis=0)
+                        events = np.append(events, np.array([[all_x[k], all_y[k]]]), axis=0)
+                        preds = np.append(preds, np.array([2]), axis=0)
+                      
+                    old_sen_id = new_sen_id
+                    old_doc_id = new_doc_id
+                    temp = []
+                    temp.append([preds[i], doc_ids[i], events[i],  sent_ids[i]])
+                
+            
 
         output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
         with open(output_eval_file, "w") as writer:
@@ -328,7 +379,7 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
             events = doc_dict[doc_id]["events"]
             ce = closure_evaluate(doc_id, args.xml_folder)
             ce.eval(preds, events)
-        os.system(' '.join(["python2 examples/i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
+        os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return results
 
@@ -345,7 +396,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         list(filter(None, args.model_name_or_path.split('/'))).pop(),
         str(args.max_seq_length),
         str(task)))
-    if os.path.exists(cached_features_file) and not args.overwrite_cache:
+    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache:
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
@@ -359,6 +410,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
             # HACK(label indices are swapped in RoBERTa pretrained model)
             label_list[1], label_list[2] = label_list[2], label_list[1] 
         examples = processor.get_dev_examples(args.data_dir) if evaluate else processor.get_train_examples(args.data_dir)
+        #print(examples)
         features, dict_IndenToID = convert_examples_to_features(examples,
                                                 tokenizer,
                                                 label_list=label_list,
@@ -390,6 +442,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_doc_ids = torch.tensor([int(f.doc_id) for f in features], dtype = torch.int)
     all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
     all_sources = [f.sources for f in features]
+    #print(all_sources)
     data_type = None
     if data_type == 'origin data':
         l = np.array([i==1 for i in all_sources])
@@ -403,6 +456,48 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids, all_node_pos)#, all_event_ids)
     return dataset, dict_IndenToID, label_dict
 
+
+def iter_rule_update(BM= None, OM=None,n_iter= 3):
+    # TODO: currently assuming they have considered the cases of duplicate prediction
+    '''
+    iteratively find the ground truth by applying rules
+    rules: 
+    if Bij Ojk, then Bik
+    if Oij Bjk, then Bik
+    if Bij Bjk, then Bik
+    if Oij Ojk, then Oik
+    if Oij, then Oji
+    '''
+    # first complete OM
+
+    OM = OM + OM.transpose()
+    OM = OM + np.matmul(OM, OM)
+
+    for i in range(OM.shape[0]):
+        OM[i,i] = 0
+
+    # iteratively update BM
+    for _ in range(n_iter):
+        BM = BM + np.matmul(BM, OM)
+        BM = BM + np.matmul(OM, BM)
+        BM = BM + np.matmul(BM, BM)
+    
+    # normalize
+    BM[np.where(BM>0)] = 1
+    OM[np.where(OM>0)] = 1
+
+
+    BM = judge_BM(BM)
+
+    return BM, OM
+
+def judge_BM(BM):
+    for i in range(BM.shape[0]):
+        if BM[i,i] == 1:
+            BM[i,i] = 0
+    # if np.sum(np.sum(BM* BM.transpose())):
+    #     return True
+    return BM
 
 def main():
     parser = argparse.ArgumentParser()
@@ -473,6 +568,8 @@ def main():
                         help="Evaluate all checkpoints starting with the same prefix as model_name ending and ending with step number")
     parser.add_argument("--no_cuda", action='store_true',
                         help="Avoid using CUDA when available")
+    parser.add_argument("--node_embed", action='store_true',
+                        help="node embedding")
     parser.add_argument('--overwrite_output_dir', action='store_true',
                         help="Overwrite the content of the output directory")
     parser.add_argument('--overwrite_cache', action='store_true',

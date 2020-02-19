@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+03/25/2001
+DISCHARGE DATE :
+03/26/2001
+HISTORY OF PRESENT ILLNESS :
+This is a 30-year-old right hand dominant gentleman who pleasant Software Engineer .
+In 1989 the patient was dunking a basketball and injured his right shoulder with abduction external rotation injury .
+He has had persistent pain over the years which has worsened in the past several months including inability to sleep .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the Hospital and was taken to the operating room for an open Bankart procedure with biceps tenodesis ( Please see the operative note for full details ) .
+Postoperatively , the patient did very well and was neurovascularly intact .
+His wound was intact , clean and dry and it was covered with perioperative antibiotics .
+He was discharged to home on Percocet .
+He was given strict instructions to limit his external rotation no more than 30 degrees .
+He was seen by physical therapy prior to discharge .
+FOLLOW UP :
+He is to follow up with Dr. Rach Breutznedeaisscarvwierst in Clinic .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1044" end="1050" text="Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="195" end="215" text="dunking a basketball" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="220" end="246" text="injured his right shoulder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="252" end="286" text="abduction external rotation injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="300" end="315" text="persistent pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="341" end="349" text="worsened" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="387" end="405" text="inability to sleep" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="456" end="464" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="468" end="480" text="the Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="498" end="516" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="521" end="546" text="an open Bankart procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="552" end="568" text="biceps tenodesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="652" end="665" text="did very well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="674" end="696" text="neurovascularly intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="699" end="708" text="His wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="713" end="735" text="intact , clean and dry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="760" end="785" text="perioperative antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="795" end="805" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="817" end="825" text="Percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="864" end="891" text="limit his external rotation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="925" end="929" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="959" end="968" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="992" end="1001" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="174" end="178" text="1989" type="DATE" val="1989" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="03/25/2001" type="DATE" val="2001-03-25" mod="NA" />
+<TIMEX3 id="T0" start="321" end="330" text="the years" type="DURATION" val="P12Y" mod="APPROX" />
+<TIMEX3 id="T3" start="362" end="376" text="several months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="03/26/2001" type="DATE" val="2001-03-26" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="03/25/2001" type="OVERLAP" />
+<TLINK id="TL1" fromID="E11" fromText="DISCHARGE" toID="T2" toText="03/26/2001" type="OVERLAP" />
+<TLINK id="TL10" fromID="T3" fromText="several months" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="TL11" fromID="E2" fromText="inability to sleep" toID="E15" toText="worsened" type="OVERLAP" />
+<TLINK id="TL12" fromID="E8" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL13" fromID="E16" fromText="the Hospital" toID="E8" toText="admitted" type="AFTER" />
+<TLINK id="TL14" fromID="E16" fromText="the Hospital" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="TL15" fromID="E17" fromText="the operating room" toID="E8" toText="admitted" type="AFTER" />
+<TLINK id="TL16" fromID="E3" fromText="an open Bankart procedure" toID="E17" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="biceps tenodesis" toID="E3" toText="an open Bankart procedure" type="OVERLAP" />
+<TLINK id="TL18" fromID="E18" fromText="did very well" toID="E17" toText="the operating room" type="AFTER" />
+<TLINK id="TL19" fromID="E19" fromText="neurovascularly intact" toID="E18" toText="did very well" type="OVERLAP" />
+<TLINK id="TL2" fromID="E12" fromText="dunking a basketball" toID="T4" toText="1989" type="OVERLAP" />
+<TLINK id="TL20" fromID="E5" fromText="His wound" toID="E3" toText="an open Bankart procedure" type="AFTER" />
+<TLINK id="TL21" fromID="E20" fromText="intact , clean and dry" toID="E5" toText="His wound" type="OVERLAP" />
+<TLINK id="TL22" fromID="E6" fromText="perioperative antibiotics" toID="E5" toText="His wound" type="OVERLAP" />
+<TLINK id="TL23" fromID="E9" fromText="discharged" toID="E11" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL24" fromID="E7" fromText="Percocet" toID="E9" toText="discharged" type="BEFORE" />
+<TLINK id="TL25" fromID="E21" fromText="limit his external rotation" toID="E3" toText="an open Bankart procedure" type="AFTER" />
+<TLINK id="TL26" fromID="E22" fromText="seen" toID="E10" toText="discharge" type="BEFORE" />
+<TLINK id="TL27" fromID="E10" fromText="discharge" toID="E9" toText="discharged" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="follow up" toID="E10" toText="discharge" type="AFTER" />
+<TLINK id="TL29" fromID="E24" fromText="Clinic" toID="E23" toText="follow up" type="OVERLAP" />
+<TLINK id="TL3" fromID="E13" fromText="injured his right shoulder" toID="E12" toText="dunking a basketball" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="abduction external rotation injury" toID="E13" toText="injured his right shoulder" type="OVERLAP" />
+<TLINK id="TL5" fromID="E14" fromText="persistent pain" toID="E13" toText="injured his right shoulder" type="AFTER" />
+<TLINK id="TL6" fromID="T0" fromText="the years" toID="T4" toText="1989" type="AFTER" />
+<TLINK id="TL7" fromID="T0" fromText="the years" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="TL8" fromID="E14" fromText="persistent pain" toID="T0" toText="the years" type="OVERLAP" />
+<TLINK id="TL9" fromID="E15" fromText="worsened" toID="T3" toText="several months" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="03/25/2001" type="ADMISSION" dvalue="2001-03-25" />
+<SECTIME id="S1" start="46" end="56" text="03/26/2001" type="DISCHARGE" dvalue="2001-03-26" />
+<TLINK id="SECTIME0" fromID="E24" fromText="Clinic" toID="T2" toText="03/26/2001" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E12" fromText="dunking a basketball" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="injured his right shoulder" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E1" fromText="abduction external rotation injury" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E14" fromText="persistent pain" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E15" fromText="worsened" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E2" fromText="inability to sleep" toID="T1" toText="03/25/2001" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E8" fromText="admitted" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E17" fromText="the operating room" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E3" fromText="an open Bankart procedure" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E4" fromText="biceps tenodesis" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E18" fromText="did very well" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E19" fromText="neurovascularly intact" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E5" fromText="His wound" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E20" fromText="intact , clean and dry" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E6" fromText="perioperative antibiotics" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E9" fromText="discharged" toID="T2" toText="03/26/2001" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E7" fromText="Percocet" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E21" fromText="limit his external rotation" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E22" fromText="seen" toID="T2" toText="03/26/2001" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E10" fromText="discharge" toID="T2" toText="03/26/2001" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E23" fromText="follow up" toID="T2" toText="03/26/2001" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

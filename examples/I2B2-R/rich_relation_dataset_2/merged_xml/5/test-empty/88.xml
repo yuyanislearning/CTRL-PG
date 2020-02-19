@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-06-07
+Discharge Date :
+2012-06-09
+Service :
+MEDICINE
+History of Present Illness :
+Mr. Vazquez is a 48 year old man with a history of hepatitis C , bipolar disorder with suicide attempts in the past , recent CMED admit earlier in 4/05 who was found alert approximately one hour after taking an unspecified number of pills .
+Per report , there were empty bottles of Inderal and Klonopin found at bedside , as well as 02-26 full bottles of geodon , gabapentin , Lescol and paroxitine .
+The patient was reportedly alert at scene , and then became unresponsive in route to the hospital .
+In the Rita , the patient was intubated and given activated charcoal .
+His initial BP was 60/P with a pulse in the 60 s.
+He was given 4 amps of calcium gluconate , and started on a Calcium gtt .
+He was also given 5mg of glucagon and started on a glucagon drip with good response .
+His urine and serum tox screens were notable only for benzos , otherwise negative .
+He was seen by cardiology , and toxicology was consulted via telephone .
+He was admitted to the CMED , intubated for airway protection and started on both a calcium and glucagon drip .
+There was evidence of possible aspiration pneumonia on CXR , though he was extubated without incident on the AM of transfer to the medicine floor .
+CMED was made aware , and they are actively involved in his care .
+Brief Hospital Course :
+A/P : 48yo man with h/o HCV , bipolar DO , h/o suicide attempts , a/w overdose of Inderal , Klonopin , Geodon , s/T Jackson stay with intubation for airway protection , with question of L retrocardiac infiltrate , now doing well .
+Overdose :
+- monitor on tele overnight
+- if HR drops , restart glucagon gtt
+- watch for BZD withdrawal , agitation
+Bipolar disorder :
+- appreciate CMED consult ; patient to be discharged to inpatient CMED facility once stable
+- suicide precautions
+Activity : OOB with assist
+FEN : house diet
+PPX : SC heparin , bowel regimen , nicotine patch
+CODE : full
+DISPO : transfer to inpatient CMED likely tomorrow
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1018" end="1027" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1051" end="1059" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1063" end="1071" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1074" end="1083" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1088" end="1105" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1126" end="1153" text="a calcium and glucagon drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1187" end="1207" text="aspiration pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1211" end="1214" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1231" end="1240" text="extubated" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E43" start="1249" end="1257" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1271" end="1279" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1283" end="1301" text="the medicine floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1304" end="1308" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1348" end="1368" text="involved in his care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1419" end="1422" text="HCV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1425" end="1435" text="bipolar DO" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1442" end="1458" text="suicide attempts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1465" end="1473" text="overdose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1477" end="1484" text="Inderal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1487" end="1495" text="Klonopin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1498" end="1504" text="Geodon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1529" end="1539" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1544" end="1561" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="156" end="167" text="hepatitis C" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1581" end="1606" text="L retrocardiac infiltrate" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1613" end="1623" text="doing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1650" end="1654" text="tele" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="1670" end="1672" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1673" end="1678" text="drops" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1689" end="1701" text="glucagon gtt" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="170" end="186" text="bipolar disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1714" end="1728" text="BZD withdrawal" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1731" end="1740" text="agitation" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1741" end="1757" text="Bipolar disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1773" end="1777" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E67" start="1802" end="1812" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1816" end="1839" text="inpatient CMED facility" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1845" end="1851" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1854" end="1873" text="suicide precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1885" end="1888" text="OOB" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1894" end="1900" text="assist" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="1907" end="1917" text="house diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="192" end="208" text="suicide attempts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1924" end="1934" text="SC heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="1937" end="1950" text="bowel regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1953" end="1967" text="nicotine patch" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1988" end="1996" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2000" end="2014" text="inpatient CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="230" end="234" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="235" end="240" text="admit" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="265" end="276" text="found alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="338" end="343" text="pills" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="350" end="356" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="387" end="394" text="Inderal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="399" end="407" text="Klonopin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="460" end="466" text="geodon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="469" end="479" text="gabapentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="482" end="488" text="Lescol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="493" end="503" text="paroxitine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="533" end="538" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="566" end="578" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="591" end="603" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="609" end="617" text="the Rita" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="636" end="645" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="656" end="674" text="activated charcoal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="677" end="691" text="His initial BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="706" end="713" text="a pulse" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="750" end="767" text="calcium gluconate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="785" end="798" text="a Calcium gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="826" end="834" text="glucagon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="850" end="865" text="a glucagon drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="871" end="884" text="good response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="887" end="896" text="His urine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="901" end="918" text="serum tox screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="941" end="947" text="benzos" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="978" end="996" text="seen by cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1261" end="1267" text="the AM" type="DATE" val="2012-06-08" mod="START" />
+<TIMEX3 id="T5" start="1655" end="1664" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2012-06-07" type="DATE" val="2012-06-07" mod="NA" />
+<TIMEX3 id="T6" start="2022" end="2030" text="tomorrow" type="DATE" val="2012-06-09" mod="NA" />
+<TIMEX3 id="T2" start="252" end="256" text="4/05" type="DATE" val="2012-04-05" mod="NA" />
+<TIMEX3 id="T3" start="291" end="299" text="one hour" type="DURATION" val="PT1H" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="2012-06-09" type="DATE" val="2012-06-09" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2012-06-07" type="ADMISSION" dvalue="2012-06-07" />
+<SECTIME id="S1" start="46" end="56" text="2012-06-09" type="DISCHARGE" dvalue="2012-06-09" />
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

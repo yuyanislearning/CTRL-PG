@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-03-10
+Discharge Date :
+2011-03-15
+Service :
+Medford
+HISTORY OF PRESENT ILLNESS :
+This is an 83 year old woman with a history of hypertension who presents with slurred speech when dehydrated .
+She has paraplegia secondary to HTLV exposure while on vacation in the Bahamas six years ago .
+She presented with three days of general malaise , nausea , vomiting , shortness of breath , cough productive of white sputum .
+She awoke with nausea on the day of admission and pleuritic chest pain .
+She reports no sick contacts.
+The patient has some difficulty talking and grasping right hand .
+She came to the Emergency Department on the 2011-03-10 , with temperature of 99.0 F .; blood pressure of 97/50 ; heart rate 100 ; respirations 27 ; O2 saturation 84% on room air and 94% on two liters .
+The patient had coarse rhonchi on examination .
+Chest x-ray revealed mild pulmonary edema .
+Chest CT scan was negative for pulmonary embolism but positive for consolidation .
+She was started on Levofloxacin but the patient became hypotensive at that point with blood pressure of 70/45 and received a normal saline bolus to boost her blood pressure to 99/60 ; however the patient was admitted to the Medical Intensive Care Unit for overnight observation because of her somnolence and hypotension .
+She was transferred to the Everett Firm on the 2011-03-11 and was mentating well and was stable for transfer .
+HOSPITAL COURSE :
+After transfer to the Floor , the patient was continued on Levofloxacin for a ten to 14 day course for presumptive pneumonia .
+Due to her chronic diarrhea she was repleted with intravenous fluids .
+For her depression , continued on Citalopram 10 mg daily .
+For her paraplegia and associated muscle spasticity she was continued on her Zanaflex .
+For deep vein thrombosis prophylaxis she was treated with subcutaneous heparin and for gastrointestinal prophylaxis she was treated with Protonix .
+She was also evaluated by Physical Therapy and Speech and Swallow because of some report of dysphagia .
+Physical Therapy felt that the patient was cleared for transfer home with services .
+Occupational Therapy was also in agreement with the patient 's disposition home with services .
+The patient was able to advance her diet well from liquids to solids , however , she was plagued with a persistent cough and some low grade fevers to 99.0 F .
+Speech and Swallow evaluated the patient at bedside and recommended advancing to regular diet with regular consistency and saw no evidence of any dysphagia .
+There was some question regarding restarting of the patient 's Coumadin given her positive lupus anti-coagulant status as well as the presence of her basilar artery stenosis .
+The patient was discharged on the 2011-03-15 on the following medications .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1003" end="1015" text="Levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1039" end="1050" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1070" end="1084" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1107" end="1128" text="a normal saline bolus" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1138" end="1156" text="her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1192" end="1200" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1204" end="1235" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1240" end="1261" text="overnight observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="1273" end="1287" text="her somnolence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1292" end="1303" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1314" end="1325" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1329" end="1345" text="the Everett Firm" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="1372" end="1386" text="mentating well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1395" end="1401" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1406" end="1414" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1441" end="1449" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1453" end="1462" text="the Floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1494" end="1506" text="Levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="151" end="163" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1550" end="1559" text="pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1569" end="1589" text="her chronic diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1612" end="1630" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1637" end="1651" text="her depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1667" end="1677" text="Citalopram" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="168" end="176" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1696" end="1710" text="her paraplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1726" end="1743" text="muscle spasticity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1765" end="1777" text="her Zanaflex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1784" end="1816" text="deep vein thrombosis prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="182" end="196" text="slurred speech" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1838" end="1858" text="subcutaneous heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1867" end="1895" text="gastrointestinal prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1917" end="1925" text="Protonix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="202" end="212" text="dehydrated" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="2020" end="2029" text="dysphagia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2087" end="2095" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2096" end="2100" text="home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2106" end="2114" text="services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2202" end="2210" text="services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="223" end="233" text="paraplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2237" end="2244" text="advance" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2245" end="2253" text="her diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2254" end="2258" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2264" end="2271" text="liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2275" end="2281" text="solids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2315" end="2333" text="a persistent cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="2338" end="2359" text="some low grade fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2453" end="2465" text="regular diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="247" end="260" text="HTLV exposure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2471" end="2490" text="regular consistency" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2514" end="2527" text="any dysphagia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="2578" end="2601" text="the patient 's Coumadin" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="2608" end="2641" text="her positive lupus anti-coagulant" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2676" end="2703" text="her basilar artery stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2722" end="2732" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2754" end="2779" text="the following medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="314" end="323" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="343" end="358" text="general malaise" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="361" end="367" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="370" end="378" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="381" end="400" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="403" end="408" text="cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="423" end="435" text="white sputum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="442" end="447" text="awoke" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="453" end="459" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="488" end="508" text="pleuritic chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="515" end="522" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="526" end="540" text="sick contacts." modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E40" start="557" end="572" text="some difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="619" end="643" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="669" end="680" text="temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="694" end="708" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="720" end="730" text="heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="737" end="749" text="respirations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="755" end="768" text="O2 saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="796" end="806" text="two liters" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="825" end="839" text="coarse rhonchi" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="843" end="854" text="examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="857" end="868" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="869" end="877" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E52" start="878" end="898" text="mild pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="901" end="914" text="Chest CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="932" end="950" text="pulmonary embolism" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E55" start="968" end="981" text="consolidation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1349" end="1363" text="the 2011-03-11" type="DATE" val="2011-03-11" mod="NA" />
+<TIMEX3 id="T8" start="1513" end="1526" text="ten to 14 day" type="DURATION" val="P12D" mod="APPROX" />
+<TIMEX3 id="T9" start="1684" end="1689" text="daily" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2011-03-10" type="DATE" val="2011-03-10" mod="NA" />
+<TIMEX3 id="T5" start="2736" end="2750" text="the 2011-03-15" type="DATE" val="2011-03-15" mod="NA" />
+<TIMEX3 id="T0" start="294" end="307" text="six years ago" type="DATE" val="2005-03" mod="APPROX" />
+<TIMEX3 id="T6" start="329" end="339" text="three days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2011-03-15" type="DATE" val="2011-03-15" mod="NA" />
+<TIMEX3 id="T7" start="463" end="470" text="the day" type="DATE" val="2011-03-10" mod="NA" />
+<TIMEX3 id="T3" start="647" end="661" text="the 2011-03-10" type="DATE" val="2011-03-10" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2011-03-10" type="ADMISSION" dvalue="2011-03-10" />
+<SECTIME id="S1" start="46" end="56" text="2011-03-15" type="DISCHARGE" dvalue="2011-03-15" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

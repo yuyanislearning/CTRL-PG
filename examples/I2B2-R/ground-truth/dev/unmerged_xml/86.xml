@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+08/31/1992
+Discharge Date :
+09/07/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 37-year-old white male with AIDS complicated by recurrent pseudomonas infections presently on Ceftazidime and Aztrenam complicated by MAI who comes in with fever , chills and blood cultures positive for candida species .
+The patient has multiple AIDS illnesses including MAI who has multiple admissions for pseudomonas pneumonia .
+His most recent admission was on 08/23/92 to 08/25/92 with fever and chills .
+He was again treated with IV Ceftazidime for presumed pseudomonal pneumonia and discharged home on IV antibiotics which he is presently on .
+The patient did well at home with decreasing fever and good appetite until the night prior to admission when he developed fever and chills .
+Concurrent blood cultures grew out candida species at HCHP .
+The patient &apos;s baseline O2 saturation is 92% on three liters .
+He has a left arm graft placed for access three weeks ago which is used for blood drawing and IV medications .
+He notes no tenderness , erythema , warmth or exudate from the passport site .
+Medications at the time of admission include Dapsone 50 mg p.o. on Monday , Wednesday and Friday , Ceftazidime 1 gram IV q. 8 hours , Cipro 750 mg p.o. b.i.d. , Acyclovir 400 mg p.o. q. day , Megastrol 80 mg p.o. t.i.d. and G-CSF 150 micrograms subcu b.i.d.
+HOSPITAL COURSE :
+By problems :
+1. Infectious Disease .
+The patient was started on Amphotericine at .6 mg / kg for a total of 250 mg for positive blood cultures for candida .
+The passport in his left arm was pulled and will be replaced if needed after the Amphotericine is completed .
+The patient will continue on his antibiotics for pseudomonas pneumonia to complete the fourteen day course which was completed on 09/06/92 .
+The patient was continued on his admission medications .
+2. Hematology .
+The patient was continued on his G-CSF with an increase in his white count to 8 from 1.8 .
+The patient required multiple blood transfusions for a low hematocrit .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1017" end="1031" text="IV medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1037" end="1042" text="notes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="1046" end="1056" text="tenderness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="1059" end="1067" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1070" end="1076" text="warmth" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1080" end="1087" text="exudate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1093" end="1110" text="the passport site" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1113" end="1124" text="Medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1140" end="1149" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1158" end="1165" text="Dapsone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1212" end="1223" text="Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1247" end="1252" text="Cipro" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1274" end="1283" text="Acyclovir" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="131" end="135" text="AIDS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1305" end="1314" text="Megastrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1337" end="1342" text="G-CSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1406" end="1424" text="Infectious Disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1454" end="1467" text="Amphotericine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="151" end="183" text="recurrent pseudomonas infections" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1508" end="1531" text="positive blood cultures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1536" end="1543" text="candida" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1546" end="1574" text="The passport in his left arm" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1579" end="1585" text="pulled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1623" end="1640" text="the Amphotericine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1685" end="1700" text="his antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1705" end="1726" text="pseudomonas pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1826" end="1851" text="his admission medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1899" end="1908" text="his G-CSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1929" end="1944" text="his white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="197" end="208" text="Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1982" end="2009" text="multiple blood transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2014" end="2030" text="a low hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="213" end="221" text="Aztrenam" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="237" end="240" text="MAI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="245" end="253" text="comes in" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="259" end="264" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="267" end="273" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="278" end="292" text="blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="306" end="321" text="candida species" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="340" end="363" text="multiple AIDS illnesses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="374" end="377" text="MAI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="386" end="405" text="multiple admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="410" end="431" text="pseudomonas pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="434" end="459" text="His most recent admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="493" end="498" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="503" end="509" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="538" end="552" text="IV Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="566" end="587" text="pseudomonal pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="592" end="602" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="611" end="625" text="IV antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="669" end="673" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="698" end="703" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="708" end="721" text="good appetite" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="747" end="756" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="775" end="780" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="785" end="791" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="794" end="819" text="Concurrent blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="829" end="844" text="candida species" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="848" end="852" text="HCHP" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="855" end="897" text="The patient &apos;s baseline O2 saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="908" end="920" text="three liters" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="930" end="946" text="a left arm graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="999" end="1012" text="blood drawing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T5" start="1128" end="1149" text="the time of admission" type="DATE" val="1992-08-31" mod="NA" />
+<TIMEX3 id="T6" start="1172" end="1209" text="p.o. on Monday , Wednesday and Friday" type="FREQUENCY" val="rp48h" mod="APPROX" />
+<TIMEX3 id="T7" start="1234" end="1244" text="q. 8 hours" type="FREQUENCY" val="rp8h" mod="NA" />
+<TIMEX3 id="T8" start="1265" end="1271" text="b.i.d." type="FREQUENCY" val="rp12h" mod="NA" />
+<TIMEX3 id="T9" start="1296" end="1302" text="q. day" type="FREQUENCY" val="rp24h" mod="NA" />
+<TIMEX3 id="T10" start="1326" end="1332" text="t.i.d." type="FREQUENCY" val="rp8h" mod="NA" />
+<TIMEX3 id="T11" start="1364" end="1370" text="b.i.d." type="FREQUENCY" val="rp12h" mod="NA" />
+<TIMEX3 id="T12" start="1739" end="1755" text="the fourteen day" type="DURATION" val="p14d" mod="NA" />
+<TIMEX3 id="T13" start="1786" end="1794" text="09/06/92" type="DATE" val="1992-09-06" mod="NA" />
+<TIMEX3 id="T0" start="467" end="475" text="08/23/92" type="DATE" val="1992-08-23" mod="NA" />
+<TIMEX3 id="T1" start="479" end="487" text="08/25/92" type="DATE" val="1992-08-25" mod="NA" />
+<TIMEX3 id="T3" start="728" end="756" text="the night prior to admission" type="TIME" val="1992-08-30" mod="END" />
+<TIMEX3 id="T4" start="965" end="976" text="three weeks" type="DURATION" val="p3w" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="08/23/92" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="08/25/92" type="OVERLAP" />
+<TLINK id="TL10" fromID="E11" fromText="candida species" toID="E10" toText="blood cultures" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E12" fromText="multiple AIDS illnesses" toID="E2" toText="AIDS" type="OVERLAP" />
+<TLINK id="TL12" fromID="E12" fromText="multiple AIDS illnesses" toID="E13" toText="MAI" type="OVERLAP" />
+<TLINK id="TL13" fromID="E12" fromText="multiple AIDS illnesses" toID="E14" toText="multiple admissions" type="OVERLAP" />
+<TLINK id="TL14" fromID="E15" fromText="pseudomonas pneumonia" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP" />
+<TLINK id="TL15" fromID="E15" fromText="pseudomonas pneumonia" toID="E14" toText="multiple admissions" type="OVERLAP" />
+<TLINK id="TL16" fromID="E14" fromText="multiple admissions" toID="E16" toText="His most recent admission" type="OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="His most recent admission" toID="T0" toText="08/23/92" type="BEGUN_BY" />
+<TLINK id="TL18" fromID="E16" fromText="His most recent admission" toID="T1" toText="08/25/92" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E16" fromText="His most recent admission" toID="E17" toText="fever" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="AIDS" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL20" fromID="E17" fromText="fever" toID="E18" toText="chills" type="OVERLAP" />
+<TLINK id="TL21" fromID="E19" fromText="IV Ceftazidime" toID="E16" toText="His most recent admission" type="DURING" />
+<TLINK id="TL22" fromID="E20" fromText="pseudomonal pneumonia" toID="E19" toText="IV Ceftazidime" type="OVERLAP" />
+<TLINK id="TL23" fromID="E21" fromText="discharged" toID="T1" toText="08/25/92" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="IV antibiotics" toID="E21" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E23" fromText="well" toID="E21" toText="discharged" type="AFTER" />
+<TLINK id="TL26" fromID="E23" fromText="well" toID="E24" toText="fever" type="OVERLAP" />
+<TLINK id="TL27" fromID="E24" fromText="fever" toID="E25" toText="good appetite" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="well" toID="T3" toText="the night prior to admission" type="ENDED_BY" />
+<TLINK id="TL29" fromID="E27" fromText="fever" toID="T3" toText="the night prior to admission" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E3" fromText="recurrent pseudomonas infections" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL30" fromID="E28" fromText="chills" toID="T3" toText="the night prior to admission" type="BEGUN_BY" />
+<TLINK id="TL31" fromID="E53" fromText="positive blood cultures" toID="E29" toText="Concurrent blood cultures" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E10" fromText="blood cultures" toID="E29" toText="Concurrent blood cultures" type="simultaneous" />
+<TLINK id="TL33" fromID="E31" fromText="HCHP" toID="E29" toText="Concurrent blood cultures" type="OVERLAP" />
+<TLINK id="TL34" fromID="E11" fromText="candida species" toID="E30" toText="candida species" type="simultaneous" />
+<TLINK id="TL35" fromID="E30" fromText="candida species" toID="E54" toText="candida" type="simultaneous" />
+<TLINK id="TL36" fromID="E32" fromText="The patient &apos;s baseline O2 saturation" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL37" fromID="E33" fromText="three liters" toID="E32" toText="The patient &apos;s baseline O2 saturation" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E35" fromText="blood drawing" toID="E34" toText="a left arm graft" type="OVERLAP" />
+<TLINK id="TL39" fromID="E42" fromText="the passport site" toID="E34" toText="a left arm graft" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E4" fromText="Ceftazidime" toID="E5" toText="Aztrenam" type="OVERLAP" />
+<TLINK id="TL40" fromID="E55" fromText="The passport in his left arm" toID="E34" toText="a left arm graft" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E34" fromText="a left arm graft" toID="T4" toText="three weeks" type="BEGUN_BY" />
+<TLINK id="TL42" fromID="E36" fromText="IV medications" toID="E35" toText="blood drawing" type="OVERLAP" />
+<TLINK id="TL43" fromID="E37" fromText="notes" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL44" fromID="E38" fromText="tenderness" toID="E37" toText="notes" type="OVERLAP" />
+<TLINK id="TL45" fromID="E40" fromText="warmth" toID="E39" toText="erythema" type="OVERLAP" />
+<TLINK id="TL46" fromID="E39" fromText="erythema" toID="E38" toText="tenderness" type="OVERLAP" />
+<TLINK id="TL47" fromID="E40" fromText="warmth" toID="E41" toText="exudate" type="OVERLAP" />
+<TLINK id="TL48" fromID="E42" fromText="the passport site" toID="E41" toText="exudate" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E43" fromText="Medications" toID="E44" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E60" fromText="his admission medications" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL50" fromID="E60" fromText="his admission medications" toID="E43" toText="Medications" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E45" fromText="Dapsone" toID="E43" toText="Medications" type="OVERLAP" />
+<TLINK id="TL52" fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" toID="E45" toText="Dapsone" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E45" fromText="Dapsone" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL54" fromID="E46" fromText="Ceftazidime" toID="T7" toText="q. 8 hours" type="OVERLAP" />
+<TLINK id="TL55" fromID="E47" fromText="Cipro" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL56" fromID="E47" fromText="Cipro" toID="T8" toText="b.i.d." type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E47" fromText="Cipro" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL58" fromID="E48" fromText="Acyclovir" toID="T9" toText="q. day" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E48" fromText="Acyclovir" toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL6" fromID="E60" fromText="his admission medications" toID="E5" toText="Aztrenam" type="OVERLAP" />
+<TLINK id="TL60" fromID="E49" fromText="Megastrol" toID="T10" toText="t.i.d." type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E49" fromText="Megastrol" toID="E50" toText="G-CSF" type="OVERLAP" />
+<TLINK id="TL62" fromID="E50" fromText="G-CSF" toID="T11" toText="b.i.d." type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E51" fromText="Infectious Disease" toID="E2" toText="AIDS" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E54" fromText="candida" toID="E53" toText="positive blood cultures" type="BEFORE_OVERLAP" />
+<TLINK id="TL66" fromID="E55" fromText="The passport in his left arm" toID="E56" toText="pulled" type="ENDED_BY" />
+<TLINK id="TL67" fromID="E52" fromText="Amphotericine" toID="E57" toText="the Amphotericine" type="simultaneous" />
+<TLINK id="TL68" fromID="E52" fromText="Amphotericine" toID="E54" toText="candida" type="OVERLAP" />
+<TLINK id="TL69" fromID="E52" fromText="Amphotericine" toID="E53" toText="positive blood cultures" type="AFTER" />
+<TLINK id="TL7" fromID="E3" fromText="recurrent pseudomonas infections" toID="E6" toText="MAI" type="OVERLAP" />
+<TLINK id="TL70" fromID="E58" fromText="his antibiotics" toID="E46" toText="Ceftazidime" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E58" fromText="his antibiotics" toID="T12" toText="the fourteen day" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="T12" fromText="the fourteen day" toID="T13" toText="09/06/92" type="ENDED_BY" />
+<TLINK id="TL73" fromID="E50" fromText="G-CSF" toID="E61" toText="his G-CSF" type="simultaneous" />
+<TLINK id="TL74" fromID="E63" fromText="multiple blood transfusions" toID="E61" toText="his G-CSF" type="OVERLAP" />
+<TLINK id="TL75" fromID="E62" fromText="his white count" toID="E61" toText="his G-CSF" type="AFTER" />
+<TLINK id="TL76" fromID="E64" fromText="a low hematocrit" toID="E63" toText="multiple blood transfusions" type="BEFORE" />
+<TLINK id="TL77" fromID="E63" fromText="multiple blood transfusions" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL78" fromID="E20" fromText="pseudomonal pneumonia" toID="E59" toText="pseudomonas pneumonia" type="simultaneous" />
+<TLINK id="TL79" fromID="E59" fromText="pseudomonas pneumonia" toID="E58" toText="his antibiotics" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="fever" toID="E7" toText="comes in" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="fever" toID="E9" toText="chills" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="08/31/1992" type="ADMISSION" dvalue="1992-08-31" />
+<SECTIME id="S1" start="46" end="56" text="09/07/1992" type="DISCHARGE" dvalue="1992-09-07" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-11-11
+Discharge Date :
+2013-11-13
+Service :
+CMED
+History of Present Illness :
+Patient is a 75 year old right handed male with past medical history of coronary artery disease s/p NQWMI 02-25 , s/p LAD angioplasty and stent 05-26 , dementia , hyperlipidemia , aortic stenosis , atrial fibrillation on coumadin who presented from his CMED CSRU doctor 's office wtih acute onset left sided weakness and dysarthria .
+Patient was in his usual state of health until around 12:15 on day of admission .
+Was at this doctor 's office and complained of severe headache .
+Thereafter , wife noted development of left sided weakness , facial droop , slurring of speech .
+Sent to Hahnemann General Hospital for evaluation emergently .
+Tom course :
+Arrived at Hahnemann General Hospital at 12:30 .
+Finger stick blood glucose 120 .
+Rest of vitals BP 112/70 , HR 60 .
+Blood pressure up to 230 s systolic .
+Seen emergently by stroke team .
+Initial NIH stroke scale of 33 .
+Head CT showed large right intracerebral hemorrhage .
+Intubated for airway protection at 13:35 after Fentanyl , Etomidate , Vecuronium and Succhinylcholine given .
+Started on Labetalol and then Nipride drip for BP control ; discontinued as goal BP in 130-160 s.
+Received 10 mg SC Vitamin K and 2 units FFP while in Gary .
+Pupils noted to be fixed and dilated at 14:10 .
+Loaded with Dilantin and 50 grams Mannitol .
+Transferred to intensive care unit .
+Brief Hospital Course :
+Patient was a 75 year old right handed male with past medical history of atrial fibrillation on coumadin , coronary artery disease , hyperlipidemia , dementia with sudden onset left sided weakness , dysarthria .
+Head CT demonstrated a large right intracerebral hemorrhage , centered around basal ganglia and putamen .
+We felt this was likely secondary to hypertension .
+While still in the emergency department , he had rapid decompensation necessitating intubation for airway protection .
+Examination post intubation but off intubations showed clinical evidence of elevated intracranial pressure and brainstem compression .
+The overall prognosis was guarded .
+He was admitted to the Neurology / Neurosurgery ICU .
+He was loaded with Mannitol and Dilantin in the emergency room .
+He was evaluated by the Neurosurgery service and they did not feel a surgical intervention or ventriculary drain was warranted .
+After arrival in the ICU , patient was followed with neuro checks every 1 hour .
+Sedation was held to allow for frequent exams .
+Head of bed was kept at 30 degrees .
+Labetalol continuous infusion was titrated for systolic blood pressure of 130-160 .
+Mannitol and Dilantin were continued .
+After lengthy discussion , the patient 's wife opted to make him DNR on afternoon of 2013-11-11 .
+Overnight , fresh frozen plasma was given for goal INR of < 1.4 .
+On serial exams by neurology and ICU attendings in the morning on 2013-11-12 , patient had no clinical signs of brainstem activity .
+Namely , he was unresponsive .
+Pupils were fixed and dilated .
+No corneal , gag , oculocephalic , and oculovestibular reflexes were elicited .
+He was not overbreathing his ventilator .
+At this point , patient was felt to have clinical signs consistent with brain death .
+Plans were made to proceed with apnea testing .
+However , after discussion with patient 's wife , this was postponed with test planned on 2013-11-13 .
+Full medical care and managment continued overnight 11/9-11/20/2002 .
+At approximately 06:00 on 2013-11-13 , the patient became bradycardic .
+He lapsed first into a junctional rhythm and then had very infrequent ventricular escape beats on telemetry .
+Finally , he went asystolic .
+He was not resuscitated as per previous conversations with his wife .
+Ronald was pronounced dead at 06:59 am .
+The patient 's wife was notified .
+The attending was notified as well .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1030" end="1039" text="Intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="1044" end="1061" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="1077" end="1085" text="Fentanyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="1088" end="1097" text="Etomidate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="1100" end="1110" text="Vecuronium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="1115" end="1131" text="Succhinylcholine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="1151" end="1160" text="Labetalol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="1170" end="1182" text="Nipride drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="1187" end="1197" text="BP control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1216" end="1223" text="goal BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E87" start="1247" end="1265" text="10 mg SC Vitamin K" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="1270" end="1281" text="2 units FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="1291" end="1295" text="Gary" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E90" start="1317" end="1322" text="fixed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="1327" end="1334" text="dilated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="1358" end="1366" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="1371" end="1388" text="50 grams Mannitol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E118" start="1391" end="1402" text="Transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="1406" end="1425" text="intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="1525" end="1544" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="1548" end="1556" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="1559" end="1582" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="1585" end="1599" text="hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1602" end="1610" text="dementia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="1616" end="1648" text="sudden onset left sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1651" end="1661" text="dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1664" end="1671" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1672" end="1684" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="1685" end="1723" text="a large right intracerebral hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="173" end="196" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1807" end="1819" text="hypertension" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="1837" end="1861" text="the emergency department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="1871" end="1891" text="rapid decompensation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1906" end="1916" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1921" end="1938" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1941" end="1952" text="Examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1958" end="1968" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1977" end="1988" text="intubations" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1989" end="1995" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="201" end="206" text="NQWMI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="2017" end="2047" text="elevated intracranial pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="2052" end="2073" text="brainstem compression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2131" end="2163" text="the Neurology / Neurosurgery ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="219" end="234" text="LAD angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="2185" end="2193" text="Mannitol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="2198" end="2206" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E97" start="2210" end="2228" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E45" start="2238" end="2247" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="2298" end="2321" text="a surgical intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E99" start="2325" end="2343" text="ventriculary drain" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E100" start="2377" end="2384" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="239" end="244" text="stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="2413" end="2425" text="neuro checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2441" end="2449" text="Sedation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E24" start="2472" end="2486" text="frequent exams" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="253" end="261" text="dementia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="2526" end="2555" text="Labetalol continuous infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2573" end="2596" text="systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="2610" end="2618" text="Mannitol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2623" end="2631" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="264" end="278" text="hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="2655" end="2673" text="lengthy discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E102" start="2714" end="2717" text="DNR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2759" end="2778" text="fresh frozen plasma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2793" end="2801" text="goal INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="281" end="296" text="aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2816" end="2828" text="serial exams" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="2904" end="2943" text="no clinical signs of brainstem activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="2962" end="2974" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="299" end="318" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2989" end="2994" text="fixed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="2999" end="3006" text="dilated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="3009" end="3072" text="No corneal , gag , oculocephalic , and oculovestibular reflexes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="3100" end="3113" text="overbreathing" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E36" start="3114" end="3128" text="his ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="3203" end="3214" text="brain death" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="322" end="330" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3249" end="3262" text="apnea testing" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E105" start="3281" end="3291" text="discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="3339" end="3343" text="test" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E117" start="335" end="344" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="3368" end="3385" text="Full medical care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="3390" end="3399" text="managment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="3496" end="3507" text="bradycardic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="350" end="380" text="his CMED CSRU doctor 's office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E108" start="3531" end="3550" text="a junctional rhythm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3564" end="3604" text="very infrequent ventricular escape beats" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="3608" end="3617" text="telemetry" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="3638" end="3647" text="asystolic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3661" end="3673" text="resuscitated" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E113" start="3690" end="3703" text="conversations" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3742" end="3746" text="dead" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="3785" end="3793" text="notified" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="3814" end="3822" text="notified" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="386" end="417" text="acute onset left sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="422" end="432" text="dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="450" end="475" text="his usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="505" end="514" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="524" end="545" text="this doctor 's office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E60" start="550" end="560" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E61" start="564" end="579" text="severe headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="621" end="640" text="left sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="643" end="655" text="facial droop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="658" end="676" text="slurring of speech" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="687" end="713" text="Hahnemann General Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="718" end="728" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="766" end="792" text="Hahnemann General Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="804" end="830" text="Finger stick blood glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="845" end="851" text="vitals" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="852" end="854" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="864" end="866" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="872" end="886" text="Blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="910" end="914" text="Seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="943" end="967" text="Initial NIH stroke scale" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="976" end="983" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="984" end="990" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E77" start="991" end="1027" text="large right intracerebral hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T6" start="1065" end="1070" text="13:35" type="TIME" val="2013-11-11T13:35" mod="NA" />
+<TIMEX3 id="T7" start="1338" end="1343" text="14:10" type="TIME" val="2013-11-11T14:10" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2013-11-11" type="DATE" val="2013-11-11" mod="NA" />
+<TIMEX3 id="T3" start="207" end="212" text="02-25" type="DATE" val="2013-02-25" mod="NA" />
+<TIMEX3 id="T11" start="2426" end="2438" text="every 1 hour" type="FREQUENCY" val="RPT1H" mod="NA" />
+<TIMEX3 id="T4" start="245" end="250" text="05-26" type="DATE" val="2013-05-26" mod="NA" />
+<TIMEX3 id="T12" start="2721" end="2744" text="afternoon of 2013-11-11" type="DATE" val="2013-11-11" mod="MIDDLE" />
+<TIMEX3 id="T8" start="2747" end="2756" text="Overnight" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T13" start="2864" end="2889" text="the morning on 2013-11-12" type="DATE" val="2013-11-12" mod="START" />
+<TIMEX3 id="T9" start="3355" end="3365" text="2013-11-13" type="DATE" val="2013-11-13" mod="NA" />
+<TIMEX3 id="T10" start="3410" end="3419" text="overnight" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T14" start="3455" end="3474" text="06:00 on 2013-11-13" type="TIME" val="2013-11-13T06:00" mod="APPROX" />
+<TIMEX3 id="T15" start="3750" end="3758" text="06:59 am" type="TIME" val="2013-11-13T06:59" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2013-11-13" type="DATE" val="2013-11-13" mod="NA" />
+<TIMEX3 id="T0" start="489" end="501" text="12:15 on day" type="TIME" val="2013-11-11T12:15" mod="APPROX" />
+<TIMEX3 id="T5" start="796" end="801" text="12:30" type="TIME" val="2013-11-11T12:30" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2013-11-11" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="NQWMI" toID="T3" toText="02-25" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E2" fromText="LAD angioplasty" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL100" fromID="E30" fromText="goal INR" toID="E29" toText="fresh frozen plasma" type="OVERLAP" />
+<TLINK id="TL101" fromID="E31" fromText="serial exams" toID="T13" toText="the morning on 2013-11-12" type="OVERLAP" />
+<TLINK id="TL102" fromID="E32" fromText="no clinical signs of brainstem activity" toID="E31" toText="serial exams" type="BEFORE_OVERLAP" />
+<TLINK id="TL103" fromID="E33" fromText="unresponsive" toID="E32" toText="no clinical signs of brainstem activity" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E34" fromText="fixed" toID="E90" toText="fixed" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E35" fromText="dilated" toID="E91" toText="dilated" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E103" fromText="No corneal , gag , oculocephalic , and oculovestibular reflexes" toID="E33" toText="unresponsive" type="OVERLAP" />
+<TLINK id="TL107" fromID="E36" fromText="his ventilator" toID="E40" toText="Intubated" type="BEGUN_BY" />
+<TLINK id="TL108" fromID="E46" fromText="overbreathing" toID="E36" toText="his ventilator" type="OVERLAP" />
+<TLINK id="TL109" fromID="E37" fromText="brain death" toID="E32" toText="no clinical signs of brainstem activity" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E49" fromText="dementia" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL111" fromID="E105" fromText="discussion" toID="E104" toText="apnea testing" type="BEFORE" />
+<TLINK id="TL112" fromID="E106" fromText="test" toID="E104" toText="apnea testing" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E106" fromText="test" toID="T9" toText="2013-11-13" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E38" fromText="Full medical care" toID="E39" toText="managment" type="OVERLAP" />
+<TLINK id="TL115" fromID="E39" fromText="managment" toID="T10" toText="overnight" type="SIMULTANEOUS" />
+<TLINK id="TL116" fromID="T10" fromText="overnight" toID="T14" toText="06:00 on 2013-11-13" type="ENDED_BY" />
+<TLINK id="TL117" fromID="E107" fromText="bradycardic" toID="T14" toText="06:00 on 2013-11-13" type="BEGUN_BY" />
+<TLINK id="TL118" fromID="E108" fromText="a junctional rhythm" toID="E107" toText="bradycardic" type="OVERLAP" />
+<TLINK id="TL119" fromID="E109" fromText="very infrequent ventricular escape beats" toID="E108" toText="a junctional rhythm" type="AFTER" />
+<TLINK id="TL12" fromID="E50" fromText="hyperlipidemia" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL120" fromID="E110" fromText="telemetry" toID="E107" toText="bradycardic" type="OVERLAP" />
+<TLINK id="TL122" fromID="E112" fromText="resuscitated" toID="E111" toText="asystolic" type="AFTER" />
+<TLINK id="TL123" fromID="E109" fromText="very infrequent ventricular escape beats" toID="E111" toText="asystolic" type="ENDED_BY" />
+<TLINK id="TL124" fromID="E113" fromText="conversations" toID="E105" toText="discussion" type="SIMULTANEOUS" />
+<TLINK id="TL125" fromID="E114" fromText="dead" toID="T15" toText="06:59 am" type="SIMULTANEOUS" />
+<TLINK id="TL126" fromID="E115" fromText="notified" toID="E114" toText="dead" type="AFTER" />
+<TLINK id="TL127" fromID="E116" fromText="notified" toID="E115" toText="notified" type="OVERLAP" />
+<TLINK id="TL13" fromID="E51" fromText="aortic stenosis" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E52" fromText="atrial fibrillation" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E53" fromText="coumadin" toID="E52" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL16" fromID="E117" fromText="presented" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL17" fromID="E54" fromText="his CMED CSRU doctor 's office" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL18" fromID="E55" fromText="acute onset left sided weakness" toID="E62" toText="left sided weakness" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E56" fromText="dysarthria" toID="E55" toText="acute onset left sided weakness" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="stent" toID="T4" toText="05-26" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E57" fromText="his usual state of health" toID="T0" toText="12:15 on day" type="ENDED_BY" />
+<TLINK id="TL21" fromID="E58" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E59" fromText="this doctor 's office" toID="E54" toText="his CMED CSRU doctor 's office" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E60" fromText="complained" toID="T0" toText="12:15 on day" type="OVERLAP" />
+<TLINK id="TL24" fromID="E61" fromText="severe headache" toID="E60" toText="complained" type="OVERLAP" />
+<TLINK id="TL25" fromID="E62" fromText="left sided weakness" toID="E61" toText="severe headache" type="BEGUN_BY" />
+<TLINK id="TL26" fromID="E63" fromText="facial droop" toID="E62" toText="left sided weakness" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E64" fromText="slurring of speech" toID="E62" toText="left sided weakness" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E65" fromText="Hahnemann General Hospital" toID="E59" toText="this doctor 's office" type="AFTER" />
+<TLINK id="TL29" fromID="E66" fromText="evaluation" toID="E65" toText="Hahnemann General Hospital" type="OVERLAP" />
+<TLINK id="TL3" fromID="E40" fromText="Intubated" toID="T6" toText="13:35" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E67" fromText="Hahnemann General Hospital" toID="E65" toText="Hahnemann General Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E67" fromText="Hahnemann General Hospital" toID="T5" toText="12:30" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E68" fromText="Finger stick blood glucose" toID="E67" toText="Hahnemann General Hospital" type="OVERLAP" />
+<TLINK id="TL33" fromID="E69" fromText="vitals" toID="E68" toText="Finger stick blood glucose" type="OVERLAP" />
+<TLINK id="TL34" fromID="E70" fromText="BP" toID="E69" toText="vitals" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E71" fromText="HR" toID="E69" toText="vitals" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E72" fromText="Blood pressure" toID="E69" toText="vitals" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E73" fromText="Seen" toID="E67" toText="Hahnemann General Hospital" type="OVERLAP" />
+<TLINK id="TL38" fromID="E74" fromText="Initial NIH stroke scale" toID="E73" toText="Seen" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E75" fromText="Head CT" toID="E73" toText="Seen" type="OVERLAP" />
+<TLINK id="TL4" fromID="E42" fromText="intubation" toID="E40" toText="Intubated" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E76" fromText="showed" toID="E75" toText="Head CT" type="OVERLAP" />
+<TLINK id="TL41" fromID="E77" fromText="large right intracerebral hemorrhage" toID="E75" toText="Head CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E78" fromText="airway protection" toID="E40" toText="Intubated" type="BEGUN_BY" />
+<TLINK id="TL44" fromID="E79" fromText="Fentanyl" toID="E40" toText="Intubated" type="BEFORE" />
+<TLINK id="TL45" fromID="E80" fromText="Etomidate" toID="E79" toText="Fentanyl" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E81" fromText="Vecuronium" toID="E79" toText="Fentanyl" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E82" fromText="Succhinylcholine" toID="E79" toText="Fentanyl" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E83" fromText="Labetalol" toID="E67" toText="Hahnemann General Hospital" type="OVERLAP" />
+<TLINK id="TL49" fromID="E84" fromText="Nipride drip" toID="E83" toText="Labetalol" type="AFTER" />
+<TLINK id="TL5" fromID="E16" fromText="Examination" toID="E43" toText="intubation" type="AFTER" />
+<TLINK id="TL50" fromID="E84" fromText="Nipride drip" toID="E86" toText="goal BP" type="ENDED_BY" />
+<TLINK id="TL51" fromID="E85" fromText="BP control" toID="E84" toText="Nipride drip" type="OVERLAP" />
+<TLINK id="TL52" fromID="E86" fromText="goal BP" toID="E94" toText="intensive care unit" type="BEFORE" />
+<TLINK id="TL53" fromID="E87" fromText="10 mg SC Vitamin K" toID="E67" toText="Hahnemann General Hospital" type="OVERLAP" />
+<TLINK id="TL54" fromID="E88" fromText="2 units FFP" toID="E87" toText="10 mg SC Vitamin K" type="OVERLAP" />
+<TLINK id="TL55" fromID="E89" fromText="Gary" toID="E67" toText="Hahnemann General Hospital" type="OVERLAP" />
+<TLINK id="TL57" fromID="E91" fromText="dilated" toID="E90" toText="fixed" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E90" fromText="fixed" toID="T7" toText="14:10" type="BEGUN_BY" />
+<TLINK id="TL59" fromID="E92" fromText="Dilantin" toID="E89" toText="Gary" type="BEGUN_BY" />
+<TLINK id="TL6" fromID="E43" fromText="intubation" toID="E42" toText="intubation" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E93" fromText="50 grams Mannitol" toID="E92" toText="Dilantin" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E89" fromText="Gary" toID="E118" toText="Transferred" type="ENDED_BY" />
+<TLINK id="TL62" fromID="E94" fromText="intensive care unit" toID="E118" toText="Transferred" type="BEGUN_BY" />
+<TLINK id="TL63" fromID="E4" fromText="atrial fibrillation" toID="E52" toText="atrial fibrillation" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E5" fromText="coumadin" toID="E53" toText="coumadin" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E6" fromText="coronary artery disease" toID="E48" toText="coronary artery disease" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E7" fromText="hyperlipidemia" toID="E50" toText="hyperlipidemia" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E8" fromText="dementia" toID="E49" toText="dementia" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E9" fromText="sudden onset left sided weakness" toID="E62" toText="left sided weakness" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E10" fromText="dysarthria" toID="E56" toText="dysarthria" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E29" fromText="fresh frozen plasma" toID="T8" toText="Overnight" type="DURING" />
+<TLINK id="TL70" fromID="E11" fromText="Head CT" toID="E75" toText="Head CT" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E41" fromText="demonstrated" toID="E76" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E12" fromText="a large right intracerebral hemorrhage" toID="E77" toText="large right intracerebral hemorrhage" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E13" fromText="hypertension" toID="E12" toText="a large right intracerebral hemorrhage" type="BEFORE_OVERLAP" />
+<TLINK id="TL74" fromID="E95" fromText="the emergency department" toID="E89" toText="Gary" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E14" fromText="rapid decompensation" toID="E95" toText="the emergency department" type="DURING" />
+<TLINK id="TL76" fromID="E15" fromText="airway protection" toID="E78" toText="airway protection" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E17" fromText="intubations" toID="E16" toText="Examination" type="OVERLAP" />
+<TLINK id="TL78" fromID="E44" fromText="showed" toID="E16" toText="Examination" type="OVERLAP" />
+<TLINK id="TL79" fromID="E18" fromText="elevated intracranial pressure" toID="E16" toText="Examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E47" fromText="Discharge" toID="T2" toText="2013-11-13" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E19" fromText="brainstem compression" toID="E16" toText="Examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL81" fromID="E96" fromText="the Neurology / Neurosurgery ICU" toID="E94" toText="intensive care unit" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E20" fromText="Mannitol" toID="E93" toText="50 grams Mannitol" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E21" fromText="Dilantin" toID="E92" toText="Dilantin" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E97" fromText="the emergency room" toID="E95" toText="the emergency department" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E45" fromText="evaluated" toID="E96" toText="the Neurology / Neurosurgery ICU" type="OVERLAP" />
+<TLINK id="TL86" fromID="E98" fromText="a surgical intervention" toID="E45" toText="evaluated" type="AFTER" />
+<TLINK id="TL87" fromID="E99" fromText="ventriculary drain" toID="E45" toText="evaluated" type="AFTER" />
+<TLINK id="TL88" fromID="E100" fromText="the ICU" toID="E96" toText="the Neurology / Neurosurgery ICU" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="E22" fromText="neuro checks" toID="E100" toText="the ICU" type="DURING" />
+<TLINK id="TL9" fromID="E48" fromText="coronary artery disease" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL90" fromID="E22" fromText="neuro checks" toID="T11" toText="every 1 hour" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E23" fromText="Sedation" toID="E24" toText="frequent exams" type="OVERLAP" />
+<TLINK id="TL92" fromID="E24" fromText="frequent exams" toID="E22" toText="neuro checks" type="SIMULTANEOUS" />
+<TLINK id="TL93" fromID="E25" fromText="Labetalol continuous infusion" toID="E100" toText="the ICU" type="OVERLAP" />
+<TLINK id="TL94" fromID="E26" fromText="systolic blood pressure" toID="E25" toText="Labetalol continuous infusion" type="OVERLAP" />
+<TLINK id="TL95" fromID="E27" fromText="Mannitol" toID="E20" toText="Mannitol" type="SIMULTANEOUS" />
+<TLINK id="TL96" fromID="E28" fromText="Dilantin" toID="E21" toText="Dilantin" type="SIMULTANEOUS" />
+<TLINK id="TL98" fromID="E101" fromText="lengthy discussion" toID="E102" toText="DNR" type="BEFORE" />
+<TLINK id="TL99" fromID="E102" fromText="DNR" toID="T12" toText="afternoon of 2013-11-11" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2013-11-11" type="ADMISSION" dvalue="2013-11-11" />
+<SECTIME id="S1" start="46" end="56" text="2013-11-13" type="DISCHARGE" dvalue="2013-11-13" />
+<TLINK id="SECTIME0" fromID="E40" fromText="Intubated" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E78" fromText="airway protection" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME2" fromID="E79" fromText="Fentanyl" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E80" fromText="Etomidate" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E81" fromText="Vecuronium" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E82" fromText="Succhinylcholine" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E83" fromText="Labetalol" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E84" fromText="Nipride drip" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E85" fromText="BP control" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E86" fromText="goal BP" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E87" fromText="10 mg SC Vitamin K" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E88" fromText="2 units FFP" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E89" fromText="Gary" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E90" fromText="fixed" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E91" fromText="dilated" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E92" fromText="Dilantin" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E93" fromText="50 grams Mannitol" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E118" fromText="Transferred" toID="T1" toText="2013-11-11" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E94" fromText="intensive care unit" toID="T1" toText="2013-11-11" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E4" fromText="atrial fibrillation" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E5" fromText="coumadin" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E6" fromText="coronary artery disease" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E7" fromText="hyperlipidemia" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E8" fromText="dementia" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E9" fromText="sudden onset left sided weakness" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E10" fromText="dysarthria" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E11" fromText="Head CT" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E41" fromText="demonstrated" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E12" fromText="a large right intracerebral hemorrhage" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E48" fromText="coronary artery disease" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E13" fromText="hypertension" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E95" fromText="the emergency department" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E14" fromText="rapid decompensation" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E42" fromText="intubation" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E15" fromText="airway protection" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E16" fromText="Examination" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E43" fromText="intubation" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E17" fromText="intubations" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E44" fromText="showed" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E1" fromText="NQWMI" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E18" fromText="elevated intracranial pressure" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E19" fromText="brainstem compression" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E96" fromText="the Neurology / Neurosurgery ICU" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E2" fromText="LAD angioplasty" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E20" fromText="Mannitol" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E21" fromText="Dilantin" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E97" fromText="the emergency room" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E45" fromText="evaluated" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E98" fromText="a surgical intervention" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E99" fromText="ventriculary drain" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E100" fromText="the ICU" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E3" fromText="stent" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E22" fromText="neuro checks" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E23" fromText="Sedation" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E24" fromText="frequent exams" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E49" fromText="dementia" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME56" fromID="E25" fromText="Labetalol continuous infusion" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E26" fromText="systolic blood pressure" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E27" fromText="Mannitol" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E28" fromText="Dilantin" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E50" fromText="hyperlipidemia" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME61" fromID="E101" fromText="lengthy discussion" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E102" fromText="DNR" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E29" fromText="fresh frozen plasma" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E30" fromText="goal INR" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E51" fromText="aortic stenosis" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME66" fromID="E31" fromText="serial exams" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E32" fromText="no clinical signs of brainstem activity" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E33" fromText="unresponsive" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E52" fromText="atrial fibrillation" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME70" fromID="E34" fromText="fixed" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E35" fromText="dilated" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E103" fromText="No corneal , gag , oculocephalic , and oculovestibular reflexes" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E46" fromText="overbreathing" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E36" fromText="his ventilator" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E37" fromText="brain death" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E53" fromText="coumadin" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME77" fromID="E104" fromText="apnea testing" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E105" fromText="discussion" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E106" fromText="test" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E117" fromText="presented" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E38" fromText="Full medical care" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E39" fromText="managment" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E107" fromText="bradycardic" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E54" fromText="his CMED CSRU doctor 's office" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E108" fromText="a junctional rhythm" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E109" fromText="very infrequent ventricular escape beats" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E110" fromText="telemetry" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E111" fromText="asystolic" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E112" fromText="resuscitated" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E113" fromText="conversations" toID="T2" toText="2013-11-13" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E114" fromText="dead" toID="T2" toText="2013-11-13" type="OVERLAP" />
+<TLINK id="SECTIME92" fromID="E115" fromText="notified" toID="T2" toText="2013-11-13" type="AFTER" />
+<TLINK id="SECTIME93" fromID="E116" fromText="notified" toID="T2" toText="2013-11-13" type="AFTER" />
+<TLINK id="SECTIME94" fromID="E55" fromText="acute onset left sided weakness" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME95" fromID="E56" fromText="dysarthria" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME96" fromID="E57" fromText="his usual state of health" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E58" fromText="admission" toID="T1" toText="2013-11-11" type="OVERLAP" />
+<TLINK id="SECTIME98" fromID="E59" fromText="this doctor 's office" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E60" fromText="complained" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E61" fromText="severe headache" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E62" fromText="left sided weakness" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME102" fromID="E63" fromText="facial droop" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME103" fromID="E64" fromText="slurring of speech" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME104" fromID="E65" fromText="Hahnemann General Hospital" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E66" fromText="evaluation" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E67" fromText="Hahnemann General Hospital" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E68" fromText="Finger stick blood glucose" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E69" fromText="vitals" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E70" fromText="BP" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E71" fromText="HR" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E72" fromText="Blood pressure" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E73" fromText="Seen" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E74" fromText="Initial NIH stroke scale" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E75" fromText="Head CT" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E76" fromText="showed" toID="T1" toText="2013-11-11" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E77" fromText="large right intracerebral hemorrhage" toID="T1" toText="2013-11-11" type="BEFORE_OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+10/22/2000
+Discharge Date :
+11/17/2000
+HISTORY OF PRESENT ILLNESS :
+The patient is a 47-year-old man with advanced stage chronic lymphocytic leukemia who was admitted for autologous bone marrow transplant as per protocol 94-055 of the Santusli Hospital .
+The patient was originally diagnosed in 06/98 during a routine physical when he was noted to have a white blood cell count of 20,000 , weight loss , and swelling in his neck and groin .
+He was watched after his initial diagnosis , but six months later he developed rapidly increasing leukocytosis and he became more symptomatic .
+After treatment with three cycles of fludarabine he had 90% involvement of his intratrabecular space .
+He was therefore treated with three cycles of fludarabine in combination with cytoxan .
+After this therapy he achieved a protocol eligible minimal disease state .
+However , he did have relative pancytopenia following this therapy .
+He was taken to bone marrow harvest in 08/22 at which time insufficient cells were obtained to proceed .
+He was returned previous to this admission for repeat bone marrow harvest and at that time he was given Neupogen prior to his harvest , and sufficient cells were not obtained to proceed with autologous bone marrow transplantation .
+His most recent bone marrow biopsy revealed less than 5% of intratrabecular space involvement .
+Recent CT scan showed no significant lymphadenopathy .
+The spleen was within normal limits .
+HOSPITAL COURSE :
+1 ) Oncology :
+The patient was admitted on 10/22/00 and received cytoxan and total body irradiation per protocol .
+Autologous bone marrow infusion occurred on 10/29/00 and was uneventful .
+His post-transplant course was complicated by pain from mucositis and recalcitrant nausea and vomiting .
+The patient did not tolerate antiemetics well and it was subsequently decided to avoid phenothiazides secondary to jitteryness and restless legs .
+2 ) Infectious Disease :
+The patient remained afebrile until day +11 when he spiked and was started on ceftazidime .
+Blood cultures and urine cultures were all negative .
+3 ) Heme :
+The patient acquired intermittent transfusions for pancytopenia .
+4 ) FEN :
+The patient was unable to tolerate adequate p.o.&apos;s in the last several days .
+He was well nourished so TPN was not started .
+I &apos;s and O &apos;s were balanced and maintained with IV fluids .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1050" end="1058" text="returned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1071" end="1085" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1090" end="1116" text="repeat bone marrow harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1147" end="1155" text="Neupogen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1165" end="1176" text="his harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1183" end="1199" text="sufficient cells" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E1" start="124" end="167" text="advanced stage chronic lymphocytic leukemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1234" end="1272" text="autologous bone marrow transplantation" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1275" end="1309" text="His most recent bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1310" end="1318" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="1319" end="1368" text="less than 5% of intratrabecular space involvement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1371" end="1385" text="Recent CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1386" end="1392" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="1396" end="1423" text="significant lymphadenopathy" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1513" end="1521" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1547" end="1554" text="cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1559" end="1581" text="total body irradiation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1597" end="1628" text="Autologous bone marrow infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1717" end="1721" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1727" end="1736" text="mucositis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1741" end="1773" text="recalcitrant nausea and vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="176" end="184" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1796" end="1804" text="tolerate" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E54" start="1805" end="1816" text="antiemetics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1863" end="1877" text="phenothiazides" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E2" start="189" end="222" text="autologous bone marrow transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1891" end="1902" text="jitteryness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1907" end="1920" text="restless legs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1969" end="1977" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2000" end="2006" text="spiked" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2026" end="2037" text="ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2040" end="2054" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="2059" end="2073" text="urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2126" end="2151" text="intermittent transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2156" end="2168" text="pancytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2197" end="2236" text="unable to tolerate adequate p.o.&apos;s" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2289" end="2292" text="TPN" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E40" start="2311" end="2334" text="I &apos;s and O &apos;s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2369" end="2378" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="249" end="270" text="the Santusli Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="326" end="344" text="a routine physical" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="357" end="362" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="371" end="395" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="408" end="419" text="weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="426" end="456" text="swelling in his neck and groin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="480" end="501" text="his initial diagnosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="538" end="569" text="rapidly increasing leukocytosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="584" end="600" text="more symptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="609" end="618" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="640" end="651" text="fludarabine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="659" end="703" text="90% involvement of his intratrabecular space" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="752" end="763" text="fludarabine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="784" end="791" text="cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="800" end="812" text="this therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="825" end="866" text="a protocol eligible minimal disease state" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="891" end="912" text="relative pancytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="923" end="935" text="this therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="954" end="973" text="bone marrow harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="997" end="1015" text="insufficient cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T10" start="1124" end="1133" text="that time" type="DATE" val="2000-09" mod="APPROX" />
+<TIMEX3 id="T3" start="1525" end="1533" text="10/22/00" type="DATE" val="2000-10-22" mod="NA" />
+<TIMEX3 id="T4" start="1641" end="1649" text="10/29/00" type="DATE" val="2000-10-29" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="10/22/2000" type="DATE" val="2000-10-22" mod="NA" />
+<TIMEX3 id="T11" start="1984" end="1991" text="day +11" type="DATE" val="2000-11-02" mod="NA" />
+<TIMEX3 id="T12" start="2249" end="2261" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T0" start="313" end="318" text="06/98" type="DATE" val="1998-06" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="11/17/2000" type="DATE" val="2000-11-17" mod="NA" />
+<TIMEX3 id="T5" start="508" end="524" text="six months later" type="DATE" val="1998-12" mod="NA" />
+<TIMEX3 id="T6" start="624" end="636" text="three cycles" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T7" start="736" end="748" text="three cycles" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T8" start="977" end="982" text="08/22" type="DATE" val="2000-08-22" mod="NA" />
+<TIMEX3 id="T9" start="986" end="996" text="which time" type="DATE" val="2000-08-22" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="10/22/2000" type="OVERLAP" />
+<TLINK id="TL1" fromID="E15" fromText="relative pancytopenia" toID="E16" toText="this therapy" type="AFTER" />
+<TLINK id="TL10" fromID="E46" fromText="noted" toID="E3" toText="a routine physical" type="OVERLAP" />
+<TLINK id="TL11" fromID="E4" fromText="a white blood cell count" toID="E46" toText="noted" type="BEFORE" />
+<TLINK id="TL12" fromID="E5" fromText="weight loss" toID="E4" toText="a white blood cell count" type="OVERLAP" />
+<TLINK id="TL13" fromID="E6" fromText="swelling in his neck and groin" toID="E5" toText="weight loss" type="OVERLAP" />
+<TLINK id="TL14" fromID="E7" fromText="his initial diagnosis" toID="E46" toText="noted" type="OVERLAP" />
+<TLINK id="TL15" fromID="T5" fromText="six months later" toID="E7" toText="his initial diagnosis" type="AFTER" />
+<TLINK id="TL16" fromID="E8" fromText="rapidly increasing leukocytosis" toID="T5" toText="six months later" type="AFTER" />
+<TLINK id="TL17" fromID="E47" fromText="more symptomatic" toID="E8" toText="rapidly increasing leukocytosis" type="OVERLAP" />
+<TLINK id="TL2" fromID="E20" fromText="Neupogen" toID="E21" toText="his harvest" type="BEFORE" />
+<TLINK id="TL20" fromID="E60" fromText="fludarabine" toID="T6" toText="three cycles" type="OVERLAP" />
+<TLINK id="TL21" fromID="E61" fromText="fludarabine" toID="T7" toText="three cycles" type="OVERLAP" />
+<TLINK id="TL22" fromID="E61" fromText="fludarabine" toID="E60" toText="fludarabine" type="OVERLAP" />
+<TLINK id="TL23" fromID="T7" fromText="three cycles" toID="T6" toText="three cycles" type="OVERLAP" />
+<TLINK id="TL24" fromID="E47" fromText="more symptomatic" toID="E60" toText="fludarabine" type="BEFORE" />
+<TLINK id="TL25" fromID="E10" fromText="90% involvement of his intratrabecular space" toID="T6" toText="three cycles" type="AFTER" />
+<TLINK id="TL26" fromID="E12" fromText="cytoxan" toID="E61" toText="fludarabine" type="OVERLAP" />
+<TLINK id="TL27" fromID="E62" fromText="treatment" toID="E60" toText="fludarabine" type="OVERLAP" />
+<TLINK id="TL28" fromID="E13" fromText="this therapy" toID="E62" toText="treatment" type="OVERLAP" />
+<TLINK id="TL29" fromID="E14" fromText="a protocol eligible minimal disease state" toID="E13" toText="this therapy" type="AFTER" />
+<TLINK id="TL3" fromID="E43" fromText="Discharge" toID="T2" toText="11/17/2000" type="OVERLAP" />
+<TLINK id="TL30" fromID="T8" fromText="08/22" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL31" fromID="E16" fromText="this therapy" toID="E13" toText="this therapy" type="OVERLAP" />
+<TLINK id="TL32" fromID="T8" fromText="08/22" toID="E16" toText="this therapy" type="AFTER" />
+<TLINK id="TL33" fromID="E17" fromText="bone marrow harvest" toID="T8" toText="08/22" type="OVERLAP" />
+<TLINK id="TL34" fromID="T9" fromText="which time" toID="T8" toText="08/22" type="OVERLAP" />
+<TLINK id="TL35" fromID="E18" fromText="insufficient cells" toID="E17" toText="bone marrow harvest" type="OVERLAP" />
+<TLINK id="TL36" fromID="E49" fromText="this admission" toID="E44" toText="admitted" type="OVERLAP" />
+<TLINK id="TL37" fromID="E48" fromText="returned" toID="E49" toText="this admission" type="BEFORE" />
+<TLINK id="TL38" fromID="E19" fromText="repeat bone marrow harvest" toID="E48" toText="returned" type="AFTER" />
+<TLINK id="TL39" fromID="T10" fromText="that time" toID="E48" toText="returned" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="advanced stage chronic lymphocytic leukemia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E20" fromText="Neupogen" toID="T10" toText="that time" type="OVERLAP" />
+<TLINK id="TL42" fromID="E21" fromText="his harvest" toID="E19" toText="repeat bone marrow harvest" type="OVERLAP" />
+<TLINK id="TL43" fromID="E50" fromText="sufficient cells" toID="E21" toText="his harvest" type="OVERLAP" />
+<TLINK id="TL44" fromID="E51" fromText="autologous bone marrow transplantation" toID="E50" toText="sufficient cells" type="AFTER" />
+<TLINK id="TL45" fromID="E22" fromText="His most recent bone marrow biopsy" toID="E21" toText="his harvest" type="AFTER" />
+<TLINK id="TL46" fromID="E52" fromText="revealed" toID="E22" toText="His most recent bone marrow biopsy" type="OVERLAP" />
+<TLINK id="TL47" fromID="E23" fromText="less than 5% of intratrabecular space involvement" toID="E52" toText="revealed" type="BEFORE" />
+<TLINK id="TL48" fromID="E24" fromText="Recent CT scan" toID="E22" toText="His most recent bone marrow biopsy" type="AFTER" />
+<TLINK id="TL49" fromID="E53" fromText="showed" toID="E24" toText="Recent CT scan" type="OVERLAP" />
+<TLINK id="TL5" fromID="E44" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL50" fromID="E25" fromText="significant lymphadenopathy" toID="E53" toText="showed" type="BEFORE" />
+<TLINK id="TL51" fromID="E42" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL52" fromID="E42" fromText="admitted" toID="T3" toText="10/22/00" type="OVERLAP" />
+<TLINK id="TL53" fromID="E26" fromText="cytoxan" toID="E42" toText="admitted" type="AFTER" />
+<TLINK id="TL54" fromID="E27" fromText="total body irradiation" toID="E26" toText="cytoxan" type="OVERLAP" />
+<TLINK id="TL55" fromID="T4" fromText="10/29/00" toID="T3" toText="10/22/00" type="AFTER" />
+<TLINK id="TL56" fromID="T4" fromText="10/29/00" toID="E43" toText="Discharge" type="BEFORE" />
+<TLINK id="TL57" fromID="E28" fromText="Autologous bone marrow infusion" toID="T4" toText="10/29/00" type="OVERLAP" />
+<TLINK id="TL58" fromID="E29" fromText="pain" toID="E28" toText="Autologous bone marrow infusion" type="AFTER" />
+<TLINK id="TL59" fromID="E30" fromText="mucositis" toID="E29" toText="pain" type="BEFORE" />
+<TLINK id="TL6" fromID="E2" fromText="autologous bone marrow transplant" toID="E44" toText="admitted" type="AFTER" />
+<TLINK id="TL60" fromID="E31" fromText="recalcitrant nausea and vomiting" toID="E29" toText="pain" type="OVERLAP" />
+<TLINK id="TL62" fromID="E31" fromText="recalcitrant nausea and vomiting" toID="E54" toText="antiemetics" type="BEFORE" />
+<TLINK id="TL63" fromID="E55" fromText="tolerate" toID="E54" toText="antiemetics" type="OVERLAP" />
+<TLINK id="TL64" fromID="E32" fromText="phenothiazides" toID="E54" toText="antiemetics" type="AFTER" />
+<TLINK id="TL65" fromID="E32" fromText="phenothiazides" toID="E33" toText="jitteryness" type="BEFORE" />
+<TLINK id="TL66" fromID="E34" fromText="restless legs" toID="E33" toText="jitteryness" type="OVERLAP" />
+<TLINK id="TL67" fromID="E35" fromText="afebrile" toID="T11" toText="day +11" type="BEFORE" />
+<TLINK id="TL68" fromID="T11" fromText="day +11" toID="T4" toText="10/29/00" type="AFTER" />
+<TLINK id="TL69" fromID="T11" fromText="day +11" toID="E43" toText="Discharge" type="BEFORE" />
+<TLINK id="TL7" fromID="E45" fromText="the Santusli Hospital" toID="E44" toText="admitted" type="AFTER" />
+<TLINK id="TL70" fromID="E56" fromText="spiked" toID="T11" toText="day +11" type="OVERLAP" />
+<TLINK id="TL71" fromID="E56" fromText="spiked" toID="E36" toText="ceftazidime" type="BEFORE" />
+<TLINK id="TL72" fromID="E57" fromText="Blood cultures" toID="E36" toText="ceftazidime" type="OVERLAP" />
+<TLINK id="TL73" fromID="E58" fromText="urine cultures" toID="E57" toText="Blood cultures" type="OVERLAP" />
+<TLINK id="TL74" fromID="E38" fromText="pancytopenia" toID="E15" toText="relative pancytopenia" type="OVERLAP" />
+<TLINK id="TL75" fromID="E38" fromText="pancytopenia" toID="E37" toText="intermittent transfusions" type="BEFORE" />
+<TLINK id="TL76" fromID="T12" fromText="several days" toID="E43" toText="Discharge" type="BEFORE" />
+<TLINK id="TL77" fromID="E59" fromText="unable to tolerate adequate p.o.&apos;s" toID="T12" toText="several days" type="OVERLAP" />
+<TLINK id="TL78" fromID="E39" fromText="TPN" toID="E59" toText="unable to tolerate adequate p.o.&apos;s" type="OVERLAP" />
+<TLINK id="TL79" fromID="E40" fromText="I &apos;s and O &apos;s" toID="E39" toText="TPN" type="OVERLAP" />
+<TLINK id="TL8" fromID="T0" fromText="06/98" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL80" fromID="E41" fromText="IV fluids" toID="E40" toText="I &apos;s and O &apos;s" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="a routine physical" toID="T0" toText="06/98" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="10/22/2000" type="ADMISSION" dvalue="2000-10-22" />
+<SECTIME id="S1" start="46" end="56" text="11/17/2000" type="DISCHARGE" dvalue="2000-11-17" />
+<TLINK id="SECTIME0" fromID="E48" fromText="returned" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E49" fromText="this admission" toID="T1" toText="10/22/2000" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E19" fromText="repeat bone marrow harvest" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E20" fromText="Neupogen" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E21" fromText="his harvest" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E50" fromText="sufficient cells" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E1" fromText="advanced stage chronic lymphocytic leukemia" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E51" fromText="autologous bone marrow transplantation" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E22" fromText="His most recent bone marrow biopsy" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E52" fromText="revealed" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E23" fromText="less than 5% of intratrabecular space involvement" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E24" fromText="Recent CT scan" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E53" fromText="showed" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E25" fromText="significant lymphadenopathy" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E42" fromText="admitted" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E26" fromText="cytoxan" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E27" fromText="total body irradiation" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E28" fromText="Autologous bone marrow infusion" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E29" fromText="pain" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E30" fromText="mucositis" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E31" fromText="recalcitrant nausea and vomiting" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E44" fromText="admitted" toID="T1" toText="10/22/2000" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E55" fromText="tolerate" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E54" fromText="antiemetics" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E32" fromText="phenothiazides" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E2" fromText="autologous bone marrow transplant" toID="T1" toText="10/22/2000" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E33" fromText="jitteryness" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E34" fromText="restless legs" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E35" fromText="afebrile" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="spiked" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E36" fromText="ceftazidime" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E57" fromText="Blood cultures" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E58" fromText="urine cultures" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E37" fromText="intermittent transfusions" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E38" fromText="pancytopenia" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E59" fromText="unable to tolerate adequate p.o.&apos;s" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E39" fromText="TPN" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E40" fromText="I &apos;s and O &apos;s" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E41" fromText="IV fluids" toID="T2" toText="11/17/2000" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E45" fromText="the Santusli Hospital" toID="T1" toText="10/22/2000" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E3" fromText="a routine physical" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E46" fromText="noted" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E4" fromText="a white blood cell count" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E5" fromText="weight loss" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E6" fromText="swelling in his neck and groin" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E7" fromText="his initial diagnosis" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E8" fromText="rapidly increasing leukocytosis" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E47" fromText="more symptomatic" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E62" fromText="treatment" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E60" fromText="fludarabine" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E10" fromText="90% involvement of his intratrabecular space" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E61" fromText="fludarabine" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E12" fromText="cytoxan" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E13" fromText="this therapy" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E14" fromText="a protocol eligible minimal disease state" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E15" fromText="relative pancytopenia" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E16" fromText="this therapy" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E17" fromText="bone marrow harvest" toID="T1" toText="10/22/2000" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E18" fromText="insufficient cells" toID="T1" toText="10/22/2000" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

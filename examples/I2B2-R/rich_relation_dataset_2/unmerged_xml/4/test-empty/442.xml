@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-05-14
+Discharge Date :
+2017-06-26
+Service :
+CMED CCU
+HISTORY OF PRESENT ILLNESS :
+Jadiara Harrison is twin #1 born to a 17 year-old primiparous mother at 31 weeks gestation .
+Mother was admitted to the Nantucket Cottage Hospital from Lawrence General Hospital Hospital on 05-01 with cervical effacement and preterm labor .
+She was treated with magnesium sulfate .
+She had previously been admitted here at the 24th week after a motor vehicle accident .She was treated with tocolysis and betamethasone at that time .
+Due to progressing labor and presentation of twins , delivery was by Cesarean section .
+Prenatal screens were notable for blood type 0 positive , antibody negative , hepatitis B surface antigen negative , RPR nonreactive .
+Rubella status was not documented .
+Group B strep status was unknown .
+Infant emerged from the breech position .
+She was vigorous .
+She was given blow-by oxygen and stimulation .
+Her Apgars were 7 at 1 minute and 9 at 5 minutes .
+She was brought to the CMED CSRU for further evaluation .
+HOSPITAL COURSE :
+Respiratory :
+On admission , infant did not require supplemental oxygen or respiratory support .
+Since that time , Jadiara has always been in room air without requiring supplemental oxygen .
+She was noted to have apnea of prematurity , treated with caffeine until 2017-06-04 .
+Since that time , she has had very rare spells , with none for over one week by the time of discharge .
+Cardiovascular :
+She was hemodynamically stable upon admission with normal blood pressures and heart rate .
+On day of life 15 , she was noted to have a murmur , eventually prompting evaluation by ECHO .
+The ECHO revealed an anomalous left coronary , with one end entering the right ventricular outflow tract and the other end not clearly defined .
+It was unable to be delineated whether this represented an anomalous left coronary artery arising from the pulmonary artery ( LCAPA ) or a left coronary artery fistula to the pulmonar artery .
+The right coronary was prominent , and there appeared to be coronary artery collateral vessels in the posterior apical myocardium .
+A small apical muscular VSD was also noted .
+Several additional ECHOs were performed , including an ECHO in the cardiology department at HealthSouth Rehab Hospital of Western Mass ., but the anatomy of the left coronary artery could not be further defined .
+Due to the risks of coronary ischemia if this represented an LCAPA , the infant was followed with regular ECHOs and EKGs during the remainder of hospitalization , with no evidence of ischemia , valvular regurgitation , or compromised ventricular function .
+She will be continued to be followed closely by cardiology as an outpatient , with likely plans for cardiac catheterization and surgical repair when she grows to 3.5 to 4 kg .
+Fluids , electrolytes and nutrition :
+The infant was initially maintained on IVF , with introduction of enteral feeds on day of life 2 .
+She was advanced to full volume enteral feeds by day of life 7 , and then to a maximum caloric density of 28 cals / oz .
+Oral feedings were introduced as tolerated .
+By the time of discharge , infant is feedign BM or enfamil 24 cals / oz PO ad lib , with adequate intake and adequate weight gain .
+Last nutrition labs were on 06-20 with AP of 208 , Ca 10.8 , and Phos 7.4.
+Gastrointestinal :
+The infant required phototherapy for hyperbilirubinemia through day of life 7 , with peak bilirubin of 7 / 0.3 on day of life 3 , and last bilirubin of 4.9 / 0.3 on day of life 9 .
+Hematologic / Infectious disease :
+CBC and blood culture were obtained upon admission revealing a white blood cell count of 9.0 with 25 polys and 0 bands ; hematocrit was 46.9% and platelets of 222,000 .
+Baby received 48 hours of Ampicillin and Gentamycin with negative cultures and a stable clinical course .
+Infant was treated with supplemental iron , and did not receive any blood transfusions .
+Last Hct was 30.6 on 06-20 with a reticulocyte count of 6.5%.
+Neurologic :
+Baby has been appropriate for gestational age .
+Social :
+Mother is 17 years old , and has been accompanied on the majority of her visits by her parents , both of whom are students .
+The infant 's maternal grandparents have been very involved in her care .
+Sensory :
+Initial opthalmologic exam on 06-05 revealed immature retinas in zone 3 , and repeat exam on 06-26 revealed mature retinas bilaterally .
+Infant passed hearing screen prior to discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E62" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="1010" end="1023" text="the CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E81" start="1028" end="1046" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1084" end="1093" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1119" end="1138" text="supplemental oxygen" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E17" start="1142" end="1161" text="respiratory support" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E82" start="1209" end="1217" text="room air" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1236" end="1255" text="supplemental oxygen" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E19" start="1280" end="1300" text="apnea of prematurity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1316" end="1324" text="caffeine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="133" end="137" text="born" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="1374" end="1390" text="very rare spells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="1436" end="1445" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="1501" end="1510" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="1523" end="1538" text="blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="1543" end="1553" text="heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1598" end="1606" text="a murmur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1630" end="1648" text="evaluation by ECHO" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1651" end="1659" text="The ECHO" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E87" start="1660" end="1668" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="1669" end="1695" text="an anomalous left coronary" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="1852" end="1929" text="an anomalous left coronary artery arising from the pulmonary artery ( LCAPA )" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="186" end="195" text="gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1933" end="1986" text="a left coronary artery fistula to the pulmonar artery" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2049" end="2118" text="coronary artery collateral vessels in the posterior apical myocardium" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="209" end="217" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="2121" end="2148" text="A small apical muscular VSD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="2166" end="2190" text="Several additional ECHOs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="221" end="251" text="the Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="2218" end="2225" text="an ECHO" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="2229" end="2300" text="the cardiology department at HealthSouth Rehab Hospital of Western Mass" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E91" start="2399" end="2416" text="coronary ischemia" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2437" end="2445" text="an LCAPA" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="2477" end="2490" text="regular ECHOs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="2495" end="2499" text="EKGs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="2524" end="2539" text="hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="2562" end="2570" text="ischemia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E71" start="257" end="291" text="Lawrence General Hospital Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="2573" end="2595" text="valvular regurgitation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="2601" end="2633" text="compromised ventricular function" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="2664" end="2680" text="followed closely" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="2736" end="2759" text="cardiac catheterization" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E97" start="2764" end="2779" text="surgical repair" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="2789" end="2809" text="grows to 3.5 to 4 kg" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="2889" end="2892" text="IVF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2916" end="2929" text="enteral feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="2957" end="2965" text="advanced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2969" end="2994" text="full volume enteral feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="306" end="325" text="cervical effacement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="3070" end="3083" text="Oral feedings" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="3103" end="3112" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="3130" end="3139" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E102" start="3160" end="3162" text="BM" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="3166" end="3173" text="enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3204" end="3219" text="adequate intake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="3224" end="3244" text="adequate weight gain" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="3247" end="3266" text="Last nutrition labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="3286" end="3288" text="AP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="330" end="343" text="preterm labor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="3298" end="3300" text="Ca" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="3312" end="3316" text="Phos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="3361" end="3373" text="phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="3378" end="3396" text="hyperbilirubinemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="3426" end="3440" text="peak bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="3475" end="3489" text="last bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="3557" end="3560" text="CBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="3565" end="3578" text="blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="3598" end="3607" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="3608" end="3617" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="3618" end="3642" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="3655" end="3663" text="25 polys" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="367" end="384" text="magnesium sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="3668" end="3675" text="0 bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="3678" end="3688" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="3703" end="3712" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="3752" end="3762" text="Ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="3767" end="3777" text="Gentamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="3783" end="3800" text="negative cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="3805" end="3829" text="a stable clinical course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="3856" end="3873" text="supplemental iron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="3896" end="3918" text="any blood transfusions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E56" start="3921" end="3929" text="Last Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="3953" end="3973" text="a reticulocyte count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="411" end="419" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="4122" end="4132" text="her visits" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="4262" end="4288" text="Initial opthalmologic exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="4298" end="4306" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E59" start="4307" end="4323" text="immature retinas" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="4340" end="4351" text="repeat exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="4361" end="4369" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E112" start="4370" end="4396" text="mature retinas bilaterally" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="4413" end="4427" text="hearing screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="4437" end="4446" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="448" end="472" text="a motor vehicle accident" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="495" end="504" text="tocolysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="509" end="522" text="betamethasone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="545" end="562" text="progressing labor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="567" end="588" text="presentation of twins" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="591" end="599" text="delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="607" end="623" text="Cesarean section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="626" end="642" text="Prenatal screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="660" end="670" text="blood type" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="684" end="692" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="704" end="731" text="hepatitis B surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="743" end="746" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="761" end="775" text="Rubella status" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="797" end="817" text="Group B strep status" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="852" end="871" text="the breech position" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="882" end="890" text="vigorous" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="907" end="921" text="blow-by oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="926" end="937" text="stimulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="940" end="950" text="Her Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T3" start="1331" end="1341" text="2017-06-04" type="DATE" val="2017-06-04" mod="NA" />
+<TIMEX3 id="T10" start="1412" end="1420" text="one week" type="DURATION" val="P1W" mod="MORE" />
+<TIMEX3 id="T11" start="1559" end="1573" text="day of life 15" type="DATE" val="2017-05-29" mod="NA" />
+<TIMEX3 id="T0" start="177" end="185" text="31 weeks" type="DURATION" val="P31W" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2017-05-14" type="DATE" val="2017-05-14" mod="NA" />
+<TIMEX3 id="T12" start="2933" end="2946" text="day of life 2" type="DATE" val="2017-05-16" mod="NA" />
+<TIMEX3 id="T7" start="295" end="300" text="05-01" type="DATE" val="2017-05-01" mod="NA" />
+<TIMEX3 id="T13" start="2998" end="3011" text="day of life 7" type="DATE" val="2017-05-21" mod="NA" />
+<TIMEX3 id="T4" start="3275" end="3280" text="06-20" type="DATE" val="2017-06-20" mod="NA" />
+<TIMEX3 id="T14" start="3405" end="3418" text="day of life 7" type="DATE" val="2017-05-21" mod="NA" />
+<TIMEX3 id="T15" start="3455" end="3468" text="day of life 3" type="DATE" val="2017-05-17" mod="NA" />
+<TIMEX3 id="T16" start="3506" end="3519" text="day of life 9" type="DATE" val="2017-05-23" mod="NA" />
+<TIMEX3 id="T17" start="3740" end="3748" text="48 hours" type="DURATION" val="PT48H" mod="NA" />
+<TIMEX3 id="T5" start="3942" end="3947" text="06-20" type="DATE" val="2017-06-20" mod="NA" />
+<TIMEX3 id="T6" start="4292" end="4297" text="06-05" type="DATE" val="2017-06-05" mod="NA" />
+<TIMEX3 id="T19" start="428" end="441" text="the 24th week" type="DATE" val="2017-03-15" mod="APPROX" />
+<TIMEX3 id="T18" start="4355" end="4360" text="06-26" type="DATE" val="2017-06-26" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2017-06-26" type="DATE" val="2017-06-26" mod="NA" />
+<TIMEX3 id="T8" start="961" end="969" text="1 minute" type="DURATION" val="PT1M" mod="NA" />
+<TIMEX3 id="T9" start="979" end="988" text="5 minutes" type="DURATION" val="PT5M" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2017-05-14" type="ADMISSION" dvalue="2017-05-14" />
+<SECTIME id="S1" start="46" end="56" text="2017-06-26" type="DISCHARGE" dvalue="2017-06-26" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

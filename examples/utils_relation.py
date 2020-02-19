@@ -206,7 +206,7 @@ class Input_SB_Features(object):
         label: Label corresponding to the input
     """
 
-    def __init__(self, input_ids, attention_masks, token_type_ids,  relations, doc_id, sen_id, ids, sources,node_pos):#matrix,
+    def __init__(self, input_ids, attention_masks, token_type_ids,  relations, doc_id, sen_id, ids, sources,node_pos=None, rules=None):#matrix,
         self.input_ids = input_ids
         self.attention_masks = attention_masks
         self.token_type_ids = token_type_ids
@@ -217,6 +217,7 @@ class Input_SB_Features(object):
         self.ids = ids
         self.sources = sources
         self.node_pos = node_pos
+        self.rules = rules
 
     def __repr__(self):
         return str(self.to_json_string())
@@ -518,6 +519,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
     remove_count = 0
 
     for (ex_index, example) in enumerate(examples):
+        #print(example)
         sen_count+=1
         if ex_index % 10000 == 0:
             logger.info("Writing example %d" % (ex_index))
@@ -532,6 +534,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
 
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
         dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID
+        #print("data_aug", data_aug)
         if evaluate: 
             data_aug = 'evaluate'
         if data_aug == "reverse":
@@ -679,6 +682,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
             IDM = np.zeros(BM.shape)
             IDM = IDM + BM + AM + OM
             IDM[np.where(IDM>0)] = 1
+            #print("IDM", IDM)
 
             texts = []
             for text in example.text:
@@ -687,6 +691,21 @@ def sb_convert_examples_to_features(examples, tokenizer,
             add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
             add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
             add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+
+        elif data_aug == "triple_rules":
+            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+            #print("origin BM", BM)
+            BM, OM, remove_count = iter_rule_update(BM, OM, 0, wrong_count)
+            AM = BM.transpose()
+            IDM = np.zeros(BM.shape)
+            IDM = IDM + BM + AM + OM
+            IDM[np.where(IDM>0)] = 1
+
+            texts = []
+            for text in example.text:
+                texts.extend(text)
+            
+            add_features_triple(features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
 
         elif data_aug == 'evaluate':
             BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
@@ -731,7 +750,8 @@ def sb_convert_examples_to_features(examples, tokenizer,
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
     print("remove number", remove_count)
-    #exit()
+    print("sucessfully loading data!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    exit()
     return features, dict_IndenToID
 
 
@@ -1681,6 +1701,7 @@ def build_PSL_dataset(adj = None, rel = None, no_rule = True ,random_sampling = 
     return emb
 
 def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left):
+    
     if M_type == "BM":
         r = 1
     if M_type == 'OM':
@@ -1688,6 +1709,7 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
     if M_type == "AM":
         r = 2
     all_x, all_y = np.where(M>0)
+
     for i in range(all_x.size):
         x1, x2 = pos_dict[all_x[i]]
         y1, y2 = pos_dict[all_y[i]]
@@ -1739,9 +1761,6 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
         #print("index",all_x[i], all_y[i])
         sample_method = "closest"# "random": retain all origin and random sample rest;"closest", retain origin and neighbor relation
         if IDM[all_x[i],all_y[i]]==2:
-            print("something wrong!!!!!!!!")
-            print(IDM)
-            print(BM)
             # 2 means generated data, 1 origin data
             sources = 2
             if sample_method=='random':
@@ -1775,6 +1794,7 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
                         node_pos = (node_pos_1, node_pos_2),
                         ))
         if IDM[all_x[i],all_y[i]]==1:
+            #print("sources",sources)
             sources = 1
             features.append(
             Input_SB_Features(input_ids=input_id,
@@ -1791,6 +1811,829 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
         
         #assert IDM[all_x[i],all_y[i]]==1 or IDM[all_x[i],all_y[i]]==2, 'Error with IDM'
 
+
+def add_features_triple(features,BM, OM, pos_dict,IDM, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left):
+    
+    BBB = rule_tensor(BM, BM)
+    BOB = rule_tensor(BM, OM)
+    OBB = rule_tensor(OM, BM)
+    OOO = rule_tensor(OM, OM)
+    All_rules = BBB+BOB+OBB+OOO
+    all_x, all_y, all_z = np.where(All_rules>0)
+    all_xyz = np.concatenate( (all_x.reshape(all_x.shape[0],1), all_y.reshape(all_y.shape[0],1), all_z.reshape(all_z.shape[0],1)), axis = 1)
+
+    B_x, B_y = np.where(BM>0)
+    B_xy = np.concatenate((B_x.reshape(B_x.shape[0],1), B_y.reshape(B_y.shape[0], 1)), axis = 1)
+    O_x, O_y = np.where(OM>0)
+    O_xy = np.concatenate((O_x.reshape(O_x.shape[0],1), O_y.reshape(O_y.shape[0], 1)), axis = 1)
+
+    # get relations that not used
+    B_list = [any([x[0] in y and x[1] in y for y in all_xyz]) for x in B_xy]
+    B_index = [i for i, x in enumerate(B_list) if x == False]
+    O_list = [any([x[0] in y and x[1] in y for y in all_xyz]) for x in O_xy]
+    O_index = [i for i, x in enumerate(O_list) if x == False]
+    
+    # complete the B
+    if len(B_index) % 3 == 2:
+        B_index.append(B_index[len(B_index)-1])
+        B_x = np.append(B_x, B_x[0:1])
+        B_y = np.append(B_y, B_y[0:1])
+    if len(B_index) % 3 ==1:
+        B_index.append(B_index[len(B_index)-1])
+        B_index.append(B_index[len(B_index)-1])
+        B_x = np.append(B_x, B_x[0:1])
+        B_y = np.append(B_y, B_y[0:1])
+        B_x = np.append(B_x, B_x[0:1])
+        B_y = np.append(B_y, B_y[0:1])
+    print(len(B_index)/3)
+
+    if len(B_index)==0:
+        pass
+    else:
+        for k in range(int(len(B_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                #print(i,k, len(B_x))
+                ids.append((B_x[i],B_y[i]))
+                x1, x2 = pos_dict[B_x[i]]
+                y1, y2 = pos_dict[B_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[1,1,1],
+                        doc_id=[doc_id,doc_id,doc_id],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = ["none","none", "none"],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+
+    # complete the A
+    if len(B_index)==0:
+        pass
+    else:
+        for k in range(int(len(B_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                ids.append((B_y[i],B_x[i]))
+                x1, x2 = pos_dict[B_y[i]]
+                y1, y2 = pos_dict[B_x[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[2,2,2],
+                        doc_id=[doc_id,doc_id,doc_id],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = ["none","none", "none"],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+
+
+   # complete the O
+    if len(O_index) % 3 == 2:
+        O_index.append(O_index[len(O_index)-1])
+        O_x = np.append(O_x, O_x[0:1])
+        O_y = np.append(O_y, O_y[0:1])
+    if len(O_index) % 3 ==1:
+        O_index.append(O_index[len(O_index)-1])
+        O_x = np.append(O_x, O_x[0:1])
+        O_y = np.append(O_y, O_y[0:1])
+        O_x = np.append(O_x, O_x[0:1])
+        O_y = np.append(O_y, O_y[0:1])
+    print(len(O_index)/3)
+
+    if len(O_index)==0:
+        pass
+    else:
+        for k in range(int(len(O_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                ids.append((O_x[i],O_y[i]))
+                x1, x2 = pos_dict[O_x[i]]
+                y1, y2 = pos_dict[O_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[0,0,0],
+                        doc_id=[doc_id,doc_id,doc_id],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = ["none","none","none"],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+
+    if len(O_index)==0:
+        pass
+    else:
+        for k in range(int(len(O_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                ids.append((O_y[i],O_x[i]))
+                x1, x2 = pos_dict[O_y[i]]
+                y1, y2 = pos_dict[O_x[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[0,0,0],
+                        doc_id=[doc_id,doc_id,doc_id],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = ["none","none","none"],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+
+
+
+    all_x, all_y, all_z = np.where(BBB>0)
+    # rule BBB
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_x[i],all_y[i]), (all_y[i],all_z[i]), (all_x[i],all_z[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[1,1,1],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["BBB","BBB","BBB"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+            
+    # rule AAA
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_z[i],all_y[i]), (all_y[i],all_x[i]), (all_z[i],all_x[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[2,2,2],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["AAA","AAA","AAA"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+            
+
+    all_x, all_y, all_z = np.where(BOB>0)
+    # rule BOB
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_x[i],all_y[i]), (all_y[i],all_z[i]), (all_x[i],all_z[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[1,0,1],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["BOB","BOB","BOB"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+      
+    # rule OAA
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_z[i],all_y[i]), (all_y[i],all_x[i]), (all_z[i],all_x[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[0,2,2],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["OAA","OAA","OAA"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+     
+    all_x, all_y, all_z = np.where(OBB>0)
+    # rule OBB
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_x[i],all_y[i]), (all_y[i],all_z[i]), (all_x[i],all_z[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[0,1,1],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["OBB","OBB","OBB"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+      
+    # rule AOA
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_z[i],all_y[i]), (all_y[i],all_x[i]), (all_z[i],all_x[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[2,0,2],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["AOA","AOA","AOA"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+    
+    all_x, all_y, all_z = np.where(OOO>0)
+    # rule OOO
+    for i in range(all_x.shape[0]):
+        input_ids, token_type_ids, attention_masks = [], [], []
+        ids = [(all_x[i],all_y[i]), (all_y[i],all_z[i]), (all_x[i],all_z[i])]
+        for e1, e2 in ids:
+            x1, x2 = pos_dict[e1]
+            y1, y2 = pos_dict[e2]
+            if x1 > y1:
+                x1,x2,y1,y2 = y1,y2,x1,x2
+                new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            else:
+                new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                new_text = ' '.join(new_text)
+            
+            inputs = tokenizer.encode_plus(
+                new_text,
+                add_special_tokens=True,
+                max_length=max_length,
+            )
+            node_pos_1 = node_pos_2 = -1
+            text = tokenizer.tokenize(new_text)
+            for j in range(len(text)-4):
+                if text[:4] == ['[', 'e', '##1', ']']:
+                    node_pos_1 = j + 4
+                elif text[:4] == ['[', 'e', '##2', ']']:
+                    node_pos_2 = j + 4
+
+            input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+            attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+            # Zero-pad up to the sequence length.
+            padding_length = max_length - len(input_id)
+
+            if pad_on_left:
+                input_id = ([pad_token] * padding_length) + input_id
+                attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+            else:
+                input_id = input_id + ([pad_token] * padding_length)
+                attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+            assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+            assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+            assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+            input_ids.append(input_id)
+            token_type_ids.append(token_type_id)
+            attention_masks.append(attention_mask)
+
+        sources = 1
+        features.append(
+        Input_SB_Features(input_ids=input_ids,
+                    attention_masks=attention_masks,
+                    token_type_ids=token_type_ids,
+                    #matrix=example.matrix,
+                    relations=[0,0,0],
+                    doc_id=[doc_id,doc_id,doc_id],
+                    sen_id=[sen_id,sen_id,sen_id],
+                    ids=ids,
+                    sources = [sources,sources,sources],
+                    rules = ["OOO","OOO","OOO"],
+                    #node_pos = (node_pos_1, node_pos_2),
+                    ))
+
+            # in case x>y
+ 
+
+
+def rule_tensor(A, B):
+    '''
+    Cijk = Aij * Bjk
+    '''
+    n = A.shape[0]
+    A = A.reshape(n,n,1)
+    B = B.reshape(1,n,n)
+    C = A*B
+    
+    return C
 
 
 
@@ -1855,7 +2698,7 @@ def iter_rule_update(BM= None, OM=None,n_iter= 3,  wrong_count=None):
     OOM = np.copy(OM)
     OBM = np.copy(BM)
     OM = OM + OM.transpose()
-    OM = OM + np.matmul(OM, OM)
+    #OM = OM + np.matmul(OM, OM)
 
     # iteratively update BM
     for _ in range(n_iter):

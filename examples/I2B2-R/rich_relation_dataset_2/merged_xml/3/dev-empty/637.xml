@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-03-27
+Discharge Date :
+2013-04-01
+Service : NEUROSURGERY
+Allergies :
+History of Present Illness :
+58 yo female s/p high speed MVC .
+She lost contaol of her car , she hit the Barnes rails then the car stopped .
+Another car was coming behind her did not see her car , hit again , the person checked the car , she was not inside .
++LOC , GCS:14 .
+She ejected .
+She brought by EMS to Nantucket Cottage Hospital for furher evaluation .
+Brief Hospital Course :
+The patient was admitted to Nantucket Cottage Hospital on 2013-03-27 following a motor vehicle crash as described previously .
+Chest and pelvis X-rays were negative for fractures .
+A CT of her head demonstrated intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres , right greater than left , in a pattern indicating contrecoup injury .
+A CT of her C-spine revealed a possible fracture of right C7 pedicle .
+A CT of her chest revealed bliateral lung nodules and a right thyroid nodule .
+A CT of her sinues revealed no fractures .
+X-rays of her right lower extremity were negative for any acute injury .
+A neurosurgery consult was obtained .
+Our recommendations were to load her with Dilantin and then continue at 100 mg PO TID .
+The orthopedics spine service saw her and put her in a C-collar .
+She was admitted to the trauma ICU .
+A repeat head CT 12 hours after the first was largely unchanged .
+She was transferred to step down .
+She was having some pain issues and morphine was making her " jittery ."
+On HD 2 she was switched to Fioricet , which helped with her headaches .
+A repeact head CT was unchanged .
+An MRI of her C-spine was done to evaluate for ligamentous injury , but this was extremely limited examination due to patient motion and the signal in the spinal cord could not be adequately assessed for edema .
+As per CMED CSRU spine , the patient was instructed to follow-up in 2 weeks for repeat X-rays .
+On discharge she was awake , alert and orientated X3 with c/o mild headache .
+She had full strength motor exam , no pronator drift and PERRLA with full EOM s.
+She was ambulating without difficulties .
+On 04-01 she was seen by physical therapy was thought to benefit from acute rehabilitation .
+She had a head CT prior to discharge that showed resolution of the subarachnoid hemorrhage .
+Follow-up in 1 month with neurosurgery for a repeat head CT was arranged .
+She was discharged on fioricet and dilantin .
+She was counseled to follow-up with her PCP F 6-12 months regading the right thyroid nodule and the bilateral small lung nodules seen on her chest CT .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1007" end="1025" text="A CT of her sinues" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1026" end="1034" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="1038" end="1047" text="fractures" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="1050" end="1085" text="X-rays of her right lower extremity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="1104" end="1120" text="any acute injury" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1123" end="1137" text="A neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1203" end="1211" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1249" end="1278" text="The orthopedics spine service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1302" end="1312" text="a C-collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1323" end="1331" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1335" end="1349" text="the trauma ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="1352" end="1368" text="A repeat head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="138" end="152" text="high speed MVC" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1384" end="1393" text="the first" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1398" end="1415" text="largely unchanged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1426" end="1437" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1441" end="1450" text="step down" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="1468" end="1484" text="some pain issues" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1489" end="1497" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1515" end="1522" text="jittery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1554" end="1562" text="Fioricet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1571" end="1577" text="helped" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="1583" end="1596" text="her headaches" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="159" end="182" text="lost contaol of her car" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1599" end="1616" text="A repeact head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1621" end="1630" text="unchanged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1633" end="1654" text="An MRI of her C-spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1680" end="1698" text="ligamentous injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1714" end="1743" text="extremely limited examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1837" end="1842" text="edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1852" end="1867" text="CMED CSRU spine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="189" end="209" text="hit the Barnes rails" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1900" end="1909" text="follow-up" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1925" end="1938" text="repeat X-rays" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1944" end="1953" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1962" end="1993" text="awake , alert and orientated X3" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2003" end="2016" text="mild headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2027" end="2051" text="full strength motor exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2057" end="2071" text="pronator drift" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E66" start="2076" end="2082" text="PERRLA" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2088" end="2099" text="full EOM s." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2108" end="2118" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2127" end="2139" text="difficulties" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="215" end="230" text="the car stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2159" end="2183" text="seen by physical therapy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="2212" end="2232" text="acute rehabilitation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="2243" end="2252" text="a head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2262" end="2271" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2277" end="2283" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E73" start="2298" end="2325" text="the subarachnoid hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2328" end="2337" text="Follow-up" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2354" end="2366" text="neurosurgery" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E76" start="2371" end="2387" text="a repeat head CT" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2411" end="2421" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2425" end="2433" text="fioricet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2438" end="2446" text="dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2470" end="2479" text="follow-up" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2485" end="2492" text="her PCP" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="2516" end="2540" text="the right thyroid nodule" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2545" end="2577" text="the bilateral small lung nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2586" end="2598" text="her chest CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="351" end="355" text="+LOC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="358" end="364" text="GCS:14" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="371" end="378" text="ejected" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="396" end="399" text="EMS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="403" end="429" text="Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="434" end="451" text="furher evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="494" end="502" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="506" end="532" text="Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="557" end="578" text="a motor vehicle crash" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="605" end="628" text="Chest and pelvis X-rays" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="647" end="656" text="fractures" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E4" start="659" end="675" text="A CT of her head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="676" end="688" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="689" end="784" text="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="837" end="854" text="contrecoup injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="857" end="876" text="A CT of her C-spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="877" end="885" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="897" end="925" text="fracture of right C7 pedicle" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="928" end="945" text="A CT of her chest" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="946" end="954" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="955" end="977" text="bliateral lung nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="982" end="1004" text="a right thyroid nodule" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1243" end="1246" text="TID" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T5" start="1369" end="1383" text="12 hours after" type="TIME" val="2013-03-27T12:00" mod="APPROX" />
+<TIMEX3 id="T6" start="1529" end="1533" text="HD 2" type="DATE" val="2013-03-29" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-03-27" type="DATE" val="2013-03-27" mod="NA" />
+<TIMEX3 id="T7" start="1913" end="1920" text="2 weeks" type="DATE" val="2013-04-15" mod="NA" />
+<TIMEX3 id="T2" start="2145" end="2150" text="04-01" type="DATE" val="2013-04-01" mod="NA" />
+<TIMEX3 id="T8" start="2341" end="2348" text="1 month" type="DATE" val="2013-05-01" mod="APPROX" />
+<TIMEX3 id="T9" start="2495" end="2506" text="6-12 months" type="DATE" val="2014-01-01" mod="APPROX" />
+<TIMEX3 id="T3" start="46" end="56" text="2013-04-01" type="DATE" val="2013-04-01" mod="NA" />
+<TIMEX3 id="T1" start="536" end="546" text="2013-03-27" type="DATE" val="2013-03-27" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2013-03-27" type="ADMISSION" dvalue="2013-03-27" />
+<SECTIME id="S1" start="46" end="56" text="2013-04-01" type="DISCHARGE" dvalue="2013-04-01" />
+<TLINK id="TL0" fromID="T4" fromText="TID" toID="E46" toText="Dilantin" type="OVERLAP" />
+<TLINK id="TL1" fromID="E68" fromText="ambulating" toID="E61" toText="discharge" type="BEFORE" />
+<TLINK id="TL2" fromID="E66" fromText="PERRLA" toID="E67" toText="full EOM s." type="OVERLAP" />
+<TLINK id="TL3" fromID="E33" fromText="Nantucket Cottage Hospital" toID="E32" toText="EMS" type="OVERLAP" />
+<TLINK id="TL4" fromID="E34" fromText="furher evaluation" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL5" fromID="E13" fromText="a C-collar" toID="E47" toText="The orthopedics spine service" type="AFTER" />
+<TLINK id="TL6" fromID="E10" fromText="fractures" toID="E44" toText="revealed" type="BEFORE" />
+<TLINK id="TL7" fromID="E9" fromText="A CT of her sinues" toID="E44" toText="revealed" type="OVERLAP" />
+<TLINK id="TL8" fromID="E82" fromText="the right thyroid nodule" toID="E80" toText="follow-up" type="BEFORE" />
+<TLINK id="TL9" fromID="E82" fromText="the right thyroid nodule" toID="E84" toText="her chest CT" type="BEFORE" />
+<TLINK id="TL10" fromID="E83" fromText="the bilateral small lung nodules" toID="E84" toText="her chest CT" type="BEFORE" />
+<TLINK id="TL11" fromID="E80" fromText="follow-up" toID="E81" toText="her PCP" type="OVERLAP" />
+<TLINK id="TL12" fromID="E80" fromText="follow-up" toID="T9" toText="6-12 months" type="AFTER" />
+<TLINK id="TL13" fromID="E42" fromText="bliateral lung nodules" toID="E41" toText="revealed" type="BEFORE" />
+<TLINK id="TL14" fromID="E43" fromText="a right thyroid nodule" toID="E41" toText="revealed" type="BEFORE" />
+<TLINK id="TL15" fromID="E41" fromText="revealed" toID="E8" toText="A CT of her chest" type="OVERLAP" />
+<TLINK id="TL16" fromID="E40" fromText="fracture of right C7 pedicle" toID="E39" toText="revealed" type="BEFORE" />
+<TLINK id="TL17" fromID="E7" fromText="A CT of her C-spine" toID="E39" toText="revealed" type="OVERLAP" />
+<TLINK id="TL18" fromID="E24" fromText="a head CT" toID="E71" toText="discharge" type="BEFORE" />
+<TLINK id="TL19" fromID="E73" fromText="the subarachnoid hemorrhage" toID="E72" toText="showed" type="BEFORE" />
+<TLINK id="TL20" fromID="E72" fromText="showed" toID="E24" toText="a head CT" type="OVERLAP" />
+<TLINK id="TL21" fromID="E32" fromText="EMS" toID="E31" toText="ejected" type="AFTER" />
+<TLINK id="TL22" fromID="E46" fromText="Dilantin" toID="E45" toText="A neurosurgery" type="AFTER" />
+<TLINK id="TL23" fromID="E23" fromText="acute rehabilitation" toID="E70" toText="seen by physical therapy" type="BEFORE" />
+<TLINK id="TL24" fromID="E70" fromText="seen by physical therapy" toID="T2" toText="04-01" type="OVERLAP" />
+<TLINK id="TL25" fromID="E68" fromText="ambulating" toID="E69" toText="difficulties" type="OVERLAP" />
+<TLINK id="TL26" fromID="E18" fromText="Fioricet" toID="T6" toText="HD 2" type="AFTER" />
+<TLINK id="TL27" fromID="E54" fromText="helped" toID="E18" toText="Fioricet" type="OVERLAP" />
+<TLINK id="TL28" fromID="E54" fromText="helped" toID="E19" toText="her headaches" type="AFTER" />
+<TLINK id="TL29" fromID="E26" fromText="Discharge" toID="T3" toText="2013-04-01" type="OVERLAP" />
+<TLINK id="TL30" fromID="E5" fromText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" toID="E38" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL31" fromID="E4" fromText="A CT of her head" toID="E38" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL32" fromID="E5" fromText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" toID="E6" toText="contrecoup injury" type="OVERLAP" />
+<TLINK id="TL33" fromID="E35" fromText="admitted" toID="E37" toText="a motor vehicle crash" type="AFTER" />
+<TLINK id="TL34" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E35" toText="admitted" type="AFTER" />
+<TLINK id="TL35" fromID="E2" fromText="Chest and pelvis X-rays" toID="E35" toText="admitted" type="OVERLAP" />
+<TLINK id="TL36" fromID="E35" fromText="admitted" toID="T1" toText="2013-03-27" type="OVERLAP" />
+<TLINK id="TL37" fromID="E15" fromText="some pain issues" toID="E16" toText="morphine" type="OVERLAP" />
+<TLINK id="TL38" fromID="E16" fromText="morphine" toID="E17" toText="jittery" type="OVERLAP" />
+<TLINK id="TL39" fromID="E0" fromText="Admission" toID="T0" toText="2013-03-27" type="OVERLAP" />
+<TLINK id="TL40" fromID="E25" fromText="lost contaol of her car" toID="E27" toText="high speed MVC" type="OVERLAP" />
+<TLINK id="TL41" fromID="E49" fromText="the trauma ICU" toID="E48" toText="admitted" type="AFTER" />
+<TLINK id="TL42" fromID="E56" fromText="ligamentous injury" toID="E21" toText="An MRI of her C-spine" type="BEFORE" />
+<TLINK id="TL43" fromID="E57" fromText="edema" toID="E22" toText="extremely limited examination" type="BEFORE" />
+<TLINK id="TL44" fromID="E22" fromText="extremely limited examination" toID="E21" toText="An MRI of her C-spine" type="OVERLAP" />
+<TLINK id="TL45" fromID="E45" fromText="A neurosurgery" toID="E11" toText="X-rays of her right lower extremity" type="AFTER" />
+<TLINK id="TL46" fromID="E12" fromText="any acute injury" toID="E11" toText="X-rays of her right lower extremity" type="BEFORE" />
+<TLINK id="TL47" fromID="E20" fromText="A repeact head CT" toID="E55" toText="unchanged" type="OVERLAP" />
+<TLINK id="TL48" fromID="E30" fromText="+LOC" toID="E31" toText="ejected" type="BEFORE" />
+<TLINK id="TL49" fromID="E30" fromText="+LOC" toID="E1" toText="GCS:14" type="OVERLAP" />
+<TLINK id="TL50" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL51" fromID="E53" fromText="step down" toID="E52" toText="transferred" type="AFTER" />
+<TLINK id="TL52" fromID="E3" fromText="fractures" toID="E2" toText="Chest and pelvis X-rays" type="BEFORE" />
+<TLINK id="TL53" fromID="E74" fromText="Follow-up" toID="T8" toText="1 month" type="OVERLAP" />
+<TLINK id="TL54" fromID="E74" fromText="Follow-up" toID="E75" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL55" fromID="E76" fromText="a repeat head CT" toID="E74" toText="Follow-up" type="OVERLAP" />
+<TLINK id="TL56" fromID="E77" fromText="discharged" toID="E71" toText="discharge" type="OVERLAP" />
+<TLINK id="TL57" fromID="E78" fromText="fioricet" toID="E79" toText="dilantin" type="OVERLAP" />
+<TLINK id="TL58" fromID="E64" fromText="full strength motor exam" toID="E61" toText="discharge" type="AFTER" />
+<TLINK id="TL59" fromID="E65" fromText="pronator drift" toID="E61" toText="discharge" type="OVERLAP" />
+<TLINK id="TL60" fromID="E62" fromText="awake , alert and orientated X3" toID="E61" toText="discharge" type="OVERLAP" />
+<TLINK id="TL61" fromID="E63" fromText="mild headache" toID="E61" toText="discharge" type="BEFORE" />
+<TLINK id="TL62" fromID="E28" fromText="hit the Barnes rails" toID="E25" toText="lost contaol of her car" type="OVERLAP" />
+<TLINK id="TL63" fromID="E29" fromText="the car stopped" toID="E28" toText="hit the Barnes rails" type="AFTER" />
+<TLINK id="TL64" fromID="E49" fromText="the trauma ICU" toID="E52" toText="transferred" type="BEFORE" />
+<TLINK id="TL65" fromID="E14" fromText="A repeat head CT" toID="T5" toText="12 hours after" type="AFTER" />
+<TLINK id="TL66" fromID="T5" fromText="12 hours after" toID="E50" toText="the first" type="AFTER" />
+<TLINK id="TL67" fromID="E51" fromText="largely unchanged" toID="E14" toText="A repeat head CT" type="OVERLAP" />
+<TLINK id="TL68" fromID="E59" fromText="follow-up" toID="E58" toText="CMED CSRU spine" type="AFTER" />
+<TLINK id="TL69" fromID="E59" fromText="follow-up" toID="E60" toText="repeat X-rays" type="OVERLAP" />
+<TLINK id="TL70" fromID="E46" fromText="Dilantin" toID="T4" toText="TID" type="OVERLAP" />
+<TLINK id="TL71" fromID="T4" fromText="TID" toID="E46" toText="Dilantin" type="OVERLAP" />
+<TLINK id="TL72" fromID="E68" fromText="ambulating" toID="E61" toText="discharge" type="BEFORE" />
+<TLINK id="TL73" fromID="E66" fromText="PERRLA" toID="E67" toText="full EOM s." type="OVERLAP" />
+<TLINK id="TL74" fromID="E67" fromText="full EOM s." toID="E66" toText="PERRLA" type="OVERLAP" />
+<TLINK id="TL75" fromID="E61" fromText="discharge" toID="E68" toText="ambulating" type="AFTER" />
+<TLINK id="TL76" fromID="E32" fromText="EMS" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL77" fromID="E32" fromText="EMS" toID="E34" toText="furher evaluation" type="OVERLAP" />
+<TLINK id="TL78" fromID="E33" fromText="Nantucket Cottage Hospital" toID="E32" toText="EMS" type="OVERLAP" />
+<TLINK id="TL79" fromID="E33" fromText="Nantucket Cottage Hospital" toID="E34" toText="furher evaluation" type="OVERLAP" />
+<TLINK id="TL80" fromID="E34" fromText="furher evaluation" toID="E32" toText="EMS" type="OVERLAP" />
+<TLINK id="TL81" fromID="E34" fromText="furher evaluation" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL82" fromID="E47" fromText="The orthopedics spine service" toID="E13" toText="a C-collar" type="BEFORE" />
+<TLINK id="TL83" fromID="E13" fromText="a C-collar" toID="E47" toText="The orthopedics spine service" type="AFTER" />
+<TLINK id="TL84" fromID="E10" fromText="fractures" toID="E9" toText="A CT of her sinues" type="BEFORE" />
+<TLINK id="TL85" fromID="E10" fromText="fractures" toID="E44" toText="revealed" type="BEFORE" />
+<TLINK id="TL86" fromID="E9" fromText="A CT of her sinues" toID="E44" toText="revealed" type="OVERLAP" />
+<TLINK id="TL87" fromID="E44" fromText="revealed" toID="E9" toText="A CT of her sinues" type="OVERLAP" />
+<TLINK id="TL88" fromID="E9" fromText="A CT of her sinues" toID="E10" toText="fractures" type="AFTER" />
+<TLINK id="TL89" fromID="E44" fromText="revealed" toID="E10" toText="fractures" type="AFTER" />
+<TLINK id="TL90" fromID="T9" fromText="6-12 months" toID="E80" toText="follow-up" type="BEFORE" />
+<TLINK id="TL91" fromID="T9" fromText="6-12 months" toID="E81" toText="her PCP" type="BEFORE" />
+<TLINK id="TL92" fromID="E82" fromText="the right thyroid nodule" toID="E80" toText="follow-up" type="BEFORE" />
+<TLINK id="TL93" fromID="E82" fromText="the right thyroid nodule" toID="E81" toText="her PCP" type="BEFORE" />
+<TLINK id="TL94" fromID="E82" fromText="the right thyroid nodule" toID="E84" toText="her chest CT" type="BEFORE" />
+<TLINK id="TL95" fromID="E83" fromText="the bilateral small lung nodules" toID="E84" toText="her chest CT" type="BEFORE" />
+<TLINK id="TL96" fromID="E80" fromText="follow-up" toID="E81" toText="her PCP" type="OVERLAP" />
+<TLINK id="TL97" fromID="E81" fromText="her PCP" toID="E80" toText="follow-up" type="OVERLAP" />
+<TLINK id="TL98" fromID="E80" fromText="follow-up" toID="T9" toText="6-12 months" type="AFTER" />
+<TLINK id="TL99" fromID="E80" fromText="follow-up" toID="E82" toText="the right thyroid nodule" type="AFTER" />
+<TLINK id="TL100" fromID="E81" fromText="her PCP" toID="T9" toText="6-12 months" type="AFTER" />
+<TLINK id="TL101" fromID="E81" fromText="her PCP" toID="E82" toText="the right thyroid nodule" type="AFTER" />
+<TLINK id="TL102" fromID="E84" fromText="her chest CT" toID="E82" toText="the right thyroid nodule" type="AFTER" />
+<TLINK id="TL103" fromID="E84" fromText="her chest CT" toID="E83" toText="the bilateral small lung nodules" type="AFTER" />
+<TLINK id="TL104" fromID="E42" fromText="bliateral lung nodules" toID="E8" toText="A CT of her chest" type="BEFORE" />
+<TLINK id="TL105" fromID="E42" fromText="bliateral lung nodules" toID="E41" toText="revealed" type="BEFORE" />
+<TLINK id="TL106" fromID="E43" fromText="a right thyroid nodule" toID="E8" toText="A CT of her chest" type="BEFORE" />
+<TLINK id="TL107" fromID="E43" fromText="a right thyroid nodule" toID="E41" toText="revealed" type="BEFORE" />
+<TLINK id="TL108" fromID="E8" fromText="A CT of her chest" toID="E41" toText="revealed" type="OVERLAP" />
+<TLINK id="TL109" fromID="E41" fromText="revealed" toID="E8" toText="A CT of her chest" type="OVERLAP" />
+<TLINK id="TL110" fromID="E8" fromText="A CT of her chest" toID="E42" toText="bliateral lung nodules" type="AFTER" />
+<TLINK id="TL111" fromID="E8" fromText="A CT of her chest" toID="E43" toText="a right thyroid nodule" type="AFTER" />
+<TLINK id="TL112" fromID="E41" fromText="revealed" toID="E42" toText="bliateral lung nodules" type="AFTER" />
+<TLINK id="TL113" fromID="E41" fromText="revealed" toID="E43" toText="a right thyroid nodule" type="AFTER" />
+<TLINK id="TL114" fromID="E40" fromText="fracture of right C7 pedicle" toID="E7" toText="A CT of her C-spine" type="BEFORE" />
+<TLINK id="TL115" fromID="E40" fromText="fracture of right C7 pedicle" toID="E39" toText="revealed" type="BEFORE" />
+<TLINK id="TL116" fromID="E7" fromText="A CT of her C-spine" toID="E39" toText="revealed" type="OVERLAP" />
+<TLINK id="TL117" fromID="E39" fromText="revealed" toID="E7" toText="A CT of her C-spine" type="OVERLAP" />
+<TLINK id="TL118" fromID="E7" fromText="A CT of her C-spine" toID="E40" toText="fracture of right C7 pedicle" type="AFTER" />
+<TLINK id="TL119" fromID="E39" fromText="revealed" toID="E40" toText="fracture of right C7 pedicle" type="AFTER" />
+<TLINK id="TL120" fromID="E24" fromText="a head CT" toID="E71" toText="discharge" type="BEFORE" />
+<TLINK id="TL121" fromID="E72" fromText="showed" toID="E71" toText="discharge" type="BEFORE" />
+<TLINK id="TL122" fromID="E73" fromText="the subarachnoid hemorrhage" toID="E24" toText="a head CT" type="BEFORE" />
+<TLINK id="TL123" fromID="E73" fromText="the subarachnoid hemorrhage" toID="E71" toText="discharge" type="BEFORE" />
+<TLINK id="TL124" fromID="E73" fromText="the subarachnoid hemorrhage" toID="E72" toText="showed" type="BEFORE" />
+<TLINK id="TL125" fromID="E24" fromText="a head CT" toID="E72" toText="showed" type="OVERLAP" />
+<TLINK id="TL126" fromID="E72" fromText="showed" toID="E24" toText="a head CT" type="OVERLAP" />
+<TLINK id="TL127" fromID="E24" fromText="a head CT" toID="E73" toText="the subarachnoid hemorrhage" type="AFTER" />
+<TLINK id="TL128" fromID="E71" fromText="discharge" toID="E24" toText="a head CT" type="AFTER" />
+<TLINK id="TL129" fromID="E71" fromText="discharge" toID="E72" toText="showed" type="AFTER" />
+<TLINK id="TL130" fromID="E71" fromText="discharge" toID="E73" toText="the subarachnoid hemorrhage" type="AFTER" />
+<TLINK id="TL131" fromID="E72" fromText="showed" toID="E73" toText="the subarachnoid hemorrhage" type="AFTER" />
+<TLINK id="TL132" fromID="E31" fromText="ejected" toID="E32" toText="EMS" type="BEFORE" />
+<TLINK id="TL133" fromID="E32" fromText="EMS" toID="E31" toText="ejected" type="AFTER" />
+<TLINK id="TL134" fromID="E45" fromText="A neurosurgery" toID="E46" toText="Dilantin" type="BEFORE" />
+<TLINK id="TL135" fromID="E46" fromText="Dilantin" toID="E45" toText="A neurosurgery" type="AFTER" />
+<TLINK id="TL136" fromID="E23" fromText="acute rehabilitation" toID="T2" toText="04-01" type="BEFORE" />
+<TLINK id="TL137" fromID="E23" fromText="acute rehabilitation" toID="E70" toText="seen by physical therapy" type="BEFORE" />
+<TLINK id="TL138" fromID="T2" fromText="04-01" toID="E70" toText="seen by physical therapy" type="OVERLAP" />
+<TLINK id="TL139" fromID="E70" fromText="seen by physical therapy" toID="T2" toText="04-01" type="OVERLAP" />
+<TLINK id="TL140" fromID="T2" fromText="04-01" toID="E23" toText="acute rehabilitation" type="AFTER" />
+<TLINK id="TL141" fromID="E70" fromText="seen by physical therapy" toID="E23" toText="acute rehabilitation" type="AFTER" />
+<TLINK id="TL142" fromID="E68" fromText="ambulating" toID="E69" toText="difficulties" type="OVERLAP" />
+<TLINK id="TL143" fromID="E69" fromText="difficulties" toID="E68" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL144" fromID="T6" fromText="HD 2" toID="E18" toText="Fioricet" type="BEFORE" />
+<TLINK id="TL145" fromID="T6" fromText="HD 2" toID="E54" toText="helped" type="BEFORE" />
+<TLINK id="TL146" fromID="E19" fromText="her headaches" toID="E18" toText="Fioricet" type="BEFORE" />
+<TLINK id="TL147" fromID="E19" fromText="her headaches" toID="E54" toText="helped" type="BEFORE" />
+<TLINK id="TL148" fromID="E18" fromText="Fioricet" toID="E54" toText="helped" type="OVERLAP" />
+<TLINK id="TL149" fromID="E54" fromText="helped" toID="E18" toText="Fioricet" type="OVERLAP" />
+<TLINK id="TL150" fromID="E18" fromText="Fioricet" toID="T6" toText="HD 2" type="AFTER" />
+<TLINK id="TL151" fromID="E18" fromText="Fioricet" toID="E19" toText="her headaches" type="AFTER" />
+<TLINK id="TL152" fromID="E54" fromText="helped" toID="T6" toText="HD 2" type="AFTER" />
+<TLINK id="TL153" fromID="E54" fromText="helped" toID="E19" toText="her headaches" type="AFTER" />
+<TLINK id="TL154" fromID="E26" fromText="Discharge" toID="T3" toText="2013-04-01" type="OVERLAP" />
+<TLINK id="TL155" fromID="T3" fromText="2013-04-01" toID="E26" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL156" fromID="E5" fromText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" toID="E4" toText="A CT of her head" type="BEFORE" />
+<TLINK id="TL157" fromID="E5" fromText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" toID="E38" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL158" fromID="E6" fromText="contrecoup injury" toID="E4" toText="A CT of her head" type="BEFORE" />
+<TLINK id="TL159" fromID="E6" fromText="contrecoup injury" toID="E38" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL160" fromID="E4" fromText="A CT of her head" toID="E38" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL161" fromID="E38" fromText="demonstrated" toID="E4" toText="A CT of her head" type="OVERLAP" />
+<TLINK id="TL162" fromID="E5" fromText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" toID="E6" toText="contrecoup injury" type="OVERLAP" />
+<TLINK id="TL163" fromID="E6" fromText="contrecoup injury" toID="E5" toText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" type="OVERLAP" />
+<TLINK id="TL164" fromID="E4" fromText="A CT of her head" toID="E5" toText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" type="AFTER" />
+<TLINK id="TL165" fromID="E4" fromText="A CT of her head" toID="E6" toText="contrecoup injury" type="AFTER" />
+<TLINK id="TL166" fromID="E38" fromText="demonstrated" toID="E5" toText="intraparenchymal and extraaxial blood ( mostly subarachnoid ) in bilateral cerebral hemispheres" type="AFTER" />
+<TLINK id="TL167" fromID="E38" fromText="demonstrated" toID="E6" toText="contrecoup injury" type="AFTER" />
+<TLINK id="TL168" fromID="E35" fromText="admitted" toID="E36" toText="Nantucket Cottage Hospital" type="BEFORE" />
+<TLINK id="TL169" fromID="T1" fromText="2013-03-27" toID="E36" toText="Nantucket Cottage Hospital" type="BEFORE" />
+<TLINK id="TL170" fromID="E37" fromText="a motor vehicle crash" toID="E35" toText="admitted" type="BEFORE" />
+<TLINK id="TL171" fromID="E37" fromText="a motor vehicle crash" toID="E36" toText="Nantucket Cottage Hospital" type="BEFORE" />
+<TLINK id="TL172" fromID="E37" fromText="a motor vehicle crash" toID="T1" toText="2013-03-27" type="BEFORE" />
+<TLINK id="TL173" fromID="E37" fromText="a motor vehicle crash" toID="E2" toText="Chest and pelvis X-rays" type="BEFORE" />
+<TLINK id="TL174" fromID="E2" fromText="Chest and pelvis X-rays" toID="E36" toText="Nantucket Cottage Hospital" type="BEFORE" />
+<TLINK id="TL175" fromID="E35" fromText="admitted" toID="T1" toText="2013-03-27" type="OVERLAP" />
+<TLINK id="TL176" fromID="E35" fromText="admitted" toID="E2" toText="Chest and pelvis X-rays" type="OVERLAP" />
+<TLINK id="TL177" fromID="T1" fromText="2013-03-27" toID="E35" toText="admitted" type="OVERLAP" />
+<TLINK id="TL178" fromID="T1" fromText="2013-03-27" toID="E2" toText="Chest and pelvis X-rays" type="OVERLAP" />
+<TLINK id="TL179" fromID="E2" fromText="Chest and pelvis X-rays" toID="E35" toText="admitted" type="OVERLAP" />
+<TLINK id="TL180" fromID="E2" fromText="Chest and pelvis X-rays" toID="T1" toText="2013-03-27" type="OVERLAP" />
+<TLINK id="TL181" fromID="E35" fromText="admitted" toID="E37" toText="a motor vehicle crash" type="AFTER" />
+<TLINK id="TL182" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E35" toText="admitted" type="AFTER" />
+<TLINK id="TL183" fromID="E36" fromText="Nantucket Cottage Hospital" toID="T1" toText="2013-03-27" type="AFTER" />
+<TLINK id="TL184" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E37" toText="a motor vehicle crash" type="AFTER" />
+<TLINK id="TL185" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E2" toText="Chest and pelvis X-rays" type="AFTER" />
+<TLINK id="TL186" fromID="T1" fromText="2013-03-27" toID="E37" toText="a motor vehicle crash" type="AFTER" />
+<TLINK id="TL187" fromID="E2" fromText="Chest and pelvis X-rays" toID="E37" toText="a motor vehicle crash" type="AFTER" />
+<TLINK id="TL188" fromID="E15" fromText="some pain issues" toID="E16" toText="morphine" type="OVERLAP" />
+<TLINK id="TL189" fromID="E15" fromText="some pain issues" toID="E17" toText="jittery" type="OVERLAP" />
+<TLINK id="TL190" fromID="E16" fromText="morphine" toID="E15" toText="some pain issues" type="OVERLAP" />
+<TLINK id="TL191" fromID="E16" fromText="morphine" toID="E17" toText="jittery" type="OVERLAP" />
+<TLINK id="TL192" fromID="E17" fromText="jittery" toID="E15" toText="some pain issues" type="OVERLAP" />
+<TLINK id="TL193" fromID="E17" fromText="jittery" toID="E16" toText="morphine" type="OVERLAP" />
+<TLINK id="TL194" fromID="E0" fromText="Admission" toID="T0" toText="2013-03-27" type="OVERLAP" />
+<TLINK id="TL195" fromID="T0" fromText="2013-03-27" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL196" fromID="E27" fromText="high speed MVC" toID="E25" toText="lost contaol of her car" type="OVERLAP" />
+<TLINK id="TL197" fromID="E25" fromText="lost contaol of her car" toID="E27" toText="high speed MVC" type="OVERLAP" />
+<TLINK id="TL198" fromID="E48" fromText="admitted" toID="E49" toText="the trauma ICU" type="BEFORE" />
+<TLINK id="TL199" fromID="E49" fromText="the trauma ICU" toID="E48" toText="admitted" type="AFTER" />
+<TLINK id="TL200" fromID="E56" fromText="ligamentous injury" toID="E21" toText="An MRI of her C-spine" type="BEFORE" />
+<TLINK id="TL201" fromID="E56" fromText="ligamentous injury" toID="E22" toText="extremely limited examination" type="BEFORE" />
+<TLINK id="TL202" fromID="E57" fromText="edema" toID="E21" toText="An MRI of her C-spine" type="BEFORE" />
+<TLINK id="TL203" fromID="E57" fromText="edema" toID="E22" toText="extremely limited examination" type="BEFORE" />
+<TLINK id="TL204" fromID="E21" fromText="An MRI of her C-spine" toID="E22" toText="extremely limited examination" type="OVERLAP" />
+<TLINK id="TL205" fromID="E22" fromText="extremely limited examination" toID="E21" toText="An MRI of her C-spine" type="OVERLAP" />
+<TLINK id="TL206" fromID="E21" fromText="An MRI of her C-spine" toID="E56" toText="ligamentous injury" type="AFTER" />
+<TLINK id="TL207" fromID="E21" fromText="An MRI of her C-spine" toID="E57" toText="edema" type="AFTER" />
+<TLINK id="TL208" fromID="E22" fromText="extremely limited examination" toID="E56" toText="ligamentous injury" type="AFTER" />
+<TLINK id="TL209" fromID="E22" fromText="extremely limited examination" toID="E57" toText="edema" type="AFTER" />
+<TLINK id="TL210" fromID="E11" fromText="X-rays of her right lower extremity" toID="E45" toText="A neurosurgery" type="BEFORE" />
+<TLINK id="TL211" fromID="E12" fromText="any acute injury" toID="E11" toText="X-rays of her right lower extremity" type="BEFORE" />
+<TLINK id="TL212" fromID="E12" fromText="any acute injury" toID="E45" toText="A neurosurgery" type="BEFORE" />
+<TLINK id="TL213" fromID="E11" fromText="X-rays of her right lower extremity" toID="E12" toText="any acute injury" type="AFTER" />
+<TLINK id="TL214" fromID="E45" fromText="A neurosurgery" toID="E11" toText="X-rays of her right lower extremity" type="AFTER" />
+<TLINK id="TL215" fromID="E45" fromText="A neurosurgery" toID="E12" toText="any acute injury" type="AFTER" />
+<TLINK id="TL216" fromID="E20" fromText="A repeact head CT" toID="E55" toText="unchanged" type="OVERLAP" />
+<TLINK id="TL217" fromID="E55" fromText="unchanged" toID="E20" toText="A repeact head CT" type="OVERLAP" />
+<TLINK id="TL218" fromID="E30" fromText="+LOC" toID="E31" toText="ejected" type="BEFORE" />
+<TLINK id="TL219" fromID="E1" fromText="GCS:14" toID="E31" toText="ejected" type="BEFORE" />
+<TLINK id="TL220" fromID="E30" fromText="+LOC" toID="E1" toText="GCS:14" type="OVERLAP" />
+<TLINK id="TL221" fromID="E1" fromText="GCS:14" toID="E30" toText="+LOC" type="OVERLAP" />
+<TLINK id="TL222" fromID="E31" fromText="ejected" toID="E30" toText="+LOC" type="AFTER" />
+<TLINK id="TL223" fromID="E31" fromText="ejected" toID="E1" toText="GCS:14" type="AFTER" />
+<TLINK id="TL224" fromID="E33" fromText="Nantucket Cottage Hospital" toID="E36" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL225" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL226" fromID="E52" fromText="transferred" toID="E53" toText="step down" type="BEFORE" />
+<TLINK id="TL227" fromID="E53" fromText="step down" toID="E52" toText="transferred" type="AFTER" />
+<TLINK id="TL228" fromID="E3" fromText="fractures" toID="E2" toText="Chest and pelvis X-rays" type="BEFORE" />
+<TLINK id="TL229" fromID="E2" fromText="Chest and pelvis X-rays" toID="E3" toText="fractures" type="AFTER" />
+<TLINK id="TL230" fromID="E71" fromText="discharge" toID="E77" toText="discharged" type="OVERLAP" />
+<TLINK id="TL231" fromID="E74" fromText="Follow-up" toID="T8" toText="1 month" type="OVERLAP" />
+<TLINK id="TL232" fromID="E74" fromText="Follow-up" toID="E75" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL233" fromID="E74" fromText="Follow-up" toID="E76" toText="a repeat head CT" type="OVERLAP" />
+<TLINK id="TL234" fromID="T8" fromText="1 month" toID="E74" toText="Follow-up" type="OVERLAP" />
+<TLINK id="TL235" fromID="T8" fromText="1 month" toID="E75" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL236" fromID="T8" fromText="1 month" toID="E76" toText="a repeat head CT" type="OVERLAP" />
+<TLINK id="TL237" fromID="E75" fromText="neurosurgery" toID="E74" toText="Follow-up" type="OVERLAP" />
+<TLINK id="TL238" fromID="E75" fromText="neurosurgery" toID="T8" toText="1 month" type="OVERLAP" />
+<TLINK id="TL239" fromID="E75" fromText="neurosurgery" toID="E76" toText="a repeat head CT" type="OVERLAP" />
+<TLINK id="TL240" fromID="E76" fromText="a repeat head CT" toID="E74" toText="Follow-up" type="OVERLAP" />
+<TLINK id="TL241" fromID="E76" fromText="a repeat head CT" toID="T8" toText="1 month" type="OVERLAP" />
+<TLINK id="TL242" fromID="E76" fromText="a repeat head CT" toID="E75" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL243" fromID="E77" fromText="discharged" toID="E71" toText="discharge" type="OVERLAP" />
+<TLINK id="TL244" fromID="E78" fromText="fioricet" toID="E79" toText="dilantin" type="OVERLAP" />
+<TLINK id="TL245" fromID="E79" fromText="dilantin" toID="E78" toText="fioricet" type="OVERLAP" />
+<TLINK id="TL246" fromID="E61" fromText="discharge" toID="E64" toText="full strength motor exam" type="BEFORE" />
+<TLINK id="TL247" fromID="E62" fromText="awake , alert and orientated X3" toID="E64" toText="full strength motor exam" type="BEFORE" />
+<TLINK id="TL248" fromID="E63" fromText="mild headache" toID="E61" toText="discharge" type="BEFORE" />
+<TLINK id="TL249" fromID="E63" fromText="mild headache" toID="E62" toText="awake , alert and orientated X3" type="BEFORE" />
+<TLINK id="TL250" fromID="E63" fromText="mild headache" toID="E64" toText="full strength motor exam" type="BEFORE" />
+<TLINK id="TL251" fromID="E63" fromText="mild headache" toID="E65" toText="pronator drift" type="BEFORE" />
+<TLINK id="TL252" fromID="E65" fromText="pronator drift" toID="E64" toText="full strength motor exam" type="BEFORE" />
+<TLINK id="TL253" fromID="E61" fromText="discharge" toID="E62" toText="awake , alert and orientated X3" type="OVERLAP" />
+<TLINK id="TL254" fromID="E61" fromText="discharge" toID="E65" toText="pronator drift" type="OVERLAP" />
+<TLINK id="TL255" fromID="E62" fromText="awake , alert and orientated X3" toID="E61" toText="discharge" type="OVERLAP" />
+<TLINK id="TL256" fromID="E62" fromText="awake , alert and orientated X3" toID="E65" toText="pronator drift" type="OVERLAP" />
+<TLINK id="TL257" fromID="E65" fromText="pronator drift" toID="E61" toText="discharge" type="OVERLAP" />
+<TLINK id="TL258" fromID="E65" fromText="pronator drift" toID="E62" toText="awake , alert and orientated X3" type="OVERLAP" />
+<TLINK id="TL259" fromID="E61" fromText="discharge" toID="E63" toText="mild headache" type="AFTER" />
+<TLINK id="TL260" fromID="E62" fromText="awake , alert and orientated X3" toID="E63" toText="mild headache" type="AFTER" />
+<TLINK id="TL261" fromID="E64" fromText="full strength motor exam" toID="E61" toText="discharge" type="AFTER" />
+<TLINK id="TL262" fromID="E64" fromText="full strength motor exam" toID="E62" toText="awake , alert and orientated X3" type="AFTER" />
+<TLINK id="TL263" fromID="E64" fromText="full strength motor exam" toID="E63" toText="mild headache" type="AFTER" />
+<TLINK id="TL264" fromID="E64" fromText="full strength motor exam" toID="E65" toText="pronator drift" type="AFTER" />
+<TLINK id="TL265" fromID="E65" fromText="pronator drift" toID="E63" toText="mild headache" type="AFTER" />
+<TLINK id="TL266" fromID="E25" fromText="lost contaol of her car" toID="E29" toText="the car stopped" type="BEFORE" />
+<TLINK id="TL267" fromID="E28" fromText="hit the Barnes rails" toID="E29" toText="the car stopped" type="BEFORE" />
+<TLINK id="TL268" fromID="E25" fromText="lost contaol of her car" toID="E28" toText="hit the Barnes rails" type="OVERLAP" />
+<TLINK id="TL269" fromID="E28" fromText="hit the Barnes rails" toID="E25" toText="lost contaol of her car" type="OVERLAP" />
+<TLINK id="TL270" fromID="E29" fromText="the car stopped" toID="E25" toText="lost contaol of her car" type="AFTER" />
+<TLINK id="TL271" fromID="E29" fromText="the car stopped" toID="E28" toText="hit the Barnes rails" type="AFTER" />
+<TLINK id="TL272" fromID="E49" fromText="the trauma ICU" toID="E52" toText="transferred" type="BEFORE" />
+<TLINK id="TL273" fromID="T5" fromText="12 hours after" toID="E14" toText="A repeat head CT" type="BEFORE" />
+<TLINK id="TL274" fromID="T5" fromText="12 hours after" toID="E51" toText="largely unchanged" type="BEFORE" />
+<TLINK id="TL275" fromID="E50" fromText="the first" toID="E14" toText="A repeat head CT" type="BEFORE" />
+<TLINK id="TL276" fromID="E50" fromText="the first" toID="T5" toText="12 hours after" type="BEFORE" />
+<TLINK id="TL277" fromID="E50" fromText="the first" toID="E51" toText="largely unchanged" type="BEFORE" />
+<TLINK id="TL278" fromID="E14" fromText="A repeat head CT" toID="E51" toText="largely unchanged" type="OVERLAP" />
+<TLINK id="TL279" fromID="E51" fromText="largely unchanged" toID="E14" toText="A repeat head CT" type="OVERLAP" />
+<TLINK id="TL280" fromID="E14" fromText="A repeat head CT" toID="T5" toText="12 hours after" type="AFTER" />
+<TLINK id="TL281" fromID="E14" fromText="A repeat head CT" toID="E50" toText="the first" type="AFTER" />
+<TLINK id="TL282" fromID="T5" fromText="12 hours after" toID="E50" toText="the first" type="AFTER" />
+<TLINK id="TL283" fromID="E51" fromText="largely unchanged" toID="T5" toText="12 hours after" type="AFTER" />
+<TLINK id="TL284" fromID="E51" fromText="largely unchanged" toID="E50" toText="the first" type="AFTER" />
+<TLINK id="TL285" fromID="E52" fromText="transferred" toID="E49" toText="the trauma ICU" type="AFTER" />
+<TLINK id="TL286" fromID="E58" fromText="CMED CSRU spine" toID="E59" toText="follow-up" type="BEFORE" />
+<TLINK id="TL287" fromID="E58" fromText="CMED CSRU spine" toID="E60" toText="repeat X-rays" type="BEFORE" />
+<TLINK id="TL288" fromID="E59" fromText="follow-up" toID="E60" toText="repeat X-rays" type="OVERLAP" />
+<TLINK id="TL289" fromID="E60" fromText="repeat X-rays" toID="E59" toText="follow-up" type="OVERLAP" />
+<TLINK id="TL290" fromID="E59" fromText="follow-up" toID="E58" toText="CMED CSRU spine" type="AFTER" />
+<TLINK id="TL291" fromID="E60" fromText="repeat X-rays" toID="E58" toText="CMED CSRU spine" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

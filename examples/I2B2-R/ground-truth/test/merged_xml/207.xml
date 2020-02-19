@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-06-14
+Discharge Date :
+2011-06-18
+Service :
+FICU
+HISTORY OF PRESENT ILLNESS :
+This is a 71-year-old-female with asthma and a history of recent exacerbation of lower extremity edema who , at her baseline , gets short of breath walking across the room and sleeps on four pillows times several years .
+She has reported that she has had upper respiratory symptoms times several days with increasing dyspnea on exertion and shortness of breath , eventually at rest with marked wheezing .
+She also has a cough with a small amount of white sputum .
+At 3 a.m. on the day of admission , she became much worse and after several days of increasing her meter-dosed inhaler use , she call Emergency Medical Services which assessed her as having heart failure with elevated jugular venous distention and rales .
+She received aspirin , Lasix 40 mg intravenously times two , 0.8 mg of nitroglycerin times four , plus morphine sulfate .
+Her blood pressure was noted to be up to 220/110 .
+She was taken to the The Hospital for Orthopedics Emergency Room where she was assessed as having asthma .
+She then received continuous nebulizer treatments for approximately eight hours with minimal improvement .
+She did receive intravenous nitroglycerin in the Emergency Room for blood pressure controlled to the 170s .
+She initially received a treatment of BiPAP on arrival as she was barely able to speak .
+She also received 80 mg of Solu-Medrol in the Emergency Department .
+She was never hypoxic but initially her arterial blood gas showed a respiratory acidosis with a PCO2 of 71 .
+The patient does have a vague history of chronic obstructive pulmonary disease , but this is felt to be inaccurate .
+She also received captopril 12.5 mg times one .
+Recently , the patient has been treated with several steroid tapers .
+Depending on the family , patient , and the OMR records , the exact duration of the most recent one was unclear .
+It either ended in 2011-04-11 or continued through 2011-05-11 with use of Augmentin ; and , by report , lasted until 06-07 .
+However , the family said the patient has been on steroids for several weeks .
+The patient denies any exposure to smoke , animals , unusual dust or vapors , or other asthma triggers .
+HOSPITAL COURSE BY SYSTEM:
+1. PULMONARY :
+She was treated with albuterol and Atrovent continuous nebulizers and was weaned then to intermittent nebulizer treatments and then to her meter-dosed inhalers taking them q.4h. at the time of discharge .
+She was continued on salmeterol and Flovent .
+She was continued on Solu-Medrol 80 mg q.8h. then converted to prednisone at 60 mg p.o. q.d.
+She was started on Singulair 10 mg p.o. q.d.
+Serial arterial blood gases were followed after an arterial line was placed .
+Her PCO2 gradually declined to the 48 range .
+Despite episodes of somnolence the first night which were presumably due to having spent the entire night in the Emergency Department , she never became more hypercarbic , and her PCO2 trended to 48 by the time the arterial line was discontinued .
+On the night of admission and thereafter , she was noted to have a very stridorous sounding breathing when the patient was asleep .
+This would disappear whenever she was awake .
+Her case was discussed with Ear/Nose/Throat and the Medical Intensive Care Unit attending .
+She was given a trial of 80/20 mixed helium/oxygen to decrease the stridor but had minimal effect .
+Ear/Nose/Throat recommended not considering this an airway problem unless she was stridorous while awake .
+The patient was to arrange for Pulmonary and Medicine followup through her primary care physician upon discharge as she has not been seen in the Pulmonary Clinic in two years .
+2. CARDIOVASCULAR :
+The patient ruled out for myocardial infarction with serial creatine kinases , although these did rise to 816 .
+MB was negative .
+She was treated with captopril for hypertension , and this was switched to Norvasc 7.5 mg p.o. q.d. on discharge .
+She had an echocardiogram which showed a hyperdynamic left ventricular of normal thickness and size , and no significant valvular disease .
+She apparently did not have a cardiovascular component to her wheezing or shortness of breath ; however , she was to go home on Lasix 20 mg p.o. q.d. to help with lower extremity edema , as she experiences discomfort with this , and the team felt this may be a limiting factor with her prednisone compliance .
+3. ENDOCRINE :
+She was treated with a sliding-scale of regular insulin while she was in house .
+She was given 500 mg p.o. q.d. of metformin to treat her steroid-induced diabetes on discharge .
+This should be followed up by her primary care physician .
+4. INFECTIOUS DISEASE :
+She was treated briefly with levofloxacin because of the gram-positive cocci in her sputum culture ; however , her symptoms were felt to be consistent with a viral upper respiratory infection , and levofloxacin was continued at the time of discharge .
+MEDICATIONS ON DISCHARGE:
+1. Lasix 20 mg p.o. q.d.
+2. Combivent meter-dosed inhaler 2 puffs q.4h. weaning to albuterol meter-dosed inhaler 2 puffs q.4h.
+3. Salmeterol 2 puffs q.12h.
+4. Flovent 220 mcg 2 puffs q.12h.
+5. Prednisone 40 mg p.o. q.d. with taper .
+6. Fentress 60 mg p.o. b.i.d.
+7. Singulair 10 mg p.o. q.d.
+8. Univasc 7.5 mg p.o. q.d.
+9. Metformin 500 mg p.o. q.d.
+Dyazide was discontinued .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1002" end="1007" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1011" end="1058" text="the The Hospital for Orthopedics Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1092" end="1098" text="asthma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1119" end="1150" text="continuous nebulizer treatments" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="1186" end="1205" text="minimal improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1224" end="1249" text="intravenous nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="1253" end="1271" text="the Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E103" start="1276" end="1301" text="blood pressure controlled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="135" end="141" text="asthma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1354" end="1359" text="BiPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="1363" end="1370" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="1382" end="1402" text="barely able to speak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1423" end="1443" text="80 mg of Solu-Medrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E106" start="1447" end="1471" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E107" start="1488" end="1495" text="hypoxic" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1510" end="1532" text="her arterial blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="1533" end="1539" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1540" end="1562" text="a respiratory acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1568" end="1574" text="a PCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="159" end="178" text="recent exacerbation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="1624" end="1661" text="chronic obstructive pulmonary disease" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1718" end="1727" text="captopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1793" end="1815" text="several steroid tapers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="182" end="203" text="lower extremity edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="1914" end="1917" text="one" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="1932" end="1934" text="It" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="2006" end="2015" text="Augmentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="2027" end="2033" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="2107" end="2115" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="2148" end="2154" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E113" start="2159" end="2176" text="exposure to smoke" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E114" start="2179" end="2186" text="animals" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E115" start="2189" end="2211" text="unusual dust or vapors" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E116" start="2217" end="2238" text="other asthma triggers" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E24" start="2304" end="2313" text="albuterol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2318" end="2348" text="Atrovent continuous nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="233" end="248" text="short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="2372" end="2405" text="intermittent nebulizer treatments" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2418" end="2442" text="her meter-dosed inhalers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="2476" end="2485" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="249" end="272" text="walking across the room" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2509" end="2519" text="salmeterol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2524" end="2531" text="Flovent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2555" end="2566" text="Solu-Medrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2584" end="2593" text="converted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="2597" end="2607" text="prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2646" end="2655" text="Singulair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2672" end="2699" text="Serial arterial blood gases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2720" end="2736" text="an arterial line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2750" end="2758" text="Her PCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E118" start="2769" end="2777" text="declined" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="277" end="299" text="sleeps on four pillows" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E119" start="2816" end="2826" text="somnolence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2905" end="2929" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="2949" end="2965" text="more hypercarbic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2972" end="2980" text="her PCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="3007" end="3024" text="the arterial line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="3029" end="3041" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="3060" end="3069" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="3109" end="3145" text="a very stridorous sounding breathing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="3167" end="3173" text="asleep" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="3187" end="3196" text="disappear" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="3214" end="3219" text="awake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="3235" end="3244" text="discussed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="330" end="338" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="3328" end="3364" text="a trial of 80/20 mixed helium/oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="3377" end="3388" text="the stridor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="3397" end="3411" text="minimal effect" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="3458" end="3480" text="this an airway problem" modality="POSSIBLE" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="3496" end="3518" text="stridorous while awake" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="356" end="382" text="upper respiratory symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="3552" end="3583" text="Pulmonary and Medicine followup" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3624" end="3633" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E126" start="3654" end="3658" text="seen" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E125" start="3662" end="3682" text="the Pulmonary Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="3744" end="3765" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="3771" end="3794" text="serial creatine kinases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="3830" end="3832" text="MB" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="3869" end="3878" text="captopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="3883" end="3895" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="3911" end="3919" text="switched" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="3923" end="3930" text="Norvasc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="3951" end="3960" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="3971" end="3988" text="an echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="3995" end="4001" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="4002" end="4033" text="a hyperdynamic left ventricular" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="4037" end="4062" text="normal thickness and size" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="407" end="425" text="increasing dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="4072" end="4100" text="significant valvular disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E129" start="4131" end="4157" text="a cardiovascular component" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E52" start="4161" end="4173" text="her wheezing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="4177" end="4196" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="4220" end="4227" text="go home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="4231" end="4236" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="4266" end="4287" text="lower extremity edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="429" end="437" text="exertion" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="4309" end="4319" text="discomfort" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="4385" end="4410" text="her prednisone compliance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="442" end="461" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="4449" end="4483" text="a sliding-scale of regular insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="4498" end="4506" text="in house" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="4543" end="4552" text="metformin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="4562" end="4590" text="her steroid-induced diabetes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="4594" end="4603" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="4621" end="4632" text="followed up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="4718" end="4730" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="4742" end="4765" text="the gram-positive cocci" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="4769" end="4787" text="her sputum culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="478" end="482" text="rest" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="4800" end="4812" text="her symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="4845" end="4880" text="a viral upper respiratory infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="488" end="503" text="marked wheezing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E134" start="4887" end="4899" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="4929" end="4938" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="4970" end="4975" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="4995" end="5024" text="Combivent meter-dosed inhaler" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="5050" end="5079" text="albuterol meter-dosed inhaler" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E138" start="5097" end="5107" text="Salmeterol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E139" start="5126" end="5133" text="Flovent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="5160" end="5170" text="Prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="519" end="526" text="a cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="5203" end="5211" text="Fentress" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E141" start="5233" end="5242" text="Singulair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E142" start="5262" end="5269" text="Univasc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="5290" end="5299" text="Metformin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="5317" end="5324" text="Dyazide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="550" end="562" text="white sputum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="589" end="598" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="612" end="622" text="much worse" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E98" start="649" end="659" text="increasing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="660" end="683" text="her meter-dosed inhaler" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="694" end="725" text="call Emergency Medical Services" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="755" end="768" text="heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="774" end="808" text="elevated jugular venous distention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="813" end="818" text="rales" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="834" end="841" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="844" end="849" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="892" end="905" text="nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="924" end="940" text="morphine sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="943" end="961" text="Her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T8" start="1169" end="1180" text="eight hours" type="DURATION" val="PT8H" mod="APPROX" />
+<TIMEX3 id="T9" start="1736" end="1745" text="times one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2011-06-14" type="DATE" val="2011-06-14" mod="NA" />
+<TIMEX3 id="T10" start="1951" end="1961" text="2011-04-11" type="DATE" val="2011-04-11" mod="NA" />
+<TIMEX3 id="T11" start="1983" end="1993" text="2011-05-11" type="DATE" val="2011-05-11" mod="NA" />
+<TIMEX3 id="T12" start="2049" end="2054" text="06-07" type="DATE" val="2011-06-07" mod="NA" />
+<TIMEX3 id="T13" start="2120" end="2133" text="several weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T23" start="2455" end="2460" text="q.4h." type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T36" start="2464" end="2472" text="the time" type="DATE" val="2011-06-18" mod="NA" />
+<TIMEX3 id="T14" start="2573" end="2578" text="q.8h." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T15" start="2622" end="2626" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T16" start="2667" end="2671" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T17" start="2827" end="2842" text="the first night" type="DATE" val="2011-06-14" mod="END" />
+<TIMEX3 id="T19" start="2885" end="2901" text="the entire night" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T20" start="3047" end="3056" text="the night" type="DATE" val="2011-06-14" mod="END" />
+<TIMEX3 id="T2" start="306" end="319" text="several years" type="DURATION" val="P3Y" mod="APPROX" />
+<TIMEX3 id="T21" start="3686" end="3695" text="two years" type="DURATION" val="P2Y" mod="NA" />
+<TIMEX3 id="T3" start="389" end="401" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T22" start="3943" end="3947" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T24" start="4248" end="4252" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T25" start="4535" end="4539" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2011-06-18" type="DATE" val="2011-06-18" mod="NA" />
+<TIMEX3 id="T18" start="4917" end="4925" text="the time" type="DATE" val="2011-06-18" mod="NA" />
+<TIMEX3 id="T26" start="4987" end="4991" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T27" start="5033" end="5038" text="q.4h." type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T28" start="5088" end="5093" text="q.4h." type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T29" start="5116" end="5122" text="q.12h." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T30" start="5150" end="5156" text="q.12h." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T31" start="5182" end="5186" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T32" start="5223" end="5229" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T33" start="5254" end="5258" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T35" start="5312" end="5316" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T4" start="568" end="585" text="3 a.m. on the day" type="TIME" val="2011-06-14T03:00" mod="NA" />
+<TIMEX3 id="T5" start="633" end="645" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T6" start="870" end="879" text="times two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T7" start="906" end="916" text="times four" type="FREQUENCY" val="R4" mod="NA" />
+<TLINK id="TL0" fromID="E96" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E54" fromText="Lasix" toID="E66" toText="Lasix" type="OVERLAP" />
+<TLINK id="TL10" fromID="E19" fromText="a PCO2" toID="E18" toText="a respiratory acidosis" type="OVERLAP" />
+<TLINK id="TL11" fromID="E29" fromText="Flovent" toID="E28" toText="salmeterol" type="OVERLAP" />
+<TLINK id="TL12" fromID="E37" fromText="her PCO2" toID="E38" toText="the arterial line" type="OVERLAP" />
+<TLINK id="TL13" fromID="E53" fromText="shortness of breath" toID="E52" toText="her wheezing" type="OVERLAP" />
+<TLINK id="TL14" fromID="E57" fromText="her prednisone compliance" toID="E56" toText="discomfort" type="OVERLAP" />
+<TLINK id="TL15" fromID="E131" fromText="in house" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL16" fromID="E0" fromText="Admission" toID="T0" toText="2011-06-14" type="OVERLAP" />
+<TLINK id="TL17" fromID="E124" fromText="discharge" toID="E83" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL18" fromID="E83" fromText="Discharge" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="TL19" fromID="E131" fromText="in house" toID="E83" toText="Discharge" type="BEFORE" />
+<TLINK id="TL2" fromID="E1" fromText="asthma" toID="E12" toText="asthma" type="OVERLAP" />
+<TLINK id="TL20" fromID="E85" fromText="lower extremity edema" toID="E84" toText="recent exacerbation" type="OVERLAP" />
+<TLINK id="TL21" fromID="E87" fromText="sleeps on four pillows" toID="T2" toText="several years" type="OVERLAP" />
+<TLINK id="TL22" fromID="E88" fromText="upper respiratory symptoms" toID="T3" toText="several days" type="OVERLAP" />
+<TLINK id="TL23" fromID="E94" fromText="a cough" toID="E88" toText="upper respiratory symptoms" type="OVERLAP" />
+<TLINK id="TL24" fromID="E89" fromText="increasing dyspnea" toID="E88" toText="upper respiratory symptoms" type="OVERLAP" />
+<TLINK id="TL25" fromID="E90" fromText="exertion" toID="E89" toText="increasing dyspnea" type="OVERLAP" />
+<TLINK id="TL26" fromID="E92" fromText="rest" toID="E91" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL27" fromID="E93" fromText="marked wheezing" toID="E91" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL28" fromID="E89" fromText="increasing dyspnea" toID="E91" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL29" fromID="E94" fromText="a cough" toID="E95" toText="white sputum" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="her meter-dosed inhaler" toID="E27" toText="her meter-dosed inhalers" type="OVERLAP" />
+<TLINK id="TL30" fromID="E96" fromText="admission" toID="T4" toText="3 a.m. on the day" type="AFTER" />
+<TLINK id="TL31" fromID="E97" fromText="much worse" toID="T4" toText="3 a.m. on the day" type="AFTER" />
+<TLINK id="TL32" fromID="E99" fromText="call Emergency Medical Services" toID="T4" toText="3 a.m. on the day" type="OVERLAP" />
+<TLINK id="TL33" fromID="E98" fromText="increasing" toID="T5" toText="several days" type="OVERLAP" />
+<TLINK id="TL34" fromID="E3" fromText="her meter-dosed inhaler" toID="E98" toText="increasing" type="BEFORE" />
+<TLINK id="TL35" fromID="E99" fromText="call Emergency Medical Services" toID="T5" toText="several days" type="AFTER" />
+<TLINK id="TL37" fromID="E106" fromText="the Emergency Department" toID="E102" toText="the Emergency Room" type="OVERLAP" />
+<TLINK id="TL38" fromID="E105" fromText="barely able to speak" toID="E104" toText="arrival" type="OVERLAP" />
+<TLINK id="TL39" fromID="E107" fromText="hypoxic" toID="E106" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL4" fromID="E34" fromText="an arterial line" toID="E38" toText="the arterial line" type="OVERLAP" />
+<TLINK id="TL40" fromID="E108" fromText="chronic obstructive pulmonary disease" toID="E96" toText="admission" type="BEFORE" />
+<TLINK id="TL41" fromID="E112" fromText="denies" toID="E111" toText="report" type="OVERLAP" />
+<TLINK id="TL42" fromID="E113" fromText="exposure to smoke" toID="E112" toText="denies" type="BEFORE" />
+<TLINK id="TL43" fromID="E135" fromText="discharge" toID="T18" toText="the time" type="OVERLAP" />
+<TLINK id="TL44" fromID="E114" fromText="animals" toID="E112" toText="denies" type="BEFORE" />
+<TLINK id="TL45" fromID="E115" fromText="unusual dust or vapors" toID="E112" toText="denies" type="BEFORE" />
+<TLINK id="TL46" fromID="E116" fromText="other asthma triggers" toID="E112" toText="denies" type="BEFORE" />
+<TLINK id="TL47" fromID="E119" fromText="somnolence" toID="T17" toText="the first night" type="OVERLAP" />
+<TLINK id="TL48" fromID="E119" fromText="somnolence" toID="T19" toText="the entire night" type="AFTER" />
+<TLINK id="TL49" fromID="E120" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL5" fromID="E21" fromText="several steroid tapers" toID="E23" toText="steroids" type="OVERLAP" />
+<TLINK id="TL50" fromID="E123" fromText="Pulmonary and Medicine followup" toID="E124" toText="discharge" type="AFTER" />
+<TLINK id="TL51" fromID="E125" fromText="the Pulmonary Clinic" toID="E126" toText="seen" type="OVERLAP" />
+<TLINK id="TL52" fromID="E126" fromText="seen" toID="T21" toText="two years" type="OVERLAP" />
+<TLINK id="TL53" fromID="E130" fromText="go home" toID="E127" toText="discharge" type="OVERLAP" />
+<TLINK id="TL54" fromID="E135" fromText="discharge" toID="E132" toText="discharge" type="OVERLAP" />
+<TLINK id="TL55" fromID="E132" fromText="discharge" toID="E130" toText="go home" type="OVERLAP" />
+<TLINK id="TL56" fromID="E134" fromText="levofloxacin" toID="E135" toText="discharge" type="BEFORE" />
+<TLINK id="TL57" fromID="E136" fromText="Combivent meter-dosed inhaler" toID="T27" toText="q.4h." type="OVERLAP" />
+<TLINK id="TL58" fromID="T18" fromText="the time" toID="T36" toText="the time" type="OVERLAP" />
+<TLINK id="TL59" fromID="E137" fromText="albuterol meter-dosed inhaler" toID="T28" toText="q.4h." type="OVERLAP" />
+<TLINK id="TL6" fromID="E35" fromText="Her PCO2" toID="E37" toText="her PCO2" type="OVERLAP" />
+<TLINK id="TL60" fromID="E136" fromText="Combivent meter-dosed inhaler" toID="E137" toText="albuterol meter-dosed inhaler" type="BEFORE" />
+<TLINK id="TL61" fromID="E138" fromText="Salmeterol" toID="T29" toText="q.12h." type="OVERLAP" />
+<TLINK id="TL62" fromID="E139" fromText="Flovent" toID="T30" toText="q.12h." type="OVERLAP" />
+<TLINK id="TL63" fromID="E140" fromText="Prednisone" toID="T31" toText="q.d." type="OVERLAP" />
+<TLINK id="TL64" fromID="E141" fromText="Singulair" toID="T33" toText="q.d." type="OVERLAP" />
+<TLINK id="TL65" fromID="E142" fromText="Univasc" toID="T31" toText="q.d." type="OVERLAP" />
+<TLINK id="TL66" fromID="E143" fromText="Metformin" toID="T35" toText="q.d." type="OVERLAP" />
+<TLINK id="TL67" fromID="T36" fromText="the time" toID="E117" toText="discharge" type="OVERLAP" />
+<TLINK id="TL68" fromID="T23" fromText="q.4h." toID="T36" toText="the time" type="OVERLAP" />
+<TLINK id="TL7" fromID="E20" fromText="captopril" toID="E46" toText="captopril" type="OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="Lasix" toID="E7" toText="aspirin" type="OVERLAP" />
+<TLINK id="TL9" fromID="E10" fromText="morphine sulfate" toID="E9" toText="nitroglycerin" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2011-06-14" type="ADMISSION" dvalue="2011-06-14" />
+<SECTIME id="S1" start="46" end="56" text="2011-06-18" type="DISCHARGE" dvalue="2011-06-18" />
+<TLINK id="SECTIME0" fromID="E70" fromText="taken" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E71" fromText="the The Hospital for Orthopedics Emergency Room" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E12" fromText="asthma" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E13" fromText="continuous nebulizer treatments" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E101" fromText="minimal improvement" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E14" fromText="intravenous nitroglycerin" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E102" fromText="the Emergency Room" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E103" fromText="blood pressure controlled" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E1" fromText="asthma" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E15" fromText="BiPAP" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E104" fromText="arrival" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E105" fromText="barely able to speak" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E16" fromText="80 mg of Solu-Medrol" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E106" fromText="the Emergency Department" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E107" fromText="hypoxic" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E17" fromText="her arterial blood gas" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E72" fromText="showed" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E18" fromText="a respiratory acidosis" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E19" fromText="a PCO2" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E84" fromText="recent exacerbation" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E108" fromText="chronic obstructive pulmonary disease" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E20" fromText="captopril" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E21" fromText="several steroid tapers" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E85" fromText="lower extremity edema" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E109" fromText="one" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E110" fromText="It" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E22" fromText="Augmentin" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E111" fromText="report" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E23" fromText="steroids" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E112" fromText="denies" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E113" fromText="exposure to smoke" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E114" fromText="animals" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E115" fromText="unusual dust or vapors" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E116" fromText="other asthma triggers" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E24" fromText="albuterol" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E25" fromText="Atrovent continuous nebulizers" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E2" fromText="short of breath" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E26" fromText="intermittent nebulizer treatments" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E27" fromText="her meter-dosed inhalers" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E117" fromText="discharge" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E86" fromText="walking across the room" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E28" fromText="salmeterol" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E29" fromText="Flovent" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E30" fromText="Solu-Medrol" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E73" fromText="converted" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E31" fromText="prednisone" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E32" fromText="Singulair" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E33" fromText="Serial arterial blood gases" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E34" fromText="an arterial line" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E35" fromText="Her PCO2" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E118" fromText="declined" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E87" fromText="sleeps on four pillows" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E119" fromText="somnolence" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E74" fromText="the Emergency Department" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E36" fromText="more hypercarbic" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E37" fromText="her PCO2" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E38" fromText="the arterial line" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E75" fromText="discontinued" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E120" fromText="admission" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E39" fromText="a very stridorous sounding breathing" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E76" fromText="asleep" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E77" fromText="disappear" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E78" fromText="awake" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E79" fromText="discussed" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E69" fromText="reported" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E40" fromText="a trial of 80/20 mixed helium/oxygen" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E41" fromText="the stridor" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E121" fromText="minimal effect" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E122" fromText="this an airway problem" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E42" fromText="stridorous while awake" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E88" fromText="upper respiratory symptoms" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E123" fromText="Pulmonary and Medicine followup" toID="T1" toText="2011-06-18" type="AFTER" />
+<TLINK id="SECTIME72" fromID="E124" fromText="discharge" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="SECTIME73" fromID="E126" fromText="seen" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E125" fromText="the Pulmonary Clinic" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E43" fromText="myocardial infarction" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E44" fromText="serial creatine kinases" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E45" fromText="MB" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E46" fromText="captopril" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E47" fromText="hypertension" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E80" fromText="switched" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E48" fromText="Norvasc" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E127" fromText="discharge" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="SECTIME83" fromID="E49" fromText="an echocardiogram" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E81" fromText="showed" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E50" fromText="a hyperdynamic left ventricular" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E128" fromText="normal thickness and size" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E89" fromText="increasing dyspnea" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E51" fromText="significant valvular disease" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E129" fromText="a cardiovascular component" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E52" fromText="her wheezing" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E53" fromText="shortness of breath" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E130" fromText="go home" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="SECTIME93" fromID="E54" fromText="Lasix" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E55" fromText="lower extremity edema" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E90" fromText="exertion" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E56" fromText="discomfort" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E57" fromText="her prednisone compliance" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E91" fromText="shortness of breath" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E58" fromText="a sliding-scale of regular insulin" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E131" fromText="in house" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E59" fromText="metformin" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E60" fromText="her steroid-induced diabetes" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E132" fromText="discharge" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="SECTIME104" fromID="E82" fromText="followed up" toID="T1" toText="2011-06-18" type="AFTER" />
+<TLINK id="SECTIME105" fromID="E65" fromText="levofloxacin" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E62" fromText="the gram-positive cocci" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E63" fromText="her sputum culture" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E92" fromText="rest" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E64" fromText="her symptoms" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E133" fromText="a viral upper respiratory infection" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E93" fromText="marked wheezing" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E134" fromText="levofloxacin" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E135" fromText="discharge" toID="T1" toText="2011-06-18" type="OVERLAP" />
+<TLINK id="SECTIME114" fromID="E66" fromText="Lasix" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E136" fromText="Combivent meter-dosed inhaler" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E137" fromText="albuterol meter-dosed inhaler" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E138" fromText="Salmeterol" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E139" fromText="Flovent" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E140" fromText="Prednisone" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E94" fromText="a cough" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E67" fromText="Fentress" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E141" fromText="Singulair" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E142" fromText="Univasc" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E143" fromText="Metformin" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E68" fromText="Dyazide" toID="T1" toText="2011-06-18" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E95" fromText="white sputum" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E96" fromText="admission" toID="T0" toText="2011-06-14" type="OVERLAP" />
+<TLINK id="SECTIME128" fromID="E97" fromText="much worse" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E98" fromText="increasing" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E3" fromText="her meter-dosed inhaler" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E99" fromText="call Emergency Medical Services" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E4" fromText="heart failure" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E5" fromText="elevated jugular venous distention" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E6" fromText="rales" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E7" fromText="aspirin" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E8" fromText="Lasix" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E9" fromText="nitroglycerin" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E10" fromText="morphine sulfate" toID="T0" toText="2011-06-14" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E11" fromText="Her blood pressure" toID="T0" toText="2011-06-14" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

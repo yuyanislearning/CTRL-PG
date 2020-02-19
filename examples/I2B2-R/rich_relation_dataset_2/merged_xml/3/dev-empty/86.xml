@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+08/31/1992
+Discharge Date :
+09/07/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 37-year-old white male with AIDS complicated by recurrent pseudomonas infections presently on Ceftazidime and Aztrenam complicated by MAI who comes in with fever , chills and blood cultures positive for candida species .
+The patient has multiple AIDS illnesses including MAI who has multiple admissions for pseudomonas pneumonia .
+His most recent admission was on 08/23/92 to 08/25/92 with fever and chills .
+He was again treated with IV Ceftazidime for presumed pseudomonal pneumonia and discharged home on IV antibiotics which he is presently on .
+The patient did well at home with decreasing fever and good appetite until the night prior to admission when he developed fever and chills .
+Concurrent blood cultures grew out candida species at HCHP .
+The patient &apos;s baseline O2 saturation is 92% on three liters .
+He has a left arm graft placed for access three weeks ago which is used for blood drawing and IV medications .
+He notes no tenderness , erythema , warmth or exudate from the passport site .
+Medications at the time of admission include Dapsone 50 mg p.o. on Monday , Wednesday and Friday , Ceftazidime 1 gram IV q. 8 hours , Cipro 750 mg p.o. b.i.d. , Acyclovir 400 mg p.o. q. day , Megastrol 80 mg p.o. t.i.d. and G-CSF 150 micrograms subcu b.i.d.
+HOSPITAL COURSE :
+By problems :
+1. Infectious Disease .
+The patient was started on Amphotericine at .6 mg / kg for a total of 250 mg for positive blood cultures for candida .
+The passport in his left arm was pulled and will be replaced if needed after the Amphotericine is completed .
+The patient will continue on his antibiotics for pseudomonas pneumonia to complete the fourteen day course which was completed on 09/06/92 .
+The patient was continued on his admission medications .
+2. Hematology .
+The patient was continued on his G-CSF with an increase in his white count to 8 from 1.8 .
+The patient required multiple blood transfusions for a low hematocrit .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1017" end="1031" text="IV medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1037" end="1042" text="notes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="1046" end="1056" text="tenderness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="1059" end="1067" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1070" end="1076" text="warmth" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1080" end="1087" text="exudate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1093" end="1110" text="the passport site" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1113" end="1124" text="Medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1140" end="1149" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1158" end="1165" text="Dapsone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1212" end="1223" text="Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1247" end="1252" text="Cipro" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1274" end="1283" text="Acyclovir" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="131" end="135" text="AIDS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1305" end="1314" text="Megastrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1337" end="1342" text="G-CSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1406" end="1424" text="Infectious Disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1454" end="1467" text="Amphotericine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="151" end="183" text="recurrent pseudomonas infections" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1508" end="1531" text="positive blood cultures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1536" end="1543" text="candida" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1546" end="1574" text="The passport in his left arm" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1579" end="1585" text="pulled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1623" end="1640" text="the Amphotericine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1685" end="1700" text="his antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1705" end="1726" text="pseudomonas pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1826" end="1851" text="his admission medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1899" end="1908" text="his G-CSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1929" end="1944" text="his white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="197" end="208" text="Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1982" end="2009" text="multiple blood transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2014" end="2030" text="a low hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="213" end="221" text="Aztrenam" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="237" end="240" text="MAI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="245" end="253" text="comes in" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="259" end="264" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="267" end="273" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="278" end="292" text="blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="306" end="321" text="candida species" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="340" end="363" text="multiple AIDS illnesses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="374" end="377" text="MAI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="386" end="405" text="multiple admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="410" end="431" text="pseudomonas pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="434" end="459" text="His most recent admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="493" end="498" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="503" end="509" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="538" end="552" text="IV Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="566" end="587" text="pseudomonal pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="592" end="602" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="611" end="625" text="IV antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="669" end="673" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="698" end="703" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="708" end="721" text="good appetite" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="747" end="756" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="775" end="780" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="785" end="791" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="794" end="819" text="Concurrent blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="829" end="844" text="candida species" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="848" end="852" text="HCHP" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="855" end="897" text="The patient &apos;s baseline O2 saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="908" end="920" text="three liters" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="930" end="946" text="a left arm graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="999" end="1012" text="blood drawing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T5" start="1132" end="1149" text="time of admission" type="DATE" val="1992-08-31" mod="NA" />
+<TIMEX3 id="T6" start="1172" end="1209" text="p.o. on Monday , Wednesday and Friday" type="FREQUENCY" val="rp48h" mod="APPROX" />
+<TIMEX3 id="T7" start="1234" end="1244" text="q. 8 hours" type="FREQUENCY" val="rp8h" mod="NA" />
+<TIMEX3 id="T8" start="1265" end="1271" text="b.i.d." type="FREQUENCY" val="rp12h" mod="NA" />
+<TIMEX3 id="T9" start="1296" end="1302" text="q. day" type="FREQUENCY" val="rp24h" mod="NA" />
+<TIMEX3 id="T10" start="1326" end="1332" text="t.i.d." type="FREQUENCY" val="rp8h" mod="NA" />
+<TIMEX3 id="T11" start="1364" end="1370" text="b.i.d." type="FREQUENCY" val="rp12h" mod="NA" />
+<TIMEX3 id="T12" start="1743" end="1755" text="fourteen day" type="DURATION" val="p14d" mod="NA" />
+<TIMEX3 id="T13" start="1786" end="1794" text="09/06/92" type="DATE" val="1992-09-06" mod="NA" />
+<TIMEX3 id="T0" start="467" end="475" text="08/23/92" type="DATE" val="1992-08-23" mod="NA" />
+<TIMEX3 id="T1" start="479" end="487" text="08/25/92" type="DATE" val="1992-08-25" mod="NA" />
+<TIMEX3 id="T3" start="732" end="756" text="night prior to admission" type="TIME" val="1992-08-30" mod="END" />
+<TIMEX3 id="T4" start="965" end="976" text="three weeks" type="DURATION" val="p3w" mod="NA" />
+<TIMEX3 id="T15" start="18" end="28" text="08/31/1992" type="DATE" val="1992-08-31" mod="NA" />
+<TIMEX3 id="T16" start="46" end="56" text="09/07/1992" type="DATE" val="1992-09-07" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="08/31/1992" type="ADMISSION" dvalue="1992-08-31" />
+<SECTIME id="S1" start="46" end="56" text="09/07/1992" type="DISCHARGE" dvalue="1992-09-07" />
+<TLINK id="TL0" fromID="E62" fromText="his white count" toID="E61" toText="his G-CSF" type="AFTER" />
+<TLINK id="TL1" fromID="E34" fromText="a left arm graft" toID="T4" toText="three weeks" type="AFTER" />
+<TLINK id="TL2" fromID="E35" fromText="blood drawing" toID="E34" toText="a left arm graft" type="AFTER" />
+<TLINK id="TL3" fromID="E36" fromText="IV medications" toID="E35" toText="blood drawing" type="OVERLAP" />
+<TLINK id="TL4" fromID="E42" fromText="the passport site" toID="E34" toText="a left arm graft" type="OVERLAP" />
+<TLINK id="TL5" fromID="E64" fromText="a low hematocrit" toID="E63" toText="multiple blood transfusions" type="BEFORE" />
+<TLINK id="TL6" fromID="E63" fromText="multiple blood transfusions" toID="E61" toText="his G-CSF" type="OVERLAP" />
+<TLINK id="TL7" fromID="E55" fromText="The passport in his left arm" toID="E56" toText="pulled" type="BEFORE" />
+<TLINK id="TL8" fromID="E54" fromText="candida" toID="E53" toText="positive blood cultures" type="OVERLAP" />
+<TLINK id="TL9" fromID="E52" fromText="Amphotericine" toID="E53" toText="positive blood cultures" type="OVERLAP" />
+<TLINK id="TL10" fromID="E52" fromText="Amphotericine" toID="E54" toText="candida" type="AFTER" />
+<TLINK id="TL11" fromID="E52" fromText="Amphotericine" toID="E57" toText="the Amphotericine" type="OVERLAP" />
+<TLINK id="TL12" fromID="E33" fromText="three liters" toID="E32" toText="The patient &#39;s baseline O2 saturation" type="OVERLAP" />
+<TLINK id="TL13" fromID="E23" fromText="well" toID="T3" toText="night prior to admission" type="BEFORE" />
+<TLINK id="TL14" fromID="E27" fromText="fever" toID="T3" toText="night prior to admission" type="AFTER" />
+<TLINK id="TL15" fromID="E28" fromText="chills" toID="T3" toText="night prior to admission" type="AFTER" />
+<TLINK id="TL16" fromID="E23" fromText="well" toID="E24" toText="fever" type="OVERLAP" />
+<TLINK id="TL17" fromID="E24" fromText="fever" toID="E25" toText="good appetite" type="OVERLAP" />
+<TLINK id="TL18" fromID="E11" fromText="candida species" toID="E10" toText="blood cultures" type="BEFORE" />
+<TLINK id="TL19" fromID="E2" fromText="AIDS" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL20" fromID="E3" fromText="recurrent pseudomonas infections" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL21" fromID="E3" fromText="recurrent pseudomonas infections" toID="E6" toText="MAI" type="OVERLAP" />
+<TLINK id="TL22" fromID="E4" fromText="Ceftazidime" toID="E5" toText="Aztrenam" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="fever" toID="E7" toText="comes in" type="OVERLAP" />
+<TLINK id="TL24" fromID="E8" fromText="fever" toID="E9" toText="chills" type="OVERLAP" />
+<TLINK id="TL25" fromID="E12" fromText="multiple AIDS illnesses" toID="E2" toText="AIDS" type="OVERLAP" />
+<TLINK id="TL26" fromID="E43" fromText="Medications" toID="E44" toText="admission" type="BEFORE" />
+<TLINK id="TL27" fromID="E45" fromText="Dapsone" toID="E43" toText="Medications" type="OVERLAP" />
+<TLINK id="TL28" fromID="E45" fromText="Dapsone" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL29" fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" toID="E45" toText="Dapsone" type="OVERLAP" />
+<TLINK id="TL30" fromID="E46" fromText="Ceftazidime" toID="T7" toText="q. 8 hours" type="OVERLAP" />
+<TLINK id="TL31" fromID="E47" fromText="Cipro" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL32" fromID="E47" fromText="Cipro" toID="T8" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL33" fromID="E47" fromText="Cipro" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL34" fromID="E48" fromText="Acyclovir" toID="T9" toText="q. day" type="OVERLAP" />
+<TLINK id="TL35" fromID="E48" fromText="Acyclovir" toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL36" fromID="E49" fromText="Megastrol" toID="T10" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL37" fromID="E49" fromText="Megastrol" toID="E50" toText="G-CSF" type="OVERLAP" />
+<TLINK id="TL38" fromID="E50" fromText="G-CSF" toID="T11" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL39" fromID="E16" fromText="His most recent admission" toID="T1" toText="08/25/92" type="BEFORE" />
+<TLINK id="TL40" fromID="E16" fromText="His most recent admission" toID="T0" toText="08/23/92" type="OVERLAP" />
+<TLINK id="TL41" fromID="E16" fromText="His most recent admission" toID="E17" toText="fever" type="OVERLAP" />
+<TLINK id="TL42" fromID="E17" fromText="fever" toID="E18" toText="chills" type="OVERLAP" />
+<TLINK id="TL43" fromID="E19" fromText="IV Ceftazidime" toID="E16" toText="His most recent admission" type="AFTER" />
+<TLINK id="TL44" fromID="E21" fromText="discharged" toID="T1" toText="08/25/92" type="AFTER" />
+<TLINK id="TL45" fromID="E59" fromText="pseudomonas pneumonia" toID="E58" toText="his antibiotics" type="BEFORE" />
+<TLINK id="TL46" fromID="T12" fromText="fourteen day" toID="T13" toText="09/06/92" type="AFTER" />
+<TLINK id="TL47" fromID="E58" fromText="his antibiotics" toID="T12" toText="fourteen day" type="OVERLAP" />
+<TLINK id="TL48" fromID="E31" fromText="HCHP" toID="E29" toText="Concurrent blood cultures" type="AFTER" />
+<TLINK id="TL49" fromID="E42" fromText="the passport site" toID="E41" toText="exudate" type="OVERLAP" />
+<TLINK id="TL50" fromID="E38" fromText="tenderness" toID="E37" toText="notes" type="BEFORE" />
+<TLINK id="TL51" fromID="E39" fromText="erythema" toID="E38" toText="tenderness" type="OVERLAP" />
+<TLINK id="TL52" fromID="E40" fromText="warmth" toID="E39" toText="erythema" type="OVERLAP" />
+<TLINK id="TL53" fromID="E40" fromText="warmth" toID="E41" toText="exudate" type="OVERLAP" />
+<TLINK id="TL54" fromID="E22" fromText="IV antibiotics" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL55" fromID="E23" fromText="well" toID="E21" toText="discharged" type="AFTER" />
+<TLINK id="TL56" fromID="E20" fromText="pseudomonal pneumonia" toID="E19" toText="IV Ceftazidime" type="BEFORE" />
+<TLINK id="TL57" fromID="E12" fromText="multiple AIDS illnesses" toID="E13" toText="MAI" type="OVERLAP" />
+<TLINK id="TL58" fromID="E12" fromText="multiple AIDS illnesses" toID="E14" toText="multiple admissions" type="BEFORE" />
+<TLINK id="TL59" fromID="E14" fromText="multiple admissions" toID="E16" toText="His most recent admission" type="BEFORE" />
+<TLINK id="TL60" fromID="E15" fromText="pseudomonas pneumonia" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP" />
+<TLINK id="TL61" fromID="E15" fromText="pseudomonas pneumonia" toID="E14" toText="multiple admissions" type="BEFORE" />
+<TLINK id="TL62" fromID="E61" fromText="his G-CSF" toID="E62" toText="his white count" type="BEFORE" />
+<TLINK id="TL63" fromID="E62" fromText="his white count" toID="E61" toText="his G-CSF" type="AFTER" />
+<TLINK id="TL64" fromID="E34" fromText="a left arm graft" toID="E35" toText="blood drawing" type="BEFORE" />
+<TLINK id="TL65" fromID="E34" fromText="a left arm graft" toID="E36" toText="IV medications" type="BEFORE" />
+<TLINK id="TL66" fromID="T4" fromText="three weeks" toID="E34" toText="a left arm graft" type="BEFORE" />
+<TLINK id="TL67" fromID="T4" fromText="three weeks" toID="E35" toText="blood drawing" type="BEFORE" />
+<TLINK id="TL68" fromID="T4" fromText="three weeks" toID="E36" toText="IV medications" type="BEFORE" />
+<TLINK id="TL69" fromID="T4" fromText="three weeks" toID="E42" toText="the passport site" type="BEFORE" />
+<TLINK id="TL70" fromID="E42" fromText="the passport site" toID="E35" toText="blood drawing" type="BEFORE" />
+<TLINK id="TL71" fromID="E42" fromText="the passport site" toID="E36" toText="IV medications" type="BEFORE" />
+<TLINK id="TL72" fromID="E34" fromText="a left arm graft" toID="E42" toText="the passport site" type="OVERLAP" />
+<TLINK id="TL73" fromID="E35" fromText="blood drawing" toID="E36" toText="IV medications" type="OVERLAP" />
+<TLINK id="TL74" fromID="E36" fromText="IV medications" toID="E35" toText="blood drawing" type="OVERLAP" />
+<TLINK id="TL75" fromID="E42" fromText="the passport site" toID="E34" toText="a left arm graft" type="OVERLAP" />
+<TLINK id="TL76" fromID="E34" fromText="a left arm graft" toID="T4" toText="three weeks" type="AFTER" />
+<TLINK id="TL77" fromID="E35" fromText="blood drawing" toID="E34" toText="a left arm graft" type="AFTER" />
+<TLINK id="TL78" fromID="E35" fromText="blood drawing" toID="T4" toText="three weeks" type="AFTER" />
+<TLINK id="TL79" fromID="E35" fromText="blood drawing" toID="E42" toText="the passport site" type="AFTER" />
+<TLINK id="TL80" fromID="E36" fromText="IV medications" toID="E34" toText="a left arm graft" type="AFTER" />
+<TLINK id="TL81" fromID="E36" fromText="IV medications" toID="T4" toText="three weeks" type="AFTER" />
+<TLINK id="TL82" fromID="E36" fromText="IV medications" toID="E42" toText="the passport site" type="AFTER" />
+<TLINK id="TL83" fromID="E42" fromText="the passport site" toID="T4" toText="three weeks" type="AFTER" />
+<TLINK id="TL84" fromID="E64" fromText="a low hematocrit" toID="E61" toText="his G-CSF" type="BEFORE" />
+<TLINK id="TL85" fromID="E64" fromText="a low hematocrit" toID="E63" toText="multiple blood transfusions" type="BEFORE" />
+<TLINK id="TL86" fromID="E61" fromText="his G-CSF" toID="E63" toText="multiple blood transfusions" type="OVERLAP" />
+<TLINK id="TL87" fromID="E63" fromText="multiple blood transfusions" toID="E61" toText="his G-CSF" type="OVERLAP" />
+<TLINK id="TL88" fromID="E61" fromText="his G-CSF" toID="E64" toText="a low hematocrit" type="AFTER" />
+<TLINK id="TL89" fromID="E63" fromText="multiple blood transfusions" toID="E64" toText="a low hematocrit" type="AFTER" />
+<TLINK id="TL90" fromID="E55" fromText="The passport in his left arm" toID="E56" toText="pulled" type="BEFORE" />
+<TLINK id="TL91" fromID="E56" fromText="pulled" toID="E55" toText="The passport in his left arm" type="AFTER" />
+<TLINK id="TL92" fromID="E52" fromText="Amphotericine" toID="E53" toText="positive blood cultures" type="BEFORE" />
+<TLINK id="TL93" fromID="E52" fromText="Amphotericine" toID="E54" toText="candida" type="BEFORE" />
+<TLINK id="TL94" fromID="E52" fromText="Amphotericine" toID="E57" toText="the Amphotericine" type="BEFORE" />
+<TLINK id="TL95" fromID="E53" fromText="positive blood cultures" toID="E52" toText="Amphotericine" type="BEFORE" />
+<TLINK id="TL96" fromID="E53" fromText="positive blood cultures" toID="E54" toText="candida" type="BEFORE" />
+<TLINK id="TL97" fromID="E53" fromText="positive blood cultures" toID="E57" toText="the Amphotericine" type="BEFORE" />
+<TLINK id="TL98" fromID="E54" fromText="candida" toID="E52" toText="Amphotericine" type="BEFORE" />
+<TLINK id="TL99" fromID="E54" fromText="candida" toID="E53" toText="positive blood cultures" type="BEFORE" />
+<TLINK id="TL100" fromID="E54" fromText="candida" toID="E57" toText="the Amphotericine" type="BEFORE" />
+<TLINK id="TL101" fromID="E52" fromText="Amphotericine" toID="E53" toText="positive blood cultures" type="OVERLAP" />
+<TLINK id="TL102" fromID="E52" fromText="Amphotericine" toID="E54" toText="candida" type="OVERLAP" />
+<TLINK id="TL103" fromID="E52" fromText="Amphotericine" toID="E57" toText="the Amphotericine" type="OVERLAP" />
+<TLINK id="TL104" fromID="E53" fromText="positive blood cultures" toID="E52" toText="Amphotericine" type="OVERLAP" />
+<TLINK id="TL105" fromID="E53" fromText="positive blood cultures" toID="E54" toText="candida" type="OVERLAP" />
+<TLINK id="TL106" fromID="E53" fromText="positive blood cultures" toID="E57" toText="the Amphotericine" type="OVERLAP" />
+<TLINK id="TL107" fromID="E54" fromText="candida" toID="E52" toText="Amphotericine" type="OVERLAP" />
+<TLINK id="TL108" fromID="E54" fromText="candida" toID="E53" toText="positive blood cultures" type="OVERLAP" />
+<TLINK id="TL109" fromID="E57" fromText="the Amphotericine" toID="E52" toText="Amphotericine" type="OVERLAP" />
+<TLINK id="TL110" fromID="E57" fromText="the Amphotericine" toID="E53" toText="positive blood cultures" type="OVERLAP" />
+<TLINK id="TL111" fromID="E52" fromText="Amphotericine" toID="E53" toText="positive blood cultures" type="AFTER" />
+<TLINK id="TL112" fromID="E52" fromText="Amphotericine" toID="E54" toText="candida" type="AFTER" />
+<TLINK id="TL113" fromID="E53" fromText="positive blood cultures" toID="E52" toText="Amphotericine" type="AFTER" />
+<TLINK id="TL114" fromID="E53" fromText="positive blood cultures" toID="E54" toText="candida" type="AFTER" />
+<TLINK id="TL115" fromID="E54" fromText="candida" toID="E52" toText="Amphotericine" type="AFTER" />
+<TLINK id="TL116" fromID="E54" fromText="candida" toID="E53" toText="positive blood cultures" type="AFTER" />
+<TLINK id="TL117" fromID="E57" fromText="the Amphotericine" toID="E52" toText="Amphotericine" type="AFTER" />
+<TLINK id="TL118" fromID="E57" fromText="the Amphotericine" toID="E53" toText="positive blood cultures" type="AFTER" />
+<TLINK id="TL119" fromID="E57" fromText="the Amphotericine" toID="E54" toText="candida" type="AFTER" />
+<TLINK id="TL120" fromID="E32" fromText="The patient &#39;s baseline O2 saturation" toID="E33" toText="three liters" type="OVERLAP" />
+<TLINK id="TL121" fromID="E33" fromText="three liters" toID="E32" toText="The patient &#39;s baseline O2 saturation" type="OVERLAP" />
+<TLINK id="TL122" fromID="E23" fromText="well" toID="T3" toText="night prior to admission" type="BEFORE" />
+<TLINK id="TL123" fromID="E23" fromText="well" toID="E27" toText="fever" type="BEFORE" />
+<TLINK id="TL124" fromID="E23" fromText="well" toID="E28" toText="chills" type="BEFORE" />
+<TLINK id="TL125" fromID="E24" fromText="fever" toID="T3" toText="night prior to admission" type="BEFORE" />
+<TLINK id="TL126" fromID="E24" fromText="fever" toID="E27" toText="fever" type="BEFORE" />
+<TLINK id="TL127" fromID="E24" fromText="fever" toID="E28" toText="chills" type="BEFORE" />
+<TLINK id="TL128" fromID="E25" fromText="good appetite" toID="T3" toText="night prior to admission" type="BEFORE" />
+<TLINK id="TL129" fromID="E25" fromText="good appetite" toID="E27" toText="fever" type="BEFORE" />
+<TLINK id="TL130" fromID="E25" fromText="good appetite" toID="E28" toText="chills" type="BEFORE" />
+<TLINK id="TL131" fromID="T3" fromText="night prior to admission" toID="E27" toText="fever" type="BEFORE" />
+<TLINK id="TL132" fromID="T3" fromText="night prior to admission" toID="E28" toText="chills" type="BEFORE" />
+<TLINK id="TL133" fromID="E23" fromText="well" toID="E24" toText="fever" type="OVERLAP" />
+<TLINK id="TL134" fromID="E23" fromText="well" toID="E25" toText="good appetite" type="OVERLAP" />
+<TLINK id="TL135" fromID="E24" fromText="fever" toID="E23" toText="well" type="OVERLAP" />
+<TLINK id="TL136" fromID="E24" fromText="fever" toID="E25" toText="good appetite" type="OVERLAP" />
+<TLINK id="TL137" fromID="E25" fromText="good appetite" toID="E23" toText="well" type="OVERLAP" />
+<TLINK id="TL138" fromID="E25" fromText="good appetite" toID="E24" toText="fever" type="OVERLAP" />
+<TLINK id="TL139" fromID="T3" fromText="night prior to admission" toID="E23" toText="well" type="AFTER" />
+<TLINK id="TL140" fromID="T3" fromText="night prior to admission" toID="E24" toText="fever" type="AFTER" />
+<TLINK id="TL141" fromID="T3" fromText="night prior to admission" toID="E25" toText="good appetite" type="AFTER" />
+<TLINK id="TL142" fromID="E27" fromText="fever" toID="E23" toText="well" type="AFTER" />
+<TLINK id="TL143" fromID="E27" fromText="fever" toID="E24" toText="fever" type="AFTER" />
+<TLINK id="TL144" fromID="E27" fromText="fever" toID="E25" toText="good appetite" type="AFTER" />
+<TLINK id="TL145" fromID="E27" fromText="fever" toID="T3" toText="night prior to admission" type="AFTER" />
+<TLINK id="TL146" fromID="E28" fromText="chills" toID="E23" toText="well" type="AFTER" />
+<TLINK id="TL147" fromID="E28" fromText="chills" toID="E24" toText="fever" type="AFTER" />
+<TLINK id="TL148" fromID="E28" fromText="chills" toID="E25" toText="good appetite" type="AFTER" />
+<TLINK id="TL149" fromID="E28" fromText="chills" toID="T3" toText="night prior to admission" type="AFTER" />
+<TLINK id="TL150" fromID="E11" fromText="candida species" toID="E10" toText="blood cultures" type="BEFORE" />
+<TLINK id="TL151" fromID="E2" fromText="AIDS" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL152" fromID="E2" fromText="AIDS" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL153" fromID="E2" fromText="AIDS" toID="E6" toText="MAI" type="OVERLAP" />
+<TLINK id="TL154" fromID="E2" fromText="AIDS" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP" />
+<TLINK id="TL155" fromID="E3" fromText="recurrent pseudomonas infections" toID="E2" toText="AIDS" type="OVERLAP" />
+<TLINK id="TL156" fromID="E3" fromText="recurrent pseudomonas infections" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL157" fromID="E3" fromText="recurrent pseudomonas infections" toID="E5" toText="Aztrenam" type="OVERLAP" />
+<TLINK id="TL158" fromID="E3" fromText="recurrent pseudomonas infections" toID="E6" toText="MAI" type="OVERLAP" />
+<TLINK id="TL159" fromID="E3" fromText="recurrent pseudomonas infections" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP" />
+<TLINK id="TL160" fromID="E4" fromText="Ceftazidime" toID="E2" toText="AIDS" type="OVERLAP" />
+<TLINK id="TL161" fromID="E4" fromText="Ceftazidime" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL162" fromID="E4" fromText="Ceftazidime" toID="E5" toText="Aztrenam" type="OVERLAP" />
+<TLINK id="TL163" fromID="E4" fromText="Ceftazidime" toID="E6" toText="MAI" type="OVERLAP" />
+<TLINK id="TL164" fromID="E5" fromText="Aztrenam" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL165" fromID="E5" fromText="Aztrenam" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL166" fromID="E6" fromText="MAI" toID="E2" toText="AIDS" type="OVERLAP" />
+<TLINK id="TL167" fromID="E6" fromText="MAI" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL168" fromID="E6" fromText="MAI" toID="E4" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL169" fromID="E7" fromText="comes in" toID="E8" toText="fever" type="OVERLAP" />
+<TLINK id="TL170" fromID="E7" fromText="comes in" toID="E9" toText="chills" type="OVERLAP" />
+<TLINK id="TL171" fromID="E8" fromText="fever" toID="E7" toText="comes in" type="OVERLAP" />
+<TLINK id="TL172" fromID="E8" fromText="fever" toID="E9" toText="chills" type="OVERLAP" />
+<TLINK id="TL173" fromID="E9" fromText="chills" toID="E7" toText="comes in" type="OVERLAP" />
+<TLINK id="TL174" fromID="E9" fromText="chills" toID="E8" toText="fever" type="OVERLAP" />
+<TLINK id="TL175" fromID="E12" fromText="multiple AIDS illnesses" toID="E2" toText="AIDS" type="OVERLAP" />
+<TLINK id="TL176" fromID="E12" fromText="multiple AIDS illnesses" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP" />
+<TLINK id="TL177" fromID="E10" fromText="blood cultures" toID="E11" toText="candida species" type="AFTER" />
+<TLINK id="TL178" fromID="E43" fromText="Medications" toID="E44" toText="admission" type="BEFORE" />
+<TLINK id="TL179" fromID="E45" fromText="Dapsone" toID="E44" toText="admission" type="BEFORE" />
+<TLINK id="TL180" fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" toID="E44" toText="admission" type="BEFORE" />
+<TLINK id="TL181" fromID="E46" fromText="Ceftazidime" toID="E44" toText="admission" type="BEFORE" />
+<TLINK id="TL182" fromID="E43" fromText="Medications" toID="E45" toText="Dapsone" type="OVERLAP" />
+<TLINK id="TL183" fromID="E43" fromText="Medications" toID="T6" toText="p.o. on Monday , Wednesday and Friday" type="OVERLAP" />
+<TLINK id="TL184" fromID="E43" fromText="Medications" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL185" fromID="E45" fromText="Dapsone" toID="E43" toText="Medications" type="OVERLAP" />
+<TLINK id="TL186" fromID="E45" fromText="Dapsone" toID="T6" toText="p.o. on Monday , Wednesday and Friday" type="OVERLAP" />
+<TLINK id="TL187" fromID="E45" fromText="Dapsone" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL188" fromID="E45" fromText="Dapsone" toID="T7" toText="q. 8 hours" type="OVERLAP" />
+<TLINK id="TL189" fromID="E45" fromText="Dapsone" toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL190" fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" toID="E43" toText="Medications" type="OVERLAP" />
+<TLINK id="TL191" fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" toID="E45" toText="Dapsone" type="OVERLAP" />
+<TLINK id="TL192" fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL193" fromID="E46" fromText="Ceftazidime" toID="E43" toText="Medications" type="OVERLAP" />
+<TLINK id="TL194" fromID="E46" fromText="Ceftazidime" toID="E45" toText="Dapsone" type="OVERLAP" />
+<TLINK id="TL195" fromID="E46" fromText="Ceftazidime" toID="T6" toText="p.o. on Monday , Wednesday and Friday" type="OVERLAP" />
+<TLINK id="TL196" fromID="E46" fromText="Ceftazidime" toID="T7" toText="q. 8 hours" type="OVERLAP" />
+<TLINK id="TL197" fromID="E46" fromText="Ceftazidime" toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL198" fromID="E46" fromText="Ceftazidime" toID="T8" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL199" fromID="E46" fromText="Ceftazidime" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL200" fromID="T7" fromText="q. 8 hours" toID="E45" toText="Dapsone" type="OVERLAP" />
+<TLINK id="TL201" fromID="T7" fromText="q. 8 hours" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL202" fromID="T7" fromText="q. 8 hours" toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL203" fromID="E47" fromText="Cipro" toID="E45" toText="Dapsone" type="OVERLAP" />
+<TLINK id="TL204" fromID="E47" fromText="Cipro" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL205" fromID="E47" fromText="Cipro" toID="T7" toText="q. 8 hours" type="OVERLAP" />
+<TLINK id="TL206" fromID="E47" fromText="Cipro" toID="T8" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL207" fromID="E47" fromText="Cipro" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL208" fromID="E47" fromText="Cipro" toID="T9" toText="q. day" type="OVERLAP" />
+<TLINK id="TL209" fromID="E47" fromText="Cipro" toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL210" fromID="T8" fromText="b.i.d." toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL211" fromID="T8" fromText="b.i.d." toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL212" fromID="T8" fromText="b.i.d." toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL213" fromID="E48" fromText="Acyclovir" toID="E46" toText="Ceftazidime" type="OVERLAP" />
+<TLINK id="TL214" fromID="E48" fromText="Acyclovir" toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL215" fromID="E48" fromText="Acyclovir" toID="T8" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL216" fromID="E48" fromText="Acyclovir" toID="T9" toText="q. day" type="OVERLAP" />
+<TLINK id="TL217" fromID="E48" fromText="Acyclovir" toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL218" fromID="E48" fromText="Acyclovir" toID="T10" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL219" fromID="E48" fromText="Acyclovir" toID="E50" toText="G-CSF" type="OVERLAP" />
+<TLINK id="TL220" fromID="T9" fromText="q. day" toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL221" fromID="T9" fromText="q. day" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL222" fromID="T9" fromText="q. day" toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL223" fromID="E49" fromText="Megastrol" toID="E47" toText="Cipro" type="OVERLAP" />
+<TLINK id="TL224" fromID="E49" fromText="Megastrol" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL225" fromID="E49" fromText="Megastrol" toID="T9" toText="q. day" type="OVERLAP" />
+<TLINK id="TL226" fromID="E49" fromText="Megastrol" toID="T10" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL227" fromID="E49" fromText="Megastrol" toID="E50" toText="G-CSF" type="OVERLAP" />
+<TLINK id="TL228" fromID="E49" fromText="Megastrol" toID="T11" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL229" fromID="T10" fromText="t.i.d." toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL230" fromID="T10" fromText="t.i.d." toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL231" fromID="T10" fromText="t.i.d." toID="E50" toText="G-CSF" type="OVERLAP" />
+<TLINK id="TL232" fromID="E50" fromText="G-CSF" toID="E48" toText="Acyclovir" type="OVERLAP" />
+<TLINK id="TL233" fromID="E50" fromText="G-CSF" toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL234" fromID="E50" fromText="G-CSF" toID="T10" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL235" fromID="E50" fromText="G-CSF" toID="T11" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL236" fromID="T11" fromText="b.i.d." toID="E49" toText="Megastrol" type="OVERLAP" />
+<TLINK id="TL237" fromID="T11" fromText="b.i.d." toID="E50" toText="G-CSF" type="OVERLAP" />
+<TLINK id="TL238" fromID="E44" fromText="admission" toID="E43" toText="Medications" type="AFTER" />
+<TLINK id="TL239" fromID="E44" fromText="admission" toID="E45" toText="Dapsone" type="AFTER" />
+<TLINK id="TL240" fromID="E44" fromText="admission" toID="T6" toText="p.o. on Monday , Wednesday and Friday" type="AFTER" />
+<TLINK id="TL241" fromID="E44" fromText="admission" toID="E46" toText="Ceftazidime" type="AFTER" />
+<TLINK id="TL242" fromID="E16" fromText="His most recent admission" toID="T1" toText="08/25/92" type="BEFORE" />
+<TLINK id="TL243" fromID="E16" fromText="His most recent admission" toID="E19" toText="IV Ceftazidime" type="BEFORE" />
+<TLINK id="TL244" fromID="E16" fromText="His most recent admission" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL245" fromID="T0" fromText="08/23/92" toID="T1" toText="08/25/92" type="BEFORE" />
+<TLINK id="TL246" fromID="T0" fromText="08/23/92" toID="E19" toText="IV Ceftazidime" type="BEFORE" />
+<TLINK id="TL247" fromID="T0" fromText="08/23/92" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL248" fromID="T1" fromText="08/25/92" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL249" fromID="E17" fromText="fever" toID="T1" toText="08/25/92" type="BEFORE" />
+<TLINK id="TL250" fromID="E17" fromText="fever" toID="E19" toText="IV Ceftazidime" type="BEFORE" />
+<TLINK id="TL251" fromID="E17" fromText="fever" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL252" fromID="E18" fromText="chills" toID="T1" toText="08/25/92" type="BEFORE" />
+<TLINK id="TL253" fromID="E18" fromText="chills" toID="E19" toText="IV Ceftazidime" type="BEFORE" />
+<TLINK id="TL254" fromID="E18" fromText="chills" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL255" fromID="E16" fromText="His most recent admission" toID="T0" toText="08/23/92" type="OVERLAP" />
+<TLINK id="TL256" fromID="E16" fromText="His most recent admission" toID="E17" toText="fever" type="OVERLAP" />
+<TLINK id="TL257" fromID="E16" fromText="His most recent admission" toID="E18" toText="chills" type="OVERLAP" />
+<TLINK id="TL258" fromID="T0" fromText="08/23/92" toID="E16" toText="His most recent admission" type="OVERLAP" />
+<TLINK id="TL259" fromID="T0" fromText="08/23/92" toID="E17" toText="fever" type="OVERLAP" />
+<TLINK id="TL260" fromID="E17" fromText="fever" toID="E16" toText="His most recent admission" type="OVERLAP" />
+<TLINK id="TL261" fromID="E17" fromText="fever" toID="T0" toText="08/23/92" type="OVERLAP" />
+<TLINK id="TL262" fromID="E17" fromText="fever" toID="E18" toText="chills" type="OVERLAP" />
+<TLINK id="TL263" fromID="E18" fromText="chills" toID="E16" toText="His most recent admission" type="OVERLAP" />
+<TLINK id="TL264" fromID="E18" fromText="chills" toID="E17" toText="fever" type="OVERLAP" />
+<TLINK id="TL265" fromID="T1" fromText="08/25/92" toID="E16" toText="His most recent admission" type="AFTER" />
+<TLINK id="TL266" fromID="T1" fromText="08/25/92" toID="T0" toText="08/23/92" type="AFTER" />
+<TLINK id="TL267" fromID="T1" fromText="08/25/92" toID="E17" toText="fever" type="AFTER" />
+<TLINK id="TL268" fromID="T1" fromText="08/25/92" toID="E18" toText="chills" type="AFTER" />
+<TLINK id="TL269" fromID="E19" fromText="IV Ceftazidime" toID="E16" toText="His most recent admission" type="AFTER" />
+<TLINK id="TL270" fromID="E19" fromText="IV Ceftazidime" toID="T0" toText="08/23/92" type="AFTER" />
+<TLINK id="TL271" fromID="E19" fromText="IV Ceftazidime" toID="E17" toText="fever" type="AFTER" />
+<TLINK id="TL272" fromID="E19" fromText="IV Ceftazidime" toID="E18" toText="chills" type="AFTER" />
+<TLINK id="TL273" fromID="E21" fromText="discharged" toID="E16" toText="His most recent admission" type="AFTER" />
+<TLINK id="TL274" fromID="E21" fromText="discharged" toID="T0" toText="08/23/92" type="AFTER" />
+<TLINK id="TL275" fromID="E21" fromText="discharged" toID="T1" toText="08/25/92" type="AFTER" />
+<TLINK id="TL276" fromID="E21" fromText="discharged" toID="E17" toText="fever" type="AFTER" />
+<TLINK id="TL277" fromID="E21" fromText="discharged" toID="E18" toText="chills" type="AFTER" />
+<TLINK id="TL278" fromID="E59" fromText="pseudomonas pneumonia" toID="E58" toText="his antibiotics" type="BEFORE" />
+<TLINK id="TL279" fromID="E59" fromText="pseudomonas pneumonia" toID="T12" toText="fourteen day" type="BEFORE" />
+<TLINK id="TL280" fromID="T13" fromText="09/06/92" toID="E58" toText="his antibiotics" type="BEFORE" />
+<TLINK id="TL281" fromID="T13" fromText="09/06/92" toID="T12" toText="fourteen day" type="BEFORE" />
+<TLINK id="TL282" fromID="E58" fromText="his antibiotics" toID="T12" toText="fourteen day" type="OVERLAP" />
+<TLINK id="TL283" fromID="T12" fromText="fourteen day" toID="E58" toText="his antibiotics" type="OVERLAP" />
+<TLINK id="TL284" fromID="E58" fromText="his antibiotics" toID="E59" toText="pseudomonas pneumonia" type="AFTER" />
+<TLINK id="TL285" fromID="E58" fromText="his antibiotics" toID="T13" toText="09/06/92" type="AFTER" />
+<TLINK id="TL286" fromID="T12" fromText="fourteen day" toID="E59" toText="pseudomonas pneumonia" type="AFTER" />
+<TLINK id="TL287" fromID="T12" fromText="fourteen day" toID="T13" toText="09/06/92" type="AFTER" />
+<TLINK id="TL288" fromID="E29" fromText="Concurrent blood cultures" toID="E31" toText="HCHP" type="BEFORE" />
+<TLINK id="TL289" fromID="E31" fromText="HCHP" toID="E29" toText="Concurrent blood cultures" type="AFTER" />
+<TLINK id="TL290" fromID="E38" fromText="tenderness" toID="E37" toText="notes" type="BEFORE" />
+<TLINK id="TL291" fromID="E39" fromText="erythema" toID="E37" toText="notes" type="BEFORE" />
+<TLINK id="TL292" fromID="E40" fromText="warmth" toID="E37" toText="notes" type="BEFORE" />
+<TLINK id="TL293" fromID="E38" fromText="tenderness" toID="E39" toText="erythema" type="OVERLAP" />
+<TLINK id="TL294" fromID="E38" fromText="tenderness" toID="E40" toText="warmth" type="OVERLAP" />
+<TLINK id="TL295" fromID="E39" fromText="erythema" toID="E38" toText="tenderness" type="OVERLAP" />
+<TLINK id="TL296" fromID="E39" fromText="erythema" toID="E40" toText="warmth" type="OVERLAP" />
+<TLINK id="TL297" fromID="E39" fromText="erythema" toID="E41" toText="exudate" type="OVERLAP" />
+<TLINK id="TL298" fromID="E40" fromText="warmth" toID="E38" toText="tenderness" type="OVERLAP" />
+<TLINK id="TL299" fromID="E40" fromText="warmth" toID="E39" toText="erythema" type="OVERLAP" />
+<TLINK id="TL300" fromID="E40" fromText="warmth" toID="E41" toText="exudate" type="OVERLAP" />
+<TLINK id="TL301" fromID="E40" fromText="warmth" toID="E42" toText="the passport site" type="OVERLAP" />
+<TLINK id="TL302" fromID="E41" fromText="exudate" toID="E39" toText="erythema" type="OVERLAP" />
+<TLINK id="TL303" fromID="E41" fromText="exudate" toID="E40" toText="warmth" type="OVERLAP" />
+<TLINK id="TL304" fromID="E41" fromText="exudate" toID="E42" toText="the passport site" type="OVERLAP" />
+<TLINK id="TL305" fromID="E42" fromText="the passport site" toID="E40" toText="warmth" type="OVERLAP" />
+<TLINK id="TL306" fromID="E42" fromText="the passport site" toID="E41" toText="exudate" type="OVERLAP" />
+<TLINK id="TL307" fromID="E37" fromText="notes" toID="E38" toText="tenderness" type="AFTER" />
+<TLINK id="TL308" fromID="E37" fromText="notes" toID="E39" toText="erythema" type="AFTER" />
+<TLINK id="TL309" fromID="E37" fromText="notes" toID="E40" toText="warmth" type="AFTER" />
+<TLINK id="TL310" fromID="E20" fromText="pseudomonal pneumonia" toID="E19" toText="IV Ceftazidime" type="BEFORE" />
+<TLINK id="TL311" fromID="E21" fromText="discharged" toID="E23" toText="well" type="BEFORE" />
+<TLINK id="TL312" fromID="E22" fromText="IV antibiotics" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL313" fromID="E22" fromText="IV antibiotics" toID="E23" toText="well" type="BEFORE" />
+<TLINK id="TL314" fromID="E19" fromText="IV Ceftazidime" toID="E20" toText="pseudomonal pneumonia" type="AFTER" />
+<TLINK id="TL315" fromID="E21" fromText="discharged" toID="E22" toText="IV antibiotics" type="AFTER" />
+<TLINK id="TL316" fromID="E23" fromText="well" toID="E21" toText="discharged" type="AFTER" />
+<TLINK id="TL317" fromID="E23" fromText="well" toID="E22" toText="IV antibiotics" type="AFTER" />
+<TLINK id="TL318" fromID="E12" fromText="multiple AIDS illnesses" toID="E14" toText="multiple admissions" type="BEFORE" />
+<TLINK id="TL319" fromID="E12" fromText="multiple AIDS illnesses" toID="E16" toText="His most recent admission" type="BEFORE" />
+<TLINK id="TL320" fromID="E13" fromText="MAI" toID="E14" toText="multiple admissions" type="BEFORE" />
+<TLINK id="TL321" fromID="E13" fromText="MAI" toID="E16" toText="His most recent admission" type="BEFORE" />
+<TLINK id="TL322" fromID="E14" fromText="multiple admissions" toID="E16" toText="His most recent admission" type="BEFORE" />
+<TLINK id="TL323" fromID="E15" fromText="pseudomonas pneumonia" toID="E14" toText="multiple admissions" type="BEFORE" />
+<TLINK id="TL324" fromID="E15" fromText="pseudomonas pneumonia" toID="E16" toText="His most recent admission" type="BEFORE" />
+<TLINK id="TL325" fromID="E12" fromText="multiple AIDS illnesses" toID="E13" toText="MAI" type="OVERLAP" />
+<TLINK id="TL326" fromID="E12" fromText="multiple AIDS illnesses" toID="E15" toText="pseudomonas pneumonia" type="OVERLAP" />
+<TLINK id="TL327" fromID="E13" fromText="MAI" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP" />
+<TLINK id="TL328" fromID="E13" fromText="MAI" toID="E15" toText="pseudomonas pneumonia" type="OVERLAP" />
+<TLINK id="TL329" fromID="E15" fromText="pseudomonas pneumonia" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP" />
+<TLINK id="TL330" fromID="E15" fromText="pseudomonas pneumonia" toID="E13" toText="MAI" type="OVERLAP" />
+<TLINK id="TL331" fromID="E14" fromText="multiple admissions" toID="E12" toText="multiple AIDS illnesses" type="AFTER" />
+<TLINK id="TL332" fromID="E14" fromText="multiple admissions" toID="E13" toText="MAI" type="AFTER" />
+<TLINK id="TL333" fromID="E14" fromText="multiple admissions" toID="E15" toText="pseudomonas pneumonia" type="AFTER" />
+<TLINK id="TL334" fromID="E16" fromText="His most recent admission" toID="E12" toText="multiple AIDS illnesses" type="AFTER" />
+<TLINK id="TL335" fromID="E16" fromText="His most recent admission" toID="E13" toText="MAI" type="AFTER" />
+<TLINK id="TL336" fromID="E16" fromText="His most recent admission" toID="E14" toText="multiple admissions" type="AFTER" />
+<TLINK id="TL337" fromID="E16" fromText="His most recent admission" toID="E15" toText="pseudomonas pneumonia" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
