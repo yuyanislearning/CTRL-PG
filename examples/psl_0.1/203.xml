@@ -197,11 +197,11 @@ Sensory , hearing screen has not yet been performed , but should be done prior t
 <TLINK id="TL30" fromID="E76" fromText="room air" toID="E78" toText="room air" type="OVERLAP" />
 <TLINK id="TL31" fromID="E78" fromText="room air" toID="E77" toText="stable" type="OVERLAP" />
 <TLINK id="TL32" fromID="E87" fromText="Sensory , hearing screen" toID="E88" toText="discharge" type="BEFORE" />
-<TLINK id="TL33" fromID="E8" fromText="IUGR" toID="E7" toText="IVF pregnancy" type="OVERLAP" />
+<TLINK id="TL33" fromID="E8" fromText="IUGR" toID="E7" toText="IVF pregnancy" type="AFTER" />
 <TLINK id="TL34" fromID="E8" fromText="IUGR" toID="E11" toText="IUGR of twin A" type="OVERLAP" />
 <TLINK id="TL35" fromID="E9" fromText="2 vessel cord" toID="E7" toText="IVF pregnancy" type="OVERLAP" />
 <TLINK id="TL36" fromID="E69" fromText="normal fetal echo reverse diastolic flow" toID="E7" toText="IVF pregnancy" type="OVERLAP" />
-<TLINK id="TL37" fromID="E10" fromText="demise of twin A" toID="E7" toText="IVF pregnancy" type="OVERLAP" />
+<TLINK id="TL37" fromID="E10" fromText="demise of twin A" toID="E7" toText="IVF pregnancy" type="BEFORE" />
 <TLINK id="TL38" fromID="T7" fromText="27 weeks" toID="E10" toText="demise of twin A" type="BEFORE" />
 <TLINK id="TL39" fromID="E11" fromText="IUGR of twin A" toID="E10" toText="demise of twin A" type="OVERLAP" />
 <TLINK id="TL40" fromID="E36" fromText="Special Care 20" toID="E82" toText="Her discharge weight" type="OVERLAP" />
@@ -235,7 +235,7 @@ Sensory , hearing screen has not yet been performed , but should be done prior t
 <TLINK id="TL68" fromID="E12" fromText="preterm labor" toID="E73" toText="presented" type="BEFORE" />
 <TLINK id="TL69" fromID="E71" fromText="Boston Medical Center" toID="E59" toText="transferred" type="AFTER" />
 <TLINK id="TL70" fromID="E59" fromText="transferred" toID="T6" toText="26 and 2/7 weeks" type="OVERLAP" />
-<TLINK id="TL71" fromID="E11" fromText="IUGR of twin A" toID="E59" toText="transferred" type="BEFORE" />
+<TLINK id="TL71" fromID="E11" fromText="IUGR of twin A" toID="E59" toText="transferred" type="AFTER" />
 <TLINK id="TL72" fromID="T10" fromText="31 weeks" toID="E73" toText="presented" type="BEFORE" />
 <TLINK id="TL73" fromID="E15" fromText="PPROM" toID="E18" toText="cesarean section" type="BEFORE" />
 <TLINK id="TL74" fromID="E15" fromText="PPROM" toID="E16" toText="bleeding" type="OVERLAP" />
@@ -245,10 +245,10 @@ Sensory , hearing screen has not yet been performed , but should be done prior t
 <TLINK id="TL78" fromID="E84" fromText="advance calorie density" toID="E85" toText="better growth" type="OVERLAP" />
 <TLINK id="TL79" fromID="E56" fromText="antibiotics" toID="E55" toText="blood cultures" type="OVERLAP" />
 <TLINK id="TL80" fromID="E53" fromText="ampicillin" toID="T20" toText="48 hours" type="OVERLAP" />
-<TLINK id="TL81" fromID="E53" fromText="ampicillin" toID="E56" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL81" fromID="E53" fromText="ampicillin" toID="E56" toText="antibiotics" type="AFTER" />
 <TLINK id="TL82" fromID="E54" fromText="gentamycin" toID="T20" toText="48 hours" type="OVERLAP" />
 <TLINK id="TL83" fromID="E54" fromText="gentamycin" toID="E53" toText="ampicillin" type="OVERLAP" />
-<TLINK id="TL84" fromID="E54" fromText="gentamycin" toID="E56" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL84" fromID="E54" fromText="gentamycin" toID="E56" toText="antibiotics" type="AFTER" />
 <TLINK id="TL85" fromID="E34" fromText="Enteral feedings" toID="T1" toText="day of life #1" type="AFTER" />
 <TLINK id="TL86" fromID="E34" fromText="Enteral feedings" toID="E35" toText="full enteral feedings" type="OVERLAP" />
 <TLINK id="TL87" fromID="E7" fromText="IVF pregnancy" toID="E58" toText="born" type="BEFORE" />

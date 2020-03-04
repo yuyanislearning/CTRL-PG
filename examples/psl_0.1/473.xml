@@ -105,11 +105,11 @@ STA BODEJOVE , M.D.
 <TLINK id="TL12" fromID="E38" fromText="An electrocardiogram" toID="E41" toText="discharge" type="AFTER" />
 <TLINK id="TL13" fromID="E40" fromText="QT prolongation" toID="E39" toText="showed" type="OVERLAP" />
 <TLINK id="TL14" fromID="E38" fromText="An electrocardiogram" toID="E39" toText="showed" type="OVERLAP" />
-<TLINK id="TL15" fromID="E43" fromText="goes home" toID="E41" toText="discharge" type="AFTER" />
+<TLINK id="TL15" fromID="E43" fromText="goes home" toID="E41" toText="discharge" type="OVERLAP" />
 <TLINK id="TL16" fromID="E43" fromText="goes home" toID="T16" toText="today" type="OVERLAP" />
 <TLINK id="TL17" fromID="E44" fromText="Amiodarone" toID="T17" toText="daily" type="OVERLAP" />
-<TLINK id="TL18" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E4" toText="antiarrhythmic agents" type="OVERLAP" />
-<TLINK id="TL19" fromID="E11" fromText="Flecainide" toID="E12" toText="stopped" type="OVERLAP" />
+<TLINK id="TL18" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="E4" toText="antiarrhythmic agents" type="BEFORE" />
+<TLINK id="TL19" fromID="E11" fromText="Flecainide" toID="E12" toText="stopped" type="BEFORE" />
 <TLINK id="TL20" fromID="E13" fromText="intolerance" toID="E12" toText="stopped" type="BEFORE" />
 <TLINK id="TL21" fromID="E2" fromText="frequent premature ventricular contractions" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="OVERLAP" />
 <TLINK id="TL22" fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" toID="T3" toText="1991" type="OVERLAP" />

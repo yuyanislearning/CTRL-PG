@@ -89,7 +89,7 @@ Evaluation method:
                     #tlinkGoldCount,tlinkSysCount,tlinkPrecMatch,tlinkRecMatch
                     totaltlinkScores=[0,0,0,0]
                     for file in goldFileList:
-                        print '{:*^46}'.format(' '+file+' ')
+                        #print '{:*^46}'.format(' '+file+' ')
                         goldDic={}
                         systemDic={}
                         if args.entities_to_evaluate in ['event', 'all']:
@@ -133,7 +133,7 @@ Evaluation method:
                             else:
                                 fScore=0.0
                         
-                            print """
+                            '''print """
             Total number of comparable TLINKs: 
                Gold Standard : \t\t"""+str(tlinkScores[1])+"""
                System Output : \t\t"""+str(tlinkScores[0])+"""
@@ -142,6 +142,7 @@ Evaluation method:
             Precision: \t\t\t""" + '%.4f'%(precision)+"""
             Average P&R : \t\t"""+'%.4f'%(averagePR)+"""
             F measure : \t\t"""+'%.4f'%(fScore)+'\n'
+                            '''
 
                     #calculate accumulated scores
                     if args.entities_to_evaluate in ['event', 'all']:

@@ -141,18 +141,18 @@ She was counseled to follow-up with her PCP F 6-12 months regading the right thy
 <SECTIME id="S0" start="18" end="28" text="2013-03-27" type="ADMISSION" dvalue="2013-03-27" />
 <SECTIME id="S1" start="46" end="56" text="2013-04-01" type="DISCHARGE" dvalue="2013-04-01" />
 <TLINK id="TL0" fromID="T4" fromText="TID" toID="E46" toText="Dilantin" type="OVERLAP" />
-<TLINK id="TL1" fromID="E68" fromText="ambulating" toID="E61" toText="discharge" type="BEFORE" />
+<TLINK id="TL1" fromID="E68" fromText="ambulating" toID="E61" toText="discharge" type="OVERLAP" />
 <TLINK id="TL2" fromID="E66" fromText="PERRLA" toID="E67" toText="full EOM s." type="OVERLAP" />
 <TLINK id="TL3" fromID="E33" fromText="Nantucket Cottage Hospital" toID="E32" toText="EMS" type="OVERLAP" />
 <TLINK id="TL4" fromID="E34" fromText="furher evaluation" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
-<TLINK id="TL5" fromID="E13" fromText="a C-collar" toID="E47" toText="The orthopedics spine service" type="AFTER" />
+<TLINK id="TL5" fromID="E13" fromText="a C-collar" toID="E47" toText="The orthopedics spine service" type="BEFORE" />
 <TLINK id="TL6" fromID="E10" fromText="fractures" toID="E44" toText="revealed" type="OVERLAP" />
 <TLINK id="TL7" fromID="E9" fromText="A CT of her sinues" toID="E44" toText="revealed" type="OVERLAP" />
 <TLINK id="TL8" fromID="E82" fromText="the right thyroid nodule" toID="E80" toText="follow-up" type="BEFORE" />
 <TLINK id="TL9" fromID="E82" fromText="the right thyroid nodule" toID="E84" toText="her chest CT" type="BEFORE" />
 <TLINK id="TL10" fromID="E83" fromText="the bilateral small lung nodules" toID="E84" toText="her chest CT" type="BEFORE" />
 <TLINK id="TL11" fromID="E80" fromText="follow-up" toID="E81" toText="her PCP" type="OVERLAP" />
-<TLINK id="TL12" fromID="E80" fromText="follow-up" toID="T9" toText="6-12 months" type="OVERLAP" />
+<TLINK id="TL12" fromID="E80" fromText="follow-up" toID="T9" toText="6-12 months" type="AFTER" />
 <TLINK id="TL13" fromID="E42" fromText="bliateral lung nodules" toID="E41" toText="revealed" type="BEFORE" />
 <TLINK id="TL14" fromID="E43" fromText="a right thyroid nodule" toID="E41" toText="revealed" type="BEFORE" />
 <TLINK id="TL15" fromID="E41" fromText="revealed" toID="E8" toText="A CT of her chest" type="OVERLAP" />
@@ -193,21 +193,21 @@ She was counseled to follow-up with her PCP F 6-12 months regading the right thy
 <TLINK id="TL50" fromID="E36" fromText="Nantucket Cottage Hospital" toID="E33" toText="Nantucket Cottage Hospital" type="OVERLAP" />
 <TLINK id="TL51" fromID="E53" fromText="step down" toID="E52" toText="transferred" type="AFTER" />
 <TLINK id="TL52" fromID="E3" fromText="fractures" toID="E2" toText="Chest and pelvis X-rays" type="BEFORE" />
-<TLINK id="TL53" fromID="E74" fromText="Follow-up" toID="T8" toText="1 month" type="OVERLAP" />
+<TLINK id="TL53" fromID="E74" fromText="Follow-up" toID="T8" toText="1 month" type="AFTER" />
 <TLINK id="TL54" fromID="E74" fromText="Follow-up" toID="E75" toText="neurosurgery" type="OVERLAP" />
 <TLINK id="TL55" fromID="E76" fromText="a repeat head CT" toID="E74" toText="Follow-up" type="OVERLAP" />
 <TLINK id="TL56" fromID="E77" fromText="discharged" toID="E71" toText="discharge" type="OVERLAP" />
 <TLINK id="TL57" fromID="E78" fromText="fioricet" toID="E79" toText="dilantin" type="OVERLAP" />
-<TLINK id="TL58" fromID="E64" fromText="full strength motor exam" toID="E61" toText="discharge" type="AFTER" />
+<TLINK id="TL58" fromID="E64" fromText="full strength motor exam" toID="E61" toText="discharge" type="OVERLAP" />
 <TLINK id="TL59" fromID="E65" fromText="pronator drift" toID="E61" toText="discharge" type="BEFORE" />
 <TLINK id="TL60" fromID="E62" fromText="awake , alert and orientated X3" toID="E61" toText="discharge" type="OVERLAP" />
-<TLINK id="TL61" fromID="E63" fromText="mild headache" toID="E61" toText="discharge" type="BEFORE" />
+<TLINK id="TL61" fromID="E63" fromText="mild headache" toID="E61" toText="discharge" type="OVERLAP" />
 <TLINK id="TL62" fromID="E28" fromText="hit the Barnes rails" toID="E25" toText="lost contaol of her car" type="OVERLAP" />
 <TLINK id="TL63" fromID="E29" fromText="the car stopped" toID="E28" toText="hit the Barnes rails" type="AFTER" />
 <TLINK id="TL64" fromID="E49" fromText="the trauma ICU" toID="E52" toText="transferred" type="BEFORE" />
 <TLINK id="TL65" fromID="E14" fromText="A repeat head CT" toID="T5" toText="12 hours after" type="OVERLAP" />
 <TLINK id="TL66" fromID="T5" fromText="12 hours after" toID="E50" toText="the first" type="AFTER" />
-<TLINK id="TL67" fromID="E51" fromText="largely unchanged" toID="E14" toText="A repeat head CT" type="BEFORE" />
+<TLINK id="TL67" fromID="E51" fromText="largely unchanged" toID="E14" toText="A repeat head CT" type="OVERLAP" />
 <TLINK id="TL68" fromID="E59" fromText="follow-up" toID="E58" toText="CMED CSRU spine" type="AFTER" />
 <TLINK id="TL69" fromID="E59" fromText="follow-up" toID="E60" toText="repeat X-rays" type="OVERLAP" />
 </TAGS>

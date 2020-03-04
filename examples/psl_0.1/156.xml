@@ -111,7 +111,7 @@ Following her recovery from chemotherapy , she will proceed to surgical resectio
 <TLINK id="TL12" fromID="E42" fromText="DISCHARGE" toID="T2" toText="6-2-93" type="OVERLAP" />
 <TLINK id="TL13" fromID="E3" fromText="Neoadjuvant chemotherapy" toID="E43" toText="admitted" type="AFTER" />
 <TLINK id="TL14" fromID="E2" fromText="large cell carcinoma of the left upper lobe" toID="E1" toText="mixed adenocarcinoma" type="OVERLAP" />
-<TLINK id="TL15" fromID="E4" fromText="Cisplatinum" toID="E3" toText="Neoadjuvant chemotherapy" type="OVERLAP" />
+<TLINK id="TL15" fromID="E4" fromText="Cisplatinum" toID="E3" toText="Neoadjuvant chemotherapy" type="BEFORE" />
 <TLINK id="TL16" fromID="E5" fromText="5-FU" toID="E4" toText="Cisplatinum" type="OVERLAP" />
 <TLINK id="TL17" fromID="E6" fromText="Velban" toID="E5" toText="5-FU" type="OVERLAP" />
 <TLINK id="TL18" fromID="E40" fromText="the Oncology Service" toID="E39" toText="admitted" type="AFTER" />

@@ -124,7 +124,7 @@ Therefore , because of his need for intense psychiatric care , the patient is di
 <TLINK id="TL2" fromID="E68" fromText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" toID="E67" toText="discharged" type="AFTER" />
 <TLINK id="TL3" fromID="E65" fromText="a Psychiatric Hospital" toID="E68" toText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" type="BEFORE" />
 <TLINK id="TL4" fromID="E67" fromText="discharged" toID="T7" toText="the 7th hospital day" type="OVERLAP" />
-<TLINK id="TL5" fromID="E17" fromText="found in the house" toID="E13" toText="decided to take his life" type="OVERLAP" />
+<TLINK id="TL5" fromID="E17" fromText="found in the house" toID="E13" toText="decided to take his life" type="BEFORE" />
 <TLINK id="TL6" fromID="E39" fromText="testing" toID="E38" toText="seen in consultation" type="AFTER" />
 <TLINK id="TL7" fromID="E30" fromText="admitted" toID="E27" toText="admission" type="OVERLAP" />
 <TLINK id="TL8" fromID="E27" fromText="admission" toID="E28" toText="denies" type="OVERLAP" />
@@ -147,9 +147,9 @@ Therefore , because of his need for intense psychiatric care , the patient is di
 <TLINK id="TL25" fromID="E1" fromText="DISCHARGE" toID="T1" toText="4/20/94" type="OVERLAP" />
 <TLINK id="TL26" fromID="T4" fromText="eight years" toID="E22" toText="admission" type="BEFORE" />
 <TLINK id="TL27" fromID="E23" fromText="leukemia" toID="E21" toText="The patient &#39;s sister died" type="BEFORE" />
-<TLINK id="TL28" fromID="T4" fromText="eight years" toID="E21" toText="The patient &#39;s sister died" type="OVERLAP" />
+<TLINK id="TL28" fromID="T4" fromText="eight years" toID="E21" toText="The patient &#39;s sister died" type="BEFORE" />
 <TLINK id="TL29" fromID="E2" fromText="DISCHARGE" toID="T2" toText="4/20/94" type="OVERLAP" />
-<TLINK id="TL30" fromID="T3" fromText="forty to fifty years prior" toID="E16" toText="his admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="T3" fromText="forty to fifty years prior" toID="E16" toText="his admission" type="BEFORE" />
 <TLINK id="TL31" fromID="T3" fromText="forty to fifty years prior" toID="E15" toText="his father passed away" type="OVERLAP" />
 <TLINK id="TL32" fromID="E14" fromText="described" toID="E69" toText="further questioning" type="OVERLAP" />
 <TLINK id="TL33" fromID="E19" fromText="expressed concern" toID="E14" toText="described" type="OVERLAP" />

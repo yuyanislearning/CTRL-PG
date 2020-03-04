@@ -36,9 +36,12 @@ except:
     from tensorboardX import SummaryWriter
 
 from tqdm import tqdm, trange
+from knockknock import slack_sender
+
 
 from transformers import (WEIGHTS_NAME, BertConfig,
-                                  BertForSequenceClassification, BertTokenizer,
+                                  #BertForSequenceClassification, 
+                                  BertTokenizer,
                                   RobertaConfig,
                                   RobertaForSequenceClassification,
                                   RobertaTokenizer,
@@ -54,7 +57,7 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                   AlbertTokenizer,
                                 )
 
-from extra_layers_2 import BertForRelationClassification
+from extra_layers_2 import BertForRelationClassification,BertForSequenceClassification
 
 from transformers import AdamW, get_linear_schedule_with_warmup
 #from utils_relation import *
@@ -69,7 +72,7 @@ ALL_MODELS = sum((tuple(conf.pretrained_config_archive_map.keys()) for conf in (
                                                                                 RobertaConfig, DistilBertConfig)), ())
 
 MODEL_CLASSES = {
-    'bert': (BertConfig, BertForSequenceClassification, BertTokenizer),
+    'bert': (BertConfig, BertForRelationClassification, BertTokenizer),
     'xlnet': (XLNetConfig, XLNetForSequenceClassification, XLNetTokenizer),
     'xlm': (XLMConfig, XLMForSequenceClassification, XLMTokenizer),
     'roberta': (RobertaConfig, RobertaForSequenceClassification, RobertaTokenizer),
@@ -88,13 +91,15 @@ def set_seed(args):
 
 def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     """ Train the model """
-    #results = evaluate(args, model, tokenizer, dict_IndenToID, label_dict)
+    
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu)
     train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
+
+    #results = evaluate(args, model, tokenizer)
 
     if args.max_steps > 0:
         t_total = args.max_steps
@@ -147,17 +152,24 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
         for step, batch in enumerate(epoch_iterator):
             model.train()
-            batch = tuple(t.to(args.device) for t in batch) 
+            # change from 
+            # TODO make sure there is only case 3 and 4
+            batch = tuple(t.view(-1).to(args.device) if len(t.size()) ==2 else t.view(t.size()[0]*t.size()[1],-1).to(args.device) for t in batch) 
+
             if args.node_embed:
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
-                          'node_pos_ids':   batch[7],
+                          'node_pos_ids':   batch[8],
                           'labels':         batch[4]}
             else:
+                #print("rules", batch[7])
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
-                          'labels':         batch[4]}
+                          'labels':         batch[4],
+                          'rules':          batch[7]}
 
+            #print(batch[0].size())
+            #print(batch[4].size())
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
             outputs = model(**inputs)
@@ -167,6 +179,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 loss = loss.mean() # mean() to average on multi-gpu parallel training
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
+            #print("loss:", loss)
 
             if args.fp16:
                 with amp.scale_loss(loss, optimizer) as scaled_loss:
@@ -189,7 +202,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                        results = evaluate(args, model, tokenizer, dict_IndenToID, label_dict)
+                        results = evaluate(args, model, tokenizer)
                         '''for key, value in results.items():
                             tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
                     tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
@@ -219,7 +232,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     return global_step, tr_loss / global_step
 
 
-def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
+def evaluate(args, model, tokenizer,  prefix=""):
     # Loop to handle MNLI double evaluation (matched, mis-matched)
     eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
     eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
@@ -253,6 +266,7 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
         sent_ids = None
         for batch in tqdm(eval_dataloader, desc="Evaluating"):
             model.eval()
+            #batch = tuple(t.view(-1).to(args.device) if len(t.size()) ==2 else t.view(t.size()[0]*t.size()[1],-1).to(args.device) for t in batch) 
             batch = tuple(t.to(args.device) for t in batch)
 
             with torch.no_grad():
@@ -260,17 +274,21 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
                     inputs = {'input_ids':      batch[0],
                               'attention_mask': batch[1],
                               'node_pos_ids':   batch[7],
-                              'labels':         batch[4]}
+                              'labels':         batch[4],
+                              'evaluate': True}
                 else:
                     inputs = {'input_ids':      batch[0],
                               'attention_mask': batch[1],
-                              'labels':         batch[4]}
+                              'labels':         batch[4],
+                              'evaluate': True}
 
                 event_ids = batch[3]
                 document_ids = batch[5]
                 sentence_ids = batch[6]
                 if args.model_type != 'distilbert':
                     inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
+                #print(batch[0].size())
+                #print(batch[4].size())
                 outputs = model(**inputs)
                 tmp_eval_loss, logits = outputs[:2]
 
@@ -308,7 +326,8 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
         result = compute_metrics(eval_task, preds, out_label_ids)
         results.update(result)
 
-        evaluate_aug = True
+        '''
+        evaluate_aug = False
         if evaluate_aug:
             old_doc_id = doc_ids[0]
             old_sen_id = sent_ids[0]
@@ -355,7 +374,7 @@ def evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=""):
                     temp = []
                     temp.append([preds[i], doc_ids[i], events[i],  sent_ids[i]])
                 
-            
+        '''
 
         output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
         with open(output_eval_file, "w") as writer:
@@ -396,12 +415,11 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         list(filter(None, args.model_name_or_path.split('/'))).pop(),
         str(args.max_seq_length),
         str(task)))
-    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache:
+    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
         label_dict = {x:y for x,y in enumerate(label_list)}
-        
     else:
         logger.info("Creating features from dataset file at %s", args.data_dir)
         label_list = processor.get_labels()
@@ -434,26 +452,31 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_attention_mask = torch.tensor([f.attention_masks for f in features], dtype=torch.long)
     all_token_type_ids = torch.tensor([f.token_type_ids for f in features], dtype=torch.long)
     all_event_ids = torch.tensor([f.ids for f in features], dtype=torch.long)
-    all_node_pos = torch.tensor([f.node_pos for f in features], dtype=torch.long)
+    #all_node_pos = torch.tensor([f.node_pos for f in features], dtype=torch.long)
     if output_mode == "classification":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.long)
     elif output_mode == "regression":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.float)
-    all_doc_ids = torch.tensor([int(f.doc_id) for f in features], dtype = torch.int)
-    all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
-    all_sources = [f.sources for f in features]
-    #print(all_sources)
-    data_type = None
-    if data_type == 'origin data':
-        l = np.array([i==1 for i in all_sources])
-        all_input_ids = all_input_ids[l,:]
-        all_attention_mask = all_attention_mask[l,:]
-        all_token_type_ids = all_token_type_ids[l,:]
-        all_labels = all_labels[l,:]
-        all_doc_ids = all_doc_ids[l,:]
-        all_sen_ids = all_sen_ids[l,:]
- 
-    dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids, all_node_pos)#, all_event_ids)
+    all_doc_ids = torch.tensor([f.doc_id for f in features], dtype = torch.int)
+    #print(features[0].rules)
+    all_sources = [f.sources for f in features] 
+    if not evaluate:
+        all_rules = torch.tensor([f.rules for f in features], dtype = torch.int)
+        all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(", ")] for s in f.sen_id] for f in features])
+        data_type = None
+        if data_type == 'origin data':
+            l = np.array([i==1 for i in all_sources])
+            all_input_ids = all_input_ids[l,:]
+            all_attention_mask = all_attention_mask[l,:]
+            all_token_type_ids = all_token_type_ids[l,:]
+            all_labels = all_labels[l,:]
+            all_doc_ids = all_doc_ids[l,:]
+            all_sen_ids = all_sen_ids[l,:]
+    
+        dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids,  all_rules)#,all_node_pos , all_event_ids)
+    else:
+        all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
+        dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#,all_node_pos , all_event_ids)
     return dataset, dict_IndenToID, label_dict
 
 
@@ -499,6 +522,8 @@ def judge_BM(BM):
     #     return True
     return BM
 
+webhook_url = "https://hooks.slack.com/services/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"
+@slack_sender(webhook_url=webhook_url, channel="coding-notification")
 def main():
     parser = argparse.ArgumentParser()
 
@@ -658,6 +683,7 @@ def main():
 
     # Training
     if args.do_train:
+        #results = evaluate(args, model, tokenizer )
         train_dataset, dict_IndenToID, label_dict = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
         global_step, tr_loss = train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
@@ -701,7 +727,7 @@ def main():
             
             model = model_class.from_pretrained(checkpoint)
             model.to(args.device)
-            result = evaluate(args, model, tokenizer, dict_IndenToID, label_dict, prefix=prefix)
+            result = evaluate(args, model, tokenizer,  prefix=prefix)
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
 

@@ -142,7 +142,7 @@ EJEAN NADARC FREIERMCHIRD , M.D.
 <TLINK id="TL8" fromID="E47" fromText="an outside hospital emergency room" toID="E30" toText="transferred" type="BEFORE" />
 <TLINK id="TL9" fromID="E48" fromText="Well General Hospital" toID="E30" toText="transferred" type="AFTER" />
 <TLINK id="TL10" fromID="E71" fromText="stable condition" toID="E35" toText="discharged" type="BEFORE" />
-<TLINK id="TL11" fromID="E24" fromText="acutely suicidal" toID="E60" toText="the Psychiatry Service" type="OVERLAP" />
+<TLINK id="TL11" fromID="E24" fromText="acutely suicidal" toID="E60" toText="the Psychiatry Service" type="BEFORE" />
 <TLINK id="TL12" fromID="E59" fromText="seen" toID="E60" toText="the Psychiatry Service" type="OVERLAP" />
 <TLINK id="TL13" fromID="E21" fromText="her gait" toID="E22" toText="markedly unstable" type="OVERLAP" />
 <TLINK id="TL14" fromID="E22" fromText="markedly unstable" toID="T9" toText="the second hospital day" type="OVERLAP" />
@@ -156,7 +156,7 @@ EJEAN NADARC FREIERMCHIRD , M.D.
 <TLINK id="TL22" fromID="E20" fromText="carotid non-invasive studies" toID="E34" toText="showed" type="OVERLAP" />
 <TLINK id="TL23" fromID="E34" fromText="showed" toID="E54" toText="normal right and left carotid bifurcations" type="AFTER" />
 <TLINK id="TL24" fromID="E63" fromText="noted" toID="E62" toText="The psychiatrist" type="OVERLAP" />
-<TLINK id="TL25" fromID="E61" fromText="the indifference" toID="E63" toText="noted" type="OVERLAP" />
+<TLINK id="TL25" fromID="E61" fromText="the indifference" toID="E63" toText="noted" type="BEFORE" />
 <TLINK id="TL26" fromID="E61" fromText="the indifference" toID="E64" toText="her own symptomatology" type="AFTER" />
 <TLINK id="TL27" fromID="E41" fromText="remained in bed" toID="T4" toText="The following day" type="OVERLAP" />
 <TLINK id="TL28" fromID="E41" fromText="remained in bed" toID="T6" toText="essentially all of the day" type="OVERLAP" />
@@ -199,6 +199,6 @@ EJEAN NADARC FREIERMCHIRD , M.D.
 <TLINK id="TL65" fromID="E37" fromText="her usual state of health" toID="T3" toText="3/20/97" type="BEFORE" />
 <TLINK id="TL66" fromID="E3" fromText="right-sided arm and leg weakness" toID="T3" toText="3/20/97" type="AFTER" />
 <TLINK id="TL67" fromID="E4" fromText="ataxia" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" />
-<TLINK id="TL68" fromID="E39" fromText="toppled towards the right" toID="E3" toText="right-sided arm and leg weakness" type="BEFORE" />
+<TLINK id="TL68" fromID="E39" fromText="toppled towards the right" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>
