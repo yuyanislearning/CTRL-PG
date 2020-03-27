@@ -220,11 +220,11 @@ def PSL_loss( logits=None, rules = None, stick_rule = True, loss = None):
         i = logits[n_batch*3+0,relation[0]]
         j = logits[n_batch*3+1,relation[1]]
         k = logits[n_batch*3+2,relation[2]]
-        if True:#max(0, max(0,i+j-1)-k)>0:
-            #print("real logits:",logits)
-            print("loss:", loss)
-            print("psl loss:", max(0, max(0,i+j-1)-k))
-            print("logits:", i,j,k)
+        #if True:max(0, max(0,i+j-1)-k)>0:
+            # print("real logits:",logits)
+            # print("loss:", loss)
+            # print("psl loss:", max(0, max(0,i+j-1)-k))
+            # print("logits:", i,j,k)
         psl_loss = psl_loss + max(0, max(0,i+j-1)-k)
 
     

@@ -37,6 +37,8 @@ except:
 
 from tqdm import tqdm, trange
 from knockknock import slack_sender
+import matplotlib.pyplot as plt
+plt.style.use('seaborn-whitegrid')
 
 
 from transformers import (WEIGHTS_NAME, BertConfig,
@@ -66,6 +68,7 @@ from utils_relation import glue_output_modes as output_modes
 from utils_relation import glue_processors as processors
 from utils_relation import sb_convert_examples_to_features as convert_examples_to_features
 
+
 logger = logging.getLogger(__name__)
 
 ALL_MODELS = sum((tuple(conf.pretrained_config_archive_map.keys()) for conf in (BertConfig, XLNetConfig, XLMConfig, 
@@ -91,7 +94,11 @@ def set_seed(args):
 
 def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     """ Train the model """
-    
+    best_mif1, best_maf1 = 0, 0
+    best_check = None
+    best_f1s = []
+
+
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
@@ -202,7 +209,10 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                        results = evaluate(args, model, tokenizer)
+                        best_mif1, best_maf1, best_check, results = evaluate(best_mif1, best_maf1,best_check,global_step, args, model, tokenizer)
+                        
+                        best_f1s.append((global_step,best_mif1))
+                        #print("Evaluating!!!!!!!!!", best_mif1, best_f1s)
                         '''for key, value in results.items():
                             tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
                     tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
@@ -217,7 +227,10 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                     model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
                     model_to_save.save_pretrained(output_dir)
                     torch.save(args, os.path.join(output_dir, 'training_args.bin'))
+                    tokenizer.save_pretrained(output_dir)
                     logger.info("Saving model checkpoint to %s", output_dir)
+                
+            
 
             if args.max_steps > 0 and global_step > args.max_steps:
                 epoch_iterator.close()
@@ -228,18 +241,29 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
 
     if args.local_rank in [-1, 0]:
         tb_writer.close()
+    print()
+    print("micro-f1", best_mif1)
+    print("macro-f1", best_maf1)
+    print("best checkpoint", best_check)
+    print("best f1s", best_f1s)
+    best_f1s = np.array(best_f1s)
+    fig = plt.figure()
+    plt.plot(best_f1s[:,0], best_f1s[:,1], 'ro')
+    plt.xlabel("global steps")
+    plt.ylabel("micro f1")
+    fig.savefig('/workspace/NLP/f1.png')
 
-    return global_step, tr_loss / global_step
+    return global_step, tr_loss / global_step, best_check
 
 
-def evaluate(args, model, tokenizer,  prefix=""):
+def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  prefix="", final_evaluate = False):
     # Loop to handle MNLI double evaluation (matched, mis-matched)
     eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
     eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
 
     results = {}
     for eval_task, eval_output_dir in zip(eval_task_names, eval_outputs_dirs):
-        eval_dataset, dict_IndenToID, label_dict = load_and_cache_examples(args, eval_task, tokenizer, evaluate=True)
+        eval_dataset, dict_IndenToID, label_dict = load_and_cache_examples(args, eval_task, tokenizer, evaluate=True, final_evaluate = final_evaluate)
 
         if not os.path.exists(eval_output_dir) and args.local_rank in [-1, 0]:
             os.makedirs(eval_output_dir)
@@ -376,45 +400,61 @@ def evaluate(args, model, tokenizer,  prefix=""):
                 
         '''
 
+        if best_mif1 < results['micro-f1']:
+            best_mif1 = results['micro-f1']
+            best_maf1 = results['macro-f1']
+            best_check = check
+            print("best_mif1",best_mif1)
+            print("best_maf1",best_maf1)
+            print("best_check",best_check)
+            
         output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
         with open(output_eval_file, "w") as writer:
             logger.info("***** Eval results {} *****".format(prefix))
             for key in sorted(result.keys()):
                 logger.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
+        if args.tempeval:
+            doc_dict = {}
+            for doc_id, sent_id, pred, event in zip(doc_ids, sent_ids, preds, events):
+                #print(doc_id,sent_id,pred,event)
+                if doc_id not in doc_dict:
+                    doc_dict[doc_id] = {"preds":[], "events":[]}
+                event = [dict_IndenToID[str(doc_id)+str(tuple(sent_id))][x] for x in event]
+                doc_dict[doc_id]["preds"].append(pred)
+                doc_dict[doc_id]["events"].append(event)
+            
+            for doc_id in doc_dict.keys():
+                preds = doc_dict[doc_id]["preds"]
+                preds = [label_dict[x] for x in preds]
+                events = doc_dict[doc_id]["events"]
+                if final_evaluate:
+                    ce = ce = closure_evaluate(doc_id, args.final_xml_folder)
+                    ce.eval(preds, events)
+                else:
+                    ce = closure_evaluate(doc_id, args.xml_folder)
+                    ce.eval(preds, events)
+            if final_evaluate:
+                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.final_xml_folder)]))
+            if final_evaluate:
+                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
-        doc_dict = {}
-        for doc_id, sent_id, pred, event in zip(doc_ids, sent_ids, preds, events):
-            #print(doc_id,sent_id,pred,event)
-            if doc_id not in doc_dict:
-                doc_dict[doc_id] = {"preds":[], "events":[]}
-            event = [dict_IndenToID[str(doc_id)+str(tuple(sent_id))][x] for x in event]
-            doc_dict[doc_id]["preds"].append(pred)
-            doc_dict[doc_id]["events"].append(event)
-
-        for doc_id in doc_dict.keys():
-            preds = doc_dict[doc_id]["preds"]
-            preds = [label_dict[x] for x in preds]
-            events = doc_dict[doc_id]["events"]
-            ce = closure_evaluate(doc_id, args.xml_folder)
-            ce.eval(preds, events)
-        os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
-
-    return results
+    return best_mif1, best_maf1, best_check,results
 
 
-def load_and_cache_examples(args, task, tokenizer, evaluate=False):
+def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluate = False):
     if args.local_rank not in [-1, 0] and not evaluate:
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
 
     processor = processors[task]()
     output_mode = output_modes[task]
     # Load data features from cache or dataset file
-    cached_features_file = os.path.join(args.data_dir, 'cached_{}_{}_{}_{}'.format(
-        'dev' if evaluate else 'train',
+    cached_features_file = os.path.join(args.data_dir, 'cached_{}_{}_{}_{}_{}'.format(
+        'test' if final_evaluate else 'dev' if evaluate else 'train',
         list(filter(None, args.model_name_or_path.split('/'))).pop(),
         str(args.max_seq_length),
-        str(task)))
+        str(task),
+        str(args.aug_round)))
     if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
@@ -427,7 +467,8 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
         if task in ['mnli', 'mnli-mm'] and args.model_type in ['roberta']:
             # HACK(label indices are swapped in RoBERTa pretrained model)
             label_list[1], label_list[2] = label_list[2], label_list[1] 
-        examples = processor.get_dev_examples(args.data_dir) if evaluate else processor.get_train_examples(args.data_dir)
+        examples = processor.get_test_examples(args.data_dir, args.tbd) if final_evaluate else processor.get_dev_examples(args.data_dir, args.tbd) if evaluate else processor.get_train_examples(args.data_dir, args.tbd)
+
         #print(examples)
         features, dict_IndenToID = convert_examples_to_features(examples,
                                                 tokenizer,
@@ -439,6 +480,8 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
                                                 pad_token_segment_id=4 if args.model_type in ['xlnet'] else 0,
                                                 data_aug = args.data_aug,
                                                 evaluate = evaluate,
+                                                aug_round = args.aug_round,
+                                                tbd = args.tbd,
         )
         if args.local_rank in [-1, 0]:
             logger.info("Saving features into cached file %s", cached_features_file)
@@ -462,7 +505,10 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     all_sources = [f.sources for f in features] 
     if not evaluate:
         all_rules = torch.tensor([f.rules for f in features], dtype = torch.int)
-        all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(", ")] for s in f.sen_id] for f in features])
+        #if args.tbd:
+        #    all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(", ")] for s in f.sen_id] for f in features])    
+
+        all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].replace(':',', ').split(", ")] for s in f.sen_id] for f in features])
         data_type = None
         if data_type == 'origin data':
             l = np.array([i==1 for i in all_sources])
@@ -475,7 +521,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
     
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids,  all_rules)#,all_node_pos , all_event_ids)
     else:
-        all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(", ")] for f in features])
+        all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].replace(':',', ').split(", ")] for f in features])
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#,all_node_pos , all_event_ids)
     return dataset, dict_IndenToID, label_dict
 
@@ -532,8 +578,10 @@ def main():
                         help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
     parser.add_argument("--gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
                         help="The input data dir. ")
-    parser.add_argument("--xml_folder", default="glue_data/I2B2-R/ rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str, required=True,
+    parser.add_argument("--xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str, required=True,
                         help="The input data dir. ")
+    parser.add_argument("--final_xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/test-empty/", type=str, required=True,
+                        help="The final input data dir. ")                        
     parser.add_argument("--model_type", default=None, type=str, required=True,
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
     parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
@@ -563,6 +611,10 @@ def main():
                         help="Rul evaluation during training at each logging step.")
     parser.add_argument("--do_lower_case", action='store_true',
                         help="Set this flag if you are using an uncased model.")
+    parser.add_argument("--tempeval", action='store_true',
+                        help="Set this flag if you are using a temporal evaluation.")
+    parser.add_argument("--tbd", action='store_true',
+                        help="Set this flag if you are using a TBDense data.")
 
     parser.add_argument("--per_gpu_train_batch_size", default=8, type=int,
                         help="Batch size per GPU/CPU for training.")
@@ -589,6 +641,8 @@ def main():
                         help="Log every X updates steps.")
     parser.add_argument('--save_steps', type=int, default=500,
                         help="Save checkpoint every X updates steps.")
+    parser.add_argument('--aug_round', type=int, default=0,
+                        help="augment data for X round")
     parser.add_argument("--eval_all_checkpoints", action='store_true',
                         help="Evaluate all checkpoints starting with the same prefix as model_name ending and ending with step number")
     parser.add_argument("--no_cuda", action='store_true',
@@ -685,7 +739,7 @@ def main():
     if args.do_train:
         #results = evaluate(args, model, tokenizer )
         train_dataset, dict_IndenToID, label_dict = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
-        global_step, tr_loss = train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict)
+        global_step, tr_loss, best_check = train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
 
@@ -698,8 +752,11 @@ def main():
         logger.info("Saving model checkpoint to %s", args.output_dir)
         # Save a trained model, configuration and tokenizer using `save_pretrained()`.
         # They can then be reloaded using `from_pretrained()`
-        model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
-        model_to_save.save_pretrained(args.output_dir)
+        model = model_class.from_pretrained(os.path.join(args.output_dir, 'checkpoint-{}'.format(best_check)))
+        tokenizer = tokenizer_class.from_pretrained(os.path.join(args.output_dir, 'checkpoint-{}'.format(best_check)))
+        #model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
+        #model_to_save.save_pretrained(args.output_dir)
+        model.save_pretrained(args.output_dir)
         tokenizer.save_pretrained(args.output_dir)
 
         # Good practice: save your training arguments together with the trained model
@@ -727,11 +784,12 @@ def main():
             
             model = model_class.from_pretrained(checkpoint)
             model.to(args.device)
-            result = evaluate(args, model, tokenizer,  prefix=prefix)
+            _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  prefix=prefix, final_evaluate =True)
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
 
     return results
+
 
 
 if __name__ == "__main__":

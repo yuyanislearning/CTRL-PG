@@ -471,6 +471,8 @@ def sb_convert_examples_to_features(examples, tokenizer,
                                       mask_padding_with_zero=True,
                                       data_aug = 'reduce',
                                       evaluate = False,
+                                      aug_round = 0,
+                                      tbd = False,
                                       ):#max_node_size=650
     """
     Loads a data file into a list of ``InputFeatures``
@@ -646,9 +648,9 @@ def sb_convert_examples_to_features(examples, tokenizer,
                                 )) 
  
         elif data_aug == "rules":
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             #print("origin BM", BM)
-            BM, OM, wrong_count = iter_rule_update(BM, OM,  1,wrong_count)
+            BM, OM, wrong_count = iter_rule_update(BM, OM,  aug_round,wrong_count)
             #print("wrong count ",wrong_count)
             #print("number of sentence", sen_count)
             #print("update BM", BM)
@@ -697,28 +699,38 @@ def sb_convert_examples_to_features(examples, tokenizer,
             add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
         elif data_aug == "triple_rules":
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             #print("origin BM", BM)
-            BM, OM, remove_count = iter_rule_update(BM, OM, 1, wrong_count)
+            print("aug_round", aug_round)
+            BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count)
             AM = BM.transpose()
             IDM = np.zeros(BM.shape)
             IDM = IDM + BM + AM + OM
             IDM[np.where(IDM>0)] = 1
 
-            texts = []
-            for text in example.text:
-                texts.extend(text)
+            # merge three sentences
+            if tbd:
+                texts = example.text
+            else:
+                texts = []
+                for text in example.text:
+                    texts.extend(text)
             
             sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
             #exit()
         elif data_aug == 'evaluate':
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             #print("origin BM", BM)
             BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count)
 
-            texts = []
-            for text in example.text:
-                texts.extend(text)
+
+            # merge three sentences
+            if tbd:
+                texts = example.text
+            else:
+                texts = []
+                for text in example.text:
+                    texts.extend(text)
             
             add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
  
@@ -759,6 +771,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
     print("sum_BOB",sum_BOB)
     print("sum_OBB",sum_OBB)
     print("sum_OOO",sum_OOO)
+    #exit()
     return features, dict_IndenToID
 
 
@@ -1567,33 +1580,45 @@ class I2b2_SB_Processor(DataProcessor):
     """Processor for the i2b2-m data set (GLUE version)."""
 
 
-    def get_train_examples(self, data_dir):
+    def get_train_examples(self, data_dir, tbd):
         """See base class."""
         return self._create_examples(
-            self._read_json(os.path.join(data_dir, "train.json")), "train")
+            self._read_json(os.path.join(data_dir, "train.json")), "train", tbd)
 
-    def get_dev_examples(self, data_dir):
+    def get_dev_examples(self, data_dir, tbd):
         """See base class."""
         return self._create_examples(
-            self._read_json(os.path.join(data_dir, "dev.json")), "dev")
+            self._read_json(os.path.join(data_dir, "dev.json")), "dev", tbd)
+
+    
+    def get_test_examples(self, data_dir, tbd):
+        """See base class."""
+        return self._create_examples(
+            self._read_json(os.path.join(data_dir, "test.json")), "test", tbd)
 
     def get_labels(self):
         """See base class."""
         return ["overlap", "before", "after"]
 
-    def _create_examples(self, lines, set_type):
+    def _create_examples(self, lines, set_type, tbd):
         """Creates examples for the training and dev sets."""
+        count = 0
         examples = []
         for (key, val) in lines.items():
-
-            guid = "%s-%s" % (set_type, int(key))
+            if tbd:
+                guid = "%s-%s" % (set_type, int(key[3:].replace('.','').replace('-','')))
+            else:
+                guid = "%s-%s" % (set_type, int(key))
             for skey, sval in val.items():
                 # try:
                 text = sval['text']
                 relations = sval['relation']
                 if len(relations)==0:
                     continue
-                doc_id = int(key)
+                if tbd:
+                    doc_id = int(key[3:].replace('.','').replace('-',''))
+                else:
+                    doc_id = int(key)
                 sen_id = skey
                 # except:
                 #     print(lines)
@@ -1835,7 +1860,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
     BBB = rule_tensor(BM, BM) * BT
     BOB = rule_tensor(BM, OM) * BT
     OBB = rule_tensor(OM, BM) * BT
-    OOO = rule_tensor(OM, OM) * BT
+    OOO = rule_tensor(OM, OM) * OT
     #print(np.sum(BBB),np.sum(BOB),np.sum(OBB),np.sum(OOO))
 
     
@@ -2304,9 +2329,13 @@ def iter_rule_update(BM= None, OM=None,n_iter= 3,  wrong_count=None):
 
     # iteratively update BM
     for _ in range(n_iter):
-        BM = BM + np.matmul(BM, OM)
-        BM = BM + np.matmul(OM, BM)
-        BM = BM + np.matmul(BM, BM)
+        new_BM = BM + np.matmul(BM, OM)
+        new_BM = new_BM + np.matmul(OM, BM)
+        new_BM = new_BM + np.matmul(BM, BM)
+        OM = OM + np.matmul(OM, OM)
+        new_BM[np.where(new_BM>0)] = 1
+        #print("evaluate", np.sum(new_BM)==np.sum(BM))
+        BM = new_BM
     
     # normalize
     BM[np.where(BM>0)] = 1
@@ -2387,24 +2416,39 @@ def IDIndexDic(rel = None):
         rd[i] = iid[1]
     return d,rd
 
-def build_BO(rel = None, IDToIndex= None):
+def build_BO(rel = None, IDToIndex= None, tbd = False):
     n = len(IDToIndex)
     BM = np.zeros((n,n))
     OM = np.zeros((n,n))
     IDM = np.zeros((n,n))
     pos_dict = {}
-    for r in rel:
-        pos_dict[IDToIndex[r[2]]] = (r[0],r[1])
-        pos_dict[IDToIndex[r[5]]] = (r[3],r[4])
-        if r[6] == "OVERLAP":
-            OM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
-            IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
-        if r[6] == "BEFORE":
-            BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
-            IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
-        if r[6] == "AFTER":
-            BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
-            IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+    if tbd:
+        for r in rel:
+            pos_dict[IDToIndex[r[2]]] = (r[0],r[1])
+            pos_dict[IDToIndex[r[5]]] = (r[3],r[4])
+            if r[6] == "SIMULTANEOUS":
+                OM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "BEFORE":
+                BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "AFTER":
+                BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+
+    else:
+        for r in rel:
+            pos_dict[IDToIndex[r[2]]] = (r[0],r[1])
+            pos_dict[IDToIndex[r[5]]] = (r[3],r[4])
+            if r[6] == "OVERLAP":
+                OM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "BEFORE":
+                BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "AFTER":
+                BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
     return BM, OM, IDM, pos_dict
 
 
