@@ -197,6 +197,9 @@ class ConvGraph(nn.Module):
 
 
 def PSL_loss( logits=None, rules = None, stick_rule = True, loss = None):
+    '''
+    PSL loss, fixing true label to calculate the loss
+    '''
     psl_loss = torch.tensor(0, dtype = torch.float64).cuda()
 
     relations_dict = {
@@ -213,18 +216,12 @@ def PSL_loss( logits=None, rules = None, stick_rule = True, loss = None):
     
     for n_batch in range(int(logits.size()[0]/3)):
         rule = rules[n_batch]
-        if rule == 0:
+        if rule == 0:# no rule exists
             continue
         relation = relations_dict[int(rule)]
-        #rules = [(1,1,1),(2,2,2),(1,0,1),(2,0,2),(0,1,1),(0,2,2),(0,0,0)]
         i = logits[n_batch*3+0,relation[0]]
         j = logits[n_batch*3+1,relation[1]]
         k = logits[n_batch*3+2,relation[2]]
-        #if True:max(0, max(0,i+j-1)-k)>0:
-            # print("real logits:",logits)
-            # print("loss:", loss)
-            # print("psl loss:", max(0, max(0,i+j-1)-k))
-            # print("logits:", i,j,k)
         psl_loss = psl_loss + max(0, max(0,i+j-1)-k)
 
     
@@ -247,7 +244,9 @@ def identify_label(label1 = None, label2 = None):
 
 
 class BertForRelationClassification(BertPreTrainedModel):
-
+    '''
+    for relation classification with psl loss
+    '''
     def __init__(self, config):
         super().__init__(config)
         self.num_labels = config.num_labels
@@ -286,8 +285,6 @@ class BertForRelationClassification(BertPreTrainedModel):
 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
-        #print("Attension!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        #print("logits", logits)
         outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
 
 

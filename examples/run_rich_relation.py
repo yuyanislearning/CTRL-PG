@@ -94,6 +94,7 @@ def set_seed(args):
 
 def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     """ Train the model """
+    # keep track of the best f1
     best_mif1, best_maf1 = 0, 0
     best_check = None
     best_f1s = []
@@ -159,7 +160,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         epoch_iterator = tqdm(train_dataloader, desc="Iteration", disable=args.local_rank not in [-1, 0])
         for step, batch in enumerate(epoch_iterator):
             model.train()
-            # change from 
+            # convert the example from three cases one example to one case one exsample
             # TODO make sure there is only case 3 and 4
             batch = tuple(t.view(-1).to(args.device) if len(t.size()) ==2 else t.view(t.size()[0]*t.size()[1],-1).to(args.device) for t in batch) 
 
@@ -167,16 +168,16 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
                           'node_pos_ids':   batch[8],
-                          'labels':         batch[4]}
+                          'labels':         batch[4],
+                          'rules':          batch[7],
+                          }
             else:
-                #print("rules", batch[7])
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
                           'labels':         batch[4],
                           'rules':          batch[7]}
 
-            #print(batch[0].size())
-            #print(batch[4].size())
+
             if args.model_type != 'distilbert':
                 inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
             outputs = model(**inputs)
@@ -210,9 +211,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
                         best_mif1, best_maf1, best_check, results = evaluate(best_mif1, best_maf1,best_check,global_step, args, model, tokenizer)
-                        
                         best_f1s.append((global_step,best_mif1))
-                        #print("Evaluating!!!!!!!!!", best_mif1, best_f1s)
                         '''for key, value in results.items():
                             tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
                     tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
@@ -241,7 +240,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
 
     if args.local_rank in [-1, 0]:
         tb_writer.close()
-    print()
+
     print("micro-f1", best_mif1)
     print("macro-f1", best_maf1)
     print("best checkpoint", best_check)
@@ -257,6 +256,9 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
 
 
 def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  prefix="", final_evaluate = False):
+    '''
+    evaluate on the dev or test data, update best f1 score 
+    '''
     # Loop to handle MNLI double evaluation (matched, mis-matched)
     eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
     eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
@@ -434,9 +436,8 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 else:
                     ce = closure_evaluate(doc_id, args.xml_folder)
                     ce.eval(preds, events)
-            if final_evaluate:
+            if final_evaluate:# temporal evaluation
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.final_xml_folder)]))
-            if final_evaluate:
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return best_mif1, best_maf1, best_check,results
@@ -455,7 +456,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
@@ -467,9 +468,9 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         if task in ['mnli', 'mnli-mm'] and args.model_type in ['roberta']:
             # HACK(label indices are swapped in RoBERTa pretrained model)
             label_list[1], label_list[2] = label_list[2], label_list[1] 
+        # final_evaluate indicate test data; only evaluate indicate dev data
         examples = processor.get_test_examples(args.data_dir, args.tbd) if final_evaluate else processor.get_dev_examples(args.data_dir, args.tbd) if evaluate else processor.get_train_examples(args.data_dir, args.tbd)
 
-        #print(examples)
         features, dict_IndenToID = convert_examples_to_features(examples,
                                                 tokenizer,
                                                 label_list=label_list,
@@ -568,6 +569,7 @@ def judge_BM(BM):
     #     return True
     return BM
 
+# TODO: remove it 
 webhook_url = "https://hooks.slack.com/services/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"
 @slack_sender(webhook_url=webhook_url, channel="coding-notification")
 def main():

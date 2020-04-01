@@ -525,7 +525,6 @@ def sb_convert_examples_to_features(examples, tokenizer,
     sum_OOO = 0
 
     for (ex_index, example) in enumerate(examples):
-        #print(example)
         sen_count+=1
         if ex_index % 10000 == 0:
             logger.info("Writing example %d" % (ex_index))
@@ -538,9 +537,11 @@ def sb_convert_examples_to_features(examples, tokenizer,
         # for one document
         #rel = build_sb_relations(rel = example.relations)
 
+        # construct dict to store the transformation from relation id to index of the matrix and vice versa
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
         dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID
-        #print("data_aug", data_aug)
+        # data_aug is how the data is augmented
+        # only use data_aug = triple_rules or evaluate for now
         if evaluate: 
             data_aug = 'evaluate'
         if data_aug == "reverse":
@@ -700,8 +701,6 @@ def sb_convert_examples_to_features(examples, tokenizer,
 
         elif data_aug == "triple_rules":
             BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
-            #print("origin BM", BM)
-            print("aug_round", aug_round)
             BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count)
             AM = BM.transpose()
             IDM = np.zeros(BM.shape)
@@ -717,7 +716,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
                     texts.extend(text)
             
             sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
-            #exit()
+
         elif data_aug == 'evaluate':
             BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             #print("origin BM", BM)
@@ -1845,7 +1844,10 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
 
 
 def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos_dict,IDM, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left):
-    
+    '''
+    add the features in triple form where all rules will be included and cases not inclued in any rule 
+    will be combined together as a triple
+    '''
     #print("Originally there is %f B and A, and %f O relations"%(np.sum(BM), np.sum(OM)))
     #print("BM,",BM)
     #print("OM",OM)
@@ -2133,7 +2135,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
             O_red+=3
 
 
-
+    # add triple for rules
     B_count, O_count = add_rules(BBB, 1,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
     B_count, O_count = add_rules(BBB, 2,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
     B_count, O_count = add_rules(BOB, 3,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
@@ -2149,6 +2151,9 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
  
 
 def add_rules(rule_tensor, rule, B_count, O_count, features, doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id):
+    '''
+    add rules with a int indicating which rule it belong
+    '''
 
     all_x, all_y, all_z = np.where(rule_tensor>0)
 
@@ -2247,7 +2252,6 @@ def add_rules(rule_tensor, rule, B_count, O_count, features, doc_id, sen_id,  po
         if rule == 7:
             O_count+=3
             
-
     return B_count, O_count
 
 
@@ -2417,6 +2421,10 @@ def IDIndexDic(rel = None):
     return d,rd
 
 def build_BO(rel = None, IDToIndex= None, tbd = False):
+    '''
+    convert the relations to before matrix and overlap matrix, not distinguished before and after
+    later will construct after matrix by transverse
+    '''
     n = len(IDToIndex)
     BM = np.zeros((n,n))
     OM = np.zeros((n,n))
