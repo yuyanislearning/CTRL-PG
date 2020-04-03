@@ -210,7 +210,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                        best_mif1, best_maf1, best_check, results = evaluate(best_mif1, best_maf1,best_check,global_step, args, model, tokenizer)
+                        best_mif1, best_maf1, best_check, results = evaluate(best_mif1, best_maf1,best_check,global_step, args, model, tokenizer, final_evaluate = True)
                         best_f1s.append((global_step,best_mif1))
                         '''for key, value in results.items():
                             tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
@@ -430,14 +430,16 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 preds = doc_dict[doc_id]["preds"]
                 preds = [label_dict[x] for x in preds]
                 events = doc_dict[doc_id]["events"]
+                #print(preds)
+                #print(events)
                 if final_evaluate:
-                    ce = ce = closure_evaluate(doc_id, args.final_xml_folder)
+                    ce = closure_evaluate(doc_id, args.final_xml_folder)
                     ce.eval(preds, events)
                 else:
                     ce = closure_evaluate(doc_id, args.xml_folder)
                     ce.eval(preds, events)
             if final_evaluate:# temporal evaluation
-                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.final_xml_folder)]))
+                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]))
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return best_mif1, best_maf1, best_check,results
@@ -579,6 +581,8 @@ def main():
     parser.add_argument("--data_dir", default=None, type=str, required=True,
                         help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
     parser.add_argument("--gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
+                        help="The input data dir. ")
+    parser.add_argument("--test_gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
                         help="The input data dir. ")
     parser.add_argument("--xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str, required=True,
                         help="The input data dir. ")

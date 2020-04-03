@@ -267,8 +267,8 @@ The family realizes that the long term outlook for this patient is not very good
 <TIMEX3 id="T6" start="827" end="848" text="the five to six weeks" type="DURATION" val="P5.5W" mod="APPROX" />
 <SECTIME id="S0" start="18" end="26" text="10/14/96" type="ADMISSION" dvalue="1996-10-14" />
 <SECTIME id="S1" start="44" end="52" text="10/27/96" type="DISCHARGE" dvalue="1996-10-27" />
-<TLINK id="TL0" fromID="E144" fromText="reversed" toID="E145" toText="Vitamin K" type="OVERLAP" />
-<TLINK id="TL1" fromID="E143" fromText="his prothrombin time" toID="E144" toText="reversed" type="OVERLAP" />
+<TLINK id="TL0" fromID="E144" fromText="reversed" toID="E145" toText="Vitamin K" type="AFTER" />
+<TLINK id="TL1" fromID="E143" fromText="his prothrombin time" toID="E144" toText="reversed" type="AFTER" />
 <TLINK id="TL2" fromID="E145" fromText="Vitamin K" toID="E146" toText="admission" type="OVERLAP" />
 <TLINK id="TL3" fromID="E147" fromText="fresh frozen plasma" toID="E148" toText="the emergency room" type="OVERLAP" />
 <TLINK id="TL4" fromID="E87" fromText="his dementing illness" toID="E81" toText="admission" type="OVERLAP" />
@@ -276,7 +276,7 @@ The family realizes that the long term outlook for this patient is not very good
 <TLINK id="TL6" fromID="E85" fromText="the bells phenomenon" toID="E83" toText="further examination of his eye movement" type="OVERLAP" />
 <TLINK id="TL7" fromID="E86" fromText="progressive supranuclear palsy" toID="E82" toText="progressive supranuclear palsy" type="OVERLAP" />
 <TLINK id="TL8" fromID="E90" fromText="this admission" toID="E81" toText="admission" type="OVERLAP" />
-<TLINK id="TL9" fromID="E42" fromText="the Neurology Service" toID="E41" toText="transferred" type="OVERLAP" />
+<TLINK id="TL9" fromID="E42" fromText="the Neurology Service" toID="E41" toText="transferred" type="AFTER" />
 <TLINK id="TL10" fromID="E108" fromText="show" toID="E107" toText="gadolinium scan" type="OVERLAP" />
 <TLINK id="TL11" fromID="E109" fromText="enhancement" toID="E107" toText="gadolinium scan" type="OVERLAP" />
 <TLINK id="TL12" fromID="E113" fromText="the hematoma" toID="E110" toText="his hemorrhage" type="OVERLAP" />
@@ -284,19 +284,19 @@ The family realizes that the long term outlook for this patient is not very good
 <TLINK id="TL14" fromID="E178" fromText="resuscitation measures" toID="E172" toText="do not resuscitate" type="OVERLAP" />
 <TLINK id="TL15" fromID="E179" fromText="heroic measures" toID="E178" toText="resuscitation measures" type="OVERLAP" />
 <TLINK id="TL16" fromID="E180" fromText="a cardiopulmonary arrest" toID="E173" toText="a terminal cardiac event" type="OVERLAP" />
-<TLINK id="TL17" fromID="E35" fromText="an outside hospital" toID="E37" toText="transferred" type="OVERLAP" />
-<TLINK id="TL18" fromID="E38" fromText="the Ph University Of Medical Center Emergency Room" toID="E41" toText="transferred" type="OVERLAP" />
-<TLINK id="TL19" fromID="E37" fromText="transferred" toID="E36" toText="nasally intubated" type="OVERLAP" />
-<TLINK id="TL20" fromID="E38" fromText="the Ph University Of Medical Center Emergency Room" toID="E37" toText="transferred" type="OVERLAP" />
+<TLINK id="TL17" fromID="E35" fromText="an outside hospital" toID="E37" toText="transferred" type="AFTER" />
+<TLINK id="TL18" fromID="E38" fromText="the Ph University Of Medical Center Emergency Room" toID="E41" toText="transferred" type="AFTER" />
+<TLINK id="TL19" fromID="E37" fromText="transferred" toID="E36" toText="nasally intubated" type="AFTER" />
+<TLINK id="TL20" fromID="E38" fromText="the Ph University Of Medical Center Emergency Room" toID="E37" toText="transferred" type="AFTER" />
 <TLINK id="TL21" fromID="E36" fromText="nasally intubated" toID="E35" toText="an outside hospital" type="OVERLAP" />
 <TLINK id="TL22" fromID="E39" fromText="orally intubated" toID="E38" toText="the Ph University Of Medical Center Emergency Room" type="OVERLAP" />
 <TLINK id="TL23" fromID="E40" fromText="A trauma evaluation" toID="E38" toText="the Ph University Of Medical Center Emergency Room" type="OVERLAP" />
-<TLINK id="TL24" fromID="E99" fromText="the unchanged left temporal parenchymal interparenchymal hematoma" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
+<TLINK id="TL24" fromID="E99" fromText="the unchanged left temporal parenchymal interparenchymal hematoma" toID="E97" toText="an magnetic resonance imaging" type="AFTER" />
 <TLINK id="TL25" fromID="E100" fromText="the old embolic right frontal infarct" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
 <TLINK id="TL26" fromID="E101" fromText="new lesions" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
 <TLINK id="TL27" fromID="E103" fromText="old bleeds" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
 <TLINK id="TL28" fromID="T17" fromText="October 18 , 1996" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
-<TLINK id="TL29" fromID="E98" fromText="showed" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
+<TLINK id="TL29" fromID="E98" fromText="showed" toID="E97" toText="an magnetic resonance imaging" type="AFTER" />
 <TLINK id="TL30" fromID="E102" fromText="his susceptibility studies" toID="E97" toText="an magnetic resonance imaging" type="OVERLAP" />
 <TLINK id="TL31" fromID="E2" fromText="birth" toID="T2" toText="September 30 , 1917" type="OVERLAP" />
 <TLINK id="TL32" fromID="E124" fromText="supratherapeutic" toID="E123" toText="his anti-coagulation" type="OVERLAP" />
@@ -327,42 +327,42 @@ The family realizes that the long term outlook for this patient is not very good
 <TLINK id="TL57" fromID="E89" fromText="cortico-basal ganglia degeneration process" toID="E87" toText="his dementing illness" type="OVERLAP" />
 <TLINK id="TL58" fromID="E94" fromText="tremor" toID="E90" toText="this admission" type="OVERLAP" />
 <TLINK id="TL59" fromID="E95" fromText="quite rigid" toID="E88" toText="rigidity" type="OVERLAP" />
-<TLINK id="TL60" fromID="E1" fromText="DISCHARGE" toID="T1" toText="10/27/96" type="BEFORE" />
+<TLINK id="TL60" fromID="E1" fromText="DISCHARGE" toID="T1" toText="10/27/96" type="OVERLAP" />
 <TLINK id="TL61" fromID="E154" fromText="a high amount of anticoagulation" toID="E155" toText="the new intraparenchymal bleed" type="OVERLAP" />
 <TLINK id="TL62" fromID="E150" fromText="monitored very closely" toID="E149" toText="His anticoagulation" type="OVERLAP" />
 <TLINK id="TL63" fromID="E156" fromText="INR" toID="E149" toText="His anticoagulation" type="OVERLAP" />
-<TLINK id="TL64" fromID="E34" fromText="known incontinence" toID="E32" toText="fell" type="OVERLAP" />
+<TLINK id="TL64" fromID="E34" fromText="known incontinence" toID="E32" toText="fell" type="AFTER" />
 <TLINK id="TL65" fromID="E119" fromText="hypertension" toID="E118" toText="his bleed" type="OVERLAP" />
 <TLINK id="TL66" fromID="E135" fromText="a large aspiration risk" toID="E136" toText="his decreased mental status" type="OVERLAP" />
 <TLINK id="TL67" fromID="E137" fromText="a gag reflex" toID="E136" toText="his decreased mental status" type="OVERLAP" />
 <TLINK id="TL68" fromID="E130" fromText="chest pain" toID="E131" toText="his admission" type="OVERLAP" />
 <TLINK id="TL69" fromID="E105" fromText="arterial catheterization" toID="T3" toText="10/14/96" type="OVERLAP" />
 <TLINK id="TL70" fromID="T4" fromText="10/14/96" toID="E106" toText="head CT scan" type="OVERLAP" />
-<TLINK id="TL71" fromID="E29" fromText="speaking &quot; gibberish &quot;" toID="E30" toText="sitting in a chair" type="AFTER" />
+<TLINK id="TL71" fromID="E29" fromText="speaking &quot; gibberish &quot;" toID="E30" toText="sitting in a chair" type="OVERLAP" />
 <TLINK id="TL72" fromID="E27" fromText="admission" toID="T9" toText="the morning" type="OVERLAP" />
 <TLINK id="TL73" fromID="E28" fromText="moving his mouth less" toID="T10" toText="8 o&#39;clock" type="OVERLAP" />
 <TLINK id="TL74" fromID="T10" fromText="8 o&#39;clock" toID="T9" toText="the morning" type="OVERLAP" />
-<TLINK id="TL75" fromID="E28" fromText="moving his mouth less" toID="E29" toText="speaking &quot; gibberish &quot;" type="AFTER" />
+<TLINK id="TL75" fromID="E28" fromText="moving his mouth less" toID="E29" toText="speaking &quot; gibberish &quot;" type="OVERLAP" />
 <TLINK id="TL76" fromID="E121" fromText="ischemia" toID="E120" toText="His electrocardiogram" type="OVERLAP" />
-<TLINK id="TL77" fromID="E166" fromText="a soft solid diet" toID="E164" toText="evaluated" type="OVERLAP" />
+<TLINK id="TL77" fromID="E166" fromText="a soft solid diet" toID="E164" toText="evaluated" type="AFTER" />
 <TLINK id="TL78" fromID="E167" fromText="supervision" toID="E166" toText="a soft solid diet" type="OVERLAP" />
 <TLINK id="TL79" fromID="E170" fromText="feeding" toID="E166" toText="a soft solid diet" type="OVERLAP" />
-<TLINK id="TL80" fromID="E56" fromText="an electroencephalogram" toID="E57" toText="his initial admittance" type="OVERLAP" />
+<TLINK id="TL80" fromID="E56" fromText="an electroencephalogram" toID="E57" toText="his initial admittance" type="AFTER" />
 <TLINK id="TL81" fromID="E59" fromText="show" toID="E56" toText="an electroencephalogram" type="OVERLAP" />
-<TLINK id="TL82" fromID="E60" fromText="seizure activity" toID="E56" toText="an electroencephalogram" type="OVERLAP" />
+<TLINK id="TL82" fromID="E60" fromText="seizure activity" toID="E56" toText="an electroencephalogram" type="AFTER" />
 <TLINK id="TL83" fromID="E61" fromText="show" toID="E59" toText="show" type="OVERLAP" />
-<TLINK id="TL84" fromID="E62" fromText="diffuse slowing" toID="E56" toText="an electroencephalogram" type="OVERLAP" />
+<TLINK id="TL84" fromID="E62" fromText="diffuse slowing" toID="E56" toText="an electroencephalogram" type="AFTER" />
 <TLINK id="TL85" fromID="E161" fromText="monitoring" toID="E162" toText="his anticoagulation status" type="OVERLAP" />
 <TLINK id="TL86" fromID="T0" fromText="10/14/96" toID="E0" toText="ADMISSION" type="OVERLAP" />
-<TLINK id="TL87" fromID="E10" fromText="stated" toID="E7" toText="presents" type="OVERLAP" />
+<TLINK id="TL87" fromID="E10" fromText="stated" toID="E7" toText="presents" type="AFTER" />
 <TLINK id="TL88" fromID="T18" fromText="six months" toID="E112" toText="re-evaluated" type="OVERLAP" />
 <TLINK id="TL89" fromID="E116" fromText="compressed" toID="E117" toText="hemorrhage" type="OVERLAP" />
 <TLINK id="TL90" fromID="E117" fromText="hemorrhage" toID="E113" toText="the hematoma" type="OVERLAP" />
 <TLINK id="TL91" fromID="E118" fromText="his bleed" toID="E117" toText="hemorrhage" type="OVERLAP" />
-<TLINK id="TL92" fromID="E168" fromText="his nasogastric tube" toID="T19" toText="October 19 , 1996" type="OVERLAP" />
-<TLINK id="TL93" fromID="E170" fromText="feeding" toID="E168" toText="his nasogastric tube" type="OVERLAP" />
+<TLINK id="TL92" fromID="E168" fromText="his nasogastric tube" toID="T19" toText="October 19 , 1996" type="AFTER" />
+<TLINK id="TL93" fromID="E170" fromText="feeding" toID="E168" toText="his nasogastric tube" type="AFTER" />
 <TLINK id="TL94" fromID="E169" fromText="tolerated" toID="E170" toText="feeding" type="OVERLAP" />
-<TLINK id="TL95" fromID="E73" fromText="the Intensive Care Unit" toID="E72" toText="removed" type="OVERLAP" />
+<TLINK id="TL95" fromID="E73" fromText="the Intensive Care Unit" toID="E72" toText="removed" type="AFTER" />
 <TLINK id="TL96" fromID="E71" fromText="an oral regimen" toID="E70" toText="intravenous nitroglycerine" type="OVERLAP" />
 <TLINK id="TL97" fromID="E68" fromText="His hypertension" toID="E69" toText="his high blood pressure" type="OVERLAP" />
 <TLINK id="TL98" fromID="E44" fromText="Coumadin" toID="E43" toText="ADMISSION" type="OVERLAP" />
@@ -375,19 +375,19 @@ The family realizes that the long term outlook for this patient is not very good
 <TLINK id="TL105" fromID="E65" fromText="intravenous Ativan" toID="E64" toText="the emergency room" type="OVERLAP" />
 <TLINK id="TL106" fromID="E66" fromText="his rhythmic blinking" toID="E64" toText="the emergency room" type="OVERLAP" />
 <TLINK id="TL107" fromID="E67" fromText="examination" toID="E64" toText="the emergency room" type="OVERLAP" />
-<TLINK id="TL108" fromID="E18" fromText="progressive supranuclear palsy" toID="E16" toText="seen" type="OVERLAP" />
+<TLINK id="TL108" fromID="E18" fromText="progressive supranuclear palsy" toID="E16" toText="seen" type="AFTER" />
 <TLINK id="TL109" fromID="E16" fromText="seen" toID="E17" toText="the Ph University Of Medical Center" type="OVERLAP" />
 <TLINK id="TL110" fromID="T7" fromText="two" toID="E25" toText="falls" type="OVERLAP" />
 <TLINK id="TL111" fromID="E26" fromText="slipping off the edge of a chair backwards" toID="E25" toText="falls" type="OVERLAP" />
-<TLINK id="TL112" fromID="E55" fromText="his frail condition" toID="E52" toText="admitted" type="OVERLAP" />
+<TLINK id="TL112" fromID="E55" fromText="his frail condition" toID="E52" toText="admitted" type="AFTER" />
 <TLINK id="TL113" fromID="E54" fromText="intensive monitoring" toID="E53" toText="the Neurology Intensive Care Unit" type="OVERLAP" />
-<TLINK id="TL114" fromID="E57" fromText="his initial admittance" toID="E52" toText="admitted" type="OVERLAP" />
+<TLINK id="TL114" fromID="E57" fromText="his initial admittance" toID="E52" toText="admitted" type="AFTER" />
 <TLINK id="TL115" fromID="E58" fromText="the Intensive Care Unit" toID="E53" toText="the Neurology Intensive Care Unit" type="OVERLAP" />
 <TLINK id="TL116" fromID="E134" fromText="quite stable" toID="E133" toText="his initial intubation" type="OVERLAP" />
-<TLINK id="TL117" fromID="E32" fromText="fell" toID="E31" toText="making multiple attempts to get up" type="OVERLAP" />
+<TLINK id="TL117" fromID="E32" fromText="fell" toID="E31" toText="making multiple attempts to get up" type="AFTER" />
 <TLINK id="TL118" fromID="E31" fromText="making multiple attempts to get up" toID="E30" toText="sitting in a chair" type="OVERLAP" />
-<TLINK id="TL119" fromID="E32" fromText="fell" toID="T11" toText="11:30 a.m." type="OVERLAP" />
-<TLINK id="TL120" fromID="E33" fromText="definite clonic activity" toID="E32" toText="fell" type="OVERLAP" />
+<TLINK id="TL119" fromID="E32" fromText="fell" toID="T11" toText="11:30 a.m." type="AFTER" />
+<TLINK id="TL120" fromID="E33" fromText="definite clonic activity" toID="E32" toText="fell" type="AFTER" />
 <TLINK id="TL121" fromID="E172" fromText="do not resuscitate" toID="E181" toText="discussions" type="OVERLAP" />
 <TLINK id="TL122" fromID="E176" fromText="an intubation" toID="E181" toText="discussions" type="OVERLAP" />
 <TLINK id="TL123" fromID="E173" fromText="a terminal cardiac event" toID="E174" toText="his admission" type="OVERLAP" />
@@ -397,7 +397,7 @@ The family realizes that the long term outlook for this patient is not very good
 <TLINK id="TL127" fromID="E104" fromText="amylase angiopathy" toID="E103" toText="old bleeds" type="OVERLAP" />
 <TLINK id="TL128" fromID="E110" fromText="his hemorrhage" toID="E99" toText="the unchanged left temporal parenchymal interparenchymal hematoma" type="OVERLAP" />
 <TLINK id="TL129" fromID="E77" fromText="awake" toID="T16" toText="the second day" type="OVERLAP" />
-<TLINK id="TL130" fromID="E80" fromText="his endotracheal tube" toID="T16" toText="the second day" type="OVERLAP" />
+<TLINK id="TL130" fromID="E80" fromText="his endotracheal tube" toID="T16" toText="the second day" type="AFTER" />
 <TLINK id="TL131" fromID="E78" fromText="alert" toID="E77" toText="awake" type="OVERLAP" />
 <TLINK id="TL132" fromID="E79" fromText="communicative" toID="E77" toText="awake" type="OVERLAP" />
 <TLINK id="TL133" fromID="E13" fromText="Parkinsonism" toID="E15" toText="Eldopa" type="OVERLAP" />

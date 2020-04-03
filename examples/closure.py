@@ -2,6 +2,7 @@
 import xml.etree.ElementTree as ET
 import tempfile
 import os
+import re
 
 class evaluation:
 
@@ -19,8 +20,14 @@ class evaluation:
 		# read the corresponding xml file without tlinks
 		xml_file = os.path.join(self.xml_folder, str(self.document_id)+'.xml')
 		#print(xml_file) #document, _ = tidy_document(xml_file.read(), {"input_xml": True})
-		tree = ET.parse(xml_file)
-		root = tree.getroot()
+		print(xml_file)
+		#text=open(xml_file).read()
+		#text=re.sub(u"[\x00-\x08\x0b-\x0c\x0e-\x1f]+",u"",text)
+		#parser = ET.XMLParser(encoding="utf-8")
+		#tree = ET.fromstring(xmlstring, parser=parser)
+		with open(xml_file, 'r') as fxml_file:
+			tree = ET.parse(fxml_file)
+			root = tree.getroot()
 		self.parseTags(root[1])
 
 		# et = ET.parse(xml_file)

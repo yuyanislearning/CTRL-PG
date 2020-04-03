@@ -119,41 +119,41 @@ Therefore , because of his need for intense psychiatric care , the patient is di
 <TIMEX3 id="T3" start="916" end="942" text="forty to fifty years prior" type="DURATION" val="p45y" mod="APPROX" />
 <SECTIME id="S0" start="18" end="25" text="4/14/94" type="ADMISSION" dvalue="1994-4-14" />
 <SECTIME id="S1" start="43" end="50" text="4/20/94" type="DISCHARGE" dvalue="1994-4-20" />
-<TLINK id="TL0" fromID="E64" fromText="prepared for transfer" toID="E67" toText="discharged" type="OVERLAP" />
-<TLINK id="TL1" fromID="E66" fromText="intense psychiatric care" toID="E67" toText="discharged" type="OVERLAP" />
-<TLINK id="TL2" fromID="E68" fromText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" toID="E67" toText="discharged" type="OVERLAP" />
-<TLINK id="TL3" fromID="E65" fromText="a Psychiatric Hospital" toID="E68" toText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" type="OVERLAP" />
+<TLINK id="TL0" fromID="E64" fromText="prepared for transfer" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL1" fromID="E66" fromText="intense psychiatric care" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL2" fromID="E68" fromText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" toID="E67" toText="discharged" type="AFTER" />
+<TLINK id="TL3" fromID="E65" fromText="a Psychiatric Hospital" toID="E68" toText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" type="BEFORE" />
 <TLINK id="TL4" fromID="E67" fromText="discharged" toID="T7" toText="the 7th hospital day" type="OVERLAP" />
 <TLINK id="TL5" fromID="E17" fromText="found in the house" toID="E13" toText="decided to take his life" type="OVERLAP" />
-<TLINK id="TL6" fromID="E39" fromText="testing" toID="E38" toText="seen in consultation" type="OVERLAP" />
+<TLINK id="TL6" fromID="E39" fromText="testing" toID="E38" toText="seen in consultation" type="AFTER" />
 <TLINK id="TL7" fromID="E30" fromText="admitted" toID="E27" toText="admission" type="OVERLAP" />
 <TLINK id="TL8" fromID="E27" fromText="admission" toID="E28" toText="denies" type="OVERLAP" />
 <TLINK id="TL9" fromID="E29" fromText="any suicidal or homicidal ideation" toID="E27" toText="admission" type="OVERLAP" />
-<TLINK id="TL10" fromID="E26" fromText="any recent losses" toID="E24" toText="initial questioning" type="OVERLAP" />
+<TLINK id="TL10" fromID="E26" fromText="any recent losses" toID="E24" toText="initial questioning" type="BEFORE" />
 <TLINK id="TL11" fromID="E25" fromText="denies" toID="E24" toText="initial questioning" type="OVERLAP" />
 <TLINK id="TL12" fromID="E27" fromText="admission" toID="E22" toText="admission" type="OVERLAP" />
 <TLINK id="TL13" fromID="E2" fromText="DISCHARGE" toID="E1" toText="DISCHARGE" type="OVERLAP" />
-<TLINK id="TL14" fromID="E35" fromText="the emergency room" toID="E32" toText="his admission" type="OVERLAP" />
-<TLINK id="TL15" fromID="E36" fromText="suicide precautions" toID="E32" toText="his admission" type="OVERLAP" />
-<TLINK id="TL16" fromID="E37" fromText="an infusion of intravenous fluid" toID="E32" toText="his admission" type="OVERLAP" />
+<TLINK id="TL14" fromID="E35" fromText="the emergency room" toID="E32" toText="his admission" type="BEFORE" />
+<TLINK id="TL15" fromID="E36" fromText="suicide precautions" toID="E32" toText="his admission" type="BEFORE" />
+<TLINK id="TL16" fromID="E37" fromText="an infusion of intravenous fluid" toID="E32" toText="his admission" type="BEFORE" />
 <TLINK id="TL17" fromID="E34" fromText="sutured close" toID="E35" toText="the emergency room" type="OVERLAP" />
 <TLINK id="TL18" fromID="E7" fromText="alone at home" toID="E9" toText="heard a single shot" type="OVERLAP" />
-<TLINK id="TL19" fromID="E8" fromText="the paramedics were called" toID="E9" toText="heard a single shot" type="OVERLAP" />
+<TLINK id="TL19" fromID="E8" fromText="the paramedics were called" toID="E9" toText="heard a single shot" type="AFTER" />
 <TLINK id="TL20" fromID="E10" fromText="found the patient in bed" toID="E8" toText="the paramedics were called" type="OVERLAP" />
-<TLINK id="TL21" fromID="E10" fromText="found the patient in bed" toID="E6" toText="found in bed" type="OVERLAP" />
-<TLINK id="TL22" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="E54" toText="transferred" type="OVERLAP" />
-<TLINK id="TL23" fromID="E50" fromText="Captopril" toID="E49" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL21" fromID="E10" fromText="found the patient in bed" toID="E6" toText="found in bed" type="AFTER" />
+<TLINK id="TL22" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="E54" toText="transferred" type="BEFORE" />
+<TLINK id="TL23" fromID="E50" fromText="Captopril" toID="E49" toText="his blood pressure" type="AFTER" />
 <TLINK id="TL24" fromID="E51" fromText="Nifedipine" toID="E50" toText="Captopril" type="OVERLAP" />
 <TLINK id="TL25" fromID="E1" fromText="DISCHARGE" toID="T1" toText="4/20/94" type="OVERLAP" />
-<TLINK id="TL26" fromID="T4" fromText="eight years" toID="E22" toText="admission" type="OVERLAP" />
-<TLINK id="TL27" fromID="E23" fromText="leukemia" toID="E21" toText="The patient &#39;s sister died" type="OVERLAP" />
+<TLINK id="TL26" fromID="T4" fromText="eight years" toID="E22" toText="admission" type="BEFORE" />
+<TLINK id="TL27" fromID="E23" fromText="leukemia" toID="E21" toText="The patient &#39;s sister died" type="AFTER" />
 <TLINK id="TL28" fromID="T4" fromText="eight years" toID="E21" toText="The patient &#39;s sister died" type="OVERLAP" />
 <TLINK id="TL29" fromID="E2" fromText="DISCHARGE" toID="T2" toText="4/20/94" type="OVERLAP" />
 <TLINK id="TL30" fromID="T3" fromText="forty to fifty years prior" toID="E16" toText="his admission" type="OVERLAP" />
 <TLINK id="TL31" fromID="T3" fromText="forty to fifty years prior" toID="E15" toText="his father passed away" type="OVERLAP" />
 <TLINK id="TL32" fromID="E14" fromText="described" toID="E69" toText="further questioning" type="OVERLAP" />
 <TLINK id="TL33" fromID="E19" fromText="expressed concern" toID="E14" toText="described" type="OVERLAP" />
-<TLINK id="TL34" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="E45" toText="admitted" type="OVERLAP" />
+<TLINK id="TL34" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="E45" toText="admitted" type="AFTER" />
 <TLINK id="TL35" fromID="E47" fromText="closely monitored" toID="E46" toText="the Neurological Intensive Care Unit" type="OVERLAP" />
 <TLINK id="TL36" fromID="E47" fromText="closely monitored" toID="T5" toText="the first two days" type="OVERLAP" />
 <TLINK id="TL37" fromID="E49" fromText="his blood pressure" toID="E46" toText="the Neurological Intensive Care Unit" type="OVERLAP" />
@@ -162,19 +162,19 @@ Therefore , because of his need for intense psychiatric care , the patient is di
 <TLINK id="TL40" fromID="E41" fromText="2 point restraints" toID="E42" toText="monitored by a sitter" type="OVERLAP" />
 <TLINK id="TL41" fromID="E43" fromText="ambulate" toID="E42" toText="monitored by a sitter" type="OVERLAP" />
 <TLINK id="TL42" fromID="E56" fromText="Close monitoring" toID="E57" toText="demonstrated" type="OVERLAP" />
-<TLINK id="TL43" fromID="E58" fromText="his blood pressure" toID="E56" toText="Close monitoring" type="OVERLAP" />
+<TLINK id="TL43" fromID="E58" fromText="his blood pressure" toID="E56" toText="Close monitoring" type="BEFORE" />
 <TLINK id="TL44" fromID="E58" fromText="his blood pressure" toID="E59" toText="stable" type="OVERLAP" />
 <TLINK id="TL45" fromID="E60" fromText="his dosage regimen" toID="E58" toText="his blood pressure" type="OVERLAP" />
 <TLINK id="TL46" fromID="E32" fromText="his admission" toID="E30" toText="admitted" type="OVERLAP" />
-<TLINK id="TL47" fromID="E54" fromText="transferred" toID="E53" toText="stabilized" type="OVERLAP" />
-<TLINK id="TL48" fromID="E55" fromText="the Neurology Ward" toID="E54" toText="transferred" type="OVERLAP" />
-<TLINK id="TL49" fromID="E53" fromText="stabilized" toID="E52" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL47" fromID="E54" fromText="transferred" toID="E53" toText="stabilized" type="AFTER" />
+<TLINK id="TL48" fromID="E55" fromText="the Neurology Ward" toID="E54" toText="transferred" type="AFTER" />
+<TLINK id="TL49" fromID="E53" fromText="stabilized" toID="E52" toText="his blood pressure" type="AFTER" />
 <TLINK id="TL50" fromID="E56" fromText="Close monitoring" toID="E55" toText="the Neurology Ward" type="OVERLAP" />
 <TLINK id="TL51" fromID="E71" fromText="the gun was found" toID="E17" toText="found in the house" type="OVERLAP" />
-<TLINK id="TL52" fromID="E20" fromText="unable to pay" toID="E19" toText="expressed concern" type="OVERLAP" />
+<TLINK id="TL52" fromID="E20" fromText="unable to pay" toID="E19" toText="expressed concern" type="BEFORE" />
 <TLINK id="TL53" fromID="E22" fromText="admission" toID="E16" toText="his admission" type="OVERLAP" />
-<TLINK id="TL54" fromID="E62" fromText="medically stable" toID="T6" toText="the 7th hospital day" type="OVERLAP" />
+<TLINK id="TL54" fromID="E62" fromText="medically stable" toID="T6" toText="the 7th hospital day" type="AFTER" />
 <TLINK id="TL55" fromID="E9" fromText="heard a single shot" toID="E5" toText="a self inflicted gunshot wound to the head" type="OVERLAP" />
-<TLINK id="TL56" fromID="E4" fromText="the Fairm of Ijordcompmac Hospital" toID="T2" toText="4/20/94" type="OVERLAP" />
+<TLINK id="TL56" fromID="E4" fromText="the Fairm of Ijordcompmac Hospital" toID="T2" toText="4/20/94" type="AFTER" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>
