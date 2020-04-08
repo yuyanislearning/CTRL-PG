@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+6-15-94
+DISCHARGE DATE :
+6-26-94
+HISTORY OF PRESENT ILLNESS :
+Ms. Tlandkotesmitskote is a patient who came complaining of feeling dizzy and bumping into objects on her left side .
+She is a seventy-one year old female with a history of hypertension who is in otherwise good health .
+This morning while on a cruise ship , she was eating breakfast when she suddenly noticed she could not see a roll on her plate although she knew that it was there .
+She also felt dizzy and the room was spinning .
+While walking , she kept bumping into object on her left side .
+She also complained of a dull , right sided headache over the right eyebrow .
+Symptoms lasted about five hours and then gradually resolved except for the change in vision .
+She denied having any weakness , numbness , or pain .
+She also denies having hoarseness , difficulties in finding words , speaking , hiccups , or diplopia .
+HOSPITAL COURSE :
+The patient was admitted to the hospital for further evaluation and work up .
+The patient was admitted to the Intermediate Care Unit in the Neurology Intensive Care Unit .
+However , she was soon moved out of there as her examination appeared to be stable .
+A Neurosurgery Service consultation was obtained and they felt that no surgical intervention was required .
+The patient underwent a number of tests .
+She had a magnetic resonance imaging study and magnetic resonance imaging angiogram performed which showed a large hemorrhagic lesion on the occipital lobe .
+There was no clear enhancing mass , but follow up was suggested .
+So an magnetic resonance imaging angiogram was obtained and showed the right parietal occipital hemorrhage .
+The MRA showed mild narrowing of the left ICA just distal to the bifurcation .
+There was also scattered T2 hyperintense foci within the periventricular and left frontal white matter consistent with small vessel disease , gliosis or demyelination .
+A Holter monitor was obtained and showed that the patient was in normal sinus rhythm .
+The heart rate was 53 to 106 .
+There were some very rare atrial premature contractions .
+There were no ventricular premature contractions .
+An echocardiogram was obtained and showed that the ejection fraction was 60% and there was no thrombus .
+It was felt to be within normal limits .
+Over the ensuing days , the patient had several episodes of confusion at night .
+However , these gradually resolved .
+She also developed what appeared to be urinary tract infection and was placed on PO Bactrim .
+By 6-26-94 , the patient was felt to be ready for discharge .
+At that time , she was afebrile and her vital signs were stable .
+She was tolerating a regular diet .
+She was awake , alert and oriented to person , place , and time .
+She continued to have a dense left hemianopsia , but otherwise was neurologically intact .
+The patient was discharged home with Santea Gehawhi General Hospital care and instructed to follow up .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1019" end="1027" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1031" end="1057" text="the Intermediate Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1061" end="1094" text="the Neurology Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1120" end="1129" text="moved out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1142" end="1157" text="her examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1173" end="1179" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1182" end="1217" text="A Neurosurgery Service consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="125" end="136" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1253" end="1274" text="surgical intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E38" start="1324" end="1329" text="tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1340" end="1374" text="a magnetic resonance imaging study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1379" end="1415" text="magnetic resonance imaging angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1432" end="1438" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="1439" end="1487" text="a large hemorrhagic lesion on the occipital lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="148" end="153" text="dizzy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1503" end="1523" text="clear enhancing mass" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1530" end="1539" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1559" end="1598" text="an magnetic resonance imaging angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="158" end="178" text="bumping into objects" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1616" end="1622" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="1623" end="1662" text="the right parietal occipital hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1665" end="1672" text="The MRA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1673" end="1679" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="1680" end="1710" text="mild narrowing of the left ICA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1759" end="1846" text="scattered T2 hyperintense foci within the periventricular and left frontal white matter" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1863" end="1883" text="small vessel disease" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1886" end="1893" text="gliosis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1897" end="1910" text="demyelination" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1913" end="1929" text="A Holter monitor" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1947" end="1953" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E57" start="1978" end="1997" text="normal sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2000" end="2014" text="The heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="2042" end="2086" text="some very rare atrial premature contractions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2103" end="2137" text="ventricular premature contractions" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="2140" end="2157" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2175" end="2181" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E63" start="2187" end="2208" text="the ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2234" end="2242" text="thrombus" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="2346" end="2355" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2383" end="2401" text="gradually resolved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2443" end="2466" text="urinary tract infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2485" end="2495" text="PO Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="253" end="265" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="2538" end="2557" text="ready for discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2583" end="2591" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2596" end="2611" text="her vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2617" end="2623" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2634" end="2659" text="tolerating a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2670" end="2675" text="awake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2678" end="2725" text="alert and oriented to person , place , and time" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2750" end="2774" text="a dense left hemianopsia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="276" end="297" text="otherwise good health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2795" end="2816" text="neurologically intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2835" end="2845" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2856" end="2892" text="Santea Gehawhi General Hospital care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2911" end="2920" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="346" end="362" text="eating breakfast" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="393" end="406" text="could not see" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="479" end="484" text="dizzy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="489" end="510" text="the room was spinning" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="538" end="574" text="bumping into object on her left side" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="586" end="596" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="600" end="652" text="a dull , right sided headache over the right eyebrow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="655" end="663" text="Symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="697" end="715" text="gradually resolved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="727" end="747" text="the change in vision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="754" end="760" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="772" end="780" text="weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="783" end="791" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="797" end="801" text="pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="813" end="819" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="827" end="837" text="hoarseness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="840" end="880" text="difficulties in finding words , speaking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="883" end="890" text="hiccups" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="896" end="904" text="diplopia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="941" end="949" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="953" end="965" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="970" end="988" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="993" end="1000" text="work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T0" start="18" end="25" text="6-15-94" type="DATE" val="1994-06-15" mod="NA" />
+<TIMEX3 id="T5" start="2291" end="2307" text="the ensuing days" type="DURATION" val="P5D" mod="APPROX" />
+<TIMEX3 id="T4" start="2501" end="2508" text="6-26-94" type="DATE" val="1994-06-26" mod="NA" />
+<TIMEX3 id="T2" start="300" end="312" text="This morning" type="DATE" val="1994-06-15" mod="NA" />
+<TIMEX3 id="T1" start="43" end="50" text="6-26-94" type="DATE" val="1994-06-26" mod="NA" />
+<TIMEX3 id="T3" start="677" end="687" text="five hours" type="DURATION" val="PT5H" mod="APPROX" />
+<TLINK id="TL0" fromID="T0" fromText="6-15-94" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E26" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E7" fromText="eating breakfast" toID="T2" toText="This morning" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="could not see" toID="E7" toText="eating breakfast" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="dizzy" toID="T2" toText="This morning" type="OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="dizzy" toID="E10" toText="the room was spinning" type="OVERLAP" />
+<TLINK id="TL14" fromID="E4" fromText="bumping into objects" toID="E3" toText="dizzy" type="OVERLAP" />
+<TLINK id="TL15" fromID="E12" fromText="complained" toID="E2" toText="complaining" type="OVERLAP" />
+<TLINK id="TL17" fromID="T3" fromText="five hours" toID="T2" toText="This morning" type="BEGUN_BY" />
+<TLINK id="TL18" fromID="E13" fromText="a dull , right sided headache over the right eyebrow" toID="T3" toText="five hours" type="DURING" />
+<TLINK id="TL19" fromID="E9" fromText="dizzy" toID="T3" toText="five hours" type="DURING" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="6-26-94" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E14" fromText="Symptoms" toID="T3" toText="five hours" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="gradually resolved" toID="T3" toText="five hours" type="OVERLAP" />
+<TLINK id="TL22" fromID="E16" fromText="the change in vision" toID="E8" toText="could not see" type="OVERLAP" />
+<TLINK id="TL23" fromID="E17" fromText="denied" toID="E12" toText="complained" type="OVERLAP" />
+<TLINK id="TL24" fromID="E18" fromText="weakness" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E19" fromText="numbness" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E20" fromText="pain" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E17" fromText="denied" toID="E21" toText="denies" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E22" fromText="hoarseness" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E23" fromText="difficulties in finding words , speaking" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="complaining" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL30" fromID="E24" fromText="hiccups" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E25" fromText="diplopia" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E26" fromText="admitted" toID="E30" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E27" fromText="the hospital" toID="E26" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL34" fromID="E29" fromText="work up" toID="E27" toText="the hospital" type="DURING" />
+<TLINK id="TL35" fromID="E28" fromText="further evaluation" toID="E27" toText="the hospital" type="DURING" />
+<TLINK id="TL36" fromID="E31" fromText="the Intermediate Care Unit" toID="E30" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL37" fromID="E32" fromText="the Neurology Intensive Care Unit" toID="E31" toText="the Intermediate Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E31" fromText="the Intermediate Care Unit" toID="E33" toText="moved out" type="ENDED_BY" />
+<TLINK id="TL39" fromID="E34" fromText="her examination" toID="E31" toText="the Intermediate Care Unit" type="OVERLAP" />
+<TLINK id="TL4" fromID="E21" fromText="denies" toID="E2" toText="complaining" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="stable" toID="E34" toText="her examination" type="OVERLAP" />
+<TLINK id="TL41" fromID="E36" fromText="A Neurosurgery Service consultation" toID="E26" toText="admitted" type="AFTER" />
+<TLINK id="TL42" fromID="E37" fromText="surgical intervention" toID="E36" toText="A Neurosurgery Service consultation" type="AFTER" />
+<TLINK id="TL43" fromID="E38" fromText="tests" toID="E26" toText="admitted" type="AFTER" />
+<TLINK id="TL44" fromID="E39" fromText="a magnetic resonance imaging study" toID="E38" toText="tests" type="OVERLAP" />
+<TLINK id="TL45" fromID="E39" fromText="a magnetic resonance imaging study" toID="E40" toText="magnetic resonance imaging angiogram" type="OVERLAP" />
+<TLINK id="TL46" fromID="E42" fromText="a large hemorrhagic lesion on the occipital lobe" toID="E40" toText="magnetic resonance imaging angiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E40" fromText="magnetic resonance imaging angiogram" toID="E41" toText="showed" type="OVERLAP" />
+<TLINK id="TL48" fromID="E43" fromText="clear enhancing mass" toID="E42" toText="a large hemorrhagic lesion on the occipital lobe" type="OVERLAP" />
+<TLINK id="TL49" fromID="E42" fromText="a large hemorrhagic lesion on the occipital lobe" toID="E47" toText="the right parietal occipital hemorrhage" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E3" fromText="dizzy" toID="E9" toText="dizzy" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E44" fromText="follow up" toID="E39" toText="a magnetic resonance imaging study" type="AFTER" />
+<TLINK id="TL51" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E40" toText="magnetic resonance imaging angiogram" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E46" toText="showed" type="OVERLAP" />
+<TLINK id="TL53" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E48" toText="The MRA" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E48" fromText="The MRA" toID="E49" toText="showed" type="OVERLAP" />
+<TLINK id="TL55" fromID="E50" fromText="mild narrowing of the left ICA" toID="E48" toText="The MRA" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E51" fromText="scattered T2 hyperintense foci within the periventricular and left frontal white matter" toID="E48" toText="The MRA" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E52" fromText="small vessel disease" toID="E53" toText="gliosis" type="OVERLAP" />
+<TLINK id="TL58" fromID="E51" fromText="scattered T2 hyperintense foci within the periventricular and left frontal white matter" toID="E52" toText="small vessel disease" type="OVERLAP" />
+<TLINK id="TL59" fromID="E53" fromText="gliosis" toID="E54" toText="demyelination" type="OVERLAP" />
+<TLINK id="TL60" fromID="E55" fromText="A Holter monitor" toID="E56" toText="showed" type="OVERLAP" />
+<TLINK id="TL61" fromID="E57" fromText="normal sinus rhythm" toID="E55" toText="A Holter monitor" type="DURING" />
+<TLINK id="TL62" fromID="E58" fromText="The heart rate" toID="E55" toText="A Holter monitor" type="DURING" />
+<TLINK id="TL63" fromID="E59" fromText="some very rare atrial premature contractions" toID="E55" toText="A Holter monitor" type="DURING" />
+<TLINK id="TL64" fromID="E60" fromText="ventricular premature contractions" toID="E55" toText="A Holter monitor" type="DURING" />
+<TLINK id="TL65" fromID="E61" fromText="An echocardiogram" toID="E62" toText="showed" type="OVERLAP" />
+<TLINK id="TL67" fromID="E63" fromText="the ejection fraction" toID="E61" toText="An echocardiogram" type="OVERLAP" />
+<TLINK id="TL68" fromID="E64" fromText="thrombus" toID="E61" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E61" fromText="An echocardiogram" toID="E26" toText="admitted" type="AFTER" />
+<TLINK id="TL7" fromID="E11" fromText="bumping into object on her left side" toID="E4" toText="bumping into objects" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E65" fromText="confusion" toID="T5" toText="the ensuing days" type="DURING" />
+<TLINK id="TL71" fromID="E65" fromText="confusion" toID="E66" toText="gradually resolved" type="ENDED_BY" />
+<TLINK id="TL72" fromID="T5" fromText="the ensuing days" toID="T4" toText="6-26-94" type="ENDED_BY" />
+<TLINK id="TL73" fromID="E67" fromText="urinary tract infection" toID="E26" toText="admitted" type="AFTER" />
+<TLINK id="TL74" fromID="E68" fromText="PO Bactrim" toID="E67" toText="urinary tract infection" type="AFTER" />
+<TLINK id="TL75" fromID="E69" fromText="ready for discharge" toID="T4" toText="6-26-94" type="OVERLAP" />
+<TLINK id="TL76" fromID="E71" fromText="her vital signs" toID="T4" toText="6-26-94" type="OVERLAP" />
+<TLINK id="TL77" fromID="E70" fromText="afebrile" toID="T4" toText="6-26-94" type="OVERLAP" />
+<TLINK id="TL78" fromID="E71" fromText="her vital signs" toID="E72" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E73" fromText="tolerating a regular diet" toID="T4" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="hypertension" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E74" fromText="awake" toID="E75" toText="alert and oriented to person , place , and time" type="OVERLAP" />
+<TLINK id="TL81" fromID="E74" fromText="awake" toID="T4" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E76" fromText="a dense left hemianopsia" toID="T4" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E77" fromText="neurologically intact" toID="E76" toText="a dense left hemianopsia" type="OVERLAP" />
+<TLINK id="TL84" fromID="E78" fromText="discharged" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E79" fromText="Santea Gehawhi General Hospital care" toID="E78" toText="discharged" type="AFTER" />
+<TLINK id="TL86" fromID="E80" fromText="follow up" toID="E78" toText="discharged" type="AFTER" />
+<TLINK id="TL9" fromID="E6" fromText="otherwise good health" toID="T2" toText="This morning" type="ENDED_BY" />
+<SECTIME id="S0" start="18" end="25" text="6-15-94" type="ADMISSION" dvalue="1994-6-15" />
+<SECTIME id="S1" start="43" end="50" text="6-26-94" type="DISCHARGE" dvalue="1994-6-26" />
+<TLINK id="SECTIME0" fromID="E30" fromText="admitted" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E31" fromText="the Intermediate Care Unit" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E32" fromText="the Neurology Intensive Care Unit" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="moved out" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E34" fromText="her examination" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E35" fromText="stable" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E36" fromText="A Neurosurgery Service consultation" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E2" fromText="complaining" toID="T0" toText="6-15-94" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E37" fromText="surgical intervention" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E38" fromText="tests" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E39" fromText="a magnetic resonance imaging study" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E40" fromText="magnetic resonance imaging angiogram" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E41" fromText="showed" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E42" fromText="a large hemorrhagic lesion on the occipital lobe" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E3" fromText="dizzy" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E43" fromText="clear enhancing mass" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="follow up" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E4" fromText="bumping into objects" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E46" fromText="showed" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E47" fromText="the right parietal occipital hemorrhage" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E48" fromText="The MRA" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E49" fromText="showed" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E50" fromText="mild narrowing of the left ICA" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E51" fromText="scattered T2 hyperintense foci within the periventricular and left frontal white matter" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E52" fromText="small vessel disease" toID="T1" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME26" fromID="E53" fromText="gliosis" toID="T1" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E54" fromText="demyelination" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E55" fromText="A Holter monitor" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="showed" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E57" fromText="normal sinus rhythm" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E58" fromText="The heart rate" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E59" fromText="some very rare atrial premature contractions" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E60" fromText="ventricular premature contractions" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E61" fromText="An echocardiogram" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E62" fromText="showed" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E63" fromText="the ejection fraction" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E64" fromText="thrombus" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E65" fromText="confusion" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E66" fromText="gradually resolved" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E67" fromText="urinary tract infection" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E68" fromText="PO Bactrim" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E5" fromText="hypertension" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME43" fromID="E69" fromText="ready for discharge" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E70" fromText="afebrile" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E71" fromText="her vital signs" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E72" fromText="stable" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E73" fromText="tolerating a regular diet" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E74" fromText="awake" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E75" fromText="alert and oriented to person , place , and time" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E76" fromText="a dense left hemianopsia" toID="T1" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME51" fromID="E6" fromText="otherwise good health" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME52" fromID="E77" fromText="neurologically intact" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E78" fromText="discharged" toID="T1" toText="6-26-94" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E79" fromText="Santea Gehawhi General Hospital care" toID="T1" toText="6-26-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME55" fromID="E80" fromText="follow up" toID="T1" toText="6-26-94" type="AFTER" />
+<TLINK id="SECTIME56" fromID="E7" fromText="eating breakfast" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E8" fromText="could not see" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E9" fromText="dizzy" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E10" fromText="the room was spinning" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E11" fromText="bumping into object on her left side" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E12" fromText="complained" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E13" fromText="a dull , right sided headache over the right eyebrow" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E14" fromText="Symptoms" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E15" fromText="gradually resolved" toID="T0" toText="6-15-94" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E16" fromText="the change in vision" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME66" fromID="E17" fromText="denied" toID="T0" toText="6-15-94" type="OVERLAP" />
+<TLINK id="SECTIME67" fromID="E18" fromText="weakness" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME68" fromID="E19" fromText="numbness" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME69" fromID="E20" fromText="pain" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME70" fromID="E21" fromText="denies" toID="T0" toText="6-15-94" type="OVERLAP" />
+<TLINK id="SECTIME71" fromID="E22" fromText="hoarseness" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME72" fromID="E23" fromText="difficulties in finding words , speaking" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME73" fromID="E24" fromText="hiccups" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME74" fromID="E25" fromText="diplopia" toID="T0" toText="6-15-94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME75" fromID="E26" fromText="admitted" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E27" fromText="the hospital" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E28" fromText="further evaluation" toID="T1" toText="6-26-94" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E29" fromText="work up" toID="T1" toText="6-26-94" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

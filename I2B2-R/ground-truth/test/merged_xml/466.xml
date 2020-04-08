@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+03/13/2006
+Discharge Date :
+03/19/2006
+Service :
+MED
+HPI :
+75 y / o F with DM , COPD on 2L NC and Bipap at night p / w generalized weakness and fatigue , urinary incontinence and shaking as well as increased sputum production .
+Per daughter these symptoms are typical of COPD flare .
+ROS otherwise negative .
+Admission Status :
+ED :
+REc&apos;d duonebs , solumedrol 125
+Vitals :
+t97.5 , hr 117 , bp156/81 , rr28 , o2 sats 87% RA ; 95% 4L
+Exam :
+NAD , pleasant , speaking in complete sentences , poor air movement bilaterally , L &gt; R , no wheezes or rales , rrr , distant , abd benign , no edema , alert and oriented times three , no focal deficits , conversant Studies :
+- EKG sinus 92 , no ST changes
+- CXR no focal consolidation or edema , old biapical scarring ABG 7.34/79/74 U / A negative
+Daily Status :
+improving , but still poor air movement , diffusely wheezy on exam , at baseline 2L o2 requirement
+A / P :
+75 y / o F with h / o COPD c / b frequent exacerbations p / w typical flare symptoms .
+Problem List :
+CV - Ischemia ASA , lisinopril Pump no evidence of failure
+Rhythm Resp - COPD
+flare - steroids , cont prednisone 60 , taper slowly as tolerated , duonebs , advair , singulair , spiriva , claritin azithromycin for atypical bronchitis to complete a 5 day course , keep o2 sat 90-94 , home nocturnal CPAP not tolerated in house , does well on nc , appears ato be at baseline
+Renal -
+Cr 0.8 , stress incontinence by symptoms with increased cough , no evidence of uti , cont to closely monitor
+GI - Bowel regimen
+Heme - Chronic Fe deficiency anemia , cont iron
+Endo - DM on insulin with steroids
+ID - afebrile , no wbc , started on Azithromycin for COPD flare
+FEN - ADA diet
+PPx - Lovenox , PPI
+Dispo - to rehab when resp status improved , PT consulted
+Code - FC
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+f / u with PCP and Dr. Pump as scheduled , return to ED with worsening sob or increased cough or sputum production
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1043" end="1051" text="Ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="106" end="111" text="2L NC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1058" end="1073" text="lisinopril Pump" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1089" end="1096" text="failure" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1111" end="1115" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1116" end="1121" text="flare" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1124" end="1132" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1140" end="1150" text="prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="116" end="121" text="Bipap" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1156" end="1168" text="taper slowly" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1172" end="1181" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1184" end="1191" text="duonebs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1194" end="1200" text="advair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1203" end="1212" text="singulair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1215" end="1222" text="spiriva" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1225" end="1233" text="claritin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1234" end="1246" text="azithromycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1251" end="1270" text="atypical bronchitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1305" end="1311" text="o2 sat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="1320" end="1339" text="home nocturnal CPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1344" end="1353" text="tolerated" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="137" end="157" text="generalized weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1370" end="1374" text="well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="1378" end="1380" text="nc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="1418" end="1420" text="Cr" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="1427" end="1446" text="stress incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="1464" end="1479" text="increased cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1497" end="1500" text="uti" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E72" start="1511" end="1526" text="closely monitor" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="1532" end="1545" text="Bowel regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="1553" end="1581" text="Chronic Fe deficiency anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1589" end="1593" text="iron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1601" end="1603" text="DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="1607" end="1614" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="162" end="169" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="1620" end="1628" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="1634" end="1642" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="1648" end="1651" text="wbc" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E81" start="1665" end="1677" text="Azithromycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="1682" end="1692" text="COPD flare" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="1699" end="1707" text="ADA diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="172" end="192" text="urinary incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="1714" end="1721" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="1724" end="1727" text="PPI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1739" end="1744" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E87" start="1750" end="1770" text="resp status improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="1773" end="1775" text="PT" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="1776" end="1785" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="197" end="204" text="shaking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="216" end="243" text="increased sputum production" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="259" end="273" text="these symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="289" end="299" text="COPD flare" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="362" end="369" text="duonebs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="372" end="382" text="solumedrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="396" end="401" text="t97.5" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="404" end="406" text="hr" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="413" end="421" text="bp156/81" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="424" end="428" text="rr28" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="431" end="438" text="o2 sats" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="462" end="465" text="NAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="468" end="476" text="pleasant" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="479" end="509" text="speaking in complete sentences" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="512" end="541" text="poor air movement bilaterally" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="558" end="565" text="wheezes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="569" end="574" text="rales" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="577" end="580" text="rrr" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="583" end="590" text="distant" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="593" end="603" text="abd benign" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="609" end="614" text="edema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="617" end="647" text="alert and oriented times three" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="653" end="667" text="focal deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E32" start="670" end="680" text="conversant" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="693" end="696" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="711" end="721" text="ST changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="724" end="727" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="731" end="750" text="focal consolidation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="754" end="759" text="edema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="762" end="783" text="old biapical scarring" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="799" end="804" text="U / A" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="829" end="838" text="improving" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E41" start="845" end="868" text="still poor air movement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="871" end="887" text="diffusely wheezy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="910" end="927" text="2L o2 requirement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="93" end="95" text="DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="958" end="962" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="969" end="991" text="frequent exacerbations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="98" end="102" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="998" end="1020" text="typical flare symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T2" start="1285" end="1290" text="5 day" type="DURATION" val="P5D" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="03/13/2006" type="DATE" val="2006-03-13" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="03/19/2006" type="DATE" val="2006-03-19" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="03/13/2006" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="03/19/2006" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="fatigue" toID="E6" toText="generalized weakness" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="urinary incontinence" toID="E6" toText="generalized weakness" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="shaking" toID="E8" toText="urinary incontinence" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="increased sputum production" toID="E8" toText="urinary incontinence" type="OVERLAP" />
+<TLINK id="TL14" fromID="E70" fromText="increased cough" toID="E10" toText="increased sputum production" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="these symptoms" toID="E12" toText="COPD flare" type="OVERLAP" />
+<TLINK id="TL16" fromID="E46" fromText="typical flare symptoms" toID="E11" toText="these symptoms" type="OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="solumedrol" toID="E13" toText="duonebs" type="OVERLAP" />
+<TLINK id="TL18" fromID="E16" fromText="hr" toID="E13" toText="duonebs" type="OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="hr" toID="E15" toText="t97.5" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="DM" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E16" fromText="hr" toID="E17" toText="bp156/81" type="OVERLAP" />
+<TLINK id="TL21" fromID="E18" fromText="rr28" toID="E16" toText="hr" type="OVERLAP" />
+<TLINK id="TL22" fromID="E19" fromText="o2 sats" toID="E16" toText="hr" type="OVERLAP" />
+<TLINK id="TL23" fromID="E20" fromText="NAD" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL24" fromID="E20" fromText="NAD" toID="E21" toText="pleasant" type="OVERLAP" />
+<TLINK id="TL25" fromID="E21" fromText="pleasant" toID="E22" toText="speaking in complete sentences" type="OVERLAP" />
+<TLINK id="TL26" fromID="E22" fromText="speaking in complete sentences" toID="E23" toText="poor air movement bilaterally" type="OVERLAP" />
+<TLINK id="TL27" fromID="E41" fromText="still poor air movement" toID="E23" toText="poor air movement bilaterally" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="poor air movement bilaterally" toID="E24" toText="wheezes" type="OVERLAP" />
+<TLINK id="TL29" fromID="E24" fromText="wheezes" toID="E25" toText="rales" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="DM" toID="E3" toText="COPD" type="OVERLAP" />
+<TLINK id="TL30" fromID="E25" fromText="rales" toID="E26" toText="rrr" type="OVERLAP" />
+<TLINK id="TL31" fromID="E26" fromText="rrr" toID="E27" toText="distant" type="OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="distant" toID="E28" toText="abd benign" type="OVERLAP" />
+<TLINK id="TL33" fromID="E28" fromText="abd benign" toID="E29" toText="edema" type="OVERLAP" />
+<TLINK id="TL34" fromID="E29" fromText="edema" toID="E30" toText="alert and oriented times three" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="alert and oriented times three" toID="E31" toText="focal deficits" type="OVERLAP" />
+<TLINK id="TL36" fromID="E31" fromText="focal deficits" toID="E32" toText="conversant" type="OVERLAP" />
+<TLINK id="TL37" fromID="E34" fromText="ST changes" toID="E33" toText="EKG" type="OVERLAP" />
+<TLINK id="TL38" fromID="E33" fromText="EKG" toID="E32" toText="conversant" type="AFTER" />
+<TLINK id="TL39" fromID="E36" fromText="focal consolidation" toID="E35" toText="CXR" type="OVERLAP" />
+<TLINK id="TL4" fromID="E76" fromText="DM" toID="E2" toText="DM" type="OVERLAP" />
+<TLINK id="TL40" fromID="E37" fromText="edema" toID="E35" toText="CXR" type="OVERLAP" />
+<TLINK id="TL41" fromID="E38" fromText="old biapical scarring" toID="E35" toText="CXR" type="BEFORE" />
+<TLINK id="TL42" fromID="E35" fromText="CXR" toID="E33" toText="EKG" type="OVERLAP" />
+<TLINK id="TL43" fromID="E39" fromText="U / A" toID="E38" toText="old biapical scarring" type="OVERLAP" />
+<TLINK id="TL44" fromID="E41" fromText="still poor air movement" toID="E40" toText="improving" type="OVERLAP" />
+<TLINK id="TL45" fromID="E43" fromText="2L o2 requirement" toID="E40" toText="improving" type="OVERLAP" />
+<TLINK id="TL46" fromID="E42" fromText="diffusely wheezy" toID="E41" toText="still poor air movement" type="OVERLAP" />
+<TLINK id="TL47" fromID="E45" fromText="frequent exacerbations" toID="E44" toText="COPD" type="OVERLAP" />
+<TLINK id="TL48" fromID="E46" fromText="typical flare symptoms" toID="E45" toText="frequent exacerbations" type="OVERLAP" />
+<TLINK id="TL49" fromID="E47" fromText="Ischemia" toID="E48" toText="lisinopril Pump" type="OVERLAP" />
+<TLINK id="TL5" fromID="E44" fromText="COPD" toID="E3" toText="COPD" type="OVERLAP" />
+<TLINK id="TL50" fromID="E48" fromText="lisinopril Pump" toID="E49" toText="failure" type="OVERLAP" />
+<TLINK id="TL51" fromID="E50" fromText="COPD" toID="E44" toText="COPD" type="OVERLAP" />
+<TLINK id="TL52" fromID="E51" fromText="flare" toID="E11" toText="these symptoms" type="OVERLAP" />
+<TLINK id="TL53" fromID="E52" fromText="steroids" toID="E51" toText="flare" type="AFTER" />
+<TLINK id="TL54" fromID="E82" fromText="COPD flare" toID="E51" toText="flare" type="OVERLAP" />
+<TLINK id="TL55" fromID="E52" fromText="steroids" toID="E53" toText="prednisone" type="OVERLAP" />
+<TLINK id="TL56" fromID="E54" fromText="taper slowly" toID="E53" toText="prednisone" type="OVERLAP" />
+<TLINK id="TL57" fromID="E55" fromText="tolerated" toID="E54" toText="taper slowly" type="OVERLAP" />
+<TLINK id="TL58" fromID="E54" fromText="taper slowly" toID="E56" toText="duonebs" type="OVERLAP" />
+<TLINK id="TL59" fromID="E56" fromText="duonebs" toID="E57" toText="advair" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="2L NC" toID="E3" toText="COPD" type="OVERLAP" />
+<TLINK id="TL61" fromID="E57" fromText="advair" toID="E58" toText="singulair" type="OVERLAP" />
+<TLINK id="TL62" fromID="E58" fromText="singulair" toID="E59" toText="spiriva" type="OVERLAP" />
+<TLINK id="TL63" fromID="E59" fromText="spiriva" toID="E60" toText="azithromycin" type="OVERLAP" />
+<TLINK id="TL64" fromID="E62" fromText="claritin" toID="E59" toText="spiriva" type="OVERLAP" />
+<TLINK id="TL65" fromID="E60" fromText="azithromycin" toID="E61" toText="atypical bronchitis" type="OVERLAP" />
+<TLINK id="TL66" fromID="E60" fromText="azithromycin" toID="T2" toText="5 day" type="OVERLAP" />
+<TLINK id="TL67" fromID="E63" fromText="o2 sat" toID="E52" toText="steroids" type="OVERLAP" />
+<TLINK id="TL68" fromID="E65" fromText="tolerated" toID="E64" toText="home nocturnal CPAP" type="OVERLAP" />
+<TLINK id="TL69" fromID="E64" fromText="home nocturnal CPAP" toID="E52" toText="steroids" type="OVERLAP" />
+<TLINK id="TL7" fromID="E3" fromText="COPD" toID="E5" toText="Bipap" type="OVERLAP" />
+<TLINK id="TL70" fromID="E66" fromText="well" toID="E67" toText="nc" type="OVERLAP" />
+<TLINK id="TL71" fromID="E68" fromText="Cr" toID="T0" toText="03/13/2006" type="AFTER" />
+<TLINK id="TL72" fromID="E69" fromText="stress incontinence" toID="E68" toText="Cr" type="OVERLAP" />
+<TLINK id="TL73" fromID="E69" fromText="stress incontinence" toID="E70" toText="increased cough" type="OVERLAP" />
+<TLINK id="TL74" fromID="E70" fromText="increased cough" toID="E71" toText="uti" type="OVERLAP" />
+<TLINK id="TL75" fromID="E71" fromText="uti" toID="E72" toText="closely monitor" type="OVERLAP" />
+<TLINK id="TL76" fromID="E73" fromText="Bowel regimen" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL77" fromID="E74" fromText="Chronic Fe deficiency anemia" toID="E73" toText="Bowel regimen" type="OVERLAP" />
+<TLINK id="TL78" fromID="E73" fromText="Bowel regimen" toID="E68" toText="Cr" type="OVERLAP" />
+<TLINK id="TL79" fromID="E75" fromText="iron" toID="E74" toText="Chronic Fe deficiency anemia" type="AFTER" />
+<TLINK id="TL8" fromID="E6" fromText="generalized weakness" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL80" fromID="E74" fromText="Chronic Fe deficiency anemia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL81" fromID="E76" fromText="DM" toID="E74" toText="Chronic Fe deficiency anemia" type="OVERLAP" />
+<TLINK id="TL83" fromID="E77" fromText="insulin" toID="E76" toText="DM" type="OVERLAP" />
+<TLINK id="TL84" fromID="E79" fromText="afebrile" toID="E76" toText="DM" type="OVERLAP" />
+<TLINK id="TL85" fromID="E77" fromText="insulin" toID="E78" toText="steroids" type="OVERLAP" />
+<TLINK id="TL86" fromID="E78" fromText="steroids" toID="E52" toText="steroids" type="OVERLAP" />
+<TLINK id="TL87" fromID="E80" fromText="wbc" toID="E79" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL88" fromID="E83" fromText="ADA diet" toID="E79" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL89" fromID="E79" fromText="afebrile" toID="E81" toText="Azithromycin" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="COPD" toID="E6" toText="generalized weakness" type="OVERLAP" />
+<TLINK id="TL90" fromID="E81" fromText="Azithromycin" toID="E82" toText="COPD flare" type="OVERLAP" />
+<TLINK id="TL91" fromID="E81" fromText="Azithromycin" toID="E60" toText="azithromycin" type="OVERLAP" />
+<TLINK id="TL92" fromID="E82" fromText="COPD flare" toID="E12" toText="COPD flare" type="OVERLAP" />
+<TLINK id="TL93" fromID="E84" fromText="Lovenox" toID="E83" toText="ADA diet" type="OVERLAP" />
+<TLINK id="TL94" fromID="E85" fromText="PPI" toID="E84" toText="Lovenox" type="OVERLAP" />
+<TLINK id="TL95" fromID="E84" fromText="Lovenox" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL96" fromID="E86" fromText="rehab" toID="E87" toText="resp status improved" type="AFTER" />
+<TLINK id="TL97" fromID="E87" fromText="resp status improved" toID="E1" toText="Discharge" type="AFTER" />
+<TLINK id="TL98" fromID="E88" fromText="consulted" toID="E87" toText="resp status improved" type="OVERLAP" />
+<TLINK id="TL99" fromID="E89" fromText="PT" toID="E88" toText="consulted" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="03/13/2006" type="ADMISSION" dvalue="2006-03-13" />
+<SECTIME id="S1" start="46" end="56" text="03/19/2006" type="DISCHARGE" dvalue="2006-03-19" />
+<TLINK id="SECTIME0" fromID="E47" fromText="Ischemia" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E4" fromText="2L NC" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E48" fromText="lisinopril Pump" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E49" fromText="failure" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E50" fromText="COPD" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E51" fromText="flare" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E52" fromText="steroids" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E53" fromText="prednisone" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E5" fromText="Bipap" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E54" fromText="taper slowly" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E55" fromText="tolerated" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E56" fromText="duonebs" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E57" fromText="advair" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E58" fromText="singulair" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E59" fromText="spiriva" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E62" fromText="claritin" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E60" fromText="azithromycin" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E61" fromText="atypical bronchitis" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E63" fromText="o2 sat" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E64" fromText="home nocturnal CPAP" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E65" fromText="tolerated" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E6" fromText="generalized weakness" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E66" fromText="well" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E67" fromText="nc" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E69" fromText="stress incontinence" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E70" fromText="increased cough" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E71" fromText="uti" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E72" fromText="closely monitor" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E73" fromText="Bowel regimen" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E74" fromText="Chronic Fe deficiency anemia" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E75" fromText="iron" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E76" fromText="DM" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E77" fromText="insulin" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E7" fromText="fatigue" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E78" fromText="steroids" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E79" fromText="afebrile" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E80" fromText="wbc" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E81" fromText="Azithromycin" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E82" fromText="COPD flare" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E83" fromText="ADA diet" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E8" fromText="urinary incontinence" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E84" fromText="Lovenox" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E85" fromText="PPI" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E86" fromText="rehab" toID="T0" toText="03/13/2006" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E87" fromText="resp status improved" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E89" fromText="PT" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E88" fromText="consulted" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E9" fromText="shaking" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E10" fromText="increased sputum production" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E11" fromText="these symptoms" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E12" fromText="COPD flare" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E13" fromText="duonebs" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E14" fromText="solumedrol" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E15" fromText="t97.5" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E16" fromText="hr" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E17" fromText="bp156/81" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E18" fromText="rr28" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E19" fromText="o2 sats" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E20" fromText="NAD" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E21" fromText="pleasant" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E22" fromText="speaking in complete sentences" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E23" fromText="poor air movement bilaterally" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E24" fromText="wheezes" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E25" fromText="rales" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E26" fromText="rrr" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E27" fromText="distant" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E28" fromText="abd benign" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E29" fromText="edema" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E30" fromText="alert and oriented times three" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E31" fromText="focal deficits" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E32" fromText="conversant" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E33" fromText="EKG" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E34" fromText="ST changes" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E35" fromText="CXR" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E36" fromText="focal consolidation" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E37" fromText="edema" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E38" fromText="old biapical scarring" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E39" fromText="U / A" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E40" fromText="improving" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E41" fromText="still poor air movement" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E42" fromText="diffusely wheezy" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E43" fromText="2L o2 requirement" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E2" fromText="DM" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E44" fromText="COPD" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E45" fromText="frequent exacerbations" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E3" fromText="COPD" toID="T0" toText="03/13/2006" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E46" fromText="typical flare symptoms" toID="T0" toText="03/13/2006" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

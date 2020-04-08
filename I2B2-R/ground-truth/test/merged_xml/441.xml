@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+11/09/2003
+Discharge Date :
+11/16/2003
+SERVICE :
+GMS 1 Medical Service .
+HOSPITAL COURSE :
+1. GI :
+Patient was transfused 2 units of packed red blood cells overnight , the first night after admission and his hematocrit bumped up appropriately .
+He remained hemodynamically stable throughout his admission .
+He was continued on a proton pump inhibitor and on iron sulfate and vitamin C .
+His Coumadin was held at the time given the bleeding , even though it was important to keep his INR 2.5-3.5 , given his artificial valve it was felt that the risk of continued bleeding was to great to continue the Coumadin .
+He was subsequently seen by the GI team who performed an upper endoscopy which demonstrated the following :
+In the esophagus , there was a small hiatal hernia and in the stomach there is evidence of erosive gastritis of the body of the stomach and the antrum , the mucous appeared edematous .
+A small polyp was found in the fundus which stigmata of old bleeding ; an Endoclip was applied to this .
+Another polyp was found in the antrum and cold biopsies were obtained there .
+In the duodenum , a small AVM was noted in the second portion of the duodenum and was cauterized .
+The biopsy subsequently demonstrated a hyperplastic polyp with acute and chronic inflammation and erosion and reactive epithelial changes but no dysplasia .
+Also of note , prior to the upper endoscopy , the patient received fresh frozen plasma to reverse his anticoagulation .
+Patient remained hemodynamically stable during and after the upper endoscopy and his hematocrit remained above 30 following this until the point of discharge .
+His last recorded hematocrit on discharge was 31.3 .
+His last BUN and creatinine were 42 and 1.5 with an INR of 2.5 .
+Consideration was given to performing a repeat colonoscopy .
+This was discussed with the GI Service who felt that this was not necessary given the recent colonoscopy that he had had in 05/2003 .
+2. Cardiovascular :
+A :
+Ischemia :
+Patient &apos;s troponin bump was found to be likely to demand ischemia in the setting of his GI bleed , it was not felt that he was having acute coronary syndrome .
+On discharge , he was continued on his aspirin , simvastatin and his Lopressor which was initially held , and subsequently restarted .
+B :
+Rhythm :
+Patient continued to be in A-fib. throughout the admission and was restarted on his Coumadin concurrently with heparin .
+Heparin was subsequently DCd once his INR reached a therapeutic level between 2.5-3.5 .
+His last reported INR on discharge was 2.5 .
+C :
+Valves :
+Patient had , as noted above , his anticoagulation was initially reversed despite his having artificial valves .
+However , his Coumadin was subsequently restarted and he achieved therapeutic INR levels before discharge .
+D :
+Pump :
+Patient , during this hospital course , became hypervolemic likely due to his diuretics being held and due to his receiving blood products .
+He was diuresed initially with one dose of Lasix and subsequently with one dose of torsemide after it was discovered that he developed thrombocytopenia on a prior admission in reaction to Lasix .
+He subsequently was diuresed to a euvolemic state .
+Of note , he did not become thrombocytopenic on this admission .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1021" end="1025" text="this" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1028" end="1041" text="Another polyp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1070" end="1083" text="cold biopsies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1124" end="1135" text="a small AVM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1192" end="1202" text="cauterized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1205" end="1215" text="The biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1229" end="1241" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="1242" end="1262" text="a hyperplastic polyp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1268" end="1298" text="acute and chronic inflammation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1303" end="1310" text="erosion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1315" end="1342" text="reactive epithelial changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1350" end="1359" text="dysplasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1386" end="1405" text="the upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="140" end="173" text="2 units of packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1429" end="1448" text="fresh frozen plasma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1460" end="1479" text="his anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1499" end="1521" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1539" end="1558" text="the upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1563" end="1577" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1606" end="1610" text="this" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1630" end="1639" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1642" end="1670" text="His last recorded hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1674" end="1683" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1695" end="1707" text="His last BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1712" end="1722" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1744" end="1750" text="an INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1798" end="1818" text="a repeat colonoscopy" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1821" end="1825" text="This" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1874" end="1878" text="this" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E56" start="1903" end="1925" text="the recent colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="1979" end="1987" text="Ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1990" end="2019" text="Patient &apos;s troponin bump" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2046" end="2061" text="demand ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="2080" end="2092" text="his GI bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="208" end="217" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2130" end="2153" text="acute coronary syndrome" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E57" start="2159" end="2168" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2191" end="2202" text="his aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2205" end="2216" text="simvastatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="222" end="236" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2221" end="2234" text="his Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2331" end="2337" text="A-fib." modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E67" start="2349" end="2362" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="237" end="246" text="bumped up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2384" end="2396" text="his Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2415" end="2422" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2425" end="2432" text="Heparin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E71" start="2459" end="2466" text="his INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2475" end="2494" text="a therapeutic level" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2513" end="2534" text="His last reported INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2538" end="2547" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2562" end="2568" text="Valves" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2602" end="2621" text="his anticoagulation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E77" start="2664" end="2681" text="artificial valves" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2694" end="2706" text="his Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="275" end="297" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2750" end="2772" text="therapeutic INR levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2780" end="2789" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2820" end="2840" text="this hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2850" end="2862" text="hypervolemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2877" end="2890" text="his diuretics" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2927" end="2941" text="blood products" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2951" end="2959" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2987" end="2992" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="3027" end="3036" text="torsemide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3079" end="3095" text="thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="309" end="322" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="3099" end="3116" text="a prior admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3132" end="3137" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="3160" end="3168" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="3172" end="3189" text="a euvolemic state" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="3220" end="3236" text="thrombocytopenic" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E94" start="3240" end="3254" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="345" end="368" text="a proton pump inhibitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="376" end="388" text="iron sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="393" end="402" text="vitamin C" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="405" end="417" text="His Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="445" end="457" text="the bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="497" end="504" text="his INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="521" end="541" text="his artificial valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="571" end="589" text="continued bleeding" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="615" end="627" text="the Coumadin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E18" start="650" end="669" text="seen by the GI team" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="684" end="702" text="an upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="709" end="721" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="767" end="788" text="a small hiatal hernia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="829" end="846" text="erosive gastritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="911" end="920" text="edematous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="923" end="936" text="A small polyp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="967" end="975" text="stigmata" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="979" end="991" text="old bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="994" end="1005" text="an Endoclip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T2" start="174" end="183" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="11/09/2003" type="DATE" val="2003-11-09" mod="NA" />
+<TIMEX3 id="T3" start="186" end="201" text="the first night" type="DATE" val="2003-11-09" mod="END" />
+<TIMEX3 id="T5" start="1945" end="1952" text="05/2003" type="DATE" val="2003-05" mod="NA" />
+<TIMEX3 id="T6" start="2975" end="2978" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T7" start="3015" end="3018" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T4" start="430" end="438" text="the time" type="DATE" val="2003-11-09" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="11/16/2003" type="DATE" val="2003-11-16" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="11/09/2003" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="hemodynamically stable" toID="E7" toText="his admission" type="OVERLAP" />
+<TLINK id="TL100" fromID="E85" fromText="diuresed" toID="E83" toText="his diuretics" type="BEFORE" />
+<TLINK id="TL101" fromID="E86" fromText="Lasix" toID="T6" toText="one" type="OVERLAP" />
+<TLINK id="TL102" fromID="E86" fromText="Lasix" toID="E85" toText="diuresed" type="OVERLAP" />
+<TLINK id="TL103" fromID="E87" fromText="torsemide" toID="T7" toText="one" type="OVERLAP" />
+<TLINK id="TL104" fromID="E87" fromText="torsemide" toID="E86" toText="Lasix" type="AFTER" />
+<TLINK id="TL105" fromID="E89" fromText="a prior admission" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL106" fromID="E90" fromText="Lasix" toID="E89" toText="a prior admission" type="OVERLAP" />
+<TLINK id="TL107" fromID="E88" fromText="thrombocytopenia" toID="E90" toText="Lasix" type="AFTER" />
+<TLINK id="TL108" fromID="E91" fromText="diuresed" toID="E85" toText="diuresed" type="OVERLAP" />
+<TLINK id="TL109" fromID="E91" fromText="diuresed" toID="E92" toText="a euvolemic state" type="BEFORE" />
+<TLINK id="TL11" fromID="E8" fromText="a proton pump inhibitor" toID="E6" toText="hemodynamically stable" type="OVERLAP" />
+<TLINK id="TL110" fromID="E94" fromText="this admission" toID="E81" toText="this hospital course" type="OVERLAP" />
+<TLINK id="TL111" fromID="E93" fromText="thrombocytopenic" toID="E94" toText="this admission" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="iron sulfate" toID="E8" toText="a proton pump inhibitor" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="vitamin C" toID="E9" toText="iron sulfate" type="OVERLAP" />
+<TLINK id="TL14" fromID="T4" fromText="the time" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="His Coumadin" toID="T4" toText="the time" type="BEFORE" />
+<TLINK id="TL16" fromID="E12" fromText="the bleeding" toID="T4" toText="the time" type="BEFORE" />
+<TLINK id="TL17" fromID="E13" fromText="his INR" toID="T4" toText="the time" type="OVERLAP" />
+<TLINK id="TL18" fromID="E14" fromText="his artificial valve" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL19" fromID="E16" fromText="continued bleeding" toID="E12" toText="the bleeding" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="2 units of packed red blood cells" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL20" fromID="E17" fromText="the Coumadin" toID="E11" toText="His Coumadin" type="OVERLAP" />
+<TLINK id="TL21" fromID="E18" fromText="seen by the GI team" toID="E17" toText="the Coumadin" type="AFTER" />
+<TLINK id="TL22" fromID="E19" fromText="an upper endoscopy" toID="E18" toText="seen by the GI team" type="OVERLAP" />
+<TLINK id="TL23" fromID="E20" fromText="demonstrated" toID="E19" toText="an upper endoscopy" type="OVERLAP" />
+<TLINK id="TL24" fromID="E21" fromText="a small hiatal hernia" toID="E20" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL25" fromID="E22" fromText="erosive gastritis" toID="E21" toText="a small hiatal hernia" type="OVERLAP" />
+<TLINK id="TL26" fromID="E23" fromText="edematous" toID="E22" toText="erosive gastritis" type="OVERLAP" />
+<TLINK id="TL27" fromID="E24" fromText="A small polyp" toID="E23" toText="edematous" type="OVERLAP" />
+<TLINK id="TL28" fromID="E25" fromText="stigmata" toID="E24" toText="A small polyp" type="OVERLAP" />
+<TLINK id="TL29" fromID="E26" fromText="old bleeding" toID="E25" toText="stigmata" type="BEFORE" />
+<TLINK id="TL3" fromID="E2" fromText="2 units of packed red blood cells" toID="T2" toText="overnight" type="OVERLAP" />
+<TLINK id="TL30" fromID="E28" fromText="this" toID="E24" toText="A small polyp" type="OVERLAP" />
+<TLINK id="TL31" fromID="E28" fromText="this" toID="E27" toText="an Endoclip" type="BEFORE" />
+<TLINK id="TL32" fromID="E29" fromText="Another polyp" toID="E24" toText="A small polyp" type="OVERLAP" />
+<TLINK id="TL33" fromID="E29" fromText="Another polyp" toID="E30" toText="cold biopsies" type="BEFORE" />
+<TLINK id="TL34" fromID="E31" fromText="a small AVM" toID="E29" toText="Another polyp" type="OVERLAP" />
+<TLINK id="TL35" fromID="E31" fromText="a small AVM" toID="E32" toText="cauterized" type="BEFORE" />
+<TLINK id="TL36" fromID="E33" fromText="The biopsy" toID="E30" toText="cold biopsies" type="OVERLAP" />
+<TLINK id="TL37" fromID="E33" fromText="The biopsy" toID="E32" toText="cauterized" type="AFTER" />
+<TLINK id="TL38" fromID="E34" fromText="demonstrated" toID="E33" toText="The biopsy" type="OVERLAP" />
+<TLINK id="TL39" fromID="E35" fromText="a hyperplastic polyp" toID="E34" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL4" fromID="T3" fromText="the first night" toID="T2" toText="overnight" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="a hyperplastic polyp" toID="E29" toText="Another polyp" type="OVERLAP" />
+<TLINK id="TL41" fromID="E36" fromText="acute and chronic inflammation" toID="E35" toText="a hyperplastic polyp" type="OVERLAP" />
+<TLINK id="TL42" fromID="E37" fromText="erosion" toID="E36" toText="acute and chronic inflammation" type="OVERLAP" />
+<TLINK id="TL43" fromID="E38" fromText="reactive epithelial changes" toID="E37" toText="erosion" type="OVERLAP" />
+<TLINK id="TL44" fromID="E39" fromText="dysplasia" toID="E38" toText="reactive epithelial changes" type="OVERLAP" />
+<TLINK id="TL45" fromID="E41" fromText="fresh frozen plasma" toID="E40" toText="the upper endoscopy" type="BEFORE" />
+<TLINK id="TL46" fromID="E42" fromText="his anticoagulation" toID="E41" toText="fresh frozen plasma" type="BEFORE" />
+<TLINK id="TL48" fromID="E40" fromText="the upper endoscopy" toID="E19" toText="an upper endoscopy" type="OVERLAP" />
+<TLINK id="TL49" fromID="E44" fromText="the upper endoscopy" toID="E40" toText="the upper endoscopy" type="OVERLAP" />
+<TLINK id="TL5" fromID="T3" fromText="the first night" toID="E3" toText="admission" type="AFTER" />
+<TLINK id="TL50" fromID="E43" fromText="hemodynamically stable" toID="E44" toText="the upper endoscopy" type="OVERLAP" />
+<TLINK id="TL51" fromID="E46" fromText="this" toID="E44" toText="the upper endoscopy" type="OVERLAP" />
+<TLINK id="TL52" fromID="E45" fromText="his hematocrit" toID="E46" toText="this" type="AFTER" />
+<TLINK id="TL53" fromID="E45" fromText="his hematocrit" toID="E47" toText="discharge" type="BEFORE" />
+<TLINK id="TL54" fromID="E47" fromText="discharge" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL55" fromID="E48" fromText="His last recorded hematocrit" toID="E49" toText="discharge" type="OVERLAP" />
+<TLINK id="TL56" fromID="E49" fromText="discharge" toID="E47" toText="discharge" type="OVERLAP" />
+<TLINK id="TL57" fromID="E50" fromText="His last BUN" toID="E48" toText="His last recorded hematocrit" type="OVERLAP" />
+<TLINK id="TL58" fromID="E51" fromText="creatinine" toID="E50" toText="His last BUN" type="OVERLAP" />
+<TLINK id="TL59" fromID="E52" fromText="an INR" toID="E51" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="his hematocrit" toID="T2" toText="overnight" type="AFTER" />
+<TLINK id="TL60" fromID="E53" fromText="a repeat colonoscopy" toID="E50" toText="His last BUN" type="OVERLAP" />
+<TLINK id="TL61" fromID="E54" fromText="This" toID="E53" toText="a repeat colonoscopy" type="OVERLAP" />
+<TLINK id="TL62" fromID="E55" fromText="this" toID="E54" toText="This" type="OVERLAP" />
+<TLINK id="TL63" fromID="E56" fromText="the recent colonoscopy" toID="E55" toText="this" type="BEFORE" />
+<TLINK id="TL64" fromID="E56" fromText="the recent colonoscopy" toID="T5" toText="05/2003" type="OVERLAP" />
+<TLINK id="TL65" fromID="T5" fromText="05/2003" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL66" fromID="E58" fromText="Ischemia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL67" fromID="E58" fromText="Ischemia" toID="E59" toText="Patient &apos;s troponin bump" type="OVERLAP" />
+<TLINK id="TL68" fromID="E60" fromText="demand ischemia" toID="E58" toText="Ischemia" type="OVERLAP" />
+<TLINK id="TL69" fromID="E61" fromText="his GI bleed" toID="E60" toText="demand ischemia" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="bumped up" toID="E4" toText="his hematocrit" type="OVERLAP" />
+<TLINK id="TL70" fromID="E62" fromText="acute coronary syndrome" toID="E60" toText="demand ischemia" type="OVERLAP" />
+<TLINK id="TL71" fromID="E57" fromText="discharge" toID="E49" toText="discharge" type="OVERLAP" />
+<TLINK id="TL72" fromID="E63" fromText="his aspirin" toID="E57" toText="discharge" type="BEFORE" />
+<TLINK id="TL73" fromID="E64" fromText="simvastatin" toID="E63" toText="his aspirin" type="OVERLAP" />
+<TLINK id="TL74" fromID="E65" fromText="his Lopressor" toID="E64" toText="simvastatin" type="OVERLAP" />
+<TLINK id="TL75" fromID="E67" fromText="the admission" toID="E7" toText="his admission" type="OVERLAP" />
+<TLINK id="TL76" fromID="E66" fromText="A-fib." toID="E67" toText="the admission" type="OVERLAP" />
+<TLINK id="TL77" fromID="E68" fromText="his Coumadin" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL78" fromID="E68" fromText="his Coumadin" toID="E69" toText="heparin" type="OVERLAP" />
+<TLINK id="TL79" fromID="E70" fromText="Heparin" toID="E69" toText="heparin" type="OVERLAP" />
+<TLINK id="TL8" fromID="E7" fromText="his admission" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL80" fromID="E68" fromText="his Coumadin" toID="E11" toText="His Coumadin" type="OVERLAP" />
+<TLINK id="TL82" fromID="E71" fromText="his INR" toID="E67" toText="the admission" type="OVERLAP" />
+<TLINK id="TL84" fromID="E71" fromText="his INR" toID="E72" toText="a therapeutic level" type="BEFORE" />
+<TLINK id="TL85" fromID="E70" fromText="Heparin" toID="E72" toText="a therapeutic level" type="BEFORE" />
+<TLINK id="TL86" fromID="E74" fromText="discharge" toID="E57" toText="discharge" type="OVERLAP" />
+<TLINK id="TL87" fromID="E73" fromText="His last reported INR" toID="E74" toText="discharge" type="OVERLAP" />
+<TLINK id="TL88" fromID="E75" fromText="Valves" toID="E58" toText="Ischemia" type="OVERLAP" />
+<TLINK id="TL89" fromID="E77" fromText="artificial valves" toID="E75" toText="Valves" type="OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="his admission" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL90" fromID="E76" fromText="his anticoagulation" toID="E68" toText="his Coumadin" type="OVERLAP" />
+<TLINK id="TL91" fromID="E78" fromText="his Coumadin" toID="E76" toText="his anticoagulation" type="OVERLAP" />
+<TLINK id="TL92" fromID="E79" fromText="therapeutic INR levels" toID="E72" toText="a therapeutic level" type="OVERLAP" />
+<TLINK id="TL93" fromID="E79" fromText="therapeutic INR levels" toID="E80" toText="discharge" type="BEFORE" />
+<TLINK id="TL94" fromID="E78" fromText="his Coumadin" toID="E79" toText="therapeutic INR levels" type="AFTER" />
+<TLINK id="TL95" fromID="E81" fromText="this hospital course" toID="E67" toText="the admission" type="OVERLAP" />
+<TLINK id="TL96" fromID="E82" fromText="hypervolemic" toID="E81" toText="this hospital course" type="OVERLAP" />
+<TLINK id="TL97" fromID="E82" fromText="hypervolemic" toID="E83" toText="his diuretics" type="AFTER" />
+<TLINK id="TL98" fromID="E83" fromText="his diuretics" toID="E81" toText="this hospital course" type="BEFORE" />
+<TLINK id="TL99" fromID="E84" fromText="blood products" toID="E83" toText="his diuretics" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="11/09/2003" type="ADMISSION" dvalue="2003-11-09" />
+<SECTIME id="S1" start="46" end="56" text="11/16/2003" type="DISCHARGE" dvalue="2003-11-16" />
+<TLINK id="SECTIME0" fromID="E28" fromText="this" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E29" fromText="Another polyp" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E30" fromText="cold biopsies" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E31" fromText="a small AVM" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E32" fromText="cauterized" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E33" fromText="The biopsy" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E34" fromText="demonstrated" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E35" fromText="a hyperplastic polyp" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E36" fromText="acute and chronic inflammation" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E37" fromText="erosion" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="reactive epithelial changes" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="dysplasia" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="the upper endoscopy" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E2" fromText="2 units of packed red blood cells" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E41" fromText="fresh frozen plasma" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E42" fromText="his anticoagulation" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E43" fromText="hemodynamically stable" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E44" fromText="the upper endoscopy" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E45" fromText="his hematocrit" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E46" fromText="this" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E47" fromText="discharge" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E48" fromText="His last recorded hematocrit" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E49" fromText="discharge" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E50" fromText="His last BUN" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E51" fromText="creatinine" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E52" fromText="an INR" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E53" fromText="a repeat colonoscopy" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E54" fromText="This" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E55" fromText="this" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="the recent colonoscopy" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E58" fromText="Ischemia" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E59" fromText="Patient &apos;s troponin bump" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E60" fromText="demand ischemia" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E61" fromText="his GI bleed" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E3" fromText="admission" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E62" fromText="acute coronary syndrome" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E57" fromText="discharge" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E63" fromText="his aspirin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E64" fromText="simvastatin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E4" fromText="his hematocrit" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E65" fromText="his Lopressor" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E66" fromText="A-fib." toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E67" fromText="the admission" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E5" fromText="bumped up" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E68" fromText="his Coumadin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E69" fromText="heparin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E70" fromText="Heparin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E71" fromText="his INR" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E72" fromText="a therapeutic level" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E73" fromText="His last reported INR" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E74" fromText="discharge" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME51" fromID="E75" fromText="Valves" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E76" fromText="his anticoagulation" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E77" fromText="artificial valves" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E78" fromText="his Coumadin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E6" fromText="hemodynamically stable" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E79" fromText="therapeutic INR levels" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E80" fromText="discharge" toID="T1" toText="11/16/2003" type="OVERLAP" />
+<TLINK id="SECTIME58" fromID="E81" fromText="this hospital course" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E82" fromText="hypervolemic" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E83" fromText="his diuretics" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E84" fromText="blood products" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E85" fromText="diuresed" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E86" fromText="Lasix" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E87" fromText="torsemide" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E88" fromText="thrombocytopenia" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E7" fromText="his admission" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E89" fromText="a prior admission" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E90" fromText="Lasix" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E91" fromText="diuresed" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E92" fromText="a euvolemic state" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E93" fromText="thrombocytopenic" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E94" fromText="this admission" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E8" fromText="a proton pump inhibitor" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E9" fromText="iron sulfate" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E10" fromText="vitamin C" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E11" fromText="His Coumadin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E12" fromText="the bleeding" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E13" fromText="his INR" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E14" fromText="his artificial valve" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E16" fromText="continued bleeding" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E17" fromText="the Coumadin" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E18" fromText="seen by the GI team" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E19" fromText="an upper endoscopy" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E20" fromText="demonstrated" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E21" fromText="a small hiatal hernia" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E22" fromText="erosive gastritis" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E23" fromText="edematous" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E24" fromText="A small polyp" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E25" fromText="stigmata" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E26" fromText="old bleeding" toID="T1" toText="11/16/2003" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E27" fromText="an Endoclip" toID="T1" toText="11/16/2003" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

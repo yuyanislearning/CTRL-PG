@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+06/26/94
+DISCHARGE DATE :
+06/30/94
+HISTORY OF PRESENT ILLNESS :
+The patient is an 81 year old female , G2 , P2 , who status post total abdominal hysterectomy-bilateral salpingo-oophorectomy one years ago for a mixed mesodermal cancer who presents with vaginal apex recurrence .
+She had a normal pelvic examination and CT scan in February of 1993 but one month prior to this admission starting bleeding per vagina .
+An examination revealed an apicovaginal lesion consistent with recurrent tumor .
+A computerized tomography scan was performed which showed a central recurrence and biopsy of this lesion was positive .
+She presents now for excision of her local cancer recurrence .
+HOSPITAL COURSE :
+The patient was admitted to the GYN / Oncology Service under the care of Dr. Top on June 26 , 1994 .
+On that day she was taken to the operating room where she underwent an exam under anesthesia , an exploratory laparotomy with lysis of adhesions , tumor debulking and bilateral pelvic lymph node dissection .
+An abdominal wall hernia was also repaired .
+The patient tolerated the procedure well without any complications .
+Her postoperative course was unremarkable .
+Her vaginal pack was removed on the second postoperative day as well as the Foley catheter .
+By postoperative day three she had return of normal bowel function and was able to tolerate a regular diet without any difficulty .
+Her Jackson-Pratt drain was removed on June 30 , 1994 , postoperative day four .
+On that day she was feeling well enough , eating well , and voiding without difficulty .
+As a result she was able to be discharged home on June 30 , 1994 .
+FOLLOW-UP :
+She will follow up with Dr. Top in his office .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1024" end="1048" text="An abdominal wall hernia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1058" end="1066" text="repaired" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1081" end="1090" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1091" end="1104" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1118" end="1135" text="any complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1138" end="1162" text="Her postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1182" end="1198" text="Her vaginal pack" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1203" end="1210" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1254" end="1272" text="the Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1310" end="1341" text="return of normal bowel function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1358" end="1366" text="tolerate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1367" end="1381" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1390" end="1404" text="any difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1407" end="1430" text="Her Jackson-Pratt drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1435" end="1442" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="147" end="207" text="total abdominal hysterectomy-bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1508" end="1520" text="feeling well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1530" end="1541" text="eating well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1548" end="1555" text="voiding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1564" end="1574" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="1608" end="1618" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1665" end="1674" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="226" end="251" text="a mixed mesodermal cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="256" end="264" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="270" end="293" text="vaginal apex recurrence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="313" end="331" text="pelvic examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="336" end="343" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="387" end="401" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="411" end="430" text="bleeding per vagina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="433" end="447" text="An examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="448" end="456" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="457" end="479" text="an apicovaginal lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="496" end="511" text="recurrent tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="514" end="544" text="A computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="565" end="571" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="572" end="592" text="a central recurrence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="597" end="603" text="biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="607" end="618" text="this lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="638" end="646" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="655" end="663" text="excision" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="667" end="694" text="her local cancer recurrence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="731" end="739" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="743" end="769" text="the GYN / Oncology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="845" end="863" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="884" end="891" text="an exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="898" end="908" text="anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="911" end="936" text="an exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="942" end="947" text="lysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="951" end="960" text="adhesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="963" end="978" text="tumor debulking" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="983" end="1021" text="bilateral pelvic lymph node dissection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T6" start="1214" end="1242" text="the second postoperative day" type="DATE" val="1994-06-28" mod="NA" />
+<TIMEX3 id="T7" start="1278" end="1301" text="postoperative day three" type="DATE" val="1994-06-29" mod="NA" />
+<TIMEX3 id="T8" start="1446" end="1460" text="June 30 , 1994" type="DATE" val="1994-06-30" mod="NA" />
+<TIMEX3 id="T9" start="1463" end="1485" text="postoperative day four" type="DATE" val="1994-06-30" mod="NA" />
+<TIMEX3 id="T10" start="1496" end="1499" text="day" type="DATE" val="1994-06-30" mod="NA" />
+<TIMEX3 id="T11" start="1627" end="1641" text="June 30 , 1994" type="DATE" val="1994-06-30" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="06/26/94" type="DATE" val="1994-06-26" mod="NA" />
+<TIMEX3 id="T2" start="347" end="363" text="February of 1993" type="DATE" val="1993-02" mod="NA" />
+<TIMEX3 id="T3" start="368" end="377" text="one month" type="DATE" val="1994-05-26" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="06/30/94" type="DATE" val="1994-06-30" mod="NA" />
+<TIMEX3 id="T4" start="799" end="813" text="June 26 , 1994" type="DATE" val="1994-06-26" mod="NA" />
+<TIMEX3 id="T5" start="824" end="827" text="day" type="DATE" val="1994-06-26" mod="NA" />
+<SECTIME id="S0" start="18" end="26" text="06/26/94" type="ADMISSION" dvalue="1994-06-26" />
+<SECTIME id="S1" start="44" end="52" text="06/30/94" type="DISCHARGE" dvalue="1994-06-30" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

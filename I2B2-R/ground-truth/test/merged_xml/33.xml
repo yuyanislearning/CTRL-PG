@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-01-09
+Discharge Date :
+2019-01-15
+Service :
+MEDICINE
+History of Present Illness :
+45M w/no PMH presented to Chelseahospital after a syncopal episode on the morning of admission .
+Pt was preparing lunch when suddenly felt lightheaded / faint and immediately fell to the kitchen floor face first .
+He denies LOC .
+Immediately there after he was very short of breath , felt lightheaded again and called 911 .
+At Springfield , CT chest was positive for saddle PE .
+VS were with stable BPs , tachy to 110-120 , sat 98% RA .
+He received Lovenox 91 mg SC prior to transport and was transferred to Arbour Hospital for further care .
+Mr. Anders states that 2 weeks prior to his presentation he hurt his left knee .
+He was sitting on the floor legs crossed and stood up when he heard his knee CMED CCU .
+Then again on Sunday , 3 days PTA , again from sitting to standing heard his knee CMED CCU .
+He was essentially bed bound for 3 days prior to admission , unable to ambulate .
+He started to notice inflammation of his L calf / leg worse 2 days prior to presentation .
+In this 2 week interval he denied having CP / chest discomfort or difficulty breathing , no cough or hemoptysis .
+No f/c/ sweats .
+Pt denied any bleeding or clotting disorders and has never had a clot in the past .
+Brief Hospital Course :
+Mr. Anders was admitted for anticoagulation and hemodynamic monitoring in the setting of saddle pulmonary embolus and left knee injury .
+#. PE :
+Given no other risk factors or likely causes , the most likely etiology for his embolus is DVT from the left leg .
+He has no known clotting disorder but did have trauma to leg prompting immobility and stasis .
+He remained hemodynmically stable throughout his hospitalization and did not have an oxygen requirement upon discharge .
+Given no evidence of hemodynamic instability , lysis was not required .
+He was anticoagulated with heparin and coumadin .
+He will need to follow up with hematology for an outpatient thrombophilia work-up ( not done as inpatient as results would not change acute management of PE ).
+He will also require close follow up with his primary care provider for coumadin management .
+Duration of his coumadin therapy to be determined by hematology , but likely to be at least 6 months in duration .
+#. Syncope :
+In setting of PE .
+Remainder of his cardiac workup was negative .
+He did have a small troponin leak , felt to be related to right heart strain in the setting of P-pulmonale related to clot burden .
+His tronponin quickly trended down and he did not have EKG evidence of ischemia .
+An ECHO did not reveal any wall motion abnormalities related to ischemia .
+#. Hematocrit :
+Dropped from 42.7 to 36 in setting of anticoagulation for saddle PE and IV fluids .
+No active bleeding noted .
+Pt asymptomatic .
+#. L knee injury :
+Given his history and physical exam , Mr. Anders presented with an injury most consistent with meniscal tear .
+In order to facilitate therapy and to promote mobility , an MRI of the knee was done .
+He was seen by physical therapy and will need to follow up with orthopaedics upon discharge for repeat evaluation .
+#. CODE :
+FULL CODE .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1013" end="1045" text="inflammation of his L calf / leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1068" end="1080" text="presentation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1110" end="1116" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E41" start="1124" end="1126" text="CP" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1129" end="1145" text="chest discomfort" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E43" start="1149" end="1169" text="difficulty breathing" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1175" end="1180" text="cough" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="118" end="127" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="1184" end="1194" text="hemoptysis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1200" end="1204" text="f/c/" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1205" end="1211" text="sweats" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E48" start="1217" end="1223" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E49" start="1224" end="1258" text="any bleeding or clotting disorders" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1277" end="1283" text="a clot" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="131" end="146" text="Chelseahospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="1337" end="1345" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1350" end="1365" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1370" end="1392" text="hemodynamic monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1411" end="1435" text="saddle pulmonary embolus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1440" end="1456" text="left knee injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1462" end="1464" text="PE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1476" end="1494" text="other risk factors" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="1498" end="1511" text="likely causes" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E4" start="153" end="171" text="a syncopal episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1543" end="1554" text="his embolus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1558" end="1579" text="DVT from the left leg" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1592" end="1615" text="known clotting disorder" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="1629" end="1642" text="trauma to leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1653" end="1663" text="immobility" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1668" end="1674" text="stasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1689" end="1710" text="hemodynmically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1722" end="1741" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1759" end="1780" text="an oxygen requirement" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E71" start="1786" end="1795" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1819" end="1842" text="hemodynamic instability" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E73" start="1845" end="1850" text="lysis" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E74" start="1877" end="1891" text="anticoagulated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="1897" end="1904" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="190" end="199" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="1909" end="1917" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1936" end="1945" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="1951" end="1961" text="hematology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="1966" end="2001" text="an outpatient thrombophilia work-up" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2054" end="2070" text="acute management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2074" end="2076" text="PE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2107" end="2116" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2122" end="2147" text="his primary care provider" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2152" end="2171" text="coumadin management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2186" end="2206" text="his coumadin therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2227" end="2237" text="hematology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2292" end="2299" text="Syncope" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2316" end="2318" text="PE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2334" end="2352" text="his cardiac workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="2357" end="2365" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="2380" end="2401" text="a small troponin leak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2426" end="2444" text="right heart strain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="244" end="255" text="lightheaded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="2463" end="2474" text="P-pulmonale" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="2486" end="2497" text="clot burden" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="2500" end="2513" text="His tronponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="2522" end="2534" text="trended down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="2555" end="2558" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="2559" end="2567" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E7" start="258" end="263" text="faint" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2571" end="2579" text="ischemia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="2582" end="2589" text="An ECHO" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E101" start="2598" end="2604" text="reveal" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E102" start="2605" end="2634" text="any wall motion abnormalities" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E103" start="2646" end="2654" text="ischemia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E104" start="2660" end="2670" text="Hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E105" start="2673" end="2680" text="Dropped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="268" end="305" text="immediately fell to the kitchen floor" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2711" end="2726" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="2731" end="2740" text="saddle PE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2745" end="2754" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E109" start="2760" end="2775" text="active bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E110" start="2776" end="2781" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E111" start="2787" end="2799" text="asymptomatic" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="2805" end="2818" text="L knee injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2843" end="2856" text="physical exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="2870" end="2879" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E115" start="2885" end="2894" text="an injury" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="2916" end="2929" text="meniscal tear" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="2955" end="2962" text="therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E118" start="2970" end="2986" text="promote mobility" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E119" start="2989" end="3007" text="an MRI of the knee" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E120" start="3026" end="3050" text="seen by physical therapy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="3068" end="3077" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="3083" end="3095" text="orthopaedics" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="3101" end="3110" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3115" end="3132" text="repeat evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E125" start="3145" end="3154" text="FULL CODE" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="322" end="328" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="329" end="332" text="LOC" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="366" end="386" text="very short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="394" end="405" text="lightheaded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="416" end="426" text="called 911" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="432" end="443" text="Springfield" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="446" end="454" text="CT chest" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="472" end="481" text="saddle PE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="484" end="486" text="VS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="497" end="507" text="stable BPs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="510" end="515" text="tachy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="529" end="532" text="sat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="554" end="561" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="580" end="589" text="transport" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="598" end="609" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="613" end="628" text="Arbour Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="633" end="645" text="further care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="659" end="665" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="692" end="704" text="presentation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E27" start="708" end="726" text="hurt his left knee" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="774" end="782" text="stood up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="791" end="805" text="heard his knee" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="806" end="814" text="CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="859" end="883" text="from sitting to standing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="884" end="898" text="heard his knee" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="899" end="907" text="CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="917" end="938" text="essentially bed bound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="959" end="968" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="971" end="989" text="unable to ambulate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T7" start="1052" end="1058" text="2 days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T8" start="1086" end="1106" text="this 2 week interval" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T2" start="175" end="199" text="the morning of admission" type="TIME" val="2019-01-09T08:00" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-01-09" type="DATE" val="2019-01-09" mod="NA" />
+<TIMEX3 id="T9" start="2266" end="2274" text="6 months" type="DURATION" val="P6M" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-01-15" type="DATE" val="2019-01-15" mod="NA" />
+<TIMEX3 id="T3" start="671" end="678" text="2 weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T4" start="831" end="837" text="Sunday" type="DATE" val="2019-01-06" mod="APPROX" />
+<TIMEX3 id="T5" start="840" end="846" text="3 days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T6" start="943" end="949" text="3 days" type="DURATION" val="P3D" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2019-01-09" type="OVERLAP" />
+<TLINK id="TL1" fromID="E54" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E26" fromText="presentation" toID="E2" toText="presented" type="OVERLAP" />
+<TLINK id="TL100" fromID="E75" fromText="heparin" toID="E74" toText="anticoagulated" type="OVERLAP" />
+<TLINK id="TL101" fromID="E76" fromText="coumadin" toID="E74" toText="anticoagulated" type="OVERLAP" />
+<TLINK id="TL102" fromID="E74" fromText="anticoagulated" toID="E55" toText="anticoagulation" type="OVERLAP" />
+<TLINK id="TL103" fromID="E77" fromText="follow up" toID="E79" toText="an outpatient thrombophilia work-up" type="OVERLAP" />
+<TLINK id="TL104" fromID="E77" fromText="follow up" toID="E78" toText="hematology" type="OVERLAP" />
+<TLINK id="TL105" fromID="E79" fromText="an outpatient thrombophilia work-up" toID="E78" toText="hematology" type="OVERLAP" />
+<TLINK id="TL107" fromID="E81" fromText="PE" toID="E80" toText="acute management" type="BEFORE" />
+<TLINK id="TL108" fromID="E81" fromText="PE" toID="E88" toText="PE" type="OVERLAP" />
+<TLINK id="TL109" fromID="E62" fromText="his embolus" toID="E81" toText="PE" type="OVERLAP" />
+<TLINK id="TL11" fromID="E3" fromText="Chelseahospital" toID="E5" toText="admission" type="BEFORE" />
+<TLINK id="TL110" fromID="E84" fromText="coumadin management" toID="E82" toText="follow up" type="OVERLAP" />
+<TLINK id="TL111" fromID="E82" fromText="follow up" toID="E83" toText="his primary care provider" type="OVERLAP" />
+<TLINK id="TL112" fromID="E84" fromText="coumadin management" toID="E85" toText="his coumadin therapy" type="OVERLAP" />
+<TLINK id="TL113" fromID="E85" fromText="his coumadin therapy" toID="T9" toText="6 months" type="BEFORE" />
+<TLINK id="TL114" fromID="E85" fromText="his coumadin therapy" toID="E86" toText="hematology" type="OVERLAP" />
+<TLINK id="TL116" fromID="E89" fromText="his cardiac workup" toID="E88" toText="PE" type="AFTER" />
+<TLINK id="TL117" fromID="E100" fromText="An ECHO" toID="E89" toText="his cardiac workup" type="OVERLAP" />
+<TLINK id="TL119" fromID="E97" fromText="EKG" toID="E89" toText="his cardiac workup" type="OVERLAP" />
+<TLINK id="TL12" fromID="E2" fromText="presented" toID="E4" toText="a syncopal episode" type="AFTER" />
+<TLINK id="TL120" fromID="E89" fromText="his cardiac workup" toID="E90" toText="negative" type="OVERLAP" />
+<TLINK id="TL121" fromID="E92" fromText="right heart strain" toID="E93" toText="P-pulmonale" type="OVERLAP" />
+<TLINK id="TL124" fromID="E93" fromText="P-pulmonale" toID="E94" toText="clot burden" type="AFTER" />
+<TLINK id="TL125" fromID="E94" fromText="clot burden" toID="E88" toText="PE" type="BEFORE" />
+<TLINK id="TL126" fromID="E95" fromText="His tronponin" toID="E91" toText="a small troponin leak" type="AFTER" />
+<TLINK id="TL128" fromID="E95" fromText="His tronponin" toID="E96" toText="trended down" type="OVERLAP" />
+<TLINK id="TL129" fromID="E98" fromText="evidence" toID="E97" toText="EKG" type="OVERLAP" />
+<TLINK id="TL13" fromID="E4" fromText="a syncopal episode" toID="T2" toText="the morning of admission" type="OVERLAP" />
+<TLINK id="TL130" fromID="E99" fromText="ischemia" toID="E97" toText="EKG" type="BEFORE" />
+<TLINK id="TL131" fromID="E99" fromText="ischemia" toID="E98" toText="evidence" type="BEFORE" />
+<TLINK id="TL132" fromID="E99" fromText="ischemia" toID="E103" toText="ischemia" type="OVERLAP" />
+<TLINK id="TL133" fromID="E102" fromText="any wall motion abnormalities" toID="E100" toText="An ECHO" type="OVERLAP" />
+<TLINK id="TL134" fromID="E101" fromText="reveal" toID="E100" toText="An ECHO" type="OVERLAP" />
+<TLINK id="TL135" fromID="E102" fromText="any wall motion abnormalities" toID="E103" toText="ischemia" type="AFTER" />
+<TLINK id="TL136" fromID="E104" fromText="Hematocrit" toID="E105" toText="Dropped" type="OVERLAP" />
+<TLINK id="TL137" fromID="E106" fromText="anticoagulation" toID="E105" toText="Dropped" type="OVERLAP" />
+<TLINK id="TL138" fromID="E109" fromText="active bleeding" toID="E106" toText="anticoagulation" type="OVERLAP" />
+<TLINK id="TL139" fromID="E106" fromText="anticoagulation" toID="E108" toText="IV fluids" type="OVERLAP" />
+<TLINK id="TL14" fromID="E4" fromText="a syncopal episode" toID="E87" toText="Syncope" type="OVERLAP" />
+<TLINK id="TL140" fromID="E55" fromText="anticoagulation" toID="E106" toText="anticoagulation" type="OVERLAP" />
+<TLINK id="TL142" fromID="E106" fromText="anticoagulation" toID="E107" toText="saddle PE" type="AFTER" />
+<TLINK id="TL143" fromID="E111" fromText="asymptomatic" toID="E109" toText="active bleeding" type="OVERLAP" />
+<TLINK id="TL144" fromID="E112" fromText="L knee injury" toID="E115" toText="an injury" type="OVERLAP" />
+<TLINK id="TL145" fromID="E65" fromText="trauma to leg" toID="E112" toText="L knee injury" type="OVERLAP" />
+<TLINK id="TL146" fromID="E114" fromText="presented" toID="E113" toText="physical exam" type="BEFORE" />
+<TLINK id="TL147" fromID="E119" fromText="an MRI of the knee" toID="E113" toText="physical exam" type="AFTER" />
+<TLINK id="TL148" fromID="E115" fromText="an injury" toID="E116" toText="meniscal tear" type="OVERLAP" />
+<TLINK id="TL149" fromID="E118" fromText="promote mobility" toID="E117" toText="therapy" type="OVERLAP" />
+<TLINK id="TL15" fromID="E6" fromText="lightheaded" toID="E4" toText="a syncopal episode" type="OVERLAP" />
+<TLINK id="TL150" fromID="E117" fromText="therapy" toID="E119" toText="an MRI of the knee" type="AFTER" />
+<TLINK id="TL151" fromID="E120" fromText="seen by physical therapy" toID="E119" toText="an MRI of the knee" type="AFTER" />
+<TLINK id="TL152" fromID="E122" fromText="orthopaedics" toID="E121" toText="follow up" type="OVERLAP" />
+<TLINK id="TL153" fromID="E124" fromText="repeat evaluation" toID="E121" toText="follow up" type="OVERLAP" />
+<TLINK id="TL154" fromID="E121" fromText="follow up" toID="E123" toText="discharge" type="AFTER" />
+<TLINK id="TL155" fromID="E124" fromText="repeat evaluation" toID="E123" toText="discharge" type="AFTER" />
+<TLINK id="TL156" fromID="E125" fromText="FULL CODE" toID="E69" toText="his hospitalization" type="BEFORE" />
+<TLINK id="TL16" fromID="E52" fromText="denies" toID="T2" toText="the morning of admission" type="AFTER" />
+<TLINK id="TL17" fromID="E6" fromText="lightheaded" toID="E7" toText="faint" type="OVERLAP" />
+<TLINK id="TL18" fromID="E8" fromText="immediately fell to the kitchen floor" toID="E6" toText="lightheaded" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="lightheaded" toID="E11" toText="lightheaded" type="BEFORE" />
+<TLINK id="TL2" fromID="E5" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="E15" fromText="saddle PE" toID="E6" toText="lightheaded" type="BEFORE" />
+<TLINK id="TL21" fromID="E10" fromText="very short of breath" toID="E8" toText="immediately fell to the kitchen floor" type="AFTER" />
+<TLINK id="TL22" fromID="E53" fromText="LOC" toID="E8" toText="immediately fell to the kitchen floor" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="immediately fell to the kitchen floor" toID="E7" toText="faint" type="OVERLAP" />
+<TLINK id="TL24" fromID="E52" fromText="denies" toID="E53" toText="LOC" type="AFTER" />
+<TLINK id="TL25" fromID="E11" fromText="lightheaded" toID="E10" toText="very short of breath" type="OVERLAP" />
+<TLINK id="TL26" fromID="E12" fromText="called 911" toID="E11" toText="lightheaded" type="AFTER" />
+<TLINK id="TL27" fromID="E13" fromText="Springfield" toID="E12" toText="called 911" type="AFTER" />
+<TLINK id="TL28" fromID="E14" fromText="CT chest" toID="E13" toText="Springfield" type="OVERLAP" />
+<TLINK id="TL29" fromID="E15" fromText="saddle PE" toID="E14" toText="CT chest" type="BEFORE" />
+<TLINK id="TL3" fromID="E113" fromText="physical exam" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL30" fromID="E16" fromText="VS" toID="E17" toText="stable BPs" type="OVERLAP" />
+<TLINK id="TL31" fromID="E16" fromText="VS" toID="E13" toText="Springfield" type="OVERLAP" />
+<TLINK id="TL32" fromID="E18" fromText="tachy" toID="E17" toText="stable BPs" type="OVERLAP" />
+<TLINK id="TL33" fromID="E18" fromText="tachy" toID="E19" toText="sat" type="OVERLAP" />
+<TLINK id="TL34" fromID="E13" fromText="Springfield" toID="E20" toText="Lovenox" type="OVERLAP" />
+<TLINK id="TL35" fromID="E20" fromText="Lovenox" toID="E21" toText="transport" type="BEFORE" />
+<TLINK id="TL36" fromID="E21" fromText="transport" toID="E22" toText="transferred" type="OVERLAP" />
+<TLINK id="TL37" fromID="E13" fromText="Springfield" toID="E22" toText="transferred" type="BEFORE" />
+<TLINK id="TL38" fromID="E23" fromText="Arbour Hospital" toID="E22" toText="transferred" type="AFTER" />
+<TLINK id="TL39" fromID="E23" fromText="Arbour Hospital" toID="E24" toText="further care" type="OVERLAP" />
+<TLINK id="TL4" fromID="E89" fromText="his cardiac workup" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL41" fromID="E25" fromText="states" toID="E23" toText="Arbour Hospital" type="BEFORE" />
+<TLINK id="TL42" fromID="E27" fromText="hurt his left knee" toID="T3" toText="2 weeks" type="BEFORE" />
+<TLINK id="TL43" fromID="T3" fromText="2 weeks" toID="E26" toText="presentation" type="BEFORE" />
+<TLINK id="TL44" fromID="T8" fromText="this 2 week interval" toID="T3" toText="2 weeks" type="OVERLAP" />
+<TLINK id="TL45" fromID="E58" fromText="left knee injury" toID="E27" toText="hurt his left knee" type="OVERLAP" />
+<TLINK id="TL46" fromID="E30" fromText="heard his knee" toID="E27" toText="hurt his left knee" type="OVERLAP" />
+<TLINK id="TL47" fromID="E30" fromText="heard his knee" toID="E28" toText="stood up" type="OVERLAP" />
+<TLINK id="TL48" fromID="T3" fromText="2 weeks" toID="E28" toText="stood up" type="AFTER" />
+<TLINK id="TL49" fromID="E28" fromText="stood up" toID="T4" toText="Sunday" type="BEFORE" />
+<TLINK id="TL5" fromID="E69" fromText="his hospitalization" toID="T0" toText="2019-01-09" type="AFTER" />
+<TLINK id="TL50" fromID="T4" fromText="Sunday" toID="T5" toText="3 days" type="OVERLAP" />
+<TLINK id="TL51" fromID="T5" fromText="3 days" toID="E32" toText="from sitting to standing" type="BEFORE" />
+<TLINK id="TL52" fromID="E33" fromText="heard his knee" toID="E32" toText="from sitting to standing" type="OVERLAP" />
+<TLINK id="TL53" fromID="E37" fromText="unable to ambulate" toID="E35" toText="essentially bed bound" type="OVERLAP" />
+<TLINK id="TL54" fromID="E35" fromText="essentially bed bound" toID="E33" toText="heard his knee" type="AFTER" />
+<TLINK id="TL55" fromID="E35" fromText="essentially bed bound" toID="T6" toText="3 days" type="OVERLAP" />
+<TLINK id="TL56" fromID="E37" fromText="unable to ambulate" toID="T6" toText="3 days" type="OVERLAP" />
+<TLINK id="TL57" fromID="T6" fromText="3 days" toID="E36" toText="admission" type="BEFORE" />
+<TLINK id="TL58" fromID="E37" fromText="unable to ambulate" toID="E66" toText="immobility" type="OVERLAP" />
+<TLINK id="TL59" fromID="T6" fromText="3 days" toID="T7" toText="2 days" type="OVERLAP" />
+<TLINK id="TL6" fromID="E71" fromText="discharge" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL60" fromID="E37" fromText="unable to ambulate" toID="E38" toText="inflammation of his L calf / leg" type="OVERLAP" />
+<TLINK id="TL61" fromID="E38" fromText="inflammation of his L calf / leg" toID="T7" toText="2 days" type="OVERLAP" />
+<TLINK id="TL62" fromID="T7" fromText="2 days" toID="E39" toText="presentation" type="BEFORE" />
+<TLINK id="TL63" fromID="E40" fromText="denied" toID="T8" toText="this 2 week interval" type="AFTER" />
+<TLINK id="TL64" fromID="E41" fromText="CP" toID="T8" toText="this 2 week interval" type="OVERLAP" />
+<TLINK id="TL65" fromID="E41" fromText="CP" toID="E42" toText="chest discomfort" type="OVERLAP" />
+<TLINK id="TL66" fromID="E42" fromText="chest discomfort" toID="E43" toText="difficulty breathing" type="OVERLAP" />
+<TLINK id="TL67" fromID="E43" fromText="difficulty breathing" toID="E44" toText="cough" type="OVERLAP" />
+<TLINK id="TL68" fromID="E44" fromText="cough" toID="E45" toText="hemoptysis" type="OVERLAP" />
+<TLINK id="TL69" fromID="E45" fromText="hemoptysis" toID="E46" toText="f/c/" type="OVERLAP" />
+<TLINK id="TL7" fromID="E1" fromText="Discharge" toID="T1" toText="2019-01-15" type="OVERLAP" />
+<TLINK id="TL70" fromID="E46" fromText="f/c/" toID="E47" toText="sweats" type="OVERLAP" />
+<TLINK id="TL71" fromID="E48" fromText="denied" toID="E40" toText="denied" type="OVERLAP" />
+<TLINK id="TL72" fromID="E48" fromText="denied" toID="E49" toText="any bleeding or clotting disorders" type="AFTER" />
+<TLINK id="TL73" fromID="E50" fromText="a clot" toID="E5" toText="admission" type="BEFORE" />
+<TLINK id="TL74" fromID="E55" fromText="anticoagulation" toID="E54" toText="admitted" type="OVERLAP" />
+<TLINK id="TL75" fromID="E56" fromText="hemodynamic monitoring" toID="E54" toText="admitted" type="OVERLAP" />
+<TLINK id="TL76" fromID="E56" fromText="hemodynamic monitoring" toID="E55" toText="anticoagulation" type="OVERLAP" />
+<TLINK id="TL78" fromID="E57" fromText="saddle pulmonary embolus" toID="E59" toText="PE" type="OVERLAP" />
+<TLINK id="TL79" fromID="E58" fromText="left knee injury" toID="E57" toText="saddle pulmonary embolus" type="BEFORE" />
+<TLINK id="TL8" fromID="E69" fromText="his hospitalization" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="TL80" fromID="E81" fromText="PE" toID="E57" toText="saddle pulmonary embolus" type="OVERLAP" />
+<TLINK id="TL81" fromID="E57" fromText="saddle pulmonary embolus" toID="E54" toText="admitted" type="BEFORE" />
+<TLINK id="TL82" fromID="E58" fromText="left knee injury" toID="E65" toText="trauma to leg" type="OVERLAP" />
+<TLINK id="TL84" fromID="E59" fromText="PE" toID="E62" toText="his embolus" type="OVERLAP" />
+<TLINK id="TL85" fromID="E60" fromText="other risk factors" toID="E59" toText="PE" type="BEFORE" />
+<TLINK id="TL86" fromID="E61" fromText="likely causes" toID="E59" toText="PE" type="BEFORE" />
+<TLINK id="TL88" fromID="E64" fromText="known clotting disorder" toID="E60" toText="other risk factors" type="OVERLAP" />
+<TLINK id="TL89" fromID="E63" fromText="DVT from the left leg" toID="E62" toText="his embolus" type="BEFORE" />
+<TLINK id="TL9" fromID="E3" fromText="Chelseahospital" toID="E2" toText="presented" type="AFTER" />
+<TLINK id="TL91" fromID="E67" fromText="stasis" toID="E66" toText="immobility" type="OVERLAP" />
+<TLINK id="TL92" fromID="E68" fromText="hemodynmically stable" toID="E69" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL93" fromID="E72" fromText="hemodynamic instability" toID="E68" toText="hemodynmically stable" type="OVERLAP" />
+<TLINK id="TL94" fromID="E56" fromText="hemodynamic monitoring" toID="E68" toText="hemodynmically stable" type="BEFORE" />
+<TLINK id="TL95" fromID="E70" fromText="an oxygen requirement" toID="E71" toText="discharge" type="OVERLAP" />
+<TLINK id="TL96" fromID="E69" fromText="his hospitalization" toID="E71" toText="discharge" type="BEFORE" />
+<TLINK id="TL97" fromID="E123" fromText="discharge" toID="E71" toText="discharge" type="OVERLAP" />
+<TLINK id="TL98" fromID="E79" fromText="an outpatient thrombophilia work-up" toID="E71" toText="discharge" type="AFTER" />
+<TLINK id="TL99" fromID="E73" fromText="lysis" toID="E72" toText="hemodynamic instability" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2019-01-09" type="ADMISSION" dvalue="2019-01-09" />
+<SECTIME id="S1" start="46" end="56" text="2019-01-15" type="DISCHARGE" dvalue="2019-01-15" />
+<TLINK id="SECTIME0" fromID="E38" fromText="inflammation of his L calf / leg" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E39" fromText="presentation" toID="T0" toText="2019-01-09" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E40" fromText="denied" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E41" fromText="CP" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E42" fromText="chest discomfort" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E43" fromText="difficulty breathing" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E44" fromText="cough" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E2" fromText="presented" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E45" fromText="hemoptysis" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E46" fromText="f/c/" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E47" fromText="sweats" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E48" fromText="denied" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E49" fromText="any bleeding or clotting disorders" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E50" fromText="a clot" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E3" fromText="Chelseahospital" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E54" fromText="admitted" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E55" fromText="anticoagulation" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E56" fromText="hemodynamic monitoring" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E57" fromText="saddle pulmonary embolus" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E58" fromText="left knee injury" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E59" fromText="PE" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E60" fromText="other risk factors" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E61" fromText="likely causes" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E4" fromText="a syncopal episode" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E62" fromText="his embolus" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E63" fromText="DVT from the left leg" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E64" fromText="known clotting disorder" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E65" fromText="trauma to leg" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E66" fromText="immobility" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E67" fromText="stasis" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E68" fromText="hemodynmically stable" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E70" fromText="an oxygen requirement" toID="T1" toText="2019-01-15" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E71" fromText="discharge" toID="T1" toText="2019-01-15" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E72" fromText="hemodynamic instability" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E73" fromText="lysis" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E74" fromText="anticoagulated" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E75" fromText="heparin" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E5" fromText="admission" toID="T0" toText="2019-01-09" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E76" fromText="coumadin" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E77" fromText="follow up" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME40" fromID="E78" fromText="hematology" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E79" fromText="an outpatient thrombophilia work-up" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME42" fromID="E80" fromText="acute management" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E81" fromText="PE" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E82" fromText="follow up" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME45" fromID="E83" fromText="his primary care provider" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E84" fromText="coumadin management" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E85" fromText="his coumadin therapy" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E86" fromText="hematology" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME49" fromID="E87" fromText="Syncope" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E88" fromText="PE" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E89" fromText="his cardiac workup" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E90" fromText="negative" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E91" fromText="a small troponin leak" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E92" fromText="right heart strain" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E6" fromText="lightheaded" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E93" fromText="P-pulmonale" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E94" fromText="clot burden" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E95" fromText="His tronponin" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E96" fromText="trended down" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E97" fromText="EKG" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E98" fromText="evidence" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E7" fromText="faint" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E99" fromText="ischemia" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E100" fromText="An ECHO" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E101" fromText="reveal" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E102" fromText="any wall motion abnormalities" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E103" fromText="ischemia" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E104" fromText="Hematocrit" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E105" fromText="Dropped" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E8" fromText="immediately fell to the kitchen floor" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E106" fromText="anticoagulation" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E107" fromText="saddle PE" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E108" fromText="IV fluids" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E109" fromText="active bleeding" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E110" fromText="noted" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E111" fromText="asymptomatic" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E112" fromText="L knee injury" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E113" fromText="physical exam" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E114" fromText="presented" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E115" fromText="an injury" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E116" fromText="meniscal tear" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E117" fromText="therapy" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E118" fromText="promote mobility" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E119" fromText="an MRI of the knee" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E120" fromText="seen by physical therapy" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E121" fromText="follow up" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME87" fromID="E122" fromText="orthopaedics" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME88" fromID="E123" fromText="discharge" toID="T1" toText="2019-01-15" type="OVERLAP" />
+<TLINK id="SECTIME89" fromID="E124" fromText="repeat evaluation" toID="T1" toText="2019-01-15" type="AFTER" />
+<TLINK id="SECTIME90" fromID="E125" fromText="FULL CODE" toID="T1" toText="2019-01-15" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E52" fromText="denies" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E53" fromText="LOC" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E10" fromText="very short of breath" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E11" fromText="lightheaded" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E12" fromText="called 911" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E13" fromText="Springfield" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E14" fromText="CT chest" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E15" fromText="saddle PE" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E16" fromText="VS" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E17" fromText="stable BPs" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E18" fromText="tachy" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E19" fromText="sat" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E20" fromText="Lovenox" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E21" fromText="transport" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E22" fromText="transferred" toID="T0" toText="2019-01-09" type="AFTER" />
+<TLINK id="SECTIME106" fromID="E23" fromText="Arbour Hospital" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E24" fromText="further care" toID="T0" toText="2019-01-09" type="AFTER" />
+<TLINK id="SECTIME108" fromID="E25" fromText="states" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E26" fromText="presentation" toID="T0" toText="2019-01-09" type="OVERLAP" />
+<TLINK id="SECTIME110" fromID="E27" fromText="hurt his left knee" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E28" fromText="stood up" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E30" fromText="heard his knee" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E31" fromText="CMED CCU" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E32" fromText="from sitting to standing" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E33" fromText="heard his knee" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E34" fromText="CMED CCU" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E35" fromText="essentially bed bound" toID="T0" toText="2019-01-09" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E36" fromText="admission" toID="T0" toText="2019-01-09" type="OVERLAP" />
+<TLINK id="SECTIME119" fromID="E37" fromText="unable to ambulate" toID="T0" toText="2019-01-09" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

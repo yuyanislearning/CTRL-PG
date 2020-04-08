@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+9/14/93
+DISCHARGE DATE :
+9/15/93
+HISTORY OF PRESENT ILLNESS :
+Patient is a 49 year old previously healthy female , who was diagnosed in June , 1992 , with a breast carcinoma , after she presented with some breast discomfort on the left side .
+She underwent a wide resection of a left breast mass by Dr. Ausguall on 8/17/93 .
+Pathology of this resection revealed a Grade III / III infiltrating ductal carcinoma .
+She now presents for left axillary node dissection , to complete her staging .
+She has no complaints at the time of presentation .
+REVIEW OF SYSTEMS :
+noncontributory , her last menstrual period was regular , and last week .
+MEDICATIONS ON ADMISSION :
+:w
+:q
+none .
+HOSPITAL COURSE :
+The patient was admitted on 9/14/93 , and underwent on that same day , a left axillary lymph nodes dissection , by Dr. Ausguall .
+The patient tolerated the procedure well , there were no complications .
+Postoperative course was unremarkable .
+The patient was discharged home on 9/15/93 .
+At that time her JP was still in place .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1014" end="1020" text="her JP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="116" end="130" text="healthy female" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="141" end="150" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="173" end="191" text="a breast carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="204" end="213" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="219" end="258" text="some breast discomfort on the left side" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="275" end="291" text="a wide resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="295" end="313" text="a left breast mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="343" end="352" text="Pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="356" end="370" text="this resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="371" end="379" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="380" end="427" text="a Grade III / III infiltrating ductal carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="438" end="446" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="451" end="480" text="left axillary node dissection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="486" end="506" text="complete her staging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="520" end="530" text="complaints" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E22" start="546" end="558" text="presentation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="599" end="624" text="her last menstrual period" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="729" end="737" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="784" end="822" text="a left axillary lymph nodes dissection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="855" end="864" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="865" end="878" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="879" end="883" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="900" end="913" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="916" end="936" text="Postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="941" end="953" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="972" end="982" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T3" start="154" end="165" text="June , 1992" type="DATE" val="1992-06" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="9/14/93" type="DATE" val="1993-09-14" mod="NA" />
+<TIMEX3 id="T4" start="333" end="340" text="8/17/93" type="DATE" val="1993-08-17" mod="NA" />
+<TIMEX3 id="T2" start="43" end="50" text="9/15/93" type="DATE" val="1993-09-15" mod="NA" />
+<TIMEX3 id="T5" start="648" end="652" text="week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T1" start="741" end="748" text="9/14/93" type="DATE" val="1993-09-14" mod="NA" />
+<TIMEX3 id="T6" start="773" end="781" text="same day" type="DATE" val="1993-09-14" mod="NA" />
+<TIMEX3 id="T7" start="991" end="998" text="9/15/93" type="DATE" val="1993-09-15" mod="NA" />
+<TLINK id="TL0" fromID="E11" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="a wide resection" toID="E4" toText="this resection" type="OVERLAP" />
+<TLINK id="TL10" fromID="E12" fromText="discharged" toID="T7" toText="9/15/93" type="OVERLAP" />
+<TLINK id="TL11" fromID="T3" fromText="June , 1992" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL12" fromID="E8" fromText="diagnosed" toID="T3" toText="June , 1992" type="OVERLAP" />
+<TLINK id="TL13" fromID="E14" fromText="healthy female" toID="E8" toText="diagnosed" type="BEFORE" />
+<TLINK id="TL14" fromID="E15" fromText="a breast carcinoma" toID="E8" toText="diagnosed" type="BEFORE" />
+<TLINK id="TL16" fromID="E8" fromText="diagnosed" toID="E16" toText="presented" type="AFTER" />
+<TLINK id="TL17" fromID="E1" fromText="some breast discomfort on the left side" toID="E16" toText="presented" type="BEFORE" />
+<TLINK id="TL18" fromID="T4" fromText="8/17/93" toID="T3" toText="June , 1992" type="AFTER" />
+<TLINK id="TL19" fromID="T4" fromText="8/17/93" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL2" fromID="E5" fromText="a left axillary lymph nodes dissection" toID="E6" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL20" fromID="E17" fromText="a left breast mass" toID="E2" toText="a wide resection" type="BEFORE" />
+<TLINK id="TL21" fromID="E2" fromText="a wide resection" toID="T4" toText="8/17/93" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="a left breast mass" toID="E15" toText="a breast carcinoma" type="OVERLAP" />
+<TLINK id="TL23" fromID="E4" fromText="this resection" toID="E2" toText="a wide resection" type="OVERLAP" />
+<TLINK id="TL24" fromID="E3" fromText="Pathology" toID="E4" toText="this resection" type="OVERLAP" />
+<TLINK id="TL25" fromID="E9" fromText="revealed" toID="E3" toText="Pathology" type="OVERLAP" />
+<TLINK id="TL26" fromID="E18" fromText="a Grade III / III infiltrating ductal carcinoma" toID="E9" toText="revealed" type="BEFORE" />
+<TLINK id="TL27" fromID="E18" fromText="a Grade III / III infiltrating ductal carcinoma" toID="E17" toText="a left breast mass" type="OVERLAP" />
+<TLINK id="TL28" fromID="E19" fromText="presents" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL29" fromID="E20" fromText="left axillary node dissection" toID="E19" toText="presents" type="AFTER" />
+<TLINK id="TL3" fromID="E11" fromText="admitted" toID="T1" toText="9/14/93" type="OVERLAP" />
+<TLINK id="TL30" fromID="E21" fromText="complete her staging" toID="E20" toText="left axillary node dissection" type="OVERLAP" />
+<TLINK id="TL32" fromID="E22" fromText="presentation" toID="E19" toText="presents" type="OVERLAP" />
+<TLINK id="TL33" fromID="E10" fromText="complaints" toID="E22" toText="presentation" type="OVERLAP" />
+<TLINK id="TL34" fromID="E23" fromText="her last menstrual period" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL35" fromID="E23" fromText="her last menstrual period" toID="T5" toText="week" type="OVERLAP" />
+<TLINK id="TL38" fromID="T6" fromText="same day" toID="T1" toText="9/14/93" type="OVERLAP" />
+<TLINK id="TL39" fromID="E5" fromText="a left axillary lymph nodes dissection" toID="T6" toText="same day" type="OVERLAP" />
+<TLINK id="TL4" fromID="E7" fromText="complications" toID="E6" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL40" fromID="E5" fromText="a left axillary lymph nodes dissection" toID="E20" toText="left axillary node dissection" type="OVERLAP" />
+<TLINK id="TL41" fromID="E6" fromText="the procedure" toID="E5" toText="a left axillary lymph nodes dissection" type="OVERLAP" />
+<TLINK id="TL42" fromID="E24" fromText="tolerated" toID="E25" toText="well" type="OVERLAP" />
+<TLINK id="TL43" fromID="E24" fromText="tolerated" toID="E6" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL44" fromID="E7" fromText="complications" toID="E25" toText="well" type="OVERLAP" />
+<TLINK id="TL45" fromID="E26" fromText="Postoperative course" toID="E6" toText="the procedure" type="AFTER" />
+<TLINK id="TL46" fromID="E27" fromText="unremarkable" toID="E26" toText="Postoperative course" type="OVERLAP" />
+<TLINK id="TL47" fromID="E28" fromText="her JP" toID="E12" toText="discharged" type="BEFORE" />
+<TLINK id="TL5" fromID="E20" fromText="left axillary node dissection" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL6" fromID="E0" fromText="ADMISSION" toID="T0" toText="9/14/93" type="OVERLAP" />
+<TLINK id="TL8" fromID="E13" fromText="DISCHARGE" toID="T2" toText="9/15/93" type="OVERLAP" />
+<TLINK id="TL9" fromID="E12" fromText="discharged" toID="E13" toText="DISCHARGE" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="25" text="9/14/93" type="ADMISSION" dvalue="1993-9-14" />
+<SECTIME id="S1" start="43" end="50" text="9/15/93" type="DISCHARGE" dvalue="1993-9-15" />
+<TLINK id="SECTIME0" fromID="E28" fromText="her JP" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E14" fromText="healthy female" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E8" fromText="diagnosed" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E15" fromText="a breast carcinoma" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E16" fromText="presented" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E1" fromText="some breast discomfort on the left side" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E2" fromText="a wide resection" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E17" fromText="a left breast mass" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E3" fromText="Pathology" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E4" fromText="this resection" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E9" fromText="revealed" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E18" fromText="a Grade III / III infiltrating ductal carcinoma" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E19" fromText="presents" toID="T0" toText="9/14/93" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E20" fromText="left axillary node dissection" toID="T0" toText="9/14/93" type="AFTER" />
+<TLINK id="SECTIME14" fromID="E21" fromText="complete her staging" toID="T0" toText="9/14/93" type="AFTER" />
+<TLINK id="SECTIME15" fromID="E10" fromText="complaints" toID="T0" toText="9/14/93" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E22" fromText="presentation" toID="T0" toText="9/14/93" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E23" fromText="her last menstrual period" toID="T0" toText="9/14/93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E11" fromText="admitted" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E5" fromText="a left axillary lymph nodes dissection" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E24" fromText="tolerated" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E6" fromText="the procedure" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E25" fromText="well" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E7" fromText="complications" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E26" fromText="Postoperative course" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E27" fromText="unremarkable" toID="T2" toText="9/15/93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E12" fromText="discharged" toID="T2" toText="9/15/93" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

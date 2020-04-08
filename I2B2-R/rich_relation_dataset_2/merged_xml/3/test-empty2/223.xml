@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-09-27
+Discharge Date :
+2019-10-07
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+60 yo M with exertional angina -> positive ETT -> cath with severe 3VD
+Brief Hospital Course :
+He was taken to the operating room on 2019-10-01 where he underwent a CABG x 3 .
+He was transferred to the CMED CCU in critical but stable condition .
+He was extubated by POD #1 .
+He was weaned from his vasoactive drips and transferred to the floor on POD #2 .
+He was seen by speech and swallowing who recommended NPO , he then underwent a video swallow after which he was changed to a diet of thin liquids and soft solids , and felt that his eeating may be limited by his loose teeth .
+Dentistry and OMFS were consulted , and he had four front teeth removed on 10-04 .
+He did well post operatively and he was ready for discharge on 2019-10-07 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="124" end="141" text="exertional angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="145" end="157" text="positive ETT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="161" end="165" text="cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="171" end="181" text="severe 3VD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="222" end="240" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="274" end="280" text="a CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="294" end="305" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="309" end="321" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="325" end="354" text="critical but stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="364" end="373" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="393" end="399" text="weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="405" end="425" text="his vasoactive drips" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="430" end="441" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="445" end="454" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="520" end="523" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="544" end="559" text="a video swallow" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="590" end="628" text="a diet of thin liquids and soft solids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="645" end="671" text="his eeating may be limited" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="675" end="690" text="his loose teeth" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="717" end="726" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="745" end="764" text="front teeth removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="779" end="787" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="826" end="835" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-09-27" type="DATE" val="2019-09-27" mod="NA" />
+<TIMEX3 id="T2" start="244" end="254" text="2019-10-01" type="DATE" val="2019-10-01" mod="NA" />
+<TIMEX3 id="T3" start="281" end="284" text="x 3" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T4" start="377" end="383" text="POD #1" type="DATE" val="2019-10-02" mod="NA" />
+<TIMEX3 id="T5" start="458" end="464" text="POD #2" type="DATE" val="2019-10-03" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-10-07" type="DATE" val="2019-10-07" mod="NA" />
+<TIMEX3 id="T6" start="768" end="773" text="10-04" type="DATE" val="2019-10-04" mod="NA" />
+<TIMEX3 id="T7" start="839" end="849" text="2019-10-07" type="DATE" val="2019-10-07" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2019-09-27" type="ADMISSION" dvalue="2019-09-27" />
+<SECTIME id="S1" start="46" end="56" text="2019-10-07" type="DISCHARGE" dvalue="2019-10-07" />
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

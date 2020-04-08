@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+11-03-93
+DISCHARGE DATE :
+11-06-93
+HISTORY OF PRESENT ILLNESS :
+This 68-year-old patient of Dr. Naka Jesc had two episodes of rheumatic fever as a teenager .
+She has had chronic atrial fibrillation .
+Coumadin has caused bleeding from the mouth and nose on two occasions , on one occasion with prothrombin time 13 , and has been replaced by anti-platelet agents .
+She has had recurrent syncope since age 6 .
+She has now had progressive heart failure .
+A Holter showed atrial fibrillation with period of ventricular bigemini .
+She cut down dramatically on smoking two years ago , but has continued to smoke , although , very recently , she admits to only &quot; two puffs &quot; per day .
+She has not had hypertension or diabetes , and says he has lowered her cholesterol from 333 to 197 by changing her diet .
+There is no family history of heart disease .
+She has been treated with Vanceril for chronic obstructive pulmonary disease .
+She has had one gram per day proteinuria with normal creatinine .
+She had a partial gastrectomy in 1972 for a &quot; tumor &quot; .
+She has had an appendectomy and cholecystectomy .
+MEDICATIONS ON ADMISSION :
+Digoxin 0.125 mg po q.d. , Lasix 40 mg b.i.d. , aspirin held , and Vanceril three puffs b.i.d.
+ALLERGIES :
+Transdermal nitroglycerin caused headache .
+SOCIAL HISTORY :
+She does not drink .
+HOSPITAL COURSE :
+Cardiac catheterization was performed without complication from the right neck and right groin on the day of admission .
+Right atrial pressure was 12 with a wave form consistent with tricuspid regurgitation .
+There was no tricuspid valve gradient .
+Pulmonary artery pressure was markedly elevated at 120/60 .
+Pulmonary capillary wedge pressure was markedly elevated at 38 , with a very large mitral valve gradient .
+There was little or no aortic valve gradient .
+Fich cardiac output was 3.0 and indexed 2.0 .
+Arterial oxygen saturation was 85 percent .
+There was minimal mitral valve calcification , normal left ventricular contraction , and 2+ mitral regurgitation into a large left atrium .
+There was minimal aortic valve calcification , mild ______________ thickening , normal open , and mild aortic regurgitation .
+There was mild atherosclerosis of the mid left anterior descending .
+FVC was 1.6 or 58 percent of predicted and FEV1 0.95 or 45 percent of predicted .
+Room air arterial blood gas was 56/40/7.45 .
+Because it would be ideal to place a mechanical valve if valve replacement rather that commissurotomy is needed , she was seen by Dr. Ca Shuff of ENT for her history of epistaxis .
+He identified no bleeding source , but felt that the risk of nasal hemorrhage on Coumadin could be minimized interventional neuroradiology occlusion of the arteries to the nose bilaterally .
+The patient was therefore referred to the Dr. A Eu Wave .
+The procedure could not be scheduled during this admission .
+The patient is , therefore , discharged after a three day hospitalization , with plans for re-admission for the neuroradiology procedure .
+This will be followed by a trial of Coumadin , and then by mitral commissurotomy or replacement and probable tricuspid annuloplasty by Dr. Riemund C. Wave .
+In the meantime , Lasix dosage is increased .
+Potassium replacement has caused , according to the patient , marked hyperkalemia in the past .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1026" end="1047" text="a partial gastrectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1060" end="1081" text="a &quot; tumor &quot;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1096" end="1111" text="an appendectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1116" end="1131" text="cholecystectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1161" end="1168" text="Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1188" end="1193" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1209" end="1216" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1228" end="1236" text="Vanceril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1268" end="1293" text="Transdermal nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1301" end="1309" text="headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1342" end="1347" text="drink" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E38" start="1368" end="1391" text="Cardiac catheterization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1414" end="1426" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="144" end="159" text="rheumatic fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1477" end="1486" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1489" end="1510" text="Right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1551" end="1574" text="tricuspid regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1590" end="1614" text="tricuspid valve gradient" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1617" end="1642" text="Pulmonary artery pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1647" end="1664" text="markedly elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1677" end="1711" text="Pulmonary capillary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1716" end="1733" text="markedly elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1747" end="1781" text="a very large mitral valve gradient" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1807" end="1828" text="aortic valve gradient" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1831" end="1850" text="Fich cardiac output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="188" end="215" text="chronic atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1877" end="1903" text="Arterial oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1931" end="1965" text="minimal mitral valve calcification" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1968" end="2003" text="normal left ventricular contraction" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="2010" end="2058" text="2+ mitral regurgitation into a large left atrium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2071" end="2105" text="minimal aortic valve calcification" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2108" end="2138" text="mild ______________ thickening" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2141" end="2152" text="normal open" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2159" end="2184" text="mild aortic regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="218" end="226" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="2197" end="2253" text="mild atherosclerosis of the mid left anterior descending" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2256" end="2259" text="FVC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="2299" end="2303" text="FEV1" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2338" end="2365" text="Room air arterial blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="238" end="270" text="bleeding from the mouth and nose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2418" end="2436" text="a mechanical valve" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2440" end="2457" text="valve replacement" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="2470" end="2484" text="commissurotomy" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2505" end="2509" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2552" end="2561" text="epistaxis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2581" end="2596" text="bleeding source" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E69" start="2625" end="2641" text="nasal hemorrhage" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2645" end="2653" text="Coumadin" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2673" end="2712" text="interventional neuroradiology occlusion" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2781" end="2789" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2813" end="2826" text="The procedure" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2857" end="2871" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2903" end="2913" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2932" end="2947" text="hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2965" end="2977" text="re-admission" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2982" end="3010" text="the neuroradiology procedure" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="3049" end="3057" text="Coumadin" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="3072" end="3093" text="mitral commissurotomy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="3097" end="3108" text="replacement" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="311" end="327" text="prothrombin time" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="3122" end="3144" text="tricuspid annuloplasty" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="3188" end="3193" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="3204" end="3213" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="3216" end="3237" text="Potassium replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="3278" end="3297" text="marked hyperkalemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="358" end="378" text="anti-platelet agents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="393" end="410" text="recurrent syncope" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="441" end="466" text="progressive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="469" end="477" text="A Holter" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="478" end="484" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="485" end="504" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="520" end="540" text="ventricular bigemini" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="547" end="555" text="cut down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="572" end="579" text="smoking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="617" end="622" text="smoke" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="678" end="687" text="two puffs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="721" end="733" text="hypertension" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="737" end="745" text="diabetes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="764" end="787" text="lowered her cholesterol" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="807" end="824" text="changing her diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="857" end="870" text="heart disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="899" end="907" text="Vanceril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="912" end="949" text="chronic obstructive pulmonary disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="981" end="992" text="proteinuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="998" end="1015" text="normal creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T8" start="1051" end="1055" text="1972" type="DATE" val="1972" mod="NA" />
+<TIMEX3 id="T9" start="1181" end="1185" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T10" start="1200" end="1206" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T11" start="1249" end="1255" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T2" start="128" end="131" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T12" start="1466" end="1473" text="the day" type="DATE" val="1993-11-03" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="11-03-93" type="DATE" val="1993-11-03" mod="NA" />
+<TIMEX3 id="T3" start="274" end="277" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T13" start="2922" end="2931" text="three day" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T4" start="293" end="296" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T14" start="417" end="422" text="age 6" type="DATE" val="1931" mod="APPROX" />
+<TIMEX3 id="T1" start="44" end="52" text="11-06-93" type="DATE" val="1993-11-06" mod="NA" />
+<TIMEX3 id="T6" start="580" end="589" text="two years" type="DURATION" val="P2Y" mod="NA" />
+<TIMEX3 id="T7" start="695" end="702" text="per day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="11-03-93" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E18" fromText="hypertension" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL10" fromID="E4" fromText="Coumadin" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL100" fromID="E79" fromText="Coumadin" toID="E70" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL101" fromID="E80" fromText="mitral commissurotomy" toID="E79" toText="Coumadin" type="AFTER" />
+<TLINK id="TL102" fromID="E81" fromText="replacement" toID="E80" toText="mitral commissurotomy" type="OVERLAP" />
+<TLINK id="TL103" fromID="E81" fromText="replacement" toID="E82" toText="tricuspid annuloplasty" type="OVERLAP" />
+<TLINK id="TL104" fromID="E84" fromText="increased" toID="E75" toText="discharged" type="BEFORE" />
+<TLINK id="TL105" fromID="E83" fromText="Lasix" toID="E75" toText="discharged" type="BEFORE" />
+<TLINK id="TL106" fromID="E85" fromText="Potassium replacement" toID="E86" toText="marked hyperkalemia" type="OVERLAP" />
+<TLINK id="TL107" fromID="E85" fromText="Potassium replacement" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL12" fromID="T4" fromText="one" toID="E5" toText="bleeding from the mouth and nose" type="OVERLAP" />
+<TLINK id="TL13" fromID="E6" fromText="prothrombin time" toID="T4" toText="one" type="OVERLAP" />
+<TLINK id="TL14" fromID="E7" fromText="anti-platelet agents" toID="E6" toText="prothrombin time" type="AFTER" />
+<TLINK id="TL16" fromID="E8" fromText="recurrent syncope" toID="T14" toText="age 6" type="AFTER" />
+<TLINK id="TL17" fromID="E9" fromText="progressive heart failure" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL18" fromID="E13" fromText="ventricular bigemini" toID="E10" toText="A Holter" type="OVERLAP" />
+<TLINK id="TL19" fromID="E10" fromText="A Holter" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="11-06-93" type="OVERLAP" />
+<TLINK id="TL20" fromID="E10" fromText="A Holter" toID="E11" toText="showed" type="OVERLAP" />
+<TLINK id="TL23" fromID="E14" fromText="cut down" toID="T6" toText="two years" type="AFTER" />
+<TLINK id="TL24" fromID="E15" fromText="smoking" toID="T6" toText="two years" type="BEFORE" />
+<TLINK id="TL25" fromID="E15" fromText="smoking" toID="E16" toText="smoke" type="OVERLAP" />
+<TLINK id="TL26" fromID="E16" fromText="smoke" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL27" fromID="E16" fromText="smoke" toID="T7" toText="per day" type="OVERLAP" />
+<TLINK id="TL28" fromID="E17" fromText="two puffs" toID="T6" toText="two years" type="OVERLAP" />
+<TLINK id="TL29" fromID="E19" fromText="diabetes" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL3" fromID="T2" fromText="two" toID="E2" toText="rheumatic fever" type="OVERLAP" />
+<TLINK id="TL30" fromID="E20" fromText="lowered her cholesterol" toID="E21" toText="changing her diet" type="AFTER" />
+<TLINK id="TL31" fromID="E21" fromText="changing her diet" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL32" fromID="E22" fromText="heart disease" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL33" fromID="E24" fromText="chronic obstructive pulmonary disease" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL34" fromID="E23" fromText="Vanceril" toID="E24" toText="chronic obstructive pulmonary disease" type="OVERLAP" />
+<TLINK id="TL35" fromID="E25" fromText="proteinuria" toID="E26" toText="normal creatinine" type="OVERLAP" />
+<TLINK id="TL36" fromID="E25" fromText="proteinuria" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL37" fromID="E27" fromText="a partial gastrectomy" toID="T8" toText="1972" type="OVERLAP" />
+<TLINK id="TL38" fromID="E28" fromText="a &quot; tumor &quot;" toID="E27" toText="a partial gastrectomy" type="BEFORE" />
+<TLINK id="TL39" fromID="E29" fromText="an appendectomy" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL4" fromID="E2" fromText="rheumatic fever" toID="E3" toText="chronic atrial fibrillation" type="BEFORE" />
+<TLINK id="TL40" fromID="E30" fromText="cholecystectomy" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL41" fromID="E31" fromText="Digoxin" toID="T9" toText="q.d." type="OVERLAP" />
+<TLINK id="TL42" fromID="E31" fromText="Digoxin" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL43" fromID="E32" fromText="Lasix" toID="E83" toText="Lasix" type="OVERLAP" />
+<TLINK id="TL44" fromID="E32" fromText="Lasix" toID="T10" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL45" fromID="E32" fromText="Lasix" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL46" fromID="E33" fromText="aspirin" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL47" fromID="E34" fromText="Vanceril" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL48" fromID="E34" fromText="Vanceril" toID="T11" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL49" fromID="E35" fromText="Transdermal nitroglycerin" toID="E36" toText="headache" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="chronic atrial fibrillation" toID="E12" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL50" fromID="E35" fromText="Transdermal nitroglycerin" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL51" fromID="E37" fromText="drink" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL53" fromID="E38" fromText="Cardiac catheterization" toID="E39" toText="complication" type="OVERLAP" />
+<TLINK id="TL54" fromID="E38" fromText="Cardiac catheterization" toID="T12" toText="the day" type="OVERLAP" />
+<TLINK id="TL55" fromID="E38" fromText="Cardiac catheterization" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL56" fromID="E40" fromText="admission" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL57" fromID="E41" fromText="Right atrial pressure" toID="E38" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL58" fromID="E42" fromText="tricuspid regurgitation" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL59" fromID="E43" fromText="tricuspid valve gradient" toID="E41" toText="Right atrial pressure" type="OVERLAP" />
+<TLINK id="TL6" fromID="E3" fromText="chronic atrial fibrillation" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL61" fromID="E44" fromText="Pulmonary artery pressure" toID="E38" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL62" fromID="E45" fromText="markedly elevated" toID="E44" toText="Pulmonary artery pressure" type="BEFORE" />
+<TLINK id="TL63" fromID="E46" fromText="Pulmonary capillary wedge pressure" toID="E38" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL64" fromID="E47" fromText="markedly elevated" toID="E46" toText="Pulmonary capillary wedge pressure" type="BEFORE" />
+<TLINK id="TL65" fromID="E48" fromText="a very large mitral valve gradient" toID="E46" toText="Pulmonary capillary wedge pressure" type="OVERLAP" />
+<TLINK id="TL66" fromID="E49" fromText="aortic valve gradient" toID="E38" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL67" fromID="E50" fromText="Fich cardiac output" toID="E38" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL68" fromID="E51" fromText="Arterial oxygen saturation" toID="E38" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL69" fromID="E52" fromText="minimal mitral valve calcification" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL7" fromID="E4" fromText="Coumadin" toID="E5" toText="bleeding from the mouth and nose" type="OVERLAP" />
+<TLINK id="TL70" fromID="E53" fromText="normal left ventricular contraction" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL71" fromID="E54" fromText="2+ mitral regurgitation into a large left atrium" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL72" fromID="E55" fromText="minimal aortic valve calcification" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL73" fromID="E56" fromText="mild ______________ thickening" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL74" fromID="E57" fromText="normal open" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL75" fromID="E58" fromText="mild aortic regurgitation" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL76" fromID="E59" fromText="mild atherosclerosis of the mid left anterior descending" toID="E38" toText="Cardiac catheterization" type="BEFORE" />
+<TLINK id="TL77" fromID="E61" fromText="FEV1" toID="E60" toText="FVC" type="OVERLAP" />
+<TLINK id="TL78" fromID="E60" fromText="FVC" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL79" fromID="E62" fromText="Room air arterial blood gas" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL8" fromID="E7" fromText="anti-platelet agents" toID="E4" toText="Coumadin" type="AFTER" />
+<TLINK id="TL80" fromID="E63" fromText="a mechanical valve" toID="E64" toText="valve replacement" type="OVERLAP" />
+<TLINK id="TL81" fromID="E63" fromText="a mechanical valve" toID="E65" toText="commissurotomy" type="OVERLAP" />
+<TLINK id="TL82" fromID="E66" fromText="seen" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL83" fromID="E67" fromText="epistaxis" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL84" fromID="E68" fromText="bleeding source" toID="E67" toText="epistaxis" type="OVERLAP" />
+<TLINK id="TL85" fromID="E69" fromText="nasal hemorrhage" toID="E70" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL86" fromID="E64" fromText="valve replacement" toID="E75" toText="discharged" type="AFTER" />
+<TLINK id="TL87" fromID="E65" fromText="commissurotomy" toID="E80" toText="mitral commissurotomy" type="OVERLAP" />
+<TLINK id="TL88" fromID="E64" fromText="valve replacement" toID="E81" toText="replacement" type="OVERLAP" />
+<TLINK id="TL89" fromID="E71" fromText="interventional neuroradiology occlusion" toID="E73" toText="The procedure" type="OVERLAP" />
+<TLINK id="TL9" fromID="E5" fromText="bleeding from the mouth and nose" toID="T3" toText="two" type="OVERLAP" />
+<TLINK id="TL90" fromID="E71" fromText="interventional neuroradiology occlusion" toID="E70" toText="Coumadin" type="BEFORE" />
+<TLINK id="TL91" fromID="E72" fromText="referred" toID="E66" toText="seen" type="AFTER" />
+<TLINK id="TL92" fromID="T13" fromText="three day" toID="E75" toText="discharged" type="BEFORE" />
+<TLINK id="TL93" fromID="E75" fromText="discharged" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL94" fromID="E76" fromText="hospitalization" toID="T13" toText="three day" type="OVERLAP" />
+<TLINK id="TL95" fromID="T13" fromText="three day" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL96" fromID="E77" fromText="re-admission" toID="E75" toText="discharged" type="AFTER" />
+<TLINK id="TL97" fromID="E73" fromText="The procedure" toID="E78" toText="the neuroradiology procedure" type="OVERLAP" />
+<TLINK id="TL98" fromID="E77" fromText="re-admission" toID="E78" toText="the neuroradiology procedure" type="OVERLAP" />
+<TLINK id="TL99" fromID="E79" fromText="Coumadin" toID="E78" toText="the neuroradiology procedure" type="AFTER" />
+<SECTIME id="S0" start="18" end="26" text="11-03-93" type="ADMISSION" dvalue="1993-11-03" />
+<SECTIME id="S1" start="44" end="52" text="11-06-93" type="DISCHARGE" dvalue="1993-11-06" />
+<TLINK id="SECTIME0" fromID="E27" fromText="a partial gastrectomy" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E28" fromText="a &quot; tumor &quot;" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E29" fromText="an appendectomy" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E30" fromText="cholecystectomy" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E31" fromText="Digoxin" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E32" fromText="Lasix" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E33" fromText="aspirin" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E34" fromText="Vanceril" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E35" fromText="Transdermal nitroglycerin" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E36" fromText="headache" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E37" fromText="drink" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E38" fromText="Cardiac catheterization" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E39" fromText="complication" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E2" fromText="rheumatic fever" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E40" fromText="admission" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E41" fromText="Right atrial pressure" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E42" fromText="tricuspid regurgitation" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E43" fromText="tricuspid valve gradient" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E44" fromText="Pulmonary artery pressure" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E45" fromText="markedly elevated" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E46" fromText="Pulmonary capillary wedge pressure" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E47" fromText="markedly elevated" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E48" fromText="a very large mitral valve gradient" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E49" fromText="aortic valve gradient" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E50" fromText="Fich cardiac output" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E3" fromText="chronic atrial fibrillation" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E51" fromText="Arterial oxygen saturation" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E52" fromText="minimal mitral valve calcification" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E53" fromText="normal left ventricular contraction" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E54" fromText="2+ mitral regurgitation into a large left atrium" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E55" fromText="minimal aortic valve calcification" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E56" fromText="mild ______________ thickening" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E57" fromText="normal open" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E58" fromText="mild aortic regurgitation" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E4" fromText="Coumadin" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E59" fromText="mild atherosclerosis of the mid left anterior descending" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E60" fromText="FVC" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E61" fromText="FEV1" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E62" fromText="Room air arterial blood gas" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E5" fromText="bleeding from the mouth and nose" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E63" fromText="a mechanical valve" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E64" fromText="valve replacement" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME42" fromID="E65" fromText="commissurotomy" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME43" fromID="E66" fromText="seen" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E67" fromText="epistaxis" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E68" fromText="bleeding source" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E69" fromText="nasal hemorrhage" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E70" fromText="Coumadin" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E71" fromText="interventional neuroradiology occlusion" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME49" fromID="E72" fromText="referred" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E73" fromText="The procedure" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E74" fromText="this admission" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E75" fromText="discharged" toID="T1" toText="11-06-93" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E76" fromText="hospitalization" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E77" fromText="re-admission" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME55" fromID="E78" fromText="the neuroradiology procedure" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME56" fromID="E79" fromText="Coumadin" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME57" fromID="E80" fromText="mitral commissurotomy" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME58" fromID="E81" fromText="replacement" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME59" fromID="E6" fromText="prothrombin time" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E82" fromText="tricuspid annuloplasty" toID="T1" toText="11-06-93" type="AFTER" />
+<TLINK id="SECTIME61" fromID="E83" fromText="Lasix" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E84" fromText="increased" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E85" fromText="Potassium replacement" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E86" fromText="marked hyperkalemia" toID="T1" toText="11-06-93" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E7" fromText="anti-platelet agents" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E8" fromText="recurrent syncope" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E9" fromText="progressive heart failure" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E10" fromText="A Holter" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E11" fromText="showed" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E12" fromText="atrial fibrillation" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E13" fromText="ventricular bigemini" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E14" fromText="cut down" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E15" fromText="smoking" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E16" fromText="smoke" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E17" fromText="two puffs" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E18" fromText="hypertension" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E19" fromText="diabetes" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E20" fromText="lowered her cholesterol" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E21" fromText="changing her diet" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E22" fromText="heart disease" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E23" fromText="Vanceril" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E24" fromText="chronic obstructive pulmonary disease" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E25" fromText="proteinuria" toID="T0" toText="11-03-93" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E26" fromText="normal creatinine" toID="T0" toText="11-03-93" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+10/22/2000
+Discharge Date :
+11/17/2000
+HISTORY OF PRESENT ILLNESS :
+The patient is a 47-year-old man with advanced stage chronic lymphocytic leukemia who was admitted for autologous bone marrow transplant as per protocol 94-055 of the Santusli Hospital .
+The patient was originally diagnosed in 06/98 during a routine physical when he was noted to have a white blood cell count of 20,000 , weight loss , and swelling in his neck and groin .
+He was watched after his initial diagnosis , but six months later he developed rapidly increasing leukocytosis and he became more symptomatic .
+After treatment with three cycles of fludarabine he had 90% involvement of his intratrabecular space .
+He was therefore treated with three cycles of fludarabine in combination with cytoxan .
+After this therapy he achieved a protocol eligible minimal disease state .
+However , he did have relative pancytopenia following this therapy .
+He was taken to bone marrow harvest in 08/22 at which time insufficient cells were obtained to proceed .
+He was returned previous to this admission for repeat bone marrow harvest and at that time he was given Neupogen prior to his harvest , and sufficient cells were not obtained to proceed with autologous bone marrow transplantation .
+His most recent bone marrow biopsy revealed less than 5% of intratrabecular space involvement .
+Recent CT scan showed no significant lymphadenopathy .
+The spleen was within normal limits .
+HOSPITAL COURSE :
+1 ) Oncology :
+The patient was admitted on 10/22/00 and received cytoxan and total body irradiation per protocol .
+Autologous bone marrow infusion occurred on 10/29/00 and was uneventful .
+His post-transplant course was complicated by pain from mucositis and recalcitrant nausea and vomiting .
+The patient did not tolerate antiemetics well and it was subsequently decided to avoid phenothiazides secondary to jitteryness and restless legs .
+2 ) Infectious Disease :
+The patient remained afebrile until day +11 when he spiked and was started on ceftazidime .
+Blood cultures and urine cultures were all negative .
+3 ) Heme :
+The patient acquired intermittent transfusions for pancytopenia .
+4 ) FEN :
+The patient was unable to tolerate adequate p.o.&apos;s in the last several days .
+He was well nourished so TPN was not started .
+I &apos;s and O &apos;s were balanced and maintained with IV fluids .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1050" end="1058" text="returned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1071" end="1085" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1090" end="1116" text="repeat bone marrow harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1147" end="1155" text="Neupogen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1165" end="1176" text="his harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1183" end="1199" text="sufficient cells" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E1" start="124" end="167" text="advanced stage chronic lymphocytic leukemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1234" end="1272" text="autologous bone marrow transplantation" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1275" end="1309" text="His most recent bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1310" end="1318" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="1319" end="1368" text="less than 5% of intratrabecular space involvement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1371" end="1385" text="Recent CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1386" end="1392" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="1396" end="1423" text="significant lymphadenopathy" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1513" end="1521" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1547" end="1554" text="cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1559" end="1581" text="total body irradiation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1597" end="1628" text="Autologous bone marrow infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1717" end="1721" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1727" end="1736" text="mucositis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1741" end="1773" text="recalcitrant nausea and vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="176" end="184" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1796" end="1804" text="tolerate" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E54" start="1805" end="1816" text="antiemetics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1863" end="1877" text="phenothiazides" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E2" start="189" end="222" text="autologous bone marrow transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1891" end="1902" text="jitteryness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1907" end="1920" text="restless legs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1969" end="1977" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2000" end="2006" text="spiked" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2026" end="2037" text="ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2040" end="2054" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="2059" end="2073" text="urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2126" end="2151" text="intermittent transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2156" end="2168" text="pancytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2197" end="2236" text="unable to tolerate adequate p.o.&apos;s" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2289" end="2292" text="TPN" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E40" start="2311" end="2334" text="I &apos;s and O &apos;s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2369" end="2378" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="249" end="270" text="the Santusli Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="326" end="344" text="a routine physical" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="357" end="362" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="371" end="395" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="408" end="419" text="weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="426" end="456" text="swelling in his neck and groin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="480" end="501" text="his initial diagnosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="538" end="569" text="rapidly increasing leukocytosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="584" end="600" text="more symptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="609" end="618" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="640" end="651" text="fludarabine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="659" end="703" text="90% involvement of his intratrabecular space" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="752" end="763" text="fludarabine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="784" end="791" text="cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="800" end="812" text="this therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="825" end="866" text="a protocol eligible minimal disease state" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="891" end="912" text="relative pancytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="923" end="935" text="this therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="954" end="973" text="bone marrow harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="997" end="1015" text="insufficient cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T10" start="1124" end="1133" text="that time" type="DATE" val="2000-09" mod="APPROX" />
+<TIMEX3 id="T3" start="1525" end="1533" text="10/22/00" type="DATE" val="2000-10-22" mod="NA" />
+<TIMEX3 id="T4" start="1641" end="1649" text="10/29/00" type="DATE" val="2000-10-29" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="10/22/2000" type="DATE" val="2000-10-22" mod="NA" />
+<TIMEX3 id="T11" start="1984" end="1991" text="day +11" type="DATE" val="2000-11-02" mod="NA" />
+<TIMEX3 id="T12" start="2249" end="2261" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T0" start="313" end="318" text="06/98" type="DATE" val="1998-06" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="11/17/2000" type="DATE" val="2000-11-17" mod="NA" />
+<TIMEX3 id="T5" start="508" end="524" text="six months later" type="DATE" val="1998-12" mod="NA" />
+<TIMEX3 id="T6" start="624" end="636" text="three cycles" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T7" start="736" end="748" text="three cycles" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T8" start="977" end="982" text="08/22" type="DATE" val="2000-08-22" mod="NA" />
+<TIMEX3 id="T9" start="986" end="996" text="which time" type="DATE" val="2000-08-22" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="10/22/2000" type="ADMISSION" dvalue="2000-10-22" />
+<SECTIME id="S1" start="46" end="56" text="11/17/2000" type="DISCHARGE" dvalue="2000-11-17" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

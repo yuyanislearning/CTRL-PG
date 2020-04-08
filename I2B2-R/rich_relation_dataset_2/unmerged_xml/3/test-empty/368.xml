@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+01-11-92
+DISCHARGE DATE :
+01-22-92
+HISTORY OF PRESENT ILLNESS :
+Ms. Tikrhalt is an 86 year old female , previously healthy , who presents with a 3 month history of dysphagia .
+A subsequent workup including upper gastrointestinal series and abdominal computerized tomography scan suggested the presence of a gastric mass .
+Endoscopy with biopsy revealed gastric carcinoma , poorly differentiated , within the body of the stomach along the greater curvature .
+She was subsequently referred to Dr. Ko for a possible resection of this carcinoma .
+She reports a 10 pound weight loss over the past several months .
+She denies any abdominal pain .
+HOSPITAL COURSE :
+The patient was admitted to the Service of Dr. Fede A. Duhenile .
+On 1/12/92 she was taken to the operating room where she underwent a neart total gastrectomy with a retrocolic Bill-Roth II gastrojejunostomy reconstruction .
+In addition a small ventral hernia was noted upon abdominal exploration within a previous surgical incision .
+This was repaired .
+A needle jejunostomy catheter was placed at the time of her operation to facilitate postoperative nutrition .
+With regards to the cancer , there was a large mass along the greater curvature in the body of the stomach , and several perigastric lymph nodes which were taken with the specimen .
+In addition , there were at least two lymph nodes within the porta hepatis which were dissected free and taken en bloc with the specimen .
+The remainder of her abdomen was unremarkable without evidence of metastatic spread elsewhere , including the liver .
+The patient tolerated the procedure well and was taken to the recovery room in good condition .
+The patient 's postoperative course was for the most part unremarkable .
+Her wounds healed well without incident and the needle jejunostomy tube was utilized on the first postoperative day right up until the time of discharge , infusing Vivonex T.E.N.
+The patient tolerated this without difficulty .
+The patient 's nasogastric tube was removed on the 3rd postoperative day , and with the passage of flatus and good bowel sounds noted , she was started on a liquid diet which was advanced slowly .
+She was seen by the dietician and was advised with regard to needing numerous small meals during the day rather than 3 larger meals as she previously was used to .
+Her ambulation and mobilization increased gradually and by the time of discharge she was walking in the halls without assistance .
+As mentioned , her wounds healed well without incident and the staples were removed on the 10th postoperative day just prior to discharge .
+She had some difficulties with confusion in the early postoperative period which were attributable to her advanced age and a sundowning effect .
+These problems resolved by the 4th or 5th postoperative day and she remained lucid and alert for the remainder of her hospital stay .
+Surgical pathology report was completed prior to discharge which revealed poorly differentiated adenocarcinoma ulcerating and extending through the wall into the serosa of the stomach .
+Metastatic carcinoma was present in 3 of 3 lymph nodes .
+The gastric resection margins were free of carcinoma .
+The patient was set for discharge on the 11th postoperative day doing well .
+On the day prior to discharge she complained of some dysuria , a urine specimen was obtained , which showed numerous white cells consistent with a urinary tract infection .
+She was started empirically on Bactrim , while culture and sensitivity results were pending and remained pending at the time of this dictation .
+She will be discharged to home and will be seen in follow-up by her regular physicians as well as Dr. Ko .
+]]></TEXT>
+<TAGS>
+<EVENT id="E98" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1012" end="1016" text="This" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1021" end="1029" text="repaired" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="1041" end="1061" text="jejunostomy catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1088" end="1101" text="her operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1116" end="1139" text="postoperative nutrition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1158" end="1168" text="the cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="1181" end="1193" text="a large mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1263" end="1286" text="perigastric lymph nodes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1309" end="1321" text="the specimen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="133" end="140" text="healthy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1410" end="1424" text="dissected free" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1448" end="1460" text="the specimen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="147" end="155" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1496" end="1508" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="1529" end="1546" text="metastatic spread" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E43" start="1593" end="1602" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1603" end="1616" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1639" end="1656" text="the recovery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1660" end="1674" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1692" end="1712" text="postoperative course" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1735" end="1747" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1750" end="1760" text="Her wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1761" end="1767" text="healed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1781" end="1789" text="incident" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E52" start="1794" end="1821" text="the needle jejunostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="182" end="191" text="dysphagia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1893" end="1902" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1914" end="1928" text="Vivonex T.E.N." modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="194" end="213" text="A subsequent workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1941" end="1950" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1951" end="1955" text="this" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1964" end="1974" text="difficulty" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E116" start="1992" end="2008" text="nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="2061" end="2082" text="the passage of flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="2092" end="2104" text="bowel sounds" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2132" end="2145" text="a liquid diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="224" end="253" text="upper gastrointestinal series" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2243" end="2263" text="numerous small meals" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2338" end="2352" text="Her ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2357" end="2369" text="mobilization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2370" end="2379" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2409" end="2418" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2427" end="2434" text="walking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2456" end="2466" text="assistance" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E69" start="2484" end="2494" text="her wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2495" end="2501" text="healed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2515" end="2523" text="incident" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E72" start="2528" end="2539" text="the staples" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="258" end="296" text="abdominal computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2597" end="2606" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2640" end="2649" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2732" end="2751" text="a sundowning effect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2754" end="2768" text="These problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2831" end="2836" text="lucid" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2841" end="2846" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2868" end="2885" text="her hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2888" end="2913" text="Surgical pathology report" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2937" end="2946" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2962" end="2998" text="poorly differentiated adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2999" end="3009" text="ulcerating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="3014" end="3023" text="extending" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E85" start="3074" end="3094" text="Metastatic carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="3174" end="3183" text="carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="3210" end="3219" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="323" end="337" text="a gastric mass" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="3311" end="3323" text="some dysuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="3326" end="3342" text="a urine specimen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="3371" end="3391" text="numerous white cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="340" end="349" text="Endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="3408" end="3433" text="a urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="3467" end="3474" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="3483" end="3490" text="culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="3495" end="3506" text="sensitivity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="3520" end="3527" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="355" end="361" text="biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="3593" end="3611" text="discharged to home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="3632" end="3641" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="371" end="388" text="gastric carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="497" end="505" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="531" end="540" text="resection" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="544" end="558" text="this carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="565" end="572" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="573" end="595" text="a 10 pound weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="631" end="637" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="638" end="656" text="any abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="693" end="701" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="771" end="789" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="810" end="835" text="a neart total gastrectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="841" end="899" text="a retrocolic Bill-Roth II gastrojejunostomy reconstruction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="914" end="936" text="a small ventral hernia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="952" end="973" text="abdominal exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="981" end="1009" text="a previous surgical incision" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T2" start="163" end="170" text="3 month" type="DURATION" val="P3M" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="01-11-92" type="DATE" val="1992-01-11" mod="NA" />
+<TIMEX3 id="T6" start="1838" end="1865" text="the first postoperative day" type="DATE" val="1992-01-12" mod="NA" />
+<TIMEX3 id="T7" start="1881" end="1889" text="the time" type="DATE" val="1992-01-22" mod="NA" />
+<TIMEX3 id="T9" start="2024" end="2049" text="the 3rd postoperative day" type="DATE" val="1992-01-14" mod="NA" />
+<TIMEX3 id="T10" start="2556" end="2582" text="the 10th postoperative day" type="DATE" val="1992-01-21" mod="NA" />
+<TIMEX3 id="T11" start="2653" end="2683" text="the early postoperative period" type="DURATION" val="P4D" mod="APPROX" />
+<TIMEX3 id="T14" start="2781" end="2813" text="the 4th or 5th postoperative day" type="DATE" val="1992-01-17" mod="APPROX" />
+<TIMEX3 id="T12" start="3223" end="3249" text="the 11th postoperative day" type="DATE" val="1992-01-22" mod="NA" />
+<TIMEX3 id="T13" start="3266" end="3292" text="the day prior to discharge" type="DATE" val="1992-01-21" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="01-22-92" type="DATE" val="1992-01-22" mod="NA" />
+<TIMEX3 id="T3" start="601" end="624" text="the past several months" type="DURATION" val="P5M" mod="APPROX" />
+<TIMEX3 id="T4" start="746" end="753" text="1/12/92" type="DATE" val="1992-01-12" mod="NA" />
+<SECTIME id="S0" start="18" end="26" text="01-11-92" type="ADMISSION" dvalue="1992-01-11" />
+<SECTIME id="S1" start="44" end="52" text="01-22-92" type="DISCHARGE" dvalue="1992-01-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

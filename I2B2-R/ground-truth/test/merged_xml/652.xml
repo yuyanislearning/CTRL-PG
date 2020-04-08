@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-01-03
+Discharge Date :
+2013-01-09
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+This is a 58 - year-old woman who was transferred from Shaugnessy-Kaplan Rehab Hospital Hospital for cardiac catheterization .
+The patient had a long history of hypertension , hypercholesterolemia , tobacco abuse , and family history of coronary artery disease , who was in the usual state of health until Saturday previous to admission when she experienced bilateral arm and chest discomfort while carrying groceries .
+Her symptoms resolved with rest .
+The same symptoms occurred again the same evening with exertion and then were again relieved with rest .
+The patient presented to the outside hospital Emergency Room where she was started on Aspirin , Lovenox and beta blocker .
+She ruled out for myocardial infarction by CPK and troponin and had non diagnostic EKG changes .
+She is being transferred to Arbour-Fuller Hospital for cardiac catheterization .
+Results of the catheterization indicated the patient had three vessel disease and was a candidate for coronary artery bypass graft .
+The patient went to the operating room , was admitted to go to the operating room on 2013-01-04 .
+Her risk factors : Hypertension , tobacco abuse ( one pack per day times 45 years ), family history ( father diagnosed with coronary artery disease in his 50 's, patient 's mother had coronary artery disease , patient 's brother has coronary artery disease ).
+Hypercholesterolemia ( total cholesterol on admission 300 's several years ago ).
+The patient denies any history of diabetes .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1042" end="1062" text="three vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1087" end="1115" text="coronary artery bypass graft" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1138" end="1156" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1163" end="1171" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1181" end="1199" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1235" end="1247" text="Hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1250" end="1263" text="tobacco abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1340" end="1363" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1400" end="1423" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1449" end="1472" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1476" end="1496" text="Hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1499" end="1516" text="total cholesterol" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1520" end="1529" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1570" end="1576" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1592" end="1600" text="diabetes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="163" end="174" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="180" end="221" text="Shaugnessy-Kaplan Rehab Hospital Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="226" end="249" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="286" end="298" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="301" end="321" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="324" end="337" text="tobacco abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="362" end="385" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="399" end="424" text="the usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="452" end="461" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="483" end="517" text="bilateral arm and chest discomfort" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="545" end="557" text="Her symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="572" end="576" text="rest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="579" end="596" text="The same symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="677" end="681" text="rest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="696" end="705" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="709" end="744" text="the outside hospital Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="770" end="777" text="Aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="780" end="787" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="792" end="804" text="beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="825" end="846" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="850" end="853" text="CPK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="858" end="866" text="troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="875" end="901" text="non diagnostic EKG changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="917" end="928" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="932" end="954" text="Arbour-Fuller Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="959" end="982" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="996" end="1015" text="the catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T4" start="1203" end="1213" text="2013-01-04" type="DATE" val="2013-01-04" mod="NA" />
+<TIMEX3 id="T5" start="1279" end="1282" text="day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T6" start="1289" end="1297" text="45 years" type="DURATION" val="P45Y" mod="NA" />
+<TIMEX3 id="T7" start="1537" end="1554" text="several years ago" type="DATE" val="2010-01-03" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-01-03" type="DATE" val="2013-01-03" mod="NA" />
+<TIMEX3 id="T2" start="431" end="439" text="Saturday" type="DATE" val="2012-12-29" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-01-09" type="DATE" val="2013-01-09" mod="NA" />
+<TIMEX3 id="T3" start="612" end="628" text="the same evening" type="DATE" val="2012-12-29" mod="END" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2013-01-09" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="coronary artery disease" toID="E7" toText="tobacco abuse" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="coronary artery disease" toID="E31" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL12" fromID="E8" fromText="coronary artery disease" toID="E34" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL13" fromID="E34" fromText="coronary artery disease" toID="E31" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL14" fromID="E9" fromText="the usual state of health" toID="T2" toText="Saturday" type="BEFORE" />
+<TLINK id="TL15" fromID="E11" fromText="bilateral arm and chest discomfort" toID="T2" toText="Saturday" type="AFTER" />
+<TLINK id="TL16" fromID="T2" fromText="Saturday" toID="E10" toText="admission" type="BEFORE" />
+<TLINK id="TL17" fromID="E14" fromText="The same symptoms" toID="E12" toText="Her symptoms" type="AFTER" />
+<TLINK id="TL18" fromID="E12" fromText="Her symptoms" toID="E13" toText="rest" type="BEFORE" />
+<TLINK id="TL19" fromID="E11" fromText="bilateral arm and chest discomfort" toID="E12" toText="Her symptoms" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="Shaugnessy-Kaplan Rehab Hospital Hospital" toID="E2" toText="transferred" type="BEFORE" />
+<TLINK id="TL20" fromID="E14" fromText="The same symptoms" toID="T3" toText="the same evening" type="AFTER" />
+<TLINK id="TL21" fromID="E14" fromText="The same symptoms" toID="E15" toText="rest" type="BEFORE" />
+<TLINK id="TL22" fromID="T2" fromText="Saturday" toID="T3" toText="the same evening" type="BEFORE" />
+<TLINK id="TL23" fromID="E16" fromText="presented" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL24" fromID="E17" fromText="the outside hospital Emergency Room" toID="E16" toText="presented" type="OVERLAP" />
+<TLINK id="TL25" fromID="E18" fromText="Aspirin" toID="E17" toText="the outside hospital Emergency Room" type="AFTER" />
+<TLINK id="TL26" fromID="E17" fromText="the outside hospital Emergency Room" toID="E25" toText="transferred" type="BEFORE" />
+<TLINK id="TL27" fromID="E21" fromText="myocardial infarction" toID="E17" toText="the outside hospital Emergency Room" type="OVERLAP" />
+<TLINK id="TL28" fromID="E18" fromText="Aspirin" toID="E19" toText="Lovenox" type="OVERLAP" />
+<TLINK id="TL29" fromID="E19" fromText="Lovenox" toID="E20" toText="beta blocker" type="OVERLAP" />
+<TLINK id="TL3" fromID="E4" fromText="cardiac catheterization" toID="E3" toText="Shaugnessy-Kaplan Rehab Hospital Hospital" type="AFTER" />
+<TLINK id="TL30" fromID="E19" fromText="Lovenox" toID="E17" toText="the outside hospital Emergency Room" type="AFTER" />
+<TLINK id="TL31" fromID="E20" fromText="beta blocker" toID="E17" toText="the outside hospital Emergency Room" type="AFTER" />
+<TLINK id="TL32" fromID="E24" fromText="non diagnostic EKG changes" toID="E21" toText="myocardial infarction" type="OVERLAP" />
+<TLINK id="TL33" fromID="E21" fromText="myocardial infarction" toID="E22" toText="CPK" type="OVERLAP" />
+<TLINK id="TL34" fromID="E23" fromText="troponin" toID="E21" toText="myocardial infarction" type="OVERLAP" />
+<TLINK id="TL35" fromID="E24" fromText="non diagnostic EKG changes" toID="E25" toText="transferred" type="BEFORE" />
+<TLINK id="TL36" fromID="E25" fromText="transferred" toID="E26" toText="Arbour-Fuller Hospital" type="OVERLAP" />
+<TLINK id="TL37" fromID="E26" fromText="Arbour-Fuller Hospital" toID="E27" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL38" fromID="E28" fromText="the catheterization" toID="E27" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL39" fromID="E41" fromText="the operating room" toID="E28" toText="the catheterization" type="AFTER" />
+<TLINK id="TL4" fromID="E4" fromText="cardiac catheterization" toID="E27" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL40" fromID="E29" fromText="three vessel disease" toID="E28" toText="the catheterization" type="BEFORE" />
+<TLINK id="TL41" fromID="E30" fromText="coronary artery bypass graft" toID="E28" toText="the catheterization" type="AFTER" />
+<TLINK id="TL42" fromID="E29" fromText="three vessel disease" toID="E30" toText="coronary artery bypass graft" type="BEFORE" />
+<TLINK id="TL43" fromID="E30" fromText="coronary artery bypass graft" toID="E41" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL44" fromID="E42" fromText="admitted" toID="E43" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL45" fromID="E41" fromText="the operating room" toID="E42" toText="admitted" type="OVERLAP" />
+<TLINK id="TL46" fromID="E43" fromText="the operating room" toID="T4" toText="2013-01-04" type="OVERLAP" />
+<TLINK id="TL47" fromID="E33" fromText="Hypertension" toID="E32" toText="tobacco abuse" type="OVERLAP" />
+<TLINK id="TL48" fromID="E33" fromText="Hypertension" toID="T4" toText="2013-01-04" type="BEFORE" />
+<TLINK id="TL49" fromID="E32" fromText="tobacco abuse" toID="T5" toText="day" type="OVERLAP" />
+<TLINK id="TL5" fromID="E5" fromText="hypertension" toID="E33" toText="Hypertension" type="OVERLAP" />
+<TLINK id="TL50" fromID="E32" fromText="tobacco abuse" toID="T6" toText="45 years" type="OVERLAP" />
+<TLINK id="TL51" fromID="E35" fromText="coronary artery disease" toID="E34" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL52" fromID="E37" fromText="total cholesterol" toID="E38" toText="admission" type="OVERLAP" />
+<TLINK id="TL53" fromID="E36" fromText="Hypercholesterolemia" toID="E37" toText="total cholesterol" type="OVERLAP" />
+<TLINK id="TL54" fromID="T7" fromText="several years ago" toID="E38" toText="admission" type="OVERLAP" />
+<TLINK id="TL55" fromID="E40" fromText="diabetes" toID="E39" toText="denies" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="hypertension" toID="E6" toText="hypercholesterolemia" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="hypertension" toID="E2" toText="transferred" type="BEFORE" />
+<TLINK id="TL8" fromID="E6" fromText="hypercholesterolemia" toID="E7" toText="tobacco abuse" type="OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="tobacco abuse" toID="E32" toText="tobacco abuse" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2013-01-03" type="ADMISSION" dvalue="2013-01-03" />
+<SECTIME id="S1" start="46" end="56" text="2013-01-09" type="DISCHARGE" dvalue="2013-01-09" />
+<TLINK id="SECTIME0" fromID="E29" fromText="three vessel disease" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E30" fromText="coronary artery bypass graft" toID="T0" toText="2013-01-03" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E41" fromText="the operating room" toID="T0" toText="2013-01-03" type="AFTER" />
+<TLINK id="SECTIME3" fromID="E42" fromText="admitted" toID="T0" toText="2013-01-03" type="AFTER" />
+<TLINK id="SECTIME4" fromID="E43" fromText="the operating room" toID="T0" toText="2013-01-03" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E33" fromText="Hypertension" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="tobacco abuse" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E31" fromText="coronary artery disease" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E34" fromText="coronary artery disease" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E35" fromText="coronary artery disease" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E36" fromText="Hypercholesterolemia" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E37" fromText="total cholesterol" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E38" fromText="admission" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E39" fromText="denies" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E40" fromText="diabetes" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E2" fromText="transferred" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E3" fromText="Shaugnessy-Kaplan Rehab Hospital Hospital" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E4" fromText="cardiac catheterization" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E5" fromText="hypertension" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E6" fromText="hypercholesterolemia" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E7" fromText="tobacco abuse" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E8" fromText="coronary artery disease" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E9" fromText="the usual state of health" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E10" fromText="admission" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E11" fromText="bilateral arm and chest discomfort" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E12" fromText="Her symptoms" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E13" fromText="rest" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E14" fromText="The same symptoms" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E15" fromText="rest" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E16" fromText="presented" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E17" fromText="the outside hospital Emergency Room" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E18" fromText="Aspirin" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E19" fromText="Lovenox" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E20" fromText="beta blocker" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E21" fromText="myocardial infarction" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E22" fromText="CPK" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E23" fromText="troponin" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E24" fromText="non diagnostic EKG changes" toID="T0" toText="2013-01-03" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E25" fromText="transferred" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E26" fromText="Arbour-Fuller Hospital" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E27" fromText="cardiac catheterization" toID="T0" toText="2013-01-03" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E28" fromText="the catheterization" toID="T0" toText="2013-01-03" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+01-11-92
+DISCHARGE DATE :
+01-22-92
+HISTORY OF PRESENT ILLNESS :
+Ms. Tikrhalt is an 86 year old female , previously healthy , who presents with a 3 month history of dysphagia .
+A subsequent workup including upper gastrointestinal series and abdominal computerized tomography scan suggested the presence of a gastric mass .
+Endoscopy with biopsy revealed gastric carcinoma , poorly differentiated , within the body of the stomach along the greater curvature .
+She was subsequently referred to Dr. Ko for a possible resection of this carcinoma .
+She reports a 10 pound weight loss over the past several months .
+She denies any abdominal pain .
+HOSPITAL COURSE :
+The patient was admitted to the Service of Dr. Fede A. Duhenile .
+On 1/12/92 she was taken to the operating room where she underwent a neart total gastrectomy with a retrocolic Bill-Roth II gastrojejunostomy reconstruction .
+In addition a small ventral hernia was noted upon abdominal exploration within a previous surgical incision .
+This was repaired .
+A needle jejunostomy catheter was placed at the time of her operation to facilitate postoperative nutrition .
+With regards to the cancer , there was a large mass along the greater curvature in the body of the stomach , and several perigastric lymph nodes which were taken with the specimen .
+In addition , there were at least two lymph nodes within the porta hepatis which were dissected free and taken en bloc with the specimen .
+The remainder of her abdomen was unremarkable without evidence of metastatic spread elsewhere , including the liver .
+The patient tolerated the procedure well and was taken to the recovery room in good condition .
+The patient 's postoperative course was for the most part unremarkable .
+Her wounds healed well without incident and the needle jejunostomy tube was utilized on the first postoperative day right up until the time of discharge , infusing Vivonex T.E.N.
+The patient tolerated this without difficulty .
+The patient 's nasogastric tube was removed on the 3rd postoperative day , and with the passage of flatus and good bowel sounds noted , she was started on a liquid diet which was advanced slowly .
+She was seen by the dietician and was advised with regard to needing numerous small meals during the day rather than 3 larger meals as she previously was used to .
+Her ambulation and mobilization increased gradually and by the time of discharge she was walking in the halls without assistance .
+As mentioned , her wounds healed well without incident and the staples were removed on the 10th postoperative day just prior to discharge .
+She had some difficulties with confusion in the early postoperative period which were attributable to her advanced age and a sundowning effect .
+These problems resolved by the 4th or 5th postoperative day and she remained lucid and alert for the remainder of her hospital stay .
+Surgical pathology report was completed prior to discharge which revealed poorly differentiated adenocarcinoma ulcerating and extending through the wall into the serosa of the stomach .
+Metastatic carcinoma was present in 3 of 3 lymph nodes .
+The gastric resection margins were free of carcinoma .
+The patient was set for discharge on the 11th postoperative day doing well .
+On the day prior to discharge she complained of some dysuria , a urine specimen was obtained , which showed numerous white cells consistent with a urinary tract infection .
+She was started empirically on Bactrim , while culture and sensitivity results were pending and remained pending at the time of this dictation .
+She will be discharged to home and will be seen in follow-up by her regular physicians as well as Dr. Ko .
+]]></TEXT>
+<TAGS>
+<EVENT id="E98" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1012" end="1016" text="This" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1021" end="1029" text="repaired" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="1041" end="1061" text="jejunostomy catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1088" end="1101" text="her operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1116" end="1139" text="postoperative nutrition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1158" end="1168" text="the cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="1181" end="1193" text="a large mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1263" end="1286" text="perigastric lymph nodes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1309" end="1321" text="the specimen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="133" end="140" text="healthy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1410" end="1424" text="dissected free" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1448" end="1460" text="the specimen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="147" end="155" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1496" end="1508" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="1529" end="1546" text="metastatic spread" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E43" start="1593" end="1602" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1603" end="1616" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1639" end="1656" text="the recovery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1660" end="1674" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1692" end="1712" text="postoperative course" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1735" end="1747" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1750" end="1760" text="Her wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1761" end="1767" text="healed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1781" end="1789" text="incident" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E52" start="1794" end="1821" text="the needle jejunostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="182" end="191" text="dysphagia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1893" end="1902" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1914" end="1928" text="Vivonex T.E.N." modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="194" end="213" text="A subsequent workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1941" end="1950" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1951" end="1955" text="this" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1964" end="1974" text="difficulty" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E116" start="1992" end="2008" text="nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="2061" end="2082" text="the passage of flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="2092" end="2104" text="bowel sounds" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2132" end="2145" text="a liquid diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="224" end="253" text="upper gastrointestinal series" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2243" end="2263" text="numerous small meals" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2338" end="2352" text="Her ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2357" end="2369" text="mobilization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2370" end="2379" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2409" end="2418" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2427" end="2434" text="walking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2456" end="2466" text="assistance" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E69" start="2484" end="2494" text="her wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2495" end="2501" text="healed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2515" end="2523" text="incident" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E72" start="2528" end="2539" text="the staples" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="258" end="296" text="abdominal computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2597" end="2606" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2640" end="2649" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2732" end="2751" text="a sundowning effect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2754" end="2768" text="These problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2831" end="2836" text="lucid" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2841" end="2846" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2868" end="2885" text="her hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2888" end="2913" text="Surgical pathology report" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2937" end="2946" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2962" end="2998" text="poorly differentiated adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2999" end="3009" text="ulcerating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="3014" end="3023" text="extending" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E85" start="3074" end="3094" text="Metastatic carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="3174" end="3183" text="carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="3210" end="3219" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="323" end="337" text="a gastric mass" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="3311" end="3323" text="some dysuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="3326" end="3342" text="a urine specimen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="3371" end="3391" text="numerous white cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="340" end="349" text="Endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="3408" end="3433" text="a urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="3467" end="3474" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="3483" end="3490" text="culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="3495" end="3506" text="sensitivity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="3520" end="3527" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="355" end="361" text="biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="3593" end="3611" text="discharged to home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="3632" end="3641" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="371" end="388" text="gastric carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="497" end="505" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="531" end="540" text="resection" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="544" end="558" text="this carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="565" end="572" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="573" end="595" text="a 10 pound weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="631" end="637" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="638" end="656" text="any abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="693" end="701" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="771" end="789" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="810" end="835" text="a neart total gastrectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="841" end="899" text="a retrocolic Bill-Roth II gastrojejunostomy reconstruction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="914" end="936" text="a small ventral hernia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="952" end="973" text="abdominal exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="981" end="1009" text="a previous surgical incision" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T2" start="163" end="170" text="3 month" type="DURATION" val="P3M" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="01-11-92" type="DATE" val="1992-01-11" mod="NA" />
+<TIMEX3 id="T6" start="1838" end="1865" text="the first postoperative day" type="DATE" val="1992-01-12" mod="NA" />
+<TIMEX3 id="T7" start="1881" end="1889" text="the time" type="DATE" val="1992-01-22" mod="NA" />
+<TIMEX3 id="T9" start="2024" end="2049" text="the 3rd postoperative day" type="DATE" val="1992-01-14" mod="NA" />
+<TIMEX3 id="T10" start="2556" end="2582" text="the 10th postoperative day" type="DATE" val="1992-01-21" mod="NA" />
+<TIMEX3 id="T11" start="2653" end="2683" text="the early postoperative period" type="DURATION" val="P4D" mod="APPROX" />
+<TIMEX3 id="T14" start="2781" end="2813" text="the 4th or 5th postoperative day" type="DATE" val="1992-01-17" mod="APPROX" />
+<TIMEX3 id="T12" start="3223" end="3249" text="the 11th postoperative day" type="DATE" val="1992-01-22" mod="NA" />
+<TIMEX3 id="T13" start="3266" end="3292" text="the day prior to discharge" type="DATE" val="1992-01-21" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="01-22-92" type="DATE" val="1992-01-22" mod="NA" />
+<TIMEX3 id="T3" start="601" end="624" text="the past several months" type="DURATION" val="P5M" mod="APPROX" />
+<TIMEX3 id="T4" start="746" end="753" text="1/12/92" type="DATE" val="1992-01-12" mod="NA" />
+<TLINK id="TL0" fromID="E8" fromText="healthy" toID="E3" toText="dysphagia" type="BEFORE" />
+<TLINK id="TL1" fromID="E3" fromText="dysphagia" toID="T2" toText="3 month" type="DURING" />
+<TLINK id="TL10" fromID="E13" fromText="Endoscopy" toID="E16" toText="referred" type="BEFORE" />
+<TLINK id="TL11" fromID="E16" fromText="referred" toID="E17" toText="resection" type="BEFORE" />
+<TLINK id="TL12" fromID="E18" fromText="this carcinoma" toID="E17" toText="resection" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E18" fromText="this carcinoma" toID="E15" toText="gastric carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E35" fromText="the cancer" toID="E18" toText="this carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="T3" fromText="the past several months" toID="E19" toText="reports" type="ENDED_BY" />
+<TLINK id="TL16" fromID="E20" fromText="a 10 pound weight loss" toID="T3" toText="the past several months" type="DURING" />
+<TLINK id="TL17" fromID="E21" fromText="denies" toID="E22" toText="any abdominal pain" type="OVERLAP" />
+<TLINK id="TL18" fromID="E23" fromText="admitted" toID="E24" toText="the operating room" type="BEFORE" />
+<TLINK id="TL19" fromID="T4" fromText="1/12/92" toID="E23" toText="admitted" type="AFTER" />
+<TLINK id="TL2" fromID="T2" fromText="3 month" toID="E1" toText="presents" type="ENDED_BY" />
+<TLINK id="TL20" fromID="T4" fromText="1/12/92" toID="E24" toText="the operating room" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E25" fromText="a neart total gastrectomy" toID="E24" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL22" fromID="E26" fromText="a retrocolic Bill-Roth II gastrojejunostomy reconstruction" toID="E25" toText="a neart total gastrectomy" type="OVERLAP" />
+<TLINK id="TL23" fromID="E107" fromText="a small ventral hernia" toID="E30" toText="This" type="OVERLAP" />
+<TLINK id="TL24" fromID="E107" fromText="a small ventral hernia" toID="E28" toText="abdominal exploration" type="OVERLAP" />
+<TLINK id="TL25" fromID="E28" fromText="abdominal exploration" toID="E29" toText="a previous surgical incision" type="OVERLAP" />
+<TLINK id="TL26" fromID="E30" fromText="This" toID="E31" toText="repaired" type="ENDED_BY" />
+<TLINK id="TL27" fromID="E113" fromText="jejunostomy catheter" toID="E34" toText="postoperative nutrition" type="BEFORE" />
+<TLINK id="TL28" fromID="E113" fromText="jejunostomy catheter" toID="E52" toText="the needle jejunostomy tube" type="OVERLAP" />
+<TLINK id="TL29" fromID="E33" fromText="her operation" toID="E44" toText="the procedure" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E10" fromText="upper gastrointestinal series" toID="E102" toText="A subsequent workup" type="OVERLAP" />
+<TLINK id="TL30" fromID="E33" fromText="her operation" toID="E25" toText="a neart total gastrectomy" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E35" fromText="the cancer" toID="E101" toText="a large mass" type="OVERLAP" />
+<TLINK id="TL32" fromID="E35" fromText="the cancer" toID="E82" toText="poorly differentiated adenocarcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E38" fromText="the specimen" toID="E37" toText="perigastric lymph nodes" type="OVERLAP" />
+<TLINK id="TL34" fromID="E101" fromText="a large mass" toID="E37" toText="perigastric lymph nodes" type="OVERLAP" />
+<TLINK id="TL35" fromID="E38" fromText="the specimen" toID="E40" toText="the specimen" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E41" fromText="unremarkable" toID="E115" toText="metastatic spread" type="OVERLAP" />
+<TLINK id="TL37" fromID="E44" fromText="the procedure" toID="E43" toText="tolerated" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E44" fromText="the procedure" toID="E45" toText="the recovery room" type="BEFORE" />
+<TLINK id="TL39" fromID="E45" fromText="the recovery room" toID="E46" toText="good condition" type="OVERLAP" />
+<TLINK id="TL4" fromID="E102" fromText="A subsequent workup" toID="E11" toText="abdominal computerized tomography scan" type="OVERLAP" />
+<TLINK id="TL40" fromID="E47" fromText="postoperative course" toID="E48" toText="unremarkable" type="OVERLAP" />
+<TLINK id="TL41" fromID="E44" fromText="the procedure" toID="E47" toText="postoperative course" type="ENDED_BY" />
+<TLINK id="TL42" fromID="E49" fromText="Her wounds" toID="E47" toText="postoperative course" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E49" fromText="Her wounds" toID="E50" toText="healed" type="OVERLAP" />
+<TLINK id="TL44" fromID="E49" fromText="Her wounds" toID="E51" toText="incident" type="OVERLAP" />
+<TLINK id="TL45" fromID="E69" fromText="her wounds" toID="E49" toText="Her wounds" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E51" fromText="incident" toID="E71" toText="incident" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E52" fromText="the needle jejunostomy tube" toID="E53" toText="discharge" type="ENDED_BY" />
+<TLINK id="TL48" fromID="E113" fromText="jejunostomy catheter" toID="E33" toText="her operation" type="AFTER" />
+<TLINK id="TL49" fromID="E66" fromText="discharge" toID="E53" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E54" fromText="Vivonex T.E.N." toID="E52" toText="the needle jejunostomy tube" type="OVERLAP" />
+<TLINK id="TL51" fromID="E57" fromText="difficulty" toID="E55" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL52" fromID="E56" fromText="this" toID="E55" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL53" fromID="E116" fromText="nasogastric tube" toID="T9" toText="the 3rd postoperative day" type="ENDED_BY" />
+<TLINK id="TL54" fromID="E59" fromText="the passage of flatus" toID="E116" toText="nasogastric tube" type="AFTER" />
+<TLINK id="TL55" fromID="E59" fromText="the passage of flatus" toID="E117" toText="bowel sounds" type="OVERLAP" />
+<TLINK id="TL56" fromID="E61" fromText="a liquid diet" toID="E117" toText="bowel sounds" type="BEGUN_BY" />
+<TLINK id="TL57" fromID="E63" fromText="Her ambulation" toID="E64" toText="mobilization" type="OVERLAP" />
+<TLINK id="TL58" fromID="E64" fromText="mobilization" toID="E65" toText="increased" type="OVERLAP" />
+<TLINK id="TL59" fromID="E68" fromText="assistance" toID="E66" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E12" fromText="a gastric mass" toID="E10" toText="upper gastrointestinal series" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E68" fromText="assistance" toID="E67" toText="walking" type="OVERLAP" />
+<TLINK id="TL61" fromID="E66" fromText="discharge" toID="E67" toText="walking" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E69" fromText="her wounds" toID="E70" toText="healed" type="OVERLAP" />
+<TLINK id="TL63" fromID="E70" fromText="healed" toID="E71" toText="incident" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E72" fromText="the staples" toID="T10" toText="the 10th postoperative day" type="ENDED_BY" />
+<TLINK id="TL65" fromID="E69" fromText="her wounds" toID="E72" toText="the staples" type="BEFORE_OVERLAP" />
+<TLINK id="TL66" fromID="E74" fromText="confusion" toID="T11" toText="the early postoperative period" type="DURING" />
+<TLINK id="TL67" fromID="E75" fromText="a sundowning effect" toID="E74" toText="confusion" type="OVERLAP" />
+<TLINK id="TL69" fromID="E76" fromText="These problems" toID="T14" toText="the 4th or 5th postoperative day" type="ENDED_BY" />
+<TLINK id="TL7" fromID="E12" fromText="a gastric mass" toID="E11" toText="abdominal computerized tomography scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E78" fromText="alert" toID="E77" toText="lucid" type="OVERLAP" />
+<TLINK id="TL71" fromID="E77" fromText="lucid" toID="T14" toText="the 4th or 5th postoperative day" type="BEGUN_BY" />
+<TLINK id="TL72" fromID="E77" fromText="lucid" toID="E66" toText="discharge" type="ENDED_BY" />
+<TLINK id="TL73" fromID="E80" fromText="Surgical pathology report" toID="E81" toText="discharge" type="BEFORE" />
+<TLINK id="TL74" fromID="E87" fromText="discharge" toID="E81" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E83" fromText="ulcerating" toID="E82" toText="poorly differentiated adenocarcinoma" type="OVERLAP" />
+<TLINK id="TL76" fromID="E82" fromText="poorly differentiated adenocarcinoma" toID="E85" toText="Metastatic carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E82" fromText="poorly differentiated adenocarcinoma" toID="E80" toText="Surgical pathology report" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E84" fromText="extending" toID="E83" toText="ulcerating" type="OVERLAP" />
+<TLINK id="TL79" fromID="E87" fromText="discharge" toID="T12" toText="the 11th postoperative day" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E12" fromText="a gastric mass" toID="E15" toText="gastric carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E96" fromText="discharged to home" toID="E87" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E88" fromText="some dysuria" toID="T13" toText="the day prior to discharge" type="OVERLAP" />
+<TLINK id="TL82" fromID="E88" fromText="some dysuria" toID="E89" toText="a urine specimen" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E90" fromText="numerous white cells" toID="E89" toText="a urine specimen" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E90" fromText="numerous white cells" toID="E91" toText="a urinary tract infection" type="OVERLAP" />
+<TLINK id="TL85" fromID="E91" fromText="a urinary tract infection" toID="E92" toText="Bactrim" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="E92" fromText="Bactrim" toID="E92" toText="Bactrim" type="BEFORE_OVERLAP" />
+<TLINK id="TL87" fromID="E92" fromText="Bactrim" toID="T13" toText="the day prior to discharge" type="BEGUN_BY" />
+<TLINK id="TL88" fromID="E93" fromText="culture" toID="E94" toText="sensitivity" type="OVERLAP" />
+<TLINK id="TL89" fromID="E94" fromText="sensitivity" toID="E95" toText="pending" type="OVERLAP" />
+<TLINK id="TL9" fromID="E13" fromText="Endoscopy" toID="E14" toText="biopsy" type="OVERLAP" />
+<TLINK id="TL90" fromID="E95" fromText="pending" toID="T13" toText="the day prior to discharge" type="OVERLAP" />
+<TLINK id="TL91" fromID="E97" fromText="follow-up" toID="E96" toText="discharged to home" type="AFTER" />
+<TLINK id="TL92" fromID="E52" fromText="the needle jejunostomy tube" toID="T6" toText="the first postoperative day" type="AFTER" />
+<TLINK id="TL93" fromID="E52" fromText="the needle jejunostomy tube" toID="T7" toText="the time" type="BEFORE" />
+<TLINK id="TL94" fromID="E100" fromText="DISCHARGE" toID="T7" toText="the time" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="01-11-92" type="ADMISSION" dvalue="1992-01-11" />
+<SECTIME id="S1" start="44" end="52" text="01-22-92" type="DISCHARGE" dvalue="1992-01-22" />
+<TLINK id="SECTIME0" fromID="E30" fromText="This" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E31" fromText="repaired" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E113" fromText="jejunostomy catheter" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="her operation" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E34" fromText="postoperative nutrition" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E35" fromText="the cancer" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E101" fromText="a large mass" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E8" fromText="healthy" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E37" fromText="perigastric lymph nodes" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E38" fromText="the specimen" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E39" fromText="dissected free" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E40" fromText="the specimen" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E1" fromText="presents" toID="T0" toText="01-11-92" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E41" fromText="unremarkable" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E115" fromText="metastatic spread" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E43" fromText="tolerated" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="the procedure" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="the recovery room" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E46" fromText="good condition" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E47" fromText="postoperative course" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E48" fromText="unremarkable" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E49" fromText="Her wounds" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E50" fromText="healed" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E51" fromText="incident" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E52" fromText="the needle jejunostomy tube" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E3" fromText="dysphagia" toID="T0" toText="01-11-92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME26" fromID="E53" fromText="discharge" toID="T1" toText="01-22-92" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E54" fromText="Vivonex T.E.N." toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E102" fromText="A subsequent workup" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E55" fromText="tolerated" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E56" fromText="this" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E57" fromText="difficulty" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E116" fromText="nasogastric tube" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E59" fromText="the passage of flatus" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E117" fromText="bowel sounds" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E61" fromText="a liquid diet" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E10" fromText="upper gastrointestinal series" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E62" fromText="numerous small meals" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E63" fromText="Her ambulation" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E64" fromText="mobilization" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E65" fromText="increased" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E66" fromText="discharge" toID="T1" toText="01-22-92" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E67" fromText="walking" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E68" fromText="assistance" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E69" fromText="her wounds" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E70" fromText="healed" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E71" fromText="incident" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E72" fromText="the staples" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E11" fromText="abdominal computerized tomography scan" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E73" fromText="discharge" toID="T1" toText="01-22-92" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E74" fromText="confusion" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E75" fromText="a sundowning effect" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E76" fromText="These problems" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E77" fromText="lucid" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E78" fromText="alert" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E79" fromText="her hospital stay" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E80" fromText="Surgical pathology report" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E81" fromText="discharge" toID="T1" toText="01-22-92" type="OVERLAP" />
+<TLINK id="SECTIME58" fromID="E82" fromText="poorly differentiated adenocarcinoma" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E83" fromText="ulcerating" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E84" fromText="extending" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E85" fromText="Metastatic carcinoma" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E86" fromText="carcinoma" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E87" fromText="discharge" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E12" fromText="a gastric mass" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E88" fromText="some dysuria" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E89" fromText="a urine specimen" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E90" fromText="numerous white cells" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E13" fromText="Endoscopy" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E91" fromText="a urinary tract infection" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E92" fromText="Bactrim" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E93" fromText="culture" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E94" fromText="sensitivity" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E95" fromText="pending" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E14" fromText="biopsy" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E96" fromText="discharged to home" toID="T1" toText="01-22-92" type="OVERLAP" />
+<TLINK id="SECTIME76" fromID="E97" fromText="follow-up" toID="T1" toText="01-22-92" type="AFTER" />
+<TLINK id="SECTIME77" fromID="E15" fromText="gastric carcinoma" toID="T0" toText="01-11-92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME78" fromID="E16" fromText="referred" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E17" fromText="resection" toID="T0" toText="01-11-92" type="AFTER" />
+<TLINK id="SECTIME80" fromID="E18" fromText="this carcinoma" toID="T0" toText="01-11-92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME81" fromID="E19" fromText="reports" toID="T0" toText="01-11-92" type="OVERLAP" />
+<TLINK id="SECTIME82" fromID="E20" fromText="a 10 pound weight loss" toID="T0" toText="01-11-92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME83" fromID="E21" fromText="denies" toID="T0" toText="01-11-92" type="OVERLAP" />
+<TLINK id="SECTIME84" fromID="E22" fromText="any abdominal pain" toID="T0" toText="01-11-92" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E23" fromText="admitted" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E24" fromText="the operating room" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E25" fromText="a neart total gastrectomy" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E26" fromText="a retrocolic Bill-Roth II gastrojejunostomy reconstruction" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E107" fromText="a small ventral hernia" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E28" fromText="abdominal exploration" toID="T1" toText="01-22-92" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E29" fromText="a previous surgical incision" toID="T1" toText="01-22-92" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

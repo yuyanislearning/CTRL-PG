@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-09-27
+Discharge Date :
+2019-10-07
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+60 yo M with exertional angina -> positive ETT -> cath with severe 3VD
+Brief Hospital Course :
+He was taken to the operating room on 2019-10-01 where he underwent a CABG x 3 .
+He was transferred to the CMED CCU in critical but stable condition .
+He was extubated by POD #1 .
+He was weaned from his vasoactive drips and transferred to the floor on POD #2 .
+He was seen by speech and swallowing who recommended NPO , he then underwent a video swallow after which he was changed to a diet of thin liquids and soft solids , and felt that his eeating may be limited by his loose teeth .
+Dentistry and OMFS were consulted , and he had four front teeth removed on 10-04 .
+He did well post operatively and he was ready for discharge on 2019-10-07 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="124" end="141" text="exertional angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="145" end="157" text="positive ETT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="161" end="165" text="cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="171" end="181" text="severe 3VD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="222" end="240" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="274" end="280" text="a CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="294" end="305" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="309" end="321" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="325" end="354" text="critical but stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="364" end="373" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="393" end="399" text="weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="405" end="425" text="his vasoactive drips" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="430" end="441" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="445" end="454" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="520" end="523" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="544" end="559" text="a video swallow" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="590" end="628" text="a diet of thin liquids and soft solids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="645" end="671" text="his eeating may be limited" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="675" end="690" text="his loose teeth" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="717" end="726" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="745" end="764" text="front teeth removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="779" end="787" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="826" end="835" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-09-27" type="DATE" val="2019-09-27" mod="NA" />
+<TIMEX3 id="T2" start="244" end="254" text="2019-10-01" type="DATE" val="2019-10-01" mod="NA" />
+<TIMEX3 id="T3" start="281" end="284" text="x 3" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T4" start="377" end="383" text="POD #1" type="DATE" val="2019-10-02" mod="NA" />
+<TIMEX3 id="T5" start="458" end="464" text="POD #2" type="DATE" val="2019-10-03" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-10-07" type="DATE" val="2019-10-07" mod="NA" />
+<TIMEX3 id="T6" start="768" end="773" text="10-04" type="DATE" val="2019-10-04" mod="NA" />
+<TIMEX3 id="T7" start="839" end="849" text="2019-10-07" type="DATE" val="2019-10-07" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2019-09-27" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2019-10-07" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="critical but stable condition" toID="E9" toText="the CMED CCU" type="BEFORE" />
+<TLINK id="TL11" fromID="T4" fromText="POD #1" toID="E11" toText="extubated" type="OVERLAP" />
+<TLINK id="TL12" fromID="E13" fromText="his vasoactive drips" toID="E12" toText="weaned" type="BEFORE" />
+<TLINK id="TL13" fromID="E14" fromText="transferred" toID="T5" toText="POD #2" type="OVERLAP" />
+<TLINK id="TL14" fromID="E15" fromText="the floor" toID="E14" toText="transferred" type="AFTER" />
+<TLINK id="TL15" fromID="E14" fromText="transferred" toID="E12" toText="weaned" type="AFTER" />
+<TLINK id="TL16" fromID="E16" fromText="NPO" toID="T5" toText="POD #2" type="AFTER" />
+<TLINK id="TL17" fromID="E17" fromText="a video swallow" toID="E16" toText="NPO" type="AFTER" />
+<TLINK id="TL18" fromID="E18" fromText="a diet of thin liquids and soft solids" toID="E17" toText="a video swallow" type="AFTER" />
+<TLINK id="TL19" fromID="E19" fromText="his eeating may be limited" toID="E20" toText="his loose teeth" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="exertional angina" toID="E3" toText="positive ETT" type="BEFORE" />
+<TLINK id="TL20" fromID="E20" fromText="his loose teeth" toID="E18" toText="a diet of thin liquids and soft solids" type="BEFORE" />
+<TLINK id="TL21" fromID="E21" fromText="consulted" toID="E17" toText="a video swallow" type="AFTER" />
+<TLINK id="TL22" fromID="E20" fromText="his loose teeth" toID="E22" toText="front teeth removed" type="BEFORE" />
+<TLINK id="TL23" fromID="E22" fromText="front teeth removed" toID="T6" toText="10-04" type="OVERLAP" />
+<TLINK id="TL24" fromID="E23" fromText="did well" toID="E6" toText="the operating room" type="AFTER" />
+<TLINK id="TL25" fromID="E24" fromText="discharge" toID="T7" toText="2019-10-07" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="positive ETT" toID="E4" toText="cath" type="BEFORE" />
+<TLINK id="TL4" fromID="E5" fromText="severe 3VD" toID="E4" toText="cath" type="BEFORE" />
+<TLINK id="TL5" fromID="E6" fromText="the operating room" toID="T2" toText="2019-10-01" type="OVERLAP" />
+<TLINK id="TL6" fromID="E7" fromText="a CABG" toID="E6" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL7" fromID="E7" fromText="a CABG" toID="T3" toText="x 3" type="OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="transferred" toID="E6" toText="the operating room" type="AFTER" />
+<TLINK id="TL9" fromID="E9" fromText="the CMED CCU" toID="E8" toText="transferred" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2019-09-27" type="ADMISSION" dvalue="2019-09-27" />
+<SECTIME id="S1" start="46" end="56" text="2019-10-07" type="DISCHARGE" dvalue="2019-10-07" />
+
+<TLINK id="SECTIME0" fromID="E2" fromText="exertional angina" toID="T0" toText="2019-09-27" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E3" fromText="positive ETT" toID="T0" toText="2019-09-27" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E4" fromText="cath" toID="T0" toText="2019-09-27" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E5" fromText="severe 3VD" toID="T0" toText="2019-09-27" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E6" fromText="the operating room" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E7" fromText="a CABG" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E8" fromText="transferred" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E9" fromText="the CMED CCU" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E10" fromText="critical but stable condition" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E11" fromText="extubated" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="weaned" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="his vasoactive drips" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="transferred" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E15" fromText="the floor" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E16" fromText="NPO" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E17" fromText="a video swallow" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E18" fromText="a diet of thin liquids and soft solids" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E19" fromText="his eeating may be limited" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E20" fromText="his loose teeth" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E21" fromText="consulted" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E22" fromText="front teeth removed" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E23" fromText="did well" toID="T1" toText="2019-10-07" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E24" fromText="discharge" toID="T1" toText="2019-10-07" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

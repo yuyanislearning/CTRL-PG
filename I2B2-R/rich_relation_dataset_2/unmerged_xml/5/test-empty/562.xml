@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-07-15
+Discharge Date :
+2010-07-18
+Service :
+KULAND
+HISTORY OF PRESENT ILLNESS :
+The patient is a 32-year-old white female with history of diabetes type 1 and migraines who presented with complaints of nausea , diarrhea and vomiting for 24 hours .
+Patient states she was unable to take her usual insulin regimen because she was vomiting .
+The patient denied any fevers , chills , chest pain , shortness of breath or dysuria but does state she had her usual migraine headache the night prior to admission .
+The patient 's arterial blood gases in the Emergency Department were 7.19 , 22 and 109 with a bicarbonate of 9 and a fingerstick of greater than 500 .
+Patient was given two boluses of 15 units of regular insulin and was started on an insulin drip of one unit per hour and given a total of five liters of normal saline .
+Her fingersticks decreased with the insulin drip and the intravenous fluids .
+The patient was admitted to the Intensive Care Unit for an insulin drip and frequent blood sugar monitoring and Chem-7 monitoring .
+The patient did well overnight in the Medical Intensive Care Unit .
+Her anion gap closed and her fingersticks were less than 200 .
+Her NPH and a regular sliding scale were started and her drip was discontinued .
+The patient denied any more gastrointestinal symptoms .
+HOSPITAL COURSE :
+As above , and once transferred to the floor , patient had fingersticks monitored every four hours with a sliding scale .
+Patient reached goal of fingersticks between 50 and 300 , which is what she maintains at home .
+Sliding scale was adjusted as necessary .
+Patient was continued on intravenous fluids until taking good po .
+Infectious Disease :
+The patient had an elevated white count upon admission , however , white count came down to 7.1 and prior to discharge , patient was afebrile and no clear etiology for elevated white blood cell on admission , questionably secondary to short gastrointestinal infection , however , patient is completely symptom free upon discharge .
+Fluid , electrolytes and nutrition :
+The patient 's electrolytes were repleted as necessary .
+Potassium was given with her intravenous fluids and phosphate will be repleted as patient increases her po intake .
+]]></TEXT>
+<TAGS>
+<EVENT id="E37" start="1002" end="1033" text="frequent blood sugar monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1038" end="1055" text="Chem-7 monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1070" end="1078" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1092" end="1123" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1126" end="1139" text="Her anion gap" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1151" end="1167" text="her fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1189" end="1196" text="Her NPH" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1201" end="1224" text="a regular sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1242" end="1250" text="her drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1282" end="1288" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="1289" end="1323" text="any more gastrointestinal symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E48" start="1364" end="1375" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1379" end="1388" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="1403" end="1415" text="fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1448" end="1463" text="a sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1490" end="1502" text="fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1562" end="1575" text="Sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="161" end="176" text="diabetes type 1" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1629" end="1647" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1661" end="1668" text="good po" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1708" end="1731" text="an elevated white count" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1737" end="1746" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1759" end="1770" text="white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1801" end="1810" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1825" end="1833" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="181" end="190" text="migraines" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1860" end="1885" text="elevated white blood cell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1889" end="1898" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1927" end="1959" text="short gastrointestinal infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="195" end="204" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="1994" end="2006" text="symptom free" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2012" end="2021" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2061" end="2088" text="The patient 's electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="2094" end="2102" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="210" end="220" text="complaints" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E68" start="2118" end="2127" text="Potassium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2143" end="2165" text="her intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2170" end="2179" text="phosphate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2188" end="2196" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2218" end="2231" text="her po intake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="224" end="230" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="233" end="241" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="246" end="254" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="278" end="284" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="293" end="307" text="unable to take" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="308" end="333" text="her usual insulin regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="350" end="358" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="373" end="379" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="384" end="390" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="393" end="399" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="402" end="412" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="415" end="434" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="438" end="445" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="455" end="460" text="state" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="469" end="496" text="her usual migraine headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="516" end="525" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="528" end="563" text="The patient 's arterial blood gases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="567" end="591" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="620" end="633" text="a bicarbonate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="643" end="656" text="a fingerstick" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="697" end="739" text="two boluses of 15 units of regular insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="759" end="774" text="an insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="806" end="845" text="a total of five liters of normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="848" end="864" text="Her fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="865" end="874" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="880" end="896" text="the insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="901" end="923" text="the intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="942" end="950" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="954" end="977" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="982" end="997" text="an insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="1079" end="1088" text="overnight" type="DURATION" val="PT8H" mod="NA" />
+<TIMEX3 id="T2" start="1426" end="1442" text="every four hours" type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2010-07-15" type="DATE" val="2010-07-15" mod="NA" />
+<TIMEX3 id="T4" start="259" end="267" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2010-07-18" type="DATE" val="2010-07-18" mod="NA" />
+<TIMEX3 id="T5" start="497" end="506" text="the night" type="DATE" val="2010-07-14" mod="END" />
+<TIMEX3 id="T6" start="787" end="795" text="per hour" type="FREQUENCY" val="RPT1H" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2010-07-15" type="ADMISSION" dvalue="2010-07-15" />
+<SECTIME id="S1" start="46" end="56" text="2010-07-18" type="DISCHARGE" dvalue="2010-07-18" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

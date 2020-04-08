@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12/07/96
+DISCHARGE DATE :
+12/14/96
+DISCHARGE DATE :
+12/14/96
+HISTORY OF PRESENT ILLNESS :
+76-year-old male with right hip pain X five years .
+The pain is often severely and increasing at night especially when he is lying on the right side .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the hospital as a postoperative admit on December 7 for total hip replacement .
+For further details of this procedure see operative note .
+Postoperatively he did well initially in the first 12 hours .
+However he had a report of emesis of coffee grounds on postoperative night #1 .
+This with no electrocardiogram changes .
+Due to this GI was consulted and felt that he would be a candidate for esophagogastroduodenoscopy .
+He was placed nothing by mouth and the esophagogastroduodenoscopy was done by the GI Service .
+Findings showed a Mallory Weiss tear , nonspecific duodenitis .
+He was placed on Zantac 150 mg. PO b.i.d. and H Pylori serology was sent .
+Post EGD his diet was advanced slowly and he did exceptionally well .
+At the time of discharge he was tolerating a full diet , out of bed with pain , tolerated on po. medications .
+His wound was intact with no evidence of infection .
+Distal neurovascular status was intact .
+There was no calf tenderness and lower extremity arterial non-invasive studies were negative .
+He was generally well in all regards .
+The physical examination was unremarkable and he had no recurrent symptoms of coffee ground emesis .
+He was doing exceptionally well at discharge with plans to follow up with Dr. Rhalttland .
+Discharge instructions have been given .
+ROYNEO WALLA , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1017" end="1042" text="he did exceptionally well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1060" end="1069" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1077" end="1087" text="tolerating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1088" end="1099" text="a full diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1102" end="1112" text="out of bed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1118" end="1122" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1125" end="1134" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1138" end="1153" text="po. medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1156" end="1165" text="His wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1197" end="1206" text="infection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="1263" end="1278" text="calf tenderness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1283" end="1328" text="lower extremity arterial non-invasive studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="130" end="144" text="right hip pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1352" end="1366" text="generally well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1384" end="1408" text="The physical examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1440" end="1458" text="recurrent symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1462" end="1482" text="coffee ground emesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1498" end="1516" text="exceptionally well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1520" end="1529" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1544" end="1553" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1576" end="1598" text="Discharge instructions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="160" end="168" text="The pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="191" end="210" text="increasing at night" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="233" end="256" text="lying on the right side" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="307" end="315" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="319" end="331" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="351" end="356" text="admit" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="375" end="396" text="total hip replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="422" end="436" text="this procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="477" end="485" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="53" end="62" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="547" end="571" text="emesis of coffee grounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="613" end="638" text="electrocardiogram changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="648" end="669" text="this GI was consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="712" end="738" text="esophagogastroduodenoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="755" end="771" text="nothing by mouth" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="776" end="806" text="the esophagogastroduodenoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="845" end="851" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="852" end="872" text="a Mallory Weiss tear" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="875" end="897" text="nonspecific duodenitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="917" end="923" text="Zantac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="946" end="963" text="H Pylori serology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="980" end="983" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="997" end="1012" text="advanced slowly" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="147" end="157" text="five years" type="DURATION" val="P5Y" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="12/07/96" type="DATE" val="1996-12-07" mod="NA" />
+<TIMEX3 id="T4" start="360" end="370" text="December 7" type="DATE" val="1996-12-07" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="12/14/96" type="DATE" val="1996-12-14" mod="NA" />
+<TIMEX3 id="T5" start="499" end="517" text="the first 12 hours" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T6" start="575" end="597" text="postoperative night #1" type="DATE" val="1996-12-07" mod="NA" />
+<TIMEX3 id="T2" start="70" end="78" text="12/14/96" type="DATE" val="1996-12-14" mod="NA" />
+<SECTIME id="S0" start="18" end="26" text="12/07/96" type="ADMISSION" dvalue="1996-12-07" />
+<SECTIME id="S1" start="44" end="52" text="12/14/96" type="DISCHARGE" dvalue="1996-12-14" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-12-24
+Discharge Date :
+2016-12-27
+HISTORY OF PRESENT ILLNESS :
+The patient is an 80 year old female with breast cancer , status post lumpectomy / radiation therapy / Tamoxifen ( 2000 ) , hypertension , hyperlipidemia , multiple urinary tract infections who presents with a four day prodrome of dry cough , rhinorrhea , coryza , malaise , chills , headache , decreased p.o. intake , loose bowel movements with diarrhea and no blood , decreased urine output , no sick contacts , had flu shot this year .
+In the Emergency Department , she had labile blood pressure with systolic blood pressure in the 80 s .  
+Her usual is systolic blood pressure in the 120 s , this was despite two liters of intravenous fluids and she was transferred to the Medical Intensive Care Unit for closer monitoring for possible early sepsis .
+The Intensive Care Unit course was notable for initially receiving broad spectrum antibiotics as well as a white blood cell count of 11.0 with 15 bands .
+She was ultimately changed to Levaquin for a possible early pneumonia pending cultures .
+The Intensive Care Unit course was also notable for negative chest x-ray , two units of packed red blood cells for a hematocrit of 24.0 with appropriate bump in her hematocrit and no evidence of bleeding , stable blood pressure despite a net fluid balance of negative 2.5 liters .
+No central access was needed .
+The sepsis protocol was aborted .
+Also of note , her liver function tests had been normal .
+Random cortisol was 17 and her DFA was positive for influenzae A with a viral culture pending at the time of discharge .
+Blood and urine cultures were no growth at the time of discharge as well .
+She also had a right lower extremity noninvasive ultrasound that was negative for deep venous thrombosis .
+HOSPITAL COURSE :
+This is an 80 year old female with a history of Stage I breast cancer , hypertension , hyperlipidemia , who presents with a leukocytosis/bandemia , hypotension in the setting of dehydration and influenza .
+After a short Medical Intensive Care Unit course where she remained hemodynamically stable , she was transferred to the floor .
+
+]]></TEXT>
+<TAGS>
+<EVENT id="E39" start="1025" end="1033" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1049" end="1081" text="early pneumonia pending cultures" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1084" end="1114" text="The Intensive Care Unit course" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1145" end="1156" text="chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1172" end="1194" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1199" end="1211" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1225" end="1241" text="appropriate bump" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1245" end="1259" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1267" end="1275" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E48" start="1279" end="1287" text="bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E0" start="128" end="141" text="breast cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1297" end="1311" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1320" end="1339" text="a net fluid balance" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1368" end="1382" text="central access" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1396" end="1415" text="The sepsis protocol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1445" end="1469" text="her liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1488" end="1503" text="Random cortisol" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1515" end="1522" text="her DFA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="1540" end="1552" text="influenzae A" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1558" end="1573" text="a viral culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="156" end="166" text="lumpectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1597" end="1606" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1609" end="1633" text="Blood and urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1642" end="1648" text="growth" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E63" start="1664" end="1673" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="169" end="186" text="radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1697" end="1743" text="a right lower extremity noninvasive ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1766" end="1788" text="deep venous thrombosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E66" start="1857" end="1878" text="Stage I breast cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1881" end="1893" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1896" end="1912" text="hyperlipidemia ," modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="189" end="198" text="Tamoxifen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1917" end="1925" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E70" start="1931" end="1954" text="a leukocytosis/bandemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1957" end="1968" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1987" end="1998" text="dehydration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2003" end="2012" text="influenza" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2029" end="2063" text="Medical Intensive Care Unit course" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2083" end="2105" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="210" end="222" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="2116" end="2127" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="225" end="239" text="hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="242" end="275" text="multiple urinary tract infections" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="280" end="288" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="317" end="326" text="dry cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="329" end="339" text="rhinorrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="342" end="348" text="coryza" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="351" end="358" text="malaise" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="361" end="367" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="370" end="378" text="headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="381" end="402" text="decreased p.o. intake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="405" end="426" text="loose bowel movements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="432" end="440" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="448" end="453" text="blood" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E22" start="456" end="478" text="decreased urine output" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="484" end="497" text="sick contacts" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E24" start="504" end="512" text="flu shot" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="528" end="552" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="563" end="584" text="labile blood pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="590" end="613" text="systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="643" end="666" text="systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="699" end="731" text="two liters of intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="744" end="755" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="759" end="790" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="795" end="812" text="closer monitoring" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="826" end="838" text="early sepsis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="841" end="871" text="The Intensive Care Unit course" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="908" end="934" text="broad spectrum antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="946" end="970" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T5" start="1585" end="1593" text="the time" type="DATE" val="2016-12-27" mod="NA" />
+<TIMEX3 id="T6" start="1652" end="1660" text="the time" type="DATE" val="2016-12-27" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2016-12-24" type="DATE" val="2016-12-24" mod="NA" />
+<TIMEX3 id="T3" start="201" end="205" text="2000" type="DATE" val="2000" mod="NA" />
+<TIMEX3 id="T4" start="296" end="304" text="four day" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T0" start="46" end="56" text="2016-12-27" type="DATE" val="2016-12-27" mod="NA" />
+<TIMEX3 id="T2" start="513" end="522" text="this year" type="DURATION" val="P1Y" mod="NA" />
+<TLINK id="TL0" fromID="E2" fromText="Admission" toID="T1" toText="2016-12-24" type="OVERLAP" />
+<TLINK id="TL1" fromID="E3" fromText="Discharge" toID="T0" toText="2016-12-27" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="hyperlipidemia" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL11" fromID="E10" fromText="multiple urinary tract infections" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL12" fromID="E13" fromText="rhinorrhea" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL13" fromID="E14" fromText="coryza" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL14" fromID="E15" fromText="malaise" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL15" fromID="E16" fromText="chills" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL16" fromID="E17" fromText="headache" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL17" fromID="E18" fromText="decreased p.o. intake" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL18" fromID="E19" fromText="loose bowel movements" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL19" fromID="E20" fromText="diarrhea" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL2" fromID="E0" fromText="breast cancer" toID="E11" toText="presents" type="BEFORE" />
+<TLINK id="TL20" fromID="E21" fromText="blood" toID="E20" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL21" fromID="E22" fromText="decreased urine output" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL22" fromID="E23" fromText="sick contacts" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL23" fromID="E24" fromText="flu shot" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL24" fromID="E24" fromText="flu shot" toID="T2" toText="this year" type="OVERLAP" />
+<TLINK id="TL25" fromID="T2" fromText="this year" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="TL26" fromID="E30" fromText="the Emergency Department" toID="E11" toText="presents" type="AFTER" />
+<TLINK id="TL27" fromID="E25" fromText="labile blood pressure" toID="E30" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL28" fromID="E26" fromText="systolic blood pressure" toID="E25" toText="labile blood pressure" type="OVERLAP" />
+<TLINK id="TL29" fromID="E27" fromText="systolic blood pressure" toID="E30" toText="the Emergency Department" type="BEFORE" />
+<TLINK id="TL3" fromID="T4" fromText="four day" toID="E11" toText="presents" type="BEFORE" />
+<TLINK id="TL30" fromID="E28" fromText="two liters of intravenous fluids" toID="E25" toText="labile blood pressure" type="BEFORE" />
+<TLINK id="TL31" fromID="E30" fromText="the Emergency Department" toID="E29" toText="transferred" type="BEFORE" />
+<TLINK id="TL32" fromID="E33" fromText="the Medical Intensive Care Unit" toID="E29" toText="transferred" type="AFTER" />
+<TLINK id="TL33" fromID="E34" fromText="closer monitoring" toID="E33" toText="the Medical Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL34" fromID="E35" fromText="early sepsis" toID="E34" toText="closer monitoring" type="BEFORE" />
+<TLINK id="TL35" fromID="E36" fromText="The Intensive Care Unit course" toID="E33" toText="the Medical Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL36" fromID="E36" fromText="The Intensive Care Unit course" toID="E41" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL37" fromID="E37" fromText="broad spectrum antibiotics" toID="E36" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL38" fromID="E38" fromText="a white blood cell count" toID="E36" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL39" fromID="E39" fromText="Levaquin" toID="E37" toText="broad spectrum antibiotics" type="AFTER" />
+<TLINK id="TL4" fromID="E12" fromText="dry cough" toID="T4" toText="four day" type="OVERLAP" />
+<TLINK id="TL40" fromID="E40" fromText="early pneumonia pending cultures" toID="E39" toText="Levaquin" type="BEFORE" />
+<TLINK id="TL41" fromID="E42" fromText="chest x-ray" toID="E41" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL42" fromID="E43" fromText="packed red blood cells" toID="E41" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL43" fromID="E44" fromText="a hematocrit" toID="E43" toText="packed red blood cells" type="BEFORE" />
+<TLINK id="TL44" fromID="E45" fromText="appropriate bump" toID="E43" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL45" fromID="E46" fromText="her hematocrit" toID="E44" toText="a hematocrit" type="AFTER" />
+<TLINK id="TL46" fromID="E46" fromText="her hematocrit" toID="E45" toText="appropriate bump" type="OVERLAP" />
+<TLINK id="TL47" fromID="E47" fromText="evidence" toID="E45" toText="appropriate bump" type="OVERLAP" />
+<TLINK id="TL48" fromID="E48" fromText="bleeding" toID="E47" toText="evidence" type="OVERLAP" />
+<TLINK id="TL49" fromID="E50" fromText="blood pressure" toID="E48" toText="bleeding" type="OVERLAP" />
+<TLINK id="TL5" fromID="E0" fromText="breast cancer" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL50" fromID="E52" fromText="central access" toID="E41" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL51" fromID="E54" fromText="The sepsis protocol" toID="E41" toText="The Intensive Care Unit course" type="BEFORE" />
+<TLINK id="TL53" fromID="E55" fromText="her liver function tests" toID="E60" toText="discharge" type="OVERLAP" />
+<TLINK id="TL54" fromID="E56" fromText="Random cortisol" toID="T5" toText="the time" type="OVERLAP" />
+<TLINK id="TL55" fromID="E57" fromText="her DFA" toID="T5" toText="the time" type="OVERLAP" />
+<TLINK id="TL56" fromID="E58" fromText="influenzae A" toID="T5" toText="the time" type="OVERLAP" />
+<TLINK id="TL57" fromID="E59" fromText="a viral culture" toID="T5" toText="the time" type="OVERLAP" />
+<TLINK id="TL58" fromID="T5" fromText="the time" toID="E60" toText="discharge" type="OVERLAP" />
+<TLINK id="TL59" fromID="T5" fromText="the time" toID="T6" toText="the time" type="OVERLAP" />
+<TLINK id="TL6" fromID="E6" fromText="lumpectomy" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL60" fromID="E60" fromText="discharge" toID="E63" toText="discharge" type="OVERLAP" />
+<TLINK id="TL61" fromID="T6" fromText="the time" toID="E63" toText="discharge" type="OVERLAP" />
+<TLINK id="TL62" fromID="E61" fromText="Blood and urine cultures" toID="E62" toText="growth" type="OVERLAP" />
+<TLINK id="TL63" fromID="E62" fromText="growth" toID="T6" toText="the time" type="OVERLAP" />
+<TLINK id="TL64" fromID="E64" fromText="a right lower extremity noninvasive ultrasound" toID="E36" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL65" fromID="E64" fromText="a right lower extremity noninvasive ultrasound" toID="E65" toText="deep venous thrombosis" type="BEFORE" />
+<TLINK id="TL66" fromID="E66" fromText="Stage I breast cancer" toID="E2" toText="Admission" type="BEFORE" />
+<TLINK id="TL67" fromID="E66" fromText="Stage I breast cancer" toID="E69" toText="presents" type="BEFORE" />
+<TLINK id="TL68" fromID="E67" fromText="hypertension" toID="E2" toText="Admission" type="BEFORE" />
+<TLINK id="TL69" fromID="E68" fromText="hyperlipidemia ," toID="E2" toText="Admission" type="BEFORE" />
+<TLINK id="TL7" fromID="E5" fromText="radiation therapy" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL70" fromID="E69" fromText="presents" toID="E11" toText="presents" type="OVERLAP" />
+<TLINK id="TL71" fromID="E70" fromText="a leukocytosis/bandemia" toID="E69" toText="presents" type="BEFORE" />
+<TLINK id="TL73" fromID="E71" fromText="hypotension" toID="E2" toText="Admission" type="BEFORE" />
+<TLINK id="TL74" fromID="E72" fromText="dehydration" toID="E2" toText="Admission" type="BEFORE" />
+<TLINK id="TL75" fromID="E73" fromText="influenza" toID="E2" toText="Admission" type="BEFORE" />
+<TLINK id="TL76" fromID="E74" fromText="Medical Intensive Care Unit course" toID="E36" toText="The Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL77" fromID="E75" fromText="hemodynamically stable" toID="E74" toText="Medical Intensive Care Unit course" type="OVERLAP" />
+<TLINK id="TL78" fromID="E74" fromText="Medical Intensive Care Unit course" toID="E1" toText="transferred" type="BEFORE" />
+<TLINK id="TL8" fromID="E7" fromText="Tamoxifen" toID="T4" toText="four day" type="BEFORE" />
+<TLINK id="TL9" fromID="E8" fromText="hypertension" toID="T4" toText="four day" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2016-12-24" type="ADMISSION" dvalue="2016-12-24" />
+<SECTIME id="S1" start="46" end="56" text="2016-12-27" type="DISCHARGE" dvalue="2016-12-27" />
+<TLINK id="SECTIME0" fromID="E39" fromText="Levaquin" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E40" fromText="early pneumonia pending cultures" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E41" fromText="The Intensive Care Unit course" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME3" fromID="E42" fromText="chest x-ray" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME4" fromID="E43" fromText="packed red blood cells" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E44" fromText="a hematocrit" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME6" fromID="E45" fromText="appropriate bump" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E46" fromText="her hematocrit" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E47" fromText="evidence" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E48" fromText="bleeding" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E0" fromText="breast cancer" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E50" fromText="blood pressure" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME12" fromID="E51" fromText="a net fluid balance" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME13" fromID="E52" fromText="central access" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E54" fromText="The sepsis protocol" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME15" fromID="E55" fromText="her liver function tests" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME16" fromID="E56" fromText="Random cortisol" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E57" fromText="her DFA" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E58" fromText="influenzae A" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E59" fromText="a viral culture" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME20" fromID="E6" fromText="lumpectomy" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E60" fromText="discharge" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E61" fromText="Blood and urine cultures" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E62" fromText="growth" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E63" fromText="discharge" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E5" fromText="radiation therapy" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E64" fromText="a right lower extremity noninvasive ultrasound" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E65" fromText="deep venous thrombosis" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E66" fromText="Stage I breast cancer" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E67" fromText="hypertension" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E68" fromText="hyperlipidemia ," toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E7" fromText="Tamoxifen" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E69" fromText="presents" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E70" fromText="a leukocytosis/bandemia" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E71" fromText="hypotension" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E72" fromText="dehydration" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E73" fromText="influenza" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E74" fromText="Medical Intensive Care Unit course" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E75" fromText="hemodynamically stable" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E8" fromText="hypertension" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E1" fromText="transferred" toID="T0" toText="2016-12-27" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E9" fromText="hyperlipidemia" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E10" fromText="multiple urinary tract infections" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E11" fromText="presents" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E12" fromText="dry cough" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E13" fromText="rhinorrhea" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E14" fromText="coryza" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E15" fromText="malaise" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E16" fromText="chills" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E17" fromText="headache" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E18" fromText="decreased p.o. intake" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E19" fromText="loose bowel movements" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E20" fromText="diarrhea" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E21" fromText="blood" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E22" fromText="decreased urine output" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E23" fromText="sick contacts" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E24" fromText="flu shot" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E30" fromText="the Emergency Department" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E25" fromText="labile blood pressure" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E26" fromText="systolic blood pressure" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E27" fromText="systolic blood pressure" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E28" fromText="two liters of intravenous fluids" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E29" fromText="transferred" toID="T1" toText="2016-12-24" type="OVERLAP" />
+<TLINK id="SECTIME63" fromID="E33" fromText="the Medical Intensive Care Unit" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME64" fromID="E34" fromText="closer monitoring" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME65" fromID="E35" fromText="early sepsis" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E36" fromText="The Intensive Care Unit course" toID="T1" toText="2016-12-24" type="AFTER" />
+<TLINK id="SECTIME67" fromID="E37" fromText="broad spectrum antibiotics" toID="T1" toText="2016-12-24" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E38" fromText="a white blood cell count" toID="T1" toText="2016-12-24" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

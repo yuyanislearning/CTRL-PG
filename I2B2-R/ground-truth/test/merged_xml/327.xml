@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-08-22
+Discharge Date :
+2015-08-26
+Service :
+CMED
+History of Present Illness :
+68 year old right handed man with multiple vascular risk factors , including 2 previous strokes and two myocardial infarctions , hypertension and hypercholesterolemia , who presents with acute onset right sided hemiplegia and dysarthria .
+He went to the bathroom on his own at 6:12 AM and then called for help at 6:15 AM .
+His wife found him with weak right leg , flaccid right arm , and severe dysarthria .
+She called 911 and he was brought to Hahnemann General Hospital Lydia .
+ROS :
+Wife denies any recent bleeding , surgeries , or upper respiratory infection .
+Brief Hospital Course :
+Assessment :
+68M with multiple vascular risk factors presents with acute onset right-sided hemiparesis and dysarthria , aphasia concerning for acute left MCA infarct .
+Patient arrived in Daniel within 3 hours of symptom onset and head CT showed no evidence of bleed .
+However , as wife had not seen patient before he became symptomatic , there was some concern that he had symptoms earlier than 6 am , and therefore would be outside the 3 hour window for TPA .
+MRI was performed which showed diffusion abnormalities but no hyperintensity on T2 / FLAIR imaging supporting the acute onset .
+Therefore , IV tpa thrombolytics were administered within 3 hours of symptom onset .
+Within minutes the patient showed decreased right sided weakness and improved from a global aphasia to an anterior aphasia picture .
+Given the likely embolic etiology of infarct , carotid doppler and TTE were performed .
+Doppler revealed no hemodynamically significant lesions bilaterally .
+Echo did not reveal potential source of emboli , but showed striking left ventricle akinesis and hypokinesis presumbly due to past MI x 2 .
+Given that the stroke occurred while taking aspirin and plavix , and given the severe akinesis of the left ventricle , we decided to initiate anticoagulation with warfarin to help prevent future strokes .
+Anticoagulation therapy was initiated with heparin and coumadin beginning on the evening of 2016-08-23 .
+The patient and his wife , a nurse , were educated on low molecular wt heparin , which was started in the hospital on 2015-08-26 with close follow-up scheduled with Dr. Demmert of the Wareham VA primary care clinic the next morning .
+His depakote was continued for his bipolar disorder .
+On discharge , strength was nearly intact in the limbs , though he still had a right-sided facial droop .
+Additionally , he still had mild dysarthria and mild anterior aphasia .
+Additionally , risk factor modification was continued .
+Lipid panel was checked and showed good control of lipids on his home dose of zocor .
+Patient has no history of diabetes , and fasting glucose was 78 , but A1C was slightly elevated at 5.9 .
+He may need further glucose monitoring in the future .
+His home hypertensive medications were held while in the hospital to help increase cerebral perfusion and prevent further ischemia .
+They will be restarted on discharge .
+Speech therapy was also consulted , and recommended oupatient speech therapy .
+Similarly , outpatient PT was recommended for his gait difficulties from his previous strokes .
+Residual deficits include right side facial droop from previous stroke and moderately severe dysarthria and anterior aphasia with word finding difficulties .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="1014" end="1025" text="symptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="1063" end="1071" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1145" end="1148" text="TPA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="1151" end="1154" text="MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="1175" end="1181" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="1182" end="1205" text="diffusion abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1213" end="1227" text="hyperintensity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="1231" end="1249" text="T2 / FLAIR imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="1261" end="1276" text="the acute onset" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1291" end="1311" text="IV tpa thrombolytics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="135" end="165" text="multiple vascular risk factors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1348" end="1361" text="symptom onset" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1391" end="1397" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="1398" end="1428" text="decreased right sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1447" end="1463" text="a global aphasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1467" end="1494" text="an anterior aphasia picture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1514" end="1530" text="embolic etiology" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1534" end="1541" text="infarct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1544" end="1559" text="carotid doppler" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1564" end="1567" text="TTE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1585" end="1592" text="Doppler" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="1593" end="1601" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E77" start="1605" end="1652" text="hemodynamically significant lesions bilaterally" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="1655" end="1659" text="Echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="1668" end="1674" text="reveal" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E22" start="1695" end="1701" text="emboli" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="1708" end="1714" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="1715" end="1747" text="striking left ventricle akinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1752" end="1763" text="hypokinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1781" end="1788" text="past MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1806" end="1816" text="the stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1839" end="1846" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1851" end="1857" text="plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1870" end="1911" text="the severe akinesis of the left ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="189" end="196" text="strokes" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1937" end="1952" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1958" end="1966" text="warfarin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="1983" end="1997" text="future strokes" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2000" end="2023" text="Anticoagulation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2043" end="2050" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="205" end="227" text="myocardial infarctions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2055" end="2063" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2147" end="2155" text="educated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2159" end="2183" text="low molecular wt heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2207" end="2219" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E84" start="2239" end="2254" text="close follow-up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2285" end="2319" text="the Wareham VA primary care clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="230" end="242" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="2339" end="2351" text="His depakote" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2370" end="2390" text="his bipolar disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2396" end="2405" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2408" end="2434" text="strength was nearly intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="247" end="267" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2470" end="2496" text="a right-sided facial droop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="2527" end="2542" text="mild dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="2547" end="2568" text="mild anterior aphasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2586" end="2610" text="risk factor modification" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2627" end="2638" text="Lipid panel" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="2655" end="2661" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E94" start="2662" end="2684" text="good control of lipids" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="2688" end="2710" text="his home dose of zocor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="2739" end="2747" text="diabetes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E49" start="274" end="282" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="2754" end="2769" text="fasting glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2783" end="2786" text="A1C" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2791" end="2808" text="slightly elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="2830" end="2856" text="further glucose monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="288" end="322" text="acute onset right sided hemiplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="2873" end="2906" text="His home hypertensive medications" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E43" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="2926" end="2938" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E100" start="2987" end="3003" text="further ischemia" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="3006" end="3010" text="They" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="3019" end="3028" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="3032" end="3041" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E103" start="3096" end="3120" text="oupatient speech therapy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3135" end="3148" text="outpatient PT" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3169" end="3190" text="his gait difficulties" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="3196" end="3216" text="his previous strokes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3219" end="3236" text="Residual deficits" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="3245" end="3268" text="right side facial droop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="327" end="337" text="dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="3274" end="3289" text="previous stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="3294" end="3322" text="moderately severe dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3327" end="3343" text="anterior aphasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="3349" end="3374" text="word finding difficulties" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="343" end="363" text="went to the bathroom" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="395" end="410" text="called for help" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="433" end="438" text="found" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="448" end="462" text="weak right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="465" end="482" text="flaccid right arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="489" end="506" text="severe dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="513" end="523" text="called 911" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="535" end="542" text="brought" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="546" end="578" text="Hahnemann General Hospital Lydia" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E111" start="592" end="598" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="599" end="618" text="any recent bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E63" start="621" end="630" text="surgeries" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E64" start="636" end="663" text="upper respiratory infection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="712" end="742" text="multiple vascular risk factors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="743" end="751" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="757" end="792" text="acute onset right-sided hemiparesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="797" end="807" text="dysarthria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="810" end="817" text="aphasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="833" end="855" text="acute left MCA infarct" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="877" end="883" text="Daniel" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="902" end="915" text="symptom onset" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="920" end="927" text="head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="928" end="934" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E69" start="938" end="946" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E70" start="950" end="955" text="bleed" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T8" start="1085" end="1089" text="6 am" type="TIME" val="2015-08-22T06:00" mod="NA" />
+<TIMEX3 id="T7" start="1123" end="1133" text="the 3 hour" type="DURATION" val="PT3H" mod="NA" />
+<TIMEX3 id="T9" start="1337" end="1344" text="3 hours" type="DURATION" val="PT3H" mod="NA" />
+<TIMEX3 id="T10" start="1371" end="1378" text="minutes" type="DURATION" val="PT3M" mod="APPROX" />
+<TIMEX3 id="T2" start="178" end="179" text="2" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T11" start="1789" end="1792" text="x 2" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2015-08-22" type="DATE" val="2015-08-22" mod="NA" />
+<TIMEX3 id="T3" start="201" end="204" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T12" start="2092" end="2102" text="2016-08-23" type="DATE" val="2015-08-23" mod="END" />
+<TIMEX3 id="T13" start="2223" end="2233" text="2015-08-26" type="DATE" val="2015-08-26" mod="NA" />
+<TIMEX3 id="T14" start="2320" end="2336" text="the next morning" type="DATE" val="2015-08-27" mod="START" />
+<TIMEX3 id="T4" start="378" end="385" text="6:12 AM" type="TIME" val="2015-08-22T06:12" mod="NA" />
+<TIMEX3 id="T5" start="414" end="421" text="6:15 AM" type="TIME" val="2015-08-22T06:15" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2015-08-26" type="DATE" val="2015-08-26" mod="NA" />
+<TIMEX3 id="T6" start="891" end="898" text="3 hours" type="DURATION" val="PT3H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="acute onset right-sided hemiparesis" toID="E2" toText="dysarthria" type="OVERLAP" />
+<TLINK id="TL10" fromID="E45" fromText="strokes" toID="E44" toText="multiple vascular risk factors" type="OVERLAP" />
+<TLINK id="TL100" fromID="E84" fromText="close follow-up" toID="E83" toText="the hospital" type="AFTER" />
+<TLINK id="TL101" fromID="E85" fromText="the Wareham VA primary care clinic" toID="E84" toText="close follow-up" type="OVERLAP" />
+<TLINK id="TL102" fromID="E85" fromText="the Wareham VA primary care clinic" toID="T14" toText="the next morning" type="OVERLAP" />
+<TLINK id="TL103" fromID="T14" fromText="the next morning" toID="T13" toText="2015-08-26" type="AFTER" />
+<TLINK id="TL104" fromID="E61" fromText="His depakote" toID="E83" toText="the hospital" type="BEFORE" />
+<TLINK id="TL105" fromID="E86" fromText="his bipolar disorder" toID="E61" toText="His depakote" type="BEFORE" />
+<TLINK id="TL106" fromID="E87" fromText="discharge" toID="E43" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL107" fromID="E88" fromText="strength was nearly intact" toID="E87" toText="discharge" type="BEFORE" />
+<TLINK id="TL108" fromID="E89" fromText="a right-sided facial droop" toID="E88" toText="strength was nearly intact" type="OVERLAP" />
+<TLINK id="TL109" fromID="E90" fromText="mild dysarthria" toID="E88" toText="strength was nearly intact" type="OVERLAP" />
+<TLINK id="TL11" fromID="E46" fromText="myocardial infarctions" toID="E45" toText="strokes" type="OVERLAP" />
+<TLINK id="TL110" fromID="E91" fromText="mild anterior aphasia" toID="E90" toText="mild dysarthria" type="OVERLAP" />
+<TLINK id="TL111" fromID="E90" fromText="mild dysarthria" toID="E51" toText="dysarthria" type="OVERLAP" />
+<TLINK id="TL112" fromID="E91" fromText="mild anterior aphasia" toID="E3" toText="aphasia" type="OVERLAP" />
+<TLINK id="TL113" fromID="E92" fromText="risk factor modification" toID="E91" toText="mild anterior aphasia" type="OVERLAP" />
+<TLINK id="TL114" fromID="E35" fromText="Lipid panel" toID="E92" toText="risk factor modification" type="OVERLAP" />
+<TLINK id="TL115" fromID="E93" fromText="showed" toID="E35" toText="Lipid panel" type="OVERLAP" />
+<TLINK id="TL116" fromID="E94" fromText="good control of lipids" toID="E93" toText="showed" type="BEFORE" />
+<TLINK id="TL117" fromID="E95" fromText="his home dose of zocor" toID="E94" toText="good control of lipids" type="OVERLAP" />
+<TLINK id="TL118" fromID="E96" fromText="diabetes" toID="E83" toText="the hospital" type="BEFORE" />
+<TLINK id="TL119" fromID="E83" fromText="the hospital" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL12" fromID="E46" fromText="myocardial infarctions" toID="T3" toText="two" type="OVERLAP" />
+<TLINK id="TL120" fromID="E83" fromText="the hospital" toID="E43" toText="Discharge" type="BEFORE" />
+<TLINK id="TL121" fromID="E36" fromText="fasting glucose" toID="E94" toText="good control of lipids" type="OVERLAP" />
+<TLINK id="TL122" fromID="E37" fromText="A1C" toID="E36" toText="fasting glucose" type="OVERLAP" />
+<TLINK id="TL123" fromID="E38" fromText="slightly elevated" toID="E37" toText="A1C" type="OVERLAP" />
+<TLINK id="TL124" fromID="E97" fromText="further glucose monitoring" toID="E36" toText="fasting glucose" type="AFTER" />
+<TLINK id="TL125" fromID="E99" fromText="the hospital" toID="E83" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL126" fromID="E98" fromText="His home hypertensive medications" toID="E99" toText="the hospital" type="BEFORE" />
+<TLINK id="TL127" fromID="E100" fromText="further ischemia" toID="E98" toText="His home hypertensive medications" type="AFTER" />
+<TLINK id="TL128" fromID="E101" fromText="They" toID="E98" toText="His home hypertensive medications" type="OVERLAP" />
+<TLINK id="TL129" fromID="E42" fromText="discharge" toID="E87" toText="discharge" type="OVERLAP" />
+<TLINK id="TL13" fromID="E47" fromText="hypertension" toID="E46" toText="myocardial infarctions" type="OVERLAP" />
+<TLINK id="TL130" fromID="E102" fromText="restarted" toID="E42" toText="discharge" type="OVERLAP" />
+<TLINK id="TL131" fromID="E101" fromText="They" toID="E102" toText="restarted" type="AFTER" />
+<TLINK id="TL132" fromID="E103" fromText="oupatient speech therapy" toID="E42" toText="discharge" type="AFTER" />
+<TLINK id="TL133" fromID="E104" fromText="outpatient PT" toID="E103" toText="oupatient speech therapy" type="OVERLAP" />
+<TLINK id="TL134" fromID="E39" fromText="his previous strokes" toID="E105" toText="his gait difficulties" type="BEFORE" />
+<TLINK id="TL135" fromID="E39" fromText="his previous strokes" toID="E25" toText="past MI" type="OVERLAP" />
+<TLINK id="TL136" fromID="E107" fromText="right side facial droop" toID="E89" toText="a right-sided facial droop" type="OVERLAP" />
+<TLINK id="TL137" fromID="E106" fromText="Residual deficits" toID="E107" toText="right side facial droop" type="OVERLAP" />
+<TLINK id="TL138" fromID="E40" fromText="previous stroke" toID="E26" toText="the stroke" type="OVERLAP" />
+<TLINK id="TL139" fromID="E108" fromText="moderately severe dysarthria" toID="E109" toText="anterior aphasia" type="OVERLAP" />
+<TLINK id="TL14" fromID="E48" fromText="hypercholesterolemia" toID="E47" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL140" fromID="E90" fromText="mild dysarthria" toID="E108" toText="moderately severe dysarthria" type="OVERLAP" />
+<TLINK id="TL141" fromID="E108" fromText="moderately severe dysarthria" toID="E107" toText="right side facial droop" type="OVERLAP" />
+<TLINK id="TL142" fromID="E110" fromText="word finding difficulties" toID="E109" toText="anterior aphasia" type="OVERLAP" />
+<TLINK id="TL15" fromID="E49" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL16" fromID="E50" fromText="acute onset right sided hemiplegia" toID="E49" toText="presents" type="BEFORE" />
+<TLINK id="TL17" fromID="E51" fromText="dysarthria" toID="E50" toText="acute onset right sided hemiplegia" type="OVERLAP" />
+<TLINK id="TL18" fromID="E52" fromText="went to the bathroom" toID="T4" toText="6:12 AM" type="OVERLAP" />
+<TLINK id="TL19" fromID="E52" fromText="went to the bathroom" toID="E49" toText="presents" type="BEFORE" />
+<TLINK id="TL2" fromID="E2" fromText="dysarthria" toID="E3" toText="aphasia" type="OVERLAP" />
+<TLINK id="TL20" fromID="E53" fromText="called for help" toID="T5" toText="6:15 AM" type="OVERLAP" />
+<TLINK id="TL21" fromID="E53" fromText="called for help" toID="E52" toText="went to the bathroom" type="AFTER" />
+<TLINK id="TL22" fromID="E54" fromText="found" toID="E53" toText="called for help" type="AFTER" />
+<TLINK id="TL23" fromID="E55" fromText="weak right leg" toID="E54" toText="found" type="BEFORE" />
+<TLINK id="TL24" fromID="E56" fromText="flaccid right arm" toID="E55" toText="weak right leg" type="OVERLAP" />
+<TLINK id="TL25" fromID="E57" fromText="severe dysarthria" toID="E56" toText="flaccid right arm" type="OVERLAP" />
+<TLINK id="TL26" fromID="E58" fromText="called 911" toID="E54" toText="found" type="AFTER" />
+<TLINK id="TL27" fromID="E59" fromText="brought" toID="E58" toText="called 911" type="AFTER" />
+<TLINK id="TL28" fromID="E60" fromText="Hahnemann General Hospital Lydia" toID="E59" toText="brought" type="AFTER" />
+<TLINK id="TL29" fromID="E59" fromText="brought" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL3" fromID="E18" fromText="carotid doppler" toID="E19" toText="TTE" type="OVERLAP" />
+<TLINK id="TL30" fromID="E111" fromText="denies" toID="E59" toText="brought" type="OVERLAP" />
+<TLINK id="TL31" fromID="E62" fromText="any recent bleeding" toID="E111" toText="denies" type="BEFORE" />
+<TLINK id="TL32" fromID="E63" fromText="surgeries" toID="E111" toText="denies" type="BEFORE" />
+<TLINK id="TL33" fromID="E64" fromText="upper respiratory infection" toID="E62" toText="any recent bleeding" type="OVERLAP" />
+<TLINK id="TL34" fromID="E65" fromText="multiple vascular risk factors" toID="E44" toText="multiple vascular risk factors" type="OVERLAP" />
+<TLINK id="TL35" fromID="E66" fromText="presents" toID="E49" toText="presents" type="OVERLAP" />
+<TLINK id="TL36" fromID="E1" fromText="acute onset right-sided hemiparesis" toID="E50" toText="acute onset right sided hemiplegia" type="OVERLAP" />
+<TLINK id="TL37" fromID="E2" fromText="dysarthria" toID="E51" toText="dysarthria" type="OVERLAP" />
+<TLINK id="TL38" fromID="E3" fromText="aphasia" toID="E2" toText="dysarthria" type="OVERLAP" />
+<TLINK id="TL39" fromID="E67" fromText="acute left MCA infarct" toID="E3" toText="aphasia" type="OVERLAP" />
+<TLINK id="TL4" fromID="E33" fromText="heparin" toID="E34" toText="coumadin" type="OVERLAP" />
+<TLINK id="TL40" fromID="E41" fromText="Daniel" toID="E60" toText="Hahnemann General Hospital Lydia" type="OVERLAP" />
+<TLINK id="TL41" fromID="T6" fromText="3 hours" toID="E50" toText="acute onset right sided hemiplegia" type="AFTER" />
+<TLINK id="TL42" fromID="E4" fromText="symptom onset" toID="E50" toText="acute onset right sided hemiplegia" type="OVERLAP" />
+<TLINK id="TL43" fromID="E5" fromText="head CT" toID="T6" toText="3 hours" type="AFTER" />
+<TLINK id="TL44" fromID="E68" fromText="showed" toID="E5" toText="head CT" type="OVERLAP" />
+<TLINK id="TL45" fromID="E69" fromText="evidence" toID="E68" toText="showed" type="OVERLAP" />
+<TLINK id="TL46" fromID="E70" fromText="bleed" toID="E69" toText="evidence" type="BEFORE" />
+<TLINK id="TL47" fromID="E6" fromText="symptomatic" toID="E4" toText="symptom onset" type="OVERLAP" />
+<TLINK id="TL48" fromID="E7" fromText="symptoms" toID="E6" toText="symptomatic" type="OVERLAP" />
+<TLINK id="TL49" fromID="E7" fromText="symptoms" toID="T8" toText="6 am" type="BEFORE" />
+<TLINK id="TL5" fromID="E36" fromText="fasting glucose" toID="E37" toText="A1C" type="OVERLAP" />
+<TLINK id="TL50" fromID="T7" fromText="the 3 hour" toID="T6" toText="3 hours" type="OVERLAP" />
+<TLINK id="TL51" fromID="E8" fromText="TPA" toID="T7" toText="the 3 hour" type="OVERLAP" />
+<TLINK id="TL52" fromID="E9" fromText="MRI" toID="E5" toText="head CT" type="AFTER" />
+<TLINK id="TL53" fromID="E71" fromText="showed" toID="E9" toText="MRI" type="OVERLAP" />
+<TLINK id="TL54" fromID="E10" fromText="diffusion abnormalities" toID="E71" toText="showed" type="BEFORE" />
+<TLINK id="TL55" fromID="E72" fromText="hyperintensity" toID="E10" toText="diffusion abnormalities" type="OVERLAP" />
+<TLINK id="TL56" fromID="E11" fromText="T2 / FLAIR imaging" toID="E9" toText="MRI" type="OVERLAP" />
+<TLINK id="TL57" fromID="E73" fromText="the acute onset" toID="E50" toText="acute onset right sided hemiplegia" type="OVERLAP" />
+<TLINK id="TL58" fromID="E12" fromText="IV tpa thrombolytics" toID="E8" toText="TPA" type="OVERLAP" />
+<TLINK id="TL59" fromID="T9" fromText="3 hours" toID="T7" toText="the 3 hour" type="OVERLAP" />
+<TLINK id="TL6" fromID="E37" fromText="A1C" toID="E38" toText="slightly elevated" type="OVERLAP" />
+<TLINK id="TL60" fromID="E13" fromText="symptom onset" toID="E73" toText="the acute onset" type="OVERLAP" />
+<TLINK id="TL61" fromID="E12" fromText="IV tpa thrombolytics" toID="T10" toText="minutes" type="BEFORE" />
+<TLINK id="TL62" fromID="E74" fromText="showed" toID="T10" toText="minutes" type="OVERLAP" />
+<TLINK id="TL63" fromID="E14" fromText="decreased right sided weakness" toID="E14" toText="decreased right sided weakness" type="BEFORE" />
+<TLINK id="TL64" fromID="E15" fromText="a global aphasia" toID="E14" toText="decreased right sided weakness" type="BEFORE" />
+<TLINK id="TL65" fromID="E75" fromText="embolic etiology" toID="E22" toText="emboli" type="OVERLAP" />
+<TLINK id="TL66" fromID="E16" fromText="an anterior aphasia picture" toID="E14" toText="decreased right sided weakness" type="OVERLAP" />
+<TLINK id="TL67" fromID="E75" fromText="embolic etiology" toID="E17" toText="infarct" type="BEFORE" />
+<TLINK id="TL68" fromID="E17" fromText="infarct" toID="E67" toText="acute left MCA infarct" type="OVERLAP" />
+<TLINK id="TL69" fromID="E17" fromText="infarct" toID="E18" toText="carotid doppler" type="BEFORE" />
+<TLINK id="TL7" fromID="E43" fromText="Discharge" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="TL70" fromID="E18" fromText="carotid doppler" toID="E20" toText="Doppler" type="OVERLAP" />
+<TLINK id="TL71" fromID="E76" fromText="revealed" toID="E20" toText="Doppler" type="OVERLAP" />
+<TLINK id="TL72" fromID="E77" fromText="hemodynamically significant lesions bilaterally" toID="E76" toText="revealed" type="BEFORE" />
+<TLINK id="TL73" fromID="E21" fromText="Echo" toID="E19" toText="TTE" type="OVERLAP" />
+<TLINK id="TL74" fromID="E78" fromText="reveal" toID="E21" toText="Echo" type="OVERLAP" />
+<TLINK id="TL75" fromID="E79" fromText="showed" toID="E78" toText="reveal" type="OVERLAP" />
+<TLINK id="TL76" fromID="E23" fromText="striking left ventricle akinesis" toID="E79" toText="showed" type="BEFORE" />
+<TLINK id="TL77" fromID="E24" fromText="hypokinesis" toID="E23" toText="striking left ventricle akinesis" type="OVERLAP" />
+<TLINK id="TL78" fromID="E25" fromText="past MI" toID="T11" toText="x 2" type="OVERLAP" />
+<TLINK id="TL79" fromID="E25" fromText="past MI" toID="E46" toText="myocardial infarctions" type="OVERLAP" />
+<TLINK id="TL8" fromID="E44" fromText="multiple vascular risk factors" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL80" fromID="E29" fromText="the severe akinesis of the left ventricle" toID="E23" toText="striking left ventricle akinesis" type="OVERLAP" />
+<TLINK id="TL82" fromID="E17" fromText="infarct" toID="E26" toText="the stroke" type="OVERLAP" />
+<TLINK id="TL83" fromID="E29" fromText="the severe akinesis of the left ventricle" toID="E26" toText="the stroke" type="OVERLAP" />
+<TLINK id="TL84" fromID="E26" fromText="the stroke" toID="E80" toText="future strokes" type="BEFORE" />
+<TLINK id="TL85" fromID="E27" fromText="aspirin" toID="E28" toText="plavix" type="OVERLAP" />
+<TLINK id="TL86" fromID="E27" fromText="aspirin" toID="E26" toText="the stroke" type="BEFORE" />
+<TLINK id="TL87" fromID="E30" fromText="anticoagulation" toID="E31" toText="warfarin" type="OVERLAP" />
+<TLINK id="TL88" fromID="E31" fromText="warfarin" toID="E80" toText="future strokes" type="BEFORE" />
+<TLINK id="TL89" fromID="E30" fromText="anticoagulation" toID="E26" toText="the stroke" type="AFTER" />
+<TLINK id="TL9" fromID="E45" fromText="strokes" toID="T2" toText="2" type="OVERLAP" />
+<TLINK id="TL90" fromID="E32" fromText="Anticoagulation therapy" toID="T12" toText="2016-08-23" type="AFTER" />
+<TLINK id="TL91" fromID="E32" fromText="Anticoagulation therapy" toID="E30" toText="anticoagulation" type="OVERLAP" />
+<TLINK id="TL92" fromID="E33" fromText="heparin" toID="E32" toText="Anticoagulation therapy" type="OVERLAP" />
+<TLINK id="TL93" fromID="E34" fromText="coumadin" toID="E33" toText="heparin" type="OVERLAP" />
+<TLINK id="TL94" fromID="T12" fromText="2016-08-23" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL95" fromID="T12" fromText="2016-08-23" toID="E43" toText="Discharge" type="BEFORE" />
+<TLINK id="TL96" fromID="E81" fromText="educated" toID="T12" toText="2016-08-23" type="OVERLAP" />
+<TLINK id="TL97" fromID="E82" fromText="low molecular wt heparin" toID="T13" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="TL98" fromID="E82" fromText="low molecular wt heparin" toID="E83" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL99" fromID="T13" fromText="2015-08-26" toID="E43" toText="Discharge" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2015-08-22" type="ADMISSION" dvalue="2015-08-22" />
+<SECTIME id="S1" start="46" end="56" text="2015-08-26" type="DISCHARGE" dvalue="2015-08-26" />
+<TLINK id="SECTIME0" fromID="E6" fromText="symptomatic" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E7" fromText="symptoms" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E8" fromText="TPA" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E9" fromText="MRI" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E71" fromText="showed" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E10" fromText="diffusion abnormalities" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E72" fromText="hyperintensity" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E11" fromText="T2 / FLAIR imaging" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E73" fromText="the acute onset" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E12" fromText="IV tpa thrombolytics" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E44" fromText="multiple vascular risk factors" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="symptom onset" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E74" fromText="showed" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E14" fromText="decreased right sided weakness" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E15" fromText="a global aphasia" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E16" fromText="an anterior aphasia picture" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E75" fromText="embolic etiology" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E17" fromText="infarct" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E18" fromText="carotid doppler" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E19" fromText="TTE" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E20" fromText="Doppler" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E76" fromText="revealed" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E77" fromText="hemodynamically significant lesions bilaterally" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E21" fromText="Echo" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E78" fromText="reveal" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E22" fromText="emboli" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E79" fromText="showed" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E23" fromText="striking left ventricle akinesis" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E24" fromText="hypokinesis" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E25" fromText="past MI" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E26" fromText="the stroke" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E27" fromText="aspirin" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E28" fromText="plavix" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E29" fromText="the severe akinesis of the left ventricle" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E45" fromText="strokes" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E30" fromText="anticoagulation" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E31" fromText="warfarin" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E80" fromText="future strokes" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E32" fromText="Anticoagulation therapy" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E33" fromText="heparin" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E46" fromText="myocardial infarctions" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E34" fromText="coumadin" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E81" fromText="educated" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E82" fromText="low molecular wt heparin" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E83" fromText="the hospital" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E84" fromText="close follow-up" toID="T1" toText="2015-08-26" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E85" fromText="the Wareham VA primary care clinic" toID="T1" toText="2015-08-26" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E47" fromText="hypertension" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E61" fromText="His depakote" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E86" fromText="his bipolar disorder" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E87" fromText="discharge" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="SECTIME51" fromID="E88" fromText="strength was nearly intact" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="SECTIME52" fromID="E48" fromText="hypercholesterolemia" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E89" fromText="a right-sided facial droop" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E90" fromText="mild dysarthria" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E91" fromText="mild anterior aphasia" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E92" fromText="risk factor modification" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E35" fromText="Lipid panel" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E93" fromText="showed" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E94" fromText="good control of lipids" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E95" fromText="his home dose of zocor" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E96" fromText="diabetes" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E49" fromText="presents" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME63" fromID="E36" fromText="fasting glucose" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E37" fromText="A1C" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E38" fromText="slightly elevated" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E97" fromText="further glucose monitoring" toID="T1" toText="2015-08-26" type="AFTER" />
+<TLINK id="SECTIME67" fromID="E50" fromText="acute onset right sided hemiplegia" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME68" fromID="E98" fromText="His home hypertensive medications" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E99" fromText="the hospital" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E100" fromText="further ischemia" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E101" fromText="They" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="SECTIME72" fromID="E102" fromText="restarted" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="SECTIME73" fromID="E42" fromText="discharge" toID="T1" toText="2015-08-26" type="OVERLAP" />
+<TLINK id="SECTIME74" fromID="E103" fromText="oupatient speech therapy" toID="T1" toText="2015-08-26" type="AFTER" />
+<TLINK id="SECTIME75" fromID="E104" fromText="outpatient PT" toID="T1" toText="2015-08-26" type="AFTER" />
+<TLINK id="SECTIME76" fromID="E105" fromText="his gait difficulties" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E39" fromText="his previous strokes" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E106" fromText="Residual deficits" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E107" fromText="right side facial droop" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E51" fromText="dysarthria" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME81" fromID="E40" fromText="previous stroke" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E108" fromText="moderately severe dysarthria" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E109" fromText="anterior aphasia" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E110" fromText="word finding difficulties" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E52" fromText="went to the bathroom" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME86" fromID="E53" fromText="called for help" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME87" fromID="E54" fromText="found" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME88" fromID="E55" fromText="weak right leg" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME89" fromID="E56" fromText="flaccid right arm" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME90" fromID="E57" fromText="severe dysarthria" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME91" fromID="E58" fromText="called 911" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME92" fromID="E59" fromText="brought" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME93" fromID="E60" fromText="Hahnemann General Hospital Lydia" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME94" fromID="E111" fromText="denies" toID="T0" toText="2015-08-22" type="OVERLAP" />
+<TLINK id="SECTIME95" fromID="E62" fromText="any recent bleeding" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E63" fromText="surgeries" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E64" fromText="upper respiratory infection" toID="T0" toText="2015-08-22" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E65" fromText="multiple vascular risk factors" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E66" fromText="presents" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E1" fromText="acute onset right-sided hemiparesis" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E2" fromText="dysarthria" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E3" fromText="aphasia" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E67" fromText="acute left MCA infarct" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E41" fromText="Daniel" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E4" fromText="symptom onset" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E5" fromText="head CT" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E68" fromText="showed" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E69" fromText="evidence" toID="T1" toText="2015-08-26" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E70" fromText="bleed" toID="T1" toText="2015-08-26" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

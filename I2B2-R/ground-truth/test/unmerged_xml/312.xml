@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-03-29
+Discharge Date :
+2019-04-01
+Service :
+NEUROLOGY
+History of Present Illness :
+The patient is a 83 yo R-handed man with a history of multiple intracranial hemorrhages during the last few years , pacemaker , hyperlipidemia , arrhythmia who now presents with gradual decline in gait and slowing of mentation over the last week .
+The patient had a fall about ten days ago , when he was walking the dog .
+The leash got wrapped around his legs .
+According to his wife he had a small abrasion on the top of his head , but nothing major .
+He did not complain about a headache .
+He was at baseline with respect to his gait ( at baseline unsteady , though he refuses to walk with a walker ) and his mentation ( at baseline difficulties with memory since months ; keeps forgetting appointments ).
+Then about a week ago , the patient and his wife noted that his gait became even more unsteady , though he did not fall .
+He also had difficulties navigating through his apartment , having difficulties finding the fridge for example .
+They were concerned that the fall might have caused another bleed , as had happened in the past , and this prompted them to come to the Deanna .
+No headache , neckpain , nausea , vomiting or focal weakness / numbness .
+Review of systems : denies any fever , chills , weight loss , visual changes , hearing changes , dysphagia , tingling , numbness , bowel-bladder dysfunction , chest pain , shortness of breath , abdominal pain , dysuria , hematuria , or bright red blood per rectum .
+His legs have been feeling weaker , bilaterally since the last week .
+Brief Hospital Course :
+The patient is a 83 yo man with a history of past intracranial hemorrhages ( most recent 07-01 with R-frontal hemorrhage ) who presented with gradually slowing of mentation and increased gait instability since one week .
+On initial exam the patient was not oriented to time , seemed somewhat slow , and had difficulties generating a list of animals .
+His cranial nerves and strength were full , and the sensory exam showed mildly decreased vibration and proprioception in both LE , suggesting peripheral neuropathy .
+A CT was performed in the Deanna that showed a new significant R-frontal intraparenchymal hemorrhage in the same location as the prior bleed .
+The patient was seen by both neurology and neurosurgery , and the two teams agreed that the etiology seemed to be related to underlying amyloidosis .
+During the last admission the question of a mass underlying a hemorrhage in the R-frontal region was raised .
+The location of the hemorrhage was not felt to be typical for hypertensive bleed ( cortical ) and it was felt to be unlikely that the recent fall was related to the bleed .
+The patient could not undergo an MRI due to his pacer .
+He was admitted to the neurology ICU for closer monitoring and was stable overnight - BP was initially elevated and required a labetalol drip for < 24 hours , then stabilized .
+The goal SBP of < 150 was achieved .
+Coags and UA were checked and were normal .
+For the question of seizure activity associated with a cortical bleed , he was started prophylactically on Keppra ( given questionable allergy to dilantin ) , at 500 mg bid ; no seizure activity was seen .
+This medication should be continued as an outpatient at least while the bleed has time to clear up , with planned titration up to 1000 mg bid on 04-05 .
+Head CT repeated on 03-30 was unchanged , and the patient remained stable with only very suble focal exam findings ( very mild right pronator drift ) as well as his persistently poor memory related to dementia .
+The plan after 24 hours was to transfer him to the floor , but the hospital was full and he never got a bed .
+Cardiovascularly , lipitor and amiodarone were continued .
+He could not get an MRI due to his pacemaker .
+There were no telemetry events , and he ruled out by enzyme .
+Pulmonlologically , his chest xray was negative and he complained of no breathing problems .
+Endocrinologically , BG was monitored to improve outcome in ICU setting though he had no history of DM .
+Of note , Hba1c done 03-04 was slightly elevated ( " borderline DM " ) at 6.3 ; this was repeated and was still pending on the day of discharge .
+Ins / outs and electrolytes were monitored and were not abnormal ; he was on a bowel regimen , VD boots and PUD prophylaxis with protonix during the admission .
+Walking was assessed later and the patient was unstable on his feet .
+PT was asked to see him for this gait problem .
+Brandon felt well and was seen by PT who suggested a rehab/Hahnemann Hospital ( Worcester ) to work on walking with the eventual goal of returning to assisted living with his wife when walking improved .
+Follow-up was arranged with neurosurgery in 5-6 weeks with repeat head ct to be arranged by neurosurgery office to make sure blood has cleared , and if indicated , to look for a possible underlying lesion ( although unlikely ) .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1003" end="1046" text="difficulties finding the fridge for example" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1059" end="1068" text="concerned" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E70" start="1074" end="1082" text="the fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1101" end="1114" text="another bleed" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1181" end="1191" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="1197" end="1205" text="headache" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E74" start="1208" end="1216" text="neckpain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E75" start="1219" end="1225" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="1228" end="1236" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E77" start="1240" end="1254" text="focal weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E78" start="1257" end="1265" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="1288" end="1294" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E80" start="1295" end="1304" text="any fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E81" start="1307" end="1313" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="1316" end="1327" text="weight loss" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="1330" end="1344" text="visual changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="1347" end="1362" text="hearing changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E85" start="1365" end="1374" text="dysphagia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E86" start="1377" end="1385" text="tingling" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E87" start="1388" end="1396" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="1399" end="1424" text="bowel-bladder dysfunction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E89" start="1427" end="1437" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E90" start="1440" end="1459" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E91" start="1462" end="1476" text="abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E92" start="1479" end="1486" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E93" start="1489" end="1498" text="hematuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E94" start="1504" end="1531" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="1561" end="1581" text="weaker , bilaterally" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="160" end="193" text="multiple intracranial hemorrhages" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="1673" end="1702" text="past intracranial hemorrhages" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="1728" end="1748" text="R-frontal hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="1755" end="1764" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="1770" end="1800" text="gradually slowing of mentation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1805" end="1831" text="increased gait instability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="1852" end="1864" text="initial exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="1881" end="1901" text="not oriented to time" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1911" end="1924" text="somewhat slow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1935" end="1976" text="difficulties generating a list of animals" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E164" start="1979" end="2020" text="His cranial nerves and strength were full" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="2027" end="2043" text="the sensory exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="2051" end="2107" text="mildly decreased vibration and proprioception in both LE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="2121" end="2142" text="peripheral neuropathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="2145" end="2149" text="A CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="2167" end="2177" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="2183" end="2189" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E99" start="2190" end="2266" text="a new significant R-frontal intraparenchymal hemorrhage in the same location" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="222" end="231" text="pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="2270" end="2285" text="the prior bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="2304" end="2308" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="2317" end="2326" text="neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="234" end="248" text="hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="2331" end="2343" text="neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E103" start="2350" end="2370" text="the two teams agreed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="2413" end="2435" text="underlying amyloidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2445" end="2463" text="the last admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2480" end="2486" text="a mass" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="2498" end="2534" text="a hemorrhage in the R-frontal region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="251" end="261" text="arrhythmia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="2564" end="2578" text="the hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="2610" end="2641" text="hypertensive bleed ( cortical )" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2678" end="2693" text="the recent fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="270" end="278" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="2709" end="2718" text="the bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2751" end="2757" text="an MRI" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E20" start="2765" end="2774" text="his pacer" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="2784" end="2792" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2796" end="2813" text="the neurology ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="2818" end="2835" text="closer monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="284" end="307" text="gradual decline in gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="2844" end="2850" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2863" end="2865" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2870" end="2888" text="initially elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2902" end="2918" text="a labetalol drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="2941" end="2951" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2954" end="2966" text="The goal SBP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="2991" end="2996" text="Coags" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="3001" end="3003" text="UA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="3026" end="3032" text="normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3055" end="3071" text="seizure activity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="3088" end="3104" text="a cortical bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="312" end="332" text="slowing of mentation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="3142" end="3148" text="Keppra" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E116" start="3170" end="3177" text="allergy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="3181" end="3189" text="dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E118" start="3213" end="3229" text="seizure activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="3241" end="3256" text="This medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E119" start="3267" end="3276" text="continued" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="3309" end="3318" text="the bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="3355" end="3367" text="titration up" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="3394" end="3401" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="3420" end="3433" text="was unchanged" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E122" start="3461" end="3467" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="3478" end="3508" text="very suble focal exam findings" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3511" end="3541" text="very mild right pronator drift" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="3555" end="3583" text="his persistently poor memory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="3595" end="3603" text="dementia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="3637" end="3645" text="transfer" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E128" start="3653" end="3662" text="the floor" modality="POSSIBLE" polarity="NEG" type="CLINICAL_DEPT" />
+<EVENT id="E129" start="3669" end="3690" text="the hospital was full" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="3716" end="3732" text="Cardiovascularly" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="370" end="376" text="a fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E131" start="3735" end="3742" text="lipitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="3747" end="3757" text="amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="3792" end="3798" text="an MRI" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E134" start="3806" end="3819" text="his pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="3836" end="3852" text="telemetry events" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E136" start="3862" end="3871" text="ruled out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="3875" end="3881" text="enzyme" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="3904" end="3918" text="his chest xray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E138" start="3923" end="3931" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="3939" end="3949" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E139" start="3956" end="3974" text="breathing problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="3998" end="4000" text="BG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E140" start="4018" end="4033" text="improve outcome" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E141" start="4037" end="4040" text="ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E142" start="4077" end="4079" text="DM" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="4092" end="4097" text="Hba1c" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="4113" end="4130" text="slightly elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="4135" end="4148" text="borderline DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E143" start="4171" end="4179" text="repeated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E144" start="4194" end="4201" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="4228" end="4238" text="Ins / outs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="4243" end="4255" text="electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E145" start="4261" end="4270" text="monitored" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="4305" end="4320" text="a bowel regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="4323" end="4331" text="VD boots" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="4336" end="4351" text="PUD prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="4357" end="4365" text="protonix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="4373" end="4386" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E146" start="4389" end="4396" text="Walking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="4401" end="4409" text="assessed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E148" start="4436" end="4456" text="unstable on his feet" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E151" start="4459" end="4461" text="PT" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E149" start="4475" end="4482" text="see him" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E150" start="4487" end="4504" text="this gait problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E152" start="4515" end="4524" text="felt well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E153" start="4533" end="4543" text="seen by PT" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E154" start="4558" end="4598" text="a rehab/Hahnemann Hospital ( Worcester )" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E155" start="4602" end="4617" text="work on walking" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E156" start="4644" end="4672" text="returning to assisted living" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E157" start="4692" end="4708" text="walking improved" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E158" start="4711" end="4720" text="Follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E159" start="4739" end="4751" text="neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E160" start="4770" end="4784" text="repeat head ct" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E161" start="4803" end="4822" text="neurosurgery office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E162" start="4836" end="4841" text="blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E163" start="4898" end="4915" text="underlying lesion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="497" end="513" text="a small abrasion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="570" end="578" text="complain" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E57" start="585" end="595" text="a headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="608" end="616" text="baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="633" end="641" text="his gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="656" end="664" text="unsteady" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="713" end="726" text="his mentation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="741" end="765" text="difficulties with memory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="787" end="810" text="forgetting appointments" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="863" end="868" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="874" end="882" text="his gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="890" end="908" text="even more unsteady" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="929" end="933" text="fall" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E4" start="948" end="960" text="difficulties" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="961" end="993" text="navigating through his apartment" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T8" start="1588" end="1601" text="the last week" type="DATE" val="2019-03-22" mod="NA" />
+<TIMEX3 id="T9" start="1717" end="1722" text="07-01" type="DATE" val="2019-07-01" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-03-29" type="DATE" val="2019-03-29" mod="NA" />
+<TIMEX3 id="T10" start="1838" end="1846" text="one week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T4" start="210" end="219" text="few years" type="DURATION" val="P2Y" mod="APPROX" />
+<TIMEX3 id="T11" start="2851" end="2860" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T12" start="2925" end="2933" text="24 hours" type="DURATION" val="PT24H" mod="LESS" />
+<TIMEX3 id="T13" start="3204" end="3207" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T14" start="3379" end="3382" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T1" start="3386" end="3391" text="04-05" type="DATE" val="2019-04-05" mod="NA" />
+<TIMEX3 id="T2" start="3414" end="3419" text="03-30" type="DATE" val="2019-03-30" mod="NA" />
+<TIMEX3 id="T5" start="338" end="351" text="the last week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T15" start="3621" end="3629" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T6" start="383" end="395" text="ten days ago" type="DATE" val="2019-03-19" mod="NA" />
+<TIMEX3 id="T17" start="4103" end="4108" text="03-04" type="DATE" val="2019-03-04" mod="NA" />
+<TIMEX3 id="T16" start="4205" end="4225" text="the day of discharge" type="DATE" val="2029-04-01" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2019-04-01" type="DATE" val="2019-04-01" mod="NA" />
+<TIMEX3 id="T18" start="4755" end="4764" text="5-6 weeks" type="DURATION" val="P5.5W" mod="APPROX" />
+<TIMEX3 id="T19" start="772" end="778" text="months" type="DURATION" val="P2M" mod="APPROX" />
+<TIMEX3 id="T7" start="827" end="835" text="week ago" type="DATE" val="2019-03-22" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2019-03-29" type="OVERLAP" />
+<TLINK id="TL1" fromID="E31" fromText="Head CT" toID="T2" toText="03-30" type="OVERLAP" />
+<TLINK id="TL10" fromID="E56" fromText="a fall" toID="T6" toText="ten days ago" type="OVERLAP" />
+<TLINK id="TL100" fromID="E28" fromText="Keppra" toID="T13" toText="bid" type="OVERLAP" />
+<TLINK id="TL101" fromID="E118" fromText="seizure activity" toID="E28" toText="Keppra" type="DURING" />
+<TLINK id="TL102" fromID="E29" fromText="This medication" toID="E119" toText="continued" type="OVERLAP" />
+<TLINK id="TL103" fromID="E29" fromText="This medication" toID="E30" toText="the bleed" type="OVERLAP" />
+<TLINK id="TL104" fromID="E120" fromText="titration up" toID="T14" toText="bid" type="OVERLAP" />
+<TLINK id="TL105" fromID="E120" fromText="titration up" toID="T1" toText="04-05" type="OVERLAP" />
+<TLINK id="TL106" fromID="E121" fromText="was unchanged" toID="E31" toText="Head CT" type="SIMULTANEOUS" />
+<TLINK id="TL107" fromID="E122" fromText="stable" toID="E31" toText="Head CT" type="AFTER" />
+<TLINK id="TL108" fromID="E123" fromText="very suble focal exam findings" toID="E122" toText="stable" type="OVERLAP" />
+<TLINK id="TL109" fromID="E123" fromText="very suble focal exam findings" toID="E124" toText="very mild right pronator drift" type="OVERLAP" />
+<TLINK id="TL11" fromID="E2" fromText="a small abrasion" toID="E56" toText="a fall" type="BEGUN_BY" />
+<TLINK id="TL110" fromID="E125" fromText="his persistently poor memory" toID="E126" toText="dementia" type="OVERLAP" />
+<TLINK id="TL111" fromID="E125" fromText="his persistently poor memory" toID="E123" toText="very suble focal exam findings" type="OVERLAP" />
+<TLINK id="TL112" fromID="E127" fromText="transfer" toID="T15" toText="24 hours" type="AFTER" />
+<TLINK id="TL113" fromID="E128" fromText="the floor" toID="E127" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL114" fromID="E127" fromText="transfer" toID="E129" toText="the hospital was full" type="DURING" />
+<TLINK id="TL115" fromID="E131" fromText="lipitor" toID="E130" toText="Cardiovascularly" type="OVERLAP" />
+<TLINK id="TL116" fromID="E132" fromText="amiodarone" toID="E130" toText="Cardiovascularly" type="OVERLAP" />
+<TLINK id="TL117" fromID="E134" fromText="his pacemaker" toID="E133" toText="an MRI" type="BEFORE_OVERLAP" />
+<TLINK id="TL118" fromID="E134" fromText="his pacemaker" toID="E20" toText="his pacer" type="SIMULTANEOUS" />
+<TLINK id="TL119" fromID="E32" fromText="enzyme" toID="E136" toText="ruled out" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E45" fromText="complain" toID="E57" toText="a headache" type="OVERLAP" />
+<TLINK id="TL120" fromID="E135" fromText="telemetry events" toID="E136" toText="ruled out" type="BEFORE_OVERLAP" />
+<TLINK id="TL121" fromID="E33" fromText="his chest xray" toID="E138" toText="negative" type="OVERLAP" />
+<TLINK id="TL122" fromID="E139" fromText="breathing problems" toID="E137" toText="complained" type="OVERLAP" />
+<TLINK id="TL123" fromID="E34" fromText="BG" toID="E140" toText="improve outcome" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E34" fromText="BG" toID="E141" toText="ICU" type="DURING" />
+<TLINK id="TL125" fromID="E142" fromText="DM" toID="E141" toText="ICU" type="BEFORE_OVERLAP" />
+<TLINK id="TL126" fromID="E35" fromText="Hba1c" toID="T17" toText="03-04" type="OVERLAP" />
+<TLINK id="TL127" fromID="E36" fromText="slightly elevated" toID="E37" toText="borderline DM" type="SIMULTANEOUS" />
+<TLINK id="TL128" fromID="E143" fromText="repeated" toID="E35" toText="Hba1c" type="AFTER" />
+<TLINK id="TL129" fromID="E144" fromText="pending" toID="T16" toText="the day of discharge" type="OVERLAP" />
+<TLINK id="TL13" fromID="E58" fromText="baseline" toID="E59" toText="his gait" type="OVERLAP" />
+<TLINK id="TL130" fromID="E144" fromText="pending" toID="E143" toText="repeated" type="AFTER" />
+<TLINK id="TL131" fromID="E38" fromText="Ins / outs" toID="E145" toText="monitored" type="OVERLAP" />
+<TLINK id="TL132" fromID="E145" fromText="monitored" toID="E39" toText="electrolytes" type="OVERLAP" />
+<TLINK id="TL133" fromID="E41" fromText="VD boots" toID="E42" toText="PUD prophylaxis" type="OVERLAP" />
+<TLINK id="TL134" fromID="E43" fromText="protonix" toID="E42" toText="PUD prophylaxis" type="SIMULTANEOUS" />
+<TLINK id="TL135" fromID="E42" fromText="PUD prophylaxis" toID="E49" toText="the admission" type="DURING" />
+<TLINK id="TL136" fromID="E49" fromText="the admission" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL137" fromID="E49" fromText="the admission" toID="E50" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL138" fromID="E146" fromText="Walking" toID="E147" toText="assessed" type="BEFORE_OVERLAP" />
+<TLINK id="TL139" fromID="E148" fromText="unstable on his feet" toID="E147" toText="assessed" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E60" fromText="unsteady" toID="E58" toText="baseline" type="OVERLAP" />
+<TLINK id="TL140" fromID="E151" fromText="PT" toID="E149" toText="see him" type="OVERLAP" />
+<TLINK id="TL141" fromID="E150" fromText="this gait problem" toID="E149" toText="see him" type="BEFORE_OVERLAP" />
+<TLINK id="TL142" fromID="E152" fromText="felt well" toID="E153" toText="seen by PT" type="OVERLAP" />
+<TLINK id="TL143" fromID="E154" fromText="a rehab/Hahnemann Hospital ( Worcester )" toID="E153" toText="seen by PT" type="AFTER" />
+<TLINK id="TL144" fromID="E155" fromText="work on walking" toID="E154" toText="a rehab/Hahnemann Hospital ( Worcester )" type="OVERLAP" />
+<TLINK id="TL145" fromID="E156" fromText="returning to assisted living" toID="E154" toText="a rehab/Hahnemann Hospital ( Worcester )" type="AFTER" />
+<TLINK id="TL146" fromID="E156" fromText="returning to assisted living" toID="E157" toText="walking improved" type="AFTER" />
+<TLINK id="TL147" fromID="E158" fromText="Follow-up" toID="E159" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL148" fromID="E158" fromText="Follow-up" toID="T18" toText="5-6 weeks" type="OVERLAP" />
+<TLINK id="TL149" fromID="E160" fromText="repeat head ct" toID="E158" toText="Follow-up" type="OVERLAP" />
+<TLINK id="TL15" fromID="E61" fromText="his mentation" toID="E58" toText="baseline" type="OVERLAP" />
+<TLINK id="TL150" fromID="E161" fromText="neurosurgery office" toID="E160" toText="repeat head ct" type="OVERLAP" />
+<TLINK id="TL151" fromID="E162" fromText="blood" toID="T18" toText="5-6 weeks" type="BEFORE_OVERLAP" />
+<TLINK id="TL152" fromID="E163" fromText="underlying lesion" toID="E160" toText="repeat head ct" type="OVERLAP" />
+<TLINK id="TL16" fromID="E62" fromText="difficulties with memory" toID="E58" toText="baseline" type="OVERLAP" />
+<TLINK id="TL17" fromID="E62" fromText="difficulties with memory" toID="T19" toText="months" type="DURING" />
+<TLINK id="TL18" fromID="T19" fromText="months" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E63" fromText="forgetting appointments" toID="E62" toText="difficulties with memory" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E41" fromText="VD boots" toID="E40" toText="a bowel regimen" type="OVERLAP" />
+<TLINK id="TL20" fromID="E64" fromText="noted" toID="T7" toText="week ago" type="OVERLAP" />
+<TLINK id="TL21" fromID="E65" fromText="his gait" toID="T7" toText="week ago" type="BEGUN_BY" />
+<TLINK id="TL22" fromID="E3" fromText="even more unsteady" toID="E65" toText="his gait" type="OVERLAP" />
+<TLINK id="TL23" fromID="E66" fromText="fall" toID="E3" toText="even more unsteady" type="OVERLAP" />
+<TLINK id="TL24" fromID="E4" fromText="difficulties" toID="E67" toText="navigating through his apartment" type="OVERLAP" />
+<TLINK id="TL25" fromID="E68" fromText="difficulties finding the fridge for example" toID="E4" toText="difficulties" type="OVERLAP" />
+<TLINK id="TL26" fromID="E70" fromText="the fall" toID="E69" toText="concerned" type="BEFORE" />
+<TLINK id="TL27" fromID="E71" fromText="another bleed" toID="E70" toText="the fall" type="BEGUN_BY" />
+<TLINK id="TL28" fromID="E72" fromText="the Deanna" toID="E69" toText="concerned" type="AFTER" />
+<TLINK id="TL29" fromID="E73" fromText="headache" toID="E74" toText="neckpain" type="OVERLAP" />
+<TLINK id="TL3" fromID="E50" fromText="Discharge" toID="T3" toText="2019-04-01" type="OVERLAP" />
+<TLINK id="TL30" fromID="E74" fromText="neckpain" toID="E75" toText="nausea" type="OVERLAP" />
+<TLINK id="TL31" fromID="E75" fromText="nausea" toID="E76" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL32" fromID="E76" fromText="vomiting" toID="E77" toText="focal weakness" type="OVERLAP" />
+<TLINK id="TL33" fromID="E77" fromText="focal weakness" toID="E78" toText="numbness" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E80" fromText="any fever" toID="E81" toText="chills" type="OVERLAP" />
+<TLINK id="TL35" fromID="E79" fromText="denies" toID="E80" toText="any fever" type="OVERLAP" />
+<TLINK id="TL36" fromID="E79" fromText="denies" toID="E81" toText="chills" type="OVERLAP" />
+<TLINK id="TL37" fromID="E79" fromText="denies" toID="E82" toText="weight loss" type="OVERLAP" />
+<TLINK id="TL38" fromID="E79" fromText="denies" toID="E83" toText="visual changes" type="OVERLAP" />
+<TLINK id="TL39" fromID="E79" fromText="denies" toID="E84" toText="hearing changes" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="multiple intracranial hemorrhages" toID="T4" toText="few years" type="DURING" />
+<TLINK id="TL40" fromID="E79" fromText="denies" toID="E85" toText="dysphagia" type="OVERLAP" />
+<TLINK id="TL41" fromID="E79" fromText="denies" toID="E86" toText="tingling" type="OVERLAP" />
+<TLINK id="TL42" fromID="E79" fromText="denies" toID="E87" toText="numbness" type="OVERLAP" />
+<TLINK id="TL43" fromID="E79" fromText="denies" toID="E88" toText="bowel-bladder dysfunction" type="OVERLAP" />
+<TLINK id="TL44" fromID="E79" fromText="denies" toID="E89" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL45" fromID="E79" fromText="denies" toID="E90" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL46" fromID="E79" fromText="denies" toID="E91" toText="abdominal pain" type="OVERLAP" />
+<TLINK id="TL47" fromID="E80" fromText="any fever" toID="E92" toText="dysuria" type="OVERLAP" />
+<TLINK id="TL48" fromID="E79" fromText="denies" toID="E93" toText="hematuria" type="OVERLAP" />
+<TLINK id="TL49" fromID="E79" fromText="denies" toID="E94" toText="bright red blood per rectum" type="OVERLAP" />
+<TLINK id="TL5" fromID="T4" fromText="few years" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL50" fromID="E95" fromText="weaker , bilaterally" toID="T8" toText="the last week" type="BEGUN_BY" />
+<TLINK id="TL52" fromID="E6" fromText="R-frontal hemorrhage" toID="E5" toText="past intracranial hemorrhages" type="DURING" />
+<TLINK id="TL53" fromID="E6" fromText="R-frontal hemorrhage" toID="T9" toText="07-01" type="OVERLAP" />
+<TLINK id="TL54" fromID="E96" fromText="presented" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E7" fromText="gradually slowing of mentation" toID="E96" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E7" fromText="gradually slowing of mentation" toID="E55" toText="slowing of mentation" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E8" fromText="increased gait instability" toID="E54" toText="gradual decline in gait" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E8" fromText="increased gait instability" toID="E96" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E8" fromText="increased gait instability" toID="T10" toText="one week" type="DURING" />
+<TLINK id="TL6" fromID="E44" fromText="presents" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E7" fromText="gradually slowing of mentation" toID="T10" toText="one week" type="DURING" />
+<TLINK id="TL61" fromID="T10" fromText="one week" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL62" fromID="E10" fromText="not oriented to time" toID="E9" toText="initial exam" type="OVERLAP" />
+<TLINK id="TL63" fromID="E11" fromText="somewhat slow" toID="E9" toText="initial exam" type="OVERLAP" />
+<TLINK id="TL64" fromID="E12" fromText="difficulties generating a list of animals" toID="E9" toText="initial exam" type="OVERLAP" />
+<TLINK id="TL65" fromID="E9" fromText="initial exam" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL66" fromID="E164" fromText="His cranial nerves and strength were full" toID="E9" toText="initial exam" type="OVERLAP" />
+<TLINK id="TL67" fromID="E13" fromText="the sensory exam" toID="E9" toText="initial exam" type="AFTER" />
+<TLINK id="TL68" fromID="E14" fromText="mildly decreased vibration and proprioception in both LE" toID="E13" toText="the sensory exam" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E97" fromText="peripheral neuropathy" toID="E14" toText="mildly decreased vibration and proprioception in both LE" type="OVERLAP" />
+<TLINK id="TL7" fromID="E54" fromText="gradual decline in gait" toID="E44" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E15" fromText="A CT" toID="E98" toText="the Deanna" type="DURING" />
+<TLINK id="TL71" fromID="E15" fromText="A CT" toID="E46" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E99" fromText="a new significant R-frontal intraparenchymal hemorrhage in the same location" toID="E46" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL73" fromID="E99" fromText="a new significant R-frontal intraparenchymal hemorrhage in the same location" toID="E16" toText="the prior bleed" type="AFTER" />
+<TLINK id="TL74" fromID="E100" fromText="seen" toID="E101" toText="neurology" type="OVERLAP" />
+<TLINK id="TL75" fromID="E100" fromText="seen" toID="E102" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL76" fromID="E103" fromText="the two teams agreed" toID="E100" toText="seen" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E104" fromText="underlying amyloidosis" toID="E103" toText="the two teams agreed" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E106" fromText="a mass" toID="E105" toText="the last admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E106" fromText="a mass" toID="E17" toText="a hemorrhage in the R-frontal region" type="OVERLAP" />
+<TLINK id="TL8" fromID="E55" fromText="slowing of mentation" toID="T5" toText="the last week" type="DURING" />
+<TLINK id="TL80" fromID="E105" fromText="the last admission" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL81" fromID="E18" fromText="the hemorrhage" toID="E107" toText="hypertensive bleed ( cortical )" type="OVERLAP" />
+<TLINK id="TL82" fromID="E108" fromText="the recent fall" toID="E56" toText="a fall" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E19" fromText="the bleed" toID="E108" toText="the recent fall" type="OVERLAP" />
+<TLINK id="TL84" fromID="E20" fromText="his pacer" toID="E109" toText="an MRI" type="BEFORE_OVERLAP" />
+<TLINK id="TL85" fromID="E47" fromText="the neurology ICU" toID="E110" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL86" fromID="E21" fromText="closer monitoring" toID="E47" toText="the neurology ICU" type="DURING" />
+<TLINK id="TL87" fromID="E111" fromText="stable" toID="T11" toText="overnight" type="DURING" />
+<TLINK id="TL88" fromID="T11" fromText="overnight" toID="E110" toText="admitted" type="AFTER" />
+<TLINK id="TL89" fromID="E22" fromText="BP" toID="E21" toText="closer monitoring" type="OVERLAP" />
+<TLINK id="TL9" fromID="T5" fromText="the last week" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL90" fromID="E23" fromText="initially elevated" toID="E22" toText="BP" type="DURING" />
+<TLINK id="TL91" fromID="E24" fromText="a labetalol drip" toID="E23" toText="initially elevated" type="AFTER" />
+<TLINK id="TL92" fromID="E24" fromText="a labetalol drip" toID="T12" toText="24 hours" type="DURING" />
+<TLINK id="TL93" fromID="E112" fromText="stabilized" toID="E23" toText="initially elevated" type="AFTER" />
+<TLINK id="TL94" fromID="E25" fromText="The goal SBP" toID="E112" toText="stabilized" type="OVERLAP" />
+<TLINK id="TL95" fromID="E26" fromText="Coags" toID="E113" toText="normal" type="OVERLAP" />
+<TLINK id="TL96" fromID="E27" fromText="UA" toID="E113" toText="normal" type="OVERLAP" />
+<TLINK id="TL97" fromID="E114" fromText="seizure activity" toID="E115" toText="a cortical bleed" type="OVERLAP" />
+<TLINK id="TL98" fromID="E28" fromText="Keppra" toID="E114" toText="seizure activity" type="AFTER" />
+<TLINK id="TL99" fromID="E117" fromText="dilantin" toID="E116" toText="allergy" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2019-03-29" type="ADMISSION" dvalue="2019-03-29" />
+<SECTIME id="S1" start="46" end="56" text="2019-04-01" type="DISCHARGE" dvalue="2019-04-01" />
+<TLINK id="SECTIME0" fromID="E68" fromText="difficulties finding the fridge for example" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E69" fromText="concerned" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E70" fromText="the fall" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E71" fromText="another bleed" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E72" fromText="the Deanna" toID="T0" toText="2019-03-29" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E73" fromText="headache" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E74" fromText="neckpain" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E75" fromText="nausea" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E76" fromText="vomiting" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E77" fromText="focal weakness" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E78" fromText="numbness" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E79" fromText="denies" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E80" fromText="any fever" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E81" fromText="chills" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E82" fromText="weight loss" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E83" fromText="visual changes" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E84" fromText="hearing changes" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E85" fromText="dysphagia" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E86" fromText="tingling" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E87" fromText="numbness" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E88" fromText="bowel-bladder dysfunction" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E89" fromText="chest pain" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E90" fromText="shortness of breath" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E91" fromText="abdominal pain" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E92" fromText="dysuria" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E93" fromText="hematuria" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E94" fromText="bright red blood per rectum" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E95" fromText="weaker , bilaterally" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME28" fromID="E1" fromText="multiple intracranial hemorrhages" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E5" fromText="past intracranial hemorrhages" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E6" fromText="R-frontal hemorrhage" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E96" fromText="presented" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E7" fromText="gradually slowing of mentation" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E8" fromText="increased gait instability" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E9" fromText="initial exam" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E10" fromText="not oriented to time" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E11" fromText="somewhat slow" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E12" fromText="difficulties generating a list of animals" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E164" fromText="His cranial nerves and strength were full" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E13" fromText="the sensory exam" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E14" fromText="mildly decreased vibration and proprioception in both LE" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E97" fromText="peripheral neuropathy" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E15" fromText="A CT" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E98" fromText="the Deanna" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E46" fromText="showed" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E99" fromText="a new significant R-frontal intraparenchymal hemorrhage in the same location" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME46" fromID="E51" fromText="pacemaker" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME47" fromID="E16" fromText="the prior bleed" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E100" fromText="seen" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E101" fromText="neurology" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E52" fromText="hyperlipidemia" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME51" fromID="E102" fromText="neurosurgery" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E103" fromText="the two teams agreed" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E104" fromText="underlying amyloidosis" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME54" fromID="E105" fromText="the last admission" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E106" fromText="a mass" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E17" fromText="a hemorrhage in the R-frontal region" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E53" fromText="arrhythmia" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME58" fromID="E18" fromText="the hemorrhage" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E107" fromText="hypertensive bleed ( cortical )" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E108" fromText="the recent fall" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E44" fromText="presents" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E19" fromText="the bleed" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E109" fromText="an MRI" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E20" fromText="his pacer" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E110" fromText="admitted" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E47" fromText="the neurology ICU" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E21" fromText="closer monitoring" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E54" fromText="gradual decline in gait" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME69" fromID="E111" fromText="stable" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E22" fromText="BP" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E23" fromText="initially elevated" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E24" fromText="a labetalol drip" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E112" fromText="stabilized" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E25" fromText="The goal SBP" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E26" fromText="Coags" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E27" fromText="UA" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E113" fromText="normal" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E114" fromText="seizure activity" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E115" fromText="a cortical bleed" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E55" fromText="slowing of mentation" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME81" fromID="E28" fromText="Keppra" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E116" fromText="allergy" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E117" fromText="dilantin" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E118" fromText="seizure activity" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E29" fromText="This medication" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E119" fromText="continued" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME87" fromID="E30" fromText="the bleed" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME88" fromID="E120" fromText="titration up" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME89" fromID="E31" fromText="Head CT" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E121" fromText="was unchanged" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E122" fromText="stable" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E123" fromText="very suble focal exam findings" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E124" fromText="very mild right pronator drift" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E125" fromText="his persistently poor memory" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME95" fromID="E126" fromText="dementia" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME96" fromID="E127" fromText="transfer" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E128" fromText="the floor" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E129" fromText="the hospital was full" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E130" fromText="Cardiovascularly" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E56" fromText="a fall" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E131" fromText="lipitor" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E132" fromText="amiodarone" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E133" fromText="an MRI" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E134" fromText="his pacemaker" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME105" fromID="E135" fromText="telemetry events" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E136" fromText="ruled out" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E32" fromText="enzyme" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E33" fromText="his chest xray" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E138" fromText="negative" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E137" fromText="complained" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E139" fromText="breathing problems" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E34" fromText="BG" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E140" fromText="improve outcome" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E141" fromText="ICU" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E142" fromText="DM" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E35" fromText="Hba1c" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E36" fromText="slightly elevated" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E37" fromText="borderline DM" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E143" fromText="repeated" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E144" fromText="pending" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E38" fromText="Ins / outs" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E39" fromText="electrolytes" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E145" fromText="monitored" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E40" fromText="a bowel regimen" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E41" fromText="VD boots" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E42" fromText="PUD prophylaxis" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E43" fromText="protonix" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E49" fromText="the admission" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E146" fromText="Walking" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E147" fromText="assessed" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E148" fromText="unstable on his feet" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E151" fromText="PT" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E149" fromText="see him" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E150" fromText="this gait problem" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME135" fromID="E152" fromText="felt well" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E153" fromText="seen by PT" toID="T3" toText="2019-04-01" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E154" fromText="a rehab/Hahnemann Hospital ( Worcester )" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME138" fromID="E155" fromText="work on walking" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME139" fromID="E156" fromText="returning to assisted living" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME140" fromID="E157" fromText="walking improved" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME141" fromID="E158" fromText="Follow-up" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME142" fromID="E159" fromText="neurosurgery" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME143" fromID="E160" fromText="repeat head ct" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME144" fromID="E161" fromText="neurosurgery office" toID="T3" toText="2019-04-01" type="AFTER" />
+<TLINK id="SECTIME145" fromID="E162" fromText="blood" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME146" fromID="E163" fromText="underlying lesion" toID="T3" toText="2019-04-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME147" fromID="E2" fromText="a small abrasion" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E45" fromText="complain" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E57" fromText="a headache" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E58" fromText="baseline" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E59" fromText="his gait" toID="T0" toText="2019-03-29" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME152" fromID="E60" fromText="unsteady" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E61" fromText="his mentation" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E62" fromText="difficulties with memory" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E63" fromText="forgetting appointments" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E64" fromText="noted" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E65" fromText="his gait" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME158" fromID="E3" fromText="even more unsteady" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME159" fromID="E66" fromText="fall" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME160" fromID="E4" fromText="difficulties" toID="T0" toText="2019-03-29" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E67" fromText="navigating through his apartment" toID="T0" toText="2019-03-29" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

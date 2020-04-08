@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-06-28
+Discharge Date :
+2010-07-01
+Service :
+ORTHOPEDIC
+HISTORY OF THE PRESENT ILLNESS :
+This is a 20-year-old female with no significant past medical history , who was the unrestrained passenger in a high speed rollover motor vehicle accident on 2010-06-27 .
+By report , the patient was ejected from the vehicle on impact and found curled in the fetal position at the rear of the vehicle at the scene .
+The vehicle was noted to be extensively damaged .
+By report , the patient was noted to be awake , but confused at the scene of the accident with no memory of the incident .
+She was immobilized in the C-spine collar at the scene of the accident and subsequently transported by EMS to the New England Sinai Hospital & Rehab Center Emergency Department for further management .
+HOSPITAL COURSE :
+The patient was evaluated by the Trauma Service in the emergency room , where she received four liters
+crystalloid and four units packed red blood cells with good response .
+In addition , the patient received the above-described diagnostic procedures , which demonstrated injuries limited to a posterior scalp laceration , left fractured clavicle , left fractured radius , right thigh hematoma , and right leg laceration .
+The patient was subsequently admitted to the Trauma Service on 2010-06-28 under the direction of Dr. Lowery .
+Given the patient 's right thigh hematoma , a duplex evaluation of the right lower extremity was performed on 2010-06-28 and demonstrated no evidence of major arterial or venous injury in the level of
+the right inguinal region .
+On 06-28 , the patient was also cleared for removal of her C-spine collar and deemed stable for transfer to the Orthopedic Service under the direction of Dr. Ronda Lopez .
+The patient remained stable through 2010-06-29 at which point she was sent to the operating room to undergo a left radial fracture open reduction and internal fixation procedure .
+The patient tolerated the procedure well and demonstrated a postoperative hematocrit of 40.9 .
+Of note , the scalp and right lower leg lacerations were closed primarily by the trauma team on admission and on hospital day #1 were noted to be clean , dry , and intact .
+Nonoperative treatment was elected for the patient 's left clavicular fracture .
+On postoperative day #1 , 2010-06-30 , the patient was noted to be clinically stable , tolerating oral intake , and expressive of adequate amounts of urine independent of a Foley catheter .
+The patient 's head wound laceration was noted to be clean and dry with intact staples .
+There was no erythema or purulence .
+The left clavicle was noted to have continued ecchymosis decreased from prior examination with a minor stepoff and mild tenderness to palpation decreased from prior examinations .
+The left forearm dressing was noted to be in place , clean , dry , and intact with no saturation .
+The patient was noted to be able to wiggle her fingers with intact flexor , extensor , abductor , and adductor function .
+Mild swelling was noted in the left hand .
+Sensation was intact in the median , radius , and ulnar-nerve distributions .
+Fingers were warm and well perfused with capillary refill less than 3 seconds .
+The patient 's right anterior tibial wound was noted to be clean , dry , and intact with sutures intact and no erythema or purulence noted .
+On 06-30 , the patient was evaluated by Occupational Therapy and fitted for a left upper extremity splint .
+The patient was also administered adaptive training for activities of daily life and advised regarding wound care .
+In addition , the patient was also fitted with a figure-of-eight clavicular splint and instructed in its
+proper use .
+On 2010-07-01 , the patient was discharged from the hospital with instructions for follow up care on return to the United Kingdom .
+]]></TEXT>
+<TAGS>
+<EVENT id="E44" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="1048" end="1069" text="diagnostic procedures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="1091" end="1099" text="injuries" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1111" end="1139" text="a posterior scalp laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="1142" end="1165" text="left fractured clavicle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1168" end="1189" text="left fractured radius" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1192" end="1212" text="right thigh hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1219" end="1239" text="right leg laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1271" end="1279" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1283" end="1301" text="the Trauma Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1358" end="1393" text="the patient 's right thigh hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1396" end="1444" text="a duplex evaluation of the right lower extremity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="1477" end="1489" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E69" start="1493" end="1501" text="evidence" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E15" start="1505" end="1536" text="major arterial or venous injury" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E70" start="1625" end="1632" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1636" end="1654" text="her C-spine collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1666" end="1672" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1677" end="1685" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1689" end="1711" text="the Orthopedic Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="1765" end="1780" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="1831" end="1849" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1861" end="1898" text="a left radial fracture open reduction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1903" end="1930" text="internal fixation procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1945" end="1954" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1955" end="1968" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="1969" end="1973" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1991" end="2017" text="a postoperative hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="2038" end="2079" text="the scalp and right lower leg lacerations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2085" end="2091" text="closed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2105" end="2120" text="the trauma team" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="2124" end="2133" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2162" end="2167" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="2174" end="2198" text="clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2201" end="2223" text="Nonoperative treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="2240" end="2279" text="the patient 's left clavicular fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2337" end="2342" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E83" start="2349" end="2366" text="clinically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2369" end="2391" text="tolerating oral intake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2412" end="2437" text="adequate amounts of urine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="243" end="265" text="motor vehicle accident" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="2453" end="2469" text="a Foley catheter" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E24" start="2472" end="2508" text="The patient 's head wound laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2513" end="2518" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="2525" end="2538" text="clean and dry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2544" end="2558" text="intact staples" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2574" end="2582" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="2586" end="2595" text="purulence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="2620" end="2625" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E28" start="2634" end="2654" text="continued ecchymosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2655" end="2664" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="2670" end="2687" text="prior examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="2701" end="2708" text="stepoff" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2718" end="2728" text="tenderness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2732" end="2741" text="palpation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2742" end="2751" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2757" end="2775" text="prior examinations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2778" end="2803" text="The left forearm dressing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2808" end="2813" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E94" start="2823" end="2855" text="place , clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="285" end="291" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="2864" end="2874" text="saturation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="2893" end="2898" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="2913" end="2931" text="wiggle her fingers" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="2937" end="2996" text="intact flexor , extensor , abductor , and adductor function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3004" end="3012" text="swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="3017" end="3022" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E100" start="3042" end="3051" text="Sensation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="3056" end="3062" text="intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="310" end="334" text="ejected from the vehicle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3120" end="3155" text="Fingers were warm and well perfused" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="3161" end="3177" text="capillary refill" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="3200" end="3242" text="The patient 's right anterior tibial wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="3247" end="3252" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="3259" end="3283" text="clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="3289" end="3296" text="sutures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3311" end="3319" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E106" start="3323" end="3332" text="purulence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="3333" end="3338" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E109" start="3368" end="3377" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="3381" end="3401" text="Occupational Therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="3417" end="3446" text="a left upper extremity splint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="3483" end="3500" text="adaptive training" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="349" end="354" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="3505" end="3529" text="activities of daily life" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="355" end="383" text="curled in the fetal position" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E110" start="3552" end="3562" text="wound care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="3612" end="3647" text="a figure-of-eight clavicular splint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="3715" end="3725" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E111" start="3766" end="3780" text="follow up care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="479" end="485" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="504" end="509" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E57" start="516" end="521" text="awake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="528" end="536" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="574" end="596" text="memory of the incident" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E59" start="607" end="618" text="immobilized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="622" end="640" text="the C-spine collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="687" end="698" text="transported" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="702" end="705" text="EMS" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="709" end="775" text="the New England Sinai Hospital & Rehab Center Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="780" end="798" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="835" end="844" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="848" end="866" text="the Trauma Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="870" end="888" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="922" end="933" text="crystalloid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="949" end="971" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1305" end="1315" text="2010-06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T0" start="1462" end="1472" text="2010-06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T5" start="1584" end="1589" text="06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T6" start="1789" end="1799" text="2010-06-29" type="DATE" val="2010-06-29" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2010-06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T7" start="2141" end="2156" text="hospital day #1" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T8" start="2285" end="2305" text="postoperative day #1" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T9" start="2308" end="2318" text="2010-06-30" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T3" start="269" end="279" text="2010-06-27" type="DATE" val="2010-06-27" mod="NA" />
+<TIMEX3 id="T11" start="3344" end="3349" text="06-30" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T10" start="3686" end="3696" text="2010-07-01" type="DATE" val="2010-07-01" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2010-07-01" type="DATE" val="2010-07-01" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2010-06-28" type="ADMISSION" dvalue="2010-06-28" />
+<SECTIME id="S1" start="46" end="56" text="2010-07-01" type="DISCHARGE" dvalue="2010-07-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

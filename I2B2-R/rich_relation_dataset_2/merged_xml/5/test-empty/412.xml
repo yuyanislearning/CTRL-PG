@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-07-12
+Discharge Date :
+2015-07-19
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+The patient is a 48 - year-old woman who was transferred from Shaugnessy-Kaplan Rehab Hospital .
+The patient originally presented to her PCP approximately one week prior to admission here with increasing cough , dyspnea and fatigue .
+She was given a Z-Pak for treatment along with albuterol .
+Despite this , she continued to worsen and became febrile .
+So , she was admitted to Shaugnessy-Kaplan Rehab Hospital on 2015-07-10 .
+At the hospital , she was started on Rocephin and Levaquin for a right lower lobe pneumonia seen on chest x-ray .
+She continued to have increasing respiratory distress with hypoxia .
+She was also significantly tachypneic .
+At this time , repeat chest x-ray showed bilateral diffuse infiltrates consistent with ARDS .
+The patient was intubated and then transferred to Hahnemann General Hospital CMED .
+SUMMARY OF HOSPITAL COURSE :
+Respiratory :
+On admission , the patient had what appeared to be acute respiratory distress syndrome secondary to community - acquired pneumonia .
+She was maintained on a ventilator and ventilated according to ARDSNet protocol .
+For antibiotic coverage of her pneumonia , she was started on Levaquin , ceftriaxone , and vancomycin .
+Over the next two days after admission , the patient 's vent settings were gradually weaned , and she was extubated two days after being transferred to this hospital .
+After extubation , the patient was oxygenating well on face mask .
+She did continue to have a persistent fairly severe cough ; however , her cough was weak due to abdominal muscle pain from repeated coughing .
+The cough was mostly nonproductive .
+The patient was breathing comfortably .
+As there was no identified bacterial pathogen on any cultures , the patient was continued on the triple antibiotics for first several days of the hospitalization .
+She was also on round-the-clock Atrovent and albuterol nebulizers .
+Once the patient was transferred out of the ICU and after extubation , the antibiotics were gradually narrowed .
+The vancomycin and Levaquin were discontinued after approximately four days in the hospital .
+The ceftriaxone was discontinued after four days in the hospital , and the patient was to continue on Levaquin .
+The patient had gradual improvement in her oxygenation .
+Pain control :
+The patient had fairly significant abdominal pain secondary to persistent cough .
+She was started on a regimen of MS Contin with oxycodone for breakthrough pain .
+This helped her somewhat though she has continued to have difficulty coughing due to the pain .
+Tylenol and ibuprofen were also added for better control .
+Transaminitis :
+The patient was noted to have mild transaminitis on admission .
+However , this was felt to be due to her significant infection .
+This should continue to be followed as an outpatient to assure that it returns back to normal .
+Anemia :
+The patient 's reticulocyte count showed inadequate production .
+Iron studies showed a mixed picture with decreased iron and decreased iron to TIBC ratio suggestive of iron-deficiency anemia , but also normal to high MCV .
+B12 was noted to be low and the patient was given an injection of IM B12 while in the hospital .
+She was also started on iron supplementation .
+Hypothyroidism :
+The patient was continued on Synthroid for her chronic hypothyroidism .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1047" end="1082" text="acute respiratory distress syndrome" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1096" end="1126" text="community - acquired pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1151" end="1163" text="a ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="1168" end="1178" text="ventilated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1215" end="1234" text="antibiotic coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1238" end="1251" text="her pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1273" end="1281" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1284" end="1295" text="ceftriaxone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1302" end="1312" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="1344" end="1353" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1356" end="1384" text="the patient 's vent settings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="1390" end="1406" text="gradually weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1421" end="1430" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="1452" end="1463" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="1467" end="1480" text="this hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="1489" end="1499" text="extubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="1518" end="1534" text="oxygenating well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1538" end="1547" text="face mask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="1575" end="1607" text="a persistent fairly severe cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1620" end="1629" text="her cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1634" end="1638" text="weak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1646" end="1667" text="abdominal muscle pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1673" end="1690" text="repeated coughing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1693" end="1702" text="The cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="170" end="181" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1707" end="1727" text="mostly nonproductive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="1746" end="1767" text="breathing comfortably" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1786" end="1815" text="identified bacterial pathogen" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1819" end="1831" text="any cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1863" end="1885" text="the triple antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="187" end="219" text="Shaugnessy-Kaplan Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="1912" end="1931" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1950" end="1974" text="round-the-clock Atrovent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1979" end="1999" text="albuterol nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2023" end="2034" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="2042" end="2049" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="2060" end="2070" text="extubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2073" end="2088" text="the antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E100" start="2094" end="2112" text="gradually narrowed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2115" end="2129" text="The vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2134" end="2142" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="2194" end="2206" text="the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="2209" end="2224" text="The ceftriaxone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="2261" end="2273" text="the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2311" end="2319" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="2338" end="2357" text="gradual improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="2361" end="2376" text="her oxygenation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2379" end="2391" text="Pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="2410" end="2443" text="fairly significant abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="245" end="254" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="2457" end="2473" text="persistent cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2508" end="2517" text="MS Contin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2523" end="2532" text="oxycodone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2537" end="2554" text="breakthrough pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2562" end="2568" text="helped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="2615" end="2634" text="difficulty coughing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="2642" end="2650" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2653" end="2660" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="2665" end="2674" text="ibuprofen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="2712" end="2725" text="Transaminitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="2758" end="2776" text="mild transaminitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2780" end="2789" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="2829" end="2854" text="her significant infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="2884" end="2892" text="followed" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E107" start="2928" end="2950" text="returns back to normal" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="2953" end="2959" text="Anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="2962" end="2995" text="The patient 's reticulocyte count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="298" end="307" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="2996" end="3002" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="3003" end="3024" text="inadequate production" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3027" end="3039" text="Iron studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E109" start="3040" end="3046" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="3068" end="3082" text="decreased iron" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="3087" end="3115" text="decreased iron to TIBC ratio" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="3130" end="3152" text="iron-deficiency anemia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="318" end="334" text="increasing cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="3174" end="3182" text="high MCV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="3185" end="3188" text="B12" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="3205" end="3208" text="low" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="3251" end="3257" text="IM B12" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3267" end="3279" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="3306" end="3326" text="iron supplementation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="3329" end="3343" text="Hypothyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="337" end="344" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="3375" end="3384" text="Synthroid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="3389" end="3415" text="her chronic hypothyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="349" end="356" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="373" end="380" text="a Z-Pak" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="385" end="394" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="406" end="415" text="albuterol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="437" end="456" text="continued to worsen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="468" end="475" text="febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="491" end="499" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="503" end="535" text="Shaugnessy-Kaplan Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E85" start="555" end="567" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="589" end="597" text="Rocephin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="602" end="610" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="615" end="643" text="a right lower lobe pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="652" end="663" text="chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="688" end="719" text="increasing respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="725" end="732" text="hypoxia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="748" end="772" text="significantly tachypneic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="790" end="808" text="repeat chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="809" end="815" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E87" start="816" end="845" text="bilateral diffuse infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="862" end="866" text="ARDS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="885" end="894" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="904" end="915" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="919" end="950" text="Hahnemann General Hospital CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="999" end="1008" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1320" end="1337" text="the next two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T5" start="1431" end="1439" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2015-07-12" type="DATE" val="2015-07-12" mod="NA" />
+<TIMEX3 id="T6" start="1890" end="1908" text="first several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T7" start="2181" end="2190" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T8" start="2248" end="2257" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T0" start="280" end="288" text="one week" type="DURATION" val="P1W" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-07-19" type="DATE" val="2015-07-19" mod="NA" />
+<TIMEX3 id="T3" start="539" end="549" text="2015-07-10" type="DATE" val="2015-07-10" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2015-07-12" type="ADMISSION" dvalue="2015-07-12" />
+<SECTIME id="S1" start="46" end="56" text="2015-07-19" type="DISCHARGE" dvalue="2015-07-19" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

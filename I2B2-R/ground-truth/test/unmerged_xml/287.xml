@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-08-02
+Discharge Date :
+2018-08-08
+Service :
+MEDICINE
+History of Present Illness :
+Patient is a 77 year old female with a past medical history significant for GI bleeding secondary to arteriovenous malformations , who presents with maroon stool and a hematocrit drop .
+Three days ago began to develop black stools .
+There was no clear blood in the toilet bowl .
+In addition , she developed nausea and decreased PO intake .
+She had a cough productive of white sputum and felt warm , although she did not record her temperature .
+At dialysis on day of admission , she related these symptoms for the first time and had a bloody bowel movement .
+Concerned , the staff sent her directly to the Nantucket Cottage Hospital .
+In the Deanna , her temperature was 96.5 , HR 51 , BP 112/60 , RR 18 , and oxygen saturation was 98% on ambient air .
+Her hematocrit was measured at 23.5 , while her baseline hematocrit is in the low 30 s.
+An NG lavage was performed and there was bilious return .
+Rectal examination was notable for guiaiac positive maroon stool .
+She was type and crossed and transfused two units of packed red blood cells .
+IV PPI was given and the GI team was consulted and she was scheduled for colonoscopy and EGD on the morning of 6/8 .
+She was transferred to the CMED CCU for observation .
+Brief Hospital Course :
+Blood loss anemia from GI bleeding - the bleeding was likely from an AVM .
+EGD , colonoscopy and tagged scan results as above .
+eventhough uptake was noted in the rt LQ , no clear site of bleeding was noticed on colonoscopy .
+hence , no intervention was performed .
+she was transfused with 5 units of PRBC in the ICU andsent to the Lahey Clinic - North Shore .
+Her hematocrit remained stable for 4 days prior to discharge .
+No further bleeding noted .
+GI consult team followed pt in hospital .
+On discussion with Dr Leigh and Dr White from GI - they recommended that she follow with Dr. Taylor for consideration of argon photocoagulation as out-patient .
+Given the innumerable number of AVM 's , it is diffcult to assess which the culprit lesion is and GI may start APL from the fundus of stomach .
+Patient to get CBC checked with PCP this week as below .
+ASA was held and may be restarted if Hct stable in clinic at the PCP 's discretion .
+Chronic thrombocytopenia was noted , however the patient did not require platelet transfusions .
+Has a h/o HIT .
+The metoprolol was held during acute bleeding phase and restarted prior to discharge as her BP stabilized .
+Other medical problems stable .
+Dialysis was continued 3 / week .
+I personally talked with Dr Pannell at the time of discharge to update him with the hospital events .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1004" end="1022" text="Rectal examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1039" end="1068" text="guiaiac positive maroon stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1079" end="1095" text="type and crossed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1100" end="1110" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1124" end="1146" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1149" end="1155" text="IV PPI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1186" end="1195" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1222" end="1233" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1238" end="1241" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1274" end="1285" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1289" end="1301" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1306" end="1317" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1344" end="1361" text="Blood loss anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1367" end="1378" text="GI bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1381" end="1393" text="the bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1410" end="1416" text="an AVM" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1419" end="1422" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1425" end="1436" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1441" end="1452" text="tagged scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1483" end="1489" text="uptake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1532" end="1540" text="bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1556" end="1567" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1581" end="1593" text="intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E67" start="1618" end="1628" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1645" end="1649" text="PRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="1653" end="1660" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1672" end="1702" text="the Lahey Clinic - North Shore" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1705" end="1719" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="1729" end="1735" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1756" end="1765" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1771" end="1787" text="further bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E1" start="181" end="192" text="GI bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1812" end="1820" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="1827" end="1835" text="hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E74" start="1841" end="1851" text="discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="1915" end="1921" text="follow" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="1959" end="1981" text="argon photocoagulation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2031" end="2037" text="AVM 's" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="206" end="233" text="arteriovenous malformations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2071" end="2089" text="the culprit lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2110" end="2129" text="APL from the fundus" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2158" end="2161" text="CBC" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E79" start="2200" end="2203" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2224" end="2233" text="restarted" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2237" end="2240" text="Hct" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2241" end="2247" text="stable" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="2285" end="2309" text="Chronic thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2358" end="2379" text="platelet transfusions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E44" start="2392" end="2395" text="HIT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2398" end="2412" text="The metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="240" end="248" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="2429" end="2449" text="acute bleeding phase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2454" end="2463" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2473" end="2482" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2486" end="2492" text="her BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2493" end="2503" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="2506" end="2528" text="Other medical problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2529" end="2535" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="254" end="266" text="maroon stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2538" end="2546" text="Dialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2585" end="2591" text="talked" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2623" end="2632" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2652" end="2671" text="the hospital events" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="271" end="288" text="a hematocrit drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="323" end="335" text="black stools" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="351" end="362" text="clear blood" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="412" end="418" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="423" end="442" text="decreased PO intake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="453" end="460" text="a cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="475" end="487" text="white sputum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="492" end="501" text="felt warm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="532" end="547" text="her temperature" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E11" start="553" end="561" text="dialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="572" end="581" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="588" end="595" text="related" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="638" end="661" text="a bloody bowel movement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="707" end="737" text="the Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="743" end="753" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="756" end="771" text="her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="783" end="785" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="791" end="793" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="803" end="805" text="RR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="815" end="832" text="oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="858" end="872" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="902" end="925" text="her baseline hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="946" end="958" text="An NG lavage" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="987" end="1001" text="bilious return" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1245" end="1263" text="the morning of 6/8" type="DATE" val="2018-08-06" mod="START" />
+<TIMEX3 id="T5" start="1740" end="1746" text="4 days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2018-08-02" type="DATE" val="2018-08-02" mod="NA" />
+<TIMEX3 id="T6" start="2179" end="2188" text="this week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T7" start="2561" end="2569" text="3 / week" type="FREQUENCY" val="RP2.5D" mod="APPROX" />
+<TIMEX3 id="T0" start="291" end="301" text="Three days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2018-08-08" type="DATE" val="2018-08-08" mod="NA" />
+<TIMEX3 id="T3" start="565" end="568" text="day" type="DATE" val="2018-08-02" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2018-08-02" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E51" fromText="Discharge" toID="T2" toText="2018-08-08" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E7" fromText="nausea" toID="E5" toText="black stools" type="OVERLAP" />
+<TLINK id="TL11" fromID="E7" fromText="nausea" toID="E8" toText="decreased PO intake" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="a cough" toID="E10" toText="white sputum" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E9" fromText="a cough" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL14" fromID="E53" fromText="felt warm" toID="E54" toText="her temperature" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E53" fromText="felt warm" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL16" fromID="E11" fromText="dialysis" toID="T3" toText="day" type="OVERLAP" />
+<TLINK id="TL17" fromID="E11" fromText="dialysis" toID="E52" toText="presents" type="BEFORE" />
+<TLINK id="TL18" fromID="E55" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E56" fromText="related" toID="E11" toText="dialysis" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="arteriovenous malformations" toID="E1" toText="GI bleeding" type="BEFORE_OVERLAP" />
+<TLINK id="TL20" fromID="E12" fromText="a bloody bowel movement" toID="E11" toText="dialysis" type="OVERLAP" />
+<TLINK id="TL21" fromID="E57" fromText="the Nantucket Cottage Hospital" toID="E11" toText="dialysis" type="AFTER" />
+<TLINK id="TL22" fromID="E58" fromText="the Deanna" toID="E57" toText="the Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL23" fromID="E58" fromText="the Deanna" toID="E13" toText="her temperature" type="OVERLAP" />
+<TLINK id="TL24" fromID="E14" fromText="HR" toID="E15" toText="BP" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E13" fromText="her temperature" toID="E14" toText="HR" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E15" fromText="BP" toID="E16" toText="RR" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E16" fromText="RR" toID="E17" toText="oxygen saturation" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E19" fromText="her baseline hematocrit" toID="E18" toText="Her hematocrit" type="BEFORE" />
+<TLINK id="TL29" fromID="E18" fromText="Her hematocrit" toID="E58" toText="the Deanna" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="GI bleeding" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E20" fromText="An NG lavage" toID="E21" toText="bilious return" type="OVERLAP" />
+<TLINK id="TL31" fromID="E20" fromText="An NG lavage" toID="E58" toText="the Deanna" type="OVERLAP" />
+<TLINK id="TL32" fromID="E22" fromText="Rectal examination" toID="E58" toText="the Deanna" type="OVERLAP" />
+<TLINK id="TL33" fromID="E23" fromText="guiaiac positive maroon stool" toID="E22" toText="Rectal examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E59" fromText="type and crossed" toID="E22" toText="Rectal examination" type="AFTER" />
+<TLINK id="TL35" fromID="E50" fromText="transfused" toID="E59" toText="type and crossed" type="AFTER" />
+<TLINK id="TL36" fromID="E24" fromText="packed red blood cells" toID="E50" toText="transfused" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E25" fromText="IV PPI" toID="E58" toText="the Deanna" type="OVERLAP" />
+<TLINK id="TL38" fromID="E60" fromText="consulted" toID="E58" toText="the Deanna" type="OVERLAP" />
+<TLINK id="TL39" fromID="E26" fromText="colonoscopy" toID="T4" toText="the morning of 6/8" type="OVERLAP" />
+<TLINK id="TL4" fromID="E52" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL40" fromID="E27" fromText="EGD" toID="T4" toText="the morning of 6/8" type="OVERLAP" />
+<TLINK id="TL41" fromID="E61" fromText="transferred" toID="E60" toText="consulted" type="AFTER" />
+<TLINK id="TL42" fromID="E62" fromText="the CMED CCU" toID="E61" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E63" fromText="observation" toID="E62" toText="the CMED CCU" type="OVERLAP" />
+<TLINK id="TL44" fromID="E29" fromText="GI bleeding" toID="E28" toText="Blood loss anemia" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E29" fromText="GI bleeding" toID="E5" toText="black stools" type="OVERLAP" />
+<TLINK id="TL46" fromID="E30" fromText="the bleeding" toID="E29" toText="GI bleeding" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E64" fromText="an AVM" toID="E30" toText="the bleeding" type="BEFORE_OVERLAP" />
+<TLINK id="TL48" fromID="E31" fromText="EGD" toID="E27" toText="EGD" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E32" fromText="colonoscopy" toID="E26" toText="colonoscopy" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E2" fromText="arteriovenous malformations" toID="E52" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E33" fromText="tagged scan" toID="E32" toText="colonoscopy" type="OVERLAP" />
+<TLINK id="TL51" fromID="E65" fromText="uptake" toID="E33" toText="tagged scan" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E66" fromText="bleeding" toID="E65" toText="uptake" type="OVERLAP" />
+<TLINK id="TL54" fromID="E34" fromText="colonoscopy" toID="E32" toText="colonoscopy" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E35" fromText="intervention" toID="E66" toText="bleeding" type="AFTER" />
+<TLINK id="TL56" fromID="E67" fromText="transfused" toID="E36" toText="PRBC" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E36" fromText="PRBC" toID="E68" toText="the ICU" type="DURING" />
+<TLINK id="TL58" fromID="E68" fromText="the ICU" toID="E62" toText="the CMED CCU" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E69" fromText="the Lahey Clinic - North Shore" toID="E68" toText="the ICU" type="AFTER" />
+<TLINK id="TL6" fromID="E4" fromText="a hematocrit drop" toID="E52" toText="presents" type="BEFORE" />
+<TLINK id="TL60" fromID="E37" fromText="Her hematocrit" toID="E70" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E70" fromText="stable" toID="T5" toText="4 days" type="DURING" />
+<TLINK id="TL62" fromID="T5" fromText="4 days" toID="E71" toText="discharge" type="ENDED_BY" />
+<TLINK id="TL63" fromID="E71" fromText="discharge" toID="E51" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E38" fromText="further bleeding" toID="E66" toText="bleeding" type="AFTER" />
+<TLINK id="TL65" fromID="E72" fromText="followed" toID="E73" toText="hospital" type="DURING" />
+<TLINK id="TL66" fromID="E73" fromText="hospital" toID="E57" toText="the Nantucket Cottage Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E57" fromText="the Nantucket Cottage Hospital" toID="T1" toText="2018-08-02" type="BEGUN_BY" />
+<TLINK id="TL67" fromID="E57" fromText="the Nantucket Cottage Hospital" toID="T1" toText="2018-08-02" type="AFTER" />
+<TLINK id="TL68" fromID="E57" fromText="the Nantucket Cottage Hospital" toID="T2" toText="2018-08-08" type="ENDED_BY" />
+<TLINK id="TL69" fromID="E74" fromText="discussion" toID="E73" toText="hospital" type="DURING" />
+<TLINK id="TL7" fromID="E5" fromText="black stools" toID="T0" toText="Three days" type="OVERLAP" />
+<TLINK id="TL70" fromID="E73" fromText="hospital" toID="E75" toText="follow" type="BEFORE" />
+<TLINK id="TL71" fromID="E76" fromText="argon photocoagulation" toID="E75" toText="follow" type="OVERLAP" />
+<TLINK id="TL72" fromID="E39" fromText="AVM 's" toID="E73" toText="hospital" type="BEFORE_OVERLAP" />
+<TLINK id="TL73" fromID="E40" fromText="the culprit lesion" toID="E39" toText="AVM 's" type="OVERLAP" />
+<TLINK id="TL74" fromID="E77" fromText="APL from the fundus" toID="E76" toText="argon photocoagulation" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E78" fromText="CBC" toID="T6" toText="this week" type="DURING" />
+<TLINK id="TL76" fromID="T6" fromText="this week" toID="E87" toText="discharge" type="BEGUN_BY" />
+<TLINK id="TL77" fromID="E79" fromText="ASA" toID="E87" toText="discharge" type="BEFORE" />
+<TLINK id="TL79" fromID="E41" fromText="Hct" toID="E81" toText="stable" type="OVERLAP" />
+<TLINK id="TL8" fromID="T0" fromText="Three days" toID="T1" toText="2018-08-02" type="ENDED_BY" />
+<TLINK id="TL80" fromID="E41" fromText="Hct" toID="E87" toText="discharge" type="AFTER" />
+<TLINK id="TL81" fromID="E42" fromText="Chronic thrombocytopenia" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E43" fromText="platelet transfusions" toID="E73" toText="hospital" type="DURING" />
+<TLINK id="TL83" fromID="E44" fromText="HIT" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL84" fromID="E45" fromText="The metoprolol" toID="E46" toText="acute bleeding phase" type="BEFORE" />
+<TLINK id="TL88" fromID="E83" fromText="discharge" toID="E87" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E6" fromText="clear blood" toID="E5" toText="black stools" type="OVERLAP" />
+<TLINK id="TL90" fromID="E84" fromText="stabilized" toID="E82" toText="restarted" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E48" fromText="Other medical problems" toID="E87" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL92" fromID="E85" fromText="stable" toID="E48" toText="Other medical problems" type="OVERLAP" />
+<TLINK id="TL93" fromID="E47" fromText="her BP" toID="E84" toText="stabilized" type="OVERLAP" />
+<TLINK id="TL94" fromID="E49" fromText="Dialysis" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL95" fromID="E49" fromText="Dialysis" toID="T7" toText="3 / week" type="SIMULTANEOUS" />
+<TLINK id="TL96" fromID="E86" fromText="talked" toID="E87" toText="discharge" type="OVERLAP" />
+<TLINK id="TL97" fromID="E88" fromText="the hospital events" toID="E87" toText="discharge" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2018-08-02" type="ADMISSION" dvalue="2018-08-02" />
+<SECTIME id="S1" start="46" end="56" text="2018-08-08" type="DISCHARGE" dvalue="2018-08-08" />
+<TLINK id="TL86" fromID="E82" fromText="restarted" toID="E46" toText="acute bleeding phase" type="AFTER" />
+<TLINK id="SECTIME0" fromID="E23" fromText="guiaiac positive maroon stool" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E59" fromText="type and crossed" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E50" fromText="transfused" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E24" fromText="packed red blood cells" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E25" fromText="IV PPI" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E60" fromText="consulted" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E26" fromText="colonoscopy" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E27" fromText="EGD" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E61" fromText="transferred" toID="T1" toText="2018-08-02" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E62" fromText="the CMED CCU" toID="T1" toText="2018-08-02" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E63" fromText="observation" toID="T1" toText="2018-08-02" type="AFTER" />
+<TLINK id="SECTIME11" fromID="E28" fromText="Blood loss anemia" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E29" fromText="GI bleeding" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E30" fromText="the bleeding" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E64" fromText="an AVM" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME15" fromID="E31" fromText="EGD" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E32" fromText="colonoscopy" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E33" fromText="tagged scan" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E65" fromText="uptake" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E66" fromText="bleeding" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E34" fromText="colonoscopy" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E35" fromText="intervention" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E67" fromText="transfused" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E36" fromText="PRBC" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E68" fromText="the ICU" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E69" fromText="the Lahey Clinic - North Shore" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E37" fromText="Her hematocrit" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E70" fromText="stable" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E71" fromText="discharge" toID="T2" toText="2018-08-08" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E38" fromText="further bleeding" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E1" fromText="GI bleeding" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E72" fromText="followed" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E73" fromText="hospital" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E74" fromText="discussion" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E75" fromText="follow" toID="T2" toText="2018-08-08" type="AFTER" />
+<TLINK id="SECTIME35" fromID="E76" fromText="argon photocoagulation" toID="T2" toText="2018-08-08" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E39" fromText="AVM 's" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME37" fromID="E2" fromText="arteriovenous malformations" toID="T1" toText="2018-08-02" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME38" fromID="E40" fromText="the culprit lesion" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME39" fromID="E77" fromText="APL from the fundus" toID="T2" toText="2018-08-08" type="AFTER" />
+<TLINK id="SECTIME40" fromID="E78" fromText="CBC" toID="T2" toText="2018-08-08" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E79" fromText="ASA" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E41" fromText="Hct" toID="T2" toText="2018-08-08" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E81" fromText="stable" toID="T2" toText="2018-08-08" type="AFTER" />
+<TLINK id="SECTIME45" fromID="E42" fromText="Chronic thrombocytopenia" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME46" fromID="E43" fromText="platelet transfusions" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E44" fromText="HIT" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E45" fromText="The metoprolol" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME49" fromID="E52" fromText="presents" toID="T1" toText="2018-08-02" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E46" fromText="acute bleeding phase" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E82" fromText="restarted" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E83" fromText="discharge" toID="T2" toText="2018-08-08" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E47" fromText="her BP" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E84" fromText="stabilized" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E48" fromText="Other medical problems" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME56" fromID="E85" fromText="stable" toID="T2" toText="2018-08-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME57" fromID="E3" fromText="maroon stool" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E49" fromText="Dialysis" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E86" fromText="talked" toID="T2" toText="2018-08-08" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E87" fromText="discharge" toID="T2" toText="2018-08-08" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E88" fromText="the hospital events" toID="T2" toText="2018-08-08" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E4" fromText="a hematocrit drop" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E5" fromText="black stools" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E6" fromText="clear blood" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E7" fromText="nausea" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E8" fromText="decreased PO intake" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E9" fromText="a cough" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E10" fromText="white sputum" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E53" fromText="felt warm" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E54" fromText="her temperature" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E11" fromText="dialysis" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E55" fromText="admission" toID="T1" toText="2018-08-02" type="OVERLAP" />
+<TLINK id="SECTIME73" fromID="E56" fromText="related" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E12" fromText="a bloody bowel movement" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E58" fromText="the Deanna" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E13" fromText="her temperature" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E14" fromText="HR" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E15" fromText="BP" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E16" fromText="RR" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E17" fromText="oxygen saturation" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E18" fromText="Her hematocrit" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E19" fromText="her baseline hematocrit" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E20" fromText="An NG lavage" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E22" fromText="Rectal examination" toID="T1" toText="2018-08-02" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E21" fromText="bilious return" toID="T1" toText="2018-08-02" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

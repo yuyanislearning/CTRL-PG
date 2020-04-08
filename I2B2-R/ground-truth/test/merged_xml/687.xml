@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-03-18
+Discharge Date :
+2016-04-01
+Service : 
+SURGERY
+History of Present Illness :
+_Mr. Morton is a 86 yo male transferred from Kindred Park View Specialty Hospital of Springfield-Sample .
+He developed right foot pain the Sunday prior to admission and was seen by his Podiatrist , who diagnosed him with gout .
+He was given colchicine and prednisone .
+Mr. Morton then developed more pain and warmth to his right foot later in the week and presented to the Youville Hospital - Woody Monica .
+At this hospital he underwent an I&D ( 03-17 ) of a right foot infection and subsequently underwent 
+re-exploration ( 03-18 ) for developing necrotizing fascitis .
+He was transferred to Hallmark Health System for further care .
+Brief Hospital Course :
+Mr. Morton was admitted to the TSICU .
+He was placed on Penicillin G , Clindamycin , for empiric coverage of his wound , with Group A strep growth from the New England Baptist Hospital-Bryce cultures .
+He was transferred to the floor on HD#2 .
+He continued to undergo BID dressing changes .
+Plastic surgery was asked to evaluate the patient .
+Per their recommendations , silvadine was applied to the tendons to prevent dessication .
+Vascular surgery was also asked to evaluate the patient 's right lower extremity blood flow .
+An angiogram on HD#4 showed severe tibial disease and moderate SFA disease , no DP artery was seen .
+The vascular team recommended a femoral-peroneal bypass for revascularization and performed this operation on HD#5 .
+He tolerated the procedure well , please see Dr. Allgood Operative Note for detail .
+On POD#1 , Mr. Morton received 2 units of pRBCs for post-op anemia ( Hct 25 ).
+Mr. Morton continued to be followed by Infectious Disease , whose recommendations were to complete a 01-28 week course of Penicillin G and Clindamycin after the foot was completely debrided and the skin flaps completed .
+His wound continued to heal well and by POD #6 a VAC dressing was placed .
+He received a PICC on POD#7 for his long-term antibiotic therapy .
+At the time of discharge , Mr. Morton had good pain control , was tolerating a regular diet , had a well-healing wound treated with a VAC dressing , and was to continue his IV PCN G and Clindamycin .
+He was discharged to a rehab facility in fair condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1037" end="1053" text="dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1056" end="1071" text="Plastic surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="1136" end="1145" text="silvadine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1184" end="1195" text="dessication" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1198" end="1214" text="Vascular surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1292" end="1304" text="An angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1313" end="1319" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1320" end="1341" text="severe tibial disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="133" end="144" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1346" end="1366" text="moderate SFA disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1423" end="1448" text="a femoral-peroneal bypass" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1485" end="1499" text="this operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="150" end="208" text="Kindred Park View Specialty Hospital of Springfield-Sample" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="1523" end="1536" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1637" end="1642" text="pRBCs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1647" end="1661" text="post-op anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1664" end="1667" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1713" end="1731" text="Infectious Disease" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="1796" end="1808" text="Penicillin G" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1813" end="1824" text="Clindamycin" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1855" end="1863" text="debrided" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1868" end="1882" text="the skin flaps" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1895" end="1904" text="His wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1918" end="1927" text="heal well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1942" end="1956" text="a VAC dressing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1982" end="1988" text="a PICC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="2002" end="2034" text="his long-term antibiotic therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="2052" end="2061" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="2079" end="2096" text="good pain control" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2114" end="2128" text="a regular diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2135" end="2155" text="a well-healing wound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2169" end="2183" text="a VAC dressing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2206" end="2218" text="his IV PCN G" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="2223" end="2234" text="Clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2244" end="2254" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="224" end="239" text="right foot pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2258" end="2274" text="a rehab facility" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="2278" end="2292" text="fair condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="260" end="269" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="286" end="300" text="his Podiatrist" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="326" end="330" text="gout" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="346" end="356" text="colchicine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="361" end="371" text="prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="400" end="409" text="more pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="414" end="420" text="warmth" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="461" end="470" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="474" end="510" text="the Youville Hospital - Woody Monica" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="516" end="529" text="this hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="543" end="549" text="an I&D" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="563" end="585" text="a right foot infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="614" end="628" text="re-exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="654" end="674" text="necrotizing fascitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="684" end="695" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="699" end="721" text="Hallmark Health System" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="780" end="788" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="792" end="801" text="the TSICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="821" end="833" text="Penicillin G" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="836" end="847" text="Clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="874" end="883" text="his wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="891" end="911" text="Group A strep growth" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="917" end="955" text="the New England Baptist Hospital-Bryce" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="956" end="964" text="cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="974" end="985" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="989" end="998" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T6" start="1002" end="1006" text="HD#2" type="DATE" val="2016-03-19" mod="NA" />
+<TIMEX3 id="T7" start="1033" end="1036" text="BID" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T8" start="1308" end="1312" text="HD#4" type="DATE" val="2016-03-21" mod="NA" />
+<TIMEX3 id="T9" start="1503" end="1507" text="HD#5" type="DATE" val="2016-03-22" mod="NA" />
+<TIMEX3 id="T10" start="1598" end="1603" text="POD#1" type="DATE" val="2016-03-23" mod="NA" />
+<TIMEX3 id="T11" start="1775" end="1785" text="01-28 week" type="DURATION" val="P14W" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2016-03-18" type="DATE" val="2016-03-18" mod="NA" />
+<TIMEX3 id="T12" start="1935" end="1941" text="POD #6" type="DATE" val="2016-03-28" mod="NA" />
+<TIMEX3 id="T13" start="1992" end="1997" text="POD#7" type="DATE" val="2016-03-29" mod="NA" />
+<TIMEX3 id="T14" start="2040" end="2048" text="the time" type="DATE" val="2016-04-01" mod="NA" />
+<TIMEX3 id="T2" start="240" end="250" text="the Sunday" type="DATE" val="2016-03-13" mod="NA" />
+<TIMEX3 id="T3" start="448" end="456" text="the week" type="DATE" val="2016-03-16" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="2016-04-01" type="DATE" val="2016-04-01" mod="NA" />
+<TIMEX3 id="T4" start="552" end="557" text="03-17" type="DATE" val="2016-03-17" mod="NA" />
+<TIMEX3 id="T5" start="631" end="636" text="03-18" type="DATE" val="2016-03-18" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2016-03-18" type="OVERLAP" />
+<TLINK id="TL1" fromID="E5" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="gout" toID="E4" toText="right foot pain" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="colchicine" toID="E9" toText="prednisone" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="prednisone" toID="E10" toText="more pain" type="BEFORE" />
+<TLINK id="TL13" fromID="E10" fromText="more pain" toID="E12" toText="warmth" type="OVERLAP" />
+<TLINK id="TL14" fromID="E10" fromText="more pain" toID="T3" toText="the week" type="AFTER" />
+<TLINK id="TL15" fromID="E12" fromText="warmth" toID="T3" toText="the week" type="AFTER" />
+<TLINK id="TL16" fromID="E10" fromText="more pain" toID="E13" toText="presented" type="BEFORE" />
+<TLINK id="TL17" fromID="E14" fromText="the Youville Hospital - Woody Monica" toID="E13" toText="presented" type="OVERLAP" />
+<TLINK id="TL18" fromID="E14" fromText="the Youville Hospital - Woody Monica" toID="E15" toText="this hospital" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="Kindred Park View Specialty Hospital of Springfield-Sample" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="T3" fromText="the week" toID="E14" toText="the Youville Hospital - Woody Monica" type="BEFORE" />
+<TLINK id="TL22" fromID="E16" fromText="an I&D" toID="E15" toText="this hospital" type="OVERLAP" />
+<TLINK id="TL23" fromID="E16" fromText="an I&D" toID="T4" toText="03-17" type="OVERLAP" />
+<TLINK id="TL24" fromID="E17" fromText="a right foot infection" toID="E16" toText="an I&D" type="BEFORE" />
+<TLINK id="TL25" fromID="E18" fromText="re-exploration" toID="E16" toText="an I&D" type="AFTER" />
+<TLINK id="TL26" fromID="E18" fromText="re-exploration" toID="T5" toText="03-18" type="OVERLAP" />
+<TLINK id="TL27" fromID="E19" fromText="necrotizing fascitis" toID="E18" toText="re-exploration" type="BEFORE" />
+<TLINK id="TL28" fromID="E20" fromText="transferred" toID="E18" toText="re-exploration" type="AFTER" />
+<TLINK id="TL29" fromID="E20" fromText="transferred" toID="E21" toText="Hallmark Health System" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="transferred" toID="E3" toText="Kindred Park View Specialty Hospital of Springfield-Sample" type="AFTER" />
+<TLINK id="TL30" fromID="E22" fromText="admitted" toID="E20" toText="transferred" type="OVERLAP" />
+<TLINK id="TL31" fromID="E23" fromText="the TSICU" toID="E22" toText="admitted" type="AFTER" />
+<TLINK id="TL32" fromID="E49" fromText="Penicillin G" toID="E24" toText="Penicillin G" type="OVERLAP" />
+<TLINK id="TL33" fromID="E24" fromText="Penicillin G" toID="E25" toText="Clindamycin" type="OVERLAP" />
+<TLINK id="TL34" fromID="E24" fromText="Penicillin G" toID="E23" toText="the TSICU" type="OVERLAP" />
+<TLINK id="TL35" fromID="E27" fromText="Group A strep growth" toID="E25" toText="Clindamycin" type="BEFORE" />
+<TLINK id="TL36" fromID="E50" fromText="Clindamycin" toID="E25" toText="Clindamycin" type="OVERLAP" />
+<TLINK id="TL37" fromID="E26" fromText="his wound" toID="E25" toText="Clindamycin" type="BEFORE" />
+<TLINK id="TL38" fromID="E26" fromText="his wound" toID="E27" toText="Group A strep growth" type="OVERLAP" />
+<TLINK id="TL39" fromID="E29" fromText="cultures" toID="E28" toText="the New England Baptist Hospital-Bryce" type="OVERLAP" />
+<TLINK id="TL40" fromID="E27" fromText="Group A strep growth" toID="E29" toText="cultures" type="BEFORE" />
+<TLINK id="TL41" fromID="E23" fromText="the TSICU" toID="E30" toText="transferred" type="BEFORE" />
+<TLINK id="TL42" fromID="E30" fromText="transferred" toID="E31" toText="the floor" type="OVERLAP" />
+<TLINK id="TL43" fromID="E30" fromText="transferred" toID="T6" toText="HD#2" type="OVERLAP" />
+<TLINK id="TL44" fromID="E31" fromText="the floor" toID="T6" toText="HD#2" type="AFTER" />
+<TLINK id="TL45" fromID="E33" fromText="Plastic surgery" toID="E31" toText="the floor" type="OVERLAP" />
+<TLINK id="TL46" fromID="E32" fromText="dressing changes" toID="T7" toText="BID" type="OVERLAP" />
+<TLINK id="TL47" fromID="E31" fromText="the floor" toID="E32" toText="dressing changes" type="OVERLAP" />
+<TLINK id="TL48" fromID="E34" fromText="silvadine" toID="E33" toText="Plastic surgery" type="AFTER" />
+<TLINK id="TL49" fromID="E34" fromText="silvadine" toID="E35" toText="dessication" type="BEFORE" />
+<TLINK id="TL50" fromID="E33" fromText="Plastic surgery" toID="E36" toText="Vascular surgery" type="OVERLAP" />
+<TLINK id="TL51" fromID="E37" fromText="An angiogram" toID="T8" toText="HD#4" type="OVERLAP" />
+<TLINK id="TL52" fromID="E38" fromText="showed" toID="E37" toText="An angiogram" type="OVERLAP" />
+<TLINK id="TL53" fromID="E39" fromText="severe tibial disease" toID="E37" toText="An angiogram" type="BEFORE" />
+<TLINK id="TL54" fromID="E40" fromText="moderate SFA disease" toID="E37" toText="An angiogram" type="BEFORE" />
+<TLINK id="TL55" fromID="E43" fromText="this operation" toID="E42" toText="a femoral-peroneal bypass" type="OVERLAP" />
+<TLINK id="TL56" fromID="E42" fromText="a femoral-peroneal bypass" toID="E37" toText="An angiogram" type="AFTER" />
+<TLINK id="TL57" fromID="E43" fromText="this operation" toID="T9" toText="HD#5" type="OVERLAP" />
+<TLINK id="TL58" fromID="E43" fromText="this operation" toID="E44" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL59" fromID="E45" fromText="pRBCs" toID="T10" toText="POD#1" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="right foot pain" toID="T2" toText="the Sunday" type="AFTER" />
+<TLINK id="TL60" fromID="T10" fromText="POD#1" toID="T9" toText="HD#5" type="AFTER" />
+<TLINK id="TL61" fromID="T12" fromText="POD #6" toID="T10" toText="POD#1" type="AFTER" />
+<TLINK id="TL62" fromID="E46" fromText="post-op anemia" toID="E45" toText="pRBCs" type="BEFORE" />
+<TLINK id="TL63" fromID="E47" fromText="Hct" toID="E46" toText="post-op anemia" type="OVERLAP" />
+<TLINK id="TL64" fromID="E46" fromText="post-op anemia" toID="E44" toText="the procedure" type="AFTER" />
+<TLINK id="TL65" fromID="E48" fromText="Infectious Disease" toID="T11" toText="01-28 week" type="BEFORE" />
+<TLINK id="TL67" fromID="E49" fromText="Penicillin G" toID="T11" toText="01-28 week" type="OVERLAP" />
+<TLINK id="TL68" fromID="E50" fromText="Clindamycin" toID="T11" toText="01-28 week" type="OVERLAP" />
+<TLINK id="TL69" fromID="E64" fromText="his IV PCN G" toID="E49" toText="Penicillin G" type="OVERLAP" />
+<TLINK id="TL7" fromID="T2" fromText="the Sunday" toID="E5" toText="admission" type="BEFORE" />
+<TLINK id="TL71" fromID="E49" fromText="Penicillin G" toID="E50" toText="Clindamycin" type="OVERLAP" />
+<TLINK id="TL72" fromID="E50" fromText="Clindamycin" toID="E51" toText="debrided" type="AFTER" />
+<TLINK id="TL73" fromID="E65" fromText="Clindamycin" toID="E50" toText="Clindamycin" type="OVERLAP" />
+<TLINK id="TL74" fromID="E50" fromText="Clindamycin" toID="E53" toText="the skin flaps" type="AFTER" />
+<TLINK id="TL75" fromID="E54" fromText="His wound" toID="E26" toText="his wound" type="OVERLAP" />
+<TLINK id="TL76" fromID="E54" fromText="His wound" toID="E55" toText="heal well" type="OVERLAP" />
+<TLINK id="TL77" fromID="E54" fromText="His wound" toID="E56" toText="a VAC dressing" type="BEFORE" />
+<TLINK id="TL78" fromID="E63" fromText="a VAC dressing" toID="E56" toText="a VAC dressing" type="OVERLAP" />
+<TLINK id="TL79" fromID="E56" fromText="a VAC dressing" toID="T12" toText="POD #6" type="AFTER" />
+<TLINK id="TL8" fromID="E4" fromText="right foot pain" toID="E6" toText="his Podiatrist" type="BEFORE" />
+<TLINK id="TL80" fromID="E57" fromText="a PICC" toID="T13" toText="POD#7" type="AFTER" />
+<TLINK id="TL82" fromID="E57" fromText="a PICC" toID="E58" toText="his long-term antibiotic therapy" type="BEFORE" />
+<TLINK id="TL83" fromID="T14" fromText="the time" toID="E59" toText="discharge" type="OVERLAP" />
+<TLINK id="TL86" fromID="E54" fromText="His wound" toID="E62" toText="a well-healing wound" type="OVERLAP" />
+<TLINK id="TL87" fromID="E62" fromText="a well-healing wound" toID="E59" toText="discharge" type="BEFORE" />
+<TLINK id="TL88" fromID="E59" fromText="discharge" toID="T13" toText="POD#7" type="AFTER" />
+<TLINK id="TL89" fromID="E62" fromText="a well-healing wound" toID="E63" toText="a VAC dressing" type="BEFORE" />
+<TLINK id="TL9" fromID="E7" fromText="gout" toID="E8" toText="colchicine" type="BEFORE" />
+<TLINK id="TL90" fromID="E61" fromText="a regular diet" toID="E59" toText="discharge" type="OVERLAP" />
+<TLINK id="TL91" fromID="E60" fromText="good pain control" toID="E59" toText="discharge" type="OVERLAP" />
+<TLINK id="TL92" fromID="E64" fromText="his IV PCN G" toID="E59" toText="discharge" type="BEFORE" />
+<TLINK id="TL93" fromID="E64" fromText="his IV PCN G" toID="E65" toText="Clindamycin" type="OVERLAP" />
+<TLINK id="TL94" fromID="E65" fromText="Clindamycin" toID="E59" toText="discharge" type="BEFORE" />
+<TLINK id="TL96" fromID="E66" fromText="discharged" toID="E59" toText="discharge" type="OVERLAP" />
+<TLINK id="TL97" fromID="E66" fromText="discharged" toID="E67" toText="a rehab facility" type="OVERLAP" />
+<TLINK id="TL98" fromID="E68" fromText="fair condition" toID="E67" toText="a rehab facility" type="OVERLAP" />
+<TLINK id="TL99" fromID="E1" fromText="Discharge" toID="T1" toText="2016-04-01" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2016-03-18" type="ADMISSION" dvalue="2016-03-18" />
+<SECTIME id="S1" start="46" end="56" text="2016-04-01" type="DISCHARGE" dvalue="2016-04-01" />
+<TLINK id="SECTIME0" fromID="E32" fromText="dressing changes" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E33" fromText="Plastic surgery" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E34" fromText="silvadine" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E35" fromText="dessication" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E36" fromText="Vascular surgery" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E37" fromText="An angiogram" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E38" fromText="showed" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E39" fromText="severe tibial disease" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E2" fromText="transferred" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E40" fromText="moderate SFA disease" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E42" fromText="a femoral-peroneal bypass" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E43" fromText="this operation" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E3" fromText="Kindred Park View Specialty Hospital of Springfield-Sample" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E44" fromText="the procedure" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E45" fromText="pRBCs" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E46" fromText="post-op anemia" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E47" fromText="Hct" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E48" fromText="Infectious Disease" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E49" fromText="Penicillin G" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E50" fromText="Clindamycin" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E51" fromText="debrided" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E53" fromText="the skin flaps" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E54" fromText="His wound" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E55" fromText="heal well" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E56" fromText="a VAC dressing" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E57" fromText="a PICC" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E58" fromText="his long-term antibiotic therapy" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E59" fromText="discharge" toID="T1" toText="2016-04-01" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E60" fromText="good pain control" toID="T1" toText="2016-04-01" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E61" fromText="a regular diet" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E62" fromText="a well-healing wound" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E63" fromText="a VAC dressing" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E64" fromText="his IV PCN G" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E65" fromText="Clindamycin" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E66" fromText="discharged" toID="T1" toText="2016-04-01" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E4" fromText="right foot pain" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E67" fromText="a rehab facility" toID="T1" toText="2016-04-01" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E68" fromText="fair condition" toID="T1" toText="2016-04-01" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E5" fromText="admission" toID="T0" toText="2016-03-18" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E6" fromText="his Podiatrist" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E7" fromText="gout" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E8" fromText="colchicine" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E9" fromText="prednisone" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E10" fromText="more pain" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E12" fromText="warmth" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E13" fromText="presented" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E14" fromText="the Youville Hospital - Woody Monica" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E15" fromText="this hospital" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E16" fromText="an I&D" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E17" fromText="a right foot infection" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E18" fromText="re-exploration" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E19" fromText="necrotizing fascitis" toID="T0" toText="2016-03-18" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E20" fromText="transferred" toID="T0" toText="2016-03-18" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E21" fromText="Hallmark Health System" toID="T0" toText="2016-03-18" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E22" fromText="admitted" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E23" fromText="the TSICU" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E24" fromText="Penicillin G" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E25" fromText="Clindamycin" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E26" fromText="his wound" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E27" fromText="Group A strep growth" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E28" fromText="the New England Baptist Hospital-Bryce" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E29" fromText="cultures" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E30" fromText="transferred" toID="T1" toText="2016-04-01" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E31" fromText="the floor" toID="T1" toText="2016-04-01" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

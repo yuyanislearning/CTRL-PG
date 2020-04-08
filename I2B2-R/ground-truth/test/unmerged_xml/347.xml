@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-06-29
+Discharge Date :
+2015-07-09
+Service :
+MEDICINE
+History of Present Illness :
+74 yo M with lung cancer DVT who presents with 1 day of substernal chest pain .
+Patient developed chest pain the night prior to admission .
+The pain was substernal 07-08 , did not radiate .
+He reports that the pain was similar to his prior MI .
+The patient had shortness of breath .
+In the Amanda the patients pain resolved with NTG and morphine .
+he was given ASA and bblocker .
+At time of my evaluation , the patient denied nausea , vomitting , abdominal pain , dysuria , dizziness , changes in vision /hearing
+Brief Hospital Course :
+A/P 74 yo M with lung cancer , DVT , CAD s/p MI presents with chest pain shortness of breath .
+# Chest Pain / Ischemia - Patient with history of CAD a/p MI .
+Now with an episode of pain consistent with his anginal equivalent .
+No changes on EKG but not in pain at time of EKG .
+Patient was ruled out by enzymes .
+He also had a stress test which revealed an irreversible deficit from his prior known IMI .
+Continued on asa , bblocker , Hicks , statin , plavix .
+BP meds held while was unstable .
+ASA , plavix held during hemothorax .
+# CHF - patient does not seem volume overloaded at this time .
+He has no JVD , no edema in legs ( other than swelling from DVT ) .
+Last Echo with EF 55% .
+Does have increased effusion although loculated .
+Continued on lasix , bblocker Robertson .
+BP meds held while unstable .
+# Afib - In sinus during admission .
+Patients anticoag held during hemothorax .
+# Shortness of Breath / loculated Effusion - patient with increaing loculated pleural effusion .
+Has chronic shortness of breath which has worsened over the past few days .
+No sign of infeciton at this time .
+Had thoracentesis by interventional pumonology on 2015-07-01 revealing almost 2 L of serous exudative fluid .
+Patient had improved breathing .
+Cytology was negative .
+However on 07-02 Hct dropped .
+CT revealed hemothorax .
+All anticoagulation stopped despite the risk of DVT , afib .
+Risk discussed with family .
+Thoracics consulted and chest tube placed .
+Frank blood was taken out .
+Patient continued to bleed in and around the tube .
+Patient sent to CMED for observation after Hct continued to drop .
+Patient spontaneously stablized and output of CT became more serous .
+Output resent for cytology which was pending at time of discharge .
+When output became < 100 cc the tube was removed .
+Patient follwed with serial CXR that did not demonstrate reaccumulation .
+Hct also remained stable .
+# DVT - patient therapeutic on heparin .
+Improving clots on LENI .
+CTA neg for PE .
+Anticoagulaiton held during hemothorax .
+Patient restarted on coumadin and will be discharged on 3mg coumadin qday .
+# Lung Cancer - patient currently with no evidence of disease .
+s/p neoadjuvant chemo/XRT now s/p surgery .
+1st cytology negative .
+2ng cytology pending .
+WIll follow up tih outpatient oncologist .
+Contacts - son 506-1596
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1025" end="1044" text="his prior known IMI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1060" end="1063" text="asa" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1066" end="1074" text="bblocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1077" end="1082" text="Hicks" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1085" end="1091" text="statin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1094" end="1100" text="plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1103" end="1110" text="BP meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1126" end="1134" text="unstable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1137" end="1140" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1143" end="1149" text="plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1162" end="1172" text="hemothorax" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="118" end="129" text="lung cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1177" end="1180" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="1205" end="1222" text="volume overloaded" modality="POSSIBLE" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1248" end="1251" text="JVD" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1257" end="1270" text="edema in legs" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1284" end="1292" text="swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="130" end="133" text="DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1298" end="1301" text="DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1306" end="1315" text="Last Echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1321" end="1323" text="EF" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="1340" end="1358" text="increased effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="138" end="146" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="1393" end="1398" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1401" end="1409" text="bblocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1422" end="1429" text="BP meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1441" end="1449" text="unstable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1454" end="1458" text="Afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="1477" end="1486" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1489" end="1506" text="Patients anticoag" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1519" end="1529" text="hemothorax" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1534" end="1553" text="Shortness of Breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1556" end="1574" text="loculated Effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1590" end="1626" text="increaing loculated pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="161" end="182" text="substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1633" end="1660" text="chronic shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="1671" end="1679" text="worsened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="1716" end="1725" text="infeciton" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="1745" end="1758" text="thoracentesis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="1802" end="1811" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="1826" end="1848" text="serous exudative fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="1863" end="1881" text="improved breathing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1884" end="1892" text="Cytology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="1925" end="1928" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="1929" end="1936" text="dropped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1939" end="1941" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E120" start="1942" end="1950" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="1951" end="1961" text="hemothorax" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1964" end="1983" text="All anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="2012" end="2015" text="DVT" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="2018" end="2022" text="afib" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="203" end="213" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="2030" end="2039" text="discussed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="2054" end="2073" text="Thoracics consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2078" end="2088" text="chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2098" end="2109" text="Frank blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="2134" end="2152" text="continued to bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2167" end="2175" text="the tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="2194" end="2198" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="2203" end="2214" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2221" end="2224" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E127" start="2225" end="2242" text="continued to drop" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E128" start="2267" end="2276" text="stablized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E129" start="2281" end="2287" text="output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2291" end="2293" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E130" start="2306" end="2312" text="serous" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2315" end="2321" text="Output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="233" end="242" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2333" end="2341" text="cytology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E131" start="2371" end="2380" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E132" start="2388" end="2394" text="output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2411" end="2419" text="the tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="2424" end="2431" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="245" end="253" text="The pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2455" end="2465" text="serial CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="2491" end="2505" text="reaccumulation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="2508" end="2511" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E134" start="2517" end="2532" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2537" end="2540" text="DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2566" end="2573" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2586" end="2591" text="clots" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2595" end="2599" text="LENI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="2602" end="2605" text="CTA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E135" start="2614" end="2616" text="PE" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E85" start="2619" end="2634" text="Anticoagulaiton" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2647" end="2657" text="hemothorax" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2681" end="2689" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="2702" end="2712" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E136" start="2720" end="2728" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="2738" end="2749" text="Lung Cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2790" end="2797" text="disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E90" start="2804" end="2825" text="neoadjuvant chemo/XRT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="2834" end="2841" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="2844" end="2856" text="1st cytology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="285" end="292" text="radiate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E137" start="2868" end="2880" text="2ng cytology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E138" start="2896" end="2905" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="298" end="305" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="311" end="319" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="335" end="347" text="his prior MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="366" end="385" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="391" end="401" text="the Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="402" end="419" text="the patients pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="434" end="437" text="NTG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="442" end="450" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="466" end="469" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="474" end="482" text="bblocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="496" end="509" text="my evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E102" start="524" end="530" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E103" start="531" end="537" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E104" start="540" end="549" text="vomitting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E105" start="552" end="566" text="abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E106" start="569" end="576" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="579" end="588" text="dizziness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E108" start="591" end="617" text="changes in vision /hearing" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="659" end="670" text="lung cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="673" end="676" text="DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="679" end="682" text="CAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="687" end="689" text="MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="690" end="698" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="704" end="714" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="715" end="734" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="739" end="749" text="Chest Pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="752" end="760" text="Ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="787" end="790" text="CAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="795" end="797" text="MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="823" end="827" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="844" end="866" text="his anginal equivalent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="872" end="879" text="changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="883" end="886" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="898" end="902" text="pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E110" start="914" end="917" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="945" end="952" text="enzymes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="967" end="980" text="a stress test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="987" end="995" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E31" start="996" end="1019" text="an irreversible deficit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="152" end="157" text="1 day" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T5" start="1685" end="1702" text="the past few days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T6" start="1791" end="1801" text="2015-07-01" type="DATE" val="2015-07-01" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2015-06-29" type="DATE" val="2015-06-29" mod="NA" />
+<TIMEX3 id="T3" start="1919" end="1924" text="07-02" type="DATE" val="2015-07-02" mod="NA" />
+<TIMEX3 id="T4" start="214" end="223" text="the night" type="DATE" val="2015-06-28" mod="END" />
+<TIMEX3 id="T7" start="2729" end="2733" text="qday" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-07-09" type="DATE" val="2015-07-09" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2015-06-29" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E57" fromText="Shortness of Breath" toID="E60" toText="chronic shortness of breath" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E34" fromText="bblocker" toID="E51" toText="bblocker" type="SIMULTANEOUS" />
+<TLINK id="TL100" fromID="E117" fromText="revealing" toID="E61" toText="thoracentesis" type="OVERLAP" />
+<TLINK id="TL101" fromID="E62" fromText="serous exudative fluid" toID="E61" toText="thoracentesis" type="BEFORE_OVERLAP" />
+<TLINK id="TL102" fromID="E118" fromText="improved breathing" toID="E61" toText="thoracentesis" type="AFTER" />
+<TLINK id="TL103" fromID="E63" fromText="Cytology" toID="E61" toText="thoracentesis" type="AFTER" />
+<TLINK id="TL104" fromID="E64" fromText="Hct" toID="T3" toText="07-02" type="OVERLAP" />
+<TLINK id="TL105" fromID="E119" fromText="dropped" toID="E64" toText="Hct" type="OVERLAP" />
+<TLINK id="TL107" fromID="E66" fromText="hemothorax" toID="E61" toText="thoracentesis" type="AFTER" />
+<TLINK id="TL108" fromID="E66" fromText="hemothorax" toID="E65" toText="CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL109" fromID="E67" fromText="All anticoagulation" toID="E65" toText="CT" type="ENDED_BY" />
+<TLINK id="TL11" fromID="E68" fromText="chest tube" toID="E70" toText="the tube" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E65" fromText="CT" toID="E120" toText="revealed" type="OVERLAP" />
+<TLINK id="TL111" fromID="E65" fromText="CT" toID="E119" toText="dropped" type="AFTER" />
+<TLINK id="TL113" fromID="E122" fromText="afib" toID="E54" toText="Afib" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E121" fromText="DVT" toID="E47" toText="DVT" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E123" fromText="discussed" toID="E65" toText="CT" type="AFTER" />
+<TLINK id="TL116" fromID="E124" fromText="Thoracics consulted" toID="E65" toText="CT" type="AFTER" />
+<TLINK id="TL117" fromID="E68" fromText="chest tube" toID="E124" toText="Thoracics consulted" type="BEGUN_BY" />
+<TLINK id="TL118" fromID="E69" fromText="Frank blood" toID="E68" toText="chest tube" type="OVERLAP" />
+<TLINK id="TL119" fromID="E125" fromText="continued to bleed" toID="E70" toText="the tube" type="OVERLAP" />
+<TLINK id="TL12" fromID="E38" fromText="BP meds" toID="E52" toText="BP meds" type="SIMULTANEOUS" />
+<TLINK id="TL120" fromID="E126" fromText="CMED" toID="E124" toText="Thoracics consulted" type="AFTER" />
+<TLINK id="TL121" fromID="E71" fromText="observation" toID="E126" toText="CMED" type="DURING" />
+<TLINK id="TL122" fromID="E72" fromText="Hct" toID="E127" toText="continued to drop" type="SIMULTANEOUS" />
+<TLINK id="TL123" fromID="E72" fromText="Hct" toID="E64" toText="Hct" type="AFTER" />
+<TLINK id="TL124" fromID="E126" fromText="CMED" toID="E72" toText="Hct" type="AFTER" />
+<TLINK id="TL125" fromID="E128" fromText="stablized" toID="E129" toText="output" type="OVERLAP" />
+<TLINK id="TL126" fromID="E73" fromText="CT" toID="E70" toText="the tube" type="SIMULTANEOUS" />
+<TLINK id="TL128" fromID="E130" fromText="serous" toID="E128" toText="stablized" type="OVERLAP" />
+<TLINK id="TL129" fromID="E74" fromText="Output" toID="E75" toText="cytology" type="OVERLAP" />
+<TLINK id="TL13" fromID="E47" fromText="DVT" toID="E80" toText="DVT" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E74" fromText="Output" toID="E129" toText="output" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E131" fromText="discharge" toID="E95" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL132" fromID="E132" fromText="output" toID="E74" toText="Output" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E76" fromText="the tube" toID="E133" toText="removed" type="ENDED_BY" />
+<TLINK id="TL135" fromID="E133" fromText="removed" toID="E131" toText="discharge" type="BEFORE" />
+<TLINK id="TL136" fromID="E133" fromText="removed" toID="E77" toText="serial CXR" type="BEFORE" />
+<TLINK id="TL137" fromID="E77" fromText="serial CXR" toID="E78" toText="reaccumulation" type="OVERLAP" />
+<TLINK id="TL138" fromID="E79" fromText="Hct" toID="E134" toText="remained stable" type="SIMULTANEOUS" />
+<TLINK id="TL139" fromID="E79" fromText="Hct" toID="E133" toText="removed" type="AFTER" />
+<TLINK id="TL14" fromID="E18" fromText="chest pain" toID="E20" toText="Chest Pain" type="SIMULTANEOUS" />
+<TLINK id="TL140" fromID="E80" fromText="DVT" toID="E81" toText="heparin" type="BEFORE_OVERLAP" />
+<TLINK id="TL141" fromID="E82" fromText="clots" toID="E80" toText="DVT" type="SIMULTANEOUS" />
+<TLINK id="TL142" fromID="E82" fromText="clots" toID="E83" toText="LENI" type="BEFORE_OVERLAP" />
+<TLINK id="TL143" fromID="E83" fromText="LENI" toID="E93" toText="admission" type="DURING" />
+<TLINK id="TL144" fromID="E135" fromText="PE" toID="E84" toText="CTA" type="BEFORE_OVERLAP" />
+<TLINK id="TL145" fromID="E84" fromText="CTA" toID="E93" toText="admission" type="DURING" />
+<TLINK id="TL146" fromID="E87" fromText="coumadin" toID="E94" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL147" fromID="E87" fromText="coumadin" toID="E136" toText="coumadin" type="SIMULTANEOUS" />
+<TLINK id="TL148" fromID="E136" fromText="coumadin" toID="T7" toText="qday" type="SIMULTANEOUS" />
+<TLINK id="TL149" fromID="E88" fromText="Lung Cancer" toID="E89" toText="disease" type="OVERLAP" />
+<TLINK id="TL15" fromID="E9" fromText="the patients pain" toID="E18" toText="chest pain" type="SIMULTANEOUS" />
+<TLINK id="TL150" fromID="E88" fromText="Lung Cancer" toID="E90" toText="neoadjuvant chemo/XRT" type="BEFORE_OVERLAP" />
+<TLINK id="TL151" fromID="E90" fromText="neoadjuvant chemo/XRT" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL152" fromID="E91" fromText="surgery" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL153" fromID="E92" fromText="1st cytology" toID="E63" toText="Cytology" type="SIMULTANEOUS" />
+<TLINK id="TL154" fromID="E137" fromText="2ng cytology" toID="E75" toText="cytology" type="SIMULTANEOUS" />
+<TLINK id="TL155" fromID="E138" fromText="follow up" toID="E94" toText="discharged" type="AFTER" />
+<TLINK id="TL16" fromID="E5" fromText="The pain" toID="E6" toText="the pain" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E17" fromText="MI" toID="E23" toText="MI" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E58" fromText="loculated Effusion" toID="E59" toText="increaing loculated pleural effusion" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E7" fromText="his prior MI" toID="E17" toText="MI" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E19" fromText="shortness of breath" toID="E57" toText="Shortness of Breath" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E67" fromText="All anticoagulation" toID="E85" toText="Anticoagulaiton" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E3" fromText="substernal chest pain" toID="E4" toText="chest pain" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E14" fromText="lung cancer" toID="E88" toText="Lung Cancer" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E23" fromText="MI" toID="E32" toText="his prior known IMI" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E20" fromText="Chest Pain" toID="E24" toText="pain" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E70" fromText="the tube" toID="E76" toText="the tube" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E66" fromText="hemothorax" toID="E86" toText="hemothorax" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E16" fromText="CAD" toID="E22" toText="CAD" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E55" fromText="Patients anticoag" toID="E67" toText="All anticoagulation" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E24" fromText="pain" toID="E28" toText="pain" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E85" fromText="Anticoagulaiton" toID="E86" toText="hemothorax" type="ENDED_BY" />
+<TLINK id="TL31" fromID="E94" fromText="discharged" toID="E95" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E95" fromText="Discharge" toID="T2" toText="2015-07-09" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E2" fromText="DVT" toID="E96" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E1" fromText="lung cancer" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL35" fromID="E3" fromText="substernal chest pain" toID="T0" toText="1 day" type="DURING" />
+<TLINK id="TL36" fromID="T0" fromText="1 day" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL37" fromID="E4" fromText="chest pain" toID="T4" toText="the night" type="BEGUN_BY" />
+<TLINK id="TL38" fromID="E97" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E5" fromText="The pain" toID="E98" toText="radiate" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E6" fromText="the pain" toID="E9" toText="the patients pain" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E99" fromText="reports" toID="E96" toText="presents" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E7" fromText="his prior MI" toID="E6" toText="the pain" type="BEFORE" />
+<TLINK id="TL42" fromID="E100" fromText="the Amanda" toID="E96" toText="presents" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E9" fromText="the patients pain" toID="E10" toText="NTG" type="ENDED_BY" />
+<TLINK id="TL44" fromID="E11" fromText="morphine" toID="E10" toText="NTG" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E12" fromText="ASA" toID="E100" toText="the Amanda" type="OVERLAP" />
+<TLINK id="TL46" fromID="E13" fromText="bblocker" toID="E100" toText="the Amanda" type="OVERLAP" />
+<TLINK id="TL47" fromID="E101" fromText="my evaluation" toID="E100" toText="the Amanda" type="OVERLAP" />
+<TLINK id="TL48" fromID="E102" fromText="denied" toID="E101" toText="my evaluation" type="OVERLAP" />
+<TLINK id="TL49" fromID="E103" fromText="nausea" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E4" fromText="chest pain" toID="E5" toText="The pain" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E104" fromText="vomitting" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="E105" fromText="abdominal pain" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E106" fromText="dysuria" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E107" fromText="dizziness" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL54" fromID="E108" fromText="changes in vision /hearing" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E14" fromText="lung cancer" toID="E1" toText="lung cancer" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E15" fromText="DVT" toID="E2" toText="DVT" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E16" fromText="CAD" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E109" fromText="presents" toID="E96" toText="presents" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E19" fromText="shortness of breath" toID="E8" toText="shortness of breath" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E39" fromText="unstable" toID="E53" toText="unstable" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E20" fromText="Chest Pain" toID="E21" toText="Ischemia" type="OVERLAP" />
+<TLINK id="TL61" fromID="E24" fromText="pain" toID="E25" toText="his anginal equivalent" type="OVERLAP" />
+<TLINK id="TL62" fromID="E26" fromText="changes" toID="E27" toText="EKG" type="OVERLAP" />
+<TLINK id="TL63" fromID="E27" fromText="EKG" toID="E110" toText="EKG" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E27" fromText="EKG" toID="E28" toText="pain" type="AFTER" />
+<TLINK id="TL65" fromID="E29" fromText="enzymes" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL66" fromID="E30" fromText="a stress test" toID="E111" toText="revealed" type="OVERLAP" />
+<TLINK id="TL67" fromID="E30" fromText="a stress test" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL68" fromID="E31" fromText="an irreversible deficit" toID="E30" toText="a stress test" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E31" fromText="an irreversible deficit" toID="E32" toText="his prior known IMI" type="BEGUN_BY" />
+<TLINK id="TL7" fromID="E42" fromText="hemothorax" toID="E56" toText="hemothorax" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E33" fromText="asa" toID="E12" toText="ASA" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E34" fromText="bblocker" toID="E13" toText="bblocker" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E35" fromText="Hicks" toID="E34" toText="bblocker" type="OVERLAP" />
+<TLINK id="TL73" fromID="E36" fromText="statin" toID="E34" toText="bblocker" type="OVERLAP" />
+<TLINK id="TL74" fromID="E37" fromText="plavix" toID="E34" toText="bblocker" type="OVERLAP" />
+<TLINK id="TL75" fromID="E38" fromText="BP meds" toID="E39" toText="unstable" type="ENDED_BY" />
+<TLINK id="TL76" fromID="E39" fromText="unstable" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL77" fromID="E40" fromText="ASA" toID="E33" toText="asa" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E40" fromText="ASA" toID="E42" toText="hemothorax" type="ENDED_BY" />
+<TLINK id="TL79" fromID="E41" fromText="plavix" toID="E37" toText="plavix" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E56" fromText="hemothorax" toID="E66" toText="hemothorax" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E41" fromText="plavix" toID="E42" toText="hemothorax" type="ENDED_BY" />
+<TLINK id="TL81" fromID="E43" fromText="CHF" toID="E112" toText="volume overloaded" type="OVERLAP" />
+<TLINK id="TL82" fromID="E43" fromText="CHF" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E44" fromText="JVD" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E45" fromText="edema in legs" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL85" fromID="E46" fromText="swelling" toID="E47" toText="DVT" type="OVERLAP" />
+<TLINK id="TL86" fromID="E48" fromText="Last Echo" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL87" fromID="E49" fromText="EF" toID="E48" toText="Last Echo" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E113" fromText="increased effusion" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL89" fromID="E50" fromText="lasix" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E15" fromText="DVT" toID="E47" toText="DVT" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E54" fromText="Afib" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E93" fromText="admission" toID="T1" toText="2015-06-29" type="BEGUN_BY" />
+<TLINK id="TL92" fromID="E93" fromText="admission" toID="T2" toText="2015-07-09" type="ENDED_BY" />
+<TLINK id="TL93" fromID="E55" fromText="Patients anticoag" toID="E37" toText="plavix" type="OVERLAP" />
+<TLINK id="TL94" fromID="E58" fromText="loculated Effusion" toID="E57" toText="Shortness of Breath" type="OVERLAP" />
+<TLINK id="TL95" fromID="E60" fromText="chronic shortness of breath" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL96" fromID="E114" fromText="worsened" toID="T5" toText="the past few days" type="DURING" />
+<TLINK id="TL97" fromID="T5" fromText="the past few days" toID="T2" toText="2015-07-09" type="ENDED_BY" />
+<TLINK id="TL98" fromID="E116" fromText="infeciton" toID="E93" toText="admission" type="DURING" />
+<TLINK id="TL99" fromID="E61" fromText="thoracentesis" toID="T6" toText="2015-07-01" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2015-06-29" type="ADMISSION" dvalue="2015-06-29" />
+<SECTIME id="S1" start="46" end="56" text="2015-07-09" type="DISCHARGE" dvalue="2015-07-09" />
+<TLINK id="SECTIME0" fromID="E32" fromText="his prior known IMI" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E33" fromText="asa" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E34" fromText="bblocker" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E35" fromText="Hicks" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E36" fromText="statin" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E37" fromText="plavix" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E38" fromText="BP meds" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E39" fromText="unstable" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E40" fromText="ASA" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E41" fromText="plavix" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E42" fromText="hemothorax" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E1" fromText="lung cancer" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E43" fromText="CHF" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E112" fromText="volume overloaded" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E44" fromText="JVD" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E45" fromText="edema in legs" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E46" fromText="swelling" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E2" fromText="DVT" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E47" fromText="DVT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E48" fromText="Last Echo" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E49" fromText="EF" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E113" fromText="increased effusion" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E96" fromText="presents" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E50" fromText="lasix" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E51" fromText="bblocker" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E52" fromText="BP meds" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E53" fromText="unstable" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E54" fromText="Afib" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E55" fromText="Patients anticoag" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="hemothorax" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E57" fromText="Shortness of Breath" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E58" fromText="loculated Effusion" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E59" fromText="increaing loculated pleural effusion" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E3" fromText="substernal chest pain" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E60" fromText="chronic shortness of breath" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E114" fromText="worsened" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E116" fromText="infeciton" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E61" fromText="thoracentesis" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E117" fromText="revealing" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E62" fromText="serous exudative fluid" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E118" fromText="improved breathing" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E63" fromText="Cytology" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E64" fromText="Hct" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E119" fromText="dropped" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E65" fromText="CT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E120" fromText="revealed" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E66" fromText="hemothorax" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E67" fromText="All anticoagulation" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E121" fromText="DVT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E122" fromText="afib" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E4" fromText="chest pain" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E123" fromText="discussed" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E124" fromText="Thoracics consulted" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E68" fromText="chest tube" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E69" fromText="Frank blood" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E125" fromText="continued to bleed" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E70" fromText="the tube" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E126" fromText="CMED" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E71" fromText="observation" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E72" fromText="Hct" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E127" fromText="continued to drop" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E128" fromText="stablized" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E129" fromText="output" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E73" fromText="CT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E130" fromText="serous" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E74" fromText="Output" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E97" fromText="admission" toID="T1" toText="2015-06-29" type="OVERLAP" />
+<TLINK id="SECTIME67" fromID="E75" fromText="cytology" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E131" fromText="discharge" toID="T2" toText="2015-07-09" type="OVERLAP" />
+<TLINK id="SECTIME69" fromID="E132" fromText="output" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E76" fromText="the tube" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E133" fromText="removed" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E5" fromText="The pain" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E77" fromText="serial CXR" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E78" fromText="reaccumulation" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E79" fromText="Hct" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E134" fromText="remained stable" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E80" fromText="DVT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E81" fromText="heparin" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E82" fromText="clots" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E83" fromText="LENI" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E84" fromText="CTA" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E135" fromText="PE" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E85" fromText="Anticoagulaiton" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E86" fromText="hemothorax" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E87" fromText="coumadin" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E94" fromText="discharged" toID="T2" toText="2015-07-09" type="OVERLAP" />
+<TLINK id="SECTIME87" fromID="E136" fromText="coumadin" toID="T2" toText="2015-07-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME88" fromID="E88" fromText="Lung Cancer" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E89" fromText="disease" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E90" fromText="neoadjuvant chemo/XRT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E91" fromText="surgery" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E92" fromText="1st cytology" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E98" fromText="radiate" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E137" fromText="2ng cytology" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E138" fromText="follow up" toID="T2" toText="2015-07-09" type="AFTER" />
+<TLINK id="SECTIME96" fromID="E99" fromText="reports" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E6" fromText="the pain" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E7" fromText="his prior MI" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E8" fromText="shortness of breath" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E100" fromText="the Amanda" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E9" fromText="the patients pain" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E10" fromText="NTG" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E11" fromText="morphine" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E12" fromText="ASA" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E13" fromText="bblocker" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E101" fromText="my evaluation" toID="T1" toText="2015-06-29" type="AFTER" />
+<TLINK id="SECTIME107" fromID="E102" fromText="denied" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E103" fromText="nausea" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E104" fromText="vomitting" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E105" fromText="abdominal pain" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E106" fromText="dysuria" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E107" fromText="dizziness" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E108" fromText="changes in vision /hearing" toID="T1" toText="2015-06-29" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E14" fromText="lung cancer" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E15" fromText="DVT" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E16" fromText="CAD" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E17" fromText="MI" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E109" fromText="presents" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E18" fromText="chest pain" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E19" fromText="shortness of breath" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E20" fromText="Chest Pain" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E21" fromText="Ischemia" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E22" fromText="CAD" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E23" fromText="MI" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E24" fromText="pain" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E25" fromText="his anginal equivalent" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E26" fromText="changes" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E27" fromText="EKG" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E28" fromText="pain" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E110" fromText="EKG" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E29" fromText="enzymes" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E30" fromText="a stress test" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E111" fromText="revealed" toID="T2" toText="2015-07-09" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E31" fromText="an irreversible deficit" toID="T2" toText="2015-07-09" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

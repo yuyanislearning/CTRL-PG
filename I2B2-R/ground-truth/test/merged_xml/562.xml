@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-07-15
+Discharge Date :
+2010-07-18
+Service :
+KULAND
+HISTORY OF PRESENT ILLNESS :
+The patient is a 32-year-old white female with history of diabetes type 1 and migraines who presented with complaints of nausea , diarrhea and vomiting for 24 hours .
+Patient states she was unable to take her usual insulin regimen because she was vomiting .
+The patient denied any fevers , chills , chest pain , shortness of breath or dysuria but does state she had her usual migraine headache the night prior to admission .
+The patient 's arterial blood gases in the Emergency Department were 7.19 , 22 and 109 with a bicarbonate of 9 and a fingerstick of greater than 500 .
+Patient was given two boluses of 15 units of regular insulin and was started on an insulin drip of one unit per hour and given a total of five liters of normal saline .
+Her fingersticks decreased with the insulin drip and the intravenous fluids .
+The patient was admitted to the Intensive Care Unit for an insulin drip and frequent blood sugar monitoring and Chem-7 monitoring .
+The patient did well overnight in the Medical Intensive Care Unit .
+Her anion gap closed and her fingersticks were less than 200 .
+Her NPH and a regular sliding scale were started and her drip was discontinued .
+The patient denied any more gastrointestinal symptoms .
+HOSPITAL COURSE :
+As above , and once transferred to the floor , patient had fingersticks monitored every four hours with a sliding scale .
+Patient reached goal of fingersticks between 50 and 300 , which is what she maintains at home .
+Sliding scale was adjusted as necessary .
+Patient was continued on intravenous fluids until taking good po .
+Infectious Disease :
+The patient had an elevated white count upon admission , however , white count came down to 7.1 and prior to discharge , patient was afebrile and no clear etiology for elevated white blood cell on admission , questionably secondary to short gastrointestinal infection , however , patient is completely symptom free upon discharge .
+Fluid , electrolytes and nutrition :
+The patient 's electrolytes were repleted as necessary .
+Potassium was given with her intravenous fluids and phosphate will be repleted as patient increases her po intake .
+]]></TEXT>
+<TAGS>
+<EVENT id="E37" start="1002" end="1033" text="frequent blood sugar monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1038" end="1055" text="Chem-7 monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1070" end="1078" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1092" end="1123" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1126" end="1139" text="Her anion gap" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1151" end="1167" text="her fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1189" end="1196" text="Her NPH" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1201" end="1224" text="a regular sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1242" end="1250" text="her drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1282" end="1288" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="1289" end="1323" text="any more gastrointestinal symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E48" start="1364" end="1375" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1379" end="1388" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="1403" end="1415" text="fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1448" end="1463" text="a sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1490" end="1502" text="fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1562" end="1575" text="Sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="161" end="176" text="diabetes type 1" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1629" end="1647" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1661" end="1668" text="good po" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1708" end="1731" text="an elevated white count" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1737" end="1746" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1759" end="1770" text="white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1801" end="1810" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1825" end="1833" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="181" end="190" text="migraines" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1860" end="1885" text="elevated white blood cell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1889" end="1898" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1927" end="1959" text="short gastrointestinal infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="195" end="204" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="1994" end="2006" text="symptom free" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2012" end="2021" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2061" end="2088" text="The patient 's electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="2094" end="2102" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="210" end="220" text="complaints" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E68" start="2118" end="2127" text="Potassium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2143" end="2165" text="her intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2170" end="2179" text="phosphate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2188" end="2196" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2218" end="2231" text="her po intake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="224" end="230" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="233" end="241" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="246" end="254" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="278" end="284" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="293" end="307" text="unable to take" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="308" end="333" text="her usual insulin regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="350" end="358" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="373" end="379" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="384" end="390" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="393" end="399" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="402" end="412" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="415" end="434" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="438" end="445" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="455" end="460" text="state" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="469" end="496" text="her usual migraine headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="516" end="525" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="528" end="563" text="The patient 's arterial blood gases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="567" end="591" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="620" end="633" text="a bicarbonate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="643" end="656" text="a fingerstick" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="697" end="739" text="two boluses of 15 units of regular insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="759" end="774" text="an insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="806" end="845" text="a total of five liters of normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="848" end="864" text="Her fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="865" end="874" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="880" end="896" text="the insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="901" end="923" text="the intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="942" end="950" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="954" end="977" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="982" end="997" text="an insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="1079" end="1088" text="overnight" type="DURATION" val="PT8H" mod="NA" />
+<TIMEX3 id="T2" start="1426" end="1442" text="every four hours" type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2010-07-15" type="DATE" val="2010-07-15" mod="NA" />
+<TIMEX3 id="T4" start="259" end="267" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2010-07-18" type="DATE" val="2010-07-18" mod="NA" />
+<TIMEX3 id="T5" start="497" end="506" text="the night" type="DATE" val="2010-07-14" mod="END" />
+<TIMEX3 id="T6" start="787" end="795" text="per hour" type="FREQUENCY" val="RPT1H" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="2010-07-15" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E59" fromText="discharge" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="diarrhea" toID="T4" toText="24 hours" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="vomiting" toID="T4" toText="24 hours" type="OVERLAP" />
+<TLINK id="TL12" fromID="E13" fromText="vomiting" toID="E8" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL13" fromID="E11" fromText="unable to take" toID="E13" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL14" fromID="E12" fromText="her usual insulin regimen" toID="E2" toText="diabetes type 1" type="OVERLAP" />
+<TLINK id="TL15" fromID="E10" fromText="states" toID="E14" toText="denied" type="OVERLAP" />
+<TLINK id="TL16" fromID="E16" fromText="fevers" toID="E14" toText="denied" type="BEFORE" />
+<TLINK id="TL17" fromID="E17" fromText="chills" toID="E14" toText="denied" type="BEFORE" />
+<TLINK id="TL18" fromID="E18" fromText="chest pain" toID="E14" toText="denied" type="BEFORE" />
+<TLINK id="TL19" fromID="E19" fromText="shortness of breath" toID="E14" toText="denied" type="BEFORE" />
+<TLINK id="TL2" fromID="E1" fromText="Discharge" toID="T1" toText="2010-07-18" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="dysuria" toID="E14" toText="denied" type="BEFORE" />
+<TLINK id="TL21" fromID="E21" fromText="state" toID="E14" toText="denied" type="OVERLAP" />
+<TLINK id="TL22" fromID="E22" fromText="her usual migraine headache" toID="T5" toText="the night" type="OVERLAP" />
+<TLINK id="TL23" fromID="E9" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL24" fromID="E23" fromText="The patient 's arterial blood gases" toID="E24" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL25" fromID="E23" fromText="The patient 's arterial blood gases" toID="E25" toText="a bicarbonate" type="OVERLAP" />
+<TLINK id="TL26" fromID="E24" fromText="the Emergency Department" toID="E4" toText="presented" type="AFTER" />
+<TLINK id="TL27" fromID="E24" fromText="the Emergency Department" toID="E34" toText="admitted" type="BEFORE" />
+<TLINK id="TL28" fromID="E26" fromText="a fingerstick" toID="E24" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL29" fromID="E27" fromText="two boluses of 15 units of regular insulin" toID="E26" toText="a fingerstick" type="AFTER" />
+<TLINK id="TL3" fromID="E2" fromText="diabetes type 1" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E32" fromText="the insulin drip" toID="E28" toText="an insulin drip" type="OVERLAP" />
+<TLINK id="TL31" fromID="E28" fromText="an insulin drip" toID="E27" toText="two boluses of 15 units of regular insulin" type="AFTER" />
+<TLINK id="TL32" fromID="E28" fromText="an insulin drip" toID="T6" toText="per hour" type="OVERLAP" />
+<TLINK id="TL33" fromID="E33" fromText="the intravenous fluids" toID="E29" toText="a total of five liters of normal saline" type="OVERLAP" />
+<TLINK id="TL34" fromID="E29" fromText="a total of five liters of normal saline" toID="E24" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="Her fingersticks" toID="E32" toText="the insulin drip" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="decreased" toID="E32" toText="the insulin drip" type="OVERLAP" />
+<TLINK id="TL38" fromID="E35" fromText="the Intensive Care Unit" toID="E34" toText="admitted" type="AFTER" />
+<TLINK id="TL39" fromID="E34" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="migraines" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E36" fromText="an insulin drip" toID="E32" toText="the insulin drip" type="OVERLAP" />
+<TLINK id="TL41" fromID="E36" fromText="an insulin drip" toID="E35" toText="the Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL42" fromID="E37" fromText="frequent blood sugar monitoring" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL43" fromID="E38" fromText="Chem-7 monitoring" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL44" fromID="E39" fromText="did well" toID="T3" toText="overnight" type="OVERLAP" />
+<TLINK id="TL45" fromID="T3" fromText="overnight" toID="E34" toText="admitted" type="AFTER" />
+<TLINK id="TL46" fromID="E40" fromText="the Medical Intensive Care Unit" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL47" fromID="E41" fromText="Her anion gap" toID="E25" toText="a bicarbonate" type="OVERLAP" />
+<TLINK id="TL48" fromID="E41" fromText="Her anion gap" toID="T3" toText="overnight" type="BEFORE" />
+<TLINK id="TL49" fromID="E42" fromText="her fingersticks" toID="T3" toText="overnight" type="OVERLAP" />
+<TLINK id="TL5" fromID="T4" fromText="24 hours" toID="E4" toText="presented" type="BEFORE" />
+<TLINK id="TL50" fromID="E45" fromText="her drip" toID="E44" toText="a regular sliding scale" type="BEFORE" />
+<TLINK id="TL51" fromID="E45" fromText="her drip" toID="E32" toText="the insulin drip" type="OVERLAP" />
+<TLINK id="TL52" fromID="E43" fromText="Her NPH" toID="E44" toText="a regular sliding scale" type="OVERLAP" />
+<TLINK id="TL53" fromID="E46" fromText="denied" toID="E34" toText="admitted" type="AFTER" />
+<TLINK id="TL54" fromID="E46" fromText="denied" toID="E47" toText="any more gastrointestinal symptoms" type="BEFORE" />
+<TLINK id="TL55" fromID="E49" fromText="the floor" toID="E48" toText="transferred" type="AFTER" />
+<TLINK id="TL56" fromID="E40" fromText="the Medical Intensive Care Unit" toID="E48" toText="transferred" type="BEFORE" />
+<TLINK id="TL57" fromID="E50" fromText="fingersticks" toID="E49" toText="the floor" type="OVERLAP" />
+<TLINK id="TL58" fromID="E52" fromText="fingersticks" toID="E50" toText="fingersticks" type="OVERLAP" />
+<TLINK id="TL59" fromID="E50" fromText="fingersticks" toID="T2" toText="every four hours" type="OVERLAP" />
+<TLINK id="TL6" fromID="E10" fromText="states" toID="E4" toText="presented" type="OVERLAP" />
+<TLINK id="TL60" fromID="E50" fromText="fingersticks" toID="E51" toText="a sliding scale" type="OVERLAP" />
+<TLINK id="TL61" fromID="E53" fromText="Sliding scale" toID="E51" toText="a sliding scale" type="OVERLAP" />
+<TLINK id="TL62" fromID="E54" fromText="intravenous fluids" toID="E55" toText="good po" type="BEFORE" />
+<TLINK id="TL63" fromID="E54" fromText="intravenous fluids" toID="E33" toText="the intravenous fluids" type="OVERLAP" />
+<TLINK id="TL64" fromID="E69" fromText="her intravenous fluids" toID="E54" toText="intravenous fluids" type="OVERLAP" />
+<TLINK id="TL66" fromID="E56" fromText="an elevated white count" toID="E57" toText="admission" type="OVERLAP" />
+<TLINK id="TL67" fromID="E57" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL68" fromID="E58" fromText="white count" toID="E56" toText="an elevated white count" type="AFTER" />
+<TLINK id="TL69" fromID="E58" fromText="white count" toID="E59" toText="discharge" type="BEFORE" />
+<TLINK id="TL7" fromID="E4" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL70" fromID="E60" fromText="afebrile" toID="E59" toText="discharge" type="BEFORE" />
+<TLINK id="TL71" fromID="E56" fromText="an elevated white count" toID="E61" toText="elevated white blood cell" type="OVERLAP" />
+<TLINK id="TL72" fromID="E57" fromText="admission" toID="E62" toText="admission" type="OVERLAP" />
+<TLINK id="TL73" fromID="E63" fromText="short gastrointestinal infection" toID="E61" toText="elevated white blood cell" type="BEFORE" />
+<TLINK id="TL74" fromID="E64" fromText="symptom free" toID="E65" toText="discharge" type="BEFORE" />
+<TLINK id="TL75" fromID="E65" fromText="discharge" toID="E59" toText="discharge" type="OVERLAP" />
+<TLINK id="TL76" fromID="E67" fromText="repleted" toID="E66" toText="The patient 's electrolytes" type="OVERLAP" />
+<TLINK id="TL77" fromID="E67" fromText="repleted" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL78" fromID="E68" fromText="Potassium" toID="E69" toText="her intravenous fluids" type="OVERLAP" />
+<TLINK id="TL79" fromID="E70" fromText="phosphate" toID="E71" toText="repleted" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="presented" toID="E5" toText="complaints" type="OVERLAP" />
+<TLINK id="TL80" fromID="E71" fromText="repleted" toID="E72" toText="her po intake" type="AFTER" />
+<TLINK id="TL81" fromID="E72" fromText="her po intake" toID="E55" toText="good po" type="OVERLAP" />
+<TLINK id="TL9" fromID="E6" fromText="nausea" toID="T4" toText="24 hours" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2010-07-15" type="ADMISSION" dvalue="2010-07-15" />
+<SECTIME id="S1" start="46" end="56" text="2010-07-18" type="DISCHARGE" dvalue="2010-07-18" />
+<TLINK id="SECTIME0" fromID="E37" fromText="frequent blood sugar monitoring" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E38" fromText="Chem-7 monitoring" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E39" fromText="did well" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E40" fromText="the Medical Intensive Care Unit" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME4" fromID="E41" fromText="Her anion gap" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E42" fromText="her fingersticks" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME6" fromID="E43" fromText="Her NPH" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E44" fromText="a regular sliding scale" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E45" fromText="her drip" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E46" fromText="denied" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E47" fromText="any more gastrointestinal symptoms" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME11" fromID="E48" fromText="transferred" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E49" fromText="the floor" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E50" fromText="fingersticks" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E51" fromText="a sliding scale" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E52" fromText="fingersticks" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E53" fromText="Sliding scale" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E2" fromText="diabetes type 1" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E54" fromText="intravenous fluids" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E55" fromText="good po" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E56" fromText="an elevated white count" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E57" fromText="admission" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E58" fromText="white count" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E59" fromText="discharge" toID="T1" toText="2010-07-18" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E60" fromText="afebrile" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E3" fromText="migraines" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E61" fromText="elevated white blood cell" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E62" fromText="admission" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E63" fromText="short gastrointestinal infection" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E4" fromText="presented" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E64" fromText="symptom free" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E65" fromText="discharge" toID="T1" toText="2010-07-18" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E66" fromText="The patient 's electrolytes" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E67" fromText="repleted" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E5" fromText="complaints" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E68" fromText="Potassium" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E69" fromText="her intravenous fluids" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E70" fromText="phosphate" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E71" fromText="repleted" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E72" fromText="her po intake" toID="T1" toText="2010-07-18" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E6" fromText="nausea" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E7" fromText="diarrhea" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E8" fromText="vomiting" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E10" fromText="states" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E11" fromText="unable to take" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E12" fromText="her usual insulin regimen" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E13" fromText="vomiting" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E14" fromText="denied" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME48" fromID="E16" fromText="fevers" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E17" fromText="chills" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E18" fromText="chest pain" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E19" fromText="shortness of breath" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E20" fromText="dysuria" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E21" fromText="state" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E22" fromText="her usual migraine headache" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E9" fromText="admission" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME56" fromID="E23" fromText="The patient 's arterial blood gases" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E24" fromText="the Emergency Department" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E25" fromText="a bicarbonate" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E26" fromText="a fingerstick" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E27" fromText="two boluses of 15 units of regular insulin" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E28" fromText="an insulin drip" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E29" fromText="a total of five liters of normal saline" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E30" fromText="Her fingersticks" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E31" fromText="decreased" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E32" fromText="the insulin drip" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E33" fromText="the intravenous fluids" toID="T0" toText="2010-07-15" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E34" fromText="admitted" toID="T0" toText="2010-07-15" type="OVERLAP" />
+<TLINK id="SECTIME68" fromID="E35" fromText="the Intensive Care Unit" toID="T0" toText="2010-07-15" type="AFTER" />
+<TLINK id="SECTIME69" fromID="E36" fromText="an insulin drip" toID="T0" toText="2010-07-15" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-03-04
+Discharge Date :
+2016-03-22
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+This is an 85 year old man initially admitted to the Plastic Surgery Service for evaluation of a left facial mass .
+Subsequently , CMED CCU was consulted and he was transferred to our Service postoperatively .
+HOSPITAL COURSE :
+He was initially admitted to CMED for resection and repair of this left facial lesion .
+He also had consults from Urology for his hematuria as well as Medicine preoperatively and CMED CCU .
+He went to the Operating Room on 2016-03-10 with Urology for hematuria where he had a cystoscopy transurethral resection of prostate placement .
+He then went to the Operating Room on 2016-03-14 where he had resection of the left face squamous cell cancer by Dr. Langhorne and split thickness and full thickness skin grafting of the defects on 2016-03-14 .
+He tolerated the procedure well with no complications except postoperatively , his voice was hoarse .
+On scoping him he had significant supraglottic edema .
+He was kept in the Unit for observation of his airway and b.i.d. laryngoscopy .
+This revealed some supraglottic edema which revealed with time , without further intervention .
+He was followed by Plastic Surgery for his split thickness skin graft and his bolster was discontinued on postoperative day #5 with good take up of his skin graft .
+Urology also followed him and kept him on antibiotics until postoperative day #7 at which point antibiotics were discontinued .
+His
+Foley was also discontinued .
+He is being discharged to rehabilitation to follow up for XRT given the fact that his pathology revealed squamous cell cancer extending deep to the margin as well as positive level II nodes .
+Dr. Navarrete has been e-mailed and his secretary contacted for as soon as possible appointment for XRT follow up .
+He should also follow up with Dr. Rankin and Dr. Langhorne .
+He is being discharged , most likely , to Falmouth Hospital .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1004" end="1011" text="scoping" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1023" end="1053" text="significant supraglottic edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1071" end="1079" text="the Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="1084" end="1109" text="observation of his airway" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1121" end="1133" text="laryngoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1141" end="1149" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="1150" end="1173" text="some supraglottic edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1209" end="1229" text="further intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E19" start="1271" end="1301" text="his split thickness skin graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1306" end="1317" text="his bolster" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1380" end="1394" text="his skin graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1439" end="1450" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1493" end="1504" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1529" end="1534" text="Foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1571" end="1581" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1585" end="1599" text="rehabilitation" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="1617" end="1620" text="XRT" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="162" end="170" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1641" end="1654" text="his pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1655" end="1663" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="1664" end="1684" text="squamous cell cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1725" end="1748" text="positive level II nodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="174" end="201" text="the Plastic Surgery Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="1851" end="1864" text="XRT follow up" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1882" end="1891" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1940" end="1950" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1970" end="1987" text="Falmouth Hospital" modality="POSSIBLE" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="206" end="216" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="220" end="238" text="a left facial mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="290" end="301" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="305" end="316" text="our Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="370" end="378" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="382" end="386" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="391" end="400" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="405" end="411" text="repair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="415" end="438" text="this left facial lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="479" end="492" text="his hematuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="554" end="572" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="604" end="613" text="hematuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="627" end="685" text="a cystoscopy transurethral resection of prostate placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="704" end="722" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="750" end="759" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="763" end="797" text="the left face squamous cell cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="819" end="867" text="split thickness and full thickness skin grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="871" end="882" text="the defects" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="902" end="911" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="912" end="925" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="926" end="930" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="939" end="952" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="992" end="998" text="hoarse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="1114" end="1120" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T6" start="1338" end="1358" text="postoperative day #5" type="DATE" val="2016-03-19" mod="NA" />
+<TIMEX3 id="T7" start="1457" end="1477" text="postoperative day #7" type="DATE" val="2016-03-21" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2016-03-04" type="DATE" val="2016-03-04" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2016-03-22" type="DATE" val="2016-03-22" mod="NA" />
+<TIMEX3 id="T3" start="576" end="586" text="2016-03-10" type="DATE" val="2016-03-10" mod="NA" />
+<TIMEX3 id="T4" start="726" end="736" text="2016-03-14" type="DATE" val="2016-03-14" mod="NA" />
+<TIMEX3 id="T5" start="886" end="896" text="2016-03-14" type="DATE" val="2016-03-14" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2016-03-04" type="ADMISSION" dvalue="2016-03-04" />
+<SECTIME id="S1" start="46" end="56" text="2016-03-22" type="DISCHARGE" dvalue="2016-03-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

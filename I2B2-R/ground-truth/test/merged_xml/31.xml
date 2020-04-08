@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/17/2000
+Report Status :
+Signed
+HISTORY OF PRESENT ILLNESS :
+Ri Strength is a 40 year old man with a history of GERD , who presents with abdominal pain of seven days duration .
+The patient was in general good health until seven days ago ( 2/11/00 ) , when he had a sudden onset of sharp left flank pain with radiation to the lower abdomen and then to the epigastrium .
+The patient described the pain as &quot; knife-like &quot; with a severity of 1/25 at its worse .
+The patient was exacerbated when eating and when lying flat .
+The patient also reports blood-streaked diarrhea for two days .
+He denies nausea and vomiting .
+He has had no fevers or chills .
+He has had no recent weight loss , no light-headedness or dizziness .
+He denies increased urinary frequent or urgency .
+The patient presented to the Sloan- Center Emergency Department , where he was resuscitated with normal saline and received morphine for pain .
+He was then transferred to the general medicine service for further management .
+HOSPITAL COURSE :
+On admission , the patient was diagnosed with acute pancreatitis .
+He was made NPO and was resuscitated with IV fluids .
+Pain control was initiated with morphine but was then changed to Demerol , which gave the patient better relief of his epigastric pain .
+From 2/17/00 to 2/21/00 , the patient complained of persistent and occasionally severe epigastric pain .
+His pain medication was then changed to Dilaudid IV in an attempt to better alleviate his symptoms .
+Dilaudid IV was continued for the remainder of the patient &apos;s hospitalization .
+The does was titrated to the patient &apos;s need for comfort and was eventually tapered .
+The severity and persistent of the patient &apos;s epigastric pain was concerning for a pancreatic complication such as necrosis or abscess .
+The patient had a CT scan , which revealed a mass in the gallbladder neck , but no biliary dilatation .
+There was stranding along the pancreas , but no necrosis , abscess , or pseudocyst .
+On 2/22/00 , the patient had fevers to 103.5 .
+Blood and urine cultures were sent .
+A chest x-ray was done , which revealed no infiltrate or effusion .
+The patient was started on cefotaxime 1 gm IV for empiric antibiotic treatment .
+All cultures were negative .
+On 2/23/00 , the high grade fever persisted .
+An ultrasound was done to R / O cholestasis or cholangitis .
+The ultrasound showed biliary sludge and swelling of the body and tail of the pancreas .
+No other abnormalities were noted .
+On 2/24/00 , the patient had an episode of exacerbation of epigastric pain with radiation to the left upper quadrant .
+The pain was subsequently relieved with high dose Dilaudid .
+The patient had a follow-up chest x-ray , which was essentially unchanged from previously , showing a normal heart and lungs without infiltrate .
+From 2/25 - 2/27/00 , the patient &apos;s fever defervesced and his abdominal pain gradually subsided .
+The cefotaxime was discontinued since no infection was identified .
+On 2/28/00 , the patient &apos;s diet was advanced to a low fat solids ( per pancreatitis study ) , which the patient tolerated well .
+The patient was discharged home on 2/29/00 , with much improvement of his symptoms .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="1002" end="1020" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1044" end="1053" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1072" end="1081" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="1087" end="1105" text="acute pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="1120" end="1123" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1132" end="1144" text="resuscitated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="1150" end="1159" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="1162" end="1174" text="Pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1194" end="1202" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1227" end="1234" text="Demerol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1277" end="1296" text="his epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="132" end="136" text="GERD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1337" end="1347" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E87" start="1351" end="1401" text="persistent and occasionally severe epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1404" end="1423" text="His pain medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="143" end="151" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="1444" end="1455" text="Dilaudid IV" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1490" end="1502" text="his symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1505" end="1516" text="Dilaudid IV" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="157" end="171" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="1572" end="1587" text="hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="1603" end="1611" text="titrated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="1671" end="1678" text="tapered" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1712" end="1747" text="the patient &apos;s epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1767" end="1792" text="a pancreatic complication" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1801" end="1809" text="necrosis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1813" end="1820" text="abscess" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1839" end="1848" text="a CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="1857" end="1865" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="1866" end="1896" text="a mass in the gallbladder neck" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1906" end="1924" text="biliary dilatation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="1937" end="1965" text="stranding along the pancreas" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1975" end="1983" text="necrosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="1986" end="1993" text="abscess" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="1999" end="2009" text="pseudocyst" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="2041" end="2047" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="2059" end="2083" text="Blood and urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="2096" end="2109" text="A chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2127" end="2135" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E31" start="2139" end="2149" text="infiltrate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E32" start="2153" end="2161" text="effusion" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E53" start="216" end="235" text="general good health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2191" end="2201" text="cefotaxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2214" end="2242" text="empiric antibiotic treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2245" end="2257" text="All cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="2287" end="2307" text="the high grade fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2320" end="2333" text="An ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="2352" end="2363" text="cholestasis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="2367" end="2378" text="cholangitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2381" end="2395" text="The ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="2396" end="2402" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="2403" end="2417" text="biliary sludge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2422" end="2442" text="swelling of the body" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2473" end="2492" text="other abnormalities" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E97" start="2498" end="2503" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="2565" end="2580" text="epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="2586" end="2622" text="radiation to the left upper quadrant" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2625" end="2633" text="The pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2665" end="2683" text="high dose Dilaudid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2702" end="2725" text="a follow-up chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E99" start="2778" end="2785" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="2819" end="2829" text="infiltrate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="2854" end="2879" text="the patient &apos;s fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="2896" end="2914" text="his abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2936" end="2950" text="The cefotaxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2955" end="2967" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2977" end="2986" text="infection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="301" end="322" text="sharp left flank pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="3058" end="3074" text="a low fat solids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3081" end="3099" text="pancreatitis study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="3122" end="3131" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="3155" end="3165" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="3194" end="3205" text="improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="328" end="358" text="radiation to the lower abdomen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="401" end="410" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E63" start="411" end="419" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="430" end="440" text="knife-like" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="503" end="514" text="exacerbated" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="520" end="526" text="eating" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="536" end="546" text="lying flat" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="566" end="573" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="574" end="597" text="blood-streaked diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="616" end="622" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="623" end="629" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E72" start="634" end="642" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E73" start="659" end="665" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E74" start="669" end="675" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="692" end="710" text="recent weight loss" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E4" start="716" end="732" text="light-headedness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="736" end="745" text="dizziness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E70" start="751" end="757" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E75" start="758" end="784" text="increased urinary frequent" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="788" end="795" text="urgency" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E78" start="823" end="861" text="the Sloan- Center Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E79" start="877" end="889" text="resuscitated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="895" end="908" text="normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="922" end="930" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="935" end="939" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="954" end="965" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="969" end="997" text="the general medicine service" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T9" start="1304" end="1311" text="2/17/00" type="DATE" val="2000-02-17" mod="NA" />
+<TIMEX3 id="T10" start="1315" end="1322" text="2/21/00" type="DATE" val="2000-02-21" mod="NA" />
+<TIMEX3 id="T7" start="175" end="185" text="seven days" type="DURATION" val="P7D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="02/17/2000" type="DATE" val="2000-02-17" mod="NA" />
+<TIMEX3 id="T2" start="2015" end="2022" text="2/22/00" type="DATE" val="2000-02-22" mod="NA" />
+<TIMEX3 id="T3" start="2277" end="2284" text="2/23/00" type="DATE" val="2000-02-23" mod="NA" />
+<TIMEX3 id="T0" start="242" end="252" text="seven days" type="DURATION" val="P7D" mod="NA" />
+<TIMEX3 id="T4" start="2509" end="2516" text="2/24/00" type="DATE" val="2000-02-24" mod="NA" />
+<TIMEX3 id="T6" start="259" end="266" text="2/11/00" type="DATE" val="2000-02-11" mod="NA" />
+<TIMEX3 id="T11" start="2837" end="2841" text="2/25" type="DATE" val="2000-02-25" mod="NA" />
+<TIMEX3 id="T12" start="2844" end="2851" text="2/27/00" type="DATE" val="2000-02-27" mod="NA" />
+<TIMEX3 id="T5" start="3007" end="3014" text="2/28/00" type="DATE" val="2000-02-28" mod="NA" />
+<TIMEX3 id="T13" start="3174" end="3181" text="2/29/00" type="DATE" val="2000-02-29" mod="NA" />
+<TIMEX3 id="T8" start="602" end="610" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="TL1" fromID="E6" fromText="acute pancreatitis" toID="E54" toText="admission" type="BEFORE" />
+<TLINK id="TL10" fromID="E53" fromText="general good health" toID="T0" toText="seven days" type="BEFORE" />
+<TLINK id="TL11" fromID="T0" fromText="seven days" toID="T6" toText="2/11/00" type="AFTER" />
+<TLINK id="TL12" fromID="T0" fromText="seven days" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="TL13" fromID="E60" fromText="sharp left flank pain" toID="T0" toText="seven days" type="AFTER" />
+<TLINK id="TL14" fromID="E61" fromText="radiation to the lower abdomen" toID="E60" toText="sharp left flank pain" type="OVERLAP" />
+<TLINK id="TL15" fromID="E62" fromText="described" toID="E52" toText="presents" type="OVERLAP" />
+<TLINK id="TL16" fromID="E69" fromText="denies" toID="E62" toText="described" type="OVERLAP" />
+<TLINK id="TL17" fromID="E64" fromText="knife-like" toID="E63" toText="the pain" type="OVERLAP" />
+<TLINK id="TL18" fromID="E63" fromText="the pain" toID="E60" toText="sharp left flank pain" type="OVERLAP" />
+<TLINK id="TL19" fromID="E65" fromText="exacerbated" toID="E66" toText="eating" type="OVERLAP" />
+<TLINK id="TL2" fromID="E23" fromText="biliary dilatation" toID="E22" toText="a mass in the gallbladder neck" type="OVERLAP" />
+<TLINK id="TL20" fromID="E65" fromText="exacerbated" toID="E67" toText="lying flat" type="OVERLAP" />
+<TLINK id="TL21" fromID="E68" fromText="reports" toID="E69" toText="denies" type="OVERLAP" />
+<TLINK id="TL22" fromID="E2" fromText="blood-streaked diarrhea" toID="T8" toText="two days" type="OVERLAP" />
+<TLINK id="TL23" fromID="T8" fromText="two days" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="TL24" fromID="E72" fromText="vomiting" toID="E71" toText="nausea" type="OVERLAP" />
+<TLINK id="TL25" fromID="E70" fromText="denies" toID="E69" toText="denies" type="OVERLAP" />
+<TLINK id="TL26" fromID="E78" fromText="the Sloan- Center Emergency Department" toID="E84" toText="the general medicine service" type="BEFORE" />
+<TLINK id="TL27" fromID="E79" fromText="resuscitated" toID="E78" toText="the Sloan- Center Emergency Department" type="OVERLAP" />
+<TLINK id="TL28" fromID="E81" fromText="morphine" toID="E79" toText="resuscitated" type="OVERLAP" />
+<TLINK id="TL29" fromID="E79" fromText="resuscitated" toID="E80" toText="normal saline" type="OVERLAP" />
+<TLINK id="TL3" fromID="E25" fromText="necrosis" toID="E24" toText="stranding along the pancreas" type="OVERLAP" />
+<TLINK id="TL30" fromID="E82" fromText="pain" toID="E81" toText="morphine" type="BEFORE" />
+<TLINK id="TL31" fromID="E84" fromText="the general medicine service" toID="E83" toText="transferred" type="AFTER" />
+<TLINK id="TL32" fromID="E85" fromText="further management" toID="E84" toText="the general medicine service" type="OVERLAP" />
+<TLINK id="TL33" fromID="E55" fromText="diagnosed" toID="E54" toText="admission" type="OVERLAP" />
+<TLINK id="TL34" fromID="E7" fromText="NPO" toID="E55" toText="diagnosed" type="AFTER" />
+<TLINK id="TL35" fromID="E86" fromText="resuscitated" toID="E7" toText="NPO" type="OVERLAP" />
+<TLINK id="TL36" fromID="E8" fromText="IV fluids" toID="E86" toText="resuscitated" type="OVERLAP" />
+<TLINK id="TL37" fromID="E9" fromText="Pain control" toID="E55" toText="diagnosed" type="AFTER" />
+<TLINK id="TL38" fromID="E10" fromText="morphine" toID="E9" toText="Pain control" type="OVERLAP" />
+<TLINK id="TL4" fromID="E33" fromText="cefotaxime" toID="E30" toText="A chest x-ray" type="AFTER" />
+<TLINK id="TL40" fromID="E11" fromText="Demerol" toID="E9" toText="Pain control" type="OVERLAP" />
+<TLINK id="TL41" fromID="E11" fromText="Demerol" toID="E10" toText="morphine" type="AFTER" />
+<TLINK id="TL42" fromID="E12" fromText="his epigastric pain" toID="E82" toText="pain" type="OVERLAP" />
+<TLINK id="TL43" fromID="E87" fromText="persistent and occasionally severe epigastric pain" toID="T9" toText="2/17/00" type="AFTER" />
+<TLINK id="TL44" fromID="E87" fromText="persistent and occasionally severe epigastric pain" toID="T10" toText="2/21/00" type="BEFORE" />
+<TLINK id="TL45" fromID="E56" fromText="complained" toID="E87" toText="persistent and occasionally severe epigastric pain" type="OVERLAP" />
+<TLINK id="TL46" fromID="E13" fromText="His pain medication" toID="E11" toText="Demerol" type="OVERLAP" />
+<TLINK id="TL47" fromID="E14" fromText="Dilaudid IV" toID="E13" toText="His pain medication" type="AFTER" />
+<TLINK id="TL48" fromID="E16" fromText="Dilaudid IV" toID="E14" toText="Dilaudid IV" type="OVERLAP" />
+<TLINK id="TL49" fromID="E89" fromText="titrated" toID="E16" toText="Dilaudid IV" type="OVERLAP" />
+<TLINK id="TL5" fromID="E50" fromText="a low fat solids" toID="T5" toText="2/28/00" type="AFTER" />
+<TLINK id="TL50" fromID="E90" fromText="tapered" toID="E89" toText="titrated" type="AFTER" />
+<TLINK id="TL51" fromID="E17" fromText="the patient &apos;s epigastric pain" toID="E87" toText="persistent and occasionally severe epigastric pain" type="OVERLAP" />
+<TLINK id="TL52" fromID="E20" fromText="abscess" toID="E19" toText="necrosis" type="OVERLAP" />
+<TLINK id="TL53" fromID="E19" fromText="necrosis" toID="E18" toText="a pancreatic complication" type="OVERLAP" />
+<TLINK id="TL54" fromID="E21" fromText="a CT scan" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL55" fromID="E91" fromText="revealed" toID="E21" toText="a CT scan" type="OVERLAP" />
+<TLINK id="TL56" fromID="E22" fromText="a mass in the gallbladder neck" toID="E21" toText="a CT scan" type="BEFORE" />
+<TLINK id="TL57" fromID="E24" fromText="stranding along the pancreas" toID="E21" toText="a CT scan" type="BEFORE" />
+<TLINK id="TL58" fromID="E26" fromText="abscess" toID="E25" toText="necrosis" type="OVERLAP" />
+<TLINK id="TL59" fromID="E27" fromText="pseudocyst" toID="E26" toText="abscess" type="OVERLAP" />
+<TLINK id="TL6" fromID="E52" fromText="presents" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="TL60" fromID="E28" fromText="fevers" toID="T2" toText="2/22/00" type="AFTER" />
+<TLINK id="TL62" fromID="E93" fromText="All cultures" toID="E29" toText="Blood and urine cultures" type="AFTER" />
+<TLINK id="TL63" fromID="E29" fromText="Blood and urine cultures" toID="E28" toText="fevers" type="AFTER" />
+<TLINK id="TL64" fromID="E30" fromText="A chest x-ray" toID="E28" toText="fevers" type="AFTER" />
+<TLINK id="TL65" fromID="E92" fromText="revealed" toID="E30" toText="A chest x-ray" type="OVERLAP" />
+<TLINK id="TL66" fromID="E31" fromText="infiltrate" toID="E30" toText="A chest x-ray" type="BEFORE" />
+<TLINK id="TL67" fromID="E32" fromText="effusion" toID="E31" toText="infiltrate" type="OVERLAP" />
+<TLINK id="TL68" fromID="E34" fromText="empiric antibiotic treatment" toID="E33" toText="cefotaxime" type="BEFORE" />
+<TLINK id="TL69" fromID="E35" fromText="the high grade fever" toID="E28" toText="fevers" type="AFTER" />
+<TLINK id="TL7" fromID="E1" fromText="abdominal pain" toID="T7" toText="seven days" type="OVERLAP" />
+<TLINK id="TL70" fromID="E35" fromText="the high grade fever" toID="T3" toText="2/23/00" type="OVERLAP" />
+<TLINK id="TL71" fromID="E37" fromText="The ultrasound" toID="E36" toText="An ultrasound" type="OVERLAP" />
+<TLINK id="TL72" fromID="E36" fromText="An ultrasound" toID="T3" toText="2/23/00" type="OVERLAP" />
+<TLINK id="TL73" fromID="E94" fromText="cholestasis" toID="E36" toText="An ultrasound" type="BEFORE" />
+<TLINK id="TL74" fromID="E95" fromText="cholangitis" toID="E94" toText="cholestasis" type="OVERLAP" />
+<TLINK id="TL75" fromID="E38" fromText="biliary sludge" toID="E37" toText="The ultrasound" type="BEFORE" />
+<TLINK id="TL76" fromID="E37" fromText="The ultrasound" toID="E96" toText="showed" type="OVERLAP" />
+<TLINK id="TL77" fromID="E39" fromText="swelling of the body" toID="E37" toText="The ultrasound" type="BEFORE" />
+<TLINK id="TL78" fromID="E40" fromText="other abnormalities" toID="E39" toText="swelling of the body" type="OVERLAP" />
+<TLINK id="TL79" fromID="E97" fromText="noted" toID="E38" toText="biliary sludge" type="OVERLAP" />
+<TLINK id="TL8" fromID="T7" fromText="seven days" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="TL80" fromID="E98" fromText="epigastric pain" toID="T4" toText="2/24/00" type="OVERLAP" />
+<TLINK id="TL81" fromID="E41" fromText="radiation to the left upper quadrant" toID="E98" toText="epigastric pain" type="OVERLAP" />
+<TLINK id="TL82" fromID="E44" fromText="a follow-up chest x-ray" toID="E98" toText="epigastric pain" type="AFTER" />
+<TLINK id="TL83" fromID="E98" fromText="epigastric pain" toID="E43" toText="high dose Dilaudid" type="BEFORE" />
+<TLINK id="TL84" fromID="E98" fromText="epigastric pain" toID="E42" toText="The pain" type="OVERLAP" />
+<TLINK id="TL85" fromID="E99" fromText="showing" toID="E44" toText="a follow-up chest x-ray" type="OVERLAP" />
+<TLINK id="TL86" fromID="E45" fromText="infiltrate" toID="E99" toText="showing" type="BEFORE" />
+<TLINK id="TL87" fromID="E46" fromText="the patient &apos;s fever" toID="T11" toText="2/25" type="AFTER" />
+<TLINK id="TL88" fromID="E46" fromText="the patient &apos;s fever" toID="T12" toText="2/27/00" type="BEFORE" />
+<TLINK id="TL89" fromID="E47" fromText="his abdominal pain" toID="T12" toText="2/27/00" type="BEFORE" />
+<TLINK id="TL9" fromID="T7" fromText="seven days" toID="T0" toText="seven days" type="OVERLAP" />
+<TLINK id="TL90" fromID="E48" fromText="The cefotaxime" toID="T12" toText="2/27/00" type="BEFORE" />
+<TLINK id="TL91" fromID="E49" fromText="infection" toID="E48" toText="The cefotaxime" type="BEFORE" />
+<TLINK id="TL93" fromID="E51" fromText="pancreatitis study" toID="E50" toText="a low fat solids" type="BEFORE" />
+<TLINK id="TL94" fromID="E100" fromText="tolerated" toID="E50" toText="a low fat solids" type="AFTER" />
+<TLINK id="TL95" fromID="E58" fromText="discharged" toID="T13" toText="2/29/00" type="OVERLAP" />
+<TLINK id="TL96" fromID="E101" fromText="improvement" toID="T13" toText="2/29/00" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="02/17/2000" type="ADMISSION" dvalue="2000-02-17" />
+<TLINK id="SECTIME0" fromID="E85" fromText="further management" toID="T1" toText="02/17/2000" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E54" fromText="admission" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E55" fromText="diagnosed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E6" fromText="acute pancreatitis" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E7" fromText="NPO" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E86" fromText="resuscitated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E8" fromText="IV fluids" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E9" fromText="Pain control" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E10" fromText="morphine" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E11" fromText="Demerol" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="his epigastric pain" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E59" fromText="GERD" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E56" fromText="complained" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E87" fromText="persistent and occasionally severe epigastric pain" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E13" fromText="His pain medication" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E14" fromText="Dilaudid IV" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E15" fromText="his symptoms" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E16" fromText="Dilaudid IV" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E1" fromText="abdominal pain" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E88" fromText="hospitalization" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E89" fromText="titrated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E90" fromText="tapered" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E17" fromText="the patient &apos;s epigastric pain" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E18" fromText="a pancreatic complication" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E19" fromText="necrosis" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E20" fromText="abscess" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E21" fromText="a CT scan" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E91" fromText="revealed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E22" fromText="a mass in the gallbladder neck" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E23" fromText="biliary dilatation" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E24" fromText="stranding along the pancreas" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E25" fromText="necrosis" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E26" fromText="abscess" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E27" fromText="pseudocyst" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E28" fromText="fevers" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E29" fromText="Blood and urine cultures" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E30" fromText="A chest x-ray" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E92" fromText="revealed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E31" fromText="infiltrate" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E32" fromText="effusion" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E53" fromText="general good health" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E33" fromText="cefotaxime" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E34" fromText="empiric antibiotic treatment" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E93" fromText="All cultures" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E35" fromText="the high grade fever" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E36" fromText="An ultrasound" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E94" fromText="cholestasis" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E95" fromText="cholangitis" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E37" fromText="The ultrasound" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E96" fromText="showed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E38" fromText="biliary sludge" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E39" fromText="swelling of the body" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E40" fromText="other abnormalities" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E97" fromText="noted" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E98" fromText="epigastric pain" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E41" fromText="radiation to the left upper quadrant" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E42" fromText="The pain" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E43" fromText="high dose Dilaudid" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E44" fromText="a follow-up chest x-ray" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E99" fromText="showing" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E45" fromText="infiltrate" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E46" fromText="the patient &apos;s fever" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E47" fromText="his abdominal pain" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E48" fromText="The cefotaxime" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E57" fromText="discontinued" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E49" fromText="infection" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E60" fromText="sharp left flank pain" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E50" fromText="a low fat solids" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E51" fromText="pancreatitis study" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E100" fromText="tolerated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E58" fromText="discharged" toID="Discharge" toText="Discharge" type="OVERLAP" />
+<TLINK id="SECTIME72" fromID="E101" fromText="improvement" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E61" fromText="radiation to the lower abdomen" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E62" fromText="described" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E63" fromText="the pain" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E64" fromText="knife-like" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E65" fromText="exacerbated" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E66" fromText="eating" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E67" fromText="lying flat" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E68" fromText="reports" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E2" fromText="blood-streaked diarrhea" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E69" fromText="denies" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E71" fromText="nausea" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E72" fromText="vomiting" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E73" fromText="fevers" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E74" fromText="chills" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E3" fromText="recent weight loss" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E4" fromText="light-headedness" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E5" fromText="dizziness" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E70" fromText="denies" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E75" fromText="increased urinary frequent" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E76" fromText="urgency" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E78" fromText="the Sloan- Center Emergency Department" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E79" fromText="resuscitated" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E80" fromText="normal saline" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E81" fromText="morphine" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E82" fromText="pain" toID="T1" toText="02/17/2000" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E83" fromText="transferred" toID="T1" toText="02/17/2000" type="OVERLAP" />
+<TLINK id="SECTIME31" fromID="E84" fromText="the general medicine service" toID="T1" toText="02/17/2000" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

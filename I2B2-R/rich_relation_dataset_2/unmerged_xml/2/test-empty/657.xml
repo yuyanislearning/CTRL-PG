@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-07-24
+Discharge Date :
+2014-08-09
+Service :
+BLUE GENERAL SURGERY
+HISTORY OF THE PRESENT ILLNESS :
+Mrs. Gonzalez is a patient with a prior medical history including hypothyroidism , iron-deficiency anemia , osteoporosis , increased cholesterol , peptic ulcer disease , chronic constipation , and status post appendectomy as well as status post hysterectomy and bilateral salpingo-oophorectomy .
+She was transferred from an outside hospital for evaluation and treatment of adenocarcinoma involving the transverse colon and gallbladder .
+At the outside hospital the patient had already seemed some workup for a couple weeks duration of bilateral upper quadrant pain which occasionally radiated to her back .
+She was also complaining of fatigue for two weeks but a good appetite and the patient denied weight loss , melena , or bright red blood per rectum .
+A CAT scan of the abdomen showed air-fluid levels in the gallbladder .
+It also showed a thickened gallbladder wall as well as a dilated common bile duct .
+Incidentally , it also showed diverticulosis .
+A HIDA scan at the other hospital did not show filling of the gallbladder indicating some sort of
+cystic duct obstruction .
+The first imaging study that was done at Hahnemann General Hospital was a MRCP which revealed an enhanced thickened gallbladder wall consistent with chronic cholecystitis .
+A differential according to the imaging included a fistula with adjacent inflammatory change but also carcinoma or adenomatosis .
+In addition, also the MRCP showed a mass near the region of the neck of the gallbladder .
+Of note , at the outside hospital , an endoscopy and colonoscopy were performed .
+The colonoscopy showed two polyps and also a region in the transverse colon that was biopsied .
+This biopsy came back as positive for adenocarcinoma .
+The diagnosis of adenocarcinoma was already established prior to her admission at this hospital .
+HOSPITAL COURSE :
+The patient was scheduled for an operative date on 2014-07-29 and over the next few days she was
+given a low-residual diet .
+She had her belly cleaned with Hibiclens one a day and once an adequate preoperative evaluation was performed , she was given a bowel prep on Monday afternoon and evening in preparation for an exploratory laparotomy on Tuesday , 2014-07-29 .
+On the morning of 2014-07-29 , the patient was taken to the Operating Room and underwent a cholecystectomy , partial hepatectomy , partial lymph node dissection , a colocolostomy , partial colectomy , and in addition a gastrostomy and a feeding jejunostomy were also put in place .
+Please refer to the previously dictated operative notes for the details of this surgery .
+Briefly , the surgery on 2014-07-29 revealed a carcinoma of the gallbladder with a cholecystocolonic fistula which crossed into the liver as well as metastatic adenopathy around the portal nodes as well as retroperitoneal nodes around the inferior vena cava and the hepatic artery .
+In addition to the gastrostomy and feeding jejunostomy tube , two Belmont-Gardner drains were placed .
+The patient 's pain postoperatively was controlled with an epidural catheter .
+However , the epidural had the consequence of causing a bit of a hypotension in the patient and the patient was admitted to the Surgical ICU for the first postoperative day .
+In addition , the patient had low hematocrits which required a transfusion of packed red blood cells .
+In addition , on postoperative day number two , the patient was transferred out to the floor and she was doing better in terms of pain control on a Dilaudid PCA machine .
+On postoperative day number two , interestingly , the patient was complaining of sensitivity to light from an unknown etiology .
+The patient 's postoperative course was unremarkable aside from the photophobia .
+On postoperative day number two , an Oncology consult with Dr. Natalie Mcalister was obtained and
+follow-up appointments were scheduled with him as an outpatient .
+Following that , the patient was slowly advanced to clear liquids and to a regular diet once her bowels began working when she began having flatus .
+Her bowel function was slow to develop and she needed to remain n.p.o. until postoperative day number six .
+The patient was also given supplemental tube feedings to supplement her calories and caloric intake .
+On postoperative day number seven , the patient was tolerating her clear liquid diet and her tube feeds .
+She was started on p.o. medicines and her first Belmont-Gardner drain was pulled due to scant output .
+By 2014-08-09 , the patient was tolerating a full solid diet as well as her tube feeds .
+Between the two of those , her caloric intake was sufficient for her to sustain herself .
+She was discharged to home with services including tube feedings for her home care .
+Therefore , she was discharged on 2014-08-09 in good condition .
+DISCHARGE DIAGNOSIS :
+1. Metastatic gallbladder cancer .
+2. Status post cholecystectomy .
+3. Status post transverse colectomy with anastomosis .
+4. G tube placement .
+5. Feeding jejunostomy .
+6. Hypothyroidism .
+7. Blood loss requiring transfusion .
+DISCHARGE MEDICATIONS :
+1. Levothyroxine 100 micrograms orally once a day .
+2. Pantoprazole one tablet once a day .
+3. Ambien 10 mg orally before bed .
+4. Tylenol # 3 one tablet every four hours as needed for pain .
+5. Reglan 10 mg four times a day before meals and at bedtime .
+6. Colace 100 mg twice a day .
+DISCHARGE INSTRUCTIONS :
+Follow-up with the Visiting Nurses Association to arrange assistance with her tube feeding and
+her activities of daily living .
+The patient is also scheduled for an appointment with Dr. Patterson approximately two weeks after her discharge from the hospital .
+]]></TEXT>
+<TAGS>
+<EVENT id="E19" start="1003" end="1029" text="a dilated common bile duct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="1055" end="1061" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="1062" end="1076" text="diverticulosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1079" end="1090" text="A HIDA scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="1094" end="1112" text="the other hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E94" start="1126" end="1152" text="filling of the gallbladder" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1177" end="1200" text="cystic duct obstruction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="1203" end="1226" text="The first imaging study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="1244" end="1270" text="Hahnemann General Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E97" start="1275" end="1281" text="a MRCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="1288" end="1296" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="1297" end="1335" text="an enhanced thickened gallbladder wall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1352" end="1373" text="chronic cholecystitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="1404" end="1415" text="the imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1425" end="1434" text="a fistula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1440" end="1468" text="adjacent inflammatory change" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1478" end="1487" text="carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1491" end="1503" text="adenomatosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="1524" end="1532" text="the MRCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E101" start="1533" end="1539" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="1540" end="1546" text="a mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1609" end="1629" text="the outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="1632" end="1644" text="an endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1649" end="1660" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1678" end="1693" text="The colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="1694" end="1700" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E102" start="1701" end="1711" text="two polyps" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="1763" end="1771" text="biopsied" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1774" end="1785" text="This biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1812" end="1826" text="adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1846" end="1860" text="adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="187" end="201" text="hypothyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="1894" end="1907" text="her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="1911" end="1924" text="this hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E104" start="1975" end="1992" text="an operative date" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="2048" end="2067" text="a low-residual diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="204" end="226" text="iron-deficiency anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E152" start="2078" end="2095" text="her belly cleaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2101" end="2110" text="Hibiclens" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2130" end="2165" text="an adequate preoperative evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="2196" end="2208" text="a bowel prep" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="2260" end="2285" text="an exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="229" end="241" text="osteoporosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="2368" end="2386" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="2401" end="2418" text="a cholecystectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2421" end="2440" text="partial hepatectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2443" end="2472" text="partial lymph node dissection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="244" end="265" text="increased cholesterol" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2475" end="2490" text="a colocolostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2493" end="2510" text="partial colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2529" end="2542" text="a gastrostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2547" end="2568" text="a feeding jejunostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="2669" end="2681" text="this surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="2694" end="2705" text="the surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="268" end="288" text="peptic ulcer disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2720" end="2728" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E107" start="2729" end="2759" text="a carcinoma of the gallbladder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2765" end="2792" text="a cholecystocolonic fistula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2833" end="2878" text="metastatic adenopathy around the portal nodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="2890" end="2964" text="retroperitoneal nodes around the inferior vena cava and the hepatic artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="291" end="311" text="chronic constipation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2982" end="2997" text="the gastrostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E111" start="3002" end="3026" text="feeding jejunostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="3029" end="3055" text="two Belmont-Gardner drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3070" end="3089" text="The patient 's pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="3126" end="3146" text="an epidural catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="3159" end="3171" text="the epidural" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="3212" end="3225" text="a hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="3261" end="3269" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="3273" end="3289" text="the Surgical ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="330" end="342" text="appendectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="3354" end="3369" text="low hematocrits" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3385" end="3424" text="a transfusion of packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="3491" end="3502" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="3510" end="3519" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E114" start="3532" end="3544" text="doing better" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="3557" end="3569" text="pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="3573" end="3595" text="a Dilaudid PCA machine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E115" start="3664" end="3675" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="366" end="378" text="hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="3679" end="3699" text="sensitivity to light" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="3727" end="3762" text="The patient 's postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="3767" end="3779" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="3791" end="3806" text="the photophobia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="3843" end="3862" text="an Oncology consult" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="383" end="414" text="bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="3907" end="3929" text="follow-up appointments" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="4025" end="4038" text="clear liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E119" start="4046" end="4060" text="a regular diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="4066" end="4119" text="her bowels began working when she began having flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="4145" end="4160" text="slow to develop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="4186" end="4192" text="n.p.o." modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="4257" end="4283" text="supplemental tube feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="425" end="436" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="4395" end="4416" text="her clear liquid diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="4421" end="4435" text="her tube feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="442" end="461" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="4457" end="4471" text="p.o. medicines" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="4476" end="4507" text="her first Belmont-Gardner drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="4512" end="4518" text="pulled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="4526" end="4538" text="scant output" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="4584" end="4601" text="a full solid diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="4613" end="4627" text="her tube feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="4638" end="4654" text="the two of those" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="466" end="476" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="4728" end="4738" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="4771" end="4784" text="tube feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="4825" end="4835" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="481" end="490" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="4853" end="4867" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E128" start="4895" end="4924" text="Metastatic gallbladder cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="4942" end="4957" text="cholecystectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="494" end="508" text="adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="4975" end="4995" text="transverse colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="5001" end="5012" text="anastomosis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="5018" end="5034" text="G tube placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="5040" end="5059" text="Feeding jejunostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E134" start="5065" end="5079" text="Hypothyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E135" start="5085" end="5095" text="Blood loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E136" start="5106" end="5117" text="transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="5147" end="5160" text="Levothyroxine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E138" start="5199" end="5211" text="Pantoprazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E139" start="5239" end="5245" text="Ambien" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="5275" end="5282" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E141" start="5329" end="5333" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E142" start="5339" end="5345" text="Reglan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="5402" end="5408" text="Colace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="5455" end="5464" text="Follow-up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="5470" end="5501" text="the Visiting Nurses Association" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E147" start="5513" end="5523" text="assistance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E144" start="5529" end="5545" text="her tube feeding" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E148" start="5550" end="5580" text="her activities of daily living" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E150" start="5617" end="5631" text="an appointment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="561" end="581" text="the outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E149" start="5637" end="5650" text="Dr. Patterson" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E151" start="5681" end="5712" text="her discharge from the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="613" end="624" text="some workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="656" end="685" text="bilateral upper quadrant pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="705" end="725" text="radiated to her back" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="741" end="752" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="756" end="763" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="782" end="797" text="a good appetite" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="814" end="820" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E91" start="821" end="832" text="weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="835" end="841" text="melena" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="847" end="874" text="bright red blood per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="877" end="902" text="A CAT scan of the abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="903" end="909" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="910" end="945" text="air-fluid levels in the gallbladder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="956" end="962" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="963" end="991" text="a thickened gallbladder wall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T3" start="1996" end="2006" text="2014-07-29" type="DATE" val="2014-07-29" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2014-07-24" type="DATE" val="2014-07-24" mod="NA" />
+<TIMEX3 id="T10" start="2016" end="2033" text="the next few days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T11" start="2111" end="2120" text="one a day" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T4" start="2212" end="2228" text="Monday afternoon" type="DATE" val="2014-07-28" mod="MIDDLE" />
+<TIMEX3 id="T5" start="2233" end="2240" text="evening" type="DATE" val="2014-07-28" mod="END" />
+<TIMEX3 id="T12" start="2289" end="2309" text="Tuesday , 2014-07-29" type="DATE" val="2014-07-29" mod="NA" />
+<TIMEX3 id="T13" start="2315" end="2340" text="the morning of 2014-07-29" type="DATE" val="2014-07-29" mod="START" />
+<TIMEX3 id="T6" start="2709" end="2719" text="2014-07-29" type="DATE" val="2014-07-29" mod="NA" />
+<TIMEX3 id="T14" start="3294" end="3321" text="the first postoperative day" type="DATE" val="2014-07-29" mod="NA" />
+<TIMEX3 id="T15" start="3444" end="3472" text="postoperative day number two" type="DATE" val="2014-07-31" mod="NA" />
+<TIMEX3 id="T16" start="3601" end="3629" text="postoperative day number two" type="DATE" val="2014-07-31" mod="NA" />
+<TIMEX3 id="T17" start="3812" end="3840" text="postoperative day number two" type="DATE" val="2014-07-31" mod="NA" />
+<TIMEX3 id="T18" start="4199" end="4227" text="postoperative day number six" type="DATE" val="2014-08-04" mod="NA" />
+<TIMEX3 id="T19" start="4335" end="4365" text="postoperative day number seven" type="DATE" val="2014-08-05" mod="NA" />
+<TIMEX3 id="T7" start="4544" end="4554" text="2014-08-09" type="DATE" val="2014-08-09" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2014-08-09" type="DATE" val="2014-08-09" mod="NA" />
+<TIMEX3 id="T8" start="4839" end="4849" text="2014-08-09" type="DATE" val="2014-08-09" mod="NA" />
+<TIMEX3 id="T20" start="5183" end="5193" text="once a day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T21" start="5223" end="5233" text="once a day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T22" start="5266" end="5269" text="bed" type="FREQUENCY" val="RPT24H" mod="END" />
+<TIMEX3 id="T23" start="5298" end="5314" text="every four hours" type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T24" start="5352" end="5368" text="four times a day" type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T25" start="5416" end="5427" text="twice a day" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T26" start="5665" end="5674" text="two weeks" type="DURATION" val="P2W" mod="APPROX" />
+<TIMEX3 id="T0" start="629" end="643" text="a couple weeks" type="DURATION" val="P2W" mod="APPROX" />
+<TIMEX3 id="T9" start="768" end="777" text="two weeks" type="DURATION" val="P2W" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2014-07-24" type="ADMISSION" dvalue="2014-07-24" />
+<SECTIME id="S1" start="46" end="56" text="2014-08-09" type="DISCHARGE" dvalue="2014-08-09" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

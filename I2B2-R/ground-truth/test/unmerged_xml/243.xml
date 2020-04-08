@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-12-03
+Discharge Date :
+2015-12-08
+Service :
+MEDICINE
+History of Present Illness :
+55 yo M w/ h/o recurrent bladder ca s/p cystectomy w/ ileal conduit p/w BRBPR to OSH .
+Hct dropped 34 -> 22 .
+EGD normal .
+Cscope unable to complete due to blood but tics seen .
+Tagged RBC + activity in RLQ .
+Transferred to Mediplex Rehab Hospital ICU where Hct has remained stable .
+Seen by GI and plan is to continue holding anticoagulation and repeat scope on Monday .
+Pt feeling well , denies abd pain , N/V , LH , SOB , CP .
+Brief Hospital Course :
+55 year old man with history of metastatic bladder cancer and recurrent DVT s on Lovenox admitted with lower GI bleeding .
+Right lower quadrant source of bleed on red blood cell scan .
+Attempts to visualize colon by conventional and CT virtual colonoscopy failed because of sigmoid angulation and inadequate preparation , respectively .
+On Ct scan , a right psoas mass , most consistent with a hematoma , was seen .
+Since the hematocrit of the patient was stable and outside records from 2015-03-28 mentioned a mass in the right pelvis , the patient was discharged .
+Lovenox was held until follow-up with primary care doctor .
+Also , a repeat outpatient CT colonoscopy with better preparation should be considered .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1015" end="1021" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1068" end="1094" text="a mass in the right pelvis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1113" end="1123" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1126" end="1133" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1149" end="1158" text="follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="120" end="140" text="recurrent bladder ca" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1193" end="1227" text="a repeat outpatient CT colonoscopy" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1233" end="1251" text="better preparation" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="145" end="155" text="cystectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="159" end="172" text="ileal conduit" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="177" end="182" text="BRBPR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="186" end="189" text="OSH" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="192" end="195" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="196" end="203" text="dropped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="215" end="218" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="228" end="234" text="Cscope" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="261" end="266" text="blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="271" end="275" text="tics" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="283" end="293" text="Tagged RBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="296" end="311" text="activity in RLQ" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="314" end="325" text="Transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="329" end="356" text="Mediplex Rehab Hospital ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="363" end="366" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="371" end="386" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="389" end="393" text="Seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="432" end="447" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="452" end="464" text="repeat scope" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E23" start="480" end="492" text="feeling well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="502" end="510" text="abd pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="513" end="516" text="N/V" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="519" end="521" text="LH" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="524" end="527" text="SOB" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="530" end="532" text="CP" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="591" end="616" text="metastatic bladder cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="621" end="636" text="recurrent DVT s" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="640" end="647" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="648" end="656" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="662" end="679" text="lower GI bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="682" end="718" text="Right lower quadrant source of bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="722" end="741" text="red blood cell scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="775" end="814" text="conventional and CT virtual colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="833" end="851" text="sigmoid angulation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="856" end="878" text="inadequate preparation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="899" end="906" text="Ct scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="909" end="927" text="a right psoas mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="951" end="961" text="a hematoma" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="981" end="995" text="the hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T3" start="1047" end="1057" text="2015-03-28" type="DATE" val="2015-03-28" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2015-12-03" type="DATE" val="2015-12-03" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2015-12-08" type="DATE" val="2015-12-08" mod="NA" />
+<TIMEX3 id="T2" start="468" end="474" text="Monday" type="DATE" val="2015-12-11" mod="APPROX" />
+<TLINK id="TL0" fromID="E32" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2015-12-03" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E2" fromText="recurrent bladder ca" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E2" fromText="recurrent bladder ca" toID="E3" toText="cystectomy" type="BEFORE" />
+<TLINK id="TL12" fromID="E3" fromText="cystectomy" toID="E4" toText="ileal conduit" type="BEGUN_BY" />
+<TLINK id="TL13" fromID="E5" fromText="BRBPR" toID="E11" toText="blood" type="OVERLAP" />
+<TLINK id="TL14" fromID="E5" fromText="BRBPR" toID="E6" toText="OSH" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E8" fromText="dropped" toID="E7" toText="Hct" type="OVERLAP" />
+<TLINK id="TL16" fromID="E8" fromText="dropped" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL17" fromID="E11" fromText="blood" toID="E12" toText="tics" type="OVERLAP" />
+<TLINK id="TL18" fromID="E9" fromText="EGD" toID="E6" toText="OSH" type="OVERLAP" />
+<TLINK id="TL19" fromID="E11" fromText="blood" toID="E10" toText="Cscope" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E30" fromText="recurrent DVT s" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E48" fromText="a repeat outpatient CT colonoscopy" toID="E49" toText="better preparation" type="AFTER" />
+<TLINK id="TL21" fromID="E45" fromText="discharged" toID="E48" toText="a repeat outpatient CT colonoscopy" type="BEFORE" />
+<TLINK id="TL22" fromID="E47" fromText="follow-up" toID="E45" toText="discharged" type="AFTER" />
+<TLINK id="TL23" fromID="E31" fromText="Lovenox" toID="E46" toText="Lovenox" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E31" fromText="Lovenox" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL25" fromID="E31" fromText="Lovenox" toID="E30" toText="recurrent DVT s" type="AFTER" />
+<TLINK id="TL26" fromID="E13" fromText="Tagged RBC" toID="E14" toText="activity in RLQ" type="OVERLAP" />
+<TLINK id="TL27" fromID="E35" fromText="red blood cell scan" toID="E13" toText="Tagged RBC" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E13" fromText="Tagged RBC" toID="E15" toText="Transferred" type="BEFORE" />
+<TLINK id="TL29" fromID="E10" fromText="Cscope" toID="E13" toText="Tagged RBC" type="BEFORE" />
+<TLINK id="TL30" fromID="E16" fromText="Mediplex Rehab Hospital ICU" toID="E15" toText="Transferred" type="BEGUN_BY" />
+<TLINK id="TL31" fromID="E17" fromText="Hct" toID="E16" toText="Mediplex Rehab Hospital ICU" type="OVERLAP" />
+<TLINK id="TL32" fromID="E19" fromText="remained stable" toID="E17" toText="Hct" type="OVERLAP" />
+<TLINK id="TL33" fromID="E20" fromText="Seen" toID="E15" toText="Transferred" type="AFTER" />
+<TLINK id="TL34" fromID="E21" fromText="anticoagulation" toID="E6" toText="OSH" type="BEFORE" />
+<TLINK id="TL35" fromID="E22" fromText="repeat scope" toID="T2" toText="Monday" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E24" fromText="abd pain" toID="E23" toText="feeling well" type="OVERLAP" />
+<TLINK id="TL38" fromID="E25" fromText="N/V" toID="E23" toText="feeling well" type="OVERLAP" />
+<TLINK id="TL39" fromID="E26" fromText="LH" toID="E23" toText="feeling well" type="OVERLAP" />
+<TLINK id="TL4" fromID="E36" fromText="conventional and CT virtual colonoscopy" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL40" fromID="E27" fromText="SOB" toID="E23" toText="feeling well" type="OVERLAP" />
+<TLINK id="TL41" fromID="E28" fromText="CP" toID="E23" toText="feeling well" type="OVERLAP" />
+<TLINK id="TL42" fromID="E33" fromText="lower GI bleeding" toID="E5" toText="BRBPR" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E34" fromText="Right lower quadrant source of bleed" toID="E33" toText="lower GI bleeding" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E36" fromText="conventional and CT virtual colonoscopy" toID="E22" toText="repeat scope" type="OVERLAP" />
+<TLINK id="TL45" fromID="E37" fromText="sigmoid angulation" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E38" fromText="inadequate preparation" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE" />
+<TLINK id="TL47" fromID="E39" fromText="Ct scan" toID="E36" toText="conventional and CT virtual colonoscopy" type="OVERLAP" />
+<TLINK id="TL48" fromID="E40" fromText="a right psoas mass" toID="E39" toText="Ct scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E41" fromText="a hematoma" toID="E40" toText="a right psoas mass" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E33" fromText="lower GI bleeding" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E42" fromText="the hematocrit" toID="E17" toText="Hct" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E43" fromText="stable" toID="E19" toText="remained stable" type="OVERLAP" />
+<TLINK id="TL53" fromID="E44" fromText="a mass in the right pelvis" toID="T3" toText="2015-03-28" type="BEFORE_OVERLAP" />
+<TLINK id="TL54" fromID="E44" fromText="a mass in the right pelvis" toID="E40" toText="a right psoas mass" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E29" fromText="metastatic bladder cancer" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E45" fromText="discharged" toID="E1" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E1" fromText="Discharge" toID="T1" toText="2015-12-08" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E29" fromText="metastatic bladder cancer" toID="E2" toText="recurrent bladder ca" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2015-12-03" type="ADMISSION" dvalue="2015-12-03" />
+<SECTIME id="S1" start="46" end="56" text="2015-12-08" type="DISCHARGE" dvalue="2015-12-08" />
+<TLINK id="SECTIME0" fromID="E43" fromText="stable" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E44" fromText="a mass in the right pelvis" toID="T1" toText="2015-12-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME2" fromID="E45" fromText="discharged" toID="T1" toText="2015-12-08" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E46" fromText="Lovenox" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E47" fromText="follow-up" toID="T1" toText="2015-12-08" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E2" fromText="recurrent bladder ca" toID="T0" toText="2015-12-03" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME6" fromID="E48" fromText="a repeat outpatient CT colonoscopy" toID="T1" toText="2015-12-08" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E49" fromText="better preparation" toID="T1" toText="2015-12-08" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E3" fromText="cystectomy" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E4" fromText="ileal conduit" toID="T0" toText="2015-12-03" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME10" fromID="E5" fromText="BRBPR" toID="T0" toText="2015-12-03" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME11" fromID="E6" fromText="OSH" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E7" fromText="Hct" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E8" fromText="dropped" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E9" fromText="EGD" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E10" fromText="Cscope" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E11" fromText="blood" toID="T0" toText="2015-12-03" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME17" fromID="E12" fromText="tics" toID="T0" toText="2015-12-03" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME18" fromID="E13" fromText="Tagged RBC" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E14" fromText="activity in RLQ" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E15" fromText="Transferred" toID="T0" toText="2015-12-03" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E16" fromText="Mediplex Rehab Hospital ICU" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E17" fromText="Hct" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E19" fromText="remained stable" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME24" fromID="E20" fromText="Seen" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E21" fromText="anticoagulation" toID="T0" toText="2015-12-03" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E22" fromText="repeat scope" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E23" fromText="feeling well" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E24" fromText="abd pain" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME29" fromID="E25" fromText="N/V" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME30" fromID="E26" fromText="LH" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME31" fromID="E27" fromText="SOB" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME32" fromID="E28" fromText="CP" toID="T0" toText="2015-12-03" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E29" fromText="metastatic bladder cancer" toID="T1" toText="2015-12-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME34" fromID="E30" fromText="recurrent DVT s" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E31" fromText="Lovenox" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E32" fromText="admitted" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E33" fromText="lower GI bleeding" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E34" fromText="Right lower quadrant source of bleed" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E35" fromText="red blood cell scan" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E36" fromText="conventional and CT virtual colonoscopy" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E37" fromText="sigmoid angulation" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E38" fromText="inadequate preparation" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E39" fromText="Ct scan" toID="T1" toText="2015-12-08" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E40" fromText="a right psoas mass" toID="T1" toText="2015-12-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME45" fromID="E41" fromText="a hematoma" toID="T1" toText="2015-12-08" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME46" fromID="E42" fromText="the hematocrit" toID="T1" toText="2015-12-08" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

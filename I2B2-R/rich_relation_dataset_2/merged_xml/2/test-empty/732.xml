@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-08-30
+Discharge Date :
+2010-08-31
+Service :
+MEDICINE
+HISTORY OF THE PRESENT ILLNESS :
+This is a 33 - year-old Asian-Caucasian male with a history of Type 1 diabetes , asthma , alcohol abuse , and personality disorder / depression admitted on 2010-08-28 for persistent hypoglycemia .
+The patient complained of diaphoresis , confusion , dizziness , lightheadedness after drinking a 24 ounce beer and taking at least an extra 15 units of NPH insulin the evening of 2010-08-27 ( later reported over 70 U insulin administered from 2.30 PM until time of presentation ) followed by not eating dinner .
+His symptoms mildly improved after eating a candy bar .
+The EMS was called and found his blood sugar at the time to be 61 and noted to be 41 in the Emergency Department .
+He denied any seizure activity , loss of consciousness , incontinence , shortness of breath , fevers , or chills , chest pain , change in urinary or bowel habits , or suicidal ideation .
+He has been depressed recently regarding stress with his home life and on the night of his extra insulin doses , his wife had just kicked him out of the house .
+He has had four past hospitalizations for attempted suicide with insulin overdosing , usually denied .
+The wife also states that he drinks more than he states .
+In the Emergency Department , he received 3.5 amps of D50 and then D5 normal saline and D10 normal saline with blood sugars that were slow to increase leading the ICU team to suspect that the patient had taken more insulin than he admitted .
+He also had a very positive tox screen for alcohol .
+His fingersticks are currently in the 200 s and his normal blood glucose at home ranges between 90-200 per the patient .
+The patient also now complains of increased right upper quadrant / right rib cage pain and new headache .
+He also complains of chronic photophobia which is unchanged .
+He denied visual changes , lightheadedness of dizziness currently , neck stiffness , or pain in any other area .
+HOSPITAL COURSE :
+1. HYPOGLYCEMIA :
+The patient had been initially very hypoglycemic on admission secondary to overdosing on insulin ; however , with glucose repletion both in the Emergency Department and in the ICU , this resolved and the patient also began to eat .
+We checked fingerstick glucoses q.i.d. and at 3:00 a.m.
+His glucose on the morning of discharge was about 60 so we opted to decrease his p.m. NPH dose slightly for discharge and continue covering him with sliding scale insulin .
+He should also continue having a snack at midnight if able .
+It is likely that he required a much greater amount of insulin as an outpatient due to poor compliance with Richard Natalie diet .
+2. ALCOHOL ABUSE :
+It is likely that the patient continues to drink more than he admits .
+He did have past alcoholism consisting of a half a pint of brandy per day for three years but supposedly had quit in 2009-09-03 .
+He had been on a diazepam CIWA scale prophylaxis against DT s; however , he had a very low CIWA scale during his entire admission and did not need any benzodiazepines .
+This alcohol abuse may be further addressed as an inpatient on the Psychiatry Quincy Medical Center .
+We had also requested a Social Work consult regarding this .
+3. DEPRESSION vs. Borderline personality disorder :
+The patient has had several admissions in the past for attempted suicide with overdose of his insulin and though he denied at this time attempting to end his life , it appears that the social situation of increased stressors corresponding to this time suggest that this is not the truth .
+He received a one-to-one sitter during his admission and will be transferred to the Psychiatry HealthSouth New England Rehab Hospital to ensure the patient 's safety and initiate further antidepressant treatment .
+He will need close follow-up regarding his depression as an outpatient , although apparently this has been set up for him in the past and he had not followed through .
+4. HISTORY OF HIGH BLOOD PRESSURE :
+His blood pressure was fairly low with a maximum of 130s systolic during his admission , thus we did not continue his lisinopril which he had been on in the past .
+5. RIGHT UPPER QUADRANT PAIN :
+We obtained a right upper quadrant ultrasound as well as LFTs , amylase , and lipase which were all normal .
+He had no evidence of cholecystitis or gallstones or any abnormalities with the liver or kidneys .
+it is possible that he has had a muscle strain or other musculoskeletal cause .
+6. PROPHYLAXIS :
+He was put on Pepcid for GI prophylaxis .
+7. FLUIDS , ELECTROLYTES , AND NUTRITION :
+He complied with Linda Chad diet while hospitalized .
+The patient was hyperphosphatemic secondary to overadministration of Neutra-Phos during his ICU stay .
+He was given two doses of calcium carbonate 1 gram , and will most likely normalize secondary to both calcium binding and urinary excretion .
+He has been asymptomatic .
+]]></TEXT>
+<TAGS>
+<EVENT id="E56" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1063" end="1086" text="his extra insulin doses" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1107" end="1134" text="kicked him out of the house" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="1158" end="1174" text="hospitalizations" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1179" end="1196" text="attempted suicide" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1202" end="1220" text="insulin overdosing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="1231" end="1237" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E89" start="1254" end="1260" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E90" start="1266" end="1275" text="he drinks" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="1289" end="1295" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E92" start="1301" end="1325" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1352" end="1355" text="D50" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1365" end="1381" text="D5 normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1386" end="1403" text="D10 normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1409" end="1421" text="blood sugars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1432" end="1448" text="slow to increase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="1513" end="1520" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="1529" end="1537" text="admitted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="1568" end="1578" text="tox screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="1593" end="1609" text="His fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="1652" end="1665" text="blood glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E0" start="172" end="187" text="Type 1 diabetes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="1735" end="1744" text="complains" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="1748" end="1800" text="increased right upper quadrant / right rib cage pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="1805" end="1817" text="new headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="1828" end="1837" text="complains" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E101" start="1841" end="1860" text="chronic photophobia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="1885" end="1891" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E60" start="190" end="196" text="asthma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="1892" end="1906" text="visual changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E104" start="1909" end="1924" text="lightheadedness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E105" start="1928" end="1937" text="dizziness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E106" start="1950" end="1964" text="neck stiffness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="1970" end="1992" text="pain in any other area" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="199" end="212" text="alcohol abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="2016" end="2028" text="HYPOGLYCEMIA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="2062" end="2079" text="very hypoglycemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2083" end="2092" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="2106" end="2127" text="overdosing on insulin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="2145" end="2162" text="glucose repletion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="2171" end="2195" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E62" start="219" end="239" text="personality disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2203" end="2210" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="2257" end="2260" text="eat" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2274" end="2294" text="fingerstick glucoses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2319" end="2330" text="His glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="2349" end="2358" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="2387" end="2395" text="decrease" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2396" end="2413" text="his p.m. NPH dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="242" end="252" text="depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2427" end="2436" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2468" end="2489" text="sliding scale insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="2523" end="2530" text="a snack" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="253" end="261" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="2608" end="2615" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2640" end="2655" text="poor compliance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2661" end="2681" text="Richard Natalie diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E116" start="2687" end="2700" text="ALCOHOL ABUSE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="2746" end="2756" text="drink more" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="2765" end="2771" text="admits" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="280" end="303" text="persistent hypoglycemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="2791" end="2801" text="alcoholism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="2816" end="2839" text="a half a pint of brandy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2919" end="2952" text="a diazepam CIWA scale prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2961" end="2966" text="DT s;" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="2984" end="3005" text="a very low CIWA scale" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="3013" end="3033" text="his entire admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="3051" end="3070" text="any benzodiazepines" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E122" start="3073" end="3091" text="This alcohol abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="3099" end="3116" text="further addressed" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E124" start="3136" end="3172" text="the Psychiatry Quincy Medical Center" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="318" end="328" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E126" start="3197" end="3218" text="a Social Work consult" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="3239" end="3249" text="DEPRESSION" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="3254" end="3285" text="Borderline personality disorder" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="332" end="343" text="diaphoresis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="3316" end="3326" text="admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="3343" end="3360" text="attempted suicide" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="3366" end="3374" text="overdose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="3378" end="3389" text="his insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="3404" end="3410" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E130" start="3424" end="3450" text="attempting to end his life" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="346" end="355" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="3493" end="3512" text="increased stressors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="358" end="367" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="3589" end="3608" text="a one-to-one sitter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="3616" end="3629" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="3642" end="3653" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="3657" end="3710" text="the Psychiatry HealthSouth New England Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="370" end="385" text="lightheadedness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E135" start="3756" end="3788" text="further antidepressant treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="3804" end="3819" text="close follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="3830" end="3844" text="his depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="3898" end="3904" text="set up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="392" end="416" text="drinking a 24 ounce beer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="3940" end="3956" text="followed through" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E37" start="3973" end="3992" text="HIGH BLOOD PRESSURE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E140" start="3995" end="4013" text="His blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E141" start="4018" end="4028" text="fairly low" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E142" start="4068" end="4081" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="4109" end="4123" text="his lisinopril" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E39" start="4162" end="4187" text="RIGHT UPPER QUADRANT PAIN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="4202" end="4235" text="a right upper quadrant ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="4247" end="4251" text="LFTs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="4254" end="4261" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="4268" end="4274" text="lipase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="4321" end="4334" text="cholecystitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="4338" end="4348" text="gallstones" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="4352" end="4395" text="any abnormalities with the liver or kidneys" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="4429" end="4444" text="a muscle strain" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="4448" end="4475" text="other musculoskeletal cause" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="4481" end="4492" text="PROPHYLAXIS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="4509" end="4515" text="Pepcid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="4520" end="4534" text="GI prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="4597" end="4612" text="Linda Chad diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="458" end="469" text="NPH insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="4619" end="4631" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="4650" end="4667" text="hyperphosphatemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E144" start="4681" end="4699" text="overadministration" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="4703" end="4714" text="Neutra-Phos" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="4722" end="4734" text="his ICU stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="4763" end="4780" text="calcium carbonate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="4811" end="4820" text="normalize" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="4839" end="4854" text="calcium binding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E148" start="4859" end="4876" text="urinary excretion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E149" start="4891" end="4903" text="asymptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="504" end="512" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E58" start="523" end="530" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="571" end="583" text="presentation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="598" end="615" text="not eating dinner" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="618" end="630" text="His symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="638" end="646" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="653" end="671" text="eating a candy bar" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="686" end="692" text="called" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="703" end="718" text="his blood sugar" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="762" end="786" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E76" start="792" end="798" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E77" start="799" end="819" text="any seizure activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E78" start="822" end="843" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="846" end="858" text="incontinence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="861" end="880" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E81" start="883" end="889" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="895" end="901" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="904" end="914" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="917" end="950" text="change in urinary or bowel habits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E85" start="956" end="973" text="suicidal ideation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="988" end="997" text="depressed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T7" start="1050" end="1059" text="the night" type="DATE" val="2010-08-27" mod="END" />
+<TIMEX3 id="T8" start="1148" end="1152" text="four" type="FREQUENCY" val="R4" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2010-08-30" type="DATE" val="2010-08-30" mod="NA" />
+<TIMEX3 id="T9" start="2295" end="2301" text="q.i.d." type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T10" start="2309" end="2318" text="3:00 a.m." type="TIME" val="03:00" mod="NA" />
+<TIMEX3 id="T11" start="2334" end="2358" text="the morning of discharge" type="DATE" val="2010-08-31" mod="START" />
+<TIMEX3 id="T12" start="2534" end="2542" text="midnight" type="TIME" val="24:00" mod="NA" />
+<TIMEX3 id="T3" start="265" end="275" text="2010-08-28" type="DATE" val="2010-08-28" mod="NA" />
+<TIMEX3 id="T13" start="2840" end="2847" text="per day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T14" start="2852" end="2863" text="three years" type="DURATION" val="P3Y" mod="NA" />
+<TIMEX3 id="T5" start="2891" end="2901" text="2009-09-03" type="DATE" val="2009-09-03" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2010-08-31" type="DATE" val="2010-08-31" mod="NA" />
+<TIMEX3 id="T15" start="4750" end="4753" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T4" start="470" end="495" text="the evening of 2010-08-27" type="DATE" val="2010-08-27" mod="END" />
+<TIMEX3 id="T0" start="549" end="556" text="2.30 PM" type="TIME" val="2010-08-27T14:30" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2010-08-30" type="ADMISSION" dvalue="2010-08-30" />
+<SECTIME id="S1" start="46" end="56" text="2010-08-31" type="DISCHARGE" dvalue="2010-08-31" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

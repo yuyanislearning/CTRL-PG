@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2009-03-27
+Discharge Date :
+2009-04-03
+Service :
+GYNECOLOGY
+HISTORY OF PRESENT ILLNESS :
+The patient is a 49-year-old gravida III , para II , who was sent from her primary care physician 's office secondary to lower abdominal pain .
+The patient is status post uterine artery embolization on 2009-01-07 secondary to fibroids .
+She has had continuing vaginal discharge , and was diagnosed with bacterial vaginosis one day prior to admission , and was given a prescription for Flagyl .
+She noted increasing abdominal pain two days prior to admission , which became more severe on the day prior to admission .
+She went to her primary care physician 's office on the day of admission complaining of abdominal pain , which she stated was constant but intermittently sharper at times .
+The location was variable .
+She also complained of some loose stools on the day of admission , no nausea or vomiting .
+Her temperature was 100.4 in the office , and she had no chills .
+She was sent for a CT scan of her abdomen , which revealed fluid and question of gas in the endometrial cavity , and she was sent to Pinewood , Norfolk for treatment and admission .
+PAST OBSTETRICAL HISTORY :
+Cesarean section x 2 , spontaneous abortion x 1 .
+PAST GYNECOLOGIC HISTORY :
+Last menstrual period 2009-02-21 .
+Some spotting on the day prior to admission , but not a normal period .
+Periods regular .
+Lupron x three months prior to embolization .
+Fibroid uterus status post embolization on 2009-01-07 .
+Dilatation and curettage x 1 for SAB .
+History of herpes simplex virus , last outbreak in 2000 .
+No history of abnormal Pap smears .
+HOSPITAL COURSE :
+The patient was admitted and was initially started on intravenous ampicillin , gentamicin and clindamycin .
+Her initial white blood cell count was 11.3 , with a normal differential .
+Her sedimentation rate was elevated at 110 .
+Her electrolytes were within normal limits .
+She was maintained on intravenous antibiotics .
+On hospital day number three , her blood cultures came back positive in the anaerobic culture for gram-positive cocci in pairs and clusters .
+Further identification revealed staphylococcus coag-negative , which was sensitive to gentamicin and clindamycin .
+She was continued on her antibiotics , and was afebrile until hospital day number five , when she had a temperature spike to 102.3 .
+Repeat blood cultures were sent .
+Her white blood cell count was 12.8 , with a normal differential .
+At this time , an Infectious Disease consult was obtained , and the recommendation was to discontinue the ampicillin , gentamicin and clindamycin , and start her on intravenous Unasyn .
+She underwent a pelvic ultrasound and an abdomen and pelvis CT , which revealed continued air in the endometrial cavity vs. in the fundal fibroid .
+Discussion was had at this time with the patient regarding whether or not this represented an infected abscess vs. post-surgical change .
+Extensive discussion was held , and second opinion was obtained regarding the need for
+possible drainage of the abscess vs. hysterectomy .
+The patient requested an outside second opinion , as she was reluctant to undergo hysterectomy at this time .
+She was discharged to home on hospital day number eight , on oral antibiotics .
+The patient was to have a repeat CT scan in one week .
+She was also to obtain a second opinion regarding the question of possible surgical management .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1032" end="1040" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="1041" end="1046" text="fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1063" end="1092" text="gas in the endometrial cavity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1115" end="1133" text="Pinewood , Norfolk" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1138" end="1147" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1152" end="1161" text="admission" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1191" end="1207" text="Cesarean section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1214" end="1234" text="spontaneous abortion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1268" end="1289" text="Last menstrual period" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1303" end="1316" text="Some spotting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1337" end="1346" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1375" end="1390" text="Periods regular" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1393" end="1399" text="Lupron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1424" end="1436" text="embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1439" end="1453" text="Fibroid uterus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1466" end="1478" text="embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1495" end="1519" text="Dilatation and curettage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1528" end="1531" text="SAB" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1545" end="1565" text="herpes simplex virus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1568" end="1581" text="last outbreak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1606" end="1625" text="abnormal Pap smears" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1662" end="1670" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1700" end="1722" text="intravenous ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1725" end="1735" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1740" end="1751" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1754" end="1788" text="Her initial white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1805" end="1826" text="a normal differential" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="178" end="214" text="her primary care physician 's office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1829" end="1851" text="Her sedimentation rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1856" end="1864" text="elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1874" end="1890" text="Her electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1903" end="1916" text="normal limits" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1941" end="1964" text="intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1998" end="2016" text="her blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2027" end="2035" text="positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2039" end="2060" text="the anaerobic culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2065" end="2106" text="gram-positive cocci in pairs and clusters" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2109" end="2131" text="Further identification" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="2132" end="2140" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="2141" end="2169" text="staphylococcus coag-negative" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2182" end="2191" text="sensitive" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2195" end="2205" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2210" end="2221" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2245" end="2260" text="her antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="228" end="248" text="lower abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2271" end="2279" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2326" end="2345" text="a temperature spike" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2357" end="2378" text="Repeat blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2391" end="2417" text="Her white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2434" end="2455" text="a normal differential" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2473" end="2502" text="an Infectious Disease consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2560" end="2574" text="the ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2577" end="2587" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2592" end="2603" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2623" end="2641" text="intravenous Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2658" end="2677" text="a pelvic ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="2682" end="2706" text="an abdomen and pelvis CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2715" end="2723" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E85" start="2724" end="2763" text="continued air in the endometrial cavity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="278" end="305" text="uterine artery embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2771" end="2789" text="the fundal fibroid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2792" end="2802" text="Discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2883" end="2902" text="an infected abscess" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2907" end="2927" text="post-surgical change" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="2930" end="2950" text="Extensive discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="2966" end="2993" text="second opinion was obtained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="3026" end="3034" text="drainage" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="3038" end="3049" text="the abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="3054" end="3066" text="hysterectomy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="3091" end="3116" text="an outside second opinion" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="3151" end="3163" text="hysterectomy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E97" start="3187" end="3197" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E98" start="3240" end="3256" text="oral antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="3283" end="3299" text="a repeat CT scan" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E5" start="333" end="341" text="fibroids" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3330" end="3353" text="obtain a second opinion" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="3389" end="3408" text="surgical management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="356" end="384" text="continuing vaginal discharge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="410" end="429" text="bacterial vaginosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="447" end="456" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="492" end="498" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="505" end="510" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="511" end="536" text="increasing abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="555" end="564" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="573" end="591" text="became more severe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="612" end="621" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="636" end="672" text="her primary care physician 's office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="687" end="696" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="697" end="708" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="712" end="726" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="739" end="745" text="stated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="834" end="844" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="848" end="865" text="some loose stools" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="880" end="889" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="895" end="901" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="905" end="913" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="916" end="931" text="Her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="945" end="955" text="the office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="973" end="979" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="999" end="1023" text="a CT scan of her abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T8" start="1208" end="1211" text="x 2" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T9" start="1235" end="1238" text="x 1" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T10" start="1290" end="1300" text="2009-02-21" type="DATE" val="2009-02-21" mod="NA" />
+<TIMEX3 id="T11" start="1320" end="1327" text="the day" type="DATE" val="2009-03-26" mod="NA" />
+<TIMEX3 id="T12" start="1402" end="1414" text="three months" type="DURATION" val="P3M" mod="NA" />
+<TIMEX3 id="T13" start="1482" end="1492" text="2009-01-07" type="DATE" val="2009-01-07" mod="NA" />
+<TIMEX3 id="T14" start="1520" end="1523" text="x 1" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T15" start="1585" end="1589" text="2000" type="DATE" val="2000" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2009-03-27" type="DATE" val="2009-03-27" mod="NA" />
+<TIMEX3 id="T16" start="1970" end="1995" text="hospital day number three" type="DATE" val="2001-03-29" mod="NA" />
+<TIMEX3 id="T17" start="2286" end="2310" text="hospital day number five" type="DATE" val="2001-03-31" mod="NA" />
+<TIMEX3 id="T2" start="309" end="319" text="2009-01-07" type="DATE" val="2009-01-07" mod="NA" />
+<TIMEX3 id="T18" start="3209" end="3234" text="hospital day number eight" type="DATE" val="2001-04-03" mod="NA" />
+<TIMEX3 id="T19" start="3303" end="3311" text="one week" type="DATE" val="2001-04-10" mod="APPROX" />
+<TIMEX3 id="T3" start="430" end="437" text="one day" type="DATE" val="2009-03-26" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2009-04-03" type="DATE" val="2009-04-03" mod="NA" />
+<TIMEX3 id="T4" start="537" end="545" text="two days" type="DATE" val="2009-03-25" mod="NA" />
+<TIMEX3 id="T5" start="595" end="602" text="the day" type="DATE" val="2009-03-26" mod="NA" />
+<TIMEX3 id="T6" start="676" end="683" text="the day" type="DATE" val="2009-03-27" mod="NA" />
+<TIMEX3 id="T7" start="869" end="876" text="the day" type="DATE" val="2009-03-27" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2009-03-27" type="ADMISSION" dvalue="2009-03-27" />
+<SECTIME id="S1" start="46" end="56" text="2009-04-03" type="DISCHARGE" dvalue="2009-04-03" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

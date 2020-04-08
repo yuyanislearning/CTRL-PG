@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2009-03-27
+Discharge Date :
+2009-04-03
+Service :
+GYNECOLOGY
+HISTORY OF PRESENT ILLNESS :
+The patient is a 49-year-old gravida III , para II , who was sent from her primary care physician 's office secondary to lower abdominal pain .
+The patient is status post uterine artery embolization on 2009-01-07 secondary to fibroids .
+She has had continuing vaginal discharge , and was diagnosed with bacterial vaginosis one day prior to admission , and was given a prescription for Flagyl .
+She noted increasing abdominal pain two days prior to admission , which became more severe on the day prior to admission .
+She went to her primary care physician 's office on the day of admission complaining of abdominal pain , which she stated was constant but intermittently sharper at times .
+The location was variable .
+She also complained of some loose stools on the day of admission , no nausea or vomiting .
+Her temperature was 100.4 in the office , and she had no chills .
+She was sent for a CT scan of her abdomen , which revealed fluid and question of gas in the endometrial cavity , and she was sent to Pinewood , Norfolk for treatment and admission .
+PAST OBSTETRICAL HISTORY :
+Cesarean section x 2 , spontaneous abortion x 1 .
+PAST GYNECOLOGIC HISTORY :
+Last menstrual period 2009-02-21 .
+Some spotting on the day prior to admission , but not a normal period .
+Periods regular .
+Lupron x three months prior to embolization .
+Fibroid uterus status post embolization on 2009-01-07 .
+Dilatation and curettage x 1 for SAB .
+History of herpes simplex virus , last outbreak in 2000 .
+No history of abnormal Pap smears .
+HOSPITAL COURSE :
+The patient was admitted and was initially started on intravenous ampicillin , gentamicin and clindamycin .
+Her initial white blood cell count was 11.3 , with a normal differential .
+Her sedimentation rate was elevated at 110 .
+Her electrolytes were within normal limits .
+She was maintained on intravenous antibiotics .
+On hospital day number three , her blood cultures came back positive in the anaerobic culture for gram-positive cocci in pairs and clusters .
+Further identification revealed staphylococcus coag-negative , which was sensitive to gentamicin and clindamycin .
+She was continued on her antibiotics , and was afebrile until hospital day number five , when she had a temperature spike to 102.3 .
+Repeat blood cultures were sent .
+Her white blood cell count was 12.8 , with a normal differential .
+At this time , an Infectious Disease consult was obtained , and the recommendation was to discontinue the ampicillin , gentamicin and clindamycin , and start her on intravenous Unasyn .
+She underwent a pelvic ultrasound and an abdomen and pelvis CT , which revealed continued air in the endometrial cavity vs. in the fundal fibroid .
+Discussion was had at this time with the patient regarding whether or not this represented an infected abscess vs. post-surgical change .
+Extensive discussion was held , and second opinion was obtained regarding the need for
+possible drainage of the abscess vs. hysterectomy .
+The patient requested an outside second opinion , as she was reluctant to undergo hysterectomy at this time .
+She was discharged to home on hospital day number eight , on oral antibiotics .
+The patient was to have a repeat CT scan in one week .
+She was also to obtain a second opinion regarding the question of possible surgical management .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1032" end="1040" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="1041" end="1046" text="fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1063" end="1092" text="gas in the endometrial cavity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1115" end="1133" text="Pinewood , Norfolk" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1138" end="1147" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1152" end="1161" text="admission" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1191" end="1207" text="Cesarean section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1214" end="1234" text="spontaneous abortion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1268" end="1289" text="Last menstrual period" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1303" end="1316" text="Some spotting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1337" end="1346" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1375" end="1390" text="Periods regular" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1393" end="1399" text="Lupron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1424" end="1436" text="embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1439" end="1453" text="Fibroid uterus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1466" end="1478" text="embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1495" end="1519" text="Dilatation and curettage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1528" end="1531" text="SAB" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1545" end="1565" text="herpes simplex virus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1568" end="1581" text="last outbreak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1606" end="1625" text="abnormal Pap smears" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1662" end="1670" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1700" end="1722" text="intravenous ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1725" end="1735" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1740" end="1751" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1754" end="1788" text="Her initial white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1805" end="1826" text="a normal differential" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="178" end="214" text="her primary care physician 's office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1829" end="1851" text="Her sedimentation rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1856" end="1864" text="elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1874" end="1890" text="Her electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1903" end="1916" text="normal limits" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1941" end="1964" text="intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1998" end="2016" text="her blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2027" end="2035" text="positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2039" end="2060" text="the anaerobic culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2065" end="2106" text="gram-positive cocci in pairs and clusters" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2109" end="2131" text="Further identification" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="2132" end="2140" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="2141" end="2169" text="staphylococcus coag-negative" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2182" end="2191" text="sensitive" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2195" end="2205" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2210" end="2221" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2245" end="2260" text="her antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="228" end="248" text="lower abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2271" end="2279" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2326" end="2345" text="a temperature spike" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2357" end="2378" text="Repeat blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2391" end="2417" text="Her white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2434" end="2455" text="a normal differential" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2473" end="2502" text="an Infectious Disease consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2560" end="2574" text="the ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2577" end="2587" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2592" end="2603" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2623" end="2641" text="intravenous Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2658" end="2677" text="a pelvic ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="2682" end="2706" text="an abdomen and pelvis CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2715" end="2723" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E85" start="2724" end="2763" text="continued air in the endometrial cavity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="278" end="305" text="uterine artery embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2771" end="2789" text="the fundal fibroid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2792" end="2802" text="Discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2883" end="2902" text="an infected abscess" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2907" end="2927" text="post-surgical change" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="2930" end="2950" text="Extensive discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="2966" end="2993" text="second opinion was obtained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="3026" end="3034" text="drainage" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="3038" end="3049" text="the abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="3054" end="3066" text="hysterectomy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="3091" end="3116" text="an outside second opinion" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="3151" end="3163" text="hysterectomy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E97" start="3187" end="3197" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E98" start="3240" end="3256" text="oral antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="3283" end="3299" text="a repeat CT scan" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E5" start="333" end="341" text="fibroids" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3330" end="3353" text="obtain a second opinion" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="3389" end="3408" text="surgical management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="356" end="384" text="continuing vaginal discharge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="410" end="429" text="bacterial vaginosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="447" end="456" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="492" end="498" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="505" end="510" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="511" end="536" text="increasing abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="555" end="564" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="573" end="591" text="became more severe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="612" end="621" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="636" end="672" text="her primary care physician 's office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="687" end="696" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="697" end="708" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="712" end="726" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="739" end="745" text="stated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="834" end="844" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="848" end="865" text="some loose stools" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="880" end="889" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="895" end="901" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="905" end="913" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="916" end="931" text="Her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="945" end="955" text="the office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="973" end="979" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="999" end="1023" text="a CT scan of her abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T8" start="1208" end="1211" text="x 2" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T9" start="1235" end="1238" text="x 1" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T10" start="1290" end="1300" text="2009-02-21" type="DATE" val="2009-02-21" mod="NA" />
+<TIMEX3 id="T11" start="1320" end="1327" text="the day" type="DATE" val="2009-03-26" mod="NA" />
+<TIMEX3 id="T12" start="1402" end="1414" text="three months" type="DURATION" val="P3M" mod="NA" />
+<TIMEX3 id="T13" start="1482" end="1492" text="2009-01-07" type="DATE" val="2009-01-07" mod="NA" />
+<TIMEX3 id="T14" start="1520" end="1523" text="x 1" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T15" start="1585" end="1589" text="2000" type="DATE" val="2000" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2009-03-27" type="DATE" val="2009-03-27" mod="NA" />
+<TIMEX3 id="T16" start="1970" end="1995" text="hospital day number three" type="DATE" val="2001-03-29" mod="NA" />
+<TIMEX3 id="T17" start="2286" end="2310" text="hospital day number five" type="DATE" val="2001-03-31" mod="NA" />
+<TIMEX3 id="T2" start="309" end="319" text="2009-01-07" type="DATE" val="2009-01-07" mod="NA" />
+<TIMEX3 id="T18" start="3209" end="3234" text="hospital day number eight" type="DATE" val="2001-04-03" mod="NA" />
+<TIMEX3 id="T19" start="3303" end="3311" text="one week" type="DATE" val="2001-04-10" mod="APPROX" />
+<TIMEX3 id="T3" start="430" end="437" text="one day" type="DATE" val="2009-03-26" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2009-04-03" type="DATE" val="2009-04-03" mod="NA" />
+<TIMEX3 id="T4" start="537" end="545" text="two days" type="DATE" val="2009-03-25" mod="NA" />
+<TIMEX3 id="T5" start="595" end="602" text="the day" type="DATE" val="2009-03-26" mod="NA" />
+<TIMEX3 id="T6" start="676" end="683" text="the day" type="DATE" val="2009-03-27" mod="NA" />
+<TIMEX3 id="T7" start="869" end="876" text="the day" type="DATE" val="2009-03-27" mod="NA" />
+<TLINK id="TL0" fromID="E50" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="continuing vaginal discharge" toID="T3" toText="one day" type="BEFORE" />
+<TLINK id="TL100" fromID="E88" fromText="an infected abscess" toID="E93" toText="the abscess" type="OVERLAP" />
+<TLINK id="TL101" fromID="E88" fromText="an infected abscess" toID="E85" toText="continued air in the endometrial cavity" type="OVERLAP" />
+<TLINK id="TL102" fromID="E90" fromText="Extensive discussion" toID="E87" toText="Discussion" type="OVERLAP" />
+<TLINK id="TL103" fromID="E91" fromText="second opinion was obtained" toID="E90" toText="Extensive discussion" type="AFTER" />
+<TLINK id="TL104" fromID="E92" fromText="drainage" toID="E94" toText="hysterectomy" type="OVERLAP" />
+<TLINK id="TL105" fromID="E92" fromText="drainage" toID="E90" toText="Extensive discussion" type="AFTER" />
+<TLINK id="TL106" fromID="E96" fromText="hysterectomy" toID="E94" toText="hysterectomy" type="OVERLAP" />
+<TLINK id="TL107" fromID="E95" fromText="an outside second opinion" toID="E1" toText="Discharge" type="AFTER" />
+<TLINK id="TL108" fromID="E97" fromText="discharged" toID="T18" toText="hospital day number eight" type="OVERLAP" />
+<TLINK id="TL109" fromID="E97" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL11" fromID="E7" fromText="bacterial vaginosis" toID="T3" toText="one day" type="BEFORE" />
+<TLINK id="TL110" fromID="E98" fromText="oral antibiotics" toID="E97" toText="discharged" type="BEFORE" />
+<TLINK id="TL111" fromID="E99" fromText="a repeat CT scan" toID="T19" toText="one week" type="OVERLAP" />
+<TLINK id="TL112" fromID="E100" fromText="obtain a second opinion" toID="E95" toText="an outside second opinion" type="OVERLAP" />
+<TLINK id="TL113" fromID="E101" fromText="surgical management" toID="E100" toText="obtain a second opinion" type="AFTER" />
+<TLINK id="TL12" fromID="E8" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="Flagyl" toID="T3" toText="one day" type="AFTER" />
+<TLINK id="TL15" fromID="E11" fromText="increasing abdominal pain" toID="T4" toText="two days" type="AFTER" />
+<TLINK id="TL16" fromID="E10" fromText="noted" toID="E11" toText="increasing abdominal pain" type="OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL18" fromID="E12" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL19" fromID="E13" fromText="became more severe" toID="T5" toText="the day" type="OVERLAP" />
+<TLINK id="TL2" fromID="T1" fromText="2009-04-03" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL20" fromID="E14" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="her primary care physician 's office" toID="T6" toText="the day" type="OVERLAP" />
+<TLINK id="TL22" fromID="E15" fromText="her primary care physician 's office" toID="E2" toText="her primary care physician 's office" type="OVERLAP" />
+<TLINK id="TL23" fromID="E17" fromText="complaining" toID="E19" toText="stated" type="OVERLAP" />
+<TLINK id="TL24" fromID="E15" fromText="her primary care physician 's office" toID="E17" toText="complaining" type="OVERLAP" />
+<TLINK id="TL25" fromID="E19" fromText="stated" toID="E20" toText="complained" type="OVERLAP" />
+<TLINK id="TL26" fromID="E21" fromText="some loose stools" toID="T7" toText="the day" type="OVERLAP" />
+<TLINK id="TL27" fromID="E22" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="nausea" toID="T7" toText="the day" type="BEFORE" />
+<TLINK id="TL29" fromID="E24" fromText="vomiting" toID="T7" toText="the day" type="BEFORE" />
+<TLINK id="TL3" fromID="E2" fromText="her primary care physician 's office" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E25" fromText="Her temperature" toID="E26" toText="the office" type="OVERLAP" />
+<TLINK id="TL31" fromID="E26" fromText="the office" toID="E15" toText="her primary care physician 's office" type="OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="chills" toID="E25" toText="Her temperature" type="OVERLAP" />
+<TLINK id="TL33" fromID="E28" fromText="a CT scan of her abdomen" toID="E26" toText="the office" type="AFTER" />
+<TLINK id="TL34" fromID="E29" fromText="revealed" toID="E28" toText="a CT scan of her abdomen" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="fluid" toID="E28" toText="a CT scan of her abdomen" type="BEFORE" />
+<TLINK id="TL36" fromID="E31" fromText="gas in the endometrial cavity" toID="E85" toText="continued air in the endometrial cavity" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="gas in the endometrial cavity" toID="E28" toText="a CT scan of her abdomen" type="BEFORE" />
+<TLINK id="TL38" fromID="E32" fromText="Pinewood , Norfolk" toID="E28" toText="a CT scan of her abdomen" type="AFTER" />
+<TLINK id="TL39" fromID="E32" fromText="Pinewood , Norfolk" toID="E34" toText="admission" type="AFTER" />
+<TLINK id="TL4" fromID="E3" fromText="lower abdominal pain" toID="E11" toText="increasing abdominal pain" type="OVERLAP" />
+<TLINK id="TL40" fromID="E33" fromText="treatment" toID="E32" toText="Pinewood , Norfolk" type="OVERLAP" />
+<TLINK id="TL41" fromID="E35" fromText="Cesarean section" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL42" fromID="E35" fromText="Cesarean section" toID="T8" toText="x 2" type="OVERLAP" />
+<TLINK id="TL43" fromID="E36" fromText="spontaneous abortion" toID="E46" toText="SAB" type="OVERLAP" />
+<TLINK id="TL44" fromID="E36" fromText="spontaneous abortion" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL45" fromID="E36" fromText="spontaneous abortion" toID="T9" toText="x 1" type="OVERLAP" />
+<TLINK id="TL46" fromID="E37" fromText="Last menstrual period" toID="T10" toText="2009-02-21" type="OVERLAP" />
+<TLINK id="TL47" fromID="E38" fromText="Some spotting" toID="T11" toText="the day" type="OVERLAP" />
+<TLINK id="TL48" fromID="E40" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL49" fromID="E39" fromText="Periods regular" toID="E37" toText="Last menstrual period" type="BEFORE" />
+<TLINK id="TL5" fromID="E3" fromText="lower abdominal pain" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL50" fromID="E41" fromText="Lupron" toID="T12" toText="three months" type="OVERLAP" />
+<TLINK id="TL51" fromID="T12" fromText="three months" toID="E42" toText="embolization" type="BEFORE" />
+<TLINK id="TL52" fromID="E44" fromText="embolization" toID="T13" toText="2009-01-07" type="OVERLAP" />
+<TLINK id="TL53" fromID="E44" fromText="embolization" toID="E42" toText="embolization" type="OVERLAP" />
+<TLINK id="TL54" fromID="E45" fromText="Dilatation and curettage" toID="E46" toText="SAB" type="AFTER" />
+<TLINK id="TL55" fromID="E45" fromText="Dilatation and curettage" toID="T14" toText="x 1" type="OVERLAP" />
+<TLINK id="TL56" fromID="E47" fromText="herpes simplex virus" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL57" fromID="E48" fromText="last outbreak" toID="T15" toText="2000" type="OVERLAP" />
+<TLINK id="TL58" fromID="E49" fromText="abnormal Pap smears" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL59" fromID="E51" fromText="intravenous ampicillin" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL6" fromID="E4" fromText="uterine artery embolization" toID="E42" toText="embolization" type="OVERLAP" />
+<TLINK id="TL60" fromID="E52" fromText="gentamicin" toID="E51" toText="intravenous ampicillin" type="OVERLAP" />
+<TLINK id="TL61" fromID="E53" fromText="clindamycin" toID="E52" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL62" fromID="E54" fromText="Her initial white blood cell count" toID="E55" toText="a normal differential" type="OVERLAP" />
+<TLINK id="TL63" fromID="E54" fromText="Her initial white blood cell count" toID="E50" toText="admitted" type="AFTER" />
+<TLINK id="TL64" fromID="E56" fromText="Her sedimentation rate" toID="E50" toText="admitted" type="AFTER" />
+<TLINK id="TL65" fromID="E56" fromText="Her sedimentation rate" toID="E57" toText="elevated" type="OVERLAP" />
+<TLINK id="TL66" fromID="E58" fromText="Her electrolytes" toID="E59" toText="normal limits" type="OVERLAP" />
+<TLINK id="TL67" fromID="E58" fromText="Her electrolytes" toID="E50" toText="admitted" type="AFTER" />
+<TLINK id="TL68" fromID="E60" fromText="intravenous antibiotics" toID="E51" toText="intravenous ampicillin" type="OVERLAP" />
+<TLINK id="TL69" fromID="E61" fromText="her blood cultures" toID="T16" toText="hospital day number three" type="OVERLAP" />
+<TLINK id="TL7" fromID="T2" fromText="2009-01-07" toID="E4" toText="uterine artery embolization" type="OVERLAP" />
+<TLINK id="TL70" fromID="E61" fromText="her blood cultures" toID="E62" toText="positive" type="OVERLAP" />
+<TLINK id="TL71" fromID="E63" fromText="the anaerobic culture" toID="E61" toText="her blood cultures" type="OVERLAP" />
+<TLINK id="TL72" fromID="E64" fromText="gram-positive cocci in pairs and clusters" toID="E61" toText="her blood cultures" type="BEFORE" />
+<TLINK id="TL73" fromID="E61" fromText="her blood cultures" toID="E65" toText="Further identification" type="OVERLAP" />
+<TLINK id="TL74" fromID="E65" fromText="Further identification" toID="E66" toText="revealed" type="OVERLAP" />
+<TLINK id="TL75" fromID="E67" fromText="staphylococcus coag-negative" toID="E64" toText="gram-positive cocci in pairs and clusters" type="OVERLAP" />
+<TLINK id="TL76" fromID="E68" fromText="sensitive" toID="E61" toText="her blood cultures" type="OVERLAP" />
+<TLINK id="TL77" fromID="E69" fromText="gentamicin" toID="E68" toText="sensitive" type="OVERLAP" />
+<TLINK id="TL78" fromID="E70" fromText="clindamycin" toID="E68" toText="sensitive" type="OVERLAP" />
+<TLINK id="TL79" fromID="E71" fromText="her antibiotics" toID="E60" toText="intravenous antibiotics" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="uterine artery embolization" toID="E5" toText="fibroids" type="AFTER" />
+<TLINK id="TL80" fromID="E72" fromText="afebrile" toID="T17" toText="hospital day number five" type="BEFORE" />
+<TLINK id="TL81" fromID="E73" fromText="a temperature spike" toID="T17" toText="hospital day number five" type="OVERLAP" />
+<TLINK id="TL82" fromID="E74" fromText="Repeat blood cultures" toID="E73" toText="a temperature spike" type="AFTER" />
+<TLINK id="TL83" fromID="E75" fromText="Her white blood cell count" toID="E76" toText="a normal differential" type="OVERLAP" />
+<TLINK id="TL84" fromID="E75" fromText="Her white blood cell count" toID="E73" toText="a temperature spike" type="AFTER" />
+<TLINK id="TL85" fromID="E77" fromText="an Infectious Disease consult" toID="E73" toText="a temperature spike" type="AFTER" />
+<TLINK id="TL86" fromID="E51" fromText="intravenous ampicillin" toID="E78" toText="the ampicillin" type="OVERLAP" />
+<TLINK id="TL87" fromID="E78" fromText="the ampicillin" toID="E77" toText="an Infectious Disease consult" type="BEFORE" />
+<TLINK id="TL88" fromID="E69" fromText="gentamicin" toID="E79" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL89" fromID="E79" fromText="gentamicin" toID="E77" toText="an Infectious Disease consult" type="BEFORE" />
+<TLINK id="TL9" fromID="E5" fromText="fibroids" toID="E43" toText="Fibroid uterus" type="OVERLAP" />
+<TLINK id="TL90" fromID="E70" fromText="clindamycin" toID="E80" toText="clindamycin" type="OVERLAP" />
+<TLINK id="TL91" fromID="E80" fromText="clindamycin" toID="E77" toText="an Infectious Disease consult" type="BEFORE" />
+<TLINK id="TL92" fromID="E81" fromText="intravenous Unasyn" toID="E77" toText="an Infectious Disease consult" type="AFTER" />
+<TLINK id="TL93" fromID="E82" fromText="a pelvic ultrasound" toID="E83" toText="an abdomen and pelvis CT" type="OVERLAP" />
+<TLINK id="TL94" fromID="E77" fromText="an Infectious Disease consult" toID="E82" toText="a pelvic ultrasound" type="BEFORE" />
+<TLINK id="TL95" fromID="E85" fromText="continued air in the endometrial cavity" toID="E83" toText="an abdomen and pelvis CT" type="BEFORE" />
+<TLINK id="TL96" fromID="E83" fromText="an abdomen and pelvis CT" toID="E84" toText="revealed" type="OVERLAP" />
+<TLINK id="TL97" fromID="E86" fromText="the fundal fibroid" toID="E85" toText="continued air in the endometrial cavity" type="OVERLAP" />
+<TLINK id="TL98" fromID="E87" fromText="Discussion" toID="E82" toText="a pelvic ultrasound" type="AFTER" />
+<TLINK id="TL99" fromID="E88" fromText="an infected abscess" toID="E89" toText="post-surgical change" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2009-03-27" type="ADMISSION" dvalue="2009-03-27" />
+<SECTIME id="S1" start="46" end="56" text="2009-04-03" type="DISCHARGE" dvalue="2009-04-03" />
+<TLINK id="SECTIME0" fromID="E29" fromText="revealed" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E30" fromText="fluid" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="gas in the endometrial cavity" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E32" fromText="Pinewood , Norfolk" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E33" fromText="treatment" toID="T0" toText="2009-03-27" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E34" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E35" fromText="Cesarean section" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E36" fromText="spontaneous abortion" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E37" fromText="Last menstrual period" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E38" fromText="Some spotting" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E40" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME11" fromID="E39" fromText="Periods regular" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E41" fromText="Lupron" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E42" fromText="embolization" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E43" fromText="Fibroid uterus" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E44" fromText="embolization" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E45" fromText="Dilatation and curettage" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E46" fromText="SAB" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E47" fromText="herpes simplex virus" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E48" fromText="last outbreak" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E49" fromText="abnormal Pap smears" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E50" fromText="admitted" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E51" fromText="intravenous ampicillin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E52" fromText="gentamicin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E53" fromText="clindamycin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E54" fromText="Her initial white blood cell count" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E55" fromText="a normal differential" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E2" fromText="her primary care physician 's office" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E56" fromText="Her sedimentation rate" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E57" fromText="elevated" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E58" fromText="Her electrolytes" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E59" fromText="normal limits" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E60" fromText="intravenous antibiotics" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E61" fromText="her blood cultures" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E62" fromText="positive" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E63" fromText="the anaerobic culture" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E64" fromText="gram-positive cocci in pairs and clusters" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E65" fromText="Further identification" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E66" fromText="revealed" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E67" fromText="staphylococcus coag-negative" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E68" fromText="sensitive" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E69" fromText="gentamicin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E70" fromText="clindamycin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E71" fromText="her antibiotics" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E3" fromText="lower abdominal pain" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E72" fromText="afebrile" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E73" fromText="a temperature spike" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E74" fromText="Repeat blood cultures" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E75" fromText="Her white blood cell count" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E76" fromText="a normal differential" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E77" fromText="an Infectious Disease consult" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E78" fromText="the ampicillin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E79" fromText="gentamicin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E80" fromText="clindamycin" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E81" fromText="intravenous Unasyn" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E82" fromText="a pelvic ultrasound" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E83" fromText="an abdomen and pelvis CT" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E84" fromText="revealed" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E85" fromText="continued air in the endometrial cavity" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E4" fromText="uterine artery embolization" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E86" fromText="the fundal fibroid" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E87" fromText="Discussion" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E88" fromText="an infected abscess" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E89" fromText="post-surgical change" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E90" fromText="Extensive discussion" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E91" fromText="second opinion was obtained" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E92" fromText="drainage" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E93" fromText="the abscess" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E94" fromText="hysterectomy" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E95" fromText="an outside second opinion" toID="T1" toText="2009-04-03" type="AFTER" />
+<TLINK id="SECTIME70" fromID="E96" fromText="hysterectomy" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E97" fromText="discharged" toID="T1" toText="2009-04-03" type="OVERLAP" />
+<TLINK id="SECTIME72" fromID="E98" fromText="oral antibiotics" toID="T1" toText="2009-04-03" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E99" fromText="a repeat CT scan" toID="T1" toText="2009-04-03" type="AFTER" />
+<TLINK id="SECTIME74" fromID="E5" fromText="fibroids" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E100" fromText="obtain a second opinion" toID="T1" toText="2009-04-03" type="AFTER" />
+<TLINK id="SECTIME76" fromID="E101" fromText="surgical management" toID="T1" toText="2009-04-03" type="AFTER" />
+<TLINK id="SECTIME77" fromID="E6" fromText="continuing vaginal discharge" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E7" fromText="bacterial vaginosis" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E8" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME80" fromID="E9" fromText="Flagyl" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E10" fromText="noted" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E11" fromText="increasing abdominal pain" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E12" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME84" fromID="E13" fromText="became more severe" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E14" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME86" fromID="E15" fromText="her primary care physician 's office" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E16" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME88" fromID="E17" fromText="complaining" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E18" fromText="abdominal pain" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E19" fromText="stated" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E20" fromText="complained" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E21" fromText="some loose stools" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E22" fromText="admission" toID="T0" toText="2009-03-27" type="OVERLAP" />
+<TLINK id="SECTIME94" fromID="E23" fromText="nausea" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E24" fromText="vomiting" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E25" fromText="Her temperature" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E26" fromText="the office" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E27" fromText="chills" toID="T0" toText="2009-03-27" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E28" fromText="a CT scan of her abdomen" toID="T0" toText="2009-03-27" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

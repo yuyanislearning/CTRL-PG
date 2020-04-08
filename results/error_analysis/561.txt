@@ -1,0 +1,6 @@
+e1 id: E49; e2 id: E50; e1 text: an MRI scan; e2 text: Neurology consult
+ground truth: OVERLAP; prediction: OVERLAP
+e1 id: E50; e2 id: E51; e1 text: Neurology consult; e2 text: an EEG
+ground truth: OVERLAP; prediction: OVERLAP
+e1 id: E51; e2 id: T10; e1 text: an EEG; e2 text: next week
+ground truth: OVERLAP; prediction: OVERLAP

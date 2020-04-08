@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-08-04
+Discharge Date :
+2018-08-16
+Service :
+SURGERY
+History of Present Illness :
+This is a 32 year old male who was recently discharged from Mediplex Rehab Hospital and presents again to us with chief complaint of abdominal pain ( sudden onset left-sided abdominal pain ).
+Of note , he had a recent kidney biopsy on 2018-07-30 and his Cr bumped from 4.7 to 5.7 .
+Also , HCT on admission 21 from 25 .
+Brief Hospital Course :
+This patient was admitted on 08-04 after a recent discharge from the hospital for sudden onset of left sided abdominal pain .
+In the emergency room , his ultrasound showed mild hydronephrosis with new perinephric fluid surrounding the transplant kidney and hence , underwent a CT scan of his abdomen / pelvis which showed a large left-sided of retroperitoneal hemorrhage extending down to the level of the renal transplant possibly related to recent transplant biopsy .
+Renal transplant medicine and transplant surgery were made aware and the pt was admitted to transplant
+CMED and to the ICU .
+Serial hematocrits and abdominal exams were performed .
+He was not taken to the OR .
+On 08-06 , he received 2 units of pRBC and underwent plasmaphersis , followed by 10mg of IVIG .
+He received another unit pRBC on 08-07 .
+By 08-07 , it was thought there was improvement of his labs .
+In the am of 8-08 , he was given 1 unit pRBC for a Hct of 21.8 .
+His Hct was stable on 08-09 at 24.4 ; he had plasmapheresis on 08-09 ( followed by 10 mg IVIG ).
+He was transfered to the floor on 08-09 .
+On 08-10 , his am Hct was 21.9 , hence , he received 1 unit pRBC .
+On 08-10 class I and II antibody levels were sent .
+He had plasmapheresis on 08-11 , followed by 10 mg IVIG .
+This was repeated on 08-13 .
+Hct remained stable .
+On 08-15 , he went for pheresis / IVIG .
+No new issues .
+LLQ pain has improved over the course of this hospitalization .
+He is eating and ambulating w/o difficulties .
+Pheresis to continue as an outpatient with supervision of transplant nephrology on 08-17 , 08-20 and 08-22 .
+Prograf was increased to 12 mg bid on 08-16 for a trough level of 7.1 .
+He was instructed to have labs drawn on 08-17 to check trough level of prograf as well as cbc , chem 10 , coags .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1020" end="1024" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="1032" end="1039" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="1042" end="1060" text="Serial hematocrits" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="1065" end="1080" text="abdominal exams" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1086" end="1095" text="performed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1109" end="1114" text="taken" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E60" start="1118" end="1124" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="1161" end="1165" text="pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1180" end="1193" text="plasmaphersis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1216" end="1220" text="IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1235" end="1252" text="another unit pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1300" end="1311" text="improvement" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1315" end="1323" text="his labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1359" end="1370" text="1 unit pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1375" end="1380" text="a Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="139" end="158" text="recently discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1391" end="1398" text="His Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1436" end="1450" text="plasmapheresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1480" end="1484" text="IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1495" end="1505" text="transfered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1509" end="1518" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="1541" end="1551" text="his am Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1583" end="1594" text="1 unit pRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1606" end="1636" text="class I and II antibody levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="164" end="187" text="Mediplex Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1656" end="1670" text="plasmapheresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1694" end="1704" text="10 mg IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1716" end="1724" text="repeated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1736" end="1739" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1749" end="1755" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="1781" end="1789" text="pheresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1792" end="1796" text="IVIG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1802" end="1812" text="new issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="1815" end="1823" text="LLQ pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1828" end="1836" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1856" end="1876" text="this hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1885" end="1891" text="eating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1896" end="1906" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1911" end="1923" text="difficulties" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="192" end="200" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1926" end="1934" text="Pheresis" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1938" end="1946" text="continue" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1984" end="2005" text="transplant nephrology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="2035" end="2042" text="Prograf" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2047" end="2056" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="2083" end="2097" text="a trough level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2133" end="2137" text="labs" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2162" end="2185" text="trough level of prograf" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2197" end="2200" text="cbc" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2203" end="2210" text="chem 10" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2213" end="2218" text="coags" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E45" start="237" end="251" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="254" end="292" text="sudden onset left-sided abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="313" end="335" text="a recent kidney biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="354" end="360" text="his Cr" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="393" end="396" text="HCT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="400" end="409" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="464" end="472" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="488" end="506" text="a recent discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="512" end="524" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="545" end="570" text="left sided abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="576" end="594" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="597" end="611" text="his ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="612" end="618" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="619" end="638" text="mild hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="644" end="665" text="new perinephric fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="722" end="755" text="a CT scan of his abdomen / pelvis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="762" end="768" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="791" end="817" text="retroperitoneal hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="849" end="869" text="the renal transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="879" end="886" text="related" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="890" end="914" text="recent transplant biopsy" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E54" start="917" end="942" text="Renal transplant medicine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="947" end="965" text="transplant surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="976" end="981" text="aware" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="997" end="1005" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T2" start="1130" end="1135" text="08-06" type="DATE" val="2018-08-06" mod="NA" />
+<TIMEX3 id="T12" start="1256" end="1261" text="08-07" type="DATE" val="2018-08-07" mod="NA" />
+<TIMEX3 id="T13" start="1267" end="1272" text="08-07" type="DATE" val="2018-08-07" mod="NA" />
+<TIMEX3 id="T14" start="1329" end="1343" text="the am of 8-08" type="DATE" val="2018-08-08" mod="START" />
+<TIMEX3 id="T3" start="1413" end="1418" text="08-09" type="DATE" val="2018-08-09" mod="NA" />
+<TIMEX3 id="T4" start="1454" end="1459" text="08-09" type="DATE" val="2018-08-09" mod="NA" />
+<TIMEX3 id="T5" start="1522" end="1527" text="08-09" type="DATE" val="2018-08-09" mod="NA" />
+<TIMEX3 id="T6" start="1533" end="1538" text="08-10" type="DATE" val="2018-08-10" mod="NA" />
+<TIMEX3 id="T7" start="1600" end="1605" text="08-10" type="DATE" val="2018-08-10" mod="NA" />
+<TIMEX3 id="T15" start="1674" end="1679" text="08-11" type="DATE" val="2018-08-11" mod="NA" />
+<TIMEX3 id="T16" start="1728" end="1733" text="08-13" type="DATE" val="2018-08-13" mod="NA" />
+<TIMEX3 id="T8" start="1761" end="1766" text="08-15" type="DATE" val="2018-08-15" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2018-08-04" type="DATE" val="2018-08-04" mod="NA" />
+<TIMEX3 id="T9" start="2009" end="2014" text="08-17" type="DATE" val="2018-08-17" mod="NA" />
+<TIMEX3 id="T17" start="2017" end="2022" text="08-20" type="DATE" val="2018-08-20" mod="NA" />
+<TIMEX3 id="T18" start="2027" end="2032" text="08-22" type="DATE" val="2018-08-22" mod="NA" />
+<TIMEX3 id="T19" start="2073" end="2078" text="08-16" type="DATE" val="2018-08-16" mod="NA" />
+<TIMEX3 id="T20" start="2147" end="2152" text="08-17" type="DATE" val="2018-08-17" mod="NA" />
+<TIMEX3 id="T1" start="339" end="349" text="2018-07-30" type="DATE" val="2018-07-30" mod="NA" />
+<TIMEX3 id="T10" start="46" end="56" text="2018-08-16" type="DATE" val="2018-08-16" mod="NA" />
+<TIMEX3 id="T11" start="476" end="481" text="08-04" type="DATE" val="2018-08-04" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2018-08-04" type="ADMISSION" dvalue="2018-08-04" />
+<SECTIME id="S1" start="46" end="56" text="2018-08-16" type="DISCHARGE" dvalue="2018-08-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

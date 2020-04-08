@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-11-21
+Discharge Date :
+2016-11-30
+Service :
+CMED CCU
+CHIEF COMPLAINT AND HISTORY OF PRESENT ILLNESS :
+Mr. Jackson is a 63-year-old male with squamous cell carcinoma of the floor of mouth ( stage T2 N0 ) that was biopsied by his dentist .
+Pathology was reviewed revealing invasive squamous cell carcinoma .
+He presented on 2016-11-21 for resection .
+He was admitted on 2016-11-21 following his surgery .
+He underwent a joint procedure by Otolaryngology and Plastic Surgery .
+SUMMARY OF HOSPITAL COURSE :
+Surgeon was Dr. Kelsey K Sanchez .
+Assistant was Dr. Justin K.. Velez .
+Frozen section sent to pathology revealing invasive squamous cell carcinoma .
+No complications .
+The Plastic Team then took over for reconstruction consisting of radial forearm free flap to floor of mouth .
+Surgeon was Dr. Jude. Christopher Swinney .
+Total intravenous fluids of 7300 cc .
+Estimated blood loss of 300 cc .
+Urine output of 900 cc .
+No complications .
+In addition , the patient was prepared for an attempted percutaneous endoscopic gastrostomy tube .
+The percutaneous endoscopic gastrostomy was unsuccessful , and the procedure was converted to an open gastrostomy tube which then proceeded without complications .
+The patient was admitted to the Surgical Intensive Care Unit postoperatively .
+He was sedated and ventilated by his tracheostomy 6 cuff Shiley tube .
+He had three Westwood-Pocasset drains - two in the neck and one in his right arm .
+G-tube was to gravity , Foley to gravity , left radial A-line .
+The flap was pink with a strong Doppler signal .
+He underwent flap checks every 15 minutes initially with a dextran infusion .
+He was placed on Unasyn 3 grams IV q.6h.
+Nothing by mouth initially with morphine as needed for pain and Ativan around the clock for delirium tremens prophylaxis .
+In addition , he received metoprolol q.4.h. , a regular insulin sliding scale , and adequate gastrointestinal prophylaxis with Protonix .
+Postoperative laboratories revealed sodium was 134 , potassium was 4.1 , chloride was 102 , bicarbonate was 28 , blood urea nitrogen was 18 , creatinine was 0.8 , and glucose was 148 .
+Calcium was 7.6 .
+Magnesium was 2.2 .
+Complete blood count revealed white count was 5.4 , hematocrit was 31.3 , and platelets were 160 .
+ALT was 14 , AST was 31 , alkaline phosphatase was 42 , total bilirubin was 0.9 , albumin was 2.2 .
+A chest x-ray postoperatively showed clear lung fields .
+Tracheostomy tube in good position .
+No pneumothorax .
+By systems :
+CMED CSRU and Plastic Surgery flap checks , tracheostomy care , and Westwood-Pocasset management. 
+Cardiovascular :
+Lopressor 5 intravenously q.4.h.
+Respiratory :
+Nebulizers as needed , weaning from ventilation .
+Gastrointestinal :
+Medications per gastrostomy tube on postoperative day one .
+Genitourinary :
+Foley catheter for strict monitoring of ins and outs .
+Hematologic :
+Hematocrit stable .
+Infectious Disease :
+Unasyn for antibiotic coverage .
+Flap checks carried out q.2h. initially in the Surgical Intensive Care Unit showing positive biphasic Doppler signals .
+Pink flap with good refill .
+Right arm neurovascularly intact .
+He was weaned from ventilation on postoperative day one to pressure support ventilation and then to spontaneous breathing on postoperative day two .
+His Westwood-Pocasset output for postoperative day one on the left was 60 , right neck 93 , in the arm 20 .
+Tube feedings were started 48 hours after the procedure .
+The cuff on his tracheostomy tube was put down on 11-23 , postoperative day two which he tolerated well with minimal secretions and a strong adequate cough .
+Due to bed issues , he was transferred from the Surgical Intensive Care Unit to the Medical Intensive Care Unit on postoperative day three .
+His tube feedings were advanced .
+He was out of bed to a chair .
+He continued with pulmonary toilet and q.2h. flap checks .
+The Westwood-Pocasset in his right arm was removed on 2016-11-25 .
+His tracheostomy was changed to a 6 cuffless Shiley on 2016-11-26 and sutures in place with a 3-0 silk .
+The patient tolerated this procedure well .
+]]></TEXT>
+<TAGS>
+<EVENT id="E90" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1007" end="1060" text="an attempted percutaneous endoscopic gastrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1063" end="1102" text="The percutaneous endoscopic gastrostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="1107" end="1119" text="unsuccessful" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1126" end="1139" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1157" end="1181" text="an open gastrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1211" end="1224" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="1243" end="1251" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="1255" end="1287" text="the Surgical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="1313" end="1320" text="sedated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1325" end="1335" text="ventilated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1339" end="1374" text="his tracheostomy 6 cuff Shiley tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1390" end="1414" text="Westwood-Pocasset drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1460" end="1466" text="G-tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1484" end="1489" text="Foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1503" end="1521" text="left radial A-line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1524" end="1532" text="The flap" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="1537" end="1541" text="pink" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1547" end="1570" text="a strong Doppler signal" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1586" end="1597" text="flap checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1630" end="1648" text="a dextran infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="164" end="187" text="squamous cell carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1668" end="1674" text="Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="1692" end="1708" text="Nothing by mouth" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1724" end="1732" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1747" end="1751" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1756" end="1762" text="Ativan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1784" end="1812" text="delirium tremens prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1841" end="1851" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1861" end="1892" text="a regular insulin sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="1908" end="1936" text="gastrointestinal prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1942" end="1950" text="Protonix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1953" end="1979" text="Postoperative laboratories" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E105" start="1980" end="1988" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1989" end="1995" text="sodium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2006" end="2015" text="potassium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="2026" end="2034" text="chloride" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="2045" end="2056" text="bicarbonate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2066" end="2085" text="blood urea nitrogen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="2095" end="2105" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="212" end="223" text="stage T2 N0" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="2120" end="2127" text="glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="2138" end="2145" text="Calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="2156" end="2165" text="Magnesium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="2176" end="2196" text="Complete blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E106" start="2197" end="2205" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="2206" end="2217" text="white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="2228" end="2238" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2254" end="2263" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="2275" end="2278" text="ALT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="2288" end="2291" text="AST" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="2301" end="2321" text="alkaline phosphatase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="2331" end="2346" text="total bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E0" start="235" end="243" text="biopsied" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="2357" end="2364" text="albumin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="2375" end="2388" text="A chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="2405" end="2411" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E108" start="2412" end="2429" text="clear lung fields" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="2432" end="2449" text="Tracheostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E109" start="2453" end="2466" text="good position" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="2472" end="2484" text="pneumothorax" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="2530" end="2541" text="flap checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2544" end="2561" text="tracheostomy care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2568" end="2597" text="Westwood-Pocasset management." modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="261" end="270" text="Pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2616" end="2625" text="Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="2663" end="2673" text="Nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="2686" end="2693" text="weaning" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2699" end="2710" text="ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2732" end="2743" text="Medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2748" end="2764" text="gastrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2808" end="2822" text="Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2827" end="2860" text="strict monitoring of ins and outs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="284" end="293" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="2877" end="2887" text="Hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2918" end="2924" text="Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2929" end="2948" text="antibiotic coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="294" end="326" text="invasive squamous cell carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2951" end="2962" text="Flap checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="2994" end="3026" text="the Surgical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E112" start="3027" end="3034" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E113" start="3044" end="3068" text="biphasic Doppler signals" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="3071" end="3080" text="Pink flap" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="3086" end="3097" text="good refill" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="3110" end="3132" text="neurovascularly intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="3154" end="3165" text="ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="3194" end="3222" text="pressure support ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="3235" end="3256" text="spontaneous breathing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="3284" end="3312" text="His Westwood-Pocasset output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="332" end="341" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="3392" end="3405" text="Tube feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="3434" end="3447" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="3450" end="3458" text="The cuff" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="3462" end="3483" text="his tracheostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E118" start="3539" end="3553" text="tolerated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="3559" end="3577" text="minimal secretions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="3582" end="3605" text="a strong adequate cough" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="360" end="369" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="3635" end="3646" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="3652" end="3684" text="the Surgical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E121" start="3688" end="3719" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E83" start="3749" end="3766" text="His tube feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="3772" end="3780" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="379" end="387" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="3790" end="3800" text="out of bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="3832" end="3848" text="pulmonary toilet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E124" start="3859" end="3870" text="flap checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="3873" end="3911" text="The Westwood-Pocasset in his right arm" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="3940" end="3956" text="His tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="3972" end="3991" text="a 6 cuffless Shiley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="4010" end="4017" text="sutures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="4032" end="4042" text="a 3-0 silk" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="4057" end="4066" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="4067" end="4081" text="this procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="4082" end="4086" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="412" end="423" text="his surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="439" end="456" text="a joint procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="598" end="612" text="Frozen section" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="631" end="640" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="641" end="673" text="invasive squamous cell carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="679" end="692" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="731" end="745" text="reconstruction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="760" end="784" text="radial forearm free flap" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="849" end="873" text="Total intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="887" end="907" text="Estimated blood loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="920" end="932" text="Urine output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="948" end="961" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T0" start="1598" end="1614" text="every 15 minutes" type="FREQUENCY" val="RPT15M" mod="NA" />
+<TIMEX3 id="T13" start="1686" end="1691" text="q.6h." type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2016-11-21" type="DATE" val="2016-11-21" mod="NA" />
+<TIMEX3 id="T14" start="1852" end="1858" text="q.4.h." type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T15" start="2642" end="2648" text="q.4.h." type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T20" start="2674" end="2683" text="as needed" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T5" start="2768" end="2789" text="postoperative day one" type="DATE" val="2016-11-22" mod="NA" />
+<TIMEX3 id="T16" start="2975" end="2980" text="q.2h." type="FREQUENCY" val="RPT2H" mod="NA" />
+<TIMEX3 id="T6" start="3169" end="3190" text="postoperative day one" type="DATE" val="2016-11-22" mod="NA" />
+<TIMEX3 id="T7" start="3260" end="3281" text="postoperative day two" type="DATE" val="2016-11-23" mod="NA" />
+<TIMEX3 id="T8" start="3317" end="3338" text="postoperative day one" type="DATE" val="2016-11-22" mod="NA" />
+<TIMEX3 id="T19" start="3419" end="3427" text="48 hours" type="DATE" val="2016-11-23" mod="NA" />
+<TIMEX3 id="T3" start="345" end="355" text="2016-11-21" type="DATE" val="2016-11-21" mod="NA" />
+<TIMEX3 id="T21" start="3500" end="3529" text="11-23 , postoperative day two" type="DATE" val="2016-11-23" mod="NA" />
+<TIMEX3 id="T10" start="3723" end="3746" text="postoperative day three" type="DATE" val="2016-11-24" mod="NA" />
+<TIMEX3 id="T18" start="3853" end="3858" text="q.2h." type="FREQUENCY" val="RPT2H" mod="NA" />
+<TIMEX3 id="T4" start="391" end="401" text="2016-11-21" type="DATE" val="2016-11-21" mod="NA" />
+<TIMEX3 id="T11" start="3927" end="3937" text="2016-11-25" type="DATE" val="2016-11-25" mod="NA" />
+<TIMEX3 id="T12" start="3995" end="4005" text="2016-11-26" type="DATE" val="2016-11-26" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2016-11-30" type="DATE" val="2016-11-30" mod="NA" />
+<TLINK id="TL0" fromID="E90" fromText="Admission" toID="T1" toText="2016-11-21" type="OVERLAP" />
+<TLINK id="TL1" fromID="E8" fromText="complications" toID="E4" toText="his surgery" type="OVERLAP" />
+<TLINK id="TL100" fromID="E69" fromText="Foley catheter" toID="E71" toText="Hematocrit" type="OVERLAP" />
+<TLINK id="TL101" fromID="E68" fromText="gastrostomy tube" toID="E69" toText="Foley catheter" type="OVERLAP" />
+<TLINK id="TL102" fromID="E68" fromText="gastrostomy tube" toID="E24" toText="G-tube" type="OVERLAP" />
+<TLINK id="TL103" fromID="E69" fromText="Foley catheter" toID="E25" toText="Foley" type="OVERLAP" />
+<TLINK id="TL104" fromID="E72" fromText="Unasyn" toID="E73" toText="antibiotic coverage" type="OVERLAP" />
+<TLINK id="TL105" fromID="E31" fromText="Unasyn" toID="E72" toText="Unasyn" type="OVERLAP" />
+<TLINK id="TL106" fromID="E74" fromText="Flap checks" toID="T16" toText="q.2h." type="OVERLAP" />
+<TLINK id="TL107" fromID="E74" fromText="Flap checks" toID="E111" toText="the Surgical Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL108" fromID="E74" fromText="Flap checks" toID="E112" toText="showing" type="OVERLAP" />
+<TLINK id="TL109" fromID="E113" fromText="biphasic Doppler signals" toID="E74" toText="Flap checks" type="OVERLAP" />
+<TLINK id="TL11" fromID="E77" fromText="pressure support ventilation" toID="T6" toText="postoperative day one" type="AFTER" />
+<TLINK id="TL110" fromID="E74" fromText="Flap checks" toID="E29" toText="flap checks" type="OVERLAP" />
+<TLINK id="TL111" fromID="E75" fromText="Pink flap" toID="E114" toText="good refill" type="OVERLAP" />
+<TLINK id="TL112" fromID="E74" fromText="Flap checks" toID="E75" toText="Pink flap" type="OVERLAP" />
+<TLINK id="TL113" fromID="E114" fromText="good refill" toID="E115" toText="neurovascularly intact" type="OVERLAP" />
+<TLINK id="TL114" fromID="E76" fromText="ventilation" toID="E77" toText="pressure support ventilation" type="BEFORE" />
+<TLINK id="TL116" fromID="E77" fromText="pressure support ventilation" toID="E117" toText="spontaneous breathing" type="BEFORE" />
+<TLINK id="TL117" fromID="E117" fromText="spontaneous breathing" toID="T7" toText="postoperative day two" type="AFTER" />
+<TLINK id="TL118" fromID="E78" fromText="His Westwood-Pocasset output" toID="T8" toText="postoperative day one" type="OVERLAP" />
+<TLINK id="TL119" fromID="E78" fromText="His Westwood-Pocasset output" toID="E85" toText="The Westwood-Pocasset in his right arm" type="OVERLAP" />
+<TLINK id="TL12" fromID="E90" fromText="Admission" toID="E96" toText="admitted" type="OVERLAP" />
+<TLINK id="TL120" fromID="E79" fromText="Tube feedings" toID="T19" toText="48 hours" type="AFTER" />
+<TLINK id="TL121" fromID="E80" fromText="the procedure" toID="T19" toText="48 hours" type="BEFORE" />
+<TLINK id="TL125" fromID="E82" fromText="minimal secretions" toID="E118" toText="tolerated well" type="OVERLAP" />
+<TLINK id="TL126" fromID="E119" fromText="a strong adequate cough" toID="E118" toText="tolerated well" type="OVERLAP" />
+<TLINK id="TL127" fromID="E120" fromText="the Surgical Intensive Care Unit" toID="E92" toText="transferred" type="BEFORE" />
+<TLINK id="TL128" fromID="E121" fromText="the Medical Intensive Care Unit" toID="E92" toText="transferred" type="AFTER" />
+<TLINK id="TL129" fromID="E92" fromText="transferred" toID="T10" toText="postoperative day three" type="OVERLAP" />
+<TLINK id="TL13" fromID="E91" fromText="Discharge" toID="T2" toText="2016-11-30" type="OVERLAP" />
+<TLINK id="TL130" fromID="E120" fromText="the Surgical Intensive Care Unit" toID="E101" toText="the Surgical Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL131" fromID="E83" fromText="His tube feedings" toID="E122" toText="advanced" type="BEFORE" />
+<TLINK id="TL132" fromID="E121" fromText="the Medical Intensive Care Unit" toID="E83" toText="His tube feedings" type="OVERLAP" />
+<TLINK id="TL133" fromID="E123" fromText="out of bed" toID="E84" toText="pulmonary toilet" type="OVERLAP" />
+<TLINK id="TL134" fromID="E121" fromText="the Medical Intensive Care Unit" toID="E123" toText="out of bed" type="OVERLAP" />
+<TLINK id="TL135" fromID="E124" fromText="flap checks" toID="T18" toText="q.2h." type="OVERLAP" />
+<TLINK id="TL136" fromID="E84" fromText="pulmonary toilet" toID="E124" toText="flap checks" type="OVERLAP" />
+<TLINK id="TL137" fromID="E124" fromText="flap checks" toID="E74" toText="Flap checks" type="OVERLAP" />
+<TLINK id="TL138" fromID="E85" fromText="The Westwood-Pocasset in his right arm" toID="T11" toText="2016-11-25" type="BEFORE" />
+<TLINK id="TL139" fromID="E86" fromText="His tracheostomy" toID="E125" toText="a 6 cuffless Shiley" type="BEFORE" />
+<TLINK id="TL14" fromID="E1" fromText="squamous cell carcinoma" toID="E98" toText="stage T2 N0" type="OVERLAP" />
+<TLINK id="TL140" fromID="E81" fromText="his tracheostomy tube" toID="E86" toText="His tracheostomy" type="OVERLAP" />
+<TLINK id="TL141" fromID="E81" fromText="his tracheostomy tube" toID="E128" toText="The cuff" type="OVERLAP" />
+<TLINK id="TL142" fromID="E128" fromText="The cuff" toID="T21" toText="11-23 , postoperative day two" type="BEFORE" />
+<TLINK id="TL143" fromID="E128" fromText="The cuff" toID="E118" toText="tolerated well" type="OVERLAP" />
+<TLINK id="TL144" fromID="E125" fromText="a 6 cuffless Shiley" toID="T12" toText="2016-11-26" type="AFTER" />
+<TLINK id="TL145" fromID="E87" fromText="sutures" toID="E125" toText="a 6 cuffless Shiley" type="OVERLAP" />
+<TLINK id="TL146" fromID="E87" fromText="sutures" toID="E88" toText="a 3-0 silk" type="OVERLAP" />
+<TLINK id="TL147" fromID="E86" fromText="His tracheostomy" toID="T12" toText="2016-11-26" type="BEFORE" />
+<TLINK id="TL148" fromID="E125" fromText="a 6 cuffless Shiley" toID="E89" toText="this procedure" type="OVERLAP" />
+<TLINK id="TL149" fromID="E89" fromText="this procedure" toID="E126" toText="well" type="OVERLAP" />
+<TLINK id="TL15" fromID="E1" fromText="squamous cell carcinoma" toID="E0" toText="biopsied" type="BEFORE" />
+<TLINK id="TL150" fromID="E127" fromText="tolerated" toID="E126" toText="well" type="OVERLAP" />
+<TLINK id="TL16" fromID="E1" fromText="squamous cell carcinoma" toID="E3" toText="invasive squamous cell carcinoma" type="OVERLAP" />
+<TLINK id="TL17" fromID="E3" fromText="invasive squamous cell carcinoma" toID="E2" toText="Pathology" type="BEFORE" />
+<TLINK id="TL18" fromID="E2" fromText="Pathology" toID="E0" toText="biopsied" type="AFTER" />
+<TLINK id="TL19" fromID="E93" fromText="revealing" toID="E2" toText="Pathology" type="OVERLAP" />
+<TLINK id="TL2" fromID="E16" fromText="The percutaneous endoscopic gastrostomy" toID="E15" toText="an attempted percutaneous endoscopic gastrostomy tube" type="OVERLAP" />
+<TLINK id="TL20" fromID="E94" fromText="presented" toID="T3" toText="2016-11-21" type="OVERLAP" />
+<TLINK id="TL21" fromID="T3" fromText="2016-11-21" toID="E95" toText="resection" type="OVERLAP" />
+<TLINK id="TL22" fromID="E4" fromText="his surgery" toID="E95" toText="resection" type="OVERLAP" />
+<TLINK id="TL23" fromID="E96" fromText="admitted" toID="E4" toText="his surgery" type="AFTER" />
+<TLINK id="TL24" fromID="E96" fromText="admitted" toID="T4" toText="2016-11-21" type="OVERLAP" />
+<TLINK id="TL25" fromID="E5" fromText="a joint procedure" toID="E4" toText="his surgery" type="OVERLAP" />
+<TLINK id="TL26" fromID="E9" fromText="reconstruction" toID="E6" toText="Frozen section" type="AFTER" />
+<TLINK id="TL27" fromID="E7" fromText="invasive squamous cell carcinoma" toID="E6" toText="Frozen section" type="BEFORE" />
+<TLINK id="TL28" fromID="E97" fromText="revealing" toID="E6" toText="Frozen section" type="OVERLAP" />
+<TLINK id="TL29" fromID="E9" fromText="reconstruction" toID="E10" toText="radial forearm free flap" type="OVERLAP" />
+<TLINK id="TL3" fromID="E18" fromText="an open gastrostomy tube" toID="E19" toText="complications" type="OVERLAP" />
+<TLINK id="TL30" fromID="E14" fromText="complications" toID="E9" toText="reconstruction" type="OVERLAP" />
+<TLINK id="TL31" fromID="E11" fromText="Total intravenous fluids" toID="E4" toText="his surgery" type="OVERLAP" />
+<TLINK id="TL32" fromID="E12" fromText="Estimated blood loss" toID="E4" toText="his surgery" type="OVERLAP" />
+<TLINK id="TL33" fromID="E13" fromText="Urine output" toID="E4" toText="his surgery" type="OVERLAP" />
+<TLINK id="TL34" fromID="E9" fromText="reconstruction" toID="E4" toText="his surgery" type="OVERLAP" />
+<TLINK id="TL35" fromID="E15" fromText="an attempted percutaneous endoscopic gastrostomy tube" toID="E9" toText="reconstruction" type="AFTER" />
+<TLINK id="TL36" fromID="E18" fromText="an open gastrostomy tube" toID="E99" toText="unsuccessful" type="AFTER" />
+<TLINK id="TL37" fromID="E16" fromText="The percutaneous endoscopic gastrostomy" toID="E99" toText="unsuccessful" type="OVERLAP" />
+<TLINK id="TL38" fromID="E17" fromText="the procedure" toID="E16" toText="The percutaneous endoscopic gastrostomy" type="OVERLAP" />
+<TLINK id="TL39" fromID="E16" fromText="The percutaneous endoscopic gastrostomy" toID="E18" toText="an open gastrostomy tube" type="BEFORE" />
+<TLINK id="TL4" fromID="E24" fromText="G-tube" toID="E25" toText="Foley" type="OVERLAP" />
+<TLINK id="TL40" fromID="E101" fromText="the Surgical Intensive Care Unit" toID="E100" toText="admitted" type="AFTER" />
+<TLINK id="TL41" fromID="E100" fromText="admitted" toID="E96" toText="admitted" type="OVERLAP" />
+<TLINK id="TL42" fromID="E20" fromText="sedated" toID="E21" toText="ventilated" type="OVERLAP" />
+<TLINK id="TL43" fromID="E20" fromText="sedated" toID="E101" toText="the Surgical Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL44" fromID="E21" fromText="ventilated" toID="E22" toText="his tracheostomy 6 cuff Shiley tube" type="OVERLAP" />
+<TLINK id="TL45" fromID="E23" fromText="Westwood-Pocasset drains" toID="E101" toText="the Surgical Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL46" fromID="E24" fromText="G-tube" toID="E101" toText="the Surgical Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL47" fromID="E25" fromText="Foley" toID="E101" toText="the Surgical Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL48" fromID="E26" fromText="left radial A-line" toID="E101" toText="the Surgical Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL49" fromID="E27" fromText="The flap" toID="E28" toText="a strong Doppler signal" type="OVERLAP" />
+<TLINK id="TL5" fromID="E25" fromText="Foley" toID="E26" toText="left radial A-line" type="OVERLAP" />
+<TLINK id="TL50" fromID="E27" fromText="The flap" toID="E10" toText="radial forearm free flap" type="OVERLAP" />
+<TLINK id="TL51" fromID="E27" fromText="The flap" toID="E29" toText="flap checks" type="BEFORE" />
+<TLINK id="TL52" fromID="E27" fromText="The flap" toID="E102" toText="pink" type="OVERLAP" />
+<TLINK id="TL53" fromID="E29" fromText="flap checks" toID="T0" toText="every 15 minutes" type="OVERLAP" />
+<TLINK id="TL54" fromID="E29" fromText="flap checks" toID="E30" toText="a dextran infusion" type="OVERLAP" />
+<TLINK id="TL55" fromID="E29" fromText="flap checks" toID="E61" toText="flap checks" type="OVERLAP" />
+<TLINK id="TL56" fromID="E31" fromText="Unasyn" toID="T13" toText="q.6h." type="OVERLAP" />
+<TLINK id="TL57" fromID="E30" fromText="a dextran infusion" toID="E31" toText="Unasyn" type="OVERLAP" />
+<TLINK id="TL58" fromID="E103" fromText="Nothing by mouth" toID="E32" toText="morphine" type="OVERLAP" />
+<TLINK id="TL59" fromID="E36" fromText="metoprolol" toID="E103" toText="Nothing by mouth" type="OVERLAP" />
+<TLINK id="TL6" fromID="E32" fromText="morphine" toID="E33" toText="pain" type="OVERLAP" />
+<TLINK id="TL60" fromID="E32" fromText="morphine" toID="E34" toText="Ativan" type="OVERLAP" />
+<TLINK id="TL61" fromID="E34" fromText="Ativan" toID="E35" toText="delirium tremens prophylaxis" type="OVERLAP" />
+<TLINK id="TL62" fromID="E36" fromText="metoprolol" toID="T14" toText="q.4.h." type="OVERLAP" />
+<TLINK id="TL63" fromID="E37" fromText="a regular insulin sliding scale" toID="E104" toText="gastrointestinal prophylaxis" type="OVERLAP" />
+<TLINK id="TL64" fromID="E104" fromText="gastrointestinal prophylaxis" toID="E38" toText="Protonix" type="OVERLAP" />
+<TLINK id="TL65" fromID="E39" fromText="Postoperative laboratories" toID="E40" toText="sodium" type="OVERLAP" />
+<TLINK id="TL66" fromID="E39" fromText="Postoperative laboratories" toID="E41" toText="potassium" type="OVERLAP" />
+<TLINK id="TL67" fromID="E39" fromText="Postoperative laboratories" toID="E42" toText="chloride" type="OVERLAP" />
+<TLINK id="TL68" fromID="E39" fromText="Postoperative laboratories" toID="E43" toText="bicarbonate" type="OVERLAP" />
+<TLINK id="TL69" fromID="E44" fromText="blood urea nitrogen" toID="E39" toText="Postoperative laboratories" type="OVERLAP" />
+<TLINK id="TL7" fromID="E36" fromText="metoprolol" toID="E37" toText="a regular insulin sliding scale" type="OVERLAP" />
+<TLINK id="TL70" fromID="E39" fromText="Postoperative laboratories" toID="E45" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL71" fromID="E39" fromText="Postoperative laboratories" toID="E46" toText="glucose" type="OVERLAP" />
+<TLINK id="TL72" fromID="E39" fromText="Postoperative laboratories" toID="E47" toText="Calcium" type="OVERLAP" />
+<TLINK id="TL73" fromID="E39" fromText="Postoperative laboratories" toID="E48" toText="Magnesium" type="OVERLAP" />
+<TLINK id="TL74" fromID="E39" fromText="Postoperative laboratories" toID="E105" toText="revealed" type="OVERLAP" />
+<TLINK id="TL75" fromID="E39" fromText="Postoperative laboratories" toID="E5" toText="a joint procedure" type="AFTER" />
+<TLINK id="TL76" fromID="E49" fromText="Complete blood count" toID="E50" toText="white count" type="OVERLAP" />
+<TLINK id="TL77" fromID="E39" fromText="Postoperative laboratories" toID="E49" toText="Complete blood count" type="OVERLAP" />
+<TLINK id="TL78" fromID="E49" fromText="Complete blood count" toID="E51" toText="hematocrit" type="OVERLAP" />
+<TLINK id="TL79" fromID="E49" fromText="Complete blood count" toID="E52" toText="platelets" type="OVERLAP" />
+<TLINK id="TL8" fromID="E61" fromText="flap checks" toID="E62" toText="tracheostomy care" type="OVERLAP" />
+<TLINK id="TL80" fromID="E49" fromText="Complete blood count" toID="E106" toText="revealed" type="OVERLAP" />
+<TLINK id="TL81" fromID="E53" fromText="ALT" toID="E49" toText="Complete blood count" type="OVERLAP" />
+<TLINK id="TL82" fromID="E54" fromText="AST" toID="E55" toText="alkaline phosphatase" type="OVERLAP" />
+<TLINK id="TL83" fromID="E53" fromText="ALT" toID="E54" toText="AST" type="OVERLAP" />
+<TLINK id="TL84" fromID="E55" fromText="alkaline phosphatase" toID="E56" toText="total bilirubin" type="OVERLAP" />
+<TLINK id="TL85" fromID="E56" fromText="total bilirubin" toID="E57" toText="albumin" type="OVERLAP" />
+<TLINK id="TL86" fromID="E58" fromText="A chest x-ray" toID="E107" toText="showed" type="OVERLAP" />
+<TLINK id="TL87" fromID="E108" fromText="clear lung fields" toID="E58" toText="A chest x-ray" type="BEFORE" />
+<TLINK id="TL88" fromID="E59" fromText="Tracheostomy tube" toID="E109" toText="good position" type="OVERLAP" />
+<TLINK id="TL9" fromID="E62" fromText="tracheostomy care" toID="E63" toText="Westwood-Pocasset management." type="OVERLAP" />
+<TLINK id="TL90" fromID="E60" fromText="pneumothorax" toID="E58" toText="A chest x-ray" type="BEFORE" />
+<TLINK id="TL91" fromID="E59" fromText="Tracheostomy tube" toID="E58" toText="A chest x-ray" type="BEFORE" />
+<TLINK id="TL92" fromID="E58" fromText="A chest x-ray" toID="E5" toText="a joint procedure" type="AFTER" />
+<TLINK id="TL93" fromID="E64" fromText="Lopressor" toID="T15" toText="q.4.h." type="OVERLAP" />
+<TLINK id="TL94" fromID="E65" fromText="Nebulizers" toID="T20" toText="as needed" type="OVERLAP" />
+<TLINK id="TL95" fromID="E66" fromText="ventilation" toID="E110" toText="weaning" type="BEFORE" />
+<TLINK id="TL96" fromID="E65" fromText="Nebulizers" toID="E66" toText="ventilation" type="OVERLAP" />
+<TLINK id="TL97" fromID="E68" fromText="gastrostomy tube" toID="E67" toText="Medications" type="BEFORE" />
+<TLINK id="TL98" fromID="E67" fromText="Medications" toID="T5" toText="postoperative day one" type="OVERLAP" />
+<TLINK id="TL99" fromID="E69" fromText="Foley catheter" toID="E70" toText="strict monitoring of ins and outs" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2016-11-21" type="ADMISSION" dvalue="2016-11-21" />
+<SECTIME id="S1" start="46" end="56" text="2016-11-30" type="DISCHARGE" dvalue="2016-11-30" />
+<TLINK id="SECTIME0" fromID="E15" fromText="an attempted percutaneous endoscopic gastrostomy tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E16" fromText="The percutaneous endoscopic gastrostomy" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E99" fromText="unsuccessful" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E17" fromText="the procedure" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E18" fromText="an open gastrostomy tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E19" fromText="complications" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E100" fromText="admitted" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E101" fromText="the Surgical Intensive Care Unit" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E20" fromText="sedated" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E21" fromText="ventilated" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E22" fromText="his tracheostomy 6 cuff Shiley tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E23" fromText="Westwood-Pocasset drains" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E24" fromText="G-tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E25" fromText="Foley" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E26" fromText="left radial A-line" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E27" fromText="The flap" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E102" fromText="pink" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E28" fromText="a strong Doppler signal" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E29" fromText="flap checks" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E30" fromText="a dextran infusion" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E1" fromText="squamous cell carcinoma" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E31" fromText="Unasyn" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E103" fromText="Nothing by mouth" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E32" fromText="morphine" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E33" fromText="pain" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E34" fromText="Ativan" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E35" fromText="delirium tremens prophylaxis" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E36" fromText="metoprolol" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E37" fromText="a regular insulin sliding scale" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E104" fromText="gastrointestinal prophylaxis" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E38" fromText="Protonix" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E39" fromText="Postoperative laboratories" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E105" fromText="revealed" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E40" fromText="sodium" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E41" fromText="potassium" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E42" fromText="chloride" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E43" fromText="bicarbonate" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E44" fromText="blood urea nitrogen" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E45" fromText="creatinine" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E98" fromText="stage T2 N0" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E46" fromText="glucose" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E47" fromText="Calcium" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E48" fromText="Magnesium" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E49" fromText="Complete blood count" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E106" fromText="revealed" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E50" fromText="white count" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E51" fromText="hematocrit" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E52" fromText="platelets" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E53" fromText="ALT" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E54" fromText="AST" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E55" fromText="alkaline phosphatase" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E56" fromText="total bilirubin" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E0" fromText="biopsied" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E57" fromText="albumin" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E58" fromText="A chest x-ray" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E107" fromText="showed" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E108" fromText="clear lung fields" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E59" fromText="Tracheostomy tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E109" fromText="good position" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E60" fromText="pneumothorax" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E61" fromText="flap checks" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E62" fromText="tracheostomy care" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E63" fromText="Westwood-Pocasset management." toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E2" fromText="Pathology" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E64" fromText="Lopressor" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E65" fromText="Nebulizers" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E110" fromText="weaning" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E66" fromText="ventilation" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E67" fromText="Medications" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E68" fromText="gastrostomy tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E69" fromText="Foley catheter" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E70" fromText="strict monitoring of ins and outs" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E93" fromText="revealing" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E71" fromText="Hematocrit" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E72" fromText="Unasyn" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E73" fromText="antibiotic coverage" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E3" fromText="invasive squamous cell carcinoma" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E74" fromText="Flap checks" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E111" fromText="the Surgical Intensive Care Unit" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E112" fromText="showing" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E113" fromText="biphasic Doppler signals" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E75" fromText="Pink flap" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E114" fromText="good refill" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E115" fromText="neurovascularly intact" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E76" fromText="ventilation" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E77" fromText="pressure support ventilation" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E117" fromText="spontaneous breathing" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E78" fromText="His Westwood-Pocasset output" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E94" fromText="presented" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E79" fromText="Tube feedings" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E80" fromText="the procedure" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E128" fromText="The cuff" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E81" fromText="his tracheostomy tube" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E118" fromText="tolerated well" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E82" fromText="minimal secretions" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E119" fromText="a strong adequate cough" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E95" fromText="resection" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E92" fromText="transferred" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E120" fromText="the Surgical Intensive Care Unit" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E121" fromText="the Medical Intensive Care Unit" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E83" fromText="His tube feedings" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E122" fromText="advanced" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E96" fromText="admitted" toID="T1" toText="2016-11-21" type="OVERLAP" />
+<TLINK id="SECTIME103" fromID="E123" fromText="out of bed" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E84" fromText="pulmonary toilet" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E124" fromText="flap checks" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E85" fromText="The Westwood-Pocasset in his right arm" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E86" fromText="His tracheostomy" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E125" fromText="a 6 cuffless Shiley" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E87" fromText="sutures" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E88" fromText="a 3-0 silk" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E127" fromText="tolerated" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E89" fromText="this procedure" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E126" fromText="well" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E4" fromText="his surgery" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E5" fromText="a joint procedure" toID="T1" toText="2016-11-21" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E6" fromText="Frozen section" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E97" fromText="revealing" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E7" fromText="invasive squamous cell carcinoma" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E8" fromText="complications" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E9" fromText="reconstruction" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E10" fromText="radial forearm free flap" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E11" fromText="Total intravenous fluids" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E12" fromText="Estimated blood loss" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E13" fromText="Urine output" toID="T2" toText="2016-11-30" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E14" fromText="complications" toID="T2" toText="2016-11-30" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
