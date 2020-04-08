@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/05/1994
+Discharge Date :
+01/25/1994
+HISTORY OF PRESENT ILLNESS :
+The patient is a 49 year old woman with a metastatic adenocarcinoma of the breast who is status post high dose chemotherapy with PBSE and CCSS support ending June 1994 .
+She was admitted on 1-5-94 for fever , chest wall ulceration , cellulitis and pain control .
+The patient first presented in October 1991 with a tender right axillary mass .
+A mammogram done in November 1990 was negative .
+However , mammography repeated in October 1991 showed bilateral breast masses , suspicious for carcinoma .
+Fine needle aspiration on October 23 , 1991 demonstrated atypical cells which occurred singly and in clusters .
+Staging evaluation included normal liver function tests , normal blood counts and normal chest x-ray .
+Bone scan showed degenerative joint disease in the shoulders and lumbar spine as well as increased radio chaser uptake in the breast bilaterally .
+Dr. Berca Gachfrum performed a right modified mastectomy and left simple mastectomy on November 4 , 1991 .
+The right modified radical mastectomy contained a 5.5 cm poorly differentiated , Grade III out of III infiltrating ductal carcinoma .
+The margins were free of tumor , but 10 out of 21 lymph nodes were positive for metastatic carcinoma .
+Furthermore there was a mass on the right pectoralis muscle which is supposed to be metastatic cancer .
+The left simple mastectomy also contained 5.5 cm poorly differentiated infiltrating ductal and intraductal carcinoma with extensive lymphatic vessel invasion .
+Estrogen receptor was 0% by ERICA .
+The patient developed a large hematoma requiring surgical drainage .
+Therefore she had a Stage III-A adenocarcinoma of the breast .
+Since she was at high risk for both local and metastatic recurrence of her tumor , she received both systemic chemotherapy and radiation therapy .
+The patient was treated with CMSAP , which is Cytoxan , Methotrexate , Leukovoranrescue , 5-FU , Adriamycin and Prednisone for four cycles .
+There were no dose reductions for mucositis or myelosuppression .
+However , following cycle 4 , she developed a flu-like illness , followed by fever , nonproductive cough and dyspnea on exertion .
+ABGs showed a pO2 of 79 , pH 7.44 , pO2 33 .
+Chest x-ray showed diffuse interstitial infiltrates .
+The differential diagnosis included viral pneumonitis , Mycoplasma , Chlamydia .
+Basically in December 1993 , she returned to the Hem / Onc Clinic with chest wall nodules which turned out to be tumor recurrences and biopsied .
+Although she had mediastinal recurrence , bone scan , head and liver CT were negative for metastatic disease .
+She was thus started on a Protocol of high dose chemotherapy with GCSF and peripheral stem cell support .
+Complications has mainly included myelosuppression and mucositis .
+She also developed Klebsiella UTI after the second cycle of high dose chemotherapy .
+It was treated with gent and Cipro .
+Re-staging done in April 1993 showed a decrease in the pretracheal nodes with question of some lymphangitic spread versus some pneumonitis .
+In May 1994 she received her first course of thiotepa and Velban and Methotrexate , which required some red cell transfusions .
+In mid May she was admitted for fever and neutropenia and at that time had a UTI with blood clots in the urine .
+The patient presents today with complaints of fever and a temperature of 100 .
+She has also been having diarrhea since November and her other complaints of admission include confusion , nausea and vomiting .
+We will include a very thorough HPI with this dictation that was done by Dr. Wedleung .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1008" end="1030" text="left simple mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1054" end="1091" text="The right modified radical mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1102" end="1185" text="a 5.5 cm poorly differentiated , Grade III out of III infiltrating ductal carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1213" end="1218" text="tumor" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E1" start="126" end="167" text="a metastatic adenocarcinoma of the breast" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1268" end="1288" text="metastatic carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="1313" end="1319" text="a mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="1375" end="1392" text="metastatic cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1395" end="1421" text="The left simple mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1437" end="1511" text="5.5 cm poorly differentiated infiltrating ductal and intraductal carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1517" end="1552" text="extensive lymphatic vessel invasion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1555" end="1572" text="Estrogen receptor" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1613" end="1629" text="a large hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1640" end="1657" text="surgical drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1678" end="1720" text="a Stage III-A adenocarcinoma of the breast" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="1759" end="1790" text="local and metastatic recurrence" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1794" end="1803" text="her tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1824" end="1845" text="systemic chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1850" end="1867" text="radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="187" end="209" text="high dose chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1899" end="1904" text="CMSAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1916" end="1923" text="Cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1926" end="1938" text="Methotrexate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1941" end="1957" text="Leukovoranrescue" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1960" end="1964" text="5-FU" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1967" end="1977" text="Adriamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1982" end="1992" text="Prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="2025" end="2040" text="dose reductions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E43" start="2045" end="2054" text="mucositis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2058" end="2074" text="myelosuppression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2097" end="2104" text="cycle 4" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2121" end="2139" text="a flu-like illness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="215" end="219" text="PBSE" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2154" end="2159" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="2162" end="2181" text="nonproductive cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2186" end="2193" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2208" end="2212" text="ABGs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E109" start="2213" end="2219" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="2220" end="2225" text="a pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="224" end="236" text="CCSS support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="2234" end="2236" text="pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="2244" end="2247" text="pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2253" end="2264" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="2265" end="2271" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="2272" end="2304" text="diffuse interstitial infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="2307" end="2333" text="The differential diagnosis" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="2343" end="2360" text="viral pneumonitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2363" end="2373" text="Mycoplasma" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="2376" end="2385" text="Chlamydia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2433" end="2453" text="the Hem / Onc Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="2459" end="2477" text="chest wall nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2501" end="2518" text="tumor recurrences" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="2523" end="2531" text="biopsied" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="2551" end="2573" text="mediastinal recurrence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2576" end="2585" text="bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="2588" end="2605" text="head and liver CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="2611" end="2619" text="negative" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="2624" end="2642" text="metastatic disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="264" end="272" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="2683" end="2705" text="high dose chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2711" end="2715" text="GCSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2720" end="2748" text="peripheral stem cell support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2751" end="2764" text="Complications" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2785" end="2801" text="myelosuppression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2806" end="2815" text="mucositis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2837" end="2851" text="Klebsiella UTI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="287" end="292" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="2858" end="2874" text="the second cycle" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2878" end="2900" text="high dose chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2923" end="2927" text="gent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2932" end="2937" text="Cipro" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2940" end="2950" text="Re-staging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="295" end="316" text="chest wall ulceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="2970" end="2976" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E119" start="2977" end="3012" text="a decrease in the pretracheal nodes" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="3030" end="3054" text="some lymphangitic spread" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="3062" end="3078" text="some pneumonitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="3106" end="3122" text="her first course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="3126" end="3134" text="thiotepa" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="3139" end="3145" text="Velban" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="3150" end="3162" text="Methotrexate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="3180" end="3206" text="some red cell transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="319" end="329" text="cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="3228" end="3236" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="3241" end="3246" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="3251" end="3262" text="neutropenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="3284" end="3289" text="a UTI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="3295" end="3319" text="blood clots in the urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="334" end="346" text="pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="3334" end="3342" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="3354" end="3364" text="complaints" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E81" start="3368" end="3373" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="3378" end="3391" text="a temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="3426" end="3434" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E124" start="3464" end="3474" text="complaints" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E93" start="3478" end="3487" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="3496" end="3505" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="3508" end="3514" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="3519" end="3527" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="367" end="376" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="398" end="426" text="a tender right axillary mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="429" end="440" text="A mammogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="467" end="475" text="negative" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="488" end="499" text="mammography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="525" end="531" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="532" end="555" text="bilateral breast masses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="573" end="582" text="carcinoma" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="585" end="607" text="Fine needle aspiration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="629" end="641" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="642" end="656" text="atypical cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="697" end="715" text="Staging evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E89" start="725" end="752" text="normal liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="755" end="774" text="normal blood counts" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E99" start="779" end="797" text="normal chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="800" end="809" text="Bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="810" end="816" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E101" start="817" end="843" text="degenerative joint disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="889" end="918" text="increased radio chaser uptake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="976" end="1003" text="a right modified mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T7" start="1034" end="1051" text="November 4 , 1991" type="DATE" val="1991-11-04" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="01/05/1994" type="DATE" val="1994-01-05" mod="NA" />
+<TIMEX3 id="T11" start="1997" end="2008" text="four cycles" type="FREQUENCY" val="R4" mod="NA" />
+<TIMEX3 id="T8" start="2401" end="2414" text="December 1993" type="DATE" val="1993-12" mod="NA" />
+<TIMEX3 id="T3" start="244" end="253" text="June 1994" type="DATE" val="1994-06" mod="NA" />
+<TIMEX3 id="T9" start="276" end="282" text="1-5-94" type="DATE" val="1994-01-05" mod="NA" />
+<TIMEX3 id="T12" start="2959" end="2969" text="April 1993" type="DATE" val="1993-04" mod="NA" />
+<TIMEX3 id="T0" start="3084" end="3092" text="May 1994" type="DATE" val="1993-05" mod="NA" />
+<TIMEX3 id="T13" start="3212" end="3219" text="mid May" type="DATE" val="1994-05" mod="MORE" />
+<TIMEX3 id="T16" start="3270" end="3279" text="that time" type="DATE" val="1003-05-15" mod="APPROX" />
+<TIMEX3 id="T14" start="3343" end="3348" text="today" type="DATE" val="1994-01-05" mod="NA" />
+<TIMEX3 id="T15" start="3441" end="3449" text="November" type="DATE" val="1993-11" mod="NA" />
+<TIMEX3 id="T4" start="380" end="392" text="October 1991" type="DATE" val="1991-10" mod="NA" />
+<TIMEX3 id="T5" start="449" end="462" text="November 1990" type="DATE" val="1990-11" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="01/25/1994" type="DATE" val="1994-01-25" mod="NA" />
+<TIMEX3 id="T6" start="512" end="524" text="October 1991" type="DATE" val="1991-10" mod="NA" />
+<TIMEX3 id="T10" start="611" end="628" text="October 23 , 1991" type="DATE" val="1991-10-23" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="01/05/1994" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E11" fromText="bilateral breast masses" toID="E12" toText="carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E3" fromText="PBSE" toID="E62" toText="peripheral stem cell support" type="SIMULTANEOUS" />
+<TLINK id="TL100" fromID="E50" fromText="a pO2" toID="E109" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL101" fromID="E51" fromText="pH" toID="E50" toText="a pO2" type="OVERLAP" />
+<TLINK id="TL102" fromID="E110" fromText="pO2" toID="E51" toText="pH" type="OVERLAP" />
+<TLINK id="TL103" fromID="E52" fromText="Chest x-ray" toID="E49" toText="ABGs" type="OVERLAP" />
+<TLINK id="TL104" fromID="E111" fromText="showed" toID="E52" toText="Chest x-ray" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E53" fromText="diffuse interstitial infiltrates" toID="E111" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL106" fromID="E91" fromText="The differential diagnosis" toID="E52" toText="Chest x-ray" type="AFTER" />
+<TLINK id="TL107" fromID="E112" fromText="viral pneumonitis" toID="E91" toText="The differential diagnosis" type="SIMULTANEOUS" />
+<TLINK id="TL108" fromID="E113" fromText="Mycoplasma" toID="E112" toText="viral pneumonitis" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E114" fromText="Chlamydia" toID="E113" toText="Mycoplasma" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E19" fromText="a right modified mastectomy" toID="E21" toText="The right modified radical mastectomy" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="T8" fromText="December 1993" toID="E91" toText="The differential diagnosis" type="AFTER" />
+<TLINK id="TL111" fromID="T8" fromText="December 1993" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL112" fromID="E92" fromText="the Hem / Onc Clinic" toID="T8" toText="December 1993" type="BEGUN_BY" />
+<TLINK id="TL113" fromID="E54" fromText="chest wall nodules" toID="E92" toText="the Hem / Onc Clinic" type="BEFORE_OVERLAP" />
+<TLINK id="TL114" fromID="E55" fromText="tumor recurrences" toID="E54" toText="chest wall nodules" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E115" fromText="biopsied" toID="E92" toText="the Hem / Onc Clinic" type="DURING" />
+<TLINK id="TL116" fromID="E56" fromText="mediastinal recurrence" toID="E55" toText="tumor recurrences" type="SIMULTANEOUS" />
+<TLINK id="TL117" fromID="E56" fromText="mediastinal recurrence" toID="E57" toText="bone scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL118" fromID="E58" fromText="head and liver CT" toID="E57" toText="bone scan" type="OVERLAP" />
+<TLINK id="TL119" fromID="E116" fromText="negative" toID="E58" toText="head and liver CT" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E5" fromText="fever" toID="E81" toText="fever" type="SIMULTANEOUS" />
+<TLINK id="TL120" fromID="E116" fromText="negative" toID="E57" toText="bone scan" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E59" fromText="metastatic disease" toID="E116" toText="negative" type="BEFORE_OVERLAP" />
+<TLINK id="TL122" fromID="E60" fromText="high dose chemotherapy" toID="E58" toText="head and liver CT" type="AFTER" />
+<TLINK id="TL123" fromID="E61" fromText="GCSF" toID="E60" toText="high dose chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL124" fromID="E62" fromText="peripheral stem cell support" toID="E61" toText="GCSF" type="SIMULTANEOUS" />
+<TLINK id="TL125" fromID="E60" fromText="high dose chemotherapy" toID="E63" toText="Complications" type="BEFORE_OVERLAP" />
+<TLINK id="TL126" fromID="E64" fromText="myelosuppression" toID="E63" toText="Complications" type="SIMULTANEOUS" />
+<TLINK id="TL127" fromID="E65" fromText="mucositis" toID="E64" toText="myelosuppression" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E117" fromText="the second cycle" toID="E67" toText="high dose chemotherapy" type="DURING" />
+<TLINK id="TL13" fromID="E87" fromText="Discharge" toID="T2" toText="01/25/1994" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E67" fromText="high dose chemotherapy" toID="E60" toText="high dose chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E66" fromText="Klebsiella UTI" toID="E117" toText="the second cycle" type="AFTER" />
+<TLINK id="TL132" fromID="E66" fromText="Klebsiella UTI" toID="E68" toText="gent" type="ENDED_BY" />
+<TLINK id="TL133" fromID="E69" fromText="Cipro" toID="E68" toText="gent" type="OVERLAP" />
+<TLINK id="TL134" fromID="T12" fromText="April 1993" toID="T8" toText="December 1993" type="BEFORE" />
+<TLINK id="TL135" fromID="T12" fromText="April 1993" toID="T4" toText="October 1991" type="AFTER" />
+<TLINK id="TL136" fromID="E70" fromText="Re-staging" toID="T12" toText="April 1993" type="SIMULTANEOUS" />
+<TLINK id="TL137" fromID="E118" fromText="showed" toID="E70" toText="Re-staging" type="SIMULTANEOUS" />
+<TLINK id="TL138" fromID="E119" fromText="a decrease in the pretracheal nodes" toID="E118" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL139" fromID="E71" fromText="some lymphangitic spread" toID="E119" toText="a decrease in the pretracheal nodes" type="OVERLAP" />
+<TLINK id="TL14" fromID="E3" fromText="PBSE" toID="E4" toText="CCSS support" type="OVERLAP" />
+<TLINK id="TL140" fromID="E72" fromText="some pneumonitis" toID="E71" toText="some lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL141" fromID="T0" fromText="May 1994" toID="T12" toText="April 1993" type="AFTER" />
+<TLINK id="TL142" fromID="T0" fromText="May 1994" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL143" fromID="E120" fromText="her first course" toID="T0" toText="May 1994" type="SIMULTANEOUS" />
+<TLINK id="TL144" fromID="E73" fromText="thiotepa" toID="E120" toText="her first course" type="SIMULTANEOUS" />
+<TLINK id="TL145" fromID="E74" fromText="Velban" toID="E73" toText="thiotepa" type="SIMULTANEOUS" />
+<TLINK id="TL146" fromID="E75" fromText="Methotrexate" toID="E74" toText="Velban" type="SIMULTANEOUS" />
+<TLINK id="TL147" fromID="E76" fromText="some red cell transfusions" toID="E120" toText="her first course" type="OVERLAP" />
+<TLINK id="TL148" fromID="T13" fromText="mid May" toID="T0" toText="May 1994" type="DURING" />
+<TLINK id="TL149" fromID="E121" fromText="admitted" toID="T13" toText="mid May" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E4" fromText="CCSS support" toID="T3" toText="June 1994" type="ENDED_BY" />
+<TLINK id="TL150" fromID="E77" fromText="fever" toID="E121" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL151" fromID="E78" fromText="neutropenia" toID="E77" toText="fever" type="OVERLAP" />
+<TLINK id="TL152" fromID="T16" fromText="that time" toID="T13" toText="mid May" type="SIMULTANEOUS" />
+<TLINK id="TL153" fromID="E79" fromText="a UTI" toID="T16" toText="that time" type="OVERLAP" />
+<TLINK id="TL154" fromID="E80" fromText="blood clots in the urine" toID="E79" toText="a UTI" type="OVERLAP" />
+<TLINK id="TL155" fromID="E122" fromText="presents" toID="T13" toText="mid May" type="AFTER" />
+<TLINK id="TL156" fromID="T14" fromText="today" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL157" fromID="E122" fromText="presents" toID="T14" toText="today" type="SIMULTANEOUS" />
+<TLINK id="TL158" fromID="E123" fromText="complaints" toID="E122" toText="presents" type="SIMULTANEOUS" />
+<TLINK id="TL159" fromID="E81" fromText="fever" toID="E123" toText="complaints" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E1" fromText="a metastatic adenocarcinoma of the breast" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL160" fromID="E82" fromText="a temperature" toID="E81" toText="fever" type="OVERLAP" />
+<TLINK id="TL161" fromID="T15" fromText="November" toID="T0" toText="May 1994" type="BEFORE" />
+<TLINK id="TL162" fromID="T15" fromText="November" toID="T4" toText="October 1991" type="AFTER" />
+<TLINK id="TL163" fromID="E83" fromText="diarrhea" toID="T15" toText="November" type="BEGUN_BY" />
+<TLINK id="TL164" fromID="E83" fromText="diarrhea" toID="E82" toText="a temperature" type="OVERLAP" />
+<TLINK id="TL165" fromID="E124" fromText="complaints" toID="E123" toText="complaints" type="SIMULTANEOUS" />
+<TLINK id="TL166" fromID="E93" fromText="admission" toID="E122" toText="presents" type="SIMULTANEOUS" />
+<TLINK id="TL167" fromID="E85" fromText="nausea" toID="E124" toText="complaints" type="SIMULTANEOUS" />
+<TLINK id="TL168" fromID="E86" fromText="vomiting" toID="E85" toText="nausea" type="OVERLAP" />
+<TLINK id="TL17" fromID="E30" fromText="a large hematoma" toID="E31" toText="surgical drainage" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E50" fromText="a pO2" toID="E49" toText="ABGs" type="OVERLAP" />
+<TLINK id="TL19" fromID="E50" fromText="a pO2" toID="E51" toText="pH" type="OVERLAP" />
+<TLINK id="TL2" fromID="E34" fromText="systemic chemotherapy" toID="E60" toText="high dose chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E57" fromText="bone scan" toID="E58" toText="head and liver CT" type="OVERLAP" />
+<TLINK id="TL21" fromID="E58" fromText="head and liver CT" toID="E59" toText="metastatic disease" type="OVERLAP" />
+<TLINK id="TL22" fromID="E64" fromText="myelosuppression" toID="E65" toText="mucositis" type="OVERLAP" />
+<TLINK id="TL23" fromID="E84" fromText="confusion" toID="E93" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E2" fromText="high dose chemotherapy" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL25" fromID="E3" fromText="PBSE" toID="E2" toText="high dose chemotherapy" type="BEGUN_BY" />
+<TLINK id="TL26" fromID="E4" fromText="CCSS support" toID="E3" toText="PBSE" type="OVERLAP" />
+<TLINK id="TL28" fromID="T3" fromText="June 1994" toID="E87" toText="Discharge" type="AFTER" />
+<TLINK id="TL29" fromID="E88" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E1" fromText="a metastatic adenocarcinoma of the breast" toID="E9" toText="a tender right axillary mass" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E88" fromText="admitted" toID="T9" toText="1-5-94" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E5" fromText="fever" toID="E88" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E6" fromText="chest wall ulceration" toID="E5" toText="fever" type="OVERLAP" />
+<TLINK id="TL33" fromID="E7" fromText="cellulitis" toID="E6" toText="chest wall ulceration" type="OVERLAP" />
+<TLINK id="TL34" fromID="E8" fromText="pain control" toID="E7" toText="cellulitis" type="OVERLAP" />
+<TLINK id="TL35" fromID="E94" fromText="presented" toID="E88" toText="admitted" type="BEFORE" />
+<TLINK id="TL36" fromID="E94" fromText="presented" toID="T4" toText="October 1991" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E9" fromText="a tender right axillary mass" toID="E94" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="T5" fromText="November 1990" toID="T4" toText="October 1991" type="BEFORE" />
+<TLINK id="TL39" fromID="E95" fromText="A mammogram" toID="T5" toText="November 1990" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E32" fromText="a Stage III-A adenocarcinoma of the breast" toID="E33" toText="her tumor" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E95" fromText="A mammogram" toID="E96" toText="negative" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="T6" fromText="October 1991" toID="T4" toText="October 1991" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E10" fromText="mammography" toID="T6" toText="October 1991" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E97" fromText="showed" toID="E10" toText="mammography" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E11" fromText="bilateral breast masses" toID="E97" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E12" fromText="carcinoma" toID="E11" toText="bilateral breast masses" type="OVERLAP" />
+<TLINK id="TL46" fromID="T10" fromText="October 23 , 1991" toID="T6" toText="October 1991" type="DURING" />
+<TLINK id="TL47" fromID="E13" fromText="Fine needle aspiration" toID="T10" toText="October 23 , 1991" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E13" fromText="Fine needle aspiration" toID="E10" toText="mammography" type="AFTER" />
+<TLINK id="TL49" fromID="E98" fromText="demonstrated" toID="E13" toText="Fine needle aspiration" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E2" fromText="high dose chemotherapy" toID="E34" toText="systemic chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E14" fromText="atypical cells" toID="E98" toText="demonstrated" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="E15" fromText="Staging evaluation" toID="E13" toText="Fine needle aspiration" type="OVERLAP" />
+<TLINK id="TL52" fromID="E89" fromText="normal liver function tests" toID="E15" toText="Staging evaluation" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E90" fromText="normal blood counts" toID="E89" toText="normal liver function tests" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E99" fromText="normal chest x-ray" toID="E90" toText="normal blood counts" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E16" fromText="Bone scan" toID="E15" toText="Staging evaluation" type="OVERLAP" />
+<TLINK id="TL56" fromID="E100" fromText="showed" toID="E16" toText="Bone scan" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E101" fromText="degenerative joint disease" toID="E100" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E103" fromText="increased radio chaser uptake" toID="E101" toText="degenerative joint disease" type="OVERLAP" />
+<TLINK id="TL59" fromID="E19" fromText="a right modified mastectomy" toID="E16" toText="Bone scan" type="AFTER" />
+<TLINK id="TL6" fromID="E55" fromText="tumor recurrences" toID="E56" toText="mediastinal recurrence" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E20" fromText="left simple mastectomy" toID="E19" toText="a right modified mastectomy" type="OVERLAP" />
+<TLINK id="TL61" fromID="E20" fromText="left simple mastectomy" toID="T7" toText="November 4 , 1991" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="T7" fromText="November 4 , 1991" toID="T10" toText="October 23 , 1991" type="AFTER" />
+<TLINK id="TL63" fromID="T7" fromText="November 4 , 1991" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL64" fromID="E21" fromText="The right modified radical mastectomy" toID="E19" toText="a right modified mastectomy" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E22" fromText="a 5.5 cm poorly differentiated , Grade III out of III infiltrating ductal carcinoma" toID="E21" toText="The right modified radical mastectomy" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E23" fromText="tumor" toID="E22" toText="a 5.5 cm poorly differentiated , Grade III out of III infiltrating ductal carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E24" fromText="metastatic carcinoma" toID="E23" toText="tumor" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E104" fromText="a mass" toID="E24" toText="metastatic carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E105" fromText="metastatic cancer" toID="E104" toText="a mass" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E9" fromText="a tender right axillary mass" toID="E22" toText="a 5.5 cm poorly differentiated , Grade III out of III infiltrating ductal carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E26" fromText="The left simple mastectomy" toID="E20" toText="left simple mastectomy" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E27" fromText="5.5 cm poorly differentiated infiltrating ductal and intraductal carcinoma" toID="E26" toText="The left simple mastectomy" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E28" fromText="extensive lymphatic vessel invasion" toID="E27" toText="5.5 cm poorly differentiated infiltrating ductal and intraductal carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E29" fromText="Estrogen receptor" toID="E28" toText="extensive lymphatic vessel invasion" type="OVERLAP" />
+<TLINK id="TL74" fromID="E30" fromText="a large hematoma" toID="E29" toText="Estrogen receptor" type="OVERLAP" />
+<TLINK id="TL76" fromID="E32" fromText="a Stage III-A adenocarcinoma of the breast" toID="E12" toText="carcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E33" fromText="her tumor" toID="E32" toText="a Stage III-A adenocarcinoma of the breast" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E33" fromText="her tumor" toID="E106" toText="local and metastatic recurrence" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E106" fromText="local and metastatic recurrence" toID="E19" toText="a right modified mastectomy" type="AFTER" />
+<TLINK id="TL8" fromID="E20" fromText="left simple mastectomy" toID="E26" toText="The left simple mastectomy" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E34" fromText="systemic chemotherapy" toID="E106" toText="local and metastatic recurrence" type="OVERLAP" />
+<TLINK id="TL81" fromID="E35" fromText="radiation therapy" toID="E34" toText="systemic chemotherapy" type="OVERLAP" />
+<TLINK id="TL82" fromID="E36" fromText="CMSAP" toID="E34" toText="systemic chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E37" fromText="Cytoxan" toID="E36" toText="CMSAP" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E38" fromText="Methotrexate" toID="E37" toText="Cytoxan" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E39" fromText="Leukovoranrescue" toID="E38" toText="Methotrexate" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E40" fromText="5-FU" toID="E39" toText="Leukovoranrescue" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E41" fromText="Adriamycin" toID="E40" toText="5-FU" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E42" fromText="Prednisone" toID="E41" toText="Adriamycin" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="E36" fromText="CMSAP" toID="T11" toText="four cycles" type="OVERLAP" />
+<TLINK id="TL9" fromID="E60" fromText="high dose chemotherapy" toID="E67" toText="high dose chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E36" fromText="CMSAP" toID="E107" toText="dose reductions" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E43" fromText="mucositis" toID="E107" toText="dose reductions" type="BEFORE_OVERLAP" />
+<TLINK id="TL92" fromID="E44" fromText="myelosuppression" toID="E43" toText="mucositis" type="OVERLAP" />
+<TLINK id="TL93" fromID="T11" fromText="four cycles" toID="E108" toText="cycle 4" type="ENDED_BY" />
+<TLINK id="TL94" fromID="E45" fromText="a flu-like illness" toID="E108" toText="cycle 4" type="AFTER" />
+<TLINK id="TL95" fromID="E46" fromText="fever" toID="E45" toText="a flu-like illness" type="AFTER" />
+<TLINK id="TL96" fromID="E47" fromText="nonproductive cough" toID="E46" toText="fever" type="OVERLAP" />
+<TLINK id="TL97" fromID="E48" fromText="dyspnea" toID="E47" toText="nonproductive cough" type="OVERLAP" />
+<TLINK id="TL98" fromID="E49" fromText="ABGs" toID="E45" toText="a flu-like illness" type="OVERLAP" />
+<TLINK id="TL99" fromID="E109" fromText="showed" toID="E49" toText="ABGs" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="01/05/1994" type="ADMISSION" dvalue="1994-01-05" />
+<SECTIME id="S1" start="46" end="56" text="01/25/1994" type="DISCHARGE" dvalue="1994-01-25" />
+<TLINK id="SECTIME0" fromID="E20" fromText="left simple mastectomy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E21" fromText="The right modified radical mastectomy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E22" fromText="a 5.5 cm poorly differentiated , Grade III out of III infiltrating ductal carcinoma" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E23" fromText="tumor" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E1" fromText="a metastatic adenocarcinoma of the breast" toID="T1" toText="01/05/1994" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E24" fromText="metastatic carcinoma" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E104" fromText="a mass" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E105" fromText="metastatic cancer" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E26" fromText="The left simple mastectomy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E27" fromText="5.5 cm poorly differentiated infiltrating ductal and intraductal carcinoma" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E28" fromText="extensive lymphatic vessel invasion" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E29" fromText="Estrogen receptor" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E30" fromText="a large hematoma" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E31" fromText="surgical drainage" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E32" fromText="a Stage III-A adenocarcinoma of the breast" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E106" fromText="local and metastatic recurrence" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E33" fromText="her tumor" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E34" fromText="systemic chemotherapy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E35" fromText="radiation therapy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E2" fromText="high dose chemotherapy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E36" fromText="CMSAP" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E37" fromText="Cytoxan" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E38" fromText="Methotrexate" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E39" fromText="Leukovoranrescue" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E40" fromText="5-FU" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E41" fromText="Adriamycin" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E42" fromText="Prednisone" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E107" fromText="dose reductions" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E43" fromText="mucositis" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E44" fromText="myelosuppression" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E108" fromText="cycle 4" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E45" fromText="a flu-like illness" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E3" fromText="PBSE" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E46" fromText="fever" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E47" fromText="nonproductive cough" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E48" fromText="dyspnea" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E49" fromText="ABGs" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E109" fromText="showed" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E50" fromText="a pO2" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E4" fromText="CCSS support" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME40" fromID="E51" fromText="pH" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E110" fromText="pO2" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E52" fromText="Chest x-ray" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E111" fromText="showed" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E53" fromText="diffuse interstitial infiltrates" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E91" fromText="The differential diagnosis" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E112" fromText="viral pneumonitis" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E113" fromText="Mycoplasma" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E114" fromText="Chlamydia" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E92" fromText="the Hem / Onc Clinic" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E54" fromText="chest wall nodules" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME51" fromID="E55" fromText="tumor recurrences" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME52" fromID="E115" fromText="biopsied" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E56" fromText="mediastinal recurrence" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E57" fromText="bone scan" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E58" fromText="head and liver CT" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E116" fromText="negative" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E59" fromText="metastatic disease" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E88" fromText="admitted" toID="T1" toText="01/05/1994" type="OVERLAP" />
+<TLINK id="SECTIME59" fromID="E60" fromText="high dose chemotherapy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E61" fromText="GCSF" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E62" fromText="peripheral stem cell support" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E63" fromText="Complications" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME63" fromID="E64" fromText="myelosuppression" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME64" fromID="E65" fromText="mucositis" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME65" fromID="E66" fromText="Klebsiella UTI" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E5" fromText="fever" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME67" fromID="E117" fromText="the second cycle" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E67" fromText="high dose chemotherapy" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E68" fromText="gent" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E69" fromText="Cipro" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E70" fromText="Re-staging" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E6" fromText="chest wall ulceration" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME73" fromID="E118" fromText="showed" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E119" fromText="a decrease in the pretracheal nodes" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E71" fromText="some lymphangitic spread" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E72" fromText="some pneumonitis" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E120" fromText="her first course" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E73" fromText="thiotepa" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E74" fromText="Velban" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E75" fromText="Methotrexate" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E76" fromText="some red cell transfusions" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E7" fromText="cellulitis" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME83" fromID="E121" fromText="admitted" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E77" fromText="fever" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E78" fromText="neutropenia" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E79" fromText="a UTI" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E80" fromText="blood clots in the urine" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E8" fromText="pain control" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME89" fromID="E122" fromText="presents" toID="T1" toText="01/05/1994" type="OVERLAP" />
+<TLINK id="SECTIME90" fromID="E123" fromText="complaints" toID="T1" toText="01/05/1994" type="OVERLAP" />
+<TLINK id="SECTIME91" fromID="E81" fromText="fever" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME92" fromID="E82" fromText="a temperature" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME93" fromID="E83" fromText="diarrhea" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME94" fromID="E124" fromText="complaints" toID="T1" toText="01/05/1994" type="OVERLAP" />
+<TLINK id="SECTIME95" fromID="E93" fromText="admission" toID="T1" toText="01/05/1994" type="OVERLAP" />
+<TLINK id="SECTIME96" fromID="E84" fromText="confusion" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME97" fromID="E85" fromText="nausea" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME98" fromID="E86" fromText="vomiting" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME99" fromID="E94" fromText="presented" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E9" fromText="a tender right axillary mass" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E95" fromText="A mammogram" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E96" fromText="negative" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E10" fromText="mammography" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E97" fromText="showed" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E11" fromText="bilateral breast masses" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E12" fromText="carcinoma" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E13" fromText="Fine needle aspiration" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E98" fromText="demonstrated" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E14" fromText="atypical cells" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E15" fromText="Staging evaluation" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E89" fromText="normal liver function tests" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E90" fromText="normal blood counts" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E99" fromText="normal chest x-ray" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E16" fromText="Bone scan" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E100" fromText="showed" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E101" fromText="degenerative joint disease" toID="T1" toText="01/05/1994" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME117" fromID="E103" fromText="increased radio chaser uptake" toID="T1" toText="01/05/1994" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E19" fromText="a right modified mastectomy" toID="T1" toText="01/05/1994" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

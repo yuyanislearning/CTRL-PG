@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+4/17/95
+DISCHARGE DATE :
+07/16/95
+HISTORY AND REASON FOR ADMISSION :
+Mr. Mass was a 56 year old white male who was transferred from Vassdiysey Medical Center for rule out pancreatic pseudocyst .
+Mr. Mass had a past medical history which included Wegener &apos;s granulomatosis , history of an anterior myocardial infarction , and gallstone pancreatitis .
+He was admitted to Vassdiysey Medical Center with severe recurrent pancreatitis , nausea , vomiting , and abdominal pain .
+His amylase on admission there was 1,961 .
+The patient had two recent admissions for pancreatitis in January 1994 , and August 1994 .
+On his current admission , the patient was admitted to Free Medical Center .
+His amylase decreased to 51 , and the increased back to 151 on hospital day #10 .
+At that time , he spiked a temperature to 103 .
+He also became increasingly confused .
+A computerized tomography scan done on 4/16/95 showed a large &quot; pseudocyst &quot; .
+He was transferred to Ph University Of Medical Center for further surgical evaluation .&apos;
+HOSPITAL COURSE :
+The patient was admitted , placed on intravenous fluids .
+He was continued on his imipenem , intravenously .
+The patient was started on total parenteral nutrition .
+On 4/17/95 , GI Interventional Radiology performed drainage of the peripancreatic fluid collection .
+Approximately one liter of brownish fluid was obtained and sent for culture .
+The drainage catheter was left in a pseudocyst .
+The patient was evaluated by Cardiology .
+A Persantine Thallium study demonstrated a large infarct , involving the posteroseptal , anteroseptal areas .
+Left ventricular aneurysm was also noted ; however , no ischemia was seen .
+An echocardiogram was done .
+The echocardiogram showed terrible left ventricular function , with left ventricular aneurysm .
+The right ventricle appeared to be acceptable .
+The percutaneous drainage catheter continued to have high output .
+The fluid was sent for amylase , which came back 53,230 .
+On 4/28/95 , the patient had new onset of abdominal pain .
+His white count had bumped from 8.3 on admission to 18.5 , on 4/27 .
+A computerized tomography scan of the abdomen was performed .
+Approximately 100 cc.&apos;s of thick brownish material was aspirated through the indwelling catheter .
+The computerized tomography scan showed the catheter tip in good position .
+Because of the patient &apos;s deteriorating state , the patient was brought to the operating room on 4/28/95 .
+An exploratory laparotomy was performed .
+The splenic flexure had a purulent exudative process along the antimesenteric surface .
+Thus , the splenic flexure and a portion of the descending colon were resected .
+The patient underwent a left colectomy with end transverse colostomy , and oversewing of the descending colon .
+Drainage of the pancreatic necrosis was also done .
+The patient tolerated the procedure fairly well , and was transferred to the Intensive Care Unit .
+In the Intensive Care Unit , the patient had a prolonged course .
+The patient was then extubated on postoperative day #2 , but remained pressor-dependent .
+He remained on imipenem , and Vancomycin was also started .
+Thereafter , the patient had a long and complicated postoperative course .
+He was eventually transferred to the floor , where he remained meta-stable .
+He had repeated episodes of hypotension to 80-90 systolic/40-50 diastolic .
+These resolved without incident .
+He also had repeated temperature spikes .
+After repeated work ups , it was felt that these were probably due to remaining infection in the peripancreatic area .
+His drainage tube from the peripancreatic area was gradually advanced , and eventually discontinued .
+Mr. Mass was placed on multiple courses of antibiotics .
+Most recently , he was on a 28 day course of Vancomycin , ofloxacin , and Flagyl , for blood cultures that were positive for gram positive cocci and enteric and non-enteric gram negative rods .
+This 28 day course was completed on 07/15/95 .
+The patient was also treated initially with amphotericin-B and then with fluconazole for a computerized tomography guided aspirate of a small fluid collection around his pancreas , which grew Candida albicans .
+The patient also had several episodes of fungal cystitis with Torulopsis glabrata , going from his urine .
+He was treated with amphotericin-B bladder washes for this .
+Mr. Mass was initially anticoagulated for his left ventricular aneurysm .
+He remained stable from a cardiac fashion .
+He did have problems with po intake .
+He had repeated bouts of small-volume emesis that may have been secondary to reflux .
+He was treated with a variety of anti-emetics , most recently Granisetron , with only mild success .
+He remained total parenteral nutrition-dependent throughout his hospital course .
+By the end of June , it became clear that Mr. Mass would require aggressive surgical intervention in order to eradicate his intra-abdominal bursts of intermittent sepsis ; however , long discussions with the patient and his wife , who was his health-care proxy , revealed that they felt that no further aggressive intervention be attempted .
+The patient had been made a do not resuscitate do not intubate patient earlier in his hospital stay .
+Multiple discussions were held between Dr. Mass , the rest of the surgical team , and the patient &apos;s wife , with this same result .
+After discussion with the patient &apos;s primary doctor , Dr. Douet at Vassdiysey Medical Center , it was felt that the patient and his family would be best served if the patient were transferred to Vassdiysey Medical Center .
+Of note , given the patient &apos;s do not resuscitate status and the risk for bleeding , the patient &apos;s Coumadin was stopped without incident several weeks before transfer .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1023" end="1050" text="further surgical evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1093" end="1101" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1114" end="1132" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1155" end="1183" text="his imipenem , intravenously" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1213" end="1239" text="total parenteral nutrition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1255" end="1282" text="GI Interventional Radiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1293" end="1301" text="drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1305" end="1340" text="the peripancreatic fluid collection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="133" end="144" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1370" end="1384" text="brownish fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1411" end="1418" text="culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1421" end="1442" text="The drainage catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1455" end="1467" text="a pseudocyst" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1486" end="1495" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1499" end="1509" text="Cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="150" end="175" text="Vassdiysey Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1512" end="1539" text="A Persantine Thallium study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1540" end="1552" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E48" start="1553" end="1568" text="a large infarct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1622" end="1647" text="Left ventricular aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1657" end="1662" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="1678" end="1686" text="ischemia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E52" start="1691" end="1695" text="seen" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="1698" end="1715" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1727" end="1745" text="The echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1746" end="1752" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="1753" end="1787" text="terrible left ventricular function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1795" end="1820" text="left ventricular aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1871" end="1905" text="The percutaneous drainage catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="189" end="210" text="pancreatic pseudocyst" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1924" end="1935" text="high output" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1961" end="1968" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="2038" end="2052" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="2055" end="2070" text="His white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2075" end="2081" text="bumped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2094" end="2103" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2124" end="2169" text="A computerized tomography scan of the abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="2218" end="2241" text="thick brownish material" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2246" end="2255" text="aspirated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2264" end="2287" text="the indwelling catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="228" end="248" text="past medical history" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E69" start="2290" end="2322" text="The computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2323" end="2329" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="2330" end="2346" text="the catheter tip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2377" end="2416" text="the patient &apos;s deteriorating state" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E145" start="2446" end="2464" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="2478" end="2503" text="An exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2544" end="2605" text="a purulent exudative process along the antimesenteric surface" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="264" end="294" text="Wegener &apos;s granulomatosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="2678" end="2686" text="resected" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2711" end="2727" text="a left colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2733" end="2757" text="end transverse colostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2764" end="2798" text="oversewing of the descending colon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2801" end="2809" text="Drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2813" end="2836" text="the pancreatic necrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2875" end="2888" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2911" end="2922" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2926" end="2949" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E84" start="2955" end="2978" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E85" start="2997" end="3015" text="a prolonged course" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="3039" end="3048" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="308" end="341" text="an anterior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="3088" end="3105" text="pressor-dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="3123" end="3131" text="imipenem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3138" end="3148" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="3197" end="3240" text="a long and complicated postoperative course" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="3261" end="3272" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="3276" end="3285" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E93" start="3306" end="3317" text="meta-stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="3348" end="3359" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="3396" end="3401" text="These" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E96" start="3419" end="3427" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E97" start="3442" end="3469" text="repeated temperature spikes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="348" end="370" text="gallstone pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="3478" end="3495" text="repeated work ups" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E99" start="3515" end="3520" text="these" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3542" end="3561" text="remaining infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="3591" end="3608" text="His drainage tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="3736" end="3747" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="3795" end="3805" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="380" end="388" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="3808" end="3817" text="ofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3824" end="3830" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E106" start="3837" end="3851" text="blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="3875" end="3894" text="gram positive cocci" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="3899" end="3941" text="enteric and non-enteric gram negative rods" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="392" end="417" text="Vassdiysey Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="4035" end="4049" text="amphotericin-B" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="4064" end="4075" text="fluconazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="4080" end="4121" text="a computerized tomography guided aspirate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="4133" end="4149" text="fluid collection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="4172" end="4177" text="which" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="4183" end="4199" text="Candida albicans" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="423" end="452" text="severe recurrent pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="4243" end="4258" text="fungal cystitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="4264" end="4283" text="Torulopsis glabrata" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="4297" end="4306" text="his urine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="4329" end="4358" text="amphotericin-B bladder washes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="4363" end="4367" text="this" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="4393" end="4407" text="anticoagulated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="4412" end="4441" text="his left ventricular aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="4456" end="4462" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="4500" end="4508" text="problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="455" end="461" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="4551" end="4570" text="small-volume emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="4603" end="4609" text="reflux" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="464" end="472" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="4645" end="4657" text="anti-emetics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="4674" end="4685" text="Granisetron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="4703" end="4710" text="success" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="4725" end="4761" text="total parenteral nutrition-dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="4773" end="4792" text="his hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="479" end="493" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="4860" end="4892" text="aggressive surgical intervention" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="4915" end="4964" text="his intra-abdominal bursts of intermittent sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="496" end="507" text="His amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E146" start="5058" end="5066" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E134" start="5090" end="5121" text="further aggressive intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E16" start="511" end="520" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E135" start="5163" end="5199" text="a do not resuscitate do not intubate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="5219" end="5236" text="his hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="555" end="576" text="two recent admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="5561" end="5572" text="transferred" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="5576" end="5601" text="Vassdiysey Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E140" start="5640" end="5665" text="do not resuscitate status" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E141" start="5670" end="5691" text="the risk for bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E142" start="5694" end="5722" text="the patient &apos;s Coumadin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E147" start="5727" end="5734" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E143" start="5743" end="5751" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E144" start="5773" end="5781" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="581" end="593" text="pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="633" end="654" text="his current admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="673" end="681" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="685" end="704" text="Free Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="707" end="718" text="His amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="719" end="728" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="741" end="759" text="the increased back" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="814" end="827" text="a temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="852" end="873" text="increasingly confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="876" end="906" text="A computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="923" end="929" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="930" end="962" text="a large &quot; pseudocyst &quot;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="972" end="983" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="987" end="1018" text="Ph University Of Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T7" start="1245" end="1252" text="4/17/95" type="DATE" val="1995-04-17" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="4/17/95" type="DATE" val="1995-04-17" mod="NA" />
+<TIMEX3 id="T8" start="1999" end="2006" text="4/28/95" type="DATE" val="1995-04-28" mod="NA" />
+<TIMEX3 id="T9" start="2117" end="2121" text="4/27" type="DATE" val="1995-04-27" mod="NA" />
+<TIMEX3 id="T10" start="2468" end="2475" text="4/28/95" type="DATE" val="1995-04-28" mod="NA" />
+<TIMEX3 id="T11" start="3052" end="3072" text="postoperative day #2" type="DATE" val="1995-04-30" mod="NA" />
+<TIMEX3 id="T12" start="3716" end="3732" text="multiple courses" type="FREQUENCY" val="R3" mod="APPROX" />
+<TIMEX3 id="T13" start="3776" end="3791" text="a 28 day course" type="DURATION" val="P28D" mod="NA" />
+<TIMEX3 id="T15" start="3944" end="3962" text="This 28 day course" type="DURATION" val="P28D" mod="NA" />
+<TIMEX3 id="T14" start="3980" end="3988" text="07/15/95" type="DATE" val="1995-07-15" mod="NA" />
+<TIMEX3 id="T16" start="4223" end="4239" text="several episodes" type="FREQUENCY" val="R4" mod="APPROX" />
+<TIMEX3 id="T1" start="43" end="51" text="07/16/95" type="DATE" val="1995-07-16" mod="NA" />
+<TIMEX3 id="T17" start="4798" end="4813" text="the end of June" type="DATE" val="1995-06" mod="END" />
+<TIMEX3 id="T18" start="5752" end="5765" text="several weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T2" start="597" end="609" text="January 1994" type="DATE" val="1994-01" mod="NA" />
+<TIMEX3 id="T3" start="616" end="627" text="August 1994" type="DATE" val="1994-08" mod="NA" />
+<TIMEX3 id="T4" start="770" end="786" text="hospital day #10" type="DATE" val="1995-04-26" mod="NA" />
+<TIMEX3 id="T5" start="792" end="801" text="that time" type="DATE" val="1995-04-26" mod="NA" />
+<TIMEX3 id="T6" start="915" end="922" text="4/16/95" type="DATE" val="1995-04-16" mod="NA" />
+<SECTIME id="S0" start="18" end="25" text="4/17/95" type="ADMISSION" dvalue="1995-4-17" />
+<SECTIME id="S1" start="44" end="52" text="07/16/95" type="DISCHARGE" dvalue="1995-07-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

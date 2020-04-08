@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2020-03-11
+Discharge Date :
+2020-03-23
+Service :
+MEDICINE
+History of Present Illness :
+73 yo M transferred from Newton-Wellesley Hospital hospital for epidural abscess .
+Pt has h/o colon can to liver , s/p resxn with serosal implants in 9/03 .
+Pt states he has been receiving chemotherapy up until 1 week ago .
+States he first developed back pain 5 weeks ago but was still able to ambulate with his cane .
+Last week it was worse and he was seen in clinic .
+An MRI was done and this showed a signal abno in L3 L4 ? disciitis vs osteo without a definitive epidural abscess .
+Initially on Vanc and Cipro on Friday but then seen by ID who reccommended no abx but a bone biopsy , blood cx .
+He was also seen by spine who repeated the MRI and this showed L3-4 osteomyelitis and discitis and an epidural abscess , 5cm .
+He was subsequently restared on Vancomycin for Corynebacterium in blood cx from Fri ; Followup cx has been NGTD .
+CXR also showed small pleural effusion and attempt was made to tap it , but pt did not tolerate the procedure and asked that it be deferred .
+He did undergo a CT-guided aspiration / biopsy at the L3-4 disc space on 2020-03-11 and the pt was transferred to Mediplex Rehab Hospital immediately following this .
+No results from this were sent .
+Currently pt denies sensory deficits or weakness .
+States he is not able to walk because of severe pain .
+States pain is worst when he sits up or twists his back .
+No bowel or bladder incontinence .
+Brief Hospital Course :
+73 yo M transferred from Youville Hospital with h/o colon cancer with known liver mets now with epidural abscess and corynebacterium bacteremia :
+# Epidural abscess : The patient was evaluated by orthopedic spine consult service and ID .
+He was continued on IV vancomycin throughout his course and had therapeutic troughs .
+The patient was taken to the OR twice with orthopaedics .
+Please see the operation notes for details about the surgeries .
+The patient was briefly admitted to the ICU for low hematocrit and hyponatremia immediately following the surgery but was then transferred back to the floor in stable condition .
+The patient had a PICC line placed and will continue a 8 week course of antibiotics .
+The patient will also wear a back brace at all times while out of bed .
+# Candidemia :: The patient was noted to have a positive blood culture from 03-12 .
+The patient was started on Diflucan .
+Ophthalmology was consulted and ruled out ocular spread .
+The patient 's portocath was removed .
+The tip was culture negative .
+The patient will get a total of a two week course of Diflucan .
+# Corynebacterium bacteremia : presumably Corynebacterium in epidural abscess as well .
+The patient had no blood cultures to grow corynebacterium while hospitalized .
+# Pleural effusion : The patient was noted have an effusion on CXR .
+IP was consulted and did a thoracentesis .
+The tap was negative for malignant cells .
+A repeat CT was done showing nodular thickening along the right major and minor fissure , concerning for intrapleural tumor implants .
+IP reviewed the films and recommended continue oncologic care according to 
+outpatient course and pleurodesis if the pt becomes symptomatic 02-07 fluid accumulation .
+The patient will follow up with his oncologist .
+# Foot ulcer : diabetic ulcer s/p surgery but never healed .
+Wound care was consulted and made recommendations for ulcer care .
+His dressings were changed by the nursing staff accordingly .
+# Anemia : His HCT remained stable post-surgery .
+The patient was continued on his iron supplements .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1008" end="1011" text="tap" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1032" end="1040" text="tolerate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1041" end="1054" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1059" end="1064" text="asked" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E49" start="1076" end="1084" text="deferred" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1102" end="1156" text="a CT-guided aspiration / biopsy at the L3-4 disc space" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="113" end="124" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1186" end="1197" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1201" end="1224" text="Mediplex Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E53" start="1257" end="1264" text="results" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E4" start="130" end="164" text="Newton-Wellesley Hospital hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="1300" end="1306" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="1307" end="1323" text="sensory deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E57" start="1327" end="1335" text="weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E58" start="1338" end="1344" text="States" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E59" start="1351" end="1367" text="not able to walk" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1379" end="1390" text="severe pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1393" end="1399" text="States" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="1400" end="1404" text="pain" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1422" end="1429" text="sits up" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="1433" end="1448" text="twists his back" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="1454" end="1483" text="bowel or bladder incontinence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E66" start="1518" end="1529" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1535" end="1552" text="Youville Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="1562" end="1574" text="colon cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="1580" end="1596" text="known liver mets" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="1606" end="1622" text="epidural abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1627" end="1653" text="corynebacterium bacteremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1658" end="1674" text="Epidural abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="169" end="185" text="epidural abscess" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1693" end="1702" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="1706" end="1738" text="orthopedic spine consult service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="1743" end="1745" text="ID" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E76" start="1768" end="1781" text="IV vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1824" end="1831" text="troughs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="1859" end="1865" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E79" start="1877" end="1889" text="orthopaedics" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="199" end="217" text="colon can to liver" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="1981" end="1989" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="1993" end="2000" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="2005" end="2019" text="low hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2024" end="2036" text="hyponatremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2059" end="2070" text="the surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2084" end="2095" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2104" end="2113" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E87" start="2117" end="2133" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2152" end="2163" text="a PICC line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="2208" end="2219" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="224" end="229" text="resxn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="2249" end="2261" text="a back brace" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="2281" end="2291" text="out of bed" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="2296" end="2306" text="Candidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="2326" end="2331" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="235" end="251" text="serosal implants" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="2351" end="2364" text="blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="2405" end="2413" text="Diflucan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="2416" end="2429" text="Ophthalmology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E99" start="2434" end="2443" text="consulted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E97" start="2448" end="2457" text="ruled out" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="2458" end="2471" text="ocular spread" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="2489" end="2498" text="portocath" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="2525" end="2532" text="culture" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E102" start="2597" end="2605" text="Diflucan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="2610" end="2636" text="Corynebacterium bacteremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="265" end="271" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="2650" end="2665" text="Corynebacterium" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2669" end="2685" text="epidural abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="2715" end="2729" text="blood cultures" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E107" start="2738" end="2753" text="corynebacterium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2760" end="2772" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="2777" end="2793" text="Pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="2812" end="2817" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E111" start="2823" end="2834" text="an effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="2838" end="2841" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E115" start="2844" end="2846" text="IP" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E113" start="2851" end="2860" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="2869" end="2884" text="a thoracentesis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="2887" end="2894" text="The tap" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="2912" end="2927" text="malignant cells" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E118" start="2930" end="2941" text="A repeat CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="294" end="306" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E119" start="2951" end="2958" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E120" start="2959" end="2977" text="nodular thickening" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="3035" end="3062" text="intrapleural tumor implants" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="3065" end="3067" text="IP" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E123" start="3077" end="3086" text="the films" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E124" start="3091" end="3102" text="recommended" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E125" start="3112" end="3126" text="oncologic care" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="3141" end="3158" text="outpatient course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E127" start="3163" end="3174" text="pleurodesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="3193" end="3204" text="symptomatic" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="3211" end="3229" text="fluid accumulation" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="3249" end="3258" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E131" start="3264" end="3278" text="his oncologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E132" start="3283" end="3293" text="Foot ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="329" end="335" text="States" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E133" start="3296" end="3310" text="diabetic ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E134" start="3315" end="3322" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="3333" end="3339" text="healed" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E142" start="3342" end="3352" text="Wound care" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E143" start="3357" end="3366" text="consulted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E144" start="3376" end="3391" text="recommendations" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E145" start="3396" end="3406" text="ulcer care" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="3409" end="3422" text="His dressings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="3428" end="3435" text="changed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="3473" end="3479" text="Anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E139" start="3482" end="3489" text="His HCT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E140" start="3499" end="3505" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="355" end="364" text="back pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E141" start="3550" end="3570" text="his iron supplements" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="399" end="407" text="ambulate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="441" end="446" text="worse" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="458" end="462" text="seen" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="466" end="472" text="clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="475" end="481" text="An MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="500" end="506" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="507" end="529" text="a signal abno in L3 L4" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="532" end="541" text="disciitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="545" end="550" text="osteo" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="559" end="588" text="a definitive epidural abscess" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="604" end="608" text="Vanc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="613" end="618" text="Cipro" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="646" end="648" text="ID" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="653" end="665" text="reccommended" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E27" start="669" end="672" text="abx" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E28" start="677" end="690" text="a bone biopsy" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E29" start="693" end="701" text="blood cx" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E30" start="724" end="729" text="spine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="734" end="742" text="repeated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E33" start="743" end="750" text="the MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="760" end="766" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="767" end="785" text="L3-4 osteomyelitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="790" end="798" text="discitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="803" end="822" text="an epidural abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="863" end="873" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="878" end="893" text="Corynebacterium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="897" end="905" text="blood cx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="917" end="928" text="Followup cx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="945" end="948" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="954" end="960" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E44" start="961" end="983" text="small pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T9" start="1160" end="1170" text="2020-03-11" type="DATE" val="2020-03-11" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2020-03-11" type="DATE" val="2020-03-06" mod="NA" />
+<TIMEX3 id="T10" start="1866" end="1871" text="twice" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T11" start="2191" end="2197" text="8 week" type="DURATION" val="P8W" mod="NA" />
+<TIMEX3 id="T12" start="2370" end="2375" text="03-12" type="DATE" val="2020-03-12" mod="NA" />
+<TIMEX3 id="T2" start="255" end="259" text="9/03" type="DATE" val="2003-09" mod="NA" />
+<TIMEX3 id="T13" start="2578" end="2586" text="two week" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T3" start="316" end="322" text="1 week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T4" start="365" end="372" text="5 weeks" type="DURATION" val="P5W" mod="NA" />
+<TIMEX3 id="T6" start="424" end="433" text="Last week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2020-03-23" type="DATE" val="2020-03-23" mod="NA" />
+<TIMEX3 id="T7" start="622" end="628" text="Friday" type="DATE" val="2020-03-06" mod="NA" />
+<TIMEX3 id="T8" start="911" end="914" text="Fri" type="DATE" val="2020-03-06" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="Discharge" toID="T1" toText="2020-03-23" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="states" toID="E10" toText="chemotherapy" type="AFTER" />
+<TLINK id="TL100" fromID="E86" fromText="the floor" toID="E81" toText="the ICU" type="AFTER" />
+<TLINK id="TL101" fromID="E83" fromText="hyponatremia" toID="E81" toText="the ICU" type="BEFORE" />
+<TLINK id="TL103" fromID="E139" fromText="His HCT" toID="E84" toText="the surgery" type="AFTER" />
+<TLINK id="TL104" fromID="E86" fromText="the floor" toID="E85" toText="transferred" type="AFTER" />
+<TLINK id="TL105" fromID="E87" fromText="stable condition" toID="E86" toText="the floor" type="BEFORE" />
+<TLINK id="TL106" fromID="T11" fromText="8 week" toID="E88" toText="a PICC line" type="AFTER" />
+<TLINK id="TL107" fromID="E89" fromText="antibiotics" toID="T11" toText="8 week" type="OVERLAP" />
+<TLINK id="TL108" fromID="E90" fromText="a back brace" toID="E91" toText="out of bed" type="OVERLAP" />
+<TLINK id="TL109" fromID="E98" fromText="ocular spread" toID="E92" toText="Candidemia" type="OVERLAP" />
+<TLINK id="TL11" fromID="E10" fromText="chemotherapy" toID="T3" toText="1 week" type="BEFORE" />
+<TLINK id="TL110" fromID="E94" fromText="blood culture" toID="T12" toText="03-12" type="OVERLAP" />
+<TLINK id="TL111" fromID="E95" fromText="Diflucan" toID="T12" toText="03-12" type="AFTER" />
+<TLINK id="TL112" fromID="E102" fromText="Diflucan" toID="E95" toText="Diflucan" type="OVERLAP" />
+<TLINK id="TL113" fromID="E96" fromText="Ophthalmology" toID="T12" toText="03-12" type="AFTER" />
+<TLINK id="TL114" fromID="E96" fromText="Ophthalmology" toID="E99" toText="consulted" type="OVERLAP" />
+<TLINK id="TL115" fromID="E97" fromText="ruled out" toID="E99" toText="consulted" type="AFTER" />
+<TLINK id="TL116" fromID="E100" fromText="portocath" toID="E99" toText="consulted" type="AFTER" />
+<TLINK id="TL117" fromID="E102" fromText="Diflucan" toID="T13" toText="two week" type="OVERLAP" />
+<TLINK id="TL119" fromID="E71" fromText="corynebacterium bacteremia" toID="E103" toText="Corynebacterium bacteremia" type="OVERLAP" />
+<TLINK id="TL12" fromID="T3" fromText="1 week" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="TL120" fromID="E103" fromText="Corynebacterium bacteremia" toID="E104" toText="Corynebacterium" type="OVERLAP" />
+<TLINK id="TL121" fromID="E72" fromText="Epidural abscess" toID="E105" toText="epidural abscess" type="OVERLAP" />
+<TLINK id="TL122" fromID="E105" fromText="epidural abscess" toID="E104" toText="Corynebacterium" type="OVERLAP" />
+<TLINK id="TL123" fromID="E106" fromText="blood cultures" toID="E108" toText="hospitalized" type="OVERLAP" />
+<TLINK id="TL124" fromID="E109" fromText="Pleural effusion" toID="E44" toText="small pleural effusion" type="OVERLAP" />
+<TLINK id="TL125" fromID="E109" fromText="Pleural effusion" toID="E111" toText="an effusion" type="OVERLAP" />
+<TLINK id="TL127" fromID="E110" fromText="noted" toID="E112" toText="CXR" type="OVERLAP" />
+<TLINK id="TL128" fromID="E112" fromText="CXR" toID="E111" toText="an effusion" type="AFTER" />
+<TLINK id="TL129" fromID="E113" fromText="consulted" toID="E112" toText="CXR" type="AFTER" />
+<TLINK id="TL13" fromID="E11" fromText="States" toID="E9" toText="states" type="OVERLAP" />
+<TLINK id="TL130" fromID="E114" fromText="a thoracentesis" toID="E112" toText="CXR" type="AFTER" />
+<TLINK id="TL131" fromID="E115" fromText="IP" toID="E113" toText="consulted" type="OVERLAP" />
+<TLINK id="TL132" fromID="E114" fromText="a thoracentesis" toID="E116" toText="The tap" type="OVERLAP" />
+<TLINK id="TL133" fromID="E118" fromText="A repeat CT" toID="E114" toText="a thoracentesis" type="AFTER" />
+<TLINK id="TL134" fromID="E117" fromText="malignant cells" toID="E116" toText="The tap" type="BEFORE" />
+<TLINK id="TL135" fromID="E118" fromText="A repeat CT" toID="E123" toText="the films" type="OVERLAP" />
+<TLINK id="TL136" fromID="E119" fromText="showing" toID="E118" toText="A repeat CT" type="OVERLAP" />
+<TLINK id="TL137" fromID="E121" fromText="intrapleural tumor implants" toID="E120" toText="nodular thickening" type="OVERLAP" />
+<TLINK id="TL138" fromID="E120" fromText="nodular thickening" toID="E119" toText="showing" type="BEFORE" />
+<TLINK id="TL139" fromID="E123" fromText="the films" toID="E124" toText="recommended" type="BEFORE" />
+<TLINK id="TL14" fromID="E13" fromText="ambulate" toID="E12" toText="back pain" type="OVERLAP" />
+<TLINK id="TL141" fromID="E125" fromText="oncologic care" toID="E124" toText="recommended" type="BEFORE" />
+<TLINK id="TL142" fromID="E127" fromText="pleurodesis" toID="E128" toText="symptomatic" type="AFTER" />
+<TLINK id="TL143" fromID="E128" fromText="symptomatic" toID="E129" toText="fluid accumulation" type="OVERLAP" />
+<TLINK id="TL144" fromID="E130" fromText="follow up" toID="E131" toText="his oncologist" type="OVERLAP" />
+<TLINK id="TL145" fromID="E132" fromText="Foot ulcer" toID="E133" toText="diabetic ulcer" type="OVERLAP" />
+<TLINK id="TL147" fromID="E135" fromText="healed" toID="E134" toText="surgery" type="AFTER" />
+<TLINK id="TL148" fromID="E133" fromText="diabetic ulcer" toID="E134" toText="surgery" type="BEFORE" />
+<TLINK id="TL149" fromID="E142" fromText="Wound care" toID="E143" toText="consulted" type="OVERLAP" />
+<TLINK id="TL15" fromID="E12" fromText="back pain" toID="T4" toText="5 weeks" type="AFTER" />
+<TLINK id="TL150" fromID="E145" fromText="ulcer care" toID="E142" toText="Wound care" type="BEFORE" />
+<TLINK id="TL151" fromID="E144" fromText="recommendations" toID="E142" toText="Wound care" type="OVERLAP" />
+<TLINK id="TL152" fromID="E144" fromText="recommendations" toID="E143" toText="consulted" type="AFTER" />
+<TLINK id="TL153" fromID="E145" fromText="ulcer care" toID="E144" toText="recommendations" type="AFTER" />
+<TLINK id="TL154" fromID="E136" fromText="His dressings" toID="E145" toText="ulcer care" type="OVERLAP" />
+<TLINK id="TL155" fromID="E136" fromText="His dressings" toID="E137" toText="changed" type="OVERLAP" />
+<TLINK id="TL156" fromID="E139" fromText="His HCT" toID="E138" toText="Anemia" type="OVERLAP" />
+<TLINK id="TL157" fromID="E140" fromText="stable" toID="E84" toText="the surgery" type="AFTER" />
+<TLINK id="TL17" fromID="E12" fromText="back pain" toID="E11" toText="States" type="BEFORE" />
+<TLINK id="TL18" fromID="T4" fromText="5 weeks" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="TL19" fromID="E15" fromText="seen" toID="T6" toText="Last week" type="AFTER" />
+<TLINK id="TL2" fromID="E4" fromText="Newton-Wellesley Hospital hospital" toID="E3" toText="transferred" type="BEFORE" />
+<TLINK id="TL20" fromID="T6" fromText="Last week" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="TL21" fromID="E16" fromText="clinic" toID="E15" toText="seen" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="An MRI" toID="E16" toText="clinic" type="OVERLAP" />
+<TLINK id="TL23" fromID="E18" fromText="showed" toID="E17" toText="An MRI" type="OVERLAP" />
+<TLINK id="TL24" fromID="E17" fromText="An MRI" toID="T7" toText="Friday" type="BEFORE" />
+<TLINK id="TL26" fromID="E19" fromText="a signal abno in L3 L4" toID="E18" toText="showed" type="BEFORE" />
+<TLINK id="TL27" fromID="E36" fromText="discitis" toID="E20" toText="disciitis" type="OVERLAP" />
+<TLINK id="TL28" fromID="E20" fromText="disciitis" toID="E17" toText="An MRI" type="BEFORE" />
+<TLINK id="TL29" fromID="E21" fromText="osteo" toID="E18" toText="showed" type="BEFORE" />
+<TLINK id="TL3" fromID="E3" fromText="transferred" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="TL30" fromID="E22" fromText="a definitive epidural abscess" toID="E21" toText="osteo" type="OVERLAP" />
+<TLINK id="TL31" fromID="E21" fromText="osteo" toID="E35" toText="L3-4 osteomyelitis" type="OVERLAP" />
+<TLINK id="TL32" fromID="E37" fromText="an epidural abscess" toID="E22" toText="a definitive epidural abscess" type="OVERLAP" />
+<TLINK id="TL33" fromID="E24" fromText="Cipro" toID="E23" toText="Vanc" type="OVERLAP" />
+<TLINK id="TL34" fromID="E23" fromText="Vanc" toID="E17" toText="An MRI" type="AFTER" />
+<TLINK id="TL35" fromID="E24" fromText="Cipro" toID="T7" toText="Friday" type="OVERLAP" />
+<TLINK id="TL36" fromID="T7" fromText="Friday" toID="E31" toText="ID" type="BEFORE" />
+<TLINK id="TL37" fromID="E31" fromText="ID" toID="E26" toText="reccommended" type="OVERLAP" />
+<TLINK id="TL38" fromID="E26" fromText="reccommended" toID="E27" toText="abx" type="OVERLAP" />
+<TLINK id="TL39" fromID="E28" fromText="a bone biopsy" toID="E27" toText="abx" type="OVERLAP" />
+<TLINK id="TL4" fromID="E5" fromText="epidural abscess" toID="E3" toText="transferred" type="BEFORE" />
+<TLINK id="TL40" fromID="E29" fromText="blood cx" toID="E28" toText="a bone biopsy" type="OVERLAP" />
+<TLINK id="TL41" fromID="E28" fromText="a bone biopsy" toID="T7" toText="Friday" type="AFTER" />
+<TLINK id="TL42" fromID="E30" fromText="spine" toID="E31" toText="ID" type="OVERLAP" />
+<TLINK id="TL43" fromID="E30" fromText="spine" toID="E32" toText="repeated" type="OVERLAP" />
+<TLINK id="TL44" fromID="E32" fromText="repeated" toID="E33" toText="the MRI" type="OVERLAP" />
+<TLINK id="TL45" fromID="E38" fromText="Vancomycin" toID="E33" toText="the MRI" type="AFTER" />
+<TLINK id="TL46" fromID="E33" fromText="the MRI" toID="T7" toText="Friday" type="AFTER" />
+<TLINK id="TL47" fromID="E34" fromText="showed" toID="E33" toText="the MRI" type="OVERLAP" />
+<TLINK id="TL48" fromID="E35" fromText="L3-4 osteomyelitis" toID="E34" toText="showed" type="BEFORE" />
+<TLINK id="TL49" fromID="E36" fromText="discitis" toID="E34" toText="showed" type="BEFORE" />
+<TLINK id="TL5" fromID="E5" fromText="epidural abscess" toID="E22" toText="a definitive epidural abscess" type="OVERLAP" />
+<TLINK id="TL50" fromID="E22" fromText="a definitive epidural abscess" toID="E37" toText="an epidural abscess" type="OVERLAP" />
+<TLINK id="TL51" fromID="E76" fromText="IV vancomycin" toID="E38" toText="Vancomycin" type="OVERLAP" />
+<TLINK id="TL52" fromID="E39" fromText="Corynebacterium" toID="E38" toText="Vancomycin" type="BEFORE" />
+<TLINK id="TL53" fromID="E71" fromText="corynebacterium bacteremia" toID="E39" toText="Corynebacterium" type="OVERLAP" />
+<TLINK id="TL55" fromID="E41" fromText="Followup cx" toID="E40" toText="blood cx" type="AFTER" />
+<TLINK id="TL56" fromID="E40" fromText="blood cx" toID="T8" toText="Fri" type="OVERLAP" />
+<TLINK id="TL57" fromID="E39" fromText="Corynebacterium" toID="E40" toText="blood cx" type="BEFORE" />
+<TLINK id="TL58" fromID="E44" fromText="small pleural effusion" toID="E42" toText="CXR" type="BEFORE" />
+<TLINK id="TL59" fromID="E43" fromText="showed" toID="E42" toText="CXR" type="OVERLAP" />
+<TLINK id="TL6" fromID="E7" fromText="resxn" toID="E6" toText="colon can to liver" type="AFTER" />
+<TLINK id="TL60" fromID="E45" fromText="tap" toID="E42" toText="CXR" type="AFTER" />
+<TLINK id="TL62" fromID="E45" fromText="tap" toID="E47" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL63" fromID="E48" fromText="asked" toID="E47" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL64" fromID="E47" fromText="the procedure" toID="E49" toText="deferred" type="BEFORE" />
+<TLINK id="TL65" fromID="E46" fromText="tolerate" toID="E47" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL66" fromID="E50" fromText="a CT-guided aspiration / biopsy at the L3-4 disc space" toID="T9" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="TL67" fromID="E52" fromText="Mediplex Rehab Hospital" toID="T9" toText="2020-03-11" type="AFTER" />
+<TLINK id="TL68" fromID="E51" fromText="transferred" toID="T9" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="TL69" fromID="E53" fromText="results" toID="E52" toText="Mediplex Rehab Hospital" type="AFTER" />
+<TLINK id="TL7" fromID="E6" fromText="colon can to liver" toID="T2" toText="9/03" type="BEFORE" />
+<TLINK id="TL70" fromID="E56" fromText="sensory deficits" toID="E55" toText="denies" type="BEFORE" />
+<TLINK id="TL71" fromID="E57" fromText="weakness" toID="E55" toText="denies" type="BEFORE" />
+<TLINK id="TL72" fromID="E59" fromText="not able to walk" toID="E58" toText="States" type="BEFORE" />
+<TLINK id="TL74" fromID="E60" fromText="severe pain" toID="E59" toText="not able to walk" type="OVERLAP" />
+<TLINK id="TL75" fromID="E60" fromText="severe pain" toID="E62" toText="pain" type="OVERLAP" />
+<TLINK id="TL76" fromID="E64" fromText="twists his back" toID="E62" toText="pain" type="OVERLAP" />
+<TLINK id="TL77" fromID="E62" fromText="pain" toID="E61" toText="States" type="BEFORE" />
+<TLINK id="TL78" fromID="E62" fromText="pain" toID="E63" toText="sits up" type="OVERLAP" />
+<TLINK id="TL79" fromID="E64" fromText="twists his back" toID="E63" toText="sits up" type="OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="serosal implants" toID="E7" toText="resxn" type="OVERLAP" />
+<TLINK id="TL80" fromID="E65" fromText="bowel or bladder incontinence" toID="E61" toText="States" type="BEFORE" />
+<TLINK id="TL81" fromID="E67" fromText="Youville Hospital" toID="E66" toText="transferred" type="BEFORE" />
+<TLINK id="TL82" fromID="E66" fromText="transferred" toID="E51" toText="transferred" type="OVERLAP" />
+<TLINK id="TL83" fromID="E73" fromText="evaluated" toID="E66" toText="transferred" type="AFTER" />
+<TLINK id="TL84" fromID="E68" fromText="colon cancer" toID="E67" toText="Youville Hospital" type="BEFORE" />
+<TLINK id="TL85" fromID="E105" fromText="epidural abscess" toID="E70" toText="epidural abscess" type="OVERLAP" />
+<TLINK id="TL86" fromID="T0" fromText="2020-03-11" toID="E70" toText="epidural abscess" type="OVERLAP" />
+<TLINK id="TL87" fromID="E70" fromText="epidural abscess" toID="E72" toText="Epidural abscess" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="serosal implants" toID="T2" toText="9/03" type="OVERLAP" />
+<TLINK id="TL90" fromID="E73" fromText="evaluated" toID="E74" toText="orthopedic spine consult service" type="OVERLAP" />
+<TLINK id="TL91" fromID="E75" fromText="ID" toID="E73" toText="evaluated" type="OVERLAP" />
+<TLINK id="TL92" fromID="E78" fromText="the OR" toID="T10" toText="twice" type="OVERLAP" />
+<TLINK id="TL93" fromID="E78" fromText="the OR" toID="E79" toText="orthopaedics" type="OVERLAP" />
+<TLINK id="TL94" fromID="E80" fromText="admitted" toID="E84" toText="the surgery" type="AFTER" />
+<TLINK id="TL95" fromID="E81" fromText="the ICU" toID="E80" toText="admitted" type="AFTER" />
+<TLINK id="TL96" fromID="E85" fromText="transferred" toID="E80" toText="admitted" type="AFTER" />
+<TLINK id="TL97" fromID="E81" fromText="the ICU" toID="E85" toText="transferred" type="BEFORE" />
+<TLINK id="TL98" fromID="E82" fromText="low hematocrit" toID="E81" toText="the ICU" type="BEFORE" />
+<TLINK id="TL99" fromID="E81" fromText="the ICU" toID="E84" toText="the surgery" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2020-03-11" type="ADMISSION" dvalue="2020-03-11" />
+<SECTIME id="S1" start="46" end="56" text="2020-03-23" type="DISCHARGE" dvalue="2020-03-23" />
+<TLINK id="SECTIME0" fromID="E45" fromText="tap" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E46" fromText="tolerate" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E47" fromText="the procedure" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E48" fromText="asked" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E49" fromText="deferred" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E50" fromText="a CT-guided aspiration / biopsy at the L3-4 disc space" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E51" fromText="transferred" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E52" fromText="Mediplex Rehab Hospital" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E53" fromText="results" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E4" fromText="Newton-Wellesley Hospital hospital" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E55" fromText="denies" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME11" fromID="E56" fromText="sensory deficits" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E57" fromText="weakness" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E58" fromText="States" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E59" fromText="not able to walk" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E60" fromText="severe pain" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E61" fromText="States" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E62" fromText="pain" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E63" fromText="sits up" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E64" fromText="twists his back" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E65" fromText="bowel or bladder incontinence" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E66" fromText="transferred" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E67" fromText="Youville Hospital" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E68" fromText="colon cancer" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E69" fromText="known liver mets" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E70" fromText="epidural abscess" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E71" fromText="corynebacterium bacteremia" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E72" fromText="Epidural abscess" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E5" fromText="epidural abscess" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E73" fromText="evaluated" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E74" fromText="orthopedic spine consult service" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E75" fromText="ID" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E76" fromText="IV vancomycin" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E77" fromText="troughs" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E78" fromText="the OR" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E79" fromText="orthopaedics" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E6" fromText="colon can to liver" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E80" fromText="admitted" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E81" fromText="the ICU" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E82" fromText="low hematocrit" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E83" fromText="hyponatremia" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E84" fromText="the surgery" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E85" fromText="transferred" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E86" fromText="the floor" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E87" fromText="stable condition" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E88" fromText="a PICC line" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E89" fromText="antibiotics" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E7" fromText="resxn" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E90" fromText="a back brace" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E91" fromText="out of bed" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E92" fromText="Candidemia" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E93" fromText="noted" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E8" fromText="serosal implants" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E94" fromText="blood culture" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E95" fromText="Diflucan" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E96" fromText="Ophthalmology" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E99" fromText="consulted" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E97" fromText="ruled out" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E98" fromText="ocular spread" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E100" fromText="portocath" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E101" fromText="culture" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E102" fromText="Diflucan" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E103" fromText="Corynebacterium bacteremia" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E9" fromText="states" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME64" fromID="E104" fromText="Corynebacterium" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E105" fromText="epidural abscess" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E106" fromText="blood cultures" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E107" fromText="corynebacterium" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E108" fromText="hospitalized" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E109" fromText="Pleural effusion" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E110" fromText="noted" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E111" fromText="an effusion" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E112" fromText="CXR" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E115" fromText="IP" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E113" fromText="consulted" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E114" fromText="a thoracentesis" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E116" fromText="The tap" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E117" fromText="malignant cells" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E118" fromText="A repeat CT" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E10" fromText="chemotherapy" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E119" fromText="showing" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E120" fromText="nodular thickening" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E121" fromText="intrapleural tumor implants" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E122" fromText="IP" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E123" fromText="the films" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E124" fromText="recommended" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E125" fromText="oncologic care" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E126" fromText="outpatient course" toID="T1" toText="2020-03-23" type="AFTER" />
+<TLINK id="SECTIME88" fromID="E127" fromText="pleurodesis" toID="T1" toText="2020-03-23" type="AFTER" />
+<TLINK id="SECTIME89" fromID="E128" fromText="symptomatic" toID="T1" toText="2020-03-23" type="AFTER" />
+<TLINK id="SECTIME90" fromID="E129" fromText="fluid accumulation" toID="T1" toText="2020-03-23" type="AFTER" />
+<TLINK id="SECTIME91" fromID="E130" fromText="follow up" toID="T1" toText="2020-03-23" type="AFTER" />
+<TLINK id="SECTIME92" fromID="E131" fromText="his oncologist" toID="T1" toText="2020-03-23" type="AFTER" />
+<TLINK id="SECTIME93" fromID="E132" fromText="Foot ulcer" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E11" fromText="States" toID="T0" toText="2020-03-11" type="OVERLAP" />
+<TLINK id="SECTIME95" fromID="E133" fromText="diabetic ulcer" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E134" fromText="surgery" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E135" fromText="healed" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E142" fromText="Wound care" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E143" fromText="consulted" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E144" fromText="recommendations" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E145" fromText="ulcer care" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E136" fromText="His dressings" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E137" fromText="changed" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E138" fromText="Anemia" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E139" fromText="His HCT" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E140" fromText="stable" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E12" fromText="back pain" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E141" fromText="his iron supplements" toID="T1" toText="2020-03-23" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E13" fromText="ambulate" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E14" fromText="worse" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E15" fromText="seen" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E16" fromText="clinic" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E17" fromText="An MRI" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E18" fromText="showed" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E19" fromText="a signal abno in L3 L4" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E20" fromText="disciitis" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E21" fromText="osteo" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E22" fromText="a definitive epidural abscess" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E23" fromText="Vanc" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E24" fromText="Cipro" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E31" fromText="ID" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E26" fromText="reccommended" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E27" fromText="abx" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E28" fromText="a bone biopsy" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E29" fromText="blood cx" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E30" fromText="spine" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E32" fromText="repeated" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E33" fromText="the MRI" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E34" fromText="showed" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E35" fromText="L3-4 osteomyelitis" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E36" fromText="discitis" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E37" fromText="an epidural abscess" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E38" fromText="Vancomycin" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E39" fromText="Corynebacterium" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E40" fromText="blood cx" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E41" fromText="Followup cx" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E42" fromText="CXR" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E43" fromText="showed" toID="T0" toText="2020-03-11" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E44" fromText="small pleural effusion" toID="T0" toText="2020-03-11" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

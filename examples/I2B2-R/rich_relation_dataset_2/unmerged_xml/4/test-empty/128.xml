@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-05-18
+Discharge Date :
+2013-05-24
+Service :
+MEDICINE
+History of Present Illness :
+90 yo F with MMP ( see below ) who sustained a mechanical fall down stairs resulting in a hip and arm fracture .
+Fall was witnessed by daughter .
+Nicholas seizures , no LOC , no head or neck trauma .
+Patient denies CP , SOB , light headedness , or dizziness prior to of after the fall .
+She fell on her R side and had a great deal of pain in her R arm and hip .
+Presented to Taunton and found to have R humerus and R hip fx .
+Ct of head and neck neg for fx , bleed , and dislocation .
+Brief Hospital Course :
+95 yo F with MMP who sustained a mechanical fall down stairs resulting in a hip and arm fracture .
+1) s/p Fall - unlikely to be mechanical in nature .
+Patient has injuries to her shoulder and hip .
+2) CV - Patient has CAD and CHF with a low hct and major trauma .
+She also has new changes on EKG .
+On pressor to hold mean 60 .
+3) Anemia - patient transfusion dependant with a baseline of 28 .
+- transfuse 2 units today , with lasix
+4) GERD - PPI
+5) DM - glipizide , ISS
+6) PMR - cont prednisone
+7) GI : Ms. Pimental is an unfortunate 95 year old woman , status post a recent fall necessitating right ORIF of the hip and right wrist fracture ORIF , who was in the hospital for this event , when it was noted that she had abdominal pain , distention and coffee ground emesis with worsening mental status and renal failure .
+CT scan was obtained and this revealed free air and massive ascites .
+Pt underwent surgery on 05-23
+1. Exploratory laparotomy with drainage of intra-abdominal abscess and peritonitis with gross soilage with bile and gastric contents .
+2. Exposure and wide drainage of perforated posterior duodenal ulcer with internal and external drainage .
+3. Feeding jejunostomy .
+4. Tube gastrostomy .
+Continue to deteriorate spiking fevers with ventilatory support on pressors to hold the bp. with no improvement in mental staus was made CMO 5/20/5 .
+Expired at 5 pm
+]]></TEXT>
+<TAGS>
+<EVENT id="E53" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="1009" end="1018" text="transfuse" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1040" end="1045" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1049" end="1053" text="GERD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1056" end="1059" text="PPI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1063" end="1065" text="DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1068" end="1077" text="glipizide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1080" end="1083" text="ISS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1087" end="1090" text="PMR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1098" end="1108" text="prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="118" end="121" text="MMP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1180" end="1193" text="a recent fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="1208" end="1229" text="right ORIF of the hip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1234" end="1259" text="right wrist fracture ORIF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="1273" end="1285" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E80" start="1290" end="1300" text="this event" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1315" end="1320" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="1334" end="1348" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1351" end="1361" text="distention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1366" end="1386" text="coffee ground emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1392" end="1415" text="worsening mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1420" end="1433" text="renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1436" end="1443" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1466" end="1474" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E36" start="1475" end="1483" text="free air" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1488" end="1503" text="massive ascites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="150" end="167" text="a mechanical fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1519" end="1526" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1539" end="1561" text="Exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1567" end="1575" text="drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1579" end="1602" text="intra-abdominal abscess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1607" end="1618" text="peritonitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1624" end="1668" text="gross soilage with bile and gastric contents" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1674" end="1682" text="Exposure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1687" end="1700" text="wide drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1704" end="1739" text="perforated posterior duodenal ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1745" end="1775" text="internal and external drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1781" end="1800" text="Feeding jejunostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1806" end="1822" text="Tube gastrostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="1849" end="1863" text="spiking fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1869" end="1888" text="ventilatory support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1892" end="1900" text="pressors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1909" end="1916" text="the bp." modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="193" end="215" text="a hip and arm fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="1925" end="1936" text="improvement" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E83" start="1940" end="1952" text="mental staus" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="1962" end="1965" text="CMO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1975" end="1982" text="Expired" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="218" end="222" text="Fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="227" end="236" text="witnessed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="251" end="268" text="Nicholas seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="274" end="277" text="LOC" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="283" end="302" text="head or neck trauma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E0" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="313" end="319" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="320" end="322" text="CP" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E63" start="325" end="328" text="SOB" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E64" start="331" end="347" text="light headedness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="353" end="362" text="dizziness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="381" end="389" text="the fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="396" end="400" text="fell" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="439" end="464" text="pain in her R arm and hip" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="467" end="476" text="Presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="480" end="487" text="Taunton" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="492" end="497" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="506" end="528" text="R humerus and R hip fx" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="531" end="533" text="Ct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="559" end="561" text="fx" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E71" start="564" end="569" text="bleed" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E72" start="576" end="587" text="dislocation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E73" start="627" end="630" text="MMP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="645" end="662" text="a mechanical fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="688" end="710" text="a hip and arm fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="720" end="724" text="Fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="742" end="762" text="mechanical in nature" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="777" end="809" text="injuries to her shoulder and hip" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="832" end="835" text="CAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="840" end="843" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="849" end="858" text="a low hct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="863" end="875" text="major trauma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="895" end="902" text="changes" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="906" end="909" text="EKG" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="915" end="922" text="pressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="944" end="950" text="Anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="961" end="982" text="transfusion dependant" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="1027" end="1032" text="today" type="DATE" val="2013-05-24" mod="APPROX" />
+<TIMEX3 id="T3" start="1530" end="1535" text="05-23" type="DATE" val="2013-05-23" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2013-05-18" type="DATE" val="2013-05-18" mod="NA" />
+<TIMEX3 id="T5" start="1966" end="1972" text="5/20/5" type="DATE" val="2013-05-20" mod="NA" />
+<TIMEX3 id="T4" start="1986" end="1990" text="5 pm" type="TIME" val="" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2013-05-24" type="DATE" val="2013-05-24" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2013-05-18" type="ADMISSION" dvalue="2013-05-18" />
+<SECTIME id="S1" start="46" end="56" text="2013-05-24" type="DISCHARGE" dvalue="2013-05-24" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

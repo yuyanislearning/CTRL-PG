@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+10-27-93
+DISCHARGE DATE :
+11-1-93
+HISTORY OF PRESENT ILLNESS :
+This 68 year old white male who had a seven to eight year history of knee pain .
+In 1984 , he had the right knee aspirated and was noted to have some uric acid crystals , although serum uric acid was normal and erythrocyte sedimentation rate .
+He continued to have intermittent symptoms and was noted to have some fullness in the suprapatellar pouch .
+Plain films taken by his orthopedist in Mongcana Ster Staarv revealed some soft tissue calcification within the medial and lateral compartments of the joint .
+an magnetic resonance imaging study demonstrated calcification densities in the suprapatellar bursa region , also with hypertrophia of the synovium .
+It was felt that the patient had synovial chondromatosis and would benefit from an open synovectomy and debridement .
+He was admitted for that procedure .
+HOSPITAL COURSE :
+He underwent right knee open synovectomy and debridement of synovial chondromatosis on 10-28-93 .
+Postoperatively , he has done well .
+He is mobilized with the help of physical therapy , on a continuous passive motion machine .
+His discharge range of motion is from zero to 40 degrees .
+He was on pain medication and he was also on Percocet , but now he can manage without the Percocet .
+He is on Coumadin which is to be continued for six weeks .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1038" end="1047" text="done well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1056" end="1065" text="mobilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1083" end="1099" text="physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1105" end="1140" text="a continuous passive motion machine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1143" end="1156" text="His discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1157" end="1172" text="range of motion" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1212" end="1227" text="pain medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1247" end="1255" text="Percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1288" end="1300" text="the Percocet" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E34" start="1312" end="1320" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="150" end="159" text="knee pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="194" end="203" text="aspirated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="231" end="249" text="uric acid crystals" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="261" end="276" text="serum uric acid" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="292" end="322" text="erythrocyte sedimentation rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="346" end="367" text="intermittent symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="390" end="430" text="some fullness in the suprapatellar pouch" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="433" end="444" text="Plain films" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="494" end="502" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="503" end="533" text="some soft tissue calcification" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="592" end="627" text="an magnetic resonance imaging study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="628" end="640" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="641" end="698" text="calcification densities in the suprapatellar bursa region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="711" end="739" text="hypertrophia of the synovium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="775" end="798" text="synovial chondromatosis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="822" end="841" text="an open synovectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="846" end="857" text="debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="867" end="875" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="880" end="894" text="that procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="928" end="955" text="right knee open synovectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="960" end="971" text="debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="975" end="998" text="synovial chondromatosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1002" end="1010" text="10-28-93" type="DATE" val="1993-10-28" mod="NA" />
+<TIMEX3 id="T0" start="119" end="138" text="seven to eight year" type="DURATION" val="P7.5Y" mod="APPROX" />
+<TIMEX3 id="T5" start="1350" end="1359" text="six weeks" type="DURATION" val="P6W" mod="NA" />
+<TIMEX3 id="T3" start="165" end="169" text="1984" type="DATE" val="1984" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="10-27-93" type="DATE" val="1993-10-27" mod="NA" />
+<TIMEX3 id="T2" start="44" end="51" text="11-1-93" type="DATE" val="1993-11-01" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="10-27-93" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E21" fromText="DISCHARGE" toID="T2" toText="11-1-93" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E5" fromText="Plain films" toID="E24" toText="revealed" type="OVERLAP" />
+<TLINK id="TL11" fromID="E5" fromText="Plain films" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL12" fromID="E7" fromText="an magnetic resonance imaging study" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL13" fromID="E25" fromText="demonstrated" toID="E7" toText="an magnetic resonance imaging study" type="OVERLAP" />
+<TLINK id="TL14" fromID="E8" fromText="calcification densities in the suprapatellar bursa region" toID="E7" toText="an magnetic resonance imaging study" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E9" fromText="hypertrophia of the synovium" toID="E7" toText="an magnetic resonance imaging study" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E26" fromText="synovial chondromatosis" toID="E9" toText="hypertrophia of the synovium" type="OVERLAP" />
+<TLINK id="TL17" fromID="E10" fromText="an open synovectomy" toID="E11" toText="debridement" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E28" fromText="that procedure" toID="E10" toText="an open synovectomy" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E27" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="T0" fromText="seven to eight year" toID="E0" toText="ADMISSION" type="ENDED_BY" />
+<TLINK id="TL20" fromID="E12" fromText="right knee open synovectomy" toID="E10" toText="an open synovectomy" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E13" fromText="debridement" toID="E11" toText="debridement" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E12" fromText="right knee open synovectomy" toID="T4" toText="10-28-93" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E14" fromText="synovial chondromatosis" toID="E26" toText="synovial chondromatosis" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E29" fromText="done well" toID="E12" toText="right knee open synovectomy" type="AFTER" />
+<TLINK id="TL25" fromID="E30" fromText="mobilized" toID="E12" toText="right knee open synovectomy" type="AFTER" />
+<TLINK id="TL26" fromID="E15" fromText="physical therapy" toID="E30" toText="mobilized" type="OVERLAP" />
+<TLINK id="TL27" fromID="E16" fromText="a continuous passive motion machine" toID="E15" toText="physical therapy" type="OVERLAP" />
+<TLINK id="TL28" fromID="E31" fromText="His discharge" toID="E21" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E31" fromText="His discharge" toID="E32" toText="range of motion" type="OVERLAP" />
+<TLINK id="TL3" fromID="E22" fromText="knee pain" toID="T0" toText="seven to eight year" type="DURING" />
+<TLINK id="TL30" fromID="E17" fromText="pain medication" toID="E19" toText="Percocet" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E33" fromText="the Percocet" toID="E19" toText="Percocet" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E33" fromText="the Percocet" toID="E31" toText="His discharge" type="BEFORE" />
+<TLINK id="TL33" fromID="E34" fromText="Coumadin" toID="E31" toText="His discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E34" fromText="Coumadin" toID="T5" toText="six weeks" type="OVERLAP" />
+<TLINK id="TL35" fromID="T5" fromText="six weeks" toID="T2" toText="11-1-93" type="BEGUN_BY" />
+<TLINK id="TL36" fromID="E6" fromText="some soft tissue calcification" toID="E8" toText="calcification densities in the suprapatellar bursa region" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="T3" fromText="1984" toID="E20" toText="aspirated" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E1" fromText="uric acid crystals" toID="E20" toText="aspirated" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="serum uric acid" toID="E20" toText="aspirated" type="OVERLAP" />
+<TLINK id="TL7" fromID="E3" fromText="erythrocyte sedimentation rate" toID="E20" toText="aspirated" type="OVERLAP" />
+<TLINK id="TL8" fromID="E23" fromText="intermittent symptoms" toID="E22" toText="knee pain" type="OVERLAP" />
+<TLINK id="TL9" fromID="E4" fromText="some fullness in the suprapatellar pouch" toID="E23" toText="intermittent symptoms" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="10-27-93" type="ADMISSION" dvalue="1993-10-27" />
+<SECTIME id="S1" start="44" end="51" text="11-1-93" type="DISCHARGE" dvalue="1993-11-1" />
+<TLINK id="SECTIME0" fromID="E29" fromText="done well" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E30" fromText="mobilized" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E15" fromText="physical therapy" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E16" fromText="a continuous passive motion machine" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E31" fromText="His discharge" toID="T2" toText="11-1-93" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E32" fromText="range of motion" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E17" fromText="pain medication" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E19" fromText="Percocet" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E33" fromText="the Percocet" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E34" fromText="Coumadin" toID="T2" toText="11-1-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME10" fromID="E22" fromText="knee pain" toID="T1" toText="10-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME11" fromID="E20" fromText="aspirated" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E1" fromText="uric acid crystals" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E2" fromText="serum uric acid" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E3" fromText="erythrocyte sedimentation rate" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E23" fromText="intermittent symptoms" toID="T1" toText="10-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME16" fromID="E4" fromText="some fullness in the suprapatellar pouch" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E5" fromText="Plain films" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E24" fromText="revealed" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E6" fromText="some soft tissue calcification" toID="T1" toText="10-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME20" fromID="E7" fromText="an magnetic resonance imaging study" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E25" fromText="demonstrated" toID="T1" toText="10-27-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E8" fromText="calcification densities in the suprapatellar bursa region" toID="T1" toText="10-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME23" fromID="E9" fromText="hypertrophia of the synovium" toID="T1" toText="10-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E26" fromText="synovial chondromatosis" toID="T1" toText="10-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME25" fromID="E10" fromText="an open synovectomy" toID="T1" toText="10-27-93" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E11" fromText="debridement" toID="T1" toText="10-27-93" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E27" fromText="admitted" toID="T1" toText="10-27-93" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E28" fromText="that procedure" toID="T1" toText="10-27-93" type="AFTER" />
+<TLINK id="SECTIME29" fromID="E12" fromText="right knee open synovectomy" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E13" fromText="debridement" toID="T2" toText="11-1-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E14" fromText="synovial chondromatosis" toID="T2" toText="11-1-93" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

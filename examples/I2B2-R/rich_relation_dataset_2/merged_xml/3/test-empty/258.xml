@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-02-06
+Discharge Date :
+2011-02-08
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+Mr. Pohl is a 53 - year-old male with history of alcohol use and hypertension .
+He was found in his apartment lobby " shouting " and very agitated .
+The patient states that he recalls going out alone to a cafe the evening prior to admission .
+There he recalls having pizza and two glasses of red wine .
+The patient told other staff that he had a few cocktails and drinking a few more glasses of wine when he ran into some friends at a bar .
+He denies any other drug or toxin ingestion .
+He does not recall walking home , but he states that the way is well known to him .
+He has no further recollection , until he presented to the emergency room .
+He by emergency room report , was found in his apartment lobby agitated .
+EMS was called and the patient was taken to the emergency room .
+Blood alcohol level was 383 .
+Agitated in emergency room requiring 4 leather restraints , received 5 mg of Haldol , 2 mg of Ativan .
+He became hypotensive in the emergency room with a systolic blood pressure in the 80 's and had decreased respiratory rate .
+He received a normal saline bolus of 2 liters of good blood pressure response .
+The patient was then admitted to the medical Intensive Care Unit for observation of his blood pressure and then transferred to our service on medicine when the blood pressures remained stable overnight .
+The patient denies any chest pain , shortness of breath , dysuria , diarrhea , bright red blood per rectum .
+He does complain of cold symptoms times one week .
+The patient states in the past that he has participated in several alcohol treatment programs , most recently Star which is similar Alcoholics Anonymous .
+The patient admits that he has had many stressors in his life lately .
+His job as a computer programmer is unstable .
+His brother is mentally handicapped and might be sent away from his instate institution .
+He is also concerned about the threat of war and is ready to " move to Madagascar ".
+He states that he primarily relies on friends .
+In the past , he has been very depressed and has seen a counselor at Greenfield Community College Community Health .
+HOSPITAL COURSE :
+The patient was transferred to medicine service on hospital day #2 after remaining hemodynamically stable in the CMED CCU overnight .
+1. Blood pressure :
+The patient 's blood pressure remained stable on hospital day #2 through hospital day #3 status post IV hydration with systolic blood pressures in the 120 's to 130 's.
+We continued to hold the patient 's home blood pressure medications .
+The patient was asymptomatic without chest pain , shortness of breath and no mental status changes .
+2. Substance abuse :
+On Hospital day #2 through hospital day #3 , the patient had mild tremor on hands , but improved over hospital course .
+The patient became notably less anxious throughout hospital stay .
+CIWA scale over night was 1 for tremor and the patient did not require any Valium for alcohol withdrawal .
+We believe that the patient is able to be discharged and to follow up with Dr. Sandra Rose , addiction services as an outpatient .
+Call for further referral .
+3. FEN :
+Calcium carbonate 500 mg p.o. t.i.d. , Mag oxide 400 mg p.o. times one dose , potassium chloride repleted 40 mEq times one dose .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1018" end="1024" text="Haldol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1035" end="1041" text="Ativan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1054" end="1065" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1069" end="1087" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="1093" end="1118" text="a systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1140" end="1166" text="decreased respiratory rate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1181" end="1202" text="a normal saline bolus" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1218" end="1246" text="good blood pressure response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1270" end="1278" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1282" end="1313" text="the medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1318" end="1329" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1333" end="1351" text="his blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1361" end="1372" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1380" end="1399" text="service on medicine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E45" start="1405" end="1424" text="the blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1434" end="1440" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1465" end="1471" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E48" start="1472" end="1486" text="any chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E49" start="1489" end="1508" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1511" end="1518" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="1521" end="1529" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E52" start="1532" end="1559" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E53" start="1570" end="1578" text="complain" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="1582" end="1595" text="cold symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1625" end="1631" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="1680" end="1706" text="alcohol treatment programs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1723" end="1727" text="Star" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="174" end="185" text="alcohol use" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1780" end="1786" text="admits" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E59" start="1808" end="1817" text="stressors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1875" end="1883" text="unstable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="190" end="202" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1901" end="1921" text="mentally handicapped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1935" end="1944" text="sent away" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2003" end="2020" text="the threat of war" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2064" end="2070" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="2089" end="2106" text="relies on friends" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2135" end="2149" text="very depressed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2163" end="2174" text="a counselor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2178" end="2223" text="Greenfield Community College Community Health" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="2260" end="2271" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2275" end="2291" text="medicine service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="2327" end="2349" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2353" end="2365" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="2381" end="2395" text="Blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2398" end="2427" text="The patient 's blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="243" end="251" text="shouting" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2437" end="2443" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2499" end="2511" text="IV hydration" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2517" end="2541" text="systolic blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="258" end="271" text="very agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2603" end="2634" text="home blood pressure medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2653" end="2665" text="asymptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="2674" end="2684" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E81" start="2687" end="2706" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="2714" end="2735" text="mental status changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="2741" end="2756" text="Substance abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2820" end="2840" text="mild tremor on hands" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="286" end="292" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E99" start="2861" end="2876" text="hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2898" end="2918" text="notably less anxious" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2930" end="2943" text="hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2946" end="2956" text="CIWA scale" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E88" start="2978" end="2984" text="tremor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="3021" end="3027" text="Valium" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E90" start="3032" end="3050" text="alcohol withdrawal" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="309" end="324" text="going out alone" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="3095" end="3105" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="3113" end="3122" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="3184" end="3188" text="Call" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="3221" end="3238" text="Calcium carbonate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="3260" end="3269" text="Mag oxide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="3299" end="3317" text="potassium chloride" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="335" end="346" text="the evening" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="356" end="365" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="402" end="425" text="two glasses of red wine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="440" end="444" text="told" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="469" end="484" text="a few cocktails" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="498" end="524" text="a few more glasses of wine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="533" end="554" text="ran into some friends" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="569" end="575" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="580" end="590" text="other drug" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E16" start="594" end="609" text="toxin ingestion" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="615" end="643" text="does not recall walking home" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="653" end="659" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="706" end="726" text="further recollection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="738" end="747" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="751" end="769" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="778" end="792" text="emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="806" end="811" text="found" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="835" end="843" text="agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="846" end="860" text="EMS was called" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="890" end="908" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="911" end="930" text="Blood alcohol level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="941" end="949" text="Agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="953" end="967" text="emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="978" end="998" text="4 leather restraints" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="1441" end="1450" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T4" start="1602" end="1610" text="one week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2011-02-06" type="DATE" val="2011-02-06" mod="NA" />
+<TIMEX3 id="T5" start="2295" end="2310" text="hospital day #2" type="DATE" val="2011-02-07" mod="NA" />
+<TIMEX3 id="T6" start="2366" end="2375" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T7" start="2447" end="2462" text="hospital day #2" type="DATE" val="2011-02-07" mod="NA" />
+<TIMEX3 id="T8" start="2471" end="2486" text="hospital day #3" type="DATE" val="2011-02-08" mod="NA" />
+<TIMEX3 id="T9" start="2762" end="2777" text="Hospital day #2" type="DATE" val="2011-02-07" mod="NA" />
+<TIMEX3 id="T10" start="2786" end="2801" text="hospital day #3" type="DATE" val="2001-02-08" mod="NA" />
+<TIMEX3 id="T11" start="2957" end="2967" text="over night" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T12" start="3251" end="3257" text="t.i.d." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T13" start="3282" end="3296" text="times one dose" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T14" start="3334" end="3348" text="times one dose" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T2" start="335" end="346" text="the evening" type="DATE" val="2011-02-06" mod="END" />
+<TIMEX3 id="T1" start="46" end="56" text="2011-02-08" type="DATE" val="2011-02-08" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2011-02-06" type="ADMISSION" dvalue="2011-02-06" />
+<SECTIME id="S1" start="46" end="56" text="2011-02-08" type="DISCHARGE" dvalue="2011-02-08" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

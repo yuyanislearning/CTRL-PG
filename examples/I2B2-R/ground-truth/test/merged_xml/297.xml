@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-11-13
+Discharge Date :
+2014-12-05
+Service :
+Neonatology
+HISTORY :
+Baby Boy Timberlake was born to a 25 - year-old G-8 , P-4 to 5 mom with Julie type B positive , antibody negative , hepatitis B surface antigen negative , rubella immune , RPR nonreactive , GBS positive with a history of infrequent prenatal care since 28 weeks time and preterm labor .
+Mother had a history of anxiety and asthma as well as moderate cigarette smoking .
+The baby was delivered through normal spontaneous vaginal delivery with brief blow by with Apgars of 8 and 9 .
+Father of baby not involved at this time .
+The patient 's pediatrician is Wellesley House and is Dr . Shaw .
+The patient has many siblings , all of which are girls .
+HOSPITAL COURSE :
+By systems :
+Respiratory .
+After receiving brief blow by oxygen in the delivery room , the patient had no further episodes of ventilatory assistance required with good respiratory rate consistently .
+The patient was never placed on caffeine .
+He is stable in room air at this time .
+Cardiovascular .
+No active issues .
+No history of hypotension .
+On no medications at this time .
+Notably with respect to apnea and bradycardia of prematurity , the patient has reached 5 days without significant apneic or bradycardic spells as of the time of discharge .
+Fluids , electrolytes and nutrition .
+The patient reached full volume feeds by day of life 6 and had calories increased to maximum of 26 kilocalories per ounce of Similac special care until 2014-12-03 , at which point this was weaned to 24 kilocalories per ounce of straight Similac .
+This is the baby 's discharge feedings and he is p.o. ad lib with a minimum of 130 ml/kg/day , the patient has taken on an average greater than 150 ml/kg/day ad lib over each of the past 5 days .
+GI .
+The patient with peak bilirubin of 6.5 on day of life 3 .
+No phototherapy was required .
+Hematology / Infectious Disease .
+The patient 's hematocrit at delivery was 48 , with a white count of 11.2 and platelets of 301,000 .
+Initial differential was 35 polys and zero bands , not suspicious for infectious condition .
+The patient was initially treated with 48 hours of ampicillin and gentamicin until blood cultures were negative .
+The infant has had no antibiotics since that time .
+Neurology .
+No issues .
+Sensory .
+Hearing screen was performed with automated auditory brainstem responses and was normal on 2014-11-24 .
+Ophthalmology .
+The patient did not qualify for routine ophthalmology exams due to his gestational age at birth .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1002" end="1008" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1056" end="1069" text="active issues" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E8" start="1086" end="1097" text="hypotension" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E43" start="1106" end="1117" text="medications" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E9" start="1157" end="1162" text="apnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1167" end="1193" text="bradycardia of prematurity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1235" end="1275" text="significant apneic or bradycardic spells" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1364" end="1381" text="full volume feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1469" end="1489" text="Similac special care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1524" end="1528" text="this" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1572" end="1588" text="straight Similac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1591" end="1595" text="This" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1611" end="1629" text="discharge feedings" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1702" end="1707" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1809" end="1823" text="peak bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="185" end="193" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1853" end="1865" text="phototherapy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E14" start="1915" end="1940" text="The patient 's hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1944" end="1952" text="delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1967" end="1980" text="a white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1993" end="2002" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="2016" end="2036" text="Initial differential" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="205" end="232" text="hepatitis B surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="2041" end="2049" text="35 polys" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="2054" end="2064" text="zero bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="2086" end="2106" text="infectious condition" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="2160" end="2170" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="2175" end="2185" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="2192" end="2206" text="blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="2212" end="2220" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2245" end="2256" text="antibiotics" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E25" start="2309" end="2323" text="Hearing screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="2343" end="2381" text="automated auditory brainstem responses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="2390" end="2396" text="normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="244" end="258" text="rubella immune" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="2461" end="2488" text="routine ophthalmology exams" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E52" start="2519" end="2524" text="birth" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="261" end="264" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="279" end="291" text="GBS positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="471" end="480" text="delivered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="489" end="524" text="normal spontaneous vaginal delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="530" end="543" text="brief blow by" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="549" end="555" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="796" end="816" text="brief blow by oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="820" end="837" text="the delivery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="859" end="875" text="further episodes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="879" end="901" text="ventilatory assistance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="916" end="937" text="good respiratory rate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="985" end="993" text="caffeine" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<TIMEX3 id="T0" start="1024" end="1033" text="this time" type="DATE" val="2014-12-05" mod="NA" />
+<TIMEX3 id="T8" start="1121" end="1130" text="this time" type="DATE" val="2014-12-05" mod="NA" />
+<TIMEX3 id="T13" start="1220" end="1226" text="5 days" type="DURATION" val="P5D" mod="NA" />
+<TIMEX3 id="T14" start="1282" end="1303" text="the time of discharge" type="DATE" val="2014-12-05" mod="NA" />
+<TIMEX3 id="T9" start="1385" end="1398" text="day of life 6" type="DATE" val="2014-11-18" mod="NA" />
+<TIMEX3 id="T5" start="1496" end="1506" text="2014-12-03" type="DATE" val="2014-12-03" mod="NA" />
+<TIMEX3 id="T10" start="1769" end="1784" text="the past 5 days" type="DURATION" val="P5D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2014-11-13" type="DATE" val="2014-11-13" mod="NA" />
+<TIMEX3 id="T11" start="1834" end="1847" text="day of life 3" type="DATE" val="2014-11-15" mod="NA" />
+<TIMEX3 id="T6" start="2148" end="2156" text="48 hours" type="DURATION" val="PT48H" mod="NA" />
+<TIMEX3 id="T12" start="2263" end="2272" text="that time" type="DATE" val="2014-11-15" mod="NA" />
+<TIMEX3 id="T7" start="2400" end="2410" text="2014-11-24" type="DATE" val="2014-11-24" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2014-12-05" type="DATE" val="2014-12-05" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="TL1" fromID="E6" fromText="brief blow by oxygen" toID="E4" toText="brief blow by" type="OVERLAP" />
+<TLINK id="TL10" fromID="E35" fromText="GBS positive" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL11" fromID="E36" fromText="delivered" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL12" fromID="E3" fromText="normal spontaneous vaginal delivery" toID="E36" toText="delivered" type="OVERLAP" />
+<TLINK id="TL13" fromID="E4" fromText="brief blow by" toID="E3" toText="normal spontaneous vaginal delivery" type="OVERLAP" />
+<TLINK id="TL14" fromID="E4" fromText="brief blow by" toID="E5" toText="Apgars" type="OVERLAP" />
+<TLINK id="TL15" fromID="E6" fromText="brief blow by oxygen" toID="E37" toText="the delivery room" type="OVERLAP" />
+<TLINK id="TL16" fromID="E38" fromText="further episodes" toID="E39" toText="ventilatory assistance" type="OVERLAP" />
+<TLINK id="TL17" fromID="E39" fromText="ventilatory assistance" toID="E40" toText="good respiratory rate" type="OVERLAP" />
+<TLINK id="TL18" fromID="E38" fromText="further episodes" toID="E6" toText="brief blow by oxygen" type="AFTER" />
+<TLINK id="TL19" fromID="E7" fromText="caffeine" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL20" fromID="E41" fromText="stable" toID="T0" toText="this time" type="BEFORE" />
+<TLINK id="TL21" fromID="E42" fromText="active issues" toID="T0" toText="this time" type="BEFORE" />
+<TLINK id="TL22" fromID="E43" fromText="medications" toID="T8" toText="this time" type="BEFORE" />
+<TLINK id="TL23" fromID="E8" fromText="hypotension" toID="T8" toText="this time" type="BEFORE" />
+<TLINK id="TL24" fromID="E9" fromText="apnea" toID="E10" toText="bradycardia of prematurity" type="OVERLAP" />
+<TLINK id="TL26" fromID="E44" fromText="significant apneic or bradycardic spells" toID="T13" toText="5 days" type="OVERLAP" />
+<TLINK id="TL28" fromID="T13" fromText="5 days" toID="T14" toText="the time of discharge" type="BEFORE" />
+<TLINK id="TL29" fromID="E45" fromText="full volume feeds" toID="T9" toText="day of life 6" type="BEFORE" />
+<TLINK id="TL3" fromID="E14" fromText="The patient 's hematocrit" toID="E29" toText="delivery" type="OVERLAP" />
+<TLINK id="TL30" fromID="E11" fromText="Similac special care" toID="T5" toText="2014-12-03" type="BEFORE" />
+<TLINK id="TL31" fromID="E46" fromText="this" toID="T5" toText="2014-12-03" type="AFTER" />
+<TLINK id="TL32" fromID="E12" fromText="straight Similac" toID="E46" toText="this" type="OVERLAP" />
+<TLINK id="TL33" fromID="E47" fromText="This" toID="E46" toText="this" type="OVERLAP" />
+<TLINK id="TL34" fromID="E47" fromText="This" toID="E48" toText="discharge feedings" type="OVERLAP" />
+<TLINK id="TL35" fromID="E53" fromText="taken" toID="T10" toText="the past 5 days" type="OVERLAP" />
+<TLINK id="TL36" fromID="T10" fromText="the past 5 days" toID="T13" toText="5 days" type="OVERLAP" />
+<TLINK id="TL37" fromID="E13" fromText="peak bilirubin" toID="T11" toText="day of life 3" type="OVERLAP" />
+<TLINK id="TL38" fromID="E49" fromText="phototherapy" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL39" fromID="E29" fromText="delivery" toID="E15" toText="a white count" type="OVERLAP" />
+<TLINK id="TL4" fromID="E22" fromText="gentamicin" toID="T6" toText="48 hours" type="OVERLAP" />
+<TLINK id="TL40" fromID="E16" fromText="platelets" toID="E29" toText="delivery" type="OVERLAP" />
+<TLINK id="TL41" fromID="E29" fromText="delivery" toID="E36" toText="delivered" type="OVERLAP" />
+<TLINK id="TL42" fromID="E17" fromText="Initial differential" toID="E29" toText="delivery" type="OVERLAP" />
+<TLINK id="TL43" fromID="E18" fromText="35 polys" toID="E17" toText="Initial differential" type="OVERLAP" />
+<TLINK id="TL44" fromID="E19" fromText="zero bands" toID="E17" toText="Initial differential" type="OVERLAP" />
+<TLINK id="TL45" fromID="E20" fromText="infectious condition" toID="E17" toText="Initial differential" type="OVERLAP" />
+<TLINK id="TL46" fromID="T6" fromText="48 hours" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL47" fromID="E21" fromText="ampicillin" toID="T6" toText="48 hours" type="BEFORE" />
+<TLINK id="TL49" fromID="E23" fromText="blood cultures" toID="E50" toText="negative" type="BEFORE" />
+<TLINK id="TL5" fromID="E30" fromText="Discharge" toID="T2" toText="2014-12-05" type="OVERLAP" />
+<TLINK id="TL50" fromID="E22" fromText="gentamicin" toID="E50" toText="negative" type="BEFORE" />
+<TLINK id="TL51" fromID="E21" fromText="ampicillin" toID="E50" toText="negative" type="BEFORE" />
+<TLINK id="TL52" fromID="E24" fromText="antibiotics" toID="T12" toText="that time" type="BEFORE" />
+<TLINK id="TL53" fromID="E25" fromText="Hearing screen" toID="E26" toText="automated auditory brainstem responses" type="OVERLAP" />
+<TLINK id="TL54" fromID="E25" fromText="Hearing screen" toID="E51" toText="normal" type="OVERLAP" />
+<TLINK id="TL55" fromID="E25" fromText="Hearing screen" toID="T7" toText="2014-11-24" type="OVERLAP" />
+<TLINK id="TL56" fromID="E27" fromText="routine ophthalmology exams" toID="E52" toText="birth" type="AFTER" />
+<TLINK id="TL6" fromID="E31" fromText="antibody" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL7" fromID="E32" fromText="hepatitis B surface antigen" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL8" fromID="E33" fromText="rubella immune" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL9" fromID="E34" fromText="RPR" toID="E0" toText="Admission" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2014-11-13" type="ADMISSION" dvalue="2014-11-13" />
+<SECTIME id="S1" start="46" end="56" text="2014-12-05" type="DISCHARGE" dvalue="2014-12-05" />
+<TLINK id="SECTIME0" fromID="E41" fromText="stable" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E42" fromText="active issues" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E8" fromText="hypotension" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E43" fromText="medications" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E9" fromText="apnea" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E10" fromText="bradycardia of prematurity" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E44" fromText="significant apneic or bradycardic spells" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E45" fromText="full volume feeds" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E11" fromText="Similac special care" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E46" fromText="this" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="straight Similac" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E47" fromText="This" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E48" fromText="discharge feedings" toID="T2" toText="2014-12-05" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E53" fromText="taken" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E13" fromText="peak bilirubin" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E31" fromText="antibody" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E49" fromText="phototherapy" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E14" fromText="The patient 's hematocrit" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E29" fromText="delivery" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E15" fromText="a white count" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E16" fromText="platelets" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E17" fromText="Initial differential" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E32" fromText="hepatitis B surface antigen" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E18" fromText="35 polys" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E19" fromText="zero bands" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E20" fromText="infectious condition" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E21" fromText="ampicillin" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E22" fromText="gentamicin" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E23" fromText="blood cultures" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E50" fromText="negative" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E24" fromText="antibiotics" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E25" fromText="Hearing screen" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E26" fromText="automated auditory brainstem responses" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E51" fromText="normal" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E33" fromText="rubella immune" toID="T1" toText="2014-11-13" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E27" fromText="routine ophthalmology exams" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E52" fromText="birth" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E34" fromText="RPR" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E35" fromText="GBS positive" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E36" fromText="delivered" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E3" fromText="normal spontaneous vaginal delivery" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E4" fromText="brief blow by" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E5" fromText="Apgars" toID="T1" toText="2014-11-13" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E6" fromText="brief blow by oxygen" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E37" fromText="the delivery room" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E38" fromText="further episodes" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E39" fromText="ventilatory assistance" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E40" fromText="good respiratory rate" toID="T2" toText="2014-12-05" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E7" fromText="caffeine" toID="T2" toText="2014-12-05" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

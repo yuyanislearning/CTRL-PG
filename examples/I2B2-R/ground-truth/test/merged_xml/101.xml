@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+07/10/1991
+Discharge Date :
+07/18/1991
+PROCEDURES :
+Thoracentesis was performed on 7-12-91 .
+REASON FOR ADMISSION :
+The patient is an 85-year-old white male with a history of ischemic bowel status post recent admission for urosepsis and C. difficile colitis .
+He returns from the nursing home with fever , leukocytosis , and azotemia .
+PRESENT ILLNESS :
+Briefly , the patient has a history of chronic obstructive pulmonary disease , ethanol abuse , chronic pleural effusions , and chronic renal insufficiency .
+He presented to Gaanvantsir on 04-17-92 with abdominal pain and bloody diarrhea .
+Workup revealed ischemic bowel secondary to Celiac and SMA stenoses .
+The patient underwent an angioplasty of his SMA from 90-20% residual .
+The patient was also found to have gram negative rod sepsis with blood cultures times two growing E. coli and B. fragilis .
+The patient was treated with ampicillin , gentamicin , and Flagyl .
+The patient was readmitted on 5-21-91 with a falling hematocrit from 36 to 22 , mild congestive heart failure , and guaiac positive stool .
+The colonoscopy and upper gastrointestinal series were negative .
+The patient was given two units of packed red blood cells and H2 blockers .
+His hematocrit was 31 on discharge .
+His hematocrit was 31 on discharge .
+On 6-12-91 the patient was admitted to Ingtermst.gay Health Center with fever , hypertension , and diarrhea .
+The BUN and creatinine equalled 128/8.6 , CO2 equaled 12 .
+The patient was treated with intravenous fluids , Kefzol , gentamicin , Vancomycin , and he was transferred to Gaanvantsir .
+He was hospitalized from 6-12-91 to 7-9-91 with a prolonged course notable for :
+1) Serratia urosepsis treated with ceftizoxime .
+2) Azotemia presumed secondary to sepsis and dehydration , creatinine decreased to 2.1 with intravenous fluids and antibiotics .
+Renal ultrasound was negative for abscess orhydronephrosis .
+3) Loculated pleural effusions .
+Thoracentesis revealed a pH of 7.18 , glucose 52 , white blood cell count 200 ; evaluated by thoracic surgery , no chest tube placed .
+4) C. difficile colitis with white blood cell count rising to 51,000 , treated with intravenous and p.o. Flagyl .
+C. difficile was negative times three prior to discharge .
+The patient went to his nursing home on 7-9-91 but the next day he developed a temperature to 102.4 degrees , diarrhea , and orthostasis and he was transferred back to Gaanvantsir .
+The patient was admitted to the medical intensive care unit with question of sepsis .
+White blood cell count was 40,000 with left shift .
+The BUN was 35 , creatinine 4.3 .
+Urinalysis had 5-10 white blood cells and 2+ bacteria .
+The patient underwent thoracentesis without evidence of empyema .
+He was treated with intravenous fluids and intravenous antibiotics with ceftizoxime , gentamicin , and Flagyl .
+He was also started on p.o. Vancomycin for question C. difficile colitis .
+He is now transferred to the medicine service for further care .
+HOSPITAL COURSE :
+1. Colitis .
+The patient has a history of ischemic bowel status post SMA Percutaneous Transluminal Coronary Angioplasty with recent admission for gram negative rod urosepsis complicated by C. difficile colitis .
+The patient received a full course of Flagyl and was C. difficile toxin negative times three prior to transfer .
+He now returns with fever , rising white count , diarrhea , and dehydration .
+Initially treated with intravenous ceftizoxime , gentamicin , and Flagyl for presumed sepsis , either with urine or bowel source .
+He was also started on p.o. Vancomycin .
+Blood cultures and urine cultures came back negative .
+Stool for C. difficile returned positive .
+The diagnosis , therefore , was relapsed C. difficile colitis .
+Intravenous antibiotics were discontinued and the patient was continued on p.o. Vancomycin .
+He improved clinically with defervescence , decreased white blood cell count to 10,000 with resolution of left shift , and some decrease in abdominal distention on exam .
+An abdominal CAT scan revealed thickened bowel wall and thumb printing , primarily involving the cecum and right colon greater than the left , consistent with C. difficile colitis .
+The diagnosis of recurrent bowel ischemia , however , was not ruled out and this will continue to be a concern in the future .
+The patient was initially n.p.o. and was then advanced to clear liquids which he tolerated .
+He will be advanced to soft solids prior to discharge .
+2. Azotemia .
+The patient has chronic renal insufficiency with baseline creatinine 1.8-2 .
+Creatinine had risen to 4.3 on admission presumed secondary to sepsis and dehydration .
+With intravenous hydration the BUN and creatinine fell to 12/1.9 which is within normal limits for this patient .
+The abdominal CAT scan showed no evidence of hydronephrosis orrenal abscess .
+3. Mental status .
+The patient was alert and oriented throughout the admission ; however , by personality , he is somewhat cantankerous and demanding of the nurses .
+He was written for Haldol 1 mg p.o b.i.d. p.r.n. to help with this problem .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1024" end="1053" text="mild congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1060" end="1081" text="guaiac positive stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1084" end="1099" text="The colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1104" end="1133" text="upper gastrointestinal series" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1185" end="1207" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1212" end="1223" text="H2 blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1226" end="1240" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E124" start="1251" end="1260" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1263" end="1277" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E125" start="1288" end="1297" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="1327" end="1335" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="1339" end="1366" text="Ingtermst.gay Health Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="1372" end="1377" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1380" end="1392" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1399" end="1407" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1410" end="1417" text="The BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1422" end="1432" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1452" end="1455" text="CO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1498" end="1516" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1519" end="1525" text="Kefzol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1528" end="1538" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1541" end="1551" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E106" start="1565" end="1576" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E107" start="1580" end="1591" text="Gaanvantsir" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E126" start="1601" end="1613" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E127" start="1678" end="1696" text="Serratia urosepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1710" end="1721" text="ceftizoxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1727" end="1735" text="Azotemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="1758" end="1764" text="sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1769" end="1780" text="dehydration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1783" end="1793" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E171" start="1794" end="1803" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1816" end="1834" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1839" end="1850" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1853" end="1869" text="Renal ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1887" end="1911" text="abscess orhydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1917" end="1944" text="Loculated pleural effusions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="193" end="207" text="ischemic bowel" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1947" end="1960" text="Thoracentesis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E129" start="1961" end="1969" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="1970" end="1974" text="a pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1985" end="1992" text="glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1998" end="2020" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="2062" end="2072" text="chest tube" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E50" start="2085" end="2105" text="C. difficile colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="2111" end="2133" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2166" end="2193" text="intravenous and p.o. Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="2196" end="2208" text="C. difficile" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E130" start="2243" end="2252" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="227" end="236" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E131" start="2275" end="2291" text="his nursing home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="2332" end="2345" text="a temperature" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2365" end="2373" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2380" end="2391" text="orthostasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="241" end="250" text="urosepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="2403" end="2414" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="2423" end="2434" text="Gaanvantsir" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E134" start="2453" end="2461" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E135" start="2465" end="2496" text="the medical intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E136" start="2514" end="2520" text="sepsis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E137" start="2523" end="2545" text="White blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="255" end="275" text="C. difficile colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="2562" end="2572" text="left shift" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E139" start="2575" end="2582" text="The BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E140" start="2592" end="2602" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E141" start="2609" end="2619" text="Urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E142" start="2624" end="2646" text="5-10 white blood cells" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E143" start="2651" end="2662" text="2+ bacteria" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E144" start="2687" end="2700" text="thoracentesis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E145" start="2721" end="2728" text="empyema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E146" start="2751" end="2769" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E147" start="2774" end="2797" text="intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E148" start="2803" end="2814" text="ceftizoxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E149" start="2817" end="2827" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E150" start="2834" end="2840" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E151" start="2866" end="2881" text="p.o. Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E152" start="2895" end="2915" text="C. difficile colitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E153" start="2928" end="2939" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="294" end="310" text="the nursing home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E155" start="2943" end="2963" text="the medicine service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E156" start="2968" end="2980" text="further care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="3004" end="3011" text="Colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="3043" end="3057" text="ischemic bowel" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="3070" end="3120" text="SMA Percutaneous Transluminal Coronary Angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="3133" end="3142" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="3147" end="3174" text="gram negative rod urosepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="316" end="321" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="3190" end="3210" text="C. difficile colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="324" end="336" text="leukocytosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="3234" end="3257" text="a full course of Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="3266" end="3284" text="C. difficile toxin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E109" start="3315" end="3323" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="3346" end="3351" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="3354" end="3372" text="rising white count" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="3375" end="3383" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="3390" end="3401" text="dehydration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="343" end="351" text="azotemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="3427" end="3450" text="intravenous ceftizoxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="3453" end="3463" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="3470" end="3476" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="3490" end="3496" text="sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="3558" end="3573" text="p.o. Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="3576" end="3590" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="3595" end="3609" text="urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="3631" end="3653" text="Stool for C. difficile" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="3663" end="3671" text="positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="3706" end="3735" text="relapsed C. difficile colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="3738" end="3761" text="Intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="3813" end="3828" text="p.o. Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="3885" end="3907" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="3937" end="3947" text="left shift" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="3971" end="3991" text="abdominal distention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="3995" end="3999" text="exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="4002" end="4023" text="An abdominal CAT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E168" start="4024" end="4032" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E85" start="4033" end="4053" text="thickened bowel wall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="4058" end="4072" text="thumb printing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="411" end="448" text="chronic obstructive pulmonary disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="4161" end="4181" text="C. difficile colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E169" start="4201" end="4225" text="recurrent bowel ischemia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="4337" end="4343" text="n.p.o." modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="4369" end="4382" text="clear liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E172" start="4392" end="4401" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="4427" end="4438" text="soft solids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E167" start="4448" end="4457" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="4463" end="4471" text="Azotemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E165" start="4490" end="4517" text="chronic renal insufficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="451" end="464" text="ethanol abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E166" start="4523" end="4542" text="baseline creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="4551" end="4561" text="Creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="4582" end="4591" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="4614" end="4620" text="sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="4625" end="4636" text="dehydration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="4644" end="4665" text="intravenous hydration" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="467" end="492" text="chronic pleural effusions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="4666" end="4673" text="the BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="4678" end="4688" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="4753" end="4775" text="The abdominal CAT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E164" start="4776" end="4782" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E99" start="4798" end="4812" text="hydronephrosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="4813" end="4828" text="orrenal abscess" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E162" start="4866" end="4871" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E163" start="4876" end="4884" text="oriented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E157" start="4896" end="4909" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E160" start="4954" end="4966" text="cantankerous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E161" start="4971" end="4980" text="demanding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="499" end="526" text="chronic renal insufficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E158" start="5016" end="5022" text="Haldol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E159" start="5059" end="5071" text="this problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E170" start="532" end="541" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E102" start="545" end="556" text="Gaanvantsir" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="574" end="588" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="593" end="608" text="bloody diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="611" end="617" text="Workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E123" start="618" end="626" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="627" end="641" text="ischemic bowel" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="655" end="661" text="Celiac" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="666" end="678" text="SMA stenoses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="70" end="83" text="Thoracentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="703" end="717" text="an angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="721" end="728" text="his SMA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="787" end="811" text="gram negative rod sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="817" end="831" text="blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="850" end="857" text="E. coli" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="862" end="873" text="B. fragilis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="905" end="915" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="918" end="928" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="935" end="941" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="960" end="970" text="readmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="987" end="1007" text="a falling hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="101" end="108" text="7-12-91" type="DATE" val="1991-07-12" mod="NA" />
+<TIMEX3 id="T9" start="1303" end="1310" text="6-12-91" type="DATE" val="1991-06-12" mod="NA" />
+<TIMEX3 id="T4" start="1619" end="1626" text="6-12-91" type="DATE" val="1991-06-12" mod="NA" />
+<TIMEX3 id="T5" start="1630" end="1636" text="7-9-91" type="DATE" val="1991-07-09" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="07/10/1991" type="DATE" val="1991-07-10" mod="NA" />
+<TIMEX3 id="T6" start="2295" end="2301" text="7-9-91" type="DATE" val="1991-07-09" mod="NA" />
+<TIMEX3 id="T7" start="2306" end="2318" text="the next day" type="DATE" val="1991-07-10" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="07/18/1991" type="DATE" val="1991-07-18" mod="NA" />
+<TIMEX3 id="T10" start="5032" end="5038" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T8" start="560" end="568" text="04-17-92" type="DATE" val="1992-04-17" mod="NA" />
+<TIMEX3 id="T3" start="974" end="981" text="5-21-91" type="DATE" val="1991-05-21" mod="NA" />
+<TLINK id="TL1" fromID="E84" fromText="An abdominal CAT scan" toID="E98" toText="The abdominal CAT scan" type="OVERLAP" />
+<TLINK id="TL10" fromID="E71" fromText="sepsis" toID="E93" toText="sepsis" type="OVERLAP" />
+<TLINK id="TL100" fromID="E129" fromText="revealed" toID="E45" toText="Thoracentesis" type="OVERLAP" />
+<TLINK id="TL101" fromID="E46" fromText="a pH" toID="E45" toText="Thoracentesis" type="BEFORE" />
+<TLINK id="TL102" fromID="E47" fromText="glucose" toID="E45" toText="Thoracentesis" type="BEFORE" />
+<TLINK id="TL103" fromID="E48" fromText="white blood cell count" toID="E45" toText="Thoracentesis" type="BEFORE" />
+<TLINK id="TL104" fromID="E49" fromText="chest tube" toID="E45" toText="Thoracentesis" type="OVERLAP" />
+<TLINK id="TL105" fromID="E44" fromText="Loculated pleural effusions" toID="E50" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL106" fromID="E127" fromText="Serratia urosepsis" toID="E114" toText="urosepsis" type="OVERLAP" />
+<TLINK id="TL107" fromID="E101" fromText="admission" toID="E126" toText="hospitalized" type="OVERLAP" />
+<TLINK id="TL108" fromID="E53" fromText="C. difficile" toID="E50" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL109" fromID="E50" fromText="C. difficile colitis" toID="E51" toText="white blood cell count" type="OVERLAP" />
+<TLINK id="TL11" fromID="E72" fromText="p.o. Vancomycin" toID="E79" toText="p.o. Vancomycin" type="OVERLAP" />
+<TLINK id="TL110" fromID="E50" fromText="C. difficile colitis" toID="E52" toText="intravenous and p.o. Flagyl" type="BEFORE" />
+<TLINK id="TL111" fromID="E53" fromText="C. difficile" toID="E130" toText="discharge" type="BEFORE" />
+<TLINK id="TL112" fromID="E131" fromText="his nursing home" toID="T6" toText="7-9-91" type="OVERLAP" />
+<TLINK id="TL113" fromID="E54" fromText="a temperature" toID="T7" toText="the next day" type="AFTER" />
+<TLINK id="TL114" fromID="E54" fromText="a temperature" toID="E55" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL115" fromID="E55" fromText="diarrhea" toID="E56" toText="orthostasis" type="OVERLAP" />
+<TLINK id="TL116" fromID="E132" fromText="transferred" toID="T7" toText="the next day" type="OVERLAP" />
+<TLINK id="TL117" fromID="E133" fromText="Gaanvantsir" toID="E132" toText="transferred" type="AFTER" />
+<TLINK id="TL118" fromID="E135" fromText="the medical intensive care unit" toID="E134" toText="admitted" type="AFTER" />
+<TLINK id="TL119" fromID="E136" fromText="sepsis" toID="E137" toText="White blood cell count" type="OVERLAP" />
+<TLINK id="TL12" fromID="E28" fromText="diarrhea" toID="E55" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL120" fromID="E136" fromText="sepsis" toID="E135" toText="the medical intensive care unit" type="BEFORE" />
+<TLINK id="TL121" fromID="E137" fromText="White blood cell count" toID="E138" toText="left shift" type="OVERLAP" />
+<TLINK id="TL122" fromID="E139" fromText="The BUN" toID="E137" toText="White blood cell count" type="OVERLAP" />
+<TLINK id="TL123" fromID="E140" fromText="creatinine" toID="E92" toText="Creatinine" type="OVERLAP" />
+<TLINK id="TL124" fromID="E139" fromText="The BUN" toID="E140" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL125" fromID="E141" fromText="Urinalysis" toID="E142" toText="5-10 white blood cells" type="OVERLAP" />
+<TLINK id="TL126" fromID="E142" fromText="5-10 white blood cells" toID="E143" toText="2+ bacteria" type="OVERLAP" />
+<TLINK id="TL127" fromID="E140" fromText="creatinine" toID="E141" toText="Urinalysis" type="OVERLAP" />
+<TLINK id="TL128" fromID="E143" fromText="2+ bacteria" toID="E144" toText="thoracentesis" type="OVERLAP" />
+<TLINK id="TL129" fromID="E145" fromText="empyema" toID="E144" toText="thoracentesis" type="OVERLAP" />
+<TLINK id="TL13" fromID="E24" fromText="His hematocrit" toID="E25" toText="His hematocrit" type="OVERLAP" />
+<TLINK id="TL130" fromID="E146" fromText="intravenous fluids" toID="E95" toText="intravenous hydration" type="OVERLAP" />
+<TLINK id="TL131" fromID="E146" fromText="intravenous fluids" toID="E147" toText="intravenous antibiotics" type="OVERLAP" />
+<TLINK id="TL133" fromID="E146" fromText="intravenous fluids" toID="E133" toText="Gaanvantsir" type="OVERLAP" />
+<TLINK id="TL134" fromID="E148" fromText="ceftizoxime" toID="E149" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL135" fromID="E147" fromText="intravenous antibiotics" toID="E148" toText="ceftizoxime" type="OVERLAP" />
+<TLINK id="TL136" fromID="E36" fromText="ceftizoxime" toID="E148" toText="ceftizoxime" type="OVERLAP" />
+<TLINK id="TL137" fromID="E149" fromText="gentamicin" toID="E150" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL138" fromID="E69" fromText="gentamicin" toID="E149" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL14" fromID="E26" fromText="fever" toID="E54" toText="a temperature" type="OVERLAP" />
+<TLINK id="TL140" fromID="E70" fromText="Flagyl" toID="E150" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL141" fromID="E72" fromText="p.o. Vancomycin" toID="E151" toText="p.o. Vancomycin" type="OVERLAP" />
+<TLINK id="TL142" fromID="E152" fromText="C. difficile colitis" toID="E151" toText="p.o. Vancomycin" type="BEFORE" />
+<TLINK id="TL143" fromID="E150" fromText="Flagyl" toID="E151" toText="p.o. Vancomycin" type="OVERLAP" />
+<TLINK id="TL144" fromID="E135" fromText="the medical intensive care unit" toID="E153" toText="transferred" type="BEFORE" />
+<TLINK id="TL145" fromID="E155" fromText="the medicine service" toID="E153" toText="transferred" type="AFTER" />
+<TLINK id="TL146" fromID="E152" fromText="C. difficile colitis" toID="E153" toText="transferred" type="BEFORE" />
+<TLINK id="TL147" fromID="E155" fromText="the medicine service" toID="E156" toText="further care" type="OVERLAP" />
+<TLINK id="TL148" fromID="E152" fromText="C. difficile colitis" toID="E57" toText="Colitis" type="OVERLAP" />
+<TLINK id="TL149" fromID="E58" fromText="ischemic bowel" toID="E169" toText="recurrent bowel ischemia" type="OVERLAP" />
+<TLINK id="TL150" fromID="E58" fromText="ischemic bowel" toID="E59" toText="SMA Percutaneous Transluminal Coronary Angioplasty" type="BEFORE" />
+<TLINK id="TL151" fromID="E8" fromText="an angioplasty" toID="E59" toText="SMA Percutaneous Transluminal Coronary Angioplasty" type="OVERLAP" />
+<TLINK id="TL152" fromID="E61" fromText="C. difficile colitis" toID="E60" toText="gram negative rod urosepsis" type="OVERLAP" />
+<TLINK id="TL153" fromID="E60" fromText="gram negative rod urosepsis" toID="E108" toText="admission" type="BEFORE" />
+<TLINK id="TL154" fromID="E108" fromText="admission" toID="E126" toText="hospitalized" type="OVERLAP" />
+<TLINK id="TL155" fromID="E58" fromText="ischemic bowel" toID="E5" toText="ischemic bowel" type="OVERLAP" />
+<TLINK id="TL156" fromID="E61" fromText="C. difficile colitis" toID="E62" toText="a full course of Flagyl" type="BEFORE" />
+<TLINK id="TL157" fromID="E62" fromText="a full course of Flagyl" toID="E16" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL158" fromID="E64" fromText="fever" toID="E65" toText="rising white count" type="OVERLAP" />
+<TLINK id="TL159" fromID="E65" fromText="rising white count" toID="E66" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL16" fromID="E67" fromText="dehydration" toID="E94" toText="dehydration" type="OVERLAP" />
+<TLINK id="TL160" fromID="E66" fromText="diarrhea" toID="E67" toText="dehydration" type="OVERLAP" />
+<TLINK id="TL161" fromID="E68" fromText="intravenous ceftizoxime" toID="E148" toText="ceftizoxime" type="OVERLAP" />
+<TLINK id="TL162" fromID="E78" fromText="Intravenous antibiotics" toID="E68" toText="intravenous ceftizoxime" type="OVERLAP" />
+<TLINK id="TL163" fromID="E71" fromText="sepsis" toID="E70" toText="Flagyl" type="BEFORE" />
+<TLINK id="TL164" fromID="E69" fromText="gentamicin" toID="E70" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL165" fromID="E71" fromText="sepsis" toID="E72" toText="p.o. Vancomycin" type="BEFORE" />
+<TLINK id="TL166" fromID="E73" fromText="Blood cultures" toID="E74" toText="urine cultures" type="OVERLAP" />
+<TLINK id="TL167" fromID="E73" fromText="Blood cultures" toID="E155" toText="the medicine service" type="OVERLAP" />
+<TLINK id="TL168" fromID="E76" fromText="positive" toID="E75" toText="Stool for C. difficile" type="BEFORE" />
+<TLINK id="TL169" fromID="E74" fromText="urine cultures" toID="E75" toText="Stool for C. difficile" type="OVERLAP" />
+<TLINK id="TL17" fromID="E7" fromText="SMA stenoses" toID="E9" toText="his SMA" type="OVERLAP" />
+<TLINK id="TL170" fromID="E61" fromText="C. difficile colitis" toID="E77" toText="relapsed C. difficile colitis" type="BEFORE" />
+<TLINK id="TL171" fromID="E78" fromText="Intravenous antibiotics" toID="E76" toText="positive" type="BEFORE" />
+<TLINK id="TL172" fromID="E68" fromText="intravenous ceftizoxime" toID="E76" toText="positive" type="BEFORE" />
+<TLINK id="TL173" fromID="E69" fromText="gentamicin" toID="E76" toText="positive" type="BEFORE" />
+<TLINK id="TL174" fromID="E70" fromText="Flagyl" toID="E76" toText="positive" type="BEFORE" />
+<TLINK id="TL175" fromID="E79" fromText="p.o. Vancomycin" toID="E80" toText="white blood cell count" type="BEFORE" />
+<TLINK id="TL176" fromID="E79" fromText="p.o. Vancomycin" toID="E81" toText="left shift" type="BEFORE" />
+<TLINK id="TL177" fromID="E138" fromText="left shift" toID="E81" toText="left shift" type="OVERLAP" />
+<TLINK id="TL178" fromID="E79" fromText="p.o. Vancomycin" toID="E82" toText="abdominal distention" type="BEFORE" />
+<TLINK id="TL179" fromID="E82" fromText="abdominal distention" toID="E83" toText="exam" type="OVERLAP" />
+<TLINK id="TL18" fromID="E10" fromText="gram negative rod sepsis" toID="E60" toText="gram negative rod urosepsis" type="OVERLAP" />
+<TLINK id="TL180" fromID="E85" fromText="thickened bowel wall" toID="E84" toText="An abdominal CAT scan" type="BEFORE" />
+<TLINK id="TL181" fromID="E168" fromText="revealed" toID="E84" toText="An abdominal CAT scan" type="OVERLAP" />
+<TLINK id="TL182" fromID="E84" fromText="An abdominal CAT scan" toID="E83" toText="exam" type="OVERLAP" />
+<TLINK id="TL183" fromID="E86" fromText="thumb printing" toID="E84" toText="An abdominal CAT scan" type="BEFORE" />
+<TLINK id="TL184" fromID="E86" fromText="thumb printing" toID="E87" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL185" fromID="E169" fromText="recurrent bowel ischemia" toID="E87" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL186" fromID="E169" fromText="recurrent bowel ischemia" toID="E88" toText="n.p.o." type="OVERLAP" />
+<TLINK id="TL187" fromID="E88" fromText="n.p.o." toID="E89" toText="clear liquids" type="BEFORE" />
+<TLINK id="TL188" fromID="E89" fromText="clear liquids" toID="E172" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL189" fromID="E89" fromText="clear liquids" toID="E90" toText="soft solids" type="BEFORE" />
+<TLINK id="TL19" fromID="E55" fromText="diarrhea" toID="E66" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL190" fromID="E90" fromText="soft solids" toID="E167" toText="discharge" type="BEFORE" />
+<TLINK id="TL191" fromID="E91" fromText="Azotemia" toID="E87" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL192" fromID="E91" fromText="Azotemia" toID="E165" toText="chronic renal insufficiency" type="OVERLAP" />
+<TLINK id="TL193" fromID="E165" fromText="chronic renal insufficiency" toID="E166" toText="baseline creatinine" type="OVERLAP" />
+<TLINK id="TL194" fromID="E92" fromText="Creatinine" toID="E110" toText="admission" type="OVERLAP" />
+<TLINK id="TL195" fromID="E93" fromText="sepsis" toID="E92" toText="Creatinine" type="BEFORE" />
+<TLINK id="TL196" fromID="E94" fromText="dehydration" toID="E92" toText="Creatinine" type="BEFORE" />
+<TLINK id="TL197" fromID="E95" fromText="intravenous hydration" toID="E97" toText="creatinine" type="BEFORE" />
+<TLINK id="TL198" fromID="E95" fromText="intravenous hydration" toID="E96" toText="the BUN" type="BEFORE" />
+<TLINK id="TL199" fromID="E164" fromText="showed" toID="E98" toText="The abdominal CAT scan" type="OVERLAP" />
+<TLINK id="TL2" fromID="E76" fromText="positive" toID="E77" toText="relapsed C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL20" fromID="E1" fromText="C. difficile colitis" toID="E50" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL200" fromID="E100" fromText="orrenal abscess" toID="E98" toText="The abdominal CAT scan" type="OVERLAP" />
+<TLINK id="TL201" fromID="E99" fromText="hydronephrosis" toID="E98" toText="The abdominal CAT scan" type="OVERLAP" />
+<TLINK id="TL202" fromID="E162" fromText="alert" toID="E157" toText="the admission" type="OVERLAP" />
+<TLINK id="TL203" fromID="E163" fromText="oriented" toID="E157" toText="the admission" type="OVERLAP" />
+<TLINK id="TL204" fromID="E157" fromText="the admission" toID="E155" toText="the medicine service" type="OVERLAP" />
+<TLINK id="TL205" fromID="E155" fromText="the medicine service" toID="E167" toText="discharge" type="BEFORE" />
+<TLINK id="TL206" fromID="E160" fromText="cantankerous" toID="E157" toText="the admission" type="BEFORE" />
+<TLINK id="TL207" fromID="E161" fromText="demanding" toID="E157" toText="the admission" type="BEFORE" />
+<TLINK id="TL208" fromID="E159" fromText="this problem" toID="E158" toText="Haldol" type="BEFORE" />
+<TLINK id="TL209" fromID="E158" fromText="Haldol" toID="T10" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL21" fromID="E17" fromText="a falling hematocrit" toID="E103" toText="readmitted" type="BEFORE" />
+<TLINK id="TL210" fromID="E160" fromText="cantankerous" toID="E159" toText="this problem" type="OVERLAP" />
+<TLINK id="TL211" fromID="E161" fromText="demanding" toID="E160" toText="cantankerous" type="OVERLAP" />
+<TLINK id="TL22" fromID="E63" fromText="C. difficile toxin" toID="E109" toText="transfer" type="BEFORE" />
+<TLINK id="TL23" fromID="E0" fromText="Admission" toID="T1" toText="07/10/1991" type="OVERLAP" />
+<TLINK id="TL24" fromID="E167" fromText="discharge" toID="E111" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL25" fromID="E111" fromText="Discharge" toID="T2" toText="07/18/1991" type="OVERLAP" />
+<TLINK id="TL26" fromID="E113" fromText="ischemic bowel" toID="E5" toText="ischemic bowel" type="OVERLAP" />
+<TLINK id="TL27" fromID="E113" fromText="ischemic bowel" toID="E114" toText="urosepsis" type="BEFORE" />
+<TLINK id="TL28" fromID="E114" fromText="urosepsis" toID="E101" toText="admission" type="BEFORE" />
+<TLINK id="TL29" fromID="E1" fromText="C. difficile colitis" toID="E101" toText="admission" type="BEFORE" />
+<TLINK id="TL3" fromID="E61" fromText="C. difficile colitis" toID="E76" toText="positive" type="BEFORE" />
+<TLINK id="TL30" fromID="E115" fromText="fever" toID="E101" toText="admission" type="AFTER" />
+<TLINK id="TL31" fromID="E116" fromText="leukocytosis" toID="E115" toText="fever" type="OVERLAP" />
+<TLINK id="TL32" fromID="E116" fromText="leukocytosis" toID="E117" toText="azotemia" type="OVERLAP" />
+<TLINK id="TL33" fromID="E118" fromText="the nursing home" toID="E101" toText="admission" type="AFTER" />
+<TLINK id="TL34" fromID="E119" fromText="chronic obstructive pulmonary disease" toID="E121" toText="chronic pleural effusions" type="OVERLAP" />
+<TLINK id="TL35" fromID="E120" fromText="ethanol abuse" toID="E119" toText="chronic obstructive pulmonary disease" type="OVERLAP" />
+<TLINK id="TL36" fromID="E121" fromText="chronic pleural effusions" toID="E122" toText="chronic renal insufficiency" type="OVERLAP" />
+<TLINK id="TL37" fromID="E112" fromText="Thoracentesis" toID="T0" toText="7-12-91" type="OVERLAP" />
+<TLINK id="TL38" fromID="E102" fromText="Gaanvantsir" toID="E170" toText="presented" type="AFTER" />
+<TLINK id="TL39" fromID="E119" fromText="chronic obstructive pulmonary disease" toID="E170" toText="presented" type="BEFORE" />
+<TLINK id="TL4" fromID="E38" fromText="dehydration" toID="E67" toText="dehydration" type="OVERLAP" />
+<TLINK id="TL40" fromID="E170" fromText="presented" toID="T8" toText="04-17-92" type="OVERLAP" />
+<TLINK id="TL41" fromID="E2" fromText="abdominal pain" toID="E170" toText="presented" type="BEFORE" />
+<TLINK id="TL42" fromID="E3" fromText="bloody diarrhea" toID="E170" toText="presented" type="BEFORE" />
+<TLINK id="TL43" fromID="E123" fromText="revealed" toID="E4" toText="Workup" type="OVERLAP" />
+<TLINK id="TL44" fromID="E5" fromText="ischemic bowel" toID="E4" toText="Workup" type="BEFORE" />
+<TLINK id="TL45" fromID="E3" fromText="bloody diarrhea" toID="E4" toText="Workup" type="BEFORE" />
+<TLINK id="TL46" fromID="E6" fromText="Celiac" toID="E5" toText="ischemic bowel" type="BEFORE" />
+<TLINK id="TL47" fromID="E7" fromText="SMA stenoses" toID="E5" toText="ischemic bowel" type="OVERLAP" />
+<TLINK id="TL48" fromID="E9" fromText="his SMA" toID="E8" toText="an angioplasty" type="BEFORE" />
+<TLINK id="TL49" fromID="E10" fromText="gram negative rod sepsis" toID="E11" toText="blood cultures" type="BEFORE" />
+<TLINK id="TL5" fromID="E57" fromText="Colitis" toID="E61" toText="C. difficile colitis" type="OVERLAP" />
+<TLINK id="TL50" fromID="E10" fromText="gram negative rod sepsis" toID="E5" toText="ischemic bowel" type="OVERLAP" />
+<TLINK id="TL51" fromID="E12" fromText="E. coli" toID="E11" toText="blood cultures" type="BEFORE" />
+<TLINK id="TL52" fromID="E13" fromText="B. fragilis" toID="E11" toText="blood cultures" type="BEFORE" />
+<TLINK id="TL53" fromID="E10" fromText="gram negative rod sepsis" toID="E14" toText="ampicillin" type="BEFORE" />
+<TLINK id="TL54" fromID="E14" fromText="ampicillin" toID="E15" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL55" fromID="E15" fromText="gentamicin" toID="E16" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL56" fromID="E103" fromText="readmitted" toID="T3" toText="5-21-91" type="OVERLAP" />
+<TLINK id="TL57" fromID="E170" fromText="presented" toID="E103" toText="readmitted" type="BEFORE" />
+<TLINK id="TL58" fromID="E18" fromText="mild congestive heart failure" toID="E103" toText="readmitted" type="BEFORE" />
+<TLINK id="TL59" fromID="E19" fromText="guaiac positive stool" toID="E103" toText="readmitted" type="BEFORE" />
+<TLINK id="TL6" fromID="E37" fromText="Azotemia" toID="E91" toText="Azotemia" type="OVERLAP" />
+<TLINK id="TL60" fromID="E21" fromText="upper gastrointestinal series" toID="E20" toText="The colonoscopy" type="OVERLAP" />
+<TLINK id="TL61" fromID="E19" fromText="guaiac positive stool" toID="E20" toText="The colonoscopy" type="BEFORE" />
+<TLINK id="TL62" fromID="E22" fromText="packed red blood cells" toID="E23" toText="H2 blockers" type="OVERLAP" />
+<TLINK id="TL63" fromID="E17" fromText="a falling hematocrit" toID="E22" toText="packed red blood cells" type="BEFORE" />
+<TLINK id="TL64" fromID="E24" fromText="His hematocrit" toID="E124" toText="discharge" type="OVERLAP" />
+<TLINK id="TL65" fromID="E25" fromText="His hematocrit" toID="E125" toText="discharge" type="OVERLAP" />
+<TLINK id="TL66" fromID="E124" fromText="discharge" toID="E125" toText="discharge" type="OVERLAP" />
+<TLINK id="TL67" fromID="E104" fromText="admitted" toID="T9" toText="6-12-91" type="OVERLAP" />
+<TLINK id="TL68" fromID="E105" fromText="Ingtermst.gay Health Center" toID="E104" toText="admitted" type="AFTER" />
+<TLINK id="TL69" fromID="E26" fromText="fever" toID="E104" toText="admitted" type="BEFORE" />
+<TLINK id="TL70" fromID="E27" fromText="hypertension" toID="E104" toText="admitted" type="BEFORE" />
+<TLINK id="TL71" fromID="E28" fromText="diarrhea" toID="E104" toText="admitted" type="BEFORE" />
+<TLINK id="TL72" fromID="E29" fromText="The BUN" toID="E30" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL73" fromID="E30" fromText="creatinine" toID="E31" toText="CO2" type="OVERLAP" />
+<TLINK id="TL74" fromID="E105" fromText="Ingtermst.gay Health Center" toID="E29" toText="The BUN" type="OVERLAP" />
+<TLINK id="TL75" fromID="E32" fromText="intravenous fluids" toID="E33" toText="Kefzol" type="OVERLAP" />
+<TLINK id="TL76" fromID="E32" fromText="intravenous fluids" toID="E105" toText="Ingtermst.gay Health Center" type="OVERLAP" />
+<TLINK id="TL77" fromID="E33" fromText="Kefzol" toID="E34" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL78" fromID="E34" fromText="gentamicin" toID="E35" toText="Vancomycin" type="OVERLAP" />
+<TLINK id="TL79" fromID="E105" fromText="Ingtermst.gay Health Center" toID="E106" toText="transferred" type="BEFORE" />
+<TLINK id="TL8" fromID="E48" fromText="white blood cell count" toID="E51" toText="white blood cell count" type="OVERLAP" />
+<TLINK id="TL80" fromID="E107" fromText="Gaanvantsir" toID="E106" toText="transferred" type="AFTER" />
+<TLINK id="TL81" fromID="E107" fromText="Gaanvantsir" toID="T4" toText="6-12-91" type="AFTER" />
+<TLINK id="TL82" fromID="E107" fromText="Gaanvantsir" toID="T5" toText="7-9-91" type="BEFORE" />
+<TLINK id="TL83" fromID="E126" fromText="hospitalized" toID="T4" toText="6-12-91" type="AFTER" />
+<TLINK id="TL84" fromID="E126" fromText="hospitalized" toID="T5" toText="7-9-91" type="BEFORE" />
+<TLINK id="TL85" fromID="E107" fromText="Gaanvantsir" toID="E126" toText="hospitalized" type="OVERLAP" />
+<TLINK id="TL86" fromID="E127" fromText="Serratia urosepsis" toID="E107" toText="Gaanvantsir" type="BEFORE" />
+<TLINK id="TL87" fromID="E127" fromText="Serratia urosepsis" toID="E36" toText="ceftizoxime" type="BEFORE" />
+<TLINK id="TL88" fromID="E37" fromText="Azotemia" toID="E107" toText="Gaanvantsir" type="BEFORE" />
+<TLINK id="TL89" fromID="E128" fromText="sepsis" toID="E37" toText="Azotemia" type="BEFORE" />
+<TLINK id="TL9" fromID="E54" fromText="a temperature" toID="E64" toText="fever" type="OVERLAP" />
+<TLINK id="TL91" fromID="E44" fromText="Loculated pleural effusions" toID="E37" toText="Azotemia" type="OVERLAP" />
+<TLINK id="TL92" fromID="E37" fromText="Azotemia" toID="E40" toText="intravenous fluids" type="BEFORE" />
+<TLINK id="TL93" fromID="E37" fromText="Azotemia" toID="E42" toText="Renal ultrasound" type="BEFORE" />
+<TLINK id="TL94" fromID="E171" fromText="decreased" toID="E39" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL95" fromID="E40" fromText="intravenous fluids" toID="E171" toText="decreased" type="BEFORE" />
+<TLINK id="TL96" fromID="E41" fromText="antibiotics" toID="E171" toText="decreased" type="BEFORE" />
+<TLINK id="TL97" fromID="E43" fromText="abscess orhydronephrosis" toID="E42" toText="Renal ultrasound" type="BEFORE" />
+<TLINK id="TL99" fromID="E44" fromText="Loculated pleural effusions" toID="E45" toText="Thoracentesis" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="07/10/1991" type="ADMISSION" dvalue="1991-07-10" />
+<SECTIME id="S1" start="46" end="56" text="07/18/1991" type="DISCHARGE" dvalue="1991-07-18" />
+<TLINK id="SECTIME0" fromID="E18" fromText="mild congestive heart failure" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E19" fromText="guaiac positive stool" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E20" fromText="The colonoscopy" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E21" fromText="upper gastrointestinal series" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E22" fromText="packed red blood cells" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E23" fromText="H2 blockers" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E24" fromText="His hematocrit" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E124" fromText="discharge" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E25" fromText="His hematocrit" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E125" fromText="discharge" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E104" fromText="admitted" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E105" fromText="Ingtermst.gay Health Center" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E26" fromText="fever" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E27" fromText="hypertension" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E28" fromText="diarrhea" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E29" fromText="The BUN" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E30" fromText="creatinine" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E31" fromText="CO2" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E32" fromText="intravenous fluids" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E33" fromText="Kefzol" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E34" fromText="gentamicin" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E35" fromText="Vancomycin" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E106" fromText="transferred" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E107" fromText="Gaanvantsir" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E126" fromText="hospitalized" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E127" fromText="Serratia urosepsis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E36" fromText="ceftizoxime" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E37" fromText="Azotemia" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E128" fromText="sepsis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E38" fromText="dehydration" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E39" fromText="creatinine" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E171" fromText="decreased" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E40" fromText="intravenous fluids" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E41" fromText="antibiotics" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E42" fromText="Renal ultrasound" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E43" fromText="abscess orhydronephrosis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E44" fromText="Loculated pleural effusions" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E113" fromText="ischemic bowel" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E45" fromText="Thoracentesis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E129" fromText="revealed" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E46" fromText="a pH" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E47" fromText="glucose" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E48" fromText="white blood cell count" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E49" fromText="chest tube" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E50" fromText="C. difficile colitis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E51" fromText="white blood cell count" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E52" fromText="intravenous and p.o. Flagyl" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E53" fromText="C. difficile" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E130" fromText="discharge" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E101" fromText="admission" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E131" fromText="his nursing home" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E54" fromText="a temperature" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E55" fromText="diarrhea" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E56" fromText="orthostasis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E114" fromText="urosepsis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E132" fromText="transferred" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E133" fromText="Gaanvantsir" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E134" fromText="admitted" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E135" fromText="the medical intensive care unit" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E136" fromText="sepsis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E137" fromText="White blood cell count" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E1" fromText="C. difficile colitis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E138" fromText="left shift" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E139" fromText="The BUN" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E140" fromText="creatinine" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E141" fromText="Urinalysis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E142" fromText="5-10 white blood cells" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E143" fromText="2+ bacteria" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E144" fromText="thoracentesis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E145" fromText="empyema" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E146" fromText="intravenous fluids" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E147" fromText="intravenous antibiotics" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E148" fromText="ceftizoxime" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E149" fromText="gentamicin" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E150" fromText="Flagyl" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E151" fromText="p.o. Vancomycin" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E152" fromText="C. difficile colitis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E153" fromText="transferred" toID="T1" toText="07/10/1991" type="OVERLAP" />
+<TLINK id="SECTIME78" fromID="E118" fromText="the nursing home" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E155" fromText="the medicine service" toID="T1" toText="07/10/1991" type="AFTER" />
+<TLINK id="SECTIME80" fromID="E156" fromText="further care" toID="T1" toText="07/10/1991" type="AFTER" />
+<TLINK id="SECTIME81" fromID="E57" fromText="Colitis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E58" fromText="ischemic bowel" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E59" fromText="SMA Percutaneous Transluminal Coronary Angioplasty" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E108" fromText="admission" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E60" fromText="gram negative rod urosepsis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E115" fromText="fever" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E61" fromText="C. difficile colitis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E116" fromText="leukocytosis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E62" fromText="a full course of Flagyl" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E63" fromText="C. difficile toxin" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E109" fromText="transfer" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E64" fromText="fever" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E65" fromText="rising white count" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E66" fromText="diarrhea" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E67" fromText="dehydration" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E117" fromText="azotemia" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E68" fromText="intravenous ceftizoxime" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E69" fromText="gentamicin" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E70" fromText="Flagyl" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E71" fromText="sepsis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E72" fromText="p.o. Vancomycin" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E73" fromText="Blood cultures" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E74" fromText="urine cultures" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E75" fromText="Stool for C. difficile" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E76" fromText="positive" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E77" fromText="relapsed C. difficile colitis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E78" fromText="Intravenous antibiotics" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E79" fromText="p.o. Vancomycin" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E80" fromText="white blood cell count" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E81" fromText="left shift" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E82" fromText="abdominal distention" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E83" fromText="exam" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E84" fromText="An abdominal CAT scan" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E168" fromText="revealed" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E85" fromText="thickened bowel wall" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E86" fromText="thumb printing" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E119" fromText="chronic obstructive pulmonary disease" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E87" fromText="C. difficile colitis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E169" fromText="recurrent bowel ischemia" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E88" fromText="n.p.o." toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E89" fromText="clear liquids" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E172" fromText="tolerated" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E90" fromText="soft solids" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E167" fromText="discharge" toID="T2" toText="07/18/1991" type="OVERLAP" />
+<TLINK id="SECTIME125" fromID="E91" fromText="Azotemia" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E165" fromText="chronic renal insufficiency" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E120" fromText="ethanol abuse" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E166" fromText="baseline creatinine" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E92" fromText="Creatinine" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E110" fromText="admission" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E93" fromText="sepsis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E94" fromText="dehydration" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E95" fromText="intravenous hydration" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E121" fromText="chronic pleural effusions" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E96" fromText="the BUN" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E97" fromText="creatinine" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E98" fromText="The abdominal CAT scan" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E164" fromText="showed" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E99" fromText="hydronephrosis" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E100" fromText="orrenal abscess" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E162" fromText="alert" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E163" fromText="oriented" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E157" fromText="the admission" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E160" fromText="cantankerous" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME145" fromID="E161" fromText="demanding" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E122" fromText="chronic renal insufficiency" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E158" fromText="Haldol" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E159" fromText="this problem" toID="T2" toText="07/18/1991" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E170" fromText="presented" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E102" fromText="Gaanvantsir" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E2" fromText="abdominal pain" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E3" fromText="bloody diarrhea" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E4" fromText="Workup" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E123" fromText="revealed" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E5" fromText="ischemic bowel" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E6" fromText="Celiac" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E7" fromText="SMA stenoses" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME158" fromID="E112" fromText="Thoracentesis" toID="T1" toText="07/10/1991" type="OVERLAP" />
+<TLINK id="SECTIME159" fromID="E8" fromText="an angioplasty" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME160" fromID="E9" fromText="his SMA" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E10" fromText="gram negative rod sepsis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME162" fromID="E11" fromText="blood cultures" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME163" fromID="E12" fromText="E. coli" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME164" fromID="E13" fromText="B. fragilis" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME165" fromID="E14" fromText="ampicillin" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME166" fromID="E15" fromText="gentamicin" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME167" fromID="E16" fromText="Flagyl" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME168" fromID="E103" fromText="readmitted" toID="T1" toText="07/10/1991" type="BEFORE" />
+<TLINK id="SECTIME169" fromID="E17" fromText="a falling hematocrit" toID="T1" toText="07/10/1991" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-06-28
+Discharge Date :
+2010-07-01
+Service :
+ORTHOPEDIC
+HISTORY OF THE PRESENT ILLNESS :
+This is a 20-year-old female with no significant past medical history , who was the unrestrained passenger in a high speed rollover motor vehicle accident on 2010-06-27 .
+By report , the patient was ejected from the vehicle on impact and found curled in the fetal position at the rear of the vehicle at the scene .
+The vehicle was noted to be extensively damaged .
+By report , the patient was noted to be awake , but confused at the scene of the accident with no memory of the incident .
+She was immobilized in the C-spine collar at the scene of the accident and subsequently transported by EMS to the New England Sinai Hospital & Rehab Center Emergency Department for further management .
+HOSPITAL COURSE :
+The patient was evaluated by the Trauma Service in the emergency room , where she received four liters
+crystalloid and four units packed red blood cells with good response .
+In addition , the patient received the above-described diagnostic procedures , which demonstrated injuries limited to a posterior scalp laceration , left fractured clavicle , left fractured radius , right thigh hematoma , and right leg laceration .
+The patient was subsequently admitted to the Trauma Service on 2010-06-28 under the direction of Dr. Lowery .
+Given the patient 's right thigh hematoma , a duplex evaluation of the right lower extremity was performed on 2010-06-28 and demonstrated no evidence of major arterial or venous injury in the level of
+the right inguinal region .
+On 06-28 , the patient was also cleared for removal of her C-spine collar and deemed stable for transfer to the Orthopedic Service under the direction of Dr. Ronda Lopez .
+The patient remained stable through 2010-06-29 at which point she was sent to the operating room to undergo a left radial fracture open reduction and internal fixation procedure .
+The patient tolerated the procedure well and demonstrated a postoperative hematocrit of 40.9 .
+Of note , the scalp and right lower leg lacerations were closed primarily by the trauma team on admission and on hospital day #1 were noted to be clean , dry , and intact .
+Nonoperative treatment was elected for the patient 's left clavicular fracture .
+On postoperative day #1 , 2010-06-30 , the patient was noted to be clinically stable , tolerating oral intake , and expressive of adequate amounts of urine independent of a Foley catheter .
+The patient 's head wound laceration was noted to be clean and dry with intact staples .
+There was no erythema or purulence .
+The left clavicle was noted to have continued ecchymosis decreased from prior examination with a minor stepoff and mild tenderness to palpation decreased from prior examinations .
+The left forearm dressing was noted to be in place , clean , dry , and intact with no saturation .
+The patient was noted to be able to wiggle her fingers with intact flexor , extensor , abductor , and adductor function .
+Mild swelling was noted in the left hand .
+Sensation was intact in the median , radius , and ulnar-nerve distributions .
+Fingers were warm and well perfused with capillary refill less than 3 seconds .
+The patient 's right anterior tibial wound was noted to be clean , dry , and intact with sutures intact and no erythema or purulence noted .
+On 06-30 , the patient was evaluated by Occupational Therapy and fitted for a left upper extremity splint .
+The patient was also administered adaptive training for activities of daily life and advised regarding wound care .
+In addition , the patient was also fitted with a figure-of-eight clavicular splint and instructed in its
+proper use .
+On 2010-07-01 , the patient was discharged from the hospital with instructions for follow up care on return to the United Kingdom .
+]]></TEXT>
+<TAGS>
+<EVENT id="E44" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="1048" end="1069" text="diagnostic procedures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="1091" end="1099" text="injuries" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1111" end="1139" text="a posterior scalp laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="1142" end="1165" text="left fractured clavicle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1168" end="1189" text="left fractured radius" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1192" end="1212" text="right thigh hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1219" end="1239" text="right leg laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1271" end="1279" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1283" end="1301" text="the Trauma Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1358" end="1393" text="the patient 's right thigh hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1396" end="1444" text="a duplex evaluation of the right lower extremity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="1477" end="1489" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E69" start="1493" end="1501" text="evidence" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E15" start="1505" end="1536" text="major arterial or venous injury" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E70" start="1625" end="1632" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1636" end="1654" text="her C-spine collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1666" end="1672" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1677" end="1685" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1689" end="1711" text="the Orthopedic Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="1765" end="1780" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="1831" end="1849" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1861" end="1898" text="a left radial fracture open reduction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1903" end="1930" text="internal fixation procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1945" end="1954" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1955" end="1968" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="1969" end="1973" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1991" end="2017" text="a postoperative hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="2038" end="2079" text="the scalp and right lower leg lacerations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2085" end="2091" text="closed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2105" end="2120" text="the trauma team" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="2124" end="2133" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2162" end="2167" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="2174" end="2198" text="clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2201" end="2223" text="Nonoperative treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="2240" end="2279" text="the patient 's left clavicular fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2337" end="2342" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E83" start="2349" end="2366" text="clinically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2369" end="2391" text="tolerating oral intake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2412" end="2437" text="adequate amounts of urine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="243" end="265" text="motor vehicle accident" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="2453" end="2469" text="a Foley catheter" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E24" start="2472" end="2508" text="The patient 's head wound laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2513" end="2518" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="2525" end="2538" text="clean and dry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2544" end="2558" text="intact staples" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2574" end="2582" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="2586" end="2595" text="purulence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="2620" end="2625" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E28" start="2634" end="2654" text="continued ecchymosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2655" end="2664" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="2670" end="2687" text="prior examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="2701" end="2708" text="stepoff" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2718" end="2728" text="tenderness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2732" end="2741" text="palpation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2742" end="2751" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2757" end="2775" text="prior examinations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2778" end="2803" text="The left forearm dressing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2808" end="2813" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E94" start="2823" end="2855" text="place , clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="285" end="291" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="2864" end="2874" text="saturation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="2893" end="2898" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="2913" end="2931" text="wiggle her fingers" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="2937" end="2996" text="intact flexor , extensor , abductor , and adductor function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3004" end="3012" text="swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="3017" end="3022" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E100" start="3042" end="3051" text="Sensation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="3056" end="3062" text="intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="310" end="334" text="ejected from the vehicle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3120" end="3155" text="Fingers were warm and well perfused" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="3161" end="3177" text="capillary refill" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="3200" end="3242" text="The patient 's right anterior tibial wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="3247" end="3252" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="3259" end="3283" text="clean , dry , and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="3289" end="3296" text="sutures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3311" end="3319" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E106" start="3323" end="3332" text="purulence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="3333" end="3338" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E109" start="3368" end="3377" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="3381" end="3401" text="Occupational Therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="3417" end="3446" text="a left upper extremity splint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="3483" end="3500" text="adaptive training" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="349" end="354" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="3505" end="3529" text="activities of daily life" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="355" end="383" text="curled in the fetal position" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E110" start="3552" end="3562" text="wound care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="3612" end="3647" text="a figure-of-eight clavicular splint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="3715" end="3725" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E111" start="3766" end="3780" text="follow up care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="479" end="485" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="504" end="509" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E57" start="516" end="521" text="awake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="528" end="536" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="574" end="596" text="memory of the incident" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E59" start="607" end="618" text="immobilized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="622" end="640" text="the C-spine collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="687" end="698" text="transported" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="702" end="705" text="EMS" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="709" end="775" text="the New England Sinai Hospital & Rehab Center Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="780" end="798" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="835" end="844" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="848" end="866" text="the Trauma Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="870" end="888" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="922" end="933" text="crystalloid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="949" end="971" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1305" end="1315" text="2010-06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T0" start="1462" end="1472" text="2010-06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T5" start="1584" end="1589" text="06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T6" start="1789" end="1799" text="2010-06-29" type="DATE" val="2010-06-29" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2010-06-28" type="DATE" val="2010-06-28" mod="NA" />
+<TIMEX3 id="T7" start="2141" end="2156" text="hospital day #1" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T8" start="2285" end="2305" text="postoperative day #1" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T9" start="2308" end="2318" text="2010-06-30" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T3" start="269" end="279" text="2010-06-27" type="DATE" val="2010-06-27" mod="NA" />
+<TIMEX3 id="T11" start="3344" end="3349" text="06-30" type="DATE" val="2010-06-30" mod="NA" />
+<TIMEX3 id="T10" start="3686" end="3696" text="2010-07-01" type="DATE" val="2010-07-01" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2010-07-01" type="DATE" val="2010-07-01" mod="NA" />
+<TLINK id="TL0" fromID="E44" fromText="Admission" toID="T1" toText="2010-06-28" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E9" fromText="left fractured clavicle" toID="E23" toText="the patient 's left clavicular fracture" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E52" fromText="ejected from the vehicle" toID="E51" toText="report" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E94" fromText="place , clean , dry , and intact" toID="E93" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL101" fromID="E35" fromText="saturation" toID="E94" toText="place , clean , dry , and intact" type="OVERLAP" />
+<TLINK id="TL102" fromID="E95" fromText="noted" toID="E93" toText="noted" type="OVERLAP" />
+<TLINK id="TL103" fromID="E96" fromText="wiggle her fingers" toID="E95" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL104" fromID="E97" fromText="intact flexor , extensor , abductor , and adductor function" toID="E96" toText="wiggle her fingers" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E99" fromText="noted" toID="E95" toText="noted" type="OVERLAP" />
+<TLINK id="TL106" fromID="E114" fromText="swelling" toID="E99" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL107" fromID="E100" fromText="Sensation" toID="E99" toText="noted" type="OVERLAP" />
+<TLINK id="TL108" fromID="E101" fromText="intact" toID="E100" toText="Sensation" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E102" fromText="Fingers were warm and well perfused" toID="E100" toText="Sensation" type="OVERLAP" />
+<TLINK id="TL11" fromID="E52" fromText="ejected from the vehicle" toID="E0" toText="motor vehicle accident" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E37" fromText="capillary refill" toID="E102" toText="Fingers were warm and well perfused" type="OVERLAP" />
+<TLINK id="TL111" fromID="E38" fromText="The patient 's right anterior tibial wound" toID="E24" toText="The patient 's head wound laceration" type="OVERLAP" />
+<TLINK id="TL112" fromID="E38" fromText="The patient 's right anterior tibial wound" toID="E103" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL113" fromID="E104" fromText="clean , dry , and intact" toID="E103" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL114" fromID="E39" fromText="sutures" toID="E104" toText="clean , dry , and intact" type="OVERLAP" />
+<TLINK id="TL115" fromID="E105" fromText="erythema" toID="E39" toText="sutures" type="OVERLAP" />
+<TLINK id="TL116" fromID="E106" fromText="purulence" toID="E105" toText="erythema" type="OVERLAP" />
+<TLINK id="TL117" fromID="E107" fromText="noted" toID="E103" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL118" fromID="T11" fromText="06-30" toID="T9" toText="2010-06-30" type="SIMULTANEOUS" />
+<TLINK id="TL119" fromID="E109" fromText="evaluated" toID="T11" toText="06-30" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E53" fromText="curled in the fetal position" toID="E52" toText="ejected from the vehicle" type="AFTER" />
+<TLINK id="TL120" fromID="E108" fromText="Occupational Therapy" toID="E109" toText="evaluated" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E40" fromText="a left upper extremity splint" toID="E109" toText="evaluated" type="AFTER" />
+<TLINK id="TL122" fromID="E41" fromText="adaptive training" toID="E40" toText="a left upper extremity splint" type="OVERLAP" />
+<TLINK id="TL123" fromID="E42" fromText="activities of daily life" toID="E41" toText="adaptive training" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E110" fromText="wound care" toID="E42" toText="activities of daily life" type="OVERLAP" />
+<TLINK id="TL125" fromID="E43" fromText="a figure-of-eight clavicular splint" toID="E40" toText="a left upper extremity splint" type="OVERLAP" />
+<TLINK id="TL126" fromID="T10" fromText="2010-07-01" toID="T11" toText="06-30" type="AFTER" />
+<TLINK id="TL127" fromID="E48" fromText="discharged" toID="T10" toText="2010-07-01" type="SIMULTANEOUS" />
+<TLINK id="TL128" fromID="E48" fromText="discharged" toID="E45" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E111" fromText="follow up care" toID="E48" toText="discharged" type="AFTER" />
+<TLINK id="TL13" fromID="E53" fromText="curled in the fetal position" toID="E54" toText="found" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E55" fromText="report" toID="E51" toText="report" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E56" fromText="noted" toID="E55" toText="report" type="BEFORE" />
+<TLINK id="TL16" fromID="E57" fromText="awake" toID="E56" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E57" fromText="awake" toID="E53" toText="curled in the fetal position" type="OVERLAP" />
+<TLINK id="TL18" fromID="E1" fromText="confused" toID="E57" toText="awake" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E58" fromText="memory of the incident" toID="E1" toText="confused" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E8" fromText="a posterior scalp laceration" toID="E24" toText="The patient 's head wound laceration" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E59" fromText="immobilized" toID="E56" toText="noted" type="AFTER" />
+<TLINK id="TL21" fromID="E2" fromText="the C-spine collar" toID="E59" toText="immobilized" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E49" fromText="transported" toID="E59" toText="immobilized" type="AFTER" />
+<TLINK id="TL23" fromID="E60" fromText="EMS" toID="E49" toText="transported" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E61" fromText="the New England Sinai Hospital & Rehab Center Emergency Department" toID="E49" toText="transported" type="BEFORE" />
+<TLINK id="TL25" fromID="E3" fromText="further management" toID="E61" toText="the New England Sinai Hospital & Rehab Center Emergency Department" type="BEGUN_BY" />
+<TLINK id="TL26" fromID="E65" fromText="the emergency room" toID="E61" toText="the New England Sinai Hospital & Rehab Center Emergency Department" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E63" fromText="the Trauma Service" toID="E65" toText="the emergency room" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E62" fromText="evaluated" toID="E63" toText="the Trauma Service" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E4" fromText="crystalloid" toID="E62" toText="evaluated" type="AFTER" />
+<TLINK id="TL3" fromID="E2" fromText="the C-spine collar" toID="E16" toText="her C-spine collar" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E5" fromText="packed red blood cells" toID="E4" toText="crystalloid" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E6" fromText="diagnostic procedures" toID="E62" toText="evaluated" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E7" fromText="injuries" toID="E6" toText="diagnostic procedures" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E8" fromText="a posterior scalp laceration" toID="E7" toText="injuries" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E9" fromText="left fractured clavicle" toID="E8" toText="a posterior scalp laceration" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E10" fromText="left fractured radius" toID="E9" toText="left fractured clavicle" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E11" fromText="right thigh hematoma" toID="E10" toText="left fractured radius" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E12" fromText="right leg laceration" toID="E11" toText="right thigh hematoma" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E66" fromText="admitted" toID="E6" toText="diagnostic procedures" type="AFTER" />
+<TLINK id="TL39" fromID="E66" fromText="admitted" toID="E44" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E12" fromText="right leg laceration" toID="E38" toText="The patient 's right anterior tibial wound" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E67" fromText="the Trauma Service" toID="E66" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL41" fromID="E66" fromText="admitted" toID="T4" toText="2010-06-28" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E13" fromText="the patient 's right thigh hematoma" toID="E11" toText="right thigh hematoma" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E13" fromText="the patient 's right thigh hematoma" toID="E14" toText="a duplex evaluation of the right lower extremity" type="BEFORE_OVERLAP" />
+<TLINK id="TL44" fromID="E14" fromText="a duplex evaluation of the right lower extremity" toID="T0" toText="2010-06-28" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="T0" fromText="2010-06-28" toID="T4" toText="2010-06-28" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E68" fromText="demonstrated" toID="E14" toText="a duplex evaluation of the right lower extremity" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E69" fromText="evidence" toID="E68" toText="demonstrated" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E15" fromText="major arterial or venous injury" toID="E69" toText="evidence" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="T5" fromText="06-28" toID="T0" toText="2010-06-28" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E11" fromText="right thigh hematoma" toID="E13" toText="the patient 's right thigh hematoma" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E70" fromText="removal" toID="T5" toText="06-28" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E16" fromText="her C-spine collar" toID="E70" toText="removal" type="ENDED_BY" />
+<TLINK id="TL52" fromID="E71" fromText="stable" toID="E70" toText="removal" type="OVERLAP" />
+<TLINK id="TL53" fromID="E71" fromText="stable" toID="E72" toText="transfer" type="BEFORE_OVERLAP" />
+<TLINK id="TL54" fromID="E74" fromText="the Orthopedic Service" toID="E72" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL55" fromID="E75" fromText="remained stable" toID="E71" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E75" fromText="remained stable" toID="T6" toText="2010-06-29" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E76" fromText="the operating room" toID="T6" toText="2010-06-29" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E17" fromText="a left radial fracture open reduction" toID="E76" toText="the operating room" type="DURING" />
+<TLINK id="TL59" fromID="E18" fromText="internal fixation procedure" toID="E17" toText="a left radial fracture open reduction" type="OVERLAP" />
+<TLINK id="TL6" fromID="E45" fromText="Discharge" toID="T2" toText="2010-07-01" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E19" fromText="the procedure" toID="E17" toText="a left radial fracture open reduction" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E77" fromText="tolerated" toID="E19" toText="the procedure" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E78" fromText="well" toID="E77" toText="tolerated" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E20" fromText="a postoperative hematocrit" toID="E19" toText="the procedure" type="AFTER" />
+<TLINK id="TL64" fromID="E21" fromText="the scalp and right lower leg lacerations" toID="E8" toText="a posterior scalp laceration" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E21" fromText="the scalp and right lower leg lacerations" toID="E79" toText="closed" type="ENDED_BY" />
+<TLINK id="TL66" fromID="E80" fromText="the trauma team" toID="E79" toText="closed" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E80" fromText="the trauma team" toID="E50" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E50" fromText="admission" toID="E44" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="T7" fromText="hospital day #1" toID="E50" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E0" fromText="motor vehicle accident" toID="E44" toText="Admission" type="BEFORE" />
+<TLINK id="TL70" fromID="E81" fromText="noted" toID="T7" toText="hospital day #1" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E46" fromText="clean , dry , and intact" toID="E81" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL72" fromID="E22" fromText="Nonoperative treatment" toID="T7" toText="hospital day #1" type="OVERLAP" />
+<TLINK id="TL73" fromID="E23" fromText="the patient 's left clavicular fracture" toID="E22" toText="Nonoperative treatment" type="BEFORE_OVERLAP" />
+<TLINK id="TL74" fromID="T8" fromText="postoperative day #1" toID="T9" toText="2010-06-30" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="T9" fromText="2010-06-30" toID="T7" toText="hospital day #1" type="AFTER" />
+<TLINK id="TL76" fromID="E82" fromText="noted" toID="T9" toText="2010-06-30" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E83" fromText="clinically stable" toID="E82" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E84" fromText="tolerating oral intake" toID="E83" toText="clinically stable" type="OVERLAP" />
+<TLINK id="TL79" fromID="E85" fromText="adequate amounts of urine" toID="E84" toText="tolerating oral intake" type="OVERLAP" />
+<TLINK id="TL8" fromID="E0" fromText="motor vehicle accident" toID="T3" toText="2010-06-27" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E86" fromText="a Foley catheter" toID="E85" toText="adequate amounts of urine" type="OVERLAP" />
+<TLINK id="TL81" fromID="E24" fromText="The patient 's head wound laceration" toID="E8" toText="a posterior scalp laceration" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E24" fromText="The patient 's head wound laceration" toID="E87" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E47" fromText="clean and dry" toID="E87" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E25" fromText="intact staples" toID="E47" toText="clean and dry" type="OVERLAP" />
+<TLINK id="TL85" fromID="E26" fromText="erythema" toID="E25" toText="intact staples" type="OVERLAP" />
+<TLINK id="TL86" fromID="E27" fromText="purulence" toID="E26" toText="erythema" type="OVERLAP" />
+<TLINK id="TL87" fromID="E88" fromText="noted" toID="E87" toText="noted" type="OVERLAP" />
+<TLINK id="TL88" fromID="E28" fromText="continued ecchymosis" toID="E88" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E28" fromText="continued ecchymosis" toID="E29" toText="prior examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E51" fromText="report" toID="T3" toText="2010-06-27" type="AFTER" />
+<TLINK id="TL90" fromID="E89" fromText="decreased" toID="E29" toText="prior examination" type="AFTER" />
+<TLINK id="TL93" fromID="E112" fromText="stepoff" toID="E29" toText="prior examination" type="OVERLAP" />
+<TLINK id="TL94" fromID="E113" fromText="tenderness" toID="E112" toText="stepoff" type="OVERLAP" />
+<TLINK id="TL95" fromID="E32" fromText="palpation" toID="E113" toText="tenderness" type="SIMULTANEOUS" />
+<TLINK id="TL96" fromID="E33" fromText="prior examinations" toID="E29" toText="prior examination" type="OVERLAP" />
+<TLINK id="TL97" fromID="E92" fromText="decreased" toID="E33" toText="prior examinations" type="AFTER" />
+<TLINK id="TL98" fromID="E34" fromText="The left forearm dressing" toID="E92" toText="decreased" type="OVERLAP" />
+<TLINK id="TL99" fromID="E34" fromText="The left forearm dressing" toID="E93" toText="noted" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2010-06-28" type="ADMISSION" dvalue="2010-06-28" />
+<SECTIME id="S1" start="46" end="56" text="2010-07-01" type="DISCHARGE" dvalue="2010-07-01" />
+<TLINK id="SECTIME0" fromID="E6" fromText="diagnostic procedures" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E7" fromText="injuries" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E8" fromText="a posterior scalp laceration" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E9" fromText="left fractured clavicle" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E10" fromText="left fractured radius" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E11" fromText="right thigh hematoma" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E12" fromText="right leg laceration" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E66" fromText="admitted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E67" fromText="the Trauma Service" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E13" fromText="the patient 's right thigh hematoma" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E14" fromText="a duplex evaluation of the right lower extremity" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E68" fromText="demonstrated" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E69" fromText="evidence" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E15" fromText="major arterial or venous injury" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E70" fromText="removal" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E16" fromText="her C-spine collar" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E71" fromText="stable" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E72" fromText="transfer" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E74" fromText="the Orthopedic Service" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME19" fromID="E75" fromText="remained stable" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E76" fromText="the operating room" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E17" fromText="a left radial fracture open reduction" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E18" fromText="internal fixation procedure" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E77" fromText="tolerated" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E19" fromText="the procedure" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E78" fromText="well" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E20" fromText="a postoperative hematocrit" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E21" fromText="the scalp and right lower leg lacerations" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E79" fromText="closed" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E80" fromText="the trauma team" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E50" fromText="admission" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E81" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E46" fromText="clean , dry , and intact" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E22" fromText="Nonoperative treatment" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME34" fromID="E23" fromText="the patient 's left clavicular fracture" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME35" fromID="E82" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E83" fromText="clinically stable" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E84" fromText="tolerating oral intake" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E85" fromText="adequate amounts of urine" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E0" fromText="motor vehicle accident" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E86" fromText="a Foley catheter" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E24" fromText="The patient 's head wound laceration" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME42" fromID="E87" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E47" fromText="clean and dry" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E25" fromText="intact staples" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E26" fromText="erythema" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E27" fromText="purulence" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E88" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E28" fromText="continued ecchymosis" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME49" fromID="E89" fromText="decreased" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E29" fromText="prior examination" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E112" fromText="stepoff" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E113" fromText="tenderness" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E32" fromText="palpation" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E92" fromText="decreased" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E33" fromText="prior examinations" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E34" fromText="The left forearm dressing" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E93" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E94" fromText="place , clean , dry , and intact" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E51" fromText="report" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E35" fromText="saturation" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E95" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E96" fromText="wiggle her fingers" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E97" fromText="intact flexor , extensor , abductor , and adductor function" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E114" fromText="swelling" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E99" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E100" fromText="Sensation" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E101" fromText="intact" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E52" fromText="ejected from the vehicle" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E102" fromText="Fingers were warm and well perfused" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E37" fromText="capillary refill" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E38" fromText="The patient 's right anterior tibial wound" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME72" fromID="E103" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E104" fromText="clean , dry , and intact" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E39" fromText="sutures" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E105" fromText="erythema" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E106" fromText="purulence" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E107" fromText="noted" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E109" fromText="evaluated" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E108" fromText="Occupational Therapy" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E40" fromText="a left upper extremity splint" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E41" fromText="adaptive training" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E54" fromText="found" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E42" fromText="activities of daily life" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME84" fromID="E53" fromText="curled in the fetal position" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E110" fromText="wound care" toID="T2" toText="2010-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME86" fromID="E43" fromText="a figure-of-eight clavicular splint" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E48" fromText="discharged" toID="T2" toText="2010-07-01" type="OVERLAP" />
+<TLINK id="SECTIME88" fromID="E111" fromText="follow up care" toID="T2" toText="2010-07-01" type="AFTER" />
+<TLINK id="SECTIME89" fromID="E55" fromText="report" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E56" fromText="noted" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E57" fromText="awake" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E1" fromText="confused" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E58" fromText="memory of the incident" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E59" fromText="immobilized" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E2" fromText="the C-spine collar" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E49" fromText="transported" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E60" fromText="EMS" toID="T1" toText="2010-06-28" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E61" fromText="the New England Sinai Hospital & Rehab Center Emergency Department" toID="T1" toText="2010-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME99" fromID="E3" fromText="further management" toID="T1" toText="2010-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME100" fromID="E62" fromText="evaluated" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E63" fromText="the Trauma Service" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E65" fromText="the emergency room" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E4" fromText="crystalloid" toID="T2" toText="2010-07-01" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E5" fromText="packed red blood cells" toID="T2" toText="2010-07-01" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

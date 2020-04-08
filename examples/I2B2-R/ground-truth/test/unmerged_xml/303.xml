@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/23/1992
+Discharge Date :
+01/26/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 20 year old black female who was a pedestrian when struck by a car at apparent high speed .
+There was apparent loss of consciousness at the scene and significant deformity of the anterior portion of the motorvehicle with positive starring of the windshield .
+The patient was conscious on the scene when evaluated by EMT &apos;s but at the scene , the patient was apparently paraplegic below the umbilicus with absence of movement and sensation below the umbilicus .
+HOSPITAL COURSE :
+A Neurosurgery consultation was obtained , and it was their impression that the patient &apos;s paraplegia might possibly represent a cord concussion , and recommended treatment with intravenous steroids for 24 hours .
+The patient &apos;s paraplegia resolved by the morning of her second hospital day , and she maintained 5/5 motor strength in all groups .
+A Urology consultation was obtained , and it was recommended that an IVP be obtained .
+This was obtained on the day of discharge , however , due to residual contrast in the colon from the patient &apos;s prior abdominal CT scan , the exam was postponed after a scout film was obtained .
+The patient fell well on the day of discharge .
+She remained afebrile throughout her hospital course .
+Additionally on the night before discharge , flexion and extension views of the lumbosacral spine were obtained , and showed no fracture or instability .
+]]></TEXT>
+<TAGS>
+<EVENT id="E13" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1010" end="1016" text="an IVP" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1031" end="1035" text="This" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1063" end="1072" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="1092" end="1122" text="residual contrast in the colon" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="1128" end="1171" text="the patient &apos;s prior abdominal CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="1174" end="1182" text="the exam" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E18" start="1187" end="1196" text="postponed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="1203" end="1215" text="a scout film" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1248" end="1252" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1267" end="1276" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1292" end="1300" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1312" end="1331" text="her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1367" end="1376" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1379" end="1431" text="flexion and extension views of the lumbosacral spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1452" end="1458" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="1462" end="1470" text="fracture" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1474" end="1485" text="instability" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="154" end="169" text="struck by a car" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="214" end="235" text="loss of consciousness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="378" end="387" text="conscious" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="406" end="415" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="477" end="507" text="paraplegic below the umbilicus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="513" end="566" text="absence of movement and sensation below the umbilicus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="587" end="614" text="A Neurosurgery consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="663" end="693" text="the patient &apos;s paraplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="719" end="736" text="a cord concussion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="770" end="790" text="intravenous steroids" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="806" end="836" text="The patient &apos;s paraplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="898" end="927" text="maintained 5/5 motor strength" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="944" end="966" text="A Urology consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1052" end="1059" text="the day" type="DATE" val="1992-01-26" mod="NA" />
+<TIMEX3 id="T5" start="1256" end="1263" text="the day" type="DATE" val="1992-01-26" mod="NA" />
+<TIMEX3 id="T6" start="1350" end="1359" text="the night" type="DATE" val="1992-01-25" mod="END" />
+<TIMEX3 id="T1" start="18" end="28" text="01/23/1992" type="DATE" val="1992-01-23" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="01/26/1992" type="DATE" val="1992-01-26" mod="NA" />
+<TIMEX3 id="T0" start="795" end="803" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T3" start="864" end="887" text="her second hospital day" type="DATE" val="1992-01-24" mod="START" />
+<TLINK id="TL0" fromID="E13" fromText="Admission" toID="T1" toText="01/23/1992" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E19" fromText="paraplegic below the umbilicus" toID="E15" toText="struck by a car" type="AFTER" />
+<TLINK id="TL11" fromID="E19" fromText="paraplegic below the umbilicus" toID="E20" toText="absence of movement and sensation below the umbilicus" type="OVERLAP" />
+<TLINK id="TL12" fromID="E21" fromText="A Neurosurgery consultation" toID="E13" toText="Admission" type="AFTER" />
+<TLINK id="TL13" fromID="E2" fromText="the patient &apos;s paraplegia" toID="E3" toText="a cord concussion" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E4" fromText="The patient &apos;s paraplegia" toID="E2" toText="the patient &apos;s paraplegia" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E22" fromText="intravenous steroids" toID="E21" toText="A Neurosurgery consultation" type="AFTER" />
+<TLINK id="TL16" fromID="E22" fromText="intravenous steroids" toID="T0" toText="24 hours" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E4" fromText="The patient &apos;s paraplegia" toID="T3" toText="her second hospital day" type="ENDED_BY" />
+<TLINK id="TL19" fromID="T3" fromText="her second hospital day" toID="E23" toText="maintained 5/5 motor strength" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E30" fromText="her hospital course" toID="E13" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="T3" fromText="her second hospital day" toID="E13" toText="Admission" type="AFTER" />
+<TLINK id="TL21" fromID="T3" fromText="her second hospital day" toID="E14" toText="Discharge" type="BEFORE" />
+<TLINK id="TL22" fromID="E24" fromText="A Urology consultation" toID="E23" toText="maintained 5/5 motor strength" type="AFTER" />
+<TLINK id="TL23" fromID="E25" fromText="an IVP" toID="E24" toText="A Urology consultation" type="AFTER" />
+<TLINK id="TL24" fromID="E26" fromText="This" toID="E25" toText="an IVP" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="T4" fromText="the day" toID="E27" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E27" fromText="discharge" toID="E14" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E26" fromText="This" toID="T4" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E5" fromText="residual contrast in the colon" toID="E6" toText="the patient &apos;s prior abdominal CT scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E6" fromText="the patient &apos;s prior abdominal CT scan" toID="E26" toText="This" type="BEFORE" />
+<TLINK id="TL3" fromID="E30" fromText="her hospital course" toID="E14" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL30" fromID="E7" fromText="the exam" toID="E26" toText="This" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E18" fromText="postponed" toID="E8" toText="a scout film" type="AFTER" />
+<TLINK id="TL32" fromID="E7" fromText="the exam" toID="E18" toText="postponed" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E29" fromText="discharge" toID="E27" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="T5" fromText="the day" toID="T4" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E28" fromText="well" toID="T5" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E9" fromText="afebrile" toID="E30" toText="her hospital course" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="discharge" toID="E29" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="T6" fromText="the night" toID="E31" toText="discharge" type="BEFORE" />
+<TLINK id="TL39" fromID="E10" fromText="flexion and extension views of the lumbosacral spine" toID="T6" toText="the night" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E14" fromText="Discharge" toID="T2" toText="01/26/1992" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E32" fromText="showed" toID="E10" toText="flexion and extension views of the lumbosacral spine" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E11" fromText="fracture" toID="E32" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL42" fromID="E12" fromText="instability" toID="E11" toText="fracture" type="OVERLAP" />
+<TLINK id="TL5" fromID="E15" fromText="struck by a car" toID="E13" toText="Admission" type="BEFORE" />
+<TLINK id="TL6" fromID="E0" fromText="loss of consciousness" toID="E15" toText="struck by a car" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E0" fromText="loss of consciousness" toID="E16" toText="conscious" type="BEFORE" />
+<TLINK id="TL8" fromID="E16" fromText="conscious" toID="E17" toText="evaluated" type="OVERLAP" />
+<TLINK id="TL9" fromID="E19" fromText="paraplegic below the umbilicus" toID="E2" toText="the patient &apos;s paraplegia" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="01/23/1992" type="ADMISSION" dvalue="1992-01-23" />
+<SECTIME id="S1" start="46" end="56" text="01/26/1992" type="DISCHARGE" dvalue="1992-01-26" />
+<TLINK id="SECTIME0" fromID="E25" fromText="an IVP" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E26" fromText="This" toID="T2" toText="01/26/1992" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E27" fromText="discharge" toID="T2" toText="01/26/1992" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E5" fromText="residual contrast in the colon" toID="T2" toText="01/26/1992" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME4" fromID="E6" fromText="the patient &apos;s prior abdominal CT scan" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E7" fromText="the exam" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E18" fromText="postponed" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E8" fromText="a scout film" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E28" fromText="well" toID="T2" toText="01/26/1992" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E29" fromText="discharge" toID="T2" toText="01/26/1992" type="OVERLAP" />
+<TLINK id="SECTIME10" fromID="E9" fromText="afebrile" toID="T2" toText="01/26/1992" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME11" fromID="E30" fromText="her hospital course" toID="T2" toText="01/26/1992" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME12" fromID="E31" fromText="discharge" toID="T2" toText="01/26/1992" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E10" fromText="flexion and extension views of the lumbosacral spine" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E32" fromText="showed" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E11" fromText="fracture" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E12" fromText="instability" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E15" fromText="struck by a car" toID="T1" toText="01/23/1992" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E0" fromText="loss of consciousness" toID="T1" toText="01/23/1992" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E16" fromText="conscious" toID="T1" toText="01/23/1992" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E17" fromText="evaluated" toID="T1" toText="01/23/1992" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E19" fromText="paraplegic below the umbilicus" toID="T1" toText="01/23/1992" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E20" fromText="absence of movement and sensation below the umbilicus" toID="T1" toText="01/23/1992" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME23" fromID="E21" fromText="A Neurosurgery consultation" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E2" fromText="the patient &apos;s paraplegia" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E3" fromText="a cord concussion" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E22" fromText="intravenous steroids" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E4" fromText="The patient &apos;s paraplegia" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E23" fromText="maintained 5/5 motor strength" toID="T2" toText="01/26/1992" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E24" fromText="A Urology consultation" toID="T2" toText="01/26/1992" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

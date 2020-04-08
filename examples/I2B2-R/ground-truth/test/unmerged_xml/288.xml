@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+2/15/94
+DISCHARGE DATE :
+2/28/94
+HISTORY OF PRESENT ILLNESS :
+This 75 year old male had been noted to be anemic with an abnormal white blood count since at least November 1993 , while he was living in Aersing Rocuch Sun and his physicians there had begun to manage him with transfusions , and low dose hydroxyurea .
+Apparently , a bone marrow biopsy at the time confirmed the diagnosis of chronic myelomonocytic leukemia .
+He came to this country in late December 1994 to live with his son for a few months and was referred to me for follow up .
+He had been noting night sweats , increasing fatigue , anorexia , and dyspnea , which were not particularly improved by increased transfusions or alterations of hydroxy urea .
+He became profoundly thrombocytopenic , and ultimately was admitted to the hospital on 2/15 with headache and weakness .
+HOSPITAL COURSE :
+The patient was admitted to the hospital and begun on high dose Hydroxyurea , with a gradual improvement in his white blood count over the next few days .
+He did spike a fever and began Ancef and Gentamicin , although cultures never revealed a source for this .
+He also tried Amicar and continued on low dose Prednisone .
+His headache improved , but her remained profoundly weak and intermittently febrile with dyspnea .
+There was hemoptysis and intermittent gastrointestinal bleeding , while he remained profoundly thrombocytopenia .
+Transfusions of platelets did not change his platelet count , presumably because of sequestration and a massive spleen .
+Amicar was of uncertain value , but used intermittently .
+A bone marrow biopsy revealed the transformation of his CMML to acute myelogenous leukemia , and given his other underlying medical problems , we chose chemotherapy with subcutaneous Cystosine Arabinoside and 6-Thioguanine , which he tolerated without incident and this brought his white blood count down to below 1,000 , and his spleen shrank noticeably , but he still could not maintain a bump in platelet count with platelet transfusions .
+He was intermittently congested limiting our ability to give intravenous fluid , for his hydrea , although we kept him on Allopurinol .
+The renal function deteriorated somewhat , hampering our ability to give him his Gentamicin .
+The family maintained an extraordinary vigil over the days of his hospitalization , providing him with some food and constant attention , while we awaited the results of his chemotherapy and treatment of his infection .
+He was intermittently restless and somewhat confused , and as his respiratory status deteriorated , the family agreed to a low dose Morphine drip which made him much more comfortable .
+They agreed with a do not resuscitate status early on in the hospitalization and in the course of being maintain on low dose Morphine , he ultimately expired on 2/28/94 with the family present .
+No autopsy was obtained .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1047" end="1054" text="a fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1065" end="1070" text="Ancef" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1075" end="1085" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1097" end="1105" text="cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="1112" end="1120" text="revealed" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="1155" end="1161" text="Amicar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1179" end="1198" text="low dose Prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1201" end="1213" text="His headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1214" end="1222" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="123" end="129" text="anemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1242" end="1257" text="profoundly weak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="1262" end="1284" text="intermittently febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1290" end="1297" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1310" end="1320" text="hemoptysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="1325" end="1363" text="intermittent gastrointestinal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="135" end="164" text="an abnormal white blood count" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1384" end="1411" text="profoundly thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1414" end="1439" text="Transfusions of platelets" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1455" end="1473" text="his platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="1498" end="1511" text="sequestration" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1516" end="1532" text="a massive spleen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1535" end="1541" text="Amicar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1593" end="1613" text="A bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="1614" end="1622" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E28" start="1645" end="1653" text="his CMML" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1657" end="1683" text="acute myelogenous leukemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1696" end="1733" text="his other underlying medical problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1745" end="1757" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1763" end="1797" text="subcutaneous Cystosine Arabinoside" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1802" end="1815" text="6-Thioguanine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="1827" end="1836" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1845" end="1853" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1871" end="1892" text="his white blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="1919" end="1936" text="his spleen shrank" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1992" end="2006" text="platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="2012" end="2033" text="platelet transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2043" end="2067" text="intermittently congested" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2097" end="2114" text="intravenous fluid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2121" end="2131" text="his hydrea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2158" end="2169" text="Allopurinol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="2191" end="2203" text="deteriorated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="2249" end="2263" text="his Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2316" end="2324" text="the days" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2328" end="2347" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2436" end="2452" text="his chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2457" end="2466" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2470" end="2483" text="his infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2493" end="2516" text="intermittently restless" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2521" end="2538" text="somewhat confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="2571" end="2583" text="deteriorated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="2607" end="2631" text="a low dose Morphine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2657" end="2668" text="comfortable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2688" end="2715" text="a do not resuscitate status" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2728" end="2747" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2787" end="2804" text="low dose Morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="2821" end="2828" text="expired" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2869" end="2876" text="autopsy" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E51" start="292" end="304" text="transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="311" end="331" text="low dose hydroxyurea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="347" end="367" text="a bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="407" end="438" text="chronic myelomonocytic leukemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="490" end="507" text="live with his son" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="533" end="541" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="552" end="561" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="576" end="582" text="noting" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="583" end="595" text="night sweats" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="598" end="616" text="increasing fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="619" end="627" text="anorexia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="634" end="641" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="672" end="680" text="improved" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E8" start="684" end="706" text="increased transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="710" end="721" text="alterations" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="725" end="737" text="hydroxy urea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="750" end="777" text="profoundly thrombocytopenic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="799" end="807" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="811" end="823" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="837" end="845" text="headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="850" end="858" text="weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="895" end="903" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="907" end="919" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="933" end="954" text="high dose Hydroxyurea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="962" end="983" text="a gradual improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="987" end="1008" text="his white blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T7" start="1014" end="1031" text="the next few days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T1" start="18" end="25" text="2/15/94" type="DATE" val="1994-02-15" mod="NA" />
+<TIMEX3 id="T3" start="180" end="193" text="November 1993" type="DATE" val="1993-11" mod="NA" />
+<TIMEX3 id="T4" start="2832" end="2839" text="2/28/94" type="DATE" val="1994-02-28" mod="NA" />
+<TIMEX3 id="T2" start="43" end="50" text="2/28/94" type="DATE" val="1994-02-28" mod="NA" />
+<TIMEX3 id="T0" start="468" end="486" text="late December 1994" type="DATE" val="1994-12" mod="END" />
+<TIMEX3 id="T5" start="512" end="524" text="a few months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T6" start="827" end="831" text="2/15" type="DATE" val="1994-02-15" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="2/15/94" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E49" fromText="DISCHARGE" toID="T2" toText="2/28/94" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E53" fromText="referred" toID="E63" toText="live with his son" type="OVERLAP" />
+<TLINK id="TL11" fromID="E54" fromText="follow up" toID="E53" toText="referred" type="AFTER" />
+<TLINK id="TL12" fromID="E55" fromText="noting" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E4" fromText="night sweats" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E5" fromText="increasing fatigue" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E6" fromText="anorexia" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E7" fromText="dyspnea" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E56" fromText="improved" toID="E8" toText="increased transfusions" type="AFTER" />
+<TLINK id="TL18" fromID="E57" fromText="alterations" toID="E8" toText="increased transfusions" type="OVERLAP" />
+<TLINK id="TL19" fromID="E9" fromText="hydroxy urea" toID="E2" toText="low dose hydroxyurea" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E1" fromText="anemic" toID="T3" toText="November 1993" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E58" fromText="profoundly thrombocytopenic" toID="E59" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E59" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E65" fromText="the hospital" toID="E60" toText="the hospital" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E60" fromText="the hospital" toID="E59" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL24" fromID="E59" fromText="admitted" toID="T6" toText="2/15" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E61" fromText="headache" toID="E59" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E60" fromText="the hospital" toID="E49" toText="DISCHARGE" type="ENDED_BY" />
+<TLINK id="TL28" fromID="E62" fromText="weakness" toID="E59" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E64" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E50" fromText="an abnormal white blood count" toID="T3" toText="November 1993" type="BEGUN_BY" />
+<TLINK id="TL30" fromID="E10" fromText="high dose Hydroxyurea" toID="E66" toText="a gradual improvement" type="OVERLAP" />
+<TLINK id="TL31" fromID="E10" fromText="high dose Hydroxyurea" toID="E65" toText="the hospital" type="DURING" />
+<TLINK id="TL32" fromID="E66" fromText="a gradual improvement" toID="E11" toText="his white blood count" type="OVERLAP" />
+<TLINK id="TL33" fromID="E66" fromText="a gradual improvement" toID="T7" toText="the next few days" type="DURING" />
+<TLINK id="TL34" fromID="T7" fromText="the next few days" toID="T1" toText="2/15/94" type="BEGUN_BY" />
+<TLINK id="TL35" fromID="E13" fromText="Ancef" toID="E12" toText="a fever" type="BEGUN_BY" />
+<TLINK id="TL36" fromID="E12" fromText="a fever" toID="E64" toText="admitted" type="AFTER" />
+<TLINK id="TL37" fromID="E13" fromText="Ancef" toID="E14" toText="Gentamicin" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E12" fromText="a fever" toID="E15" toText="cultures" type="OVERLAP" />
+<TLINK id="TL39" fromID="E15" fromText="cultures" toID="E67" toText="revealed" type="OVERLAP" />
+<TLINK id="TL4" fromID="E51" fromText="transfusions" toID="T3" toText="November 1993" type="BEGUN_BY" />
+<TLINK id="TL40" fromID="E16" fromText="Amicar" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL41" fromID="E17" fromText="low dose Prednisone" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL42" fromID="E18" fromText="His headache" toID="E61" toText="headache" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E68" fromText="improved" toID="E64" toText="admitted" type="AFTER" />
+<TLINK id="TL44" fromID="E19" fromText="profoundly weak" toID="E5" toText="increasing fatigue" type="OVERLAP" />
+<TLINK id="TL45" fromID="E69" fromText="intermittently febrile" toID="E12" toText="a fever" type="OVERLAP" />
+<TLINK id="TL46" fromID="E69" fromText="intermittently febrile" toID="E20" toText="dyspnea" type="OVERLAP" />
+<TLINK id="TL49" fromID="E21" fromText="hemoptysis" toID="E71" toText="profoundly thrombocytopenia" type="OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="low dose hydroxyurea" toID="E51" toText="transfusions" type="OVERLAP" />
+<TLINK id="TL50" fromID="E70" fromText="intermittent gastrointestinal bleeding" toID="E71" toText="profoundly thrombocytopenia" type="OVERLAP" />
+<TLINK id="TL51" fromID="E71" fromText="profoundly thrombocytopenia" toID="E64" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E22" fromText="Transfusions of platelets" toID="E64" toText="admitted" type="AFTER" />
+<TLINK id="TL53" fromID="E23" fromText="his platelet count" toID="E22" toText="Transfusions of platelets" type="AFTER" />
+<TLINK id="TL54" fromID="E24" fromText="sequestration" toID="E22" toText="Transfusions of platelets" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E25" fromText="a massive spleen" toID="E24" toText="sequestration" type="OVERLAP" />
+<TLINK id="TL56" fromID="E26" fromText="Amicar" toID="E16" toText="Amicar" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E72" fromText="revealed" toID="E27" toText="A bone marrow biopsy" type="OVERLAP" />
+<TLINK id="TL58" fromID="E27" fromText="A bone marrow biopsy" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL59" fromID="E28" fromText="his CMML" toID="E29" toText="acute myelogenous leukemia" type="BEFORE" />
+<TLINK id="TL6" fromID="E52" fromText="a bone marrow biopsy" toID="T3" toText="November 1993" type="OVERLAP" />
+<TLINK id="TL60" fromID="E28" fromText="his CMML" toID="E3" toText="chronic myelomonocytic leukemia" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E30" fromText="his other underlying medical problems" toID="E31" toText="chemotherapy" type="BEFORE_OVERLAP" />
+<TLINK id="TL62" fromID="E31" fromText="chemotherapy" toID="E27" toText="A bone marrow biopsy" type="AFTER" />
+<TLINK id="TL63" fromID="E31" fromText="chemotherapy" toID="E32" toText="subcutaneous Cystosine Arabinoside" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E32" fromText="subcutaneous Cystosine Arabinoside" toID="E33" toText="6-Thioguanine" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E73" fromText="tolerated" toID="E31" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL66" fromID="E74" fromText="incident" toID="E31" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL67" fromID="E34" fromText="his white blood count" toID="E31" toText="chemotherapy" type="AFTER" />
+<TLINK id="TL68" fromID="E75" fromText="his spleen shrank" toID="E31" toText="chemotherapy" type="AFTER" />
+<TLINK id="TL69" fromID="E35" fromText="platelet count" toID="E36" toText="platelet transfusions" type="AFTER" />
+<TLINK id="TL7" fromID="E3" fromText="chronic myelomonocytic leukemia" toID="E52" toText="a bone marrow biopsy" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E36" fromText="platelet transfusions" toID="E22" toText="Transfusions of platelets" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E76" fromText="intermittently congested" toID="E64" toText="admitted" type="AFTER" />
+<TLINK id="TL72" fromID="E37" fromText="intravenous fluid" toID="E76" toText="intermittently congested" type="OVERLAP" />
+<TLINK id="TL73" fromID="E38" fromText="his hydrea" toID="E37" toText="intravenous fluid" type="OVERLAP" />
+<TLINK id="TL74" fromID="E39" fromText="Allopurinol" toID="E38" toText="his hydrea" type="OVERLAP" />
+<TLINK id="TL75" fromID="E48" fromText="deteriorated" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL76" fromID="E40" fromText="his Gentamicin" toID="E14" toText="Gentamicin" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E40" fromText="his Gentamicin" toID="E48" toText="deteriorated" type="BEFORE" />
+<TLINK id="TL78" fromID="E79" fromText="his hospitalization" toID="E0" toText="ADMISSION" type="BEGUN_BY" />
+<TLINK id="TL79" fromID="E79" fromText="his hospitalization" toID="E49" toText="DISCHARGE" type="ENDED_BY" />
+<TLINK id="TL8" fromID="T5" fromText="a few months" toID="T0" toText="late December 1994" type="BEGUN_BY" />
+<TLINK id="TL80" fromID="E41" fromText="his chemotherapy" toID="E31" toText="chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E42" fromText="treatment" toID="E13" toText="Ancef" type="OVERLAP" />
+<TLINK id="TL82" fromID="E43" fromText="his infection" toID="E12" toText="a fever" type="OVERLAP" />
+<TLINK id="TL83" fromID="E45" fromText="somewhat confused" toID="E44" toText="intermittently restless" type="OVERLAP" />
+<TLINK id="TL84" fromID="E44" fromText="intermittently restless" toID="E79" toText="his hospitalization" type="DURING" />
+<TLINK id="TL85" fromID="E80" fromText="deteriorated" toID="E79" toText="his hospitalization" type="DURING" />
+<TLINK id="TL86" fromID="E46" fromText="a low dose Morphine drip" toID="E80" toText="deteriorated" type="AFTER" />
+<TLINK id="TL87" fromID="E81" fromText="comfortable" toID="E46" toText="a low dose Morphine drip" type="AFTER" />
+<TLINK id="TL88" fromID="E83" fromText="the hospitalization" toID="E79" toText="his hospitalization" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="E82" fromText="a do not resuscitate status" toID="E83" toText="the hospitalization" type="DURING" />
+<TLINK id="TL9" fromID="E63" fromText="live with his son" toID="T5" toText="a few months" type="DURING" />
+<TLINK id="TL90" fromID="E47" fromText="low dose Morphine" toID="E46" toText="a low dose Morphine drip" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E84" fromText="expired" toID="T4" toText="2/28/94" type="SIMULTANEOUS" />
+<TLINK id="TL92" fromID="E85" fromText="autopsy" toID="E84" toText="expired" type="AFTER" />
+<SECTIME id="S0" start="18" end="25" text="2/15/94" type="ADMISSION" dvalue="1994-2-15" />
+<SECTIME id="S1" start="43" end="50" text="2/28/94" type="DISCHARGE" dvalue="1994-2-28" />
+<TLINK id="SECTIME0" fromID="E12" fromText="a fever" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E13" fromText="Ancef" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E14" fromText="Gentamicin" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E15" fromText="cultures" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E67" fromText="revealed" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E16" fromText="Amicar" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E17" fromText="low dose Prednisone" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E18" fromText="His headache" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E68" fromText="improved" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E1" fromText="anemic" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME10" fromID="E19" fromText="profoundly weak" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E69" fromText="intermittently febrile" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E20" fromText="dyspnea" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E21" fromText="hemoptysis" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E70" fromText="intermittent gastrointestinal bleeding" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E50" fromText="an abnormal white blood count" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME16" fromID="E71" fromText="profoundly thrombocytopenia" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E22" fromText="Transfusions of platelets" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E23" fromText="his platelet count" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E24" fromText="sequestration" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E25" fromText="a massive spleen" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E26" fromText="Amicar" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E27" fromText="A bone marrow biopsy" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E72" fromText="revealed" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E28" fromText="his CMML" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E29" fromText="acute myelogenous leukemia" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E30" fromText="his other underlying medical problems" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E31" fromText="chemotherapy" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E32" fromText="subcutaneous Cystosine Arabinoside" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E33" fromText="6-Thioguanine" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E73" fromText="tolerated" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E74" fromText="incident" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E34" fromText="his white blood count" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E75" fromText="his spleen shrank" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E35" fromText="platelet count" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E36" fromText="platelet transfusions" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E76" fromText="intermittently congested" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E37" fromText="intravenous fluid" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E38" fromText="his hydrea" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E39" fromText="Allopurinol" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E48" fromText="deteriorated" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E40" fromText="his Gentamicin" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E78" fromText="the days" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E79" fromText="his hospitalization" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E41" fromText="his chemotherapy" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E42" fromText="treatment" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E43" fromText="his infection" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E44" fromText="intermittently restless" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E45" fromText="somewhat confused" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E80" fromText="deteriorated" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E46" fromText="a low dose Morphine drip" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E81" fromText="comfortable" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E82" fromText="a do not resuscitate status" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E83" fromText="the hospitalization" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E47" fromText="low dose Morphine" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E84" fromText="expired" toID="T2" toText="2/28/94" type="OVERLAP" />
+<TLINK id="SECTIME56" fromID="E85" fromText="autopsy" toID="T2" toText="2/28/94" type="AFTER" />
+<TLINK id="SECTIME57" fromID="E51" fromText="transfusions" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E2" fromText="low dose hydroxyurea" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME59" fromID="E52" fromText="a bone marrow biopsy" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E3" fromText="chronic myelomonocytic leukemia" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME61" fromID="E63" fromText="live with his son" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E53" fromText="referred" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E54" fromText="follow up" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E55" fromText="noting" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E4" fromText="night sweats" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME66" fromID="E5" fromText="increasing fatigue" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME67" fromID="E6" fromText="anorexia" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME68" fromID="E7" fromText="dyspnea" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME69" fromID="E56" fromText="improved" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E8" fromText="increased transfusions" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E57" fromText="alterations" toID="T1" toText="2/15/94" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E9" fromText="hydroxy urea" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME73" fromID="E58" fromText="profoundly thrombocytopenic" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME74" fromID="E59" fromText="admitted" toID="T1" toText="2/15/94" type="OVERLAP" />
+<TLINK id="SECTIME75" fromID="E60" fromText="the hospital" toID="T1" toText="2/15/94" type="AFTER" />
+<TLINK id="SECTIME76" fromID="E61" fromText="headache" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME77" fromID="E62" fromText="weakness" toID="T1" toText="2/15/94" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME78" fromID="E64" fromText="admitted" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E65" fromText="the hospital" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E10" fromText="high dose Hydroxyurea" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E66" fromText="a gradual improvement" toID="T2" toText="2/28/94" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E11" fromText="his white blood count" toID="T2" toText="2/28/94" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

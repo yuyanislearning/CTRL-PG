@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/23/1992
+Discharge Date :
+01/26/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 20 year old black female who was a pedestrian when struck by a car at apparent high speed .
+There was apparent loss of consciousness at the scene and significant deformity of the anterior portion of the motorvehicle with positive starring of the windshield .
+The patient was conscious on the scene when evaluated by EMT &apos;s but at the scene , the patient was apparently paraplegic below the umbilicus with absence of movement and sensation below the umbilicus .
+HOSPITAL COURSE :
+A Neurosurgery consultation was obtained , and it was their impression that the patient &apos;s paraplegia might possibly represent a cord concussion , and recommended treatment with intravenous steroids for 24 hours .
+The patient &apos;s paraplegia resolved by the morning of her second hospital day , and she maintained 5/5 motor strength in all groups .
+A Urology consultation was obtained , and it was recommended that an IVP be obtained .
+This was obtained on the day of discharge , however , due to residual contrast in the colon from the patient &apos;s prior abdominal CT scan , the exam was postponed after a scout film was obtained .
+The patient fell well on the day of discharge .
+She remained afebrile throughout her hospital course .
+Additionally on the night before discharge , flexion and extension views of the lumbosacral spine were obtained , and showed no fracture or instability .
+]]></TEXT>
+<TAGS>
+<EVENT id="E13" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1010" end="1016" text="an IVP" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1031" end="1035" text="This" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1063" end="1072" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="1092" end="1122" text="residual contrast in the colon" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="1128" end="1171" text="the patient &apos;s prior abdominal CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="1174" end="1182" text="the exam" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E18" start="1187" end="1196" text="postponed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="1203" end="1215" text="a scout film" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1248" end="1252" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1267" end="1276" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1292" end="1300" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1312" end="1331" text="her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1367" end="1376" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1379" end="1431" text="flexion and extension views of the lumbosacral spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1452" end="1458" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="1462" end="1470" text="fracture" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1474" end="1485" text="instability" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="154" end="169" text="struck by a car" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="214" end="235" text="loss of consciousness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="378" end="387" text="conscious" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="406" end="415" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="477" end="507" text="paraplegic below the umbilicus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="513" end="566" text="absence of movement and sensation below the umbilicus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="587" end="614" text="A Neurosurgery consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="663" end="693" text="the patient &apos;s paraplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="719" end="736" text="a cord concussion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="770" end="790" text="intravenous steroids" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="806" end="836" text="The patient &apos;s paraplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="898" end="927" text="maintained 5/5 motor strength" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="944" end="966" text="A Urology consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1052" end="1059" text="the day" type="DATE" val="1992-01-26" mod="NA" />
+<TIMEX3 id="T5" start="1256" end="1263" text="the day" type="DATE" val="1992-01-26" mod="NA" />
+<TIMEX3 id="T6" start="1350" end="1359" text="the night" type="DATE" val="1992-01-25" mod="END" />
+<TIMEX3 id="T1" start="18" end="28" text="01/23/1992" type="DATE" val="1992-01-23" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="01/26/1992" type="DATE" val="1992-01-26" mod="NA" />
+<TIMEX3 id="T0" start="795" end="803" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T3" start="864" end="887" text="her second hospital day" type="DATE" val="1992-01-24" mod="START" />
+<SECTIME id="S0" start="18" end="28" text="01/23/1992" type="ADMISSION" dvalue="1992-01-23" />
+<SECTIME id="S1" start="46" end="56" text="01/26/1992" type="DISCHARGE" dvalue="1992-01-26" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

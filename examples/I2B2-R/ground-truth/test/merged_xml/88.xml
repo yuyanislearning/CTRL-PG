@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-06-07
+Discharge Date :
+2012-06-09
+Service :
+MEDICINE
+History of Present Illness :
+Mr. Vazquez is a 48 year old man with a history of hepatitis C , bipolar disorder with suicide attempts in the past , recent CMED admit earlier in 4/05 who was found alert approximately one hour after taking an unspecified number of pills .
+Per report , there were empty bottles of Inderal and Klonopin found at bedside , as well as 02-26 full bottles of geodon , gabapentin , Lescol and paroxitine .
+The patient was reportedly alert at scene , and then became unresponsive in route to the hospital .
+In the Rita , the patient was intubated and given activated charcoal .
+His initial BP was 60/P with a pulse in the 60 s.
+He was given 4 amps of calcium gluconate , and started on a Calcium gtt .
+He was also given 5mg of glucagon and started on a glucagon drip with good response .
+His urine and serum tox screens were notable only for benzos , otherwise negative .
+He was seen by cardiology , and toxicology was consulted via telephone .
+He was admitted to the CMED , intubated for airway protection and started on both a calcium and glucagon drip .
+There was evidence of possible aspiration pneumonia on CXR , though he was extubated without incident on the AM of transfer to the medicine floor .
+CMED was made aware , and they are actively involved in his care .
+Brief Hospital Course :
+A/P : 48yo man with h/o HCV , bipolar DO , h/o suicide attempts , a/w overdose of Inderal , Klonopin , Geodon , s/T Jackson stay with intubation for airway protection , with question of L retrocardiac infiltrate , now doing well .
+Overdose :
+- monitor on tele overnight
+- if HR drops , restart glucagon gtt
+- watch for BZD withdrawal , agitation
+Bipolar disorder :
+- appreciate CMED consult ; patient to be discharged to inpatient CMED facility once stable
+- suicide precautions
+Activity : OOB with assist
+FEN : house diet
+PPX : SC heparin , bowel regimen , nicotine patch
+CODE : full
+DISPO : transfer to inpatient CMED likely tomorrow
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1018" end="1027" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1051" end="1059" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1063" end="1071" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1074" end="1083" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1088" end="1105" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1126" end="1153" text="a calcium and glucagon drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1187" end="1207" text="aspiration pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1211" end="1214" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1231" end="1240" text="extubated" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E43" start="1249" end="1257" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1271" end="1279" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1283" end="1301" text="the medicine floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1304" end="1308" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1348" end="1368" text="involved in his care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1419" end="1422" text="HCV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1425" end="1435" text="bipolar DO" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1442" end="1458" text="suicide attempts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1465" end="1473" text="overdose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1477" end="1484" text="Inderal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1487" end="1495" text="Klonopin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1498" end="1504" text="Geodon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1529" end="1539" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1544" end="1561" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="156" end="167" text="hepatitis C" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1581" end="1606" text="L retrocardiac infiltrate" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1613" end="1623" text="doing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1650" end="1654" text="tele" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="1670" end="1672" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1673" end="1678" text="drops" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1689" end="1701" text="glucagon gtt" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="170" end="186" text="bipolar disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1714" end="1728" text="BZD withdrawal" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1731" end="1740" text="agitation" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1741" end="1757" text="Bipolar disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1773" end="1777" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E67" start="1802" end="1812" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1816" end="1839" text="inpatient CMED facility" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1845" end="1851" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1854" end="1873" text="suicide precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1885" end="1888" text="OOB" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1894" end="1900" text="assist" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="1907" end="1917" text="house diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="192" end="208" text="suicide attempts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1924" end="1934" text="SC heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="1937" end="1950" text="bowel regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1953" end="1967" text="nicotine patch" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1988" end="1996" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2000" end="2014" text="inpatient CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="230" end="234" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="235" end="240" text="admit" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="265" end="276" text="found alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="338" end="343" text="pills" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="350" end="356" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="387" end="394" text="Inderal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="399" end="407" text="Klonopin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="460" end="466" text="geodon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="469" end="479" text="gabapentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="482" end="488" text="Lescol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="493" end="503" text="paroxitine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="533" end="538" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="566" end="578" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="591" end="603" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="609" end="617" text="the Rita" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="636" end="645" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="656" end="674" text="activated charcoal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="677" end="691" text="His initial BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="706" end="713" text="a pulse" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="750" end="767" text="calcium gluconate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="785" end="798" text="a Calcium gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="826" end="834" text="glucagon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="850" end="865" text="a glucagon drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="871" end="884" text="good response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="887" end="896" text="His urine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="901" end="918" text="serum tox screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="941" end="947" text="benzos" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="978" end="996" text="seen by cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1261" end="1267" text="the AM" type="DATE" val="2012-06-08" mod="START" />
+<TIMEX3 id="T5" start="1655" end="1664" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2012-06-07" type="DATE" val="2012-06-07" mod="NA" />
+<TIMEX3 id="T6" start="2022" end="2030" text="tomorrow" type="DATE" val="2012-06-09" mod="NA" />
+<TIMEX3 id="T2" start="252" end="256" text="4/05" type="DATE" val="2012-04-05" mod="NA" />
+<TIMEX3 id="T3" start="291" end="299" text="one hour" type="DURATION" val="PT1H" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="2012-06-09" type="DATE" val="2012-06-09" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2012-06-07" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2012-06-09" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="Inderal" toID="E8" toText="pills" type="OVERLAP" />
+<TLINK id="TL11" fromID="E11" fromText="Klonopin" toID="E10" toText="Inderal" type="OVERLAP" />
+<TLINK id="TL12" fromID="E12" fromText="geodon" toID="E54" toText="Geodon" type="OVERLAP" />
+<TLINK id="TL13" fromID="E12" fromText="geodon" toID="E11" toText="Klonopin" type="OVERLAP" />
+<TLINK id="TL14" fromID="E11" fromText="Klonopin" toID="E53" toText="Klonopin" type="OVERLAP" />
+<TLINK id="TL15" fromID="E10" fromText="Inderal" toID="E52" toText="Inderal" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="gabapentin" toID="E12" toText="geodon" type="OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="Lescol" toID="E13" toText="gabapentin" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="paroxitine" toID="E14" toText="Lescol" type="OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="alert" toID="E7" toText="found alert" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="hepatitis C" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E17" fromText="unresponsive" toID="E18" toText="the hospital" type="BEFORE" />
+<TLINK id="TL21" fromID="E17" fromText="unresponsive" toID="E16" toText="alert" type="AFTER" />
+<TLINK id="TL22" fromID="E19" fromText="the Rita" toID="E18" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL24" fromID="E18" fromText="the hospital" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="TL25" fromID="E20" fromText="intubated" toID="E19" toText="the Rita" type="OVERLAP" />
+<TLINK id="TL26" fromID="E20" fromText="intubated" toID="E21" toText="activated charcoal" type="OVERLAP" />
+<TLINK id="TL27" fromID="E23" fromText="a pulse" toID="E22" toText="His initial BP" type="OVERLAP" />
+<TLINK id="TL28" fromID="E22" fromText="His initial BP" toID="E21" toText="activated charcoal" type="OVERLAP" />
+<TLINK id="TL29" fromID="E24" fromText="calcium gluconate" toID="E23" toText="a pulse" type="AFTER" />
+<TLINK id="TL3" fromID="E3" fromText="bipolar disorder" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL31" fromID="E25" fromText="a Calcium gtt" toID="E24" toText="calcium gluconate" type="AFTER" />
+<TLINK id="TL32" fromID="E24" fromText="calcium gluconate" toID="E26" toText="glucagon" type="OVERLAP" />
+<TLINK id="TL33" fromID="E27" fromText="a glucagon drip" toID="E26" toText="glucagon" type="AFTER" />
+<TLINK id="TL34" fromID="E28" fromText="good response" toID="E27" toText="a glucagon drip" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="serum tox screens" toID="E29" toText="His urine" type="OVERLAP" />
+<TLINK id="TL36" fromID="E29" fromText="His urine" toID="E22" toText="His initial BP" type="AFTER" />
+<TLINK id="TL37" fromID="E32" fromText="benzos" toID="E19" toText="the Rita" type="BEFORE" />
+<TLINK id="TL38" fromID="E33" fromText="seen by cardiology" toID="E20" toText="intubated" type="AFTER" />
+<TLINK id="TL39" fromID="E34" fromText="consulted" toID="E20" toText="intubated" type="AFTER" />
+<TLINK id="TL4" fromID="E4" fromText="suicide attempts" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E36" fromText="the CMED" toID="E35" toText="admitted" type="AFTER" />
+<TLINK id="TL41" fromID="E35" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL42" fromID="E37" fromText="intubated" toID="E36" toText="the CMED" type="BEFORE" />
+<TLINK id="TL43" fromID="E37" fromText="intubated" toID="E38" toText="airway protection" type="OVERLAP" />
+<TLINK id="TL45" fromID="E39" fromText="a calcium and glucagon drip" toID="E27" toText="a glucagon drip" type="OVERLAP" />
+<TLINK id="TL46" fromID="E39" fromText="a calcium and glucagon drip" toID="E25" toText="a Calcium gtt" type="OVERLAP" />
+<TLINK id="TL47" fromID="E40" fromText="aspiration pneumonia" toID="E41" toText="CXR" type="BEFORE" />
+<TLINK id="TL48" fromID="E57" fromText="L retrocardiac infiltrate" toID="E40" toText="aspiration pneumonia" type="OVERLAP" />
+<TLINK id="TL49" fromID="E41" fromText="CXR" toID="E36" toText="the CMED" type="OVERLAP" />
+<TLINK id="TL5" fromID="E5" fromText="CMED" toID="E6" toText="admit" type="OVERLAP" />
+<TLINK id="TL50" fromID="E42" fromText="extubated" toID="T4" toText="the AM" type="OVERLAP" />
+<TLINK id="TL51" fromID="E42" fromText="extubated" toID="E43" toText="incident" type="OVERLAP" />
+<TLINK id="TL52" fromID="E42" fromText="extubated" toID="E44" toText="transfer" type="BEFORE" />
+<TLINK id="TL53" fromID="E44" fromText="transfer" toID="T4" toText="the AM" type="AFTER" />
+<TLINK id="TL54" fromID="E36" fromText="the CMED" toID="E44" toText="transfer" type="BEFORE" />
+<TLINK id="TL55" fromID="E45" fromText="the medicine floor" toID="E44" toText="transfer" type="AFTER" />
+<TLINK id="TL56" fromID="E46" fromText="CMED" toID="E36" toText="the CMED" type="OVERLAP" />
+<TLINK id="TL57" fromID="E47" fromText="involved in his care" toID="E46" toText="CMED" type="OVERLAP" />
+<TLINK id="TL58" fromID="E48" fromText="HCV" toID="E2" toText="hepatitis C" type="OVERLAP" />
+<TLINK id="TL59" fromID="E49" fromText="bipolar DO" toID="E65" toText="Bipolar disorder" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="CMED" toID="T2" toText="4/05" type="OVERLAP" />
+<TLINK id="TL60" fromID="E50" fromText="suicide attempts" toID="E4" toText="suicide attempts" type="OVERLAP" />
+<TLINK id="TL61" fromID="E51" fromText="overdose" toID="E8" toText="pills" type="OVERLAP" />
+<TLINK id="TL63" fromID="E56" fromText="airway protection" toID="E38" toText="airway protection" type="OVERLAP" />
+<TLINK id="TL64" fromID="E58" fromText="doing well" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL65" fromID="E59" fromText="tele" toID="T5" toText="overnight" type="OVERLAP" />
+<TLINK id="TL66" fromID="E60" fromText="HR" toID="E59" toText="tele" type="OVERLAP" />
+<TLINK id="TL67" fromID="E61" fromText="drops" toID="T5" toText="overnight" type="OVERLAP" />
+<TLINK id="TL68" fromID="E62" fromText="glucagon gtt" toID="E61" toText="drops" type="AFTER" />
+<TLINK id="TL69" fromID="E63" fromText="BZD withdrawal" toID="E64" toText="agitation" type="OVERLAP" />
+<TLINK id="TL7" fromID="T3" fromText="one hour" toID="E7" toText="found alert" type="BEFORE" />
+<TLINK id="TL70" fromID="E63" fromText="BZD withdrawal" toID="T5" toText="overnight" type="OVERLAP" />
+<TLINK id="TL71" fromID="E49" fromText="bipolar DO" toID="E3" toText="bipolar disorder" type="OVERLAP" />
+<TLINK id="TL72" fromID="E66" fromText="CMED" toID="E36" toText="the CMED" type="OVERLAP" />
+<TLINK id="TL73" fromID="E45" fromText="the medicine floor" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL74" fromID="E67" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL75" fromID="E68" fromText="inpatient CMED facility" toID="E67" toText="discharged" type="AFTER" />
+<TLINK id="TL76" fromID="E69" fromText="stable" toID="E68" toText="inpatient CMED facility" type="BEFORE" />
+<TLINK id="TL77" fromID="E70" fromText="suicide precautions" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL78" fromID="E71" fromText="OOB" toID="E72" toText="assist" type="OVERLAP" />
+<TLINK id="TL79" fromID="E71" fromText="OOB" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL8" fromID="T3" fromText="one hour" toID="E8" toText="pills" type="AFTER" />
+<TLINK id="TL80" fromID="E73" fromText="house diet" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL81" fromID="E74" fromText="SC heparin" toID="E18" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL82" fromID="E75" fromText="bowel regimen" toID="E18" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL83" fromID="E76" fromText="nicotine patch" toID="E18" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL84" fromID="E77" fromText="transfer" toID="E67" toText="discharged" type="OVERLAP" />
+<TLINK id="TL85" fromID="E78" fromText="inpatient CMED" toID="E68" toText="inpatient CMED facility" type="OVERLAP" />
+<TLINK id="TL86" fromID="E77" fromText="transfer" toID="T6" toText="tomorrow" type="OVERLAP" />
+<TLINK id="TL9" fromID="E9" fromText="report" toID="E19" toText="the Rita" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2012-06-07" type="ADMISSION" dvalue="2012-06-07" />
+<SECTIME id="S1" start="46" end="56" text="2012-06-09" type="DISCHARGE" dvalue="2012-06-09" />
+<TLINK id="SECTIME0" fromID="E34" fromText="consulted" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E35" fromText="admitted" toID="T0" toText="2012-06-07" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E36" fromText="the CMED" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME3" fromID="E37" fromText="intubated" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E38" fromText="airway protection" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E39" fromText="a calcium and glucagon drip" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E40" fromText="aspiration pneumonia" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E41" fromText="CXR" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E42" fromText="extubated" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E43" fromText="incident" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E44" fromText="transfer" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME11" fromID="E45" fromText="the medicine floor" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME12" fromID="E46" fromText="CMED" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME13" fromID="E47" fromText="involved in his care" toID="T0" toText="2012-06-07" type="AFTER" />
+<TLINK id="SECTIME14" fromID="E48" fromText="HCV" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E49" fromText="bipolar DO" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E50" fromText="suicide attempts" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E51" fromText="overdose" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E52" fromText="Inderal" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E53" fromText="Klonopin" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E54" fromText="Geodon" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E55" fromText="intubation" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E56" fromText="airway protection" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E2" fromText="hepatitis C" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E57" fromText="L retrocardiac infiltrate" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E58" fromText="doing well" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E59" fromText="tele" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E60" fromText="HR" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E61" fromText="drops" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E62" fromText="glucagon gtt" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E3" fromText="bipolar disorder" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E63" fromText="BZD withdrawal" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E64" fromText="agitation" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E65" fromText="Bipolar disorder" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E66" fromText="CMED" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E67" fromText="discharged" toID="T1" toText="2012-06-09" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E68" fromText="inpatient CMED facility" toID="T1" toText="2012-06-09" type="AFTER" />
+<TLINK id="SECTIME37" fromID="E69" fromText="stable" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E70" fromText="suicide precautions" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E71" fromText="OOB" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E72" fromText="assist" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E73" fromText="house diet" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E4" fromText="suicide attempts" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E74" fromText="SC heparin" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E75" fromText="bowel regimen" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E76" fromText="nicotine patch" toID="T1" toText="2012-06-09" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E77" fromText="transfer" toID="T1" toText="2012-06-09" type="OVERLAP" />
+<TLINK id="SECTIME47" fromID="E78" fromText="inpatient CMED" toID="T1" toText="2012-06-09" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E5" fromText="CMED" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E6" fromText="admit" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E7" fromText="found alert" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E8" fromText="pills" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E9" fromText="report" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E10" fromText="Inderal" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E11" fromText="Klonopin" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E12" fromText="geodon" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E13" fromText="gabapentin" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E14" fromText="Lescol" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E15" fromText="paroxitine" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E16" fromText="alert" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E17" fromText="unresponsive" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E19" fromText="the Rita" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E20" fromText="intubated" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E21" fromText="activated charcoal" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E22" fromText="His initial BP" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E23" fromText="a pulse" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E24" fromText="calcium gluconate" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E25" fromText="a Calcium gtt" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E26" fromText="glucagon" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E27" fromText="a glucagon drip" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E28" fromText="good response" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E29" fromText="His urine" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E30" fromText="serum tox screens" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E32" fromText="benzos" toID="T0" toText="2012-06-07" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E33" fromText="seen by cardiology" toID="T0" toText="2012-06-07" type="BEFORE" />
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

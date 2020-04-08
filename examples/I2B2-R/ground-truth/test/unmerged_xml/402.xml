@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-02-18
+Discharge Date :
+2013-02-27
+Service :
+MEDICINE
+History of Present Illness :
+The patient is a 78 y/o WF w/a PMH significant for HTN and afib who presented to an OSH w/ complaints of abd pain and nausea .
+She was found to have a R ureteral stone w/ resultant hydronephrosis and was transferred to Nantucket Cottage Hospital for ureteral stent placement .
+Her INR was found to be elevated when admitted and , in the course of waiting for this to normalize , the patient spiked a temperature to 105 and became hypotensive to the 70s .
+She was bolused w/out effect and had little response to neo so she was changed to levophed , given doses of cipro / vanco / gent and transferred to the CMED CSRU for management .
+In the CMED , urology was consulted and the patient received a R nephrostomy tube .
+However , tube placement was complicated by renal artery puncture , afib , and increased dyspnea .
+She was intubated for this hypoxia and treated with lasix , metoprolol , and diltiazem .
+She was weaned off her pressors on 02-21 and maintained her pressure w/out additional fluid boluses .
+Her sedation was weaned down and she was successfully extubated shortly thereafter .
+UCx grew proteus and her abx were changed to levaquin alone and she remained afebrile for > 24 hr on this regimen .
+She continued to have trouble with afib and required a dilt gtt on the day prior to call-out to control this rhythm but she was transitioned to PO diltiazem and has been in NSR since this time .
+She was restarted on heparin prior to d/c as a bridge to therapeutic coumadin anticoagulation .
+Brief Hospital Course :
+A/P :
+78 year old female with history of HTN , a.fib presenting with ureteral stone , hydronephrosis , and urosepsis .
+She originally had hypotension and a leukocytosis in the ER and was admitted to the CMED CCU .
+In the CMED , urology was consulted and the patient received a R nephrostomy tube .
+However , tube placement was complicated by renal artery puncture , afib , and increased dyspnea .
+She was intubated for this hypoxia and treated with lasix , metoprolol , and diltiazem .
+She was weaned off her pressors on 02-21 and maintained her pressure w/out additional fluid boluses .
+Her sedation was weaned down and she was successfully extubated shortly thereafter .
+UCx grew proteus and her abx were changed to levaquin alone and she remained afebrile for > 24hr on this regimen .
+She continued to have trouble with afib and required a dilt gtt on the day prior to call-out to control this rhythm but she was transitioned to PO diltiazem on the day of call-out .
+1. Sepsis - The patient was septic in the ER and her blood cultures eventually grew proteus .
+Her Bcx remained negative throughout her stay .
+She was treated with levaquin on the floor and will complete a 14d course at rehab .
+She has been afebrile since she was called out to the floor .
+2. Ureteral stone - The patient had a nephrostomy tube placed by IR to relieve her hydronephrosis .
+She was followed by urology during her stay and will see them again 2 wk after d/c for definitive treatment of her nephrolithiasis .
+At this time , urology will coordinate removal of her nephrostomy tube with IR .
+Her nephrostomy tube was draining clear yellow urine at the time of d/c .
+3. a.fib - The patient has a history of atrial fibrillation controlled with beta blockers at home .
+She was treated in the CMED as above .
+Once on the floor , the patient had one episode of afib w/ RVR that responded immediately to IV metoprolol .
+Because of this , the patient 's diltiazem was stopped and she was started on tid metoprolol .
+After this , the patient had no further problems with her rate control .
+She was maintained on a heparin gtt for bridge to coumadin while on the floor after this was cleared by IR and urology .
+She will be d/c w/out her heparin as she is trending upwards with her INR and has no MR Paul Paquettec heart disease .
+She will continue her coumadin at rehab to achieve an INR between 03-22 .
+4. delirium - The patient had troubles with agitation while in the CMED CCU .
+She received prn haldol w/ little effect and improved as her infection cleared .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="1019" end="1025" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="1030" end="1042" text="her pressors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="1056" end="1066" text="maintained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="1067" end="1079" text="her pressure" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="1086" end="1110" text="additional fluid boluses" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E97" start="1113" end="1125" text="Her sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="1130" end="1136" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="1167" end="1176" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="1198" end="1201" text="UCx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E102" start="1207" end="1214" text="proteus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="1219" end="1226" text="her abx" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E185" start="1232" end="1239" text="changed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="1243" end="1251" text="levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="1266" end="1274" text="remained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="1275" end="1283" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="1299" end="1311" text="this regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="1318" end="1327" text="continued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="1349" end="1353" text="afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="1358" end="1366" text="required" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1367" end="1377" text="a dilt gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="1398" end="1406" text="call-out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E111" start="1418" end="1429" text="this rhythm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="1442" end="1454" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="1458" end="1470" text="PO diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="1487" end="1490" text="NSR" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="1517" end="1526" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="1530" end="1537" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="1547" end="1550" text="d/c" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="156" end="159" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="1566" end="1602" text="therapeutic coumadin anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="164" end="168" text="afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="1670" end="1673" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="1676" end="1681" text="a.fib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1682" end="1692" text="presenting" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="1698" end="1712" text="ureteral stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="1715" end="1729" text="hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="173" end="182" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="1736" end="1745" text="urosepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1767" end="1778" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1783" end="1797" text="a leukocytosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="1801" end="1807" text="the ER" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="1816" end="1824" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="1828" end="1840" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E125" start="1846" end="1854" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E126" start="1857" end="1864" text="urology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="186" end="192" text="an OSH" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="1904" end="1924" text="a R nephrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1937" end="1951" text="tube placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="1956" end="1967" text="complicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="196" end="206" text="complaints" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1971" end="1992" text="renal artery puncture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="1995" end="1999" text="afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="2006" end="2023" text="increased dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2034" end="2043" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="2048" end="2060" text="this hypoxia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E186" start="2065" end="2072" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="2078" end="2083" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="2086" end="2096" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="210" end="218" text="abd pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="2103" end="2112" text="diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="2123" end="2129" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="2134" end="2146" text="her pressors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E187" start="2160" end="2170" text="maintained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2171" end="2183" text="her pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2190" end="2214" text="additional fluid boluses" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E24" start="2217" end="2229" text="Her sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="223" end="229" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="2234" end="2245" text="weaned down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E132" start="2271" end="2280" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2302" end="2305" text="UCx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="2311" end="2318" text="proteus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2323" end="2330" text="her abx" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E188" start="2336" end="2343" text="changed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="2347" end="2355" text="levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2379" end="2387" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E134" start="2402" end="2414" text="this regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="2452" end="2456" text="afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="2470" end="2480" text="a dilt gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="2501" end="2509" text="call-out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="2521" end="2532" text="this rhythm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="254" end="272" text="a R ureteral stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E139" start="2545" end="2557" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="2561" end="2573" text="PO diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="2588" end="2596" text="call-out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="2627" end="2633" text="septic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E141" start="2637" end="2643" text="the ER" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="2648" end="2666" text="her blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2683" end="2690" text="proteus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="2693" end="2700" text="Her Bcx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E142" start="2710" end="2718" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E143" start="2730" end="2738" text="her stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E189" start="2762" end="2770" text="levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E144" start="2774" end="2783" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E57" start="2818" end="2823" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="2839" end="2847" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="286" end="300" text="hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E145" start="2862" end="2868" text="called" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E146" start="2876" end="2885" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E60" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="2924" end="2942" text="a nephrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E148" start="2953" end="2955" text="IR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E149" start="2967" end="2985" text="her hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E190" start="2996" end="3004" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E152" start="3008" end="3015" text="urology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E153" start="3023" end="3031" text="her stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="3075" end="3095" text="definitive treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="309" end="320" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E154" start="3099" end="3118" text="her nephrolithiasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E191" start="3136" end="3143" text="urology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="3160" end="3167" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E155" start="3171" end="3191" text="her nephrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E156" start="3197" end="3199" text="IR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E157" start="3202" end="3222" text="Her nephrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E159" start="3227" end="3254" text="draining clear yellow urine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="324" end="350" text="Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E160" start="3316" end="3335" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E162" start="3352" end="3365" text="beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E163" start="3384" end="3391" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E164" start="3395" end="3403" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E165" start="3423" end="3432" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="3466" end="3470" text="afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="3474" end="3477" text="RVR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="3508" end="3521" text="IV metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E166" start="3535" end="3539" text="this" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="355" end="379" text="ureteral stent placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E167" start="3542" end="3566" text="the patient 's diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E168" start="3571" end="3578" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E169" start="3591" end="3598" text="started" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E192" start="3606" end="3616" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E170" start="3625" end="3629" text="this" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="3651" end="3667" text="further problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="3673" end="3689" text="her rate control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E171" start="3700" end="3710" text="maintained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="3714" end="3727" text="a heparin gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E172" start="3742" end="3750" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E173" start="3760" end="3769" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E174" start="3776" end="3780" text="this" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E175" start="3785" end="3792" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E176" start="3796" end="3798" text="IR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E177" start="3803" end="3810" text="urology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="382" end="389" text="Her INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E178" start="3825" end="3828" text="d/c" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E179" start="3835" end="3846" text="her heparin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E46" start="3879" end="3886" text="her INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="3898" end="3929" text="MR Paul Paquettec heart disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E180" start="3950" end="3962" text="her coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="3966" end="3971" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E181" start="3983" end="3989" text="an INR" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E49" start="4050" end="4059" text="agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="406" end="414" text="elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E182" start="4069" end="4081" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="4097" end="4107" text="prn haldol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E183" start="4111" end="4124" text="little effect" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E184" start="4129" end="4137" text="improved" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="4141" end="4154" text="her infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="4155" end="4162" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="420" end="428" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="503" end="516" text="a temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="535" end="546" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="568" end="575" text="bolused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="582" end="588" text="effect" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E74" start="604" end="612" text="response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="616" end="619" text="neo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="631" end="638" text="changed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="642" end="650" text="levophed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="668" end="673" text="cipro" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="676" end="681" text="vanco" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="684" end="688" text="gent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="693" end="704" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="708" end="721" text="the CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E78" start="726" end="736" text="management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="742" end="750" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E80" start="753" end="760" text="urology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E81" start="800" end="820" text="a R nephrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="833" end="847" text="tube placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="867" end="888" text="renal artery puncture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="891" end="895" text="afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="902" end="919" text="increased dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="930" end="939" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="944" end="956" text="this hypoxia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="961" end="968" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="974" end="979" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="982" end="992" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="999" end="1008" text="diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1046" end="1051" text="02-21" type="DATE" val="2013-02-21" mod="NA" />
+<TIMEX3 id="T5" start="1288" end="1295" text="> 24 hr" type="DURATION" val="PT24H" mod="MORE" />
+<TIMEX3 id="T6" start="1381" end="1388" text="the day" type="DATE" val="2013-02-17" mod="NA" />
+<TIMEX3 id="T7" start="1497" end="1506" text="this time" type="DATE" val="2013-02-18" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-02-18" type="DATE" val="2013-02-18" mod="NA" />
+<TIMEX3 id="T9" start="2150" end="2155" text="02-21" type="DATE" val="2013-02-21" mod="NA" />
+<TIMEX3 id="T1" start="2392" end="2398" text="> 24hr" type="DURATION" val="PT24H" mod="MORE" />
+<TIMEX3 id="T8" start="2484" end="2491" text="the day" type="DATE" val="2013-02-17" mod="NA" />
+<TIMEX3 id="T11" start="2577" end="2584" text="the day" type="DATE" val="2013-02-18" mod="NA" />
+<TIMEX3 id="T2" start="2804" end="2807" text="14d" type="DURATION" val="P14D" mod="NA" />
+<TIMEX3 id="T12" start="3056" end="3060" text="2 wk" type="DATE" val="2013-03-13" mod="NA" />
+<TIMEX3 id="T13" start="3124" end="3133" text="this time" type="DATE" val="2013-03-13" mod="NA" />
+<TIMEX3 id="T14" start="3258" end="3273" text="the time of d/c" type="DATE" val="2013-02-27" mod="NA" />
+<TIMEX3 id="T15" start="3602" end="3605" text="tid" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T16" start="4097" end="4100" text="prn" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2013-02-27" type="DATE" val="2013-02-27" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2013-02-18" type="OVERLAP" />
+<TLINK id="TL1" fromID="E4" fromText="hypotensive" toID="E12" toText="hypotension" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E63" fromText="an OSH" toID="E52" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL100" fromID="E132" fromText="extubated" toID="E131" toText="weaned down" type="AFTER" />
+<TLINK id="TL101" fromID="E25" fromText="UCx" toID="E26" toText="proteus" type="OVERLAP" />
+<TLINK id="TL102" fromID="E188" fromText="changed" toID="E27" toText="her abx" type="OVERLAP" />
+<TLINK id="TL103" fromID="E133" fromText="levaquin" toID="E188" toText="changed" type="BEGUN_BY" />
+<TLINK id="TL104" fromID="E28" fromText="afebrile" toID="T1" toText="> 24hr" type="DURING" />
+<TLINK id="TL105" fromID="T1" fromText="> 24hr" toID="E188" toText="changed" type="BEGUN_BY" />
+<TLINK id="TL106" fromID="E134" fromText="this regimen" toID="E133" toText="levaquin" type="OVERLAP" />
+<TLINK id="TL107" fromID="E135" fromText="afib" toID="E29" toText="a dilt gtt" type="BEFORE_OVERLAP" />
+<TLINK id="TL108" fromID="E29" fromText="a dilt gtt" toID="T8" toText="the day" type="OVERLAP" />
+<TLINK id="TL109" fromID="E29" fromText="a dilt gtt" toID="E138" toText="this rhythm" type="OVERLAP" />
+<TLINK id="TL11" fromID="E64" fromText="complaints" toID="E52" toText="presented" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E30" fromText="PO diltiazem" toID="E139" toText="transitioned" type="BEGUN_BY" />
+<TLINK id="TL111" fromID="T11" fromText="the day" toID="E139" toText="transitioned" type="OVERLAP" />
+<TLINK id="TL112" fromID="E32" fromText="septic" toID="E141" toText="the ER" type="DURING" />
+<TLINK id="TL113" fromID="E33" fromText="her blood cultures" toID="E34" toText="proteus" type="OVERLAP" />
+<TLINK id="TL114" fromID="E32" fromText="septic" toID="E34" toText="proteus" type="OVERLAP" />
+<TLINK id="TL115" fromID="E35" fromText="Her Bcx" toID="E142" toText="negative" type="OVERLAP" />
+<TLINK id="TL116" fromID="E142" fromText="negative" toID="E143" toText="her stay" type="DURING" />
+<TLINK id="TL117" fromID="E143" fromText="her stay" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL118" fromID="E143" fromText="her stay" toID="E60" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL119" fromID="E189" fromText="levaquin" toID="E144" toText="the floor" type="DURING" />
+<TLINK id="TL12" fromID="E65" fromText="abd pain" toID="E64" toText="complaints" type="BEFORE_OVERLAP" />
+<TLINK id="TL120" fromID="E189" fromText="levaquin" toID="E133" toText="levaquin" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E144" fromText="the floor" toID="E141" toText="the ER" type="AFTER" />
+<TLINK id="TL122" fromID="E189" fromText="levaquin" toID="T2" toText="14d" type="DURING" />
+<TLINK id="TL123" fromID="E57" fromText="rehab" toID="E144" toText="the floor" type="OVERLAP" />
+<TLINK id="TL124" fromID="E146" fromText="the floor" toID="E144" toText="the floor" type="SIMULTANEOUS" />
+<TLINK id="TL125" fromID="E146" fromText="the floor" toID="E145" toText="called" type="BEGUN_BY" />
+<TLINK id="TL126" fromID="E147" fromText="a nephrostomy tube" toID="E148" toText="IR" type="BEGUN_BY" />
+<TLINK id="TL127" fromID="E149" fromText="her hydronephrosis" toID="E147" toText="a nephrostomy tube" type="BEFORE_OVERLAP" />
+<TLINK id="TL128" fromID="E190" fromText="followed" toID="E152" toText="urology" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E190" fromText="followed" toID="E153" toText="her stay" type="DURING" />
+<TLINK id="TL13" fromID="E66" fromText="nausea" toID="E64" toText="complaints" type="BEFORE_OVERLAP" />
+<TLINK id="TL130" fromID="E37" fromText="definitive treatment" toID="T12" toText="2 wk" type="OVERLAP" />
+<TLINK id="TL131" fromID="E154" fromText="her nephrolithiasis" toID="E37" toText="definitive treatment" type="BEFORE_OVERLAP" />
+<TLINK id="TL132" fromID="T13" fromText="this time" toID="T12" toText="2 wk" type="SIMULTANEOUS" />
+<TLINK id="TL133" fromID="E191" fromText="urology" toID="T13" toText="this time" type="OVERLAP" />
+<TLINK id="TL134" fromID="E191" fromText="urology" toID="E38" toText="removal" type="OVERLAP" />
+<TLINK id="TL135" fromID="E155" fromText="her nephrostomy tube" toID="E38" toText="removal" type="ENDED_BY" />
+<TLINK id="TL136" fromID="E156" fromText="IR" toID="E191" toText="urology" type="SIMULTANEOUS" />
+<TLINK id="TL137" fromID="E157" fromText="Her nephrostomy tube" toID="E159" toText="draining clear yellow urine" type="OVERLAP" />
+<TLINK id="TL138" fromID="E159" fromText="draining clear yellow urine" toID="T14" toText="the time of d/c" type="OVERLAP" />
+<TLINK id="TL139" fromID="E160" fromText="atrial fibrillation" toID="E162" toText="beta blockers" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E67" fromText="a R ureteral stone" toID="E52" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL140" fromID="E163" fromText="treated" toID="E164" toText="the CMED" type="DURING" />
+<TLINK id="TL141" fromID="E164" fromText="the CMED" toID="E125" toText="the CMED" type="SIMULTANEOUS" />
+<TLINK id="TL142" fromID="E165" fromText="the floor" toID="E144" toText="the floor" type="SIMULTANEOUS" />
+<TLINK id="TL143" fromID="E39" fromText="afib" toID="E165" toText="the floor" type="DURING" />
+<TLINK id="TL144" fromID="E39" fromText="afib" toID="E40" toText="RVR" type="OVERLAP" />
+<TLINK id="TL145" fromID="E41" fromText="IV metoprolol" toID="E40" toText="RVR" type="OVERLAP" />
+<TLINK id="TL146" fromID="E166" fromText="this" toID="E40" toText="RVR" type="SIMULTANEOUS" />
+<TLINK id="TL147" fromID="E167" fromText="the patient 's diltiazem" toID="E168" toText="stopped" type="ENDED_BY" />
+<TLINK id="TL148" fromID="E168" fromText="stopped" toID="E166" toText="this" type="AFTER" />
+<TLINK id="TL149" fromID="E169" fromText="started" toID="E168" toText="stopped" type="AFTER" />
+<TLINK id="TL15" fromID="E68" fromText="hydronephrosis" toID="E67" toText="a R ureteral stone" type="OVERLAP" />
+<TLINK id="TL150" fromID="E192" fromText="metoprolol" toID="E169" toText="started" type="BEGUN_BY" />
+<TLINK id="TL151" fromID="E192" fromText="metoprolol" toID="T15" toText="tid" type="OVERLAP" />
+<TLINK id="TL152" fromID="E170" fromText="this" toID="E169" toText="started" type="AFTER" />
+<TLINK id="TL153" fromID="E43" fromText="further problems" toID="E170" toText="this" type="AFTER" />
+<TLINK id="TL154" fromID="E44" fromText="her rate control" toID="E43" toText="further problems" type="OVERLAP" />
+<TLINK id="TL155" fromID="E171" fromText="maintained" toID="E45" toText="a heparin gtt" type="OVERLAP" />
+<TLINK id="TL156" fromID="E45" fromText="a heparin gtt" toID="E172" toText="coumadin" type="BEFORE" />
+<TLINK id="TL157" fromID="E171" fromText="maintained" toID="E173" toText="the floor" type="DURING" />
+<TLINK id="TL158" fromID="E175" fromText="cleared" toID="E176" toText="IR" type="SIMULTANEOUS" />
+<TLINK id="TL159" fromID="E175" fromText="cleared" toID="E177" toText="urology" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E69" fromText="transferred" toID="E52" toText="presented" type="AFTER" />
+<TLINK id="TL160" fromID="E174" fromText="this" toID="E171" toText="maintained" type="SIMULTANEOUS" />
+<TLINK id="TL161" fromID="E179" fromText="her heparin" toID="E178" toText="d/c" type="OVERLAP" />
+<TLINK id="TL162" fromID="E46" fromText="her INR" toID="E178" toText="d/c" type="BEFORE_OVERLAP" />
+<TLINK id="TL163" fromID="E47" fromText="MR Paul Paquettec heart disease" toID="E178" toText="d/c" type="BEFORE_OVERLAP" />
+<TLINK id="TL164" fromID="E180" fromText="her coumadin" toID="E58" toText="rehab" type="DURING" />
+<TLINK id="TL165" fromID="E180" fromText="her coumadin" toID="E181" toText="an INR" type="ENDED_BY" />
+<TLINK id="TL166" fromID="E49" fromText="agitation" toID="E182" toText="the CMED CCU" type="DURING" />
+<TLINK id="TL167" fromID="E182" fromText="the CMED CCU" toID="E164" toText="the CMED" type="SIMULTANEOUS" />
+<TLINK id="TL168" fromID="E184" fromText="improved" toID="E51" toText="her infection" type="AFTER" />
+<TLINK id="TL169" fromID="E50" fromText="prn haldol" toID="E183" toText="little effect" type="OVERLAP" />
+<TLINK id="TL17" fromID="E63" fromText="an OSH" toID="E69" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL170" fromID="E51" fromText="her infection" toID="E59" toText="cleared" type="ENDED_BY" />
+<TLINK id="TL18" fromID="E70" fromText="Nantucket Cottage Hospital" toID="E69" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL19" fromID="E71" fromText="ureteral stent placement" toID="E70" toText="Nantucket Cottage Hospital" type="DURING" />
+<TLINK id="TL2" fromID="E60" fromText="Discharge" toID="T3" toText="2013-02-27" type="OVERLAP" />
+<TLINK id="TL20" fromID="E1" fromText="Her INR" toID="E2" toText="elevated" type="OVERLAP" />
+<TLINK id="TL21" fromID="E53" fromText="admitted" toID="E69" toText="transferred" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E1" fromText="Her INR" toID="E53" toText="admitted" type="OVERLAP" />
+<TLINK id="TL23" fromID="E3" fromText="a temperature" toID="E2" toText="elevated" type="DURING" />
+<TLINK id="TL24" fromID="E72" fromText="bolused" toID="E4" toText="hypotensive" type="AFTER" />
+<TLINK id="TL25" fromID="E73" fromText="effect" toID="E72" toText="bolused" type="OVERLAP" />
+<TLINK id="TL26" fromID="E74" fromText="response" toID="E5" toText="neo" type="OVERLAP" />
+<TLINK id="TL28" fromID="E5" fromText="neo" toID="E75" toText="changed" type="ENDED_BY" />
+<TLINK id="TL29" fromID="E6" fromText="levophed" toID="E75" toText="changed" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E28" fromText="afebrile" toID="E36" toText="afebrile" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E7" fromText="cipro" toID="E8" toText="vanco" type="OVERLAP" />
+<TLINK id="TL31" fromID="E8" fromText="vanco" toID="E9" toText="gent" type="OVERLAP" />
+<TLINK id="TL32" fromID="E7" fromText="cipro" toID="E75" toText="changed" type="AFTER" />
+<TLINK id="TL33" fromID="E76" fromText="transferred" toID="E9" toText="gent" type="AFTER" />
+<TLINK id="TL34" fromID="E77" fromText="the CMED CSRU" toID="E76" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL35" fromID="E78" fromText="management" toID="E77" toText="the CMED CSRU" type="DURING" />
+<TLINK id="TL36" fromID="E79" fromText="the CMED" toID="E77" toText="the CMED CSRU" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E80" fromText="urology" toID="E79" toText="the CMED" type="DURING" />
+<TLINK id="TL38" fromID="E81" fromText="a R nephrostomy tube" toID="E80" toText="urology" type="AFTER" />
+<TLINK id="TL39" fromID="E82" fromText="tube placement" toID="E81" toText="a R nephrostomy tube" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E61" fromText="HTN" toID="E62" toText="afib" type="OVERLAP" />
+<TLINK id="TL40" fromID="E82" fromText="tube placement" toID="E83" toText="renal artery puncture" type="OVERLAP" />
+<TLINK id="TL41" fromID="E83" fromText="renal artery puncture" toID="E84" toText="afib" type="OVERLAP" />
+<TLINK id="TL42" fromID="E84" fromText="afib" toID="E85" toText="increased dyspnea" type="OVERLAP" />
+<TLINK id="TL43" fromID="E86" fromText="intubated" toID="E87" toText="this hypoxia" type="OVERLAP" />
+<TLINK id="TL44" fromID="E88" fromText="treated" toID="E89" toText="lasix" type="OVERLAP" />
+<TLINK id="TL45" fromID="E88" fromText="treated" toID="E90" toText="metoprolol" type="OVERLAP" />
+<TLINK id="TL46" fromID="E88" fromText="treated" toID="E91" toText="diltiazem" type="OVERLAP" />
+<TLINK id="TL47" fromID="E93" fromText="her pressors" toID="E92" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL48" fromID="E92" fromText="weaned" toID="T4" toText="02-21" type="OVERLAP" />
+<TLINK id="TL49" fromID="E94" fromText="maintained" toID="E92" toText="weaned" type="AFTER" />
+<TLINK id="TL5" fromID="E17" fromText="increased dyspnea" toID="E18" toText="this hypoxia" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E94" fromText="maintained" toID="E95" toText="her pressure" type="OVERLAP" />
+<TLINK id="TL51" fromID="E94" fromText="maintained" toID="E96" toText="additional fluid boluses" type="OVERLAP" />
+<TLINK id="TL52" fromID="E97" fromText="Her sedation" toID="E98" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL53" fromID="E99" fromText="extubated" toID="E98" toText="weaned" type="AFTER" />
+<TLINK id="TL54" fromID="E101" fromText="UCx" toID="E102" toText="proteus" type="OVERLAP" />
+<TLINK id="TL55" fromID="E103" fromText="her abx" toID="E104" toText="levaquin" type="OVERLAP" />
+<TLINK id="TL56" fromID="E106" fromText="afebrile" toID="T5" toText="> 24 hr" type="DURING" />
+<TLINK id="TL57" fromID="T5" fromText="> 24 hr" toID="E185" toText="changed" type="OVERLAP" />
+<TLINK id="TL58" fromID="E104" fromText="levaquin" toID="E185" toText="changed" type="BEGUN_BY" />
+<TLINK id="TL59" fromID="E7" fromText="cipro" toID="E185" toText="changed" type="ENDED_BY" />
+<TLINK id="TL6" fromID="E10" fromText="a dilt gtt" toID="E29" toText="a dilt gtt" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E8" fromText="vanco" toID="E185" toText="changed" type="ENDED_BY" />
+<TLINK id="TL61" fromID="E9" fromText="gent" toID="E185" toText="changed" type="ENDED_BY" />
+<TLINK id="TL63" fromID="E107" fromText="this regimen" toID="E104" toText="levaquin" type="OVERLAP" />
+<TLINK id="TL64" fromID="E108" fromText="continued" toID="E109" toText="afib" type="OVERLAP" />
+<TLINK id="TL65" fromID="E110" fromText="required" toID="E10" toText="a dilt gtt" type="OVERLAP" />
+<TLINK id="TL66" fromID="E110" fromText="required" toID="T6" toText="the day" type="OVERLAP" />
+<TLINK id="TL67" fromID="E10" fromText="a dilt gtt" toID="E111" toText="this rhythm" type="OVERLAP" />
+<TLINK id="TL68" fromID="E113" fromText="PO diltiazem" toID="E112" toText="transitioned" type="BEGUN_BY" />
+<TLINK id="TL69" fromID="T7" fromText="this time" toID="E112" toText="transitioned" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E4" fromText="hypotensive" toID="E3" toText="a temperature" type="OVERLAP" />
+<TLINK id="TL70" fromID="E114" fromText="NSR" toID="T7" toText="this time" type="BEGUN_BY" />
+<TLINK id="TL71" fromID="E116" fromText="heparin" toID="E115" toText="restarted" type="BEGUN_BY" />
+<TLINK id="TL72" fromID="E115" fromText="restarted" toID="E117" toText="d/c" type="BEFORE" />
+<TLINK id="TL73" fromID="E116" fromText="heparin" toID="E118" toText="therapeutic coumadin anticoagulation" type="OVERLAP" />
+<TLINK id="TL74" fromID="E119" fromText="HTN" toID="E120" toText="a.fib" type="OVERLAP" />
+<TLINK id="TL75" fromID="E54" fromText="presenting" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E121" fromText="ureteral stone" toID="E54" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL77" fromID="E122" fromText="hydronephrosis" toID="E54" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E11" fromText="urosepsis" toID="E54" toText="presenting" type="DURING" />
+<TLINK id="TL79" fromID="E12" fromText="hypotension" toID="E123" toText="the ER" type="DURING" />
+<TLINK id="TL8" fromID="E12" fromText="hypotension" toID="E13" toText="a leukocytosis" type="OVERLAP" />
+<TLINK id="TL80" fromID="E13" fromText="a leukocytosis" toID="E123" toText="the ER" type="DURING" />
+<TLINK id="TL81" fromID="E123" fromText="the ER" toID="E55" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL82" fromID="E124" fromText="the CMED CCU" toID="E55" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL83" fromID="E124" fromText="the CMED CCU" toID="E125" toText="the CMED" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E126" fromText="urology" toID="E125" toText="the CMED" type="DURING" />
+<TLINK id="TL85" fromID="E14" fromText="a R nephrostomy tube" toID="E126" toText="urology" type="AFTER" />
+<TLINK id="TL86" fromID="E15" fromText="tube placement" toID="E14" toText="a R nephrostomy tube" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E127" fromText="complicated" toID="E15" toText="tube placement" type="OVERLAP" />
+<TLINK id="TL88" fromID="E16" fromText="renal artery puncture" toID="E127" toText="complicated" type="OVERLAP" />
+<TLINK id="TL89" fromID="E128" fromText="afib" toID="E127" toText="complicated" type="OVERLAP" />
+<TLINK id="TL9" fromID="E52" fromText="presented" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL90" fromID="E17" fromText="increased dyspnea" toID="E127" toText="complicated" type="OVERLAP" />
+<TLINK id="TL91" fromID="E18" fromText="this hypoxia" toID="E56" toText="intubated" type="BEFORE_OVERLAP" />
+<TLINK id="TL92" fromID="E186" fromText="treated" toID="E19" toText="lasix" type="OVERLAP" />
+<TLINK id="TL93" fromID="E186" fromText="treated" toID="E20" toText="metoprolol" type="OVERLAP" />
+<TLINK id="TL94" fromID="E186" fromText="treated" toID="E21" toText="diltiazem" type="OVERLAP" />
+<TLINK id="TL95" fromID="E130" fromText="her pressors" toID="E129" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL96" fromID="E129" fromText="weaned" toID="T9" toText="02-21" type="OVERLAP" />
+<TLINK id="TL97" fromID="E22" fromText="her pressure" toID="E23" toText="additional fluid boluses" type="OVERLAP" />
+<TLINK id="TL98" fromID="E187" fromText="maintained" toID="E22" toText="her pressure" type="OVERLAP" />
+<TLINK id="TL99" fromID="E24" fromText="Her sedation" toID="E131" toText="weaned down" type="ENDED_BY" />
+<SECTIME id="S0" start="18" end="28" text="2013-02-18" type="ADMISSION" dvalue="2013-02-18" />
+<SECTIME id="S1" start="46" end="56" text="2013-02-27" type="DISCHARGE" dvalue="2013-02-27" />
+<TLINK id="SECTIME0" fromID="E92" fromText="weaned" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E93" fromText="her pressors" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E94" fromText="maintained" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E95" fromText="her pressure" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E96" fromText="additional fluid boluses" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E97" fromText="Her sedation" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E98" fromText="weaned" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E99" fromText="extubated" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E101" fromText="UCx" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E102" fromText="proteus" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E103" fromText="her abx" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E185" fromText="changed" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E104" fromText="levaquin" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E105" fromText="remained" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E106" fromText="afebrile" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E107" fromText="this regimen" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E108" fromText="continued" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E109" fromText="afib" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E110" fromText="required" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E10" fromText="a dilt gtt" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E137" fromText="call-out" toID="T0" toText="2013-02-18" type="AFTER" />
+<TLINK id="SECTIME21" fromID="E111" fromText="this rhythm" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E112" fromText="transitioned" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E113" fromText="PO diltiazem" toID="T0" toText="2013-02-18" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E114" fromText="NSR" toID="T0" toText="2013-02-18" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E115" fromText="restarted" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E116" fromText="heparin" toID="T0" toText="2013-02-18" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E117" fromText="d/c" toID="T0" toText="2013-02-18" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME28" fromID="E61" fromText="HTN" toID="T0" toText="2013-02-18" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME29" fromID="E118" fromText="therapeutic coumadin anticoagulation" toID="T0" toText="2013-02-18" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E62" fromText="afib" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E119" fromText="HTN" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME32" fromID="E120" fromText="a.fib" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E54" fromText="presenting" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E121" fromText="ureteral stone" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME35" fromID="E122" fromText="hydronephrosis" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME36" fromID="E52" fromText="presented" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E11" fromText="urosepsis" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E12" fromText="hypotension" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E13" fromText="a leukocytosis" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E123" fromText="the ER" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E55" fromText="admitted" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E124" fromText="the CMED CCU" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E125" fromText="the CMED" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E126" fromText="urology" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E63" fromText="an OSH" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E14" fromText="a R nephrostomy tube" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E15" fromText="tube placement" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E127" fromText="complicated" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E64" fromText="complaints" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E16" fromText="renal artery puncture" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E128" fromText="afib" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E17" fromText="increased dyspnea" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E56" fromText="intubated" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E18" fromText="this hypoxia" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E186" fromText="treated" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E19" fromText="lasix" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E20" fromText="metoprolol" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E65" fromText="abd pain" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E21" fromText="diltiazem" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E129" fromText="weaned" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E130" fromText="her pressors" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E187" fromText="maintained" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E22" fromText="her pressure" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E23" fromText="additional fluid boluses" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E24" fromText="Her sedation" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E66" fromText="nausea" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E131" fromText="weaned down" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E132" fromText="extubated" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E25" fromText="UCx" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E26" fromText="proteus" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E27" fromText="her abx" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E188" fromText="changed" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E133" fromText="levaquin" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E28" fromText="afebrile" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E134" fromText="this regimen" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E135" fromText="afib" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E29" fromText="a dilt gtt" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E136" fromText="call-out" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E138" fromText="this rhythm" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E67" fromText="a R ureteral stone" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E139" fromText="transitioned" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E30" fromText="PO diltiazem" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E140" fromText="call-out" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E32" fromText="septic" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E141" fromText="the ER" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E33" fromText="her blood cultures" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E34" fromText="proteus" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E35" fromText="Her Bcx" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E142" fromText="negative" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E143" fromText="her stay" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME91" fromID="E189" fromText="levaquin" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E144" fromText="the floor" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME93" fromID="E57" fromText="rehab" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME94" fromID="E36" fromText="afebrile" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E68" fromText="hydronephrosis" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E145" fromText="called" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E146" fromText="the floor" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME98" fromID="E147" fromText="a nephrostomy tube" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E148" fromText="IR" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E149" fromText="her hydronephrosis" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E190" fromText="followed" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E152" fromText="urology" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E153" fromText="her stay" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME104" fromID="E37" fromText="definitive treatment" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME105" fromID="E69" fromText="transferred" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E154" fromText="her nephrolithiasis" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME107" fromID="E191" fromText="urology" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME108" fromID="E38" fromText="removal" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME109" fromID="E155" fromText="her nephrostomy tube" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME110" fromID="E156" fromText="IR" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME111" fromID="E157" fromText="Her nephrostomy tube" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME112" fromID="E159" fromText="draining clear yellow urine" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E70" fromText="Nantucket Cottage Hospital" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E160" fromText="atrial fibrillation" toID="T3" toText="2013-02-27" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME115" fromID="E162" fromText="beta blockers" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E163" fromText="treated" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E164" fromText="the CMED" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E165" fromText="the floor" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E39" fromText="afib" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E40" fromText="RVR" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E41" fromText="IV metoprolol" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E166" fromText="this" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E71" fromText="ureteral stent placement" toID="T0" toText="2013-02-18" type="AFTER" />
+<TLINK id="SECTIME124" fromID="E167" fromText="the patient 's diltiazem" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E168" fromText="stopped" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E169" fromText="started" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E192" fromText="metoprolol" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E170" fromText="this" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E43" fromText="further problems" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E44" fromText="her rate control" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E171" fromText="maintained" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E45" fromText="a heparin gtt" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E172" fromText="coumadin" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E173" fromText="the floor" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E174" fromText="this" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E175" fromText="cleared" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E176" fromText="IR" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E177" fromText="urology" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E1" fromText="Her INR" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E178" fromText="d/c" toID="T3" toText="2013-02-27" type="OVERLAP" />
+<TLINK id="SECTIME141" fromID="E179" fromText="her heparin" toID="T3" toText="2013-02-27" type="OVERLAP" />
+<TLINK id="SECTIME142" fromID="E46" fromText="her INR" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E47" fromText="MR Paul Paquettec heart disease" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E180" fromText="her coumadin" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME145" fromID="E58" fromText="rehab" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME146" fromID="E181" fromText="an INR" toID="T3" toText="2013-02-27" type="AFTER" />
+<TLINK id="SECTIME147" fromID="E49" fromText="agitation" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E2" fromText="elevated" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E182" fromText="the CMED CCU" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E50" fromText="prn haldol" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E183" fromText="little effect" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E184" fromText="improved" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E51" fromText="her infection" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E59" fromText="cleared" toID="T3" toText="2013-02-27" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E53" fromText="admitted" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E3" fromText="a temperature" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E4" fromText="hypotensive" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME158" fromID="E72" fromText="bolused" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME159" fromID="E73" fromText="effect" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME160" fromID="E74" fromText="response" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E5" fromText="neo" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME162" fromID="E75" fromText="changed" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME163" fromID="E6" fromText="levophed" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME164" fromID="E7" fromText="cipro" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME165" fromID="E8" fromText="vanco" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME166" fromID="E9" fromText="gent" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME167" fromID="E76" fromText="transferred" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME168" fromID="E77" fromText="the CMED CSRU" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME169" fromID="E78" fromText="management" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME170" fromID="E79" fromText="the CMED" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME171" fromID="E80" fromText="urology" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME172" fromID="E81" fromText="a R nephrostomy tube" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME173" fromID="E82" fromText="tube placement" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME174" fromID="E83" fromText="renal artery puncture" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME175" fromID="E84" fromText="afib" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME176" fromID="E85" fromText="increased dyspnea" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME177" fromID="E86" fromText="intubated" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME178" fromID="E87" fromText="this hypoxia" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME179" fromID="E88" fromText="treated" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME180" fromID="E89" fromText="lasix" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME181" fromID="E90" fromText="metoprolol" toID="T0" toText="2013-02-18" type="BEFORE" />
+<TLINK id="SECTIME182" fromID="E91" fromText="diltiazem" toID="T0" toText="2013-02-18" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

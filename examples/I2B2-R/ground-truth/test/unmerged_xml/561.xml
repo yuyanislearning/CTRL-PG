@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+2-23-93
+DISCHARGE DATE :
+2-24-93
+HISTORY OF PRESENT ILLNESS :
+This is the second Fairm of Ijordcompmac Hospital admission for Taroby Patient , a 70 year old male with a history of metastatic melanoma .
+His melanoma was originally diagnosed last fall when he presented with lesions in the liver and spleen , and a chest CT showed left upper lobe nodules .
+A head CT scan was negative , but an MRI scan of the spine showed an L5 metastasis with a fracture and had with epidural and paraspinal extension .
+In addition , there was a T11 metastasis with cord compression .
+Approximately one week ago , he was admitted to the Fairm of Ijordcompmac Hospital for chemotherapy with DTIC and Tamoxifen .
+At that time , he also began radiation therapy to his lumbosacral spine .
+He is continuing on the radiation therapy to date .
+On February 23 , Mr. Patient presented to Dr. Patient &apos;s office with two major symptoms .
+First , he had right lower extremity swelling and lower extremity noninvasives confirmed the diagnosis of a femoral deep venous thrombosis .
+Second , he had a witnessed episode in which his eyes rolled to the back of his head and there was a question of some seizure activity .
+In the past , he has not been known to have a history of CNS metastases .
+The episode of potential seizure activity occurred in the setting of a bowel movement and may have been associated with vasovagal activity .
+HOSPITAL COURSE :
+Mr. Patient underwent venogram and inferior vena cava filter placement on February 23 , 1993 and was then he was admitted to the Fairm of Ijordcompmac Hospital for postoperative care .
+He tolerated the procedure well .
+In addition , the second major event that had occurred yesterday was a neurologic event of some kind .
+Over the 24 hours of in house hospitalization , he did not have any further neurologic activity and was able to ambulate without assistance prior to discharge .
+He will be scheduled for an MRI scan , Neurology consult , and an EEG next week as an out patient .
+Mr. Patient was a poor candidate for anticoagulation because of his history of metastatic melanoma and the question of CNS metastases .
+An IVC filter placement was accomplished without complication .
+He is stable on February 24 and ready for discharge to home .
+PROCEDURES :
+IVC filter placement .
+COMPLICATIONS :
+None .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1039" end="1071" text="a femoral deep venous thrombosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1090" end="1109" text="a witnessed episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1119" end="1158" text="his eyes rolled to the back of his head" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1187" end="1208" text="some seizure activity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1268" end="1282" text="CNS metastases" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1300" end="1326" text="potential seizure activity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="130" end="139" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1354" end="1370" text="a bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1405" end="1423" text="vasovagal activity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1466" end="1474" text="venogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1479" end="1514" text="inferior vena cava filter placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1557" end="1565" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1569" end="1603" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1608" end="1626" text="postoperative care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1632" end="1641" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1642" end="1655" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1732" end="1750" text="a neurologic event" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1787" end="1811" text="in house hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1830" end="1861" text="any further neurologic activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1878" end="1905" text="ambulate without assistance" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1915" end="1924" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1952" end="1963" text="an MRI scan" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1966" end="1983" text="Neurology consult" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="198" end="217" text="metastatic melanoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1990" end="1996" text="an EEG" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2064" end="2079" text="anticoagulation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="2106" end="2125" text="metastatic melanoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="2146" end="2160" text="CNS metastases" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2163" end="2186" text="An IVC filter placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="220" end="232" text="His melanoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2212" end="2224" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E57" start="2233" end="2239" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2269" end="2278" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="2302" end="2322" text="IVC filter placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="248" end="257" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="276" end="285" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="291" end="322" text="lesions in the liver and spleen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="329" end="339" text="a chest CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="340" end="346" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="347" end="370" text="left upper lobe nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="373" end="387" text="A head CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="407" end="431" text="an MRI scan of the spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="432" end="438" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="439" end="455" text="an L5 metastasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="461" end="471" text="a fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="485" end="518" text="epidural and paraspinal extension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="545" end="561" text="a T11 metastasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="567" end="583" text="cord compression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="622" end="630" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="634" end="668" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="673" end="685" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="691" end="695" text="DTIC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="700" end="709" text="Tamoxifen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="741" end="758" text="radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="806" end="827" text="the radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="867" end="876" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="912" end="930" text="two major symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="948" end="978" text="right lower extremity swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="983" end="1011" text="lower extremity noninvasives" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="99" end="129" text="Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T7" start="1518" end="1536" text="February 23 , 1993" type="DATE" val="1993-02-23" mod="NA" />
+<TIMEX3 id="T8" start="1718" end="1727" text="yesterday" type="DATE" val="1993-02-22" mod="NA" />
+<TIMEX3 id="T9" start="1771" end="1783" text="the 24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="2-23-93" type="DATE" val="1993-02-23" mod="NA" />
+<TIMEX3 id="T10" start="1997" end="2006" text="next week" type="DATE" val="1993-03-04" mod="APPROX" />
+<TIMEX3 id="T11" start="2243" end="2254" text="February 24" type="DATE" val="1993-02-24" mod="NA" />
+<TIMEX3 id="T3" start="258" end="267" text="last fall" type="DATE" val="1992-10" mod="APPROX" />
+<TIMEX3 id="T1" start="43" end="50" text="2-24-93" type="DATE" val="1993-02-24" mod="NA" />
+<TIMEX3 id="T5" start="600" end="612" text="one week ago" type="DATE" val="1993-02-16" mod="APPROX" />
+<TIMEX3 id="T6" start="841" end="852" text="February 23" type="DATE" val="1993-02-23" mod="NA" />
+<TIMEX3 id="T2" start="88" end="98" text="the second" type="FREQUENCY" val="R2" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="2-23-93" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E48" fromText="discharge" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E6" fromText="lesions in the liver and spleen" toID="E5" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E7" fromText="a chest CT" toID="E8" toText="showed" type="OVERLAP" />
+<TLINK id="TL12" fromID="E5" fromText="presented" toID="E7" toText="a chest CT" type="OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="left upper lobe nodules" toID="E7" toText="a chest CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E10" fromText="A head CT scan" toID="E11" toText="an MRI scan of the spine" type="OVERLAP" />
+<TLINK id="TL15" fromID="E7" fromText="a chest CT" toID="E10" toText="A head CT scan" type="OVERLAP" />
+<TLINK id="TL16" fromID="E16" fromText="a T11 metastasis" toID="E11" toText="an MRI scan of the spine" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E13" fromText="an L5 metastasis" toID="E11" toText="an MRI scan of the spine" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="epidural and paraspinal extension" toID="E11" toText="an MRI scan of the spine" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="2-24-93" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E11" fromText="an MRI scan of the spine" toID="E12" toText="showed" type="OVERLAP" />
+<TLINK id="TL21" fromID="E14" fromText="a fracture" toID="E13" toText="an L5 metastasis" type="OVERLAP" />
+<TLINK id="TL22" fromID="E16" fromText="a T11 metastasis" toID="E17" toText="cord compression" type="OVERLAP" />
+<TLINK id="TL23" fromID="E23" fromText="radiation therapy" toID="T5" toText="one week ago" type="BEGUN_BY" />
+<TLINK id="TL24" fromID="E18" fromText="admitted" toID="T5" toText="one week ago" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E20" fromText="chemotherapy" toID="T5" toText="one week ago" type="OVERLAP" />
+<TLINK id="TL26" fromID="E19" fromText="the Fairm of Ijordcompmac Hospital" toID="E18" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E20" fromText="chemotherapy" toID="E21" toText="DTIC" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E22" fromText="Tamoxifen" toID="E20" toText="chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E26" fromText="two major symptoms" toID="T6" toText="February 23" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="T2" fromText="the second" toID="E61" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="T6" fromText="February 23" toID="E25" toText="presented" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E30" fromText="a witnessed episode" toID="E26" toText="two major symptoms" type="OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="right lower extremity swelling" toID="E26" toText="two major symptoms" type="OVERLAP" />
+<TLINK id="TL33" fromID="E28" fromText="lower extremity noninvasives" toID="E25" toText="presented" type="AFTER" />
+<TLINK id="TL34" fromID="E29" fromText="a femoral deep venous thrombosis" toID="E27" toText="right lower extremity swelling" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="a witnessed episode" toID="E32" toText="some seizure activity" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E31" fromText="his eyes rolled to the back of his head" toID="E30" toText="a witnessed episode" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E34" fromText="potential seizure activity" toID="E32" toText="some seizure activity" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E33" fromText="CNS metastases" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E34" fromText="potential seizure activity" toID="E36" toText="vasovagal activity" type="OVERLAP" />
+<TLINK id="TL4" fromID="E60" fromText="Fairm of Ijordcompmac Hospital" toID="E61" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E34" fromText="potential seizure activity" toID="E35" toText="a bowel movement" type="DURING" />
+<TLINK id="TL41" fromID="E30" fromText="a witnessed episode" toID="E25" toText="presented" type="BEFORE" />
+<TLINK id="TL42" fromID="E37" fromText="venogram" toID="E38" toText="inferior vena cava filter placement" type="OVERLAP" />
+<TLINK id="TL43" fromID="E42" fromText="the procedure" toID="E37" toText="venogram" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E37" fromText="venogram" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL45" fromID="E59" fromText="IVC filter placement" toID="E38" toText="inferior vena cava filter placement" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E42" fromText="the procedure" toID="E38" toText="inferior vena cava filter placement" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E38" fromText="inferior vena cava filter placement" toID="T7" toText="February 23 , 1993" type="OVERLAP" />
+<TLINK id="TL48" fromID="T7" fromText="February 23 , 1993" toID="E39" toText="admitted" type="OVERLAP" />
+<TLINK id="TL49" fromID="E41" fromText="postoperative care" toID="E40" toText="the Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="metastatic melanoma" toID="E61" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E40" fromText="the Fairm of Ijordcompmac Hospital" toID="E39" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL53" fromID="E43" fromText="tolerated" toID="E42" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL54" fromID="T8" fromText="yesterday" toID="E44" toText="a neurologic event" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="T9" fromText="the 24 hours" toID="E0" toText="ADMISSION" type="BEGUN_BY" />
+<TLINK id="TL56" fromID="E46" fromText="any further neurologic activity" toID="T9" toText="the 24 hours" type="DURING" />
+<TLINK id="TL57" fromID="T9" fromText="the 24 hours" toID="E45" toText="in house hospitalization" type="OVERLAP" />
+<TLINK id="TL58" fromID="E47" fromText="ambulate without assistance" toID="E48" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E49" fromText="an MRI scan" toID="E48" toText="discharge" type="AFTER" />
+<TLINK id="TL6" fromID="E3" fromText="His melanoma" toID="E2" toText="metastatic melanoma" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E50" fromText="Neurology consult" toID="E48" toText="discharge" type="AFTER" />
+<TLINK id="TL61" fromID="E51" fromText="an EEG" toID="T10" toText="next week" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E49" fromText="an MRI scan" toID="E50" toText="Neurology consult" type="OVERLAP" />
+<TLINK id="TL63" fromID="E50" fromText="Neurology consult" toID="E51" toText="an EEG" type="OVERLAP" />
+<TLINK id="TL64" fromID="E53" fromText="metastatic melanoma" toID="E52" toText="anticoagulation" type="BEFORE_OVERLAP" />
+<TLINK id="TL66" fromID="E53" fromText="metastatic melanoma" toID="E2" toText="metastatic melanoma" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E53" fromText="metastatic melanoma" toID="E54" toText="CNS metastases" type="OVERLAP" />
+<TLINK id="TL68" fromID="E55" fromText="An IVC filter placement" toID="E38" toText="inferior vena cava filter placement" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E55" fromText="An IVC filter placement" toID="E56" toText="complication" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="presented" toID="T3" toText="last fall" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E57" fromText="stable" toID="T11" toText="February 24" type="OVERLAP" />
+<TLINK id="TL71" fromID="E58" fromText="discharge" toID="T11" toText="February 24" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E58" fromText="discharge" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E4" fromText="diagnosed" toID="E5" toText="presented" type="AFTER" />
+<TLINK id="TL9" fromID="E3" fromText="His melanoma" toID="T3" toText="last fall" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="25" text="2-23-93" type="ADMISSION" dvalue="1993-2-23" />
+<SECTIME id="S1" start="43" end="50" text="2-24-93" type="DISCHARGE" dvalue="1993-2-24" />
+<TLINK id="SECTIME0" fromID="E29" fromText="a femoral deep venous thrombosis" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME1" fromID="E30" fromText="a witnessed episode" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="his eyes rolled to the back of his head" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E32" fromText="some seizure activity" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E33" fromText="CNS metastases" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E34" fromText="potential seizure activity" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E61" fromText="admission" toID="T0" toText="2-23-93" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E35" fromText="a bowel movement" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E36" fromText="vasovagal activity" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E37" fromText="venogram" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="inferior vena cava filter placement" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="admitted" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="the Fairm of Ijordcompmac Hospital" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="postoperative care" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E43" fromText="tolerated" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E42" fromText="the procedure" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="a neurologic event" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="in house hospitalization" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E46" fromText="any further neurologic activity" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E47" fromText="ambulate without assistance" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E48" fromText="discharge" toID="T1" toText="2-24-93" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E49" fromText="an MRI scan" toID="T1" toText="2-24-93" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E50" fromText="Neurology consult" toID="T1" toText="2-24-93" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E2" fromText="metastatic melanoma" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E51" fromText="an EEG" toID="T1" toText="2-24-93" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E52" fromText="anticoagulation" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E53" fromText="metastatic melanoma" toID="T1" toText="2-24-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E54" fromText="CNS metastases" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E55" fromText="An IVC filter placement" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E3" fromText="His melanoma" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E56" fromText="complication" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E57" fromText="stable" toID="T1" toText="2-24-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME32" fromID="E58" fromText="discharge" toID="T1" toText="2-24-93" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E59" fromText="IVC filter placement" toID="T1" toText="2-24-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E4" fromText="diagnosed" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E5" fromText="presented" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E6" fromText="lesions in the liver and spleen" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME37" fromID="E7" fromText="a chest CT" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E8" fromText="showed" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E9" fromText="left upper lobe nodules" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME40" fromID="E10" fromText="A head CT scan" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E11" fromText="an MRI scan of the spine" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E12" fromText="showed" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E13" fromText="an L5 metastasis" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME44" fromID="E14" fromText="a fracture" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E15" fromText="epidural and paraspinal extension" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E16" fromText="a T11 metastasis" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME47" fromID="E17" fromText="cord compression" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME48" fromID="E18" fromText="admitted" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E19" fromText="the Fairm of Ijordcompmac Hospital" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E20" fromText="chemotherapy" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E21" fromText="DTIC" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E22" fromText="Tamoxifen" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E23" fromText="radiation therapy" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME54" fromID="E24" fromText="the radiation therapy" toID="T0" toText="2-23-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME55" fromID="E25" fromText="presented" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E26" fromText="two major symptoms" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E27" fromText="right lower extremity swelling" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E28" fromText="lower extremity noninvasives" toID="T0" toText="2-23-93" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E60" fromText="Fairm of Ijordcompmac Hospital" toID="T0" toText="2-23-93" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

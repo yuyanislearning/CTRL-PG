@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-06-10
+Discharge Date :
+2015-06-11
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+This is a 44 - year-old male with a history of coronary artery disease , status post myocardial infarction in 9/02 , status post stent proximal and mid-RCA lesion and OM lesion .
+He had a Myoview on 05-04 which showed fixed inferior wall defect but no evidence of ischemia .
+He has been getting short of breath with exertion times one month and also has occasional chest tightness .
+He denies orthopnea , edema , paroxysmal nocturnal dyspnea , diaphoresis , claudication .
+He also has history of hypertension , high cholesterol and noninsulin dependent diabetes mellitus .
+He underwent cardiac catheterization today which revealed OM , no obstructive disease , left anterior descending minimal disease , left circumflex 40% mid-stenosis .
+Right coronary artery 100% mid-stenosis .
+Echo in 9/02 showed LVF of 75% with moderate dilatation of the descending aorta .
+He is now preop for a coronary artery bypass graft .
+]]></TEXT>
+<TAGS>
+<EVENT id="E23" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1008" end="1038" text="a coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="172" end="195" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="210" end="231" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="254" end="259" text="stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="260" end="287" text="proximal and mid-RCA lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="292" end="301" text="OM lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="311" end="320" text="a Myoview" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="336" end="342" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="343" end="369" text="fixed inferior wall defect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="389" end="397" text="ischemia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="420" end="435" text="short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="441" end="449" text="exertion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="479" end="505" text="occasional chest tightness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="511" end="517" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="518" end="527" text="orthopnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="530" end="535" text="edema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="538" end="566" text="paroxysmal nocturnal dyspnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="569" end="580" text="diaphoresis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="583" end="595" text="claudication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="621" end="633" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="636" end="652" text="high cholesterol" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="657" end="695" text="noninsulin dependent diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="711" end="734" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="747" end="755" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E32" start="756" end="758" text="OM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="764" end="783" text="obstructive disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="786" end="826" text="left anterior descending minimal disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="829" end="861" text="left circumflex 40% mid-stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="864" end="903" text="Right coronary artery 100% mid-stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="906" end="910" text="Echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="919" end="925" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="926" end="929" text="LVF" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="942" end="985" text="moderate dilatation of the descending aorta" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="998" end="1003" text="preop" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="18" end="28" text="2015-06-10" type="DATE" val="2015-06-10" mod="NA" />
+<TIMEX3 id="T3" start="235" end="239" text="9/02" type="DATE" val="2002-09" mod="NA" />
+<TIMEX3 id="T4" start="324" end="329" text="05-04" type="DATE" val="2015-05-04" mod="NA" />
+<TIMEX3 id="T0" start="456" end="465" text="one month" type="DURATION" val="P1M" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-06-11" type="DATE" val="2015-06-11" mod="NA" />
+<TIMEX3 id="T6" start="735" end="740" text="today" type="DATE" val="2015-06-10" mod="NA" />
+<TIMEX3 id="T5" start="914" end="918" text="9/02" type="DATE" val="2002-09" mod="NA" />
+<TIMEX3 id="T7" start="994" end="997" text="now" type="DATE" val="2015-06-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Discharge" toID="T2" toText="2015-06-11" type="OVERLAP" />
+<TLINK id="TL1" fromID="E23" fromText="Admission" toID="T1" toText="2015-06-10" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="short of breath" toID="E30" toText="exertion" type="OVERLAP" />
+<TLINK id="TL11" fromID="E30" fromText="exertion" toID="T0" toText="one month" type="DURING" />
+<TLINK id="TL12" fromID="E7" fromText="short of breath" toID="E29" toText="occasional chest tightness" type="OVERLAP" />
+<TLINK id="TL13" fromID="E31" fromText="cardiac catheterization" toID="T6" toText="today" type="OVERLAP" />
+<TLINK id="TL14" fromID="E31" fromText="cardiac catheterization" toID="E33" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E32" fromText="OM" toID="E33" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E16" fromText="obstructive disease" toID="E31" toText="cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E17" fromText="left anterior descending minimal disease" toID="E31" toText="cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E18" fromText="left circumflex 40% mid-stenosis" toID="E31" toText="cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E19" fromText="Right coronary artery 100% mid-stenosis" toID="E31" toText="cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="myocardial infarction" toID="T3" toText="9/02" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E20" fromText="Echo" toID="E26" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E34" fromText="LVF" toID="E26" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E34" fromText="LVF" toID="E21" toText="moderate dilatation of the descending aorta" type="OVERLAP" />
+<TLINK id="TL23" fromID="E35" fromText="preop" toID="T7" toText="now" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="a coronary artery bypass graft" toID="E35" toText="preop" type="AFTER" />
+<TLINK id="TL3" fromID="E5" fromText="a Myoview" toID="T4" toText="05-04" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E20" fromText="Echo" toID="T5" toText="9/02" type="OVERLAP" />
+<TLINK id="TL7" fromID="E24" fromText="showed" toID="E5" toText="a Myoview" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E6" fromText="fixed inferior wall defect" toID="E24" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E28" fromText="ischemia" toID="E24" toText="showed" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2015-06-10" type="ADMISSION" dvalue="2015-06-10" />
+<SECTIME id="S1" start="46" end="56" text="2015-06-11" type="DISCHARGE" dvalue="2015-06-11" />
+<TLINK id="SECTIME0" fromID="E22" fromText="a coronary artery bypass graft" toID="T1" toText="2015-06-10" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E1" fromText="coronary artery disease" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME2" fromID="E2" fromText="myocardial infarction" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E27" fromText="stent" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E3" fromText="proximal and mid-RCA lesion" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E4" fromText="OM lesion" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E5" fromText="a Myoview" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E24" fromText="showed" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E6" fromText="fixed inferior wall defect" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME9" fromID="E28" fromText="ischemia" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E7" fromText="short of breath" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME11" fromID="E30" fromText="exertion" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E29" fromText="occasional chest tightness" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME13" fromID="E25" fromText="denies" toID="T1" toText="2015-06-10" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E8" fromText="orthopnea" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME15" fromID="E9" fromText="edema" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME16" fromID="E10" fromText="paroxysmal nocturnal dyspnea" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME17" fromID="E11" fromText="diaphoresis" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME18" fromID="E12" fromText="claudication" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME19" fromID="E13" fromText="hypertension" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME20" fromID="E14" fromText="high cholesterol" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME21" fromID="E15" fromText="noninsulin dependent diabetes mellitus" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME22" fromID="E31" fromText="cardiac catheterization" toID="T1" toText="2015-06-10" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E33" fromText="revealed" toID="T1" toText="2015-06-10" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E32" fromText="OM" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME25" fromID="E16" fromText="obstructive disease" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME26" fromID="E17" fromText="left anterior descending minimal disease" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E18" fromText="left circumflex 40% mid-stenosis" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME28" fromID="E19" fromText="Right coronary artery 100% mid-stenosis" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME29" fromID="E20" fromText="Echo" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E26" fromText="showed" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E34" fromText="LVF" toID="T1" toText="2015-06-10" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E21" fromText="moderate dilatation of the descending aorta" toID="T1" toText="2015-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E35" fromText="preop" toID="T1" toText="2015-06-10" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

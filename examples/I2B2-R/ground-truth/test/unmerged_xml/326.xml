@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+04/27/1998
+DISCHARGE DATE :
+05/02/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is a 72 year old white male with a history of coronary artery disease , status post a four vessel coronary artery bypass graft in 1983 , pulmonary hypertension , hepatitis C positive cirrhosis history with history of portal hypertension and status post an upper gastrointestinal bleed on 4-10-98 , who presents from Sondi Memorial for work up of pulmonary infiltrates , acute renal failure and pulmonary hypertension .
+The patient presented to Sondi Memorial on 4-10-98 with fatigue and fall , found to have a hematocrit of 29 , baseline 37 .
+The patient was transfused two units and an esophagogastroduodenoscopy done where it showed gastritis , candidal esophagitis and portal hypertensive gastropathy without varices .
+A colonoscopy showed anteriordysplasia , no bleeding was seen .
+The patient was discharged after one week on iron sulfate .
+On 4-24 , the patient was seen again at Sondi Memorial when he experienced at home a fall , no loss of consciousness , positive substernal chest pain , pleuritic pain , shortness of breath and cough .
+He went to Sondi Memorial where he ruled out for myocardial infarction and was found to have a left lower lobe infiltrate / pneumonia , started on cefuroxime .
+His respiratory condition continued to deteriorate despite aggressive chest physical therapy for possible blood , given Lasix for congestive heart failure , became hypotensive , hypoxic and intubated .
+The patient was found to have expanding pulmonary infiltrates on chest x-ray , developed acute renal insufficiency with minimal urine output , less than 10 cc an hour , started on dopamine for hemodynamic instability .
+An echocardiogram was obtained on 4-26 which showed concentric left ventricular hypertrophy with normal _____ left ventricular function , severe right ventricular dilatation with septal hypokinesis and flattening with a question of right ventricular apical clot raised with mild aortic stenosis , severe tricuspid regurgitation and increased pulmonary artery pressure of approximately 70 millimeters , consistent with fairly severe pulmonary hypertension .
+Blood cultures x two sent off with no growth .
+The patient ruled out for myocardial infarction with flat creatine kinases and he was sent to Oaksgekesser/ Memorial Hospital for further work up .
+HOSPITAL COURSE AND TREATMENT :
+At the Oaksgekesser/ Memorial Hospital he was quite hypotensive , requiring dopamine at 1,000 , Levo at 12 .
+His chest x-ray showed diffuse patchy infiltrates on left lung with left upper lung patchy infiltrates and right hemidiaphragm elevated , consistent with adult respiratory distress syndrome from possible pneumonia .
+A urinalysis was obtained which showed blood , urine sediment was active with positive dysmorphic cells , red cell casts , and 1+ albumin with mild protein uria .
+The patient had ANCA , anti-GBM , anti-streptolycin , ANA , UPEP , SPEP , renal ultrasound , hepatitis C cryoglobulin sent out .
+He had a bronchoscopy immediately done which showed no fresh blood , just old clot and a pulmonary arterial line placed in the right internal jugular vein .
+Question of pulmonary-renal syndrome was raised .
+The patient subsequently deteriorated over time , was started on CVVH and suffered significant complications without improvement of his pulmonary / renal situation .
+A family meeting was held on 5-2-98 and it was decided that the patient should be made comfort care only .
+All CVVH and the ventilator was removed and the patient spontaneously passed away on 5-2-98 , at 4:55 p.m.
+Family and primary carephysician informed .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="1027" end="1033" text="a fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="1039" end="1060" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1072" end="1093" text="substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1096" end="1110" text="pleuritic pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1113" end="1132" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1137" end="1142" text="cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="1156" end="1170" text="Sondi Memorial" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="1194" end="1215" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="1238" end="1266" text="a left lower lobe infiltrate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1269" end="1278" text="pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1292" end="1302" text="cefuroxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="1344" end="1355" text="deteriorate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1364" end="1397" text="aggressive chest physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1411" end="1416" text="blood" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1425" end="1430" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="144" end="167" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1435" end="1459" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1469" end="1480" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1483" end="1490" text="hypoxic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1495" end="1504" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="1537" end="1568" text="expanding pulmonary infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1572" end="1583" text="chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1596" end="1621" text="acute renal insufficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1627" end="1647" text="minimal urine output" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1687" end="1695" text="dopamine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1700" end="1723" text="hemodynamic instability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1726" end="1743" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E103" start="1771" end="1777" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="1778" end="1817" text="concentric left ventricular hypertrophy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="182" end="224" text="a four vessel coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="1823" end="1861" text="normal _____ left ventricular function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="1864" end="1899" text="severe right ventricular dilatation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="1905" end="1938" text="septal hypokinesis and flattening" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1958" end="1987" text="right ventricular apical clot" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2000" end="2020" text="mild aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2023" end="2053" text="severe tricuspid regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="2058" end="2093" text="increased pulmonary artery pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="2144" end="2180" text="fairly severe pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2183" end="2197" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2221" end="2227" text="growth" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="2256" end="2277" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="2288" end="2304" text="creatine kinases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="2324" end="2355" text="Oaksgekesser/ Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E81" start="235" end="257" text="pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="2360" end="2375" text="further work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="2413" end="2448" text="the Oaksgekesser/ Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="2456" end="2473" text="quite hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2486" end="2494" text="dopamine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2506" end="2510" text="Levo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2519" end="2534" text="His chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="2535" end="2541" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="2542" end="2581" text="diffuse patchy infiltrates on left lung" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="2587" end="2621" text="left upper lung patchy infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="260" end="271" text="hepatitis C" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2626" end="2654" text="right hemidiaphragm elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2673" end="2708" text="adult respiratory distress syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="2723" end="2732" text="pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="2735" end="2747" text="A urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="2767" end="2773" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="2774" end="2779" text="blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="2782" end="2796" text="urine sediment" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="281" end="290" text="cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="2801" end="2807" text="active" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="2822" end="2838" text="dysmorphic cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2841" end="2855" text="red cell casts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2862" end="2872" text="1+ albumin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2878" end="2895" text="mild protein uria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2914" end="2918" text="ANCA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="2921" end="2929" text="anti-GBM" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="2932" end="2949" text="anti-streptolycin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="2952" end="2955" text="ANA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2958" end="2962" text="UPEP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2965" end="2969" text="SPEP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2972" end="2988" text="renal ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2991" end="3015" text="hepatitis C cryoglobulin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="3034" end="3048" text="a bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="3072" end="3078" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="3082" end="3093" text="fresh blood" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E68" start="3101" end="3109" text="old clot" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="3114" end="3139" text="a pulmonary arterial line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="315" end="334" text="portal hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="3196" end="3220" text="pulmonary-renal syndrome" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="3259" end="3271" text="deteriorated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="3299" end="3303" text="CVVH" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="3317" end="3342" text="significant complications" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="3351" end="3362" text="improvement" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E119" start="3400" end="3416" text="A family meeting" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="3487" end="3504" text="comfort care only" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="351" end="382" text="an upper gastrointestinal bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="3511" end="3515" text="CVVH" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="3520" end="3534" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="3577" end="3588" text="passed away" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="3647" end="3655" text="informed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="400" end="408" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E85" start="414" end="428" text="Sondi Memorial" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="433" end="440" text="work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="444" end="465" text="pulmonary infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="468" end="487" text="acute renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="492" end="514" text="pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="529" end="538" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E89" start="542" end="556" text="Sondi Memorial" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="573" end="580" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="585" end="589" text="fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="606" end="618" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="627" end="635" text="baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="668" end="677" text="two units" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="682" end="711" text="an esophagogastroduodenoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="726" end="732" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="733" end="742" text="gastritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="745" end="765" text="candidal esophagitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="770" end="801" text="portal hypertensive gastropathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="810" end="817" text="varices" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="820" end="833" text="A colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="834" end="840" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="841" end="858" text="anteriordysplasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="864" end="872" text="bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="900" end="910" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="929" end="941" text="iron sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="970" end="974" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="984" end="998" text="Sondi Memorial" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T7" start="1760" end="1764" text="4-26" type="DATE" val="1998-04-26" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="04/27/1998" type="DATE" val="1998-04-27" mod="NA" />
+<TIMEX3 id="T8" start="2198" end="2203" text="x two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T3" start="228" end="232" text="1983" type="DATE" val="1983" mod="NA" />
+<TIMEX3 id="T9" start="3429" end="3435" text="5-2-98" type="DATE" val="1998-05-02" mod="NA" />
+<TIMEX3 id="T10" start="3592" end="3613" text="5-2-98 , at 4:55 p.m." type="TIME" val="1998-05-02T16:55" mod="NA" />
+<TIMEX3 id="T4" start="386" end="393" text="4-10-98" type="DATE" val="1998-04-10" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="05/02/1998" type="DATE" val="1998-05-02" mod="NA" />
+<TIMEX3 id="T5" start="560" end="567" text="4-10-98" type="DATE" val="1998-04-10" mod="NA" />
+<TIMEX3 id="T0" start="917" end="925" text="one week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T6" start="947" end="951" text="4-24" type="DATE" val="1998-04-24" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="04/27/1998" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E21" fromText="myocardial infarction" toID="E39" toText="myocardial infarction" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E82" fromText="hepatitis C" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E114" fromText="showed" toID="E45" toText="His chest x-ray" type="OVERLAP" />
+<TLINK id="TL101" fromID="E102" fromText="expanding pulmonary infiltrates" toID="E46" toText="diffuse patchy infiltrates on left lung" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E46" fromText="diffuse patchy infiltrates on left lung" toID="E45" toText="His chest x-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL103" fromID="E47" fromText="left upper lung patchy infiltrates" toID="E48" toText="right hemidiaphragm elevated" type="OVERLAP" />
+<TLINK id="TL104" fromID="E49" fromText="adult respiratory distress syndrome" toID="E48" toText="right hemidiaphragm elevated" type="OVERLAP" />
+<TLINK id="TL105" fromID="E49" fromText="adult respiratory distress syndrome" toID="E115" toText="pneumonia" type="OVERLAP" />
+<TLINK id="TL106" fromID="E50" fromText="A urinalysis" toID="E116" toText="showed" type="OVERLAP" />
+<TLINK id="TL107" fromID="E50" fromText="A urinalysis" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL109" fromID="E51" fromText="blood" toID="E50" toText="A urinalysis" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E83" fromText="cirrhosis" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL110" fromID="E52" fromText="urine sediment" toID="E50" toText="A urinalysis" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E53" fromText="active" toID="E52" toText="urine sediment" type="SIMULTANEOUS" />
+<TLINK id="TL112" fromID="E54" fromText="dysmorphic cells" toID="E50" toText="A urinalysis" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E55" fromText="red cell casts" toID="E50" toText="A urinalysis" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E56" fromText="1+ albumin" toID="E50" toText="A urinalysis" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E57" fromText="mild protein uria" toID="E50" toText="A urinalysis" type="SIMULTANEOUS" />
+<TLINK id="TL116" fromID="E58" fromText="ANCA" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL117" fromID="E58" fromText="ANCA" toID="E59" toText="anti-GBM" type="OVERLAP" />
+<TLINK id="TL118" fromID="E60" fromText="anti-streptolycin" toID="E58" toText="ANCA" type="OVERLAP" />
+<TLINK id="TL119" fromID="E61" fromText="ANA" toID="E58" toText="ANCA" type="OVERLAP" />
+<TLINK id="TL12" fromID="E2" fromText="portal hypertension" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL120" fromID="E62" fromText="UPEP" toID="E58" toText="ANCA" type="OVERLAP" />
+<TLINK id="TL121" fromID="E63" fromText="SPEP" toID="E58" toText="ANCA" type="OVERLAP" />
+<TLINK id="TL123" fromID="E64" fromText="renal ultrasound" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL124" fromID="E65" fromText="hepatitis C cryoglobulin" toID="E58" toText="ANCA" type="OVERLAP" />
+<TLINK id="TL125" fromID="E66" fromText="a bronchoscopy" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL126" fromID="E66" fromText="a bronchoscopy" toID="E117" toText="showed" type="OVERLAP" />
+<TLINK id="TL127" fromID="E67" fromText="fresh blood" toID="E66" toText="a bronchoscopy" type="OVERLAP" />
+<TLINK id="TL128" fromID="E66" fromText="a bronchoscopy" toID="E68" toText="old clot" type="BEFORE_OVERLAP" />
+<TLINK id="TL129" fromID="E69" fromText="a pulmonary arterial line" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL13" fromID="E3" fromText="an upper gastrointestinal bleed" toID="T4" toText="4-10-98" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E70" fromText="pulmonary-renal syndrome" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="BEFORE_OVERLAP" />
+<TLINK id="TL131" fromID="E118" fromText="deteriorated" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL132" fromID="E118" fromText="deteriorated" toID="E71" toText="CVVH" type="BEFORE_OVERLAP" />
+<TLINK id="TL133" fromID="E72" fromText="significant complications" toID="E71" toText="CVVH" type="OVERLAP" />
+<TLINK id="TL134" fromID="E122" fromText="improvement" toID="E72" toText="significant complications" type="OVERLAP" />
+<TLINK id="TL135" fromID="E119" fromText="A family meeting" toID="T9" toText="5-2-98" type="SIMULTANEOUS" />
+<TLINK id="TL136" fromID="E120" fromText="comfort care only" toID="E119" toText="A family meeting" type="BEGUN_BY" />
+<TLINK id="TL137" fromID="E74" fromText="CVVH" toID="T9" toText="5-2-98" type="ENDED_BY" />
+<TLINK id="TL138" fromID="E75" fromText="the ventilator" toID="T9" toText="5-2-98" type="ENDED_BY" />
+<TLINK id="TL139" fromID="E75" fromText="the ventilator" toID="E29" toText="intubated" type="BEGUN_BY" />
+<TLINK id="TL14" fromID="E84" fromText="presents" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL140" fromID="E78" fromText="passed away" toID="E75" toText="the ventilator" type="AFTER" />
+<TLINK id="TL141" fromID="E78" fromText="passed away" toID="T10" toText="5-2-98 , at 4:55 p.m." type="SIMULTANEOUS" />
+<TLINK id="TL142" fromID="E121" fromText="informed" toID="E78" toText="passed away" type="AFTER" />
+<TLINK id="TL15" fromID="E85" fromText="Sondi Memorial" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL17" fromID="E4" fromText="work up" toID="E112" toText="Oaksgekesser/ Memorial Hospital" type="DURING" />
+<TLINK id="TL18" fromID="E5" fromText="pulmonary infiltrates" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E86" fromText="acute renal failure" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E71" fromText="CVVH" toID="E74" toText="CVVH" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E87" fromText="pulmonary hypertension" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E88" fromText="presented" toID="T5" toText="4-10-98" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E89" fromText="Sondi Memorial" toID="E88" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL24" fromID="E90" fromText="fall" toID="T5" toText="4-10-98" type="BEFORE" />
+<TLINK id="TL25" fromID="E7" fromText="a hematocrit" toID="E89" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL26" fromID="E91" fromText="baseline" toID="E88" toText="presented" type="BEFORE" />
+<TLINK id="TL27" fromID="E8" fromText="two units" toID="E7" toText="a hematocrit" type="AFTER" />
+<TLINK id="TL28" fromID="E9" fromText="an esophagogastroduodenoscopy" toID="E89" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL3" fromID="E27" fromText="hypotensive" toID="E42" toText="quite hypotensive" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E10" fromText="gastritis" toID="E9" toText="an esophagogastroduodenoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E11" fromText="candidal esophagitis" toID="E9" toText="an esophagogastroduodenoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E12" fromText="portal hypertensive gastropathy" toID="E9" toText="an esophagogastroduodenoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E93" fromText="varices" toID="E12" toText="portal hypertensive gastropathy" type="OVERLAP" />
+<TLINK id="TL34" fromID="E13" fromText="A colonoscopy" toID="E89" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL36" fromID="E14" fromText="anteriordysplasia" toID="E13" toText="A colonoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL37" fromID="E15" fromText="bleeding" toID="E13" toText="A colonoscopy" type="OVERLAP" />
+<TLINK id="TL38" fromID="E89" fromText="Sondi Memorial" toID="E76" toText="discharged" type="ENDED_BY" />
+<TLINK id="TL39" fromID="T0" fromText="one week" toID="T5" toText="4-10-98" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E46" fromText="diffuse patchy infiltrates on left lung" toID="E47" toText="left upper lung patchy infiltrates" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="T0" fromText="one week" toID="E76" toText="discharged" type="ENDED_BY" />
+<TLINK id="TL41" fromID="E16" fromText="iron sulfate" toID="E76" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL44" fromID="E96" fromText="Sondi Memorial" toID="T6" toText="4-24" type="BEGUN_BY" />
+<TLINK id="TL45" fromID="E92" fromText="showed" toID="E9" toText="an esophagogastroduodenoscopy" type="OVERLAP" />
+<TLINK id="TL46" fromID="E94" fromText="showed" toID="E13" toText="A colonoscopy" type="OVERLAP" />
+<TLINK id="TL47" fromID="E97" fromText="a fall" toID="E96" toText="Sondi Memorial" type="BEFORE" />
+<TLINK id="TL48" fromID="E97" fromText="a fall" toID="E98" toText="loss of consciousness" type="OVERLAP" />
+<TLINK id="TL49" fromID="E17" fromText="substernal chest pain" toID="E97" toText="a fall" type="OVERLAP" />
+<TLINK id="TL5" fromID="E6" fromText="fatigue" toID="T5" toText="4-10-98" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E18" fromText="pleuritic pain" toID="E97" toText="a fall" type="OVERLAP" />
+<TLINK id="TL51" fromID="E19" fromText="shortness of breath" toID="E97" toText="a fall" type="OVERLAP" />
+<TLINK id="TL52" fromID="E20" fromText="cough" toID="E97" toText="a fall" type="AFTER" />
+<TLINK id="TL53" fromID="E99" fromText="Sondi Memorial" toID="E96" toText="Sondi Memorial" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E21" fromText="myocardial infarction" toID="E99" toText="Sondi Memorial" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E100" fromText="a left lower lobe infiltrate" toID="E99" toText="Sondi Memorial" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E22" fromText="pneumonia" toID="E100" toText="a left lower lobe infiltrate" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E23" fromText="cefuroxime" toID="E99" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL58" fromID="E101" fromText="deteriorate" toID="E24" toText="aggressive chest physical therapy" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E24" fromText="aggressive chest physical therapy" toID="E99" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL6" fromID="E79" fromText="DISCHARGE" toID="T2" toText="05/02/1998" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E77" fromText="blood" toID="E24" toText="aggressive chest physical therapy" type="BEFORE_OVERLAP" />
+<TLINK id="TL62" fromID="E26" fromText="congestive heart failure" toID="E25" toText="Lasix" type="BEFORE_OVERLAP" />
+<TLINK id="TL63" fromID="E25" fromText="Lasix" toID="E99" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL64" fromID="E27" fromText="hypotensive" toID="E99" toText="Sondi Memorial" type="OVERLAP" />
+<TLINK id="TL65" fromID="E28" fromText="hypoxic" toID="E99" toText="Sondi Memorial" type="OVERLAP" />
+<TLINK id="TL66" fromID="E29" fromText="intubated" toID="E99" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL67" fromID="E102" fromText="expanding pulmonary infiltrates" toID="E30" toText="chest x-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL68" fromID="E102" fromText="expanding pulmonary infiltrates" toID="E100" toText="a left lower lobe infiltrate" type="OVERLAP" />
+<TLINK id="TL69" fromID="E30" fromText="chest x-ray" toID="E99" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL7" fromID="E80" fromText="coronary artery disease" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E86" fromText="acute renal failure" toID="E31" toText="acute renal insufficiency" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E31" fromText="acute renal insufficiency" toID="E32" toText="minimal urine output" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E31" fromText="acute renal insufficiency" toID="T6" toText="4-24" type="AFTER" />
+<TLINK id="TL73" fromID="E34" fromText="hemodynamic instability" toID="E33" toText="dopamine" type="BEFORE_OVERLAP" />
+<TLINK id="TL74" fromID="E33" fromText="dopamine" toID="T6" toText="4-24" type="AFTER" />
+<TLINK id="TL75" fromID="E35" fromText="An echocardiogram" toID="T7" toText="4-26" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E35" fromText="An echocardiogram" toID="E103" toText="showed" type="OVERLAP" />
+<TLINK id="TL77" fromID="E104" fromText="concentric left ventricular hypertrophy" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E105" fromText="normal _____ left ventricular function" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E106" fromText="severe right ventricular dilatation" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="a four vessel coronary artery bypass graft" toID="T3" toText="1983" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E107" fromText="septal hypokinesis and flattening" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL81" fromID="E36" fromText="right ventricular apical clot" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E108" fromText="mild aortic stenosis" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E109" fromText="severe tricuspid regurgitation" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E110" fromText="increased pulmonary artery pressure" toID="E35" toText="An echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL85" fromID="E111" fromText="fairly severe pulmonary hypertension" toID="E110" toText="increased pulmonary artery pressure" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E37" fromText="Blood cultures" toID="T6" toText="4-24" type="AFTER" />
+<TLINK id="TL87" fromID="T8" fromText="x two" toID="E37" toText="Blood cultures" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E38" fromText="growth" toID="E37" toText="Blood cultures" type="OVERLAP" />
+<TLINK id="TL89" fromID="E40" fromText="creatine kinases" toID="E99" toText="Sondi Memorial" type="DURING" />
+<TLINK id="TL9" fromID="E81" fromText="pulmonary hypertension" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL90" fromID="E112" fromText="Oaksgekesser/ Memorial Hospital" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E112" fromText="Oaksgekesser/ Memorial Hospital" toID="T1" toText="04/27/1998" type="BEGUN_BY" />
+<TLINK id="TL92" fromID="E112" fromText="Oaksgekesser/ Memorial Hospital" toID="T2" toText="05/02/1998" type="ENDED_BY" />
+<TLINK id="TL93" fromID="E112" fromText="Oaksgekesser/ Memorial Hospital" toID="E99" toText="Sondi Memorial" type="AFTER" />
+<TLINK id="TL94" fromID="E41" fromText="further work up" toID="E4" toText="work up" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="E42" fromText="quite hypotensive" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="BEFORE_OVERLAP" />
+<TLINK id="TL96" fromID="E42" fromText="quite hypotensive" toID="E43" toText="dopamine" type="OVERLAP" />
+<TLINK id="TL97" fromID="E43" fromText="dopamine" toID="E44" toText="Levo" type="OVERLAP" />
+<TLINK id="TL98" fromID="E43" fromText="dopamine" toID="E33" toText="dopamine" type="SIMULTANEOUS" />
+<TLINK id="TL99" fromID="E45" fromText="His chest x-ray" toID="E113" toText="the Oaksgekesser/ Memorial Hospital" type="DURING" />
+<SECTIME id="S0" start="18" end="28" text="04/27/1998" type="ADMISSION" dvalue="1998-04-27" />
+<SECTIME id="S1" start="46" end="56" text="05/02/1998" type="DISCHARGE" dvalue="1998-05-02" />
+<TLINK id="SECTIME0" fromID="E97" fromText="a fall" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E98" fromText="loss of consciousness" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E17" fromText="substernal chest pain" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E18" fromText="pleuritic pain" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E19" fromText="shortness of breath" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E20" fromText="cough" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E99" fromText="Sondi Memorial" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E21" fromText="myocardial infarction" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E100" fromText="a left lower lobe infiltrate" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E22" fromText="pneumonia" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E23" fromText="cefuroxime" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E101" fromText="deteriorate" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E24" fromText="aggressive chest physical therapy" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E77" fromText="blood" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E25" fromText="Lasix" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E80" fromText="coronary artery disease" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME16" fromID="E26" fromText="congestive heart failure" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E27" fromText="hypotensive" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E28" fromText="hypoxic" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E29" fromText="intubated" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E102" fromText="expanding pulmonary infiltrates" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E30" fromText="chest x-ray" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E31" fromText="acute renal insufficiency" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E32" fromText="minimal urine output" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E33" fromText="dopamine" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E34" fromText="hemodynamic instability" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E35" fromText="An echocardiogram" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E103" fromText="showed" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E104" fromText="concentric left ventricular hypertrophy" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME29" fromID="E1" fromText="a four vessel coronary artery bypass graft" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E105" fromText="normal _____ left ventricular function" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME31" fromID="E106" fromText="severe right ventricular dilatation" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME32" fromID="E107" fromText="septal hypokinesis and flattening" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E36" fromText="right ventricular apical clot" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME34" fromID="E108" fromText="mild aortic stenosis" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME35" fromID="E109" fromText="severe tricuspid regurgitation" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME36" fromID="E110" fromText="increased pulmonary artery pressure" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME37" fromID="E111" fromText="fairly severe pulmonary hypertension" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME38" fromID="E37" fromText="Blood cultures" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E38" fromText="growth" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E39" fromText="myocardial infarction" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E40" fromText="creatine kinases" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E81" fromText="pulmonary hypertension" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME43" fromID="E41" fromText="further work up" toID="T1" toText="04/27/1998" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E113" fromText="the Oaksgekesser/ Memorial Hospital" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E42" fromText="quite hypotensive" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E43" fromText="dopamine" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E44" fromText="Levo" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E45" fromText="His chest x-ray" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E114" fromText="showed" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E46" fromText="diffuse patchy infiltrates on left lung" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E47" fromText="left upper lung patchy infiltrates" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E82" fromText="hepatitis C" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME53" fromID="E48" fromText="right hemidiaphragm elevated" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E49" fromText="adult respiratory distress syndrome" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E115" fromText="pneumonia" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E50" fromText="A urinalysis" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E116" fromText="showed" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E51" fromText="blood" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E52" fromText="urine sediment" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E83" fromText="cirrhosis" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME61" fromID="E53" fromText="active" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E54" fromText="dysmorphic cells" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E55" fromText="red cell casts" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E56" fromText="1+ albumin" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E57" fromText="mild protein uria" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E58" fromText="ANCA" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E59" fromText="anti-GBM" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E60" fromText="anti-streptolycin" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E61" fromText="ANA" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E62" fromText="UPEP" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E63" fromText="SPEP" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E64" fromText="renal ultrasound" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E65" fromText="hepatitis C cryoglobulin" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E66" fromText="a bronchoscopy" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E117" fromText="showed" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E67" fromText="fresh blood" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E68" fromText="old clot" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E69" fromText="a pulmonary arterial line" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E2" fromText="portal hypertension" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME80" fromID="E70" fromText="pulmonary-renal syndrome" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E118" fromText="deteriorated" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E71" fromText="CVVH" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E72" fromText="significant complications" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E122" fromText="improvement" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E119" fromText="A family meeting" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E120" fromText="comfort care only" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E3" fromText="an upper gastrointestinal bleed" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E74" fromText="CVVH" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E75" fromText="the ventilator" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E78" fromText="passed away" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E121" fromText="informed" toID="T2" toText="05/02/1998" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E84" fromText="presents" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E85" fromText="Sondi Memorial" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E4" fromText="work up" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E5" fromText="pulmonary infiltrates" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME96" fromID="E86" fromText="acute renal failure" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME97" fromID="E87" fromText="pulmonary hypertension" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME98" fromID="E88" fromText="presented" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E89" fromText="Sondi Memorial" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E6" fromText="fatigue" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E90" fromText="fall" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E7" fromText="a hematocrit" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E91" fromText="baseline" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E8" fromText="two units" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E9" fromText="an esophagogastroduodenoscopy" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E92" fromText="showed" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E10" fromText="gastritis" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E11" fromText="candidal esophagitis" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E12" fromText="portal hypertensive gastropathy" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME110" fromID="E93" fromText="varices" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E13" fromText="A colonoscopy" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E94" fromText="showed" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E14" fromText="anteriordysplasia" toID="T1" toText="04/27/1998" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME114" fromID="E15" fromText="bleeding" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E76" fromText="discharged" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E16" fromText="iron sulfate" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E95" fromText="seen" toID="T1" toText="04/27/1998" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E96" fromText="Sondi Memorial" toID="T1" toText="04/27/1998" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

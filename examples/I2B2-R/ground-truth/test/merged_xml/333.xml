@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+7-9-93
+DISCHARGE DATE :
+7-15-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 52 year old female with gravida 3 para 3 who presents with complains of abdominal pain and enlarged ovary by ultrasound .
+The patient is also complaining of several years urinary incontinence .
+The patient &apos;s recent history is also notable for a Papanicolaou smear which revealed somomabodies .
+The patient also had vaginal bleeding in April 1992 following radiation therapy .
+The patient initially presented with hypercalcemia and underwent a parathyroidectomy on June 22 , 1993 .
+It was at that time that her abnormal Papanicolaou smear was obtained .
+The patient is now admitted for exploratory laparotomy .
+HOSPITAL COURSE :
+The patient was judged to be at risk secondary to her history of somomabodies and vaginal bleeding .
+Her differential diagnosis included ovarian cancer .
+The patient was admitted on July 9 to the operating room .
+She underwent an open laparoscopy , total abdominal hysterectomy , bilateral salpingo-oophorectomy , lysis of adhesions , Birch procedure , and suprapubic Foley catheter placement and Jackson-Pratt drain placement .
+The estimated blood loss was 300 cc .
+There were no complications during the procedure and the patient returned to the recovery room in stable condition .
+Postoperatively , the patient did well .
+Her calcium was followed daily and repleted as needed .
+Her Jackson-Pratt drain was removed on postoperative day number two .
+The patient had a temperature of 101.6 on postoperative day two .
+Her lungs revealed coarse breath sounds .
+She was encouraged to ambulate and deep breath .
+The patient was started on nebulizer treatment .
+The patient did well and her suprapubic tube was clamped starting on postoperative day four .
+The patient voided spontaneously .
+Clamping continued until postoperative day six .
+At this time , her post-void residuals range from 2 cc to 25 cc .
+The suprapubic tube was therefore discontinued .
+By postoperative day six , the patient was also tolerating a regular diet and passing flatus .
+A chest X-ray was performed secondary to the patient &apos;s coarse breath sounds , however , the chest X-ray was clear except for a small amount of atelectasis .
+The patient was discharged home .
+final pathology revealed right Fallopian tube and ovary with benign paratubal cysts and adhesions .
+The cervix revealed squamous metaplasia .
+The patient was discharged home on admission medications .
+In addition , she will take Ciprofloxacin for nine more days .
+She will also take Percocet .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1010" end="1041" text="bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1044" end="1049" text="lysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1053" end="1062" text="adhesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1065" end="1080" text="Birch procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1087" end="1122" text="suprapubic Foley catheter placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1127" end="1156" text="Jackson-Pratt drain placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1159" end="1183" text="The estimated blood loss" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="120" end="136" text="gravida 3 para 3" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1211" end="1224" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="1232" end="1245" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1274" end="1291" text="the recovery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="1295" end="1311" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1332" end="1352" text="the patient did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1355" end="1366" text="Her calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1390" end="1398" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="141" end="149" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="1411" end="1434" text="Her Jackson-Pratt drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1497" end="1510" text="a temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="155" end="164" text="complains" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="1557" end="1565" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="1566" end="1586" text="coarse breath sounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1611" end="1619" text="ambulate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="1624" end="1635" text="deep breath" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1665" end="1684" text="nebulizer treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="168" end="182" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1687" end="1707" text="The patient did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1712" end="1731" text="her suprapubic tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1736" end="1743" text="clamped" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="1793" end="1813" text="voided spontaneously" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1816" end="1824" text="Clamping" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="187" end="201" text="enlarged ovary" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1880" end="1903" text="her post-void residuals" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1931" end="1950" text="The suprapubic tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2028" end="2053" text="tolerating a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="205" end="215" text="ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2058" end="2072" text="passing flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="2075" end="2088" text="A chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2116" end="2156" text="the patient &apos;s coarse breath sounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2169" end="2184" text="the chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2224" end="2235" text="atelectasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2254" end="2264" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="2272" end="2287" text="final pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2288" end="2296" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="2333" end="2355" text="benign paratubal cysts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2360" end="2369" text="adhesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="238" end="249" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E72" start="2383" end="2391" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="2392" end="2411" text="squamous metaplasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="2430" end="2440" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="2449" end="2470" text="admission medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="25" end="34" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2501" end="2514" text="Ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2555" end="2563" text="Percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="267" end="287" text="urinary incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="345" end="365" text="a Papanicolaou smear" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="372" end="380" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="381" end="393" text="somomabodies" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="417" end="433" text="vaginal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="458" end="475" text="radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="500" end="509" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="515" end="528" text="hypercalcemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="543" end="562" text="a parathyroidectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="608" end="639" text="her abnormal Papanicolaou smear" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="674" end="682" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="687" end="709" text="exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="795" end="807" text="somomabodies" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="812" end="828" text="vaginal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="867" end="881" text="ovarian cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="900" end="908" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="922" end="940" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E11" start="957" end="976" text="an open laparoscopy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="979" end="1007" text="total abdominal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T6" start="1380" end="1385" text="daily" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T7" start="1450" end="1478" text="postoperative day number two" type="DATE" val="1993-07-11" mod="NA" />
+<TIMEX3 id="T8" start="1523" end="1544" text="postoperative day two" type="DATE" val="1993-07-11" mod="NA" />
+<TIMEX3 id="T9" start="1756" end="1778" text="postoperative day four" type="DATE" val="1993-07-13" mod="NA" />
+<TIMEX3 id="T1" start="18" end="24" text="7-9-93" type="DATE" val="1993-07-09" mod="NA" />
+<TIMEX3 id="T10" start="1841" end="1862" text="postoperative day six" type="DATE" val="1993-07-15" mod="NA" />
+<TIMEX3 id="T11" start="1983" end="2004" text="postoperative day six" type="DATE" val="1993-07-15" mod="NA" />
+<TIMEX3 id="T12" start="2519" end="2533" text="nine more days" type="DURATION" val="P9D" mod="NA" />
+<TIMEX3 id="T0" start="253" end="266" text="several years" type="DURATION" val="P3Y" mod="APPROX" />
+<TIMEX3 id="T2" start="42" end="49" text="7-15-93" type="DATE" val="1993-07-15" mod="NA" />
+<TIMEX3 id="T4" start="437" end="447" text="April 1992" type="DATE" val="1992-04" mod="NA" />
+<TIMEX3 id="T5" start="566" end="580" text="June 22 , 1993" type="DATE" val="1993-06-22" mod="NA" />
+<TIMEX3 id="T3" start="912" end="918" text="July 9" type="DATE" val="1993-07-09" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="7-9-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E5" fromText="radiation therapy" toID="E4" toText="vaginal bleeding" type="BEFORE" />
+<TLINK id="TL10" fromID="E47" fromText="enlarged ovary" toID="E1" toText="ultrasound" type="BEFORE" />
+<TLINK id="TL11" fromID="E1" fromText="ultrasound" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL12" fromID="E50" fromText="urinary incontinence" toID="T0" toText="several years" type="OVERLAP" />
+<TLINK id="TL13" fromID="T0" fromText="several years" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="TL14" fromID="E51" fromText="revealed" toID="E2" toText="a Papanicolaou smear" type="OVERLAP" />
+<TLINK id="TL15" fromID="E3" fromText="somomabodies" toID="E2" toText="a Papanicolaou smear" type="BEFORE" />
+<TLINK id="TL16" fromID="E2" fromText="a Papanicolaou smear" toID="E7" toText="a parathyroidectomy" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="vaginal bleeding" toID="T4" toText="April 1992" type="OVERLAP" />
+<TLINK id="TL18" fromID="E52" fromText="presented" toID="T5" toText="June 22 , 1993" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="hypercalcemia" toID="E52" toText="presented" type="BEFORE" />
+<TLINK id="TL2" fromID="E31" fromText="A chest X-ray" toID="E32" toText="the patient &apos;s coarse breath sounds" type="AFTER" />
+<TLINK id="TL21" fromID="E7" fromText="a parathyroidectomy" toID="T5" toText="June 22 , 1993" type="OVERLAP" />
+<TLINK id="TL22" fromID="E8" fromText="her abnormal Papanicolaou smear" toID="E2" toText="a Papanicolaou smear" type="OVERLAP" />
+<TLINK id="TL23" fromID="E53" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL24" fromID="E54" fromText="exploratory laparotomy" toID="E53" toText="admitted" type="AFTER" />
+<TLINK id="TL25" fromID="E9" fromText="somomabodies" toID="E3" toText="somomabodies" type="OVERLAP" />
+<TLINK id="TL26" fromID="E10" fromText="vaginal bleeding" toID="E4" toText="vaginal bleeding" type="OVERLAP" />
+<TLINK id="TL27" fromID="E55" fromText="ovarian cancer" toID="E10" toText="vaginal bleeding" type="OVERLAP" />
+<TLINK id="TL28" fromID="E56" fromText="admitted" toID="E53" toText="admitted" type="OVERLAP" />
+<TLINK id="TL29" fromID="E57" fromText="the operating room" toID="E56" toText="admitted" type="AFTER" />
+<TLINK id="TL3" fromID="E31" fromText="A chest X-ray" toID="E33" toText="the chest X-ray" type="OVERLAP" />
+<TLINK id="TL30" fromID="E11" fromText="an open laparoscopy" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL31" fromID="E12" fromText="total abdominal hysterectomy" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL32" fromID="E13" fromText="bilateral salpingo-oophorectomy" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL33" fromID="E14" fromText="lysis" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL34" fromID="E15" fromText="adhesions" toID="E14" toText="lysis" type="BEFORE" />
+<TLINK id="TL35" fromID="E16" fromText="Birch procedure" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL36" fromID="E17" fromText="suprapubic Foley catheter placement" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL37" fromID="E18" fromText="Jackson-Pratt drain placement" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL38" fromID="E19" fromText="The estimated blood loss" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL39" fromID="E20" fromText="complications" toID="E21" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL4" fromID="E42" fromText="DISCHARGE" toID="T2" toText="7-15-93" type="OVERLAP" />
+<TLINK id="TL40" fromID="E21" fromText="the procedure" toID="E57" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL41" fromID="E57" fromText="the operating room" toID="E58" toText="the recovery room" type="BEFORE" />
+<TLINK id="TL42" fromID="E59" fromText="stable condition" toID="E58" toText="the recovery room" type="BEFORE" />
+<TLINK id="TL43" fromID="E60" fromText="the patient did well" toID="E21" toText="the procedure" type="AFTER" />
+<TLINK id="TL44" fromID="E22" fromText="Her calcium" toID="T6" toText="daily" type="OVERLAP" />
+<TLINK id="TL45" fromID="E22" fromText="Her calcium" toID="E21" toText="the procedure" type="AFTER" />
+<TLINK id="TL46" fromID="E61" fromText="repleted" toID="E22" toText="Her calcium" type="OVERLAP" />
+<TLINK id="TL47" fromID="E23" fromText="Her Jackson-Pratt drain" toID="E18" toText="Jackson-Pratt drain placement" type="AFTER" />
+<TLINK id="TL48" fromID="E23" fromText="Her Jackson-Pratt drain" toID="T7" toText="postoperative day number two" type="BEFORE" />
+<TLINK id="TL49" fromID="E24" fromText="a temperature" toID="T8" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL5" fromID="E43" fromText="gravida 3 para 3" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL50" fromID="E62" fromText="revealed" toID="T8" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL51" fromID="E25" fromText="coarse breath sounds" toID="T8" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL52" fromID="E63" fromText="ambulate" toID="T8" toText="postoperative day two" type="AFTER" />
+<TLINK id="TL53" fromID="E64" fromText="deep breath" toID="T8" toText="postoperative day two" type="AFTER" />
+<TLINK id="TL54" fromID="E26" fromText="nebulizer treatment" toID="T8" toText="postoperative day two" type="AFTER" />
+<TLINK id="TL55" fromID="E65" fromText="The patient did well" toID="E60" toText="the patient did well" type="OVERLAP" />
+<TLINK id="TL56" fromID="E27" fromText="her suprapubic tube" toID="E17" toText="suprapubic Foley catheter placement" type="AFTER" />
+<TLINK id="TL57" fromID="E27" fromText="her suprapubic tube" toID="T10" toText="postoperative day six" type="BEFORE" />
+<TLINK id="TL58" fromID="E28" fromText="clamped" toID="T9" toText="postoperative day four" type="AFTER" />
+<TLINK id="TL59" fromID="E28" fromText="clamped" toID="T10" toText="postoperative day six" type="BEFORE" />
+<TLINK id="TL6" fromID="E44" fromText="presents" toID="E45" toText="complains" type="OVERLAP" />
+<TLINK id="TL60" fromID="E28" fromText="clamped" toID="E66" toText="voided spontaneously" type="BEFORE" />
+<TLINK id="TL61" fromID="E39" fromText="Clamping" toID="E28" toText="clamped" type="OVERLAP" />
+<TLINK id="TL62" fromID="E29" fromText="her post-void residuals" toID="T10" toText="postoperative day six" type="OVERLAP" />
+<TLINK id="TL63" fromID="E30" fromText="The suprapubic tube" toID="E27" toText="her suprapubic tube" type="OVERLAP" />
+<TLINK id="TL64" fromID="E68" fromText="tolerating a regular diet" toID="T11" toText="postoperative day six" type="BEFORE" />
+<TLINK id="TL65" fromID="E69" fromText="passing flatus" toID="T11" toText="postoperative day six" type="BEFORE" />
+<TLINK id="TL66" fromID="E31" fromText="A chest X-ray" toID="T10" toText="postoperative day six" type="OVERLAP" />
+<TLINK id="TL67" fromID="E32" fromText="the patient &apos;s coarse breath sounds" toID="E25" toText="coarse breath sounds" type="OVERLAP" />
+<TLINK id="TL68" fromID="E70" fromText="atelectasis" toID="E33" toText="the chest X-ray" type="BEFORE" />
+<TLINK id="TL69" fromID="E40" fromText="discharged" toID="E42" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL7" fromID="E0" fromText="ADMISSION" toID="E44" toText="presents" type="OVERLAP" />
+<TLINK id="TL70" fromID="E40" fromText="discharged" toID="E31" toText="A chest X-ray" type="AFTER" />
+<TLINK id="TL71" fromID="E34" fromText="final pathology" toID="E21" toText="the procedure" type="AFTER" />
+<TLINK id="TL72" fromID="E71" fromText="revealed" toID="E34" toText="final pathology" type="OVERLAP" />
+<TLINK id="TL73" fromID="E35" fromText="benign paratubal cysts" toID="E21" toText="the procedure" type="BEFORE" />
+<TLINK id="TL74" fromID="E36" fromText="adhesions" toID="E14" toText="lysis" type="BEFORE" />
+<TLINK id="TL75" fromID="E72" fromText="revealed" toID="E34" toText="final pathology" type="OVERLAP" />
+<TLINK id="TL76" fromID="E37" fromText="squamous metaplasia" toID="E12" toText="total abdominal hysterectomy" type="BEFORE" />
+<TLINK id="TL77" fromID="E40" fromText="discharged" toID="E41" toText="discharged" type="OVERLAP" />
+<TLINK id="TL78" fromID="E38" fromText="admission medications" toID="E41" toText="discharged" type="AFTER" />
+<TLINK id="TL79" fromID="E73" fromText="Ciprofloxacin" toID="T12" toText="nine more days" type="OVERLAP" />
+<TLINK id="TL8" fromID="E45" fromText="complains" toID="E49" toText="complaining" type="OVERLAP" />
+<TLINK id="TL80" fromID="E73" fromText="Ciprofloxacin" toID="E41" toText="discharged" type="BEFORE" />
+<TLINK id="TL81" fromID="T12" fromText="nine more days" toID="E41" toText="discharged" type="AFTER" />
+<TLINK id="TL82" fromID="E74" fromText="Percocet" toID="E41" toText="discharged" type="AFTER" />
+<TLINK id="TL9" fromID="E46" fromText="abdominal pain" toID="E0" toText="ADMISSION" type="BEFORE" />
+<SECTIME id="S0" start="18" end="24" text="7-9-93" type="ADMISSION" dvalue="1993-07-09" />
+<SECTIME id="S1" start="43" end="50" text="7-15-93" type="DISCHARGE" dvalue="1993-7-15" />
+<TLINK id="SECTIME0" fromID="E13" fromText="bilateral salpingo-oophorectomy" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E14" fromText="lysis" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E15" fromText="adhesions" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E16" fromText="Birch procedure" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E17" fromText="suprapubic Foley catheter placement" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E18" fromText="Jackson-Pratt drain placement" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E19" fromText="The estimated blood loss" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E43" fromText="gravida 3 para 3" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E20" fromText="complications" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E21" fromText="the procedure" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E58" fromText="the recovery room" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E59" fromText="stable condition" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E60" fromText="the patient did well" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E22" fromText="Her calcium" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E61" fromText="repleted" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E44" fromText="presents" toID="T1" toText="7-9-93" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E23" fromText="Her Jackson-Pratt drain" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E24" fromText="a temperature" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E45" fromText="complains" toID="T1" toText="7-9-93" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E62" fromText="revealed" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E25" fromText="coarse breath sounds" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E63" fromText="ambulate" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E64" fromText="deep breath" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E26" fromText="nebulizer treatment" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E46" fromText="abdominal pain" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E65" fromText="The patient did well" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E27" fromText="her suprapubic tube" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E28" fromText="clamped" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E66" fromText="voided spontaneously" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E39" fromText="Clamping" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E47" fromText="enlarged ovary" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E29" fromText="her post-void residuals" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E30" fromText="The suprapubic tube" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E68" fromText="tolerating a regular diet" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E1" fromText="ultrasound" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E69" fromText="passing flatus" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E31" fromText="A chest X-ray" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E32" fromText="the patient &apos;s coarse breath sounds" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E33" fromText="the chest X-ray" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E70" fromText="atelectasis" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E40" fromText="discharged" toID="T2" toText="7-15-93" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E34" fromText="final pathology" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E71" fromText="revealed" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E35" fromText="benign paratubal cysts" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E36" fromText="adhesions" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E49" fromText="complaining" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E72" fromText="revealed" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E37" fromText="squamous metaplasia" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E41" fromText="discharged" toID="T2" toText="7-15-93" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E38" fromText="admission medications" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E73" fromText="Ciprofloxacin" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E74" fromText="Percocet" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E50" fromText="urinary incontinence" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E2" fromText="a Papanicolaou smear" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E51" fromText="revealed" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E3" fromText="somomabodies" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E4" fromText="vaginal bleeding" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E5" fromText="radiation therapy" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E52" fromText="presented" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E6" fromText="hypercalcemia" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E7" fromText="a parathyroidectomy" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E8" fromText="her abnormal Papanicolaou smear" toID="T1" toText="7-9-93" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E53" fromText="admitted" toID="T1" toText="7-9-93" type="OVERLAP" />
+<TLINK id="SECTIME63" fromID="E54" fromText="exploratory laparotomy" toID="T1" toText="7-9-93" type="AFTER" />
+<TLINK id="SECTIME64" fromID="E9" fromText="somomabodies" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E10" fromText="vaginal bleeding" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E55" fromText="ovarian cancer" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E56" fromText="admitted" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E57" fromText="the operating room" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E11" fromText="an open laparoscopy" toID="T2" toText="7-15-93" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E12" fromText="total abdominal hysterectomy" toID="T2" toText="7-15-93" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

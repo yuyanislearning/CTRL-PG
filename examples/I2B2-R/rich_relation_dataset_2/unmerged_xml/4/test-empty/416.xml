@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12/16/97
+DISCHARGE DATE :
+01/16/98
+HISTORY OF PRESENT ILLNESS :
+The patient was a 53-year-old male with a longstanding history of renal disease with multiple complications and problems related to vascular access and hypercoagulable state .
+These culminated in an attempted cadaveric kidney transplant undertaken on 12/16/97 , which was complicated by thrombosis and necrosis of the cadaveric renal vein within 24 hours .
+This required a transplant nephrectomy .
+HOSPITAL COURSE AND TREATMENT :
+The patient &apos;s course was subsequently characterized by recurrent pneumonias , possibly due to aspiration , and by hemodynamic instability .
+He was transferred to the Medical Intensive Care Unit from the Transplant Service for ventilatory management in the setting of hypotension .
+On transfer , the patient was not sedated , but was unresponsive and extremely dyssynchronous with the ventilator .
+The patient was found to have substantial auto PEEP with an elevated dead space .
+A pulmonary arteriogram on 01/03/98 demonstrated multiple pulmonary emboli , likely less than one week old , possibly introduced at the time of the renal vein thrombosis of 12/19/97 .
+An inferior vena cava filter was placed ; lower extremity noninvasive studies were negative .
+The patient required high pressures to ventilate adequately , possibly related to an abdominal compartment syndrome .
+The patient had undergone two abdominal procedures following explantation .
+The physiology at the time of transfer to the Medical Intensive Care Unit was consistent with a septic process .
+CT scan demonstrated retroperitoneal collection containing both free air and extravasated contrast material .
+For the concern of a perforated viscus , the patient was taken to exploratory laparotomy on 01/06/98 , during which the bowel was run without evidence of perforation .
+The patient remained unstable .
+He was taken to fluoroscopy , where oral contrast was demonstrated to be extravasating through a posterior duodenum .
+For this reason , he was taken again to the operating room on 01/08/98 , at which time a gastrojejunostomy was performed with stapling across the gastroduodenal junction , introduction of five Jackson-Pratt drains into the retroperitoneal mass , cholecystotomy tube , gastrostomy tube , and jejunostomy tube .
+The patient had an extensive estimated blood loss requiring multiple blood products and fluid resuscitation therapy .
+Accompanying this during this period were elevations in liver function studies and amylase and lipase consistent with pancreatic inflammation .
+The patient was aggressively treated with fluid resuscitation and pressors for his septic physiology .
+There was no evidence of cardiac tamponade or specific underlying coronary dysfunction .
+He was treated with appropriate antibiotics for his Serratia pneumonia , as well as for his abdominal process .
+The patient was felt to have an underlying hypercoagulable state , thought to be the source for the repeated clots .
+Because of the bleeding problems , however , it was felt that full heparinization would not be prudent , and the patient was treated with pneumo-boots and subcutaneous heparin .
+Attention was paid to a variety of metabolic and electrolyte abnormalities , which were corrected appropriately .
+Nonetheless , Mr. Less continued to remain critically ill with only very transient mild improvement with drainage of additional retroperitoneal fluid .
+He remained pressor dependent , as well as dependent upon mechanical ventilatory assistance .
+His course was complicated by atrial fibrillation requiring cardioversion .
+He had an ongoing requirement for high volume resuscitation and was persistently acidotic despite CV-VVH in the face of bicarbonate replenishment .
+The patient also appeared to have stool from his Jackson-Pratt site and right oblique incision .
+Bloody drainage from his increasingly distended abdomen was noted .
+Extensive discussions were carried out with Mrs. Less condition was irretrievable .
+It was felt that the patient had continued massive retroperitoneal contamination and probable multiple enteric fistulae from an ischemic bowel .
+Dr. Cantsleddjesc felt that no surgical approach to this problem or further intervention or radiologic procedures would be helpful .
+All physicians and the family were in agreement that the most appropriate approach was to institute comfort measures .
+This was done , and the patient appeared to be comfortable at the time of death with his family at his side on 1/16/98 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1033" end="1045" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="1046" end="1071" text="multiple pulmonary emboli" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="1115" end="1125" text="introduced" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="1141" end="1166" text="the renal vein thrombosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="1181" end="1209" text="An inferior vena cava filter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="1214" end="1220" text="placed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1223" end="1258" text="lower extremity noninvasive studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1296" end="1310" text="high pressures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="1314" end="1334" text="ventilate adequately" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="1346" end="1353" text="related" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1357" end="1390" text="an abdominal compartment syndrome" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1419" end="1443" text="two abdominal procedures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="148" end="161" text="renal disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1511" end="1542" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="1563" end="1579" text="a septic process" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1582" end="1589" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="1590" end="1602" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1603" end="1629" text="retroperitoneal collection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1646" end="1654" text="free air" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1659" end="1689" text="extravasated contrast material" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="1711" end="1730" text="a perforated viscus" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1758" end="1780" text="exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="1808" end="1825" text="the bowel was run" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1846" end="1857" text="perforation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="1872" end="1880" text="remained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1881" end="1889" text="unstable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1908" end="1919" text="fluoroscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1928" end="1941" text="oral contrast" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="1946" end="1958" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E95" start="1965" end="2007" text="extravasating through a posterior duodenum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2050" end="2068" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E97" start="2097" end="2116" text="a gastrojejunostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="214" end="229" text="vascular access" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="2136" end="2179" text="stapling across the gastroduodenal junction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2198" end="2223" text="five Jackson-Pratt drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2229" end="2253" text="the retroperitoneal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="2256" end="2275" text="cholecystotomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="2278" end="2294" text="gastrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E100" start="2301" end="2317" text="jejunostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="234" end="255" text="hypercoagulable state" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="2336" end="2369" text="an extensive estimated blood loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="2380" end="2403" text="multiple blood products" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2408" end="2435" text="fluid resuscitation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="2480" end="2490" text="elevations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2494" end="2516" text="liver function studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2521" end="2528" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2533" end="2539" text="lipase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="2556" end="2579" text="pancreatic inflammation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="2598" end="2618" text="aggressively treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2624" end="2643" text="fluid resuscitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2648" end="2656" text="pressors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2661" end="2682" text="his septic physiology" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2710" end="2727" text="cardiac tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="2731" end="2771" text="specific underlying coronary dysfunction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="278" end="318" text="an attempted cadaveric kidney transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2794" end="2817" text="appropriate antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2822" end="2844" text="his Serratia pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2862" end="2883" text="his abdominal process" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2915" end="2950" text="an underlying hypercoagulable state" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2982" end="3000" text="the repeated clots" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="3014" end="3035" text="the bleeding problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3065" end="3084" text="full heparinization" modality="POSSIBLE" polarity="NEG" type="TREATMENT" />
+<EVENT id="E47" start="3141" end="3153" text="pneumo-boots" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="3158" end="3178" text="subcutaneous heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="3216" end="3255" text="metabolic and electrolyte abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="3269" end="3292" text="corrected appropriately" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3331" end="3337" text="remain" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="3338" end="3352" text="critically ill" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="3363" end="3394" text="very transient mild improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="3400" end="3408" text="drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="3412" end="3444" text="additional retroperitoneal fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3450" end="3458" text="remained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="3459" end="3476" text="pressor dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="3505" end="3538" text="mechanical ventilatory assistance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="3541" end="3551" text="His course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="3556" end="3567" text="complicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="3571" end="3590" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3601" end="3614" text="cardioversion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="3624" end="3646" text="an ongoing requirement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="3651" end="3676" text="high volume resuscitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="369" end="379" text="thrombosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="3685" end="3706" text="persistently acidotic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="3715" end="3721" text="CV-VVH" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="3737" end="3762" text="bicarbonate replenishment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3782" end="3790" text="appeared" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E110" start="3799" end="3804" text="stool" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="3810" end="3832" text="his Jackson-Pratt site" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="384" end="420" text="necrosis of the cadaveric renal vein" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="3837" end="3859" text="right oblique incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="3862" end="3877" text="Bloody drainage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="3883" end="3917" text="his increasingly distended abdomen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3930" end="3951" text="Extensive discussions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="3957" end="3968" text="carried out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="3984" end="3993" text="condition" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="3998" end="4011" text="irretrievable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="4047" end="4056" text="continued" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="4057" end="4094" text="massive retroperitoneal contamination" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="4108" end="4133" text="multiple enteric fistulae" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="4139" end="4156" text="an ischemic bowel" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="4190" end="4207" text="surgical approach" modality="POSSIBLE" polarity="NEG" type="TREATMENT" />
+<EVENT id="E120" start="4211" end="4223" text="this problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="4227" end="4247" text="further intervention" modality="POSSIBLE" polarity="NEG" type="TREATMENT" />
+<EVENT id="E122" start="4251" end="4272" text="radiologic procedures" modality="POSSIBLE" polarity="NEG" type="TREATMENT" />
+<EVENT id="E74" start="4330" end="4339" text="agreement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="4392" end="4408" text="comfort measures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="4458" end="4469" text="comfortable" modality="POSSIBLE" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E124" start="4485" end="4490" text="death" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="453" end="477" text="a transplant nephrectomy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="512" end="538" text="The patient &apos;s course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="573" end="593" text="recurrent pneumonias" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="612" end="622" text="aspiration" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="632" end="655" text="hemodynamic instability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="665" end="676" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="680" end="711" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E86" start="717" end="739" text="the Transplant Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="744" end="766" text="ventilatory management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="785" end="796" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="802" end="810" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="833" end="840" text="sedated" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E5" start="851" end="863" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="868" end="892" text="extremely dyssynchronous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="898" end="912" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="945" end="966" text="substantial auto PEEP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="972" end="994" text="an elevated dead space" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="997" end="1020" text="A pulmonary arteriogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T6" start="1024" end="1032" text="01/03/98" type="DATE" val="1998-01-03" mod="NA" />
+<TIMEX3 id="T7" start="1091" end="1099" text="one week" type="DURATION" val="P1W" mod="LESS" />
+<TIMEX3 id="T2" start="1170" end="1178" text="12/19/97" type="DATE" val="1997-12-19" mod="NA" />
+<TIMEX3 id="T8" start="1487" end="1507" text="the time of transfer" type="DATE" val="1997-12-16" mod="NA" />
+<TIMEX3 id="T9" start="1784" end="1792" text="01/06/98" type="DATE" val="1998-01-06" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="12/16/97" type="DATE" val="1997-12-16" mod="NA" />
+<TIMEX3 id="T3" start="2072" end="2080" text="01/08/98" type="DATE" val="1998-01-08" mod="NA" />
+<TIMEX3 id="T1" start="333" end="341" text="12/16/97" type="DATE" val="1997-12-16" mod="NA" />
+<TIMEX3 id="T5" start="428" end="436" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T4" start="44" end="52" text="01/16/98" type="DATE" val="1998-01-16" mod="NA" />
+<TIMEX3 id="T11" start="4522" end="4529" text="1/16/98" type="DATE" val="1998-01-16" mod="END" />
+<SECTIME id="S0" start="18" end="26" text="12/16/97" type="ADMISSION" dvalue="1997-12-16" />
+<SECTIME id="S1" start="44" end="52" text="01/16/98" type="DISCHARGE" dvalue="1998-01-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+12/22/2000
+Discharge Date :
+01/01/2001
+HISTORY OF PRESENT ILLNESS :
+The patient is an 80 female with a history of diastolic function and heart failure , hypertension and rheumatoid arthritis who presents from an outside hospital with presyncope .
+The patient reports dizziness intermittently times several months now increasing in frequency described as episodes where she feels faint .
+The room spins with no visual changes , no loss of consciousness , no palpitations or chest pain , no shortness of breath or diaphoresis .
+On the day of admission , the patient was with some friends , rose from a chair to leave and felt dizzy while ambulating , fell and hit elbow with minor head trauma .
+The patient denied loss of consciousness , no bowel or bladder incontinence .
+The patient was transferred to an outside hospital where she was noted to have a 50 point discrepancy in her upper extremity blood pressures , right greater than left .
+This had been noted in the outpatient setting approximately one to two years prior to admission .
+The patient had no mediastinal widening on chest x-ray , but was transferred to Verg Medical Center for further evaluation .
+In the emergency room , the patient &apos;s temperature was 98.8 degrees , heart rate 73 , respiratory rate 18 , oxygen saturation 98% on room air .
+Blood pressure in the left arm demonstrated 125/89 , blood pressure in the right arm was 177/119 .
+The patient had a systolic murmur 3/6 that radiated to the carotids with a decreased left radial pulse per the emergency room .
+The patient had a chest CT scan demonstrating no dissection or evidence of congestive heart failure .
+She received Nitropaste , aspirin , laboratory studies and was taken to the floor for further management .
+The patient denies melena , bright red blood per rectum , no emesis , or fevers or chills .
+The patient has a history of anemia as per past medical history above .
+REVIEW OF SYSTEMS :
+Otherwise negative .
+HOSPITAL COURSE :
+1 ) Cardiovascular :
+The patient was admitted for rule out myocardial infarction .
+She remained on telemetry for greater than 48 hours which demonstrated no dysrhythmia during this time .
+The patient underwent an echocardiogram which demonstrated a preserved ejection fraction with left ventricular hypertrophy and no significant valvular abnormalities .
+The patient was maintained on her aspirin and Lasix .
+The patient &apos;s Diltiazem was stopped due to her increased blood pressure and was started on Labetalol which was gradually titrated up to a target blood pressure of 160-170 systolic in her right arm .
+The patient also underwent an Adenosine MIBI stress test which showed only mild lateral ischemia .
+At this time , the patient &apos;s presyncopal symptoms were not felt to be secondary to a cardiovascular etiology .
+2 ) Neurological / vascular :
+The discrepancy in the patient &apos;s pulses and blood pressure was felt to be consistent with a subclavian artery stenosis .
+The patient underwent MRI / MRA of the head , neck and upper chest which demonstrated a proximal left subclavian artery stenosis , proximal to the take off of the left vertebral artery .
+The left vertebral artery had a decreased flow consistent with either native vessel disease or some degree of retrograde flow with subclavian steal phenomenon .
+The patient had patent carotids bilaterally on her neck MRA .
+MRI of the head demonstrated a small vessel disease and was likely an old right cerebellar infarct .
+The patient underwent non-invasive carotid ultrasounds which demonstrated no significant carotid disease .
+The patient was also noted to have antegrade flow in both of her vertebral arteries bilaterally .
+The results of these studies suggested that the patient &apos;s symptoms were not due to subclavian steal phenomenon , and therefore , it was decided that the patient would not go further to angio and / or surgical or percutaneous intervention .
+A Neurology consult was obtained and it was felt that the most valuable intervention that could be done for the patient &apos;s intervascular disease would be adequate control of her blood pressure .
+3 ) Orthopedic :
+The patient suffered a fall at home with her initial event .
+Outside hip films were obtained , but were not available for view .
+Repeat hip films demonstrated a right sided pubic rami fracture , likely new .
+An Orthopedics consult was obtained and the patient was encouraged to weight bear as tolerated with Physical Therapy assistance .
+A bone scan was also obtained to rule out an occult hip fracture which was negative .
+At the time of this dictation , the patient was able to bear weight with the assistance of Physical Therapy and a walker .
+Plans were made for the patient to be discharged to Dwardmegriff Rehabilitation for rehabilitation of her rami fracture .
+4 ) Gastrointestinal :
+The patient had an episode of her described vertigo while lying in bed and on the monitor during which no dysrhythmia was noted .
+The patient also complained of frequent vomiting at least once a day , occasionally associated with ingestion of her medications , but sometimes associated with ambulation .
+The patient has a long-standing history of spontaneous emesis due to overwhelming stress or excitement .
+However , the patient reports emesis in the hospital more frequently .
+The patient &apos;s emesis was noted to be bilious without evidence of new or old blood .
+The etiology of the patient &apos;s nausea remained unclear as she demonstrated ability to keep down many of her meals which did not suggest an anatomical lesion of her gastrointestinal tract .
+The patient was started on Meclizine on December 31 , 2000 for her nausea and vertigo .
+An attempt was also made to reduce the patient &apos;s large number of medications and the patient &apos;s Os-Cal , multivitamin , Lasix and Colace were discontinued .
+5 ) Infectious disease :
+The patient complained of some urinary incontinence and difficulty initiating urine on December 30 , 2000 .
+Urinalysis demonstrated a likely urinary tract infection .
+The patient was started on Levofloxacin 250 mg p.o. q. day times seven days for a possible nosocomial urinary tract infection .
+The urine culture was pending at the time of this dictation .
+6 ) Fluids , electrolytes and nutrition :
+The patient had a mild increase in her BUN and creatinine during her hospitalization which promptly returned to her baseline levels with intravenous fluids .
+The patient was encouraged to increase her p.o. intake .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1044" end="1053" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1075" end="1095" text="mediastinal widening" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="1099" end="1110" text="chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1121" end="1132" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1136" end="1155" text="Verg Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1160" end="1178" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1184" end="1202" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="1205" end="1236" text="the patient &apos;s temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1256" end="1266" text="heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1272" end="1288" text="respiratory rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1294" end="1311" text="oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="132" end="150" text="diastolic function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1330" end="1360" text="Blood pressure in the left arm" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1383" end="1414" text="blood pressure in the right arm" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1445" end="1462" text="a systolic murmur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1502" end="1531" text="a decreased left radial pulse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="155" end="168" text="heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1536" end="1554" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="1573" end="1588" text="a chest CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1606" end="1616" text="dissection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="1632" end="1656" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1672" end="1682" text="Nitropaste" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1685" end="1692" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1695" end="1713" text="laboratory studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="171" end="183" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1731" end="1740" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1745" end="1763" text="further management" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E182" start="1778" end="1784" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E183" start="1785" end="1791" text="melena" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E59" start="1794" end="1821" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="1827" end="1833" text="emesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="1839" end="1845" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E62" start="1849" end="1855" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="188" end="208" text="rheumatoid arthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1887" end="1893" text="anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2026" end="2034" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E184" start="2039" end="2047" text="rule out" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2048" end="2069" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2088" end="2097" text="telemetry" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="213" end="221" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2130" end="2142" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E68" start="2146" end="2157" text="dysrhythmia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E69" start="2199" end="2216" text="an echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2223" end="2235" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E185" start="2236" end="2265" text="a preserved ejection fraction" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2271" end="2299" text="left ventricular hypertrophy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="227" end="246" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="2307" end="2341" text="significant valvular abnormalities" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E73" start="2374" end="2385" text="her aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2390" end="2395" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2418" end="2427" text="Diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2447" end="2475" text="her increased blood pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2495" end="2504" text="Labetalol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="252" end="262" text="presyncope" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2515" end="2533" text="gradually titrated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2540" end="2563" text="a target blood pressure" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2630" end="2659" text="an Adenosine MIBI stress test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2666" end="2672" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E82" start="2678" end="2699" text="mild lateral ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2737" end="2757" text="presyncopal symptoms" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="277" end="284" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E84" start="2791" end="2816" text="a cardiovascular etiology" modality="POSSIBLE" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E10" start="285" end="309" text="dizziness intermittently" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2849" end="2864" text="The discrepancy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="2888" end="2894" text="pulses" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2899" end="2913" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2945" end="2973" text="a subclavian artery stenosis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2998" end="3042" text="MRI / MRA of the head , neck and upper chest" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="3049" end="3061" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E91" start="3062" end="3104" text="a proximal left subclavian artery stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="3193" end="3209" text="a decreased flow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="3233" end="3254" text="native vessel disease" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="3258" end="3288" text="some degree of retrograde flow" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="3294" end="3321" text="subclavian steal phenomenon" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="3340" end="3355" text="patent carotids" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="335" end="358" text="increasing in frequency" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="3371" end="3383" text="her neck MRA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="3386" end="3401" text="MRI of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E186" start="3402" end="3414" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E100" start="3415" end="3437" text="a small vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="3453" end="3484" text="an old right cerebellar infarct" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3509" end="3541" text="non-invasive carotid ultrasounds" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E103" start="3548" end="3560" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="3564" end="3591" text="significant carotid disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="359" end="368" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E105" start="3629" end="3643" text="antegrade flow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3707" end="3720" text="these studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="3721" end="3730" text="suggested" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E108" start="3756" end="3764" text="symptoms" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="3781" end="3808" text="subclavian steal phenomenon" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E110" start="3883" end="3888" text="angio" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E111" start="3898" end="3935" text="surgical or percutaneous intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E13" start="391" end="402" text="feels faint" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3938" end="3957" text="A Neurology consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="3992" end="4022" text="the most valuable intervention" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="4066" end="4087" text="intervascular disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="4117" end="4135" text="her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="4176" end="4182" text="a fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E187" start="4196" end="4213" text="her initial event" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="4216" end="4233" text="Outside hip films" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="428" end="442" text="visual changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E118" start="4284" end="4300" text="Repeat hip films" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="4301" end="4313" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E120" start="4314" end="4347" text="a right sided pubic rami fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="4363" end="4385" text="An Orthopedics consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="4433" end="4444" text="weight bear" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="4463" end="4490" text="Physical Therapy assistance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="448" end="469" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E124" start="4493" end="4504" text="A bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E125" start="4535" end="4557" text="an occult hip fracture" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E126" start="4635" end="4646" text="bear weight" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E127" start="4670" end="4686" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="4691" end="4699" text="a walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="475" end="487" text="palpitations" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E129" start="4740" end="4750" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="4754" end="4781" text="Dwardmegriff Rehabilitation" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E131" start="4786" end="4800" text="rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="4804" end="4821" text="her rami fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="4877" end="4898" text="her described vertigo" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="491" end="501" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E134" start="4925" end="4936" text="the monitor" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E135" start="4953" end="4964" text="dysrhythmia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E136" start="4969" end="4974" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E137" start="4994" end="5004" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E138" start="5008" end="5025" text="frequent vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="507" end="526" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E140" start="5090" end="5105" text="her medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E141" start="5138" end="5148" text="ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E142" start="5194" end="5212" text="spontaneous emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E143" start="5233" end="5239" text="stress" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E144" start="5243" end="5253" text="excitement" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E145" start="5278" end="5285" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E146" start="5286" end="5292" text="emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="530" end="541" text="diaphoresis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E147" start="5296" end="5308" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E148" start="5327" end="5353" text="The patient &apos;s emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E149" start="5370" end="5377" text="bilious" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E150" start="5398" end="5414" text="new or old blood" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E151" start="5433" end="5459" text="the patient &apos;s nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E153" start="5508" end="5535" text="keep down many of her meals" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E154" start="5558" end="5608" text="an anatomical lesion of her gastrointestinal tract" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="558" end="567" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E155" start="5638" end="5647" text="Meclizine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E156" start="5674" end="5684" text="her nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E157" start="5689" end="5696" text="vertigo" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E163" start="5727" end="5733" text="reduce" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E158" start="5770" end="5781" text="medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E159" start="5786" end="5812" text="the patient &apos;s Os-Cal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E160" start="5815" end="5827" text="multivitamin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E161" start="5830" end="5835" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E162" start="5840" end="5846" text="Colace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E164" start="5904" end="5914" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E165" start="5918" end="5943" text="some urinary incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E166" start="5948" end="5975" text="difficulty initiating urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E167" start="6000" end="6010" text="Urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E168" start="6011" end="6023" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E169" start="6033" end="6056" text="urinary tract infection" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E170" start="6086" end="6098" text="Levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E171" start="6150" end="6184" text="nosocomial urinary tract infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E172" start="6187" end="6204" text="The urine culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E173" start="6209" end="6216" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E174" start="6307" end="6322" text="a mild increase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E175" start="6326" end="6333" text="her BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E176" start="6338" end="6348" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E177" start="6356" end="6375" text="her hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E178" start="6403" end="6422" text="her baseline levels" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="642" end="647" text="dizzy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E179" start="6428" end="6446" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E181" start="6465" end="6475" text="encouraged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E180" start="6479" end="6503" text="increase her p.o. intake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="667" end="671" text="fell" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="691" end="708" text="minor head trauma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="723" end="729" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="730" end="751" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="757" end="786" text="bowel or bladder incontinence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="805" end="816" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="820" end="839" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="854" end="859" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="879" end="890" text="discrepancy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="894" end="929" text="her upper extremity blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="972" end="977" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<TIMEX3 id="T4" start="1018" end="1034" text="one to two years" type="DURATION" val="P1.5Y" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="12/22/2000" type="DATE" val="2000-12-22" mod="NA" />
+<TIMEX3 id="T5" start="2102" end="2123" text="greater than 48 hours" type="DURATION" val="PT48H" mod="MORE" />
+<TIMEX3 id="T6" start="2165" end="2174" text="this time" type="DURATION" val="PT48H" mod="MORE" />
+<TIMEX3 id="T2" start="316" end="330" text="several months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="01/01/2001" type="DATE" val="2001-01-01" mod="NA" />
+<TIMEX3 id="T7" start="5035" end="5045" text="once a day" type="FREQUENCY" val="RPT24H" mod="APPROX" />
+<TIMEX3 id="T3" start="547" end="567" text="the day of admission" type="DATE" val="2000-12-22" mod="NA" />
+<TIMEX3 id="T8" start="5651" end="5669" text="December 31 , 2000" type="DATE" val="2000-12-31" mod="NA" />
+<TIMEX3 id="T9" start="5979" end="5997" text="December 30 , 2000" type="DATE" val="2000-12-30" mod="NA" />
+<TIMEX3 id="T10" start="6111" end="6117" text="q. day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T11" start="6124" end="6134" text="seven days" type="DURATION" val="P7D" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="12/22/2000" type="ADMISSION" dvalue="2000-12-22" />
+<SECTIME id="S1" start="46" end="56" text="01/01/2001" type="DISCHARGE" dvalue="2001-01-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

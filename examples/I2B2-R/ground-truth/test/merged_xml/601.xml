@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+20041031
+DISCHARGE DATE :
+20041103
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+POSTPARTUM THERAPEUTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Routine Post Partum Care
+HISTORY AND REASON FOR HOSPITALIZATION :
+Premature Rupture Of Membranes
+HOSPITAL COURSE ( include complications if any ) :
+This 27 year old Gravida 1 Para 0000 was admitted to the Life Valley Medical Center Obstetrical service on 10/31/2004 at 08:45 pm for the indication ( s ) :
+premature rupture of membranes .
+She delivered a 3235 gram male infant on 11/01/2004 at 09:31 am with apgar scores of 9 and 9 at one and five minutes respectively at 39.0 weeks gestation via spontaneous vertex vaginal delivery .
+During her labor she encountered the following complication ( s ) :
+none .
+During her delivery she encountered the following complication ( s ) :
+none .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 11/03/2004 at 11:18 am in good condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1005" end="1019" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="201" end="225" text="Routine Post Partum Care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="267" end="297" text="Premature Rupture Of Membranes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="390" end="398" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="402" end="452" text="the Life Valley Medical Center Obstetrical service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="506" end="536" text="premature rupture of membranes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="543" end="552" text="delivered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="608" end="620" text="apgar scores" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="683" end="692" text="gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="697" end="732" text="spontaneous vertex vaginal delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="742" end="751" text="her labor" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="768" end="800" text="the following complication ( s )" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="817" end="829" text="her delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="846" end="878" text="the following complication ( s )" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="888" end="898" text="Postpartum" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="915" end="947" text="the following complication ( s )" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="965" end="975" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="26" text="20041031" type="DATE" val="2004-10-31" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="20041103" type="DATE" val="2004-11-03" mod="NA" />
+<TIMEX3 id="T2" start="456" end="478" text="10/31/2004 at 08:45 pm" type="TIME" val="2004-10-31T20:45" mod="NA" />
+<TIMEX3 id="T3" start="580" end="602" text="11/01/2004 at 09:31 am" type="TIME" val="2004-11-01T09:31" mod="NA" />
+<TIMEX3 id="T4" start="635" end="638" text="one" type="TIME" val="2004-11-01T09:32" mod="NA" />
+<TIMEX3 id="T5" start="643" end="655" text="five minutes" type="TIME" val="2004-11-01T09:37" mod="NA" />
+<TIMEX3 id="T6" start="672" end="682" text="39.0 weeks" type="DURATION" val="P39W" mod="NA" />
+<TIMEX3 id="T7" start="979" end="1001" text="11/03/2004 at 11:18 am" type="TIME" val="2004-11-03T11:18" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="20041031" type="OVERLAP" />
+<TLINK id="TL1" fromID="E4" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="apgar scores" toID="E7" toText="delivered" type="AFTER" />
+<TLINK id="TL11" fromID="E10" fromText="spontaneous vertex vaginal delivery" toID="E7" toText="delivered" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="gestation" toID="T6" toText="39.0 weeks" type="OVERLAP" />
+<TLINK id="TL13" fromID="T6" fromText="39.0 weeks" toID="E7" toText="delivered" type="BEFORE" />
+<TLINK id="TL14" fromID="E8" fromText="apgar scores" toID="T4" toText="one" type="OVERLAP" />
+<TLINK id="TL15" fromID="E8" fromText="apgar scores" toID="T5" toText="five minutes" type="OVERLAP" />
+<TLINK id="TL16" fromID="E12" fromText="the following complication ( s )" toID="E11" toText="her labor" type="OVERLAP" />
+<TLINK id="TL17" fromID="E11" fromText="her labor" toID="E7" toText="delivered" type="BEFORE" />
+<TLINK id="TL18" fromID="E14" fromText="the following complication ( s )" toID="E13" toText="her delivery" type="OVERLAP" />
+<TLINK id="TL19" fromID="E13" fromText="her delivery" toID="E7" toText="delivered" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="20041103" type="OVERLAP" />
+<TLINK id="TL20" fromID="E15" fromText="Postpartum" toID="E16" toText="the following complication ( s )" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="Postpartum" toID="E13" toText="her delivery" type="AFTER" />
+<TLINK id="TL22" fromID="E17" fromText="discharged" toID="T7" toText="11/03/2004 at 11:18 am" type="OVERLAP" />
+<TLINK id="TL23" fromID="E18" fromText="good condition" toID="E17" toText="discharged" type="BEFORE" />
+<TLINK id="TL3" fromID="E17" fromText="discharged" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="Routine Post Partum Care" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL5" fromID="E3" fromText="Premature Rupture Of Membranes" toID="E6" toText="premature rupture of membranes" type="OVERLAP" />
+<TLINK id="TL6" fromID="E6" fromText="premature rupture of membranes" toID="E4" toText="admitted" type="BEFORE" />
+<TLINK id="TL7" fromID="E4" fromText="admitted" toID="T2" toText="10/31/2004 at 08:45 pm" type="OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="the Life Valley Medical Center Obstetrical service" toID="E4" toText="admitted" type="AFTER" />
+<TLINK id="TL9" fromID="T3" fromText="11/01/2004 at 09:31 am" toID="E7" toText="delivered" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="20041031" type="ADMISSION" dvalue="2004-10-31" />
+<SECTIME id="S1" start="46" end="56" text="20041103" type="DISCHARGE" dvalue="2004-11-03" />
+<TLINK id="SECTIME0" fromID="E18" fromText="good condition" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E2" fromText="Routine Post Partum Care" toID="T0" toText="20041031" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E3" fromText="Premature Rupture Of Membranes" toID="T0" toText="20041031" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E4" fromText="admitted" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E5" fromText="the Life Valley Medical Center Obstetrical service" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E6" fromText="premature rupture of membranes" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E7" fromText="delivered" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E8" fromText="apgar scores" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E9" fromText="gestation" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E10" fromText="spontaneous vertex vaginal delivery" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E11" fromText="her labor" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E12" fromText="the following complication ( s )" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E13" fromText="her delivery" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E14" fromText="the following complication ( s )" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E15" fromText="Postpartum" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E16" fromText="the following complication ( s )" toID="T1" toText="20041103" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E17" fromText="discharged" toID="T1" toText="20041103" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

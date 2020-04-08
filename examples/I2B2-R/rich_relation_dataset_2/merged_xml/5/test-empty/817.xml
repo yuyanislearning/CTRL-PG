@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-04-20
+Discharge Date :
+2012-05-01
+Service :
+Medicine
+HISTORY OF PRESENT ILLNESS :
+This is a 59 year old male with a past medical history significant for an atrioseptal defect repair at age 18 , congestive heart failure with an ejection fraction of 45% and a recent cardiac myocardial infarction , pulmonary hypertension and mitral regurgitation , and atrial fibrillation .
+He was seen by his primary care physician the day before admission and complained of two weeks of increasing shortness of breath and fatigue , weight gain and abdominal fullness .
+He was sent to the Emergency Department for further evaluation .
+The patient reported feeling at his baseline with chronic mild dyspnea on exertion until two weeks prior to admission .
+During this period he had also been weaned off of his Digoxin starting early in February .
+Over the two weeks prior to admission he had noticed an increasing heart rate from his baseline in the 60s to a heart rate in the 120s .
+He had also some increased shortness of breath and a 10 pound weight gain and new three to four pillow orthopnea with a dry cough .
+He denied fevers , chills , nausea or vomiting , chest pain or diaphoresis .
+HOSPITAL COURSE :
+1. Hypotension - The patient was initially mildly hypotensive with systolic blood pressures in the 80s .
+Upon admission it was unclear whether or not the patient was volume overloaded or volume depleted .
+Initially he was treated with intravenous fluids with a dramatic response in his systolic blood pressure .
+However , subsequent it was determined that the patient 's hypotension may have been related to his rapid ventricular response and right heart failure .
+Therefore the focus of treatment was changed to controlling his rate .
+2. Atrial fibrillation - The patient 's Digoxin had been weaned off prior to his admission .
+It was felt that this potentially had lead to his atrial flutter and atrial fibrillation with rapid ventricular response .
+The patient was loaded once again with Digoxin and his beta blocker was increased to 100 mg of Lopressor , three times a day .
+In addition the patient was started on Verapamil since his heart rate had remained mildly tachycardiac in the low 100s .
+3. Congestive heart failure - During the initial course of the patient 's admission , it was unclear as to whether or not he was volume overloaded or volume depleted .
+The patient was initially treated with intravenous fluids , however , subsequently he was diuresed when he became symptomatic and short of breath .
+Chest x-rays revealed evidence of congestive heart failure .
+The decision was made to have the patient undergo a cardiac catheterization to fully evaluate the hemodynamics to determine the etiology of the patient 's heart failure .
+In addition , plans were made to evaluate the patient 's cardiac arteries to determine if he had any component of ischemic cardiomyopathy .
+4. Abnormal liver function tests - The patient had an isolated , elevated alkaline phosphatase with a confirmatory elevation in his gamma glutamyl transferase .
+An ultrasound of the right upper quadrant did not reveal any cholelithiasis or cholecystitis , however , an irregular hepatic contour was seen which is suggestive of underlying chronic liver disease .
+There was some concern that the patient may have a partial biliary obstruction and the patient was sent for an magnetic resonance cholangiopancreatography to further evaluate the biliary system .
+Magnetic resonance cholangiopancreatography did not reveal any evidence of biliary dilatation or of any obstructing pancreatic mass .
+Again seen was a slightly irregular contour of the liver with dilated hepatic veins suggesting chronic hepatic vascular congestion .
+The patient also revealed a prior history of heavy alcohol use for approximately 20 years , during the mid 1950s to mid 1970s .
+It was felt that he may have had some component of vascular congestion from his congestive heart failure as well as possibly some mild cirrhotic changes secondary to his previous alcohol use .
+5. Fall - The patient had a mechanical fall during his admission .
+He did not sleep at all the night before and was extremely fatigued .
+He was walking in the hall , dragging his intravenous pole when he tripped over the foot of the pole and lost his balance .
+He fell backwards , landing on his buttocks and bumped his head .
+His neurological examination at that time was nonfocal and the head was atraumatic without any evidence of a hematoma .
+A computerized axial tomography scan of his head at that time did not reveal any extra or intracranial hemorrhage .
+6. Rectal bleeding - The patient has a history of rectal bleeding , ever since his brachytherapy for his prostate cancer .
+The patient has been treated with Argon laser therapy in the past for his rectal bleeding and it is recommended that he follow up with his gastroenterologist for repeat Argon laser therapy .
+]]></TEXT>
+<TAGS>
+<EVENT id="E75" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="1001" end="1035" text="some increased shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1040" end="1062" text="a 10 pound weight gain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="1085" end="1101" text="pillow orthopnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="1107" end="1118" text="a dry cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="1124" end="1130" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E95" start="1131" end="1137" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="1140" end="1146" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="1149" end="1155" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="1159" end="1167" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="1170" end="1180" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="1184" end="1195" text="diaphoresis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1219" end="1230" text="Hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="1259" end="1277" text="mildly hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1283" end="1307" text="systolic blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="1326" end="1335" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1382" end="1399" text="volume overloaded" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1403" end="1418" text="volume depleted" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1451" end="1469" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="1475" end="1494" text="a dramatic response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1498" end="1525" text="his systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1572" end="1598" text="the patient 's hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="1624" end="1654" text="his rapid ventricular response" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="1659" end="1678" text="right heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1704" end="1713" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1741" end="1749" text="his rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="176" end="204" text="an atrioseptal defect repair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1755" end="1774" text="Atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1777" end="1799" text="The patient 's Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="1809" end="1819" text="weaned off" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="1829" end="1842" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1891" end="1909" text="his atrial flutter" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1914" end="1933" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1939" end="1965" text="rapid ventricular response" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2007" end="2014" text="Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2019" end="2035" text="his beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E106" start="2040" end="2049" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2063" end="2072" text="Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2134" end="2143" text="Verapamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2150" end="2164" text="his heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="217" end="241" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="2178" end="2197" text="mildly tachycardiac" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2219" end="2243" text="Congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2275" end="2299" text="the patient 's admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="2345" end="2362" text="volume overloaded" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2366" end="2381" text="volume depleted" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2423" end="2441" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="247" end="267" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="2474" end="2482" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2498" end="2509" text="symptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="2514" end="2529" text="short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2532" end="2544" text="Chest x-rays" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E109" start="2545" end="2553" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E43" start="2566" end="2590" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2643" end="2668" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="2733" end="2761" text="the patient 's heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="279" end="317" text="a recent cardiac myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="2797" end="2837" text="evaluate the patient 's cardiac arteries" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E111" start="2878" end="2901" text="ischemic cardiomyopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="2907" end="2936" text="Abnormal liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="2955" end="2998" text="an isolated , elevated alkaline phosphatase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="3004" end="3028" text="a confirmatory elevation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="3032" end="3062" text="his gamma glutamyl transferase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="3065" end="3106" text="An ultrasound of the right upper quadrant" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="3115" end="3121" text="reveal" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E51" start="3122" end="3140" text="any cholelithiasis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E113" start="3144" end="3157" text="cholecystitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E52" start="3170" end="3198" text="an irregular hepatic contour" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="320" end="342" text="pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="3231" end="3263" text="underlying chronic liver disease" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="3315" end="3344" text="a partial biliary obstruction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="3374" end="3420" text="an magnetic resonance cholangiopancreatography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="347" end="367" text="mitral regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3462" end="3505" text="Magnetic resonance cholangiopancreatography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="3514" end="3520" text="reveal" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E57" start="3537" end="3555" text="biliary dilatation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E58" start="3562" end="3593" text="any obstructing pancreatic mass" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E59" start="3611" end="3652" text="a slightly irregular contour of the liver" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="3658" end="3679" text="dilated hepatic veins" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="3691" end="3726" text="chronic hepatic vascular congestion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="374" end="393" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="3746" end="3754" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E116" start="3780" end="3791" text="alcohol use" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="3908" end="3927" text="vascular congestion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="3933" end="3961" text="his congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="3982" end="4009" text="some mild cirrhotic changes" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="4036" end="4047" text="alcohol use" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="4053" end="4057" text="Fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="4076" end="4093" text="a mechanical fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="4101" end="4114" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E119" start="4128" end="4133" text="sleep" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E120" start="4166" end="4184" text="extremely fatigued" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="4225" end="4245" text="his intravenous pole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="4254" end="4261" text="tripped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="4292" end="4308" text="lost his balance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="4314" end="4318" text="fell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E124" start="4359" end="4374" text="bumped his head" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="4377" end="4405" text="His neurological examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="4449" end="4459" text="atraumatic" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E126" start="4472" end="4480" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E125" start="4484" end="4494" text="a hematoma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E68" start="4497" end="4545" text="A computerized axial tomography scan of his head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="453" end="462" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E127" start="4567" end="4573" text="reveal" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E128" start="4574" end="4610" text="any extra or intracranial hemorrhage" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E69" start="4616" end="4631" text="Rectal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="4663" end="4678" text="rectal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="467" end="477" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="4692" end="4709" text="his brachytherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="4714" end="4733" text="his prostate cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="4770" end="4789" text="Argon laser therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="4806" end="4825" text="his rectal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="4856" end="4865" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="4898" end="4924" text="repeat Argon laser therapy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="494" end="524" text="increasing shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="529" end="536" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="539" end="550" text="weight gain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="555" end="573" text="abdominal fullness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="583" end="587" text="sent" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="591" end="615" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="620" end="638" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="653" end="661" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E86" start="673" end="685" text="his baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="691" end="711" text="chronic mild dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="749" end="758" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="797" end="807" text="weaned off" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="811" end="822" text="his Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="880" end="889" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="905" end="929" text="an increasing heart rate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="935" end="947" text="his baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="962" end="974" text="a heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T1" start="18" end="28" text="2012-04-20" type="DATE" val="2012-04-20" mod="NA" />
+<TIMEX3 id="T0" start="208" end="214" text="age 18" type="DATE" val="1971" mod="APPROX" />
+<TIMEX3 id="T10" start="2075" end="2092" text="three times a day" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T11" start="3810" end="3818" text="20 years" type="DURATION" val="P20Y" mod="APPROX" />
+<TIMEX3 id="T3" start="3828" end="3841" text="the mid 1950s" type="DATE" val="1955" mod="APPROX" />
+<TIMEX3 id="T4" start="3845" end="3854" text="mid 1970s" type="DATE" val="1975" mod="APPROX" />
+<TIMEX3 id="T12" start="4137" end="4150" text="all the night" type="DURATION" val="PT8H" mod="APPROX" />
+<TIMEX3 id="T13" start="438" end="445" text="the day" type="DATE" val="2012-04-19" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2012-05-01" type="DATE" val="2012-05-01" mod="NA" />
+<TIMEX3 id="T6" start="481" end="490" text="two weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T7" start="730" end="745" text="two weeks prior" type="DATE" val="2012-04-06" mod="NA" />
+<TIMEX3 id="T8" start="832" end="849" text="early in February" type="DATE" val="2012-02" mod="START" />
+<TIMEX3 id="T9" start="857" end="870" text="the two weeks" type="DURATION" val="P2W" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2012-04-20" type="ADMISSION" dvalue="2012-04-20" />
+<SECTIME id="S1" start="46" end="56" text="2012-05-01" type="DISCHARGE" dvalue="2012-05-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-07-12
+Discharge Date :
+2015-07-19
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+The patient is a 48 - year-old woman who was transferred from Shaugnessy-Kaplan Rehab Hospital .
+The patient originally presented to her PCP approximately one week prior to admission here with increasing cough , dyspnea and fatigue .
+She was given a Z-Pak for treatment along with albuterol .
+Despite this , she continued to worsen and became febrile .
+So , she was admitted to Shaugnessy-Kaplan Rehab Hospital on 2015-07-10 .
+At the hospital , she was started on Rocephin and Levaquin for a right lower lobe pneumonia seen on chest x-ray .
+She continued to have increasing respiratory distress with hypoxia .
+She was also significantly tachypneic .
+At this time , repeat chest x-ray showed bilateral diffuse infiltrates consistent with ARDS .
+The patient was intubated and then transferred to Hahnemann General Hospital CMED .
+SUMMARY OF HOSPITAL COURSE :
+Respiratory :
+On admission , the patient had what appeared to be acute respiratory distress syndrome secondary to community - acquired pneumonia .
+She was maintained on a ventilator and ventilated according to ARDSNet protocol .
+For antibiotic coverage of her pneumonia , she was started on Levaquin , ceftriaxone , and vancomycin .
+Over the next two days after admission , the patient 's vent settings were gradually weaned , and she was extubated two days after being transferred to this hospital .
+After extubation , the patient was oxygenating well on face mask .
+She did continue to have a persistent fairly severe cough ; however , her cough was weak due to abdominal muscle pain from repeated coughing .
+The cough was mostly nonproductive .
+The patient was breathing comfortably .
+As there was no identified bacterial pathogen on any cultures , the patient was continued on the triple antibiotics for first several days of the hospitalization .
+She was also on round-the-clock Atrovent and albuterol nebulizers .
+Once the patient was transferred out of the ICU and after extubation , the antibiotics were gradually narrowed .
+The vancomycin and Levaquin were discontinued after approximately four days in the hospital .
+The ceftriaxone was discontinued after four days in the hospital , and the patient was to continue on Levaquin .
+The patient had gradual improvement in her oxygenation .
+Pain control :
+The patient had fairly significant abdominal pain secondary to persistent cough .
+She was started on a regimen of MS Contin with oxycodone for breakthrough pain .
+This helped her somewhat though she has continued to have difficulty coughing due to the pain .
+Tylenol and ibuprofen were also added for better control .
+Transaminitis :
+The patient was noted to have mild transaminitis on admission .
+However , this was felt to be due to her significant infection .
+This should continue to be followed as an outpatient to assure that it returns back to normal .
+Anemia :
+The patient 's reticulocyte count showed inadequate production .
+Iron studies showed a mixed picture with decreased iron and decreased iron to TIBC ratio suggestive of iron-deficiency anemia , but also normal to high MCV .
+B12 was noted to be low and the patient was given an injection of IM B12 while in the hospital .
+She was also started on iron supplementation .
+Hypothyroidism :
+The patient was continued on Synthroid for her chronic hypothyroidism .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1047" end="1082" text="acute respiratory distress syndrome" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1096" end="1126" text="community - acquired pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1151" end="1163" text="a ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="1168" end="1178" text="ventilated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1215" end="1234" text="antibiotic coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1238" end="1251" text="her pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1273" end="1281" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1284" end="1295" text="ceftriaxone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1302" end="1312" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="1344" end="1353" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1356" end="1384" text="the patient 's vent settings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="1390" end="1406" text="gradually weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1421" end="1430" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="1452" end="1463" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="1467" end="1480" text="this hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="1489" end="1499" text="extubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="1518" end="1534" text="oxygenating well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1538" end="1547" text="face mask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="1575" end="1607" text="a persistent fairly severe cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1620" end="1629" text="her cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1634" end="1638" text="weak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1646" end="1667" text="abdominal muscle pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1673" end="1690" text="repeated coughing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1693" end="1702" text="The cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="170" end="181" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1707" end="1727" text="mostly nonproductive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="1746" end="1767" text="breathing comfortably" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1786" end="1815" text="identified bacterial pathogen" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1819" end="1831" text="any cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1863" end="1885" text="the triple antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="187" end="219" text="Shaugnessy-Kaplan Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="1912" end="1931" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1950" end="1974" text="round-the-clock Atrovent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1979" end="1999" text="albuterol nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2023" end="2034" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="2042" end="2049" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="2060" end="2070" text="extubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2073" end="2088" text="the antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E100" start="2094" end="2112" text="gradually narrowed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2115" end="2129" text="The vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2134" end="2142" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="2194" end="2206" text="the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="2209" end="2224" text="The ceftriaxone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="2261" end="2273" text="the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2311" end="2319" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="2338" end="2357" text="gradual improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="2361" end="2376" text="her oxygenation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2379" end="2391" text="Pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="2410" end="2443" text="fairly significant abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="245" end="254" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="2457" end="2473" text="persistent cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2508" end="2517" text="MS Contin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2523" end="2532" text="oxycodone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2537" end="2554" text="breakthrough pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2562" end="2568" text="helped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="2615" end="2634" text="difficulty coughing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="2642" end="2650" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2653" end="2660" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="2665" end="2674" text="ibuprofen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="2712" end="2725" text="Transaminitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="2758" end="2776" text="mild transaminitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2780" end="2789" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="2829" end="2854" text="her significant infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="2884" end="2892" text="followed" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E107" start="2928" end="2950" text="returns back to normal" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="2953" end="2959" text="Anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="2962" end="2995" text="The patient 's reticulocyte count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="298" end="307" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="2996" end="3002" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="3003" end="3024" text="inadequate production" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3027" end="3039" text="Iron studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E109" start="3040" end="3046" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="3068" end="3082" text="decreased iron" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="3087" end="3115" text="decreased iron to TIBC ratio" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="3130" end="3152" text="iron-deficiency anemia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="318" end="334" text="increasing cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="3174" end="3182" text="high MCV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="3185" end="3188" text="B12" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="3205" end="3208" text="low" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="3251" end="3257" text="IM B12" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3267" end="3279" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="3306" end="3326" text="iron supplementation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="3329" end="3343" text="Hypothyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="337" end="344" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="3375" end="3384" text="Synthroid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="3389" end="3415" text="her chronic hypothyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="349" end="356" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="373" end="380" text="a Z-Pak" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="385" end="394" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="406" end="415" text="albuterol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="437" end="456" text="continued to worsen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="468" end="475" text="febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="491" end="499" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="503" end="535" text="Shaugnessy-Kaplan Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E85" start="555" end="567" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="589" end="597" text="Rocephin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="602" end="610" text="Levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="615" end="643" text="a right lower lobe pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="652" end="663" text="chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="688" end="719" text="increasing respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="725" end="732" text="hypoxia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="748" end="772" text="significantly tachypneic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="790" end="808" text="repeat chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="809" end="815" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E87" start="816" end="845" text="bilateral diffuse infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="862" end="866" text="ARDS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="885" end="894" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="904" end="915" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="919" end="950" text="Hahnemann General Hospital CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="999" end="1008" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1320" end="1337" text="the next two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T5" start="1431" end="1439" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2015-07-12" type="DATE" val="2015-07-12" mod="NA" />
+<TIMEX3 id="T6" start="1890" end="1908" text="first several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T7" start="2181" end="2190" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T8" start="2248" end="2257" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T0" start="280" end="288" text="one week" type="DURATION" val="P1W" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-07-19" type="DATE" val="2015-07-19" mod="NA" />
+<TIMEX3 id="T3" start="539" end="549" text="2015-07-10" type="DATE" val="2015-07-10" mod="NA" />
+<TLINK id="TL1" fromID="E64" fromText="Hypothyroidism" toID="E66" toText="her chronic hypothyroidism" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E3" fromText="albuterol" toID="E33" toText="albuterol nebulizers" type="SIMULTANEOUS" />
+<TLINK id="TL100" fromID="E98" fromText="the hospitalization" toID="T1" toText="2015-07-12" type="BEGUN_BY" />
+<TLINK id="TL101" fromID="E98" fromText="the hospitalization" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="TL102" fromID="E38" fromText="The ceftriaxone" toID="T8" toText="four days" type="DURING" />
+<TLINK id="TL103" fromID="T8" fromText="four days" toID="T7" toText="four days" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E102" fromText="the hospital" toID="E101" toText="the hospital" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E103" fromText="gradual improvement" toID="E98" toText="the hospitalization" type="OVERLAP" />
+<TLINK id="TL106" fromID="E103" fromText="gradual improvement" toID="E40" toText="her oxygenation" type="OVERLAP" />
+<TLINK id="TL107" fromID="E41" fromText="Pain control" toID="E44" toText="oxycodone" type="OVERLAP" />
+<TLINK id="TL108" fromID="E43" fromText="MS Contin" toID="E44" toText="oxycodone" type="OVERLAP" />
+<TLINK id="TL109" fromID="E45" fromText="breakthrough pain" toID="E104" toText="fairly significant abdominal pain" type="OVERLAP" />
+<TLINK id="TL11" fromID="E21" fromText="extubation" toID="E34" toText="extubation" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E104" fromText="fairly significant abdominal pain" toID="E43" toText="MS Contin" type="BEFORE_OVERLAP" />
+<TLINK id="TL111" fromID="E105" fromText="helped" toID="E43" toText="MS Contin" type="OVERLAP" />
+<TLINK id="TL112" fromID="E46" fromText="difficulty coughing" toID="E47" toText="the pain" type="OVERLAP" />
+<TLINK id="TL113" fromID="E47" fromText="the pain" toID="E104" toText="fairly significant abdominal pain" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E48" fromText="Tylenol" toID="E43" toText="MS Contin" type="OVERLAP" />
+<TLINK id="TL115" fromID="E49" fromText="ibuprofen" toID="E43" toText="MS Contin" type="OVERLAP" />
+<TLINK id="TL116" fromID="E72" fromText="admission" toID="E73" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL117" fromID="E52" fromText="her significant infection" toID="E13" toText="community - acquired pneumonia" type="SIMULTANEOUS" />
+<TLINK id="TL118" fromID="E106" fromText="followed" toID="E74" toText="Discharge" type="AFTER" />
+<TLINK id="TL119" fromID="E107" fromText="returns back to normal" toID="E106" toText="followed" type="OVERLAP" />
+<TLINK id="TL12" fromID="E17" fromText="Levaquin" toID="E37" toText="Levaquin" type="SIMULTANEOUS" />
+<TLINK id="TL120" fromID="E53" fromText="Anemia" toID="E72" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL121" fromID="E54" fromText="The patient 's reticulocyte count" toID="E108" toText="showed" type="OVERLAP" />
+<TLINK id="TL123" fromID="E55" fromText="inadequate production" toID="E54" toText="The patient 's reticulocyte count" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E54" fromText="The patient 's reticulocyte count" toID="E72" toText="admission" type="AFTER" />
+<TLINK id="TL125" fromID="E109" fromText="showed" toID="E56" toText="Iron studies" type="OVERLAP" />
+<TLINK id="TL126" fromID="E57" fromText="decreased iron" toID="E56" toText="Iron studies" type="BEFORE_OVERLAP" />
+<TLINK id="TL127" fromID="E56" fromText="Iron studies" toID="E54" toText="The patient 's reticulocyte count" type="OVERLAP" />
+<TLINK id="TL128" fromID="E58" fromText="decreased iron to TIBC ratio" toID="E56" toText="Iron studies" type="BEFORE_OVERLAP" />
+<TLINK id="TL129" fromID="E60" fromText="high MCV" toID="E56" toText="Iron studies" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E5" fromText="Levaquin" toID="E17" toText="Levaquin" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E61" fromText="B12" toID="E56" toText="Iron studies" type="OVERLAP" />
+<TLINK id="TL131" fromID="E110" fromText="low" toID="E61" toText="B12" type="BEFORE_OVERLAP" />
+<TLINK id="TL132" fromID="E62" fromText="IM B12" toID="E61" toText="B12" type="AFTER" />
+<TLINK id="TL133" fromID="E111" fromText="the hospital" toID="E101" toText="the hospital" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E63" fromText="iron supplementation" toID="E56" toText="Iron studies" type="AFTER" />
+<TLINK id="TL135" fromID="E64" fromText="Hypothyroidism" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL136" fromID="E65" fromText="Synthroid" toID="E64" toText="Hypothyroidism" type="OVERLAP" />
+<TLINK id="TL14" fromID="E6" fromText="a right lower lobe pneumonia" toID="E13" toText="community - acquired pneumonia" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E26" fromText="repeated coughing" toID="E27" toText="The cough" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E13" fromText="community - acquired pneumonia" toID="E16" toText="her pneumonia" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E37" fromText="Levaquin" toID="E39" toText="Levaquin" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E16" fromText="her pneumonia" toID="E15" toText="antibiotic coverage" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E45" fromText="breakthrough pain" toID="E44" toText="oxycodone" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E15" fromText="antibiotic coverage" toID="E31" toText="the triple antibiotics" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E51" fromText="mild transaminitis" toID="E72" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E0" fromText="Admission" toID="T1" toText="2015-07-12" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E74" fromText="Discharge" toID="T2" toText="2015-07-19" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E75" fromText="transferred" toID="E69" toText="transferred" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E76" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="E75" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL25" fromID="T0" fromText="one week" toID="T1" toText="2015-07-12" type="ENDED_BY" />
+<TLINK id="TL26" fromID="T0" fromText="one week" toID="E77" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E78" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E79" fromText="increasing cough" toID="E77" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E80" fromText="dyspnea" toID="E77" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E53" fromText="Anemia" toID="E59" toText="iron-deficiency anemia" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E81" fromText="fatigue" toID="E77" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E1" fromText="a Z-Pak" toID="E77" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E2" fromText="treatment" toID="E1" toText="a Z-Pak" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E3" fromText="albuterol" toID="E1" toText="a Z-Pak" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E82" fromText="continued to worsen" toID="E67" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL37" fromID="E83" fromText="febrile" toID="E67" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E84" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="E67" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E67" fromText="admitted" toID="T3" toText="2015-07-10" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E27" fromText="The cough" toID="E42" toText="persistent cough" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E84" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="E76" toText="Shaugnessy-Kaplan Rehab Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E85" fromText="the hospital" toID="E84" toText="Shaugnessy-Kaplan Rehab Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E4" fromText="Rocephin" toID="E7" toText="chest x-ray" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E5" fromText="Levaquin" toID="E4" toText="Rocephin" type="OVERLAP" />
+<TLINK id="TL44" fromID="E6" fromText="a right lower lobe pneumonia" toID="E7" toText="chest x-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E7" fromText="chest x-ray" toID="E85" toText="the hospital" type="DURING" />
+<TLINK id="TL46" fromID="E8" fromText="increasing respiratory distress" toID="E4" toText="Rocephin" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E9" fromText="hypoxia" toID="E8" toText="increasing respiratory distress" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E10" fromText="significantly tachypneic" toID="E9" toText="hypoxia" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E11" fromText="repeat chest x-ray" toID="E7" toText="chest x-ray" type="AFTER" />
+<TLINK id="TL5" fromID="E31" fromText="the triple antibiotics" toID="E35" toText="the antibiotics" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E86" fromText="showed" toID="E11" toText="repeat chest x-ray" type="OVERLAP" />
+<TLINK id="TL51" fromID="E87" fromText="bilateral diffuse infiltrates" toID="E11" toText="repeat chest x-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E88" fromText="ARDS" toID="E87" toText="bilateral diffuse infiltrates" type="OVERLAP" />
+<TLINK id="TL53" fromID="E68" fromText="intubated" toID="E11" toText="repeat chest x-ray" type="AFTER" />
+<TLINK id="TL54" fromID="E69" fromText="transferred" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL55" fromID="E69" fromText="transferred" toID="E68" toText="intubated" type="AFTER" />
+<TLINK id="TL56" fromID="E89" fromText="Hahnemann General Hospital CMED" toID="E69" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL57" fromID="E73" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E12" fromText="acute respiratory distress syndrome" toID="E88" toText="ARDS" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E13" fromText="community - acquired pneumonia" toID="E12" toText="acute respiratory distress syndrome" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E23" fromText="her cough" toID="E26" toText="repeated coughing" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E13" fromText="community - acquired pneumonia" toID="E6" toText="a right lower lobe pneumonia" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E14" fromText="a ventilator" toID="E68" toText="intubated" type="BEGUN_BY" />
+<TLINK id="TL62" fromID="E90" fromText="ventilated" toID="E14" toText="a ventilator" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E14" fromText="a ventilator" toID="E70" toText="extubated" type="ENDED_BY" />
+<TLINK id="TL64" fromID="E15" fromText="antibiotic coverage" toID="E17" toText="Levaquin" type="OVERLAP" />
+<TLINK id="TL65" fromID="E18" fromText="ceftriaxone" toID="E15" toText="antibiotic coverage" type="OVERLAP" />
+<TLINK id="TL66" fromID="E19" fromText="vancomycin" toID="E15" toText="antibiotic coverage" type="OVERLAP" />
+<TLINK id="TL67" fromID="T4" fromText="the next two days" toID="E91" toText="admission" type="BEGUN_BY" />
+<TLINK id="TL68" fromID="E91" fromText="admission" toID="E73" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E20" fromText="the patient 's vent settings" toID="E14" toText="a ventilator" type="OVERLAP" />
+<TLINK id="TL7" fromID="E18" fromText="ceftriaxone" toID="E38" toText="The ceftriaxone" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E92" fromText="gradually weaned" toID="T4" toText="the next two days" type="DURING" />
+<TLINK id="TL71" fromID="T5" fromText="two days" toID="E93" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL72" fromID="T5" fromText="two days" toID="E70" toText="extubated" type="ENDED_BY" />
+<TLINK id="TL73" fromID="E93" fromText="transferred" toID="E73" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E94" fromText="this hospital" toID="E89" toText="Hahnemann General Hospital CMED" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E95" fromText="oxygenating well" toID="E22" toText="face mask" type="OVERLAP" />
+<TLINK id="TL77" fromID="E22" fromText="face mask" toID="E21" toText="extubation" type="BEGUN_BY" />
+<TLINK id="TL78" fromID="E96" fromText="a persistent fairly severe cough" toID="E22" toText="face mask" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E23" fromText="her cough" toID="E24" toText="weak" type="OVERLAP" />
+<TLINK id="TL8" fromID="E50" fromText="Transaminitis" toID="E51" toText="mild transaminitis" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E25" fromText="abdominal muscle pain" toID="E24" toText="weak" type="OVERLAP" />
+<TLINK id="TL81" fromID="E25" fromText="abdominal muscle pain" toID="E104" toText="fairly significant abdominal pain" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E26" fromText="repeated coughing" toID="E25" toText="abdominal muscle pain" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E26" fromText="repeated coughing" toID="E96" toText="a persistent fairly severe cough" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E27" fromText="The cough" toID="E28" toText="mostly nonproductive" type="OVERLAP" />
+<TLINK id="TL85" fromID="E97" fromText="breathing comfortably" toID="E21" toText="extubation" type="AFTER" />
+<TLINK id="TL86" fromID="E29" fromText="identified bacterial pathogen" toID="E30" toText="any cultures" type="BEFORE_OVERLAP" />
+<TLINK id="TL87" fromID="E30" fromText="any cultures" toID="E73" toText="admission" type="AFTER" />
+<TLINK id="TL88" fromID="T6" fromText="first several days" toID="E73" toText="admission" type="BEGUN_BY" />
+<TLINK id="TL89" fromID="E31" fromText="the triple antibiotics" toID="T6" toText="first several days" type="OVERLAP" />
+<TLINK id="TL9" fromID="E19" fromText="vancomycin" toID="E36" toText="The vancomycin" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E32" fromText="round-the-clock Atrovent" toID="E33" toText="albuterol nebulizers" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E32" fromText="round-the-clock Atrovent" toID="E73" toText="admission" type="AFTER" />
+<TLINK id="TL92" fromID="E99" fromText="the ICU" toID="E73" toText="admission" type="BEGUN_BY" />
+<TLINK id="TL93" fromID="E99" fromText="the ICU" toID="E71" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL94" fromID="E71" fromText="transferred" toID="E34" toText="extubation" type="AFTER" />
+<TLINK id="TL95" fromID="E100" fromText="gradually narrowed" toID="E34" toText="extubation" type="AFTER" />
+<TLINK id="TL96" fromID="E36" fromText="The vancomycin" toID="T7" toText="four days" type="DURING" />
+<TLINK id="TL97" fromID="E37" fromText="Levaquin" toID="T7" toText="four days" type="DURING" />
+<TLINK id="TL98" fromID="T7" fromText="four days" toID="E73" toText="admission" type="BEGUN_BY" />
+<TLINK id="TL99" fromID="E101" fromText="the hospital" toID="E89" toText="Hahnemann General Hospital CMED" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2015-07-12" type="ADMISSION" dvalue="2015-07-12" />
+<SECTIME id="S1" start="46" end="56" text="2015-07-19" type="DISCHARGE" dvalue="2015-07-19" />
+<TLINK id="SECTIME0" fromID="E12" fromText="acute respiratory distress syndrome" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E13" fromText="community - acquired pneumonia" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E14" fromText="a ventilator" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E90" fromText="ventilated" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E15" fromText="antibiotic coverage" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E16" fromText="her pneumonia" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E17" fromText="Levaquin" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E18" fromText="ceftriaxone" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E19" fromText="vancomycin" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E91" fromText="admission" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E20" fromText="the patient 's vent settings" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E92" fromText="gradually weaned" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E70" fromText="extubated" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E93" fromText="transferred" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E94" fromText="this hospital" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E21" fromText="extubation" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E95" fromText="oxygenating well" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E22" fromText="face mask" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E96" fromText="a persistent fairly severe cough" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME19" fromID="E23" fromText="her cough" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME20" fromID="E24" fromText="weak" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E25" fromText="abdominal muscle pain" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E26" fromText="repeated coughing" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E27" fromText="The cough" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E75" fromText="transferred" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E28" fromText="mostly nonproductive" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E97" fromText="breathing comfortably" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E29" fromText="identified bacterial pathogen" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E30" fromText="any cultures" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E31" fromText="the triple antibiotics" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E76" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E32" fromText="round-the-clock Atrovent" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E33" fromText="albuterol nebulizers" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E71" fromText="transferred" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E99" fromText="the ICU" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E34" fromText="extubation" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E35" fromText="the antibiotics" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E100" fromText="gradually narrowed" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E36" fromText="The vancomycin" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E37" fromText="Levaquin" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E101" fromText="the hospital" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E38" fromText="The ceftriaxone" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E102" fromText="the hospital" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E39" fromText="Levaquin" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E103" fromText="gradual improvement" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E40" fromText="her oxygenation" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E41" fromText="Pain control" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E104" fromText="fairly significant abdominal pain" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E77" fromText="presented" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E42" fromText="persistent cough" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME50" fromID="E43" fromText="MS Contin" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E44" fromText="oxycodone" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E45" fromText="breakthrough pain" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E105" fromText="helped" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E46" fromText="difficulty coughing" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E47" fromText="the pain" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E48" fromText="Tylenol" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E49" fromText="ibuprofen" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E50" fromText="Transaminitis" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E51" fromText="mild transaminitis" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E72" fromText="admission" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E52" fromText="her significant infection" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E106" fromText="followed" toID="T2" toText="2015-07-19" type="AFTER" />
+<TLINK id="SECTIME63" fromID="E107" fromText="returns back to normal" toID="T2" toText="2015-07-19" type="AFTER" />
+<TLINK id="SECTIME64" fromID="E53" fromText="Anemia" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME65" fromID="E54" fromText="The patient 's reticulocyte count" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E78" fromText="admission" toID="T1" toText="2015-07-12" type="OVERLAP" />
+<TLINK id="SECTIME67" fromID="E108" fromText="showed" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E55" fromText="inadequate production" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E56" fromText="Iron studies" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E109" fromText="showed" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E57" fromText="decreased iron" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E58" fromText="decreased iron to TIBC ratio" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E59" fromText="iron-deficiency anemia" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E79" fromText="increasing cough" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME75" fromID="E60" fromText="high MCV" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E61" fromText="B12" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E110" fromText="low" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E62" fromText="IM B12" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E111" fromText="the hospital" toID="T2" toText="2015-07-19" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E63" fromText="iron supplementation" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME81" fromID="E64" fromText="Hypothyroidism" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME82" fromID="E80" fromText="dyspnea" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME83" fromID="E65" fromText="Synthroid" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME84" fromID="E66" fromText="her chronic hypothyroidism" toID="T2" toText="2015-07-19" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME85" fromID="E81" fromText="fatigue" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME86" fromID="E1" fromText="a Z-Pak" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E2" fromText="treatment" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E3" fromText="albuterol" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E82" fromText="continued to worsen" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME90" fromID="E83" fromText="febrile" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME91" fromID="E67" fromText="admitted" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E84" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E85" fromText="the hospital" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E4" fromText="Rocephin" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E5" fromText="Levaquin" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E6" fromText="a right lower lobe pneumonia" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME97" fromID="E7" fromText="chest x-ray" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E8" fromText="increasing respiratory distress" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME99" fromID="E9" fromText="hypoxia" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME100" fromID="E10" fromText="significantly tachypneic" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E11" fromText="repeat chest x-ray" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E86" fromText="showed" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E87" fromText="bilateral diffuse infiltrates" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME104" fromID="E88" fromText="ARDS" toID="T1" toText="2015-07-12" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME105" fromID="E68" fromText="intubated" toID="T1" toText="2015-07-12" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E69" fromText="transferred" toID="T1" toText="2015-07-12" type="OVERLAP" />
+<TLINK id="SECTIME107" fromID="E89" fromText="Hahnemann General Hospital CMED" toID="T1" toText="2015-07-12" type="AFTER" />
+<TLINK id="SECTIME108" fromID="E73" fromText="admission" toID="T2" toText="2015-07-19" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

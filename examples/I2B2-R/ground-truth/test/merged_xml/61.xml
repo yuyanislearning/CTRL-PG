@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/09/1998
+Discharge Date :
+06/12/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is an 82 year-old right handed gentleman who has a past medical history of hypertension and tobacco use presented to the emergency room with acute change in mental status .
+He was well until the evening prior to presentation to the emergency room when he complained of headache across the forehead .
+On the day of presentation , he was then found by his daughter lying on his bed groaning , being relatively unresponsive and unable to speak .
+The family reported one episode of vomiting at home .
+HOSPITAL COURSE :
+The patient was admitted to a telemetry bed and started on heparin .
+Around 4:00 AM the next day , an acute decompensation in respiratory status was noted .
+Lung examination at that point showed good air entry , no wheezing , coarse breath sounds throughout .
+Neurologically , the patient was not following commands .
+Eyes were closed .
+He was moving the right arm and leg spontaneously , though less than before .
+Withdrawal to pain was still present .
+Both plantars were upgoing .
+A blood gas at this point showed a pH of 7.49 , pO2 61 , pCO2 of 33 on 100% non-rebreather mask .
+EKG showed sinus tachycardia .
+The patient &apos;s temperature was 102 degrees .
+A repeat CAT scan of the head was performed .
+This showed continued evolution of the right posterior cerebral artery infarction now extending into the right cerebellar hemisphere .
+There was also a high density adjacent to the right cerebellar infarction suggesting the presence of hemorrhage .
+At this point , the patient was transferred to the intensive care unit .
+An MRI and MRA of the head was arranged to evaluate the extent of his stroke and the posterior circulation .
+The MRI showed infarct of the cerebellar hemispheres bilaterally , the right occipital lobe , the right thalamus and bilateral pons .
+The MRA of the intracranial circulation demonstrated gross patency of the internal carotid arteries bilaterally and the basilar arteries .
+The left vertebral artery was not visualized .
+There was a dominant right vertebral artery .
+There was mildly reduced flow in the branches of the right middle cerebral artery compared to the left .
+There was visualization of flow within both posterior cerebral arteries .
+Clinically , the patient continued to deteriorate .
+Neurosurgery was consulted , however the neurosurgeons felt that there was no surgical option , since even in the case of cerebellar swelling , there would be no improvement from decompensation .
+The patient was therefore treated conservatively with fluid restriction and blood pressure management .
+Heparin was discontinued because of the risk of intercerebral hemorrhage .
+The aspiration pneumonia was treated with Cefotaxime and Metronidazole .
+The patient &apos;s family was involved and they decided to opt for DNR / DNI in view of the poor prognosis .
+The patient passed away at 6:45 AM on June 12 , 1998 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1028" end="1046" text="Withdrawal to pain" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1057" end="1064" text="present" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1086" end="1093" text="upgoing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1096" end="1107" text="A blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1122" end="1128" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E36" start="1129" end="1133" text="a pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1144" end="1147" text="pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1153" end="1157" text="pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1167" end="1191" text="100% non-rebreather mask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1194" end="1197" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1198" end="1204" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="1205" end="1222" text="sinus tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1225" end="1256" text="The patient &apos;s temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1275" end="1304" text="A repeat CAT scan of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1326" end="1332" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="1356" end="1402" text="the right posterior cerebral artery infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1471" end="1485" text="a high density" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1498" end="1529" text="the right cerebellar infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="1557" end="1567" text="hemorrhage" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1602" end="1613" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1617" end="1640" text="the intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="1643" end="1649" text="An MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1654" end="1669" text="MRA of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1709" end="1719" text="his stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="173" end="185" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1724" end="1749" text="the posterior circulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1752" end="1759" text="The MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1760" end="1766" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E57" start="1767" end="1883" text="infarct of the cerebellar hemispheres bilaterally , the right occipital lobe , the right thalamus and bilateral pons" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1886" end="1925" text="The MRA of the intracranial circulation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="190" end="201" text="tobacco use" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1926" end="1938" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E60" start="1939" end="2022" text="gross patency of the internal carotid arteries bilaterally and the basilar arteries" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="202" end="211" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2059" end="2069" text="visualized" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E62" start="2128" end="2147" text="mildly reduced flow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="215" end="233" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E64" start="2297" end="2307" text="Clinically" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2322" end="2346" text="continued to deteriorate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2349" end="2361" text="Neurosurgery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2366" end="2375" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="239" end="268" text="acute change in mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2427" end="2442" text="surgical option" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E68" start="2471" end="2490" text="cerebellar swelling" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="2511" end="2522" text="improvement" modality="CONDITIONAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E70" start="2528" end="2542" text="decompensation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2599" end="2616" text="fluid restriction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2621" end="2646" text="blood pressure management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2649" end="2656" text="Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2697" end="2721" text="intercerebral hemorrhage" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="2724" end="2748" text="The aspiration pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2766" end="2776" text="Cefotaxime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="278" end="282" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2781" end="2794" text="Metronidazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2865" end="2874" text="DNR / DNI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2886" end="2904" text="the poor prognosis" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2919" end="2930" text="passed away" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="310" end="322" text="presentation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="326" end="344" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="353" end="363" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="367" end="395" text="headache across the forehead" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="439" end="444" text="found" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="461" end="486" text="lying on his bed groaning" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="495" end="518" text="relatively unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="523" end="538" text="unable to speak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="552" end="560" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="576" end="584" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="629" end="637" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="641" end="656" text="a telemetry bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="672" end="679" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="712" end="757" text="an acute decompensation in respiratory status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="762" end="767" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="770" end="786" text="Lung examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="801" end="807" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="828" end="836" text="wheezing" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="839" end="870" text="coarse breath sounds throughout" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="910" end="928" text="following commands" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="931" end="947" text="Eyes were closed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="957" end="999" text="moving the right arm and leg spontaneously" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="06/09/1998" type="DATE" val="1998-06-09" mod="NA" />
+<TIMEX3 id="T2" start="289" end="300" text="the evening" type="DATE" val="1998-06-08" mod="END" />
+<TIMEX3 id="T6" start="2934" end="2959" text="6:45 AM on June 12 , 1998" type="TIME" val="1998-06-12T06:45" mod="NA" />
+<TIMEX3 id="T3" start="401" end="424" text="the day of presentation" type="DATE" val="1998-06-09" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="06/12/1998" type="DATE" val="1998-06-12" mod="NA" />
+<TIMEX3 id="T4" start="689" end="709" text="4:00 AM the next day" type="TIME" val="1998-06-10T04:00" mod="APPROX" />
+<TIMEX3 id="T5" start="790" end="800" text="that point" type="TIME" val="1998-06-10T04:00" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="06/09/1998" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="06/12/1998" type="OVERLAP" />
+<TLINK id="TL10" fromID="E11" fromText="found" toID="T3" toText="the day of presentation" type="OVERLAP" />
+<TLINK id="TL11" fromID="E12" fromText="lying on his bed groaning" toID="E11" toText="found" type="OVERLAP" />
+<TLINK id="TL12" fromID="E13" fromText="relatively unresponsive" toID="E12" toText="lying on his bed groaning" type="OVERLAP" />
+<TLINK id="TL13" fromID="E13" fromText="relatively unresponsive" toID="E14" toText="unable to speak" type="OVERLAP" />
+<TLINK id="TL14" fromID="E15" fromText="reported" toID="E5" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL15" fromID="E16" fromText="vomiting" toID="E5" toText="the emergency room" type="BEFORE" />
+<TLINK id="TL16" fromID="E0" fromText="Admission" toID="E17" toText="admitted" type="OVERLAP" />
+<TLINK id="TL17" fromID="E18" fromText="a telemetry bed" toID="E17" toText="admitted" type="AFTER" />
+<TLINK id="TL18" fromID="E19" fromText="heparin" toID="E18" toText="a telemetry bed" type="OVERLAP" />
+<TLINK id="TL19" fromID="E21" fromText="noted" toID="T4" toText="4:00 AM the next day" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="hypertension" toID="E3" toText="tobacco use" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="an acute decompensation in respiratory status" toID="E21" toText="noted" type="OVERLAP" />
+<TLINK id="TL21" fromID="E20" fromText="an acute decompensation in respiratory status" toID="E22" toText="Lung examination" type="OVERLAP" />
+<TLINK id="TL22" fromID="E22" fromText="Lung examination" toID="T5" toText="that point" type="OVERLAP" />
+<TLINK id="TL23" fromID="E22" fromText="Lung examination" toID="E23" toText="showed" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="Lung examination" toID="E24" toText="wheezing" type="OVERLAP" />
+<TLINK id="TL25" fromID="E24" fromText="wheezing" toID="E25" toText="coarse breath sounds throughout" type="OVERLAP" />
+<TLINK id="TL26" fromID="E25" fromText="coarse breath sounds throughout" toID="E26" toText="following commands" type="OVERLAP" />
+<TLINK id="TL27" fromID="E26" fromText="following commands" toID="E27" toText="Eyes were closed" type="OVERLAP" />
+<TLINK id="TL28" fromID="E27" fromText="Eyes were closed" toID="E29" toText="moving the right arm and leg spontaneously" type="OVERLAP" />
+<TLINK id="TL29" fromID="E29" fromText="moving the right arm and leg spontaneously" toID="E30" toText="Withdrawal to pain" type="OVERLAP" />
+<TLINK id="TL3" fromID="E5" fromText="the emergency room" toID="E4" toText="presented" type="AFTER" />
+<TLINK id="TL30" fromID="E30" fromText="Withdrawal to pain" toID="E31" toText="present" type="OVERLAP" />
+<TLINK id="TL32" fromID="E33" fromText="A blood gas" toID="E35" toText="showed" type="OVERLAP" />
+<TLINK id="TL33" fromID="E36" fromText="a pH" toID="E33" toText="A blood gas" type="BEFORE" />
+<TLINK id="TL34" fromID="E36" fromText="a pH" toID="E37" toText="pO2" type="OVERLAP" />
+<TLINK id="TL35" fromID="E37" fromText="pO2" toID="E38" toText="pCO2" type="OVERLAP" />
+<TLINK id="TL36" fromID="E38" fromText="pCO2" toID="E39" toText="100% non-rebreather mask" type="OVERLAP" />
+<TLINK id="TL37" fromID="E40" fromText="EKG" toID="E41" toText="showed" type="OVERLAP" />
+<TLINK id="TL38" fromID="E42" fromText="sinus tachycardia" toID="E40" toText="EKG" type="BEFORE" />
+<TLINK id="TL4" fromID="E6" fromText="acute change in mental status" toID="E5" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL40" fromID="E44" fromText="A repeat CAT scan of the head" toID="E45" toText="showed" type="OVERLAP" />
+<TLINK id="TL41" fromID="E46" fromText="the right posterior cerebral artery infarction" toID="E44" toText="A repeat CAT scan of the head" type="BEFORE" />
+<TLINK id="TL42" fromID="E46" fromText="the right posterior cerebral artery infarction" toID="E47" toText="a high density" type="OVERLAP" />
+<TLINK id="TL43" fromID="E47" fromText="a high density" toID="E48" toText="the right cerebellar infarction" type="OVERLAP" />
+<TLINK id="TL44" fromID="E48" fromText="the right cerebellar infarction" toID="E81" toText="hemorrhage" type="OVERLAP" />
+<TLINK id="TL45" fromID="E49" fromText="transferred" toID="E45" toText="showed" type="AFTER" />
+<TLINK id="TL46" fromID="E50" fromText="the intensive care unit" toID="E49" toText="transferred" type="AFTER" />
+<TLINK id="TL47" fromID="E51" fromText="An MRI" toID="E50" toText="the intensive care unit" type="OVERLAP" />
+<TLINK id="TL48" fromID="E51" fromText="An MRI" toID="E52" toText="MRA of the head" type="OVERLAP" />
+<TLINK id="TL49" fromID="E53" fromText="his stroke" toID="E52" toText="MRA of the head" type="OVERLAP" />
+<TLINK id="TL5" fromID="E82" fromText="well" toID="T2" toText="the evening" type="BEFORE" />
+<TLINK id="TL50" fromID="E53" fromText="his stroke" toID="E54" toText="the posterior circulation" type="OVERLAP" />
+<TLINK id="TL51" fromID="E51" fromText="An MRI" toID="E55" toText="The MRI" type="OVERLAP" />
+<TLINK id="TL52" fromID="E52" fromText="MRA of the head" toID="E58" toText="The MRA of the intracranial circulation" type="OVERLAP" />
+<TLINK id="TL53" fromID="E55" fromText="The MRI" toID="E56" toText="showed" type="OVERLAP" />
+<TLINK id="TL54" fromID="E58" fromText="The MRA of the intracranial circulation" toID="E59" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL55" fromID="E57" fromText="infarct of the cerebellar hemispheres bilaterally , the right occipital lobe , the right thalamus and bilateral pons" toID="E55" toText="The MRI" type="BEFORE" />
+<TLINK id="TL56" fromID="E60" fromText="gross patency of the internal carotid arteries bilaterally and the basilar arteries" toID="E57" toText="infarct of the cerebellar hemispheres bilaterally , the right occipital lobe , the right thalamus and bilateral pons" type="OVERLAP" />
+<TLINK id="TL57" fromID="E61" fromText="visualized" toID="E58" toText="The MRA of the intracranial circulation" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="presented" toID="E7" toText="presentation" type="OVERLAP" />
+<TLINK id="TL60" fromID="E62" fromText="mildly reduced flow" toID="E58" toText="The MRA of the intracranial circulation" type="BEFORE" />
+<TLINK id="TL61" fromID="E64" fromText="Clinically" toID="E50" toText="the intensive care unit" type="OVERLAP" />
+<TLINK id="TL62" fromID="E64" fromText="Clinically" toID="E63" toText="continued to deteriorate" type="OVERLAP" />
+<TLINK id="TL63" fromID="E63" fromText="continued to deteriorate" toID="E65" toText="Neurosurgery" type="OVERLAP" />
+<TLINK id="TL64" fromID="E65" fromText="Neurosurgery" toID="E66" toText="consulted" type="OVERLAP" />
+<TLINK id="TL65" fromID="E67" fromText="surgical option" toID="E66" toText="consulted" type="AFTER" />
+<TLINK id="TL66" fromID="E68" fromText="cerebellar swelling" toID="E67" toText="surgical option" type="BEFORE" />
+<TLINK id="TL67" fromID="E69" fromText="improvement" toID="E70" toText="decompensation" type="AFTER" />
+<TLINK id="TL68" fromID="E63" fromText="continued to deteriorate" toID="E70" toText="decompensation" type="OVERLAP" />
+<TLINK id="TL69" fromID="E71" fromText="fluid restriction" toID="E66" toText="consulted" type="AFTER" />
+<TLINK id="TL7" fromID="E5" fromText="the emergency room" toID="E8" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL70" fromID="E71" fromText="fluid restriction" toID="E72" toText="blood pressure management" type="OVERLAP" />
+<TLINK id="TL71" fromID="E74" fromText="intercerebral hemorrhage" toID="E73" toText="Heparin" type="OVERLAP" />
+<TLINK id="TL72" fromID="E76" fromText="Cefotaxime" toID="E73" toText="Heparin" type="AFTER" />
+<TLINK id="TL73" fromID="E76" fromText="Cefotaxime" toID="E77" toText="Metronidazole" type="OVERLAP" />
+<TLINK id="TL74" fromID="E75" fromText="The aspiration pneumonia" toID="E76" toText="Cefotaxime" type="BEFORE" />
+<TLINK id="TL75" fromID="E79" fromText="the poor prognosis" toID="E78" toText="DNR / DNI" type="BEFORE" />
+<TLINK id="TL76" fromID="E80" fromText="passed away" toID="E79" toText="the poor prognosis" type="AFTER" />
+<TLINK id="TL77" fromID="T6" fromText="6:45 AM on June 12 , 1998" toID="E80" toText="passed away" type="OVERLAP" />
+<TLINK id="TL8" fromID="E9" fromText="complained" toID="E7" toText="presentation" type="BEFORE" />
+<TLINK id="TL9" fromID="E10" fromText="headache across the forehead" toID="E9" toText="complained" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/09/1998" type="ADMISSION" dvalue="1998-06-09" />
+<SECTIME id="S1" start="46" end="56" text="06/12/1998" type="DISCHARGE" dvalue="1998-06-12" />
+<TLINK id="SECTIME0" fromID="E30" fromText="Withdrawal to pain" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E31" fromText="present" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E32" fromText="upgoing" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="A blood gas" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E35" fromText="showed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E36" fromText="a pH" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E37" fromText="pO2" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E38" fromText="pCO2" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E39" fromText="100% non-rebreather mask" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E40" fromText="EKG" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E41" fromText="showed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E42" fromText="sinus tachycardia" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E43" fromText="The patient &apos;s temperature" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E44" fromText="A repeat CAT scan of the head" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E45" fromText="showed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E46" fromText="the right posterior cerebral artery infarction" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E47" fromText="a high density" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E48" fromText="the right cerebellar infarction" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E81" fromText="hemorrhage" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E49" fromText="transferred" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E50" fromText="the intensive care unit" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E51" fromText="An MRI" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E52" fromText="MRA of the head" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E53" fromText="his stroke" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E2" fromText="hypertension" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E54" fromText="the posterior circulation" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E55" fromText="The MRI" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E56" fromText="showed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E57" fromText="infarct of the cerebellar hemispheres bilaterally , the right occipital lobe , the right thalamus and bilateral pons" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E58" fromText="The MRA of the intracranial circulation" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E3" fromText="tobacco use" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E59" fromText="demonstrated" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E60" fromText="gross patency of the internal carotid arteries bilaterally and the basilar arteries" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E4" fromText="presented" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E61" fromText="visualized" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E62" fromText="mildly reduced flow" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E5" fromText="the emergency room" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E64" fromText="Clinically" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E63" fromText="continued to deteriorate" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E65" fromText="Neurosurgery" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E66" fromText="consulted" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E6" fromText="acute change in mental status" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E67" fromText="surgical option" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E68" fromText="cerebellar swelling" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E69" fromText="improvement" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E70" fromText="decompensation" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E71" fromText="fluid restriction" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E72" fromText="blood pressure management" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E73" fromText="Heparin" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E74" fromText="intercerebral hemorrhage" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E75" fromText="The aspiration pneumonia" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E76" fromText="Cefotaxime" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E82" fromText="well" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E77" fromText="Metronidazole" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E78" fromText="DNR / DNI" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E79" fromText="the poor prognosis" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E80" fromText="passed away" toID="T1" toText="06/12/1998" type="OVERLAP" />
+<TLINK id="SECTIME57" fromID="E7" fromText="presentation" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E8" fromText="the emergency room" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E9" fromText="complained" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E10" fromText="headache across the forehead" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E11" fromText="found" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E12" fromText="lying on his bed groaning" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E13" fromText="relatively unresponsive" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E14" fromText="unable to speak" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E15" fromText="reported" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E16" fromText="vomiting" toID="T0" toText="06/09/1998" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E17" fromText="admitted" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E18" fromText="a telemetry bed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E19" fromText="heparin" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E20" fromText="an acute decompensation in respiratory status" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E21" fromText="noted" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E22" fromText="Lung examination" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E23" fromText="showed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E24" fromText="wheezing" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E25" fromText="coarse breath sounds throughout" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E26" fromText="following commands" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E27" fromText="Eyes were closed" toID="T1" toText="06/12/1998" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E29" fromText="moving the right arm and leg spontaneously" toID="T1" toText="06/12/1998" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

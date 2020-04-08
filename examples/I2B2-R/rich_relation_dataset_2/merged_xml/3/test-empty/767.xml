@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2009-12-28
+Discharge Date :
+2009-12-31
+Service :
+NEUROMEDIC
+HISTORY OF PRESENT ILLNESS :
+Mrs. Wisniewski is a 45-year-old woman with multiple familial cavernous hemangiomas .
+She is right-handed .
+She was in her usual state of health until one and a half weeks prior to admission .
+She developed an ear ache , for which she saw her primary care physician , Evelyn was prescribed cortisone drops .
+A few days later she complained of dizziness .
+This was mostly described as feeling unsteady on her feet .
+She stated that she had trouble knowing if her feet were touching the ground .
+She was seen again by primary care physician , Roderick since she had complaints of dizziness , as well as a new complaint of decreased hearing and the sensation of static in her ears , meniere 's disease was considered .
+She was given an oral prednisone taper .
+This unsteady gait progressed , and then she subsequently started to develop a pins and needle feeling in the face , hands and feet bilaterally .
+Her hearing got progressively worse and the sound of static increased .
+She was very fatigued .
+At an outside hospital , head CT revealed a 1.5 cm diameter hyperdense mass in the pons , slightly off center to the right .
+She was transferred here for further care .
+HOSPITAL COURSE :
+Mrs. Wisniewski is a 45 - year-old woman with a strong family history of cavernous angiomas .
+She has had several prior bleeding events and presented with a subacute bleed in the mid to lower pons .
+There was relatively central in location , with only a slight right-sided predominance .
+Her physical examination remained relatively unchanged , with resolution of the subtle left hand weakness and right facial weakness .
+Her gait remained severely ataxic , likely secondary to sensory deafferentation , as well as involvement of crossing pontine cerebellar fibers .
+Therefore , it was recommended that she have aggressive Physical Therapy at an Acute Rehabilitation Center .
+The case was discussed with Dr. Harold from the Falmouth Hospital .
+He has followed this family in the past and will see her in follow-up .
+We will arrange to have a copy of the MRI scans sent to him .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1026" end="1045" text="progressively worse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1050" end="1069" text="the sound of static" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1070" end="1079" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1090" end="1103" text="very fatigued" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1109" end="1128" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="1131" end="1138" text="head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1139" end="1147" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="1148" end="1193" text="a 1.5 cm diameter hyperdense mass in the pons" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1239" end="1250" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1260" end="1272" text="further care" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1366" end="1384" text="cavernous angiomas" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1399" end="1428" text="several prior bleeding events" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1433" end="1442" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1448" end="1489" text="a subacute bleed in the mid to lower pons" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="151" end="190" text="multiple familial cavernous hemangiomas" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1554" end="1578" text="right-sided predominance" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1581" end="1605" text="Her physical examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1657" end="1686" text="the subtle left hand weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="1691" end="1712" text="right facial weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1733" end="1748" text="severely ataxic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1771" end="1794" text="sensory deafferentation" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1823" end="1857" text="crossing pontine cerebellar fibers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1905" end="1932" text="aggressive Physical Therapy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1936" end="1966" text="an Acute Rehabilitation Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="2097" end="2106" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="2143" end="2156" text="the MRI scans" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="226" end="251" text="her usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="288" end="297" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="314" end="325" text="an ear ache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="397" end="412" text="cortisone drops" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="436" end="446" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="450" end="459" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="478" end="487" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="499" end="519" text="unsteady on her feet" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="526" end="532" text="stated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="546" end="598" text="trouble knowing if her feet were touching the ground" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="685" end="694" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="727" end="744" text="decreased hearing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="766" end="784" text="static in her ears" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="787" end="805" text="meniere 's disease" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="837" end="861" text="an oral prednisone taper" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="864" end="882" text="This unsteady gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="941" end="1007" text="a pins and needle feeling in the face , hands and feet bilaterally" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T1" start="18" end="28" text="2009-12-28" type="DATE" val="2009-12-28" mod="NA" />
+<TIMEX3 id="T0" start="258" end="278" text="one and a half weeks" type="DATE" val="2009-12-18" mod="APPROX" />
+<TIMEX3 id="T3" start="415" end="431" text="A few days later" type="DATE" val="2009-12-21" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2009-12-31" type="DATE" val="2009-12-31" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2009-12-28" type="ADMISSION" dvalue="2009-12-28" />
+<SECTIME id="S1" start="46" end="56" text="2009-12-31" type="DISCHARGE" dvalue="2009-12-31" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

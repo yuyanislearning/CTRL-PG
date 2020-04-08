@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+09/07/1992
+Discharge Date :
+09/12/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 31 year old gravida 0 with stage IV endometrial cancer and stage III-C ovarian cancer vs metastatic endometrial cancer for line 2 , cycle 1 chemotherapy .
+The patient presented in 10-90 , with heavy bleeding per vagina .
+D and C showed grade II-III adenocarcinoma with squamous differentiation at Wellla Uxinny : mount Medical Center in Com St. , Tton , Arkansas 32167 .
+The patient underwent TAH / BSO , partial omentectomy at CTMC in 10-90 .
+At that time , tumor was found to be studding on the right diaphragm , gross tumor in the omentum and large bowel , tumor through the uterine serosa .
+Pathology showed grade II-III papillary adenocarcinoma of the endometrium with squamous differentiation which was focally invasive and superficial myometrium .
+The ovary showed papillary serous adeno with omental involvement consistent with an endometroid adenocarcinoma .
+The question was whether or not whether she had two primaries vs metastatic endometrial cancer .
+The patient underwent 6 cycles of CAP in Pemrancetul Tonsst ._
+However _, during the fourth cycle _, Cytoxan was dropped .
+Her CA-125 on 6-27-91 , was 249 and on 8-29-91 , was 734 .
+In 05-92 , the patient was admitted to Wellla Uxinny : mount Medical Center with left leg DVT and started on Heparin therapy .
+She was discharged from there on Coumadin therapy .
+On admission , the patient has no complaints except anxiety .
+HOSPITAL COURSE :
+The patient underwent chemotherapy on the following doses :
+IFEX 1.2 grams per meter squared x 3 days , MESNA 1.2 grams per meter squared x 3 days continuous IV infusion .
+She had VP-16 mixed with 250 cc IV fluid given over 1 hour each day for 3 days .
+She also had MESNA dose of .6 grams per meter squared after her IFEX / MESNA were completed .
+The patient 's urinalysis on admission was significant for red blood cells which were TNTC as well as uric acid .
+Because it was felt the patient was bleeding and the patient was contaminated , she received her IFEX / MESNA .
+A repeat straight cath was negative for RBC 's .
+After 1 day of chemotherapy , the patient had 8-10 RBC 's in her urine but by the second day of her IFEX infusion , she had 50-80 RBC 's in her urine as well as a few transitional epithelial cells .
+Because of this finding , her IFEX was stopped before completion of her second day of infusion .
+Her MESNA alone was continued at that time for IV infusion .
+She did receive her VP-16 without complication .
+Other significant issues were the patient 's hematocrit on admission at 31.1 which dwindled down to 26.2 by 9-10 ._
+The patient was counselled and received 2 units of packed RBC 's at that time  .
+However , the patient 's hematocrit bumped only to 28.1 and a repeat later on 9-11 , showed hematocrit of 27.6 .
+At this time , an additional 2 units of packed RBC 's were transfused .
+The third issue was that her anticoagulation was grossly out of control on admission with PT of 25.6 and PTT of 42.2 .
+Her repeat on 9-8 , was 36.0 / 68.2 and her Coumadin was held .
+She received no Coumadin during her admission and by the time of discharge , her PT was down to 16.2 .
+She was restarted on Coumadin 2.5 mg per day .
+The patient 's hematocrit on the day of discharge was 35.6 showing significant bump in her count after her second two units of packed RBC 's .
+Her PT on the day of discharge was 13.2 and she was started on Coumadin 2.5 mg po q d as mentioned .
+The patient was discharged on 9-12-92 , with the approval of her attending physiciana , Dr. Porriede Friednantflirt .
+FOLLOW UP CARE :
+On 9-28-92 , the patient will return for chemotherapy and she will follow up with her primary doctor , Dr. Jescspald , for repeat PT and Coumadin dosing on Monday , 9-14-02 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="1019" end="1032" text="two primaries" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="1036" end="1065" text="metastatic endometrial cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="1102" end="1105" text="CAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="1109" end="1127" text="Pemrancetul Tonsst" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="1149" end="1165" text="the fourth cycle" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="115" end="124" text="gravida 0" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1169" end="1176" text="Cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1191" end="1201" text="Her CA-125" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1277" end="1285" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1289" end="1325" text="Wellla Uxinny : mount Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="130" end="157" text="stage IV endometrial cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1331" end="1343" text="left leg DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="1348" end="1355" text="started" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1359" end="1374" text="Heparin therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1385" end="1395" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="1410" end="1426" text="Coumadin therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="1432" end="1441" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="1463" end="1473" text="complaints" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="1481" end="1488" text="anxiety" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="1531" end="1543" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1569" end="1573" text="IFEX" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="162" end="188" text="stage III-C ovarian cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1613" end="1618" text="MESNA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1656" end="1678" text="continuous IV infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1689" end="1694" text="VP-16" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1713" end="1721" text="IV fluid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1775" end="1780" text="MESNA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1822" end="1830" text="her IFEX" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1844" end="1853" text="completed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1856" end="1881" text="The patient 's urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="1885" end="1894" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="192" end="221" text="metastatic endometrial cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1915" end="1930" text="red blood cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1958" end="1967" text="uric acid" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E102" start="2006" end="2014" text="bleeding" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="2035" end="2047" text="contaminated" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="2063" end="2071" text="her IFEX" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2074" end="2079" text="MESNA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2082" end="2104" text="A repeat straight cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E104" start="2122" end="2128" text="RBC 's" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2146" end="2158" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2177" end="2201" text="8-10 RBC 's in her urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="2227" end="2244" text="her IFEX infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2255" end="2280" text="50-80 RBC 's in her urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2292" end="2327" text="a few transitional epithelial cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="235" end="255" text="cycle 1 chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2356" end="2364" text="her IFEX" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2369" end="2376" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2416" end="2424" text="infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2427" end="2436" text="Her MESNA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="2447" end="2456" text="continued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2474" end="2485" text="IV infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2504" end="2513" text="her VP-16" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2522" end="2534" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="2567" end="2592" text="the patient 's hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2596" end="2605" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2620" end="2633" text="dwindled down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2669" end="2679" text="counselled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="270" end="279" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2704" end="2714" text="packed RBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2744" end="2769" text="the patient 's hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="2794" end="2802" text="a repeat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="2826" end="2836" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="2887" end="2897" text="packed RBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="2906" end="2916" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2944" end="2963" text="her anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="296" end="321" text="heavy bleeding per vagina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="2968" end="2990" text="grossly out of control" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2994" end="3003" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="3009" end="3011" text="PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="3024" end="3027" text="PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="3038" end="3048" text="Her repeat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="3078" end="3090" text="her Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="3095" end="3099" text="held" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="3118" end="3126" text="Coumadin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E111" start="3134" end="3147" text="her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="3179" end="3185" text="her PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="3226" end="3234" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="324" end="331" text="D and C" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="3252" end="3277" text="The patient 's hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="3319" end="3335" text="significant bump" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="332" end="338" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="3379" end="3389" text="packed RBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="339" end="366" text="grade II-III adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="3395" end="3401" text="Her PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="3458" end="3466" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="3512" end="3522" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="3557" end="3581" text="her attending physiciana" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E116" start="3672" end="3684" text="chemotherapy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="3698" end="3707" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="372" end="396" text="squamous differentiation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="3713" end="3731" text="her primary doctor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E119" start="3754" end="3763" text="repeat PT" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E120" start="3768" end="3783" text="Coumadin dosing" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="400" end="436" text="Wellla Uxinny : mount Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="496" end="499" text="TAH" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="502" end="505" text="BSO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="508" end="527" text="partial omentectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="531" end="535" text="CTMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E81" start="562" end="567" text="tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="572" end="577" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E83" start="584" end="615" text="studding on the right diaphragm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="618" end="660" text="gross tumor in the omentum and large bowel" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="663" end="695" text="tumor through the uterine serosa" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="698" end="707" text="Pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="708" end="714" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E86" start="715" end="771" text="grade II-III papillary adenocarcinoma of the endometrium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="777" end="801" text="squamous differentiation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="812" end="828" text="focally invasive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="833" end="855" text="superficial myometrium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="868" end="874" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E90" start="875" end="897" text="papillary serous adeno" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="903" end="922" text="omental involvement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="939" end="968" text="an endometroid adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T1" start="1205" end="1212" text="6-27-91" type="DATE" val="1991-06-27" mod="NA" />
+<TIMEX3 id="T5" start="1230" end="1237" text="8-29-91" type="DATE" val="1991-08-29" mod="NA" />
+<TIMEX3 id="T6" start="1253" end="1258" text="05-92" type="DATE" val="1992-05" mod="NA" />
+<TIMEX3 id="T7" start="1604" end="1610" text="3 days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T8" start="1649" end="1655" text="3 days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T9" start="1733" end="1739" text="1 hour" type="DURATION" val="PT1H" mod="MORE" />
+<TIMEX3 id="T10" start="1740" end="1761" text="each day for 3 days ." type="FREQUENCY" val="R3P1D" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="09/07/1992" type="DATE" val="1992-09-07" mod="NA" />
+<TIMEX3 id="T11" start="2137" end="2142" text="1 day" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T12" start="2209" end="2223" text="the second day" type="DATE" val="1992-09-08" mod="NA" />
+<TIMEX3 id="T13" start="2398" end="2412" text="her second day" type="DATE" val="1992-09-08" mod="NA" />
+<TIMEX3 id="T14" start="2645" end="2649" text="9-10" type="DATE" val="1992-09-10" mod="NA" />
+<TIMEX3 id="T15" start="2812" end="2816" text="9-11" type="DATE" val="1992-09-11" mod="NA" />
+<TIMEX3 id="T3" start="283" end="288" text="10-90" type="DATE" val="1990-10" mod="NA" />
+<TIMEX3 id="T16" start="3052" end="3055" text="9-8" type="DATE" val="1992-09-08" mod="NA" />
+<TIMEX3 id="T24" start="3155" end="3176" text="the time of discharge" type="DATE" val="1992-09-12" mod="NA" />
+<TIMEX3 id="T17" start="3242" end="3249" text="per day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T18" start="3281" end="3301" text="the day of discharge" type="DATE" val="1992-09-12" mod="NA" />
+<TIMEX3 id="T19" start="3405" end="3425" text="the day of discharge" type="DATE" val="1992-09-12" mod="NA" />
+<TIMEX3 id="T21" start="3477" end="3480" text="q d" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T20" start="3526" end="3533" text="9-12-92" type="DATE" val="1992-09-12" mod="NA" />
+<TIMEX3 id="T22" start="3634" end="3641" text="9-28-92" type="DATE" val="1992-09-28" mod="NA" />
+<TIMEX3 id="T23" start="3787" end="3803" text="Monday , 9-14-02" type="DATE" val="1992-09-14" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="09/12/1992" type="DATE" val="1992-09-12" mod="NA" />
+<TIMEX3 id="T4" start="539" end="544" text="10-90" type="DATE" val="1990-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="09/07/1992" type="OVERLAP" />
+<TLINK id="TL1" fromID="E16" fromText="VP-16" toID="E17" toText="IV fluid" type="OVERLAP" />
+<TLINK id="TL10" fromID="E73" fromText="stage III-C ovarian cancer" toID="E98" toText="admission" type="BEFORE" />
+<TLINK id="TL100" fromID="E48" fromText="her PT" toID="T24" toText="the time of discharge" type="OVERLAP" />
+<TLINK id="TL101" fromID="E112" fromText="Coumadin" toID="T17" toText="per day" type="OVERLAP" />
+<TLINK id="TL102" fromID="E112" fromText="Coumadin" toID="T24" toText="the time of discharge" type="AFTER" />
+<TLINK id="TL103" fromID="E49" fromText="The patient 's hematocrit" toID="T18" toText="the day of discharge" type="OVERLAP" />
+<TLINK id="TL104" fromID="E113" fromText="significant bump" toID="E49" toText="The patient 's hematocrit" type="OVERLAP" />
+<TLINK id="TL105" fromID="E113" fromText="significant bump" toID="T18" toText="the day of discharge" type="OVERLAP" />
+<TLINK id="TL106" fromID="E113" fromText="significant bump" toID="E51" toText="packed RBC" type="AFTER" />
+<TLINK id="TL107" fromID="E52" fromText="Her PT" toID="T19" toText="the day of discharge" type="OVERLAP" />
+<TLINK id="TL108" fromID="E53" fromText="Coumadin" toID="E112" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL109" fromID="E53" fromText="Coumadin" toID="T21" toText="q d" type="OVERLAP" />
+<TLINK id="TL11" fromID="E74" fromText="metastatic endometrial cancer" toID="E98" toText="admission" type="BEFORE" />
+<TLINK id="TL110" fromID="E114" fromText="discharged" toID="T20" toText="9-12-92" type="OVERLAP" />
+<TLINK id="TL111" fromID="E115" fromText="her attending physiciana" toID="E114" toText="discharged" type="OVERLAP" />
+<TLINK id="TL112" fromID="E116" fromText="chemotherapy" toID="T22" toText="9-28-92" type="OVERLAP" />
+<TLINK id="TL113" fromID="E117" fromText="follow up" toID="E118" toText="her primary doctor" type="OVERLAP" />
+<TLINK id="TL114" fromID="E117" fromText="follow up" toID="E119" toText="repeat PT" type="OVERLAP" />
+<TLINK id="TL115" fromID="E117" fromText="follow up" toID="E120" toText="Coumadin dosing" type="OVERLAP" />
+<TLINK id="TL116" fromID="E117" fromText="follow up" toID="T23" toText="Monday , 9-14-02" type="OVERLAP" />
+<TLINK id="TL12" fromID="E75" fromText="cycle 1 chemotherapy" toID="E98" toText="admission" type="AFTER" />
+<TLINK id="TL13" fromID="E2" fromText="D and C" toID="T3" toText="10-90" type="OVERLAP" />
+<TLINK id="TL14" fromID="E2" fromText="D and C" toID="E54" toText="showed" type="OVERLAP" />
+<TLINK id="TL15" fromID="E77" fromText="grade II-III adenocarcinoma" toID="E54" toText="showed" type="BEFORE" />
+<TLINK id="TL16" fromID="E78" fromText="squamous differentiation" toID="E77" toText="grade II-III adenocarcinoma" type="OVERLAP" />
+<TLINK id="TL17" fromID="E54" fromText="showed" toID="E79" toText="Wellla Uxinny : mount Medical Center" type="OVERLAP" />
+<TLINK id="TL19" fromID="E3" fromText="TAH" toID="E55" toText="CTMC" type="OVERLAP" />
+<TLINK id="TL2" fromID="E28" fromText="8-10 RBC 's in her urine" toID="E27" toText="chemotherapy" type="AFTER" />
+<TLINK id="TL20" fromID="E4" fromText="BSO" toID="E55" toText="CTMC" type="OVERLAP" />
+<TLINK id="TL21" fromID="E5" fromText="partial omentectomy" toID="E55" toText="CTMC" type="OVERLAP" />
+<TLINK id="TL22" fromID="E55" fromText="CTMC" toID="T4" toText="10-90" type="OVERLAP" />
+<TLINK id="TL23" fromID="E81" fromText="tumor" toID="E82" toText="found" type="BEFORE" />
+<TLINK id="TL24" fromID="E82" fromText="found" toID="T4" toText="10-90" type="OVERLAP" />
+<TLINK id="TL25" fromID="E81" fromText="tumor" toID="E83" toText="studding on the right diaphragm" type="OVERLAP" />
+<TLINK id="TL27" fromID="E85" fromText="tumor through the uterine serosa" toID="E82" toText="found" type="BEFORE" />
+<TLINK id="TL28" fromID="E84" fromText="gross tumor in the omentum and large bowel" toID="E82" toText="found" type="BEFORE" />
+<TLINK id="TL29" fromID="E6" fromText="Pathology" toID="E56" toText="showed" type="OVERLAP" />
+<TLINK id="TL3" fromID="E31" fromText="a few transitional epithelial cells" toID="E30" toText="50-80 RBC 's in her urine" type="OVERLAP" />
+<TLINK id="TL30" fromID="E86" fromText="grade II-III papillary adenocarcinoma of the endometrium" toID="E56" toText="showed" type="BEFORE" />
+<TLINK id="TL31" fromID="E87" fromText="squamous differentiation" toID="E86" toText="grade II-III papillary adenocarcinoma of the endometrium" type="OVERLAP" />
+<TLINK id="TL32" fromID="E88" fromText="focally invasive" toID="E87" toText="squamous differentiation" type="OVERLAP" />
+<TLINK id="TL33" fromID="E89" fromText="superficial myometrium" toID="E56" toText="showed" type="BEFORE" />
+<TLINK id="TL34" fromID="E90" fromText="papillary serous adeno" toID="E57" toText="showed" type="BEFORE" />
+<TLINK id="TL35" fromID="E91" fromText="omental involvement" toID="E90" toText="papillary serous adeno" type="OVERLAP" />
+<TLINK id="TL36" fromID="E92" fromText="an endometroid adenocarcinoma" toID="E90" toText="papillary serous adeno" type="OVERLAP" />
+<TLINK id="TL37" fromID="E93" fromText="two primaries" toID="E94" toText="metastatic endometrial cancer" type="OVERLAP" />
+<TLINK id="TL38" fromID="E93" fromText="two primaries" toID="T4" toText="10-90" type="OVERLAP" />
+<TLINK id="TL39" fromID="E7" fromText="CAP" toID="E95" toText="Pemrancetul Tonsst" type="OVERLAP" />
+<TLINK id="TL4" fromID="E37" fromText="complication" toID="E36" toText="her VP-16" type="OVERLAP" />
+<TLINK id="TL40" fromID="E9" fromText="Cytoxan" toID="E8" toText="the fourth cycle" type="BEFORE" />
+<TLINK id="TL41" fromID="E10" fromText="Her CA-125" toID="T1" toText="6-27-91" type="OVERLAP" />
+<TLINK id="TL42" fromID="E10" fromText="Her CA-125" toID="T5" toText="8-29-91" type="OVERLAP" />
+<TLINK id="TL43" fromID="E59" fromText="admitted" toID="T6" toText="05-92" type="OVERLAP" />
+<TLINK id="TL44" fromID="E60" fromText="Wellla Uxinny : mount Medical Center" toID="E59" toText="admitted" type="AFTER" />
+<TLINK id="TL45" fromID="E11" fromText="left leg DVT" toID="E59" toText="admitted" type="BEFORE" />
+<TLINK id="TL46" fromID="E96" fromText="started" toID="E60" toText="Wellla Uxinny : mount Medical Center" type="OVERLAP" />
+<TLINK id="TL47" fromID="E12" fromText="Heparin therapy" toID="E96" toText="started" type="AFTER" />
+<TLINK id="TL48" fromID="E60" fromText="Wellla Uxinny : mount Medical Center" toID="E61" toText="discharged" type="BEFORE" />
+<TLINK id="TL49" fromID="E97" fromText="Coumadin therapy" toID="E61" toText="discharged" type="BEFORE" />
+<TLINK id="TL5" fromID="E45" fromText="PTT" toID="E44" toText="PT" type="OVERLAP" />
+<TLINK id="TL50" fromID="E98" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL51" fromID="E99" fromText="complaints" toID="E98" toText="admission" type="OVERLAP" />
+<TLINK id="TL52" fromID="E99" fromText="complaints" toID="E100" toText="anxiety" type="OVERLAP" />
+<TLINK id="TL53" fromID="E13" fromText="IFEX" toID="E101" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL54" fromID="E13" fromText="IFEX" toID="T7" toText="3 days" type="OVERLAP" />
+<TLINK id="TL55" fromID="E14" fromText="MESNA" toID="E101" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL56" fromID="E14" fromText="MESNA" toID="E15" toText="continuous IV infusion" type="OVERLAP" />
+<TLINK id="TL57" fromID="E14" fromText="MESNA" toID="T8" toText="3 days" type="OVERLAP" />
+<TLINK id="TL58" fromID="E16" fromText="VP-16" toID="T10" toText="each day for 3 days ." type="OVERLAP" />
+<TLINK id="TL59" fromID="E20" fromText="MESNA" toID="E19" toText="her IFEX" type="AFTER" />
+<TLINK id="TL6" fromID="E70" fromText="Discharge" toID="T2" toText="09/12/1992" type="OVERLAP" />
+<TLINK id="TL60" fromID="E19" fromText="her IFEX" toID="E62" toText="completed" type="BEFORE" />
+<TLINK id="TL61" fromID="T9" fromText="1 hour" toID="T10" toText="each day for 3 days ." type="OVERLAP" />
+<TLINK id="TL62" fromID="E21" fromText="The patient 's urinalysis" toID="E63" toText="admission" type="OVERLAP" />
+<TLINK id="TL63" fromID="E63" fromText="admission" toID="E98" toText="admission" type="OVERLAP" />
+<TLINK id="TL64" fromID="E22" fromText="red blood cells" toID="E21" toText="The patient 's urinalysis" type="OVERLAP" />
+<TLINK id="TL65" fromID="E22" fromText="red blood cells" toID="E23" toText="uric acid" type="OVERLAP" />
+<TLINK id="TL66" fromID="E102" fromText="bleeding" toID="E103" toText="contaminated" type="OVERLAP" />
+<TLINK id="TL67" fromID="E102" fromText="bleeding" toID="E24" toText="her IFEX" type="BEFORE" />
+<TLINK id="TL68" fromID="E24" fromText="her IFEX" toID="E25" toText="MESNA" type="OVERLAP" />
+<TLINK id="TL69" fromID="E26" fromText="A repeat straight cath" toID="E104" toText="RBC 's" type="OVERLAP" />
+<TLINK id="TL7" fromID="E76" fromText="presented" toID="T3" toText="10-90" type="OVERLAP" />
+<TLINK id="TL70" fromID="E27" fromText="chemotherapy" toID="T11" toText="1 day" type="OVERLAP" />
+<TLINK id="TL71" fromID="E28" fromText="8-10 RBC 's in her urine" toID="T11" toText="1 day" type="AFTER" />
+<TLINK id="TL72" fromID="T11" fromText="1 day" toID="E98" toText="admission" type="AFTER" />
+<TLINK id="TL73" fromID="E29" fromText="her IFEX infusion" toID="T12" toText="the second day" type="OVERLAP" />
+<TLINK id="TL74" fromID="E30" fromText="50-80 RBC 's in her urine" toID="T12" toText="the second day" type="OVERLAP" />
+<TLINK id="TL75" fromID="E31" fromText="a few transitional epithelial cells" toID="T12" toText="the second day" type="OVERLAP" />
+<TLINK id="TL76" fromID="E32" fromText="her IFEX" toID="E64" toText="stopped" type="BEFORE" />
+<TLINK id="TL77" fromID="E64" fromText="stopped" toID="T13" toText="her second day" type="OVERLAP" />
+<TLINK id="TL78" fromID="E33" fromText="infusion" toID="E29" toText="her IFEX infusion" type="OVERLAP" />
+<TLINK id="TL79" fromID="E34" fromText="Her MESNA" toID="E105" toText="continued" type="OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="heavy bleeding per vagina" toID="E76" toText="presented" type="BEFORE" />
+<TLINK id="TL80" fromID="E105" fromText="continued" toID="E35" toText="IV infusion" type="OVERLAP" />
+<TLINK id="TL81" fromID="E38" fromText="the patient 's hematocrit" toID="E65" toText="admission" type="OVERLAP" />
+<TLINK id="TL82" fromID="E106" fromText="dwindled down" toID="T14" toText="9-10" type="OVERLAP" />
+<TLINK id="TL83" fromID="E38" fromText="the patient 's hematocrit" toID="E106" toText="dwindled down" type="OVERLAP" />
+<TLINK id="TL84" fromID="E66" fromText="counselled" toID="T14" toText="9-10" type="OVERLAP" />
+<TLINK id="TL85" fromID="E39" fromText="packed RBC" toID="T14" toText="9-10" type="OVERLAP" />
+<TLINK id="TL86" fromID="E39" fromText="packed RBC" toID="E66" toText="counselled" type="AFTER" />
+<TLINK id="TL87" fromID="E41" fromText="the patient 's hematocrit" toID="E107" toText="a repeat" type="OVERLAP" />
+<TLINK id="TL88" fromID="E107" fromText="a repeat" toID="T15" toText="9-11" type="OVERLAP" />
+<TLINK id="TL89" fromID="E108" fromText="hematocrit" toID="T15" toText="9-11" type="OVERLAP" />
+<TLINK id="TL9" fromID="E72" fromText="stage IV endometrial cancer" toID="E76" toText="presented" type="BEFORE" />
+<TLINK id="TL90" fromID="E42" fromText="packed RBC" toID="E109" toText="transfused" type="OVERLAP" />
+<TLINK id="TL91" fromID="E109" fromText="transfused" toID="T15" toText="9-11" type="OVERLAP" />
+<TLINK id="TL92" fromID="E43" fromText="her anticoagulation" toID="E67" toText="admission" type="BEFORE" />
+<TLINK id="TL93" fromID="E110" fromText="grossly out of control" toID="E43" toText="her anticoagulation" type="OVERLAP" />
+<TLINK id="TL94" fromID="E110" fromText="grossly out of control" toID="E67" toText="admission" type="OVERLAP" />
+<TLINK id="TL95" fromID="E44" fromText="PT" toID="E67" toText="admission" type="OVERLAP" />
+<TLINK id="TL96" fromID="E68" fromText="Her repeat" toID="T16" toText="9-8" type="OVERLAP" />
+<TLINK id="TL97" fromID="E46" fromText="her Coumadin" toID="E69" toText="held" type="BEFORE" />
+<TLINK id="TL98" fromID="E69" fromText="held" toID="T16" toText="9-8" type="OVERLAP" />
+<TLINK id="TL99" fromID="E47" fromText="Coumadin" toID="E111" toText="her admission" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="09/07/1992" type="ADMISSION" dvalue="1992-09-07" />
+<SECTIME id="S1" start="46" end="56" text="09/12/1992" type="DISCHARGE" dvalue="1992-09-12" />
+<TLINK id="SECTIME0" fromID="E93" fromText="two primaries" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E94" fromText="metastatic endometrial cancer" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E7" fromText="CAP" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E95" fromText="Pemrancetul Tonsst" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E8" fromText="the fourth cycle" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E71" fromText="gravida 0" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E9" fromText="Cytoxan" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E10" fromText="Her CA-125" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E59" fromText="admitted" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E60" fromText="Wellla Uxinny : mount Medical Center" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E72" fromText="stage IV endometrial cancer" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E11" fromText="left leg DVT" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E96" fromText="started" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E12" fromText="Heparin therapy" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E61" fromText="discharged" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E97" fromText="Coumadin therapy" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E98" fromText="admission" toID="T0" toText="09/07/1992" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E99" fromText="complaints" toID="T0" toText="09/07/1992" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E100" fromText="anxiety" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E101" fromText="chemotherapy" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E13" fromText="IFEX" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E73" fromText="stage III-C ovarian cancer" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E14" fromText="MESNA" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E15" fromText="continuous IV infusion" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E16" fromText="VP-16" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E17" fromText="IV fluid" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E20" fromText="MESNA" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E19" fromText="her IFEX" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E62" fromText="completed" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E21" fromText="The patient 's urinalysis" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E63" fromText="admission" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E74" fromText="metastatic endometrial cancer" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E22" fromText="red blood cells" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E23" fromText="uric acid" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E102" fromText="bleeding" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E103" fromText="contaminated" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E24" fromText="her IFEX" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E25" fromText="MESNA" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E26" fromText="A repeat straight cath" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E104" fromText="RBC 's" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E27" fromText="chemotherapy" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E28" fromText="8-10 RBC 's in her urine" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E29" fromText="her IFEX infusion" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E30" fromText="50-80 RBC 's in her urine" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E31" fromText="a few transitional epithelial cells" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E75" fromText="cycle 1 chemotherapy" toID="T0" toText="09/07/1992" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E32" fromText="her IFEX" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E64" fromText="stopped" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E33" fromText="infusion" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E34" fromText="Her MESNA" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E105" fromText="continued" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E35" fromText="IV infusion" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E36" fromText="her VP-16" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E37" fromText="complication" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E38" fromText="the patient 's hematocrit" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E65" fromText="admission" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E106" fromText="dwindled down" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E66" fromText="counselled" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E76" fromText="presented" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E39" fromText="packed RBC" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E41" fromText="the patient 's hematocrit" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E107" fromText="a repeat" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E108" fromText="hematocrit" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E42" fromText="packed RBC" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E109" fromText="transfused" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E43" fromText="her anticoagulation" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E1" fromText="heavy bleeding per vagina" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E110" fromText="grossly out of control" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E67" fromText="admission" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E44" fromText="PT" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E45" fromText="PTT" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E68" fromText="Her repeat" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E46" fromText="her Coumadin" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E69" fromText="held" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E47" fromText="Coumadin" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E111" fromText="her admission" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E48" fromText="her PT" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E112" fromText="Coumadin" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E2" fromText="D and C" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E49" fromText="The patient 's hematocrit" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E113" fromText="significant bump" toID="T2" toText="09/12/1992" type="OVERLAP" />
+<TLINK id="SECTIME81" fromID="E54" fromText="showed" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E51" fromText="packed RBC" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E77" fromText="grade II-III adenocarcinoma" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E52" fromText="Her PT" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E53" fromText="Coumadin" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E114" fromText="discharged" toID="T2" toText="09/12/1992" type="OVERLAP" />
+<TLINK id="SECTIME87" fromID="E115" fromText="her attending physiciana" toID="T2" toText="09/12/1992" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E116" fromText="chemotherapy" toID="T2" toText="09/12/1992" type="AFTER" />
+<TLINK id="SECTIME89" fromID="E117" fromText="follow up" toID="T2" toText="09/12/1992" type="AFTER" />
+<TLINK id="SECTIME90" fromID="E78" fromText="squamous differentiation" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E118" fromText="her primary doctor" toID="T2" toText="09/12/1992" type="AFTER" />
+<TLINK id="SECTIME92" fromID="E119" fromText="repeat PT" toID="T2" toText="09/12/1992" type="AFTER" />
+<TLINK id="SECTIME93" fromID="E120" fromText="Coumadin dosing" toID="T2" toText="09/12/1992" type="AFTER" />
+<TLINK id="SECTIME94" fromID="E79" fromText="Wellla Uxinny : mount Medical Center" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E3" fromText="TAH" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E4" fromText="BSO" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E5" fromText="partial omentectomy" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E55" fromText="CTMC" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E81" fromText="tumor" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E82" fromText="found" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E83" fromText="studding on the right diaphragm" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E84" fromText="gross tumor in the omentum and large bowel" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E85" fromText="tumor through the uterine serosa" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E6" fromText="Pathology" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E56" fromText="showed" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E86" fromText="grade II-III papillary adenocarcinoma of the endometrium" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E87" fromText="squamous differentiation" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E88" fromText="focally invasive" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E89" fromText="superficial myometrium" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E57" fromText="showed" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E90" fromText="papillary serous adeno" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E91" fromText="omental involvement" toID="T0" toText="09/07/1992" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E92" fromText="an endometroid adenocarcinoma" toID="T0" toText="09/07/1992" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2008-12-24
+Discharge Date :
+2009-02-06
+Service :
+Neonatology
+HISTORY OF PRESENT ILLNESS :
+Gerardo is the 1400 gm product of a 32 05-03 week twin gestation born to a 37 year old gravida 1 , para 0 mother .
+SUMMARY OF HOSPITAL COURSE :
+1. Respiratory - Gerardo was initially placed in nasal cannula oxygen to maintain oxygen saturation greater than 94 .
+On day of life #1 , caffeine was started .
+Gerardo weaned to room air on day of life #6 .
+Caffeine was discontinued on day of life #19 .
+Breath sounds , clear and equal , without retractions , respiratory rate 30 s to 60 s.
+2. Cardiovascular - The patient has been cardiovascularly stable without murmur .
+3. Fluids , electrolytes and nutrition - Birthweight was 1400 gm , 25th percentile .
+The patient was initially started on D10 / W at 80 cc / kg / day .
+She began enteral feeds on day of life #2 advancing to mother 's breastmilk 30 with ProMod at 150 cc / kg / day .
+Baby received parenteral nutrition and lipids for four days .
+No hypoglycemia issues noted .
+Baby is presently tolerating mother 's breastmilk with Enfamil powder to make 24 cal / oz at 130 cc / kg / day .
+The baby is breastfeeding well .
+The plan is for alternating feeds .
+4. Gastrointestinal , genitourinary - Peak bilirubin 8.5 , phototherapy times 24 hours .
+Rebound bilirubin 6.4 .
+5. Hematology - Most recent hematocrit was 42.8 on 50-05-25 .
+The baby received no blood products .
+6. Infectious disease - No sepsis risk factors .
+Initial complete blood count with white blood cell count 14 , hemoglobin 21.6 , hematocrit 62.9 , 65 neutrophils , no bands , 28 lymphocytes .
+Blood cultures negative .
+7. Neurology - Normal head ultrasound on 2009-01-08 .
+8. Sensory - Audiology , hearing screening was performed with automated auditory brain stem responses .
+Baby passed hearing test on 2009-01-21 .
+Follow up recommended in eight months .
+Ophthalmology :: eyes were examined most recently on 2009-01-14 , revealing mature retinal vessels .
+A follow up examination is recommended in six to eight months .
+9. Psychosocial - Bridgewater State Hospital Center 's social work involved with family .
+The contact social worker is Barbara Cole and she can be reached at ( 972 ) 433-8086 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E30" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1007" end="1026" text="hypoglycemia issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1027" end="1032" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="1053" end="1063" text="tolerating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1064" end="1084" text="mother 's breastmilk" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1090" end="1104" text="Enfamil powder" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1160" end="1173" text="breastfeeding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1197" end="1214" text="alternating feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1255" end="1269" text="Peak bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1276" end="1288" text="phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1306" end="1323" text="Rebound bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1358" end="1368" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1413" end="1427" text="blood products" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E21" start="1457" end="1476" text="sepsis risk factors" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1479" end="1507" text="Initial complete blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1513" end="1535" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="1541" end="1551" text="hemoglobin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1559" end="1569" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1580" end="1591" text="neutrophils" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="158" end="172" text="twin gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1597" end="1602" text="bands" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E27" start="1608" end="1619" text="lymphocytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1622" end="1636" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1663" end="1685" text="Normal head ultrasound" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1727" end="1744" text="hearing screening" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="173" end="177" text="born" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1764" end="1803" text="automated auditory brain stem responses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1818" end="1830" text="hearing test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1847" end="1856" text="Follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1857" end="1868" text="recommended" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1914" end="1922" text="examined" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1953" end="1962" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="1963" end="1985" text="mature retinal vessels" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1988" end="2011" text="A follow up examination" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2015" end="2026" text="recommended" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2070" end="2103" text="Bridgewater State Hospital Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="2107" end="2118" text="social work" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="301" end="321" text="nasal cannula oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="334" end="351" text="oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="390" end="398" text="caffeine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="421" end="427" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="431" end="439" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="460" end="468" text="Caffeine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="507" end="520" text="Breath sounds" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="523" end="528" text="clear" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="533" end="538" text="equal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="549" end="560" text="retractions" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="563" end="579" text="respiratory rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="635" end="658" text="cardiovascularly stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="667" end="673" text="murmur" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="717" end="728" text="Birthweight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="798" end="805" text="D10 / W" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="838" end="851" text="enteral feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="883" end="903" text="mother 's breastmilk" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="912" end="918" text="ProMod" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="956" end="976" text="parenteral nutrition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="981" end="987" text="lipids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T11" start="1381" end="1389" text="50-05-25" type="DATE" val="2050-05-25" mod="NA" />
+<TIMEX3 id="T0" start="144" end="157" text="32 05-03 week" type="DURATION" val="P32W" mod="APPROX" />
+<TIMEX3 id="T7" start="1689" end="1699" text="2009-01-08" type="DATE" val="2009-01-08" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2008-12-24" type="DATE" val="2008-12-24" mod="NA" />
+<TIMEX3 id="T8" start="1834" end="1844" text="2009-01-21" type="DATE" val="2009-01-21" mod="NA" />
+<TIMEX3 id="T13" start="1872" end="1884" text="eight months" type="DURATION" val="P8M" mod="NA" />
+<TIMEX3 id="T9" start="1940" end="1950" text="2009-01-14" type="DATE" val="2009-01-14" mod="NA" />
+<TIMEX3 id="T14" start="2030" end="2049" text="six to eight months" type="DURATION" val="P7M" mod="APPROX" />
+<TIMEX3 id="T3" start="373" end="387" text="day of life #1" type="DATE" val="2008-12-24" mod="NA" />
+<TIMEX3 id="T4" start="443" end="457" text="day of life #6" type="DATE" val="2008-12-30" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2009-02-06" type="DATE" val="2009-02-06" mod="NA" />
+<TIMEX3 id="T5" start="489" end="504" text="day of life #19" type="DATE" val="2009-01-12" mod="NA" />
+<TIMEX3 id="T6" start="855" end="869" text="day of life #2" type="DATE" val="2008-12-25" mod="NA" />
+<TIMEX3 id="T10" start="992" end="1001" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TLINK id="TL0" fromID="E30" fromText="Admission" toID="T1" toText="2008-12-24" type="OVERLAP" />
+<TLINK id="TL1" fromID="E3" fromText="caffeine" toID="E4" toText="Caffeine" type="OVERLAP" />
+<TLINK id="TL10" fromID="E20" fromText="blood products" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL11" fromID="E22" fromText="Initial complete blood count" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL12" fromID="E16" fromText="Peak bilirubin" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL13" fromID="E15" fromText="hypoglycemia issues" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL14" fromID="E5" fromText="Breath sounds" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL16" fromID="E1" fromText="nasal cannula oxygen" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL17" fromID="E21" fromText="sepsis risk factors" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL18" fromID="E31" fromText="recommended" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL19" fromID="E9" fromText="Birthweight" toID="E35" toText="born" type="OVERLAP" />
+<TLINK id="TL2" fromID="E11" fromText="enteral feeds" toID="T6" toText="day of life #2" type="AFTER" />
+<TLINK id="TL20" fromID="E19" fromText="hematocrit" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL21" fromID="E2" fromText="oxygen saturation" toID="E1" toText="nasal cannula oxygen" type="OVERLAP" />
+<TLINK id="TL22" fromID="E3" fromText="caffeine" toID="T3" toText="day of life #1" type="AFTER" />
+<TLINK id="TL23" fromID="E36" fromText="weaned" toID="T4" toText="day of life #6" type="OVERLAP" />
+<TLINK id="TL24" fromID="E57" fromText="room air" toID="T4" toText="day of life #6" type="AFTER" />
+<TLINK id="TL25" fromID="E4" fromText="Caffeine" toID="T5" toText="day of life #19" type="BEFORE" />
+<TLINK id="TL26" fromID="E37" fromText="clear" toID="E5" toText="Breath sounds" type="OVERLAP" />
+<TLINK id="TL27" fromID="E38" fromText="equal" toID="E5" toText="Breath sounds" type="OVERLAP" />
+<TLINK id="TL28" fromID="E6" fromText="retractions" toID="E5" toText="Breath sounds" type="OVERLAP" />
+<TLINK id="TL29" fromID="E7" fromText="respiratory rate" toID="E5" toText="Breath sounds" type="OVERLAP" />
+<TLINK id="TL3" fromID="E13" fromText="parenteral nutrition" toID="E14" toText="lipids" type="OVERLAP" />
+<TLINK id="TL30" fromID="E8" fromText="murmur" toID="E39" toText="cardiovascularly stable" type="OVERLAP" />
+<TLINK id="TL31" fromID="E40" fromText="mother 's breastmilk" toID="E11" toText="enteral feeds" type="AFTER" />
+<TLINK id="TL32" fromID="E12" fromText="ProMod" toID="E40" toText="mother 's breastmilk" type="OVERLAP" />
+<TLINK id="TL33" fromID="E13" fromText="parenteral nutrition" toID="T10" toText="four days" type="OVERLAP" />
+<TLINK id="TL34" fromID="T10" fromText="four days" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL35" fromID="E41" fromText="noted" toID="E15" toText="hypoglycemia issues" type="OVERLAP" />
+<TLINK id="TL36" fromID="E44" fromText="Enfamil powder" toID="E42" toText="tolerating" type="OVERLAP" />
+<TLINK id="TL37" fromID="E46" fromText="alternating feeds" toID="E42" toText="tolerating" type="OVERLAP" />
+<TLINK id="TL38" fromID="E45" fromText="breastfeeding" toID="E43" toText="mother 's breastmilk" type="OVERLAP" />
+<TLINK id="TL39" fromID="E44" fromText="Enfamil powder" toID="E43" toText="mother 's breastmilk" type="OVERLAP" />
+<TLINK id="TL4" fromID="E0" fromText="Discharge" toID="T2" toText="2009-02-06" type="OVERLAP" />
+<TLINK id="TL40" fromID="E19" fromText="hematocrit" toID="T11" toText="50-05-25" type="OVERLAP" />
+<TLINK id="TL41" fromID="E19" fromText="hematocrit" toID="E20" toText="blood products" type="BEFORE" />
+<TLINK id="TL42" fromID="E23" fromText="white blood cell count" toID="E22" toText="Initial complete blood count" type="OVERLAP" />
+<TLINK id="TL43" fromID="E24" fromText="hemoglobin" toID="E23" toText="white blood cell count" type="OVERLAP" />
+<TLINK id="TL44" fromID="E25" fromText="hematocrit" toID="E24" toText="hemoglobin" type="OVERLAP" />
+<TLINK id="TL45" fromID="E26" fromText="neutrophils" toID="E25" toText="hematocrit" type="OVERLAP" />
+<TLINK id="TL46" fromID="E47" fromText="bands" toID="E26" toText="neutrophils" type="OVERLAP" />
+<TLINK id="TL47" fromID="E47" fromText="bands" toID="E27" toText="lymphocytes" type="OVERLAP" />
+<TLINK id="TL48" fromID="E48" fromText="Blood cultures" toID="E27" toText="lymphocytes" type="OVERLAP" />
+<TLINK id="TL49" fromID="E49" fromText="Normal head ultrasound" toID="T7" toText="2009-01-08" type="OVERLAP" />
+<TLINK id="TL5" fromID="T0" fromText="32 05-03 week" toID="T1" toText="2008-12-24" type="BEFORE" />
+<TLINK id="TL50" fromID="E50" fromText="automated auditory brain stem responses" toID="E28" toText="hearing screening" type="OVERLAP" />
+<TLINK id="TL51" fromID="E29" fromText="hearing test" toID="E28" toText="hearing screening" type="OVERLAP" />
+<TLINK id="TL52" fromID="E29" fromText="hearing test" toID="T8" toText="2009-01-21" type="OVERLAP" />
+<TLINK id="TL53" fromID="T13" fromText="eight months" toID="E51" toText="Follow up" type="BEFORE" />
+<TLINK id="TL54" fromID="T13" fromText="eight months" toID="T2" toText="2009-02-06" type="AFTER" />
+<TLINK id="TL55" fromID="E31" fromText="recommended" toID="E51" toText="Follow up" type="BEFORE" />
+<TLINK id="TL56" fromID="E52" fromText="examined" toID="T9" toText="2009-01-14" type="OVERLAP" />
+<TLINK id="TL57" fromID="E53" fromText="mature retinal vessels" toID="E52" toText="examined" type="BEFORE" />
+<TLINK id="TL58" fromID="E32" fromText="revealing" toID="E52" toText="examined" type="OVERLAP" />
+<TLINK id="TL59" fromID="T14" fromText="six to eight months" toID="E54" toText="A follow up examination" type="BEFORE" />
+<TLINK id="TL6" fromID="E34" fromText="twin gestation" toID="T0" toText="32 05-03 week" type="OVERLAP" />
+<TLINK id="TL60" fromID="T14" fromText="six to eight months" toID="T2" toText="2009-02-06" type="AFTER" />
+<TLINK id="TL61" fromID="E33" fromText="recommended" toID="E54" toText="A follow up examination" type="BEFORE" />
+<TLINK id="TL62" fromID="E55" fromText="Bridgewater State Hospital Center" toID="E56" toText="social work" type="OVERLAP" />
+<TLINK id="TL7" fromID="E10" fromText="D10 / W" toID="E35" toText="born" type="AFTER" />
+<TLINK id="TL8" fromID="E39" fromText="cardiovascularly stable" toID="E35" toText="born" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2008-12-24" type="ADMISSION" dvalue="2008-12-24" />
+<SECTIME id="S1" start="46" end="56" text="2009-02-06" type="DISCHARGE" dvalue="2009-02-06" />
+<TLINK id="SECTIME0" fromID="E15" fromText="hypoglycemia issues" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E41" fromText="noted" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E42" fromText="tolerating" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E43" fromText="mother 's breastmilk" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E44" fromText="Enfamil powder" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E45" fromText="breastfeeding" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E46" fromText="alternating feeds" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E16" fromText="Peak bilirubin" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E17" fromText="phototherapy" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E18" fromText="Rebound bilirubin" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E19" fromText="hematocrit" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E20" fromText="blood products" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E21" fromText="sepsis risk factors" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E22" fromText="Initial complete blood count" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E23" fromText="white blood cell count" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E24" fromText="hemoglobin" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E25" fromText="hematocrit" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E26" fromText="neutrophils" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E34" fromText="twin gestation" toID="T1" toText="2008-12-24" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E47" fromText="bands" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E27" fromText="lymphocytes" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E48" fromText="Blood cultures" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E49" fromText="Normal head ultrasound" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E28" fromText="hearing screening" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E35" fromText="born" toID="T1" toText="2008-12-24" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E50" fromText="automated auditory brain stem responses" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E29" fromText="hearing test" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E51" fromText="Follow up" toID="T2" toText="2009-02-06" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E31" fromText="recommended" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E52" fromText="examined" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E32" fromText="revealing" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E53" fromText="mature retinal vessels" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E54" fromText="A follow up examination" toID="T2" toText="2009-02-06" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E33" fromText="recommended" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E55" fromText="Bridgewater State Hospital Center" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E56" fromText="social work" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E1" fromText="nasal cannula oxygen" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E2" fromText="oxygen saturation" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E3" fromText="caffeine" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E36" fromText="weaned" toID="T2" toText="2009-02-06" type="AFTER" />
+<TLINK id="SECTIME40" fromID="E57" fromText="room air" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E4" fromText="Caffeine" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E5" fromText="Breath sounds" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E37" fromText="clear" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E38" fromText="equal" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E6" fromText="retractions" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E7" fromText="respiratory rate" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E39" fromText="cardiovascularly stable" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E8" fromText="murmur" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E9" fromText="Birthweight" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E10" fromText="D10 / W" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E11" fromText="enteral feeds" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E40" fromText="mother 's breastmilk" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E12" fromText="ProMod" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E13" fromText="parenteral nutrition" toID="T2" toText="2009-02-06" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E14" fromText="lipids" toID="T2" toText="2009-02-06" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

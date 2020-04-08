@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-12-28
+Discharge Date :
+2020-01-20
+Service :
+CMED CCU
+HISTORY :
+Baby Girl Rizza-Gannaway is the 1515 gram product of a 32 and 06-30 week twin gestation born to a 37-year-old G - 2 , P - 0 , now 2 , mother .
+Prenatal Edward :
+A negative , antibody negative , hepatitis surface antigen negative , RPR nonreactive , rubella immune and GBS negative .
+Pregnancy was IUI assisted for di-di twin gestation and was relatively uncomplicated until mother presented on 12-15 , with spontaneous rupture of membranes .
+She was found to be having preterm contractions without cervical change and was admitted for bedrest .
+She received a full course of betamethasone complete on 12-17 , magnesium and erythromycin for latency through 12-21 .
+Intermittent maternal hypertension noted but without proteinuria .
+Ultrasounds have been reassuring with biophysicals 8 out of 8 x2 .
+On the evening of 12-27 , monitoring noted child 's increased preterm contractions , uterine tenderness and mildly increased fetal heart rates , due to concerns of possible chorioamnionitis , the mother was taken for cesarean delivery .
+The infant delivered with moderate tone and respiratory effort responding well to stimulation and brief blow by O2 .
+Apgars were 8 and 8 .
+HOSPITAL COURSE :
+By systems :
+Respiratory :
+Pocasset was admitted to the newborn intensive care unit with mild respiratory distress .
+Chest x-ray revealed a left pneumothorax which resolved on its own without intervention .
+The infant has remained in room air throughout her hospital course with occasional apnea and bradycardia episodes , the last being documented on 2020-01-14 .
+Cardiovascular :
+Attleboro has been stable throughout her newborn intensive care course without issue .
+Fluids and electrolytes :
+Birth weight was 1515 grams .
+She was initially started on 80 cc per kilo per day of D10W .
+Enteral feedings were initiated on day of life #1 .
+Full enteral feedings were achieved by day of life #7 .
+The infant had a course of heme positive stools with grossly bloody streaks and mucus felt to be protein allergy .
+The infant is now receiving breast milk with Nutramigen powder concentrate to 24 calorie .
+Stools have been negative to trace positive and abdominal exam is reassuring .
+Discharge weight is 2040 gm , the head circumference is 32 cm and the length is 46 cm. .
+GI :
+Peak bilirubin was on day of life #2 of 4.8/0.3 .
+Hematology :
+Hematocrit on admission was 41 .
+The infant did not require any blood transfusions during this hospital course .
+Infectious disease :
+CBC and blood culture were obtained on admission .
+White count was 4.8 , 7 polys , zero bands , platelet count of 316,000 .
+ANC at that time was 336 .
+A 24 hour CBC was obtained .
+White blood cell count was 5.1 , 22 polys , zero bands with a hematocrit of 39.3 and platelets of 313,000 .
+The infant received 48 hours of ampicillin and gentamicin which were discontinued with a negative blood culture .
+Neurology :
+The infant has been appropriate for gestational age .
+Sensory :
+Audiology hearing screen was performed with automated auditory brainstem responses and the infant passed on both ears .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1057" end="1073" text="chorioamnionitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1101" end="1118" text="cesarean delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1132" end="1141" text="delivered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1147" end="1160" text="moderate tone" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1184" end="1199" text="responding well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1203" end="1214" text="stimulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1219" end="1235" text="brief blow by O2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1238" end="1244" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1318" end="1326" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1330" end="1361" text="the newborn intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="1367" end="1392" text="mild respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1395" end="1406" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1407" end="1415" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="1416" end="1435" text="a left pneumothorax" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1470" end="1482" text="intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E44" start="1512" end="1520" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1532" end="1551" text="her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1557" end="1573" text="occasional apnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1578" end="1598" text="bradycardia episodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="164" end="173" text="gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1679" end="1685" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1697" end="1730" text="her newborn intensive care course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1739" end="1744" text="issue" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="1773" end="1785" text="Birth weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1858" end="1862" text="D10W" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1865" end="1881" text="Enteral feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1917" end="1938" text="Full enteral feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="196" end="209" text="G - 2 , P - 0" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2000" end="2020" text="heme positive stools" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2026" end="2048" text="grossly bloody streaks" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2053" end="2058" text="mucus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2070" end="2085" text="protein allergy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2116" end="2127" text="breast milk" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2133" end="2162" text="Nutramigen powder concentrate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2208" end="2222" text="trace positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="2227" end="2241" text="abdominal exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2258" end="2274" text="Discharge weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2288" end="2310" text="the head circumference" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2324" end="2334" text="the length" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="2352" end="2366" text="Peak bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="2415" end="2425" text="Hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="2429" end="2438" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2475" end="2497" text="any blood transfusions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E70" start="2505" end="2525" text="this hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2549" end="2552" text="CBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2557" end="2570" text="blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2588" end="2597" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="260" end="268" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2600" end="2611" text="White count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2622" end="2629" text="7 polys" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2632" end="2642" text="zero bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2645" end="2659" text="platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="2673" end="2676" text="ANC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="2700" end="2713" text="A 24 hour CBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2729" end="2751" text="White blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2762" end="2770" text="22 polys" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="2773" end="2783" text="zero bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="2789" end="2801" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="280" end="305" text="hepatitis surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2814" end="2823" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="2869" end="2879" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2884" end="2894" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2924" end="2948" text="a negative blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E88" start="3027" end="3051" text="Audiology hearing screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E89" start="3071" end="3109" text="automated auditory brainstem responses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="317" end="320" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="335" end="342" text="rubella" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="354" end="357" text="GBS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="383" end="395" text="IUI assisted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="411" end="420" text="gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="440" end="453" text="uncomplicated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="467" end="476" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="493" end="525" text="spontaneous rupture of membranes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="555" end="575" text="preterm contractions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="584" end="599" text="cervical change" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E16" start="608" end="616" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="621" end="628" text="bedrest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="661" end="674" text="betamethasone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="695" end="704" text="magnesium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="709" end="721" text="erythromycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="750" end="784" text="Intermittent maternal hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="803" end="814" text="proteinuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="817" end="828" text="Ultrasounds" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="855" end="867" text="biophysicals" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="910" end="920" text="monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="936" end="966" text="increased preterm contractions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="969" end="987" text="uterine tenderness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="992" end="1026" text="mildly increased fetal heart rates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T12" start="141" end="153" text="32 and 06-30" type="DURATION" val="P32.86W" mod="NA" />
+<TIMEX3 id="T6" start="1630" end="1640" text="2020-01-14" type="DATE" val="2020-01-14" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-12-28" type="DATE" val="2019-12-28" mod="NA" />
+<TIMEX3 id="T7" start="1847" end="1854" text="per day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T8" start="1900" end="1914" text="day of life #1" type="DATE" val="2019-12-28" mod="NA" />
+<TIMEX3 id="T9" start="1956" end="1970" text="day of life #7" type="DATE" val="2020-01-03" mod="NA" />
+<TIMEX3 id="T10" start="2374" end="2388" text="day of life #2" type="DATE" val="2019-12-29" mod="NA" />
+<TIMEX3 id="T11" start="2857" end="2865" text="48 hours" type="DURATION" val="PT48H" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2020-01-20" type="DATE" val="2020-01-20" mod="NA" />
+<TIMEX3 id="T3" start="480" end="485" text="12-15" type="DATE" val="2019-12-15" mod="NA" />
+<TIMEX3 id="T2" start="687" end="692" text="12-17" type="DATE" val="2019-12-17" mod="NA" />
+<TIMEX3 id="T4" start="742" end="747" text="12-21" type="DATE" val="2019-12-21" mod="NA" />
+<TIMEX3 id="T5" start="887" end="907" text="the evening of 12-27" type="DATE" val="2019-12-27" mod="END" />
+<SECTIME id="S0" start="18" end="28" text="2019-12-28" type="ADMISSION" dvalue="2019-12-28" />
+<SECTIME id="S1" start="46" end="56" text="2020-01-20" type="DISCHARGE" dvalue="2020-01-20" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

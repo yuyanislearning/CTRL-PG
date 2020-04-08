@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+03/24/97
+DISCHARGE DATE :
+03/28/97
+HISTORY OF PRESENT ILLNESS :
+The patient is a 31-year-old right-handed female with right-sided greater than left-sided weakness and difficulty walking for several days .
+She was in her usual state of health until 3/20/97 when she experienced the fairly sudden onset of predominantly right-sided arm and leg weakness and ataxia .
+She was standing and walking with her friend , who &quot; had to catch her from falling down &quot; as she toppled towards the right .
+She evidently recovered from the episode after a number of minutes .
+The following day , she remained in bed through essentially all of the day due to malaise with no specific deficits being noted .
+In the subsequent two days , she had several small spells of &quot; imbalance &quot; , particularly towards the right , and other symptoms included diffuse and mainly frontal headaches and mild neck soreness .
+There was no diplopia , visual loss , speech abnormality or sensory change in her history .
+She was initially evaluated at an outside hospital emergency room , and then transferred to Well General Hospital .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted for her gait disorder with other notable findings on examination including anisocoria , which , by the patient &apos;s report , had been noted several months earlier .
+A magnetic resonance imaging and magnetic resonance angiogram study was obtained , which showed no clear evidence of arterial dissections or infarction or other pathologic processes .
+She had been placed on heparin initially , but this was discontinued after the magnetic resonance imaging results were obtained .
+Posterior transcranial Doppler studies showed normal studies of both vertebral arteries , and carotid non-invasive studies showed normal right and left carotid bifurcations .
+On the second hospital day , her gait continued to be markedly unstable , although with no consistent pattern in terms of weakness or directionality of falling , and she continued to have no reproducible upper extremity or lower extremity ataxia or dysmetria .
+She was seen by the Psychiatry Service .
+She was not felt to be acutely suicidal or otherwise in need of acute psychiatric treatment .
+The psychiatrist also noted the indifference the patient evinced regarding her own symptomatology .
+The patient was evaluated in one of the neurology conferences for several hours , and during this time , showed significant improvement while receiving gait training as well as evaluation ; in particular , she became more stable with counter-balancing methods .
+This trend of improvement continued , and she was discharged in stable condition .
+She will follow up with her psychiatrist , Dr. Freiermchird ( Sone Memorial Hospital ) on a regular basis , and she can follow up with the Neurology Service on a p.r.n. basis if needed .
+She will continue on her previous outpatient medical regimen .
+NIREGE MEMORY , M.D.
+TR :
+bzo
+DD :
+03/29/97
+TD :
+03/31/97 12:36 P
+cc :
+NYRI A MEMORY , M.D.
+ASHELLRIETTE NESSASU THREATSVOT , M.D.
+EJEAN NADARC FREIERMCHIRD , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1049" end="1083" text="an outside hospital emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="1095" end="1106" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1110" end="1131" text="Well General Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E31" start="1182" end="1190" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1195" end="1212" text="her gait disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1224" end="1240" text="notable findings" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1244" end="1255" text="examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="1266" end="1276" text="anisocoria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="136" end="180" text="right-sided greater than left-sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1359" end="1387" text="A magnetic resonance imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1392" end="1426" text="magnetic resonance angiogram study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1448" end="1454" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="1476" end="1496" text="arterial dissections" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="1500" end="1510" text="infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E16" start="1514" end="1540" text="other pathologic processes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1566" end="1573" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1599" end="1611" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1618" end="1648" text="the magnetic resonance imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1673" end="1711" text="Posterior transcranial Doppler studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1712" end="1718" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="1719" end="1733" text="normal studies" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1767" end="1795" text="carotid non-invasive studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1796" end="1802" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="1803" end="1845" text="normal right and left carotid bifurcations" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="185" end="203" text="difficulty walking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1877" end="1885" text="her gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1902" end="1919" text="markedly unstable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1939" end="1957" text="consistent pattern" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E56" start="1970" end="1978" text="weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2000" end="2007" text="falling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="2039" end="2093" text="reproducible upper extremity or lower extremity ataxia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E58" start="2097" end="2106" text="dysmetria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E59" start="2117" end="2121" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="2125" end="2147" text="the Psychiatry Service" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2173" end="2189" text="acutely suicidal" modality="POSSIBLE" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="2214" end="2241" text="acute psychiatric treatment" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E62" start="2244" end="2260" text="The psychiatrist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="2266" end="2271" text="noted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2272" end="2288" text="the indifference" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2319" end="2341" text="her own symptomatology" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="234" end="259" text="her usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2360" end="2369" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="2380" end="2405" text="the neurology conferences" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="2449" end="2479" text="showed significant improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="2496" end="2509" text="gait training" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2521" end="2531" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2561" end="2572" text="more stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2578" end="2603" text="counter-balancing methods" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2606" end="2641" text="This trend of improvement continued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2656" end="2666" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2670" end="2686" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2693" end="2707" text="will follow up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2713" end="2729" text="her psychiatrist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E74" start="2751" end="2773" text="Sone Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="2809" end="2818" text="follow up" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2824" end="2845" text="the Neurology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="2897" end="2936" text="her previous outpatient medical regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="336" end="368" text="right-sided arm and leg weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="373" end="379" text="ataxia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="390" end="426" text="standing and walking with her friend" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="489" end="514" text="toppled towards the right" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="531" end="540" text="recovered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="546" end="557" text="the episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="610" end="625" text="remained in bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="668" end="675" text="malaise" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="684" end="701" text="specific deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="761" end="793" text="small spells of &quot; imbalance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="840" end="854" text="other symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="864" end="900" text="diffuse and mainly frontal headaches" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="905" end="923" text="mild neck soreness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="939" end="947" text="diplopia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="950" end="961" text="visual loss" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="964" end="982" text="speech abnormality" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="986" end="1000" text="sensory change" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T8" start="1334" end="1356" text="several months earlier" type="DATE" val="1996-12-24" mod="APPROX" />
+<TIMEX3 id="T1" start="18" end="26" text="03/24/97" type="DATE" val="1997-03-24" mod="NA" />
+<TIMEX3 id="T9" start="1851" end="1874" text="the second hospital day" type="DATE" val="1997-03-25" mod="NA" />
+<TIMEX3 id="T0" start="208" end="220" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T10" start="2410" end="2423" text="several hours" type="DURATION" val="PT3H" mod="APPROX" />
+<TIMEX3 id="T3" start="266" end="273" text="3/20/97" type="DATE" val="1997-03-20" mod="NA" />
+<TIMEX3 id="T11" start="2779" end="2794" text="a regular basis" type="FREQUENCY" val="RP30D" mod="APPROX" />
+<TIMEX3 id="T12" start="2849" end="2863" text="a p.r.n. basis" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="03/28/97" type="DATE" val="1997-03-28" mod="NA" />
+<TIMEX3 id="T5" start="564" end="583" text="a number of minutes" type="DURATION" val="P5M" mod="APPROX" />
+<TIMEX3 id="T4" start="586" end="603" text="The following day" type="DATE" val="1997-03-21" mod="NA" />
+<TIMEX3 id="T6" start="634" end="660" text="essentially all of the day" type="DURATION" val="PT24H" mod="APPROX" />
+<TIMEX3 id="T7" start="719" end="742" text="the subsequent two days" type="DURATION" val="P2D" mod="NA" />
+<SECTIME id="S0" start="18" end="26" text="03/24/97" type="ADMISSION" dvalue="1997-03-24" />
+<SECTIME id="S1" start="44" end="52" text="03/28/97" type="DISCHARGE" dvalue="1997-03-28" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

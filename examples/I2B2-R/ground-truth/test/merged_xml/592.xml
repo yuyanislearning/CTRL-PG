@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-05-08
+Discharge Date :
+2012-05-18
+Service :
+Neonatology
+HISTORY :
+Baby Barbara Stead is a term infant admitted with increasing head circumference and bruising .
+He was born to a 31-year-old G1 P0 now 1 mother with unremarkable prenatal screens as follows :
+O positive , antibody negative , hepatitis B surface antigen negative , RPR nonreactive , rubella immune
+PREGNANCY HISTORY :
+Estimated date of delivery was 2012-05-14 for estimated gestational age of 39-1/7 weeks .
+Pregnancy was complicated by oligohydramnios with an AFI of 3.5 and by multiple evaluations for decreased fetal movement .
+There was spontaneous onset of labor progressing through vacuum assisted vaginal delivery under epidural anesthesia .
+clear amniotic fluid , no antepartum maternal fever or fetal tachycardia , no antepartum antibiotic prophylaxis .
+Baby was vigorous at delivery , was bulb suction , dried , and had free flow oxygen administered briefly .
+Apgars were nine and nine .
+In the Newborn Nursery , he initially had a caput which increased in the amount of swelling and bruising in the subsequent 24 hours .
+He was then referred to the CMED CCU for assessment and management of the increased bleeding .
+SUMMARY OF HOSPITAL COURSE BY SYSTEMS :
+1. Respiratory :
+Patient has been on room air maintaining sats above 95% .
+No apnea or bradycardia .
+2. Cardiovascular :
+There was an initial murmur on admission likely secondary to severe anemia which has since resolved .
+He remained hemodynamically stable throughout this admission .
+3. FEN :
+Patient was restarted on po feeds as of day of life three after the bleeding had stabilized .
+He has been taking breast milk or Enfamil 20 po adlib .
+His admission weight was 3850 grams .
+His weight on discharge was 4055 .
+4. GI :
+Given the significant amount of bleeding , baby was started prophylactically on phototherapy .
+His bilirubin peaked on day of life three at 5.4 with a subsequent bilirubin of 4.6 at which time phototherapy was discontinued .
+5. Hematology :
+Given the rapid extension of the subgaleal bleed , coagulopathy workup was initiated revealing an elevated PTT level of 77 as well as factor 8 level that was below detection in the presence of normal factors 5 , 9 , 10 , and 11 .
+He was started on a 50 units / kg bolus of factor 8 followed by continuous factor 8 infusions at 50 units / kg / day divided until hourly infusion rates at 05-10 .
+Subsequent factor 8 levels varied with an initial factor 8 level of 18 after the bolus with which he received another bolus of factor 8 of 50 units / kg and increased factor 8 infusion rate to 65 units / kg / day .
+As of 05-17 , he was switched over to bolus infusion in preparation of continued home factor 8 administration .
+His peak level after a bolus of 75 units / kg of factor 8 was 131 .
+A trough level at 20 hours after the bolus on day of discharge was 29 .
+He will continue to receive factor 8 bolus q day for a total of 2-3 weeks in light of the intracranial hemorrhage , and will be followed by Hematology visiting nurse Michael Edwards level checks at home .
+Currently , the infusion of factor 8 are going through a jugular Broviac which was placed on 05-15 for administration of factor .
+His last PTT on 05-16 was 68.3 .
+The last hematocrit was on 05-16 of 54.5 .
+6. Neurology :
+Baby Mary Stead initially presented with significant subgaleal bleed as well as a small subdural hemorrhage .
+A repeat head CT scan on 05-15 had shown the resolution of the subdural hematoma and significant improvement of the subgaleal bleed .
+His head ultrasound on 05-14 reveals no interventricular hemorrhage .
+He had remained neurologically stable .
+His head circumference on 05-18 was 36.5 cm with a maximum head circumference on
+admission of 40.5 cm .
+7. Social :
+Both parents are very involved in the care of Baby Norman Stead .
+They have been informed up to date on his needs , discharge from the hospital .
+Teaching has been completed on the care of the Boviak as well as administration of factor 8 .
+8. Sensory :
+Audiology :
+Hearing screen was performed automated auditory brain stem responses and Baby David Stead
+passed bilaterally .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1027" end="1034" text="a caput" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1041" end="1050" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1068" end="1076" text="swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1081" end="1089" text="bruising" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1143" end="1155" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="1160" end="1170" text="assessment" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1175" end="1185" text="management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1189" end="1211" text="the increased bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="125" end="133" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1291" end="1299" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1312" end="1316" text="sats" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1332" end="1337" text="apnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1341" end="1352" text="bradycardia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1385" end="1402" text="an initial murmur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1406" end="1415" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="139" end="168" text="increasing head circumference" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1436" end="1449" text="severe anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1489" end="1511" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1523" end="1537" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1574" end="1582" text="po feeds" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1613" end="1625" text="the bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1630" end="1640" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1662" end="1673" text="breast milk" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1677" end="1684" text="Enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1699" end="1719" text="His admission weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1737" end="1760" text="His weight on discharge" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="173" end="181" text="bruising" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1812" end="1820" text="bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1860" end="1872" text="phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1875" end="1888" text="His bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E115" start="1889" end="1895" text="peaked" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="191" end="195" text="born" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1929" end="1951" text="a subsequent bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1973" end="1985" text="phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2050" end="2069" text="the subgaleal bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2072" end="2091" text="coagulopathy workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2106" end="2115" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="2116" end="2137" text="an elevated PTT level" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2155" end="2169" text="factor 8 level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="2214" end="2248" text="normal factors 5 , 9 , 10 , and 11" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2269" end="2302" text="a 50 units / kg bolus of factor 8" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2315" end="2344" text="continuous factor 8 infusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2415" end="2441" text="Subsequent factor 8 levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2454" end="2479" text="an initial factor 8 level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2492" end="2501" text="the bolus" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="250" end="266" text="prenatal screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2533" end="2550" text="bolus of factor 8" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2572" end="2604" text="increased factor 8 infusion rate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2668" end="2682" text="bolus infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2701" end="2739" text="continued home factor 8 administration" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2742" end="2756" text="His peak level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="2791" end="2799" text="factor 8" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2810" end="2824" text="A trough level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="280" end="290" text="O positive" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2843" end="2852" text="the bolus" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2863" end="2872" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2910" end="2924" text="factor 8 bolus" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="293" end="301" text="antibody" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E84" start="2968" end="2995" text="the intracranial hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="3022" end="3047" text="Hematology visiting nurse" modality="POSSIBLE" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E86" start="3064" end="3076" text="level checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="3115" end="3123" text="factor 8" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3142" end="3159" text="a jugular Broviac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="313" end="340" text="hepatitis B surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="3208" end="3214" text="factor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="3217" end="3229" text="His last PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="3250" end="3269" text="The last hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="3334" end="3343" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="3349" end="3376" text="significant subgaleal bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="3388" end="3415" text="a small subdural hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="3418" end="3439" text="A repeat head CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="3453" end="3458" text="shown" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="3477" end="3498" text="the subdural hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="3530" end="3549" text="the subgaleal bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="352" end="355" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="3552" end="3571" text="His head ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="3581" end="3588" text="reveals" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E102" start="3592" end="3619" text="interventricular hemorrhage" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E103" start="3638" end="3659" text="neurologically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="3662" end="3684" text="His head circumference" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E105" start="3711" end="3739" text="a maximum head circumference" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="370" end="384" text="rubella immune" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E106" start="3743" end="3752" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E107" start="3894" end="3903" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="3909" end="3921" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E109" start="3924" end="3932" text="Teaching" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E110" start="3967" end="3977" text="the Boviak" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="4007" end="4015" text="factor 8" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="4043" end="4057" text="Hearing screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="405" end="431" text="Estimated date of delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="4072" end="4111" text="automated auditory brain stem responses" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="451" end="476" text="estimated gestational age" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="495" end="504" text="Pregnancy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="524" end="539" text="oligohydramnios" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="545" end="551" text="an AFI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="566" end="586" text="multiple evaluations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="591" end="615" text="decreased fetal movement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="628" end="654" text="spontaneous onset of labor" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="675" end="707" text="vacuum assisted vaginal delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="714" end="733" text="epidural anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="736" end="756" text="clear amniotic fluid" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="762" end="787" text="antepartum maternal fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="791" end="808" text="fetal tachycardia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="814" end="847" text="antepartum antibiotic prophylaxis" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E27" start="859" end="867" text="vigorous" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="871" end="879" text="delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="886" end="898" text="bulb suction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="901" end="906" text="dried" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="917" end="933" text="free flow oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="957" end="963" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="988" end="1007" text="the Newborn Nursery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T4" start="1108" end="1116" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T5" start="1589" end="1606" text="day of life three" type="DATE" val="2012-05-10" mod="NA" />
+<TIMEX3 id="T6" start="1691" end="1696" text="adlib" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T7" start="1899" end="1916" text="day of life three" type="DATE" val="2012-05-10" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2012-05-08" type="DATE" val="2012-05-08" mod="NA" />
+<TIMEX3 id="T18" start="2407" end="2412" text="05-10" type="DATE" val="2012-05-10" mod="NA" />
+<TIMEX3 id="T8" start="2636" end="2641" text="05-17" type="DATE" val="2012-05-17" mod="NA" />
+<TIMEX3 id="T20" start="2828" end="2836" text="20 hours" type="DURATION" val="PT20H" mod="NA" />
+<TIMEX3 id="T9" start="2856" end="2859" text="day" type="DATE" val="2012-05-18" mod="NA" />
+<TIMEX3 id="T10" start="2925" end="2930" text="q day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T11" start="2946" end="2955" text="2-3 weeks" type="DURATION" val="P2.5W" mod="APPROX" />
+<TIMEX3 id="T17" start="3180" end="3185" text="05-15" type="DATE" val="2012-05-15" mod="NA" />
+<TIMEX3 id="T12" start="3233" end="3238" text="05-16" type="DATE" val="2012-05-16" mod="NA" />
+<TIMEX3 id="T13" start="3277" end="3282" text="05-16" type="DATE" val="2012-05-16" mod="NA" />
+<TIMEX3 id="T14" start="3443" end="3448" text="05-15" type="DATE" val="2012-05-15" mod="NA" />
+<TIMEX3 id="T15" start="3575" end="3580" text="05-14" type="DATE" val="2012-05-14" mod="NA" />
+<TIMEX3 id="T16" start="3688" end="3693" text="05-18" type="DATE" val="2012-05-18" mod="NA" />
+<TIMEX3 id="T2" start="436" end="446" text="2012-05-14" type="DATE" val="2012-05-14" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2012-05-18" type="DATE" val="2012-05-18" mod="NA" />
+<TIMEX3 id="T3" start="480" end="492" text="39-1/7 weeks" type="DURATION" val="P39.14W" mod="NA" />
+<TLINK id="TL0" fromID="E106" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2012-05-08" type="OVERLAP" />
+<TLINK id="TL10" fromID="E21" fromText="vacuum assisted vaginal delivery" toID="E5" toText="born" type="OVERLAP" />
+<TLINK id="TL100" fromID="E63" fromText="the subgaleal bleed" toID="E64" toText="coagulopathy workup" type="BEFORE" />
+<TLINK id="TL101" fromID="E65" fromText="revealing" toID="E64" toText="coagulopathy workup" type="OVERLAP" />
+<TLINK id="TL102" fromID="E66" fromText="an elevated PTT level" toID="E64" toText="coagulopathy workup" type="OVERLAP" />
+<TLINK id="TL103" fromID="E66" fromText="an elevated PTT level" toID="E67" toText="factor 8 level" type="OVERLAP" />
+<TLINK id="TL104" fromID="E67" fromText="factor 8 level" toID="E68" toText="normal factors 5 , 9 , 10 , and 11" type="OVERLAP" />
+<TLINK id="TL105" fromID="E69" fromText="a 50 units / kg bolus of factor 8" toID="E67" toText="factor 8 level" type="AFTER" />
+<TLINK id="TL106" fromID="E69" fromText="a 50 units / kg bolus of factor 8" toID="E70" toText="continuous factor 8 infusions" type="BEFORE" />
+<TLINK id="TL107" fromID="E70" fromText="continuous factor 8 infusions" toID="T18" toText="05-10" type="AFTER" />
+<TLINK id="TL108" fromID="E71" fromText="Subsequent factor 8 levels" toID="E67" toText="factor 8 level" type="AFTER" />
+<TLINK id="TL109" fromID="E71" fromText="Subsequent factor 8 levels" toID="E72" toText="an initial factor 8 level" type="OVERLAP" />
+<TLINK id="TL11" fromID="E21" fromText="vacuum assisted vaginal delivery" toID="E28" toText="delivery" type="OVERLAP" />
+<TLINK id="TL110" fromID="E72" fromText="an initial factor 8 level" toID="E73" toText="the bolus" type="AFTER" />
+<TLINK id="TL111" fromID="E73" fromText="the bolus" toID="E69" toText="a 50 units / kg bolus of factor 8" type="OVERLAP" />
+<TLINK id="TL112" fromID="E74" fromText="bolus of factor 8" toID="E73" toText="the bolus" type="AFTER" />
+<TLINK id="TL113" fromID="E70" fromText="continuous factor 8 infusions" toID="E75" toText="increased factor 8 infusion rate" type="BEFORE" />
+<TLINK id="TL114" fromID="E76" fromText="bolus infusion" toID="T8" toText="05-17" type="AFTER" />
+<TLINK id="TL115" fromID="E76" fromText="bolus infusion" toID="E77" toText="continued home factor 8 administration" type="BEFORE" />
+<TLINK id="TL116" fromID="E79" fromText="factor 8" toID="E78" toText="His peak level" type="BEFORE" />
+<TLINK id="TL117" fromID="E79" fromText="factor 8" toID="E76" toText="bolus infusion" type="OVERLAP" />
+<TLINK id="TL12" fromID="E7" fromText="O positive" toID="E6" toText="prenatal screens" type="OVERLAP" />
+<TLINK id="TL120" fromID="E81" fromText="the bolus" toID="E80" toText="A trough level" type="BEFORE" />
+<TLINK id="TL123" fromID="T20" fromText="20 hours" toID="E81" toText="the bolus" type="AFTER" />
+<TLINK id="TL124" fromID="T20" fromText="20 hours" toID="E80" toText="A trough level" type="BEFORE" />
+<TLINK id="TL125" fromID="T9" fromText="day" toID="E82" toText="discharge" type="OVERLAP" />
+<TLINK id="TL126" fromID="E80" fromText="A trough level" toID="T9" toText="day" type="OVERLAP" />
+<TLINK id="TL127" fromID="E83" fromText="factor 8 bolus" toID="T10" toText="q day" type="OVERLAP" />
+<TLINK id="TL128" fromID="E83" fromText="factor 8 bolus" toID="T11" toText="2-3 weeks" type="OVERLAP" />
+<TLINK id="TL129" fromID="E84" fromText="the intracranial hemorrhage" toID="E83" toText="factor 8 bolus" type="BEFORE" />
+<TLINK id="TL13" fromID="E8" fromText="antibody" toID="E9" toText="hepatitis B surface antigen" type="OVERLAP" />
+<TLINK id="TL130" fromID="E86" fromText="level checks" toID="E82" toText="discharge" type="AFTER" />
+<TLINK id="TL131" fromID="E85" fromText="Hematology visiting nurse" toID="E86" toText="level checks" type="OVERLAP" />
+<TLINK id="TL132" fromID="E89" fromText="a jugular Broviac" toID="E88" toText="factor 8" type="OVERLAP" />
+<TLINK id="TL133" fromID="E89" fromText="a jugular Broviac" toID="T17" toText="05-15" type="AFTER" />
+<TLINK id="TL134" fromID="E90" fromText="factor" toID="E88" toText="factor 8" type="OVERLAP" />
+<TLINK id="TL14" fromID="E7" fromText="O positive" toID="E8" toText="antibody" type="OVERLAP" />
+<TLINK id="TL15" fromID="E9" fromText="hepatitis B surface antigen" toID="E10" toText="RPR" type="OVERLAP" />
+<TLINK id="TL16" fromID="E10" fromText="RPR" toID="E11" toText="rubella immune" type="OVERLAP" />
+<TLINK id="TL17" fromID="E12" fromText="Estimated date of delivery" toID="T2" toText="2012-05-14" type="OVERLAP" />
+<TLINK id="TL18" fromID="E14" fromText="estimated gestational age" toID="T3" toText="39-1/7 weeks" type="OVERLAP" />
+<TLINK id="TL19" fromID="E14" fromText="estimated gestational age" toID="E12" toText="Estimated date of delivery" type="BEFORE" />
+<TLINK id="TL2" fromID="E107" fromText="discharge" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL20" fromID="E15" fromText="Pregnancy" toID="E14" toText="estimated gestational age" type="OVERLAP" />
+<TLINK id="TL21" fromID="E16" fromText="oligohydramnios" toID="E15" toText="Pregnancy" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="an AFI" toID="E16" toText="oligohydramnios" type="OVERLAP" />
+<TLINK id="TL23" fromID="E17" fromText="an AFI" toID="E19" toText="decreased fetal movement" type="OVERLAP" />
+<TLINK id="TL24" fromID="E19" fromText="decreased fetal movement" toID="E18" toText="multiple evaluations" type="BEFORE" />
+<TLINK id="TL25" fromID="E20" fromText="spontaneous onset of labor" toID="E21" toText="vacuum assisted vaginal delivery" type="BEFORE" />
+<TLINK id="TL26" fromID="E22" fromText="epidural anesthesia" toID="E21" toText="vacuum assisted vaginal delivery" type="OVERLAP" />
+<TLINK id="TL27" fromID="E23" fromText="clear amniotic fluid" toID="E20" toText="spontaneous onset of labor" type="OVERLAP" />
+<TLINK id="TL28" fromID="E25" fromText="fetal tachycardia" toID="E24" toText="antepartum maternal fever" type="OVERLAP" />
+<TLINK id="TL29" fromID="E26" fromText="antepartum antibiotic prophylaxis" toID="E24" toText="antepartum maternal fever" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="Discharge" toID="T1" toText="2012-05-18" type="OVERLAP" />
+<TLINK id="TL30" fromID="E24" fromText="antepartum maternal fever" toID="E23" toText="clear amniotic fluid" type="OVERLAP" />
+<TLINK id="TL31" fromID="E27" fromText="vigorous" toID="E28" toText="delivery" type="OVERLAP" />
+<TLINK id="TL32" fromID="E29" fromText="bulb suction" toID="E28" toText="delivery" type="AFTER" />
+<TLINK id="TL33" fromID="E29" fromText="bulb suction" toID="E31" toText="free flow oxygen" type="OVERLAP" />
+<TLINK id="TL34" fromID="E29" fromText="bulb suction" toID="E30" toText="dried" type="OVERLAP" />
+<TLINK id="TL35" fromID="E28" fromText="delivery" toID="E32" toText="Apgars" type="BEFORE" />
+<TLINK id="TL36" fromID="E34" fromText="a caput" toID="E33" toText="the Newborn Nursery" type="OVERLAP" />
+<TLINK id="TL37" fromID="E33" fromText="the Newborn Nursery" toID="E38" toText="the CMED CCU" type="BEFORE" />
+<TLINK id="TL38" fromID="E33" fromText="the Newborn Nursery" toID="E34" toText="a caput" type="OVERLAP" />
+<TLINK id="TL39" fromID="E34" fromText="a caput" toID="E37" toText="increased" type="BEFORE" />
+<TLINK id="TL4" fromID="E3" fromText="increasing head circumference" toID="E2" toText="admitted" type="BEFORE" />
+<TLINK id="TL40" fromID="E37" fromText="increased" toID="T4" toText="24 hours" type="OVERLAP" />
+<TLINK id="TL41" fromID="E35" fromText="swelling" toID="E37" toText="increased" type="BEFORE" />
+<TLINK id="TL42" fromID="E36" fromText="bruising" toID="E37" toText="increased" type="BEFORE" />
+<TLINK id="TL43" fromID="E39" fromText="assessment" toID="E40" toText="management" type="OVERLAP" />
+<TLINK id="TL44" fromID="E39" fromText="assessment" toID="E38" toText="the CMED CCU" type="OVERLAP" />
+<TLINK id="TL45" fromID="E41" fromText="the increased bleeding" toID="E40" toText="management" type="BEFORE" />
+<TLINK id="TL46" fromID="E41" fromText="the increased bleeding" toID="E38" toText="the CMED CCU" type="BEFORE" />
+<TLINK id="TL47" fromID="E42" fromText="room air" toID="E43" toText="sats" type="OVERLAP" />
+<TLINK id="TL48" fromID="E44" fromText="apnea" toID="E45" toText="bradycardia" type="OVERLAP" />
+<TLINK id="TL49" fromID="E42" fromText="room air" toID="E44" toText="apnea" type="OVERLAP" />
+<TLINK id="TL5" fromID="E4" fromText="bruising" toID="E2" toText="admitted" type="BEFORE" />
+<TLINK id="TL50" fromID="E46" fromText="an initial murmur" toID="E47" toText="admission" type="OVERLAP" />
+<TLINK id="TL51" fromID="E48" fromText="severe anemia" toID="E46" toText="an initial murmur" type="BEFORE" />
+<TLINK id="TL52" fromID="E49" fromText="hemodynamically stable" toID="E50" toText="this admission" type="OVERLAP" />
+<TLINK id="TL53" fromID="E50" fromText="this admission" toID="T0" toText="2012-05-08" type="AFTER" />
+<TLINK id="TL54" fromID="E50" fromText="this admission" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="TL55" fromID="E51" fromText="po feeds" toID="T5" toText="day of life three" type="AFTER" />
+<TLINK id="TL56" fromID="E54" fromText="breast milk" toID="E51" toText="po feeds" type="OVERLAP" />
+<TLINK id="TL57" fromID="E55" fromText="Enfamil" toID="E51" toText="po feeds" type="OVERLAP" />
+<TLINK id="TL58" fromID="E55" fromText="Enfamil" toID="T6" toText="adlib" type="OVERLAP" />
+<TLINK id="TL59" fromID="E56" fromText="His admission weight" toID="E47" toText="admission" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="bruising" toID="E36" toText="bruising" type="OVERLAP" />
+<TLINK id="TL60" fromID="E56" fromText="His admission weight" toID="E57" toText="His weight on discharge" type="BEFORE" />
+<TLINK id="TL61" fromID="E107" fromText="discharge" toID="E57" toText="His weight on discharge" type="OVERLAP" />
+<TLINK id="TL62" fromID="E52" fromText="the bleeding" toID="E53" toText="stabilized" type="BEFORE" />
+<TLINK id="TL63" fromID="E51" fromText="po feeds" toID="E53" toText="stabilized" type="AFTER" />
+<TLINK id="TL64" fromID="E58" fromText="bleeding" toID="E52" toText="the bleeding" type="OVERLAP" />
+<TLINK id="TL65" fromID="E58" fromText="bleeding" toID="E59" toText="phototherapy" type="BEFORE" />
+<TLINK id="TL66" fromID="E63" fromText="the subgaleal bleed" toID="E58" toText="bleeding" type="OVERLAP" />
+<TLINK id="TL67" fromID="E61" fromText="a subsequent bilirubin" toID="E60" toText="His bilirubin" type="AFTER" />
+<TLINK id="TL68" fromID="T7" fromText="day of life three" toID="E115" toText="peaked" type="OVERLAP" />
+<TLINK id="TL69" fromID="E115" fromText="peaked" toID="E60" toText="His bilirubin" type="OVERLAP" />
+<TLINK id="TL7" fromID="E3" fromText="increasing head circumference" toID="E35" toText="swelling" type="OVERLAP" />
+<TLINK id="TL71" fromID="E62" fromText="phototherapy" toID="E59" toText="phototherapy" type="OVERLAP" />
+<TLINK id="TL72" fromID="E62" fromText="phototherapy" toID="E61" toText="a subsequent bilirubin" type="BEFORE" />
+<TLINK id="TL73" fromID="E108" fromText="the hospital" toID="E107" toText="discharge" type="BEFORE" />
+<TLINK id="TL74" fromID="E109" fromText="Teaching" toID="E107" toText="discharge" type="BEFORE" />
+<TLINK id="TL75" fromID="E110" fromText="the Boviak" toID="E89" toText="a jugular Broviac" type="OVERLAP" />
+<TLINK id="TL76" fromID="E110" fromText="the Boviak" toID="E107" toText="discharge" type="BEFORE" />
+<TLINK id="TL77" fromID="E111" fromText="factor 8" toID="E110" toText="the Boviak" type="OVERLAP" />
+<TLINK id="TL78" fromID="E113" fromText="automated auditory brain stem responses" toID="E112" toText="Hearing screen" type="OVERLAP" />
+<TLINK id="TL79" fromID="E94" fromText="significant subgaleal bleed" toID="E93" toText="presented" type="BEFORE" />
+<TLINK id="TL8" fromID="E20" fromText="spontaneous onset of labor" toID="E5" toText="born" type="BEFORE" />
+<TLINK id="TL80" fromID="E94" fromText="significant subgaleal bleed" toID="E95" toText="a small subdural hemorrhage" type="OVERLAP" />
+<TLINK id="TL81" fromID="E95" fromText="a small subdural hemorrhage" toID="E93" toText="presented" type="BEFORE" />
+<TLINK id="TL82" fromID="E63" fromText="the subgaleal bleed" toID="E94" toText="significant subgaleal bleed" type="OVERLAP" />
+<TLINK id="TL83" fromID="E95" fromText="a small subdural hemorrhage" toID="E98" toText="the subdural hematoma" type="OVERLAP" />
+<TLINK id="TL84" fromID="E100" fromText="His head ultrasound" toID="T15" toText="05-14" type="OVERLAP" />
+<TLINK id="TL85" fromID="E114" fromText="reveals" toID="E100" toText="His head ultrasound" type="OVERLAP" />
+<TLINK id="TL86" fromID="E102" fromText="interventricular hemorrhage" toID="E100" toText="His head ultrasound" type="OVERLAP" />
+<TLINK id="TL87" fromID="E103" fromText="neurologically stable" toID="E50" toText="this admission" type="OVERLAP" />
+<TLINK id="TL88" fromID="E104" fromText="His head circumference" toID="T16" toText="05-18" type="OVERLAP" />
+<TLINK id="TL89" fromID="E105" fromText="a maximum head circumference" toID="E106" toText="admission" type="OVERLAP" />
+<TLINK id="TL9" fromID="E6" fromText="prenatal screens" toID="E5" toText="born" type="BEFORE" />
+<TLINK id="TL91" fromID="E105" fromText="a maximum head circumference" toID="E104" toText="His head circumference" type="BEFORE" />
+<TLINK id="TL92" fromID="E96" fromText="A repeat head CT scan" toID="T14" toText="05-15" type="OVERLAP" />
+<TLINK id="TL93" fromID="E97" fromText="shown" toID="E96" toText="A repeat head CT scan" type="OVERLAP" />
+<TLINK id="TL94" fromID="E98" fromText="the subdural hematoma" toID="T14" toText="05-15" type="BEFORE" />
+<TLINK id="TL95" fromID="E98" fromText="the subdural hematoma" toID="E96" toText="A repeat head CT scan" type="BEFORE" />
+<TLINK id="TL96" fromID="E99" fromText="the subgaleal bleed" toID="E96" toText="A repeat head CT scan" type="BEFORE" />
+<TLINK id="TL97" fromID="E99" fromText="the subgaleal bleed" toID="E94" toText="significant subgaleal bleed" type="OVERLAP" />
+<TLINK id="TL98" fromID="E92" fromText="The last hematocrit" toID="T13" toText="05-16" type="OVERLAP" />
+<TLINK id="TL99" fromID="E91" fromText="His last PTT" toID="T12" toText="05-16" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2012-05-08" type="ADMISSION" dvalue="2012-05-08" />
+<SECTIME id="S1" start="46" end="56" text="2012-05-18" type="DISCHARGE" dvalue="2012-05-18" />
+<TLINK id="SECTIME0" fromID="E34" fromText="a caput" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E37" fromText="increased" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E35" fromText="swelling" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E36" fromText="bruising" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E38" fromText="the CMED CCU" toID="T0" toText="2012-05-08" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E39" fromText="assessment" toID="T0" toText="2012-05-08" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E40" fromText="management" toID="T0" toText="2012-05-08" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E41" fromText="the increased bleeding" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E2" fromText="admitted" toID="T0" toText="2012-05-08" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E42" fromText="room air" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E43" fromText="sats" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E44" fromText="apnea" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E45" fromText="bradycardia" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E46" fromText="an initial murmur" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E47" fromText="admission" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E3" fromText="increasing head circumference" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E48" fromText="severe anemia" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E49" fromText="hemodynamically stable" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E51" fromText="po feeds" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E52" fromText="the bleeding" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E53" fromText="stabilized" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E54" fromText="breast milk" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E55" fromText="Enfamil" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E56" fromText="His admission weight" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E57" fromText="His weight on discharge" toID="T1" toText="2012-05-18" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E4" fromText="bruising" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E58" fromText="bleeding" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E59" fromText="phototherapy" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E60" fromText="His bilirubin" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E115" fromText="peaked" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E5" fromText="born" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E61" fromText="a subsequent bilirubin" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E62" fromText="phototherapy" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E63" fromText="the subgaleal bleed" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E64" fromText="coagulopathy workup" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E65" fromText="revealing" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E66" fromText="an elevated PTT level" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E67" fromText="factor 8 level" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E68" fromText="normal factors 5 , 9 , 10 , and 11" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E69" fromText="a 50 units / kg bolus of factor 8" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E70" fromText="continuous factor 8 infusions" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E71" fromText="Subsequent factor 8 levels" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E72" fromText="an initial factor 8 level" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E73" fromText="the bolus" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E6" fromText="prenatal screens" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E74" fromText="bolus of factor 8" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E75" fromText="increased factor 8 infusion rate" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E76" fromText="bolus infusion" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E77" fromText="continued home factor 8 administration" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E78" fromText="His peak level" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E79" fromText="factor 8" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E80" fromText="A trough level" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E7" fromText="O positive" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E81" fromText="the bolus" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E82" fromText="discharge" toID="T1" toText="2012-05-18" type="OVERLAP" />
+<TLINK id="SECTIME55" fromID="E83" fromText="factor 8 bolus" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E8" fromText="antibody" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E84" fromText="the intracranial hemorrhage" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E85" fromText="Hematology visiting nurse" toID="T1" toText="2012-05-18" type="AFTER" />
+<TLINK id="SECTIME59" fromID="E86" fromText="level checks" toID="T1" toText="2012-05-18" type="AFTER" />
+<TLINK id="SECTIME60" fromID="E88" fromText="factor 8" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E89" fromText="a jugular Broviac" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E9" fromText="hepatitis B surface antigen" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E90" fromText="factor" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E91" fromText="His last PTT" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E92" fromText="The last hematocrit" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E93" fromText="presented" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E94" fromText="significant subgaleal bleed" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E95" fromText="a small subdural hemorrhage" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E96" fromText="A repeat head CT scan" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E97" fromText="shown" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E98" fromText="the subdural hematoma" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E99" fromText="the subgaleal bleed" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E10" fromText="RPR" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E100" fromText="His head ultrasound" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E114" fromText="reveals" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E102" fromText="interventricular hemorrhage" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E103" fromText="neurologically stable" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E104" fromText="His head circumference" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E105" fromText="a maximum head circumference" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E11" fromText="rubella immune" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E106" fromText="admission" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E107" fromText="discharge" toID="T1" toText="2012-05-18" type="OVERLAP" />
+<TLINK id="SECTIME83" fromID="E108" fromText="the hospital" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E109" fromText="Teaching" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E110" fromText="the Boviak" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E111" fromText="factor 8" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E112" fromText="Hearing screen" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E12" fromText="Estimated date of delivery" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E113" fromText="automated auditory brain stem responses" toID="T1" toText="2012-05-18" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E14" fromText="estimated gestational age" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E15" fromText="Pregnancy" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E16" fromText="oligohydramnios" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E17" fromText="an AFI" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E18" fromText="multiple evaluations" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E19" fromText="decreased fetal movement" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E20" fromText="spontaneous onset of labor" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E21" fromText="vacuum assisted vaginal delivery" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E22" fromText="epidural anesthesia" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E23" fromText="clear amniotic fluid" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E24" fromText="antepartum maternal fever" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E25" fromText="fetal tachycardia" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E26" fromText="antepartum antibiotic prophylaxis" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E27" fromText="vigorous" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E28" fromText="delivery" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E29" fromText="bulb suction" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E30" fromText="dried" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E31" fromText="free flow oxygen" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E32" fromText="Apgars" toID="T0" toText="2012-05-08" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E33" fromText="the Newborn Nursery" toID="T0" toText="2012-05-08" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

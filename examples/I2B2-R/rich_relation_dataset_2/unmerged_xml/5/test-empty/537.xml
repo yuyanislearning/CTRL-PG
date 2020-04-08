@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-01-20
+Discharge Date :
+2014-01-21
+Service :
+MEDICINE
+History of Present Illness :
+CC : dyspnea
+HPI :
+86 yo man with h/o CVA , CHF , recent episodes of aspiration pneumonia , who p/w dyspnea from his NH .
+Per the pt 's daughter , the patient has had 2-3 episodes of asp pna in the last 2 months , for which he has received IV abx at the NH with apparent resolution of symptoms .
+The daughter says that on the day PTA , when she visited the patient at the NH , he was " having a good day ," more interactive than usual and in good spirits .
+She was called at 430 am today from the NH with the news that the pt was not doing well , and she came to the Deanna to meet up with her father .
+Of note , the patient 's daughter and son-in-law confirm his desire to be DNR/DNI , stating that they want him to be comfortable .
+However , when asked if she thinks he would want comfort measures even if it meant that his respiratory status would worsen , the pt 's daughter says that he would not .
+In particular , she feels that the pt would not want a morphine drip if it would negatively impact his respiratory function .
+ROS : patient unable to communicate at current time
+Brief Hospital Course :
+This 86 yo man with h/o CVA , CHF , recent episodes of aspiration pneumonia , presented with dyspnea from his NH , likely from new RLL pneumonia .
+He was started on Zosyn and Vanco for his presumed aspiration , ' hospital ' aquired PNA .
+PE was considered but less likely given his fevers and clear pneumonia on CXR .
+He was supported on BIPAP for his respiratory status .
+An ABG was attempted in the Deanna however it was limited by pt discomfort .
+ABG on arrival to the ICU was 7.29/56/75 .
+He was continued on BIPAP .
+Blood cultures and sputum cultures were sent .
+Over the course of the day he continued to decline .
+He was given some prn Morphine for comfort .
+In the evening of the day of admission he was noted to be increasingly somnolent .
+A repeat ABG was performed which was 7.03/129/148 .
+His family was notified that he was doing worse and came in to visit him .
+It was his family 's wish that he be made comfortable .
+Based upon this wish the BIPAP was removed and he was placed on nasal cannula .
+He was written for a morphine drip however he expired before this could be initiated .
+Secondary issues
+Elevated lactate :
+This was concerning for early sepsis given RLL PNA .
+His blood pressures remained elevated and he was hydrated with NS conservatively , given h/o CHF and dyspnea .
+DM2 :
+He was covered with a Insulin drip while unstable
+CV :
+CAD :
+He was not taking any PO medications per Hunt Center Rehab so all medications were held .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1062" end="1077" text="a morphine drip" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1149" end="1170" text="unable to communicate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1235" end="1238" text="CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1241" end="1244" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1266" end="1286" text="aspiration pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1304" end="1311" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1342" end="1355" text="RLL pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1376" end="1381" text="Zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1386" end="1391" text="Vanco" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1396" end="1419" text="his presumed aspiration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="143" end="146" text="CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1422" end="1446" text="' hospital ' aquired PNA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1449" end="1451" text="PE" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="149" end="152" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1489" end="1499" text="his fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1504" end="1519" text="clear pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1523" end="1526" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1549" end="1554" text="BIPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1584" end="1590" text="An ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1608" end="1618" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1661" end="1664" text="ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1668" end="1675" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1679" end="1686" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="1724" end="1729" text="BIPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="174" end="194" text="aspiration pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1732" end="1746" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1751" end="1766" text="sputum cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1822" end="1829" text="decline" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1854" end="1862" text="Morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1923" end="1928" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E41" start="1948" end="1957" text="somnolent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1960" end="1972" text="A repeat ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="205" end="212" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2048" end="2059" text="doing worse" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="2124" end="2140" text="made comfortable" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2164" end="2173" text="the BIPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2207" end="2220" text="nasal cannula" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="2242" end="2257" text="a morphine drip" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="2269" end="2276" text="expired" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2376" end="2382" text="sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="2389" end="2396" text="RLL PNA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="2399" end="2418" text="His blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2448" end="2456" text="hydrated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="2462" end="2464" text="NS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2492" end="2495" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2500" end="2507" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2536" end="2550" text="a Insulin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2599" end="2613" text="PO medications" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E57" start="2618" end="2635" text="Hunt Center Rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="288" end="295" text="asp pna" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="345" end="351" text="IV abx" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="390" end="398" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="491" end="508" text="having a good day" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="639" end="649" text="doing well" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="782" end="789" text="DNR/DNI" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="888" end="904" text="comfort measures" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="927" end="962" text="his respiratory status would worsen" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1174" end="1186" text="current time" type="DATE" val="2014-01-20" mod="NA" />
+<TIMEX3 id="T6" start="1784" end="1805" text="the course of the day" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2014-01-20" type="DATE" val="2014-01-20" mod="NA" />
+<TIMEX3 id="T7" start="1880" end="1915" text="the evening of the day of admission" type="DATE" val="2014-01-20" mod="END" />
+<TIMEX3 id="T2" start="308" end="316" text="2 months" type="DURATION" val="P2M" mod="NA" />
+<TIMEX3 id="T3" start="427" end="438" text="the day PTA" type="DATE" val="2014-01-19" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2014-01-21" type="DATE" val="2014-01-21" mod="NA" />
+<TIMEX3 id="T4" start="580" end="592" text="430 am today" type="TIME" val="2014-01-20T4:30" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2014-01-20" type="ADMISSION" dvalue="2014-01-20" />
+<SECTIME id="S1" start="46" end="56" text="2014-01-21" type="DISCHARGE" dvalue="2014-01-21" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

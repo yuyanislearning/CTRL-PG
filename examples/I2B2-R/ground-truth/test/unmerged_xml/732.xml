@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-08-30
+Discharge Date :
+2010-08-31
+Service :
+MEDICINE
+HISTORY OF THE PRESENT ILLNESS :
+This is a 33 - year-old Asian-Caucasian male with a history of Type 1 diabetes , asthma , alcohol abuse , and personality disorder / depression admitted on 2010-08-28 for persistent hypoglycemia .
+The patient complained of diaphoresis , confusion , dizziness , lightheadedness after drinking a 24 ounce beer and taking at least an extra 15 units of NPH insulin the evening of 2010-08-27 ( later reported over 70 U insulin administered from 2.30 PM until time of presentation ) followed by not eating dinner .
+His symptoms mildly improved after eating a candy bar .
+The EMS was called and found his blood sugar at the time to be 61 and noted to be 41 in the Emergency Department .
+He denied any seizure activity , loss of consciousness , incontinence , shortness of breath , fevers , or chills , chest pain , change in urinary or bowel habits , or suicidal ideation .
+He has been depressed recently regarding stress with his home life and on the night of his extra insulin doses , his wife had just kicked him out of the house .
+He has had four past hospitalizations for attempted suicide with insulin overdosing , usually denied .
+The wife also states that he drinks more than he states .
+In the Emergency Department , he received 3.5 amps of D50 and then D5 normal saline and D10 normal saline with blood sugars that were slow to increase leading the ICU team to suspect that the patient had taken more insulin than he admitted .
+He also had a very positive tox screen for alcohol .
+His fingersticks are currently in the 200 s and his normal blood glucose at home ranges between 90-200 per the patient .
+The patient also now complains of increased right upper quadrant / right rib cage pain and new headache .
+He also complains of chronic photophobia which is unchanged .
+He denied visual changes , lightheadedness of dizziness currently , neck stiffness , or pain in any other area .
+HOSPITAL COURSE :
+1. HYPOGLYCEMIA :
+The patient had been initially very hypoglycemic on admission secondary to overdosing on insulin ; however , with glucose repletion both in the Emergency Department and in the ICU , this resolved and the patient also began to eat .
+We checked fingerstick glucoses q.i.d. and at 3:00 a.m.
+His glucose on the morning of discharge was about 60 so we opted to decrease his p.m. NPH dose slightly for discharge and continue covering him with sliding scale insulin .
+He should also continue having a snack at midnight if able .
+It is likely that he required a much greater amount of insulin as an outpatient due to poor compliance with Richard Natalie diet .
+2. ALCOHOL ABUSE :
+It is likely that the patient continues to drink more than he admits .
+He did have past alcoholism consisting of a half a pint of brandy per day for three years but supposedly had quit in 2009-09-03 .
+He had been on a diazepam CIWA scale prophylaxis against DT s; however , he had a very low CIWA scale during his entire admission and did not need any benzodiazepines .
+This alcohol abuse may be further addressed as an inpatient on the Psychiatry Quincy Medical Center .
+We had also requested a Social Work consult regarding this .
+3. DEPRESSION vs. Borderline personality disorder :
+The patient has had several admissions in the past for attempted suicide with overdose of his insulin and though he denied at this time attempting to end his life , it appears that the social situation of increased stressors corresponding to this time suggest that this is not the truth .
+He received a one-to-one sitter during his admission and will be transferred to the Psychiatry HealthSouth New England Rehab Hospital to ensure the patient 's safety and initiate further antidepressant treatment .
+He will need close follow-up regarding his depression as an outpatient , although apparently this has been set up for him in the past and he had not followed through .
+4. HISTORY OF HIGH BLOOD PRESSURE :
+His blood pressure was fairly low with a maximum of 130s systolic during his admission , thus we did not continue his lisinopril which he had been on in the past .
+5. RIGHT UPPER QUADRANT PAIN :
+We obtained a right upper quadrant ultrasound as well as LFTs , amylase , and lipase which were all normal .
+He had no evidence of cholecystitis or gallstones or any abnormalities with the liver or kidneys .
+it is possible that he has had a muscle strain or other musculoskeletal cause .
+6. PROPHYLAXIS :
+He was put on Pepcid for GI prophylaxis .
+7. FLUIDS , ELECTROLYTES , AND NUTRITION :
+He complied with Linda Chad diet while hospitalized .
+The patient was hyperphosphatemic secondary to overadministration of Neutra-Phos during his ICU stay .
+He was given two doses of calcium carbonate 1 gram , and will most likely normalize secondary to both calcium binding and urinary excretion .
+He has been asymptomatic .
+]]></TEXT>
+<TAGS>
+<EVENT id="E56" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1063" end="1086" text="his extra insulin doses" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1107" end="1134" text="kicked him out of the house" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="1158" end="1174" text="hospitalizations" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1179" end="1196" text="attempted suicide" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1202" end="1220" text="insulin overdosing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="1231" end="1237" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E89" start="1254" end="1260" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E90" start="1266" end="1275" text="he drinks" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="1289" end="1295" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E92" start="1301" end="1325" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1352" end="1355" text="D50" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1365" end="1381" text="D5 normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1386" end="1403" text="D10 normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1409" end="1421" text="blood sugars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1432" end="1448" text="slow to increase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="1513" end="1520" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="1529" end="1537" text="admitted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="1568" end="1578" text="tox screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="1593" end="1609" text="His fingersticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="1652" end="1665" text="blood glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E0" start="172" end="187" text="Type 1 diabetes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="1735" end="1744" text="complains" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="1748" end="1800" text="increased right upper quadrant / right rib cage pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="1805" end="1817" text="new headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="1828" end="1837" text="complains" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E101" start="1841" end="1860" text="chronic photophobia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="1885" end="1891" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E60" start="190" end="196" text="asthma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="1892" end="1906" text="visual changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E104" start="1909" end="1924" text="lightheadedness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E105" start="1928" end="1937" text="dizziness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E106" start="1950" end="1964" text="neck stiffness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="1970" end="1992" text="pain in any other area" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="199" end="212" text="alcohol abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="2016" end="2028" text="HYPOGLYCEMIA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="2062" end="2079" text="very hypoglycemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2083" end="2092" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="2106" end="2127" text="overdosing on insulin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="2145" end="2162" text="glucose repletion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="2171" end="2195" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E62" start="219" end="239" text="personality disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2203" end="2210" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="2257" end="2260" text="eat" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="2274" end="2294" text="fingerstick glucoses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2319" end="2330" text="His glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="2349" end="2358" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="2387" end="2395" text="decrease" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2396" end="2413" text="his p.m. NPH dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="242" end="252" text="depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2427" end="2436" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2468" end="2489" text="sliding scale insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="2523" end="2530" text="a snack" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="253" end="261" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="2608" end="2615" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2640" end="2655" text="poor compliance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2661" end="2681" text="Richard Natalie diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E116" start="2687" end="2700" text="ALCOHOL ABUSE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="2746" end="2756" text="drink more" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="2765" end="2771" text="admits" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="280" end="303" text="persistent hypoglycemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="2791" end="2801" text="alcoholism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="2816" end="2839" text="a half a pint of brandy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2919" end="2952" text="a diazepam CIWA scale prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2961" end="2966" text="DT s;" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="2984" end="3005" text="a very low CIWA scale" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="3013" end="3033" text="his entire admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="3051" end="3070" text="any benzodiazepines" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E122" start="3073" end="3091" text="This alcohol abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="3099" end="3116" text="further addressed" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E124" start="3136" end="3172" text="the Psychiatry Quincy Medical Center" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="318" end="328" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E126" start="3197" end="3218" text="a Social Work consult" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="3239" end="3249" text="DEPRESSION" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="3254" end="3285" text="Borderline personality disorder" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="332" end="343" text="diaphoresis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="3316" end="3326" text="admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="3343" end="3360" text="attempted suicide" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="3366" end="3374" text="overdose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="3378" end="3389" text="his insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="3404" end="3410" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E130" start="3424" end="3450" text="attempting to end his life" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="346" end="355" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="3493" end="3512" text="increased stressors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="358" end="367" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="3589" end="3608" text="a one-to-one sitter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="3616" end="3629" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="3642" end="3653" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="3657" end="3710" text="the Psychiatry HealthSouth New England Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="370" end="385" text="lightheadedness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E135" start="3756" end="3788" text="further antidepressant treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="3804" end="3819" text="close follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="3830" end="3844" text="his depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="3898" end="3904" text="set up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="392" end="416" text="drinking a 24 ounce beer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="3940" end="3956" text="followed through" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E37" start="3973" end="3992" text="HIGH BLOOD PRESSURE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E140" start="3995" end="4013" text="His blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E141" start="4018" end="4028" text="fairly low" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E142" start="4068" end="4081" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="4109" end="4123" text="his lisinopril" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E39" start="4162" end="4187" text="RIGHT UPPER QUADRANT PAIN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="4202" end="4235" text="a right upper quadrant ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="4247" end="4251" text="LFTs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="4254" end="4261" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="4268" end="4274" text="lipase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="4321" end="4334" text="cholecystitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="4338" end="4348" text="gallstones" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="4352" end="4395" text="any abnormalities with the liver or kidneys" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="4429" end="4444" text="a muscle strain" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="4448" end="4475" text="other musculoskeletal cause" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="4481" end="4492" text="PROPHYLAXIS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="4509" end="4515" text="Pepcid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="4520" end="4534" text="GI prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="4597" end="4612" text="Linda Chad diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="458" end="469" text="NPH insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="4619" end="4631" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="4650" end="4667" text="hyperphosphatemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E144" start="4681" end="4699" text="overadministration" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="4703" end="4714" text="Neutra-Phos" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="4722" end="4734" text="his ICU stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="4763" end="4780" text="calcium carbonate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="4811" end="4820" text="normalize" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="4839" end="4854" text="calcium binding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E148" start="4859" end="4876" text="urinary excretion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E149" start="4891" end="4903" text="asymptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="504" end="512" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E58" start="523" end="530" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="571" end="583" text="presentation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="598" end="615" text="not eating dinner" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="618" end="630" text="His symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="638" end="646" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="653" end="671" text="eating a candy bar" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="686" end="692" text="called" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="703" end="718" text="his blood sugar" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="762" end="786" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E76" start="792" end="798" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E77" start="799" end="819" text="any seizure activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E78" start="822" end="843" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="846" end="858" text="incontinence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="861" end="880" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E81" start="883" end="889" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="895" end="901" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="904" end="914" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="917" end="950" text="change in urinary or bowel habits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E85" start="956" end="973" text="suicidal ideation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="988" end="997" text="depressed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T7" start="1050" end="1059" text="the night" type="DATE" val="2010-08-27" mod="END" />
+<TIMEX3 id="T8" start="1148" end="1152" text="four" type="FREQUENCY" val="R4" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2010-08-30" type="DATE" val="2010-08-30" mod="NA" />
+<TIMEX3 id="T9" start="2295" end="2301" text="q.i.d." type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T10" start="2309" end="2318" text="3:00 a.m." type="TIME" val="03:00" mod="NA" />
+<TIMEX3 id="T11" start="2334" end="2358" text="the morning of discharge" type="DATE" val="2010-08-31" mod="START" />
+<TIMEX3 id="T12" start="2534" end="2542" text="midnight" type="TIME" val="24:00" mod="NA" />
+<TIMEX3 id="T3" start="265" end="275" text="2010-08-28" type="DATE" val="2010-08-28" mod="NA" />
+<TIMEX3 id="T13" start="2840" end="2847" text="per day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T14" start="2852" end="2863" text="three years" type="DURATION" val="P3Y" mod="NA" />
+<TIMEX3 id="T5" start="2891" end="2901" text="2009-09-03" type="DATE" val="2009-09-03" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2010-08-31" type="DATE" val="2010-08-31" mod="NA" />
+<TIMEX3 id="T15" start="4750" end="4753" text="two" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T4" start="470" end="495" text="the evening of 2010-08-27" type="DATE" val="2010-08-27" mod="END" />
+<TIMEX3 id="T0" start="549" end="556" text="2.30 PM" type="TIME" val="2010-08-27T14:30" mod="NA" />
+<TLINK id="TL0" fromID="E56" fromText="Admission" toID="T1" toText="2010-08-30" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E33" fromText="attempted suicide" toID="E34" toText="overdose" type="SIMULTANEOUS" />
+<TLINK id="TL100" fromID="E113" fromText="discharge" toID="E111" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL101" fromID="E25" fromText="sliding scale insulin" toID="E113" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL102" fromID="E114" fromText="a snack" toID="T12" toText="midnight" type="SIMULTANEOUS" />
+<TLINK id="TL103" fromID="E115" fromText="insulin" toID="E26" toText="poor compliance" type="OVERLAP" />
+<TLINK id="TL104" fromID="E26" fromText="poor compliance" toID="E27" toText="Richard Natalie diet" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E27" fromText="Richard Natalie diet" toID="E64" toText="admitted" type="BEFORE" />
+<TLINK id="TL106" fromID="E116" fromText="ALCOHOL ABUSE" toID="E61" toText="alcohol abuse" type="SIMULTANEOUS" />
+<TLINK id="TL107" fromID="E117" fromText="drink more" toID="E90" toText="he drinks" type="SIMULTANEOUS" />
+<TLINK id="TL108" fromID="E118" fromText="admits" toID="E91" toText="states" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E119" fromText="alcoholism" toID="E120" toText="a half a pint of brandy" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E34" fromText="overdose" toID="E35" toText="his insulin" type="OVERLAP" />
+<TLINK id="TL110" fromID="E120" fromText="a half a pint of brandy" toID="T13" toText="per day" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E120" fromText="a half a pint of brandy" toID="T14" toText="three years" type="DURING" />
+<TLINK id="TL112" fromID="T14" fromText="three years" toID="T5" toText="2009-09-03" type="ENDED_BY" />
+<TLINK id="TL113" fromID="E28" fromText="a diazepam CIWA scale prophylaxis" toID="E121" toText="his entire admission" type="OVERLAP" />
+<TLINK id="TL114" fromID="E29" fromText="DT s;" toID="E28" toText="a diazepam CIWA scale prophylaxis" type="OVERLAP" />
+<TLINK id="TL115" fromID="E30" fromText="a very low CIWA scale" toID="E121" toText="his entire admission" type="DURING" />
+<TLINK id="TL117" fromID="E31" fromText="any benzodiazepines" toID="E121" toText="his entire admission" type="DURING" />
+<TLINK id="TL118" fromID="E121" fromText="his entire admission" toID="E64" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL119" fromID="E121" fromText="his entire admission" toID="T2" toText="2010-08-31" type="ENDED_BY" />
+<TLINK id="TL12" fromID="E41" fromText="LFTs" toID="E42" toText="amylase" type="OVERLAP" />
+<TLINK id="TL120" fromID="E122" fromText="This alcohol abuse" toID="E116" toText="ALCOHOL ABUSE" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E125" fromText="further addressed" toID="E124" toText="the Psychiatry Quincy Medical Center" type="OVERLAP" />
+<TLINK id="TL122" fromID="E124" fromText="the Psychiatry Quincy Medical Center" toID="E57" toText="Discharge" type="BEGUN_BY" />
+<TLINK id="TL123" fromID="E126" fromText="a Social Work consult" toID="E56" toText="Admission" type="AFTER" />
+<TLINK id="TL124" fromID="E32" fromText="DEPRESSION" toID="E63" toText="depression" type="SIMULTANEOUS" />
+<TLINK id="TL125" fromID="E62" fromText="personality disorder" toID="E127" toText="Borderline personality disorder" type="SIMULTANEOUS" />
+<TLINK id="TL126" fromID="E128" fromText="admissions" toID="E33" toText="attempted suicide" type="OVERLAP" />
+<TLINK id="TL127" fromID="E128" fromText="admissions" toID="E87" toText="hospitalizations" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E129" fromText="denied" toID="E69" toText="reported" type="OVERLAP" />
+<TLINK id="TL13" fromID="E42" fromText="amylase" toID="E43" toText="lipase" type="OVERLAP" />
+<TLINK id="TL130" fromID="E130" fromText="attempting to end his life" toID="E20" toText="overdosing on insulin" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E36" fromText="increased stressors" toID="E86" toText="kicked him out of the house" type="BEFORE_OVERLAP" />
+<TLINK id="TL132" fromID="E131" fromText="a one-to-one sitter" toID="E132" toText="his admission" type="DURING" />
+<TLINK id="TL133" fromID="E132" fromText="his admission" toID="E121" toText="his entire admission" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E132" fromText="his admission" toID="E133" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL135" fromID="E134" fromText="the Psychiatry HealthSouth New England Rehab Hospital" toID="E133" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL136" fromID="E133" fromText="transferred" toID="E57" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL137" fromID="E135" fromText="further antidepressant treatment" toID="E134" toText="the Psychiatry HealthSouth New England Rehab Hospital" type="BEFORE_OVERLAP" />
+<TLINK id="TL138" fromID="E136" fromText="close follow-up" toID="E135" toText="further antidepressant treatment" type="OVERLAP" />
+<TLINK id="TL139" fromID="E32" fromText="DEPRESSION" toID="E137" toText="his depression" type="SIMULTANEOUS" />
+<TLINK id="TL140" fromID="E139" fromText="followed through" toID="E138" toText="set up" type="AFTER" />
+<TLINK id="TL141" fromID="E139" fromText="followed through" toID="E56" toText="Admission" type="BEFORE" />
+<TLINK id="TL142" fromID="E37" fromText="HIGH BLOOD PRESSURE" toID="E64" toText="admitted" type="BEFORE" />
+<TLINK id="TL143" fromID="E140" fromText="His blood pressure" toID="E142" toText="his admission" type="DURING" />
+<TLINK id="TL144" fromID="E140" fromText="His blood pressure" toID="E141" toText="fairly low" type="OVERLAP" />
+<TLINK id="TL145" fromID="E142" fromText="his admission" toID="E121" toText="his entire admission" type="SIMULTANEOUS" />
+<TLINK id="TL146" fromID="E38" fromText="his lisinopril" toID="E141" toText="fairly low" type="ENDED_BY" />
+<TLINK id="TL147" fromID="E39" fromText="RIGHT UPPER QUADRANT PAIN" toID="E98" toText="increased right upper quadrant / right rib cage pain" type="SIMULTANEOUS" />
+<TLINK id="TL148" fromID="E40" fromText="a right upper quadrant ultrasound" toID="E142" toText="his admission" type="DURING" />
+<TLINK id="TL149" fromID="E40" fromText="a right upper quadrant ultrasound" toID="E41" toText="LFTs" type="OVERLAP" />
+<TLINK id="TL15" fromID="E57" fromText="Discharge" toID="T2" toText="2010-08-31" type="SIMULTANEOUS" />
+<TLINK id="TL150" fromID="E44" fromText="cholecystitis" toID="E40" toText="a right upper quadrant ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL151" fromID="E46" fromText="any abnormalities with the liver or kidneys" toID="E40" toText="a right upper quadrant ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL152" fromID="E47" fromText="a muscle strain" toID="E39" toText="RIGHT UPPER QUADRANT PAIN" type="SIMULTANEOUS" />
+<TLINK id="TL153" fromID="E47" fromText="a muscle strain" toID="E48" toText="other musculoskeletal cause" type="SIMULTANEOUS" />
+<TLINK id="TL154" fromID="E49" fromText="PROPHYLAXIS" toID="E51" toText="GI prophylaxis" type="SIMULTANEOUS" />
+<TLINK id="TL155" fromID="E50" fromText="Pepcid" toID="E51" toText="GI prophylaxis" type="SIMULTANEOUS" />
+<TLINK id="TL156" fromID="E49" fromText="PROPHYLAXIS" toID="E142" toText="his admission" type="DURING" />
+<TLINK id="TL157" fromID="E52" fromText="Linda Chad diet" toID="E143" toText="hospitalized" type="DURING" />
+<TLINK id="TL158" fromID="E143" fromText="hospitalized" toID="E132" toText="his admission" type="SIMULTANEOUS" />
+<TLINK id="TL159" fromID="E149" fromText="asymptomatic" toID="E53" toText="hyperphosphatemic" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E0" fromText="Type 1 diabetes" toID="E56" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL160" fromID="E53" fromText="hyperphosphatemic" toID="E144" toText="overadministration" type="AFTER" />
+<TLINK id="TL161" fromID="E54" fromText="Neutra-Phos" toID="E144" toText="overadministration" type="OVERLAP" />
+<TLINK id="TL162" fromID="E144" fromText="overadministration" toID="E145" toText="his ICU stay" type="DURING" />
+<TLINK id="TL163" fromID="E109" fromText="the ICU" toID="E145" toText="his ICU stay" type="SIMULTANEOUS" />
+<TLINK id="TL164" fromID="T15" fromText="two" toID="E55" toText="calcium carbonate" type="SIMULTANEOUS" />
+<TLINK id="TL165" fromID="E144" fromText="overadministration" toID="E55" toText="calcium carbonate" type="BEFORE" />
+<TLINK id="TL166" fromID="E147" fromText="calcium binding" toID="E146" toText="normalize" type="OVERLAP" />
+<TLINK id="TL167" fromID="E147" fromText="calcium binding" toID="E148" toText="urinary excretion" type="OVERLAP" />
+<TLINK id="TL168" fromID="E146" fromText="normalize" toID="E55" toText="calcium carbonate" type="AFTER" />
+<TLINK id="TL17" fromID="E60" fromText="asthma" toID="E56" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E61" fromText="alcohol abuse" toID="E56" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E62" fromText="personality disorder" toID="E56" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E18" fromText="HYPOGLYCEMIA" toID="E19" toText="very hypoglycemic" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E63" fromText="depression" toID="E56" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E64" fromText="admitted" toID="T3" toText="2010-08-28" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E65" fromText="persistent hypoglycemia" toID="E64" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E66" fromText="complained" toID="E64" toText="admitted" type="OVERLAP" />
+<TLINK id="TL3" fromID="E10" fromText="attempted suicide" toID="E33" toText="attempted suicide" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E5" fromText="NPH insulin" toID="E67" toText="drinking a 24 ounce beer" type="OVERLAP" />
+<TLINK id="TL32" fromID="E5" fromText="NPH insulin" toID="T4" toText="the evening of 2010-08-27" type="OVERLAP" />
+<TLINK id="TL33" fromID="E69" fromText="reported" toID="E66" toText="complained" type="AFTER" />
+<TLINK id="TL34" fromID="E58" fromText="insulin" toID="E5" toText="NPH insulin" type="OVERLAP" />
+<TLINK id="TL35" fromID="E70" fromText="presentation" toID="E64" toText="admitted" type="OVERLAP" />
+<TLINK id="TL36" fromID="E71" fromText="not eating dinner" toID="E58" toText="insulin" type="AFTER" />
+<TLINK id="TL37" fromID="E1" fromText="diaphoresis" toID="E6" toText="His symptoms" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E2" fromText="confusion" toID="E6" toText="His symptoms" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E3" fromText="dizziness" toID="E6" toText="His symptoms" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E4" fromText="lightheadedness" toID="E6" toText="His symptoms" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E6" fromText="His symptoms" toID="E67" toText="drinking a 24 ounce beer" type="AFTER" />
+<TLINK id="TL42" fromID="E73" fromText="eating a candy bar" toID="E58" toText="insulin" type="AFTER" />
+<TLINK id="TL43" fromID="E72" fromText="improved" toID="E73" toText="eating a candy bar" type="AFTER" />
+<TLINK id="TL44" fromID="E74" fromText="called" toID="E72" toText="improved" type="AFTER" />
+<TLINK id="TL45" fromID="E7" fromText="his blood sugar" toID="E74" toText="called" type="AFTER" />
+<TLINK id="TL46" fromID="E75" fromText="the Emergency Department" toID="E64" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL47" fromID="E75" fromText="the Emergency Department" toID="E76" toText="denied" type="OVERLAP" />
+<TLINK id="TL48" fromID="E77" fromText="any seizure activity" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E78" fromText="loss of consciousness" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E10" fromText="attempted suicide" toID="E11" toText="insulin overdosing" type="OVERLAP" />
+<TLINK id="TL50" fromID="E79" fromText="incontinence" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="E80" fromText="shortness of breath" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E81" fromText="fevers" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E82" fromText="chills" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL54" fromID="E83" fromText="chest pain" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E84" fromText="change in urinary or bowel habits" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E85" fromText="suicidal ideation" toID="E76" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E8" fromText="depressed" toID="E64" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E9" fromText="his extra insulin doses" toID="T7" toText="the night" type="OVERLAP" />
+<TLINK id="TL59" fromID="E9" fromText="his extra insulin doses" toID="E58" toText="insulin" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E13" fromText="D5 normal saline" toID="E14" toText="D10 normal saline" type="OVERLAP" />
+<TLINK id="TL60" fromID="E86" fromText="kicked him out of the house" toID="T7" toText="the night" type="OVERLAP" />
+<TLINK id="TL61" fromID="T8" fromText="four" toID="E87" toText="hospitalizations" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E87" fromText="hospitalizations" toID="E10" toText="attempted suicide" type="OVERLAP" />
+<TLINK id="TL63" fromID="E87" fromText="hospitalizations" toID="E64" toText="admitted" type="BEFORE" />
+<TLINK id="TL64" fromID="E88" fromText="denied" toID="E87" toText="hospitalizations" type="OVERLAP" />
+<TLINK id="TL65" fromID="E89" fromText="states" toID="E76" toText="denied" type="OVERLAP" />
+<TLINK id="TL66" fromID="E91" fromText="states" toID="E89" toText="states" type="OVERLAP" />
+<TLINK id="TL67" fromID="E90" fromText="he drinks" toID="E61" toText="alcohol abuse" type="OVERLAP" />
+<TLINK id="TL68" fromID="E92" fromText="the Emergency Department" toID="E75" toText="the Emergency Department" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E12" fromText="D50" toID="E92" toText="the Emergency Department" type="DURING" />
+<TLINK id="TL7" fromID="E14" fromText="D10 normal saline" toID="E15" toText="blood sugars" type="OVERLAP" />
+<TLINK id="TL70" fromID="E12" fromText="D50" toID="E13" toText="D5 normal saline" type="BEFORE" />
+<TLINK id="TL71" fromID="E93" fromText="insulin" toID="E58" toText="insulin" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E94" fromText="admitted" toID="E69" toText="reported" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E17" fromText="tox screen" toID="E92" toText="the Emergency Department" type="DURING" />
+<TLINK id="TL74" fromID="E95" fromText="His fingersticks" toID="E16" toText="slow to increase" type="AFTER" />
+<TLINK id="TL75" fromID="E96" fromText="blood glucose" toID="E64" toText="admitted" type="BEFORE" />
+<TLINK id="TL76" fromID="E97" fromText="complains" toID="E100" toText="complains" type="OVERLAP" />
+<TLINK id="TL77" fromID="E95" fromText="His fingersticks" toID="E97" toText="complains" type="OVERLAP" />
+<TLINK id="TL78" fromID="E98" fromText="increased right upper quadrant / right rib cage pain" toID="E97" toText="complains" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E99" fromText="new headache" toID="E97" toText="complains" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E15" fromText="blood sugars" toID="E16" toText="slow to increase" type="OVERLAP" />
+<TLINK id="TL80" fromID="E101" fromText="chronic photophobia" toID="E64" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL81" fromID="E100" fromText="complains" toID="E102" toText="denied" type="OVERLAP" />
+<TLINK id="TL82" fromID="E103" fromText="visual changes" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E104" fromText="lightheadedness" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E105" fromText="dizziness" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL85" fromID="E106" fromText="neck stiffness" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="E107" fromText="pain in any other area" toID="E102" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL87" fromID="E18" fromText="HYPOGLYCEMIA" toID="E65" toText="persistent hypoglycemia" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E19" fromText="very hypoglycemic" toID="E59" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E20" fromText="overdosing on insulin" toID="E58" toText="insulin" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E59" fromText="admission" toID="E56" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E21" fromText="glucose repletion" toID="E14" toText="D10 normal saline" type="OVERLAP" />
+<TLINK id="TL91" fromID="E108" fromText="the Emergency Department" toID="E75" toText="the Emergency Department" type="SIMULTANEOUS" />
+<TLINK id="TL92" fromID="E109" fromText="the ICU" toID="E108" toText="the Emergency Department" type="AFTER" />
+<TLINK id="TL93" fromID="E110" fromText="eat" toID="E109" toText="the ICU" type="OVERLAP" />
+<TLINK id="TL94" fromID="E22" fromText="fingerstick glucoses" toID="T9" toText="q.i.d." type="OVERLAP" />
+<TLINK id="TL95" fromID="E22" fromText="fingerstick glucoses" toID="T10" toText="3:00 a.m." type="OVERLAP" />
+<TLINK id="TL96" fromID="E109" fromText="the ICU" toID="E22" toText="fingerstick glucoses" type="OVERLAP" />
+<TLINK id="TL97" fromID="E23" fromText="His glucose" toID="T11" toText="the morning of discharge" type="SIMULTANEOUS" />
+<TLINK id="TL98" fromID="E112" fromText="decrease" toID="E23" toText="His glucose" type="AFTER" />
+<TLINK id="TL99" fromID="E24" fromText="his p.m. NPH dose" toID="E112" toText="decrease" type="BEGUN_BY" />
+<SECTIME id="S0" start="18" end="28" text="2010-08-30" type="ADMISSION" dvalue="2010-08-30" />
+<SECTIME id="S1" start="46" end="56" text="2010-08-31" type="DISCHARGE" dvalue="2010-08-31" />
+<TLINK id="SECTIME0" fromID="E9" fromText="his extra insulin doses" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E86" fromText="kicked him out of the house" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E87" fromText="hospitalizations" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E10" fromText="attempted suicide" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E11" fromText="insulin overdosing" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E88" fromText="denied" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E89" fromText="states" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E90" fromText="he drinks" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E91" fromText="states" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E92" fromText="the Emergency Department" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="D50" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="D5 normal saline" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="D10 normal saline" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E15" fromText="blood sugars" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E16" fromText="slow to increase" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E93" fromText="insulin" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E94" fromText="admitted" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E17" fromText="tox screen" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E95" fromText="His fingersticks" toID="T1" toText="2010-08-30" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E96" fromText="blood glucose" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E0" fromText="Type 1 diabetes" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME21" fromID="E97" fromText="complains" toID="T1" toText="2010-08-30" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E98" fromText="increased right upper quadrant / right rib cage pain" toID="T1" toText="2010-08-30" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E99" fromText="new headache" toID="T1" toText="2010-08-30" type="AFTER" />
+<TLINK id="SECTIME24" fromID="E100" fromText="complains" toID="T1" toText="2010-08-30" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E101" fromText="chronic photophobia" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME26" fromID="E102" fromText="denied" toID="T1" toText="2010-08-30" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E60" fromText="asthma" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME28" fromID="E103" fromText="visual changes" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME29" fromID="E104" fromText="lightheadedness" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E105" fromText="dizziness" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME31" fromID="E106" fromText="neck stiffness" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME32" fromID="E107" fromText="pain in any other area" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E61" fromText="alcohol abuse" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME34" fromID="E18" fromText="HYPOGLYCEMIA" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E19" fromText="very hypoglycemic" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E59" fromText="admission" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E20" fromText="overdosing on insulin" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E21" fromText="glucose repletion" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E108" fromText="the Emergency Department" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E62" fromText="personality disorder" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME41" fromID="E109" fromText="the ICU" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E110" fromText="eat" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E22" fromText="fingerstick glucoses" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E23" fromText="His glucose" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E111" fromText="discharge" toID="T2" toText="2010-08-31" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E112" fromText="decrease" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E24" fromText="his p.m. NPH dose" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME48" fromID="E63" fromText="depression" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME49" fromID="E113" fromText="discharge" toID="T2" toText="2010-08-31" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E25" fromText="sliding scale insulin" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME51" fromID="E114" fromText="a snack" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME52" fromID="E64" fromText="admitted" toID="T1" toText="2010-08-30" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E115" fromText="insulin" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E26" fromText="poor compliance" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E27" fromText="Richard Natalie diet" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E116" fromText="ALCOHOL ABUSE" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME57" fromID="E117" fromText="drink more" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E118" fromText="admits" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E65" fromText="persistent hypoglycemia" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME60" fromID="E119" fromText="alcoholism" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E120" fromText="a half a pint of brandy" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E28" fromText="a diazepam CIWA scale prophylaxis" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E29" fromText="DT s;" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E30" fromText="a very low CIWA scale" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E31" fromText="any benzodiazepines" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E122" fromText="This alcohol abuse" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME67" fromID="E125" fromText="further addressed" toID="T2" toText="2010-08-31" type="AFTER" />
+<TLINK id="SECTIME68" fromID="E124" fromText="the Psychiatry Quincy Medical Center" toID="T2" toText="2010-08-31" type="AFTER" />
+<TLINK id="SECTIME69" fromID="E66" fromText="complained" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E126" fromText="a Social Work consult" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E32" fromText="DEPRESSION" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME72" fromID="E127" fromText="Borderline personality disorder" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME73" fromID="E1" fromText="diaphoresis" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E128" fromText="admissions" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E33" fromText="attempted suicide" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E34" fromText="overdose" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E35" fromText="his insulin" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E129" fromText="denied" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E130" fromText="attempting to end his life" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E2" fromText="confusion" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E36" fromText="increased stressors" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E3" fromText="dizziness" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E131" fromText="a one-to-one sitter" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E132" fromText="his admission" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E133" fromText="transferred" toID="T2" toText="2010-08-31" type="OVERLAP" />
+<TLINK id="SECTIME86" fromID="E134" fromText="the Psychiatry HealthSouth New England Rehab Hospital" toID="T2" toText="2010-08-31" type="AFTER" />
+<TLINK id="SECTIME87" fromID="E4" fromText="lightheadedness" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E135" fromText="further antidepressant treatment" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME89" fromID="E136" fromText="close follow-up" toID="T2" toText="2010-08-31" type="AFTER" />
+<TLINK id="SECTIME90" fromID="E137" fromText="his depression" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME91" fromID="E138" fromText="set up" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E67" fromText="drinking a 24 ounce beer" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E139" fromText="followed through" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E37" fromText="HIGH BLOOD PRESSURE" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E140" fromText="His blood pressure" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E141" fromText="fairly low" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E142" fromText="his admission" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E38" fromText="his lisinopril" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E39" fromText="RIGHT UPPER QUADRANT PAIN" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E40" fromText="a right upper quadrant ultrasound" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E41" fromText="LFTs" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E42" fromText="amylase" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E43" fromText="lipase" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E44" fromText="cholecystitis" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E45" fromText="gallstones" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E46" fromText="any abnormalities with the liver or kidneys" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E47" fromText="a muscle strain" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E48" fromText="other musculoskeletal cause" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E49" fromText="PROPHYLAXIS" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E50" fromText="Pepcid" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E51" fromText="GI prophylaxis" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E5" fromText="NPH insulin" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E52" fromText="Linda Chad diet" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E143" fromText="hospitalized" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E53" fromText="hyperphosphatemic" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E144" fromText="overadministration" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E54" fromText="Neutra-Phos" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E145" fromText="his ICU stay" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E55" fromText="calcium carbonate" toID="T2" toText="2010-08-31" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E146" fromText="normalize" toID="T2" toText="2010-08-31" type="AFTER" />
+<TLINK id="SECTIME121" fromID="E147" fromText="calcium binding" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME122" fromID="E148" fromText="urinary excretion" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME123" fromID="E149" fromText="asymptomatic" toID="T2" toText="2010-08-31" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME124" fromID="E69" fromText="reported" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E58" fromText="insulin" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E70" fromText="presentation" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E71" fromText="not eating dinner" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E6" fromText="His symptoms" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E72" fromText="improved" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E73" fromText="eating a candy bar" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E74" fromText="called" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E7" fromText="his blood sugar" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E75" fromText="the Emergency Department" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E76" fromText="denied" toID="T1" toText="2010-08-30" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E77" fromText="any seizure activity" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME136" fromID="E78" fromText="loss of consciousness" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME137" fromID="E79" fromText="incontinence" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME138" fromID="E80" fromText="shortness of breath" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME139" fromID="E81" fromText="fevers" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME140" fromID="E82" fromText="chills" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME141" fromID="E83" fromText="chest pain" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME142" fromID="E84" fromText="change in urinary or bowel habits" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME143" fromID="E85" fromText="suicidal ideation" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME144" fromID="E8" fromText="depressed" toID="T1" toText="2010-08-30" type="BEFORE_OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

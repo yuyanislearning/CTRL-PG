@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-10-29
+Discharge Date :
+2013-11-04
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+Mr. Andersen is a 71-year-old male with worsening anginal symptoms who underwent catheterization that showed severe three-vessel disease .
+He is presenting for revascularization .
+Brief Hospital Course :
+The patient was taken to the operating room on 2013-10-29 for a CABG x5 .
+Please see operative note for full details .
+The patient tolerated this procedure well .
+He was taken immediately post-operatively to the CSRU .
+He was extubated that night .
+The did well in the ICU .
+His central line and chest tubes were removed on post-op day #2 and was transferred to the floor in stable condition .
+On post-op day #3 , the patient 's pacing wires were removed , and his lopressor was started .
+On post-op day #4 , the patient failed the first of his void trials .
+He was seen and cleared by physical therapy .
+He was discharged home on post-op day #6 in stable condition with a foley catheter and leg bag .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1007" end="1014" text="leg bag" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="151" end="177" text="worsening anginal symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="192" end="207" text="catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="213" end="219" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="220" end="247" text="severe three-vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="256" end="266" text="presenting" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="271" end="288" text="revascularization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="340" end="358" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="377" end="383" text="a CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="446" end="455" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="456" end="470" text="this procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="523" end="531" text="the CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="541" end="550" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="572" end="576" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="580" end="587" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="590" end="606" text="His central line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="611" end="622" text="chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="662" end="673" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="677" end="686" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="690" end="706" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="729" end="756" text="the patient 's pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="776" end="789" text="his lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="836" end="842" text="failed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="856" end="871" text="his void trials" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="881" end="885" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="890" end="897" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="901" end="917" text="physical therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="927" end="937" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="964" end="980" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="986" end="1002" text="a foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-10-29" type="DATE" val="2013-10-29" mod="NA" />
+<TIMEX3 id="T2" start="362" end="372" text="2013-10-29" type="DATE" val="2013-10-29" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-11-04" type="DATE" val="2013-11-04" mod="NA" />
+<TIMEX3 id="T3" start="551" end="561" text="that night" type="DATE" val="2013-10-29" mod="END" />
+<TIMEX3 id="T4" start="639" end="653" text="post-op day #2" type="DATE" val="2013-10-31" mod="NA" />
+<TIMEX3 id="T5" start="712" end="726" text="post-op day #3" type="DATE" val="2013-11-01" mod="NA" />
+<TIMEX3 id="T6" start="807" end="821" text="post-op day #4" type="DATE" val="2013-11-02" mod="NA" />
+<TIMEX3 id="T7" start="946" end="960" text="post-op day #6" type="DATE" val="2013-11-04" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2013-10-29" type="ADMISSION" dvalue="2013-10-29" />
+<SECTIME id="S1" start="46" end="56" text="2013-11-04" type="DISCHARGE" dvalue="2013-11-04" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

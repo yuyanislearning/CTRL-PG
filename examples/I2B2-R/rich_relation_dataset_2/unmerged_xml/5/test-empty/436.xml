@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+07/03/1998
+Discharge Date :
+07/10/1998
+HISTORY OF PRESENT ILLNESS :
+This is a 50 year old man in his usual state of health until two weeks prior to admission when the patient developed epigastric pain after meals .
+The next morning , the patient felt dizzy and went to his private medical doctor at Eifro Medical Center , and was found to have elevated bilirubins , alkaline phosphatase , and transaminases .
+The patient reported fatigue and nausea , as well as noted coca cola colored urine .
+The patient has been constipated with hard stool , but no bright red blood per rectum .
+The patient also reported an 18 lb weight loss over the last 4-5 months .
+HOSPITAL COURSE :
+The patient was admitted preoperatively for surgery on 7/4/98 .
+The patient &apos;s workup up until that time included a diagnosis of periampullary adenocarcinoma , which was proven by EGD directed biopsy , and a left renal mass , which was biopsied and found to be an oncocytoma .
+On 7/4/98 , the patient underwent a Whipple procedure , which proceeded without complications .
+Postoperatively , the patient did extremely well and was extubated the following morning .
+The NG tube was D/C&apos;d on postoperative day #2 .
+The patient was to be transferred to the floor on postoperative day #2 , however , due to the lack of beds , he remained in the ICU until postoperative day #3 .
+On postoperative day #4 , the patient began tolerating clear liquids and his diet was advanced as tolerated by postoperative day #6 and 7 .
+The patient was out of bed , doing fine , and tolerating a regular diet on 7/10/98 .
+The patient is to be discharged to home with services and in stable condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1008" end="1027" text="a Whipple procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1054" end="1067" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1104" end="1118" text="extremely well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1127" end="1136" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="115" end="140" text="his usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1161" end="1172" text="The NG tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1236" end="1247" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1251" end="1260" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="1326" end="1334" text="remained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1338" end="1345" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="1430" end="1443" text="clear liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1461" end="1469" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1473" end="1482" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1531" end="1541" text="out of bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1544" end="1554" text="doing fine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1572" end="1586" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1621" end="1631" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1645" end="1653" text="services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="166" end="175" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1661" end="1677" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="203" end="218" text="epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="269" end="274" text="dizzy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="317" end="337" text="Eifro Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="362" end="424" text="elevated bilirubins , alkaline phosphatase , and transaminases" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="439" end="447" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="448" end="455" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="460" end="466" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="486" end="509" text="coca cola colored urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="533" end="544" text="constipated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="550" end="560" text="hard stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="570" end="597" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="617" end="625" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="626" end="646" text="an 18 lb weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="708" end="716" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="736" end="743" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="756" end="785" text="The patient &apos;s workup up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="813" end="822" text="diagnosis" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="826" end="854" text="periampullary adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="867" end="873" text="proven" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="877" end="896" text="EGD directed biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="903" end="920" text="a left renal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="933" end="941" text="biopsied" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="958" end="971" text="an oncocytoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1137" end="1158" text="the following morning" type="DATE" val="1998-07-05" mod="START" />
+<TIMEX3 id="T9" start="1191" end="1211" text="postoperative day #2" type="DATE" val="1998-07-06" mod="NA" />
+<TIMEX3 id="T10" start="1264" end="1284" text="postoperative day #2" type="DATE" val="1998-07-06" mod="NA" />
+<TIMEX3 id="T11" start="1352" end="1372" text="postoperative day #3" type="DATE" val="1998-07-07" mod="NA" />
+<TIMEX3 id="T12" start="1378" end="1398" text="postoperative day #4" type="DATE" val="1998-07-08" mod="NA" />
+<TIMEX3 id="T0" start="147" end="156" text="two weeks" type="DATE" val="1998-06-19" mod="NA" />
+<TIMEX3 id="T13" start="1486" end="1506" text="postoperative day #6" type="DATE" val="1998-07-10" mod="NA" />
+<TIMEX3 id="T14" start="1511" end="1512" text="7" type="DATE" val="1998-07-11" mod="NA" />
+<TIMEX3 id="T15" start="1590" end="1597" text="7/10/98" type="DATE" val="1998-07-10" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="07/03/1998" type="DATE" val="1998-07-03" mod="NA" />
+<TIMEX3 id="T3" start="233" end="249" text="The next morning" type="DATE" val="1998-06-20" mod="START" />
+<TIMEX3 id="T2" start="46" end="56" text="07/10/1998" type="DATE" val="1998-07-10" mod="NA" />
+<TIMEX3 id="T4" start="661" end="671" text="4-5 months" type="DURATION" val="P4.5M" mod="APPROX" />
+<TIMEX3 id="T5" start="747" end="753" text="7/4/98" type="DATE" val="1998-07-04" mod="NA" />
+<TIMEX3 id="T6" start="792" end="801" text="that time" type="DATE" val="1998-07-04" mod="NA" />
+<TIMEX3 id="T7" start="977" end="983" text="7/4/98" type="DATE" val="1998-07-04" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="07/03/1998" type="ADMISSION" dvalue="1998-07-03" />
+<SECTIME id="S1" start="46" end="56" text="07/10/1998" type="DISCHARGE" dvalue="1998-07-10" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-06-13
+Discharge Date :
+2017-06-17
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+61 yo African-American-Hispanic male had abnormal EKG found as part of pre-op eval. for ventral hernia repair .
+Had subsequent abnormal stress test and pefusion imaging showed EF 38% with perfusion defects .
+Echo prior to scheduled cath showed mild LVH , inferior HK , EF 40% , mild MR , mild LAE .
+Cath at Kindred/North Shore today showed 80% LM lesion with normal LAD , CX , RCA .
+Severe systolic HTN also noted .
+Transferred in urgently for cabg with Dr. Howard .
+Brief Hospital Course:
+Admitted directly to OR from ambulance transfer and underwent cabg x3 with Dr. Howard on 06-13 .
+Transferred to the CSRU in stable condition on phenylephrine and propofol drips .
+Extubated early the next morning and chest tubes removed .
+Gentle diuresis and beta blockade started , and he was transferred to the floor to begin increasing his activity level .
+Foley removed on POD #2 and had scattered rales with temp 101.2 .
+Afebrile the next day and pacing wires removed without incident .
+He made excellent progress and was discharged to home with VNA services on POD #4 .
+He is to follow up with providers as per discharge instructions .
+]]></TEXT>
+<TAGS>
+<EVENT id="E19" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1013" end="1017" text="temp" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1026" end="1034" text="Afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1052" end="1064" text="pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1081" end="1089" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="1100" end="1118" text="excellent progress" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1127" end="1137" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1151" end="1163" text="VNA services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1185" end="1194" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1200" end="1209" text="providers" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="152" end="164" text="abnormal EKG" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="182" end="194" text="pre-op eval." modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="199" end="220" text="ventral hernia repair" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="238" end="258" text="abnormal stress test" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="263" end="279" text="pefusion imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="280" end="286" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="287" end="289" text="EF" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E0" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="299" end="316" text="perfusion defects" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="319" end="323" text="Echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="333" end="347" text="scheduled cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="348" end="354" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E31" start="355" end="363" text="mild LVH" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="366" end="377" text="inferior HK" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="380" end="382" text="EF" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="389" end="396" text="mild MR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="399" end="407" text="mild LAE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="410" end="414" text="Cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="418" end="437" text="Kindred/North Shore" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="444" end="450" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="451" end="464" text="80% LM lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="470" end="491" text="normal LAD , CX , RCA" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="494" end="513" text="Severe systolic HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="519" end="524" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="527" end="541" text="Transferred in" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="555" end="559" text="cabg" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="601" end="609" text="Admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="622" end="624" text="OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="630" end="648" text="ambulance transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="663" end="667" text="cabg" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="698" end="709" text="Transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="713" end="721" text="the CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="725" end="741" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="745" end="758" text="phenylephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="763" end="777" text="propofol drips" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="780" end="789" text="Extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="817" end="828" text="chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="839" end="854" text="Gentle diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="859" end="872" text="beta blockade" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="873" end="880" text="started" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="894" end="905" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="909" end="918" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="928" end="957" text="increasing his activity level" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="960" end="965" text="Foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="992" end="1007" text="scattered rales" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1035" end="1047" text="the next day" type="DATE" val="2017-06-16" mod="NA" />
+<TIMEX3 id="T6" start="1167" end="1173" text="POD #4" type="DATE" val="2017-06-17" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2017-06-13" type="DATE" val="2017-06-13" mod="NA" />
+<TIMEX3 id="T0" start="438" end="443" text="today" type="DATE" val="2017-06-13" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2017-06-17" type="DATE" val="2017-06-17" mod="NA" />
+<TIMEX3 id="T3" start="690" end="695" text="06-13" type="DATE" val="2017-06-13" mod="NA" />
+<TIMEX3 id="T7" start="790" end="812" text="early the next morning" type="DATE" val="2017-06-14" mod="START" />
+<TIMEX3 id="T4" start="977" end="983" text="POD #2" type="DATE" val="2017-06-15" mod="NA" />
+<TLINK id="TL0" fromID="E19" fromText="Admission" toID="T1" toText="2017-06-13" type="OVERLAP" />
+<TLINK id="TL1" fromID="E3" fromText="abnormal stress test" toID="E1" toText="abnormal EKG" type="AFTER" />
+<TLINK id="TL10" fromID="E4" fromText="pefusion imaging" toID="E20" toText="showed" type="OVERLAP" />
+<TLINK id="TL11" fromID="E29" fromText="EF" toID="E20" toText="showed" type="BEFORE" />
+<TLINK id="TL12" fromID="E29" fromText="EF" toID="E5" toText="perfusion defects" type="OVERLAP" />
+<TLINK id="TL13" fromID="E6" fromText="Echo" toID="E30" toText="scheduled cath" type="BEFORE" />
+<TLINK id="TL14" fromID="E6" fromText="Echo" toID="E21" toText="showed" type="OVERLAP" />
+<TLINK id="TL15" fromID="E31" fromText="mild LVH" toID="E21" toText="showed" type="BEFORE" />
+<TLINK id="TL16" fromID="E7" fromText="inferior HK" toID="E21" toText="showed" type="BEFORE" />
+<TLINK id="TL17" fromID="E32" fromText="EF" toID="E21" toText="showed" type="BEFORE" />
+<TLINK id="TL18" fromID="E33" fromText="mild MR" toID="E21" toText="showed" type="BEFORE" />
+<TLINK id="TL19" fromID="E34" fromText="mild LAE" toID="E21" toText="showed" type="BEFORE" />
+<TLINK id="TL2" fromID="E22" fromText="Admitted" toID="E19" toText="Admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="E35" fromText="Cath" toID="E30" toText="scheduled cath" type="OVERLAP" />
+<TLINK id="TL21" fromID="E35" fromText="Cath" toID="E36" toText="Kindred/North Shore" type="OVERLAP" />
+<TLINK id="TL22" fromID="E35" fromText="Cath" toID="T0" toText="today" type="OVERLAP" />
+<TLINK id="TL23" fromID="E35" fromText="Cath" toID="E37" toText="showed" type="OVERLAP" />
+<TLINK id="TL24" fromID="E8" fromText="80% LM lesion" toID="E37" toText="showed" type="BEFORE" />
+<TLINK id="TL25" fromID="E38" fromText="normal LAD , CX , RCA" toID="E37" toText="showed" type="BEFORE" />
+<TLINK id="TL26" fromID="E9" fromText="Severe systolic HTN" toID="E39" toText="noted" type="OVERLAP" />
+<TLINK id="TL27" fromID="E9" fromText="Severe systolic HTN" toID="T0" toText="today" type="OVERLAP" />
+<TLINK id="TL28" fromID="E40" fromText="Transferred in" toID="E39" toText="noted" type="AFTER" />
+<TLINK id="TL29" fromID="E41" fromText="cabg" toID="E40" toText="Transferred in" type="AFTER" />
+<TLINK id="TL3" fromID="E23" fromText="OR" toID="E22" toText="Admitted" type="AFTER" />
+<TLINK id="TL30" fromID="E22" fromText="Admitted" toID="T1" toText="2017-06-13" type="OVERLAP" />
+<TLINK id="TL31" fromID="E22" fromText="Admitted" toID="E40" toText="Transferred in" type="OVERLAP" />
+<TLINK id="TL33" fromID="E23" fromText="OR" toID="E42" toText="ambulance transfer" type="AFTER" />
+<TLINK id="TL34" fromID="E10" fromText="cabg" toID="E23" toText="OR" type="OVERLAP" />
+<TLINK id="TL35" fromID="E10" fromText="cabg" toID="E41" toText="cabg" type="OVERLAP" />
+<TLINK id="TL36" fromID="E10" fromText="cabg" toID="T3" toText="06-13" type="OVERLAP" />
+<TLINK id="TL37" fromID="E23" fromText="OR" toID="E24" toText="Transferred" type="BEFORE" />
+<TLINK id="TL38" fromID="E43" fromText="the CSRU" toID="E24" toText="Transferred" type="AFTER" />
+<TLINK id="TL39" fromID="E44" fromText="stable condition" toID="E24" toText="Transferred" type="OVERLAP" />
+<TLINK id="TL40" fromID="E11" fromText="phenylephrine" toID="E44" toText="stable condition" type="OVERLAP" />
+<TLINK id="TL41" fromID="E12" fromText="propofol drips" toID="E44" toText="stable condition" type="OVERLAP" />
+<TLINK id="TL42" fromID="E25" fromText="Extubated" toID="T7" toText="early the next morning" type="OVERLAP" />
+<TLINK id="TL43" fromID="E13" fromText="chest tubes" toID="E25" toText="Extubated" type="OVERLAP" />
+<TLINK id="TL44" fromID="E45" fromText="Gentle diuresis" toID="E47" toText="started" type="AFTER" />
+<TLINK id="TL45" fromID="E46" fromText="beta blockade" toID="E47" toText="started" type="AFTER" />
+<TLINK id="TL46" fromID="E47" fromText="started" toID="E13" toText="chest tubes" type="AFTER" />
+<TLINK id="TL47" fromID="E26" fromText="transferred" toID="E47" toText="started" type="AFTER" />
+<TLINK id="TL48" fromID="E43" fromText="the CSRU" toID="E26" toText="transferred" type="BEFORE" />
+<TLINK id="TL49" fromID="E48" fromText="the floor" toID="E26" toText="transferred" type="AFTER" />
+<TLINK id="TL50" fromID="E49" fromText="increasing his activity level" toID="E48" toText="the floor" type="OVERLAP" />
+<TLINK id="TL51" fromID="E14" fromText="Foley" toID="T4" toText="POD #2" type="BEFORE" />
+<TLINK id="TL52" fromID="E15" fromText="scattered rales" toID="T4" toText="POD #2" type="OVERLAP" />
+<TLINK id="TL53" fromID="E16" fromText="temp" toID="T4" toText="POD #2" type="OVERLAP" />
+<TLINK id="TL54" fromID="E17" fromText="Afebrile" toID="T5" toText="the next day" type="OVERLAP" />
+<TLINK id="TL56" fromID="E50" fromText="incident" toID="E18" toText="pacing wires" type="OVERLAP" />
+<TLINK id="TL57" fromID="E18" fromText="pacing wires" toID="T5" toText="the next day" type="BEFORE" />
+<TLINK id="TL58" fromID="E51" fromText="excellent progress" toID="E27" toText="discharged" type="BEFORE" />
+<TLINK id="TL59" fromID="E27" fromText="discharged" toID="E0" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL6" fromID="E0" fromText="Discharge" toID="T2" toText="2017-06-17" type="OVERLAP" />
+<TLINK id="TL60" fromID="E52" fromText="VNA services" toID="T6" toText="POD #4" type="OVERLAP" />
+<TLINK id="TL61" fromID="E53" fromText="follow up" toID="E54" toText="providers" type="OVERLAP" />
+<TLINK id="TL7" fromID="E2" fromText="pre-op eval." toID="E1" toText="abnormal EKG" type="OVERLAP" />
+<TLINK id="TL8" fromID="E2" fromText="pre-op eval." toID="E28" toText="ventral hernia repair" type="BEFORE" />
+<TLINK id="TL9" fromID="E3" fromText="abnormal stress test" toID="E4" toText="pefusion imaging" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2017-06-13" type="ADMISSION" dvalue="2017-06-13" />
+<SECTIME id="S1" start="46" end="56" text="2017-06-17" type="DISCHARGE" dvalue="2017-06-17" />
+<TLINK id="SECTIME0" fromID="E16" fromText="temp" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E17" fromText="Afebrile" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E18" fromText="pacing wires" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E50" fromText="incident" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E51" fromText="excellent progress" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E27" fromText="discharged" toID="T2" toText="2017-06-17" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E52" fromText="VNA services" toID="T2" toText="2017-06-17" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E53" fromText="follow up" toID="T2" toText="2017-06-17" type="AFTER" />
+<TLINK id="SECTIME8" fromID="E54" fromText="providers" toID="T2" toText="2017-06-17" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E1" fromText="abnormal EKG" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E2" fromText="pre-op eval." toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E28" fromText="ventral hernia repair" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E3" fromText="abnormal stress test" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E4" fromText="pefusion imaging" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E20" fromText="showed" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E29" fromText="EF" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E5" fromText="perfusion defects" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E6" fromText="Echo" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E30" fromText="scheduled cath" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E21" fromText="showed" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E31" fromText="mild LVH" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E7" fromText="inferior HK" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E32" fromText="EF" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E33" fromText="mild MR" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E34" fromText="mild LAE" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E35" fromText="Cath" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E36" fromText="Kindred/North Shore" toID="T1" toText="2017-06-13" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E37" fromText="showed" toID="T1" toText="2017-06-13" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E8" fromText="80% LM lesion" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E38" fromText="normal LAD , CX , RCA" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E9" fromText="Severe systolic HTN" toID="T1" toText="2017-06-13" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E39" fromText="noted" toID="T1" toText="2017-06-13" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E40" fromText="Transferred in" toID="T1" toText="2017-06-13" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E41" fromText="cabg" toID="T1" toText="2017-06-13" type="AFTER" />
+<TLINK id="SECTIME34" fromID="E22" fromText="Admitted" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E23" fromText="OR" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E42" fromText="ambulance transfer" toID="T2" toText="2017-06-17" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E10" fromText="cabg" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E24" fromText="Transferred" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E43" fromText="the CSRU" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E44" fromText="stable condition" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E11" fromText="phenylephrine" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E12" fromText="propofol drips" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E25" fromText="Extubated" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E13" fromText="chest tubes" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E45" fromText="Gentle diuresis" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E46" fromText="beta blockade" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E47" fromText="started" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E26" fromText="transferred" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E48" fromText="the floor" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E49" fromText="increasing his activity level" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E14" fromText="Foley" toID="T2" toText="2017-06-17" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E15" fromText="scattered rales" toID="T2" toText="2017-06-17" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

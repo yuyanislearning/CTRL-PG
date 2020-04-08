@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-02-01
+Discharge Date :
+2019-02-09
+Service :
+MEDICINE
+History of Present Illness :
+Pt is a 78 yo male with h/o A fib , s/p multiple CVA s, CHF , HTN , DM2 admitted to Mediplex Rehab Hospital Robert on 02-01 with abdominal pain and n/v since that morning .
+Pt 's vitals on admission wer significant for T 104 , SBP 100 s, HR in the 120 s.
+RUQ U/s demonstrated multiple small gallstones with sludges without evidence of pericholecystic fluid or significant dilatation of the gallbladder .
+Surgery was consulted for concern of cholangitis with probable sepsis .
+Pt was admitted to the CMED CCU , intubated overnight for ERCP procedure and fluid resuscitation .
+The patient was placed on zosyn .
+Pt 's INR was eleveted as he was on home coumadin .
+He was given 4 units FFP in anticipation of ERCP the following day .
+On 02-02 ERCP demonstrated a large filling defect in the distal duct representing a stone with CBD dilatation .
+A biliary stent was placed after the removal of the stone .
+Pt was extubated the next day .
+He was then transferred to the medicine service .
+Brief Hospital Course :
+Pt is a 78 yo male with atrial fibrillation , s/p multiple CVA s, CHF , HTN , DM2 transferred from the CMED CCU s/p intervention for cholangitis .
+1) Acute cholangitis : Pt was admitted to the ICU , intubated , and ERCP performed , likely stone obstructing CBD .
+Stent was placed and patient was treated with antibiotics ( Zosyn - > Ciprofloxacin ).
+Per ERCP fellow , plan is for patient to return in four weeks to see Dr. Suzanne Davis , at which time he will likely have repeat cholangiogram and removal of stent and stone .
+If this is still problematic , pt may also need a sphincterotomy .
+Dr.Demby secretary will contact patient at home the week after discharge to schedule this for the end of January .
+Pt is to continue ciprofloxacin for a complete 14 day course .
+2) Mechanical mitral valve : Anticoagulation was reversed for ERCP .
+After this he was anticoagulated with heparin drip .
+INR was 1.9 on discharge .
+He was given sc lovenox x 1 and will continue this the day after discharge bid for one day .
+VNA will check his INR at home and page his PCP with the results .
+3) Atrial fibrillation : Rate controlled and on warfarin .
+While in the hospital he had several episodes of pauses , none longer than 2.5 seconds .
+His digoxin was held and his metoprolol was titrated down from his home dose .
+Once the digoxin was no longer having effect , metoprolol was titrated back to home dose .
+4) CHF : Pt was oxygen dependent for most of the hospital course , CXR was consistent with pulmonary edema .
+He was diuresed with lasix with good effect .
+Volume overload likely ocurred in the setting of IV fluids given in the ICU .
+Did not require lasix on discharge .
+5) E. coli bacteremia / sepsis : Source of acute cholangitis as above .
+Pt required 3 day stay in the surgical ICU and intubation as above .
+6) Intubation : Pt was 97% on room air on arrival to Cindy , developed rapid ventricular reponse to a fib which was treated , but after that period of time required oxygen , presumably for pulmonary edema .
+In the Lori pt was given 3L NS as well as 1 unit of FFP , and oxygen requirements contimued to climb .
+In the CMED CCU pt was intubated for ERCP procedure .
+He was extubated the next morning .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="1014" end="1023" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="1051" end="1062" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="1066" end="1086" text="the medicine service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E11" start="1137" end="1156" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1163" end="1175" text="multiple CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1179" end="1182" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1185" end="1188" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1191" end="1194" text="DM2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1195" end="1206" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1212" end="1224" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1229" end="1241" text="intervention" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1246" end="1257" text="cholangitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1263" end="1280" text="Acute cholangitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1290" end="1298" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1302" end="1309" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="1312" end="1321" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="133" end="138" text="A fib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1328" end="1332" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1352" end="1357" text="stone" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1376" end="1381" text="Stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1422" end="1433" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1436" end="1441" text="Zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="145" end="157" text="multiple CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1446" end="1459" text="Ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1504" end="1510" text="return" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1586" end="1606" text="repeat cholangiogram" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E4" start="161" end="164" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1611" end="1618" text="removal" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1622" end="1627" text="stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1632" end="1637" text="stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="167" end="170" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1688" end="1704" text="a sphincterotomy" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="173" end="176" text="DM2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="177" end="185" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1770" end="1779" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1840" end="1853" text="ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1888" end="1911" text="Mechanical mitral valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="189" end="219" text="Mediplex Rehab Hospital Robert" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="1914" end="1929" text="Anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="1934" end="1942" text="reversed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1947" end="1951" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1992" end="2004" text="heparin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2007" end="2010" text="INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2022" end="2031" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="2047" end="2057" text="sc lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2099" end="2108" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2142" end="2149" text="his INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="2197" end="2216" text="Atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2242" end="2250" text="warfarin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="2262" end="2274" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="2302" end="2308" text="pauses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="234" end="248" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="2342" end="2353" text="His digoxin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="2367" end="2381" text="his metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2405" end="2418" text="his home dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="2426" end="2437" text="the digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="2468" end="2478" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2500" end="2509" text="home dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="2515" end="2518" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="253" end="256" text="n/v" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2528" end="2544" text="oxygen dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2557" end="2576" text="the hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2579" end="2582" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2603" end="2618" text="pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2642" end="2647" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2653" end="2664" text="good effect" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2667" end="2682" text="Volume overload" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2716" end="2725" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2735" end="2742" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="2761" end="2766" text="lasix" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E91" start="278" end="290" text="Pt 's vitals" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2770" end="2779" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2785" end="2803" text="E. coli bacteremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2806" end="2812" text="sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2825" end="2842" text="acute cholangitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2880" end="2896" text="the surgical ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2901" end="2911" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2926" end="2936" text="Intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="294" end="303" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2953" end="2961" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2965" end="2972" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2976" end="2981" text="Cindy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E78" start="2994" end="3019" text="rapid ventricular reponse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="3023" end="3028" text="a fib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="3088" end="3094" text="oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="3112" end="3127" text="pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="3133" end="3141" text="the Lori" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E83" start="3155" end="3160" text="3L NS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="3182" end="3185" text="FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="3192" end="3211" text="oxygen requirements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="324" end="325" text="T" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="3236" end="3248" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E87" start="3256" end="3265" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3270" end="3284" text="ERCP procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E89" start="3294" end="3303" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="332" end="335" text="SBP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="343" end="345" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="360" end="367" text="RUQ U/s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="368" end="380" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E127" start="381" end="406" text="multiple small gallstones" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="412" end="419" text="sludges" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="440" end="461" text="pericholecystic fluid" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E101" start="465" end="506" text="significant dilatation of the gallbladder" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E102" start="546" end="557" text="cholangitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="572" end="578" text="sepsis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="588" end="596" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="600" end="612" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E106" start="615" end="624" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="639" end="653" text="ERCP procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="658" end="677" text="fluid resuscitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E109" start="706" end="711" text="zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="714" end="723" text="Pt 's INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="728" end="736" text="eleveted" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="750" end="763" text="home coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="779" end="790" text="4 units FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="810" end="814" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E115" start="844" end="848" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="849" end="861" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E117" start="862" end="903" text="a large filling defect in the distal duct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="917" end="924" text="a stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="930" end="944" text="CBD dilatation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="947" end="962" text="A biliary stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="980" end="991" text="the removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="995" end="1004" text="the stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T21" start="1024" end="1036" text="the next day" type="DATE" val="2019-02-03" mod="NA" />
+<TIMEX3 id="T8" start="1514" end="1524" text="four weeks" type="DATE" val="2019-03-09" mod="NA" />
+<TIMEX3 id="T22" start="1555" end="1565" text="which time" type="DATE" val="2019-03-09" mod="NA" />
+<TIMEX3 id="T9" start="1755" end="1763" text="the week" type="DATE" val="2019-02-16" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-02-01" type="DATE" val="2019-02-01" mod="NA" />
+<TIMEX3 id="T12" start="1801" end="1819" text="the end of January" type="DATE" val="2020-01-31" mod="APPROX" />
+<TIMEX3 id="T13" start="1869" end="1882" text="14 day course" type="DURATION" val="P14D" mod="NA" />
+<TIMEX3 id="T14" start="2080" end="2092" text="this the day" type="DATE" val="2019-02-10" mod="NA" />
+<TIMEX3 id="T15" start="2109" end="2124" text="bid for one day" type="FREQUENCY" val="R2PT12H" mod="NA" />
+<TIMEX3 id="T2" start="223" end="228" text="02-01" type="DATE" val="2019-02-01" mod="NA" />
+<TIMEX3 id="T16" start="2328" end="2339" text="2.5 seconds" type="DURATION" val="PT2.5S" mod="NA" />
+<TIMEX3 id="T3" start="263" end="275" text="that morning" type="DATE" val="2019-02-01" mod="START" />
+<TIMEX3 id="T17" start="2866" end="2871" text="3 day" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T18" start="3304" end="3320" text="the next morning" type="DATE" val="2019-02-03" mod="START" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-02-09" type="DATE" val="2019-02-09" mod="NA" />
+<TIMEX3 id="T4" start="625" end="634" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T19" start="815" end="832" text="the following day" type="DATE" val="2019-02-02" mod="NA" />
+<TIMEX3 id="T6" start="838" end="843" text="02-02" type="DATE" val="2019-02-02" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2019-02-01" type="ADMISSION" dvalue="2019-02-01" />
+<SECTIME id="S1" start="46" end="56" text="2019-02-09" type="DISCHARGE" dvalue="2019-02-09" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

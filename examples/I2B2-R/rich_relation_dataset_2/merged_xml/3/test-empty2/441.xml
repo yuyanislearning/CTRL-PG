@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+11/09/2003
+Discharge Date :
+11/16/2003
+SERVICE :
+GMS 1 Medical Service .
+HOSPITAL COURSE :
+1. GI :
+Patient was transfused 2 units of packed red blood cells overnight , the first night after admission and his hematocrit bumped up appropriately .
+He remained hemodynamically stable throughout his admission .
+He was continued on a proton pump inhibitor and on iron sulfate and vitamin C .
+His Coumadin was held at the time given the bleeding , even though it was important to keep his INR 2.5-3.5 , given his artificial valve it was felt that the risk of continued bleeding was to great to continue the Coumadin .
+He was subsequently seen by the GI team who performed an upper endoscopy which demonstrated the following :
+In the esophagus , there was a small hiatal hernia and in the stomach there is evidence of erosive gastritis of the body of the stomach and the antrum , the mucous appeared edematous .
+A small polyp was found in the fundus which stigmata of old bleeding ; an Endoclip was applied to this .
+Another polyp was found in the antrum and cold biopsies were obtained there .
+In the duodenum , a small AVM was noted in the second portion of the duodenum and was cauterized .
+The biopsy subsequently demonstrated a hyperplastic polyp with acute and chronic inflammation and erosion and reactive epithelial changes but no dysplasia .
+Also of note , prior to the upper endoscopy , the patient received fresh frozen plasma to reverse his anticoagulation .
+Patient remained hemodynamically stable during and after the upper endoscopy and his hematocrit remained above 30 following this until the point of discharge .
+His last recorded hematocrit on discharge was 31.3 .
+His last BUN and creatinine were 42 and 1.5 with an INR of 2.5 .
+Consideration was given to performing a repeat colonoscopy .
+This was discussed with the GI Service who felt that this was not necessary given the recent colonoscopy that he had had in 05/2003 .
+2. Cardiovascular :
+A :
+Ischemia :
+Patient &apos;s troponin bump was found to be likely to demand ischemia in the setting of his GI bleed , it was not felt that he was having acute coronary syndrome .
+On discharge , he was continued on his aspirin , simvastatin and his Lopressor which was initially held , and subsequently restarted .
+B :
+Rhythm :
+Patient continued to be in A-fib. throughout the admission and was restarted on his Coumadin concurrently with heparin .
+Heparin was subsequently DCd once his INR reached a therapeutic level between 2.5-3.5 .
+His last reported INR on discharge was 2.5 .
+C :
+Valves :
+Patient had , as noted above , his anticoagulation was initially reversed despite his having artificial valves .
+However , his Coumadin was subsequently restarted and he achieved therapeutic INR levels before discharge .
+D :
+Pump :
+Patient , during this hospital course , became hypervolemic likely due to his diuretics being held and due to his receiving blood products .
+He was diuresed initially with one dose of Lasix and subsequently with one dose of torsemide after it was discovered that he developed thrombocytopenia on a prior admission in reaction to Lasix .
+He subsequently was diuresed to a euvolemic state .
+Of note , he did not become thrombocytopenic on this admission .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1021" end="1025" text="this" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1028" end="1041" text="Another polyp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1070" end="1083" text="cold biopsies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1124" end="1135" text="a small AVM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1192" end="1202" text="cauterized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1205" end="1215" text="The biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1229" end="1241" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="1242" end="1262" text="a hyperplastic polyp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1268" end="1298" text="acute and chronic inflammation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1303" end="1310" text="erosion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1315" end="1342" text="reactive epithelial changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1350" end="1359" text="dysplasia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1386" end="1405" text="the upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="140" end="173" text="2 units of packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1429" end="1448" text="fresh frozen plasma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1460" end="1479" text="his anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1499" end="1521" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1539" end="1558" text="the upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1563" end="1577" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1606" end="1610" text="this" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1630" end="1639" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1642" end="1670" text="His last recorded hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1674" end="1683" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1695" end="1707" text="His last BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1712" end="1722" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1744" end="1750" text="an INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1798" end="1818" text="a repeat colonoscopy" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1821" end="1825" text="This" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1874" end="1878" text="this" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E56" start="1903" end="1925" text="the recent colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="1979" end="1987" text="Ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1990" end="2019" text="Patient &apos;s troponin bump" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2046" end="2061" text="demand ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="2080" end="2092" text="his GI bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="208" end="217" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2130" end="2153" text="acute coronary syndrome" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E57" start="2159" end="2168" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2191" end="2202" text="his aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2205" end="2216" text="simvastatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="222" end="236" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2221" end="2234" text="his Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2331" end="2337" text="A-fib." modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E67" start="2349" end="2362" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="237" end="246" text="bumped up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2384" end="2396" text="his Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2415" end="2422" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2425" end="2432" text="Heparin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E71" start="2459" end="2466" text="his INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2475" end="2494" text="a therapeutic level" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2513" end="2534" text="His last reported INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2538" end="2547" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2562" end="2568" text="Valves" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2602" end="2621" text="his anticoagulation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E77" start="2664" end="2681" text="artificial valves" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2694" end="2706" text="his Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="275" end="297" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2750" end="2772" text="therapeutic INR levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2780" end="2789" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2820" end="2840" text="this hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2850" end="2862" text="hypervolemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2877" end="2890" text="his diuretics" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2927" end="2941" text="blood products" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2951" end="2959" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2987" end="2992" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="3027" end="3036" text="torsemide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3079" end="3095" text="thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="309" end="322" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="3099" end="3116" text="a prior admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3132" end="3137" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="3160" end="3168" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="3172" end="3189" text="a euvolemic state" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="3220" end="3236" text="thrombocytopenic" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E94" start="3240" end="3254" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="345" end="368" text="a proton pump inhibitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="376" end="388" text="iron sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="393" end="402" text="vitamin C" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="405" end="417" text="His Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="445" end="457" text="the bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="497" end="504" text="his INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="521" end="541" text="his artificial valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="571" end="589" text="continued bleeding" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="615" end="627" text="the Coumadin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E18" start="650" end="669" text="seen by the GI team" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="684" end="702" text="an upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="709" end="721" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="767" end="788" text="a small hiatal hernia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="829" end="846" text="erosive gastritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="911" end="920" text="edematous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="923" end="936" text="A small polyp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="967" end="975" text="stigmata" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="979" end="991" text="old bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="994" end="1005" text="an Endoclip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T2" start="174" end="183" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="11/09/2003" type="DATE" val="2003-11-09" mod="NA" />
+<TIMEX3 id="T3" start="186" end="201" text="the first night" type="DATE" val="2003-11-09" mod="END" />
+<TIMEX3 id="T5" start="1945" end="1952" text="05/2003" type="DATE" val="2003-05" mod="NA" />
+<TIMEX3 id="T6" start="2975" end="2978" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T7" start="3015" end="3018" text="one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T4" start="430" end="438" text="the time" type="DATE" val="2003-11-09" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="11/16/2003" type="DATE" val="2003-11-16" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="11/09/2003" type="ADMISSION" dvalue="2003-11-09" />
+<SECTIME id="S1" start="46" end="56" text="11/16/2003" type="DISCHARGE" dvalue="2003-11-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

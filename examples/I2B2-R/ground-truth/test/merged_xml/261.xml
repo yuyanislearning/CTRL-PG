@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12/07/96
+DISCHARGE DATE :
+12/14/96
+DISCHARGE DATE :
+12/14/96
+HISTORY OF PRESENT ILLNESS :
+76-year-old male with right hip pain X five years .
+The pain is often severely and increasing at night especially when he is lying on the right side .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the hospital as a postoperative admit on December 7 for total hip replacement .
+For further details of this procedure see operative note .
+Postoperatively he did well initially in the first 12 hours .
+However he had a report of emesis of coffee grounds on postoperative night #1 .
+This with no electrocardiogram changes .
+Due to this GI was consulted and felt that he would be a candidate for esophagogastroduodenoscopy .
+He was placed nothing by mouth and the esophagogastroduodenoscopy was done by the GI Service .
+Findings showed a Mallory Weiss tear , nonspecific duodenitis .
+He was placed on Zantac 150 mg. PO b.i.d. and H Pylori serology was sent .
+Post EGD his diet was advanced slowly and he did exceptionally well .
+At the time of discharge he was tolerating a full diet , out of bed with pain , tolerated on po. medications .
+His wound was intact with no evidence of infection .
+Distal neurovascular status was intact .
+There was no calf tenderness and lower extremity arterial non-invasive studies were negative .
+He was generally well in all regards .
+The physical examination was unremarkable and he had no recurrent symptoms of coffee ground emesis .
+He was doing exceptionally well at discharge with plans to follow up with Dr. Rhalttland .
+Discharge instructions have been given .
+ROYNEO WALLA , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1017" end="1042" text="he did exceptionally well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1060" end="1069" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1077" end="1087" text="tolerating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1088" end="1099" text="a full diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1102" end="1112" text="out of bed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1118" end="1122" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1125" end="1134" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1138" end="1153" text="po. medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1156" end="1165" text="His wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1197" end="1206" text="infection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="1263" end="1278" text="calf tenderness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1283" end="1328" text="lower extremity arterial non-invasive studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="130" end="144" text="right hip pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1352" end="1366" text="generally well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1384" end="1408" text="The physical examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1440" end="1458" text="recurrent symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1462" end="1482" text="coffee ground emesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="1498" end="1516" text="exceptionally well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1520" end="1529" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1544" end="1553" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1576" end="1598" text="Discharge instructions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="160" end="168" text="The pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="191" end="210" text="increasing at night" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="233" end="256" text="lying on the right side" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="307" end="315" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="319" end="331" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="351" end="356" text="admit" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="375" end="396" text="total hip replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="422" end="436" text="this procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="477" end="485" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="53" end="62" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="547" end="571" text="emesis of coffee grounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="613" end="638" text="electrocardiogram changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="648" end="669" text="this GI was consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="712" end="738" text="esophagogastroduodenoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="755" end="771" text="nothing by mouth" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="776" end="806" text="the esophagogastroduodenoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="845" end="851" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="852" end="872" text="a Mallory Weiss tear" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="875" end="897" text="nonspecific duodenitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="917" end="923" text="Zantac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="946" end="963" text="H Pylori serology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="980" end="983" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="997" end="1012" text="advanced slowly" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="147" end="157" text="five years" type="DURATION" val="P5Y" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="12/07/96" type="DATE" val="1996-12-07" mod="NA" />
+<TIMEX3 id="T4" start="360" end="370" text="December 7" type="DATE" val="1996-12-07" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="12/14/96" type="DATE" val="1996-12-14" mod="NA" />
+<TIMEX3 id="T5" start="499" end="517" text="the first 12 hours" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T6" start="575" end="597" text="postoperative night #1" type="DATE" val="1996-12-07" mod="NA" />
+<TIMEX3 id="T2" start="70" end="78" text="12/14/96" type="DATE" val="1996-12-14" mod="NA" />
+<TLINK id="TL0" fromID="E7" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="T3" fromText="five years" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL10" fromID="E3" fromText="right hip pain" toID="E4" toText="The pain" type="OVERLAP" />
+<TLINK id="TL11" fromID="E4" fromText="The pain" toID="E5" toText="increasing at night" type="OVERLAP" />
+<TLINK id="TL12" fromID="E6" fromText="lying on the right side" toID="E5" toText="increasing at night" type="OVERLAP" />
+<TLINK id="TL13" fromID="E8" fromText="the hospital" toID="E7" toText="admitted" type="AFTER" />
+<TLINK id="TL14" fromID="E9" fromText="admit" toID="E7" toText="admitted" type="OVERLAP" />
+<TLINK id="TL15" fromID="E9" fromText="admit" toID="T4" toText="December 7" type="OVERLAP" />
+<TLINK id="TL16" fromID="E10" fromText="total hip replacement" toID="E7" toText="admitted" type="BEFORE" />
+<TLINK id="TL17" fromID="E34" fromText="His wound" toID="E10" toText="total hip replacement" type="AFTER" />
+<TLINK id="TL18" fromID="E10" fromText="total hip replacement" toID="E11" toText="this procedure" type="OVERLAP" />
+<TLINK id="TL19" fromID="E12" fromText="did well" toID="T5" toText="the first 12 hours" type="OVERLAP" />
+<TLINK id="TL2" fromID="E0" fromText="ADMISSION" toID="T0" toText="12/07/96" type="OVERLAP" />
+<TLINK id="TL20" fromID="T5" fromText="the first 12 hours" toID="E11" toText="this procedure" type="AFTER" />
+<TLINK id="TL21" fromID="E13" fromText="emesis of coffee grounds" toID="T6" toText="postoperative night #1" type="OVERLAP" />
+<TLINK id="TL22" fromID="E13" fromText="emesis of coffee grounds" toID="E14" toText="electrocardiogram changes" type="OVERLAP" />
+<TLINK id="TL23" fromID="E15" fromText="this GI was consulted" toID="E13" toText="emesis of coffee grounds" type="AFTER" />
+<TLINK id="TL24" fromID="E17" fromText="nothing by mouth" toID="E15" toText="this GI was consulted" type="AFTER" />
+<TLINK id="TL25" fromID="E16" fromText="esophagogastroduodenoscopy" toID="E18" toText="the esophagogastroduodenoscopy" type="OVERLAP" />
+<TLINK id="TL26" fromID="E18" fromText="the esophagogastroduodenoscopy" toID="E17" toText="nothing by mouth" type="AFTER" />
+<TLINK id="TL27" fromID="E18" fromText="the esophagogastroduodenoscopy" toID="E19" toText="showed" type="OVERLAP" />
+<TLINK id="TL28" fromID="E20" fromText="a Mallory Weiss tear" toID="E18" toText="the esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL29" fromID="E21" fromText="nonspecific duodenitis" toID="E18" toText="the esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL3" fromID="E1" fromText="DISCHARGE" toID="E2" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL30" fromID="E22" fromText="Zantac" toID="E18" toText="the esophagogastroduodenoscopy" type="AFTER" />
+<TLINK id="TL31" fromID="E23" fromText="H Pylori serology" toID="E18" toText="the esophagogastroduodenoscopy" type="OVERLAP" />
+<TLINK id="TL32" fromID="E24" fromText="EGD" toID="E18" toText="the esophagogastroduodenoscopy" type="OVERLAP" />
+<TLINK id="TL33" fromID="E25" fromText="advanced slowly" toID="E26" toText="he did exceptionally well" type="OVERLAP" />
+<TLINK id="TL34" fromID="E25" fromText="advanced slowly" toID="E24" toText="EGD" type="AFTER" />
+<TLINK id="TL35" fromID="E27" fromText="discharge" toID="E2" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL36" fromID="E29" fromText="tolerating" toID="E28" toText="a full diet" type="OVERLAP" />
+<TLINK id="TL37" fromID="E30" fromText="out of bed" toID="E31" toText="pain" type="OVERLAP" />
+<TLINK id="TL38" fromID="E30" fromText="out of bed" toID="E27" toText="discharge" type="BEFORE" />
+<TLINK id="TL39" fromID="E32" fromText="tolerated" toID="E33" toText="po. medications" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="DISCHARGE" toID="T1" toText="12/14/96" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="infection" toID="E34" toText="His wound" type="OVERLAP" />
+<TLINK id="TL41" fromID="E36" fromText="calf tenderness" toID="E27" toText="discharge" type="BEFORE" />
+<TLINK id="TL42" fromID="E37" fromText="lower extremity arterial non-invasive studies" toID="E27" toText="discharge" type="BEFORE" />
+<TLINK id="TL43" fromID="E38" fromText="generally well" toID="E27" toText="discharge" type="BEFORE" />
+<TLINK id="TL44" fromID="E39" fromText="The physical examination" toID="E27" toText="discharge" type="BEFORE" />
+<TLINK id="TL45" fromID="E40" fromText="recurrent symptoms" toID="E41" toText="coffee ground emesis" type="OVERLAP" />
+<TLINK id="TL46" fromID="E41" fromText="coffee ground emesis" toID="E13" toText="emesis of coffee grounds" type="AFTER" />
+<TLINK id="TL47" fromID="E42" fromText="exceptionally well" toID="E43" toText="discharge" type="BEFORE" />
+<TLINK id="TL48" fromID="E43" fromText="discharge" toID="E27" toText="discharge" type="OVERLAP" />
+<TLINK id="TL49" fromID="E44" fromText="follow up" toID="E43" toText="discharge" type="AFTER" />
+<TLINK id="TL5" fromID="E33" fromText="po. medications" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL50" fromID="E45" fromText="Discharge instructions" toID="E43" toText="discharge" type="BEFORE" />
+<TLINK id="TL6" fromID="E34" fromText="His wound" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL7" fromID="E28" fromText="a full diet" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="TL8" fromID="E2" fromText="DISCHARGE" toID="T2" toText="12/14/96" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="right hip pain" toID="T3" toText="five years" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="12/07/96" type="ADMISSION" dvalue="1996-12-07" />
+<SECTIME id="S1" start="44" end="52" text="12/14/96" type="DISCHARGE" dvalue="1996-12-14" />
+<TLINK id="SECTIME0" fromID="E26" fromText="he did exceptionally well" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="discharge" toID="T1" toText="12/14/96" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E29" fromText="tolerating" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E30" fromText="out of bed" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E31" fromText="pain" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E32" fromText="tolerated" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E33" fromText="po. medications" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E34" fromText="His wound" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E35" fromText="infection" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E36" fromText="calf tenderness" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E37" fromText="lower extremity arterial non-invasive studies" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E3" fromText="right hip pain" toID="T0" toText="12/07/96" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E38" fromText="generally well" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E39" fromText="The physical examination" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E40" fromText="recurrent symptoms" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E41" fromText="coffee ground emesis" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E42" fromText="exceptionally well" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E43" fromText="discharge" toID="T1" toText="12/14/96" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E44" fromText="follow up" toID="T1" toText="12/14/96" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E45" fromText="Discharge instructions" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E4" fromText="The pain" toID="T0" toText="12/07/96" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E5" fromText="increasing at night" toID="T0" toText="12/07/96" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E6" fromText="lying on the right side" toID="T0" toText="12/07/96" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E7" fromText="admitted" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E8" fromText="the hospital" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E9" fromText="admit" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E10" fromText="total hip replacement" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E11" fromText="this procedure" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E12" fromText="did well" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E13" fromText="emesis of coffee grounds" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E14" fromText="electrocardiogram changes" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E15" fromText="this GI was consulted" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E16" fromText="esophagogastroduodenoscopy" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E17" fromText="nothing by mouth" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E18" fromText="the esophagogastroduodenoscopy" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E19" fromText="showed" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E20" fromText="a Mallory Weiss tear" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E21" fromText="nonspecific duodenitis" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E22" fromText="Zantac" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E23" fromText="H Pylori serology" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E24" fromText="EGD" toID="T1" toText="12/14/96" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E25" fromText="advanced slowly" toID="T1" toText="12/14/96" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

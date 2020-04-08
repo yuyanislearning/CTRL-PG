@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-02-01
+Discharge Date :
+2019-02-09
+Service :
+MEDICINE
+History of Present Illness :
+Pt is a 78 yo male with h/o A fib , s/p multiple CVA s, CHF , HTN , DM2 admitted to Mediplex Rehab Hospital Robert on 02-01 with abdominal pain and n/v since that morning .
+Pt 's vitals on admission wer significant for T 104 , SBP 100 s, HR in the 120 s.
+RUQ U/s demonstrated multiple small gallstones with sludges without evidence of pericholecystic fluid or significant dilatation of the gallbladder .
+Surgery was consulted for concern of cholangitis with probable sepsis .
+Pt was admitted to the CMED CCU , intubated overnight for ERCP procedure and fluid resuscitation .
+The patient was placed on zosyn .
+Pt 's INR was eleveted as he was on home coumadin .
+He was given 4 units FFP in anticipation of ERCP the following day .
+On 02-02 ERCP demonstrated a large filling defect in the distal duct representing a stone with CBD dilatation .
+A biliary stent was placed after the removal of the stone .
+Pt was extubated the next day .
+He was then transferred to the medicine service .
+Brief Hospital Course :
+Pt is a 78 yo male with atrial fibrillation , s/p multiple CVA s, CHF , HTN , DM2 transferred from the CMED CCU s/p intervention for cholangitis .
+1) Acute cholangitis : Pt was admitted to the ICU , intubated , and ERCP performed , likely stone obstructing CBD .
+Stent was placed and patient was treated with antibiotics ( Zosyn - > Ciprofloxacin ).
+Per ERCP fellow , plan is for patient to return in four weeks to see Dr. Suzanne Davis , at which time he will likely have repeat cholangiogram and removal of stent and stone .
+If this is still problematic , pt may also need a sphincterotomy .
+Dr.Demby secretary will contact patient at home the week after discharge to schedule this for the end of January .
+Pt is to continue ciprofloxacin for a complete 14 day course .
+2) Mechanical mitral valve : Anticoagulation was reversed for ERCP .
+After this he was anticoagulated with heparin drip .
+INR was 1.9 on discharge .
+He was given sc lovenox x 1 and will continue this the day after discharge bid for one day .
+VNA will check his INR at home and page his PCP with the results .
+3) Atrial fibrillation : Rate controlled and on warfarin .
+While in the hospital he had several episodes of pauses , none longer than 2.5 seconds .
+His digoxin was held and his metoprolol was titrated down from his home dose .
+Once the digoxin was no longer having effect , metoprolol was titrated back to home dose .
+4) CHF : Pt was oxygen dependent for most of the hospital course , CXR was consistent with pulmonary edema .
+He was diuresed with lasix with good effect .
+Volume overload likely ocurred in the setting of IV fluids given in the ICU .
+Did not require lasix on discharge .
+5) E. coli bacteremia / sepsis : Source of acute cholangitis as above .
+Pt required 3 day stay in the surgical ICU and intubation as above .
+6) Intubation : Pt was 97% on room air on arrival to Cindy , developed rapid ventricular reponse to a fib which was treated , but after that period of time required oxygen , presumably for pulmonary edema .
+In the Lori pt was given 3L NS as well as 1 unit of FFP , and oxygen requirements contimued to climb .
+In the CMED CCU pt was intubated for ERCP procedure .
+He was extubated the next morning .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E123" start="1014" end="1023" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="1051" end="1062" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="1066" end="1086" text="the medicine service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E11" start="1137" end="1156" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1163" end="1175" text="multiple CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1179" end="1182" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1185" end="1188" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1191" end="1194" text="DM2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1195" end="1206" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1212" end="1224" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1229" end="1241" text="intervention" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1246" end="1257" text="cholangitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1263" end="1280" text="Acute cholangitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1290" end="1298" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1302" end="1309" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="1312" end="1321" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="133" end="138" text="A fib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1328" end="1332" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1352" end="1357" text="stone" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1376" end="1381" text="Stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1422" end="1433" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1436" end="1441" text="Zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="145" end="157" text="multiple CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1446" end="1459" text="Ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1504" end="1510" text="return" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1586" end="1606" text="repeat cholangiogram" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E4" start="161" end="164" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1611" end="1618" text="removal" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1622" end="1627" text="stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1632" end="1637" text="stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="167" end="170" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1688" end="1704" text="a sphincterotomy" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="173" end="176" text="DM2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="177" end="185" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1770" end="1779" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1840" end="1853" text="ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1888" end="1911" text="Mechanical mitral valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="189" end="219" text="Mediplex Rehab Hospital Robert" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="1914" end="1929" text="Anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="1934" end="1942" text="reversed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1947" end="1951" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1992" end="2004" text="heparin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2007" end="2010" text="INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2022" end="2031" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="2047" end="2057" text="sc lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2099" end="2108" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2142" end="2149" text="his INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="2197" end="2216" text="Atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2242" end="2250" text="warfarin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="2262" end="2274" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="2302" end="2308" text="pauses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="234" end="248" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="2342" end="2353" text="His digoxin" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="2367" end="2381" text="his metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2405" end="2418" text="his home dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="2426" end="2437" text="the digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="2468" end="2478" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="2500" end="2509" text="home dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="2515" end="2518" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="253" end="256" text="n/v" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2528" end="2544" text="oxygen dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2557" end="2576" text="the hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2579" end="2582" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2603" end="2618" text="pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2642" end="2647" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2653" end="2664" text="good effect" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2667" end="2682" text="Volume overload" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2716" end="2725" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2735" end="2742" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="2761" end="2766" text="lasix" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E91" start="278" end="290" text="Pt 's vitals" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2770" end="2779" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2785" end="2803" text="E. coli bacteremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2806" end="2812" text="sepsis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2825" end="2842" text="acute cholangitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2880" end="2896" text="the surgical ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2901" end="2911" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2926" end="2936" text="Intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="294" end="303" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2953" end="2961" text="room air" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2965" end="2972" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2976" end="2981" text="Cindy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E78" start="2994" end="3019" text="rapid ventricular reponse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="3023" end="3028" text="a fib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="3088" end="3094" text="oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="3112" end="3127" text="pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="3133" end="3141" text="the Lori" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E83" start="3155" end="3160" text="3L NS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="3182" end="3185" text="FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="3192" end="3211" text="oxygen requirements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="324" end="325" text="T" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="3236" end="3248" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E87" start="3256" end="3265" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3270" end="3284" text="ERCP procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E89" start="3294" end="3303" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="332" end="335" text="SBP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="343" end="345" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="360" end="367" text="RUQ U/s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="368" end="380" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E127" start="381" end="406" text="multiple small gallstones" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="412" end="419" text="sludges" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="440" end="461" text="pericholecystic fluid" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E101" start="465" end="506" text="significant dilatation of the gallbladder" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E102" start="546" end="557" text="cholangitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="572" end="578" text="sepsis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="588" end="596" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="600" end="612" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E106" start="615" end="624" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="639" end="653" text="ERCP procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="658" end="677" text="fluid resuscitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E109" start="706" end="711" text="zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="714" end="723" text="Pt 's INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="728" end="736" text="eleveted" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="750" end="763" text="home coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="779" end="790" text="4 units FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="810" end="814" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E115" start="844" end="848" text="ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="849" end="861" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E117" start="862" end="903" text="a large filling defect in the distal duct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="917" end="924" text="a stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="930" end="944" text="CBD dilatation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="947" end="962" text="A biliary stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="980" end="991" text="the removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="995" end="1004" text="the stone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T21" start="1024" end="1036" text="the next day" type="DATE" val="2019-02-03" mod="NA" />
+<TIMEX3 id="T8" start="1514" end="1524" text="four weeks" type="DATE" val="2019-03-09" mod="NA" />
+<TIMEX3 id="T22" start="1555" end="1565" text="which time" type="DATE" val="2019-03-09" mod="NA" />
+<TIMEX3 id="T9" start="1755" end="1763" text="the week" type="DATE" val="2019-02-16" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-02-01" type="DATE" val="2019-02-01" mod="NA" />
+<TIMEX3 id="T12" start="1801" end="1819" text="the end of January" type="DATE" val="2020-01-31" mod="APPROX" />
+<TIMEX3 id="T13" start="1869" end="1882" text="14 day course" type="DURATION" val="P14D" mod="NA" />
+<TIMEX3 id="T14" start="2080" end="2092" text="this the day" type="DATE" val="2019-02-10" mod="NA" />
+<TIMEX3 id="T15" start="2109" end="2124" text="bid for one day" type="FREQUENCY" val="R2PT12H" mod="NA" />
+<TIMEX3 id="T2" start="223" end="228" text="02-01" type="DATE" val="2019-02-01" mod="NA" />
+<TIMEX3 id="T16" start="2328" end="2339" text="2.5 seconds" type="DURATION" val="PT2.5S" mod="NA" />
+<TIMEX3 id="T3" start="263" end="275" text="that morning" type="DATE" val="2019-02-01" mod="START" />
+<TIMEX3 id="T17" start="2866" end="2871" text="3 day" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T18" start="3304" end="3320" text="the next morning" type="DATE" val="2019-02-03" mod="START" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-02-09" type="DATE" val="2019-02-09" mod="NA" />
+<TIMEX3 id="T4" start="625" end="634" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T19" start="815" end="832" text="the following day" type="DATE" val="2019-02-02" mod="NA" />
+<TIMEX3 id="T6" start="838" end="843" text="02-02" type="DATE" val="2019-02-02" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2019-02-01" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E8" fromText="Mediplex Rehab Hospital Robert" toID="E7" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL100" fromID="E128" fromText="reversed" toID="E41" toText="ERCP" type="BEFORE" />
+<TLINK id="TL101" fromID="E42" fromText="heparin drip" toID="E41" toText="ERCP" type="AFTER" />
+<TLINK id="TL102" fromID="E42" fromText="heparin drip" toID="E43" toText="INR" type="BEFORE_OVERLAP" />
+<TLINK id="TL103" fromID="E43" fromText="INR" toID="E44" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E45" fromText="sc lovenox" toID="T14" toText="this the day" type="BEFORE_OVERLAP" />
+<TLINK id="TL105" fromID="T14" fromText="this the day" toID="E46" toText="discharge" type="AFTER" />
+<TLINK id="TL106" fromID="T15" fromText="bid for one day" toID="E45" toText="sc lovenox" type="OVERLAP" />
+<TLINK id="TL107" fromID="E42" fromText="heparin drip" toID="E47" toText="his INR" type="BEFORE_OVERLAP" />
+<TLINK id="TL108" fromID="E48" fromText="Atrial fibrillation" toID="E11" toText="atrial fibrillation" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E48" fromText="Atrial fibrillation" toID="E49" toText="warfarin" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="abdominal pain" toID="E7" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL110" fromID="E51" fromText="pauses" toID="T16" toText="2.5 seconds" type="DURING" />
+<TLINK id="TL111" fromID="E51" fromText="pauses" toID="E50" toText="the hospital" type="DURING" />
+<TLINK id="TL112" fromID="E8" fromText="Mediplex Rehab Hospital Robert" toID="E50" toText="the hospital" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E55" fromText="the digoxin" toID="E52" toText="His digoxin" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E52" fromText="His digoxin" toID="E53" toText="his metoprolol" type="OVERLAP" />
+<TLINK id="TL115" fromID="E51" fromText="pauses" toID="E52" toText="His digoxin" type="BEFORE" />
+<TLINK id="TL116" fromID="E54" fromText="his home dose" toID="E53" toText="his metoprolol" type="BEFORE" />
+<TLINK id="TL117" fromID="E56" fromText="metoprolol" toID="E57" toText="home dose" type="SIMULTANEOUS" />
+<TLINK id="TL118" fromID="E54" fromText="his home dose" toID="E57" toText="home dose" type="SIMULTANEOUS" />
+<TLINK id="TL119" fromID="E56" fromText="metoprolol" toID="E53" toText="his metoprolol" type="AFTER" />
+<TLINK id="TL12" fromID="E10" fromText="n/v" toID="E7" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL120" fromID="E58" fromText="CHF" toID="E48" toText="Atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL121" fromID="E58" fromText="CHF" toID="E59" toText="oxygen dependent" type="OVERLAP" />
+<TLINK id="TL122" fromID="E58" fromText="CHF" toID="E13" toText="CHF" type="SIMULTANEOUS" />
+<TLINK id="TL123" fromID="E59" fromText="oxygen dependent" toID="E60" toText="the hospital course" type="DURING" />
+<TLINK id="TL124" fromID="E62" fromText="pulmonary edema" toID="E61" toText="CXR" type="BEFORE_OVERLAP" />
+<TLINK id="TL125" fromID="E59" fromText="oxygen dependent" toID="E61" toText="CXR" type="OVERLAP" />
+<TLINK id="TL126" fromID="E62" fromText="pulmonary edema" toID="E63" toText="lasix" type="BEFORE_OVERLAP" />
+<TLINK id="TL127" fromID="E63" fromText="lasix" toID="E64" toText="good effect" type="OVERLAP" />
+<TLINK id="TL128" fromID="E66" fromText="IV fluids" toID="E65" toText="Volume overload" type="BEFORE_OVERLAP" />
+<TLINK id="TL129" fromID="E66" fromText="IV fluids" toID="E67" toText="the ICU" type="DURING" />
+<TLINK id="TL13" fromID="E9" fromText="abdominal pain" toID="T3" toText="that morning" type="BEGUN_BY" />
+<TLINK id="TL130" fromID="E66" fromText="IV fluids" toID="E108" toText="fluid resuscitation" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E67" fromText="the ICU" toID="E16" toText="the CMED CCU" type="SIMULTANEOUS" />
+<TLINK id="TL132" fromID="E63" fromText="lasix" toID="E68" toText="lasix" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E68" fromText="lasix" toID="E69" toText="discharge" type="ENDED_BY" />
+<TLINK id="TL135" fromID="E71" fromText="sepsis" toID="E70" toText="E. coli bacteremia" type="OVERLAP" />
+<TLINK id="TL136" fromID="E72" fromText="acute cholangitis" toID="E20" toText="Acute cholangitis" type="SIMULTANEOUS" />
+<TLINK id="TL137" fromID="E70" fromText="E. coli bacteremia" toID="E72" toText="acute cholangitis" type="BEFORE_OVERLAP" />
+<TLINK id="TL138" fromID="E103" fromText="sepsis" toID="E71" toText="sepsis" type="SIMULTANEOUS" />
+<TLINK id="TL139" fromID="E73" fromText="the surgical ICU" toID="T17" toText="3 day" type="DURING" />
+<TLINK id="TL14" fromID="E10" fromText="n/v" toID="T3" toText="that morning" type="BEGUN_BY" />
+<TLINK id="TL140" fromID="E73" fromText="the surgical ICU" toID="E67" toText="the ICU" type="SIMULTANEOUS" />
+<TLINK id="TL141" fromID="E74" fromText="intubation" toID="E106" toText="intubated" type="SIMULTANEOUS" />
+<TLINK id="TL142" fromID="E73" fromText="the surgical ICU" toID="E74" toText="intubation" type="OVERLAP" />
+<TLINK id="TL143" fromID="E74" fromText="intubation" toID="E75" toText="Intubation" type="SIMULTANEOUS" />
+<TLINK id="TL144" fromID="E76" fromText="room air" toID="E90" toText="arrival" type="BEFORE_OVERLAP" />
+<TLINK id="TL145" fromID="E77" fromText="Cindy" toID="E90" toText="arrival" type="BEGUN_BY" />
+<TLINK id="TL146" fromID="E78" fromText="rapid ventricular reponse" toID="E90" toText="arrival" type="AFTER" />
+<TLINK id="TL147" fromID="E79" fromText="a fib" toID="E78" toText="rapid ventricular reponse" type="BEFORE_OVERLAP" />
+<TLINK id="TL148" fromID="E79" fromText="a fib" toID="E48" toText="Atrial fibrillation" type="SIMULTANEOUS" />
+<TLINK id="TL149" fromID="E81" fromText="pulmonary edema" toID="E80" toText="oxygen" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E91" fromText="Pt 's vitals" toID="E92" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL150" fromID="E80" fromText="oxygen" toID="E78" toText="rapid ventricular reponse" type="AFTER" />
+<TLINK id="TL151" fromID="E82" fromText="the Lori" toID="E83" toText="3L NS" type="OVERLAP" />
+<TLINK id="TL152" fromID="E81" fromText="pulmonary edema" toID="E82" toText="the Lori" type="BEFORE_OVERLAP" />
+<TLINK id="TL153" fromID="E84" fromText="FFP" toID="E82" toText="the Lori" type="OVERLAP" />
+<TLINK id="TL154" fromID="E85" fromText="oxygen requirements" toID="E84" toText="FFP" type="OVERLAP" />
+<TLINK id="TL155" fromID="E85" fromText="oxygen requirements" toID="E86" toText="the CMED CCU" type="BEFORE_OVERLAP" />
+<TLINK id="TL156" fromID="E87" fromText="intubated" toID="E75" toText="Intubation" type="SIMULTANEOUS" />
+<TLINK id="TL157" fromID="E86" fromText="the CMED CCU" toID="E87" toText="intubated" type="OVERLAP" />
+<TLINK id="TL158" fromID="E87" fromText="intubated" toID="E88" toText="ERCP procedure" type="BEFORE" />
+<TLINK id="TL159" fromID="E87" fromText="intubated" toID="E89" toText="extubated" type="ENDED_BY" />
+<TLINK id="TL16" fromID="E7" fromText="admitted" toID="E92" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL160" fromID="E89" fromText="extubated" toID="T18" toText="the next morning" type="SIMULTANEOUS" />
+<TLINK id="TL161" fromID="E89" fromText="extubated" toID="E123" toText="extubated" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E93" fromText="T" toID="E94" toText="SBP" type="OVERLAP" />
+<TLINK id="TL18" fromID="E93" fromText="T" toID="E91" toText="Pt 's vitals" type="OVERLAP" />
+<TLINK id="TL19" fromID="E94" fromText="SBP" toID="E95" toText="HR" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="Discharge" toID="T1" toText="2019-02-09" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E95" fromText="HR" toID="E96" toText="RUQ U/s" type="OVERLAP" />
+<TLINK id="TL21" fromID="E97" fromText="demonstrated" toID="E96" toText="RUQ U/s" type="OVERLAP" />
+<TLINK id="TL22" fromID="E127" fromText="multiple small gallstones" toID="E96" toText="RUQ U/s" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E99" fromText="sludges" toID="E100" toText="pericholecystic fluid" type="OVERLAP" />
+<TLINK id="TL24" fromID="E100" fromText="pericholecystic fluid" toID="E101" toText="significant dilatation of the gallbladder" type="OVERLAP" />
+<TLINK id="TL25" fromID="E99" fromText="sludges" toID="E96" toText="RUQ U/s" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E103" fromText="sepsis" toID="E102" toText="cholangitis" type="OVERLAP" />
+<TLINK id="TL27" fromID="E102" fromText="cholangitis" toID="E127" toText="multiple small gallstones" type="OVERLAP" />
+<TLINK id="TL28" fromID="E105" fromText="the CMED CCU" toID="E104" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL29" fromID="E106" fromText="intubated" toID="E105" toText="the CMED CCU" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="A fib" toID="E7" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E106" fromText="intubated" toID="T4" toText="overnight" type="DURING" />
+<TLINK id="TL31" fromID="E106" fromText="intubated" toID="E107" toText="ERCP procedure" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E108" fromText="fluid resuscitation" toID="E109" toText="zosyn" type="OVERLAP" />
+<TLINK id="TL33" fromID="E107" fromText="ERCP procedure" toID="E108" toText="fluid resuscitation" type="OVERLAP" />
+<TLINK id="TL34" fromID="E111" fromText="eleveted" toID="E110" toText="Pt 's INR" type="OVERLAP" />
+<TLINK id="TL35" fromID="E112" fromText="home coumadin" toID="E111" toText="eleveted" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E113" fromText="4 units FFP" toID="E114" toText="ERCP" type="BEFORE" />
+<TLINK id="TL37" fromID="T19" fromText="the following day" toID="E114" toText="ERCP" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E88" fromText="ERCP procedure" toID="E114" toText="ERCP" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E114" fromText="ERCP" toID="E115" toText="ERCP" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E3" fromText="multiple CVA" toID="E7" toText="admitted" type="BEFORE" />
+<TLINK id="TL40" fromID="E115" fromText="ERCP" toID="T6" toText="02-02" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E116" fromText="demonstrated" toID="E115" toText="ERCP" type="OVERLAP" />
+<TLINK id="TL42" fromID="E117" fromText="a large filling defect in the distal duct" toID="E115" toText="ERCP" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E118" fromText="a stone" toID="E117" toText="a large filling defect in the distal duct" type="OVERLAP" />
+<TLINK id="TL44" fromID="E118" fromText="a stone" toID="E119" toText="CBD dilatation" type="OVERLAP" />
+<TLINK id="TL45" fromID="E121" fromText="the stone" toID="E118" toText="a stone" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E121" fromText="the stone" toID="E122" toText="the removal" type="ENDED_BY" />
+<TLINK id="TL47" fromID="E120" fromText="A biliary stent" toID="E122" toText="the removal" type="AFTER" />
+<TLINK id="TL48" fromID="E26" fromText="Stent" toID="E120" toText="A biliary stent" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E4" fromText="CHF" toID="E7" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E123" fromText="extubated" toID="T21" toText="the next day" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E124" fromText="transferred" toID="E123" toText="extubated" type="AFTER" />
+<TLINK id="TL52" fromID="E125" fromText="the medicine service" toID="E124" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL53" fromID="E106" fromText="intubated" toID="E123" toText="extubated" type="ENDED_BY" />
+<TLINK id="TL54" fromID="E2" fromText="A fib" toID="E11" toText="atrial fibrillation" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E11" fromText="atrial fibrillation" toID="E19" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E12" fromText="multiple CVA" toID="E3" toText="multiple CVA" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E12" fromText="multiple CVA" toID="E19" toText="transferred" type="BEFORE" />
+<TLINK id="TL58" fromID="E13" fromText="CHF" toID="E4" toText="CHF" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E13" fromText="CHF" toID="E19" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="HTN" toID="E7" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E14" fromText="HTN" toID="E19" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL61" fromID="E14" fromText="HTN" toID="E5" toText="HTN" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E15" fromText="DM2" toID="E19" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL63" fromID="E15" fromText="DM2" toID="E6" toText="DM2" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E16" fromText="the CMED CCU" toID="E105" toText="the CMED CCU" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E16" fromText="the CMED CCU" toID="E19" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL66" fromID="E19" fromText="transferred" toID="E17" toText="intervention" type="AFTER" />
+<TLINK id="TL67" fromID="E18" fromText="cholangitis" toID="E17" toText="intervention" type="BEFORE_OVERLAP" />
+<TLINK id="TL68" fromID="E20" fromText="Acute cholangitis" toID="E18" toText="cholangitis" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E18" fromText="cholangitis" toID="E102" toText="cholangitis" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E6" fromText="DM2" toID="E7" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E21" fromText="admitted" toID="E104" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E22" fromText="the ICU" toID="E21" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL73" fromID="E23" fromText="intubated" toID="E106" toText="intubated" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E22" fromText="the ICU" toID="E23" toText="intubated" type="OVERLAP" />
+<TLINK id="TL75" fromID="E23" fromText="intubated" toID="E24" toText="ERCP" type="BEFORE" />
+<TLINK id="TL76" fromID="E24" fromText="ERCP" toID="E107" toText="ERCP procedure" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E24" fromText="ERCP" toID="E25" toText="stone" type="OVERLAP" />
+<TLINK id="TL78" fromID="E25" fromText="stone" toID="E118" toText="a stone" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E34" fromText="stone" toID="E25" toText="stone" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E25" fromText="stone" toID="E26" toText="Stent" type="BEFORE" />
+<TLINK id="TL81" fromID="E28" fromText="Zosyn" toID="E27" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL82" fromID="E29" fromText="Ciprofloxacin" toID="E27" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL83" fromID="E29" fromText="Ciprofloxacin" toID="E38" toText="ciprofloxacin" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E38" fromText="ciprofloxacin" toID="T13" toText="14 day course" type="DURING" />
+<TLINK id="TL85" fromID="T9" fromText="the week" toID="E37" toText="discharge" type="AFTER" />
+<TLINK id="TL86" fromID="T12" fromText="the end of January" toID="E37" toText="discharge" type="AFTER" />
+<TLINK id="TL87" fromID="E30" fromText="return" toID="T8" toText="four weeks" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="T8" fromText="four weeks" toID="T22" toText="which time" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="T2" fromText="02-01" toID="E7" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E31" fromText="repeat cholangiogram" toID="T22" toText="which time" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E35" fromText="removal" toID="T22" toText="which time" type="SIMULTANEOUS" />
+<TLINK id="TL92" fromID="E33" fromText="stent" toID="E35" toText="removal" type="ENDED_BY" />
+<TLINK id="TL93" fromID="E33" fromText="stent" toID="E26" toText="Stent" type="SIMULTANEOUS" />
+<TLINK id="TL94" fromID="E34" fromText="stone" toID="E35" toText="removal" type="ENDED_BY" />
+<TLINK id="TL95" fromID="E35" fromText="removal" toID="E36" toText="a sphincterotomy" type="BEFORE" />
+<TLINK id="TL96" fromID="E39" fromText="Mechanical mitral valve" toID="E20" toText="Acute cholangitis" type="OVERLAP" />
+<TLINK id="TL97" fromID="E48" fromText="Atrial fibrillation" toID="E39" toText="Mechanical mitral valve" type="OVERLAP" />
+<TLINK id="TL98" fromID="E39" fromText="Mechanical mitral valve" toID="E40" toText="Anticoagulation" type="BEFORE_OVERLAP" />
+<TLINK id="TL99" fromID="E40" fromText="Anticoagulation" toID="E128" toText="reversed" type="ENDED_BY" />
+<SECTIME id="S0" start="18" end="28" text="2019-02-01" type="ADMISSION" dvalue="2019-02-01" />
+<SECTIME id="S1" start="46" end="56" text="2019-02-09" type="DISCHARGE" dvalue="2019-02-09" />
+<TLINK id="SECTIME0" fromID="E123" fromText="extubated" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E124" fromText="transferred" toID="T0" toText="2019-02-01" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E125" fromText="the medicine service" toID="T0" toText="2019-02-01" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E11" fromText="atrial fibrillation" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME4" fromID="E12" fromText="multiple CVA" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E13" fromText="CHF" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME6" fromID="E14" fromText="HTN" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME7" fromID="E15" fromText="DM2" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME8" fromID="E19" fromText="transferred" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E16" fromText="the CMED CCU" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E17" fromText="intervention" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E18" fromText="cholangitis" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E20" fromText="Acute cholangitis" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E21" fromText="admitted" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E22" fromText="the ICU" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E23" fromText="intubated" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E2" fromText="A fib" toID="T0" toText="2019-02-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME17" fromID="E24" fromText="ERCP" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E25" fromText="stone" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME19" fromID="E26" fromText="Stent" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME20" fromID="E27" fromText="antibiotics" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E28" fromText="Zosyn" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E3" fromText="multiple CVA" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E29" fromText="Ciprofloxacin" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E30" fromText="return" toID="T1" toText="2019-02-09" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E31" fromText="repeat cholangiogram" toID="T1" toText="2019-02-09" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E4" fromText="CHF" toID="T0" toText="2019-02-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E35" fromText="removal" toID="T1" toText="2019-02-09" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E33" fromText="stent" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME29" fromID="E34" fromText="stone" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E5" fromText="HTN" toID="T0" toText="2019-02-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME31" fromID="E36" fromText="a sphincterotomy" toID="T1" toText="2019-02-09" type="AFTER" />
+<TLINK id="SECTIME32" fromID="E6" fromText="DM2" toID="T0" toText="2019-02-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E7" fromText="admitted" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E37" fromText="discharge" toID="T1" toText="2019-02-09" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E38" fromText="ciprofloxacin" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME36" fromID="E39" fromText="Mechanical mitral valve" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E8" fromText="Mediplex Rehab Hospital Robert" toID="T0" toText="2019-02-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME38" fromID="E40" fromText="Anticoagulation" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E128" fromText="reversed" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E41" fromText="ERCP" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E42" fromText="heparin drip" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E43" fromText="INR" toID="T1" toText="2019-02-09" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E44" fromText="discharge" toID="T1" toText="2019-02-09" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E45" fromText="sc lovenox" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME45" fromID="E46" fromText="discharge" toID="T1" toText="2019-02-09" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E47" fromText="his INR" toID="T1" toText="2019-02-09" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E48" fromText="Atrial fibrillation" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME48" fromID="E49" fromText="warfarin" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME49" fromID="E50" fromText="the hospital" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E51" fromText="pauses" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E9" fromText="abdominal pain" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E52" fromText="His digoxin" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E53" fromText="his metoprolol" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E54" fromText="his home dose" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E55" fromText="the digoxin" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E56" fromText="metoprolol" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME57" fromID="E57" fromText="home dose" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME58" fromID="E58" fromText="CHF" toID="T1" toText="2019-02-09" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME59" fromID="E10" fromText="n/v" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E59" fromText="oxygen dependent" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E60" fromText="the hospital course" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E61" fromText="CXR" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E62" fromText="pulmonary edema" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E63" fromText="lasix" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E64" fromText="good effect" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E65" fromText="Volume overload" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E66" fromText="IV fluids" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E67" fromText="the ICU" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E68" fromText="lasix" toID="T1" toText="2019-02-09" type="OVERLAP" />
+<TLINK id="SECTIME70" fromID="E91" fromText="Pt 's vitals" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E69" fromText="discharge" toID="T1" toText="2019-02-09" type="OVERLAP" />
+<TLINK id="SECTIME72" fromID="E70" fromText="E. coli bacteremia" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E71" fromText="sepsis" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E72" fromText="acute cholangitis" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E73" fromText="the surgical ICU" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E74" fromText="intubation" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E75" fromText="Intubation" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E92" fromText="admission" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E76" fromText="room air" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E90" fromText="arrival" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E77" fromText="Cindy" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E78" fromText="rapid ventricular reponse" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E79" fromText="a fib" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E80" fromText="oxygen" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E81" fromText="pulmonary edema" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E82" fromText="the Lori" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E83" fromText="3L NS" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E84" fromText="FFP" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E85" fromText="oxygen requirements" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E93" fromText="T" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E86" fromText="the CMED CCU" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E87" fromText="intubated" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E88" fromText="ERCP procedure" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E89" fromText="extubated" toID="T1" toText="2019-02-09" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E94" fromText="SBP" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E95" fromText="HR" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E96" fromText="RUQ U/s" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E97" fromText="demonstrated" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E127" fromText="multiple small gallstones" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E99" fromText="sludges" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E100" fromText="pericholecystic fluid" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E101" fromText="significant dilatation of the gallbladder" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E102" fromText="cholangitis" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E103" fromText="sepsis" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E104" fromText="admitted" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E105" fromText="the CMED CCU" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E106" fromText="intubated" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E107" fromText="ERCP procedure" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E108" fromText="fluid resuscitation" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E109" fromText="zosyn" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E110" fromText="Pt 's INR" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E111" fromText="eleveted" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E112" fromText="home coumadin" toID="T0" toText="2019-02-01" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME114" fromID="E113" fromText="4 units FFP" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E114" fromText="ERCP" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E115" fromText="ERCP" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E116" fromText="demonstrated" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E117" fromText="a large filling defect in the distal duct" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E118" fromText="a stone" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E119" fromText="CBD dilatation" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E120" fromText="A biliary stent" toID="T0" toText="2019-02-01" type="OVERLAP" />
+<TLINK id="SECTIME122" fromID="E122" fromText="the removal" toID="T0" toText="2019-02-01" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E121" fromText="the stone" toID="T0" toText="2019-02-01" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

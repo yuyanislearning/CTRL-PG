@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-03-05
+Discharge Date :
+2014-04-04
+Service :
+CARDIOTHORACIC SURGERY
+HISTORY OF THE PRESENT ILLNESS :
+This is a 71 - year-old gentleman who was admitted to the St. Anne 's Hospital as a transfer from the Kindred Park View Specialty Hospital of Springfield .
+Prior to admission , he had a long and complicated hospital course at the outside hospital .
+His hospital course began on 2014-02-13 when he underwent a right carotid endarterectomy for 95% stenosis of the carotid artery .
+His postoperative course was complicated by nonspecific T wave changes consistent with myocardial infarction postoperatively as well as hematoma formation .
+The hematoma formation was rapidly expanding and he received an emergent surgical airway in the Intensive Care Unit .
+This emergent cricothyroidotomy was converted then to a formal tracheostomy .
+During his subsequent hospital course , he had an additional CHF exacerbation .
+He was medically managed and eventually his tracheostomy was decannulated .
+However , just prior to admission to Mass. Eye & Ear Infirmary he had another acute decompensation with CHF exacerbation .
+This necessitated emergent intubation .
+With EKG changes consistent with myocardial infarction , he was transferred to the Mass. Eye & Ear Infirmary for further management .
+HOSPITAL COURSE :
+Mr. Knueppel was admitted to the CCU at the Mass. Eye & Ear Infirmary .
+Upon admission , he was treated for his pneumonia .
+He was medically managed for CHF and underwent a cardiac catheterization on 2014-03-06 .
+His catheterization revealed 70% stenosis of the distal left main coronary artery , 90% stenosis of the LAD , 80% stenosis of the circumflex , 90% stenosis of OM2 and a proximally occluded right coronary artery .
+After reviewing cardiac catheterization data , a consultation was made with Cardiothoracic Surgery who deemed that he was a good candidate for coronary artery bypass grafting .
+Over the ensuing days , Mr. Nina CHF was managed by the CCU Team and he received treatment for what was now determined to be a Klebsiella pneumonia .
+He was treated with a full course of Zosyn .
+On 2014-03-11 , Mr. Knueppel went to the Operating Room with Dr. Streeter .
+He underwent a coronary artery bypass graft of four vessels .
+He had a saphenous vein graft to his LAD and diagonal in a sequential fashion , saphenous vein graft to his PDA and a saphenous vein graft to his OM .
+The procedure was performed by Dr. Streeter and assisted by Dr . .....................
+The patient tolerated the procedure well without complication and was transferred to the Cardiac Surgery Recovery Unit without complication .
+Please see the previously dictated operative note for more details .
+Mr. Knueppel had a long postoperative course .
+His postoperative course was complicated by hypertension which was managed medically .
+During his postoperative course , he did not suffer from any arrhythmias nor did he have any episode of hypotension .
+At the time of discharge , he was on a stable antihypertensive regimen appropriate for someone with a decreased ejection fraction .
+Mr. Knueppel had had a long protracted period of intubation prior to the operation .
+The status of Mr. Nina pulmonary system necessitated a prolonged postoperative intubation .
+After a very slow wean from ventilatory support , Mr. Knueppel was successfully extubated on postoperative day number nine .
+He continued to be very tenuous from a pulmonary point of view and required frequent chest PT .
+For this reason , Mr. Knueppel was kept in the Intensive Care Unit where very close monitoring could be performed .
+In addition , he had chest PT performed at very regular intervals by the ICU staff .
+His pulmonary status was so tenuous that we were unable to transfer him to the regular patient care floor during his hospitalization .
+Mr. Knueppel had an emergent cricothyroidotomy followed by a formal tracheostomy at the outside hospital .
+There is much scarring surrounding his larynx .
+Such a situation frequently makes it very difficult to swallow without aspirating .
+As is expected , Mr. Knueppel failed a swallowing study early on in his Boston Regional Medical Centerr hospital course .
+The study was repeated and yet again Mr. Knueppel was unable to swallow without evidence of aspiration .
+After a prolonged period of being fed via nasogastric tube , Mr. Knueppel finally had a formal percutaneous endoscopic gastrostomy tube placed in the Intensive Care Unit .
+This was performed on 2014-04-01 , postoperative day number 21 .
+This procedure was performed by Dr. Kevin Taussig and assisted by Dr. Carla Solan .
+The procedure was performed under endoscopic guidance in the Intensive Care Unit without complication .
+Please see the previously dictated operative note for more details .
+Mr. Knueppel Robertson a distal radius fracture prior to arriving to the hospital .
+This injury had been reduced and casted at the outside institution .
+Postoperatively , there was much edema associated in the postoperative course from coronary artery bypass grafting .
+His cast was removed by the Orthopedic Service in anticipation of this edema and to avoid compartment syndrome .
+The cast was replaced by a plaster splint .
+Mr. Knueppel should follow-up with his orthopedic surgeon in the Worcester State Hospital for reassessment of his injury and possible removal of the splint .
+By postoperative day number 23 , Mr. Nina pulmonary status was deemed sufficiently stable .
+His hypertension was well controlled and he was tolerating tube feeds .
+At this point , he was ready to be discharged to rehabilitation .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="1035" end="1044" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="1048" end="1073" text="Mass. Eye & Ear Infirmary" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E83" start="1081" end="1109" text="another acute decompensation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="1115" end="1131" text="CHF exacerbation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="1152" end="1171" text="emergent intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="1179" end="1190" text="EKG changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1207" end="1228" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="1238" end="1249" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="1253" end="1282" text="the Mass. Eye & Ear Infirmary" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E89" start="1287" end="1305" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1343" end="1351" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="1355" end="1395" text="the CCU at the Mass. Eye & Ear Infirmary" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1403" end="1412" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="1422" end="1429" text="treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1434" end="1447" text="his pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="1457" end="1474" text="medically managed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1479" end="1482" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1497" end="1522" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1539" end="1558" text="His catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1568" end="1620" text="70% stenosis of the distal left main coronary artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1623" end="1646" text="90% stenosis of the LAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1649" end="1679" text="80% stenosis of the circumflex" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="165" end="173" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1682" end="1701" text="90% stenosis of OM2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1706" end="1749" text="a proximally occluded right coronary artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1768" end="1796" text="cardiac catheterization data" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="1799" end="1813" text="a consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="177" end="201" text="the St. Anne 's Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E94" start="1828" end="1850" text="Cardiothoracic Surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="1895" end="1926" text="coronary artery bypass grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="1962" end="1965" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="1970" end="1977" text="managed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E97" start="1981" end="1993" text="the CCU Team" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2010" end="2019" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2054" end="2076" text="a Klebsiella pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="205" end="215" text="a transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E98" start="2086" end="2093" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="2116" end="2121" text="Zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2161" end="2179" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="2213" end="2259" text="a coronary artery bypass graft of four vessels" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="221" end="261" text="the Kindred Park View Specialty Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="2269" end="2315" text="a saphenous vein graft to his LAD and diagonal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2342" end="2373" text="saphenous vein graft to his PDA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2378" end="2410" text="a saphenous vein graft to his OM" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="2413" end="2426" text="The procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E149" start="2444" end="2456" text="Dr. Streeter" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E99" start="2512" end="2521" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="2522" end="2535" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E100" start="2549" end="2561" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E62" start="2570" end="2581" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="2585" end="2618" text="the Cardiac Surgery Recovery Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E102" start="2627" end="2639" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E103" start="2728" end="2755" text="a long postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="2758" end="2782" text="His postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2802" end="2814" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2825" end="2842" text="managed medically" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="2852" end="2876" text="his postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="288" end="297" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2902" end="2917" text="any arrhythmias" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="2949" end="2960" text="hypotension" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E108" start="2978" end="2987" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="3000" end="3033" text="a stable antihypertensive regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="3063" end="3092" text="a decreased ejection fraction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="307" end="345" text="a long and complicated hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="3144" end="3154" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="3164" end="3177" text="the operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="3233" end="3269" text="a prolonged postoperative intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3278" end="3294" text="a very slow wean" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="3300" end="3319" text="ventilatory support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="3339" end="3361" text="successfully extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="3416" end="3451" text="very tenuous from a pulmonary point" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="3473" end="3490" text="frequent chest PT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="349" end="369" text="the outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E64" start="3536" end="3559" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E114" start="3566" end="3587" text="very close monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="3630" end="3638" text="chest PT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E115" start="3678" end="3691" text="the ICU staff" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E116" start="3694" end="3714" text="His pulmonary status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="3722" end="3729" text="tenuous" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E119" start="3753" end="3761" text="transfer" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E59" start="372" end="391" text="His hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="3769" end="3799" text="the regular patient care floor" modality="FACTUAL" polarity="NEG" type="CLINICAL_DEPT" />
+<EVENT id="E120" start="3807" end="3826" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="3846" end="3875" text="an emergent cricothyroidotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="3888" end="3909" text="a formal tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="3913" end="3933" text="the outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E122" start="3945" end="3981" text="much scarring surrounding his larynx" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="4039" end="4065" text="swallow without aspirating" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="4105" end="4123" text="a swallowing study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="4136" end="4171" text="his Boston Regional Medical Centerr" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E124" start="4172" end="4187" text="hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="4190" end="4199" text="The study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E125" start="4254" end="4261" text="swallow" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E44" start="4282" end="4292" text="aspiration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="430" end="460" text="a right carotid endarterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="4337" end="4353" text="nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="4381" end="4430" text="a formal percutaneous endoscopic gastrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="4441" end="4464" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="4532" end="4546" text="This procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E150" start="4564" end="4581" text="Dr. Kevin Taussig" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E151" start="4598" end="4613" text="Dr. Carla Solan" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E48" start="4616" end="4629" text="The procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="465" end="499" text="95% stenosis of the carotid artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="4650" end="4669" text="endoscopic guidance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="4673" end="4696" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E128" start="4705" end="4717" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="4812" end="4836" text="a distal radius fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="4846" end="4854" text="arriving" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="4858" end="4870" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="4873" end="4884" text="This injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="4894" end="4901" text="reduced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="4906" end="4912" text="casted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="4916" end="4939" text="the outside institution" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="4970" end="4980" text="much edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="5013" end="5019" text="course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="5025" end="5056" text="coronary artery bypass grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="5059" end="5067" text="His cast" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E134" start="5072" end="5079" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="5083" end="5105" text="the Orthopedic Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="5125" end="5135" text="this edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E136" start="5149" end="5169" text="compartment syndrome" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="5172" end="5180" text="The cast" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="5197" end="5213" text="a plaster splint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E138" start="5236" end="5245" text="follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="5251" end="5273" text="his orthopedic surgeon" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E67" start="5277" end="5305" text="the Worcester State Hospital" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E140" start="5310" end="5322" text="reassessment" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="5326" end="5336" text="his injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E141" start="5350" end="5357" text="removal" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E142" start="5361" end="5371" text="the splint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="5444" end="5463" text="sufficiently stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="546" end="572" text="nonspecific T wave changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E144" start="5466" end="5482" text="His hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E145" start="5487" end="5502" text="well controlled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E146" start="5514" end="5524" text="tolerating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="5525" end="5535" text="tube feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="5573" end="5583" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E148" start="5587" end="5603" text="rehabilitation ." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="589" end="610" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="638" end="656" text="hematoma formation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="659" end="681" text="The hematoma formation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="720" end="747" text="an emergent surgical airway" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="751" end="774" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="777" end="808" text="This emergent cricothyroidotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="831" end="852" text="a formal tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="877" end="892" text="hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="902" end="932" text="an additional CHF exacerbation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="942" end="959" text="medically managed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="975" end="991" text="his tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="996" end="1008" text="decannulated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="1526" end="1536" text="2014-03-06" type="DATE" val="2014-03-06" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2014-03-05" type="DATE" val="2014-03-05" mod="NA" />
+<TIMEX3 id="T4" start="1934" end="1950" text="the ensuing days" type="DURATION" val="P4D" mod="APPROX" />
+<TIMEX3 id="T5" start="2127" end="2137" text="2014-03-11" type="DATE" val="2014-03-11" mod="NA" />
+<TIMEX3 id="T6" start="3379" end="3394" text="day number nine" type="DATE" val="2014-03-20" mod="NA" />
+<TIMEX3 id="T3" start="401" end="411" text="2014-02-13" type="DATE" val="2014-02-13" mod="NA" />
+<TIMEX3 id="T7" start="4489" end="4499" text="2014-04-01" type="DATE" val="2014-04-01" mod="NA" />
+<TIMEX3 id="T8" start="4516" end="4529" text="day number 21" type="DATE" val="2014-04-01" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2014-04-04" type="DATE" val="2014-04-04" mod="NA" />
+<TIMEX3 id="T9" start="5391" end="5404" text="day number 23" type="DATE" val="2014-04-03" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2014-03-05" type="OVERLAP" />
+<TLINK id="TL1" fromID="E4" fromText="myocardial infarction" toID="E3" toText="nonspecific T wave changes" type="OVERLAP" />
+<TLINK id="TL10" fromID="E75" fromText="a long and complicated hospital course" toID="E76" toText="the outside hospital" type="SIMULTANEOUS" />
+<TLINK id="TL100" fromID="E40" fromText="an emergent cricothyroidotomy" toID="E121" toText="the outside hospital" type="DURING" />
+<TLINK id="TL101" fromID="E121" fromText="the outside hospital" toID="E76" toText="the outside hospital" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E122" fromText="much scarring surrounding his larynx" toID="E120" toText="his hospitalization" type="DURING" />
+<TLINK id="TL103" fromID="E123" fromText="swallow without aspirating" toID="E122" toText="much scarring surrounding his larynx" type="OVERLAP" />
+<TLINK id="TL104" fromID="E42" fromText="a swallowing study" toID="E65" toText="his Boston Regional Medical Centerr" type="OVERLAP" />
+<TLINK id="TL105" fromID="E65" fromText="his Boston Regional Medical Centerr" toID="E124" toText="hospital course" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E43" fromText="The study" toID="E42" toText="a swallowing study" type="AFTER" />
+<TLINK id="TL107" fromID="E125" fromText="swallow" toID="E43" toText="The study" type="DURING" />
+<TLINK id="TL108" fromID="E125" fromText="swallow" toID="E44" toText="aspiration" type="OVERLAP" />
+<TLINK id="TL109" fromID="E46" fromText="a formal percutaneous endoscopic gastrostomy tube" toID="E45" toText="nasogastric tube" type="AFTER" />
+<TLINK id="TL11" fromID="E59" fromText="His hospital course" toID="E75" toText="a long and complicated hospital course" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E46" fromText="a formal percutaneous endoscopic gastrostomy tube" toID="E126" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL111" fromID="E126" fromText="the Intensive Care Unit" toID="E64" toText="the Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL112" fromID="E46" fromText="a formal percutaneous endoscopic gastrostomy tube" toID="T7" toText="2014-04-01" type="OVERLAP" />
+<TLINK id="TL113" fromID="T8" fromText="day number 21" toID="T7" toText="2014-04-01" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E47" fromText="This procedure" toID="E46" toText="a formal percutaneous endoscopic gastrostomy tube" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E150" fromText="Dr. Kevin Taussig" toID="E47" toText="This procedure" type="OVERLAP" />
+<TLINK id="TL116" fromID="E151" fromText="Dr. Carla Solan" toID="E47" toText="This procedure" type="OVERLAP" />
+<TLINK id="TL117" fromID="E48" fromText="The procedure" toID="E47" toText="This procedure" type="SIMULTANEOUS" />
+<TLINK id="TL118" fromID="E49" fromText="endoscopic guidance" toID="E48" toText="The procedure" type="OVERLAP" />
+<TLINK id="TL119" fromID="E127" fromText="the Intensive Care Unit" toID="E49" toText="endoscopic guidance" type="OVERLAP" />
+<TLINK id="TL12" fromID="E59" fromText="His hospital course" toID="T3" toText="2014-02-13" type="BEGUN_BY" />
+<TLINK id="TL120" fromID="E128" fromText="complication" toID="E48" toText="The procedure" type="OVERLAP" />
+<TLINK id="TL121" fromID="E50" fromText="a distal radius fracture" toID="E129" toText="arriving" type="BEFORE" />
+<TLINK id="TL122" fromID="E130" fromText="the hospital" toID="E129" toText="arriving" type="BEFORE_OVERLAP" />
+<TLINK id="TL123" fromID="E50" fromText="a distal radius fracture" toID="E51" toText="This injury" type="SIMULTANEOUS" />
+<TLINK id="TL124" fromID="E51" fromText="This injury" toID="E131" toText="reduced" type="BEFORE_OVERLAP" />
+<TLINK id="TL125" fromID="E51" fromText="This injury" toID="E132" toText="casted" type="BEFORE_OVERLAP" />
+<TLINK id="TL126" fromID="E132" fromText="casted" toID="E66" toText="the outside institution" type="OVERLAP" />
+<TLINK id="TL127" fromID="E131" fromText="reduced" toID="E66" toText="the outside institution" type="OVERLAP" />
+<TLINK id="TL128" fromID="E52" fromText="much edema" toID="E133" toText="course" type="DURING" />
+<TLINK id="TL129" fromID="E52" fromText="much edema" toID="E53" toText="coronary artery bypass grafting" type="AFTER" />
+<TLINK id="TL13" fromID="E1" fromText="a right carotid endarterectomy" toID="T3" toText="2014-02-13" type="OVERLAP" />
+<TLINK id="TL130" fromID="E54" fromText="His cast" toID="E132" toText="casted" type="BEGUN_BY" />
+<TLINK id="TL131" fromID="E54" fromText="His cast" toID="E134" toText="removed" type="ENDED_BY" />
+<TLINK id="TL132" fromID="E135" fromText="the Orthopedic Service" toID="E134" toText="removed" type="OVERLAP" />
+<TLINK id="TL133" fromID="E55" fromText="this edema" toID="E134" toText="removed" type="BEFORE_OVERLAP" />
+<TLINK id="TL134" fromID="E136" fromText="compartment syndrome" toID="E54" toText="His cast" type="OVERLAP" />
+<TLINK id="TL135" fromID="E56" fromText="The cast" toID="E54" toText="His cast" type="SIMULTANEOUS" />
+<TLINK id="TL136" fromID="E137" fromText="a plaster splint" toID="E56" toText="The cast" type="AFTER" />
+<TLINK id="TL137" fromID="E138" fromText="follow-up" toID="E139" toText="his orthopedic surgeon" type="OVERLAP" />
+<TLINK id="TL138" fromID="E139" fromText="his orthopedic surgeon" toID="E67" toText="the Worcester State Hospital" type="OVERLAP" />
+<TLINK id="TL139" fromID="E139" fromText="his orthopedic surgeon" toID="E140" toText="reassessment" type="OVERLAP" />
+<TLINK id="TL14" fromID="E2" fromText="95% stenosis of the carotid artery" toID="T3" toText="2014-02-13" type="OVERLAP" />
+<TLINK id="TL140" fromID="E57" fromText="his injury" toID="E140" toText="reassessment" type="BEFORE_OVERLAP" />
+<TLINK id="TL141" fromID="E142" fromText="the splint" toID="E141" toText="removal" type="ENDED_BY" />
+<TLINK id="TL142" fromID="E139" fromText="his orthopedic surgeon" toID="E141" toText="removal" type="OVERLAP" />
+<TLINK id="TL143" fromID="E143" fromText="sufficiently stable" toID="T9" toText="day number 23" type="BEFORE_OVERLAP" />
+<TLINK id="TL144" fromID="E144" fromText="His hypertension" toID="E145" toText="well controlled" type="BEFORE_OVERLAP" />
+<TLINK id="TL145" fromID="E146" fromText="tolerating" toID="E147" toText="tube feeds" type="OVERLAP" />
+<TLINK id="TL146" fromID="E146" fromText="tolerating" toID="T9" toText="day number 23" type="BEFORE_OVERLAP" />
+<TLINK id="TL147" fromID="E148" fromText="rehabilitation ." toID="E68" toText="discharged" type="AFTER" />
+<TLINK id="TL148" fromID="E68" fromText="discharged" toID="E70" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E5" fromText="hematoma formation" toID="E1" toText="a right carotid endarterectomy" type="AFTER" />
+<TLINK id="TL16" fromID="E6" fromText="The hematoma formation" toID="E5" toText="hematoma formation" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E7" fromText="an emergent surgical airway" toID="E77" toText="the Intensive Care Unit" type="DURING" />
+<TLINK id="TL18" fromID="E77" fromText="the Intensive Care Unit" toID="E72" toText="the St. Anne 's Hospital" type="DURING" />
+<TLINK id="TL19" fromID="E6" fromText="The hematoma formation" toID="E7" toText="an emergent surgical airway" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E34" fromText="intubation" toID="E35" toText="the operation" type="BEFORE" />
+<TLINK id="TL20" fromID="E8" fromText="This emergent cricothyroidotomy" toID="E9" toText="a formal tracheostomy" type="ENDED_BY" />
+<TLINK id="TL21" fromID="E78" fromText="hospital course" toID="E1" toText="a right carotid endarterectomy" type="AFTER" />
+<TLINK id="TL22" fromID="E10" fromText="an additional CHF exacerbation" toID="E78" toText="hospital course" type="DURING" />
+<TLINK id="TL23" fromID="E78" fromText="hospital course" toID="E59" toText="His hospital course" type="DURING" />
+<TLINK id="TL24" fromID="E79" fromText="medically managed" toID="E78" toText="hospital course" type="DURING" />
+<TLINK id="TL25" fromID="E11" fromText="his tracheostomy" toID="E80" toText="decannulated" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E82" fromText="Mass. Eye & Ear Infirmary" toID="E81" toText="admission" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E83" fromText="another acute decompensation" toID="E81" toText="admission" type="BEFORE" />
+<TLINK id="TL28" fromID="E83" fromText="another acute decompensation" toID="E84" toText="CHF exacerbation" type="OVERLAP" />
+<TLINK id="TL29" fromID="E85" fromText="emergent intubation" toID="E84" toText="CHF exacerbation" type="AFTER" />
+<TLINK id="TL3" fromID="E70" fromText="Discharge" toID="T2" toText="2014-04-04" type="OVERLAP" />
+<TLINK id="TL30" fromID="E12" fromText="myocardial infarction" toID="E86" toText="EKG changes" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E87" fromText="transferred" toID="E86" toText="EKG changes" type="AFTER" />
+<TLINK id="TL32" fromID="E88" fromText="the Mass. Eye & Ear Infirmary" toID="E87" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL33" fromID="E87" fromText="transferred" toID="E81" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E88" fromText="the Mass. Eye & Ear Infirmary" toID="E82" toText="Mass. Eye & Ear Infirmary" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E89" fromText="further management" toID="E88" toText="the Mass. Eye & Ear Infirmary" type="DURING" />
+<TLINK id="TL36" fromID="E60" fromText="admitted" toID="E81" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E90" fromText="the CCU at the Mass. Eye & Ear Infirmary" toID="E60" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL38" fromID="E69" fromText="admission" toID="E60" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E91" fromText="treated" toID="E69" toText="admission" type="AFTER" />
+<TLINK id="TL40" fromID="E13" fromText="his pneumonia" toID="E91" toText="treated" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E92" fromText="medically managed" toID="E90" toText="the CCU at the Mass. Eye & Ear Infirmary" type="DURING" />
+<TLINK id="TL42" fromID="E14" fromText="CHF" toID="E92" toText="medically managed" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E15" fromText="a cardiac catheterization" toID="T1" toText="2014-03-06" type="OVERLAP" />
+<TLINK id="TL45" fromID="E17" fromText="70% stenosis of the distal left main coronary artery" toID="E16" toText="His catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E18" fromText="90% stenosis of the LAD" toID="E16" toText="His catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E19" fromText="80% stenosis of the circumflex" toID="E16" toText="His catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL48" fromID="E20" fromText="90% stenosis of OM2" toID="E16" toText="His catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E21" fromText="a proximally occluded right coronary artery" toID="E16" toText="His catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E72" fromText="the St. Anne 's Hospital" toID="E71" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL50" fromID="E93" fromText="a consultation" toID="E22" toText="cardiac catheterization data" type="AFTER" />
+<TLINK id="TL51" fromID="E22" fromText="cardiac catheterization data" toID="E15" toText="a cardiac catheterization" type="AFTER" />
+<TLINK id="TL52" fromID="E93" fromText="a consultation" toID="E94" toText="Cardiothoracic Surgery" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E23" fromText="coronary artery bypass grafting" toID="E93" toText="a consultation" type="AFTER" />
+<TLINK id="TL54" fromID="T4" fromText="the ensuing days" toID="E15" toText="a cardiac catheterization" type="BEGUN_BY" />
+<TLINK id="TL55" fromID="E95" fromText="CHF" toID="E96" toText="managed" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E96" fromText="managed" toID="E97" toText="the CCU Team" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E24" fromText="treatment" toID="E96" toText="managed" type="OVERLAP" />
+<TLINK id="TL58" fromID="E25" fromText="a Klebsiella pneumonia" toID="E24" toText="treatment" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E98" fromText="treated" toID="E96" toText="managed" type="OVERLAP" />
+<TLINK id="TL6" fromID="E73" fromText="a transfer" toID="E71" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E26" fromText="Zosyn" toID="E98" toText="treated" type="OVERLAP" />
+<TLINK id="TL61" fromID="E61" fromText="the Operating Room" toID="T5" toText="2014-03-11" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E27" fromText="a coronary artery bypass graft of four vessels" toID="E61" toText="the Operating Room" type="DURING" />
+<TLINK id="TL63" fromID="E28" fromText="a saphenous vein graft to his LAD and diagonal" toID="E29" toText="saphenous vein graft to his PDA" type="OVERLAP" />
+<TLINK id="TL64" fromID="E27" fromText="a coronary artery bypass graft of four vessels" toID="E28" toText="a saphenous vein graft to his LAD and diagonal" type="OVERLAP" />
+<TLINK id="TL65" fromID="E29" fromText="saphenous vein graft to his PDA" toID="E30" toText="a saphenous vein graft to his OM" type="OVERLAP" />
+<TLINK id="TL66" fromID="E27" fromText="a coronary artery bypass graft of four vessels" toID="E31" toText="The procedure" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E31" fromText="The procedure" toID="E149" toText="Dr. Streeter" type="OVERLAP" />
+<TLINK id="TL68" fromID="E99" fromText="tolerated" toID="E32" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL69" fromID="E32" fromText="the procedure" toID="E31" toText="The procedure" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E74" fromText="the Kindred Park View Specialty Hospital" toID="E73" toText="a transfer" type="ENDED_BY" />
+<TLINK id="TL70" fromID="E100" fromText="complication" toID="E32" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL71" fromID="E62" fromText="transferred" toID="E32" toText="the procedure" type="AFTER" />
+<TLINK id="TL72" fromID="E101" fromText="the Cardiac Surgery Recovery Unit" toID="E62" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL73" fromID="E90" fromText="the CCU at the Mass. Eye & Ear Infirmary" toID="E62" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL74" fromID="E62" fromText="transferred" toID="E102" toText="complication" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E103" fromText="a long postoperative course" toID="E32" toText="the procedure" type="AFTER" />
+<TLINK id="TL76" fromID="E104" fromText="His postoperative course" toID="E103" toText="a long postoperative course" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E33" fromText="hypertension" toID="E104" toText="His postoperative course" type="DURING" />
+<TLINK id="TL78" fromID="E33" fromText="hypertension" toID="E63" toText="managed medically" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E105" fromText="his postoperative course" toID="E104" toText="His postoperative course" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E58" fromText="admission" toID="E71" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E106" fromText="any arrhythmias" toID="E105" toText="his postoperative course" type="DURING" />
+<TLINK id="TL81" fromID="E107" fromText="hypotension" toID="E105" toText="his postoperative course" type="DURING" />
+<TLINK id="TL82" fromID="E108" fromText="discharge" toID="E70" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E109" fromText="a stable antihypertensive regimen" toID="E108" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E110" fromText="a decreased ejection fraction" toID="E109" toText="a stable antihypertensive regimen" type="OVERLAP" />
+<TLINK id="TL85" fromID="E34" fromText="intubation" toID="E36" toText="a prolonged postoperative intubation" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E37" fromText="ventilatory support" toID="E111" toText="a very slow wean" type="ENDED_BY" />
+<TLINK id="TL87" fromID="E112" fromText="successfully extubated" toID="E111" toText="a very slow wean" type="AFTER" />
+<TLINK id="TL88" fromID="E112" fromText="successfully extubated" toID="T6" toText="day number nine" type="OVERLAP" />
+<TLINK id="TL89" fromID="E113" fromText="very tenuous from a pulmonary point" toID="E38" toText="frequent chest PT" type="OVERLAP" />
+<TLINK id="TL9" fromID="E75" fromText="a long and complicated hospital course" toID="E58" toText="admission" type="BEFORE" />
+<TLINK id="TL90" fromID="E114" fromText="very close monitoring" toID="E64" toText="the Intensive Care Unit" type="DURING" />
+<TLINK id="TL91" fromID="E101" fromText="the Cardiac Surgery Recovery Unit" toID="E64" toText="the Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL92" fromID="E39" fromText="chest PT" toID="E115" toText="the ICU staff" type="OVERLAP" />
+<TLINK id="TL93" fromID="E116" fromText="His pulmonary status" toID="E117" toText="tenuous" type="SIMULTANEOUS" />
+<TLINK id="TL94" fromID="E120" fromText="his hospitalization" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL95" fromID="E120" fromText="his hospitalization" toID="E70" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL96" fromID="E119" fromText="transfer" toID="E120" toText="his hospitalization" type="DURING" />
+<TLINK id="TL97" fromID="E118" fromText="the regular patient care floor" toID="E119" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL98" fromID="E41" fromText="a formal tracheostomy" toID="E40" toText="an emergent cricothyroidotomy" type="AFTER" />
+<TLINK id="TL99" fromID="E41" fromText="a formal tracheostomy" toID="E121" toText="the outside hospital" type="DURING" />
+<SECTIME id="S0" start="18" end="28" text="2014-03-05" type="ADMISSION" dvalue="2014-03-05" />
+<SECTIME id="S1" start="46" end="56" text="2014-04-04" type="DISCHARGE" dvalue="2014-04-04" />
+<TLINK id="SECTIME0" fromID="E81" fromText="admission" toID="T0" toText="2014-03-05" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E82" fromText="Mass. Eye & Ear Infirmary" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E83" fromText="another acute decompensation" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E84" fromText="CHF exacerbation" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E85" fromText="emergent intubation" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E86" fromText="EKG changes" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E12" fromText="myocardial infarction" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E87" fromText="transferred" toID="T0" toText="2014-03-05" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E88" fromText="the Mass. Eye & Ear Infirmary" toID="T0" toText="2014-03-05" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E89" fromText="further management" toID="T0" toText="2014-03-05" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E60" fromText="admitted" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E90" fromText="the CCU at the Mass. Eye & Ear Infirmary" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E69" fromText="admission" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E91" fromText="treated" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E13" fromText="his pneumonia" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E92" fromText="medically managed" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E14" fromText="CHF" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E15" fromText="a cardiac catheterization" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E16" fromText="His catheterization" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E17" fromText="70% stenosis of the distal left main coronary artery" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E18" fromText="90% stenosis of the LAD" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E19" fromText="80% stenosis of the circumflex" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E71" fromText="admitted" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E20" fromText="90% stenosis of OM2" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E21" fromText="a proximally occluded right coronary artery" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E22" fromText="cardiac catheterization data" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E93" fromText="a consultation" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E72" fromText="the St. Anne 's Hospital" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E94" fromText="Cardiothoracic Surgery" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E23" fromText="coronary artery bypass grafting" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E95" fromText="CHF" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME31" fromID="E96" fromText="managed" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E97" fromText="the CCU Team" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E24" fromText="treatment" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E25" fromText="a Klebsiella pneumonia" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E73" fromText="a transfer" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E98" fromText="treated" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E26" fromText="Zosyn" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E61" fromText="the Operating Room" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E27" fromText="a coronary artery bypass graft of four vessels" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E74" fromText="the Kindred Park View Specialty Hospital" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E28" fromText="a saphenous vein graft to his LAD and diagonal" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E29" fromText="saphenous vein graft to his PDA" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E30" fromText="a saphenous vein graft to his OM" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E31" fromText="The procedure" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E149" fromText="Dr. Streeter" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E99" fromText="tolerated" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E32" fromText="the procedure" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E100" fromText="complication" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E62" fromText="transferred" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E101" fromText="the Cardiac Surgery Recovery Unit" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E102" fromText="complication" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E103" fromText="a long postoperative course" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E104" fromText="His postoperative course" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E33" fromText="hypertension" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E63" fromText="managed medically" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E105" fromText="his postoperative course" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E58" fromText="admission" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E106" fromText="any arrhythmias" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E107" fromText="hypotension" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E108" fromText="discharge" toID="T2" toText="2014-04-04" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E109" fromText="a stable antihypertensive regimen" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME62" fromID="E110" fromText="a decreased ejection fraction" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME63" fromID="E75" fromText="a long and complicated hospital course" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E34" fromText="intubation" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E35" fromText="the operation" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E36" fromText="a prolonged postoperative intubation" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E111" fromText="a very slow wean" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E37" fromText="ventilatory support" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E112" fromText="successfully extubated" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E113" fromText="very tenuous from a pulmonary point" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E38" fromText="frequent chest PT" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E76" fromText="the outside hospital" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E64" fromText="the Intensive Care Unit" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E114" fromText="very close monitoring" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E39" fromText="chest PT" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E115" fromText="the ICU staff" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E116" fromText="His pulmonary status" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E117" fromText="tenuous" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E119" fromText="transfer" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E59" fromText="His hospital course" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E118" fromText="the regular patient care floor" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E120" fromText="his hospitalization" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E40" fromText="an emergent cricothyroidotomy" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E41" fromText="a formal tracheostomy" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E121" fromText="the outside hospital" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E122" fromText="much scarring surrounding his larynx" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME87" fromID="E123" fromText="swallow without aspirating" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E42" fromText="a swallowing study" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E65" fromText="his Boston Regional Medical Centerr" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E124" fromText="hospital course" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E43" fromText="The study" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E125" fromText="swallow" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E44" fromText="aspiration" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E1" fromText="a right carotid endarterectomy" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E45" fromText="nasogastric tube" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E46" fromText="a formal percutaneous endoscopic gastrostomy tube" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E126" fromText="the Intensive Care Unit" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E47" fromText="This procedure" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E150" fromText="Dr. Kevin Taussig" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E151" fromText="Dr. Carla Solan" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E48" fromText="The procedure" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E2" fromText="95% stenosis of the carotid artery" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E49" fromText="endoscopic guidance" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E127" fromText="the Intensive Care Unit" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E128" fromText="complication" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E50" fromText="a distal radius fracture" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E129" fromText="arriving" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E130" fromText="the hospital" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E51" fromText="This injury" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E131" fromText="reduced" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E132" fromText="casted" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E66" fromText="the outside institution" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E52" fromText="much edema" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E133" fromText="course" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E53" fromText="coronary artery bypass grafting" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E54" fromText="His cast" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E134" fromText="removed" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E135" fromText="the Orthopedic Service" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E55" fromText="this edema" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E136" fromText="compartment syndrome" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E56" fromText="The cast" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E137" fromText="a plaster splint" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME123" fromID="E138" fromText="follow-up" toID="T2" toText="2014-04-04" type="AFTER" />
+<TLINK id="SECTIME124" fromID="E139" fromText="his orthopedic surgeon" toID="T2" toText="2014-04-04" type="AFTER" />
+<TLINK id="SECTIME125" fromID="E67" fromText="the Worcester State Hospital" toID="T2" toText="2014-04-04" type="AFTER" />
+<TLINK id="SECTIME126" fromID="E140" fromText="reassessment" toID="T2" toText="2014-04-04" type="AFTER" />
+<TLINK id="SECTIME127" fromID="E57" fromText="his injury" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E141" fromText="removal" toID="T2" toText="2014-04-04" type="AFTER" />
+<TLINK id="SECTIME129" fromID="E142" fromText="the splint" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME130" fromID="E143" fromText="sufficiently stable" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME131" fromID="E3" fromText="nonspecific T wave changes" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E144" fromText="His hypertension" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME133" fromID="E145" fromText="well controlled" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME134" fromID="E146" fromText="tolerating" toID="T2" toText="2014-04-04" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME135" fromID="E147" fromText="tube feeds" toID="T2" toText="2014-04-04" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E68" fromText="discharged" toID="T2" toText="2014-04-04" type="OVERLAP" />
+<TLINK id="SECTIME137" fromID="E148" fromText="rehabilitation ." toID="T2" toText="2014-04-04" type="AFTER" />
+<TLINK id="SECTIME138" fromID="E4" fromText="myocardial infarction" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E5" fromText="hematoma formation" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E6" fromText="The hematoma formation" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E7" fromText="an emergent surgical airway" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E77" fromText="the Intensive Care Unit" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E8" fromText="This emergent cricothyroidotomy" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E9" fromText="a formal tracheostomy" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME145" fromID="E78" fromText="hospital course" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E10" fromText="an additional CHF exacerbation" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E79" fromText="medically managed" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E11" fromText="his tracheostomy" toID="T0" toText="2014-03-05" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E80" fromText="decannulated" toID="T0" toText="2014-03-05" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

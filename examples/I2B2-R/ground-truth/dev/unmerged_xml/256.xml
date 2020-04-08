@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+4/14/94
+DISCHARGE DATE :
+4/20/94
+DISCHARGE DATE :
+4/20/94
+HISTORY OF PRESENT ILLNESS :
+Mr. Le is a seventy three year old male who presents to the Fairm of Ijordcompmac Hospital , following a self inflicted gunshot wound to the head .
+Mr. Le was found in bed with a 32 caliber revolver at his side .
+The patient was apparently alone at home , his neighbors heard a single shot , and the paramedics were called .
+Upon arrival , they found the patient in bed , with notes nearby , listing his funeral home preferences and information on his next of kin .
+The patient indicates that his neighbors were making excessive noise upstairs from his dwelling , and he found it unbearable .
+He therefore decided to take his life with a gun which he had found in the house .
+Apparently , the gun belonged to his father .
+On further questioning , the patient described that his father passed away approximately forty to fifty years prior to his admission , and the gun was found in a box in their home .
+The patient expressed concern that he had several utility bills that he was unable to pay .
+The patient &apos;s sister died eight years prior to the patient &apos;s admission of leukemia , and he otherwise has no next of kin with the exception of one brother in Washington , with whom his relationship is tenuous .
+On initial questioning , however , the patient denies any recent losses .
+On admission , the patient denies any suicidal or homicidal ideation .
+HOSPITAL COURSE :
+The patient was admitted to the Fairm of Ijordcompmac Hospital , on the Neurological Surgery Service of Lupevickette L. Ca , M.D.
+Prior to his admission , the patient &apos;s gunshot wound was sutured close in the emergency room .
+The patient was placed on suicide precautions , and was hydrated with an infusion of intravenous fluid .
+The patient was seen in consultation by the Psychiatry Service , who began a battery of testing , which continues at the time of discharge .
+The Consulting Psychiatrist recommended a minimum of 2 point restraints at all times , and recommended the patient be monitored by a sitter .
+Allowing the patient to ambulate was not recommended .
+From a medical standpoint , the patient did well .
+He was initially admitted to the Neurological Intensive Care Unit where he was closely monitored during the first two days of his hospitalization .
+The chief obstacle was bringing his blood pressure under control and this was ultimately achieved with a combination of Captopril and Nifedipine .
+After his blood pressure had stabilized , the patient was transferred to the Neurology Ward .
+Close monitoring demonstrated his blood pressure to be stable and within an acceptable rang on his dosage regimen .
+The Psychiatry Service followed up extensively with the patient , and his Psychiatric progress is detailed in the Psychiatry transfer note .
+By the 7th hospital day , the patient was medically stable .
+He had undergone full Psychiatric evaluation , and was prepared for transfer to a Psychiatric Hospital .
+Therefore , because of his need for intense psychiatric care , the patient is discharged to the Vo Black Doylestrictshore Ft. Clinics Medical Center on the 7th hospital day .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1021" end="1038" text="expressed concern" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="1085" end="1098" text="unable to pay" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1101" end="1132" text="The patient &apos;s sister died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1174" end="1183" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1187" end="1195" text="leukemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1327" end="1346" text="initial questioning" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1371" end="1377" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="1378" end="1395" text="any recent losses" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E27" start="1401" end="1410" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1425" end="1431" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="1432" end="1466" text="any suicidal or homicidal ideation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="149" end="157" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="1503" end="1511" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1515" end="1549" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="161" end="195" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1626" end="1639" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1642" end="1675" text="the patient &apos;s gunshot wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1680" end="1693" text="sutured close" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1697" end="1715" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="1744" end="1763" text="suicide precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1788" end="1820" text="an infusion of intravenous fluid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1839" end="1859" text="seen in consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1911" end="1918" text="testing" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1952" end="1961" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2017" end="2035" text="2 point restraints" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="208" end="250" text="a self inflicted gunshot wound to the head" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2082" end="2103" text="monitored by a sitter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2130" end="2138" text="ambulate" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E44" start="2205" end="2209" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="2229" end="2237" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="2241" end="2277" text="the Neurological Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="2291" end="2308" text="closely monitored" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="2338" end="2357" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2392" end="2410" text="his blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="2480" end="2489" text="Captopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="2494" end="2504" text="Nifedipine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="2513" end="2531" text="his blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="2536" end="2546" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="2565" end="2576" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2580" end="2598" text="the Neurology Ward" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="2601" end="2617" text="Close monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="2618" end="2630" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E58" start="2631" end="2649" text="his blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="264" end="276" text="found in bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="2656" end="2662" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="2696" end="2714" text="his dosage regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2717" end="2763" text="The Psychiatry Service followed up extensively" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2787" end="2811" text="his Psychiatric progress" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2900" end="2916" text="medically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="2936" end="2963" text="full Psychiatric evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2974" end="2995" text="prepared for transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2999" end="3021" text="a Psychiatric Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="3060" end="3084" text="intense psychiatric care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="3102" end="3112" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="3116" end="3172" text="the Vo Black Doylestrictshore Ft. Clinics Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="345" end="358" text="alone at home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="375" end="394" text="heard a single shot" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="401" end="427" text="the paramedics were called" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="450" end="474" text="found the patient in bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="51" end="60" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="583" end="592" text="indicates" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="598" end="639" text="his neighbors were making excessive noise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="711" end="735" text="decided to take his life" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="760" end="778" text="found in the house" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="830" end="849" text="further questioning" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="864" end="873" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="879" end="901" text="his father passed away" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="946" end="959" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="966" end="983" text="the gun was found" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1133" end="1144" text="eight years" type="DURATION" val="p8y" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="4/14/94" type="DATE" val="1994-04-14" mod="NA" />
+<TIMEX3 id="T5" start="2316" end="2334" text="the first two days" type="DATE" val="P2D" mod="NA" />
+<TIMEX3 id="T6" start="2861" end="2881" text="the 7th hospital day" type="DATE" val="1994-04-20" mod="NA" />
+<TIMEX3 id="T7" start="3176" end="3196" text="the 7th hospital day" type="DATE" val="1994-04-20" mod="NA" />
+<TIMEX3 id="T1" start="43" end="50" text="4/20/94" type="DATE" val="1994-04-20" mod="NA" />
+<TIMEX3 id="T2" start="68" end="75" text="4/20/94" type="DATE" val="1994-04-20" mod="NA" />
+<TIMEX3 id="T3" start="916" end="942" text="forty to fifty years prior" type="DURATION" val="p45y" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="4/14/94" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E3" fromText="presents" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="the paramedics were called" toID="E9" toText="heard a single shot" type="AFTER" />
+<TLINK id="TL11" fromID="E10" fromText="found the patient in bed" toID="E8" toText="the paramedics were called" type="AFTER" />
+<TLINK id="TL12" fromID="E10" fromText="found the patient in bed" toID="E6" toText="found in bed" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E3" fromText="presents" toID="E6" toText="found in bed" type="AFTER" />
+<TLINK id="TL15" fromID="E11" fromText="indicates" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL16" fromID="E12" fromText="his neighbors were making excessive noise" toID="E5" toText="a self inflicted gunshot wound to the head" type="BEFORE" />
+<TLINK id="TL17" fromID="E13" fromText="decided to take his life" toID="E5" toText="a self inflicted gunshot wound to the head" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E17" fromText="found in the house" toID="E13" toText="decided to take his life" type="BEFORE" />
+<TLINK id="TL19" fromID="E69" fromText="further questioning" toID="E11" toText="indicates" type="OVERLAP" />
+<TLINK id="TL2" fromID="E4" fromText="the Fairm of Ijordcompmac Hospital" toID="T0" toText="4/14/94" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E14" fromText="described" toID="E69" toText="further questioning" type="OVERLAP" />
+<TLINK id="TL21" fromID="T3" fromText="forty to fifty years prior" toID="E16" toText="his admission" type="ENDED_BY" />
+<TLINK id="TL22" fromID="T3" fromText="forty to fifty years prior" toID="E15" toText="his father passed away" type="BEGUN_BY" />
+<TLINK id="TL23" fromID="E16" fromText="his admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E71" fromText="the gun was found" toID="E17" toText="found in the house" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E19" fromText="expressed concern" toID="E14" toText="described" type="OVERLAP" />
+<TLINK id="TL27" fromID="E20" fromText="unable to pay" toID="E19" toText="expressed concern" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="T4" fromText="eight years" toID="E22" toText="admission" type="ENDED_BY" />
+<TLINK id="TL29" fromID="T4" fromText="eight years" toID="E21" toText="The patient &apos;s sister died" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E1" fromText="DISCHARGE" toID="T1" toText="4/20/94" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E22" fromText="admission" toID="E16" toText="his admission" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E23" fromText="leukemia" toID="E21" toText="The patient &apos;s sister died" type="ENDED_BY" />
+<TLINK id="TL32" fromID="E26" fromText="any recent losses" toID="E24" toText="initial questioning" type="BEFORE" />
+<TLINK id="TL33" fromID="E24" fromText="initial questioning" toID="E3" toText="presents" type="OVERLAP" />
+<TLINK id="TL34" fromID="E25" fromText="denies" toID="E24" toText="initial questioning" type="OVERLAP" />
+<TLINK id="TL35" fromID="E27" fromText="admission" toID="E22" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E27" fromText="admission" toID="E28" toText="denies" type="OVERLAP" />
+<TLINK id="TL37" fromID="E29" fromText="any suicidal or homicidal ideation" toID="E27" toText="admission" type="OVERLAP" />
+<TLINK id="TL38" fromID="E30" fromText="admitted" toID="E27" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E31" fromText="the Fairm of Ijordcompmac Hospital" toID="E4" toText="the Fairm of Ijordcompmac Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E40" fromText="discharge" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E32" fromText="his admission" toID="E30" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E33" fromText="the patient &apos;s gunshot wound" toID="E5" toText="a self inflicted gunshot wound to the head" type="BEGUN_BY" />
+<TLINK id="TL42" fromID="E34" fromText="sutured close" toID="E35" toText="the emergency room" type="DURING" />
+<TLINK id="TL43" fromID="E35" fromText="the emergency room" toID="E32" toText="his admission" type="BEFORE" />
+<TLINK id="TL44" fromID="E36" fromText="suicide precautions" toID="E32" toText="his admission" type="AFTER" />
+<TLINK id="TL45" fromID="E37" fromText="an infusion of intravenous fluid" toID="E32" toText="his admission" type="AFTER" />
+<TLINK id="TL46" fromID="E38" fromText="seen in consultation" toID="E30" toText="admitted" type="AFTER" />
+<TLINK id="TL47" fromID="E39" fromText="testing" toID="E38" toText="seen in consultation" type="OVERLAP" />
+<TLINK id="TL48" fromID="E41" fromText="2 point restraints" toID="E42" toText="monitored by a sitter" type="OVERLAP" />
+<TLINK id="TL49" fromID="E41" fromText="2 point restraints" toID="E31" toText="the Fairm of Ijordcompmac Hospital" type="DURING" />
+<TLINK id="TL5" fromID="E2" fromText="DISCHARGE" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E43" fromText="ambulate" toID="E42" toText="monitored by a sitter" type="OVERLAP" />
+<TLINK id="TL51" fromID="E44" fromText="well" toID="E30" toText="admitted" type="AFTER" />
+<TLINK id="TL52" fromID="E45" fromText="admitted" toID="E30" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="E45" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL54" fromID="E47" fromText="closely monitored" toID="E46" toText="the Neurological Intensive Care Unit" type="DURING" />
+<TLINK id="TL55" fromID="E47" fromText="closely monitored" toID="T5" toText="the first two days" type="DURING" />
+<TLINK id="TL56" fromID="E48" fromText="his hospitalization" toID="E31" toText="the Fairm of Ijordcompmac Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E49" fromText="his blood pressure" toID="E46" toText="the Neurological Intensive Care Unit" type="DURING" />
+<TLINK id="TL58" fromID="E50" fromText="Captopril" toID="E49" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL59" fromID="E51" fromText="Nifedipine" toID="E50" toText="Captopril" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E2" fromText="DISCHARGE" toID="T2" toText="4/20/94" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E52" fromText="his blood pressure" toID="E49" toText="his blood pressure" type="" />
+<TLINK id="TL61" fromID="E53" fromText="stabilized" toID="E52" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL62" fromID="E54" fromText="transferred" toID="E53" toText="stabilized" type="AFTER" />
+<TLINK id="TL63" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="E54" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL64" fromID="E55" fromText="the Neurology Ward" toID="E54" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL65" fromID="E56" fromText="Close monitoring" toID="E55" toText="the Neurology Ward" type="DURING" />
+<TLINK id="TL66" fromID="E56" fromText="Close monitoring" toID="E57" toText="demonstrated" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E58" fromText="his blood pressure" toID="E56" toText="Close monitoring" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E58" fromText="his blood pressure" toID="E59" toText="stable" type="OVERLAP" />
+<TLINK id="TL69" fromID="E60" fromText="his dosage regimen" toID="E58" toText="his blood pressure" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="the Fairm of Ijordcompmac Hospital" toID="T2" toText="4/20/94" type="ENDED_BY" />
+<TLINK id="TL70" fromID="E61" fromText="The Psychiatry Service followed up extensively" toID="E38" toText="seen in consultation" type="OVERLAP" />
+<TLINK id="TL71" fromID="E72" fromText="his Psychiatric progress" toID="E30" toText="admitted" type="AFTER" />
+<TLINK id="TL72" fromID="E62" fromText="medically stable" toID="T6" toText="the 7th hospital day" type="BEFORE_OVERLAP" />
+<TLINK id="TL73" fromID="E63" fromText="full Psychiatric evaluation" toID="E39" toText="testing" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E64" fromText="prepared for transfer" toID="E67" toText="discharged" type="BEFORE" />
+<TLINK id="TL75" fromID="E66" fromText="intense psychiatric care" toID="E67" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL76" fromID="E65" fromText="a Psychiatric Hospital" toID="E68" toText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E67" fromText="discharged" toID="E2" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E68" fromText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" toID="E67" toText="discharged" type="BEGUN_BY" />
+<TLINK id="TL79" fromID="E67" fromText="discharged" toID="T7" toText="the 7th hospital day" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E7" fromText="alone at home" toID="E9" toText="heard a single shot" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E9" fromText="heard a single shot" toID="E5" toText="a self inflicted gunshot wound to the head" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="25" text="4/14/94" type="ADMISSION" dvalue="1994-4-14" />
+<SECTIME id="S1" start="43" end="50" text="4/20/94" type="DISCHARGE" dvalue="1994-4-20" />
+<TLINK id="SECTIME0" fromID="E19" fromText="expressed concern" toID="T0" toText="4/14/94" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E20" fromText="unable to pay" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E21" fromText="The patient &apos;s sister died" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E22" fromText="admission" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E23" fromText="leukemia" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E24" fromText="initial questioning" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E25" fromText="denies" toID="T0" toText="4/14/94" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E26" fromText="any recent losses" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E27" fromText="admission" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E28" fromText="denies" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME10" fromID="E29" fromText="any suicidal or homicidal ideation" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME11" fromID="E3" fromText="presents" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E30" fromText="admitted" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E31" fromText="the Fairm of Ijordcompmac Hospital" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E32" fromText="his admission" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E33" fromText="the patient &apos;s gunshot wound" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E34" fromText="sutured close" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E35" fromText="the emergency room" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E36" fromText="suicide precautions" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E37" fromText="an infusion of intravenous fluid" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E38" fromText="seen in consultation" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E39" fromText="testing" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E40" fromText="discharge" toID="T1" toText="4/20/94" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E41" fromText="2 point restraints" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E5" fromText="a self inflicted gunshot wound to the head" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E42" fromText="monitored by a sitter" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E43" fromText="ambulate" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E44" fromText="well" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E45" fromText="admitted" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E46" fromText="the Neurological Intensive Care Unit" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E47" fromText="closely monitored" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E48" fromText="his hospitalization" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E49" fromText="his blood pressure" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E50" fromText="Captopril" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E51" fromText="Nifedipine" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E52" fromText="his blood pressure" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E53" fromText="stabilized" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E54" fromText="transferred" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E55" fromText="the Neurology Ward" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E56" fromText="Close monitoring" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E57" fromText="demonstrated" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E58" fromText="his blood pressure" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E6" fromText="found in bed" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E59" fromText="stable" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E60" fromText="his dosage regimen" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E61" fromText="The Psychiatry Service followed up extensively" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E72" fromText="his Psychiatric progress" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E62" fromText="medically stable" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E63" fromText="full Psychiatric evaluation" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E64" fromText="prepared for transfer" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E65" fromText="a Psychiatric Hospital" toID="T1" toText="4/20/94" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E66" fromText="intense psychiatric care" toID="T1" toText="4/20/94" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E67" fromText="discharged" toID="T1" toText="4/20/94" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E68" fromText="the Vo Black Doylestrictshore Ft. Clinics Medical Center" toID="T1" toText="4/20/94" type="AFTER" />
+<TLINK id="SECTIME54" fromID="E7" fromText="alone at home" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E9" fromText="heard a single shot" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E8" fromText="the paramedics were called" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E10" fromText="found the patient in bed" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E11" fromText="indicates" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E12" fromText="his neighbors were making excessive noise" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E13" fromText="decided to take his life" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E17" fromText="found in the house" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E69" fromText="further questioning" toID="T0" toText="4/14/94" type="AFTER" />
+<TLINK id="SECTIME63" fromID="E14" fromText="described" toID="T0" toText="4/14/94" type="AFTER" />
+<TLINK id="SECTIME64" fromID="E15" fromText="his father passed away" toID="T0" toText="4/14/94" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E16" fromText="his admission" toID="T0" toText="4/14/94" type="OVERLAP" />
+<TLINK id="SECTIME66" fromID="E71" fromText="the gun was found" toID="T0" toText="4/14/94" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

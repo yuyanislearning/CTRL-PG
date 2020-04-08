@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/22/2005
+Discharge Date :
+01/24/2005
+Service :
+GGI
+OPERATIONS AND PROCEDURES :
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+MRI HIDA CT
+BRIEF RESUME OF HOSPITAL COURSE :
+The pt is a 55yo F s / p Roux en Y GBP in 12/20 presenting to the ED this AM c / o mod severe midepigastric pain .
+She notes that she has had this pain since Thursday , and that it becomes much worse within 15 min of consuming a meal .
+She has also had intermittent post-prandial nausea / satiety for which she had been scheduled for an outpt EGD with GI on 2/8 .
+She describes the pain as band-like / radiating to both sides but not the back .
+Her pain currently is 5/10 .
+ROS ( - ) emesis / BRBPR/melena / fever/chills / sob .
+Pt was seen by GI on 13 EGD was performed HD2 which was negative for gastritis , stricture or ulcer .
+Pt was found to be H. Pylori positive and therefore was started on empiric treatment .
+Afferent limb of the roux en y anastamosis was visualized however the efferent limb could not be explored .
+Pt had HIDA scan which was negative for obstruction , and CT was unremarkable .
+Pt was tolerating regular diet by HD4 , and GI felt that further workup could be continued as an outpatient .
+Pt was therefore discharged home in stable condition , voiding , ambulating and eating without difficulty .
+Plans to follow up with outpatient MRA to rule out ischemic causes of post prandial pain , as well as HIDA with CK challenge to evaluate for biliary dyskinesia without stasis .
+Pt will finish course of H. pylori treatment as well .
+ADDITIONAL COMMENTS :
+If fevers , chills , nausea , vomiting , diarrhea , increasing pain with food please call Dr. Gaetzfreierm &apos;s office or PCP .
+If severe , then proceed to ER for evaluation .
+Will need to call for outpatient MRA and HIDA with CCK challenge to evaluate biliary system and mesenteric vasculature .
+Please continue taking the antibiotics for H. Pylori for full course ( 26 more days ) .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="145" end="148" text="MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="149" end="153" text="HIDA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="154" end="156" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="216" end="229" text="Roux en Y GBP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="274" end="303" text="mod severe midepigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="333" end="342" text="this pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="444" end="487" text="intermittent post-prandial nausea / satiety" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="525" end="537" text="an outpt EGD" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E9" start="569" end="577" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="636" end="644" text="Her pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="675" end="681" text="emesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="684" end="696" text="BRBPR/melena" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="699" end="711" text="fever/chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="714" end="717" text="sob" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="744" end="747" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="789" end="798" text="gastritis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="801" end="810" text="stricture" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="814" end="819" text="ulcer" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="841" end="859" text="H. Pylori positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="889" end="906" text="empiric treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="926" end="951" text="the roux en y anastamosis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1024" end="1033" text="HIDA scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1057" end="1068" text="obstruction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="1075" end="1077" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1154" end="1168" text="further workup" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1339" end="1353" text="outpatient MRA" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1385" end="1403" text="post prandial pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1417" end="1439" text="HIDA with CK challenge" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1456" end="1474" text="biliary dyskinesia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1517" end="1536" text="H. pylori treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1572" end="1578" text="fevers" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1581" end="1587" text="chills" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1590" end="1596" text="nausea" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1599" end="1607" text="vomiting" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1610" end="1618" text="diarrhea" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1621" end="1646" text="increasing pain with food" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1735" end="1745" text="evaluation" modality="CONDITIONAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1781" end="1784" text="MRA" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1789" end="1812" text="HIDA with CCK challenge" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1892" end="1907" text="the antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1912" end="1921" text="H. Pylori" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="239" end="249" text="presenting" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E44" start="253" end="259" text="the ED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="310" end="315" text="notes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="372" end="390" text="becomes much worse" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="408" end="424" text="consuming a meal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="593" end="616" text="radiating to both sides" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="727" end="737" text="seen by GI" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="956" end="966" text="visualized" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1006" end="1014" text="explored" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E52" start="1104" end="1127" text="tolerating regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1224" end="1234" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1243" end="1259" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1262" end="1269" text="voiding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1272" end="1282" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1287" end="1293" text="eating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1302" end="1312" text="difficulty" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1366" end="1381" text="ischemic causes" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1483" end="1489" text="stasis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="1654" end="1658" text="call" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1717" end="1730" text="proceed to ER" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1816" end="1839" text="evaluate biliary system" modality="PROPOSED" polarity="POS" type="TEST" />
+<TIMEX3 id="T0" start="18" end="28" text="01/22/2005" type="DATE" val="2005-01-22" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="01/24/2005" type="DATE" val="2005-01-24" mod="NA" />
+<TIMEX3 id="T2" start="233" end="238" text="12/20" type="DATE" val="2004-12-20" mod="NA" />
+<TIMEX3 id="T3" start="260" end="267" text="this AM" type="DATE" val="2004-01-22" mod="START" />
+<TIMEX3 id="T4" start="349" end="357" text="Thursday" type="DATE" val="2005-01-20" mod="NA" />
+<TIMEX3 id="T5" start="398" end="404" text="15 min" type="DURATION" val="PT15M" mod="NA" />
+<TIMEX3 id="T6" start="549" end="552" text="2/8" type="DATE" val="2005-02-08" mod="NA" />
+<TIMEX3 id="T7" start="762" end="765" text="HD2" type="DATE" val="2005-01-23" mod="NA" />
+<TIMEX3 id="T8" start="1131" end="1134" text="HD4" type="DATE" val="2005-01-24" mod="NA" />
+<TIMEX3 id="T9" start="1940" end="1952" text="26 more days" type="DURATION" val="P26D" mod="NA" />
+<TLINK id="TL0" fromID="E2" fromText="CT" toID="E24" toText="CT" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E19" fromText="H. Pylori positive" toID="E41" toText="H. Pylori" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E1" fromText="HIDA" toID="E22" toText="HIDA scan" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E3" fromText="Roux en Y GBP" toID="E21" toText="the roux en y anastamosis" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E28" fromText="HIDA with CK challenge" toID="E39" toText="HIDA with CCK challenge" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E4" fromText="mod severe midepigastric pain" toID="E5" toText="this pain" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E26" fromText="outpatient MRA" toID="E38" toText="MRA" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E9" fromText="the pain" toID="E10" toText="Her pain" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E8" fromText="Admission" toID="T0" toText="01/22/2005" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E42" fromText="Discharge" toID="T1" toText="01/24/2005" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E0" fromText="MRI" toID="E8" toText="Admission" type="AFTER" />
+<TLINK id="TL12" fromID="E3" fromText="Roux en Y GBP" toID="T2" toText="12/20" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E44" fromText="the ED" toID="E43" toText="presenting" type="BEGUN_BY" />
+<TLINK id="TL15" fromID="E43" fromText="presenting" toID="T3" toText="this AM" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E4" fromText="mod severe midepigastric pain" toID="E43" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E45" fromText="notes" toID="E43" toText="presenting" type="OVERLAP" />
+<TLINK id="TL18" fromID="E5" fromText="this pain" toID="E4" toText="mod severe midepigastric pain" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E5" fromText="this pain" toID="T4" toText="Thursday" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E46" fromText="becomes much worse" toID="T5" toText="15 min" type="OVERLAP" />
+<TLINK id="TL21" fromID="E47" fromText="consuming a meal" toID="E4" toText="mod severe midepigastric pain" type="OVERLAP" />
+<TLINK id="TL22" fromID="T5" fromText="15 min" toID="E47" toText="consuming a meal" type="BEGUN_BY" />
+<TLINK id="TL23" fromID="E6" fromText="intermittent post-prandial nausea / satiety" toID="E43" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E7" fromText="an outpt EGD" toID="T6" toText="2/8" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E9" fromText="the pain" toID="E5" toText="this pain" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E48" fromText="radiating to both sides" toID="E9" toText="the pain" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E10" fromText="Her pain" toID="E43" toText="presenting" type="OVERLAP" />
+<TLINK id="TL28" fromID="E11" fromText="emesis" toID="E43" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E12" fromText="BRBPR/melena" toID="E43" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E13" fromText="fever/chills" toID="E43" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E14" fromText="sob" toID="E43" toText="presenting" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E49" fromText="seen by GI" toID="E15" toText="EGD" type="OVERLAP" />
+<TLINK id="TL33" fromID="E15" fromText="EGD" toID="T7" toText="HD2" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E16" fromText="gastritis" toID="E15" toText="EGD" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E17" fromText="stricture" toID="E15" toText="EGD" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E18" fromText="ulcer" toID="E15" toText="EGD" type="BEFORE_OVERLAP" />
+<TLINK id="TL37" fromID="E19" fromText="H. Pylori positive" toID="E15" toText="EGD" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E20" fromText="empiric treatment" toID="E15" toText="EGD" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E21" fromText="the roux en y anastamosis" toID="E3" toText="Roux en Y GBP" type="BEGUN_BY" />
+<TLINK id="TL40" fromID="E50" fromText="visualized" toID="E15" toText="EGD" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E51" fromText="explored" toID="E15" toText="EGD" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E22" fromText="HIDA scan" toID="E8" toText="Admission" type="AFTER" />
+<TLINK id="TL44" fromID="E23" fromText="obstruction" toID="E22" toText="HIDA scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E24" fromText="CT" toID="E8" toText="Admission" type="AFTER" />
+<TLINK id="TL46" fromID="E52" fromText="tolerating regular diet" toID="T8" toText="HD4" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E25" fromText="further workup" toID="E42" toText="Discharge" type="AFTER" />
+<TLINK id="TL48" fromID="E53" fromText="discharged" toID="E42" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E54" fromText="stable condition" toID="E53" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E55" fromText="voiding" toID="E53" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="E56" fromText="ambulating" toID="E53" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E57" fromText="eating" toID="E53" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E58" fromText="difficulty" toID="E54" toText="stable condition" type="OVERLAP" />
+<TLINK id="TL54" fromID="E26" fromText="outpatient MRA" toID="E53" toText="discharged" type="AFTER" />
+<TLINK id="TL55" fromID="E59" fromText="ischemic causes" toID="E27" toText="post prandial pain" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E27" fromText="post prandial pain" toID="E26" toText="outpatient MRA" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E27" fromText="post prandial pain" toID="E6" toText="intermittent post-prandial nausea / satiety" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E28" fromText="HIDA with CK challenge" toID="E53" toText="discharged" type="AFTER" />
+<TLINK id="TL59" fromID="E29" fromText="biliary dyskinesia" toID="E28" toText="HIDA with CK challenge" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E60" fromText="stasis" toID="E29" toText="biliary dyskinesia" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E30" fromText="H. pylori treatment" toID="E20" toText="empiric treatment" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E31" fromText="fevers" toID="E53" toText="discharged" type="AFTER" />
+<TLINK id="TL63" fromID="E32" fromText="chills" toID="E31" toText="fevers" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E33" fromText="nausea" toID="E32" toText="chills" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E34" fromText="vomiting" toID="E33" toText="nausea" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E35" fromText="diarrhea" toID="E34" toText="vomiting" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E36" fromText="increasing pain with food" toID="E35" toText="diarrhea" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E61" fromText="call" toID="E36" toText="increasing pain with food" type="AFTER" />
+<TLINK id="TL69" fromID="E62" fromText="proceed to ER" toID="E36" toText="increasing pain with food" type="AFTER" />
+<TLINK id="TL70" fromID="E37" fromText="evaluation" toID="E62" toText="proceed to ER" type="AFTER" />
+<TLINK id="TL71" fromID="E38" fromText="MRA" toID="E26" toText="outpatient MRA" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E39" fromText="HIDA with CCK challenge" toID="E28" toText="HIDA with CK challenge" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E63" fromText="evaluate biliary system" toID="E39" toText="HIDA with CCK challenge" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E40" fromText="the antibiotics" toID="E30" toText="H. pylori treatment" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E41" fromText="H. Pylori" toID="E19" toText="H. Pylori positive" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="T9" fromText="26 more days" toID="T1" toText="01/24/2005" type="BEGUN_BY" />
+<TLINK id="TL77" fromID="E40" fromText="the antibiotics" toID="T9" toText="26 more days" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="01/22/2005" type="ADMISSION" dvalue="2005-01-22" />
+<SECTIME id="S1" start="46" end="56" text="01/24/2005" type="DISCHARGE" dvalue="2005-01-24" />
+<TLINK id="SECTIME0" fromID="E0" fromText="MRI" toID="T0" toText="01/22/2005" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E1" fromText="HIDA" toID="T0" toText="01/22/2005" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E2" fromText="CT" toID="T0" toText="01/22/2005" type="AFTER" />
+<TLINK id="SECTIME3" fromID="E3" fromText="Roux en Y GBP" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E4" fromText="mod severe midepigastric pain" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E5" fromText="this pain" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E6" fromText="intermittent post-prandial nausea / satiety" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME7" fromID="E7" fromText="an outpt EGD" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E9" fromText="the pain" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E10" fromText="Her pain" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E11" fromText="emesis" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E12" fromText="BRBPR/melena" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E13" fromText="fever/chills" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E14" fromText="sob" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E15" fromText="EGD" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E16" fromText="gastritis" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E17" fromText="stricture" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E18" fromText="ulcer" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E19" fromText="H. Pylori positive" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME19" fromID="E20" fromText="empiric treatment" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E21" fromText="the roux en y anastamosis" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E22" fromText="HIDA scan" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E23" fromText="obstruction" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E24" fromText="CT" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E25" fromText="further workup" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E26" fromText="outpatient MRA" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E27" fromText="post prandial pain" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E28" fromText="HIDA with CK challenge" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E29" fromText="biliary dyskinesia" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME29" fromID="E30" fromText="H. pylori treatment" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E31" fromText="fevers" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME31" fromID="E32" fromText="chills" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME32" fromID="E33" fromText="nausea" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E34" fromText="vomiting" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME34" fromID="E35" fromText="diarrhea" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME35" fromID="E36" fromText="increasing pain with food" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E37" fromText="evaluation" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME37" fromID="E38" fromText="MRA" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME38" fromID="E39" fromText="HIDA with CCK challenge" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME39" fromID="E40" fromText="the antibiotics" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME40" fromID="E41" fromText="H. Pylori" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME41" fromID="E43" fromText="presenting" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E44" fromText="the ED" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E45" fromText="notes" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E46" fromText="becomes much worse" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E47" fromText="consuming a meal" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E48" fromText="radiating to both sides" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E49" fromText="seen by GI" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E50" fromText="visualized" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E51" fromText="explored" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E52" fromText="tolerating regular diet" toID="T1" toText="01/24/2005" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E53" fromText="discharged" toID="T1" toText="01/24/2005" type="OVERLAP" />
+<TLINK id="SECTIME52" fromID="E54" fromText="stable condition" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME53" fromID="E55" fromText="voiding" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME54" fromID="E56" fromText="ambulating" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME55" fromID="E57" fromText="eating" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME56" fromID="E58" fromText="difficulty" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME57" fromID="E59" fromText="ischemic causes" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME58" fromID="E60" fromText="stasis" toID="T1" toText="01/24/2005" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME59" fromID="E61" fromText="call" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME60" fromID="E62" fromText="proceed to ER" toID="T1" toText="01/24/2005" type="AFTER" />
+<TLINK id="SECTIME61" fromID="E63" fromText="evaluate biliary system" toID="T1" toText="01/24/2005" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

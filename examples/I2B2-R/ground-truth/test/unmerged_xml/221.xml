@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+09/21/92
+DISCHARGE DATE :
+09/24/92
+DISCHARGE DATE :
+09/24/92
+HISTORY OF PRESENT ILLNESS :
+The patient is a seventy-one year old white female with stenotic area on her mid sigmoid , noticed on barium enema .
+The ultrasound showed ascites and question of pelvic mass .
+The patient was explored by General surgery , who saw the 3C ovarian carcinoma .
+The patient also had an omentectomy and ileostomy .
+The patient was admitted for one cycle of Cytoxan and Cisplatin , and subsequently underwent debulking in June 1992 , as well as a total abdominal hysterectomy/ bilateral salpingo-oophorectomy , omentectomy , splenectomy , rectosigmoid resection with a take down of the ileostomy .
+Also ileal cecal resection , MDR showed that Cisplatin and VP 16 were more effective .
+The patient now presents for line 1 , cycle 4 to 15 of VP 16 and Cisplatin chemotherapy .
+HOSPITAL COURSE :
+The patient was admitted to the hospital and received two units of packed red blood cells for her hematocrit of 26 , and had a magnesium repleted .
+The patient received three days of chemotherapy , consisting of 45 mg. of Cisplatin 160 mg. of VP 16 , and tolerated chemotherapy resonably well .
+Serial PTs were obtained , and the patient was noted to have an initial PT of 10.9 on admission , despite Coumadin at home .
+She was given 10 mg. on hospital day # 1 , and 5 mg. on hospital day 2 , and back to 2.5 qhs .
+The patient &apos;s pro time bumped to 19.5 on hospital day # 3 , and the patient was instructed to continue with 2 1/2 mg. qhs and is to followup with Anticoagulation Clinic in one week for further pro time checks and adjustments .
+The patient did develop some hypertension during infusion of her VP 16 to the 170/100 range , which apparently happened during her prior chemotherapy .
+The patient was instructed to followup with her internist regarding further evaluation of her hypertension , and should be assessed regarding further management , as an inpatient , or while receiving chemotherapy .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1020" end="1031" text="a magnesium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1078" end="1090" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1117" end="1126" text="Cisplatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1138" end="1143" text="VP 16" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1150" end="1159" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1160" end="1172" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1190" end="1200" text="Serial PTs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1251" end="1264" text="an initial PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1276" end="1285" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1296" end="1304" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1410" end="1438" text="The patient &apos;s pro time" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1562" end="1584" text="Anticoagulation Clinic" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1601" end="1624" text="further pro time checks" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1629" end="1640" text="adjustments" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="164" end="196" text="stenotic area on her mid sigmoid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1667" end="1684" text="some hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1692" end="1713" text="infusion of her VP 16" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1770" end="1792" text="her prior chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1825" end="1833" text="followup" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1863" end="1881" text="further evaluation" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1885" end="1901" text="her hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1937" end="1955" text="further management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1995" end="2007" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="210" end="222" text="barium enema" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="225" end="239" text="The ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="240" end="246" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="247" end="254" text="ascites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="271" end="282" text="pelvic mass" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="301" end="309" text="explored" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="339" end="363" text="the 3C ovarian carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="387" end="401" text="an omentectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="406" end="415" text="ileostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="434" end="442" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="460" end="467" text="Cytoxan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="472" end="481" text="Cisplatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="511" end="520" text="debulking" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="53" end="62" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="547" end="578" text="a total abdominal hysterectomy/" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="579" end="610" text="bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="613" end="624" text="omentectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="627" end="638" text="splenectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="641" end="663" text="rectosigmoid resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="669" end="697" text="a take down of the ileostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="705" end="726" text="ileal cecal resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="729" end="732" text="MDR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="733" end="739" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="745" end="754" text="Cisplatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="759" end="764" text="VP 16" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="803" end="811" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="842" end="847" text="VP 16" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="852" end="874" text="Cisplatin chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="911" end="919" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="923" end="935" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="962" end="984" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="989" end="1003" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T4" start="1064" end="1074" text="three days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T5" start="1339" end="1355" text="hospital day # 1" type="DATE" val="1992-09-21" mod="NA" />
+<TIMEX3 id="T6" start="1371" end="1385" text="hospital day 2" type="DATE" val="1992-09-22" mod="NA" />
+<TIMEX3 id="T7" start="1404" end="1407" text="qhs" type="FREQUENCY" val="RPT24H" mod="END" />
+<TIMEX3 id="T8" start="1457" end="1473" text="hospital day # 3" type="DATE" val="1992-09-23" mod="NA" />
+<TIMEX3 id="T9" start="1534" end="1537" text="qhs" type="FREQUENCY" val="RPT24H" mod="END" />
+<TIMEX3 id="T10" start="1588" end="1596" text="one week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="09/21/92" type="DATE" val="1992-09-21" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="09/24/92" type="DATE" val="1992-09-24" mod="NA" />
+<TIMEX3 id="T3" start="524" end="533" text="June 1992" type="DATE" val="1992-06" mod="NA" />
+<TIMEX3 id="T2" start="70" end="78" text="09/24/92" type="DATE" val="1992-09-24" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="09/21/92" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="09/24/92" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E10" fromText="the 3C ovarian carcinoma" toID="E8" toText="pelvic mass" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E12" fromText="ileostomy" toID="E11" toText="an omentectomy" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E11" fromText="an omentectomy" toID="E9" toText="explored" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E13" fromText="admitted" toID="E9" toText="explored" type="AFTER" />
+<TLINK id="TL14" fromID="E15" fromText="Cisplatin" toID="E14" toText="Cytoxan" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E14" fromText="Cytoxan" toID="E13" toText="admitted" type="AFTER" />
+<TLINK id="TL16" fromID="E16" fromText="debulking" toID="E15" toText="Cisplatin" type="AFTER" />
+<TLINK id="TL17" fromID="E16" fromText="debulking" toID="T3" toText="June 1992" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E17" fromText="a total abdominal hysterectomy/" toID="E16" toText="debulking" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E18" fromText="bilateral salpingo-oophorectomy" toID="E17" toText="a total abdominal hysterectomy/" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E2" fromText="DISCHARGE" toID="T2" toText="09/24/92" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E19" fromText="omentectomy" toID="E18" toText="bilateral salpingo-oophorectomy" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E20" fromText="splenectomy" toID="E19" toText="omentectomy" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E21" fromText="rectosigmoid resection" toID="E20" toText="splenectomy" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E22" fromText="a take down of the ileostomy" toID="E21" toText="rectosigmoid resection" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E23" fromText="ileal cecal resection" toID="E24" toText="MDR" type="OVERLAP" />
+<TLINK id="TL25" fromID="E22" fromText="a take down of the ileostomy" toID="E23" toText="ileal cecal resection" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E25" fromText="showed" toID="E24" toText="MDR" type="OVERLAP" />
+<TLINK id="TL27" fromID="E27" fromText="VP 16" toID="E26" toText="Cisplatin" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E26" fromText="Cisplatin" toID="E25" toText="showed" type="AFTER" />
+<TLINK id="TL29" fromID="E28" fromText="presents" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="stenotic area on her mid sigmoid" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E30" fromText="Cisplatin chemotherapy" toID="E29" toText="VP 16" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E30" fromText="Cisplatin chemotherapy" toID="E36" toText="chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E31" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E32" fromText="the hospital" toID="E31" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL34" fromID="E32" fromText="the hospital" toID="E2" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL35" fromID="E2" fromText="DISCHARGE" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E34" fromText="her hematocrit" toID="E33" toText="packed red blood cells" type="BEFORE" />
+<TLINK id="TL37" fromID="E34" fromText="her hematocrit" toID="E31" toText="admitted" type="AFTER" />
+<TLINK id="TL38" fromID="E35" fromText="a magnesium" toID="E31" toText="admitted" type="AFTER" />
+<TLINK id="TL39" fromID="E36" fromText="chemotherapy" toID="T4" toText="three days" type="DURING" />
+<TLINK id="TL4" fromID="E3" fromText="stenotic area on her mid sigmoid" toID="E4" toText="barium enema" type="BEFORE_OVERLAP" />
+<TLINK id="TL40" fromID="T4" fromText="three days" toID="E31" toText="admitted" type="AFTER" />
+<TLINK id="TL41" fromID="E37" fromText="Cisplatin" toID="E36" toText="chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E38" fromText="VP 16" toID="E37" toText="Cisplatin" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E39" fromText="chemotherapy" toID="E36" toText="chemotherapy" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E40" fromText="tolerated" toID="E39" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL45" fromID="E41" fromText="Serial PTs" toID="E32" toText="the hospital" type="DURING" />
+<TLINK id="TL46" fromID="E42" fromText="an initial PT" toID="E43" toText="admission" type="OVERLAP" />
+<TLINK id="TL47" fromID="E43" fromText="admission" toID="E31" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E44" fromText="Coumadin" toID="E43" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E45" fromText="The patient &apos;s pro time" toID="T8" toText="hospital day # 3" type="OVERLAP" />
+<TLINK id="TL5" fromID="E6" fromText="showed" toID="E5" toText="The ultrasound" type="OVERLAP" />
+<TLINK id="TL50" fromID="T9" fromText="qhs" toID="T7" toText="qhs" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="T7" fromText="qhs" toID="T6" toText="hospital day 2" type="AFTER" />
+<TLINK id="TL52" fromID="T10" fromText="one week" toID="E2" toText="DISCHARGE" type="BEGUN_BY" />
+<TLINK id="TL53" fromID="E46" fromText="Anticoagulation Clinic" toID="T10" toText="one week" type="AFTER" />
+<TLINK id="TL54" fromID="E47" fromText="further pro time checks" toID="E48" toText="adjustments" type="OVERLAP" />
+<TLINK id="TL55" fromID="E47" fromText="further pro time checks" toID="T10" toText="one week" type="AFTER" />
+<TLINK id="TL56" fromID="E49" fromText="some hypertension" toID="E50" toText="infusion of her VP 16" type="DURING" />
+<TLINK id="TL57" fromID="E38" fromText="VP 16" toID="E50" toText="infusion of her VP 16" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E49" fromText="some hypertension" toID="E51" toText="her prior chemotherapy" type="DURING" />
+<TLINK id="TL59" fromID="E51" fromText="her prior chemotherapy" toID="E30" toText="Cisplatin chemotherapy" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="The ultrasound" toID="E4" toText="barium enema" type="OVERLAP" />
+<TLINK id="TL60" fromID="E52" fromText="followup" toID="E2" toText="DISCHARGE" type="AFTER" />
+<TLINK id="TL61" fromID="E53" fromText="further evaluation" toID="E52" toText="followup" type="OVERLAP" />
+<TLINK id="TL62" fromID="E54" fromText="her hypertension" toID="E49" toText="some hypertension" type="OVERLAP" />
+<TLINK id="TL63" fromID="E55" fromText="further management" toID="E53" toText="further evaluation" type="OVERLAP" />
+<TLINK id="TL64" fromID="E56" fromText="chemotherapy" toID="E36" toText="chemotherapy" type="AFTER" />
+<TLINK id="TL7" fromID="E7" fromText="ascites" toID="E5" toText="The ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="pelvic mass" toID="E5" toText="The ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E9" fromText="explored" toID="E5" toText="The ultrasound" type="AFTER" />
+<SECTIME id="S0" start="18" end="26" text="09/21/92" type="ADMISSION" dvalue="1992-09-21" />
+<SECTIME id="S1" start="44" end="52" text="09/24/92" type="DISCHARGE" dvalue="1992-09-24" />
+
+<TLINK id="SECTIME0" fromID="E35" fromText="a magnesium" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E36" fromText="chemotherapy" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E37" fromText="Cisplatin" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E38" fromText="VP 16" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E40" fromText="tolerated" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E39" fromText="chemotherapy" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E41" fromText="Serial PTs" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E42" fromText="an initial PT" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E43" fromText="admission" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E44" fromText="Coumadin" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E45" fromText="The patient &apos;s pro time" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E46" fromText="Anticoagulation Clinic" toID="T1" toText="09/24/92" type="AFTER" />
+<TLINK id="SECTIME12" fromID="E47" fromText="further pro time checks" toID="T1" toText="09/24/92" type="AFTER" />
+<TLINK id="SECTIME13" fromID="E48" fromText="adjustments" toID="T1" toText="09/24/92" type="AFTER" />
+<TLINK id="SECTIME14" fromID="E3" fromText="stenotic area on her mid sigmoid" toID="T0" toText="09/21/92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME15" fromID="E49" fromText="some hypertension" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E50" fromText="infusion of her VP 16" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E51" fromText="her prior chemotherapy" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E52" fromText="followup" toID="T1" toText="09/24/92" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E53" fromText="further evaluation" toID="T1" toText="09/24/92" type="AFTER" />
+<TLINK id="SECTIME20" fromID="E54" fromText="her hypertension" toID="T1" toText="09/24/92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME21" fromID="E55" fromText="further management" toID="T1" toText="09/24/92" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E56" fromText="chemotherapy" toID="T1" toText="09/24/92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME23" fromID="E4" fromText="barium enema" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E5" fromText="The ultrasound" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E6" fromText="showed" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E7" fromText="ascites" toID="T0" toText="09/21/92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E8" fromText="pelvic mass" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E9" fromText="explored" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E10" fromText="the 3C ovarian carcinoma" toID="T0" toText="09/21/92" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E11" fromText="an omentectomy" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E12" fromText="ileostomy" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E13" fromText="admitted" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E14" fromText="Cytoxan" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E15" fromText="Cisplatin" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E16" fromText="debulking" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E17" fromText="a total abdominal hysterectomy/" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E18" fromText="bilateral salpingo-oophorectomy" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E19" fromText="omentectomy" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E20" fromText="splenectomy" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E21" fromText="rectosigmoid resection" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E22" fromText="a take down of the ileostomy" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E23" fromText="ileal cecal resection" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E24" fromText="MDR" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E25" fromText="showed" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E26" fromText="Cisplatin" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E27" fromText="VP 16" toID="T0" toText="09/21/92" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E28" fromText="presents" toID="T0" toText="09/21/92" type="OVERLAP" />
+<TLINK id="SECTIME48" fromID="E29" fromText="VP 16" toID="T0" toText="09/21/92" type="AFTER" />
+<TLINK id="SECTIME49" fromID="E30" fromText="Cisplatin chemotherapy" toID="T0" toText="09/21/92" type="AFTER" />
+<TLINK id="SECTIME50" fromID="E31" fromText="admitted" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E32" fromText="the hospital" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E33" fromText="packed red blood cells" toID="T1" toText="09/24/92" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E34" fromText="her hematocrit" toID="T1" toText="09/24/92" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
