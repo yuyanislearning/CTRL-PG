@@ -56,7 +56,7 @@ class evaluation:
 					event1 = (self.events[id1] if "E" in id1 else self.timex3[id1]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 					event2 = (self.events[id2] if "E" in id2 else self.timex3[id2]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 
-					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" senid="{}" />'.format(str(i+1), id1, event1, id2, event2, label.upper(), sen_id) + '\n')
+					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" senid="{}" />'.format(str(i+1), id1, event1, id2, event2, label.upper(), sen_id[1]) + '\n')
 				writefile.write(line)
 		writefile.close()
 		

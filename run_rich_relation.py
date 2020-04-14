@@ -436,10 +436,10 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 #print(events)
                 if final_evaluate:
                     ce = closure_evaluate(doc_id, args.final_xml_folder)
-                    ce.eval(preds, events, sen_id)
+                    ce.eval(preds, events, sen_ids)
                 else:
                     ce = closure_evaluate(doc_id, args.xml_folder)
-                    ce.eval(preds, events, sen_id)
+                    ce.eval(preds, events, sen_ids)
             if final_evaluate:# temporal evaluation
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]))
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
