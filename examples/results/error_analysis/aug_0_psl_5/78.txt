@@ -1,0 +1,88 @@
+e1 id: E76; e2 id: E77; e1 text: hypertension; e2 text: Metoprolol
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E26; e2 id: E23; e1 text: preoperative evaluation; e2 text: an elected Bental procedure
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E26; e2 id: E132; e1 text: preoperative evaluation; e2 text: the cardiac surgery service
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E143; e2 id: T14; e1 text: the floor; e2 text: postoperative day number seven
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E144; e2 id: E122; e1 text: an extended stay; e2 text: the cardiac surgery recovery unit
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E60; e2 id: E158; e1 text: a right sided hemiplegia; e2 text: utilize more and more of his right side
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E171; e2 id: E79; e1 text: diuresed; e2 text: intubated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E71; e2 id: E70; e1 text: his blood pressure; e2 text: these drips
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E167; e2 id: T20; e1 text: good enough cardiac output; e2 text: postoperative day number three
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T6; e2 id: T3; e1 text: the end of October; e2 text: 2016-06-26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E142; e2 id: T12; e1 text: his extubation; e2 text: postoperative day number five
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E57; e2 id: E153; e1 text: an acute infarct; e2 text: seen
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: E58; e1 text: subsequent radiographic imaging; e2 text: the CAT scan
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E162; e2 id: E63; e1 text: A psychiatric consult; e2 text: Trazodone
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E155; e2 id: E154; e1 text: confused; e2 text: more awake
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E114; e2 id: E115; e1 text: a urine culture; e2 text: E. coli
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E74; e2 id: E73; e1 text: his sternal wound; e2 text: this procedure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E36; e2 id: E35; e1 text: a super coronary arch graft; e2 text: saphenous vein grafts
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E42; e2 id: E138; e1 text: intubated; e2 text: the unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E112; e2 id: E113; e1 text: The catheterization tip; e2 text: Serratia
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E109; e2 id: E201; e1 text: pan sensitive; e2 text: blood and urine cultures
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E110; e2 id: E108; e1 text: this bug; e2 text: Methicillin resistant Staphylococcus aureus
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E101; e2 id: E189; e1 text: his inability to eat; e2 text: well below his baseline
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E102; e2 id: E101; e1 text: his stroke; e2 text: his inability to eat
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E177; e2 id: E176; e1 text: gallstones; e2 text: reveal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E112; e2 id: T5; e1 text: The catheterization tip; e2 text: 01-08
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E203; e2 id: E119; e1 text: his aortic graft; e2 text: his blood borne infection
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E127; e2 id: E126; e1 text: relieved; e2 text: increased
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T27; e2 id: E197; e1 text: one day prior; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+

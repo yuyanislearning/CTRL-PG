@@ -252,5 +252,149 @@ The patient is also scheduled for an appointment with Dr. Patterson approximatel
 <TIMEX3 id="T9" start="768" end="777" text="two weeks" type="DURATION" val="P2W" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2014-07-24" type="ADMISSION" dvalue="2014-07-24" />
 <SECTIME id="S1" start="46" end="56" text="2014-08-09" type="DISCHARGE" dvalue="2014-08-09" />
+<TLINK id="TL1" fromID="E35" fromText="adenocarcinoma" toID="E103" toText="her admission" type="AFTER" senid="23" />
+<TLINK id="TL2" fromID="E78" fromText="this hospital" toID="E103" toText="her admission" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E112" fromText="the Surgical ICU" toID="E81" toText="transferred" type="BEFORE" senid="34" />
+<TLINK id="TL4" fromID="E55" fromText="low hematocrits" toID="E56" toText="a transfusion of packed red blood cells" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E18" fromText="a thickened gallbladder wall" toID="E73" toText="showed" type="BEFORE" senid="13" />
+<TLINK id="TL6" fromID="E19" fromText="a dilated common bile duct" toID="E73" toText="showed" type="BEFORE" senid="13" />
+<TLINK id="TL7" fromID="E85" fromText="showed" toID="E73" toText="showed" type="OVERLAP" senid="13" />
+<TLINK id="TL8" fromID="E75" fromText="the outside hospital" toID="E30" toText="an endoscopy" type="OVERLAP" senid="20" />
+<TLINK id="TL9" fromID="E75" fromText="the outside hospital" toID="E31" toText="colonoscopy" type="OVERLAP" senid="20" />
+<TLINK id="TL10" fromID="E32" fromText="The colonoscopy" toID="E31" toText="colonoscopy" type="OVERLAP" senid="20" />
+<TLINK id="TL11" fromID="E77" fromText="biopsied" toID="E75" toText="the outside hospital" type="BEFORE" senid="20" />
+<TLINK id="TL12" fromID="E61" fromText="clear liquids" toID="T17" toText="postoperative day number two" type="AFTER" senid="39" />
+<TLINK id="TL13" fromID="E119" fromText="a regular diet" toID="T17" toText="postoperative day number two" type="AFTER" senid="39" />
+<TLINK id="TL14" fromID="E120" fromText="her bowels began working when she began having flatus" toID="T17" toText="postoperative day number two" type="AFTER" senid="39" />
+<TLINK id="TL15" fromID="T24" fromText="four times a day" toID="E142" toText="Reglan" type="OVERLAP" senid="62" />
+<TLINK id="TL16" fromID="E29" fromText="a mass" toID="E101" toText="showed" type="BEFORE" senid="19" />
+<TLINK id="TL17" fromID="E100" fromText="the MRCP" toID="E101" toText="showed" type="OVERLAP" senid="19" />
+<TLINK id="TL18" fromID="E145" fromText="Follow-up" toID="E146" toText="the Visiting Nurses Association" type="OVERLAP" senid="65" />
+<TLINK id="TL19" fromID="E146" fromText="the Visiting Nurses Association" toID="E147" toText="assistance" type="OVERLAP" senid="65" />
+<TLINK id="TL20" fromID="E147" fromText="assistance" toID="E144" toText="her tube feeding" type="OVERLAP" senid="65" />
+<TLINK id="TL21" fromID="E147" fromText="assistance" toID="E148" toText="her activities of daily living" type="OVERLAP" senid="65" />
+<TLINK id="TL22" fromID="E25" fromText="a fistula" toID="E99" toText="the imaging" type="BEFORE" senid="18" />
+<TLINK id="TL23" fromID="E99" fromText="the imaging" toID="E27" toText="carcinoma" type="OVERLAP" senid="18" />
+<TLINK id="TL24" fromID="E99" fromText="the imaging" toID="E28" toText="adenomatosis" type="OVERLAP" senid="18" />
+<TLINK id="TL25" fromID="E26" fromText="adjacent inflammatory change" toID="E25" toText="a fistula" type="OVERLAP" senid="18" />
+<TLINK id="TL26" fromID="E100" fromText="the MRCP" toID="E97" toText="a MRCP" type="OVERLAP" senid="18" />
+<TLINK id="TL27" fromID="E117" fromText="unremarkable" toID="E116" toText="The patient &#39;s postoperative course" type="OVERLAP" senid="37" />
+<TLINK id="TL28" fromID="E60" fromText="the photophobia" toID="E116" toText="The patient &#39;s postoperative course" type="OVERLAP" senid="37" />
+<TLINK id="TL29" fromID="E83" fromText="discharged" toID="T7" toText="2014-08-09" type="OVERLAP" senid="46" />
+<TLINK id="TL30" fromID="E66" fromText="her first Belmont-Gardner drain" toID="E123" toText="pulled" type="BEFORE" senid="44" />
+<TLINK id="TL31" fromID="E123" fromText="pulled" toID="E124" toText="scant output" type="OVERLAP" senid="44" />
+<TLINK id="TL32" fromID="E67" fromText="her tube feeds" toID="E64" toText="her tube feeds" type="OVERLAP" senid="44" />
+<TLINK id="TL33" fromID="E17" fromText="air-fluid levels in the gallbladder" toID="E72" toText="showed" type="BEFORE" senid="12" />
+<TLINK id="TL34" fromID="E16" fromText="A CAT scan of the abdomen" toID="E72" toText="showed" type="OVERLAP" senid="12" />
+<TLINK id="TL35" fromID="E73" fromText="showed" toID="E72" toText="showed" type="OVERLAP" senid="12" />
+<TLINK id="TL36" fromID="E34" fromText="adenocarcinoma" toID="E33" toText="This biopsy" type="BEFORE" senid="22" />
+<TLINK id="TL37" fromID="E35" fromText="adenocarcinoma" toID="E34" toText="adenocarcinoma" type="OVERLAP" senid="22" />
+<TLINK id="TL38" fromID="E125" fromText="a full solid diet" toID="T7" toText="2014-08-09" type="AFTER" senid="45" />
+<TLINK id="TL39" fromID="E125" fromText="a full solid diet" toID="E126" toText="the two of those" type="OVERLAP" senid="45" />
+<TLINK id="TL40" fromID="E67" fromText="her tube feeds" toID="T7" toText="2014-08-09" type="OVERLAP" senid="45" />
+<TLINK id="TL41" fromID="E67" fromText="her tube feeds" toID="E126" toText="the two of those" type="OVERLAP" senid="45" />
+<TLINK id="TL42" fromID="E59" fromText="sensitivity to light" toID="E115" toText="complaining" type="OVERLAP" senid="36" />
+<TLINK id="TL43" fromID="E115" fromText="complaining" toID="T16" toText="postoperative day number two" type="OVERLAP" senid="36" />
+<TLINK id="TL44" fromID="E135" fromText="Blood loss" toID="E136" toText="transfusion" type="BEFORE" senid="56" />
+<TLINK id="TL45" fromID="E13" fromText="some workup" toID="E69" toText="the outside hospital" type="OVERLAP" senid="10" />
+<TLINK id="TL46" fromID="E13" fromText="some workup" toID="T0" toText="a couple weeks" type="OVERLAP" senid="10" />
+<TLINK id="TL47" fromID="E14" fromText="bilateral upper quadrant pain" toID="T0" toText="a couple weeks" type="OVERLAP" senid="10" />
+<TLINK id="TL48" fromID="E89" fromText="radiated to her back" toID="E14" toText="bilateral upper quadrant pain" type="OVERLAP" senid="10" />
+<TLINK id="TL49" fromID="E113" fromText="the floor" toID="E81" toText="transferred" type="AFTER" senid="35" />
+<TLINK id="TL50" fromID="E81" fromText="transferred" toID="T15" toText="postoperative day number two" type="OVERLAP" senid="35" />
+<TLINK id="TL51" fromID="E114" fromText="doing better" toID="E113" toText="the floor" type="BEFORE" senid="35" />
+<TLINK id="TL52" fromID="E114" fromText="doing better" toID="E57" toText="pain control" type="OVERLAP" senid="35" />
+<TLINK id="TL53" fromID="E57" fromText="pain control" toID="E58" toText="a Dilaudid PCA machine" type="OVERLAP" senid="35" />
+<TLINK id="TL54" fromID="E48" fromText="the surgery" toID="E47" toText="this surgery" type="OVERLAP" senid="29" />
+<TLINK id="TL55" fromID="E86" fromText="Discharge" toID="T2" toText="2014-08-09" type="OVERLAP" senid="3" />
+<TLINK id="TL56" fromID="E23" fromText="an enhanced thickened gallbladder wall" toID="E98" toText="revealed" type="BEFORE" senid="17" />
+<TLINK id="TL57" fromID="E95" fromText="The first imaging study" toID="E96" toText="Hahnemann General Hospital" type="OVERLAP" senid="17" />
+<TLINK id="TL58" fromID="E95" fromText="The first imaging study" toID="E97" toText="a MRCP" type="OVERLAP" senid="17" />
+<TLINK id="TL59" fromID="E97" fromText="a MRCP" toID="E98" toText="revealed" type="OVERLAP" senid="17" />
+<TLINK id="TL60" fromID="E23" fromText="an enhanced thickened gallbladder wall" toID="E24" toText="chronic cholecystitis" type="OVERLAP" senid="17" />
+<TLINK id="TL61" fromID="E24" fromText="chronic cholecystitis" toID="E23" toText="an enhanced thickened gallbladder wall" type="OVERLAP" senid="17" />
+<TLINK id="TL62" fromID="E99" fromText="the imaging" toID="E97" toText="a MRCP" type="OVERLAP" senid="17" />
+<TLINK id="TL63" fromID="E62" fromText="n.p.o." toID="T18" toText="postoperative day number six" type="BEFORE" senid="41" />
+<TLINK id="TL64" fromID="E68" fromText="tube feedings" toID="E83" toText="discharged" type="OVERLAP" senid="47" />
+<TLINK id="TL65" fromID="E83" fromText="discharged" toID="E84" toText="discharged" type="OVERLAP" senid="47" />
+<TLINK id="TL66" fromID="E21" fromText="A HIDA scan" toID="E74" toText="the other hospital" type="OVERLAP" senid="15" />
+<TLINK id="TL67" fromID="E94" fromText="filling of the gallbladder" toID="E21" toText="A HIDA scan" type="BEFORE" senid="15" />
+<TLINK id="TL68" fromID="E22" fromText="cystic duct obstruction" toID="E94" toText="filling of the gallbladder" type="OVERLAP" senid="15" />
+<TLINK id="TL69" fromID="E65" fromText="p.o. medicines" toID="T19" toText="postoperative day number seven" type="AFTER" senid="43" />
+<TLINK id="TL70" fromID="E123" fromText="pulled" toID="T19" toText="postoperative day number seven" type="AFTER" senid="43" />
+<TLINK id="TL71" fromID="E63" fromText="her clear liquid diet" toID="T19" toText="postoperative day number seven" type="OVERLAP" senid="43" />
+<TLINK id="TL72" fromID="E64" fromText="her tube feeds" toID="T19" toText="postoperative day number seven" type="OVERLAP" senid="43" />
+<TLINK id="TL73" fromID="E138" fromText="Pantoprazole" toID="T21" toText="once a day" type="OVERLAP" senid="59" />
+<TLINK id="TL74" fromID="E106" fromText="the Operating Room" toID="T13" toText="the morning of 2014-07-29" type="OVERLAP" senid="28" />
+<TLINK id="TL75" fromID="E40" fromText="a cholecystectomy" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL76" fromID="E41" fromText="partial hepatectomy" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL77" fromID="E42" fromText="partial lymph node dissection" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL78" fromID="E43" fromText="a colocolostomy" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL79" fromID="E44" fromText="partial colectomy" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL80" fromID="E45" fromText="a gastrostomy" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL81" fromID="E46" fromText="a feeding jejunostomy" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL82" fromID="E47" fromText="this surgery" toID="E106" toText="the Operating Room" type="OVERLAP" senid="28" />
+<TLINK id="TL83" fromID="E47" fromText="this surgery" toID="E40" toText="a cholecystectomy" type="OVERLAP" senid="28" />
+<TLINK id="TL84" fromID="E0" fromText="Admission" toID="T1" toText="2014-07-24" type="OVERLAP" senid="2" />
+<TLINK id="TL85" fromID="E131" fromText="anastomosis" toID="E130" toText="transverse colectomy" type="OVERLAP" senid="52" />
+<TLINK id="TL86" fromID="E2" fromText="iron-deficiency anemia" toID="E1" toText="hypothyroidism" type="OVERLAP" senid="8" />
+<TLINK id="TL87" fromID="T10" fromText="the next few days" toID="T3" toText="2014-07-29" type="OVERLAP" senid="25" />
+<TLINK id="TL88" fromID="E104" fromText="an operative date" toID="T3" toText="2014-07-29" type="OVERLAP" senid="25" />
+<TLINK id="TL89" fromID="E36" fromText="a low-residual diet" toID="T10" toText="the next few days" type="OVERLAP" senid="25" />
+<TLINK id="TL90" fromID="E119" fromText="a regular diet" toID="E120" toText="her bowels began working when she began having flatus" type="AFTER" senid="40" />
+<TLINK id="TL91" fromID="E150" fromText="an appointment" toID="T26" toText="two weeks" type="OVERLAP" senid="66" />
+<TLINK id="TL92" fromID="T26" fromText="two weeks" toID="E151" toText="her discharge from the hospital" type="AFTER" senid="66" />
+<TLINK id="TL93" fromID="E150" fromText="an appointment" toID="E149" toText="Dr. Patterson" type="OVERLAP" senid="66" />
+<TLINK id="TL94" fromID="E139" fromText="Ambien" toID="T22" toText="bed" type="BEFORE" senid="60" />
+<TLINK id="TL95" fromID="E51" fromText="The patient &#39;s pain" toID="E48" toText="the surgery" type="AFTER" senid="31" />
+<TLINK id="TL96" fromID="E102" fromText="two polyps" toID="E76" toText="showed" type="BEFORE" senid="21" />
+<TLINK id="TL97" fromID="E32" fromText="The colonoscopy" toID="E76" toText="showed" type="OVERLAP" senid="21" />
+<TLINK id="TL98" fromID="E77" fromText="biopsied" toID="E76" toText="showed" type="BEFORE" senid="21" />
+<TLINK id="TL99" fromID="E33" fromText="This biopsy" toID="E77" toText="biopsied" type="OVERLAP" senid="21" />
+<TLINK id="TL100" fromID="E107" fromText="a carcinoma of the gallbladder" toID="E79" toText="revealed" type="BEFORE" senid="30" />
+<TLINK id="TL101" fromID="E109" fromText="metastatic adenopathy around the portal nodes" toID="E79" toText="revealed" type="BEFORE" senid="30" />
+<TLINK id="TL102" fromID="E110" fromText="retroperitoneal nodes around the inferior vena cava and the hepatic artery" toID="E79" toText="revealed" type="BEFORE" senid="30" />
+<TLINK id="TL103" fromID="E48" fromText="the surgery" toID="T6" toText="2014-07-29" type="OVERLAP" senid="30" />
+<TLINK id="TL104" fromID="E79" fromText="revealed" toID="E48" toText="the surgery" type="OVERLAP" senid="30" />
+<TLINK id="TL105" fromID="E108" fromText="a cholecystocolonic fistula" toID="E107" toText="a carcinoma of the gallbladder" type="OVERLAP" senid="30" />
+<TLINK id="TL106" fromID="E111" fromText="feeding jejunostomy tube" toID="E48" toText="the surgery" type="OVERLAP" senid="30" />
+<TLINK id="TL107" fromID="E50" fromText="two Belmont-Gardner drains" toID="E48" toText="the surgery" type="AFTER" senid="30" />
+<TLINK id="TL108" fromID="E15" fromText="fatigue" toID="E70" toText="complaining" type="OVERLAP" senid="11" />
+<TLINK id="TL109" fromID="E92" fromText="melena" toID="E71" toText="denied" type="BEFORE" senid="11" />
+<TLINK id="TL110" fromID="E15" fromText="fatigue" toID="T9" toText="two weeks" type="OVERLAP" senid="11" />
+<TLINK id="TL111" fromID="E90" fromText="a good appetite" toID="T9" toText="two weeks" type="OVERLAP" senid="11" />
+<TLINK id="TL112" fromID="E71" fromText="denied" toID="E70" toText="complaining" type="OVERLAP" senid="11" />
+<TLINK id="TL113" fromID="E71" fromText="denied" toID="E93" toText="bright red blood per rectum" type="AFTER" senid="11" />
+<TLINK id="TL114" fromID="E91" fromText="weight loss" toID="E71" toText="denied" type="BEFORE" senid="11" />
+<TLINK id="TL115" fromID="E20" fromText="diverticulosis" toID="E85" toText="showed" type="BEFORE" senid="14" />
+<TLINK id="TL116" fromID="E39" fromText="a bowel prep" toID="E105" toText="an exploratory laparotomy" type="BEFORE" senid="27" />
+<TLINK id="TL117" fromID="E38" fromText="an adequate preoperative evaluation" toID="T11" toText="one a day" type="OVERLAP" senid="27" />
+<TLINK id="TL118" fromID="E39" fromText="a bowel prep" toID="E38" toText="an adequate preoperative evaluation" type="AFTER" senid="27" />
+<TLINK id="TL119" fromID="E152" fromText="her belly cleaned" toID="E37" toText="Hibiclens" type="OVERLAP" senid="27" />
+<TLINK id="TL120" fromID="E152" fromText="her belly cleaned" toID="T11" toText="one a day" type="OVERLAP" senid="27" />
+<TLINK id="TL121" fromID="E39" fromText="a bowel prep" toID="T4" toText="Monday afternoon" type="OVERLAP" senid="27" />
+<TLINK id="TL122" fromID="E39" fromText="a bowel prep" toID="T5" toText="evening" type="OVERLAP" senid="27" />
+<TLINK id="TL123" fromID="E105" fromText="an exploratory laparotomy" toID="T12" toText="Tuesday , 2014-07-29" type="OVERLAP" senid="27" />
+<TLINK id="TL124" fromID="E128" fromText="Metastatic gallbladder cancer" toID="E84" toText="discharged" type="BEFORE" senid="49" />
+<TLINK id="TL125" fromID="E141" fromText="pain" toID="E140" toText="Tylenol" type="BEFORE" senid="61" />
+<TLINK id="TL126" fromID="T23" fromText="every four hours" toID="E140" toText="Tylenol" type="OVERLAP" senid="61" />
+<TLINK id="TL127" fromID="E82" fromText="follow-up appointments" toID="T17" toText="postoperative day number two" type="AFTER" senid="38" />
+<TLINK id="TL128" fromID="E118" fromText="an Oncology consult" toID="T17" toText="postoperative day number two" type="OVERLAP" senid="38" />
+<TLINK id="TL129" fromID="E127" fromText="good condition" toID="E84" toText="discharged" type="BEFORE" senid="48" />
+<TLINK id="TL130" fromID="E84" fromText="discharged" toID="T8" toText="2014-08-09" type="OVERLAP" senid="48" />
+<TLINK id="TL131" fromID="E54" fromText="a hypotension" toID="E53" toText="the epidural" type="AFTER" senid="33" />
+<TLINK id="TL132" fromID="E112" fromText="the Surgical ICU" toID="E80" toText="admitted" type="AFTER" senid="33" />
+<TLINK id="TL133" fromID="E80" fromText="admitted" toID="T14" toText="the first postoperative day" type="BEFORE" senid="33" />
+<TLINK id="TL134" fromID="E55" fromText="low hematocrits" toID="E54" toText="a hypotension" type="OVERLAP" senid="33" />
+<TLINK id="TL135" fromID="E137" fromText="Levothyroxine" toID="T20" toText="once a day" type="OVERLAP" senid="58" />
+<TLINK id="TL136" fromID="E88" fromText="an outside hospital" toID="E87" toText="transferred" type="BEFORE" senid="9" />
+<TLINK id="TL137" fromID="E12" fromText="adenocarcinoma" toID="E11" toText="treatment" type="BEFORE" senid="9" />
+<TLINK id="TL138" fromID="E10" fromText="evaluation" toID="E87" toText="transferred" type="AFTER" senid="9" />
+<TLINK id="TL139" fromID="E10" fromText="evaluation" toID="E11" toText="treatment" type="OVERLAP" senid="9" />
+<TLINK id="TL140" fromID="E69" fromText="the outside hospital" toID="E88" toText="an outside hospital" type="OVERLAP" senid="9" />
+<TLINK id="TL141" fromID="T11" fromText="one a day" toID="T10" toText="the next few days" type="OVERLAP" senid="26" />
+<TLINK id="TL142" fromID="E143" fromText="Colace" toID="T25" toText="twice a day" type="OVERLAP" senid="63" />
+<TLINK id="TL143" fromID="E51" fromText="The patient &#39;s pain" toID="E52" toText="an epidural catheter" type="OVERLAP" senid="32" />
+<TLINK id="TL144" fromID="E53" fromText="the epidural" toID="E52" toText="an epidural catheter" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

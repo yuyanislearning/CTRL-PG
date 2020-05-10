@@ -1,0 +1,39 @@
+e1 id: E74; e2 id: E73; e1 text: trough level of prograf; e2 text: labs
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E5; e2 id: E33; e1 text: a CT scan of his abdomen / pelvis; e2 text: the emergency room
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E21; e2 id: T6; e1 text: 1 unit pRBC; e2 text: 08-10
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E62; e2 id: T13; e1 text: improvement; e2 text: 08-07
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: T4; e1 text: plasmapheresis; e2 text: 08-09
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: T8; e1 text: new issues; e2 text: 08-15
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E61; e2 id: E60; e1 text: taken; e2 text: the OR
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E58; e2 id: E57; e1 text: the ICU; e2 text: CMED
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E28; e2 id: E66; e1 text: LLQ pain; e2 text: improved
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E16; e2 id: E15; e1 text: a Hct; e2 text: 1 unit pRBC
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E65; e2 id: T16; e1 text: stable; e2 text: 08-13
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E72; e2 id: E40; e1 text: Prograf; e2 text: increased
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: T15; e1 text: 10 mg IVIG; e2 text: 08-11
+ground truth: OVERLAP; prediction: AFTER
+

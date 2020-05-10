@@ -1,0 +1,144 @@
+e1 id: E137; e2 id: E145; e1 text: complained; e2 text: reports
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E138; e2 id: E146; e1 text: frequent vomiting; e2 text: emesis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E36; e2 id: E35; e1 text: transferred; e2 text: chest x-ray
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E37; e2 id: E39; e1 text: Verg Medical Center; e2 text: the emergency room
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E171; e2 id: T11; e1 text: nosocomial urinary tract infection; e2 text: seven days
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E171; e2 id: E172; e1 text: nosocomial urinary tract infection; e2 text: The urine culture
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E183; e2 id: E182; e1 text: melena; e2 text: denies
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E63; e2 id: E182; e1 text: anemia; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E60; e1 text: bright red blood per rectum; e2 text: emesis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E60; e2 id: E61; e1 text: emesis; e2 text: fevers
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E181; e2 id: E180; e1 text: encouraged; e2 text: increase her p.o. intake
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: E54; e1 text: the floor; e2 text: laboratory studies
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E56; e2 id: E55; e1 text: further management; e2 text: the floor
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E117; e2 id: E118; e1 text: Outside hip films; e2 text: Repeat hip films
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E32; e2 id: T4; e1 text: noted; e2 text: one to two years
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E28; e1 text: chest x-ray; e2 text: an outside hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E96; e2 id: E97; e1 text: patent carotids; e2 text: her neck MRA
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E89; e2 id: E97; e1 text: MRI / MRA of the head , neck and upper chest; e2 text: her neck MRA
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E77; e2 id: E78; e1 text: Labetalol; e2 text: gradually titrated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E78; e2 id: E79; e1 text: gradually titrated; e2 text: a target blood pressure
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E77; e2 id: E76; e1 text: Labetalol; e2 text: her increased blood pressure
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E50; e2 id: E49; e1 text: dissection; e2 text: a chest CT scan
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E51; e2 id: E49; e1 text: congestive heart failure; e2 text: a chest CT scan
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E113; e2 id: E112; e1 text: the most valuable intervention; e2 text: A Neurology consult
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E117; e2 id: E116; e1 text: Outside hip films; e2 text: a fall
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E155; e2 id: T8; e1 text: Meclizine; e2 text: December 31 , 2000
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E109; e2 id: E108; e1 text: subclavian steal phenomenon; e2 text: symptoms
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E110; e2 id: E106; e1 text: angio; e2 text: these studies
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E111; e2 id: E106; e1 text: surgical or percutaneous intervention; e2 text: these studies
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E106; e2 id: E112; e1 text: these studies; e2 text: A Neurology consult
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E167; e2 id: E164; e1 text: Urinalysis; e2 text: complained
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E83; e2 id: E84; e1 text: presyncopal symptoms; e2 text: a cardiovascular etiology
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E82; e2 id: E80; e1 text: mild lateral ischemia; e2 text: an Adenosine MIBI stress test
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E32; e2 id: E29; e1 text: noted; e2 text: noted
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E28; e2 id: E27; e1 text: an outside hospital; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E69; e2 id: E70; e1 text: an echocardiogram; e2 text: demonstrated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E185; e2 id: E69; e1 text: a preserved ejection fraction; e2 text: an echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E130; e2 id: E129; e1 text: Dwardmegriff Rehabilitation; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E49; e2 id: E48; e1 text: a chest CT scan; e2 text: the emergency room
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E170; e2 id: E168; e1 text: Levofloxacin; e2 text: demonstrated
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E179; e2 id: E178; e1 text: intravenous fluids; e2 text: her baseline levels
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E178; e2 id: E174; e1 text: her baseline levels; e2 text: a mild increase
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E104; e2 id: E102; e1 text: significant carotid disease; e2 text: non-invasive carotid ultrasounds
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E85; e2 id: E88; e1 text: The discrepancy; e2 text: a subclavian artery stenosis
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E158; e2 id: E163; e1 text: medications; e2 text: reduce
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E172; e2 id: E173; e1 text: The urine culture; e2 text: pending
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E10; e2 id: E11; e1 text: dizziness intermittently; e2 text: increasing in frequency
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E12; e1 text: reports; e2 text: described
+ground truth: OVERLAP; prediction: BEFORE
+

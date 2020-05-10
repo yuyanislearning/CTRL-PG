@@ -1,0 +1,81 @@
+e1 id: E27; e2 id: E97; e1 text: five Jackson-Pratt drains; e2 text: a gastrojejunostomy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E101; e2 id: E97; e1 text: an extensive estimated blood loss; e2 text: a gastrojejunostomy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E57; e2 id: E58; e1 text: an ongoing requirement; e2 text: high volume resuscitation
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E69; e2 id: E8; e1 text: transfer; e2 text: substantial auto PEEP
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E4; e2 id: E69; e1 text: sedated; e2 text: transfer
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: T7; e1 text: multiple pulmonary emboli; e2 text: one week
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E88; e1 text: multiple pulmonary emboli; e2 text: introduced
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E31; e2 id: E96; e1 text: elevations; e2 text: the operating room
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E107; e2 id: T9; e1 text: remained; e2 text: 01/06/98
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E120; e2 id: E121; e1 text: this problem; e2 text: further intervention
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E120; e2 id: E122; e1 text: this problem; e2 text: radiologic procedures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E116; e2 id: E117; e1 text: continued; e2 text: massive retroperitoneal contamination
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E116; e2 id: E66; e1 text: continued; e2 text: multiple enteric fistulae
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E16; e2 id: T8; e1 text: a septic process; e2 text: the time of transfer
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E63; e2 id: E110; e1 text: right oblique incision; e2 text: stool
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E65; e2 id: E64; e1 text: his increasingly distended abdomen; e2 text: Bloody drainage
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E83; e2 id: E125; e1 text: recurrent pneumonias; e2 text: The patient  apos;s course
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E44; e2 id: E45; e1 text: an underlying hypercoagulable state; e2 text: the repeated clots
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E47; e2 id: E46; e1 text: pneumo-boots; e2 text: the bleeding problems
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E13; e2 id: E91; e1 text: high pressures; e2 text: ventilate adequately
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: E92; e1 text: an abdominal compartment syndrome; e2 text: related
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E81; e2 id: T5; e1 text: necrosis of the cadaveric renal vein; e2 text: 24 hours
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E89; e2 id: E90; e1 text: An inferior vena cava filter; e2 text: placed
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E82; e2 id: T0; e1 text: a transplant nephrectomy; e2 text: 12/16/97
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E105; e2 id: E50; e1 text: remain; e2 text: critically ill
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E50; e2 id: E104; e1 text: critically ill; e2 text: very transient mild improvement
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E15; e2 id: T6; e1 text: two abdominal procedures; e2 text: 01/03/98
+ground truth: AFTER; prediction: OVERLAP
+

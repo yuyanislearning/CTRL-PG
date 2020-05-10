@@ -300,5 +300,209 @@ This interim dictation to be followed by an addendum detailing end of hospital c
 <TIMEX3 id="T13" start="877" end="888" text="July , 2001" type="DATE" val="2001-07" mod="NA" />
 <TIMEX3 id="T3" start="994" end="1009" text="December , 2002" type="DATE" val="2002-12" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="11/17/2003" type="ADMISSION" dvalue="2003-11-17" />
+<TLINK id="TL1" fromID="E195" fromText="reports" toID="E194" toText="reports" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E114" fromText="hemorrhage" toID="E113" toText="head MRI" type="BEFORE" senid="34" />
+<TLINK id="TL3" fromID="E115" fromText="edema" toID="E113" toText="head MRI" type="BEFORE" senid="34" />
+<TLINK id="TL4" fromID="E116" fromText="dural and , likely , leptomeningeal enhancement" toID="E113" toText="head MRI" type="BEFORE" senid="34" />
+<TLINK id="TL5" fromID="E117" fromText="small foci in the right cerebellum" toID="E113" toText="head MRI" type="BEFORE" senid="34" />
+<TLINK id="TL6" fromID="E119" fromText="cerebritis" toID="E113" toText="head MRI" type="BEFORE" senid="34" />
+<TLINK id="TL7" fromID="E109" fromText="a new right-sided ptosis" toID="T7" toText="November 20" type="OVERLAP" senid="34" />
+<TLINK id="TL8" fromID="E113" fromText="head MRI" toID="T7" toText="November 20" type="AFTER" senid="34" />
+<TLINK id="TL9" fromID="E110" fromText="a left homonymous hemianopsia" toID="E109" toText="a new right-sided ptosis" type="OVERLAP" senid="34" />
+<TLINK id="TL10" fromID="E111" fromText="fleeting confusion" toID="E112" toText="febrile" type="OVERLAP" senid="34" />
+<TLINK id="TL11" fromID="E112" fromText="febrile" toID="E109" toText="a new right-sided ptosis" type="OVERLAP" senid="34" />
+<TLINK id="TL12" fromID="E208" fromText="revealed" toID="E113" toText="head MRI" type="OVERLAP" senid="34" />
+<TLINK id="TL13" fromID="E209" fromText="early lesions" toID="E117" toText="small foci in the right cerebellum" type="AFTER" senid="34" />
+<TLINK id="TL14" fromID="E33" fromText="azithromycin" toID="E179" toText="ID consult" type="AFTER" senid="13" />
+<TLINK id="TL15" fromID="E34" fromText="itraconazole" toID="E179" toText="ID consult" type="AFTER" senid="13" />
+<TLINK id="TL16" fromID="E35" fromText="pentamidine" toID="E179" toText="ID consult" type="AFTER" senid="13" />
+<TLINK id="TL17" fromID="E34" fromText="itraconazole" toID="E39" toText="itraconazole" type="OVERLAP" senid="13" />
+<TLINK id="TL18" fromID="E37" fromText="azithromycin" toID="E33" toText="azithromycin" type="OVERLAP" senid="13" />
+<TLINK id="TL19" fromID="E196" fromText="persistent mild right upper quadrant discomfort" toID="E195" toText="reports" type="BEFORE" senid="24" />
+<TLINK id="TL20" fromID="E197" fromText="recent poor appetite" toID="E195" toText="reports" type="BEFORE" senid="24" />
+<TLINK id="TL21" fromID="E68" fromText="Cellcept" toID="E69" toText="infection" type="BEFORE" senid="20" />
+<TLINK id="TL22" fromID="E134" fromText="persistent fevers" toID="E215" toText="steady decline" type="OVERLAP" senid="39" />
+<TLINK id="TL23" fromID="E137" fromText="decreasing oxygen saturation" toID="E138" toText="bilateral effusion" type="OVERLAP" senid="39" />
+<TLINK id="TL24" fromID="E138" fromText="bilateral effusion" toID="E139" toText="fluid surge spacing" type="OVERLAP" senid="39" />
+<TLINK id="TL25" fromID="E64" fromText="extensive skin involvement" toID="E63" toText="GVHD" type="OVERLAP" senid="19" />
+<TLINK id="TL26" fromID="E65" fromText="Cellcept" toID="E153" toText="last admission" type="OVERLAP" senid="19" />
+<TLINK id="TL27" fromID="E66" fromText="prednisone" toID="E153" toText="last admission" type="OVERLAP" senid="19" />
+<TLINK id="TL28" fromID="E67" fromText="cyclosporine" toID="E153" toText="last admission" type="OVERLAP" senid="19" />
+<TLINK id="TL29" fromID="E68" fromText="Cellcept" toID="E65" toText="Cellcept" type="AFTER" senid="19" />
+<TLINK id="TL30" fromID="E70" fromText="prednisone" toID="E66" toText="prednisone" type="AFTER" senid="19" />
+<TLINK id="TL31" fromID="E71" fromText="cyclosporine" toID="E67" toText="cyclosporine" type="AFTER" senid="19" />
+<TLINK id="TL32" fromID="E57" fromText="previous baseline creatinine" toID="E55" toText="acute renal failure" type="OVERLAP" senid="18" />
+<TLINK id="TL33" fromID="E187" fromText="creatinine" toID="E158" toText="discharge" type="AFTER" senid="18" />
+<TLINK id="TL34" fromID="E61" fromText="peak creatinine" toID="E187" toText="creatinine" type="OVERLAP" senid="18" />
+<TLINK id="TL35" fromID="E55" fromText="acute renal failure" toID="E56" toText="chronic renal insufficiency" type="OVERLAP" senid="18" />
+<TLINK id="TL36" fromID="E55" fromText="acute renal failure" toID="E185" toText="medication toxicity" type="OVERLAP" senid="18" />
+<TLINK id="TL37" fromID="E58" fromText="Kayexalate" toID="E55" toText="acute renal failure" type="AFTER" senid="18" />
+<TLINK id="TL38" fromID="E59" fromText="Phoslo" toID="E58" toText="Kayexalate" type="OVERLAP" senid="18" />
+<TLINK id="TL39" fromID="E60" fromText="electrolytes" toID="E59" toText="Phoslo" type="OVERLAP" senid="18" />
+<TLINK id="TL40" fromID="E62" fromText="discharge creatinine" toID="E187" toText="creatinine" type="BEFORE" senid="18" />
+<TLINK id="TL41" fromID="E62" fromText="discharge creatinine" toID="E158" toText="discharge" type="OVERLAP" senid="18" />
+<TLINK id="TL42" fromID="E213" fromText="progressive Acanthamoeba infection" toID="E122" toText="fevers" type="OVERLAP" senid="37" />
+<TLINK id="TL43" fromID="E133" fromText="Acanthamoeba sinusitis" toID="E213" toText="progressive Acanthamoeba infection" type="OVERLAP" senid="37" />
+<TLINK id="TL44" fromID="E145" fromText="pain" toID="E144" toText="morphine" type="OVERLAP" senid="44" />
+<TLINK id="TL45" fromID="E146" fromText="air hunger" toID="E144" toText="morphine" type="OVERLAP" senid="44" />
+<TLINK id="TL46" fromID="E148" fromText="congestion" toID="E147" toText="sinus suctioning" type="OVERLAP" senid="44" />
+<TLINK id="TL47" fromID="E225" fromText="made comfortable" toID="E144" toText="morphine" type="OVERLAP" senid="44" />
+<TLINK id="TL48" fromID="E147" fromText="sinus suctioning" toID="E144" toText="morphine" type="OVERLAP" senid="44" />
+<TLINK id="TL49" fromID="E149" fromText="nasal sprays" toID="E147" toText="sinus suctioning" type="OVERLAP" senid="44" />
+<TLINK id="TL50" fromID="E156" fromText="hospitalized" toID="T5" toText="November 11" type="OVERLAP" senid="12" />
+<TLINK id="TL51" fromID="E177" fromText="Acanthamoeba infection of skin" toID="E156" toText="hospitalized" type="BEFORE" senid="12" />
+<TLINK id="TL52" fromID="E178" fromText="neurologic infection" toID="E31" toText="head CT" type="BEFORE" senid="12" />
+<TLINK id="TL53" fromID="E178" fromText="neurologic infection" toID="E32" toText="MRI" type="BEFORE" senid="12" />
+<TLINK id="TL54" fromID="E156" fromText="hospitalized" toID="T4" toText="September 26" type="OVERLAP" senid="12" />
+<TLINK id="TL55" fromID="E179" fromText="ID consult" toID="E29" toText="skin biopsy" type="AFTER" senid="12" />
+<TLINK id="TL56" fromID="E29" fromText="skin biopsy" toID="E156" toText="hospitalized" type="OVERLAP" senid="12" />
+<TLINK id="TL57" fromID="E30" fromText="sinus washings" toID="E156" toText="hospitalized" type="OVERLAP" senid="12" />
+<TLINK id="TL58" fromID="E31" fromText="head CT" toID="E156" toText="hospitalized" type="OVERLAP" senid="12" />
+<TLINK id="TL59" fromID="E32" fromText="MRI" toID="E156" toText="hospitalized" type="OVERLAP" senid="12" />
+<TLINK id="TL60" fromID="E36" fromText="skin infection" toID="E177" toText="Acanthamoeba infection of skin" type="OVERLAP" senid="12" />
+<TLINK id="TL61" fromID="E74" fromText="cough" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL62" fromID="E75" fromText="shortness of breath" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL63" fromID="E76" fromText="chest pain" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL64" fromID="E77" fromText="nausea" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL65" fromID="E78" fromText="vomiting" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL66" fromID="E79" fromText="diarrhea" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL67" fromID="E80" fromText="dysuria" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL68" fromID="E81" fromText="neck stiffness" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL69" fromID="E82" fromText="new skin lesions" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL70" fromID="E83" fromText="worsening red petechiae" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL71" fromID="E84" fromText="increasing sinus symptoms" toID="E194" toText="reports" type="BEFORE" senid="22" />
+<TLINK id="TL72" fromID="E193" fromText="significant changes" toID="T16" toText="past week" type="OVERLAP" senid="22" />
+<TLINK id="TL73" fromID="E226" fromText="inflammation" toID="E152" toText="prednisone" type="OVERLAP" senid="45" />
+<TLINK id="TL74" fromID="E227" fromText="adrenal insufficiency" toID="E152" toText="prednisone" type="OVERLAP" senid="45" />
+<TLINK id="TL75" fromID="E228" fromText="comfortable" toID="T9" toText="December 3" type="OVERLAP" senid="45" />
+<TLINK id="TL76" fromID="E121" fromText="Acanthamoeba" toID="E120" toText="progressive infection" type="OVERLAP" senid="36" />
+<TLINK id="TL77" fromID="E213" fromText="progressive Acanthamoeba infection" toID="E121" toText="Acanthamoeba" type="OVERLAP" senid="36" />
+<TLINK id="TL78" fromID="E20" fromText="persistent pancytopenia" toID="E19" toText="bone marrow biopsy" type="BEFORE" senid="10" />
+<TLINK id="TL79" fromID="E21" fromText="mild hypercelluarity" toID="E19" toText="bone marrow biopsy" type="BEFORE" senid="10" />
+<TLINK id="TL80" fromID="E23" fromText="Campath" toID="E19" toText="bone marrow biopsy" type="AFTER" senid="10" />
+<TLINK id="TL81" fromID="E26" fromText="CT scan" toID="E19" toText="bone marrow biopsy" type="AFTER" senid="10" />
+<TLINK id="TL82" fromID="E19" fromText="bone marrow biopsy" toID="T14" toText="August , 2003" type="OVERLAP" senid="10" />
+<TLINK id="TL83" fromID="E175" fromText="revealing" toID="E19" toText="bone marrow biopsy" type="OVERLAP" senid="10" />
+<TLINK id="TL84" fromID="E22" fromText="80% leukemic cells" toID="E21" toText="mild hypercelluarity" type="OVERLAP" senid="10" />
+<TLINK id="TL85" fromID="E211" fromText="cyclosporine" toID="E119" toText="cerebritis" type="BEFORE" senid="35" />
+<TLINK id="TL86" fromID="E210" fromText="Idiosyncratic reaction" toID="E118" toText="cyclosporine" type="AFTER" senid="35" />
+<TLINK id="TL87" fromID="E211" fromText="cyclosporine" toID="E118" toText="cyclosporine" type="BEFORE" senid="35" />
+<TLINK id="TL88" fromID="E212" fromText="new neurologic involvement" toID="E109" toText="a new right-sided ptosis" type="OVERLAP" senid="35" />
+<TLINK id="TL89" fromID="E201" fromText="CMV" toID="E95" toText="A repeat CMV hypercapture" type="OVERLAP" senid="29" />
+<TLINK id="TL90" fromID="E54" fromText="Hypercapture" toID="E184" toText="stay" type="OVERLAP" senid="17" />
+<TLINK id="TL91" fromID="E55" fromText="acute renal failure" toID="E53" toText="increasing ARS" type="OVERLAP" senid="17" />
+<TLINK id="TL92" fromID="E55" fromText="acute renal failure" toID="E184" toText="stay" type="OVERLAP" senid="17" />
+<TLINK id="TL93" fromID="E186" fromText="hemodialysis" toID="E157" toText="stay" type="AFTER" senid="17" />
+<TLINK id="TL94" fromID="E219" fromText="Pentamidine" toID="E217" toText="a family meeting" type="AFTER" senid="41" />
+<TLINK id="TL95" fromID="E220" fromText="itraconazole" toID="E217" toText="a family meeting" type="AFTER" senid="41" />
+<TLINK id="TL96" fromID="E221" fromText="Levaquin" toID="E217" toText="a family meeting" type="AFTER" senid="41" />
+<TLINK id="TL97" fromID="E222" fromText="acyclovir" toID="E217" toText="a family meeting" type="BEFORE" senid="41" />
+<TLINK id="TL98" fromID="E223" fromText="GCSF" toID="E217" toText="a family meeting" type="BEFORE" senid="41" />
+<TLINK id="TL99" fromID="E224" fromText="other medications" toID="E217" toText="a family meeting" type="BEFORE" senid="41" />
+<TLINK id="TL100" fromID="E166" fromText="Acanthamoeba infection of skin" toID="E165" toText="stay" type="BEFORE" senid="6" />
+<TLINK id="TL101" fromID="E2" fromText="ARS" toID="E163" toText="admission" type="BEFORE" senid="6" />
+<TLINK id="TL102" fromID="E168" fromText="new fever" toID="E167" toText="readmitted" type="BEFORE" senid="6" />
+<TLINK id="TL103" fromID="E169" fromText="increasing creatinine" toID="E167" toText="readmitted" type="BEFORE" senid="6" />
+<TLINK id="TL104" fromID="E170" fromText="hepatomegaly" toID="E167" toText="readmitted" type="BEFORE" senid="6" />
+<TLINK id="TL105" fromID="E171" fromText="fluid surge spacing" toID="E167" toText="readmitted" type="BEFORE" senid="6" />
+<TLINK id="TL106" fromID="T0" fromText="nine months" toID="E1" toText="non-myeloblative stem cell transplant" type="OVERLAP" senid="6" />
+<TLINK id="TL107" fromID="E164" fromText="Retelk County Medical Center" toID="E165" toText="stay" type="OVERLAP" senid="6" />
+<TLINK id="TL108" fromID="E3" fromText="medication toxicity" toID="E2" toText="ARS" type="OVERLAP" senid="6" />
+<TLINK id="TL109" fromID="E172" fromText="hyponatremia" toID="E171" toText="fluid surge spacing" type="OVERLAP" senid="6" />
+<TLINK id="TL110" fromID="E48" fromText="disease burden" toID="E47" toText="re-CT of sinuses" type="BEFORE" senid="15" />
+<TLINK id="TL111" fromID="E43" fromText="increasing ARS" toID="E53" toText="increasing ARS" type="AFTER" senid="15" />
+<TLINK id="TL112" fromID="E46" fromText="pentamidine nasal washings" toID="E45" toText="IV pentamidine" type="OVERLAP" senid="15" />
+<TLINK id="TL113" fromID="E182" fromText="showing" toID="E47" toText="re-CT of sinuses" type="OVERLAP" senid="15" />
+<TLINK id="TL114" fromID="E157" fromText="stay" toID="E181" toText="stay" type="OVERLAP" senid="15" />
+<TLINK id="TL115" fromID="E52" fromText="valganciclovir maintenance suppression" toID="E40" toText="voriconazole" type="OVERLAP" senid="15" />
+<TLINK id="TL116" fromID="E154" fromText="DNR / DNI" toID="E155" toText="hospital stay" type="OVERLAP" senid="43" />
+<TLINK id="TL117" fromID="E94" fromText="coagulase negative Staphylococcus" toID="E93" toText="a blood culture" type="OVERLAP" senid="28" />
+<TLINK id="TL118" fromID="E95" fromText="A repeat CMV hypercapture" toID="E87" toText="Workup on admission" type="AFTER" senid="28" />
+<TLINK id="TL119" fromID="E93" fromText="a blood culture" toID="T17" toText="November 20" type="OVERLAP" senid="28" />
+<TLINK id="TL120" fromID="T1" fromText="11/17/2003" toID="E0" toText="Admission" type="OVERLAP" senid="2" />
+<TLINK id="TL121" fromID="E11" fromText="leukemic phase" toID="T12" toText="November , 2001" type="AFTER" senid="8" />
+<TLINK id="TL122" fromID="E12" fromText="Rituxan" toID="T12" toText="November , 2001" type="AFTER" senid="8" />
+<TLINK id="TL123" fromID="E13" fromText="CVP" toID="E12" toText="Rituxan" type="OVERLAP" senid="8" />
+<TLINK id="TL124" fromID="E140" fromText="patient  apos;s critical condition" toID="E217" toText="a family meeting" type="BEFORE" senid="40" />
+<TLINK id="TL125" fromID="E143" fromText="aggressive measures of care" toID="E217" toText="a family meeting" type="OVERLAP" senid="40" />
+<TLINK id="TL126" fromID="E217" fromText="a family meeting" toID="T19" toText="November 30" type="OVERLAP" senid="40" />
+<TLINK id="TL127" fromID="T18" fromText="the days" toID="E204" toText="admission" type="AFTER" senid="31" />
+<TLINK id="TL128" fromID="E207" fromText="Infectious disease consult" toID="E204" toText="admission" type="OVERLAP" senid="31" />
+<TLINK id="TL129" fromID="E205" fromText="erythematous nodules over both arms" toID="T18" toText="the days" type="AFTER" senid="31" />
+<TLINK id="TL130" fromID="E205" fromText="erythematous nodules over both arms" toID="E100" toText="Acanthamoeba infection" type="OVERLAP" senid="31" />
+<TLINK id="TL131" fromID="E101" fromText="progressive skin involvement" toID="E205" toText="erythematous nodules over both arms" type="OVERLAP" senid="31" />
+<TLINK id="TL132" fromID="E206" fromText="Acanthamoeba" toID="E100" toText="Acanthamoeba infection" type="OVERLAP" senid="31" />
+<TLINK id="TL133" fromID="E105" fromText="Acanthamoeba infection" toID="E206" toText="Acanthamoeba" type="OVERLAP" senid="31" />
+<TLINK id="TL134" fromID="E72" fromText="rehabilitation" toID="E159" toText="discharge" type="AFTER" senid="21" />
+<TLINK id="TL135" fromID="E159" fromText="discharge" toID="T15" toText="November 11" type="OVERLAP" senid="21" />
+<TLINK id="TL136" fromID="E189" fromText="DSCI clinic" toID="E72" toText="rehabilitation" type="OVERLAP" senid="21" />
+<TLINK id="TL137" fromID="E73" fromText="examination" toID="E191" toText="clinic" type="OVERLAP" senid="21" />
+<TLINK id="TL138" fromID="E191" fromText="clinic" toID="E189" toText="DSCI clinic" type="OVERLAP" senid="21" />
+<TLINK id="TL139" fromID="E97" fromText="progressive thickening of the left maxillary sinus" toID="E96" toText="A repeat CAT scan of the sinuses" type="BEFORE" senid="30" />
+<TLINK id="TL140" fromID="E96" fromText="A repeat CAT scan of the sinuses" toID="E202" toText="prior study" type="AFTER" senid="30" />
+<TLINK id="TL141" fromID="E202" fromText="prior study" toID="T6" toText="November 9" type="OVERLAP" senid="30" />
+<TLINK id="TL142" fromID="E203" fromText="superinfection" toID="E98" toText="progressive infection of Acanthamoeba" type="OVERLAP" senid="30" />
+<TLINK id="TL143" fromID="E99" fromText="bacterial sinusitis" toID="E203" toText="superinfection" type="OVERLAP" senid="30" />
+<TLINK id="TL144" fromID="E100" fromText="Acanthamoeba infection" toID="E98" toText="progressive infection of Acanthamoeba" type="OVERLAP" senid="30" />
+<TLINK id="TL145" fromID="E27" fromText="left maxillary sinusitis" toID="E26" toText="CT scan" type="BEFORE" senid="11" />
+<TLINK id="TL146" fromID="E24" fromText="recurrent fever" toID="E23" toText="Campath" type="OVERLAP" senid="11" />
+<TLINK id="TL147" fromID="E25" fromText="sinus symptoms" toID="E24" toText="recurrent fever" type="OVERLAP" senid="11" />
+<TLINK id="TL148" fromID="E176" fromText="showing" toID="E26" toText="CT scan" type="OVERLAP" senid="11" />
+<TLINK id="TL149" fromID="E28" fromText="new skin nodules on right elbow and buttocks" toID="E27" toText="left maxillary sinusitis" type="OVERLAP" senid="11" />
+<TLINK id="TL150" fromID="E37" fromText="azithromycin" toID="E38" toText="trial of 5-FC" type="BEFORE" senid="14" />
+<TLINK id="TL151" fromID="E38" fromText="trial of 5-FC" toID="E180" toText="increasing neutropenia" type="OVERLAP" senid="14" />
+<TLINK id="TL152" fromID="E42" fromText="sulfadiazine" toID="E43" toText="increasing ARS" type="BEFORE" senid="14" />
+<TLINK id="TL153" fromID="E40" fromText="voriconazole" toID="E39" toText="itraconazole" type="AFTER" senid="14" />
+<TLINK id="TL154" fromID="E47" fromText="re-CT of sinuses" toID="E39" toText="itraconazole" type="AFTER" senid="14" />
+<TLINK id="TL155" fromID="E41" fromText="continued neutropenia" toID="E39" toText="itraconazole" type="BEFORE" senid="14" />
+<TLINK id="TL156" fromID="E42" fromText="sulfadiazine" toID="E40" toText="voriconazole" type="OVERLAP" senid="14" />
+<TLINK id="TL157" fromID="E44" fromText="p.o. voriconazole" toID="E40" toText="voriconazole" type="OVERLAP" senid="14" />
+<TLINK id="TL158" fromID="E45" fromText="IV pentamidine" toID="E35" toText="pentamidine" type="OVERLAP" senid="14" />
+<TLINK id="TL159" fromID="E87" fromText="Workup on admission" toID="E87" toText="Workup on admission" type="OVERLAP" senid="27" />
+<TLINK id="TL160" fromID="E89" fromText="pneumonia" toID="E88" toText="a chest x-ray" type="BEFORE" senid="27" />
+<TLINK id="TL161" fromID="E91" fromText="focal lesion" toID="E90" toText="an MRI of the liver" type="BEFORE" senid="27" />
+<TLINK id="TL162" fromID="E198" fromText="abscess" toID="E90" toText="an MRI of the liver" type="OVERLAP" senid="27" />
+<TLINK id="TL163" fromID="E87" fromText="Workup on admission" toID="E87" toText="Workup on admission" type="OVERLAP" senid="27" />
+<TLINK id="TL164" fromID="E92" fromText="Blood and urine cultures" toID="E87" toText="Workup on admission" type="OVERLAP" senid="27" />
+<TLINK id="TL165" fromID="E88" fromText="a chest x-ray" toID="E87" toText="Workup on admission" type="OVERLAP" senid="27" />
+<TLINK id="TL166" fromID="E90" fromText="an MRI of the liver" toID="E87" toText="Workup on admission" type="OVERLAP" senid="27" />
+<TLINK id="TL167" fromID="E199" fromText="focal lesion" toID="E91" toText="focal lesion" type="OVERLAP" senid="27" />
+<TLINK id="TL168" fromID="E49" fromText="recurrent CMB infection" toID="E50" toText="Campath therapy" type="BEFORE" senid="16" />
+<TLINK id="TL169" fromID="E51" fromText="IV Foscarnet therapy" toID="E157" toText="stay" type="OVERLAP" senid="16" />
+<TLINK id="TL170" fromID="E183" fromText="inability to tolerate" toID="E52" toText="valganciclovir maintenance suppression" type="OVERLAP" senid="16" />
+<TLINK id="TL171" fromID="E53" fromText="increasing ARS" toID="E183" toText="inability to tolerate" type="BEFORE" senid="16" />
+<TLINK id="TL172" fromID="E184" fromText="stay" toID="E157" toText="stay" type="OVERLAP" senid="16" />
+<TLINK id="TL173" fromID="E127" fromText="a PICC line" toID="E124" toText="A single blood culture" type="BEFORE" senid="38" />
+<TLINK id="TL174" fromID="E129" fromText="developing pneumonia" toID="E128" toText="a chest x-ray" type="BEFORE" senid="38" />
+<TLINK id="TL175" fromID="E126" fromText="vancomycin" toID="E124" toText="A single blood culture" type="AFTER" senid="38" />
+<TLINK id="TL176" fromID="E130" fromText="levofloxacin" toID="E128" toText="a chest x-ray" type="AFTER" senid="38" />
+<TLINK id="TL177" fromID="E128" fromText="a chest x-ray" toID="T8" toText="November 20" type="OVERLAP" senid="38" />
+<TLINK id="TL178" fromID="E214" fromText="pneumonia" toID="E129" toText="developing pneumonia" type="OVERLAP" senid="38" />
+<TLINK id="TL179" fromID="E131" fromText="treatment" toID="E130" toText="levofloxacin" type="OVERLAP" senid="38" />
+<TLINK id="TL180" fromID="E135" fromText="all above measures" toID="E123" toText="maximal antimicrobial therapy" type="AFTER" senid="38" />
+<TLINK id="TL181" fromID="E136" fromText="skin infection" toID="E133" toText="Acanthamoeba sinusitis" type="OVERLAP" senid="38" />
+<TLINK id="TL182" fromID="E107" fromText="skin and sinus infection" toID="E105" toText="Acanthamoeba infection" type="OVERLAP" senid="33" />
+<TLINK id="TL183" fromID="E108" fromText="maximal antimicrobial therapy" toID="E102" toText="voriconazole" type="OVERLAP" senid="33" />
+<TLINK id="TL184" fromID="E108" fromText="maximal antimicrobial therapy" toID="E106" toText="Pentamidine intravenous and nasal washings" type="OVERLAP" senid="33" />
+<TLINK id="TL185" fromID="E14" fromText="Campath" toID="T13" toText="July , 2001" type="AFTER" senid="9" />
+<TLINK id="TL186" fromID="E15" fromText="lymphopenia" toID="E14" toText="Campath" type="BEFORE" senid="9" />
+<TLINK id="TL187" fromID="E16" fromText="neutropenia" toID="E14" toText="Campath" type="BEFORE" senid="9" />
+<TLINK id="TL188" fromID="E17" fromText="CMV infection" toID="E16" toText="neutropenia" type="OVERLAP" senid="9" />
+<TLINK id="TL189" fromID="E18" fromText="MUD stem cell transplant" toID="T3" toText="December , 2002" type="OVERLAP" senid="9" />
+<TLINK id="TL190" fromID="E85" fromText="treatment" toID="E160" toText="admitted" type="OVERLAP" senid="26" />
+<TLINK id="TL191" fromID="E87" fromText="Workup on admission" toID="E160" toText="admitted" type="OVERLAP" senid="26" />
+<TLINK id="TL192" fromID="E6" fromText="cervical lymphadenopathy" toID="E173" toText="presented" type="OVERLAP" senid="7" />
+<TLINK id="TL193" fromID="E174" fromText="did well" toID="T2" toText="1997" type="BEFORE" senid="7" />
+<TLINK id="TL194" fromID="E10" fromText="progressive disease" toID="T2" toText="1997" type="BEFORE" senid="7" />
+<TLINK id="TL195" fromID="E174" fromText="did well" toID="E8" toText="CytaBOM" type="BEFORE" senid="7" />
+<TLINK id="TL196" fromID="E173" fromText="presented" toID="T10" toText="1991" type="OVERLAP" senid="7" />
+<TLINK id="TL197" fromID="E7" fromText="MACE" toID="T10" toText="1991" type="OVERLAP" senid="7" />
+<TLINK id="TL198" fromID="E8" fromText="CytaBOM" toID="E7" toText="MACE" type="BEFORE" senid="7" />
+<TLINK id="TL199" fromID="T11" fromText="six cycles" toID="E9" toText="fludarabine" type="BEFORE" senid="7" />
+<TLINK id="TL200" fromID="E9" fromText="fludarabine" toID="T2" toText="1997" type="BEFORE" senid="7" />
+<TLINK id="TL201" fromID="E102" fromText="voriconazole" toID="E207" toText="Infectious disease consult" type="BEFORE" senid="32" />
+<TLINK id="TL202" fromID="E106" fromText="Pentamidine intravenous and nasal washings" toID="E204" toText="admission" type="AFTER" senid="32" />
+<TLINK id="TL203" fromID="E103" fromText="itraconazole" toID="E207" toText="Infectious disease consult" type="AFTER" senid="32" />
+<TLINK id="TL204" fromID="E104" fromText="treatment" toID="E102" toText="voriconazole" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

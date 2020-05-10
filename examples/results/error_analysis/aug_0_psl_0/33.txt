@@ -1,0 +1,130 @@
+e1 id: E13; e2 id: E22; e1 text: Springfield; e2 text: transferred
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E58; e2 id: E57; e1 text: left knee injury; e2 text: saddle pulmonary embolus
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: E54; e1 text: anticoagulation; e2 text: admitted
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OOO
+
+e1 id: E56; e2 id: E54; e1 text: hemodynamic monitoring; e2 text: admitted
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OOO
+
+e1 id: E57; e2 id: E59; e1 text: saddle pulmonary embolus; e2 text: PE
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E40; e2 id: T8; e1 text: denied; e2 text: this 2 week interval
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E102; e2 id: E103; e1 text: any wall motion abnormalities; e2 text: ischemia
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T6; e2 id: T7; e1 text: 3 days; e2 text: 2 days
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: E91; e1 text: His tronponin; e2 text: a small troponin leak
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E117; e2 id: E119; e1 text: therapy; e2 text: an MRI of the knee
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E120; e2 id: E119; e1 text: seen by physical therapy; e2 text: an MRI of the knee
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E114; e2 id: E113; e1 text: presented; e2 text: physical exam
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E94; e2 id: E88; e1 text: clot burden; e2 text: PE
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E6; e2 id: E11; e1 text: lightheaded; e2 text: lightheaded
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: E53; e1 text: denies; e2 text: LOC
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E89; e2 id: E88; e1 text: his cardiac workup; e2 text: PE
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E73; e2 id: E72; e1 text: lysis; e2 text: hemodynamic instability
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T5; e2 id: E32; e1 text: 3 days; e2 text: from sitting to standing
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E33; e1 text: essentially bed bound; e2 text: heard his knee
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E106; e2 id: E108; e1 text: anticoagulation; e2 text: IV fluids
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E109; e2 id: E106; e1 text: active bleeding; e2 text: anticoagulation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E121; e2 id: E123; e1 text: follow up; e2 text: discharge
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E27; e2 id: T3; e1 text: hurt his left knee; e2 text: 2 weeks
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T3; e2 id: E28; e1 text: 2 weeks; e2 text: stood up
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E30; e2 id: E27; e1 text: heard his knee; e2 text: hurt his left knee
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E69; e2 id: E71; e1 text: his hospitalization; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E70; e2 id: E71; e1 text: an oxygen requirement; e2 text: discharge
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: E5; e1 text: Chelseahospital; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E60; e2 id: E59; e1 text: other risk factors; e2 text: PE
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E61; e2 id: E59; e1 text: likely causes; e2 text: PE
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E13; e2 id: E12; e1 text: Springfield; e2 text: called 911
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E25; e2 id: E23; e1 text: states; e2 text: Arbour Hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E22; e1 text: transport; e2 text: transferred
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E30; e2 id: E28; e1 text: heard his knee; e2 text: stood up
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E99; e2 id: E97; e1 text: ischemia; e2 text: EKG
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E99; e2 id: E98; e1 text: ischemia; e2 text: evidence
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E85; e2 id: T9; e1 text: his coumadin therapy; e2 text: 6 months
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: T2; e1 text: denies; e2 text: the morning of admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: E6; e1 text: immediately fell to the kitchen floor; e2 text: lightheaded
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OOO
+
+e1 id: E8; e2 id: E7; e1 text: immediately fell to the kitchen floor; e2 text: faint
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OOO
+
+e1 id: E63; e2 id: E62; e1 text: DVT from the left leg; e2 text: his embolus
+ground truth: BEFORE; prediction: OVERLAP
+

@@ -217,6 +217,7 @@ Evaluation method:
                             fScore=2*(final_timex_prec*final_timex_recall)/(final_timex_recall+final_timex_prec)
                         else:
                             fScore=0.0
+                        '''
                         if args.entities_to_evaluate=='timex':
                             print '{:*^46}'.format(' Aggregated Scores: ')
                         print """
@@ -231,7 +232,7 @@ Evaluation method:
                 Val :\t\t"""+'%.4f'%(final_timex_val)+"""
                 Modifier :\t"""+'%.4f'%(final_timex_mod)
                         if args.entities_to_evaluate=='timex':
-                            print '\n{:*^47}'.format('')
+                            print '\n{:*^47}'.format('')'''
                     if args.entities_to_evaluate in ['tlink', 'all']:
                         tlinkSysCount,tlinkGoldCount,tlinkPrecMatch,tlinkRecMatch=totaltlinkScores
                         if tlinkGoldCount>0:
@@ -260,6 +261,7 @@ Evaluation method:
                 Average P&R : \t"""+'%.4f'%(averagePR)+"""
                 F measure : \t"""+'%.4f'%(fScore)+"""
                 """+'\n{:*^47}'.format('')
+                            
                         if args.entities_to_evaluate=='tlink':
                             print "WARNING: Running TLINK evaluation by itself assumes gold standard EVENTs/TIMEX3s in both gold standard and system output. If that is not the case, please make sure that the EVENT/TIMEX3 ids in the gold standard match the ids in the system output. Otherwise, the result will be wrong. If in doubt, use -all option."
                 else:

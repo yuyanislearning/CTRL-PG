@@ -1,0 +1,72 @@
+e1 id: E22; e2 id: E15; e1 text: cardiac catheterization data; e2 text: a cardiac catheterization
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E93; e1 text: coronary artery bypass grafting; e2 text: a consultation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: E86; e1 text: myocardial infarction; e2 text: EKG changes
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E34; e2 id: E36; e1 text: intubation; e2 text: a prolonged postoperative intubation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E40; e2 id: E121; e1 text: an emergent cricothyroidotomy; e2 text: the outside hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E6; e2 id: E7; e1 text: The hematoma formation; e2 text: an emergent surgical airway
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: E92; e1 text: CHF; e2 text: medically managed
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E54; e2 id: E132; e1 text: His cast; e2 text: casted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E5; e2 id: E1; e1 text: hematoma formation; e2 text: a right carotid endarterectomy
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E2; e2 id: T3; e1 text: 95% stenosis of the carotid artery; e2 text: 2014-02-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E130; e2 id: E129; e1 text: the hospital; e2 text: arriving
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E87; e2 id: E81; e1 text: transferred; e2 text: admission
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E43; e2 id: E42; e1 text: The study; e2 text: a swallowing study
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E80; e1 text: his tracheostomy; e2 text: decannulated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E136; e2 id: E54; e1 text: compartment syndrome; e2 text: His cast
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E73; e2 id: E71; e1 text: a transfer; e2 text: admitted
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E113; e2 id: E38; e1 text: very tenuous from a pulmonary point; e2 text: frequent chest PT
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E143; e2 id: T9; e1 text: sufficiently stable; e2 text: day number 23
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E144; e2 id: E145; e1 text: His hypertension; e2 text: well controlled
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E146; e2 id: T9; e1 text: tolerating; e2 text: day number 23
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E91; e2 id: E69; e1 text: treated; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E79; e2 id: E78; e1 text: medically managed; e2 text: hospital course
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E83; e2 id: E81; e1 text: another acute decompensation; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E137; e2 id: E56; e1 text: a plaster splint; e2 text: The cast
+ground truth: AFTER; prediction: OVERLAP
+

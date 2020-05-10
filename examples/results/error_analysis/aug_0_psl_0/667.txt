@@ -1,0 +1,69 @@
+e1 id: E51; e2 id: E52; e1 text: pauses; e2 text: His digoxin
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E30; e2 id: T8; e1 text: return; e2 text: four weeks
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E62; e2 id: E63; e1 text: pulmonary edema; e2 text: lasix
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E85; e2 id: E86; e1 text: oxygen requirements; e2 text: the CMED CCU
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E87; e2 id: E88; e1 text: intubated; e2 text: ERCP procedure
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E106; e2 id: E107; e1 text: intubated; e2 text: ERCP procedure
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E108; e2 id: E109; e1 text: fluid resuscitation; e2 text: zosyn
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: E24; e1 text: intubated; e2 text: ERCP
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E56; e2 id: E57; e1 text: metoprolol; e2 text: home dose
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E56; e2 id: E53; e1 text: metoprolol; e2 text: his metoprolol
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E52; e2 id: E53; e1 text: His digoxin; e2 text: his metoprolol
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E70; e2 id: E72; e1 text: E. coli bacteremia; e2 text: acute cholangitis
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E76; e2 id: E90; e1 text: room air; e2 text: arrival
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: E78; e1 text: a fib; e2 text: rapid ventricular reponse
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E4; e2 id: E7; e1 text: CHF; e2 text: admitted
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: E7; e1 text: n/v; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E68; e2 id: E69; e1 text: lasix; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: T14; e1 text: sc lovenox; e2 text: this the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E13; e2 id: E19; e1 text: CHF; e2 text: transferred
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E19; e2 id: E17; e1 text: transferred; e2 text: intervention
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E111; e2 id: E110; e1 text: eleveted; e2 text: Pt &#39;s INR
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E117; e2 id: E115; e1 text: a large filling defect in the distal duct; e2 text: ERCP
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E48; e2 id: E49; e1 text: Atrial fibrillation; e2 text: warfarin
+ground truth: BEFORE; prediction: OVERLAP
+

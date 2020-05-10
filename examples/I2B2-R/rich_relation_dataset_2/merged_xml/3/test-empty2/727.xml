@@ -121,5 +121,64 @@ SENSORY : Hearing screen has not yet been performed but should be done prior to 
 <TIMEX3 id="T2" start="590" end="598" text="18 weeks" type="DATE" val="2013-10-29" mod="APPROX" />
 <SECTIME id="S0" start="18" end="28" text="2014-03-31" type="ADMISSION" dvalue="2014-03-31" />
 <SECTIME id="S1" start="46" end="56" text="2014-04-01" type="DISCHARGE" dvalue="2014-04-01" />
+<TLINK id="TL1" fromID="E48" fromText="feeding" toID="T6" toText="first post op day" type="AFTER" senid="34" />
+<TLINK id="TL2" fromID="E49" fromText="done well" toID="E48" toText="feeding" type="OVERLAP" senid="34" />
+<TLINK id="TL3" fromID="E15" fromText="Other meds" toID="E16" toText="Paxil" type="OVERLAP" senid="13" />
+<TLINK id="TL4" fromID="E30" fromText="stable" toID="E31" toText="hospital course" type="OVERLAP" senid="24" />
+<TLINK id="TL5" fromID="E32" fromText="cardiovascular issues" toID="E31" toText="hospital course" type="OVERLAP" senid="24" />
+<TLINK id="TL6" fromID="E27" fromText="epidural" toID="E28" toText="Vaginal delivery" type="OVERLAP" senid="20" />
+<TLINK id="TL7" fromID="E27" fromText="epidural" toID="E26" toText="Anesthesia" type="OVERLAP" senid="20" />
+<TLINK id="TL8" fromID="E24" fromText="prolonged rupture of membranes" toID="E25" toText="Clear amniotic fluid" type="OVERLAP" senid="18" />
+<TLINK id="TL9" fromID="E53" fromText="CBC" toID="E55" toText="admission" type="OVERLAP" senid="37" />
+<TLINK id="TL10" fromID="E54" fromText="blood culture" toID="E55" toText="admission" type="OVERLAP" senid="37" />
+<TLINK id="TL11" fromID="E56" fromText="Initial CBC" toID="E53" toText="CBC" type="OVERLAP" senid="37" />
+<TLINK id="TL12" fromID="E13" fromText="previous pregnancy" toID="E12" toText="Primary cesarean section" type="OVERLAP" senid="12" />
+<TLINK id="TL13" fromID="E14" fromText="arrest of descent" toID="E12" toText="Primary cesarean section" type="OVERLAP" senid="12" />
+<TLINK id="TL14" fromID="E11" fromText="Levoxyl" toID="E16" toText="Paxil" type="OVERLAP" senid="12" />
+<TLINK id="TL15" fromID="E52" fromText="a new blood transfusion" toID="E50" toText="Hematocrit" type="OVERLAP" senid="35" />
+<TLINK id="TL16" fromID="E50" fromText="Hematocrit" toID="E51" toText="admission" type="OVERLAP" senid="35" />
+<TLINK id="TL17" fromID="E39" fromText="omphalocele" toID="E38" toText="An abdominal ultrasound" type="BEFORE" senid="29" />
+<TLINK id="TL18" fromID="E40" fromText="further imaging of the bowel" toID="E38" toText="An abdominal ultrasound" type="AFTER" senid="29" />
+<TLINK id="TL19" fromID="E1" fromText="Discharge" toID="T1" toText="2014-04-01" type="OVERLAP" senid="3" />
+<TLINK id="TL20" fromID="E24" fromText="prolonged rupture of membranes" toID="E23" toText="maternal fever" type="OVERLAP" senid="17" />
+<TLINK id="TL21" fromID="E65" fromText="Hearing screen" toID="E66" toText="discharge" type="BEFORE" senid="41" />
+<TLINK id="TL22" fromID="E22" fromText="perineal sepsis risk factors" toID="E20" toText="presented" type="OVERLAP" senid="15" />
+<TLINK id="TL23" fromID="E20" fromText="presented" toID="E21" toText="spontaneous labor ." type="AFTER" senid="15" />
+<TLINK id="TL24" fromID="T4" fromText="ad lib" toID="E37" toText="feeding" type="OVERLAP" senid="28" />
+<TLINK id="TL25" fromID="E0" fromText="Admission" toID="T0" toText="2014-03-31" type="OVERLAP" senid="2" />
+<TLINK id="TL26" fromID="E3" fromText="Prenatal screens" toID="E2" toText="born" type="BEFORE" senid="8" />
+<TLINK id="TL27" fromID="E33" fromText="D10W" toID="E31" toText="hospital course" type="BEFORE" senid="25" />
+<TLINK id="TL28" fromID="E43" fromText="Urachal duct remnanr" toID="E41" toText="OR" type="OVERLAP" senid="31" />
+<TLINK id="TL29" fromID="E41" fromText="OR" toID="T5" toText="04-01" type="OVERLAP" senid="31" />
+<TLINK id="TL30" fromID="E42" fromText="exploration of cord" toID="E41" toText="OR" type="OVERLAP" senid="31" />
+<TLINK id="TL31" fromID="E44" fromText="removed" toID="E41" toText="OR" type="OVERLAP" senid="31" />
+<TLINK id="TL32" fromID="E45" fromText="bladder repaired" toID="E41" toText="OR" type="OVERLAP" senid="31" />
+<TLINK id="TL33" fromID="E29" fromText="Apgars" toID="E28" toText="Vaginal delivery" type="AFTER" senid="21" />
+<TLINK id="TL34" fromID="E10" fromText="hypothyroidism" toID="E11" toText="Levoxyl" type="OVERLAP" senid="11" />
+<TLINK id="TL35" fromID="E17" fromText="This pregnancy" toID="E20" toText="presented" type="AFTER" senid="14" />
+<TLINK id="TL36" fromID="E18" fromText="a cyst" toID="E19" toText="fetal ultrasound study" type="BEFORE" senid="14" />
+<TLINK id="TL37" fromID="E18" fromText="a cyst" toID="E17" toText="This pregnancy" type="OVERLAP" senid="14" />
+<TLINK id="TL38" fromID="T2" fromText="18 weeks" toID="E19" toText="fetal ultrasound study" type="BEFORE" senid="14" />
+<TLINK id="TL39" fromID="E35" fromText="stable" toID="E34" toText="D-sticks" type="OVERLAP" senid="27" />
+<TLINK id="TL40" fromID="T3" fromText="ad lib" toID="E36" toText="breast feed" type="OVERLAP" senid="27" />
+<TLINK id="TL41" fromID="E36" fromText="breast feed" toID="E35" toText="stable" type="OVERLAP" senid="27" />
+<TLINK id="TL42" fromID="E37" fromText="feeding" toID="E36" toText="breast feed" type="OVERLAP" senid="27" />
+<TLINK id="TL43" fromID="E22" fromText="perineal sepsis risk factors" toID="E23" toText="maternal fever" type="OVERLAP" senid="16" />
+<TLINK id="TL44" fromID="E57" fromText="a white count" toID="E56" toText="Initial CBC" type="OVERLAP" senid="38" />
+<TLINK id="TL45" fromID="E58" fromText="platelet count" toID="E56" toText="Initial CBC" type="OVERLAP" senid="38" />
+<TLINK id="TL46" fromID="E59" fromText="polys" toID="E56" toText="Initial CBC" type="OVERLAP" senid="38" />
+<TLINK id="TL47" fromID="E60" fromText="bands" toID="E56" toText="Initial CBC" type="OVERLAP" senid="38" />
+<TLINK id="TL48" fromID="E61" fromText="lymphs" toID="E56" toText="Initial CBC" type="OVERLAP" senid="38" />
+<TLINK id="TL49" fromID="E62" fromText="Blood cultures" toID="E54" toText="blood culture" type="OVERLAP" senid="38" />
+<TLINK id="TL50" fromID="E46" fromText="Post op course" toID="E47" toText="unremrakable" type="OVERLAP" senid="33" />
+<TLINK id="TL51" fromID="E3" fromText="Prenatal screens" toID="E4" toText="blood type" type="OVERLAP" senid="9" />
+<TLINK id="TL52" fromID="E4" fromText="blood type" toID="E5" toText="antibody screen" type="OVERLAP" senid="9" />
+<TLINK id="TL53" fromID="E5" fromText="antibody screen" toID="E6" toText="hepatitis B surface antigen" type="OVERLAP" senid="9" />
+<TLINK id="TL54" fromID="E7" fromText="RPR" toID="E6" toText="hepatitis B surface antigen" type="OVERLAP" senid="9" />
+<TLINK id="TL55" fromID="E7" fromText="RPR" toID="E8" toText="rubella" type="OVERLAP" senid="9" />
+<TLINK id="TL56" fromID="E8" fromText="rubella" toID="E9" toText="GBS" type="OVERLAP" senid="9" />
+<TLINK id="TL57" fromID="E34" fromText="D-sticks" toID="E33" toText="D10W" type="OVERLAP" senid="26" />
+<TLINK id="TL58" fromID="E43" fromText="Urachal duct remnanr" toID="E44" toText="removed" type="BEFORE" senid="32" />
+<TLINK id="TL59" fromID="E46" fromText="Post op course" toID="T5" toText="04-01" type="AFTER" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

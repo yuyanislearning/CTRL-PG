@@ -74,5 +74,49 @@ The patient is now transferred to Cambridge Health Alliance for cardiac catheter
 <TIMEX3 id="T5" start="685" end="689" text="2005" type="DATE" val="2005" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2016-09-05" type="ADMISSION" dvalue="2016-09-05" />
 <SECTIME id="S1" start="46" end="56" text="2016-09-14" type="DISCHARGE" dvalue="2016-09-14" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2016-09-05" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E11" fromText="shortness of breath" toID="E10" toText="denies" type="BEFORE" senid="10" />
+<TLINK id="TL3" fromID="E8" fromText="pain" toID="E15" toText="The pain" type="OVERLAP" senid="10" />
+<TLINK id="TL4" fromID="E11" fromText="shortness of breath" toID="E12" toText="dizziness" type="OVERLAP" senid="10" />
+<TLINK id="TL5" fromID="E13" fromText="diaphoresis" toID="E12" toText="dizziness" type="OVERLAP" senid="10" />
+<TLINK id="TL6" fromID="E13" fromText="diaphoresis" toID="E14" toText="nausea" type="OVERLAP" senid="10" />
+<TLINK id="TL7" fromID="E36" fromText="inverted T waves in V5 and V6" toID="E37" toText="transferred" type="BEFORE" senid="19" />
+<TLINK id="TL8" fromID="E37" fromText="transferred" toID="E38" toText="Cambridge Health Alliance" type="BEFORE" senid="19" />
+<TLINK id="TL9" fromID="E39" fromText="cardiac catheterization" toID="E38" toText="Cambridge Health Alliance" type="OVERLAP" senid="19" />
+<TLINK id="TL10" fromID="E1" fromText="Discharge" toID="T1" toText="2016-09-14" type="OVERLAP" senid="3" />
+<TLINK id="TL11" fromID="E4" fromText="prior myocardial infarction" toID="E5" toText="a percutaneous transluminal coronary angioplasty of the right coronary artery" type="OVERLAP" senid="8" />
+<TLINK id="TL12" fromID="E3" fromText="hyperlipidemia" toID="E2" toText="hypertension" type="OVERLAP" senid="8" />
+<TLINK id="TL13" fromID="E3" fromText="hyperlipidemia" toID="E4" toText="prior myocardial infarction" type="OVERLAP" senid="8" />
+<TLINK id="TL14" fromID="E5" fromText="a percutaneous transluminal coronary angioplasty of the right coronary artery" toID="T2" toText="2005" type="OVERLAP" senid="8" />
+<TLINK id="TL15" fromID="E5" fromText="a percutaneous transluminal coronary angioplasty of the right coronary artery" toID="E6" toText="the Cambridge Health Alliance" type="OVERLAP" senid="8" />
+<TLINK id="TL16" fromID="E29" fromText="nitroglycerin paste" toID="E30" toText="IV Integrelin" type="OVERLAP" senid="17" />
+<TLINK id="TL17" fromID="E30" fromText="IV Integrelin" toID="E31" toText="Plavix" type="OVERLAP" senid="17" />
+<TLINK id="TL18" fromID="T8" fromText="that time" toID="T6" toText="2016-09-03" type="OVERLAP" senid="17" />
+<TLINK id="TL19" fromID="E28" fromText="continuing chest pain" toID="E29" toText="nitroglycerin paste" type="BEFORE" senid="16" />
+<TLINK id="TL20" fromID="E28" fromText="continuing chest pain" toID="E30" toText="IV Integrelin" type="BEFORE" senid="16" />
+<TLINK id="TL21" fromID="E28" fromText="continuing chest pain" toID="E31" toText="Plavix" type="OVERLAP" senid="16" />
+<TLINK id="TL22" fromID="E28" fromText="continuing chest pain" toID="T6" toText="2016-09-03" type="OVERLAP" senid="16" />
+<TLINK id="TL23" fromID="E32" fromText="an NST EMI" toID="T8" toText="that time" type="OVERLAP" senid="18" />
+<TLINK id="TL24" fromID="E32" fromText="an NST EMI" toID="E33" toText="a peak CK" type="OVERLAP" senid="18" />
+<TLINK id="TL25" fromID="E32" fromText="an NST EMI" toID="E34" toText="a troponin" type="OVERLAP" senid="18" />
+<TLINK id="TL26" fromID="E33" fromText="a peak CK" toID="E34" toText="a troponin" type="OVERLAP" senid="18" />
+<TLINK id="TL27" fromID="E34" fromText="a troponin" toID="E35" toText="Electrocardiograms" type="OVERLAP" senid="18" />
+<TLINK id="TL28" fromID="E35" fromText="Electrocardiograms" toID="E36" toText="inverted T waves in V5 and V6" type="BEFORE" senid="18" />
+<TLINK id="TL29" fromID="E15" fromText="The pain" toID="E16" toText="rest" type="BEFORE" senid="11" />
+<TLINK id="TL30" fromID="E15" fromText="The pain" toID="E40" toText="pushing a wheelbarrow" type="AFTER" senid="11" />
+<TLINK id="TL31" fromID="E15" fromText="The pain" toID="T4" toText="30 seconds" type="OVERLAP" senid="11" />
+<TLINK id="TL32" fromID="E15" fromText="The pain" toID="E19" toText="pain" type="OVERLAP" senid="11" />
+<TLINK id="TL33" fromID="E18" fromText="pain" toID="E17" toText="denied" type="BEFORE" senid="12" />
+<TLINK id="TL34" fromID="E18" fromText="pain" toID="T5" toText="2005" type="AFTER" senid="12" />
+<TLINK id="TL35" fromID="E8" fromText="pain" toID="E7" toText="states" type="BEFORE" senid="9" />
+<TLINK id="TL36" fromID="E8" fromText="pain" toID="T3" toText="2016-09-02" type="AFTER" senid="9" />
+<TLINK id="TL37" fromID="E9" fromText="tightness in his back" toID="T3" toText="2016-09-02" type="AFTER" senid="9" />
+<TLINK id="TL38" fromID="E9" fromText="tightness in his back" toID="E8" toText="pain" type="OVERLAP" senid="9" />
+<TLINK id="TL39" fromID="E21" fromText="the emergency room" toID="E20" toText="informs" type="AFTER" senid="13" />
+<TLINK id="TL40" fromID="E23" fromText="Mass. Mental Health Center" toID="E22" toText="presented" type="AFTER" senid="14" />
+<TLINK id="TL41" fromID="E24" fromText="an myocardial infarction" toID="E25" toText="enzymes" type="OVERLAP" senid="14" />
+<TLINK id="TL42" fromID="E25" fromText="enzymes" toID="E23" toText="Mass. Mental Health Center" type="OVERLAP" senid="14" />
+<TLINK id="TL43" fromID="E26" fromText="electrocardiograms" toID="E23" toText="Mass. Mental Health Center" type="OVERLAP" senid="14" />
+<TLINK id="TL44" fromID="E27" fromText="dissecting aortic aneurysm" toID="E26" toText="electrocardiograms" type="BEFORE" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,57 @@
+e1 id: E18; e2 id: E66; e1 text: The antibiotics; e2 text: clinically well
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: T18; e1 text: The antibiotics; e2 text: 48 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E41; e2 id: T4; e1 text: room air; e2 text: day of life one
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T13; e2 id: T4; e1 text: that time; e2 text: day of life one
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E36; e2 id: T3; e1 text: A cerclage; e2 text: 18 weeks
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E21; e2 id: E41; e1 text: intubated; e2 text: room air
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E22; e1 text: intubated; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E40; e2 id: E22; e1 text: the CMED CSRU; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T0; e2 id: E65; e1 text: 31-6/7 weeks; e2 text: born
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E27; e2 id: E1; e1 text: cesarean section; e2 text: rupture of membranes
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E39; e2 id: T11; e1 text: Apgars; e2 text: one minute
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E39; e2 id: T12; e1 text: Apgars; e2 text: five minutes
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E5; e2 id: T5; e1 text: enteral feeds; e2 text: day of life number two
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E6; e2 id: T6; e1 text: full volume feedings; e2 text: day of life five
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: T17; e1 text: Ampicillin; e2 text: the time
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E16; e2 id: T17; e1 text: Gentamycin; e2 text: the time
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: T18; e1 text: Ampicillin; e2 text: 48 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E16; e2 id: T18; e1 text: Gentamycin; e2 text: 48 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E65; e2 id: E35; e1 text: born; e2 text: delivery
+ground truth: OVERLAP; prediction: BEFORE
+

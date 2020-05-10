@@ -1,0 +1,59 @@
+e1 id: E52; e2 id: T6; e1 text: the needle jejunostomy tube; e2 text: the first postoperative day
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E49; e2 id: E47; e1 text: Her wounds; e2 text: postoperative course
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E90; e2 id: E89; e1 text: numerous white cells; e2 text: a urine specimen
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E92; e2 id: E92; e1 text: Bactrim; e2 text: Bactrim
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E92; e2 id: T13; e1 text: Bactrim; e2 text: the day prior to discharge
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E88; e2 id: T13; e1 text: some dysuria; e2 text: the day prior to discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E94; e2 id: E95; e1 text: sensitivity; e2 text: pending
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: T13; e1 text: pending; e2 text: the day prior to discharge
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E113; e2 id: E34; e1 text: jejunostomy catheter; e2 text: postoperative nutrition
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E113; e2 id: E33; e1 text: jejunostomy catheter; e2 text: her operation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: E3; e1 text: healthy; e2 text: dysphagia
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E107; e2 id: E28; e1 text: a small ventral hernia; e2 text: abdominal exploration
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E29; e1 text: abdominal exploration; e2 text: a previous surgical incision
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E69; e2 id: E72; e1 text: her wounds; e2 text: the staples
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E80; e2 id: E81; e1 text: Surgical pathology report; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E46; e1 text: the recovery room; e2 text: good condition
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E21; e2 id: E22; e1 text: denies; e2 text: any abdominal pain
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E66; e2 id: E67; e1 text: discharge; e2 text: walking
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E12; e2 id: E10; e1 text: a gastric mass; e2 text: upper gastrointestinal series
+ground truth: BEFORE; prediction: OVERLAP
+

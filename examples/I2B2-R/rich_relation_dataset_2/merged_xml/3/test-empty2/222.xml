@@ -218,5 +218,111 @@ He reports that his primary physician is aware of his anemia and was in the proc
 <SECTIME id="S0" start="18" end="28" text="2012-03-23" type="ADMISSION" dvalue="2012-03-23" />
 <SECTIME id="S1" start="46" end="56" text="2012-03-26" type="DISCHARGE" dvalue="2012-03-26" />
 
+<TLINK id="TL1" fromID="E43" fromText="flagyl" toID="T20" toText="4 days" type="OVERLAP" senid="34" />
+<TLINK id="TL2" fromID="E44" fromText="his antibiotics" toID="E43" toText="flagyl" type="AFTER" senid="34" />
+<TLINK id="TL3" fromID="E9" fromText="FS" toID="E8" toText="pinpoint pupils" type="OVERLAP" senid="13" />
+<TLINK id="TL4" fromID="E19" fromText="unresponsive" toID="E20" toText="Unresponsiveness" type="OVERLAP" senid="24" />
+<TLINK id="TL5" fromID="E92" fromText="a wish to kill himself" toID="T15" toText="2 days PTA" type="OVERLAP" senid="20" />
+<TLINK id="TL6" fromID="E93" fromText="fixing things" toID="E92" toText="a wish to kill himself" type="AFTER" senid="20" />
+<TLINK id="TL7" fromID="E54" fromText="his paxil" toID="T6" toText="03-25" type="AFTER" senid="39" />
+<TLINK id="TL8" fromID="E122" fromText="the hospital" toID="E120" toText="this admission" type="OVERLAP" senid="39" />
+<TLINK id="TL9" fromID="E91" fromText="drank a large amt of alcohol" toID="T14" toText="night PTA" type="OVERLAP" senid="19" />
+<TLINK id="TL10" fromID="E89" fromText="100% FiO2" toID="E88" toText="ABG" type="OVERLAP" senid="18" />
+<TLINK id="TL11" fromID="E87" fromText="Hallmark Health System Monica" toID="E88" toText="ABG" type="OVERLAP" senid="18" />
+<TLINK id="TL12" fromID="E114" fromText="weaned off" toID="T22" toText="03-26" type="BEFORE" senid="37" />
+<TLINK id="TL13" fromID="E50" fromText="oxygen" toID="T22" toText="03-26" type="BEFORE" senid="37" />
+<TLINK id="TL14" fromID="E114" fromText="weaned off" toID="T5" toText="03-24" type="AFTER" senid="37" />
+<TLINK id="TL15" fromID="E115" fromText="significant event" toID="E114" toText="weaned off" type="BEFORE" senid="37" />
+<TLINK id="TL16" fromID="E131" fromText="regular diet" toID="E64" toText="his extubation" type="AFTER" senid="46" />
+<TLINK id="TL17" fromID="E130" fromText="trended down" toID="E128" toText="admitted" type="AFTER" senid="44" />
+<TLINK id="TL18" fromID="E7" fromText="agonal respirations" toID="E84" toText="called EMS" type="BEFORE" senid="12" />
+<TLINK id="TL19" fromID="E8" fromText="pinpoint pupils" toID="E84" toText="called EMS" type="BEFORE" senid="12" />
+<TLINK id="TL20" fromID="E63" fromText="His amylase" toID="E130" toText="trended down" type="OVERLAP" senid="45" />
+<TLINK id="TL21" fromID="E46" fromText="Airway protection" toID="E48" toText="airway protection" type="OVERLAP" senid="36" />
+<TLINK id="TL22" fromID="E81" fromText="went to sleep" toID="E80" toText="came home" type="OVERLAP" senid="10" />
+<TLINK id="TL23" fromID="E44" fromText="his antibiotics" toID="T4" toText="03-26" type="OVERLAP" senid="35" />
+<TLINK id="TL24" fromID="E106" fromText="able to communicate appropriately" toID="E34" toText="narcotic medications" type="OVERLAP" senid="29" />
+<TLINK id="TL25" fromID="E33" fromText="his level" toID="E34" toText="narcotic medications" type="OVERLAP" senid="29" />
+<TLINK id="TL26" fromID="E35" fromText="his blood" toID="E33" toText="his level" type="OVERLAP" senid="29" />
+<TLINK id="TL27" fromID="E73" fromText="Discharge" toID="T2" toText="2012-03-26" type="OVERLAP" senid="3" />
+<TLINK id="TL28" fromID="E87" fromText="Hallmark Health System Monica" toID="E74" toText="intubated" type="AFTER" senid="17" />
+<TLINK id="TL29" fromID="E89" fromText="100% FiO2" toID="E74" toText="intubated" type="AFTER" senid="17" />
+<TLINK id="TL30" fromID="E124" fromText="taking PO" toID="E123" toText="Paxil" type="BEFORE" senid="41" />
+<TLINK id="TL31" fromID="E65" fromText="borderline anemia" toID="E133" toText="admitted" type="BEFORE" senid="47" />
+<TLINK id="TL32" fromID="E66" fromText="Fe studies" toID="E133" toText="admitted" type="OVERLAP" senid="47" />
+<TLINK id="TL33" fromID="E136" fromText="improved" toID="T24" toText="3/21" type="OVERLAP" senid="47" />
+<TLINK id="TL34" fromID="E134" fromText="decreased" toID="E69" toText="fluid resucitation" type="OVERLAP" senid="47" />
+<TLINK id="TL35" fromID="E132" fromText="Anemia" toID="E65" toText="borderline anemia" type="OVERLAP" senid="47" />
+<TLINK id="TL36" fromID="E65" fromText="borderline anemia" toID="E66" toText="Fe studies" type="BEFORE" senid="47" />
+<TLINK id="TL37" fromID="E65" fromText="borderline anemia" toID="E67" toText="anemia of chronic disease" type="OVERLAP" senid="47" />
+<TLINK id="TL38" fromID="E68" fromText="his hct" toID="E134" toText="decreased" type="OVERLAP" senid="47" />
+<TLINK id="TL39" fromID="E70" fromText="His hct" toID="E135" toText="stabilized" type="OVERLAP" senid="47" />
+<TLINK id="TL40" fromID="E135" fromText="stabilized" toID="E136" toText="improved" type="OVERLAP" senid="47" />
+<TLINK id="TL41" fromID="E85" fromText="his pupils dilated" toID="E10" toText="IV Narcan" type="OVERLAP" senid="15" />
+<TLINK id="TL42" fromID="E14" fromText="agitated" toID="E10" toText="IV Narcan" type="AFTER" senid="15" />
+<TLINK id="TL43" fromID="E74" fromText="intubated" toID="E14" toText="agitated" type="AFTER" senid="15" />
+<TLINK id="TL44" fromID="E13" fromText="combative" toID="E14" toText="agitated" type="OVERLAP" senid="15" />
+<TLINK id="TL45" fromID="E61" fromText="elevated amylase" toID="T7" toText="03-23" type="BEFORE" senid="43" />
+<TLINK id="TL46" fromID="E127" fromText="High amylase" toID="E61" toText="elevated amylase" type="OVERLAP" senid="43" />
+<TLINK id="TL47" fromID="E62" fromText="non-elevated lipase" toID="E61" toText="elevated amylase" type="OVERLAP" senid="43" />
+<TLINK id="TL48" fromID="E129" fromText="pancreatic process" toID="E61" toText="elevated amylase" type="OVERLAP" senid="43" />
+<TLINK id="TL49" fromID="E105" fromText="improved" toID="T17" toText="03-24" type="OVERLAP" senid="28" />
+<TLINK id="TL50" fromID="E105" fromText="improved" toID="T16" toText="03-23" type="AFTER" senid="28" />
+<TLINK id="TL51" fromID="E105" fromText="improved" toID="E104" toText="His mental status" type="OVERLAP" senid="28" />
+<TLINK id="TL52" fromID="E72" fromText="Admission" toID="T1" toText="2012-03-23" type="OVERLAP" senid="2" />
+<TLINK id="TL53" fromID="E59" fromText="glycosuria" toID="E58" toText="his elevated FS" type="OVERLAP" senid="42" />
+<TLINK id="TL54" fromID="E0" fromText="presents" toID="E3" toText="unresponsive" type="AFTER" senid="8" />
+<TLINK id="TL55" fromID="E77" fromText="reports" toID="E0" toText="presents" type="OVERLAP" senid="8" />
+<TLINK id="TL56" fromID="E103" fromText="todrug overdose" toID="E20" toText="Unresponsiveness" type="BEFORE" senid="25" />
+<TLINK id="TL57" fromID="E21" fromText="oxycontin" toID="E103" toText="todrug overdose" type="OVERLAP" senid="25" />
+<TLINK id="TL58" fromID="E22" fromText="(+) BNZ" toID="E23" toText="tox screen" type="OVERLAP" senid="25" />
+<TLINK id="TL59" fromID="E23" fromText="tox screen" toID="E20" toText="Unresponsiveness" type="BEFORE" senid="25" />
+<TLINK id="TL60" fromID="E24" fromText="cardiac ischemia" toID="E20" toText="Unresponsiveness" type="OVERLAP" senid="25" />
+<TLINK id="TL61" fromID="E26" fromText="seizure" toID="E20" toText="Unresponsiveness" type="OVERLAP" senid="25" />
+<TLINK id="TL62" fromID="E28" fromText="CVA" toID="E20" toText="Unresponsiveness" type="BEFORE" senid="25" />
+<TLINK id="TL63" fromID="E121" fromText="further episodes" toID="E122" toText="the hospital" type="OVERLAP" senid="40" />
+<TLINK id="TL64" fromID="E123" fromText="Paxil" toID="E54" toText="his paxil" type="OVERLAP" senid="40" />
+<TLINK id="TL65" fromID="E75" fromText="alert" toID="T19" toText="3/21" type="OVERLAP" senid="31" />
+<TLINK id="TL66" fromID="E108" fromText="appropriate" toID="T19" toText="3/21" type="OVERLAP" senid="31" />
+<TLINK id="TL67" fromID="E109" fromText="answers questions" toID="T19" toText="3/21" type="OVERLAP" senid="31" />
+<TLINK id="TL68" fromID="E110" fromText="follows command" toID="T19" toText="3/21" type="OVERLAP" senid="31" />
+<TLINK id="TL69" fromID="E37" fromText="exam" toID="T19" toText="3/21" type="AFTER" senid="31" />
+<TLINK id="TL70" fromID="E98" fromText="aspiration pna" toID="E94" toText="Monica" type="BEFORE" senid="21" />
+<TLINK id="TL71" fromID="E95" fromText="charcoal" toID="E94" toText="Monica" type="OVERLAP" senid="21" />
+<TLINK id="TL72" fromID="E96" fromText="IV levofloxacin" toID="E94" toText="Monica" type="OVERLAP" senid="21" />
+<TLINK id="TL73" fromID="E97" fromText="IV metronidazole" toID="E96" toText="IV levofloxacin" type="OVERLAP" senid="21" />
+<TLINK id="TL74" fromID="E107" fromText="a stable mental level" toID="E36" toText="extubation" type="OVERLAP" senid="30" />
+<TLINK id="TL75" fromID="E36" fromText="extubation" toID="T3" toText="03-24" type="OVERLAP" senid="30" />
+<TLINK id="TL76" fromID="E83" fromText="unable to do so" toID="E84" toText="called EMS" type="BEFORE" senid="11" />
+<TLINK id="TL77" fromID="E82" fromText="tried to awaken him" toID="T13" toText="11 a.m." type="OVERLAP" senid="11" />
+<TLINK id="TL78" fromID="E83" fromText="unable to do so" toID="E82" toText="tried to awaken him" type="OVERLAP" senid="11" />
+<TLINK id="TL79" fromID="E6" fromText="any blood / urine / emesis / stool in the bed" toID="E82" toText="tried to awaken him" type="OVERLAP" senid="11" />
+<TLINK id="TL80" fromID="E10" fromText="IV Narcan" toID="E9" toText="FS" type="OVERLAP" senid="14" />
+<TLINK id="TL81" fromID="E31" fromText="elevated CK" toID="E30" toText="His cardiac enzymes" type="OVERLAP" senid="27" />
+<TLINK id="TL82" fromID="E16" fromText="etomidate" toID="E74" toText="intubated" type="OVERLAP" senid="16" />
+<TLINK id="TL83" fromID="E15" fromText="airway protection" toID="E74" toText="intubated" type="OVERLAP" senid="16" />
+<TLINK id="TL84" fromID="E17" fromText="succinate" toID="E16" toText="etomidate" type="OVERLAP" senid="16" />
+<TLINK id="TL85" fromID="E18" fromText="a traumatic intubation" toID="E74" toText="intubated" type="OVERLAP" senid="16" />
+<TLINK id="TL86" fromID="E86" fromText="his teeth was chipped" toID="E18" toText="a traumatic intubation" type="OVERLAP" senid="16" />
+<TLINK id="TL87" fromID="E117" fromText="stabilized" toID="E51" toText="his atenolol" type="OVERLAP" senid="38" />
+<TLINK id="TL88" fromID="E51" fromText="his atenolol" toID="T23" toText="03-25" type="AFTER" senid="38" />
+<TLINK id="TL89" fromID="E52" fromText="verapamil" toID="E51" toText="his atenolol" type="OVERLAP" senid="38" />
+<TLINK id="TL90" fromID="E53" fromText="his blood pressure" toID="E117" toText="stabilized" type="OVERLAP" senid="38" />
+<TLINK id="TL91" fromID="E67" fromText="anemia of chronic disease" toID="E71" toText="his anemia" type="OVERLAP" senid="48" />
+<TLINK id="TL92" fromID="E41" fromText="mechanical ventilation" toID="T9" toText="10/11" type="OVERLAP" senid="33" />
+<TLINK id="TL93" fromID="E41" fromText="mechanical ventilation" toID="T8" toText="9/13" type="AFTER" senid="33" />
+<TLINK id="TL94" fromID="E43" fromText="flagyl" toID="E42" toText="levofloxacin" type="OVERLAP" senid="33" />
+<TLINK id="TL95" fromID="E79" fromText="drove her to school" toID="E78" toText="vomited" type="AFTER" senid="9" />
+<TLINK id="TL96" fromID="E80" fromText="came home" toID="E79" toText="drove her to school" type="AFTER" senid="9" />
+<TLINK id="TL97" fromID="E76" fromText="awoke" toID="T0" toText="7 a.m." type="OVERLAP" senid="9" />
+<TLINK id="TL98" fromID="E4" fromText="cold" toID="E76" toText="awoke" type="OVERLAP" senid="9" />
+<TLINK id="TL99" fromID="E5" fromText="shivery" toID="E76" toText="awoke" type="OVERLAP" senid="9" />
+<TLINK id="TL100" fromID="E78" fromText="vomited" toID="E76" toText="awoke" type="OVERLAP" senid="9" />
+<TLINK id="TL101" fromID="T12" fromText="several times" toID="E78" toText="vomited" type="OVERLAP" senid="9" />
+<TLINK id="TL102" fromID="E27" fromText="post-ictal state" toID="E26" toText="seizure" type="OVERLAP" senid="26" />
+<TLINK id="TL103" fromID="E32" fromText="MI" toID="E24" toText="cardiac ischemia" type="OVERLAP" senid="26" />
+<TLINK id="TL104" fromID="E40" fromText="unconscious" toID="E39" toText="aspiration pneumonia" type="OVERLAP" senid="32" />
+<TLINK id="TL105" fromID="E38" fromText="Pulmonary infiltrates" toID="E39" toText="aspiration pneumonia" type="OVERLAP" senid="32" />
+<TLINK id="TL106" fromID="E111" fromText="ARDS" toID="E39" toText="aspiration pneumonia" type="AFTER" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

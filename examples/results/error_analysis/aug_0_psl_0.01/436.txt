@@ -1,0 +1,57 @@
+e1 id: E44; e2 id: E23; e1 text: services; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E37; e2 id: E36; e1 text: the ICU; e2 text: the floor
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T11; e2 id: T10; e1 text: postoperative day #3; e2 text: postoperative day #2
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T12; e2 id: T11; e1 text: postoperative day #4; e2 text: postoperative day #3
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E22; e2 id: E35; e1 text: remained; e2 text: transferred
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E19; e2 id: T9; e1 text: The NG tube; e2 text: postoperative day #2
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T10; e2 id: T9; e1 text: postoperative day #2; e2 text: postoperative day #2
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E20; e2 id: E39; e1 text: clear liquids; e2 text: advanced
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E40; e2 id: E39; e1 text: tolerated; e2 text: advanced
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T14; e2 id: T13; e1 text: 7; e2 text: postoperative day #6
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E41; e2 id: T15; e1 text: out of bed; e2 text: 7/10/98
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T15; e2 id: T14; e1 text: 7/10/98; e2 text: 7
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T8; e2 id: E34; e1 text: the following morning; e2 text: extremely well
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T5; e2 id: E30; e1 text: 7/4/98; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: E33; e1 text: a left renal mass; e2 text: biopsied
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: E31; e1 text: EGD directed biopsy; e2 text: diagnosis
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T7; e2 id: T5; e1 text: 7/4/98; e2 text: 7/4/98
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: E27; e1 text: elevated bilirubins , alkaline phosphatase , and transaminases; e2 text: Eifro Medical Center
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: E17; e1 text: complications; e2 text: a Whipple procedure
+ground truth: OVERLAP; prediction: AFTER
+

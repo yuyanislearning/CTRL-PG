@@ -1,0 +1,54 @@
+e1 id: E121; e2 id: T11; e1 text: full volume feedings; e2 text: day of life seven
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E120; e2 id: E35; e1 text: advanced; e2 text: enteral feedings
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E103; e2 id: E102; e1 text: admitted; e2 text: presented
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E102; e2 id: T23; e1 text: presented; e2 text: 23 and 1/7 weeks
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E25; e2 id: E23; e1 text: surfactant; e2 text: intubated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E124; e2 id: T30; e1 text: breast milk; e2 text: day of life 11
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E126; e2 id: E125; e1 text: single phototherapy; e2 text: double phototherapy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E101; e2 id: T23; e1 text: preterm labor; e2 text: 23 and 1/7 weeks
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E20; e2 id: E110; e1 text: Initial capillary blood gas; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T27; e2 id: E16; e1 text: five minutes; e2 text: Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E61; e2 id: E68; e1 text: The most recent hematocrit; e2 text: Repeat CBC
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: E107; e1 text: blow by oxygen; e2 text: delivered
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: E107; e1 text: routine care; e2 text: delivered
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E108; e2 id: E107; e1 text: delivery room; e2 text: delivered
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E81; e2 id: E80; e1 text: a slight increase of echogenicity in the caudothalamic groove; e2 text: A repeat head ultrasound
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T34; e2 id: E133; e1 text: one month; e2 text: A repeat head ultrasound
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: T24; e1 text: a full course of betamethasone; e2 text: 24 weeks
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E85; e2 id: E136; e1 text: ROP; e2 text: eyes examined
+ground truth: BEFORE; prediction: OVERLAP
+

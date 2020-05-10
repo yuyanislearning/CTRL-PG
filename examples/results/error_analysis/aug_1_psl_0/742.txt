@@ -1,0 +1,42 @@
+e1 id: E7; e2 id: E21; e1 text: inferior HK; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E6; e2 id: E21; e1 text: Echo; e2 text: showed
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E15; e2 id: T4; e1 text: scattered rales; e2 text: POD #2
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E16; e2 id: T4; e1 text: temp; e2 text: POD #2
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E2; e2 id: E28; e1 text: pre-op eval.; e2 text: ventral hernia repair
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E13; e2 id: E25; e1 text: chest tubes; e2 text: Extubated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E11; e2 id: E44; e1 text: phenylephrine; e2 text: stable condition
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E18; e2 id: T5; e1 text: pacing wires; e2 text: the next day
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E17; e2 id: T5; e1 text: Afebrile; e2 text: the next day
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E50; e2 id: E18; e1 text: incident; e2 text: pacing wires
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E52; e2 id: T6; e1 text: VNA services; e2 text: POD #4
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E45; e2 id: E47; e1 text: Gentle diuresis; e2 text: started
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E47; e1 text: beta blockade; e2 text: started
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E24; e1 text: OR; e2 text: Transferred
+ground truth: BEFORE; prediction: AFTER
+

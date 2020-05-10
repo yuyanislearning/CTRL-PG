@@ -1,0 +1,33 @@
+e1 id: E37; e2 id: E39; e1 text: Cesarean section; e2 text: Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: E66; e1 text: The antibiotics; e2 text: clinically well
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: T18; e1 text: The antibiotics; e2 text: 48 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T13; e2 id: T4; e1 text: that time; e2 text: day of life one
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E36; e2 id: T3; e1 text: A cerclage; e2 text: 18 weeks
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: E35; e1 text: Bartley fertilization; e2 text: delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E27; e2 id: E1; e1 text: cesarean section; e2 text: rupture of membranes
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E39; e2 id: T12; e1 text: Apgars; e2 text: five minutes
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E15; e2 id: T18; e1 text: Ampicillin; e2 text: 48 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E16; e2 id: T18; e1 text: Gentamycin; e2 text: 48 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E65; e2 id: E35; e1 text: born; e2 text: delivery
+ground truth: OVERLAP; prediction: BEFORE
+

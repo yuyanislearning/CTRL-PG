@@ -65,5 +65,28 @@ He is now preop for a coronary artery bypass graft .
 <TIMEX3 id="T7" start="994" end="997" text="now" type="DATE" val="2015-06-10" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2015-06-10" type="ADMISSION" dvalue="2015-06-10" />
 <SECTIME id="S1" start="46" end="56" text="2015-06-11" type="DISCHARGE" dvalue="2015-06-11" />
+<TLINK id="TL1" fromID="E23" fromText="Admission" toID="T1" toText="2015-06-10" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E7" fromText="short of breath" toID="E30" toText="exertion" type="OVERLAP" senid="10" />
+<TLINK id="TL3" fromID="E7" fromText="short of breath" toID="E29" toText="occasional chest tightness" type="OVERLAP" senid="10" />
+<TLINK id="TL4" fromID="E30" fromText="exertion" toID="T0" toText="one month" type="OVERLAP" senid="10" />
+<TLINK id="TL5" fromID="E0" fromText="Discharge" toID="T2" toText="2015-06-11" type="OVERLAP" senid="3" />
+<TLINK id="TL6" fromID="E2" fromText="myocardial infarction" toID="T3" toText="9/02" type="OVERLAP" senid="8" />
+<TLINK id="TL7" fromID="E22" fromText="a coronary artery bypass graft" toID="E35" toText="preop" type="OVERLAP" senid="15" />
+<TLINK id="TL8" fromID="E35" fromText="preop" toID="T7" toText="now" type="OVERLAP" senid="15" />
+<TLINK id="TL9" fromID="E6" fromText="fixed inferior wall defect" toID="E24" toText="showed" type="BEFORE" senid="9" />
+<TLINK id="TL10" fromID="E28" fromText="ischemia" toID="E24" toText="showed" type="BEFORE" senid="9" />
+<TLINK id="TL11" fromID="E5" fromText="a Myoview" toID="T4" toText="05-04" type="OVERLAP" senid="9" />
+<TLINK id="TL12" fromID="E24" fromText="showed" toID="E5" toText="a Myoview" type="OVERLAP" senid="9" />
+<TLINK id="TL13" fromID="E32" fromText="OM" toID="E33" toText="revealed" type="BEFORE" senid="13" />
+<TLINK id="TL14" fromID="E16" fromText="obstructive disease" toID="E31" toText="cardiac catheterization" type="BEFORE" senid="13" />
+<TLINK id="TL15" fromID="E17" fromText="left anterior descending minimal disease" toID="E31" toText="cardiac catheterization" type="BEFORE" senid="13" />
+<TLINK id="TL16" fromID="E18" fromText="left circumflex 40% mid-stenosis" toID="E31" toText="cardiac catheterization" type="BEFORE" senid="13" />
+<TLINK id="TL17" fromID="E19" fromText="Right coronary artery 100% mid-stenosis" toID="E31" toText="cardiac catheterization" type="BEFORE" senid="13" />
+<TLINK id="TL18" fromID="E31" fromText="cardiac catheterization" toID="T6" toText="today" type="OVERLAP" senid="13" />
+<TLINK id="TL19" fromID="E31" fromText="cardiac catheterization" toID="E33" toText="revealed" type="OVERLAP" senid="13" />
+<TLINK id="TL20" fromID="E34" fromText="LVF" toID="E26" toText="showed" type="OVERLAP" senid="14" />
+<TLINK id="TL21" fromID="E20" fromText="Echo" toID="T5" toText="9/02" type="OVERLAP" senid="14" />
+<TLINK id="TL22" fromID="E20" fromText="Echo" toID="E26" toText="showed" type="OVERLAP" senid="14" />
+<TLINK id="TL23" fromID="E34" fromText="LVF" toID="E21" toText="moderate dilatation of the descending aorta" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

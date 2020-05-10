@@ -156,5 +156,109 @@ The patient continued to do well on the medical regimen and was without chest pa
 <TIMEX3 id="T1" start="46" end="56" text="2016-04-03" type="DATE" val="2016-04-03" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2016-03-30" type="ADMISSION" dvalue="2016-03-30" />
 <SECTIME id="S1" start="46" end="56" text="2016-04-03" type="DISCHARGE" dvalue="2016-04-03" />
+<TLINK id="TL1" fromID="E99" fromText="do well" toID="T11" toText="04-03" type="OVERLAP" senid="34" />
+<TLINK id="TL2" fromID="E99" fromText="do well" toID="E100" toText="the medical regimen" type="OVERLAP" senid="34" />
+<TLINK id="TL3" fromID="E101" fromText="chest pain" toID="E99" toText="do well" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E101" fromText="chest pain" toID="E102" toText="shortness of breath" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E102" fromText="shortness of breath" toID="E103" toText="any other symptoms" type="OVERLAP" senid="34" />
+<TLINK id="TL6" fromID="E30" fromText="admitted" toID="E31" toText="an elective coronary artery bypass graft" type="BEFORE" senid="13" />
+<TLINK id="TL7" fromID="E30" fromText="admitted" toID="T6" toText="2016-03-30" type="OVERLAP" senid="13" />
+<TLINK id="TL8" fromID="E32" fromText="surgery" toID="E31" toText="an elective coronary artery bypass graft" type="OVERLAP" senid="13" />
+<TLINK id="TL9" fromID="E66" fromText="the chest tube" toID="T7" toText="04-01" type="BEFORE" senid="24" />
+<TLINK id="TL10" fromID="E67" fromText="transcutaneous pacing wires" toID="T8" toText="postoperative day two" type="OVERLAP" senid="24" />
+<TLINK id="TL11" fromID="T7" fromText="04-01" toID="T8" toText="postoperative day two" type="OVERLAP" senid="24" />
+<TLINK id="TL12" fromID="E65" fromText="doing well" toID="T7" toText="04-01" type="OVERLAP" senid="24" />
+<TLINK id="TL13" fromID="E55" fromText="dopamine" toID="E56" toText="the beta blocker" type="BEFORE" senid="20" />
+<TLINK id="TL14" fromID="E55" fromText="dopamine" toID="E57" toText="ACE inhibitor" type="BEFORE" senid="20" />
+<TLINK id="TL15" fromID="E57" fromText="ACE inhibitor" toID="E56" toText="the beta blocker" type="OVERLAP" senid="20" />
+<TLINK id="TL16" fromID="E52" fromText="aspirin" toID="E53" toText="Plavix" type="OVERLAP" senid="19" />
+<TLINK id="TL17" fromID="E54" fromText="statin" toID="E53" toText="Plavix" type="OVERLAP" senid="19" />
+<TLINK id="TL18" fromID="E55" fromText="dopamine" toID="E49" toText="the Coronary Care Unit Service for Western Mass . Hospital" type="OVERLAP" senid="19" />
+<TLINK id="TL19" fromID="E47" fromText="3-vessel disease" toID="E48" toText="admitted" type="BEFORE" senid="18" />
+<TLINK id="TL20" fromID="E50" fromText="an aborted coronary artery bypass graft" toID="E49" toText="the Coronary Care Unit Service for Western Mass . Hospital" type="BEFORE" senid="18" />
+<TLINK id="TL21" fromID="E51" fromText="a mobile aortic atheroma" toID="E50" toText="an aborted coronary artery bypass graft" type="AFTER" senid="18" />
+<TLINK id="TL22" fromID="E52" fromText="aspirin" toID="E48" toText="admitted" type="AFTER" senid="18" />
+<TLINK id="TL23" fromID="E49" fromText="the Coronary Care Unit Service for Western Mass . Hospital" toID="E48" toText="admitted" type="AFTER" senid="18" />
+<TLINK id="TL24" fromID="E28" fromText="Coumadin" toID="E29" toText="a goal INR" type="OVERLAP" senid="12" />
+<TLINK id="TL25" fromID="E28" fromText="Coumadin" toID="E27" toText="discharged" type="BEFORE" senid="12" />
+<TLINK id="TL26" fromID="E30" fromText="admitted" toID="E27" toText="discharged" type="AFTER" senid="12" />
+<TLINK id="TL27" fromID="E18" fromText="3-vessel disease" toID="E15" toText="a cardiac catheterization" type="BEFORE" senid="10" />
+<TLINK id="TL28" fromID="E15" fromText="a cardiac catheterization" toID="E16" toText="which" type="OVERLAP" senid="10" />
+<TLINK id="TL29" fromID="E17" fromText="revealed" toID="E15" toText="a cardiac catheterization" type="OVERLAP" senid="10" />
+<TLINK id="TL30" fromID="E19" fromText="diffuse 90% mid distal stenosis" toID="E18" toText="3-vessel disease" type="OVERLAP" senid="10" />
+<TLINK id="TL31" fromID="E20" fromText="90% left circumflex lesions" toID="E19" toText="diffuse 90% mid distal stenosis" type="AFTER" senid="10" />
+<TLINK id="TL32" fromID="E21" fromText="initial evaluation" toID="E12" toText="admitted" type="AFTER" senid="10" />
+<TLINK id="TL33" fromID="E76" fromText="discharged" toID="E74" toText="percutaneous coronary intervention" type="AFTER" senid="29" />
+<TLINK id="TL34" fromID="E77" fromText="the floor" toID="E76" toText="discharged" type="AFTER" senid="29" />
+<TLINK id="TL35" fromID="E74" fromText="percutaneous coronary intervention" toID="E75" toText="this admission" type="OVERLAP" senid="29" />
+<TLINK id="TL36" fromID="E77" fromText="the floor" toID="E78" toText="stabilization" type="OVERLAP" senid="29" />
+<TLINK id="TL37" fromID="E78" fromText="stabilization" toID="E79" toText="followup" type="OVERLAP" senid="29" />
+<TLINK id="TL38" fromID="E82" fromText="the floor" toID="E77" toText="the floor" type="OVERLAP" senid="29" />
+<TLINK id="TL39" fromID="E1" fromText="Discharge" toID="T1" toText="2016-04-03" type="OVERLAP" senid="3" />
+<TLINK id="TL40" fromID="E48" fromText="admitted" toID="E42" toText="transferred" type="OVERLAP" senid="17" />
+<TLINK id="TL41" fromID="E49" fromText="the Coronary Care Unit Service for Western Mass . Hospital" toID="E43" toText="the Coronary Care Unit Service" type="OVERLAP" senid="17" />
+<TLINK id="TL42" fromID="E42" fromText="transferred" toID="E32" toText="surgery" type="AFTER" senid="15" />
+<TLINK id="TL43" fromID="E38" fromText="the elevated stroke risk" toID="E39" toText="aortic cross-clamping" type="OVERLAP" senid="15" />
+<TLINK id="TL44" fromID="E38" fromText="the elevated stroke risk" toID="E40" toText="this finding" type="OVERLAP" senid="15" />
+<TLINK id="TL45" fromID="E72" fromText="Wellbutrin" toID="E73" toText="smoking cessation" type="OVERLAP" senid="28" />
+<TLINK id="TL46" fromID="E0" fromText="Admission" toID="T0" toText="2016-03-30" type="OVERLAP" senid="2" />
+<TLINK id="TL47" fromID="E9" fromText="an ejection fraction" toID="E7" toText="a transthoracic echocardiogram" type="OVERLAP" senid="8" />
+<TLINK id="TL48" fromID="E4" fromText="hypercholesterolemia" toID="E3" toText="hypertension" type="OVERLAP" senid="8" />
+<TLINK id="TL49" fromID="E4" fromText="hypercholesterolemia" toID="E5" toText="diabetes mellitus" type="OVERLAP" senid="8" />
+<TLINK id="TL50" fromID="E5" fromText="diabetes mellitus" toID="E6" toText="dilated cardiomyopathy" type="OVERLAP" senid="8" />
+<TLINK id="TL51" fromID="E6" fromText="dilated cardiomyopathy" toID="E7" toText="a transthoracic echocardiogram" type="BEFORE" senid="8" />
+<TLINK id="TL52" fromID="E7" fromText="a transthoracic echocardiogram" toID="T2" toText="2016-01-13" type="OVERLAP" senid="8" />
+<TLINK id="TL53" fromID="E8" fromText="showing" toID="E7" toText="a transthoracic echocardiogram" type="OVERLAP" senid="8" />
+<TLINK id="TL54" fromID="E9" fromText="an ejection fraction" toID="E10" toText="posterior and inferior apical akinesis" type="OVERLAP" senid="8" />
+<TLINK id="TL55" fromID="E10" fromText="posterior and inferior apical akinesis" toID="E11" toText="large left ventricular thrombus" type="OVERLAP" senid="8" />
+<TLINK id="TL56" fromID="T9" fromText="04-01" toID="T7" toText="04-01" type="OVERLAP" senid="25" />
+<TLINK id="TL57" fromID="E84" fromText="anticoagulation" toID="E83" toText="evaluation" type="AFTER" senid="31" />
+<TLINK id="TL58" fromID="E85" fromText="aortic thrombus" toID="E83" toText="evaluation" type="BEFORE" senid="31" />
+<TLINK id="TL59" fromID="E90" fromText="therapy" toID="E83" toText="evaluation" type="AFTER" senid="31" />
+<TLINK id="TL60" fromID="E87" fromText="anterior/apical akinesis noted" toID="E86" toText="an aortic plaque" type="OVERLAP" senid="31" />
+<TLINK id="TL61" fromID="E91" fromText="present" toID="E83" toText="evaluation" type="AFTER" senid="31" />
+<TLINK id="TL62" fromID="E58" fromText="the left ventricular thrombus" toID="E59" toText="her goal INR" type="BEFORE" senid="21" />
+<TLINK id="TL63" fromID="E62" fromText="a thoracotomy" toID="E61" toText="stable" type="OVERLAP" senid="21" />
+<TLINK id="TL64" fromID="E60" fromText="heparin" toID="E61" toText="stable" type="AFTER" senid="21" />
+<TLINK id="TL65" fromID="E62" fromText="a thoracotomy" toID="E63" toText="chest tube" type="OVERLAP" senid="21" />
+<TLINK id="TL66" fromID="E81" fromText="transferred" toID="E80" toText="did well" type="OVERLAP" senid="30" />
+<TLINK id="TL67" fromID="E82" fromText="the floor" toID="E81" toText="transferred" type="AFTER" senid="30" />
+<TLINK id="TL68" fromID="E82" fromText="the floor" toID="T10" toText="04-02" type="AFTER" senid="30" />
+<TLINK id="TL69" fromID="E83" fromText="evaluation" toID="E82" toText="the floor" type="OVERLAP" senid="30" />
+<TLINK id="TL70" fromID="E21" fromText="initial evaluation" toID="E22" toText="a coronary artery bypass graft" type="AFTER" senid="11" />
+<TLINK id="TL71" fromID="E23" fromText="the right coronary artery stenosis" toID="E21" toText="initial evaluation" type="BEFORE" senid="11" />
+<TLINK id="TL72" fromID="E26" fromText="a right internal carotid artery stent" toID="E24" toText="found" type="AFTER" senid="11" />
+<TLINK id="TL73" fromID="E24" fromText="found" toID="E21" toText="initial evaluation" type="OVERLAP" senid="11" />
+<TLINK id="TL74" fromID="E25" fromText="which" toID="E23" toText="the right coronary artery stenosis" type="OVERLAP" senid="11" />
+<TLINK id="TL75" fromID="E34" fromText="calcified" toID="E32" toText="surgery" type="OVERLAP" senid="14" />
+<TLINK id="TL76" fromID="E37" fromText="an irregular intra-aortic pedunculated lesion" toID="E35" toText="an intraoperative transesophageal echocardiogram" type="BEFORE" senid="14" />
+<TLINK id="TL77" fromID="E32" fromText="surgery" toID="E41" toText="a bypass graft" type="BEFORE" senid="14" />
+<TLINK id="TL78" fromID="E33" fromText="noted" toID="E32" toText="surgery" type="OVERLAP" senid="14" />
+<TLINK id="TL79" fromID="E35" fromText="an intraoperative transesophageal echocardiogram" toID="E32" toText="surgery" type="OVERLAP" senid="14" />
+<TLINK id="TL80" fromID="E36" fromText="revealed" toID="E35" toText="an intraoperative transesophageal echocardiogram" type="OVERLAP" senid="14" />
+<TLINK id="TL81" fromID="E40" fromText="this finding" toID="E34" toText="calcified" type="OVERLAP" senid="14" />
+<TLINK id="TL82" fromID="E40" fromText="this finding" toID="E37" toText="an irregular intra-aortic pedunculated lesion" type="AFTER" senid="14" />
+<TLINK id="TL83" fromID="E41" fromText="a bypass graft" toID="E31" toText="an elective coronary artery bypass graft" type="OVERLAP" senid="14" />
+<TLINK id="TL84" fromID="E72" fromText="Wellbutrin" toID="E71" toText="ACE inhibitor" type="AFTER" senid="27" />
+<TLINK id="TL85" fromID="E44" fromText="medical management" toID="E45" toText="percutaneous coronary intervention" type="OVERLAP" senid="16" />
+<TLINK id="TL86" fromID="E43" fromText="the Coronary Care Unit Service" toID="E42" toText="transferred" type="AFTER" senid="16" />
+<TLINK id="TL87" fromID="E44" fromText="medical management" toID="E43" toText="the Coronary Care Unit Service" type="OVERLAP" senid="16" />
+<TLINK id="TL88" fromID="E45" fromText="percutaneous coronary intervention" toID="E46" toText="the admission" type="OVERLAP" senid="16" />
+<TLINK id="TL89" fromID="E97" fromText="the patient &#39;s leg bandage" toID="T11" toText="04-03" type="OVERLAP" senid="33" />
+<TLINK id="TL90" fromID="E98" fromText="the vein harvest" toID="E97" toText="the patient &#39;s leg bandage" type="OVERLAP" senid="33" />
+<TLINK id="TL91" fromID="E93" fromText="transfused one unit of packed red blood cells" toID="E92" toText="a slight hematocrit drop" type="OVERLAP" senid="33" />
+<TLINK id="TL92" fromID="E94" fromText="a goal hematocrit" toID="E93" toText="transfused one unit of packed red blood cells" type="AFTER" senid="33" />
+<TLINK id="TL93" fromID="E95" fromText="captopril" toID="T11" toText="04-03" type="AFTER" senid="33" />
+<TLINK id="TL94" fromID="E96" fromText="atenolol" toID="T11" toText="04-03" type="AFTER" senid="33" />
+<TLINK id="TL95" fromID="E12" fromText="admitted" toID="T4" toText="2016-02-03" type="BEFORE" senid="9" />
+<TLINK id="TL96" fromID="E13" fromText="a myocardial infarction" toID="E12" toText="admitted" type="BEFORE" senid="9" />
+<TLINK id="TL97" fromID="E12" fromText="admitted" toID="T3" toText="2016-01-21" type="OVERLAP" senid="9" />
+<TLINK id="TL98" fromID="E12" fromText="admitted" toID="T5" toText="which time" type="OVERLAP" senid="9" />
+<TLINK id="TL99" fromID="E14" fromText="ruled" toID="T5" toText="which time" type="OVERLAP" senid="9" />
+<TLINK id="TL100" fromID="E15" fromText="a cardiac catheterization" toID="E12" toText="admitted" type="OVERLAP" senid="9" />
+<TLINK id="TL101" fromID="E68" fromText="surgery" toID="T9" toText="04-01" type="OVERLAP" senid="26" />
+<TLINK id="TL102" fromID="E69" fromText="difficulty" toID="E68" toText="surgery" type="OVERLAP" senid="26" />
+<TLINK id="TL103" fromID="E89" fromText="which" toID="E88" toText="the left ventricular thrombus" type="OVERLAP" senid="32" />
+<TLINK id="TL104" fromID="E92" fromText="a slight hematocrit drop" toID="E91" toText="present" type="BEFORE" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

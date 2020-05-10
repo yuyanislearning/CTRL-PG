@@ -151,5 +151,94 @@ Of note , he did not become thrombocytopenic on this admission .
 <TIMEX3 id="T1" start="46" end="56" text="11/16/2003" type="DATE" val="2003-11-16" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="11/09/2003" type="ADMISSION" dvalue="2003-11-09" />
 <SECTIME id="S1" start="46" end="56" text="11/16/2003" type="DISCHARGE" dvalue="2003-11-16" />
+<TLINK id="TL1" fromID="E54" fromText="This" toID="E53" toText="a repeat colonoscopy" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E73" fromText="His last reported INR" toID="E74" toText="discharge" type="OVERLAP" senid="34" />
+<TLINK id="TL3" fromID="E21" fromText="a small hiatal hernia" toID="E20" toText="demonstrated" type="BEFORE" senid="13" />
+<TLINK id="TL4" fromID="E19" fromText="an upper endoscopy" toID="E18" toText="seen by the GI team" type="AFTER" senid="13" />
+<TLINK id="TL5" fromID="E20" fromText="demonstrated" toID="E19" toText="an upper endoscopy" type="OVERLAP" senid="13" />
+<TLINK id="TL6" fromID="E56" fromText="the recent colonoscopy" toID="E55" toText="this" type="OVERLAP" senid="24" />
+<TLINK id="TL7" fromID="E55" fromText="this" toID="E54" toText="This" type="OVERLAP" senid="24" />
+<TLINK id="TL8" fromID="E56" fromText="the recent colonoscopy" toID="T5" toText="05/2003" type="OVERLAP" senid="24" />
+<TLINK id="TL9" fromID="E45" fromText="his hematocrit" toID="E47" toText="discharge" type="BEFORE" senid="20" />
+<TLINK id="TL10" fromID="E45" fromText="his hematocrit" toID="E46" toText="this" type="AFTER" senid="20" />
+<TLINK id="TL11" fromID="E43" fromText="hemodynamically stable" toID="E44" toText="the upper endoscopy" type="AFTER" senid="20" />
+<TLINK id="TL12" fromID="E46" fromText="this" toID="E44" toText="the upper endoscopy" type="OVERLAP" senid="20" />
+<TLINK id="TL13" fromID="E49" fromText="discharge" toID="E47" toText="discharge" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E41" fromText="fresh frozen plasma" toID="E40" toText="the upper endoscopy" type="BEFORE" senid="19" />
+<TLINK id="TL15" fromID="E42" fromText="his anticoagulation" toID="E41" toText="fresh frozen plasma" type="OVERLAP" senid="19" />
+<TLINK id="TL16" fromID="E44" fromText="the upper endoscopy" toID="E40" toText="the upper endoscopy" type="OVERLAP" senid="19" />
+<TLINK id="TL17" fromID="E35" fromText="a hyperplastic polyp" toID="E34" toText="demonstrated" type="BEFORE" senid="18" />
+<TLINK id="TL18" fromID="E34" fromText="demonstrated" toID="E33" toText="The biopsy" type="OVERLAP" senid="18" />
+<TLINK id="TL19" fromID="E36" fromText="acute and chronic inflammation" toID="E35" toText="a hyperplastic polyp" type="OVERLAP" senid="18" />
+<TLINK id="TL20" fromID="E37" fromText="erosion" toID="E36" toText="acute and chronic inflammation" type="OVERLAP" senid="18" />
+<TLINK id="TL21" fromID="E38" fromText="reactive epithelial changes" toID="E37" toText="erosion" type="OVERLAP" senid="18" />
+<TLINK id="TL22" fromID="E39" fromText="dysplasia" toID="E38" toText="reactive epithelial changes" type="OVERLAP" senid="18" />
+<TLINK id="TL23" fromID="E78" fromText="his Coumadin" toID="E76" toText="his anticoagulation" type="OVERLAP" senid="37" />
+<TLINK id="TL24" fromID="E11" fromText="His Coumadin" toID="T4" toText="the time" type="BEFORE" senid="12" />
+<TLINK id="TL25" fromID="E12" fromText="the bleeding" toID="T4" toText="the time" type="BEFORE" senid="12" />
+<TLINK id="TL26" fromID="E18" fromText="seen by the GI team" toID="E17" toText="the Coumadin" type="AFTER" senid="12" />
+<TLINK id="TL27" fromID="E13" fromText="his INR" toID="T4" toText="the time" type="BEFORE" senid="12" />
+<TLINK id="TL28" fromID="E16" fromText="continued bleeding" toID="E12" toText="the bleeding" type="OVERLAP" senid="12" />
+<TLINK id="TL29" fromID="E17" fromText="the Coumadin" toID="E11" toText="His Coumadin" type="OVERLAP" senid="12" />
+<TLINK id="TL30" fromID="E51" fromText="creatinine" toID="E50" toText="His last BUN" type="OVERLAP" senid="22" />
+<TLINK id="TL31" fromID="E52" fromText="an INR" toID="E51" toText="creatinine" type="OVERLAP" senid="22" />
+<TLINK id="TL32" fromID="E53" fromText="a repeat colonoscopy" toID="E50" toText="His last BUN" type="AFTER" senid="22" />
+<TLINK id="TL33" fromID="E77" fromText="artificial valves" toID="E75" toText="Valves" type="OVERLAP" senid="36" />
+<TLINK id="TL34" fromID="E6" fromText="hemodynamically stable" toID="E7" toText="his admission" type="OVERLAP" senid="10" />
+<TLINK id="TL35" fromID="E8" fromText="a proton pump inhibitor" toID="E6" toText="hemodynamically stable" type="OVERLAP" senid="10" />
+<TLINK id="TL36" fromID="E63" fromText="his aspirin" toID="E57" toText="discharge" type="BEFORE" senid="29" />
+<TLINK id="TL37" fromID="E64" fromText="simvastatin" toID="E63" toText="his aspirin" type="OVERLAP" senid="29" />
+<TLINK id="TL38" fromID="E65" fromText="his Lopressor" toID="E64" toText="simvastatin" type="OVERLAP" senid="29" />
+<TLINK id="TL39" fromID="E1" fromText="Discharge" toID="T1" toText="11/16/2003" type="OVERLAP" senid="3" />
+<TLINK id="TL40" fromID="E31" fromText="a small AVM" toID="E32" toText="cauterized" type="OVERLAP" senid="17" />
+<TLINK id="TL41" fromID="E33" fromText="The biopsy" toID="E32" toText="cauterized" type="AFTER" senid="17" />
+<TLINK id="TL42" fromID="E33" fromText="The biopsy" toID="E30" toText="cold biopsies" type="OVERLAP" senid="17" />
+<TLINK id="TL43" fromID="E35" fromText="a hyperplastic polyp" toID="E29" toText="Another polyp" type="OVERLAP" senid="17" />
+<TLINK id="TL44" fromID="E83" fromText="his diuretics" toID="E81" toText="this hospital course" type="BEFORE" senid="41" />
+<TLINK id="TL45" fromID="E85" fromText="diuresed" toID="E83" toText="his diuretics" type="AFTER" senid="41" />
+<TLINK id="TL46" fromID="E82" fromText="hypervolemic" toID="E83" toText="his diuretics" type="AFTER" senid="41" />
+<TLINK id="TL47" fromID="E82" fromText="hypervolemic" toID="E81" toText="this hospital course" type="OVERLAP" senid="41" />
+<TLINK id="TL48" fromID="E84" fromText="blood products" toID="E83" toText="his diuretics" type="AFTER" senid="41" />
+<TLINK id="TL49" fromID="E26" fromText="old bleeding" toID="E25" toText="stigmata" type="BEFORE" senid="15" />
+<TLINK id="TL50" fromID="E28" fromText="this" toID="E27" toText="an Endoclip" type="OVERLAP" senid="15" />
+<TLINK id="TL51" fromID="E25" fromText="stigmata" toID="E24" toText="A small polyp" type="OVERLAP" senid="15" />
+<TLINK id="TL52" fromID="E28" fromText="this" toID="E24" toText="A small polyp" type="OVERLAP" senid="15" />
+<TLINK id="TL53" fromID="E29" fromText="Another polyp" toID="E24" toText="A small polyp" type="OVERLAP" senid="15" />
+<TLINK id="TL54" fromID="E93" fromText="thrombocytopenic" toID="E94" toText="this admission" type="OVERLAP" senid="43" />
+<TLINK id="TL55" fromID="E61" fromText="his GI bleed" toID="E60" toText="demand ischemia" type="BEFORE" senid="28" />
+<TLINK id="TL56" fromID="E62" fromText="acute coronary syndrome" toID="E60" toText="demand ischemia" type="BEFORE" senid="28" />
+<TLINK id="TL57" fromID="E0" fromText="Admission" toID="T0" toText="11/09/2003" type="OVERLAP" senid="2" />
+<TLINK id="TL58" fromID="E91" fromText="diuresed" toID="E92" toText="a euvolemic state" type="BEFORE" senid="42" />
+<TLINK id="TL59" fromID="E87" fromText="torsemide" toID="E86" toText="Lasix" type="OVERLAP" senid="42" />
+<TLINK id="TL60" fromID="E88" fromText="thrombocytopenia" toID="E90" toText="Lasix" type="AFTER" senid="42" />
+<TLINK id="TL61" fromID="E86" fromText="Lasix" toID="E85" toText="diuresed" type="OVERLAP" senid="42" />
+<TLINK id="TL62" fromID="E86" fromText="Lasix" toID="T6" toText="one" type="OVERLAP" senid="42" />
+<TLINK id="TL63" fromID="E87" fromText="torsemide" toID="T7" toText="one" type="OVERLAP" senid="42" />
+<TLINK id="TL64" fromID="E90" fromText="Lasix" toID="E89" toText="a prior admission" type="BEFORE" senid="42" />
+<TLINK id="TL65" fromID="E91" fromText="diuresed" toID="E85" toText="diuresed" type="OVERLAP" senid="42" />
+<TLINK id="TL66" fromID="E48" fromText="His last recorded hematocrit" toID="E49" toText="discharge" type="OVERLAP" senid="21" />
+<TLINK id="TL67" fromID="E50" fromText="His last BUN" toID="E48" toText="His last recorded hematocrit" type="OVERLAP" senid="21" />
+<TLINK id="TL68" fromID="E9" fromText="iron sulfate" toID="E8" toText="a proton pump inhibitor" type="OVERLAP" senid="11" />
+<TLINK id="TL69" fromID="E10" fromText="vitamin C" toID="E9" toText="iron sulfate" type="OVERLAP" senid="11" />
+<TLINK id="TL70" fromID="E22" fromText="erosive gastritis" toID="E21" toText="a small hiatal hernia" type="OVERLAP" senid="14" />
+<TLINK id="TL71" fromID="E23" fromText="edematous" toID="E22" toText="erosive gastritis" type="OVERLAP" senid="14" />
+<TLINK id="TL72" fromID="E24" fromText="A small polyp" toID="E23" toText="edematous" type="AFTER" senid="14" />
+<TLINK id="TL73" fromID="E58" fromText="Ischemia" toID="E59" toText="Patient  apos;s troponin bump" type="AFTER" senid="27" />
+<TLINK id="TL74" fromID="E60" fromText="demand ischemia" toID="E58" toText="Ischemia" type="OVERLAP" senid="27" />
+<TLINK id="TL75" fromID="E29" fromText="Another polyp" toID="E30" toText="cold biopsies" type="OVERLAP" senid="16" />
+<TLINK id="TL76" fromID="E31" fromText="a small AVM" toID="E29" toText="Another polyp" type="AFTER" senid="16" />
+<TLINK id="TL77" fromID="E79" fromText="therapeutic INR levels" toID="E80" toText="discharge" type="BEFORE" senid="38" />
+<TLINK id="TL78" fromID="E78" fromText="his Coumadin" toID="E79" toText="therapeutic INR levels" type="BEFORE" senid="38" />
+<TLINK id="TL79" fromID="E70" fromText="Heparin" toID="E72" toText="a therapeutic level" type="BEFORE" senid="33" />
+<TLINK id="TL80" fromID="E71" fromText="his INR" toID="E72" toText="a therapeutic level" type="OVERLAP" senid="33" />
+<TLINK id="TL81" fromID="T3" fromText="the first night" toID="E3" toText="admission" type="AFTER" senid="9" />
+<TLINK id="TL82" fromID="E4" fromText="his hematocrit" toID="T2" toText="overnight" type="OVERLAP" senid="9" />
+<TLINK id="TL83" fromID="E2" fromText="2 units of packed red blood cells" toID="T2" toText="overnight" type="OVERLAP" senid="9" />
+<TLINK id="TL84" fromID="T3" fromText="the first night" toID="T2" toText="overnight" type="OVERLAP" senid="9" />
+<TLINK id="TL85" fromID="E5" fromText="bumped up" toID="E4" toText="his hematocrit" type="OVERLAP" senid="9" />
+<TLINK id="TL86" fromID="E66" fromText="A-fib." toID="E67" toText="the admission" type="BEFORE" senid="32" />
+<TLINK id="TL87" fromID="E68" fromText="his Coumadin" toID="E69" toText="heparin" type="AFTER" senid="32" />
+<TLINK id="TL88" fromID="E70" fromText="Heparin" toID="E69" toText="heparin" type="OVERLAP" senid="32" />
+<TLINK id="TL89" fromID="E71" fromText="his INR" toID="E67" toText="the admission" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

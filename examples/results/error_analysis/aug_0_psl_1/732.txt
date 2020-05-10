@@ -1,0 +1,51 @@
+e1 id: E109; e2 id: E108; e1 text: the ICU; e2 text: the Emergency Department
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E135; e2 id: E134; e1 text: further antidepressant treatment; e2 text: the Psychiatry HealthSouth New England Rehab Hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E136; e2 id: E135; e1 text: close follow-up; e2 text: further antidepressant treatment
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E76; e1 text: fevers; e2 text: denied
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: E76; e1 text: chills; e2 text: denied
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E128; e2 id: E33; e1 text: admissions; e2 text: attempted suicide
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E95; e2 id: E16; e1 text: His fingersticks; e2 text: slow to increase
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E40; e2 id: E142; e1 text: a right upper quadrant ultrasound; e2 text: his admission
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E115; e2 id: E26; e1 text: insulin; e2 text: poor compliance
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E70; e2 id: E64; e1 text: presentation; e2 text: admitted
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E87; e2 id: E10; e1 text: hospitalizations; e2 text: attempted suicide
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E146; e2 id: E55; e1 text: normalize; e2 text: calcium carbonate
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E54; e2 id: E144; e1 text: Neutra-Phos; e2 text: overadministration
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E147; e2 id: E146; e1 text: calcium binding; e2 text: normalize
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E139; e2 id: E138; e1 text: followed through; e2 text: set up
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E73; e2 id: E58; e1 text: eating a candy bar; e2 text: insulin
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E24; e2 id: E112; e1 text: his p.m. NPH dose; e2 text: decrease
+ground truth: AFTER; prediction: BEFORE
+

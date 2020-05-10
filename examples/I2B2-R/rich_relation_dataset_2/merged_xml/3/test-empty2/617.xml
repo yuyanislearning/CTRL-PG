@@ -307,5 +307,169 @@ Dispo : PT/OT worked with patient during admission
 <TIMEX3 id="T26" start="939" end="940" text="3" type="FREQUENCY" val="R3" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2015-09-20" type="ADMISSION" dvalue="2015-09-20" />
 <SECTIME id="S1" start="46" end="56" text="2015-09-30" type="DISCHARGE" dvalue="2015-09-30" />
+<TLINK id="TL1" fromID="E108" fromText="the current course" toID="E109" toText="doing well" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E56" fromText="repeated dilantin troughs" toID="E198" toText="trough is subtherapeutic" type="OVERLAP" senid="53" />
+<TLINK id="TL3" fromID="E56" fromText="repeated dilantin troughs" toID="T19" toText="one time dose" type="OVERLAP" senid="53" />
+<TLINK id="TL4" fromID="E90" fromText="the Providence Behavioral Health Hospital CMED" toID="E89" toText="transferred" type="AFTER" senid="13" />
+<TLINK id="TL5" fromID="E11" fromText="an additional valium" toID="E8" toText="valium" type="OVERLAP" senid="13" />
+<TLINK id="TL6" fromID="E12" fromText="ativan" toID="E9" toText="ativan" type="OVERLAP" senid="13" />
+<TLINK id="TL7" fromID="E91" fromText="Here" toID="E90" toText="the Providence Behavioral Health Hospital CMED" type="OVERLAP" senid="13" />
+<TLINK id="TL8" fromID="E30" fromText="several dilantin levels" toID="E110" toText="her last visit" type="AFTER" senid="24" />
+<TLINK id="TL9" fromID="E67" fromText="depression" toID="E68" toText="escitalopram" type="OVERLAP" senid="73" />
+<TLINK id="TL10" fromID="E187" fromText="assess need to change medication" toID="E67" toText="depression" type="AFTER" senid="73" />
+<TLINK id="TL11" fromID="E26" fromText="Her dilantin levels" toID="E193" toText="somewhat difficult to control" type="OVERLAP" senid="20" />
+<TLINK id="TL12" fromID="E133" fromText="this" toID="E134" toText="report" type="BEFORE" senid="39" />
+<TLINK id="TL13" fromID="E132" fromText="this" toID="E44" toText="her underlying demyelinating disease" type="AFTER" senid="39" />
+<TLINK id="TL14" fromID="E133" fromText="this" toID="E201" toText="active" type="OVERLAP" senid="39" />
+<TLINK id="TL15" fromID="E57" fromText="atypical MS" toID="E169" toText="Boston Medical Center" type="OVERLAP" senid="62" />
+<TLINK id="TL16" fromID="E170" fromText="MS medications" toID="E57" toText="atypical MS" type="OVERLAP" senid="62" />
+<TLINK id="TL17" fromID="E21" fromText="status epilepticus" toID="E100" toText="seen Dr. Ollie" type="AFTER" senid="19" />
+<TLINK id="TL18" fromID="E22" fromText="one generalized seizure" toID="E100" toText="seen Dr. Ollie" type="AFTER" senid="19" />
+<TLINK id="TL19" fromID="E23" fromText="some less significant seizures" toID="E100" toText="seen Dr. Ollie" type="AFTER" senid="19" />
+<TLINK id="TL20" fromID="E21" fromText="status epilepticus" toID="T28" toText="two" type="OVERLAP" senid="19" />
+<TLINK id="TL21" fromID="E101" fromText="which" toID="E23" toText="some less significant seizures" type="OVERLAP" senid="19" />
+<TLINK id="TL22" fromID="E24" fromText="left gaze preference" toID="E101" toText="which" type="OVERLAP" senid="19" />
+<TLINK id="TL23" fromID="E25" fromText="left sided tonic-clonic activity" toID="E101" toText="which" type="OVERLAP" senid="19" />
+<TLINK id="TL24" fromID="E174" fromText="malignancy" toID="E60" toText="LP" type="BEFORE" senid="65" />
+<TLINK id="TL25" fromID="E175" fromText="malignant cells" toID="E60" toText="LP" type="BEFORE" senid="65" />
+<TLINK id="TL26" fromID="E20" fromText="a very mild injury" toID="E96" toText="records" type="BEFORE" senid="18" />
+<TLINK id="TL27" fromID="E96" fromText="records" toID="E97" toText="that hospitalization" type="OVERLAP" senid="18" />
+<TLINK id="TL28" fromID="E98" fromText="dilantin" toID="E97" toText="that hospitalization" type="OVERLAP" senid="18" />
+<TLINK id="TL29" fromID="E99" fromText="keppra" toID="E97" toText="that hospitalization" type="AFTER" senid="18" />
+<TLINK id="TL30" fromID="E128" fromText="This" toID="E129" toText="complex partial seizures" type="OVERLAP" senid="37" />
+<TLINK id="TL31" fromID="E129" fromText="complex partial seizures" toID="E130" toText="the motor strip" type="OVERLAP" senid="37" />
+<TLINK id="TL32" fromID="T13" fromText="now" toID="E78" toText="presents" type="OVERLAP" senid="37" />
+<TLINK id="TL33" fromID="E151" fromText="increase" toID="E152" toText="a goal dose" type="BEFORE" senid="46" />
+<TLINK id="TL34" fromID="E151" fromText="increase" toID="T14" toText="daily" type="OVERLAP" senid="46" />
+<TLINK id="TL35" fromID="E153" fromText="her dose increased" toID="E79" toText="discharge" type="AFTER" senid="46" />
+<TLINK id="TL36" fromID="E150" fromText="zonegran" toID="T14" toText="daily" type="OVERLAP" senid="46" />
+<TLINK id="TL37" fromID="T15" fromText="every other week" toID="E151" toText="increase" type="OVERLAP" senid="46" />
+<TLINK id="TL38" fromID="T16" fromText="day" toID="E152" toText="a goal dose" type="OVERLAP" senid="46" />
+<TLINK id="TL39" fromID="T17" fromText="daily" toID="E79" toText="discharge" type="BEFORE" senid="46" />
+<TLINK id="TL40" fromID="E153" fromText="her dose increased" toID="T8" toText="10-12" type="OVERLAP" senid="46" />
+<TLINK id="TL41" fromID="E153" fromText="her dose increased" toID="T9" toText="10-26" type="OVERLAP" senid="46" />
+<TLINK id="TL42" fromID="E146" fromText="lamictal" toID="E148" toText="reactions" type="OVERLAP" senid="44" />
+<TLINK id="TL43" fromID="E147" fromText="depakote" toID="E148" toText="reactions" type="OVERLAP" senid="44" />
+<TLINK id="TL44" fromID="E73" fromText="Barnstable County Hospital" toID="E89" toText="transferred" type="BEFORE" senid="12" />
+<TLINK id="TL45" fromID="E87" fromText="right sided seizure activity" toID="E88" toText="there" type="OVERLAP" senid="12" />
+<TLINK id="TL46" fromID="E8" fromText="valium" toID="E88" toText="there" type="AFTER" senid="12" />
+<TLINK id="TL47" fromID="E9" fromText="ativan" toID="E88" toText="there" type="AFTER" senid="12" />
+<TLINK id="TL48" fromID="E10" fromText="dilantin" toID="E88" toText="there" type="OVERLAP" senid="12" />
+<TLINK id="TL49" fromID="E106" fromText="the dilantin" toID="E103" toText="her last visit" type="AFTER" senid="22" />
+<TLINK id="TL50" fromID="E107" fromText="keppra" toID="E103" toText="her last visit" type="AFTER" senid="22" />
+<TLINK id="TL51" fromID="E29" fromText="a third Castelluccio" toID="E103" toText="her last visit" type="AFTER" senid="22" />
+<TLINK id="TL52" fromID="E104" fromText="zonegran" toID="E103" toText="her last visit" type="BEFORE" senid="22" />
+<TLINK id="TL53" fromID="E103" fromText="her last visit" toID="T0" toText="the time" type="OVERLAP" senid="22" />
+<TLINK id="TL54" fromID="E103" fromText="her last visit" toID="T5" toText="2015-03-18" type="OVERLAP" senid="22" />
+<TLINK id="TL55" fromID="E105" fromText="topamax" toID="E104" toText="zonegran" type="OVERLAP" senid="22" />
+<TLINK id="TL56" fromID="E106" fromText="the dilantin" toID="T24" toText="bid" type="OVERLAP" senid="22" />
+<TLINK id="TL57" fromID="E107" fromText="keppra" toID="T23" toText="bid" type="OVERLAP" senid="22" />
+<TLINK id="TL58" fromID="E149" fromText="Topamax" toID="E46" toText="preexisting cognitive deficits" type="OVERLAP" senid="45" />
+<TLINK id="TL59" fromID="E126" fromText="unresponsive" toID="E78" toText="presents" type="AFTER" senid="36" />
+<TLINK id="TL60" fromID="E128" fromText="This" toID="E126" toText="unresponsive" type="OVERLAP" senid="36" />
+<TLINK id="TL61" fromID="E54" fromText="LP" toID="E81" toText="changes" type="OVERLAP" senid="51" />
+<TLINK id="TL62" fromID="E181" fromText="OCB s" toID="E202" toText="OCB" type="OVERLAP" senid="68" />
+<TLINK id="TL63" fromID="E85" fromText="EMS" toID="T4" toText="90 minutes" type="AFTER" senid="10" />
+<TLINK id="TL64" fromID="T3" fromText="yesterday" toID="E84" toText="an assisted living" type="AFTER" senid="10" />
+<TLINK id="TL65" fromID="E6" fromText="generalized tonic-clonic activity" toID="T3" toText="yesterday" type="OVERLAP" senid="10" />
+<TLINK id="TL66" fromID="E6" fromText="generalized tonic-clonic activity" toID="T4" toText="90 minutes" type="BEFORE" senid="10" />
+<TLINK id="TL67" fromID="E86" fromText="the facility" toID="E84" toText="an assisted living" type="OVERLAP" senid="10" />
+<TLINK id="TL68" fromID="E83" fromText="Discharge" toID="T2" toText="2015-09-30" type="OVERLAP" senid="3" />
+<TLINK id="TL69" fromID="E95" fromText="traumatic brain injury" toID="E19" toText="seizure disorder" type="OVERLAP" senid="17" />
+<TLINK id="TL70" fromID="E137" fromText="these seizures" toID="E140" toText="Her seizure management" type="BEFORE" senid="41" />
+<TLINK id="TL71" fromID="E138" fromText="subtherapeutic dilantin levels" toID="E137" toText="these seizures" type="BEFORE" senid="41" />
+<TLINK id="TL72" fromID="E138" fromText="subtherapeutic dilantin levels" toID="E139" toText="her new dose" type="OVERLAP" senid="41" />
+<TLINK id="TL73" fromID="E52" fromText="a repeat MRI" toID="T18" toText="several months" type="OVERLAP" senid="50" />
+<TLINK id="TL74" fromID="E52" fromText="a repeat MRI" toID="E53" toText="further evaluation" type="OVERLAP" senid="50" />
+<TLINK id="TL75" fromID="E155" fromText="dilantin" toID="E47" toText="trough" type="OVERLAP" senid="47" />
+<TLINK id="TL76" fromID="E154" fromText="keppra" toID="E155" toText="dilantin" type="OVERLAP" senid="47" />
+<TLINK id="TL77" fromID="E15" fromText="her facial twitching" toID="E14" toText="the ativan" type="AFTER" senid="15" />
+<TLINK id="TL78" fromID="E92" fromText="apparently improved" toID="E14" toText="the ativan" type="AFTER" senid="15" />
+<TLINK id="TL79" fromID="E16" fromText="hand twitches" toID="E14" toText="the ativan" type="AFTER" senid="15" />
+<TLINK id="TL80" fromID="E15" fromText="her facial twitching" toID="E92" toText="apparently improved" type="OVERLAP" senid="15" />
+<TLINK id="TL81" fromID="E145" fromText="zonegran" toID="E195" toText="benefit" type="BEFORE" senid="43" />
+<TLINK id="TL82" fromID="E144" fromText="the dilantin" toID="E143" toText="an alternate Castelluccio" type="OVERLAP" senid="43" />
+<TLINK id="TL83" fromID="E191" fromText="her mental status" toID="E199" toText="clear" type="OVERLAP" senid="75" />
+<TLINK id="TL84" fromID="E190" fromText="repeated" toID="E189" toText="This" type="OVERLAP" senid="75" />
+<TLINK id="TL85" fromID="E190" fromText="repeated" toID="T20" toText="several days" type="OVERLAP" senid="75" />
+<TLINK id="TL86" fromID="E190" fromText="repeated" toID="E191" toText="her mental status" type="AFTER" senid="75" />
+<TLINK id="TL87" fromID="E0" fromText="Admission" toID="T1" toText="2015-09-20" type="OVERLAP" senid="2" />
+<TLINK id="TL88" fromID="E176" fromText="oligoclonal bands" toID="E177" toText="the CSF" type="OVERLAP" senid="67" />
+<TLINK id="TL89" fromID="E176" fromText="oligoclonal bands" toID="E202" toText="OCB" type="OVERLAP" senid="67" />
+<TLINK id="TL90" fromID="E178" fromText="CSF" toID="E177" toText="the CSF" type="OVERLAP" senid="67" />
+<TLINK id="TL91" fromID="E178" fromText="CSF" toID="E62" toText="other studies" type="OVERLAP" senid="67" />
+<TLINK id="TL92" fromID="E185" fromText="her MS" toID="E184" toText="therapy" type="BEFORE" senid="71" />
+<TLINK id="TL93" fromID="E55" fromText="Oligoclonal bands" toID="E159" toText="CSF" type="OVERLAP" senid="52" />
+<TLINK id="TL94" fromID="E183" fromText="MS" toID="E182" toText="MS therapy" type="BEFORE" senid="69" />
+<TLINK id="TL95" fromID="E183" fromText="MS" toID="E181" toText="OCB s" type="BEFORE" senid="69" />
+<TLINK id="TL96" fromID="E45" fromText="the higher doses" toID="E141" toText="fall" type="OVERLAP" senid="42" />
+<TLINK id="TL97" fromID="E45" fromText="the higher doses" toID="E142" toText="slur her speech" type="OVERLAP" senid="42" />
+<TLINK id="TL98" fromID="E4" fromText="right face twitch" toID="E71" toText="presents" type="BEFORE" senid="8" />
+<TLINK id="TL99" fromID="E2" fromText="brain injury" toID="E1" toText="seizure disorder" type="OVERLAP" senid="8" />
+<TLINK id="TL100" fromID="E4" fromText="right face twitch" toID="E5" toText="right arm shaking" type="OVERLAP" senid="8" />
+<TLINK id="TL101" fromID="E31" fromText="the medication dose" toID="E74" toText="reports" type="BEFORE" senid="25" />
+<TLINK id="TL102" fromID="E34" fromText="no short-term memory" toID="E74" toText="reports" type="OVERLAP" senid="25" />
+<TLINK id="TL103" fromID="E113" fromText="review" toID="E112" toText="her Union Hospital - North Shore Medical Center" type="AFTER" senid="25" />
+<TLINK id="TL104" fromID="E115" fromText="an urgent care" toID="E32" toText="slurred speech" type="AFTER" senid="25" />
+<TLINK id="TL105" fromID="E115" fromText="an urgent care" toID="E116" toText="a recent fall" type="AFTER" senid="25" />
+<TLINK id="TL106" fromID="E115" fromText="an urgent care" toID="E33" toText="a non-trough level" type="AFTER" senid="25" />
+<TLINK id="TL107" fromID="E31" fromText="the medication dose" toID="E111" toText="changed" type="OVERLAP" senid="25" />
+<TLINK id="TL108" fromID="E31" fromText="the medication dose" toID="T21" toText="qam" type="OVERLAP" senid="25" />
+<TLINK id="TL109" fromID="E31" fromText="the medication dose" toID="T22" toText="qpm" type="OVERLAP" senid="25" />
+<TLINK id="TL110" fromID="E114" fromText="this" toID="E111" toText="changed" type="OVERLAP" senid="25" />
+<TLINK id="TL111" fromID="E135" fromText="infection" toID="E136" toText="her UTI" type="OVERLAP" senid="40" />
+<TLINK id="TL112" fromID="E120" fromText="multiple plaque-like lesions" toID="E75" toText="showed" type="BEFORE" senid="31" />
+<TLINK id="TL113" fromID="E122" fromText="entirely stable" toID="T7" toText="2010" type="AFTER" senid="31" />
+<TLINK id="TL114" fromID="E38" fromText="an MRI" toID="T6" toText="2014" type="OVERLAP" senid="31" />
+<TLINK id="TL115" fromID="E38" fromText="an MRI" toID="E75" toText="showed" type="OVERLAP" senid="31" />
+<TLINK id="TL116" fromID="E121" fromText="these" toID="E120" toText="multiple plaque-like lesions" type="OVERLAP" senid="31" />
+<TLINK id="TL117" fromID="E121" fromText="these" toID="E122" toText="entirely stable" type="OVERLAP" senid="31" />
+<TLINK id="TL118" fromID="E28" fromText="a rash" toID="E102" toText="this" type="OVERLAP" senid="21" />
+<TLINK id="TL119" fromID="E27" fromText="lamictal" toID="E102" toText="this" type="OVERLAP" senid="21" />
+<TLINK id="TL120" fromID="E37" fromText="stable deficits" toID="T11" toText="many years" type="OVERLAP" senid="30" />
+<TLINK id="TL121" fromID="E119" fromText="any flare-like episodes" toID="T11" toText="many years" type="OVERLAP" senid="30" />
+<TLINK id="TL122" fromID="E86" fromText="the facility" toID="E73" toText="Barnstable County Hospital" type="BEFORE" senid="11" />
+<TLINK id="TL123" fromID="E8" fromText="valium" toID="E7" toText="her valium" type="OVERLAP" senid="11" />
+<TLINK id="TL124" fromID="E7" fromText="her valium" toID="E85" toText="EMS" type="BEFORE" senid="11" />
+<TLINK id="TL125" fromID="E7" fromText="her valium" toID="E86" toText="the facility" type="OVERLAP" senid="11" />
+<TLINK id="TL126" fromID="E88" fromText="there" toID="E73" toText="Barnstable County Hospital" type="OVERLAP" senid="11" />
+<TLINK id="TL127" fromID="E13" fromText="persistent twitching in her face and right hand" toID="E11" toText="an additional valium" type="OVERLAP" senid="14" />
+<TLINK id="TL128" fromID="E13" fromText="persistent twitching in her face and right hand" toID="E12" toText="ativan" type="BEFORE" senid="14" />
+<TLINK id="TL129" fromID="E11" fromText="an additional valium" toID="E91" toText="Here" type="OVERLAP" senid="14" />
+<TLINK id="TL130" fromID="E11" fromText="an additional valium" toID="T25" toText="2" type="OVERLAP" senid="14" />
+<TLINK id="TL131" fromID="E12" fromText="ativan" toID="T26" toText="3" type="OVERLAP" senid="14" />
+<TLINK id="TL132" fromID="E12" fromText="ativan" toID="E14" toText="the ativan" type="OVERLAP" senid="14" />
+<TLINK id="TL133" fromID="E14" fromText="the ativan" toID="E12" toText="ativan" type="OVERLAP" senid="14" />
+<TLINK id="TL134" fromID="E188" fromText="her altered mental status" toID="E69" toText="NGT" type="BEFORE" senid="74" />
+<TLINK id="TL135" fromID="E70" fromText="a swallow evaluation" toID="E69" toText="NGT" type="AFTER" senid="74" />
+<TLINK id="TL136" fromID="E189" fromText="This" toID="E69" toText="NGT" type="OVERLAP" senid="74" />
+<TLINK id="TL137" fromID="E118" fromText="remembering" toID="E117" toText="an assisted living facility" type="OVERLAP" senid="27" />
+<TLINK id="TL138" fromID="E35" fromText="a walker" toID="E117" toText="an assisted living facility" type="OVERLAP" senid="27" />
+<TLINK id="TL139" fromID="E156" fromText="new temporal lesions" toID="E80" toText="showed" type="BEFORE" senid="49" />
+<TLINK id="TL140" fromID="E51" fromText="MRI/MRA" toID="E80" toText="showed" type="OVERLAP" senid="49" />
+<TLINK id="TL141" fromID="E157" fromText="these" toID="E156" toText="new temporal lesions" type="OVERLAP" senid="49" />
+<TLINK id="TL142" fromID="E157" fromText="these" toID="E158" toText="her seizures" type="OVERLAP" senid="49" />
+<TLINK id="TL143" fromID="E18" fromText="left sided slowing" toID="E17" toText="an EEG" type="BEFORE" senid="16" />
+<TLINK id="TL144" fromID="E18" fromText="left sided slowing" toID="E94" toText="showed" type="BEFORE" senid="16" />
+<TLINK id="TL145" fromID="E17" fromText="an EEG" toID="E94" toText="showed" type="OVERLAP" senid="16" />
+<TLINK id="TL146" fromID="E93" fromText="which" toID="E17" toText="an EEG" type="OVERLAP" senid="16" />
+<TLINK id="TL147" fromID="E66" fromText="bactrim" toID="E186" toText="defervescence" type="OVERLAP" senid="72" />
+<TLINK id="TL148" fromID="E66" fromText="bactrim" toID="E64" toText="fevers" type="AFTER" senid="72" />
+<TLINK id="TL149" fromID="E64" fromText="fevers" toID="E82" toText="admission" type="BEFORE" senid="72" />
+<TLINK id="TL150" fromID="E64" fromText="fevers" toID="E65" toText="positive U/A" type="OVERLAP" senid="72" />
+<TLINK id="TL151" fromID="E66" fromText="bactrim" toID="T10" toText="3 days" type="OVERLAP" senid="72" />
+<TLINK id="TL152" fromID="E173" fromText="a new lesion" toID="E59" toText="her last MRI" type="BEFORE" senid="64" />
+<TLINK id="TL153" fromID="E43" fromText="her seizures" toID="T12" toText="the past" type="OVERLAP" senid="38" />
+<TLINK id="TL154" fromID="E131" fromText="a new focus" toID="T13" toText="now" type="OVERLAP" senid="38" />
+<TLINK id="TL155" fromID="E132" fromText="this" toID="E131" toText="a new focus" type="OVERLAP" senid="38" />
+<TLINK id="TL156" fromID="E49" fromText="breakthrough seizures" toID="E48" toText="Ativan" type="BEFORE" senid="48" />
+<TLINK id="TL157" fromID="E49" fromText="breakthrough seizures" toID="E50" toText="facial twitching" type="OVERLAP" senid="48" />
+<TLINK id="TL158" fromID="E200" fromText="evaluated" toID="E194" toText="Reportedly" type="OVERLAP" senid="33" />
+<TLINK id="TL159" fromID="E76" fromText="Shriner&#39;s Hospital for Crippled Children" toID="E200" toText="evaluated" type="OVERLAP" senid="33" />
+<TLINK id="TL160" fromID="E77" fromText="HealthSouth Braintree Rehab Hospital" toID="E200" toText="evaluated" type="OVERLAP" senid="33" />
+<TLINK id="TL161" fromID="E124" fromText="St. Elizabeth&#39;s Medical Center of Boston" toID="E200" toText="evaluated" type="OVERLAP" senid="33" />
+<TLINK id="TL162" fromID="E171" fromText="new lesions" toID="E58" toText="MRI" type="BEFORE" senid="63" />
+<TLINK id="TL163" fromID="E172" fromText="sz effects in the left temporal lobe" toID="E58" toText="MRI" type="BEFORE" senid="63" />
+<TLINK id="TL164" fromID="E59" fromText="her last MRI" toID="E58" toText="MRI" type="OVERLAP" senid="63" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

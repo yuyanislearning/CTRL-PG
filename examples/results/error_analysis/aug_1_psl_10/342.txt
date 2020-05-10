@@ -1,0 +1,75 @@
+e1 id: E41; e2 id: E39; e1 text: increasing respiratory distress; e2 text: continuous positive airway pressure
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E63; e2 id: T8; e1 text: Enteral feeds; e2 text: day of life one
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E64; e2 id: T9; e1 text: full volume feeds; e2 text: day of life six ( 2013-07-29
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E20; e2 id: E19; e1 text: Zoloft; e2 text: depression
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E42; e2 id: E41; e1 text: intubated; e2 text: increasing respiratory distress
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E43; e2 id: E42; e1 text: conventional ventilation; e2 text: intubated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E42; e1 text: Survanta; e2 text: intubated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T4; e2 id: E34; e1 text: one minute; e2 text: delivery
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T5; e2 id: E34; e1 text: 5 minutes; e2 text: delivery
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E37; e2 id: E36; e1 text: free flow oxygen; e2 text: bulb suctioned
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E35; e2 id: E34; e1 text: dried; e2 text: delivery
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E83; e2 id: E82; e1 text: bilirubin; e2 text: Phototherapy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T2; e2 id: E2; e1 text: 32 - 5/7 weeks; e2 text: delivered
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E5; e2 id: E4; e1 text: the newborn intensive care unit; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E7; e2 id: E2; e1 text: prematurity; e2 text: delivered
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E8; e2 id: E2; e1 text: Birth weight; e2 text: delivered
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E49; e2 id: E50; e1 text: ventilator settings; e2 text: extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E81; e2 id: E80; e1 text: a peak bilirubin; e2 text: phototherapy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E80; e2 id: T12; e1 text: phototherapy; e2 text: 07-27
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T4; e2 id: E38; e1 text: one minute; e2 text: Apgar scores
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T5; e2 id: E38; e1 text: 5 minutes; e2 text: Apgar scores
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E28; e2 id: E27; e1 text: spinal anesthesia; e2 text: cesarean section
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E30; e2 id: E26; e1 text: labor or maternal fever; e2 text: Delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T6; e2 id: E50; e1 text: 13 hours; e2 text: extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E51; e2 id: E50; e1 text: room air; e2 text: extubated
+ground truth: AFTER; prediction: OVERLAP
+

@@ -142,5 +142,71 @@ I personally talked with Dr Pannell at the time of discharge to update him with 
 <TIMEX3 id="T3" start="565" end="568" text="day" type="DATE" val="2018-08-02" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2018-08-02" type="ADMISSION" dvalue="2018-08-02" />
 <SECTIME id="S1" start="46" end="56" text="2018-08-08" type="DISCHARGE" dvalue="2018-08-08" />
+<TLINK id="TL1" fromID="E29" fromText="GI bleeding" toID="E28" toText="Blood loss anemia" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E64" fromText="an AVM" toID="E30" toText="the bleeding" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E30" fromText="the bleeding" toID="E29" toText="GI bleeding" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E41" fromText="Hct" toID="E81" toText="stable" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E57" fromText="the Nantucket Cottage Hospital" toID="E11" toText="dialysis" type="AFTER" senid="13" />
+<TLINK id="TL6" fromID="E11" fromText="dialysis" toID="T3" toText="day" type="OVERLAP" senid="13" />
+<TLINK id="TL7" fromID="E56" fromText="related" toID="E11" toText="dialysis" type="OVERLAP" senid="13" />
+<TLINK id="TL8" fromID="E12" fromText="a bloody bowel movement" toID="E11" toText="dialysis" type="OVERLAP" senid="13" />
+<TLINK id="TL9" fromID="E33" fromText="tagged scan" toID="E32" toText="colonoscopy" type="OVERLAP" senid="24" />
+<TLINK id="TL10" fromID="E65" fromText="uptake" toID="E33" toText="tagged scan" type="AFTER" senid="24" />
+<TLINK id="TL11" fromID="E34" fromText="colonoscopy" toID="E32" toText="colonoscopy" type="OVERLAP" senid="24" />
+<TLINK id="TL12" fromID="E61" fromText="transferred" toID="E60" toText="consulted" type="AFTER" senid="20" />
+<TLINK id="TL13" fromID="E26" fromText="colonoscopy" toID="T4" toText="the morning of 6/8" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E27" fromText="EGD" toID="T4" toText="the morning of 6/8" type="OVERLAP" senid="20" />
+<TLINK id="TL15" fromID="E48" fromText="Other medical problems" toID="E87" toText="discharge" type="BEFORE" senid="39" />
+<TLINK id="TL16" fromID="E88" fromText="the hospital events" toID="E87" toText="discharge" type="BEFORE" senid="39" />
+<TLINK id="TL17" fromID="E86" fromText="talked" toID="E87" toText="discharge" type="OVERLAP" senid="39" />
+<TLINK id="TL18" fromID="E50" fromText="transfused" toID="E59" toText="type and crossed" type="OVERLAP" senid="19" />
+<TLINK id="TL19" fromID="E24" fromText="packed red blood cells" toID="E50" toText="transfused" type="OVERLAP" senid="19" />
+<TLINK id="TL20" fromID="E23" fromText="guiaiac positive maroon stool" toID="E22" toText="Rectal examination" type="OVERLAP" senid="18" />
+<TLINK id="TL21" fromID="E59" fromText="type and crossed" toID="E22" toText="Rectal examination" type="OVERLAP" senid="18" />
+<TLINK id="TL22" fromID="E45" fromText="The metoprolol" toID="E46" toText="acute bleeding phase" type="OVERLAP" senid="37" />
+<TLINK id="TL23" fromID="E84" fromText="stabilized" toID="E82" toText="restarted" type="BEFORE" senid="37" />
+<TLINK id="TL24" fromID="E82" fromText="restarted" toID="E46" toText="acute bleeding phase" type="AFTER" senid="37" />
+<TLINK id="TL25" fromID="E47" fromText="her BP" toID="E84" toText="stabilized" type="OVERLAP" senid="37" />
+<TLINK id="TL26" fromID="E9" fromText="a cough" toID="E10" toText="white sputum" type="OVERLAP" senid="12" />
+<TLINK id="TL27" fromID="E53" fromText="felt warm" toID="E54" toText="her temperature" type="OVERLAP" senid="12" />
+<TLINK id="TL28" fromID="E7" fromText="nausea" toID="E5" toText="black stools" type="OVERLAP" senid="10" />
+<TLINK id="TL29" fromID="E51" fromText="Discharge" toID="T2" toText="2018-08-08" type="OVERLAP" senid="3" />
+<TLINK id="TL30" fromID="E20" fromText="An NG lavage" toID="E21" toText="bilious return" type="OVERLAP" senid="17" />
+<TLINK id="TL31" fromID="E58" fromText="the Deanna" toID="E13" toText="her temperature" type="OVERLAP" senid="15" />
+<TLINK id="TL32" fromID="E13" fromText="her temperature" toID="E14" toText="HR" type="OVERLAP" senid="15" />
+<TLINK id="TL33" fromID="E14" fromText="HR" toID="E15" toText="BP" type="OVERLAP" senid="15" />
+<TLINK id="TL34" fromID="E15" fromText="BP" toID="E16" toText="RR" type="OVERLAP" senid="15" />
+<TLINK id="TL35" fromID="E16" fromText="RR" toID="E17" toText="oxygen saturation" type="OVERLAP" senid="15" />
+<TLINK id="TL36" fromID="E18" fromText="Her hematocrit" toID="E58" toText="the Deanna" type="OVERLAP" senid="15" />
+<TLINK id="TL37" fromID="T5" fromText="4 days" toID="E71" toText="discharge" type="BEFORE" senid="28" />
+<TLINK id="TL38" fromID="E37" fromText="Her hematocrit" toID="E70" toText="stable" type="OVERLAP" senid="28" />
+<TLINK id="TL39" fromID="E70" fromText="stable" toID="T5" toText="4 days" type="OVERLAP" senid="28" />
+<TLINK id="TL40" fromID="E0" fromText="Admission" toID="T1" toText="2018-08-02" type="OVERLAP" senid="2" />
+<TLINK id="TL41" fromID="E2" fromText="arteriovenous malformations" toID="E1" toText="GI bleeding" type="BEFORE" senid="8" />
+<TLINK id="TL42" fromID="E2" fromText="arteriovenous malformations" toID="E52" toText="presents" type="BEFORE" senid="8" />
+<TLINK id="TL43" fromID="E4" fromText="a hematocrit drop" toID="E52" toText="presents" type="BEFORE" senid="8" />
+<TLINK id="TL44" fromID="E35" fromText="intervention" toID="E66" toText="bleeding" type="AFTER" senid="25" />
+<TLINK id="TL45" fromID="E66" fromText="bleeding" toID="E65" toText="uptake" type="OVERLAP" senid="25" />
+<TLINK id="TL46" fromID="E39" fromText="AVM &#39;s" toID="E73" toText="hospital" type="OVERLAP" senid="31" />
+<TLINK id="TL47" fromID="E76" fromText="argon photocoagulation" toID="E75" toText="follow" type="OVERLAP" senid="31" />
+<TLINK id="TL48" fromID="E77" fromText="APL from the fundus" toID="E76" toText="argon photocoagulation" type="AFTER" senid="31" />
+<TLINK id="TL49" fromID="E62" fromText="the CMED CCU" toID="E61" toText="transferred" type="AFTER" senid="21" />
+<TLINK id="TL50" fromID="E63" fromText="observation" toID="E62" toText="the CMED CCU" type="OVERLAP" senid="21" />
+<TLINK id="TL51" fromID="E73" fromText="hospital" toID="E75" toText="follow" type="BEFORE" senid="30" />
+<TLINK id="TL52" fromID="E72" fromText="followed" toID="E73" toText="hospital" type="OVERLAP" senid="30" />
+<TLINK id="TL53" fromID="E74" fromText="discussion" toID="E73" toText="hospital" type="OVERLAP" senid="30" />
+<TLINK id="TL54" fromID="E7" fromText="nausea" toID="E8" toText="decreased PO intake" type="OVERLAP" senid="11" />
+<TLINK id="TL55" fromID="E58" fromText="the Deanna" toID="E57" toText="the Nantucket Cottage Hospital" type="OVERLAP" senid="14" />
+<TLINK id="TL56" fromID="E69" fromText="the Lahey Clinic - North Shore" toID="E68" toText="the ICU" type="AFTER" senid="27" />
+<TLINK id="TL57" fromID="E67" fromText="transfused" toID="E36" toText="PRBC" type="OVERLAP" senid="27" />
+<TLINK id="TL58" fromID="E36" fromText="PRBC" toID="E68" toText="the ICU" type="OVERLAP" senid="27" />
+<TLINK id="TL59" fromID="E19" fromText="her baseline hematocrit" toID="E18" toText="Her hematocrit" type="OVERLAP" senid="16" />
+<TLINK id="TL60" fromID="E20" fromText="An NG lavage" toID="E58" toText="the Deanna" type="AFTER" senid="16" />
+<TLINK id="TL61" fromID="E85" fromText="stable" toID="E48" toText="Other medical problems" type="OVERLAP" senid="38" />
+<TLINK id="TL62" fromID="E49" fromText="Dialysis" toID="T7" toText="3 / week" type="OVERLAP" senid="38" />
+<TLINK id="TL63" fromID="E78" fromText="CBC" toID="T6" toText="this week" type="OVERLAP" senid="33" />
+<TLINK id="TL64" fromID="E5" fromText="black stools" toID="T0" toText="Three days" type="AFTER" senid="9" />
+<TLINK id="TL65" fromID="E6" fromText="clear blood" toID="E5" toText="black stools" type="OVERLAP" senid="9" />
+<TLINK id="TL66" fromID="E40" fromText="the culprit lesion" toID="E39" toText="AVM &#39;s" type="BEFORE" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

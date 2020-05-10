@@ -1,0 +1,84 @@
+e1 id: E6; e2 id: E30; e1 text: Echo; e2 text: scheduled cath
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E7; e2 id: E21; e1 text: inferior HK; e2 text: showed
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E32; e2 id: E21; e1 text: EF; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E33; e2 id: E21; e1 text: mild MR; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E34; e2 id: E21; e1 text: mild LAE; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E30; e1 text: Cath; e2 text: scheduled cath
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: T4; e1 text: Foley; e2 text: POD #2
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E2; e2 id: E28; e1 text: pre-op eval.; e2 text: ventral hernia repair
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E3; e2 id: E1; e1 text: abnormal stress test; e2 text: abnormal EKG
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E47; e2 id: E13; e1 text: started; e2 text: chest tubes
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E13; e2 id: E25; e1 text: chest tubes; e2 text: Extubated
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E43; e2 id: E24; e1 text: the CSRU; e2 text: Transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E11; e2 id: E44; e1 text: phenylephrine; e2 text: stable condition
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E12; e2 id: E44; e1 text: propofol drips; e2 text: stable condition
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E18; e2 id: T5; e1 text: pacing wires; e2 text: the next day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: T6; e1 text: VNA services; e2 text: POD #4
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E45; e2 id: E47; e1 text: Gentle diuresis; e2 text: started
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E46; e2 id: E47; e1 text: beta blockade; e2 text: started
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E26; e2 id: E47; e1 text: transferred; e2 text: started
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E48; e2 id: E26; e1 text: the floor; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E49; e2 id: E48; e1 text: increasing his activity level; e2 text: the floor
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E23; e2 id: E22; e1 text: OR; e2 text: Admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E23; e2 id: E42; e1 text: OR; e2 text: ambulance transfer
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E9; e2 id: T0; e1 text: Severe systolic HTN; e2 text: today
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E40; e2 id: E39; e1 text: Transferred in; e2 text: noted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E29; e2 id: E20; e1 text: EF; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E41; e2 id: E40; e1 text: cabg; e2 text: Transferred in
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E22; e2 id: E40; e1 text: Admitted; e2 text: Transferred in
+ground truth: OVERLAP; prediction: BEFORE
+

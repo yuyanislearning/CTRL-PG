@@ -1,0 +1,51 @@
+e1 id: E30; e2 id: E83; e1 text: elevated; e2 text: found
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E31; e2 id: E29; e1 text: his Digoxin; e2 text: His digoxin
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E31; e2 id: E83; e1 text: his Digoxin; e2 text: found
+ground truth: BEFORE; prediction: AFTER
+This relation involves in BOB
+
+e1 id: E23; e2 id: E78; e1 text: An echocardiogram; e2 text: found
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E19; e2 id: E78; e1 text: decreased breath sounds; e2 text: found
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T9; e2 id: E67; e1 text: several days; e2 text: returned to normal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E89; e2 id: E87; e1 text: Serial EKG and CK; e2 text: found
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E17; e2 id: E77; e1 text: frequent aberrant atrial premature beats; e2 text: found
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E86; e1 text: abnormalities; e2 text: demonstrated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E68; e2 id: E52; e1 text: Retelk County Medical Center; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E16; e2 id: E76; e1 text: perioperative Vancomycin; e2 text: the unit
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E77; e2 id: E76; e1 text: found; e2 text: the unit
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E4; e2 id: E52; e1 text: echocardiogram; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E34; e2 id: E85; e1 text: elevated LDH , alkaline phosphatase , and amylase; e2 text: found
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E66; e2 id: E65; e1 text: discovered; e2 text: presented
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E43; e2 id: E91; e1 text: pO2; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+

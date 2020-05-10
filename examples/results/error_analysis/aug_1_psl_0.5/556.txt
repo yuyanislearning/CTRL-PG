@@ -1,0 +1,30 @@
+e1 id: E51; e2 id: E48; e1 text: scattered T2 hyperintense foci within the periventricular and left frontal white matter; e2 text: The MRA
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E36; e1 text: surgical intervention; e2 text: A Neurosurgery Service consultation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: T3; e1 text: gradually resolved; e2 text: five hours
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E73; e2 id: T4; e1 text: tolerating a regular diet; e2 text: 6-26-94
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E44; e2 id: E39; e1 text: follow up; e2 text: a magnetic resonance imaging study
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E64; e2 id: E61; e1 text: thrombus; e2 text: An echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E55; e1 text: some very rare atrial premature contractions; e2 text: A Holter monitor
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E57; e2 id: E55; e1 text: normal sinus rhythm; e2 text: A Holter monitor
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E6; e2 id: T2; e1 text: otherwise good health; e2 text: This morning
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E65; e2 id: E66; e1 text: confusion; e2 text: gradually resolved
+ground truth: BEFORE; prediction: OVERLAP
+

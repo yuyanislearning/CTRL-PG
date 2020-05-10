@@ -1,0 +1,51 @@
+e1 id: E29; e2 id: E28; e1 text: GI bleeding; e2 text: Blood loss anemia
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E64; e2 id: E30; e1 text: an AVM; e2 text: the bleeding
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E57; e2 id: E11; e1 text: the Nantucket Cottage Hospital; e2 text: dialysis
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E65; e2 id: E33; e1 text: uptake; e2 text: tagged scan
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E61; e2 id: E60; e1 text: transferred; e2 text: consulted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E50; e2 id: E59; e1 text: transfused; e2 text: type and crossed
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E22; e1 text: guiaiac positive maroon stool; e2 text: Rectal examination
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E22; e1 text: type and crossed; e2 text: Rectal examination
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E45; e2 id: E46; e1 text: The metoprolol; e2 text: acute bleeding phase
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: E46; e1 text: restarted; e2 text: acute bleeding phase
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E35; e2 id: E66; e1 text: intervention; e2 text: bleeding
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E39; e2 id: E73; e1 text: AVM &#39;s; e2 text: hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E77; e2 id: E76; e1 text: APL from the fundus; e2 text: argon photocoagulation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E62; e2 id: E61; e1 text: the CMED CCU; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E73; e2 id: E75; e1 text: hospital; e2 text: follow
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E69; e2 id: E68; e1 text: the Lahey Clinic - North Shore; e2 text: the ICU
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E19; e2 id: E18; e1 text: her baseline hematocrit; e2 text: Her hematocrit
+ground truth: BEFORE; prediction: OVERLAP
+

@@ -1,0 +1,64 @@
+e1 id: E48; e2 id: T7; e1 text: additional insulin coverage; e2 text: day three
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E36; e1 text: pancultured; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E38; e2 id: E36; e1 text: vancomycin; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E40; e2 id: E37; e1 text: wound cultures; e2 text: pancultured
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E19; e2 id: E20; e1 text: a predischarge biopsy; e2 text: home
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E16; e2 id: E14; e1 text: extubted; e2 text: hyperglycemia
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E15; e2 id: T9; e1 text: seizure; e2 text: postoperative day number one
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E32; e2 id: E31; e1 text: the wound; e2 text: the Surgical Clinic
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E31; e2 id: E34; e1 text: the Surgical Clinic; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E35; e2 id: E31; e1 text: intravenous antibiotics; e2 text: the Surgical Clinic
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T2; e2 id: E2; e1 text: 20 days; e2 text: orthotopic cardiac transplant
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E4; e2 id: E2; e1 text: sternal wound infection; e2 text: orthotopic cardiac transplant
+ground truth: AFTER; prediction: BEFORE
+This relation involves in BBB
+
+e1 id: E8; e2 id: E9; e1 text: his evaluation; e2 text: his cardiac transplant
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E49; e2 id: T8; e1 text: his intravenous antibiotics; e2 text: the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E50; e2 id: T8; e1 text: tetracycline; e2 text: the day
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E28; e2 id: T4; e1 text: his incision; e2 text: 2/3
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E30; e2 id: T4; e1 text: more erythematous; e2 text: 2/3
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E31; e2 id: E27; e1 text: the Surgical Clinic; e2 text: the Transplant Clinic
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E13; e2 id: E9; e1 text: His post transplant course; e2 text: his cardiac transplant
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T9; e2 id: E9; e1 text: postoperative day number one; e2 text: his cardiac transplant
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E2; e2 id: E9; e1 text: orthotopic cardiac transplant; e2 text: his cardiac transplant
+ground truth: OVERLAP; prediction: BEFORE
+

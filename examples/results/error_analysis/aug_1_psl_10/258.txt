@@ -1,0 +1,90 @@
+e1 id: E49; e2 id: E47; e1 text: shortness of breath; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E50; e2 id: E47; e1 text: dysuria; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E51; e2 id: E47; e1 text: diarrhea; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: E47; e1 text: bright red blood per rectum; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E17; e2 id: E14; e1 text: does not recall walking home; e2 text: ran into some friends
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E37; e2 id: E35; e1 text: a normal saline bolus; e2 text: a systolic blood pressure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E84; e2 id: T10; e1 text: mild tremor on hands; e2 text: hospital day #3
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E84; e2 id: T9; e1 text: mild tremor on hands; e2 text: Hospital day #2
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E33; e2 id: E31; e1 text: hypotensive; e2 text: Haldol
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: E13; e1 text: a few cocktails; e2 text: a few more glasses of wine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E40; e2 id: E39; e1 text: the medical Intensive Care Unit; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E43; e2 id: T3; e1 text: transferred; e2 text: overnight
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E44; e2 id: E43; e1 text: service on medicine; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E47; e2 id: E43; e1 text: denies; e2 text: transferred
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E10; e2 id: E7; e1 text: two glasses of red wine; e2 text: going out alone
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E6; e2 id: E9; e1 text: states; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E75; e2 id: T7; e1 text: stable; e2 text: hospital day #2
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E75; e2 id: E76; e1 text: stable; e2 text: IV hydration
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E25; e1 text: Blood alcohol level; e2 text: EMS was called
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E21; e2 id: E20; e1 text: the emergency room; e2 text: presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E93; e2 id: E92; e1 text: Call; e2 text: follow up
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E93; e2 id: E91; e1 text: Call; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E38; e2 id: E37; e1 text: good blood pressure response; e2 text: a normal saline bolus
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E39; e2 id: E38; e1 text: admitted; e2 text: good blood pressure response
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E12; e2 id: E10; e1 text: a few cocktails; e2 text: two glasses of red wine
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E98; e2 id: E17; e1 text: further recollection; e2 text: does not recall walking home
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E61; e2 id: E60; e1 text: mentally handicapped; e2 text: unstable
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E20; e2 id: E25; e1 text: presented; e2 text: EMS was called
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E25; e2 id: E23; e1 text: EMS was called; e2 text: found
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T6; e2 id: T5; e1 text: overnight; e2 text: hospital day #2
+ground truth: OVERLAP; prediction: BEFORE
+

@@ -1,0 +1,19 @@
+e1 id: E54; e2 id: E23; e1 text: positive level II nodes; e2 text: his pathology
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E51; e2 id: E50; e1 text: XRT; e2 text: rehabilitation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E5; e2 id: E6; e1 text: hematuria; e2 text: a cystoscopy transurethral resection of prostate placement
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E18; e2 id: E16; e1 text: further intervention; e2 text: laryngoscopy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: E11; e1 text: hoarse; e2 text: the procedure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E14; e2 id: E13; e1 text: significant supraglottic edema; e2 text: scoping
+ground truth: BEFORE; prediction: OVERLAP
+

@@ -1,0 +1,56 @@
+e1 id: E34; e2 id: E33; e1 text: silvadine; e2 text: Plastic surgery
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E30; e2 id: E31; e1 text: transferred; e2 text: the floor
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E65; e2 id: E59; e1 text: Clindamycin; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+This relation involves in OBB
+
+e1 id: E57; e2 id: T13; e1 text: a PICC; e2 text: POD#7
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E60; e2 id: E59; e1 text: good pain control; e2 text: discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E61; e2 id: E59; e1 text: a regular diet; e2 text: discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E26; e2 id: E25; e1 text: his wound; e2 text: Clindamycin
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E27; e2 id: E25; e1 text: Group A strep growth; e2 text: Clindamycin
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E27; e2 id: E29; e1 text: Group A strep growth; e2 text: cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E34; e2 id: E35; e1 text: silvadine; e2 text: dessication
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E66; e2 id: E67; e1 text: discharged; e2 text: a rehab facility
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E68; e2 id: E67; e1 text: fair condition; e2 text: a rehab facility
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E10; e2 id: T3; e1 text: more pain; e2 text: the week
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E12; e2 id: T3; e1 text: warmth; e2 text: the week
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E14; e2 id: E13; e1 text: the Youville Hospital - Woody Monica; e2 text: presented
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E20; e2 id: E21; e1 text: transferred; e2 text: Hallmark Health System
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E4; e2 id: T2; e1 text: right foot pain; e2 text: the Sunday
+ground truth: AFTER; prediction: OVERLAP
+

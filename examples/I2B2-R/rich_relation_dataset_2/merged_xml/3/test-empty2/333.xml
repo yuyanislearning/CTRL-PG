@@ -130,5 +130,62 @@ She will also take Percocet .
 <TIMEX3 id="T3" start="912" end="918" text="July 9" type="DATE" val="1993-07-09" mod="NA" />
 <SECTIME id="S0" start="18" end="24" text="7-9-93" type="ADMISSION" dvalue="1993-07-09" />
 <SECTIME id="S1" start="43" end="50" text="7-15-93" type="DISCHARGE" dvalue="1993-7-15" />
+<TLINK id="TL1" fromID="E24" fromText="a temperature" toID="T8" toText="postoperative day two" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E62" fromText="revealed" toID="T8" toText="postoperative day two" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E25" fromText="coarse breath sounds" toID="T8" toText="postoperative day two" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E63" fromText="ambulate" toID="T8" toText="postoperative day two" type="OVERLAP" senid="24" />
+<TLINK id="TL5" fromID="E64" fromText="deep breath" toID="T8" toText="postoperative day two" type="OVERLAP" senid="24" />
+<TLINK id="TL6" fromID="E22" fromText="Her calcium" toID="E21" toText="the procedure" type="AFTER" senid="20" />
+<TLINK id="TL7" fromID="E59" fromText="stable condition" toID="E58" toText="the recovery room" type="BEFORE" senid="19" />
+<TLINK id="TL8" fromID="E60" fromText="the patient did well" toID="E21" toText="the procedure" type="AFTER" senid="19" />
+<TLINK id="TL9" fromID="E20" fromText="complications" toID="E21" toText="the procedure" type="OVERLAP" senid="19" />
+<TLINK id="TL10" fromID="E73" fromText="Ciprofloxacin" toID="E41" toText="discharged" type="AFTER" senid="37" />
+<TLINK id="TL11" fromID="E38" fromText="admission medications" toID="E41" toText="discharged" type="OVERLAP" senid="37" />
+<TLINK id="TL12" fromID="T12" fromText="nine more days" toID="E41" toText="discharged" type="AFTER" senid="37" />
+<TLINK id="TL13" fromID="E73" fromText="Ciprofloxacin" toID="T12" toText="nine more days" type="OVERLAP" senid="37" />
+<TLINK id="TL14" fromID="E54" fromText="exploratory laparotomy" toID="E53" toText="admitted" type="AFTER" senid="12" />
+<TLINK id="TL15" fromID="E23" fromText="Her Jackson-Pratt drain" toID="T7" toText="postoperative day number two" type="BEFORE" senid="22" />
+<TLINK id="TL16" fromID="E6" fromText="hypercalcemia" toID="E52" toText="presented" type="BEFORE" senid="10" />
+<TLINK id="TL17" fromID="E52" fromText="presented" toID="T5" toText="June 22 , 1993" type="BEFORE" senid="10" />
+<TLINK id="TL18" fromID="E7" fromText="a parathyroidectomy" toID="T5" toText="June 22 , 1993" type="OVERLAP" senid="10" />
+<TLINK id="TL19" fromID="E71" fromText="revealed" toID="E34" toText="final pathology" type="OVERLAP" senid="35" />
+<TLINK id="TL20" fromID="E72" fromText="revealed" toID="E34" toText="final pathology" type="OVERLAP" senid="35" />
+<TLINK id="TL21" fromID="E29" fromText="her post-void residuals" toID="T10" toText="postoperative day six" type="OVERLAP" senid="29" />
+<TLINK id="TL22" fromID="E42" fromText="DISCHARGE" toID="T2" toText="7-15-93" type="OVERLAP" senid="3" />
+<TLINK id="TL23" fromID="E15" fromText="adhesions" toID="E14" toText="lysis" type="OVERLAP" senid="17" />
+<TLINK id="TL24" fromID="E19" fromText="The estimated blood loss" toID="E57" toText="the operating room" type="OVERLAP" senid="17" />
+<TLINK id="TL25" fromID="E47" fromText="enlarged ovary" toID="E1" toText="ultrasound" type="BEFORE" senid="6" />
+<TLINK id="TL26" fromID="E44" fromText="presents" toID="E45" toText="complains" type="OVERLAP" senid="6" />
+<TLINK id="TL27" fromID="E45" fromText="complains" toID="E49" toText="complaining" type="OVERLAP" senid="6" />
+<TLINK id="TL28" fromID="E27" fromText="her suprapubic tube" toID="T10" toText="postoperative day six" type="BEFORE" senid="28" />
+<TLINK id="TL29" fromID="E28" fromText="clamped" toID="T10" toText="postoperative day six" type="BEFORE" senid="28" />
+<TLINK id="TL30" fromID="E39" fromText="Clamping" toID="E28" toText="clamped" type="OVERLAP" senid="28" />
+<TLINK id="TL31" fromID="E0" fromText="ADMISSION" toID="T1" toText="7-9-93" type="OVERLAP" senid="2" />
+<TLINK id="TL32" fromID="E3" fromText="somomabodies" toID="E2" toText="a Papanicolaou smear" type="BEFORE" senid="8" />
+<TLINK id="TL33" fromID="E51" fromText="revealed" toID="E2" toText="a Papanicolaou smear" type="OVERLAP" senid="8" />
+<TLINK id="TL34" fromID="E22" fromText="Her calcium" toID="T6" toText="daily" type="OVERLAP" senid="21" />
+<TLINK id="TL35" fromID="E61" fromText="repleted" toID="E22" toText="Her calcium" type="OVERLAP" senid="21" />
+<TLINK id="TL36" fromID="E55" fromText="ovarian cancer" toID="E10" toText="vaginal bleeding" type="OVERLAP" senid="14" />
+<TLINK id="TL37" fromID="E28" fromText="clamped" toID="E66" toText="voided spontaneously" type="OVERLAP" senid="27" />
+<TLINK id="TL38" fromID="E28" fromText="clamped" toID="T9" toText="postoperative day four" type="AFTER" senid="27" />
+<TLINK id="TL39" fromID="E57" fromText="the operating room" toID="E56" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL40" fromID="E11" fromText="an open laparoscopy" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL41" fromID="E12" fromText="total abdominal hysterectomy" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL42" fromID="E13" fromText="bilateral salpingo-oophorectomy" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL43" fromID="E14" fromText="lysis" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL44" fromID="E16" fromText="Birch procedure" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL45" fromID="E17" fromText="suprapubic Foley catheter placement" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL46" fromID="E18" fromText="Jackson-Pratt drain placement" toID="E57" toText="the operating room" type="OVERLAP" senid="16" />
+<TLINK id="TL47" fromID="E74" fromText="Percocet" toID="E41" toText="discharged" type="AFTER" senid="38" />
+<TLINK id="TL48" fromID="E70" fromText="atelectasis" toID="E33" toText="the chest X-ray" type="OVERLAP" senid="33" />
+<TLINK id="TL49" fromID="E31" fromText="A chest X-ray" toID="E32" toText="the patient  apos;s coarse breath sounds" type="AFTER" senid="33" />
+<TLINK id="TL50" fromID="E40" fromText="discharged" toID="E31" toText="A chest X-ray" type="AFTER" senid="33" />
+<TLINK id="TL51" fromID="E31" fromText="A chest X-ray" toID="E33" toText="the chest X-ray" type="OVERLAP" senid="33" />
+<TLINK id="TL52" fromID="E5" fromText="radiation therapy" toID="E4" toText="vaginal bleeding" type="BEFORE" senid="9" />
+<TLINK id="TL53" fromID="E2" fromText="a Papanicolaou smear" toID="E7" toText="a parathyroidectomy" type="BEFORE" senid="9" />
+<TLINK id="TL54" fromID="E4" fromText="vaginal bleeding" toID="T4" toText="April 1992" type="OVERLAP" senid="9" />
+<TLINK id="TL55" fromID="E50" fromText="urinary incontinence" toID="T0" toText="several years" type="OVERLAP" senid="7" />
+<TLINK id="TL56" fromID="E68" fromText="tolerating a regular diet" toID="T11" toText="postoperative day six" type="AFTER" senid="32" />
+<TLINK id="TL57" fromID="E69" fromText="passing flatus" toID="T11" toText="postoperative day six" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

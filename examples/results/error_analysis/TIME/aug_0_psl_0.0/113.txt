@@ -1,0 +1,205 @@
+e1 id: E120; e2 id: T1; e1 text: complication; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E112; e2 id: E111; e1 text: a large volume paracentesis; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E97; e2 id: E96; e1 text: admission; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E53; e2 id: E49; e1 text: pressors; e2 text: hypotensive
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E48; e2 id: E49; e1 text: Hypotension; e2 text: hypotensive
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E49; e2 id: E48; e1 text: hypotensive; e2 text: Hypotension
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E193; e2 id: T1; e1 text: Creatinine; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E21; e2 id: T1; e1 text: Creatinine; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E148; e2 id: E147; e1 text: hepatorenal ssyndrome; e2 text: albumin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E140; e2 id: E138; e1 text: Furosemide; e2 text: maintains
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E149; e2 id: E83; e1 text: DIC; e2 text: The hospitalisation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E45; e2 id: E161; e1 text: the pt &#39;s prognosis; e2 text: explained
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E105; e2 id: E76; e1 text: increasing abdominal girth; e2 text: liver clinic
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E104; e2 id: E102; e1 text: ascites; e2 text: HCV cirrhosis
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E79; e2 id: T8; e1 text: hospitalised; e2 text: 03-04
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: T7; e1 text: hospitalised; e2 text: 02-23
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E79; e1 text: paracentesis; e2 text: hospitalised
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E127; e2 id: E126; e1 text: abd pain; e2 text: complained
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E127; e2 id: E129; e1 text: abd pain; e2 text: medication
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E13; e2 id: E12; e1 text: NS; e2 text: decreased
+ground truth: BEFORE; prediction: AFTER
+This relation involves in BBB
+
+e1 id: E13; e2 id: E131; e1 text: NS; e2 text: improved
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E9; e2 id: E8; e1 text: plts; e2 text: plts
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E10; e1 text: Her BP; e2 text: PRBC s.
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E134; e2 id: T1; e1 text: Her mental status; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E18; e2 id: T1; e1 text: decreased; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E19; e2 id: T1; e1 text: her urine output; e2 text: 2015-03-26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E20; e2 id: T1; e1 text: minimal; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E119; e2 id: E118; e1 text: non-bloody ascitic fluid; e2 text: the tap
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E114; e2 id: E6; e1 text: FFP; e2 text: her INR
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E9; e2 id: T1; e1 text: plts; e2 text: 2015-03-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: T1; e1 text: PRBC s.; e2 text: 2015-03-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E36; e2 id: E35; e1 text: Enterococcus; e2 text: amoxicillin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T9; e2 id: E32; e1 text: 7 day; e2 text: UTI
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E138; e2 id: T8; e1 text: maintains; e2 text: 03-04
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E14; e2 id: T1; e1 text: Temp; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E132; e2 id: T1; e1 text: noted; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E15; e2 id: T1; e1 text: low; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E16; e2 id: T1; e1 text: bear hugger; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E133; e2 id: T1; e1 text: improved; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E17; e2 id: T1; e1 text: temp; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E112; e2 id: T1; e1 text: a large volume paracentesis; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E6; e2 id: T1; e1 text: her INR; e2 text: 2015-03-26
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E11; e2 id: T1; e1 text: Her BP; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E130; e2 id: T1; e1 text: noted; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E12; e2 id: T1; e1 text: decreased; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E131; e2 id: T1; e1 text: improved; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E13; e2 id: T1; e1 text: NS; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E8; e2 id: T1; e1 text: plts; e2 text: 2015-03-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: T1; e1 text: her discharge; e2 text: 2015-03-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E193; e1 text: Creatinine; e2 text: Creatinine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: T3; e1 text: Creatinine; e2 text: yesterday
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E69; e2 id: T2; e1 text: creatinine; e2 text: 2015-03-30
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E121; e2 id: T1; e1 text: albumin; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E122; e2 id: T1; e1 text: the tap; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E145; e2 id: T1; e1 text: discharge; e2 text: 2015-03-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E138; e2 id: T1; e1 text: maintains; e2 text: 2015-03-26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E133; e2 id: E16; e1 text: improved; e2 text: bear hugger
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E17; e2 id: E16; e1 text: temp; e2 text: bear hugger
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E77; e2 id: T1; e1 text: admission; e2 text: 2015-03-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E73; e2 id: T12; e1 text: Her creatinine; e2 text: this afternoon
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E39; e2 id: T3; e1 text: SBP; e2 text: yesterday
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E114; e2 id: T1; e1 text: FFP; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E116; e2 id: T1; e1 text: her INR; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E117; e2 id: T1; e1 text: 2 more units; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E118; e2 id: T1; e1 text: the tap; e2 text: 2015-03-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E91; e2 id: E90; e1 text: decision; e2 text: A family meeting
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E89; e2 id: T2; e1 text: her hospital course; e2 text: 2015-03-30
+ground truth: AFTER; prediction: BEFORE
+

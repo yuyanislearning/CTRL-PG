@@ -1,0 +1,51 @@
+e1 id: E68; e2 id: E67; e1 text: cerebellar swelling; e2 text: surgical option
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E67; e2 id: E66; e1 text: surgical option; e2 text: consulted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E71; e2 id: E66; e1 text: fluid restriction; e2 text: consulted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E49; e2 id: E45; e1 text: transferred; e2 text: showed
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E36; e2 id: E33; e1 text: a pH; e2 text: A blood gas
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E20; e2 id: E21; e1 text: an acute decompensation in respiratory status; e2 text: noted
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E20; e2 id: E22; e1 text: an acute decompensation in respiratory status; e2 text: Lung examination
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E76; e2 id: E73; e1 text: Cefotaxime; e2 text: Heparin
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E74; e2 id: E73; e1 text: intercerebral hemorrhage; e2 text: Heparin
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E5; e2 id: E4; e1 text: the emergency room; e2 text: presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E6; e2 id: E5; e1 text: acute change in mental status; e2 text: the emergency room
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E50; e2 id: E49; e1 text: the intensive care unit; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E18; e2 id: E17; e1 text: a telemetry bed; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E63; e2 id: E65; e1 text: continued to deteriorate; e2 text: Neurosurgery
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E53; e2 id: E52; e1 text: his stroke; e2 text: MRA of the head
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E9; e2 id: E7; e1 text: complained; e2 text: presentation
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: E9; e1 text: headache across the forehead; e2 text: complained
+ground truth: BEFORE; prediction: OVERLAP
+

@@ -1,0 +1,18 @@
+e1 id: E0; e2 id: E15; e1 text: loss of consciousness; e2 text: struck by a car
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T6; e2 id: E31; e1 text: the night; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: E23; e1 text: A Urology consultation; e2 text: maintained 5/5 motor strength
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E25; e2 id: E24; e1 text: an IVP; e2 text: A Urology consultation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E5; e2 id: E6; e1 text: residual contrast in the colon; e2 text: the patient  apos;s prior abdominal CT scan
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E0; e2 id: E16; e1 text: loss of consciousness; e2 text: conscious
+ground truth: BEFORE; prediction: OVERLAP
+

@@ -1,0 +1,33 @@
+e1 id: E11; e2 id: E66; e1 text: bag mask ventilation; e2 text: spontaneous respiratory effort
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E47; e2 id: T16; e1 text: his phototherapy; e2 text: the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E8; e1 text: limp; e2 text: a stat cesarean section
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E43; e2 id: E44; e1 text: physiologic hyperbilirubinemia; e2 text: peak bili
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E44; e2 id: T13; e1 text: peak bili; e2 text: 06-08
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E28; e2 id: T9; e1 text: his IV; e2 text: The morning
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E25; e2 id: E26; e1 text: intravenous fluids; e2 text: his respiratory distress
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E22; e2 id: T7; e1 text: nasal prong CPAP; e2 text: 24 hours
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E6; e2 id: E65; e1 text: vaginal bleeding; e2 text: admission
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E67; e2 id: E11; e1 text: good response; e2 text: bag mask ventilation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T7; e2 id: E70; e1 text: 24 hours; e2 text: transitioned
+ground truth: BEFORE; prediction: OVERLAP
+

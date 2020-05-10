@@ -99,5 +99,47 @@ He was instructed to follow up with Dr. Conway in 2 weeks and an appointment was
 <TIMEX3 id="T2" start="46" end="56" text="2019-10-19" type="DATE" val="2019-10-19" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2019-10-10" type="ADMISSION" dvalue="2019-10-10" />
 <SECTIME id="S1" start="46" end="56" text="2019-10-19" type="DISCHARGE" dvalue="2019-10-19" />
+<TLINK id="TL1" fromID="E15" fromText="the procedure" toID="E48" toText="work with physical therapy" type="BEFORE" senid="23" />
+<TLINK id="TL2" fromID="E47" fromText="difficulty" toID="E15" toText="the procedure" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E32" fromText="evaluated" toID="E34" toText="the trauma bay" type="AFTER" senid="13" />
+<TLINK id="TL4" fromID="E48" fromText="work with physical therapy" toID="E49" toText="improve his strenght and mobility" type="OVERLAP" senid="24" />
+<TLINK id="TL5" fromID="E42" fromText="the floor" toID="E22" toText="transfered" type="AFTER" senid="20" />
+<TLINK id="TL6" fromID="E39" fromText="the trauma intensive care unit" toID="E22" toText="transfered" type="BEFORE" senid="19" />
+<TLINK id="TL7" fromID="E10" fromText="lopressor" toID="T4" toText="2019-10-11" type="OVERLAP" senid="19" />
+<TLINK id="TL8" fromID="E41" fromText="good effect" toID="E10" toText="lopressor" type="OVERLAP" senid="19" />
+<TLINK id="TL9" fromID="E8" fromText="his tachycardia" toID="E9" toText="pain medication" type="BEFORE" senid="18" />
+<TLINK id="TL10" fromID="E39" fromText="the trauma intensive care unit" toID="E21" toText="admitted" type="AFTER" senid="18" />
+<TLINK id="TL11" fromID="E9" fromText="pain medication" toID="E40" toText="resolved" type="AFTER" senid="18" />
+<TLINK id="TL12" fromID="E11" fromText="his tachycardia" toID="E8" toText="his tachycardia" type="OVERLAP" senid="18" />
+<TLINK id="TL13" fromID="E14" fromText="His pelvis fracture" toID="E44" toText="closed treated" type="BEFORE" senid="22" />
+<TLINK id="TL14" fromID="E44" fromText="closed treated" toID="E45" toText="weight bearing as tolerated" type="BEFORE" senid="22" />
+<TLINK id="TL15" fromID="E45" fromText="weight bearing as tolerated" toID="E46" toText="nonweight bearing" type="OVERLAP" senid="22" />
+<TLINK id="TL16" fromID="E15" fromText="the procedure" toID="E12" toText="an ORIF" type="OVERLAP" senid="22" />
+<TLINK id="TL17" fromID="E24" fromText="Discharge" toID="T2" toText="2019-10-19" type="OVERLAP" senid="3" />
+<TLINK id="TL18" fromID="E4" fromText="a left elbow disloaction" toID="E35" toText="reduced" type="BEFORE" senid="15" />
+<TLINK id="TL19" fromID="E36" fromText="splinted" toID="E35" toText="reduced" type="OVERLAP" senid="15" />
+<TLINK id="TL20" fromID="E0" fromText="Admission" toID="T1" toText="2019-10-10" type="OVERLAP" senid="2" />
+<TLINK id="TL21" fromID="E27" fromText="He fell" toID="E26" toText="climbing up" type="OVERLAP" senid="8" />
+<TLINK id="TL22" fromID="E26" fromText="climbing up" toID="E25" toText="locked out of his apartment" type="OVERLAP" senid="8" />
+<TLINK id="TL23" fromID="E16" fromText="His heart rate" toID="E50" toText="well controlled" type="OVERLAP" senid="25" />
+<TLINK id="TL24" fromID="E17" fromText="his lopressor" toID="E50" toText="well controlled" type="OVERLAP" senid="25" />
+<TLINK id="TL25" fromID="E13" fromText="his left distal radius fracture" toID="E12" toText="an ORIF" type="BEFORE" senid="21" />
+<TLINK id="TL26" fromID="E43" fromText="the operating room" toID="T0" toText="2019-10-11" type="OVERLAP" senid="21" />
+<TLINK id="TL27" fromID="E12" fromText="an ORIF" toID="E43" toText="the operating room" type="OVERLAP" senid="21" />
+<TLINK id="TL28" fromID="E31" fromText="ambulance" toID="E29" toText="presented" type="OVERLAP" senid="11" />
+<TLINK id="TL29" fromID="E29" fromText="presented" toID="T3" toText="2019-10-10" type="OVERLAP" senid="11" />
+<TLINK id="TL30" fromID="E33" fromText="intoxicated" toID="E34" toText="the trauma bay" type="OVERLAP" senid="14" />
+<TLINK id="TL31" fromID="E2" fromText="tachycardic" toID="E34" toText="the trauma bay" type="OVERLAP" senid="14" />
+<TLINK id="TL32" fromID="T6" fromText="2 weeks" toID="E54" toText="follow up" type="OVERLAP" senid="27" />
+<TLINK id="TL33" fromID="E56" fromText="his heart rate" toID="E58" toText="follow" type="OVERLAP" senid="27" />
+<TLINK id="TL34" fromID="E57" fromText="lopressor" toID="E55" toText="the Louis Schubert Community Health Center" type="OVERLAP" senid="27" />
+<TLINK id="TL35" fromID="E55" fromText="the Louis Schubert Community Health Center" toID="T5" toText="11-15" type="OVERLAP" senid="27" />
+<TLINK id="TL36" fromID="E58" fromText="follow" toID="E55" toText="the Louis Schubert Community Health Center" type="OVERLAP" senid="27" />
+<TLINK id="TL37" fromID="E5" fromText="a left distal radius fracture" toID="E37" toText="reduced" type="OVERLAP" senid="16" />
+<TLINK id="TL38" fromID="E38" fromText="splinted" toID="E37" toText="reduced" type="OVERLAP" senid="16" />
+<TLINK id="TL39" fromID="E1" fromText="loss of consiousness" toID="E27" toText="He fell" type="BEFORE" senid="9" />
+<TLINK id="TL40" fromID="E19" fromText="his pain" toID="E18" toText="his labs" type="OVERLAP" senid="26" />
+<TLINK id="TL41" fromID="E53" fromText="stable conditions" toID="E23" toText="discharged" type="BEFORE" senid="26" />
+<TLINK id="TL42" fromID="E52" fromText="controlled" toID="E51" toText="the stay" type="OVERLAP" senid="26" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

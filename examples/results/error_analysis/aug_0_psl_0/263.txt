@@ -1,0 +1,78 @@
+e1 id: E21; e2 id: E23; e1 text: a non-ST elevation MI; e2 text: angioplasty
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E22; e1 text: a non-ST elevation MI; e2 text: an 80 percent mid LAD lesion
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E101; e2 id: E58; e1 text: pressors; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E102; e2 id: E58; e1 text: hemodynamically stable; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E103; e2 id: E58; e1 text: pain-free; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E115; e2 id: E116; e1 text: His ACE inhibitor; e2 text: his creatinine
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E118; e2 id: E115; e1 text: his ACE inhibitor; e2 text: His ACE inhibitor
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E50; e2 id: E121; e1 text: Guaiac positive stools; e2 text: Guaiac positive
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E82; e2 id: E81; e1 text: angioplastied; e2 text: a long LAD lesion
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E86; e2 id: E79; e1 text: bradycardiac; e2 text: cardiac catheterization
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E79; e2 id: E82; e1 text: cardiac catheterization; e2 text: angioplastied
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E84; e2 id: E79; e1 text: a total occlusion of the RCA; e2 text: cardiac catheterization
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E106; e2 id: E108; e1 text: recurrent chest pain; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E51; e2 id: E52; e1 text: an outpatient GI workup; e2 text: outpatient colonoscopy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E1; e2 id: E56; e1 text: hypertension; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T4; e2 id: T3; e1 text: midnight; e2 text: five nights prior
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E4; e2 id: T4; e1 text: severe epigastric pain; e2 text: midnight
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E104; e2 id: T0; e1 text: his Plavix; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E30; e2 id: T0; e1 text: Guaiac positive stools; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: E70; e1 text: nitrates; e2 text: the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: E70; e1 text: heparin; e2 text: the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E16; e2 id: E70; e1 text: Integrelin; e2 text: the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E86; e2 id: E88; e1 text: bradycardiac; e2 text: IV fluids
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E42; e2 id: E114; e1 text: Flovent MDI; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E33; e2 id: E66; e1 text: an ejection fraction; e2 text: showing
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E38; e1 text: COPD; e2 text: 02
+ground truth: BEFORE; prediction: OVERLAP
+

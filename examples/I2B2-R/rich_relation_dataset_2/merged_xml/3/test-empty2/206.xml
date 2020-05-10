@@ -31,5 +31,17 @@ by private physician .
 <TIMEX3 id="T2" start="43" end="50" text="12/8/95" type="DATE" val="1995-12-08" mod="NA" />
 <SECTIME id="S0" start="18" end="25" text="12/4/95" type="ADMISSION" dvalue="1995-12-4" />
 <SECTIME id="S1" start="43" end="50" text="12/8/95" type="DISCHARGE" dvalue="1995-12-8" />
+<TLINK id="TL1" fromID="E6" fromText="ADMISSION" toID="T1" toText="12/4/95" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E7" fromText="DISCHARGE" toID="T2" toText="12/8/95" type="OVERLAP" senid="3" />
+<TLINK id="TL3" fromID="E5" fromText="treatment" toID="E10" toText="discharged" type="BEFORE" senid="8" />
+<TLINK id="TL4" fromID="E11" fromText="good condition" toID="E10" toText="discharged" type="BEFORE" senid="8" />
+<TLINK id="TL5" fromID="E8" fromText="tolerated" toID="E5" toText="treatment" type="OVERLAP" senid="8" />
+<TLINK id="TL6" fromID="E9" fromText="well" toID="E8" toText="tolerated" type="OVERLAP" senid="8" />
+<TLINK id="TL7" fromID="E0" fromText="hydrated" toID="E1" toText="Adriamycin" type="OVERLAP" senid="6" />
+<TLINK id="TL8" fromID="E1" fromText="Adriamycin" toID="E2" toText="DTIC" type="OVERLAP" senid="6" />
+<TLINK id="TL9" fromID="E2" fromText="DTIC" toID="T0" toText="daily for four days" type="OVERLAP" senid="6" />
+<TLINK id="TL10" fromID="E3" fromText="ifosfamide" toID="E2" toText="DTIC" type="OVERLAP" senid="6" />
+<TLINK id="TL11" fromID="E3" fromText="ifosfamide" toID="T3" toText="a day" type="OVERLAP" senid="7" />
+<TLINK id="TL12" fromID="E4" fromText="mesna" toID="E3" toText="ifosfamide" type="OVERLAP" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

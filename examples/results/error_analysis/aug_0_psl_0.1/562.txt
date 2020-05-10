@@ -1,0 +1,33 @@
+e1 id: E50; e2 id: E49; e1 text: fingersticks; e2 text: the floor
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E46; e2 id: E47; e1 text: denied; e2 text: any more gastrointestinal symptoms
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E17; e2 id: E14; e1 text: chills; e2 text: denied
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E41; e2 id: T3; e1 text: Her anion gap; e2 text: overnight
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T4; e2 id: E4; e1 text: 24 hours; e2 text: presented
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E4; e2 id: E5; e1 text: presented; e2 text: complaints
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E64; e2 id: E65; e1 text: symptom free; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E58; e2 id: E56; e1 text: white count; e2 text: an elevated white count
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E26; e1 text: two boluses of 15 units of regular insulin; e2 text: a fingerstick
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E36; e2 id: E35; e1 text: an insulin drip; e2 text: the Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E71; e2 id: E72; e1 text: repleted; e2 text: her po intake
+ground truth: AFTER; prediction: OVERLAP
+

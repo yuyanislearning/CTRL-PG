@@ -1,0 +1,75 @@
+e1 id: E60; e2 id: T0; e1 text: complained; e2 text: 12:15 on day
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E61; e2 id: E60; e1 text: severe headache; e2 text: complained
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E107; e2 id: T14; e1 text: bradycardic; e2 text: 06:00 on 2013-11-13
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E105; e2 id: E104; e1 text: discussion; e2 text: apnea testing
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E32; e2 id: E31; e1 text: no clinical signs of brainstem activity; e2 text: serial exams
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E102; e2 id: T12; e1 text: DNR; e2 text: afternoon of 2013-11-11
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E114; e2 id: T2; e1 text: dead; e2 text: 2013-11-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: E24; e1 text: Sedation; e2 text: frequent exams
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E92; e2 id: E89; e1 text: Dilantin; e2 text: Gary
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E91; e2 id: E90; e1 text: dilated; e2 text: fixed
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E78; e2 id: T1; e1 text: airway protection; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E69; e2 id: T1; e1 text: vitals; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E70; e2 id: T1; e1 text: BP; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E71; e2 id: T1; e1 text: HR; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E117; e2 id: T1; e1 text: presented; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E84; e2 id: E83; e1 text: Nipride drip; e2 text: Labetalol
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E81; e2 id: E79; e1 text: Vecuronium; e2 text: Fentanyl
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E94; e2 id: T1; e1 text: intensive care unit; e2 text: 2013-11-11
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E116; e2 id: T2; e1 text: notified; e2 text: 2013-11-13
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E104; e2 id: T2; e1 text: apnea testing; e2 text: 2013-11-13
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E98; e2 id: E45; e1 text: a surgical intervention; e2 text: evaluated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E99; e2 id: E45; e1 text: ventriculary drain; e2 text: evaluated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E115; e2 id: T2; e1 text: notified; e2 text: 2013-11-13
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E65; e2 id: T1; e1 text: Hahnemann General Hospital; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E66; e2 id: T1; e1 text: evaluation; e2 text: 2013-11-11
+ground truth: BEFORE; prediction: AFTER
+

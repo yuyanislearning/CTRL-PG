@@ -64,5 +64,40 @@ At that time her JP was still in place .
 <TIMEX3 id="T7" start="991" end="998" text="9/15/93" type="DATE" val="1993-09-15" mod="NA" />
 <SECTIME id="S0" start="18" end="25" text="9/14/93" type="ADMISSION" dvalue="1993-9-14" />
 <SECTIME id="S1" start="43" end="50" text="9/15/93" type="DISCHARGE" dvalue="1993-9-15" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="9/14/93" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E10" fromText="complaints" toID="E22" toText="presentation" type="OVERLAP" senid="10" />
+<TLINK id="TL3" fromID="E26" fromText="Postoperative course" toID="E6" toText="the procedure" type="AFTER" senid="19" />
+<TLINK id="TL4" fromID="E24" fromText="tolerated" toID="E6" toText="the procedure" type="OVERLAP" senid="19" />
+<TLINK id="TL5" fromID="E24" fromText="tolerated" toID="E25" toText="well" type="OVERLAP" senid="19" />
+<TLINK id="TL6" fromID="E7" fromText="complications" toID="E6" toText="the procedure" type="OVERLAP" senid="19" />
+<TLINK id="TL7" fromID="E7" fromText="complications" toID="E25" toText="well" type="OVERLAP" senid="19" />
+<TLINK id="TL8" fromID="E28" fromText="her JP" toID="E12" toText="discharged" type="OVERLAP" senid="21" />
+<TLINK id="TL9" fromID="E13" fromText="DISCHARGE" toID="T2" toText="9/15/93" type="OVERLAP" senid="3" />
+<TLINK id="TL10" fromID="E18" fromText="a Grade III / III infiltrating ductal carcinoma" toID="E9" toText="revealed" type="BEFORE" senid="8" />
+<TLINK id="TL11" fromID="E3" fromText="Pathology" toID="E4" toText="this resection" type="OVERLAP" senid="8" />
+<TLINK id="TL12" fromID="E9" fromText="revealed" toID="E3" toText="Pathology" type="OVERLAP" senid="8" />
+<TLINK id="TL13" fromID="E27" fromText="unremarkable" toID="E26" toText="Postoperative course" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E12" fromText="discharged" toID="T7" toText="9/15/93" type="OVERLAP" senid="20" />
+<TLINK id="TL15" fromID="E11" fromText="admitted" toID="T1" toText="9/14/93" type="OVERLAP" senid="18" />
+<TLINK id="TL16" fromID="T6" fromText="same day" toID="T1" toText="9/14/93" type="OVERLAP" senid="18" />
+<TLINK id="TL17" fromID="E5" fromText="a left axillary lymph nodes dissection" toID="T6" toText="same day" type="OVERLAP" senid="18" />
+<TLINK id="TL18" fromID="E5" fromText="a left axillary lymph nodes dissection" toID="E6" toText="the procedure" type="OVERLAP" senid="18" />
+<TLINK id="TL19" fromID="E6" fromText="the procedure" toID="E5" toText="a left axillary lymph nodes dissection" type="OVERLAP" senid="18" />
+<TLINK id="TL20" fromID="E14" fromText="healthy female" toID="E8" toText="diagnosed" type="BEFORE" senid="6" />
+<TLINK id="TL21" fromID="E15" fromText="a breast carcinoma" toID="E8" toText="diagnosed" type="BEFORE" senid="6" />
+<TLINK id="TL22" fromID="E1" fromText="some breast discomfort on the left side" toID="E16" toText="presented" type="BEFORE" senid="6" />
+<TLINK id="TL23" fromID="E8" fromText="diagnosed" toID="E16" toText="presented" type="OVERLAP" senid="6" />
+<TLINK id="TL24" fromID="T4" fromText="8/17/93" toID="T3" toText="June , 1992" type="AFTER" senid="6" />
+<TLINK id="TL25" fromID="E8" fromText="diagnosed" toID="T3" toText="June , 1992" type="OVERLAP" senid="6" />
+<TLINK id="TL26" fromID="E17" fromText="a left breast mass" toID="E15" toText="a breast carcinoma" type="OVERLAP" senid="6" />
+<TLINK id="TL27" fromID="E23" fromText="her last menstrual period" toID="T5" toText="week" type="OVERLAP" senid="12" />
+<TLINK id="TL28" fromID="E20" fromText="left axillary node dissection" toID="E19" toText="presents" type="OVERLAP" senid="9" />
+<TLINK id="TL29" fromID="E21" fromText="complete her staging" toID="E20" toText="left axillary node dissection" type="AFTER" senid="9" />
+<TLINK id="TL30" fromID="E22" fromText="presentation" toID="E19" toText="presents" type="OVERLAP" senid="9" />
+<TLINK id="TL31" fromID="E17" fromText="a left breast mass" toID="E2" toText="a wide resection" type="BEFORE" senid="7" />
+<TLINK id="TL32" fromID="E2" fromText="a wide resection" toID="T4" toText="8/17/93" type="OVERLAP" senid="7" />
+<TLINK id="TL33" fromID="E2" fromText="a wide resection" toID="E4" toText="this resection" type="OVERLAP" senid="7" />
+<TLINK id="TL34" fromID="E4" fromText="this resection" toID="E2" toText="a wide resection" type="OVERLAP" senid="7" />
+<TLINK id="TL35" fromID="E18" fromText="a Grade III / III infiltrating ductal carcinoma" toID="E17" toText="a left breast mass" type="OVERLAP" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

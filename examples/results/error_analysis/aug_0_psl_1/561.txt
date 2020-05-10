@@ -1,0 +1,33 @@
+e1 id: E26; e2 id: T6; e1 text: two major symptoms; e2 text: February 23
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E28; e2 id: E25; e1 text: lower extremity noninvasives; e2 text: presented
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E20; e2 id: T5; e1 text: chemotherapy; e2 text: one week ago
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E15; e2 id: E11; e1 text: epidural and paraspinal extension; e2 text: an MRI scan of the spine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E16; e2 id: E11; e1 text: a T11 metastasis; e2 text: an MRI scan of the spine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E29; e2 id: E27; e1 text: a femoral deep venous thrombosis; e2 text: right lower extremity swelling
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E58; e2 id: T11; e1 text: discharge; e2 text: February 24
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: T3; e1 text: His melanoma; e2 text: last fall
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E4; e2 id: E5; e1 text: diagnosed; e2 text: presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E5; e2 id: T3; e1 text: presented; e2 text: last fall
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E5; e2 id: E7; e1 text: presented; e2 text: a chest CT
+ground truth: OVERLAP; prediction: BEFORE
+

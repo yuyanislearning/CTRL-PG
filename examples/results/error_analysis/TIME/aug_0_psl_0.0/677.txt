@@ -1,0 +1,61 @@
+e1 id: E35; e2 id: E36; e1 text: Electrocardiograms; e2 text: inverted T waves in V5 and V6
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: E38; e1 text: transferred; e2 text: Cambridge Health Alliance
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E18; e2 id: T5; e1 text: pain; e2 text: 2005
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E22; e1 text: Mass. Mental Health Center; e2 text: presented
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E24; e2 id: E25; e1 text: an myocardial infarction; e2 text: enzymes
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E20; e2 id: T0; e1 text: informs; e2 text: 2016-09-05
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: T0; e1 text: the emergency room; e2 text: 2016-09-05
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E11; e2 id: T0; e1 text: shortness of breath; e2 text: 2016-09-05
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E12; e2 id: T0; e1 text: dizziness; e2 text: 2016-09-05
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E13; e2 id: T0; e1 text: diaphoresis; e2 text: 2016-09-05
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: T0; e1 text: nausea; e2 text: 2016-09-05
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E31; e1 text: continuing chest pain; e2 text: Plavix
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E28; e2 id: T6; e1 text: continuing chest pain; e2 text: 2016-09-03
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E26; e1 text: dissecting aortic aneurysm; e2 text: electrocardiograms
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E4; e2 id: E5; e1 text: prior myocardial infarction; e2 text: a percutaneous transluminal coronary angioplasty of the right coronary artery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E22; e2 id: T0; e1 text: presented; e2 text: 2016-09-05
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: T0; e1 text: Mass. Mental Health Center; e2 text: 2016-09-05
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E25; e2 id: T0; e1 text: enzymes; e2 text: 2016-09-05
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E38; e2 id: T0; e1 text: Cambridge Health Alliance; e2 text: 2016-09-05
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T5; e2 id: T2; e1 text: 2005; e2 text: 2005
+ground truth: OVERLAP; prediction: AFTER
+

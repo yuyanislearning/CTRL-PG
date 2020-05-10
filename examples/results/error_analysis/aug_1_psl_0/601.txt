@@ -1,0 +1,9 @@
+e1 id: E11; e2 id: E7; e1 text: her labor; e2 text: delivered
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E8; e2 id: E7; e1 text: apgar scores; e2 text: delivered
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: T5; e1 text: apgar scores; e2 text: five minutes
+ground truth: OVERLAP; prediction: BEFORE
+

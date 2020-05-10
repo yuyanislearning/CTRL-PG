@@ -1,0 +1,21 @@
+e1 id: E17; e2 id: E18; e1 text: Hematocrit; e2 text: packed red blood cells
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: E1; e1 text: excellent health; e2 text: painless jaundice
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: T7; e1 text: yellow; e2 text: the day
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E44; e2 id: T2; e1 text: the Lorough Medical Center  apos;s Emergency Department; e2 text: this after noon
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E61; e2 id: E43; e1 text: admission; e2 text: presented
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E33; e2 id: E32; e1 text: fatigue; e2 text: complained
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: E28; e1 text: excellent health; e2 text: noninsulin dependent diabetes mellitus
+ground truth: OVERLAP; prediction: AFTER
+

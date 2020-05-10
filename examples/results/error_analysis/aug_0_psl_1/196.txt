@@ -1,0 +1,12 @@
+e1 id: E7; e2 id: E8; e1 text: All efforts; e2 text: his comfort
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E2; e2 id: T1; e1 text: DISCHARGE; e2 text: 7-1-92
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E10; e1 text: declined; e2 text: Autopsy
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E10; e2 id: E9; e1 text: Autopsy; e2 text: died
+ground truth: AFTER; prediction: OVERLAP
+

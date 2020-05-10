@@ -1,0 +1,127 @@
+e1 id: E89; e2 id: E162; e1 text: TF; e2 text: TF goals
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E90; e2 id: E161; e1 text: TPN; e2 text: tapered
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E89; e2 id: T22; e1 text: TF; e2 text: POD# 15/6
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E161; e2 id: T22; e1 text: tapered; e2 text: POD# 15/6
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E27; e2 id: E28; e1 text: intubated; e2 text: subtotal colectomy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E29; e2 id: E28; e1 text: second surgery; e2 text: subtotal colectomy
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E17; e2 id: E18; e1 text: unstable angina; e2 text: nitroglycerin
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E134; e2 id: E18; e1 text: her medical treatment; e2 text: nitroglycerin
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E67; e2 id: E16; e1 text: colovesicular fistula; e2 text: repair
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T20; e2 id: T10; e1 text: POD# 23/14; e2 text: POD# 27/18
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E74; e2 id: T15; e1 text: a foley catheter; e2 text: the time
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E123; e2 id: E121; e1 text: mental status; e2 text: the ICU
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E9; e2 id: T5; e1 text: confusion; e2 text: 5 days
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T5; e2 id: E121; e1 text: 5 days; e2 text: the ICU
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E75; e2 id: T20; e1 text: a cystoscopy; e2 text: POD# 23/14
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E86; e2 id: E160; e1 text: TPN; e2 text: reinitiated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E167; e2 id: E166; e1 text: tolerating; e2 text: discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E45; e2 id: E42; e1 text: tender; e2 text: decompression
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E163; e2 id: E162; e1 text: dc &#39;ed.; e2 text: TF goals
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E165; e2 id: E163; e1 text: initiated; e2 text: dc &#39;ed.
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E130; e2 id: E128; e1 text: a cardiology consult; e2 text: Complained
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E128; e2 id: T6; e1 text: Complained; e2 text: first few days
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E12; e2 id: E128; e1 text: chest pain; e2 text: Complained
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E82; e2 id: E159; e1 text: TF; e2 text: weaned down
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E83; e2 id: E159; e1 text: the TPN; e2 text: weaned down
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: E78; e1 text: PT; e2 text: significant deconditioning
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E157; e2 id: E79; e1 text: further assessment; e2 text: PT
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E10; e2 id: E11; e1 text: restraints; e2 text: pertinent therapies
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E11; e2 id: E10; e1 text: pertinent therapies; e2 text: restraints
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: E96; e1 text: Her pain; e2 text: IV pain medicines
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T9; e2 id: T8; e1 text: HD#6; e2 text: HD#5
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E109; e2 id: E169; e1 text: Cape Cod Hospital Clinic; e2 text: an insulin dependent diabetic
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E87; e2 id: E108; e1 text: Tf; e2 text: dc &#39;ed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E71; e2 id: E70; e1 text: pressors; e2 text: IV antibiotics
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E52; e2 id: E51; e1 text: non-operative treatment; e2 text: unresponsiveness
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E134; e2 id: E19; e1 text: her medical treatment; e2 text: Beta blockers
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E48; e2 id: T9; e1 text: Subtotal Colectomy; e2 text: HD#6
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E80; e2 id: E107; e1 text: NPO; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E171; e2 id: E112; e1 text: progress well; e2 text: 3 North
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E63; e2 id: E62; e1 text: further resection of remaining colon; e2 text: drainage
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E54; e2 id: T11; e1 text: additional abdominal tenderness; e2 text: POD#6
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E32; e2 id: E31; e1 text: dilated Turner colon; e2 text: Her initial CT scan
+ground truth: OVERLAP; prediction: BEFORE
+

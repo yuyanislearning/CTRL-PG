@@ -193,83 +193,83 @@ She was discharged to home in stable condition .
 <TIMEX3 id="T2" start="831" end="841" text="2017-09-13" type="DATE" val="2017-09-13" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2017-09-13" type="ADMISSION" dvalue="2017-09-13" />
 <SECTIME id="S1" start="46" end="56" text="2017-09-15" type="DISCHARGE" dvalue="2017-09-15" />
-<TLINK id="TL0" fromID="E56" fromText="Cystectomy" toID="T13" toText="1992" type="OVERLAP" />
-<TLINK id="TL1" fromID="E94" fromText="Cystectomy" toID="T14" toText="1998" type="OVERLAP" />
-<TLINK id="TL2" fromID="E14" fromText="Her pulse" toID="E10" toText="Postoperative check" type="OVERLAP" />
-<TLINK id="TL3" fromID="E15" fromText="respirations" toID="E10" toText="Postoperative check" type="OVERLAP" />
-<TLINK id="TL4" fromID="E16" fromText="her O2 saturation" toID="E10" toText="Postoperative check" type="OVERLAP" />
-<TLINK id="TL5" fromID="E57" fromText="Breast lesion excision" toID="T15" toText="1989" type="OVERLAP" />
-<TLINK id="TL6" fromID="E77" fromText="stable" toID="T5" toText="Postoperative day 2" type="OVERLAP" />
-<TLINK id="TL7" fromID="E78" fromText="events" toID="E77" toText="stable" type="OVERLAP" />
-<TLINK id="TL8" fromID="E79" fromText="all vital signs" toID="T5" toText="Postoperative day 2" type="OVERLAP" />
-<TLINK id="TL9" fromID="E79" fromText="all vital signs" toID="E80" toText="stable" type="OVERLAP" />
-<TLINK id="TL10" fromID="E53" fromText="Aspirin" toID="T11" toText="times 3" type="OVERLAP" />
-<TLINK id="TL11" fromID="E83" fromText="Her extraocular movements" toID="E84" toText="full" type="OVERLAP" />
-<TLINK id="TL12" fromID="E52" fromText="Cyclobenzaprine" toID="T10" toText="q.d." type="OVERLAP" />
-<TLINK id="TL13" fromID="E21" fromText="Her coags" toID="E22" toText="her PT" type="OVERLAP" />
-<TLINK id="TL14" fromID="E22" fromText="her PT" toID="E23" toText="PTT" type="OVERLAP" />
-<TLINK id="TL15" fromID="E23" fromText="PTT" toID="E24" toText="her INR" type="OVERLAP" />
-<TLINK id="TL16" fromID="E68" fromText="neurologically stable" toID="E30" toText="The assessment" type="OVERLAP" />
-<TLINK id="TL17" fromID="E69" fromText="neuro checks" toID="E30" toText="The assessment" type="OVERLAP" />
-<TLINK id="TL18" fromID="E30" fromText="The assessment" toID="T17" toText="that time" type="OVERLAP" />
-<TLINK id="TL19" fromID="E27" fromText="the angiocele in her groin" toID="E28" toText="Angiocele" type="OVERLAP" />
-<TLINK id="TL20" fromID="E55" fromText="Tubal ligation" toID="T12" toText="1986" type="OVERLAP" />
-<TLINK id="TL21" fromID="E28" fromText="Angiocele" toID="E29" toText="hematoma" type="OVERLAP" />
-<TLINK id="TL22" fromID="E17" fromText="Her labs" toID="E44" toText="showed" type="OVERLAP" />
-<TLINK id="TL23" fromID="E18" fromText="a white blood count" toID="E44" toText="showed" type="OVERLAP" />
-<TLINK id="TL24" fromID="E19" fromText="hematocrit" toID="E44" toText="showed" type="OVERLAP" />
-<TLINK id="TL25" fromID="E20" fromText="platelets" toID="E44" toText="showed" type="OVERLAP" />
-<TLINK id="TL26" fromID="E21" fromText="Her coags" toID="E17" toText="Her labs" type="OVERLAP" />
-<TLINK id="TL27" fromID="E71" fromText="alert" toID="T3" toText="postoperative day 1" type="OVERLAP" />
-<TLINK id="TL28" fromID="E72" fromText="drift" toID="T3" toText="postoperative day 1" type="OVERLAP" />
-<TLINK id="TL29" fromID="E35" fromText="Her vital signs" toID="E73" toText="stable" type="OVERLAP" />
-<TLINK id="TL30" fromID="E35" fromText="Her vital signs" toID="E36" toText="a temperature" type="OVERLAP" />
-<TLINK id="TL31" fromID="E35" fromText="Her vital signs" toID="E37" toText="blood pressure" type="OVERLAP" />
-<TLINK id="TL32" fromID="E38" fromText="Pulse" toID="E35" toText="Her vital signs" type="OVERLAP" />
-<TLINK id="TL33" fromID="E88" fromText="Discharge condition" toID="E89" toText="good" type="OVERLAP" />
-<TLINK id="TL34" fromID="E91" fromText="tolerating a p.o. diet" toID="E90" toText="ambulating on her own" type="OVERLAP" />
-<TLINK id="TL35" fromID="E1" fromText="the patient &#39;s vital signs" toID="E43" toText="admission" type="OVERLAP" />
-<TLINK id="TL36" fromID="E2" fromText="Her blood pressure" toID="E43" toText="admission" type="OVERLAP" />
-<TLINK id="TL37" fromID="E46" fromText="Discharge" toID="T0" toText="2017-09-15" type="OVERLAP" />
-<TLINK id="TL38" fromID="E51" fromText="Prozac" toID="T9" toText="q.d." type="OVERLAP" />
-<TLINK id="TL39" fromID="E69" fromText="neuro checks" toID="T18" toText="q. 1-hour" type="OVERLAP" />
-<TLINK id="TL40" fromID="E31" fromText="a heparin drip" toID="E30" toText="The assessment" type="AFTER" />
-<TLINK id="TL41" fromID="E49" fromText="Plavix" toID="T7" toText="times 6" type="OVERLAP" />
-<TLINK id="TL42" fromID="E41" fromText="aspirin" toID="T20" toText="that time" type="AFTER" />
-<TLINK id="TL43" fromID="E42" fromText="Plavix" toID="T20" toText="that time" type="OVERLAP" />
-<TLINK id="TL44" fromID="E40" fromText="Her PTT" toID="T20" toText="that time" type="OVERLAP" />
-<TLINK id="TL45" fromID="E59" fromText="a smoker" toID="T16" toText="4 years ago" type="BEFORE" />
-<TLINK id="TL46" fromID="E59" fromText="a smoker" toID="E60" toText="tobacco" type="OVERLAP" />
-<TLINK id="TL47" fromID="E39" fromText="Respirations" toID="E35" toText="Her vital signs" type="OVERLAP" />
-<TLINK id="TL48" fromID="E0" fromText="Admission" toID="T1" toText="2017-09-13" type="OVERLAP" />
-<TLINK id="TL49" fromID="E45" fromText="discharged" toID="T6" toText="today" type="OVERLAP" />
-<TLINK id="TL50" fromID="E33" fromText="Her IPs" toID="T3" toText="postoperative day 1" type="OVERLAP" />
-<TLINK id="TL51" fromID="E92" fromText="discharged to home" toID="E93" toText="stable condition" type="AFTER" />
-<TLINK id="TL52" fromID="E47" fromText="a diagnostic cerebral angiogram" toID="E48" toText="coiling" type="OVERLAP" />
-<TLINK id="TL53" fromID="E86" fromText="Angio site" toID="E85" toText="clean , dry" type="OVERLAP" />
-<TLINK id="TL54" fromID="E86" fromText="Angio site" toID="E87" toText="intact without bleeding or drainage" type="OVERLAP" />
-<TLINK id="TL55" fromID="E41" fromText="aspirin" toID="T21" toText="q.d." type="OVERLAP" />
-<TLINK id="TL56" fromID="E42" fromText="Plavix" toID="T22" toText="q.d." type="OVERLAP" />
-<TLINK id="TL57" fromID="E63" fromText="complications" toID="E8" toText="coiling" type="OVERLAP" />
-<TLINK id="TL58" fromID="E7" fromText="the left carotid ophthalmic aneurysm" toID="E6" toText="stent placement" type="BEFORE" />
-<TLINK id="TL59" fromID="E62" fromText="the operating room" toID="T2" toText="2017-09-13" type="OVERLAP" />
-<TLINK id="TL60" fromID="E5" fromText="a coiling" toID="E62" toText="the operating room" type="OVERLAP" />
-<TLINK id="TL61" fromID="E6" fromText="stent placement" toID="E5" toText="a coiling" type="OVERLAP" />
-<TLINK id="TL62" fromID="E8" fromText="coiling" toID="E5" toText="a coiling" type="OVERLAP" />
-<TLINK id="TL63" fromID="E9" fromText="stent placement" toID="E6" toText="stent placement" type="OVERLAP" />
-<TLINK id="TL64" fromID="E3" fromText="Her heart rate" toID="E43" toText="admission" type="OVERLAP" />
-<TLINK id="TL65" fromID="E50" fromText="Xanax" toID="T8" toText="q.d." type="OVERLAP" />
-<TLINK id="TL66" fromID="E76" fromText="the regular floor" toID="E75" toText="transferred" type="AFTER" />
-<TLINK id="TL67" fromID="E75" fromText="transferred" toID="T4" toText="2017-09-14" type="OVERLAP" />
-<TLINK id="TL68" fromID="E81" fromText="Her visual fields" toID="E82" toText="intact" type="OVERLAP" />
-<TLINK id="TL69" fromID="E32" fromText="Her PTT" toID="E31" toText="a heparin drip" type="OVERLAP" />
-<TLINK id="TL70" fromID="E11" fromText="the patient &#39;s vital signs" toID="E10" toText="Postoperative check" type="OVERLAP" />
-<TLINK id="TL71" fromID="E67" fromText="stable" toID="E11" toText="the patient &#39;s vital signs" type="OVERLAP" />
-<TLINK id="TL72" fromID="E12" fromText="Her temperature" toID="E10" toText="Postoperative check" type="OVERLAP" />
-<TLINK id="TL73" fromID="E13" fromText="blood pressure" toID="E10" toText="Postoperative check" type="OVERLAP" />
-<TLINK id="TL74" fromID="E74" fromText="saturating" toID="E39" toText="Respirations" type="OVERLAP" />
-<TLINK id="TL75" fromID="E65" fromText="the PACU" toID="E64" toText="discharged" type="AFTER" />
-<TLINK id="TL76" fromID="E10" fromText="Postoperative check" toID="E64" toText="discharged" type="AFTER" />
-<TLINK id="TL77" fromID="E66" fromText="stable condition" toID="E64" toText="discharged" type="OVERLAP" />
+<TLINK id="TL1" fromID="E56" fromText="Cystectomy" toID="T13" toText="1992" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E94" fromText="Cystectomy" toID="T14" toText="1998" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E14" fromText="Her pulse" toID="E10" toText="Postoperative check" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E15" fromText="respirations" toID="E10" toText="Postoperative check" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E16" fromText="her O2 saturation" toID="E10" toText="Postoperative check" type="OVERLAP" senid="34" />
+<TLINK id="TL6" fromID="E57" fromText="Breast lesion excision" toID="T15" toText="1989" type="OVERLAP" senid="24" />
+<TLINK id="TL7" fromID="E77" fromText="stable" toID="T5" toText="Postoperative day 2" type="OVERLAP" senid="62" />
+<TLINK id="TL8" fromID="E78" fromText="events" toID="E77" toText="stable" type="OVERLAP" senid="62" />
+<TLINK id="TL9" fromID="E79" fromText="all vital signs" toID="T5" toText="Postoperative day 2" type="OVERLAP" senid="62" />
+<TLINK id="TL10" fromID="E79" fromText="all vital signs" toID="E80" toText="stable" type="OVERLAP" senid="62" />
+<TLINK id="TL11" fromID="E53" fromText="Aspirin" toID="T11" toText="times 3" type="OVERLAP" senid="19" />
+<TLINK id="TL12" fromID="E83" fromText="Her extraocular movements" toID="E84" toText="full" type="OVERLAP" senid="65" />
+<TLINK id="TL13" fromID="E52" fromText="Cyclobenzaprine" toID="T10" toText="q.d." type="OVERLAP" senid="18" />
+<TLINK id="TL14" fromID="E21" fromText="Her coags" toID="E22" toText="her PT" type="OVERLAP" senid="37" />
+<TLINK id="TL15" fromID="E22" fromText="her PT" toID="E23" toText="PTT" type="OVERLAP" senid="37" />
+<TLINK id="TL16" fromID="E23" fromText="PTT" toID="E24" toText="her INR" type="OVERLAP" senid="37" />
+<TLINK id="TL17" fromID="E68" fromText="neurologically stable" toID="E30" toText="The assessment" type="OVERLAP" senid="46" />
+<TLINK id="TL18" fromID="E69" fromText="neuro checks" toID="E30" toText="The assessment" type="OVERLAP" senid="46" />
+<TLINK id="TL19" fromID="E30" fromText="The assessment" toID="T17" toText="that time" type="OVERLAP" senid="46" />
+<TLINK id="TL20" fromID="E27" fromText="the angiocele in her groin" toID="E28" toText="Angiocele" type="OVERLAP" senid="44" />
+<TLINK id="TL21" fromID="E55" fromText="Tubal ligation" toID="T12" toText="1986" type="OVERLAP" senid="22" />
+<TLINK id="TL22" fromID="E28" fromText="Angiocele" toID="E29" toText="hematoma" type="OVERLAP" senid="45" />
+<TLINK id="TL23" fromID="E17" fromText="Her labs" toID="E44" toText="showed" type="OVERLAP" senid="36" />
+<TLINK id="TL24" fromID="E18" fromText="a white blood count" toID="E44" toText="showed" type="OVERLAP" senid="36" />
+<TLINK id="TL25" fromID="E19" fromText="hematocrit" toID="E44" toText="showed" type="OVERLAP" senid="36" />
+<TLINK id="TL26" fromID="E20" fromText="platelets" toID="E44" toText="showed" type="OVERLAP" senid="36" />
+<TLINK id="TL27" fromID="E21" fromText="Her coags" toID="E17" toText="Her labs" type="OVERLAP" senid="36" />
+<TLINK id="TL28" fromID="E71" fromText="alert" toID="T3" toText="postoperative day 1" type="OVERLAP" senid="51" />
+<TLINK id="TL29" fromID="E72" fromText="drift" toID="T3" toText="postoperative day 1" type="OVERLAP" senid="51" />
+<TLINK id="TL30" fromID="E35" fromText="Her vital signs" toID="E73" toText="stable" type="OVERLAP" senid="56" />
+<TLINK id="TL31" fromID="E35" fromText="Her vital signs" toID="E36" toText="a temperature" type="OVERLAP" senid="56" />
+<TLINK id="TL32" fromID="E35" fromText="Her vital signs" toID="E37" toText="blood pressure" type="OVERLAP" senid="56" />
+<TLINK id="TL33" fromID="E38" fromText="Pulse" toID="E35" toText="Her vital signs" type="OVERLAP" senid="56" />
+<TLINK id="TL34" fromID="E88" fromText="Discharge condition" toID="E89" toText="good" type="OVERLAP" senid="68" />
+<TLINK id="TL35" fromID="E91" fromText="tolerating a p.o. diet" toID="E90" toText="ambulating on her own" type="OVERLAP" senid="68" />
+<TLINK id="TL36" fromID="E1" fromText="the patient &#39;s vital signs" toID="E43" toText="admission" type="OVERLAP" senid="10" />
+<TLINK id="TL37" fromID="E2" fromText="Her blood pressure" toID="E43" toText="admission" type="OVERLAP" senid="10" />
+<TLINK id="TL38" fromID="E46" fromText="Discharge" toID="T0" toText="2017-09-15" type="OVERLAP" senid="3" />
+<TLINK id="TL39" fromID="E51" fromText="Prozac" toID="T9" toText="q.d." type="OVERLAP" senid="17" />
+<TLINK id="TL40" fromID="E69" fromText="neuro checks" toID="T18" toText="q. 1-hour" type="OVERLAP" senid="47" />
+<TLINK id="TL41" fromID="E31" fromText="a heparin drip" toID="E30" toText="The assessment" type="AFTER" senid="47" />
+<TLINK id="TL42" fromID="E49" fromText="Plavix" toID="T7" toText="times 6" type="OVERLAP" senid="15" />
+<TLINK id="TL43" fromID="E41" fromText="aspirin" toID="T20" toText="that time" type="AFTER" senid="59" />
+<TLINK id="TL44" fromID="E42" fromText="Plavix" toID="T20" toText="that time" type="OVERLAP" senid="59" />
+<TLINK id="TL45" fromID="E40" fromText="Her PTT" toID="T20" toText="that time" type="OVERLAP" senid="59" />
+<TLINK id="TL46" fromID="E59" fromText="a smoker" toID="T16" toText="4 years ago" type="BEFORE" senid="28" />
+<TLINK id="TL47" fromID="E59" fromText="a smoker" toID="E60" toText="tobacco" type="OVERLAP" senid="28" />
+<TLINK id="TL48" fromID="E39" fromText="Respirations" toID="E35" toText="Her vital signs" type="OVERLAP" senid="57" />
+<TLINK id="TL49" fromID="E0" fromText="Admission" toID="T1" toText="2017-09-13" type="OVERLAP" senid="2" />
+<TLINK id="TL50" fromID="E45" fromText="discharged" toID="T6" toText="today" type="OVERLAP" senid="67" />
+<TLINK id="TL51" fromID="E33" fromText="Her IPs" toID="T3" toText="postoperative day 1" type="OVERLAP" senid="52" />
+<TLINK id="TL52" fromID="E92" fromText="discharged to home" toID="E93" toText="stable condition" type="AFTER" senid="69" />
+<TLINK id="TL53" fromID="E47" fromText="a diagnostic cerebral angiogram" toID="E48" toText="coiling" type="OVERLAP" senid="8" />
+<TLINK id="TL54" fromID="E86" fromText="Angio site" toID="E85" toText="clean , dry" type="OVERLAP" senid="66" />
+<TLINK id="TL55" fromID="E86" fromText="Angio site" toID="E87" toText="intact without bleeding or drainage" type="OVERLAP" senid="66" />
+<TLINK id="TL56" fromID="E41" fromText="aspirin" toID="T21" toText="q.d." type="OVERLAP" senid="60" />
+<TLINK id="TL57" fromID="E42" fromText="Plavix" toID="T22" toText="q.d." type="OVERLAP" senid="60" />
+<TLINK id="TL58" fromID="E63" fromText="complications" toID="E8" toText="coiling" type="OVERLAP" senid="31" />
+<TLINK id="TL59" fromID="E7" fromText="the left carotid ophthalmic aneurysm" toID="E6" toText="stent placement" type="BEFORE" senid="30" />
+<TLINK id="TL60" fromID="E62" fromText="the operating room" toID="T2" toText="2017-09-13" type="OVERLAP" senid="30" />
+<TLINK id="TL61" fromID="E5" fromText="a coiling" toID="E62" toText="the operating room" type="OVERLAP" senid="30" />
+<TLINK id="TL62" fromID="E6" fromText="stent placement" toID="E5" toText="a coiling" type="OVERLAP" senid="30" />
+<TLINK id="TL63" fromID="E8" fromText="coiling" toID="E5" toText="a coiling" type="OVERLAP" senid="30" />
+<TLINK id="TL64" fromID="E9" fromText="stent placement" toID="E6" toText="stent placement" type="OVERLAP" senid="30" />
+<TLINK id="TL65" fromID="E3" fromText="Her heart rate" toID="E43" toText="admission" type="OVERLAP" senid="11" />
+<TLINK id="TL66" fromID="E50" fromText="Xanax" toID="T8" toText="q.d." type="OVERLAP" senid="16" />
+<TLINK id="TL67" fromID="E76" fromText="the regular floor" toID="E75" toText="transferred" type="AFTER" senid="61" />
+<TLINK id="TL68" fromID="E75" fromText="transferred" toID="T4" toText="2017-09-14" type="OVERLAP" senid="61" />
+<TLINK id="TL69" fromID="E81" fromText="Her visual fields" toID="E82" toText="intact" type="OVERLAP" senid="64" />
+<TLINK id="TL70" fromID="E32" fromText="Her PTT" toID="E31" toText="a heparin drip" type="OVERLAP" senid="48" />
+<TLINK id="TL71" fromID="E11" fromText="the patient &#39;s vital signs" toID="E10" toText="Postoperative check" type="OVERLAP" senid="33" />
+<TLINK id="TL72" fromID="E67" fromText="stable" toID="E11" toText="the patient &#39;s vital signs" type="OVERLAP" senid="33" />
+<TLINK id="TL73" fromID="E12" fromText="Her temperature" toID="E10" toText="Postoperative check" type="OVERLAP" senid="33" />
+<TLINK id="TL74" fromID="E13" fromText="blood pressure" toID="E10" toText="Postoperative check" type="OVERLAP" senid="33" />
+<TLINK id="TL75" fromID="E74" fromText="saturating" toID="E39" toText="Respirations" type="OVERLAP" senid="58" />
+<TLINK id="TL76" fromID="E65" fromText="the PACU" toID="E64" toText="discharged" type="AFTER" senid="32" />
+<TLINK id="TL77" fromID="E10" fromText="Postoperative check" toID="E64" toText="discharged" type="AFTER" senid="32" />
+<TLINK id="TL78" fromID="E66" fromText="stable condition" toID="E64" toText="discharged" type="BEFORE" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

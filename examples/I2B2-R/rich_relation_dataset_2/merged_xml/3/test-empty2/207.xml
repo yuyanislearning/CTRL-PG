@@ -247,5 +247,58 @@ Dyazide was discontinued .
 <TIMEX3 id="T7" start="906" end="916" text="times four" type="FREQUENCY" val="R4" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2011-06-14" type="ADMISSION" dvalue="2011-06-14" />
 <SECTIME id="S1" start="46" end="56" text="2011-06-18" type="DISCHARGE" dvalue="2011-06-18" />
+<TLINK id="TL1" fromID="E134" fromText="levofloxacin" toID="E135" toText="discharge" type="AFTER" senid="53" />
+<TLINK id="TL2" fromID="E135" fromText="discharge" toID="T18" toText="the time" type="OVERLAP" senid="53" />
+<TLINK id="TL3" fromID="E34" fromText="an arterial line" toID="E38" toText="the arterial line" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E35" fromText="Her PCO2" toID="E37" toText="her PCO2" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E143" fromText="Metformin" toID="T35" toText="q.d." type="OVERLAP" senid="62" />
+<TLINK id="TL6" fromID="E19" fromText="a PCO2" toID="E18" toText="a respiratory acidosis" type="OVERLAP" senid="19" />
+<TLINK id="TL7" fromID="E107" fromText="hypoxic" toID="E106" toText="the Emergency Department" type="OVERLAP" senid="18" />
+<TLINK id="TL8" fromID="E130" fromText="go home" toID="E127" toText="discharge" type="AFTER" senid="46" />
+<TLINK id="TL9" fromID="E8" fromText="Lasix" toID="E7" toText="aspirin" type="OVERLAP" senid="12" />
+<TLINK id="TL10" fromID="E10" fromText="morphine sulfate" toID="E9" toText="nitroglycerin" type="OVERLAP" senid="12" />
+<TLINK id="TL11" fromID="E136" fromText="Combivent meter-dosed inhaler" toID="E137" toText="albuterol meter-dosed inhaler" type="BEFORE" senid="56" />
+<TLINK id="TL12" fromID="E136" fromText="Combivent meter-dosed inhaler" toID="T27" toText="q.4h." type="OVERLAP" senid="56" />
+<TLINK id="TL13" fromID="E137" fromText="albuterol meter-dosed inhaler" toID="T28" toText="q.4h." type="AFTER" senid="56" />
+<TLINK id="TL14" fromID="E94" fromText="a cough" toID="E95" toText="white sputum" type="OVERLAP" senid="10" />
+<TLINK id="TL15" fromID="E119" fromText="somnolence" toID="T19" toText="the entire night" type="OVERLAP" senid="35" />
+<TLINK id="TL16" fromID="E119" fromText="somnolence" toID="T17" toText="the first night" type="OVERLAP" senid="35" />
+<TLINK id="TL17" fromID="E37" fromText="her PCO2" toID="E38" toText="the arterial line" type="AFTER" senid="35" />
+<TLINK id="TL18" fromID="T23" fromText="q.4h." toID="T36" toText="the time" type="OVERLAP" senid="29" />
+<TLINK id="TL19" fromID="T36" fromText="the time" toID="E117" toText="discharge" type="OVERLAP" senid="29" />
+<TLINK id="TL20" fromID="E83" fromText="Discharge" toID="T1" toText="2011-06-18" type="OVERLAP" senid="3" />
+<TLINK id="TL21" fromID="E105" fromText="barely able to speak" toID="E104" toText="arrival" type="OVERLAP" senid="17" />
+<TLINK id="TL22" fromID="E106" fromText="the Emergency Department" toID="E102" toText="the Emergency Room" type="OVERLAP" senid="17" />
+<TLINK id="TL23" fromID="E123" fromText="Pulmonary and Medicine followup" toID="E124" toText="discharge" type="AFTER" senid="41" />
+<TLINK id="TL24" fromID="E126" fromText="seen" toID="T21" toText="two years" type="OVERLAP" senid="41" />
+<TLINK id="TL25" fromID="E125" fromText="the Pulmonary Clinic" toID="E126" toText="seen" type="OVERLAP" senid="41" />
+<TLINK id="TL26" fromID="E53" fromText="shortness of breath" toID="E52" toText="her wheezing" type="OVERLAP" senid="47" />
+<TLINK id="TL27" fromID="E57" fromText="her prednisone compliance" toID="E56" toText="discomfort" type="OVERLAP" senid="47" />
+<TLINK id="TL28" fromID="E140" fromText="Prednisone" toID="T31" toText="q.d." type="OVERLAP" senid="59" />
+<TLINK id="TL29" fromID="E138" fromText="Salmeterol" toID="T29" toText="q.12h." type="OVERLAP" senid="57" />
+<TLINK id="TL30" fromID="E0" fromText="Admission" toID="T0" toText="2011-06-14" type="OVERLAP" senid="2" />
+<TLINK id="TL31" fromID="E85" fromText="lower extremity edema" toID="E84" toText="recent exacerbation" type="OVERLAP" senid="8" />
+<TLINK id="TL32" fromID="E87" fromText="sleeps on four pillows" toID="T2" toText="several years" type="OVERLAP" senid="8" />
+<TLINK id="TL33" fromID="E112" fromText="denies" toID="E111" toText="report" type="OVERLAP" senid="25" />
+<TLINK id="TL34" fromID="E29" fromText="Flovent" toID="E28" toText="salmeterol" type="OVERLAP" senid="30" />
+<TLINK id="TL35" fromID="E3" fromText="her meter-dosed inhaler" toID="E98" toText="increasing" type="OVERLAP" senid="11" />
+<TLINK id="TL36" fromID="E96" fromText="admission" toID="T4" toText="3 a.m. on the day" type="OVERLAP" senid="11" />
+<TLINK id="TL37" fromID="E97" fromText="much worse" toID="T4" toText="3 a.m. on the day" type="AFTER" senid="11" />
+<TLINK id="TL38" fromID="E99" fromText="call Emergency Medical Services" toID="T5" toText="several days" type="AFTER" senid="11" />
+<TLINK id="TL39" fromID="E98" fromText="increasing" toID="T5" toText="several days" type="OVERLAP" senid="11" />
+<TLINK id="TL40" fromID="E99" fromText="call Emergency Medical Services" toID="T4" toText="3 a.m. on the day" type="AFTER" senid="11" />
+<TLINK id="TL41" fromID="E141" fromText="Singulair" toID="T33" toText="q.d." type="OVERLAP" senid="61" />
+<TLINK id="TL42" fromID="E139" fromText="Flovent" toID="T30" toText="q.12h." type="OVERLAP" senid="58" />
+<TLINK id="TL43" fromID="E88" fromText="upper respiratory symptoms" toID="T3" toText="several days" type="OVERLAP" senid="9" />
+<TLINK id="TL44" fromID="E89" fromText="increasing dyspnea" toID="E88" toText="upper respiratory symptoms" type="OVERLAP" senid="9" />
+<TLINK id="TL45" fromID="E89" fromText="increasing dyspnea" toID="E91" toText="shortness of breath" type="OVERLAP" senid="9" />
+<TLINK id="TL46" fromID="E90" fromText="exertion" toID="E89" toText="increasing dyspnea" type="OVERLAP" senid="9" />
+<TLINK id="TL47" fromID="E92" fromText="rest" toID="E91" toText="shortness of breath" type="OVERLAP" senid="9" />
+<TLINK id="TL48" fromID="E93" fromText="marked wheezing" toID="E91" toText="shortness of breath" type="OVERLAP" senid="9" />
+<TLINK id="TL49" fromID="E94" fromText="a cough" toID="E88" toText="upper respiratory symptoms" type="OVERLAP" senid="9" />
+<TLINK id="TL50" fromID="E113" fromText="exposure to smoke" toID="E112" toText="denies" type="BEFORE" senid="26" />
+<TLINK id="TL51" fromID="E114" fromText="animals" toID="E112" toText="denies" type="BEFORE" senid="26" />
+<TLINK id="TL52" fromID="E115" fromText="unusual dust or vapors" toID="E112" toText="denies" type="BEFORE" senid="26" />
+<TLINK id="TL53" fromID="E116" fromText="other asthma triggers" toID="E112" toText="denies" type="BEFORE" senid="26" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,34 @@
+e1 id: E62; e2 id: E61; e1 text: glucagon gtt; e2 text: drops
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E47; e2 id: E46; e1 text: involved in his care; e2 text: CMED
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E40; e2 id: E41; e1 text: aspiration pneumonia; e2 text: CXR
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E44; e1 text: extubated; e2 text: transfer
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E9; e2 id: E19; e1 text: report; e2 text: the Rita
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: E36; e1 text: intubated; e2 text: the CMED
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E38; e1 text: intubated; e2 text: airway protection
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E71; e2 id: E67; e1 text: OOB; e2 text: discharged
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T3; e2 id: E7; e1 text: one hour; e2 text: found alert
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E20; e2 id: E21; e1 text: intubated; e2 text: activated charcoal
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E27; e1 text: good response; e2 text: a glucagon drip
+ground truth: OVERLAP; prediction: AFTER
+

@@ -123,5 +123,67 @@ No autopsy was obtained .
 <TIMEX3 id="T6" start="827" end="831" text="2/15" type="DATE" val="1994-02-15" mod="NA" />
 <SECTIME id="S0" start="18" end="25" text="2/15/94" type="ADMISSION" dvalue="1994-2-15" />
 <SECTIME id="S1" start="43" end="50" text="2/28/94" type="DISCHARGE" dvalue="1994-2-28" />
+<TLINK id="TL1" fromID="E46" fromText="a low dose Morphine drip" toID="E80" toText="deteriorated" type="AFTER" senid="23" />
+<TLINK id="TL2" fromID="E81" fromText="comfortable" toID="E46" toText="a low dose Morphine drip" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E45" fromText="somewhat confused" toID="E44" toText="intermittently restless" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E82" fromText="a do not resuscitate status" toID="E83" toText="the hospitalization" type="OVERLAP" senid="23" />
+<TLINK id="TL5" fromID="E83" fromText="the hospitalization" toID="E79" toText="his hospitalization" type="OVERLAP" senid="23" />
+<TLINK id="TL6" fromID="E47" fromText="low dose Morphine" toID="E46" toText="a low dose Morphine drip" type="OVERLAP" senid="23" />
+<TLINK id="TL7" fromID="E84" fromText="expired" toID="T4" toText="2/28/94" type="OVERLAP" senid="23" />
+<TLINK id="TL8" fromID="E13" fromText="Ancef" toID="E12" toText="a fever" type="AFTER" senid="13" />
+<TLINK id="TL9" fromID="E12" fromText="a fever" toID="E15" toText="cultures" type="BEFORE" senid="13" />
+<TLINK id="TL10" fromID="E13" fromText="Ancef" toID="E14" toText="Gentamicin" type="OVERLAP" senid="13" />
+<TLINK id="TL11" fromID="E15" fromText="cultures" toID="E67" toText="revealed" type="OVERLAP" senid="13" />
+<TLINK id="TL12" fromID="E85" fromText="autopsy" toID="E84" toText="expired" type="AFTER" senid="24" />
+<TLINK id="TL13" fromID="E37" fromText="intravenous fluid" toID="E76" toText="intermittently congested" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E38" fromText="his hydrea" toID="E37" toText="intravenous fluid" type="OVERLAP" senid="20" />
+<TLINK id="TL15" fromID="E39" fromText="Allopurinol" toID="E38" toText="his hydrea" type="OVERLAP" senid="20" />
+<TLINK id="TL16" fromID="E28" fromText="his CMML" toID="E29" toText="acute myelogenous leukemia" type="BEFORE" senid="19" />
+<TLINK id="TL17" fromID="E30" fromText="his other underlying medical problems" toID="E31" toText="chemotherapy" type="BEFORE" senid="19" />
+<TLINK id="TL18" fromID="E31" fromText="chemotherapy" toID="E27" toText="A bone marrow biopsy" type="AFTER" senid="19" />
+<TLINK id="TL19" fromID="E34" fromText="his white blood count" toID="E31" toText="chemotherapy" type="OVERLAP" senid="19" />
+<TLINK id="TL20" fromID="E75" fromText="his spleen shrank" toID="E31" toText="chemotherapy" type="OVERLAP" senid="19" />
+<TLINK id="TL21" fromID="E35" fromText="platelet count" toID="E36" toText="platelet transfusions" type="OVERLAP" senid="19" />
+<TLINK id="TL22" fromID="E72" fromText="revealed" toID="E27" toText="A bone marrow biopsy" type="OVERLAP" senid="19" />
+<TLINK id="TL23" fromID="E31" fromText="chemotherapy" toID="E32" toText="subcutaneous Cystosine Arabinoside" type="OVERLAP" senid="19" />
+<TLINK id="TL24" fromID="E32" fromText="subcutaneous Cystosine Arabinoside" toID="E33" toText="6-Thioguanine" type="OVERLAP" senid="19" />
+<TLINK id="TL25" fromID="E73" fromText="tolerated" toID="E31" toText="chemotherapy" type="OVERLAP" senid="19" />
+<TLINK id="TL26" fromID="E74" fromText="incident" toID="E31" toText="chemotherapy" type="OVERLAP" senid="19" />
+<TLINK id="TL27" fromID="E36" fromText="platelet transfusions" toID="E22" toText="Transfusions of platelets" type="OVERLAP" senid="18" />
+<TLINK id="TL28" fromID="E12" fromText="a fever" toID="E64" toText="admitted" type="AFTER" senid="12" />
+<TLINK id="TL29" fromID="E10" fromText="high dose Hydroxyurea" toID="E65" toText="the hospital" type="AFTER" senid="12" />
+<TLINK id="TL30" fromID="E10" fromText="high dose Hydroxyurea" toID="E66" toText="a gradual improvement" type="BEFORE" senid="12" />
+<TLINK id="TL31" fromID="E66" fromText="a gradual improvement" toID="E11" toText="his white blood count" type="OVERLAP" senid="12" />
+<TLINK id="TL32" fromID="E66" fromText="a gradual improvement" toID="T7" toText="the next few days" type="OVERLAP" senid="12" />
+<TLINK id="TL33" fromID="E44" fromText="intermittently restless" toID="E79" toText="his hospitalization" type="OVERLAP" senid="22" />
+<TLINK id="TL34" fromID="E80" fromText="deteriorated" toID="E79" toText="his hospitalization" type="OVERLAP" senid="22" />
+<TLINK id="TL35" fromID="E58" fromText="profoundly thrombocytopenic" toID="E59" toText="admitted" type="BEFORE" senid="10" />
+<TLINK id="TL36" fromID="E61" fromText="headache" toID="E59" toText="admitted" type="BEFORE" senid="10" />
+<TLINK id="TL37" fromID="E62" fromText="weakness" toID="E59" toText="admitted" type="BEFORE" senid="10" />
+<TLINK id="TL38" fromID="E60" fromText="the hospital" toID="E59" toText="admitted" type="AFTER" senid="10" />
+<TLINK id="TL39" fromID="E59" fromText="admitted" toID="T6" toText="2/15" type="OVERLAP" senid="10" />
+<TLINK id="TL40" fromID="E49" fromText="DISCHARGE" toID="T2" toText="2/28/94" type="OVERLAP" senid="3" />
+<TLINK id="TL41" fromID="E24" fromText="sequestration" toID="E22" toText="Transfusions of platelets" type="BEFORE" senid="17" />
+<TLINK id="TL42" fromID="E23" fromText="his platelet count" toID="E22" toText="Transfusions of platelets" type="OVERLAP" senid="17" />
+<TLINK id="TL43" fromID="E25" fromText="a massive spleen" toID="E24" toText="sequestration" type="OVERLAP" senid="17" />
+<TLINK id="TL44" fromID="E1" fromText="anemic" toID="T3" toText="November 1993" type="AFTER" senid="6" />
+<TLINK id="TL45" fromID="E50" fromText="an abnormal white blood count" toID="T3" toText="November 1993" type="AFTER" senid="6" />
+<TLINK id="TL46" fromID="E51" fromText="transfusions" toID="T3" toText="November 1993" type="AFTER" senid="6" />
+<TLINK id="TL47" fromID="E2" fromText="low dose hydroxyurea" toID="E51" toText="transfusions" type="OVERLAP" senid="6" />
+<TLINK id="TL48" fromID="E52" fromText="a bone marrow biopsy" toID="T3" toText="November 1993" type="AFTER" senid="6" />
+<TLINK id="TL49" fromID="E69" fromText="intermittently febrile" toID="E20" toText="dyspnea" type="OVERLAP" senid="15" />
+<TLINK id="TL50" fromID="E0" fromText="ADMISSION" toID="T1" toText="2/15/94" type="OVERLAP" senid="2" />
+<TLINK id="TL51" fromID="T5" fromText="a few months" toID="T0" toText="late December 1994" type="OVERLAP" senid="8" />
+<TLINK id="TL52" fromID="E54" fromText="follow up" toID="E53" toText="referred" type="AFTER" senid="8" />
+<TLINK id="TL53" fromID="E63" fromText="live with his son" toID="T5" toText="a few months" type="OVERLAP" senid="8" />
+<TLINK id="TL54" fromID="E53" fromText="referred" toID="E63" toText="live with his son" type="OVERLAP" senid="8" />
+<TLINK id="TL55" fromID="E40" fromText="his Gentamicin" toID="E48" toText="deteriorated" type="AFTER" senid="21" />
+<TLINK id="TL56" fromID="E65" fromText="the hospital" toID="E60" toText="the hospital" type="OVERLAP" senid="11" />
+<TLINK id="TL57" fromID="E69" fromText="intermittently febrile" toID="E12" toText="a fever" type="AFTER" senid="14" />
+<TLINK id="TL58" fromID="E21" fromText="hemoptysis" toID="E71" toText="profoundly thrombocytopenia" type="OVERLAP" senid="16" />
+<TLINK id="TL59" fromID="E70" fromText="intermittent gastrointestinal bleeding" toID="E71" toText="profoundly thrombocytopenia" type="OVERLAP" senid="16" />
+<TLINK id="TL60" fromID="E56" fromText="improved" toID="E8" toText="increased transfusions" type="OVERLAP" senid="9" />
+<TLINK id="TL61" fromID="E57" fromText="alterations" toID="E8" toText="increased transfusions" type="OVERLAP" senid="9" />
+<TLINK id="TL62" fromID="E3" fromText="chronic myelomonocytic leukemia" toID="E52" toText="a bone marrow biopsy" type="BEFORE" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

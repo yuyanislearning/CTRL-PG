@@ -1,0 +1,51 @@
+e1 id: E99; e2 id: T11; e1 text: do well; e2 text: 04-03
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E28; e2 id: E27; e1 text: Coumadin; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E9; e2 id: E7; e1 text: an ejection fraction; e2 text: a transthoracic echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E6; e2 id: E7; e1 text: dilated cardiomyopathy; e2 text: a transthoracic echocardiogram
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T9; e2 id: T7; e1 text: 04-01; e2 text: 04-01
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E84; e2 id: E83; e1 text: anticoagulation; e2 text: evaluation
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E90; e2 id: E83; e1 text: therapy; e2 text: evaluation
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E62; e2 id: E61; e1 text: a thoracotomy; e2 text: stable
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: T10; e1 text: the floor; e2 text: 04-02
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E21; e2 id: E22; e1 text: initial evaluation; e2 text: a coronary artery bypass graft
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E34; e2 id: E32; e1 text: calcified; e2 text: surgery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E32; e2 id: E41; e1 text: surgery; e2 text: a bypass graft
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E33; e2 id: E32; e1 text: noted; e2 text: surgery
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E44; e2 id: E43; e1 text: medical management; e2 text: the Coronary Care Unit Service
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E97; e2 id: T11; e1 text: the patient &#39;s leg bandage; e2 text: 04-03
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E13; e2 id: E12; e1 text: a myocardial infarction; e2 text: admitted
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E68; e2 id: T9; e1 text: surgery; e2 text: 04-01
+ground truth: BEFORE; prediction: OVERLAP
+

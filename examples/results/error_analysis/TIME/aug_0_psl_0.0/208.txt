@@ -1,0 +1,54 @@
+e1 id: E829; e2 id: T81; e1 text: discharged; e2 text: 2018-05-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E246; e2 id: T82; e1 text: pain; e2 text: 2018-05-31
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E852; e2 id: T81; e1 text: some SOB; e2 text: 2018-05-26
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E84; e2 id: E828; e1 text: SOB; e2 text: Cambridge Hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E86; e2 id: E872; e1 text: CT placement; e2 text: resolution
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E813; e2 id: E828; e1 text: the hospital; e2 text: Cambridge Hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E872; e2 id: E813; e1 text: resolution; e2 text: the hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E845; e2 id: E840; e1 text: pacer wire; e2 text: a TTE
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E852; e2 id: T89; e1 text: some SOB; e2 text: Today
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E835; e2 id: T87; e1 text: Franklin Medical Center; e2 text: 05-24
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E849; e2 id: T81; e1 text: drainage; e2 text: 2018-05-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E850; e2 id: T81; e1 text: treatment; e2 text: 2018-05-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E242; e2 id: T82; e1 text: transfer; e2 text: 2018-05-31
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E235; e2 id: T82; e1 text: intubated; e2 text: 2018-05-31
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E239; e2 id: T82; e1 text: Comfort Measures; e2 text: 2018-05-31
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E825; e2 id: T81; e1 text: drainage; e2 text: 2018-05-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E4; e2 id: T82; e1 text: transferred; e2 text: 2018-05-31
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E5; e2 id: T82; e1 text: pericardial effusion drainage; e2 text: 2018-05-31
+ground truth: BEFORE; prediction: AFTER
+

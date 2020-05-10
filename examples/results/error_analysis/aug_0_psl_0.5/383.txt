@@ -1,0 +1,117 @@
+e1 id: E43; e2 id: E42; e1 text: a pseudocyst; e2 text: The drainage catheter
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E102; e2 id: E98; e1 text: antibiotics; e2 text: repeated work ups
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E66; e2 id: E65; e1 text: thick brownish material; e2 text: A computerized tomography scan of the abdomen
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E33; e1 text: his imipenem , intravenously; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E34; e2 id: E33; e1 text: intravenous fluids; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T11; e2 id: E85; e1 text: postoperative day #2; e2 text: a prolonged course
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E22; e2 id: E23; e1 text: His amylase; e2 text: decreased
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: E23; e1 text: the increased back; e2 text: decreased
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E106; e2 id: E105; e1 text: blood cultures; e2 text: Flagyl
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E38; e1 text: The drainage catheter; e2 text: drainage
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T15; e2 id: T14; e1 text: This 28 day course; e2 text: 07/15/95
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T3; e2 id: T2; e1 text: August 1994; e2 text: January 1994
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E18; e2 id: E17; e1 text: pancreatitis; e2 text: two recent admissions
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E33; e2 id: E30; e1 text: admitted; e2 text: transferred
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E78; e2 id: E77; e1 text: oversewing of the descending colon; e2 text: end transverse colostomy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E95; e2 id: E96; e1 text: These; e2 text: incident
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E111; e2 id: E112; e1 text: fluconazole; e2 text: a computerized tomography guided aspirate
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E113; e2 id: E115; e1 text: fluid collection; e2 text: Candida albicans
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E100; e2 id: E99; e1 text: remaining infection; e2 text: these
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E142; e2 id: E147; e1 text: the patient  apos;s Coumadin; e2 text: stopped
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T18; e2 id: E144; e1 text: several weeks; e2 text: transfer
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T18; e2 id: E147; e1 text: several weeks; e2 text: stopped
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E143; e2 id: E147; e1 text: incident; e2 text: stopped
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E144; e2 id: E138; e1 text: transfer; e2 text: transferred
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E135; e2 id: E134; e1 text: a do not resuscitate do not intubate; e2 text: further aggressive intervention
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E123; e2 id: E121; e1 text: stable; e2 text: anticoagulated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E58; e2 id: E59; e1 text: The percutaneous drainage catheter; e2 text: high output
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T4; e2 id: E21; e1 text: hospital day #10; e2 text: Free Medical Center
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E32; e2 id: E31; e1 text: further surgical evaluation; e2 text: Ph University Of Medical Center
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E128; e2 id: E127; e1 text: Granisetron; e2 text: anti-emetics
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E62; e2 id: E63; e1 text: His white count; e2 text: bumped
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T9; e2 id: E64; e1 text: 4/27; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E17; e2 id: E16; e1 text: two recent admissions; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E49; e2 id: E50; e1 text: Left ventricular aneurysm; e2 text: noted
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E53; e2 id: E46; e1 text: An echocardiogram; e2 text: A Persantine Thallium study
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E125; e2 id: E127; e1 text: small-volume emesis; e2 text: anti-emetics
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E2; e1 text: admitted; e2 text: transferred
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T9; e2 id: T8; e1 text: 4/27; e2 text: 4/28/95
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E61; e2 id: T8; e1 text: abdominal pain; e2 text: 4/28/95
+ground truth: AFTER; prediction: OVERLAP
+

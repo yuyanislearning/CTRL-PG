@@ -1,0 +1,106 @@
+e1 id: E144; e2 id: E145; e1 text: reversed; e2 text: Vitamin K
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E90; e2 id: E81; e1 text: this admission; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E42; e2 id: E41; e1 text: the Neurology Service; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E109; e2 id: E107; e1 text: enhancement; e2 text: gadolinium scan
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: E36; e1 text: transferred; e2 text: nasally intubated
+ground truth: AFTER; prediction: BEFORE
+This relation involves in OBB
+
+e1 id: E38; e2 id: E37; e1 text: the Ph University Of Medical Center Emergency Room; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E101; e2 id: E97; e1 text: new lesions; e2 text: an magnetic resonance imaging
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E103; e2 id: E97; e1 text: old bleeds; e2 text: an magnetic resonance imaging
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E2; e2 id: T2; e1 text: birth; e2 text: September 30 , 1917
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: E20; e1 text: assistance; e2 text: a drop off in his mental functioning
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E128; e2 id: E126; e1 text: subsequent CKMBs; e2 text: his TPK
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E129; e2 id: E125; e1 text: a very small  quot; leaflet  quot;; e2 text: a slight elevation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E162; e2 id: E159; e1 text: his anticoagulation status; e2 text: his discharge INR
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E158; e2 id: E157; e1 text: heparin; e2 text: drop below 1.5
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E163; e2 id: E159; e1 text: further problems; e2 text: his discharge INR
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E154; e2 id: E155; e1 text: a high amount of anticoagulation; e2 text: the new intraparenchymal bleed
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E29; e2 id: E30; e1 text: speaking  quot; gibberish  quot;; e2 text: sitting in a chair
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E27; e2 id: T9; e1 text: admission; e2 text: the morning
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E28; e2 id: T10; e1 text: moving his mouth less; e2 text: 8 o apos;clock
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E166; e2 id: E164; e1 text: a soft solid diet; e2 text: evaluated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E170; e2 id: E166; e1 text: feeding; e2 text: a soft solid diet
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T18; e2 id: E112; e1 text: six months; e2 text: re-evaluated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E170; e2 id: E168; e1 text: feeding; e2 text: his nasogastric tube
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E71; e2 id: E70; e1 text: an oral regimen; e2 text: intravenous nitroglycerine
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E44; e2 id: E43; e1 text: Coumadin; e2 text: ADMISSION
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E43; e1 text: Vasotec; e2 text: ADMISSION
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E47; e2 id: E43; e1 text: Lasix; e2 text: ADMISSION
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E48; e2 id: E43; e1 text: Digoxin; e2 text: ADMISSION
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E49; e2 id: E43; e1 text: Proscar; e2 text: ADMISSION
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E50; e2 id: E43; e1 text: Sinemet; e2 text: ADMISSION
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: E16; e1 text: progressive supranuclear palsy; e2 text: seen
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E134; e2 id: E133; e1 text: quite stable; e2 text: his initial intubation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E172; e2 id: E181; e1 text: do not resuscitate; e2 text: discussions
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E176; e2 id: E181; e1 text: an intubation; e2 text: discussions
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E13; e2 id: E15; e1 text: Parkinsonism; e2 text: Eldopa
+ground truth: BEFORE; prediction: OVERLAP
+

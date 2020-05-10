@@ -1,0 +1,240 @@
+e1 id: E113; e2 id: E112; e1 text: baseline dementia; e2 text: MS changes
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: E210; e1 text: a dopamine gtt; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E66; e2 id: E64; e1 text: His coumadin; e2 text: supratherapeutic
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E269; e2 id: E132; e1 text: Stronger narcotics; e2 text: somnolence
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E258; e2 id: E114; e1 text: consulted; e2 text: delerium
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T22; e2 id: E228; e1 text: 6 weeks; e2 text: cardioversion
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E65; e2 id: E62; e1 text: Coumadin; e2 text: Warfarin
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E48; e2 id: E225; e1 text: Ischemia; e2 text: CHF exacerbation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E232; e2 id: E233; e1 text: monitored closely; e2 text: stable
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E117; e2 id: E116; e1 text: old lacunar infarcts; e2 text: a head CT
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E35; e2 id: E28; e1 text: sepsis; e2 text: A swan
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E276; e2 id: E275; e1 text: allevyn foam adhesive; e2 text: air dry
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E106; e2 id: T15; e1 text: cleansing; e2 text: 2017-09-05
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E283; e2 id: T15; e1 text: change; e2 text: 2017-09-05
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E177; e2 id: E7; e1 text: back pain; e2 text: Percocet
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E181; e2 id: E179; e1 text: hemodynamically stable; e2 text: the CCU
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E182; e2 id: E179; e1 text: weaned; e2 text: the CCU
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E247; e2 id: E88; e1 text: improved; e2 text: extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E57; e2 id: E226; e1 text: Amiodarone; e2 text: this entire admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E227; e2 id: E226; e1 text: cardioverted; e2 text: this entire admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E221; e2 id: E220; e1 text: euvolemic; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E223; e2 id: E220; e1 text: room air; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E224; e2 id: E220; e1 text: peripheral edema; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E218; e1 text: oral Lasix; e2 text: transitioned
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E7; e2 id: E174; e1 text: Percocet; e2 text: the Juan
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E8; e2 id: E174; e1 text: Lasix; e2 text: the Juan
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E267; e2 id: E124; e1 text: UTI; e2 text: levofloxacin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E267; e2 id: E266; e1 text: UTI; e2 text: Newton-Wellesley Hospital
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E125; e2 id: E266; e1 text: U/A; e2 text: Newton-Wellesley Hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E289; e2 id: E292; e1 text: his foley; e2 text: follow up
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E241; e2 id: E143; e1 text: standing diuretics; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E242; e2 id: E143; e1 text: PRN nebs; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E248; e2 id: E99; e1 text: re-accumulated; e2 text: tap
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E101; e2 id: E99; e1 text: Repeat CXR; e2 text: tap
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E53; e2 id: E142; e1 text: further issues; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E49; e2 id: E142; e1 text: an initial troponin bump; e2 text: admission
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E271; e2 id: T15; e1 text: gentle cleansing; e2 text: 2017-09-05
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E274; e2 id: T15; e1 text: Duoderm gel; e2 text: 2017-09-05
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E277; e2 id: T15; e1 text: change; e2 text: 2017-09-05
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E250; e2 id: E101; e1 text: improvement; e2 text: Repeat CXR
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E252; e2 id: E251; e1 text: breathing well on room air; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E178; e2 id: E179; e1 text: the Juan; e2 text: the CCU
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E128; e2 id: E127; e1 text: Levofloxacin; e2 text: UCx
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E93; e2 id: E99; e1 text: s/p right thoracentesis; e2 text: tap
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E83; e2 id: E82; e1 text: agitation; e2 text: sedatives
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E246; e2 id: T13; e1 text: diuresed; e2 text: 2017-09-18
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E85; e2 id: E82; e1 text: intubated; e2 text: sedatives
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E79; e2 id: E80; e1 text: an ABG; e2 text: a CO2
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E81; e2 id: E82; e1 text: a depressed respiratory drive; e2 text: sedatives
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E122; e2 id: E265; e1 text: Hypothyroidism; e2 text: Levothyroxine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E262; e2 id: E120; e1 text: other findings; e2 text: mild encephalopathy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E287; e2 id: T27; e1 text: finsateride; e2 text: the day
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E231; e2 id: E229; e1 text: His INR; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E183; e2 id: E182; e1 text: 3L O2; e2 text: weaned
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E185; e2 id: E183; e1 text: O2 sats; e2 text: 3L O2
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E25; e2 id: E213; e1 text: the dopamine gtt; e2 text: weaned
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T21; e2 id: E19; e1 text: several days; e2 text: hypotensive
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: T20; e1 text: a lasix gtt; e2 text: the night
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E201; e2 id: E18; e1 text: a good response; e2 text: a lasix gtt
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E168; e2 id: E166; e1 text: any CP; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E169; e2 id: E166; e1 text: N/V/D; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E170; e2 id: E166; e1 text: abdominal pain; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E171; e2 id: E166; e1 text: HA; e2 text: denies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E194; e2 id: E193; e1 text: CCU; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E147; e2 id: E195; e1 text: Pendleton; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E198; e2 id: E197; e1 text: CCU; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E15; e2 id: E197; e1 text: a swan catheter; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T0; e2 id: E2; e1 text: 33 yrs; e2 text: s/p LAD PTCA
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E152; e2 id: E151; e1 text: the Juan; e2 text: presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E279; e2 id: E278; e1 text: pat dry; e2 text: commercial wound cleanser
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E280; e2 id: E279; e1 text: pack aquacel AG rope; e2 text: pat dry
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E281; e2 id: E280; e1 text: saline; e2 text: pack aquacel AG rope
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E282; e2 id: E281; e1 text: dry gauze; e2 text: saline
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E202; e2 id: E203; e1 text: diurese; e2 text: moved
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E86; e2 id: E88; e1 text: ventilation; e2 text: extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E86; e2 id: E85; e1 text: ventilation; e2 text: intubated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E92; e2 id: E93; e1 text: Pleural effusions; e2 text: s/p right thoracentesis
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E95; e2 id: E93; e1 text: Gram stain; e2 text: s/p right thoracentesis
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E115; e2 id: E114; e1 text: metabolic abnormalities; e2 text: delerium
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E209; e2 id: E21; e1 text: an adequate response; e2 text: IVF
+ground truth: AFTER; prediction: OVERLAP
+

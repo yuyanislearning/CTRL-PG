@@ -1,0 +1,21 @@
+e1 id: E16; e2 id: E8; e1 text: the Hospital; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E17; e2 id: E8; e1 text: the operating room; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E18; e2 id: E17; e1 text: did very well; e2 text: the operating room
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E23; e2 id: E10; e1 text: follow up; e2 text: discharge
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E5; e2 id: E3; e1 text: His wound; e2 text: an open Bankart procedure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E7; e2 id: E9; e1 text: Percocet; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T0; e2 id: T4; e1 text: the years; e2 text: 1989
+ground truth: AFTER; prediction: OVERLAP
+

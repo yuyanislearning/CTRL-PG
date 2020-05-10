@@ -1,0 +1,112 @@
+e1 id: E35; e2 id: E152; e1 text: the wound cultures; e2 text: culturing
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E87; e2 id: E86; e1 text: Crinobactermium; e2 text: The Operating Room cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E89; e2 id: E88; e1 text: yeast; e2 text: sputum cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E90; e2 id: E88; e1 text: gram positive cocci in clusters; e2 text: sputum cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E105; e2 id: E185; e1 text: peripherally inserted central catheter line placement; e2 text: long term intravenous antibiotics
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E105; e2 id: T24; e1 text: peripherally inserted central catheter line placement; e2 text: postoperative day no. 9
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E18; e2 id: E19; e1 text: further evaluation; e2 text: intervention
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: E148; e1 text: further evaluation; e2 text: Fairm of Ijordcompmac Hospital
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E166; e2 id: E130; e1 text: stable condition; e2 text: transferred
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E92; e2 id: E93; e1 text: persistent hypertension; e2 text: antihypertensives
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E92; e2 id: E97; e1 text: persistent hypertension; e2 text: his blood pressure
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E110; e2 id: E111; e1 text: Subsequent hand x-rays; e2 text: fracture
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E139; e2 id: E140; e1 text: sternal debridement; e2 text: Bilateral pectoralis major myocutaneous advancement flap
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E11; e2 id: E10; e1 text: the graft; e2 text: pseudoaneurysm
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E200; e2 id: T11; e1 text: a rehabilitation facility; e2 text: 09/13/1998
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E177; e2 id: T23; e1 text: the Intensive Care Unit; e2 text: postoperative day no. 8
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E98; e2 id: E179; e1 text: the patient &#39;s Jackson Pratt drains; e2 text: the Cardiac Surgical Inpatient Service
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E191; e2 id: E190; e1 text: the swelling; e2 text: splinting of his finger
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E192; e2 id: E193; e1 text: subsequent early mobilization; e2 text: any rigidity in that joint
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E67; e2 id: E205; e1 text: his chest open; e2 text: the Cardiac Surgical Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E39; e2 id: E38; e1 text: the subsequent chest computer tomogram scan; e2 text: the aortogram
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E40; e2 id: E39; e1 text: a risky operation; e2 text: the subsequent chest computer tomogram scan
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E43; e2 id: E42; e1 text: long term antibiotic coverage; e2 text: homograft
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E44; e2 id: E42; e1 text: a plastic surgical reconstructive procedure; e2 text: homograft
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E103; e2 id: T9; e1 text: the patient &#39;s intraoperative cultures; e2 text: 09/08/98
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E104; e2 id: E103; e1 text: Mycoplasma humilius; e2 text: the patient &#39;s intraoperative cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E22; e1 text: an aortogram; e2 text: an ascending aortic graft
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E22; e2 id: E21; e1 text: an ascending aortic graft; e2 text: an aortogram
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E2; e2 id: E1; e1 text: aortic dissection; e2 text: an ascending aortic graft replacement
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E2; e2 id: E3; e1 text: aortic dissection; e2 text: a sternal wound infection
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E80; e2 id: E82; e1 text: the procedure; e2 text: indwelling closed suction drains
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E81; e2 id: E80; e1 text: complications; e2 text: the procedure
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E13; e2 id: E119; e1 text: the same problem; e2 text: repaired
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: T27; e1 text: recurrent bleeding; e2 text: two weeks later
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E77; e2 id: E76; e1 text: the patient &#39;s sternal wound; e2 text: right superiorly rectus abdominis flap
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E54; e2 id: E55; e1 text: chest computer tomogram; e2 text: potential sternal reconstruction
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E154; e2 id: E45; e1 text: complained; e2 text: the procedure
+ground truth: BEFORE; prediction: OVERLAP
+

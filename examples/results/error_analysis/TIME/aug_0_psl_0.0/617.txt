@@ -1,0 +1,168 @@
+e1 id: E200; e2 id: E194; e1 text: evaluated; e2 text: Reportedly
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E191; e2 id: T2; e1 text: her mental status; e2 text: 2015-09-30
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E194; e2 id: T1; e1 text: Reportedly; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E89; e2 id: T1; e1 text: transferred; e2 text: 2015-09-20
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T3; e2 id: E84; e1 text: yesterday; e2 text: an assisted living
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E155; e2 id: E47; e1 text: dilantin; e2 text: trough
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T17; e2 id: E79; e1 text: daily; e2 text: discharge
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E45; e2 id: E142; e1 text: the higher doses; e2 text: slur her speech
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E144; e2 id: E143; e1 text: the dilantin; e2 text: an alternate Castelluccio
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E147; e2 id: E148; e1 text: depakote; e2 text: reactions
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E29; e2 id: T1; e1 text: a third Castelluccio; e2 text: 2015-09-20
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E107; e2 id: T1; e1 text: keppra; e2 text: 2015-09-20
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E58; e1 text: her last MRI; e2 text: MRI
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E175; e2 id: E60; e1 text: malignant cells; e2 text: LP
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E115; e2 id: E32; e1 text: an urgent care; e2 text: slurred speech
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E115; e2 id: E33; e1 text: an urgent care; e2 text: a non-trough level
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E108; e2 id: E109; e1 text: the current course; e2 text: doing well
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E15; e2 id: E14; e1 text: her facial twitching; e2 text: the ativan
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E95; e2 id: E19; e1 text: traumatic brain injury; e2 text: seizure disorder
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E15; e2 id: E92; e1 text: her facial twitching; e2 text: apparently improved
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E152; e2 id: T2; e1 text: a goal dose; e2 text: 2015-09-30
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E153; e2 id: T2; e1 text: her dose increased; e2 text: 2015-09-30
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E23; e2 id: E100; e1 text: some less significant seizures; e2 text: seen Dr. Ollie
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E96; e2 id: E97; e1 text: records; e2 text: that hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E98; e2 id: E97; e1 text: dilantin; e2 text: that hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E99; e2 id: E97; e1 text: keppra; e2 text: that hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E149; e2 id: E46; e1 text: Topamax; e2 text: preexisting cognitive deficits
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E8; e2 id: E88; e1 text: valium; e2 text: there
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E9; e2 id: E88; e1 text: ativan; e2 text: there
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E10; e2 id: E88; e1 text: dilantin; e2 text: there
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E137; e2 id: E140; e1 text: these seizures; e2 text: Her seizure management
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E96; e2 id: T1; e1 text: records; e2 text: 2015-09-20
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E178; e2 id: E62; e1 text: CSF; e2 text: other studies
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E17; e2 id: T1; e1 text: an EEG; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E93; e2 id: T1; e1 text: which; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E94; e2 id: T1; e1 text: showed; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E191; e2 id: E199; e1 text: her mental status; e2 text: clear
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E187; e2 id: E67; e1 text: assess need to change medication; e2 text: depression
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E70; e2 id: E69; e1 text: a swallow evaluation; e2 text: NGT
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E190; e2 id: E191; e1 text: repeated; e2 text: her mental status
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E73; e2 id: T1; e1 text: Barnstable County Hospital; e2 text: 2015-09-20
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E66; e2 id: E186; e1 text: bactrim; e2 text: defervescence
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E64; e2 id: E65; e1 text: fevers; e2 text: positive U/A
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E106; e2 id: E103; e1 text: the dilantin; e2 text: her last visit
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E107; e2 id: E103; e1 text: keppra; e2 text: her last visit
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E198; e2 id: T2; e1 text: trough is subtherapeutic; e2 text: 2015-09-30
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E145; e2 id: T2; e1 text: zonegran; e2 text: 2015-09-30
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E173; e2 id: T2; e1 text: a new lesion; e2 text: 2015-09-30
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: T1; e1 text: the ativan; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E92; e2 id: T1; e1 text: apparently improved; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E11; e2 id: E8; e1 text: an additional valium; e2 text: valium
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: E9; e1 text: ativan; e2 text: ativan
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E187; e2 id: T2; e1 text: assess need to change medication; e2 text: 2015-09-30
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E123; e2 id: T1; e1 text: any treatment; e2 text: 2015-09-20
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E9; e2 id: T1; e1 text: ativan; e2 text: 2015-09-20
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T13; e2 id: E78; e1 text: now; e2 text: presents
+ground truth: OVERLAP; prediction: BEFORE
+

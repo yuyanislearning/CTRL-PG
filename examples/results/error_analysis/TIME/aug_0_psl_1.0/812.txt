@@ -1,0 +1,174 @@
+e1 id: E232; e2 id: E231; e1 text: infection; e2 text: monitor
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E233; e2 id: E229; e1 text: wound healing; e2 text: Dry gangrene of toes bilaterally
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E53; e2 id: E176; e1 text: stress dose steroids; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E245; e2 id: T26; e1 text: full code; e2 text: 12-30
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E246; e2 id: T26; e1 text: family meeting with son; e2 text: 12-30
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E247; e2 id: E245; e1 text: everything done; e2 text: full code
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E100; e2 id: E99; e1 text: WMA; e2 text: Echo
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E98; e2 id: E96; e1 text: Cardiac enzymes; e2 text: ECG
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E97; e2 id: E96; e1 text: new diffuse TWI in all leads; e2 text: ECG
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E83; e2 id: E85; e1 text: Flagyl; e2 text: C. Diff B toxin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E142; e2 id: T4; e1 text: The Hospital for Orthopedics; e2 text: 12-14
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E142; e2 id: T3; e1 text: The Hospital for Orthopedics; e2 text: 12-07
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E9; e2 id: E142; e1 text: citrobacter in her urine; e2 text: The Hospital for Orthopedics
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E136; e2 id: T4; e1 text: discharged; e2 text: 12-14
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E151; e2 id: E152; e1 text: Arbour-Fuller Hospital Senior Life; e2 text: her normal state of health
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E127; e2 id: E236; e1 text: a clot; e2 text: more edematous
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E128; e2 id: E236; e1 text: an abscess in the area; e2 text: more edematous
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E235; e2 id: E126; e1 text: decub; e2 text: anasarca
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E79; e2 id: E78; e1 text: hypotensive; e2 text: a temperature
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E189; e2 id: E187; e1 text: stable; e2 text: transfer
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E184; e2 id: T6; e1 text: all culture data; e2 text: 12-18
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E72; e2 id: E71; e1 text: empiric line infection; e2 text: vancomycin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E185; e2 id: E73; e1 text: improved; e2 text: Urine culture
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E182; e2 id: E66; e1 text: influenza; e2 text: Nasal washings
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E67; e2 id: E66; e1 text: culture; e2 text: Nasal washings
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E132; e2 id: T15; e1 text: Right dialysis catheter; e2 text: 2018-11-05
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E134; e2 id: T14; e1 text: PICC line; e2 text: 2019-01-08
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E243; e2 id: T25; e1 text: DNR / DNI; e2 text: 12-27
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E134; e2 id: E135; e1 text: PICC line; e2 text: the linezolid course
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E40; e2 id: E38; e1 text: continued hypotension; e2 text: NS
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E178; e2 id: E179; e1 text: cultured; e2 text: contamination
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E148; e2 id: E147; e1 text: the Juan; e2 text: admitted
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E131; e2 id: T12; e1 text: Left IJ; e2 text: 12-26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E34; e2 id: E167; e1 text: vancomycin; e2 text: the Juan
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E138; e2 id: T2; e1 text: fluconazole; e2 text: 2019-01-10
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E161; e2 id: E20; e1 text: complain; e2 text: a left frontal headache
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E21; e2 id: E163; e1 text: a fever; e2 text: the pt &#39;s VS
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E217; e2 id: E218; e1 text: Wound care; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E14; e2 id: T16; e1 text: fatigue; e2 text: this morning
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E13; e2 id: E12; e1 text: tylenol; e2 text: fevers
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E161; e2 id: T1; e1 text: complain; e2 text: 2018-12-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E90; e2 id: E92; e1 text: airway protection; e2 text: Extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E217; e2 id: T2; e1 text: Wound care; e2 text: 2019-01-10
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E113; e2 id: E222; e1 text: hypotension; e2 text: dialysed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E114; e2 id: E222; e1 text: Her dialysis; e2 text: dialysed
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E147; e2 id: T1; e1 text: admitted; e2 text: 2018-12-26
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E120; e2 id: E226; e1 text: fFP; e2 text: tunneled line change
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E225; e2 id: T24; e1 text: coumadin; e2 text: 12-29
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E157; e2 id: T1; e1 text: denied; e2 text: 2018-12-26
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E169; e2 id: T1; e1 text: the FICU; e2 text: 2018-12-26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E168; e2 id: T1; e1 text: transferred; e2 text: 2018-12-26
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E213; e2 id: E212; e1 text: moving patient; e2 text: trauma
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E247; e2 id: T2; e1 text: everything done; e2 text: 2019-01-10
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E31; e2 id: E165; e1 text: this medication; e2 text: dropped
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E227; e2 id: E228; e1 text: titrated; e2 text: INR goal
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E122; e2 id: E226; e1 text: Coumadin; e2 text: tunneled line change
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E60; e2 id: E59; e1 text: PICC line; e2 text: infection
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E224; e2 id: T2; e1 text: dialyze; e2 text: 2019-01-10
+ground truth: BEFORE; prediction: AFTER
+

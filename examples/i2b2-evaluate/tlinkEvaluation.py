@@ -72,7 +72,7 @@ else:
                       e.g. <TLINK id="TL70" fromID="E28" fromText="her erythema"
                        toID="E26" toText="erythema on her left leg" type="OVERLAP" />
         """
-        re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+\/>'
+        re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+.*\/>'
         m = re.search(re_exp, tlinkline)
         if m:
             id, fromid, fromtext, toid, totext, attr_type = m.groups()
@@ -302,7 +302,7 @@ else:
                 if firstTlinkFlag==0:
                     nf.write('<TLINK></TLINK>\n')
                     firstTlinkFlag=1
-                re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+\/>'
+                re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+.*\/>'
                 m = re.search(re_exp, lines[i])
                 if m:
                     id, fromid, fromtext, toid, totext, attr_type = m.groups()

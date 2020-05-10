@@ -59,5 +59,32 @@ She was discharged on 10/15/2004 at 01:52 pm in good condition .
 <TIMEX3 id="T7" start="901" end="923" text="10/15/2004 at 01:52 pm" type="TIME" val="2004-10-15T13:52" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="20041012" type="ADMISSION" dvalue="2004-10-12" />
 <SECTIME id="S1" start="46" end="56" text="20041015" type="DISCHARGE" dvalue="2004-10-15" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="20041012" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E19" fromText="Postpartum" toID="E7" toText="her delivery" type="OVERLAP" senid="19" />
+<TLINK id="TL3" fromID="E23" fromText="good condition" toID="E22" toText="discharged" type="BEFORE" senid="21" />
+<TLINK id="TL4" fromID="E22" fromText="discharged" toID="T7" toText="10/15/2004 at 01:52 pm" type="OVERLAP" senid="21" />
+<TLINK id="TL5" fromID="E9" fromText="DISCHARGE" toID="T1" toText="20041015" type="OVERLAP" senid="3" />
+<TLINK id="TL6" fromID="E5" fromText="her labor" toID="E7" toText="her delivery" type="OVERLAP" senid="17" />
+<TLINK id="TL7" fromID="E16" fromText="complication" toID="E5" toText="her labor" type="OVERLAP" senid="16" />
+<TLINK id="TL8" fromID="E6" fromText="srom" toID="E16" toText="complication" type="OVERLAP" senid="16" />
+<TLINK id="TL9" fromID="E20" fromText="complication" toID="E19" toText="Postpartum" type="OVERLAP" senid="20" />
+<TLINK id="TL10" fromID="E21" fromText="none ." toID="E20" toText="complication" type="OVERLAP" senid="20" />
+<TLINK id="TL11" fromID="E24" fromText="complication" toID="E7" toText="her delivery" type="OVERLAP" senid="18" />
+<TLINK id="TL12" fromID="E24" fromText="complication" toID="E18" toText="none ." type="OVERLAP" senid="18" />
+<TLINK id="TL13" fromID="T6" fromText="40.0 weeks" toID="T3" toText="10/12/2004 at 10:17 pm" type="AFTER" senid="15" />
+<TLINK id="TL14" fromID="E3" fromText="apgar scores" toID="E14" toText="delivered" type="AFTER" senid="15" />
+<TLINK id="TL15" fromID="T4" fromText="one" toID="T3" toText="10/12/2004 at 10:17 pm" type="OVERLAP" senid="15" />
+<TLINK id="TL16" fromID="T5" fromText="five minutes" toID="T3" toText="10/12/2004 at 10:17 pm" type="AFTER" senid="15" />
+<TLINK id="TL17" fromID="E14" fromText="delivered" toID="T3" toText="10/12/2004 at 10:17 pm" type="OVERLAP" senid="15" />
+<TLINK id="TL18" fromID="E3" fromText="apgar scores" toID="T4" toText="one" type="OVERLAP" senid="15" />
+<TLINK id="TL19" fromID="E3" fromText="apgar scores" toID="T5" toText="five minutes" type="OVERLAP" senid="15" />
+<TLINK id="TL20" fromID="E4" fromText="spontaneous vertex vaginal delivery" toID="E14" toText="delivered" type="OVERLAP" senid="15" />
+<TLINK id="TL21" fromID="E5" fromText="her labor" toID="E2" toText="labor" type="OVERLAP" senid="15" />
+<TLINK id="TL22" fromID="E12" fromText="Srom" toID="E11" toText="Labor" type="OVERLAP" senid="11" />
+<TLINK id="TL23" fromID="E2" fromText="labor" toID="E8" toText="admitted" type="BEFORE" senid="13" />
+<TLINK id="TL24" fromID="E13" fromText="the Life Valley Medical Center Obstetrical service" toID="E8" toText="admitted" type="AFTER" senid="13" />
+<TLINK id="TL25" fromID="E8" fromText="admitted" toID="T2" toText="10/12/2004 at 08:41 am" type="OVERLAP" senid="13" />
+<TLINK id="TL26" fromID="E2" fromText="labor" toID="E14" toText="delivered" type="BEFORE" senid="14" />
+<TLINK id="TL27" fromID="E1" fromText="srom" toID="E2" toText="labor" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

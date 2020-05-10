@@ -1,0 +1,176 @@
+e1 id: E109; e2 id: T7; e1 text: a new right-sided ptosis; e2 text: November 20
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E68; e2 id: E69; e1 text: Cellcept; e2 text: infection
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E71; e2 id: E67; e1 text: cyclosporine; e2 text: cyclosporine
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E187; e2 id: E158; e1 text: creatinine; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E61; e2 id: E187; e1 text: peak creatinine; e2 text: creatinine
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E55; e2 id: E185; e1 text: acute renal failure; e2 text: medication toxicity
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E58; e2 id: E55; e1 text: Kayexalate; e2 text: acute renal failure
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E62; e2 id: E187; e1 text: discharge creatinine; e2 text: creatinine
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E213; e2 id: E122; e1 text: progressive Acanthamoeba infection; e2 text: fevers
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E145; e2 id: E144; e1 text: pain; e2 text: morphine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E146; e2 id: E144; e1 text: air hunger; e2 text: morphine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E148; e2 id: E147; e1 text: congestion; e2 text: sinus suctioning
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E177; e2 id: E156; e1 text: Acanthamoeba infection of skin; e2 text: hospitalized
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E178; e2 id: E32; e1 text: neurologic infection; e2 text: MRI
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E156; e2 id: T4; e1 text: hospitalized; e2 text: September 26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E74; e2 id: E194; e1 text: cough; e2 text: reports
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E75; e2 id: E194; e1 text: shortness of breath; e2 text: reports
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E226; e2 id: E152; e1 text: inflammation; e2 text: prednisone
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E227; e2 id: E152; e1 text: adrenal insufficiency; e2 text: prednisone
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E228; e2 id: T9; e1 text: comfortable; e2 text: December 3
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E211; e2 id: E119; e1 text: cyclosporine; e2 text: cerebritis
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E210; e2 id: E118; e1 text: Idiosyncratic reaction; e2 text: cyclosporine
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E201; e2 id: E95; e1 text: CMV; e2 text: A repeat CMV hypercapture
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E186; e2 id: E157; e1 text: hemodialysis; e2 text: stay
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E219; e2 id: E217; e1 text: Pentamidine; e2 text: a family meeting
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E220; e2 id: E217; e1 text: itraconazole; e2 text: a family meeting
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E2; e2 id: E163; e1 text: ARS; e2 text: admission
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E170; e2 id: E167; e1 text: hepatomegaly; e2 text: readmitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E171; e2 id: E167; e1 text: fluid surge spacing; e2 text: readmitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T0; e2 id: E1; e1 text: nine months; e2 text: non-myeloblative stem cell transplant
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E164; e2 id: E165; e1 text: Retelk County Medical Center; e2 text: stay
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E3; e2 id: E2; e1 text: medication toxicity; e2 text: ARS
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E157; e2 id: E181; e1 text: stay; e2 text: stay
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E52; e2 id: E40; e1 text: valganciclovir maintenance suppression; e2 text: voriconazole
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: E87; e1 text: A repeat CMV hypercapture; e2 text: Workup on admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E143; e2 id: E217; e1 text: aggressive measures of care; e2 text: a family meeting
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E205; e2 id: T18; e1 text: erythematous nodules over both arms; e2 text: the days
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E37; e2 id: E38; e1 text: azithromycin; e2 text: trial of 5-FC
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E38; e2 id: E180; e1 text: trial of 5-FC; e2 text: increasing neutropenia
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E47; e2 id: E39; e1 text: re-CT of sinuses; e2 text: itraconazole
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E41; e2 id: E39; e1 text: continued neutropenia; e2 text: itraconazole
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E42; e2 id: E40; e1 text: sulfadiazine; e2 text: voriconazole
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E87; e2 id: E87; e1 text: Workup on admission; e2 text: Workup on admission
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E92; e2 id: E87; e1 text: Blood and urine cultures; e2 text: Workup on admission
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E183; e2 id: E52; e1 text: inability to tolerate; e2 text: valganciclovir maintenance suppression
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E53; e2 id: E183; e1 text: increasing ARS; e2 text: inability to tolerate
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E127; e2 id: E124; e1 text: a PICC line; e2 text: A single blood culture
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E15; e2 id: E14; e1 text: lymphopenia; e2 text: Campath
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E16; e2 id: E14; e1 text: neutropenia; e2 text: Campath
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E85; e2 id: E160; e1 text: treatment; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E174; e2 id: T2; e1 text: did well; e2 text: 1997
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E10; e2 id: T2; e1 text: progressive disease; e2 text: 1997
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E173; e2 id: T10; e1 text: presented; e2 text: 1991
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E7; e2 id: T10; e1 text: MACE; e2 text: 1991
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E8; e2 id: E7; e1 text: CytaBOM; e2 text: MACE
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T11; e2 id: E9; e1 text: six cycles; e2 text: fludarabine
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E9; e2 id: T2; e1 text: fludarabine; e2 text: 1997
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E106; e2 id: E204; e1 text: Pentamidine intravenous and nasal washings; e2 text: admission
+ground truth: BEFORE; prediction: AFTER
+

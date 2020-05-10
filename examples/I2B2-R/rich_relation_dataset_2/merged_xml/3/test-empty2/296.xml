@@ -109,5 +109,54 @@ The patient was discharged home in stable condition on postoperative day six .
 <TIMEX3 id="T6" start="971" end="983" text="June of 1993" type="DATE" val="1993-06" mod="NA" />
 <SECTIME id="S0" start="18" end="24" text="1-3-94" type="ADMISSION" dvalue="1994-01-03" />
 <SECTIME id="S1" start="42" end="48" text="1-9-94" type="DISCHARGE" dvalue="1994-01-09" />
+<TLINK id="TL1" fromID="E30" fromText="This tube" toID="E31" toText="This additional chest tube" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E57" fromText="the effusion" toID="E56" toText="fluid" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E15" fromText="an abdominal and pelvic computerized tomography scan" toID="T5" toText="September of 1993" type="OVERLAP" senid="13" />
+<TLINK id="TL4" fromID="T6" fromText="June of 1993" toID="E16" toText="a negative bone scan" type="OVERLAP" senid="13" />
+<TLINK id="TL5" fromID="E31" fromText="This additional chest tube" toID="T15" toText="the following day" type="BEFORE" senid="24" />
+<TLINK id="TL6" fromID="E25" fromText="The frozen section analysis" toID="E21" toText="a median sternotomy" type="OVERLAP" senid="20" />
+<TLINK id="TL7" fromID="E26" fromText="adenocarcinoma" toID="E24" toText="This mass" type="OVERLAP" senid="20" />
+<TLINK id="TL8" fromID="E23" fromText="her mediastinal mass" toID="E22" toText="removal" type="BEFORE" senid="19" />
+<TLINK id="TL9" fromID="E53" fromText="the Operating Room" toID="T7" toText="January 3 , 1994" type="OVERLAP" senid="19" />
+<TLINK id="TL10" fromID="E21" fromText="a median sternotomy" toID="E53" toText="the Operating Room" type="OVERLAP" senid="19" />
+<TLINK id="TL11" fromID="E22" fromText="removal" toID="E21" toText="a median sternotomy" type="OVERLAP" senid="19" />
+<TLINK id="TL12" fromID="E24" fromText="This mass" toID="E23" toText="her mediastinal mass" type="OVERLAP" senid="19" />
+<TLINK id="TL13" fromID="E52" fromText="the Fairm of Ijordcompmac Hospital" toID="E51" toText="admitted" type="AFTER" senid="18" />
+<TLINK id="TL14" fromID="E14" fromText="a further work up" toID="E13" toText="her CEA level" type="AFTER" senid="12" />
+<TLINK id="TL15" fromID="E12" fromText="a rise" toID="E13" toText="her CEA level" type="OVERLAP" senid="12" />
+<TLINK id="TL16" fromID="E29" fromText="a left pleural effusion" toID="E28" toText="a chest tube" type="OVERLAP" senid="22" />
+<TLINK id="TL17" fromID="E30" fromText="This tube" toID="E55" toText="the recovery room" type="OVERLAP" senid="22" />
+<TLINK id="TL18" fromID="E56" fromText="fluid" toID="E29" toText="a left pleural effusion" type="OVERLAP" senid="22" />
+<TLINK id="TL19" fromID="E58" fromText="left hemidiaphragm elevation" toID="E29" toText="a left pleural effusion" type="OVERLAP" senid="22" />
+<TLINK id="TL20" fromID="E7" fromText="an increased level of CEA" toID="E6" toText="an exploratory laparotomy" type="BEFORE" senid="10" />
+<TLINK id="TL21" fromID="E9" fromText="a liver abnormality" toID="E10" toText="computerized tomography scan" type="BEFORE" senid="10" />
+<TLINK id="TL22" fromID="E6" fromText="an exploratory laparotomy" toID="T4" toText="September of 1992" type="OVERLAP" senid="10" />
+<TLINK id="TL23" fromID="E8" fromText="her blood" toID="E7" toText="an increased level of CEA" type="OVERLAP" senid="10" />
+<TLINK id="TL24" fromID="E10" fromText="computerized tomography scan" toID="E8" toText="her blood" type="OVERLAP" senid="10" />
+<TLINK id="TL25" fromID="E11" fromText="The exploratory laparotomy" toID="E6" toText="an exploratory laparotomy" type="OVERLAP" senid="10" />
+<TLINK id="TL26" fromID="E35" fromText="DISCHARGE" toID="T2" toText="1-9-94" type="OVERLAP" senid="3" />
+<TLINK id="TL27" fromID="E36" fromText="metastatic colon carcinoma" toID="E37" toText="a mass in the left superhilar region" type="OVERLAP" senid="6" />
+<TLINK id="TL28" fromID="E39" fromText="bronchoscopy" toID="E40" toText="mediastinal exploration" type="OVERLAP" senid="6" />
+<TLINK id="TL29" fromID="E40" fromText="mediastinal exploration" toID="E41" toText="resection" type="OVERLAP" senid="6" />
+<TLINK id="TL30" fromID="E18" fromText="increased hoarseness" toID="T10" toText="the preceding months" type="OVERLAP" senid="15" />
+<TLINK id="TL31" fromID="E19" fromText="left vocal cord paralysis" toID="E18" toText="increased hoarseness" type="OVERLAP" senid="15" />
+<TLINK id="TL32" fromID="T1" fromText="1-3-94" toID="E0" toText="ADMISSION" type="OVERLAP" senid="2" />
+<TLINK id="TL33" fromID="E2" fromText="a transverse colectomy" toID="E5" toText="postoperative chemotherapy" type="BEFORE" senid="8" />
+<TLINK id="TL34" fromID="E3" fromText="colon carcinoma" toID="E2" toText="a transverse colectomy" type="BEFORE" senid="8" />
+<TLINK id="TL35" fromID="T0" fromText="December of 1992" toID="E2" toText="a transverse colectomy" type="OVERLAP" senid="8" />
+<TLINK id="TL36" fromID="E3" fromText="colon carcinoma" toID="E4" toText="Duke  apos;s grade B-II" type="OVERLAP" senid="8" />
+<TLINK id="TL37" fromID="E43" fromText="lymph nodes" toID="E2" toText="a transverse colectomy" type="BEFORE" senid="8" />
+<TLINK id="TL38" fromID="E25" fromText="The frozen section analysis" toID="E54" toText="revealed" type="OVERLAP" senid="21" />
+<TLINK id="TL39" fromID="E26" fromText="adenocarcinoma" toID="E27" toText="metastatic disease from the colon" type="OVERLAP" senid="21" />
+<TLINK id="TL40" fromID="E13" fromText="her CEA level" toID="E8" toText="her blood" type="OVERLAP" senid="11" />
+<TLINK id="TL41" fromID="E45" fromText="a four centimeter soft tissue mass on the left suprahilar region" toID="E17" toText="a thoracic computerized tomography scan" type="BEFORE" senid="14" />
+<TLINK id="TL42" fromID="E17" fromText="a thoracic computerized tomography scan" toID="T9" toText="December of 1994" type="OVERLAP" senid="14" />
+<TLINK id="TL43" fromID="E17" fromText="a thoracic computerized tomography scan" toID="E44" toText="showed" type="OVERLAP" senid="14" />
+<TLINK id="TL44" fromID="E61" fromText="stable condition" toID="E60" toText="discharged" type="BEFORE" senid="27" />
+<TLINK id="TL45" fromID="E60" fromText="discharged" toID="T8" toText="postoperative day six" type="OVERLAP" senid="27" />
+<TLINK id="TL46" fromID="E20" fromText="increased shortness of breath" toID="T11" toText="the preceding month" type="OVERLAP" senid="16" />
+<TLINK id="TL47" fromID="E34" fromText="Mediastinal chest tube" toID="T16" toText="postoperative day three" type="BEFORE" senid="26" />
+<TLINK id="TL48" fromID="E42" fromText="her usual state of health" toID="E1" toText="abdominal pain" type="BEFORE" senid="7" />
+<TLINK id="TL49" fromID="E1" fromText="abdominal pain" toID="T3" toText="early 1992" type="OVERLAP" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

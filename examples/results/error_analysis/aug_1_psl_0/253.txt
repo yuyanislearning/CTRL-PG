@@ -1,0 +1,39 @@
+e1 id: E67; e2 id: E66; e1 text: depression; e2 text: Pregnancy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: T9; e1 text: Apgars; e2 text: one
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E106; e2 id: E45; e1 text: electrographic evidence; e2 text: seizure activity
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E2; e2 id: E64; e1 text: HSV outbreak; e2 text: Pregnancy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E102; e2 id: E53; e1 text: hospitalization; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E28; e1 text: mild physiologic jaundice; e2 text: a serum bilirubin
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E96; e2 id: E25; e1 text: frequent spitting episodes; e2 text: limitation of volume at each feed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E109; e2 id: E110; e1 text: an isolated anomaly; e2 text: other pathology
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E11; e2 id: E86; e1 text: desaturation; e2 text: the bottle was pulled
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E49; e1 text: a cardiopulmonary monitor; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E81; e2 id: E83; e1 text: The Neonatal Intensive Care Unit; e2 text: the Newborn Intensive Care Unit
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E40; e2 id: E41; e1 text: seizures; e2 text: dusky episodes
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E90; e2 id: E88; e1 text: feed ad lib; e2 text: breast feeding ad lib
+ground truth: AFTER; prediction: OVERLAP
+

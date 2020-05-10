@@ -1,0 +1,21 @@
+e1 id: E2; e2 id: T1; e1 text: DISCHARGE; e2 text: 7-1-92
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E10; e2 id: T1; e1 text: Autopsy; e2 text: 7-1-92
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E11; e2 id: T1; e1 text: declined; e2 text: 7-1-92
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E11; e2 id: E10; e1 text: declined; e2 text: Autopsy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: E9; e1 text: Autopsy; e2 text: died
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T1; e2 id: T4; e1 text: 7-1-92; e2 text: July 1 , 1992
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E9; e2 id: T1; e1 text: died; e2 text: 7-1-92
+ground truth: OVERLAP; prediction: BEFORE
+

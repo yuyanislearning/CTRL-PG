@@ -170,12 +170,15 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                           'node_pos_ids':   batch[8],
                           'labels':         batch[4],
                           'rules':          batch[7],
+                          'psllda':         args.psllda,
                           }
             else:
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
                           'labels':         batch[4],
-                          'rules':          batch[7]}
+                          'rules':          batch[7],
+                          'psllda':         args.psllda,
+                          }
 
 
             if args.model_type != 'distilbert':
@@ -210,7 +213,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 if args.local_rank in [-1, 0] and args.logging_steps > 0 and global_step % args.logging_steps == 0:
                     # Log metrics
                     if args.local_rank == -1 and args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
-                        best_mif1, best_maf1, best_check, results = evaluate(best_mif1, best_maf1,best_check,global_step, args, model, tokenizer, final_evaluate = True)
+                        best_mif1, best_maf1, best_check, results = evaluate(best_mif1, best_maf1,best_check,global_step, args, model, tokenizer, final_evaluate = False)
                         best_f1s.append((global_step,best_mif1))
                         '''for key, value in results.items():
                             tb_writer.add_scalar('eval_{}'.format(key), value, global_step)'''
@@ -301,12 +304,16 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                               'attention_mask': batch[1],
                               'node_pos_ids':   batch[7],
                               'labels':         batch[4],
-                              'evaluate': True}
+                              'evaluate': True,
+                              'psllda':         args.psllda,
+                              }
                 else:
                     inputs = {'input_ids':      batch[0],
                               'attention_mask': batch[1],
                               'labels':         batch[4],
-                              'evaluate': True}
+                              'evaluate': True,
+                              'psllda':         args.psllda,
+                              }
 
                 event_ids = batch[3]
                 document_ids = batch[5]
@@ -410,7 +417,7 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             print("best_maf1",best_maf1)
             print("best_check",best_check)
             
-        output_eval_file = os.path.join(eval_output_dir, prefix, "eval_results.txt")
+        output_eval_file = os.path.join(eval_output_dir, prefix,  "eval_results" + '_aug' + str(args.aug_round) + "_psl" + str(args.psllda) + ".txt")
         with open(output_eval_file, "w") as writer:
             logger.info("***** Eval results {} *****".format(prefix))
             for key in sorted(result.keys()):
@@ -418,28 +425,30 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 writer.write("%s = %s\n" % (key, str(result[key])))
         if args.tempeval:
             doc_dict = {}
-            for doc_id, sent_id, pred, event in zip(doc_ids, sent_ids, preds, events):
+            for doc_id, sen_id, pred, event in zip(doc_ids, sent_ids, preds, events):
                 #print(doc_id,sent_id,pred,event)
                 if doc_id not in doc_dict:
-                    doc_dict[doc_id] = {"preds":[], "events":[]}
-                event = [dict_IndenToID[str(doc_id)+str(tuple(sent_id))][x] for x in event]
+                    doc_dict[doc_id] = {"preds":[], "events":[], "sen_ids":[]}
+                event = [dict_IndenToID[str(doc_id)+str(tuple(sen_id))][x] for x in event]
                 doc_dict[doc_id]["preds"].append(pred)
                 doc_dict[doc_id]["events"].append(event)
+                doc_dict[doc_id]["sen_ids"].append(sen_id)
             
             for doc_id in doc_dict.keys():
                 preds = doc_dict[doc_id]["preds"]
                 preds = [label_dict[x] for x in preds]
                 events = doc_dict[doc_id]["events"]
+                sen_ids = doc_dict[doc_id]["sen_ids"]
                 #print(preds)
                 #print(events)
                 if final_evaluate:
                     ce = closure_evaluate(doc_id, args.final_xml_folder)
-                    ce.eval(preds, events)
+                    ce.eval(preds, events, sen_ids)
                 else:
                     ce = closure_evaluate(doc_id, args.xml_folder)
-                    ce.eval(preds, events)
+                    ce.eval(preds, events, sen_ids)
             if final_evaluate:# temporal evaluation
-                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]))
+                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return best_mif1, best_maf1, best_check,results
@@ -458,7 +467,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
@@ -510,20 +519,16 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         all_rules = torch.tensor([f.rules for f in features], dtype = torch.int)
         #if args.tbd:
         #    all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(", ")] for s in f.sen_id] for f in features])    
+        #try:            
 
         all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].replace(':',', ').split(", ")] for s in f.sen_id] for f in features])
+        #except:
+
         data_type = None
-        if data_type == 'origin data':
-            l = np.array([i==1 for i in all_sources])
-            all_input_ids = all_input_ids[l,:]
-            all_attention_mask = all_attention_mask[l,:]
-            all_token_type_ids = all_token_type_ids[l,:]
-            all_labels = all_labels[l,:]
-            all_doc_ids = all_doc_ids[l,:]
-            all_sen_ids = all_sen_ids[l,:]
     
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids,  all_rules)#,all_node_pos , all_event_ids)
     else:
+
         all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].replace(':',', ').split(", ")] for f in features])
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#,all_node_pos , all_event_ids)
     return dataset, dict_IndenToID, label_dict
@@ -596,6 +601,9 @@ def main():
                         help="The name of the task to train selected in the list: " + ", ".join(processors.keys()))
     parser.add_argument("--output_dir", default=None, type=str, required=True,
                         help="The output directory where the model predictions and checkpoints will be written.")
+    parser.add_argument("--error_output_dir", default=None, type=str, required=True,
+                        help="The output directory where error analysis will be written.")
+
 
     ## Other parameters
     parser.add_argument("--config_name", default="", type=str,
@@ -611,6 +619,7 @@ def main():
                         help="Whether to run training.")
     parser.add_argument("--data_aug", default=None, type=str,
                         help="Whether to run data aug.")
+    
     parser.add_argument("--do_eval", action='store_true',
                         help="Whether to run eval on the dev set.")
     parser.add_argument("--evaluate_during_training", action='store_true',
@@ -642,6 +651,8 @@ def main():
                         help="If > 0: set total number of training steps to perform. Override num_train_epochs.")
     parser.add_argument("--warmup_steps", default=0, type=int,
                         help="Linear warmup over warmup_steps.")
+    parser.add_argument('--psllda', type=float, default=0,
+                        help="lambda for soft probabilistic logit")
 
     parser.add_argument('--logging_steps', type=int, default=500,
                         help="Log every X updates steps.")
@@ -762,15 +773,15 @@ def main():
         tokenizer = tokenizer_class.from_pretrained(os.path.join(args.output_dir, 'checkpoint-{}'.format(best_check)))
         #model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
         #model_to_save.save_pretrained(args.output_dir)
-        model.save_pretrained(args.output_dir)
-        tokenizer.save_pretrained(args.output_dir)
+        #model.save_pretrained(os.path.join(args.output_dir, 'best'))
+        #tokenizer.save_pretrained(os.path.join(args.output_dir, 'best'))
 
         # Good practice: save your training arguments together with the trained model
         torch.save(args, os.path.join(args.output_dir, 'training_args.bin'))
 
         # Load a trained model and vocabulary that you have fine-tuned
-        model = model_class.from_pretrained(args.output_dir)
-        tokenizer = tokenizer_class.from_pretrained(args.output_dir)
+        #model = model_class.from_pretrained(args.output_dir)
+        #tokenizer = tokenizer_class.from_pretrained(args.output_dir)
         model.to(args.device)
 
 
@@ -778,12 +789,15 @@ def main():
     #TODO: add test
     results = {}
     if args.do_eval and args.local_rank in [-1, 0]:
-        tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
+        #tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
         checkpoints = [args.output_dir]
         if args.eval_all_checkpoints:
             checkpoints = list(os.path.dirname(c) for c in sorted(glob.glob(args.output_dir + '/**/' + WEIGHTS_NAME, recursive=True)))
             logging.getLogger("transformers.modeling_utils").setLevel(logging.WARN)  # Reduce logging
         logger.info("Evaluate the following checkpoints: %s", checkpoints)
+        _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  final_evaluate =True)
+        results.update(result)
+        '''
         for checkpoint in checkpoints:
             global_step = checkpoint.split('-')[-1] if len(checkpoints) > 1 else ""
             prefix = checkpoint.split('/')[-1] if checkpoint.find('checkpoint') != -1 else ""
@@ -793,7 +807,10 @@ def main():
             _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  prefix=prefix, final_evaluate =True)
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
-
+        '''
+    os.system('mkdir -p ' + str(args.error_output_dir) + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda))
+    os.system(' '.join(["python error_analysis.py --gold_file_des",str(args.test_gold_file), '--system_file_des', str(args.final_xml_folder),
+    '--data_path', str(args.data_dir), '--output_dir', str(args.error_output_dir) + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '/']))
     return results
 
 

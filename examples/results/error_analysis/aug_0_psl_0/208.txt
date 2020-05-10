@@ -1,0 +1,18 @@
+e1 id: E86; e2 id: E872; e1 text: CT placement; e2 text: resolution
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E85; e2 id: E831; e1 text: a PTX; e2 text: her pacer
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E872; e2 id: E813; e1 text: resolution; e2 text: the hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E177; e2 id: E183; e1 text: IV Ceftriaxone; e2 text: CTX
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E84; e2 id: E828; e1 text: SOB; e2 text: Cambridge Hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E813; e2 id: E828; e1 text: the hospital; e2 text: Cambridge Hospital
+ground truth: OVERLAP; prediction: BEFORE
+

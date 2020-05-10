@@ -1,0 +1,18 @@
+e1 id: E18; e2 id: E17; e1 text: the esophagogastroduodenoscopy; e2 text: nothing by mouth
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: E13; e1 text: this GI was consulted; e2 text: emesis of coffee grounds
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E10; e2 id: E7; e1 text: total hip replacement; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E42; e2 id: E43; e1 text: exceptionally well; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E43; e1 text: Discharge instructions; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E17; e2 id: E15; e1 text: nothing by mouth; e2 text: this GI was consulted
+ground truth: AFTER; prediction: OVERLAP
+

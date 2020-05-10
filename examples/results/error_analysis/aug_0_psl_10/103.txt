@@ -1,0 +1,10 @@
+e1 id: E26; e2 id: E25; e1 text: cleared; e2 text: seen
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E18; e2 id: T4; e1 text: transferred; e2 text: post-op day #2
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in BOB
+
+e1 id: E18; e2 id: E15; e1 text: transferred; e2 text: the ICU
+ground truth: AFTER; prediction: OVERLAP
+

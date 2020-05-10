@@ -1,0 +1,75 @@
+e1 id: E66; e2 id: E68; e1 text: a bronchoscopy; e2 text: old clot
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E30; e2 id: E99; e1 text: chest x-ray; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E49; e2 id: E115; e1 text: adult respiratory distress syndrome; e2 text: pneumonia
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E50; e2 id: E113; e1 text: A urinalysis; e2 text: the Oaksgekesser/ Memorial Hospital
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E42; e2 id: E113; e1 text: quite hypotensive; e2 text: the Oaksgekesser/ Memorial Hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E43; e1 text: quite hypotensive; e2 text: dopamine
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: E99; e1 text: cefuroxime; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E24; e2 id: E99; e1 text: aggressive chest physical therapy; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E25; e2 id: E99; e1 text: Lasix; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E27; e2 id: E99; e1 text: hypotensive; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: T4; e1 text: an upper gastrointestinal bleed; e2 text: 4-10-98
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E54; e2 id: E50; e1 text: dysmorphic cells; e2 text: A urinalysis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E55; e2 id: E50; e1 text: red cell casts; e2 text: A urinalysis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E56; e2 id: E50; e1 text: 1+ albumin; e2 text: A urinalysis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E57; e2 id: E50; e1 text: mild protein uria; e2 text: A urinalysis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E97; e2 id: E96; e1 text: a fall; e2 text: Sondi Memorial
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E96; e2 id: T6; e1 text: Sondi Memorial; e2 text: 4-24
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E20; e2 id: E97; e1 text: cough; e2 text: a fall
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E38; e2 id: E37; e1 text: growth; e2 text: Blood cultures
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E15; e2 id: E13; e1 text: bleeding; e2 text: A colonoscopy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E74; e2 id: T9; e1 text: CVVH; e2 text: 5-2-98
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E75; e2 id: T9; e1 text: the ventilator; e2 text: 5-2-98
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E8; e2 id: E7; e1 text: two units; e2 text: a hematocrit
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E7; e2 id: E89; e1 text: a hematocrit; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E9; e2 id: E89; e1 text: an esophagogastroduodenoscopy; e2 text: Sondi Memorial
+ground truth: OVERLAP; prediction: BEFORE
+

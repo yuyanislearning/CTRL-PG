@@ -1,0 +1,75 @@
+e1 id: E99; e2 id: T11; e1 text: do well; e2 text: 04-03
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E30; e2 id: E31; e1 text: admitted; e2 text: an elective coronary artery bypass graft
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E67; e2 id: T8; e1 text: transcutaneous pacing wires; e2 text: postoperative day two
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E55; e2 id: E49; e1 text: dopamine; e2 text: the Coronary Care Unit Service for Western Mass . Hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E52; e2 id: E48; e1 text: aspirin; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E21; e2 id: E12; e1 text: initial evaluation; e2 text: admitted
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E9; e2 id: E7; e1 text: an ejection fraction; e2 text: a transthoracic echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E6; e2 id: E7; e1 text: dilated cardiomyopathy; e2 text: a transthoracic echocardiogram
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E84; e2 id: E83; e1 text: anticoagulation; e2 text: evaluation
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E90; e2 id: E83; e1 text: therapy; e2 text: evaluation
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E91; e2 id: E83; e1 text: present; e2 text: evaluation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E62; e2 id: E61; e1 text: a thoracotomy; e2 text: stable
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: T10; e1 text: the floor; e2 text: 04-02
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E21; e2 id: E22; e1 text: initial evaluation; e2 text: a coronary artery bypass graft
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E25; e2 id: E23; e1 text: which; e2 text: the right coronary artery stenosis
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E32; e2 id: E41; e1 text: surgery; e2 text: a bypass graft
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E35; e2 id: E32; e1 text: an intraoperative transesophageal echocardiogram; e2 text: surgery
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E40; e2 id: E34; e1 text: this finding; e2 text: calcified
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E40; e2 id: E37; e1 text: this finding; e2 text: an irregular intra-aortic pedunculated lesion
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E44; e2 id: E45; e1 text: medical management; e2 text: percutaneous coronary intervention
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E44; e2 id: E43; e1 text: medical management; e2 text: the Coronary Care Unit Service
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E97; e2 id: T11; e1 text: the patient &#39;s leg bandage; e2 text: 04-03
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E15; e2 id: E12; e1 text: a cardiac catheterization; e2 text: admitted
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E68; e2 id: T9; e1 text: surgery; e2 text: 04-01
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E69; e2 id: E68; e1 text: difficulty; e2 text: surgery
+ground truth: OVERLAP; prediction: AFTER
+

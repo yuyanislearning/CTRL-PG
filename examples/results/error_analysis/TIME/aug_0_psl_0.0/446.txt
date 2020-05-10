@@ -1,0 +1,72 @@
+e1 id: E16; e2 id: E15; e1 text: an echocardiogram; e2 text: A VQ scan
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E103; e2 id: T0; e1 text: admitted; e2 text: 06/19/1998
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E125; e2 id: T0; e1 text: Pre Health Intensive Care Unit; e2 text: 06/19/1998
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E39; e2 id: E45; e1 text: supplemental oxygen; e2 text: supplemental oxygen
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E104; e2 id: T0; e1 text: transferred; e2 text: 06/19/1998
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E139; e2 id: T0; e1 text: the Verg Medical Center Medical Intensive Care Unit; e2 text: 06/19/1998
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E140; e2 id: T0; e1 text: evaluation; e2 text: 06/19/1998
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E195; e2 id: T9; e1 text: discharged; e2 text: 08/01/1998
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E166; e2 id: T9; e1 text: the patient  apos;s platelet count; e2 text: 08/01/1998
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E167; e2 id: T9; e1 text: rose to a maximum; e2 text: 08/01/1998
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E207; e2 id: T9; e1 text: a permanent dialysis fistula; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E99; e2 id: T0; e1 text: transferred; e2 text: 06/19/1998
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E116; e2 id: T0; e1 text: the Verg Medical Center Intensive Care Unit; e2 text: 06/19/1998
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E117; e2 id: T0; e1 text: evaluation; e2 text: 06/19/1998
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E200; e2 id: T9; e1 text: her CBC; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E201; e2 id: T9; e1 text: LDH; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E202; e2 id: T9; e1 text: bilirubin; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E203; e2 id: T9; e1 text: chem-7; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E204; e2 id: T9; e1 text: magnesium; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E205; e2 id: T9; e1 text: calcium; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E206; e2 id: T9; e1 text: each dialysis; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E191; e2 id: T9; e1 text: rheumatoid factor; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E192; e2 id: T9; e1 text: ANCA; e2 text: 08/01/1998
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E197; e2 id: T9; e1 text: A Hospital; e2 text: 08/01/1998
+ground truth: OVERLAP; prediction: AFTER
+

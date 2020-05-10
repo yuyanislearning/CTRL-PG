@@ -1,0 +1,27 @@
+e1 id: E48; e2 id: T7; e1 text: additional insulin coverage; e2 text: day three
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E36; e1 text: pancultured; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E19; e2 id: E20; e1 text: a predischarge biopsy; e2 text: home
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E46; e2 id: E42; e1 text: Surgery; e2 text: house
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E31; e2 id: E34; e1 text: the Surgical Clinic; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E35; e2 id: E31; e1 text: intravenous antibiotics; e2 text: the Surgical Clinic
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: E9; e1 text: his evaluation; e2 text: his cardiac transplant
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T8; e2 id: E51; e1 text: the day; e2 text: discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E30; e2 id: T4; e1 text: more erythematous; e2 text: 2/3
+ground truth: BEFORE; prediction: OVERLAP
+

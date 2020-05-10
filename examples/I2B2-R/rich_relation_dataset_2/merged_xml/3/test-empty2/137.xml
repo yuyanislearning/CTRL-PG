@@ -175,5 +175,95 @@ He was sent with a King of Hearts monitor and scheduled for follow-up with cardi
 <TIMEX3 id="T4" start="567" end="584" text="the past few days" type="DURATION" val="P2D" mod="APPROX" />
 <SECTIME id="S0" start="18" end="28" text="2015-10-10" type="ADMISSION" dvalue="2015-10-10" />
 <SECTIME id="S1" start="46" end="56" text="2015-10-21" type="DISCHARGE" dvalue="2015-10-21" />
+<TLINK id="TL1" fromID="E102" fromText="cardioverted" toID="E47" toText="The TEE" type="AFTER" senid="34" />
+<TLINK id="TL2" fromID="E103" fromText="amiodarone" toID="E49" toText="ibutilide" type="AFTER" senid="34" />
+<TLINK id="TL3" fromID="E47" fromText="The TEE" toID="E48" toText="thrombus" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E49" fromText="ibutilide" toID="E102" toText="cardioverted" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E26" fromText="zosyn" toID="E27" toText="culture" type="BEFORE" senid="24" />
+<TLINK id="TL6" fromID="E25" fromText="vancomycin" toID="E26" toText="zosyn" type="OVERLAP" senid="24" />
+<TLINK id="TL7" fromID="E18" fromText="Blood cultures" toID="E65" toText="this admission" type="OVERLAP" senid="20" />
+<TLINK id="TL8" fromID="E19" fromText="Beta streptococcus Group B" toID="E18" toText="Blood cultures" type="OVERLAP" senid="20" />
+<TLINK id="TL9" fromID="E112" fromText="followed" toID="E111" toText="the nutrition team" type="OVERLAP" senid="39" />
+<TLINK id="TL10" fromID="E112" fromText="followed" toID="E113" toText="his admission" type="OVERLAP" senid="39" />
+<TLINK id="TL11" fromID="E92" fromText="admissions" toID="E91" toText="Review" type="OVERLAP" senid="19" />
+<TLINK id="TL12" fromID="E16" fromText="cellulitis" toID="E92" toText="admissions" type="BEFORE" senid="19" />
+<TLINK id="TL13" fromID="E17" fromText="bacteremia" toID="E92" toText="admissions" type="OVERLAP" senid="19" />
+<TLINK id="TL14" fromID="E90" fromText="Cellulitis" toID="E15" toText="Bacteremia" type="OVERLAP" senid="18" />
+<TLINK id="TL15" fromID="E110" fromText="amiodarone" toID="E107" toText="EKG" type="OVERLAP" senid="37" />
+<TLINK id="TL16" fromID="E107" fromText="EKG" toID="E108" toText="LFTs" type="OVERLAP" senid="37" />
+<TLINK id="TL17" fromID="E109" fromText="his PCP" toID="E108" toText="LFTs" type="OVERLAP" senid="37" />
+<TLINK id="TL18" fromID="E81" fromText="denied" toID="E82" toText="chest pain" type="AFTER" senid="12" />
+<TLINK id="TL19" fromID="E81" fromText="denied" toID="E83" toText="shortness of breath" type="AFTER" senid="12" />
+<TLINK id="TL20" fromID="E81" fromText="denied" toID="E84" toText="palpitations" type="AFTER" senid="12" />
+<TLINK id="TL21" fromID="E81" fromText="denied" toID="E85" toText="abdominal pain" type="AFTER" senid="12" />
+<TLINK id="TL22" fromID="E81" fromText="denied" toID="E86" toText="N/V" type="AFTER" senid="12" />
+<TLINK id="TL23" fromID="E81" fromText="denied" toID="E87" toText="penile discharge" type="AFTER" senid="12" />
+<TLINK id="TL24" fromID="E23" fromText="deep venous thrombosis" toID="E22" toText="A left lower extremity ultrasound" type="BEFORE" senid="22" />
+<TLINK id="TL25" fromID="E50" fromText="EKG" toID="E66" toText="discharge" type="BEFORE" senid="36" />
+<TLINK id="TL26" fromID="E105" fromText="mild QT prolongation" toID="E104" toText="showed" type="BEFORE" senid="36" />
+<TLINK id="TL27" fromID="E50" fromText="EKG" toID="E104" toText="showed" type="OVERLAP" senid="36" />
+<TLINK id="TL28" fromID="E106" fromText="effect" toID="E104" toText="showed" type="AFTER" senid="36" />
+<TLINK id="TL29" fromID="E51" fromText="amiodarone" toID="E106" toText="effect" type="OVERLAP" senid="36" />
+<TLINK id="TL30" fromID="E77" fromText="denied" toID="E5" toText="recent trauma to the area" type="AFTER" senid="10" />
+<TLINK id="TL31" fromID="E103" fromText="amiodarone" toID="T6" toText="10 week" type="OVERLAP" senid="35" />
+<TLINK id="TL32" fromID="E37" fromText="intravenous diltiazam" toID="E38" toText="metoprolol" type="BEFORE" senid="29" />
+<TLINK id="TL33" fromID="E38" fromText="metoprolol" toID="E39" toText="anticoagulation" type="OVERLAP" senid="29" />
+<TLINK id="TL34" fromID="E59" fromText="Discharge" toID="T2" toText="2015-10-21" type="OVERLAP" senid="3" />
+<TLINK id="TL35" fromID="E89" fromText="transitioned" toID="E63" toText="transferred" type="BEFORE" senid="17" />
+<TLINK id="TL36" fromID="E14" fromText="oral medications" toID="E89" toText="transitioned" type="AFTER" senid="17" />
+<TLINK id="TL37" fromID="E64" fromText="the medicine service" toID="E63" toText="transferred" type="AFTER" senid="17" />
+<TLINK id="TL38" fromID="E115" fromText="Vitamin D" toID="E116" toText="parathyroid tests" type="OVERLAP" senid="41" />
+<TLINK id="TL39" fromID="E116" fromText="parathyroid tests" toID="T7" toText="the time" type="OVERLAP" senid="41" />
+<TLINK id="TL40" fromID="E36" fromText="infection" toID="E95" toText="atrial fibrillation" type="BEFORE" senid="28" />
+<TLINK id="TL41" fromID="E96" fromText="structural heart disease" toID="E36" toText="infection" type="OVERLAP" senid="28" />
+<TLINK id="TL42" fromID="E37" fromText="intravenous diltiazam" toID="E95" toText="atrial fibrillation" type="AFTER" senid="28" />
+<TLINK id="TL43" fromID="E38" fromText="metoprolol" toID="E95" toText="atrial fibrillation" type="AFTER" senid="28" />
+<TLINK id="TL44" fromID="E0" fromText="Admission" toID="T1" toText="2015-10-10" type="OVERLAP" senid="2" />
+<TLINK id="TL45" fromID="E117" fromText="Kindred Park View Specialty Hospital of Springfield Rehabilitation Hospital" toID="E68" toText="discharged" type="AFTER" senid="42" />
+<TLINK id="TL46" fromID="E118" fromText="a King of Hearts monitor" toID="E68" toText="discharged" type="AFTER" senid="42" />
+<TLINK id="TL47" fromID="E119" fromText="follow-up" toID="E120" toText="cardiology" type="OVERLAP" senid="42" />
+<TLINK id="TL48" fromID="E119" fromText="follow-up" toID="E121" toText="his primary care physician" type="OVERLAP" senid="42" />
+<TLINK id="TL49" fromID="E1" fromText="gastric bypass" toID="E2" toText="laprascopic cholecystectomy" type="OVERLAP" senid="8" />
+<TLINK id="TL50" fromID="E2" fromText="laprascopic cholecystectomy" toID="T0" toText="7 weeks prior to admission" type="OVERLAP" senid="8" />
+<TLINK id="TL51" fromID="E93" fromText="transitioned" toID="E28" toText="the organism" type="AFTER" senid="25" />
+<TLINK id="TL52" fromID="E29" fromText="intravenous penicillin" toID="E93" toText="transitioned" type="AFTER" senid="25" />
+<TLINK id="TL53" fromID="E30" fromText="oral levofloxacin" toID="E93" toText="transitioned" type="AFTER" senid="25" />
+<TLINK id="TL54" fromID="E30" fromText="oral levofloxacin" toID="E31" toText="the infection" type="AFTER" senid="25" />
+<TLINK id="TL55" fromID="E31" fromText="the infection" toID="E94" toText="admission" type="BEFORE" senid="25" />
+<TLINK id="TL56" fromID="E94" fromText="admission" toID="T8" toText="1 year prior" type="OVERLAP" senid="25" />
+<TLINK id="TL57" fromID="E52" fromText="several asymptomatic electrolyte deficiecies" toID="E114" toText="demonstrated" type="BEFORE" senid="40" />
+<TLINK id="TL58" fromID="E53" fromText="inadequate absorption" toID="E52" toText="several asymptomatic electrolyte deficiecies" type="OVERLAP" senid="40" />
+<TLINK id="TL59" fromID="E54" fromText="his surgery" toID="E52" toText="several asymptomatic electrolyte deficiecies" type="BEFORE" senid="40" />
+<TLINK id="TL60" fromID="E52" fromText="several asymptomatic electrolyte deficiecies" toID="E55" toText="repletion" type="BEFORE" senid="40" />
+<TLINK id="TL61" fromID="E53" fromText="inadequate absorption" toID="E54" toText="his surgery" type="AFTER" senid="40" />
+<TLINK id="TL62" fromID="E55" fromText="repletion" toID="E53" toText="inadequate absorption" type="AFTER" senid="40" />
+<TLINK id="TL63" fromID="E42" fromText="IV metoprolol" toID="E41" toText="rapid atrial fibrillation" type="AFTER" senid="31" />
+<TLINK id="TL64" fromID="E21" fromText="lower extremity cellulitis" toID="E20" toText="the same infection" type="OVERLAP" senid="21" />
+<TLINK id="TL65" fromID="E98" fromText="a mildly dilated and elongated left atrium" toID="E97" toText="showed" type="BEFORE" senid="30" />
+<TLINK id="TL66" fromID="E99" fromText="a markedly dilated right atrium" toID="E97" toText="showed" type="BEFORE" senid="30" />
+<TLINK id="TL67" fromID="E40" fromText="A transthoracic echocardiogram" toID="E97" toText="showed" type="OVERLAP" senid="30" />
+<TLINK id="TL68" fromID="E79" fromText="painful urination" toID="E78" toText="Review of systems" type="BEFORE" senid="11" />
+<TLINK id="TL69" fromID="E80" fromText="a reduction in urine output" toID="E78" toText="Review of systems" type="BEFORE" senid="11" />
+<TLINK id="TL70" fromID="E79" fromText="painful urination" toID="T4" toText="the past few days" type="OVERLAP" senid="11" />
+<TLINK id="TL71" fromID="E88" fromText="obese" toID="E60" toText="admitted" type="BEFORE" senid="14" />
+<TLINK id="TL72" fromID="E6" fromText="cellulitis" toID="E60" toText="admitted" type="BEFORE" senid="14" />
+<TLINK id="TL73" fromID="E7" fromText="bacteremia" toID="E60" toText="admitted" type="BEFORE" senid="14" />
+<TLINK id="TL74" fromID="E62" fromText="the Medical ICU" toID="E63" toText="transferred" type="BEFORE" senid="16" />
+<TLINK id="TL75" fromID="E9" fromText="his hypotension" toID="E61" toText="admitted" type="BEFORE" senid="16" />
+<TLINK id="TL76" fromID="E9" fromText="his hypotension" toID="E10" toText="IVF hydration" type="BEFORE" senid="16" />
+<TLINK id="TL77" fromID="E62" fromText="the Medical ICU" toID="E61" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL78" fromID="E11" fromText="a diltiazam drip" toID="E62" toText="the Medical ICU" type="OVERLAP" senid="16" />
+<TLINK id="TL79" fromID="E11" fromText="a diltiazam drip" toID="E12" toText="atrial fibrillation" type="AFTER" senid="16" />
+<TLINK id="TL80" fromID="E13" fromText="his heart rate" toID="E62" toText="the Medical ICU" type="OVERLAP" senid="16" />
+<TLINK id="TL81" fromID="E101" fromText="transesophageal echocardiogram" toID="E100" toText="The EP service" type="AFTER" senid="33" />
+<TLINK id="TL82" fromID="E46" fromText="cardioversion" toID="E100" toText="The EP service" type="AFTER" senid="33" />
+<TLINK id="TL83" fromID="E75" fromText="his symptoms" toID="E74" toText="noted" type="BEFORE" senid="9" />
+<TLINK id="TL84" fromID="E76" fromText="the appearance" toID="E74" toText="noted" type="BEFORE" senid="9" />
+<TLINK id="TL85" fromID="E4" fromText="previous episodes" toID="E3" toText="lower extremity cellulitis" type="OVERLAP" senid="9" />
+<TLINK id="TL86" fromID="T5" fromText="2 week course" toID="E33" toText="a PICC line" type="AFTER" senid="26" />
+<TLINK id="TL87" fromID="E32" fromText="levofloxacin" toID="T3" toText="7 days" type="OVERLAP" senid="26" />
+<TLINK id="TL88" fromID="E34" fromText="IV Penicillin" toID="T5" toText="2 week course" type="OVERLAP" senid="26" />
+<TLINK id="TL89" fromID="E43" fromText="his rate" toID="E44" toText="metoprolol" type="OVERLAP" senid="32" />
+<TLINK id="TL90" fromID="E44" fromText="metoprolol" toID="E45" toText="diltiazam" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

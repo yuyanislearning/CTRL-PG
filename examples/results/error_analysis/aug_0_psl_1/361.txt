@@ -1,0 +1,83 @@
+e1 id: E62; e2 id: E58; e1 text: CPK peak; e2 text: presented
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: T15; e1 text: a CPK; e2 text: September of 1993
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E109; e2 id: E107; e1 text: coronary artery bypass grafting; e2 text: seen
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E110; e2 id: E108; e1 text: stable hematocrit; e2 text: evaluation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E42; e2 id: E39; e1 text: cardiac catheterization; e2 text: 3-4 millimeter ST segment elevation in V1
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E135; e2 id: E134; e1 text: increasing chest tube drainage; e2 text: platelets
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E119; e2 id: E117; e1 text: pre-bypass cardiac output; e2 text: a bypass
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E123; e2 id: E121; e1 text: Lidocaine; e2 text: the Surgical Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E124; e2 id: E121; e1 text: Fentanyl/; e2 text: the Surgical Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E125; e2 id: E121; e1 text: Versed; e2 text: the Surgical Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E126; e2 id: E114; e1 text: The postoperative hematocrit; e2 text: a coronary artery bypass grafting
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E181; e2 id: E176; e1 text: subsegmental atelectasis bibasilar; e2 text: chest X-ray
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E184; e2 id: E182; e1 text: left atrial enlargement; e2 text: electrocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E185; e2 id: E182; e1 text: acute ischemic changes; e2 text: electrocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E164; e2 id: E163; e1 text: clean; e2 text: The patient  apos;s incisions
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E35; e2 id: E33; e1 text: pseudonormalization of T waves; e2 text: The electrocardiogram
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E148; e2 id: T23; e1 text: atrial fibrillation; e2 text: postoperative day number three
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E189; e2 id: E187; e1 text: thrombosis; e2 text: anticoagulation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E114; e2 id: E113; e1 text: a coronary artery bypass grafting; e2 text: Dental consult
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E70; e2 id: E64; e1 text: an akinetic anterolateral and apical ventricle; e2 text: Repeat cardiac catheterization
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E111; e2 id: E110; e1 text: intravenous heparin; e2 text: stable hematocrit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E112; e2 id: E108; e1 text: The carotid noninvasives; e2 text: evaluation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T9; e2 id: T10; e1 text: two days; e2 text: two days
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E24; e2 id: E23; e1 text: chest pain; e2 text: the emergency room
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E25; e2 id: E23; e1 text: sublingual nitroglycerin; e2 text: the emergency room
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in BOB
+
+e1 id: E143; e2 id: E142; e1 text: fresh frozen plasma; e2 text: bleeding
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E141; e2 id: E140; e1 text: Nipride; e2 text: hypertension
+ground truth: OVERLAP; prediction: AFTER
+

@@ -235,5 +235,143 @@ Follow-up was arranged with neurosurgery in 5-6 weeks with repeat head ct to be 
 <TIMEX3 id="T7" start="827" end="835" text="week ago" type="DATE" val="2019-03-22" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2019-03-29" type="ADMISSION" dvalue="2019-03-29" />
 <SECTIME id="S1" start="46" end="56" text="2019-04-01" type="DISCHARGE" dvalue="2019-04-01" />
+<TLINK id="TL1" fromID="E14" fromText="mildly decreased vibration and proprioception in both LE" toID="E13" toText="the sensory exam" type="BEFORE" senid="23" />
+<TLINK id="TL2" fromID="E97" fromText="peripheral neuropathy" toID="E14" toText="mildly decreased vibration and proprioception in both LE" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E122" fromText="stable" toID="E31" toText="Head CT" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E31" fromText="Head CT" toID="T2" toText="03-30" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E121" fromText="was unchanged" toID="E31" toText="Head CT" type="OVERLAP" senid="34" />
+<TLINK id="TL6" fromID="E123" fromText="very suble focal exam findings" toID="E122" toText="stable" type="OVERLAP" senid="34" />
+<TLINK id="TL7" fromID="E123" fromText="very suble focal exam findings" toID="E124" toText="very mild right pronator drift" type="AFTER" senid="34" />
+<TLINK id="TL8" fromID="E125" fromText="his persistently poor memory" toID="E123" toText="very suble focal exam findings" type="BEFORE" senid="34" />
+<TLINK id="TL9" fromID="E125" fromText="his persistently poor memory" toID="E126" toText="dementia" type="OVERLAP" senid="34" />
+<TLINK id="TL10" fromID="E58" fromText="baseline" toID="E59" toText="his gait" type="OVERLAP" senid="13" />
+<TLINK id="TL11" fromID="E60" fromText="unsteady" toID="E58" toText="baseline" type="OVERLAP" senid="13" />
+<TLINK id="TL12" fromID="E61" fromText="his mentation" toID="E58" toText="baseline" type="OVERLAP" senid="13" />
+<TLINK id="TL13" fromID="E62" fromText="difficulties with memory" toID="E58" toText="baseline" type="OVERLAP" senid="13" />
+<TLINK id="TL14" fromID="E62" fromText="difficulties with memory" toID="T19" toText="months" type="AFTER" senid="13" />
+<TLINK id="TL15" fromID="E63" fromText="forgetting appointments" toID="E62" toText="difficulties with memory" type="OVERLAP" senid="13" />
+<TLINK id="TL16" fromID="E99" fromText="a new significant R-frontal intraparenchymal hemorrhage in the same location" toID="E46" toText="showed" type="BEFORE" senid="24" />
+<TLINK id="TL17" fromID="E99" fromText="a new significant R-frontal intraparenchymal hemorrhage in the same location" toID="E16" toText="the prior bleed" type="OVERLAP" senid="24" />
+<TLINK id="TL18" fromID="E15" fromText="A CT" toID="E98" toText="the Deanna" type="OVERLAP" senid="24" />
+<TLINK id="TL19" fromID="E15" fromText="A CT" toID="E46" toText="showed" type="OVERLAP" senid="24" />
+<TLINK id="TL20" fromID="E33" fromText="his chest xray" toID="E138" toText="negative" type="OVERLAP" senid="39" />
+<TLINK id="TL21" fromID="E139" fromText="breathing problems" toID="E137" toText="complained" type="BEFORE" senid="39" />
+<TLINK id="TL22" fromID="E95" fromText="weaker , bilaterally" toID="T8" toText="the last week" type="AFTER" senid="19" />
+<TLINK id="TL23" fromID="E79" fromText="denies" toID="E80" toText="any fever" type="AFTER" senid="18" />
+<TLINK id="TL24" fromID="E79" fromText="denies" toID="E81" toText="chills" type="AFTER" senid="18" />
+<TLINK id="TL25" fromID="E79" fromText="denies" toID="E82" toText="weight loss" type="AFTER" senid="18" />
+<TLINK id="TL26" fromID="E79" fromText="denies" toID="E83" toText="visual changes" type="AFTER" senid="18" />
+<TLINK id="TL27" fromID="E79" fromText="denies" toID="E84" toText="hearing changes" type="AFTER" senid="18" />
+<TLINK id="TL28" fromID="E79" fromText="denies" toID="E85" toText="dysphagia" type="AFTER" senid="18" />
+<TLINK id="TL29" fromID="E79" fromText="denies" toID="E86" toText="tingling" type="AFTER" senid="18" />
+<TLINK id="TL30" fromID="E79" fromText="denies" toID="E87" toText="numbness" type="AFTER" senid="18" />
+<TLINK id="TL31" fromID="E79" fromText="denies" toID="E88" toText="bowel-bladder dysfunction" type="AFTER" senid="18" />
+<TLINK id="TL32" fromID="E79" fromText="denies" toID="E89" toText="chest pain" type="AFTER" senid="18" />
+<TLINK id="TL33" fromID="E79" fromText="denies" toID="E90" toText="shortness of breath" type="AFTER" senid="18" />
+<TLINK id="TL34" fromID="E79" fromText="denies" toID="E91" toText="abdominal pain" type="AFTER" senid="18" />
+<TLINK id="TL35" fromID="E79" fromText="denies" toID="E93" toText="hematuria" type="AFTER" senid="18" />
+<TLINK id="TL36" fromID="E79" fromText="denies" toID="E94" toText="bright red blood per rectum" type="AFTER" senid="18" />
+<TLINK id="TL37" fromID="E80" fromText="any fever" toID="E81" toText="chills" type="OVERLAP" senid="18" />
+<TLINK id="TL38" fromID="E80" fromText="any fever" toID="E92" toText="dysuria" type="OVERLAP" senid="18" />
+<TLINK id="TL39" fromID="E134" fromText="his pacemaker" toID="E133" toText="an MRI" type="BEFORE" senid="37" />
+<TLINK id="TL40" fromID="E150" fromText="this gait problem" toID="E149" toText="see him" type="BEFORE" senid="44" />
+<TLINK id="TL41" fromID="E154" fromText="a rehab/Hahnemann Hospital ( Worcester )" toID="E153" toText="seen by PT" type="AFTER" senid="44" />
+<TLINK id="TL42" fromID="E156" fromText="returning to assisted living" toID="E154" toText="a rehab/Hahnemann Hospital ( Worcester )" type="AFTER" senid="44" />
+<TLINK id="TL43" fromID="E156" fromText="returning to assisted living" toID="E157" toText="walking improved" type="AFTER" senid="44" />
+<TLINK id="TL44" fromID="E151" fromText="PT" toID="E149" toText="see him" type="OVERLAP" senid="44" />
+<TLINK id="TL45" fromID="E152" fromText="felt well" toID="E153" toText="seen by PT" type="BEFORE" senid="44" />
+<TLINK id="TL46" fromID="E155" fromText="work on walking" toID="E154" toText="a rehab/Hahnemann Hospital ( Worcester )" type="OVERLAP" senid="44" />
+<TLINK id="TL47" fromID="E45" fromText="complain" toID="E57" toText="a headache" type="AFTER" senid="12" />
+<TLINK id="TL48" fromID="E13" fromText="the sensory exam" toID="E9" toText="initial exam" type="OVERLAP" senid="22" />
+<TLINK id="TL49" fromID="E10" fromText="not oriented to time" toID="E9" toText="initial exam" type="OVERLAP" senid="22" />
+<TLINK id="TL50" fromID="E11" fromText="somewhat slow" toID="E9" toText="initial exam" type="OVERLAP" senid="22" />
+<TLINK id="TL51" fromID="E12" fromText="difficulties generating a list of animals" toID="E9" toText="initial exam" type="OVERLAP" senid="22" />
+<TLINK id="TL52" fromID="E164" fromText="His cranial nerves and strength were full" toID="E9" toText="initial exam" type="OVERLAP" senid="22" />
+<TLINK id="TL53" fromID="E162" fromText="blood" toID="T18" toText="5-6 weeks" type="BEFORE" senid="45" />
+<TLINK id="TL54" fromID="E158" fromText="Follow-up" toID="E159" toText="neurosurgery" type="OVERLAP" senid="45" />
+<TLINK id="TL55" fromID="E158" fromText="Follow-up" toID="T18" toText="5-6 weeks" type="OVERLAP" senid="45" />
+<TLINK id="TL56" fromID="E160" fromText="repeat head ct" toID="E158" toText="Follow-up" type="OVERLAP" senid="45" />
+<TLINK id="TL57" fromID="E161" fromText="neurosurgery office" toID="E160" toText="repeat head ct" type="OVERLAP" senid="45" />
+<TLINK id="TL58" fromID="E163" fromText="underlying lesion" toID="E160" toText="repeat head ct" type="BEFORE" senid="45" />
+<TLINK id="TL59" fromID="E131" fromText="lipitor" toID="E130" toText="Cardiovascularly" type="OVERLAP" senid="36" />
+<TLINK id="TL60" fromID="E132" fromText="amiodarone" toID="E130" toText="Cardiovascularly" type="OVERLAP" senid="36" />
+<TLINK id="TL61" fromID="E2" fromText="a small abrasion" toID="E56" toText="a fall" type="OVERLAP" senid="10" />
+<TLINK id="TL62" fromID="E127" fromText="transfer" toID="T15" toText="24 hours" type="OVERLAP" senid="35" />
+<TLINK id="TL63" fromID="E128" fromText="the floor" toID="E127" toText="transfer" type="AFTER" senid="35" />
+<TLINK id="TL64" fromID="E127" fromText="transfer" toID="E129" toText="the hospital was full" type="AFTER" senid="35" />
+<TLINK id="TL65" fromID="E47" fromText="the neurology ICU" toID="E110" toText="admitted" type="AFTER" senid="29" />
+<TLINK id="TL66" fromID="T11" fromText="overnight" toID="E110" toText="admitted" type="AFTER" senid="29" />
+<TLINK id="TL67" fromID="E24" fromText="a labetalol drip" toID="E23" toText="initially elevated" type="AFTER" senid="29" />
+<TLINK id="TL68" fromID="E112" fromText="stabilized" toID="E23" toText="initially elevated" type="AFTER" senid="29" />
+<TLINK id="TL69" fromID="E21" fromText="closer monitoring" toID="E47" toText="the neurology ICU" type="OVERLAP" senid="29" />
+<TLINK id="TL70" fromID="E111" fromText="stable" toID="T11" toText="overnight" type="OVERLAP" senid="29" />
+<TLINK id="TL71" fromID="E22" fromText="BP" toID="E21" toText="closer monitoring" type="OVERLAP" senid="29" />
+<TLINK id="TL72" fromID="E23" fromText="initially elevated" toID="E22" toText="BP" type="OVERLAP" senid="29" />
+<TLINK id="TL73" fromID="E24" fromText="a labetalol drip" toID="T12" toText="24 hours" type="OVERLAP" senid="29" />
+<TLINK id="TL74" fromID="E25" fromText="The goal SBP" toID="E112" toText="stabilized" type="OVERLAP" senid="29" />
+<TLINK id="TL75" fromID="E50" fromText="Discharge" toID="T3" toText="2019-04-01" type="OVERLAP" senid="3" />
+<TLINK id="TL76" fromID="E73" fromText="headache" toID="E74" toText="neckpain" type="OVERLAP" senid="17" />
+<TLINK id="TL77" fromID="E74" fromText="neckpain" toID="E75" toText="nausea" type="OVERLAP" senid="17" />
+<TLINK id="TL78" fromID="E75" fromText="nausea" toID="E76" toText="vomiting" type="OVERLAP" senid="17" />
+<TLINK id="TL79" fromID="E76" fromText="vomiting" toID="E77" toText="focal weakness" type="OVERLAP" senid="17" />
+<TLINK id="TL80" fromID="E77" fromText="focal weakness" toID="E78" toText="numbness" type="OVERLAP" senid="17" />
+<TLINK id="TL81" fromID="E143" fromText="repeated" toID="E35" toText="Hba1c" type="OVERLAP" senid="41" />
+<TLINK id="TL82" fromID="E144" fromText="pending" toID="E143" toText="repeated" type="AFTER" senid="41" />
+<TLINK id="TL83" fromID="E35" fromText="Hba1c" toID="T17" toText="03-04" type="OVERLAP" senid="41" />
+<TLINK id="TL84" fromID="E36" fromText="slightly elevated" toID="E37" toText="borderline DM" type="OVERLAP" senid="41" />
+<TLINK id="TL85" fromID="E144" fromText="pending" toID="T16" toText="the day of discharge" type="OVERLAP" senid="41" />
+<TLINK id="TL86" fromID="E4" fromText="difficulties" toID="E67" toText="navigating through his apartment" type="OVERLAP" senid="15" />
+<TLINK id="TL87" fromID="E68" fromText="difficulties finding the fridge for example" toID="E4" toText="difficulties" type="OVERLAP" senid="15" />
+<TLINK id="TL88" fromID="E146" fromText="Walking" toID="E147" toText="assessed" type="BEFORE" senid="43" />
+<TLINK id="TL89" fromID="E148" fromText="unstable on his feet" toID="E147" toText="assessed" type="BEFORE" senid="43" />
+<TLINK id="TL90" fromID="E20" fromText="his pacer" toID="E109" toText="an MRI" type="AFTER" senid="28" />
+<TLINK id="TL91" fromID="E0" fromText="Admission" toID="T0" toText="2019-03-29" type="OVERLAP" senid="2" />
+<TLINK id="TL92" fromID="E38" fromText="Ins / outs" toID="E145" toText="monitored" type="OVERLAP" senid="42" />
+<TLINK id="TL93" fromID="E145" fromText="monitored" toID="E39" toText="electrolytes" type="OVERLAP" senid="42" />
+<TLINK id="TL94" fromID="E41" fromText="VD boots" toID="E40" toText="a bowel regimen" type="OVERLAP" senid="42" />
+<TLINK id="TL95" fromID="E41" fromText="VD boots" toID="E42" toText="PUD prophylaxis" type="OVERLAP" senid="42" />
+<TLINK id="TL96" fromID="E42" fromText="PUD prophylaxis" toID="E49" toText="the admission" type="OVERLAP" senid="42" />
+<TLINK id="TL97" fromID="E43" fromText="protonix" toID="E42" toText="PUD prophylaxis" type="OVERLAP" senid="42" />
+<TLINK id="TL98" fromID="E54" fromText="gradual decline in gait" toID="E44" toText="presents" type="BEFORE" senid="8" />
+<TLINK id="TL99" fromID="E1" fromText="multiple intracranial hemorrhages" toID="T4" toText="few years" type="OVERLAP" senid="8" />
+<TLINK id="TL100" fromID="E55" fromText="slowing of mentation" toID="T5" toText="the last week" type="OVERLAP" senid="8" />
+<TLINK id="TL101" fromID="E104" fromText="underlying amyloidosis" toID="E103" toText="the two teams agreed" type="BEFORE" senid="25" />
+<TLINK id="TL102" fromID="E100" fromText="seen" toID="E101" toText="neurology" type="OVERLAP" senid="25" />
+<TLINK id="TL103" fromID="E100" fromText="seen" toID="E102" toText="neurosurgery" type="OVERLAP" senid="25" />
+<TLINK id="TL104" fromID="E103" fromText="the two teams agreed" toID="E100" toText="seen" type="OVERLAP" senid="25" />
+<TLINK id="TL105" fromID="E34" fromText="BG" toID="E140" toText="improve outcome" type="OVERLAP" senid="40" />
+<TLINK id="TL106" fromID="E142" fromText="DM" toID="E141" toText="ICU" type="OVERLAP" senid="40" />
+<TLINK id="TL107" fromID="E34" fromText="BG" toID="E141" toText="ICU" type="OVERLAP" senid="40" />
+<TLINK id="TL108" fromID="E26" fromText="Coags" toID="E113" toText="normal" type="OVERLAP" senid="31" />
+<TLINK id="TL109" fromID="E27" fromText="UA" toID="E113" toText="normal" type="OVERLAP" senid="31" />
+<TLINK id="TL110" fromID="E7" fromText="gradually slowing of mentation" toID="E96" toText="presented" type="BEFORE" senid="21" />
+<TLINK id="TL111" fromID="E8" fromText="increased gait instability" toID="E96" toText="presented" type="BEFORE" senid="21" />
+<TLINK id="TL112" fromID="E6" fromText="R-frontal hemorrhage" toID="E5" toText="past intracranial hemorrhages" type="OVERLAP" senid="21" />
+<TLINK id="TL113" fromID="E6" fromText="R-frontal hemorrhage" toID="T9" toText="07-01" type="OVERLAP" senid="21" />
+<TLINK id="TL114" fromID="E7" fromText="gradually slowing of mentation" toID="T10" toText="one week" type="AFTER" senid="21" />
+<TLINK id="TL115" fromID="E8" fromText="increased gait instability" toID="T10" toText="one week" type="AFTER" senid="21" />
+<TLINK id="TL116" fromID="E65" fromText="his gait" toID="T7" toText="week ago" type="BEFORE" senid="14" />
+<TLINK id="TL117" fromID="E64" fromText="noted" toID="T7" toText="week ago" type="OVERLAP" senid="14" />
+<TLINK id="TL118" fromID="E3" fromText="even more unsteady" toID="E65" toText="his gait" type="OVERLAP" senid="14" />
+<TLINK id="TL119" fromID="E66" fromText="fall" toID="E3" toText="even more unsteady" type="OVERLAP" senid="14" />
+<TLINK id="TL120" fromID="E18" fromText="the hemorrhage" toID="E107" toText="hypertensive bleed ( cortical )" type="OVERLAP" senid="27" />
+<TLINK id="TL121" fromID="E19" fromText="the bleed" toID="E108" toText="the recent fall" type="OVERLAP" senid="27" />
+<TLINK id="TL122" fromID="E70" fromText="the fall" toID="E69" toText="concerned" type="BEFORE" senid="16" />
+<TLINK id="TL123" fromID="E71" fromText="another bleed" toID="E70" toText="the fall" type="OVERLAP" senid="16" />
+<TLINK id="TL124" fromID="E72" fromText="the Deanna" toID="E69" toText="concerned" type="AFTER" senid="16" />
+<TLINK id="TL125" fromID="E135" fromText="telemetry events" toID="E136" toText="ruled out" type="BEFORE" senid="38" />
+<TLINK id="TL126" fromID="E32" fromText="enzyme" toID="E136" toText="ruled out" type="OVERLAP" senid="38" />
+<TLINK id="TL127" fromID="E29" fromText="This medication" toID="E119" toText="continued" type="OVERLAP" senid="33" />
+<TLINK id="TL128" fromID="E29" fromText="This medication" toID="E30" toText="the bleed" type="OVERLAP" senid="33" />
+<TLINK id="TL129" fromID="E120" fromText="titration up" toID="T14" toText="bid" type="OVERLAP" senid="33" />
+<TLINK id="TL130" fromID="E120" fromText="titration up" toID="T1" toText="04-05" type="OVERLAP" senid="33" />
+<TLINK id="TL131" fromID="E56" fromText="a fall" toID="T6" toText="ten days ago" type="OVERLAP" senid="9" />
+<TLINK id="TL132" fromID="E106" fromText="a mass" toID="E105" toText="the last admission" type="BEFORE" senid="26" />
+<TLINK id="TL133" fromID="E106" fromText="a mass" toID="E17" toText="a hemorrhage in the R-frontal region" type="OVERLAP" senid="26" />
+<TLINK id="TL134" fromID="E117" fromText="dilantin" toID="E116" toText="allergy" type="BEFORE" senid="32" />
+<TLINK id="TL135" fromID="E28" fromText="Keppra" toID="E114" toText="seizure activity" type="AFTER" senid="32" />
+<TLINK id="TL136" fromID="E114" fromText="seizure activity" toID="E115" toText="a cortical bleed" type="OVERLAP" senid="32" />
+<TLINK id="TL137" fromID="E28" fromText="Keppra" toID="T13" toText="bid" type="OVERLAP" senid="32" />
+<TLINK id="TL138" fromID="E118" fromText="seizure activity" toID="E28" toText="Keppra" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

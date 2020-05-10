@@ -434,5 +434,236 @@ The patient was full code during admission .
 <TIMEX3 id="T27" start="8122" end="8129" text="the day" type="DATE" val="2017-09-02" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2017-09-03" type="ADMISSION" dvalue="2017-09-03" />
 <SECTIME id="S1" start="46" end="56" text="2017-10-10" type="DISCHARGE" dvalue="2017-10-10" />
+<TLINK id="TL1" fromID="E135" fromText="left chest wound" toID="E136" toText="left gluteal pressure ulcer" type="OVERLAP" senid="99" />
+<TLINK id="TL2" fromID="E113" fromText="baseline dementia" toID="E112" toText="MS changes" type="OVERLAP" senid="84" />
+<TLINK id="TL3" fromID="E114" fromText="delerium" toID="E112" toText="MS changes" type="BEFORE" senid="84" />
+<TLINK id="TL4" fromID="E23" fromText="a dopamine gtt" toID="E210" toText="transferred" type="AFTER" senid="34" />
+<TLINK id="TL5" fromID="E23" fromText="a dopamine gtt" toID="E24" toText="the dopamine gtt" type="OVERLAP" senid="34" />
+<TLINK id="TL6" fromID="E130" fromText="a Lidocaine patch" toID="E268" toText="this hospitalization" type="OVERLAP" senid="95" />
+<TLINK id="TL7" fromID="E65" fromText="Coumadin" toID="E64" toText="supratherapeutic" type="BEFORE" senid="55" />
+<TLINK id="TL8" fromID="E66" fromText="His coumadin" toID="E64" toText="supratherapeutic" type="OVERLAP" senid="55" />
+<TLINK id="TL9" fromID="E63" fromText="The patient &#39;s INR" toID="E64" toText="supratherapeutic" type="BEFORE" senid="55" />
+<TLINK id="TL10" fromID="E157" fromText="talking with his daughter" toID="T4" toText="This AM" type="OVERLAP" senid="10" />
+<TLINK id="TL11" fromID="E158" fromText="desaturate" toID="E157" toText="talking with his daughter" type="OVERLAP" senid="10" />
+<TLINK id="TL12" fromID="E160" fromText="further evaluation" toID="E159" toText="the The Hospital for Orthopedics Juan" type="OVERLAP" senid="10" />
+<TLINK id="TL13" fromID="E269" fromText="Stronger narcotics" toID="E132" toText="somnolence" type="BEFORE" senid="97" />
+<TLINK id="TL14" fromID="E132" fromText="somnolence" toID="E133" toText="MS changes" type="OVERLAP" senid="97" />
+<TLINK id="TL15" fromID="E256" fromText="his metabolic process" toID="E257" toText="resolved" type="BEFORE" senid="86" />
+<TLINK id="TL16" fromID="E255" fromText="improved" toID="E257" toText="resolved" type="OVERLAP" senid="86" />
+<TLINK id="TL17" fromID="E258" fromText="consulted" toID="E114" toText="delerium" type="AFTER" senid="86" />
+<TLINK id="TL18" fromID="T22" fromText="6 weeks" toID="E228" toText="cardioversion" type="BEFORE" senid="54" />
+<TLINK id="TL19" fromID="E62" fromText="Warfarin" toID="E61" toText="Anti-coagulation" type="OVERLAP" senid="54" />
+<TLINK id="TL20" fromID="E63" fromText="The patient &#39;s INR" toID="E61" toText="Anti-coagulation" type="OVERLAP" senid="54" />
+<TLINK id="TL21" fromID="E65" fromText="Coumadin" toID="E62" toText="Warfarin" type="AFTER" senid="54" />
+<TLINK id="TL22" fromID="E60" fromText="atrial flutter" toID="E59" toText="His underlying rhythm" type="OVERLAP" senid="53" />
+<TLINK id="TL23" fromID="E54" fromText="Rhythm" toID="E56" toText="epicardially paced" type="OVERLAP" senid="50" />
+<TLINK id="TL24" fromID="E48" fromText="Ischemia" toID="E225" toText="CHF exacerbation" type="AFTER" senid="47" />
+<TLINK id="TL25" fromID="E130" fromText="a Lidocaine patch" toID="E131" toText="Percocet" type="OVERLAP" senid="96" />
+<TLINK id="TL26" fromID="E232" fromText="monitored closely" toID="E233" toText="stable" type="OVERLAP" senid="59" />
+<TLINK id="TL27" fromID="E232" fromText="monitored closely" toID="E231" toText="His INR" type="OVERLAP" senid="59" />
+<TLINK id="TL28" fromID="E68" fromText="His INR" toID="E231" toText="His INR" type="OVERLAP" senid="59" />
+<TLINK id="TL29" fromID="E140" fromText="diuresed" toID="E206" toText="the floor" type="OVERLAP" senid="31" />
+<TLINK id="TL30" fromID="E117" fromText="old lacunar infarcts" toID="E116" toText="a head CT" type="BEFORE" senid="87" />
+<TLINK id="TL31" fromID="E116" fromText="a head CT" toID="E258" toText="consulted" type="OVERLAP" senid="87" />
+<TLINK id="TL32" fromID="E259" fromText="showed" toID="E116" toText="a head CT" type="OVERLAP" senid="87" />
+<TLINK id="TL33" fromID="E260" fromText="acute causes" toID="E118" toText="a change in mental status" type="OVERLAP" senid="87" />
+<TLINK id="TL34" fromID="E123" fromText="UTI" toID="E267" toText="UTI" type="OVERLAP" senid="92" />
+<TLINK id="TL35" fromID="E238" fromText="his diet" toID="E239" toText="rehab" type="OVERLAP" senid="64" />
+<TLINK id="TL36" fromID="E75" fromText="medication non-compliance" toID="E240" toText="rehab" type="OVERLAP" senid="64" />
+<TLINK id="TL37" fromID="E240" fromText="rehab" toID="E239" toText="rehab" type="OVERLAP" senid="64" />
+<TLINK id="TL38" fromID="E35" fromText="sepsis" toID="E28" toText="A swan" type="OVERLAP" senid="38" />
+<TLINK id="TL39" fromID="E30" fromText="swan numbers" toID="E28" toText="A swan" type="OVERLAP" senid="38" />
+<TLINK id="TL40" fromID="E31" fromText="an elevated PAD" toID="E30" toText="swan numbers" type="OVERLAP" senid="38" />
+<TLINK id="TL41" fromID="E31" fromText="an elevated PAD" toID="E32" toText="elevated CVP" type="OVERLAP" senid="38" />
+<TLINK id="TL42" fromID="E32" fromText="elevated CVP" toID="E30" toText="swan numbers" type="OVERLAP" senid="38" />
+<TLINK id="TL43" fromID="E215" fromText="an obtainable wedge pressure" toID="E30" toText="swan numbers" type="OVERLAP" senid="38" />
+<TLINK id="TL44" fromID="E33" fromText="a high CO" toID="E30" toText="swan numbers" type="OVERLAP" senid="38" />
+<TLINK id="TL45" fromID="E34" fromText="low SVR" toID="E30" toText="swan numbers" type="OVERLAP" senid="38" />
+<TLINK id="TL46" fromID="E159" fromText="the The Hospital for Orthopedics Juan" toID="E152" toText="the Juan" type="OVERLAP" senid="9" />
+<TLINK id="TL47" fromID="E71" fromText="4 surgeries" toID="E72" toText="3 cardiac surgeries" type="OVERLAP" senid="63" />
+<TLINK id="TL48" fromID="E71" fromText="4 surgeries" toID="E73" toText="these procedures" type="OVERLAP" senid="63" />
+<TLINK id="TL49" fromID="E72" fromText="3 cardiac surgeries" toID="T23" toText="the summer" type="OVERLAP" senid="63" />
+<TLINK id="TL50" fromID="E237" fromText="copious IVF hydration" toID="E73" toText="these procedures" type="OVERLAP" senid="63" />
+<TLINK id="TL51" fromID="E121" fromText="standing lactulose" toID="E146" toText="discharged" type="BEFORE" senid="89" />
+<TLINK id="TL52" fromID="E263" fromText="clear" toID="E121" toText="standing lactulose" type="AFTER" senid="89" />
+<TLINK id="TL53" fromID="E121" fromText="standing lactulose" toID="E264" toText="this medication" type="OVERLAP" senid="89" />
+<TLINK id="TL54" fromID="E276" fromText="allevyn foam adhesive" toID="E275" toText="air dry" type="OVERLAP" senid="101" />
+<TLINK id="TL55" fromID="E106" fromText="cleansing" toID="T15" toText="2017-09-05" type="AFTER" senid="101" />
+<TLINK id="TL56" fromID="E283" fromText="change" toID="T15" toText="2017-09-05" type="OVERLAP" senid="101" />
+<TLINK id="TL57" fromID="E272" fromText="normal saline" toID="E271" toText="gentle cleansing" type="OVERLAP" senid="101" />
+<TLINK id="TL58" fromID="E273" fromText="commercial wound cleaner" toID="E271" toText="gentle cleansing" type="OVERLAP" senid="101" />
+<TLINK id="TL59" fromID="E275" fromText="air dry" toID="E271" toText="gentle cleansing" type="OVERLAP" senid="101" />
+<TLINK id="TL60" fromID="E277" fromText="change" toID="T25" toText="every 2 days" type="OVERLAP" senid="101" />
+<TLINK id="TL61" fromID="E55" fromText="completely pacer-dependent" toID="E56" toText="epicardially paced" type="OVERLAP" senid="51" />
+<TLINK id="TL62" fromID="E177" fromText="back pain" toID="E7" toText="Percocet" type="BEFORE" senid="16" />
+<TLINK id="TL63" fromID="E178" fromText="the Juan" toID="E174" toText="the Juan" type="OVERLAP" senid="16" />
+<TLINK id="TL64" fromID="E181" fromText="hemodynamically stable" toID="E179" toText="the CCU" type="BEFORE" senid="18" />
+<TLINK id="TL65" fromID="E182" fromText="weaned" toID="E179" toText="the CCU" type="BEFORE" senid="18" />
+<TLINK id="TL66" fromID="E247" fromText="improved" toID="E88" toText="extubated" type="BEFORE" senid="70" />
+<TLINK id="TL67" fromID="E46" fromText="another echo" toID="T12" toText="2017-09-14" type="OVERLAP" senid="44" />
+<TLINK id="TL68" fromID="E219" fromText="new changes" toID="E46" toText="another echo" type="OVERLAP" senid="44" />
+<TLINK id="TL69" fromID="E164" fromText="ambulatory" toID="E5" toText="several complications" type="AFTER" senid="12" />
+<TLINK id="TL70" fromID="E165" fromText="very deconditioned" toID="E5" toText="several complications" type="AFTER" senid="12" />
+<TLINK id="TL71" fromID="E5" fromText="several complications" toID="T18" toText="two months" type="OVERLAP" senid="12" />
+<TLINK id="TL72" fromID="E6" fromText="an AICD pocket infection" toID="E5" toText="several complications" type="BEFORE" senid="12" />
+<TLINK id="TL73" fromID="E166" fromText="denies" toID="E161" toText="states" type="OVERLAP" senid="12" />
+<TLINK id="TL74" fromID="E57" fromText="Amiodarone" toID="E226" toText="this entire admission" type="OVERLAP" senid="52" />
+<TLINK id="TL75" fromID="E227" fromText="cardioverted" toID="E226" toText="this entire admission" type="OVERLAP" senid="52" />
+<TLINK id="TL76" fromID="E57" fromText="Amiodarone" toID="E58" toText="post-op afib" type="AFTER" senid="52" />
+<TLINK id="TL77" fromID="E221" fromText="euvolemic" toID="E220" toText="discharge" type="BEFORE" senid="45" />
+<TLINK id="TL78" fromID="E223" fromText="room air" toID="E220" toText="discharge" type="BEFORE" senid="45" />
+<TLINK id="TL79" fromID="E224" fromText="peripheral edema" toID="E220" toText="discharge" type="BEFORE" senid="45" />
+<TLINK id="TL80" fromID="E222" fromText="satting well" toID="E223" toText="room air" type="OVERLAP" senid="45" />
+<TLINK id="TL81" fromID="E47" fromText="His dry weight" toID="E220" toText="discharge" type="OVERLAP" senid="45" />
+<TLINK id="TL82" fromID="E67" fromText="His INR" toID="E66" toText="His coumadin" type="OVERLAP" senid="56" />
+<TLINK id="TL83" fromID="E290" fromText="full code" toID="E291" toText="admission" type="OVERLAP" senid="110" />
+<TLINK id="TL84" fromID="E42" fromText="oral Lasix" toID="E218" toText="transitioned" type="AFTER" senid="41" />
+<TLINK id="TL85" fromID="E175" fromText="his VS" toID="E174" toText="the Juan" type="OVERLAP" senid="15" />
+<TLINK id="TL86" fromID="E176" fromText="3L NC" toID="E174" toText="the Juan" type="OVERLAP" senid="15" />
+<TLINK id="TL87" fromID="E7" fromText="Percocet" toID="E174" toText="the Juan" type="AFTER" senid="15" />
+<TLINK id="TL88" fromID="E8" fromText="Lasix" toID="E174" toText="the Juan" type="AFTER" senid="15" />
+<TLINK id="TL89" fromID="E9" fromText="Combivent neb" toID="E174" toText="the Juan" type="AFTER" senid="15" />
+<TLINK id="TL90" fromID="E267" fromText="UTI" toID="E124" toText="levofloxacin" type="BEFORE" senid="93" />
+<TLINK id="TL91" fromID="E267" fromText="UTI" toID="E266" toText="Newton-Wellesley Hospital" type="OVERLAP" senid="93" />
+<TLINK id="TL92" fromID="E124" fromText="levofloxacin" toID="E128" toText="Levofloxacin" type="OVERLAP" senid="93" />
+<TLINK id="TL93" fromID="E125" fromText="U/A" toID="E266" toText="Newton-Wellesley Hospital" type="BEFORE" senid="93" />
+<TLINK id="TL94" fromID="E125" fromText="U/A" toID="E126" toText="WBC" type="OVERLAP" senid="93" />
+<TLINK id="TL95" fromID="E17" fromText="CHF exacerbation" toID="E139" toText="admitted" type="BEFORE" senid="28" />
+<TLINK id="TL96" fromID="E200" fromText="admission" toID="E139" toText="admitted" type="OVERLAP" senid="28" />
+<TLINK id="TL97" fromID="E0" fromText="Admission" toID="T1" toText="2017-09-03" type="OVERLAP" senid="2" />
+<TLINK id="TL98" fromID="E39" fromText="The Lasix drip" toID="E40" toText="IV Lasix boluses" type="BEFORE" senid="40" />
+<TLINK id="TL99" fromID="E40" fromText="IV Lasix boluses" toID="E218" toText="transitioned" type="BEFORE" senid="40" />
+<TLINK id="TL100" fromID="E40" fromText="IV Lasix boluses" toID="E42" toText="oral Lasix" type="BEFORE" senid="40" />
+<TLINK id="TL101" fromID="E41" fromText="a net diuresis" toID="E217" toText="the hospital stay" type="OVERLAP" senid="40" />
+<TLINK id="TL102" fromID="E76" fromText="Metabolic Alkalosis" toID="E77" toText="Hypochloremia" type="OVERLAP" senid="66" />
+<TLINK id="TL103" fromID="E76" fromText="Metabolic Alkalosis" toID="E244" toText="contraction alkalosis" type="OVERLAP" senid="66" />
+<TLINK id="TL104" fromID="E245" fromText="post-hypercapnia" toID="E76" toText="Metabolic Alkalosis" type="OVERLAP" senid="66" />
+<TLINK id="TL105" fromID="E289" fromText="his foley" toID="E292" toText="follow up" type="BEFORE" senid="108" />
+<TLINK id="TL106" fromID="E241" fromText="standing diuretics" toID="E143" toText="discharge" type="AFTER" senid="65" />
+<TLINK id="TL107" fromID="E242" fromText="PRN nebs" toID="E143" toText="discharge" type="BEFORE" senid="65" />
+<TLINK id="TL108" fromID="E243" fromText="INH COPD meds" toID="E242" toText="PRN nebs" type="OVERLAP" senid="65" />
+<TLINK id="TL109" fromID="E98" fromText="The right pleural effusion" toID="E100" toText="continued diuresis" type="BEFORE" senid="74" />
+<TLINK id="TL110" fromID="E248" fromText="re-accumulated" toID="E99" toText="tap" type="AFTER" senid="74" />
+<TLINK id="TL111" fromID="E101" fromText="Repeat CXR" toID="E99" toText="tap" type="AFTER" senid="74" />
+<TLINK id="TL112" fromID="E98" fromText="The right pleural effusion" toID="E102" toText="the effusion" type="OVERLAP" senid="74" />
+<TLINK id="TL113" fromID="E285" fromText="void on his own" toID="E284" toText="the admission" type="OVERLAP" senid="104" />
+<TLINK id="TL114" fromID="E225" fromText="CHF exacerbation" toID="E49" toText="an initial troponin bump" type="BEFORE" senid="48" />
+<TLINK id="TL115" fromID="E50" fromText="Aspirin" toID="E142" toText="admission" type="BEFORE" senid="48" />
+<TLINK id="TL116" fromID="E51" fromText="Metoprolol" toID="E142" toText="admission" type="BEFORE" senid="48" />
+<TLINK id="TL117" fromID="E52" fromText="Lipitor" toID="E142" toText="admission" type="AFTER" senid="48" />
+<TLINK id="TL118" fromID="E53" fromText="further issues" toID="E142" toText="admission" type="AFTER" senid="48" />
+<TLINK id="TL119" fromID="E49" fromText="an initial troponin bump" toID="E142" toText="admission" type="OVERLAP" senid="48" />
+<TLINK id="TL120" fromID="E271" fromText="gentle cleansing" toID="T15" toText="2017-09-05" type="AFTER" senid="100" />
+<TLINK id="TL121" fromID="E274" fromText="Duoderm gel" toID="T15" toText="2017-09-05" type="AFTER" senid="100" />
+<TLINK id="TL122" fromID="E277" fromText="change" toID="T15" toText="2017-09-05" type="AFTER" senid="100" />
+<TLINK id="TL123" fromID="E136" fromText="left gluteal pressure ulcer" toID="E137" toText="the left gluteal pressure ulcer" type="OVERLAP" senid="100" />
+<TLINK id="TL124" fromID="E270" fromText="consulted" toID="T15" toText="2017-09-05" type="OVERLAP" senid="100" />
+<TLINK id="TL125" fromID="E250" fromText="improvement" toID="E101" toText="Repeat CXR" type="BEFORE" senid="75" />
+<TLINK id="TL126" fromID="E252" fromText="breathing well on room air" toID="E251" toText="discharge" type="BEFORE" senid="75" />
+<TLINK id="TL127" fromID="E101" fromText="Repeat CXR" toID="E249" toText="showed" type="OVERLAP" senid="75" />
+<TLINK id="TL128" fromID="E253" fromText="complications" toID="E252" toText="breathing well on room air" type="OVERLAP" senid="75" />
+<TLINK id="TL129" fromID="E178" fromText="the Juan" toID="E179" toText="the CCU" type="BEFORE" senid="17" />
+<TLINK id="TL130" fromID="E10" fromText="a NRB" toID="E178" toText="the Juan" type="OVERLAP" senid="17" />
+<TLINK id="TL131" fromID="T28" fromText="QID" toID="E16" toText="fingersticks" type="OVERLAP" senid="78" />
+<TLINK id="TL132" fromID="E128" fromText="Levofloxacin" toID="E127" toText="UCx" type="OVERLAP" senid="94" />
+<TLINK id="TL133" fromID="E127" fromText="UCx" toID="E268" toText="this hospitalization" type="OVERLAP" senid="94" />
+<TLINK id="TL134" fromID="E92" fromText="Pleural effusions" toID="E98" toText="The right pleural effusion" type="OVERLAP" senid="73" />
+<TLINK id="TL135" fromID="E93" fromText="s/p right thoracentesis" toID="E99" toText="tap" type="AFTER" senid="73" />
+<TLINK id="TL136" fromID="E95" fromText="Gram stain" toID="E96" toText="cultures" type="OVERLAP" senid="73" />
+<TLINK id="TL137" fromID="E96" fromText="cultures" toID="E97" toText="cytology" type="OVERLAP" senid="73" />
+<TLINK id="TL138" fromID="E83" fromText="agitation" toID="E82" toText="sedatives" type="OVERLAP" senid="68" />
+<TLINK id="TL139" fromID="E84" fromText="a preexisting alkalosis" toID="E82" toText="sedatives" type="BEFORE" senid="68" />
+<TLINK id="TL140" fromID="E246" fromText="diuresed" toID="T13" toText="2017-09-18" type="AFTER" senid="68" />
+<TLINK id="TL141" fromID="E85" fromText="intubated" toID="E82" toText="sedatives" type="AFTER" senid="68" />
+<TLINK id="TL142" fromID="E144" fromText="worsened" toID="T13" toText="2017-09-18" type="OVERLAP" senid="68" />
+<TLINK id="TL143" fromID="E78" fromText="mental status changes" toID="E144" toText="worsened" type="BEFORE" senid="68" />
+<TLINK id="TL144" fromID="E79" fromText="an ABG" toID="E78" toText="mental status changes" type="OVERLAP" senid="68" />
+<TLINK id="TL145" fromID="E79" fromText="an ABG" toID="E80" toText="a CO2" type="AFTER" senid="68" />
+<TLINK id="TL146" fromID="E81" fromText="a depressed respiratory drive" toID="E82" toText="sedatives" type="AFTER" senid="68" />
+<TLINK id="TL147" fromID="E148" fromText="Discharge" toID="T2" toText="2017-10-10" type="OVERLAP" senid="3" />
+<TLINK id="TL148" fromID="E122" fromText="Hypothyroidism" toID="E265" toText="Levothyroxine" type="AFTER" senid="90" />
+<TLINK id="TL149" fromID="E192" fromText="Morton Hospital   Medical Center" toID="E190" toText="presented" type="BEFORE" senid="22" />
+<TLINK id="TL150" fromID="E190" fromText="presented" toID="T5" toText="2017-09-03" type="OVERLAP" senid="22" />
+<TLINK id="TL151" fromID="E89" fromText="All sedating medications" toID="E90" toText="serial ABGs" type="BEFORE" senid="71" />
+<TLINK id="TL152" fromID="E44" fromText="ventricular function" toID="E43" toText="an echo" type="BEFORE" senid="42" />
+<TLINK id="TL153" fromID="E45" fromText="inferior and inferolateral hypokinesis" toID="E43" toText="an echo" type="BEFORE" senid="42" />
+<TLINK id="TL154" fromID="E43" fromText="an echo" toID="T10" toText="2017-09-04" type="OVERLAP" senid="42" />
+<TLINK id="TL155" fromID="E120" fromText="mild encephalopathy" toID="E119" toText="An EEG" type="BEFORE" senid="88" />
+<TLINK id="TL156" fromID="E261" fromText="showed" toID="E119" toText="An EEG" type="OVERLAP" senid="88" />
+<TLINK id="TL157" fromID="E262" fromText="other findings" toID="E120" toText="mild encephalopathy" type="AFTER" senid="88" />
+<TLINK id="TL158" fromID="E172" fromText="30 degrees" toID="E173" toText="rehab" type="OVERLAP" senid="14" />
+<TLINK id="TL159" fromID="E287" fromText="finsateride" toID="T27" toText="the day" type="AFTER" senid="107" />
+<TLINK id="TL160" fromID="E230" fromText="a stable regimen" toID="E229" toText="discharged" type="BEFORE" senid="58" />
+<TLINK id="TL161" fromID="E231" fromText="His INR" toID="E229" toText="discharged" type="BEFORE" senid="58" />
+<TLINK id="TL162" fromID="E286" fromText="discussed" toID="E285" toText="void on his own" type="AFTER" senid="105" />
+<TLINK id="TL163" fromID="E212" fromText="diuresed well" toID="E24" toText="the dopamine gtt" type="OVERLAP" senid="35" />
+<TLINK id="TL164" fromID="E24" fromText="the dopamine gtt" toID="E25" toText="the dopamine gtt" type="OVERLAP" senid="35" />
+<TLINK id="TL165" fromID="E141" fromText="his BP" toID="E24" toText="the dopamine gtt" type="OVERLAP" senid="35" />
+<TLINK id="TL166" fromID="E33" fromText="a high CO" toID="E34" toText="low SVR" type="OVERLAP" senid="39" />
+<TLINK id="TL167" fromID="E36" fromText="an elevated WBC" toID="E216" toText="his entire hospital admission" type="OVERLAP" senid="39" />
+<TLINK id="TL168" fromID="E37" fromText="afebrile" toID="E216" toText="his entire hospital admission" type="OVERLAP" senid="39" />
+<TLINK id="TL169" fromID="E38" fromText="blood , urine , wound , and pleural fluid cultures" toID="E216" toText="his entire hospital admission" type="OVERLAP" senid="39" />
+<TLINK id="TL170" fromID="E217" fromText="the hospital stay" toID="E216" toText="his entire hospital admission" type="AFTER" senid="39" />
+<TLINK id="TL171" fromID="E183" fromText="3L O2" toID="E182" toText="weaned" type="AFTER" senid="19" />
+<TLINK id="TL172" fromID="E184" fromText="NC" toID="E183" toText="3L O2" type="BEFORE" senid="19" />
+<TLINK id="TL173" fromID="E185" fromText="O2 sats" toID="E183" toText="3L O2" type="BEFORE" senid="19" />
+<TLINK id="TL174" fromID="E25" fromText="the dopamine gtt" toID="E213" toText="weaned" type="OVERLAP" senid="36" />
+<TLINK id="TL175" fromID="T21" fromText="several days" toID="E19" toText="hypotensive" type="BEFORE" senid="32" />
+<TLINK id="TL176" fromID="E20" fromText="BPs" toID="E19" toText="hypotensive" type="AFTER" senid="32" />
+<TLINK id="TL177" fromID="E21" fromText="IVF" toID="E19" toText="hypotensive" type="BEFORE" senid="32" />
+<TLINK id="TL178" fromID="E22" fromText="his pressures" toID="E20" toText="BPs" type="OVERLAP" senid="32" />
+<TLINK id="TL179" fromID="E18" fromText="a lasix gtt" toID="T20" toText="the night" type="AFTER" senid="29" />
+<TLINK id="TL180" fromID="E201" fromText="a good response" toID="E18" toText="a lasix gtt" type="AFTER" senid="29" />
+<TLINK id="TL181" fromID="E168" fromText="any CP" toID="E166" toText="denies" type="BEFORE" senid="13" />
+<TLINK id="TL182" fromID="E169" fromText="N/V/D" toID="E166" toText="denies" type="BEFORE" senid="13" />
+<TLINK id="TL183" fromID="E170" fromText="abdominal pain" toID="E166" toText="denies" type="BEFORE" senid="13" />
+<TLINK id="TL184" fromID="E171" fromText="HA" toID="E166" toText="denies" type="BEFORE" senid="13" />
+<TLINK id="TL185" fromID="E194" fromText="CCU" toID="E195" toText="transferred" type="BEFORE" senid="23" />
+<TLINK id="TL186" fromID="E147" fromText="Pendleton" toID="E197" toText="transferred" type="BEFORE" senid="23" />
+<TLINK id="TL187" fromID="E14" fromText="fluid overloaded" toID="E198" toText="CCU" type="BEFORE" senid="23" />
+<TLINK id="TL188" fromID="E194" fromText="CCU" toID="E193" toText="admitted" type="AFTER" senid="23" />
+<TLINK id="TL189" fromID="E147" fromText="Pendleton" toID="E195" toText="transferred" type="AFTER" senid="23" />
+<TLINK id="TL190" fromID="E198" fromText="CCU" toID="E197" toText="transferred" type="AFTER" senid="23" />
+<TLINK id="TL191" fromID="E15" fromText="a swan catheter" toID="E197" toText="transferred" type="BEFORE" senid="23" />
+<TLINK id="TL192" fromID="E193" fromText="admitted" toID="T6" toText="2017-09-03" type="OVERLAP" senid="23" />
+<TLINK id="TL193" fromID="E195" fromText="transferred" toID="T7" toText="2017-09-05" type="OVERLAP" senid="23" />
+<TLINK id="TL194" fromID="E196" fromText="triggered" toID="T8" toText="2017-09-10" type="OVERLAP" senid="23" />
+<TLINK id="TL195" fromID="E12" fromText="hypotension" toID="E196" toText="triggered" type="BEFORE" senid="23" />
+<TLINK id="TL196" fromID="E13" fromText="BP" toID="E12" toText="hypotension" type="OVERLAP" senid="23" />
+<TLINK id="TL197" fromID="E197" fromText="transferred" toID="T9" toText="2017-09-10" type="OVERLAP" senid="23" />
+<TLINK id="TL198" fromID="T16" fromText="5 days" toID="T3" toText="2017-09-03" type="BEFORE" senid="8" />
+<TLINK id="TL199" fromID="E155" fromText="Hubbard Regional Hospital" toID="E151" toText="presented" type="BEFORE" senid="8" />
+<TLINK id="TL200" fromID="T0" fromText="33 yrs" toID="E2" toText="s/p LAD PTCA" type="OVERLAP" senid="8" />
+<TLINK id="TL201" fromID="E152" fromText="the Juan" toID="E151" toText="presented" type="AFTER" senid="8" />
+<TLINK id="TL202" fromID="E151" fromText="presented" toID="T3" toText="2017-09-03" type="OVERLAP" senid="8" />
+<TLINK id="TL203" fromID="E153" fromText="worsening SOB" toID="T16" toText="5 days" type="OVERLAP" senid="8" />
+<TLINK id="TL204" fromID="E153" fromText="worsening SOB" toID="E154" toText="cloudy" type="OVERLAP" senid="8" />
+<TLINK id="TL205" fromID="E156" fromText="worsening SOB" toID="E153" toText="worsening SOB" type="OVERLAP" senid="8" />
+<TLINK id="TL206" fromID="T17" fromText="5 days" toID="T16" toText="5 days" type="OVERLAP" senid="8" />
+<TLINK id="TL207" fromID="E279" fromText="pat dry" toID="E278" toText="commercial wound cleanser" type="OVERLAP" senid="102" />
+<TLINK id="TL208" fromID="E280" fromText="pack aquacel AG rope" toID="E279" toText="pat dry" type="OVERLAP" senid="102" />
+<TLINK id="TL209" fromID="E281" fromText="saline" toID="E280" toText="pack aquacel AG rope" type="OVERLAP" senid="102" />
+<TLINK id="TL210" fromID="E282" fromText="dry gauze" toID="E281" toText="saline" type="OVERLAP" senid="102" />
+<TLINK id="TL211" fromID="E278" fromText="commercial wound cleanser" toID="E106" toText="cleansing" type="OVERLAP" senid="102" />
+<TLINK id="TL212" fromID="E283" fromText="change" toID="T26" toText="daily" type="OVERLAP" senid="102" />
+<TLINK id="TL213" fromID="E202" fromText="diurese" toID="E203" toText="moved" type="OVERLAP" senid="30" />
+<TLINK id="TL214" fromID="E206" fromText="the floor" toID="E204" toText="the floor" type="OVERLAP" senid="30" />
+<TLINK id="TL215" fromID="E140" fromText="diuresed" toID="E202" toText="diurese" type="OVERLAP" senid="30" />
+<TLINK id="TL216" fromID="E86" fromText="ventilation" toID="E88" toText="extubated" type="BEFORE" senid="69" />
+<TLINK id="TL217" fromID="E86" fromText="ventilation" toID="E85" toText="intubated" type="OVERLAP" senid="69" />
+<TLINK id="TL218" fromID="E86" fromText="ventilation" toID="T24" toText="a few days" type="BEFORE" senid="69" />
+<TLINK id="TL219" fromID="E87" fromText="His CO2" toID="E80" toText="a CO2" type="OVERLAP" senid="69" />
+<TLINK id="TL220" fromID="E107" fromText="His blood sugars" toID="E145" toText="discharge" type="OVERLAP" senid="79" />
+<TLINK id="TL221" fromID="E92" fromText="Pleural effusions" toID="E93" toText="s/p right thoracentesis" type="OVERLAP" senid="72" />
+<TLINK id="TL222" fromID="E95" fromText="Gram stain" toID="E93" toText="s/p right thoracentesis" type="OVERLAP" senid="72" />
+<TLINK id="TL223" fromID="E93" fromText="s/p right thoracentesis" toID="T14" toText="2017-09-06" type="OVERLAP" senid="72" />
+<TLINK id="TL224" fromID="E94" fromText="serosanguinous fluid" toID="E92" toText="Pleural effusions" type="OVERLAP" senid="72" />
+<TLINK id="TL225" fromID="E115" fromText="metabolic abnormalities" toID="E114" toText="delerium" type="OVERLAP" senid="85" />
+<TLINK id="TL226" fromID="E115" fromText="metabolic abnormalities" toID="E256" toText="his metabolic process" type="OVERLAP" senid="85" />
+<TLINK id="TL227" fromID="E209" fromText="an adequate response" toID="E21" toText="IVF" type="OVERLAP" senid="33" />
+<TLINK id="TL228" fromID="E26" fromText="volume overloaded" toID="E29" toText="volume overloaded" type="OVERLAP" senid="37" />
+<TLINK id="TL229" fromID="E214" fromText="improvement" toID="E27" toText="his oxygen requirement" type="OVERLAP" senid="37" />
+<TLINK id="TL230" fromID="E254" fromText="glycemic control" toID="E104" toText="Glargine" type="OVERLAP" senid="77" />
+<TLINK id="TL231" fromID="E105" fromText="an insulin sliding scale" toID="E104" toText="Glargine" type="OVERLAP" senid="77" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

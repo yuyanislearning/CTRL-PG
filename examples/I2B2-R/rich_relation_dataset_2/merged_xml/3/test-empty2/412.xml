@@ -175,5 +175,97 @@ The patient was continued on Synthroid for her chronic hypothyroidism .
 <TIMEX3 id="T3" start="539" end="549" text="2015-07-10" type="DATE" val="2015-07-10" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2015-07-12" type="ADMISSION" dvalue="2015-07-12" />
 <SECTIME id="S1" start="46" end="56" text="2015-07-19" type="DISCHARGE" dvalue="2015-07-19" />
+<TLINK id="TL1" fromID="T5" fromText="two days" toID="E70" toText="extubated" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="T4" fromText="the next two days" toID="E91" toText="admission" type="AFTER" senid="23" />
+<TLINK id="TL3" fromID="T5" fromText="two days" toID="E93" toText="transferred" type="AFTER" senid="23" />
+<TLINK id="TL4" fromID="E92" fromText="gradually weaned" toID="T4" toText="the next two days" type="OVERLAP" senid="23" />
+<TLINK id="TL5" fromID="E6" fromText="a right lower lobe pneumonia" toID="E7" toText="chest x-ray" type="BEFORE" senid="13" />
+<TLINK id="TL6" fromID="E8" fromText="increasing respiratory distress" toID="E4" toText="Rocephin" type="BEFORE" senid="13" />
+<TLINK id="TL7" fromID="E4" fromText="Rocephin" toID="E7" toText="chest x-ray" type="OVERLAP" senid="13" />
+<TLINK id="TL8" fromID="E5" fromText="Levaquin" toID="E4" toText="Rocephin" type="OVERLAP" senid="13" />
+<TLINK id="TL9" fromID="E7" fromText="chest x-ray" toID="E85" toText="the hospital" type="OVERLAP" senid="13" />
+<TLINK id="TL10" fromID="E96" fromText="a persistent fairly severe cough" toID="E22" toText="face mask" type="OVERLAP" senid="24" />
+<TLINK id="TL11" fromID="E22" fromText="face mask" toID="E21" toText="extubation" type="AFTER" senid="24" />
+<TLINK id="TL12" fromID="E95" fromText="oxygenating well" toID="E22" toText="face mask" type="OVERLAP" senid="24" />
+<TLINK id="TL13" fromID="E13" fromText="community - acquired pneumonia" toID="E12" toText="acute respiratory distress syndrome" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E50" fromText="Transaminitis" toID="E51" toText="mild transaminitis" type="OVERLAP" senid="39" />
+<TLINK id="TL15" fromID="E46" fromText="difficulty coughing" toID="E47" toText="the pain" type="OVERLAP" senid="37" />
+<TLINK id="TL16" fromID="E48" fromText="Tylenol" toID="E43" toText="MS Contin" type="OVERLAP" senid="37" />
+<TLINK id="TL17" fromID="E49" fromText="ibuprofen" toID="E43" toText="MS Contin" type="AFTER" senid="37" />
+<TLINK id="TL18" fromID="E110" fromText="low" toID="E61" toText="B12" type="BEFORE" senid="46" />
+<TLINK id="TL19" fromID="E62" fromText="IM B12" toID="E61" toText="B12" type="AFTER" senid="46" />
+<TLINK id="TL20" fromID="E63" fromText="iron supplementation" toID="E56" toText="Iron studies" type="AFTER" senid="46" />
+<TLINK id="TL21" fromID="E55" fromText="inadequate production" toID="E54" toText="The patient &#39;s reticulocyte count" type="OVERLAP" senid="44" />
+<TLINK id="TL22" fromID="E53" fromText="Anemia" toID="E59" toText="iron-deficiency anemia" type="OVERLAP" senid="44" />
+<TLINK id="TL23" fromID="E54" fromText="The patient &#39;s reticulocyte count" toID="E108" toText="showed" type="OVERLAP" senid="44" />
+<TLINK id="TL24" fromID="E56" fromText="Iron studies" toID="E54" toText="The patient &#39;s reticulocyte count" type="OVERLAP" senid="44" />
+<TLINK id="TL25" fromID="E84" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="E67" toText="admitted" type="AFTER" senid="12" />
+<TLINK id="TL26" fromID="E67" fromText="admitted" toID="T3" toText="2015-07-10" type="OVERLAP" senid="12" />
+<TLINK id="TL27" fromID="E85" fromText="the hospital" toID="E84" toText="Shaugnessy-Kaplan Rehab Hospital" type="OVERLAP" senid="12" />
+<TLINK id="TL28" fromID="E14" fromText="a ventilator" toID="E70" toText="extubated" type="BEFORE" senid="22" />
+<TLINK id="TL29" fromID="E16" fromText="her pneumonia" toID="E15" toText="antibiotic coverage" type="OVERLAP" senid="22" />
+<TLINK id="TL30" fromID="E15" fromText="antibiotic coverage" toID="E17" toText="Levaquin" type="BEFORE" senid="22" />
+<TLINK id="TL31" fromID="E18" fromText="ceftriaxone" toID="E15" toText="antibiotic coverage" type="AFTER" senid="22" />
+<TLINK id="TL32" fromID="E19" fromText="vancomycin" toID="E15" toText="antibiotic coverage" type="AFTER" senid="22" />
+<TLINK id="TL33" fromID="E20" fromText="the patient &#39;s vent settings" toID="E14" toText="a ventilator" type="OVERLAP" senid="22" />
+<TLINK id="TL34" fromID="E57" fromText="decreased iron" toID="E56" toText="Iron studies" type="OVERLAP" senid="45" />
+<TLINK id="TL35" fromID="E58" fromText="decreased iron to TIBC ratio" toID="E56" toText="Iron studies" type="OVERLAP" senid="45" />
+<TLINK id="TL36" fromID="E109" fromText="showed" toID="E56" toText="Iron studies" type="OVERLAP" senid="45" />
+<TLINK id="TL37" fromID="E60" fromText="high MCV" toID="E56" toText="Iron studies" type="BEFORE" senid="45" />
+<TLINK id="TL38" fromID="E61" fromText="B12" toID="E56" toText="Iron studies" type="OVERLAP" senid="45" />
+<TLINK id="TL39" fromID="E45" fromText="breakthrough pain" toID="E44" toText="oxycodone" type="BEFORE" senid="36" />
+<TLINK id="TL40" fromID="E43" fromText="MS Contin" toID="E44" toText="oxycodone" type="OVERLAP" senid="36" />
+<TLINK id="TL41" fromID="E105" fromText="helped" toID="E43" toText="MS Contin" type="OVERLAP" senid="36" />
+<TLINK id="TL42" fromID="E47" fromText="the pain" toID="E104" toText="fairly significant abdominal pain" type="OVERLAP" senid="36" />
+<TLINK id="TL43" fromID="E2" fromText="treatment" toID="E1" toText="a Z-Pak" type="OVERLAP" senid="10" />
+<TLINK id="TL44" fromID="E3" fromText="albuterol" toID="E1" toText="a Z-Pak" type="OVERLAP" senid="10" />
+<TLINK id="TL45" fromID="E104" fromText="fairly significant abdominal pain" toID="E43" toText="MS Contin" type="BEFORE" senid="35" />
+<TLINK id="TL46" fromID="E41" fromText="Pain control" toID="E44" toText="oxycodone" type="BEFORE" senid="35" />
+<TLINK id="TL47" fromID="E45" fromText="breakthrough pain" toID="E104" toText="fairly significant abdominal pain" type="OVERLAP" senid="35" />
+<TLINK id="TL48" fromID="E31" fromText="the triple antibiotics" toID="E35" toText="the antibiotics" type="OVERLAP" senid="29" />
+<TLINK id="TL49" fromID="E32" fromText="round-the-clock Atrovent" toID="E33" toText="albuterol nebulizers" type="OVERLAP" senid="29" />
+<TLINK id="TL50" fromID="E74" fromText="Discharge" toID="T2" toText="2015-07-19" type="OVERLAP" senid="3" />
+<TLINK id="TL51" fromID="E69" fromText="transferred" toID="E68" toText="intubated" type="AFTER" senid="17" />
+<TLINK id="TL52" fromID="E89" fromText="Hahnemann General Hospital CMED" toID="E69" toText="transferred" type="AFTER" senid="17" />
+<TLINK id="TL53" fromID="E29" fromText="identified bacterial pathogen" toID="E30" toText="any cultures" type="OVERLAP" senid="28" />
+<TLINK id="TL54" fromID="E31" fromText="the triple antibiotics" toID="T6" toText="first several days" type="OVERLAP" senid="28" />
+<TLINK id="TL55" fromID="E0" fromText="Admission" toID="T1" toText="2015-07-12" type="OVERLAP" senid="2" />
+<TLINK id="TL56" fromID="E107" fromText="returns back to normal" toID="E106" toText="followed" type="AFTER" senid="42" />
+<TLINK id="TL57" fromID="E76" fromText="Shaugnessy-Kaplan Rehab Hospital" toID="E75" toText="transferred" type="BEFORE" senid="8" />
+<TLINK id="TL58" fromID="E26" fromText="repeated coughing" toID="E25" toText="abdominal muscle pain" type="OVERLAP" senid="25" />
+<TLINK id="TL59" fromID="E23" fromText="her cough" toID="E24" toText="weak" type="OVERLAP" senid="25" />
+<TLINK id="TL60" fromID="E23" fromText="her cough" toID="E26" toText="repeated coughing" type="OVERLAP" senid="25" />
+<TLINK id="TL61" fromID="E25" fromText="abdominal muscle pain" toID="E24" toText="weak" type="OVERLAP" senid="25" />
+<TLINK id="TL62" fromID="E26" fromText="repeated coughing" toID="E96" toText="a persistent fairly severe cough" type="OVERLAP" senid="25" />
+<TLINK id="TL63" fromID="E26" fromText="repeated coughing" toID="E27" toText="The cough" type="OVERLAP" senid="25" />
+<TLINK id="TL64" fromID="E51" fromText="mild transaminitis" toID="E72" toText="admission" type="BEFORE" senid="40" />
+<TLINK id="TL65" fromID="E36" fromText="The vancomycin" toID="T7" toText="four days" type="BEFORE" senid="31" />
+<TLINK id="TL66" fromID="E37" fromText="Levaquin" toID="T7" toText="four days" type="AFTER" senid="31" />
+<TLINK id="TL67" fromID="E37" fromText="Levaquin" toID="E39" toText="Levaquin" type="OVERLAP" senid="31" />
+<TLINK id="TL68" fromID="T8" fromText="four days" toID="T7" toText="four days" type="OVERLAP" senid="31" />
+<TLINK id="TL69" fromID="E102" fromText="the hospital" toID="E101" toText="the hospital" type="OVERLAP" senid="31" />
+<TLINK id="TL70" fromID="E13" fromText="community - acquired pneumonia" toID="E16" toText="her pneumonia" type="OVERLAP" senid="21" />
+<TLINK id="TL71" fromID="E90" fromText="ventilated" toID="E14" toText="a ventilator" type="OVERLAP" senid="21" />
+<TLINK id="TL72" fromID="E99" fromText="the ICU" toID="E71" toText="transferred" type="BEFORE" senid="30" />
+<TLINK id="TL73" fromID="E71" fromText="transferred" toID="E34" toText="extubation" type="AFTER" senid="30" />
+<TLINK id="TL74" fromID="E100" fromText="gradually narrowed" toID="E34" toText="extubation" type="AFTER" senid="30" />
+<TLINK id="TL75" fromID="E82" fromText="continued to worsen" toID="E67" toText="admitted" type="BEFORE" senid="11" />
+<TLINK id="TL76" fromID="E83" fromText="febrile" toID="E67" toText="admitted" type="BEFORE" senid="11" />
+<TLINK id="TL77" fromID="E9" fromText="hypoxia" toID="E8" toText="increasing respiratory distress" type="OVERLAP" senid="14" />
+<TLINK id="TL78" fromID="E10" fromText="significantly tachypneic" toID="E9" toText="hypoxia" type="OVERLAP" senid="14" />
+<TLINK id="TL79" fromID="E87" fromText="bilateral diffuse infiltrates" toID="E11" toText="repeat chest x-ray" type="BEFORE" senid="16" />
+<TLINK id="TL80" fromID="E68" fromText="intubated" toID="E11" toText="repeat chest x-ray" type="AFTER" senid="16" />
+<TLINK id="TL81" fromID="E86" fromText="showed" toID="E11" toText="repeat chest x-ray" type="OVERLAP" senid="16" />
+<TLINK id="TL82" fromID="E88" fromText="ARDS" toID="E87" toText="bilateral diffuse infiltrates" type="OVERLAP" senid="16" />
+<TLINK id="TL83" fromID="E64" fromText="Hypothyroidism" toID="E66" toText="her chronic hypothyroidism" type="OVERLAP" senid="48" />
+<TLINK id="TL84" fromID="E65" fromText="Synthroid" toID="E64" toText="Hypothyroidism" type="AFTER" senid="48" />
+<TLINK id="TL85" fromID="E103" fromText="gradual improvement" toID="E40" toText="her oxygenation" type="OVERLAP" senid="33" />
+<TLINK id="TL86" fromID="E79" fromText="increasing cough" toID="E77" toText="presented" type="BEFORE" senid="9" />
+<TLINK id="TL87" fromID="E80" fromText="dyspnea" toID="E77" toText="presented" type="BEFORE" senid="9" />
+<TLINK id="TL88" fromID="E81" fromText="fatigue" toID="E77" toText="presented" type="BEFORE" senid="9" />
+<TLINK id="TL89" fromID="T0" fromText="one week" toID="E77" toText="presented" type="OVERLAP" senid="9" />
+<TLINK id="TL90" fromID="E1" fromText="a Z-Pak" toID="E77" toText="presented" type="AFTER" senid="9" />
+<TLINK id="TL91" fromID="E27" fromText="The cough" toID="E28" toText="mostly nonproductive" type="OVERLAP" senid="26" />
+<TLINK id="TL92" fromID="E38" fromText="The ceftriaxone" toID="T8" toText="four days" type="BEFORE" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

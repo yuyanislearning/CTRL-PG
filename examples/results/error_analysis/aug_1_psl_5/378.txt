@@ -1,0 +1,76 @@
+e1 id: E96; e2 id: T11; e1 text: discharged; e2 text: this time
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T6; e2 id: T5; e1 text: a week; e2 text: now
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E19; e2 id: E18; e1 text: unable to move the left hand; e2 text: progressive left upper extremity weakness
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E43; e2 id: E38; e1 text: MRI / MRA; e2 text: A computerized tomography scan
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E95; e2 id: T11; e1 text: a good rehab potential; e2 text: this time
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T11; e2 id: E87; e1 text: this time; e2 text: transferred
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E89; e2 id: E90; e1 text: any significant benefit; e2 text: hypertensive therapy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E60; e2 id: E61; e1 text: Neo-Synephrinewas; e2 text: tapered
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E65; e2 id: E66; e1 text: his Intensive Care Unit stay; e2 text: a right gaze preference
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E62; e2 id: E61; e1 text: sensory findings; e2 text: tapered
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E71; e2 id: E72; e1 text: the management of po intake; e2 text: gradually improved
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E70; e2 id: E68; e1 text: speech and swallowing service; e2 text: a field deficit
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E29; e2 id: E28; e1 text: right siphon disease; e2 text: hemodynamic changes
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E98; e2 id: E99; e1 text: Coumadin; e2 text: an INR
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E104; e2 id: E107; e1 text: Heparin; e2 text: therapeutic
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E106; e2 id: E107; e1 text: the Coumadin; e2 text: therapeutic
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T13; e2 id: T12; e1 text: daily; e2 text: today
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E98; e2 id: T12; e1 text: Coumadin; e2 text: today
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E108; e2 id: T21; e1 text: Tylenol; e2 text: q4
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E109; e2 id: E108; e1 text: Colace; e2 text: Tylenol
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E85; e2 id: E84; e1 text: a perfusion , diffusion MR study; e2 text: DWI images
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E5; e2 id: E9; e1 text: C-spine surgery; e2 text: residual spastic paresis
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E6; e2 id: E5; e1 text: spinal stenosis; e2 text: C-spine surgery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E54; e2 id: E56; e1 text: Neo-Synephrine; e2 text: mean arterial pressures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E76; e2 id: E77; e1 text: a severe headache; e2 text: the pressor
+ground truth: BEFORE; prediction: OVERLAP
+

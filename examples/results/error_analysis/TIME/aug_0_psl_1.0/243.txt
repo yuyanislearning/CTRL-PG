@@ -1,0 +1,45 @@
+e1 id: E37; e2 id: E36; e1 text: sigmoid angulation; e2 text: conventional and CT virtual colonoscopy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E38; e2 id: E36; e1 text: inadequate preparation; e2 text: conventional and CT virtual colonoscopy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: E13; e1 text: Cscope; e2 text: Tagged RBC
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E11; e2 id: E10; e1 text: blood; e2 text: Cscope
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: T0; e1 text: feeling well; e2 text: 2015-12-03
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E24; e2 id: T0; e1 text: abd pain; e2 text: 2015-12-03
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E25; e2 id: T0; e1 text: N/V; e2 text: 2015-12-03
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E26; e2 id: T0; e1 text: LH; e2 text: 2015-12-03
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E27; e2 id: T0; e1 text: SOB; e2 text: 2015-12-03
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E28; e2 id: T0; e1 text: CP; e2 text: 2015-12-03
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E48; e2 id: E49; e1 text: a repeat outpatient CT colonoscopy; e2 text: better preparation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: T0; e1 text: Transferred; e2 text: 2015-12-03
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E5; e2 id: E6; e1 text: BRBPR; e2 text: OSH
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E3; e2 id: E4; e1 text: cystectomy; e2 text: ileal conduit
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E20; e2 id: T0; e1 text: Seen; e2 text: 2015-12-03
+ground truth: AFTER; prediction: BEFORE
+

@@ -15,19 +15,17 @@ class evaluation:
 		self.dev = dev
 		self.xml_folder = xml_folder
 
-	def eval(self, preds, event_ids):
+	def eval(self, preds, event_ids, sen_ids):
 
 		# read the corresponding xml file without tlinks
 		xml_file = os.path.join(self.xml_folder, str(self.document_id)+'.xml')
 		#print(xml_file) #document, _ = tidy_document(xml_file.read(), {"input_xml": True})
-		print(xml_file)
-		#text=open(xml_file).read()
-		#text=re.sub(u"[\x00-\x08\x0b-\x0c\x0e-\x1f]+",u"",text)
-		#parser = ET.XMLParser(encoding="utf-8")
-		#tree = ET.fromstring(xmlstring, parser=parser)
-		with open(xml_file, 'r') as fxml_file:
-			tree = ET.parse(fxml_file)
-			root = tree.getroot()
+		#print(xml_file)
+		text=open(xml_file).read()
+		text=re.sub(u"[\x00-\x08\x0b-\x0c\x0e-\x1f]+",u"",text)
+		text=re.sub('&', ' ', text)
+		#print(text)
+		root = ET.fromstring(text)
 		self.parseTags(root[1])
 
 		# et = ET.parse(xml_file)
@@ -52,13 +50,13 @@ class evaluation:
 			elif "</TAGS>" not in line:# and "<TLINK" not in line:
 				writefile.write(line)
 			else:
-				for i,([id1, id2], label) in enumerate(zip(event_ids, preds)):
+				for i,([id1, id2], label, sen_id) in enumerate(zip(event_ids, preds, sen_ids)):
 
 					#label = label_dict[label_ids]
 					event1 = (self.events[id1] if "E" in id1 else self.timex3[id1]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 					event2 = (self.events[id2] if "E" in id2 else self.timex3[id2]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 
-					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" />'.format(str(i), id1, event1, id2, event2, label.upper()) + '\n')
+					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" senid="{}" />'.format(str(i+1), id1, event1, id2, event2, label.upper(), sen_id[1]) + '\n')
 				writefile.write(line)
 		writefile.close()
 		

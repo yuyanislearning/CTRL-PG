@@ -1,0 +1,120 @@
+e1 id: E79; e2 id: T8; e1 text: hospitalised; e2 text: 03-04
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E22; e2 id: E79; e1 text: abdominal discomfort; e2 text: hospitalised
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E25; e2 id: E23; e1 text: her abdominal pain; e2 text: paracentesis
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E79; e2 id: T7; e1 text: hospitalised; e2 text: 02-23
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E22; e2 id: E25; e1 text: abdominal discomfort; e2 text: her abdominal pain
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E24; e2 id: E23; e1 text: SBP; e2 text: paracentesis
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E133; e2 id: E17; e1 text: improved; e2 text: temp
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in BOB
+
+e1 id: E13; e2 id: E12; e1 text: NS; e2 text: decreased
+ground truth: BEFORE; prediction: AFTER
+This relation involves in BBB
+
+e1 id: E13; e2 id: E131; e1 text: NS; e2 text: improved
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E130; e2 id: E11; e1 text: noted; e2 text: Her BP
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E12; e2 id: E11; e1 text: decreased; e2 text: Her BP
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E11; e2 id: E10; e1 text: Her BP; e2 text: PRBC s.
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E163; e2 id: E162; e1 text: a transplant candidate; e2 text: very poor
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E91; e2 id: E90; e1 text: decision; e2 text: A family meeting
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E119; e2 id: E118; e1 text: non-bloody ascitic fluid; e2 text: the tap
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E115; e2 id: E116; e1 text: decreased; e2 text: her INR
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E21; e2 id: E193; e1 text: Creatinine; e2 text: Creatinine
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E161; e2 id: E90; e1 text: explained; e2 text: A family meeting
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E36; e2 id: E35; e1 text: Enterococcus; e2 text: amoxicillin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E8; e1 text: plts; e2 text: plts
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E7; e2 id: T4; e1 text: a hct; e2 text: the am
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E62; e2 id: E96; e1 text: ARF; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E97; e2 id: E96; e1 text: admission; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E63; e2 id: E183; e1 text: Creatinine; e2 text: increased
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E53; e2 id: E49; e1 text: pressors; e2 text: hypotensive
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E52; e2 id: E170; e1 text: the large volume tap; e2 text: sepsis
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E31; e2 id: E149; e1 text: cryoglobulins; e2 text: DIC
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T9; e2 id: E32; e1 text: 7 day; e2 text: UTI
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E105; e2 id: E76; e1 text: increasing abdominal girth; e2 text: liver clinic
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E103; e2 id: E102; e1 text: encephalopathy; e2 text: HCV cirrhosis
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E104; e2 id: E102; e1 text: ascites; e2 text: HCV cirrhosis
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E145; e2 id: T8; e1 text: discharge; e2 text: 03-04
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E114; e2 id: E6; e1 text: FFP; e2 text: her INR
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E148; e2 id: E147; e1 text: hepatorenal ssyndrome; e2 text: albumin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E127; e2 id: E126; e1 text: abd pain; e2 text: complained
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E108; e2 id: E106; e1 text: abd pain; e2 text: described
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E140; e2 id: E138; e1 text: Furosemide; e2 text: maintains
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E41; e2 id: E87; e1 text: hypotension; e2 text: the ICU
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E87; e1 text: confusion; e2 text: the ICU
+ground truth: BEFORE; prediction: OVERLAP
+

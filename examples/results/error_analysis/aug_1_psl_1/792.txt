@@ -1,0 +1,66 @@
+e1 id: E19; e2 id: E21; e1 text: her paraplegia; e2 text: her Zanaflex
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E68; e2 id: E66; e1 text: mentating well; e2 text: transferred
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E69; e2 id: E66; e1 text: stable; e2 text: transferred
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E57; e2 id: E59; e1 text: hypotensive; e2 text: a normal saline bolus
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E60; e2 id: E59; e1 text: her blood pressure; e2 text: a normal saline bolus
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E38; e2 id: E39; e1 text: sick contacts.; e2 text: reports
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E15; e2 id: E16; e1 text: her chronic diarrhea; e2 text: intravenous fluids
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T6; e2 id: E36; e1 text: three days; e2 text: presented
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E86; e2 id: E77; e1 text: her diet; e2 text: advance
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E80; e2 id: E86; e1 text: liquids; e2 text: her diet
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E55; e2 id: E53; e1 text: consolidation; e2 text: Chest CT scan
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E54; e2 id: E53; e1 text: pulmonary embolism; e2 text: Chest CT scan
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E1; e2 id: E2; e1 text: slurred speech; e2 text: dehydrated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E24; e2 id: E25; e1 text: gastrointestinal prophylaxis; e2 text: Protonix
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E85; e2 id: E84; e1 text: the following medications; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: E13; e1 text: pneumonia; e2 text: Levofloxacin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E15; e2 id: E71; e1 text: her chronic diarrhea; e2 text: transfer
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E30; e2 id: E31; e1 text: the patient &#39;s Coumadin; e2 text: her positive lupus anti-coagulant
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E11; e2 id: E37; e1 text: nausea; e2 text: awoke
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E41; e2 id: T3; e1 text: the Emergency Department; e2 text: the 2011-03-10
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E74; e2 id: E73; e1 text: home; e2 text: transfer
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E4; e2 id: T0; e1 text: HTLV exposure; e2 text: six years ago
+ground truth: OVERLAP; prediction: AFTER
+

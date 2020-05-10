@@ -106,5 +106,82 @@ Iron 300 mg p.o. t.i.d. , Glucotrol , Acel 10 mg p.o. q.d. , and Bactrim SS 1 ta
 <TIMEX3 id="T7" start="791" end="798" text="the day" type="DATE" val="1999-07-02" mod="NA" />
 <TIMEX3 id="T2" start="962" end="977" text="this after noon" type="DATE" val="1999-07-03" mod="MIDDLE" />
 <SECTIME id="S0" start="18" end="28" text="07/03/1999" type="ADMISSION" dvalue="1999-07-03" />
+<TLINK id="TL1" fromID="E22" fromText="Head CT" toID="E25" toText="discharge" type="BEFORE" senid="23" />
+<TLINK id="TL2" fromID="E10" fromText="occasionally constipated" toID="E39" toText="states" type="BEFORE" senid="13" />
+<TLINK id="TL3" fromID="E39" fromText="states" toID="E40" toText="denies" type="OVERLAP" senid="13" />
+<TLINK id="TL4" fromID="E25" fromText="discharge" toID="E26" toText="discharged" type="OVERLAP" senid="24" />
+<TLINK id="TL5" fromID="E51" fromText="follow-up" toID="E52" toText="the Petersly Hospital And Medical Center" type="OVERLAP" senid="24" />
+<TLINK id="TL6" fromID="E53" fromText="further treatment" toID="E51" toText="follow-up" type="OVERLAP" senid="24" />
+<TLINK id="TL7" fromID="E18" fromText="packed red blood cells" toID="E62" toText="rose" type="BEFORE" senid="20" />
+<TLINK id="TL8" fromID="E19" fromText="the hematocrit" toID="E18" toText="packed red blood cells" type="AFTER" senid="20" />
+<TLINK id="TL9" fromID="E19" fromText="the hematocrit" toID="T8" toText="the following day" type="OVERLAP" senid="20" />
+<TLINK id="TL10" fromID="E62" fromText="rose" toID="T8" toText="the following day" type="OVERLAP" senid="20" />
+<TLINK id="TL11" fromID="E17" fromText="Hematocrit" toID="E18" toText="packed red blood cells" type="OVERLAP" senid="19" />
+<TLINK id="TL12" fromID="E19" fromText="the hematocrit" toID="E17" toText="Hematocrit" type="OVERLAP" senid="19" />
+<TLINK id="TL13" fromID="E17" fromText="Hematocrit" toID="E50" toText="the Emergency Department" type="OVERLAP" senid="19" />
+<TLINK id="TL14" fromID="E18" fromText="packed red blood cells" toID="E50" toText="the Emergency Department" type="OVERLAP" senid="19" />
+<TLINK id="TL15" fromID="E15" fromText="primary colorectal adenocarcinoma" toID="E14" toText="Abdominal CT" type="BEFORE" senid="18" />
+<TLINK id="TL16" fromID="E16" fromText="multiple liver metastases" toID="E14" toText="Abdominal CT" type="BEFORE" senid="18" />
+<TLINK id="TL17" fromID="E14" fromText="Abdominal CT" toID="E48" toText="the Emergency Department" type="OVERLAP" senid="18" />
+<TLINK id="TL18" fromID="E14" fromText="Abdominal CT" toID="E49" toText="revealed" type="OVERLAP" senid="18" />
+<TLINK id="TL19" fromID="E48" fromText="the Emergency Department" toID="E50" toText="the Emergency Department" type="OVERLAP" senid="18" />
+<TLINK id="TL20" fromID="E15" fromText="primary colorectal adenocarcinoma" toID="E16" toText="multiple liver metastases" type="OVERLAP" senid="18" />
+<TLINK id="TL21" fromID="E6" fromText="melena" toID="E38" toText="denies" type="BEFORE" senid="12" />
+<TLINK id="TL22" fromID="E7" fromText="hematochezia" toID="E38" toText="denies" type="BEFORE" senid="12" />
+<TLINK id="TL23" fromID="E8" fromText="nausea" toID="E38" toText="denies" type="BEFORE" senid="12" />
+<TLINK id="TL24" fromID="E9" fromText="abdominal pain" toID="E38" toText="denies" type="BEFORE" senid="12" />
+<TLINK id="TL25" fromID="E38" fromText="denies" toID="E39" toText="states" type="OVERLAP" senid="12" />
+<TLINK id="TL26" fromID="E6" fromText="melena" toID="E7" toText="hematochezia" type="OVERLAP" senid="12" />
+<TLINK id="TL27" fromID="E7" fromText="hematochezia" toID="E8" toText="nausea" type="OVERLAP" senid="12" />
+<TLINK id="TL28" fromID="E8" fromText="nausea" toID="E9" toText="abdominal pain" type="OVERLAP" senid="12" />
+<TLINK id="TL29" fromID="E20" fromText="Biopsy" toID="E21" toText="colonoscopy" type="OVERLAP" senid="22" />
+<TLINK id="TL30" fromID="E21" fromText="colonoscopy" toID="T3" toText="7/5/99" type="OVERLAP" senid="22" />
+<TLINK id="TL31" fromID="E21" fromText="colonoscopy" toID="E22" toText="Head CT" type="OVERLAP" senid="22" />
+<TLINK id="TL32" fromID="E4" fromText="personality changes" toID="E35" toText="noted" type="BEFORE" senid="10" />
+<TLINK id="TL33" fromID="E4" fromText="personality changes" toID="E36" toText="increased irritability" type="OVERLAP" senid="10" />
+<TLINK id="TL34" fromID="E37" fromText="denies" toID="E35" toText="noted" type="OVERLAP" senid="10" />
+<TLINK id="TL35" fromID="E47" fromText="painless jaundice" toID="E45" toText="presented" type="BEFORE" senid="17" />
+<TLINK id="TL36" fromID="E12" fromText="weight loss" toID="E45" toText="presented" type="BEFORE" senid="17" />
+<TLINK id="TL37" fromID="E13" fromText="fatigue" toID="E45" toText="presented" type="BEFORE" senid="17" />
+<TLINK id="TL38" fromID="E46" fromText="the Emergency Department" toID="E45" toText="presented" type="AFTER" senid="17" />
+<TLINK id="TL39" fromID="E46" fromText="the Emergency Department" toID="E48" toText="the Emergency Department" type="OVERLAP" senid="17" />
+<TLINK id="TL40" fromID="E1" fromText="painless jaundice" toID="E27" toText="presents" type="BEFORE" senid="6" />
+<TLINK id="TL41" fromID="E24" fromText="excellent health" toID="E1" toText="painless jaundice" type="BEFORE" senid="6" />
+<TLINK id="TL42" fromID="E1" fromText="painless jaundice" toID="T0" toText="x1 day" type="OVERLAP" senid="6" />
+<TLINK id="TL43" fromID="E29" fromText="presented" toID="E27" toText="presents" type="OVERLAP" senid="6" />
+<TLINK id="TL44" fromID="E30" fromText="painless jaundice" toID="E1" toText="painless jaundice" type="OVERLAP" senid="6" />
+<TLINK id="TL45" fromID="T7" fromText="the day" toID="E61" toText="admission" type="BEFORE" senid="15" />
+<TLINK id="TL46" fromID="E42" fromText="yellow" toID="E43" toText="presented" type="BEFORE" senid="15" />
+<TLINK id="TL47" fromID="E42" fromText="yellow" toID="T7" toText="the day" type="OVERLAP" senid="15" />
+<TLINK id="TL48" fromID="E44" fromText="the Lorough Medical Center  apos;s Emergency Department" toID="T2" toText="this after noon" type="AFTER" senid="15" />
+<TLINK id="TL49" fromID="E61" fromText="admission" toID="E43" toText="presented" type="BEFORE" senid="15" />
+<TLINK id="TL50" fromID="E41" fromText="noted" toID="T7" toText="the day" type="OVERLAP" senid="15" />
+<TLINK id="TL51" fromID="E43" fromText="presented" toID="T2" toText="this after noon" type="OVERLAP" senid="15" />
+<TLINK id="TL52" fromID="E0" fromText="Admission" toID="T1" toText="07/03/1999" type="OVERLAP" senid="2" />
+<TLINK id="TL53" fromID="E2" fromText="a 23 pound weight loss" toID="E31" toText="noted" type="BEFORE" senid="8" />
+<TLINK id="TL54" fromID="E2" fromText="a 23 pound weight loss" toID="T5" toText="the past 11 months" type="OVERLAP" senid="8" />
+<TLINK id="TL55" fromID="E2" fromText="a 23 pound weight loss" toID="E3" toText="an increased appetite" type="OVERLAP" senid="8" />
+<TLINK id="TL56" fromID="E54" fromText="stable" toID="E55" toText="discharged" type="BEFORE" senid="25" />
+<TLINK id="TL57" fromID="E56" fromText="the following medications" toID="E55" toText="discharged" type="OVERLAP" senid="25" />
+<TLINK id="TL58" fromID="E5" fromText="night sweats" toID="E37" toText="denies" type="BEFORE" senid="11" />
+<TLINK id="TL59" fromID="E5" fromText="night sweats" toID="T6" toText="the past month" type="OVERLAP" senid="11" />
+<TLINK id="TL60" fromID="E38" fromText="denies" toID="E37" toText="denies" type="OVERLAP" senid="11" />
+<TLINK id="TL61" fromID="E11" fromText="tenesmus" toID="E40" toText="denies" type="BEFORE" senid="14" />
+<TLINK id="TL62" fromID="E43" fromText="presented" toID="E45" toText="presented" type="OVERLAP" senid="16" />
+<TLINK id="TL63" fromID="E44" fromText="the Lorough Medical Center  apos;s Emergency Department" toID="E46" toText="the Emergency Department" type="OVERLAP" senid="16" />
+<TLINK id="TL64" fromID="E33" fromText="fatigue" toID="E32" toText="complained" type="BEFORE" senid="9" />
+<TLINK id="TL65" fromID="E32" fromText="complained" toID="E35" toText="noted" type="OVERLAP" senid="9" />
+<TLINK id="TL66" fromID="E33" fromText="fatigue" toID="E34" toText=" quot; feeling down  quot;" type="OVERLAP" senid="9" />
+<TLINK id="TL67" fromID="E35" fromText="noted" toID="E32" toText="complained" type="OVERLAP" senid="9" />
+<TLINK id="TL68" fromID="E56" fromText="the following medications" toID="E57" toText="Iron" type="OVERLAP" senid="26" />
+<TLINK id="TL69" fromID="E56" fromText="the following medications" toID="E58" toText="Glucotrol" type="OVERLAP" senid="26" />
+<TLINK id="TL70" fromID="E56" fromText="the following medications" toID="E59" toText="Acel" type="OVERLAP" senid="26" />
+<TLINK id="TL71" fromID="E56" fromText="the following medications" toID="E60" toText="Bactrim SS" type="OVERLAP" senid="26" />
+<TLINK id="TL72" fromID="E57" fromText="Iron" toID="T9" toText="t.i.d." type="OVERLAP" senid="26" />
+<TLINK id="TL73" fromID="E59" fromText="Acel" toID="T10" toText="q.d." type="OVERLAP" senid="26" />
+<TLINK id="TL74" fromID="E60" fromText="Bactrim SS" toID="T11" toText="b.i.d." type="OVERLAP" senid="26" />
+<TLINK id="TL75" fromID="E28" fromText="noninsulin dependent diabetes mellitus" toID="E29" toText="presented" type="BEFORE" senid="7" />
+<TLINK id="TL76" fromID="E24" fromText="excellent health" toID="E28" toText="noninsulin dependent diabetes mellitus" type="AFTER" senid="7" />
+<TLINK id="TL77" fromID="E30" fromText="painless jaundice" toID="T4" toText="x2 days" type="OVERLAP" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

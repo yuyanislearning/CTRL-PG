@@ -163,5 +163,120 @@ On 2010-07-01 , the patient was discharged from the hospital with instructions f
 <TIMEX3 id="T2" start="46" end="56" text="2010-07-01" type="DATE" val="2010-07-01" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2010-06-28" type="ADMISSION" dvalue="2010-06-28" />
 <SECTIME id="S1" start="46" end="56" text="2010-07-01" type="DISCHARGE" dvalue="2010-07-01" />
+<TLINK id="TL1" fromID="E21" fromText="the scalp and right lower leg lacerations" toID="E79" toText="closed" type="BEFORE" senid="23" />
+<TLINK id="TL2" fromID="E46" fromText="clean , dry , and intact" toID="E81" toText="noted" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E80" fromText="the trauma team" toID="E79" toText="closed" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E80" fromText="the trauma team" toID="E50" toText="admission" type="OVERLAP" senid="23" />
+<TLINK id="TL5" fromID="T7" fromText="hospital day #1" toID="E50" toText="admission" type="OVERLAP" senid="23" />
+<TLINK id="TL6" fromID="E81" fromText="noted" toID="T7" toText="hospital day #1" type="OVERLAP" senid="23" />
+<TLINK id="TL7" fromID="E22" fromText="Nonoperative treatment" toID="T7" toText="hospital day #1" type="OVERLAP" senid="23" />
+<TLINK id="TL8" fromID="E38" fromText="The patient &#39;s right anterior tibial wound" toID="E103" toText="noted" type="BEFORE" senid="34" />
+<TLINK id="TL9" fromID="E104" fromText="clean , dry , and intact" toID="E103" toText="noted" type="OVERLAP" senid="34" />
+<TLINK id="TL10" fromID="E39" fromText="sutures" toID="E104" toText="clean , dry , and intact" type="OVERLAP" senid="34" />
+<TLINK id="TL11" fromID="E105" fromText="erythema" toID="E39" toText="sutures" type="OVERLAP" senid="34" />
+<TLINK id="TL12" fromID="E106" fromText="purulence" toID="E105" toText="erythema" type="OVERLAP" senid="34" />
+<TLINK id="TL13" fromID="E107" fromText="noted" toID="E103" toText="noted" type="OVERLAP" senid="34" />
+<TLINK id="TL14" fromID="E65" fromText="the emergency room" toID="E61" toText="the New England Sinai Hospital   Rehab Center Emergency Department" type="OVERLAP" senid="13" />
+<TLINK id="TL15" fromID="E23" fromText="the patient &#39;s left clavicular fracture" toID="E22" toText="Nonoperative treatment" type="BEFORE" senid="24" />
+<TLINK id="TL16" fromID="T9" fromText="2010-06-30" toID="T7" toText="hospital day #1" type="AFTER" senid="24" />
+<TLINK id="TL17" fromID="E16" fromText="her C-spine collar" toID="E70" toText="removal" type="BEFORE" senid="20" />
+<TLINK id="TL18" fromID="E71" fromText="stable" toID="E72" toText="transfer" type="BEFORE" senid="20" />
+<TLINK id="TL19" fromID="E74" fromText="the Orthopedic Service" toID="E72" toText="transfer" type="AFTER" senid="20" />
+<TLINK id="TL20" fromID="E70" fromText="removal" toID="T5" toText="06-28" type="OVERLAP" senid="20" />
+<TLINK id="TL21" fromID="E71" fromText="stable" toID="E70" toText="removal" type="AFTER" senid="20" />
+<TLINK id="TL22" fromID="E75" fromText="remained stable" toID="E71" toText="stable" type="OVERLAP" senid="20" />
+<TLINK id="TL23" fromID="T5" fromText="06-28" toID="T0" toText="2010-06-28" type="OVERLAP" senid="19" />
+<TLINK id="TL24" fromID="E13" fromText="the patient &#39;s right thigh hematoma" toID="E14" toText="a duplex evaluation of the right lower extremity" type="BEFORE" senid="18" />
+<TLINK id="TL25" fromID="E15" fromText="major arterial or venous injury" toID="E69" toText="evidence" type="OVERLAP" senid="18" />
+<TLINK id="TL26" fromID="E14" fromText="a duplex evaluation of the right lower extremity" toID="T0" toText="2010-06-28" type="OVERLAP" senid="18" />
+<TLINK id="TL27" fromID="E68" fromText="demonstrated" toID="E14" toText="a duplex evaluation of the right lower extremity" type="OVERLAP" senid="18" />
+<TLINK id="TL28" fromID="E69" fromText="evidence" toID="E68" toText="demonstrated" type="OVERLAP" senid="18" />
+<TLINK id="TL29" fromID="E60" fromText="EMS" toID="E49" toText="transported" type="OVERLAP" senid="12" />
+<TLINK id="TL30" fromID="E61" fromText="the New England Sinai Hospital   Rehab Center Emergency Department" toID="E49" toText="transported" type="AFTER" senid="12" />
+<TLINK id="TL31" fromID="E49" fromText="transported" toID="E59" toText="immobilized" type="AFTER" senid="12" />
+<TLINK id="TL32" fromID="E3" fromText="further management" toID="E61" toText="the New England Sinai Hospital   Rehab Center Emergency Department" type="OVERLAP" senid="12" />
+<TLINK id="TL33" fromID="E2" fromText="the C-spine collar" toID="E59" toText="immobilized" type="OVERLAP" senid="12" />
+<TLINK id="TL34" fromID="E20" fromText="a postoperative hematocrit" toID="E19" toText="the procedure" type="AFTER" senid="22" />
+<TLINK id="TL35" fromID="E77" fromText="tolerated" toID="E19" toText="the procedure" type="OVERLAP" senid="22" />
+<TLINK id="TL36" fromID="E78" fromText="well" toID="E77" toText="tolerated" type="OVERLAP" senid="22" />
+<TLINK id="TL37" fromID="E42" fromText="activities of daily life" toID="E41" toText="adaptive training" type="OVERLAP" senid="36" />
+<TLINK id="TL38" fromID="E110" fromText="wound care" toID="E42" toText="activities of daily life" type="AFTER" senid="36" />
+<TLINK id="TL39" fromID="E43" fromText="a figure-of-eight clavicular splint" toID="E40" toText="a left upper extremity splint" type="OVERLAP" senid="36" />
+<TLINK id="TL40" fromID="E55" fromText="report" toID="E51" toText="report" type="OVERLAP" senid="10" />
+<TLINK id="TL41" fromID="E57" fromText="awake" toID="E53" toText="curled in the fetal position" type="AFTER" senid="10" />
+<TLINK id="TL42" fromID="E40" fromText="a left upper extremity splint" toID="E109" toText="evaluated" type="AFTER" senid="35" />
+<TLINK id="TL43" fromID="E109" fromText="evaluated" toID="T11" toText="06-30" type="OVERLAP" senid="35" />
+<TLINK id="TL44" fromID="E108" fromText="Occupational Therapy" toID="E109" toText="evaluated" type="OVERLAP" senid="35" />
+<TLINK id="TL45" fromID="E41" fromText="adaptive training" toID="E40" toText="a left upper extremity splint" type="OVERLAP" senid="35" />
+<TLINK id="TL46" fromID="E34" fromText="The left forearm dressing" toID="E93" toText="noted" type="OVERLAP" senid="29" />
+<TLINK id="TL47" fromID="E94" fromText="place , clean , dry , and intact" toID="E93" toText="noted" type="BEFORE" senid="29" />
+<TLINK id="TL48" fromID="E35" fromText="saturation" toID="E94" toText="place , clean , dry , and intact" type="OVERLAP" senid="29" />
+<TLINK id="TL49" fromID="E95" fromText="noted" toID="E93" toText="noted" type="OVERLAP" senid="29" />
+<TLINK id="TL50" fromID="E45" fromText="Discharge" toID="T2" toText="2010-07-01" type="OVERLAP" senid="3" />
+<TLINK id="TL51" fromID="E67" fromText="the Trauma Service" toID="E66" toText="admitted" type="AFTER" senid="17" />
+<TLINK id="TL52" fromID="E11" fromText="right thigh hematoma" toID="E13" toText="the patient &#39;s right thigh hematoma" type="OVERLAP" senid="17" />
+<TLINK id="TL53" fromID="E66" fromText="admitted" toID="T4" toText="2010-06-28" type="OVERLAP" senid="17" />
+<TLINK id="TL54" fromID="E13" fromText="the patient &#39;s right thigh hematoma" toID="E11" toText="right thigh hematoma" type="OVERLAP" senid="17" />
+<TLINK id="TL55" fromID="T0" fromText="2010-06-28" toID="T4" toText="2010-06-28" type="OVERLAP" senid="17" />
+<TLINK id="TL56" fromID="E5" fromText="packed red blood cells" toID="E4" toText="crystalloid" type="OVERLAP" senid="15" />
+<TLINK id="TL57" fromID="E6" fromText="diagnostic procedures" toID="E62" toText="evaluated" type="OVERLAP" senid="15" />
+<TLINK id="TL58" fromID="E28" fromText="continued ecchymosis" toID="E88" toText="noted" type="BEFORE" senid="28" />
+<TLINK id="TL59" fromID="E28" fromText="continued ecchymosis" toID="E29" toText="prior examination" type="AFTER" senid="28" />
+<TLINK id="TL60" fromID="E89" fromText="decreased" toID="E29" toText="prior examination" type="AFTER" senid="28" />
+<TLINK id="TL61" fromID="E92" fromText="decreased" toID="E33" toText="prior examinations" type="AFTER" senid="28" />
+<TLINK id="TL62" fromID="E112" fromText="stepoff" toID="E29" toText="prior examination" type="AFTER" senid="28" />
+<TLINK id="TL63" fromID="E113" fromText="tenderness" toID="E112" toText="stepoff" type="OVERLAP" senid="28" />
+<TLINK id="TL64" fromID="E32" fromText="palpation" toID="E113" toText="tenderness" type="AFTER" senid="28" />
+<TLINK id="TL65" fromID="E33" fromText="prior examinations" toID="E29" toText="prior examination" type="OVERLAP" senid="28" />
+<TLINK id="TL66" fromID="E34" fromText="The left forearm dressing" toID="E92" toText="decreased" type="BEFORE" senid="28" />
+<TLINK id="TL67" fromID="E44" fromText="Admission" toID="T1" toText="2010-06-28" type="OVERLAP" senid="2" />
+<TLINK id="TL68" fromID="E51" fromText="report" toID="T3" toText="2010-06-27" type="OVERLAP" senid="8" />
+<TLINK id="TL69" fromID="E0" fromText="motor vehicle accident" toID="T3" toText="2010-06-27" type="OVERLAP" senid="8" />
+<TLINK id="TL70" fromID="E52" fromText="ejected from the vehicle" toID="E0" toText="motor vehicle accident" type="OVERLAP" senid="8" />
+<TLINK id="TL71" fromID="E83" fromText="clinically stable" toID="E82" toText="noted" type="OVERLAP" senid="25" />
+<TLINK id="TL72" fromID="T8" fromText="postoperative day #1" toID="T9" toText="2010-06-30" type="OVERLAP" senid="25" />
+<TLINK id="TL73" fromID="E82" fromText="noted" toID="T9" toText="2010-06-30" type="OVERLAP" senid="25" />
+<TLINK id="TL74" fromID="E84" fromText="tolerating oral intake" toID="E83" toText="clinically stable" type="OVERLAP" senid="25" />
+<TLINK id="TL75" fromID="E85" fromText="adequate amounts of urine" toID="E84" toText="tolerating oral intake" type="OVERLAP" senid="25" />
+<TLINK id="TL76" fromID="E86" fromText="a Foley catheter" toID="E85" toText="adequate amounts of urine" type="OVERLAP" senid="25" />
+<TLINK id="TL77" fromID="E114" fromText="swelling" toID="E99" toText="noted" type="BEFORE" senid="31" />
+<TLINK id="TL78" fromID="E100" fromText="Sensation" toID="E99" toText="noted" type="AFTER" senid="31" />
+<TLINK id="TL79" fromID="E75" fromText="remained stable" toID="T6" toText="2010-06-29" type="OVERLAP" senid="21" />
+<TLINK id="TL80" fromID="E76" fromText="the operating room" toID="T6" toText="2010-06-29" type="AFTER" senid="21" />
+<TLINK id="TL81" fromID="E17" fromText="a left radial fracture open reduction" toID="E76" toText="the operating room" type="OVERLAP" senid="21" />
+<TLINK id="TL82" fromID="E18" fromText="internal fixation procedure" toID="E17" toText="a left radial fracture open reduction" type="OVERLAP" senid="21" />
+<TLINK id="TL83" fromID="E19" fromText="the procedure" toID="E17" toText="a left radial fracture open reduction" type="OVERLAP" senid="21" />
+<TLINK id="TL84" fromID="E96" fromText="wiggle her fingers" toID="E95" toText="noted" type="OVERLAP" senid="30" />
+<TLINK id="TL85" fromID="E97" fromText="intact flexor , extensor , abductor , and adductor function" toID="E96" toText="wiggle her fingers" type="OVERLAP" senid="30" />
+<TLINK id="TL86" fromID="E99" fromText="noted" toID="E95" toText="noted" type="OVERLAP" senid="30" />
+<TLINK id="TL87" fromID="E56" fromText="noted" toID="E55" toText="report" type="OVERLAP" senid="11" />
+<TLINK id="TL88" fromID="E57" fromText="awake" toID="E56" toText="noted" type="BEFORE" senid="11" />
+<TLINK id="TL89" fromID="E59" fromText="immobilized" toID="E56" toText="noted" type="AFTER" senid="11" />
+<TLINK id="TL90" fromID="E1" fromText="confused" toID="E57" toText="awake" type="OVERLAP" senid="11" />
+<TLINK id="TL91" fromID="E58" fromText="memory of the incident" toID="E1" toText="confused" type="OVERLAP" senid="11" />
+<TLINK id="TL92" fromID="E4" fromText="crystalloid" toID="E62" toText="evaluated" type="OVERLAP" senid="14" />
+<TLINK id="TL93" fromID="E62" fromText="evaluated" toID="E63" toText="the Trauma Service" type="OVERLAP" senid="14" />
+<TLINK id="TL94" fromID="E63" fromText="the Trauma Service" toID="E65" toText="the emergency room" type="OVERLAP" senid="14" />
+<TLINK id="TL95" fromID="E27" fromText="purulence" toID="E26" toText="erythema" type="OVERLAP" senid="27" />
+<TLINK id="TL96" fromID="E88" fromText="noted" toID="E87" toText="noted" type="OVERLAP" senid="27" />
+<TLINK id="TL97" fromID="E7" fromText="injuries" toID="E6" toText="diagnostic procedures" type="BEFORE" senid="16" />
+<TLINK id="TL98" fromID="E66" fromText="admitted" toID="E6" toText="diagnostic procedures" type="AFTER" senid="16" />
+<TLINK id="TL99" fromID="E8" fromText="a posterior scalp laceration" toID="E7" toText="injuries" type="OVERLAP" senid="16" />
+<TLINK id="TL100" fromID="E9" fromText="left fractured clavicle" toID="E8" toText="a posterior scalp laceration" type="OVERLAP" senid="16" />
+<TLINK id="TL101" fromID="E10" fromText="left fractured radius" toID="E9" toText="left fractured clavicle" type="OVERLAP" senid="16" />
+<TLINK id="TL102" fromID="E11" fromText="right thigh hematoma" toID="E10" toText="left fractured radius" type="OVERLAP" senid="16" />
+<TLINK id="TL103" fromID="E12" fromText="right leg laceration" toID="E11" toText="right thigh hematoma" type="OVERLAP" senid="16" />
+<TLINK id="TL104" fromID="E111" fromText="follow up care" toID="E48" toText="discharged" type="AFTER" senid="38" />
+<TLINK id="TL105" fromID="E48" fromText="discharged" toID="T10" toText="2010-07-01" type="OVERLAP" senid="38" />
+<TLINK id="TL106" fromID="E37" fromText="capillary refill" toID="E102" toText="Fingers were warm and well perfused" type="OVERLAP" senid="33" />
+<TLINK id="TL107" fromID="E52" fromText="ejected from the vehicle" toID="E51" toText="report" type="BEFORE" senid="9" />
+<TLINK id="TL108" fromID="E53" fromText="curled in the fetal position" toID="E54" toText="found" type="BEFORE" senid="9" />
+<TLINK id="TL109" fromID="E53" fromText="curled in the fetal position" toID="E52" toText="ejected from the vehicle" type="AFTER" senid="9" />
+<TLINK id="TL110" fromID="E24" fromText="The patient &#39;s head wound laceration" toID="E87" toText="noted" type="BEFORE" senid="26" />
+<TLINK id="TL111" fromID="E47" fromText="clean and dry" toID="E87" toText="noted" type="BEFORE" senid="26" />
+<TLINK id="TL112" fromID="E25" fromText="intact staples" toID="E47" toText="clean and dry" type="OVERLAP" senid="26" />
+<TLINK id="TL113" fromID="E26" fromText="erythema" toID="E25" toText="intact staples" type="OVERLAP" senid="26" />
+<TLINK id="TL114" fromID="E101" fromText="intact" toID="E100" toText="Sensation" type="OVERLAP" senid="32" />
+<TLINK id="TL115" fromID="E102" fromText="Fingers were warm and well perfused" toID="E100" toText="Sensation" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

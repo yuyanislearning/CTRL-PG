@@ -187,5 +187,124 @@ FULL CODE .
 <TIMEX3 id="T6" start="943" end="949" text="3 days" type="DURATION" val="P3D" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2019-01-09" type="ADMISSION" dvalue="2019-01-09" />
 <SECTIME id="S1" start="46" end="56" text="2019-01-15" type="DISCHARGE" dvalue="2019-01-15" />
+<TLINK id="TL1" fromID="E13" fromText="Springfield" toID="E22" toText="transferred" type="BEFORE" senid="13" />
+<TLINK id="TL2" fromID="E13" fromText="Springfield" toID="E20" toText="Lovenox" type="OVERLAP" senid="13" />
+<TLINK id="TL3" fromID="E16" fromText="VS" toID="E17" toText="stable BPs" type="OVERLAP" senid="13" />
+<TLINK id="TL4" fromID="E18" fromText="tachy" toID="E17" toText="stable BPs" type="OVERLAP" senid="13" />
+<TLINK id="TL5" fromID="E18" fromText="tachy" toID="E19" toText="sat" type="OVERLAP" senid="13" />
+<TLINK id="TL6" fromID="E57" fromText="saddle pulmonary embolus" toID="E54" toText="admitted" type="BEFORE" senid="24" />
+<TLINK id="TL7" fromID="E58" fromText="left knee injury" toID="E57" toText="saddle pulmonary embolus" type="OVERLAP" senid="24" />
+<TLINK id="TL8" fromID="E55" fromText="anticoagulation" toID="E54" toText="admitted" type="AFTER" senid="24" />
+<TLINK id="TL9" fromID="E56" fromText="hemodynamic monitoring" toID="E54" toText="admitted" type="AFTER" senid="24" />
+<TLINK id="TL10" fromID="E56" fromText="hemodynamic monitoring" toID="E55" toText="anticoagulation" type="OVERLAP" senid="24" />
+<TLINK id="TL11" fromID="E57" fromText="saddle pulmonary embolus" toID="E59" toText="PE" type="OVERLAP" senid="24" />
+<TLINK id="TL12" fromID="E40" fromText="denied" toID="T8" toText="this 2 week interval" type="OVERLAP" senid="20" />
+<TLINK id="TL13" fromID="E41" fromText="CP" toID="T8" toText="this 2 week interval" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E41" fromText="CP" toID="E42" toText="chest discomfort" type="OVERLAP" senid="20" />
+<TLINK id="TL15" fromID="E42" fromText="chest discomfort" toID="E43" toText="difficulty breathing" type="OVERLAP" senid="20" />
+<TLINK id="TL16" fromID="E43" fromText="difficulty breathing" toID="E44" toText="cough" type="OVERLAP" senid="20" />
+<TLINK id="TL17" fromID="E44" fromText="cough" toID="E45" toText="hemoptysis" type="OVERLAP" senid="20" />
+<TLINK id="TL18" fromID="E45" fromText="hemoptysis" toID="E46" toText="f/c/" type="OVERLAP" senid="20" />
+<TLINK id="TL19" fromID="E102" fromText="any wall motion abnormalities" toID="E103" toText="ischemia" type="OVERLAP" senid="39" />
+<TLINK id="TL20" fromID="E101" fromText="reveal" toID="E100" toText="An ECHO" type="OVERLAP" senid="39" />
+<TLINK id="TL21" fromID="E102" fromText="any wall motion abnormalities" toID="E100" toText="An ECHO" type="OVERLAP" senid="39" />
+<TLINK id="TL22" fromID="T7" fromText="2 days" toID="E39" toText="presentation" type="BEFORE" senid="19" />
+<TLINK id="TL23" fromID="E38" fromText="inflammation of his L calf / leg" toID="T7" toText="2 days" type="BEFORE" senid="19" />
+<TLINK id="TL24" fromID="T6" fromText="3 days" toID="E36" toText="admission" type="BEFORE" senid="18" />
+<TLINK id="TL25" fromID="E35" fromText="essentially bed bound" toID="T6" toText="3 days" type="OVERLAP" senid="18" />
+<TLINK id="TL26" fromID="T6" fromText="3 days" toID="T7" toText="2 days" type="BEFORE" senid="18" />
+<TLINK id="TL27" fromID="E37" fromText="unable to ambulate" toID="E35" toText="essentially bed bound" type="OVERLAP" senid="18" />
+<TLINK id="TL28" fromID="E37" fromText="unable to ambulate" toID="T6" toText="3 days" type="AFTER" senid="18" />
+<TLINK id="TL29" fromID="E37" fromText="unable to ambulate" toID="E38" toText="inflammation of his L calf / leg" type="OVERLAP" senid="18" />
+<TLINK id="TL30" fromID="E93" fromText="P-pulmonale" toID="E94" toText="clot burden" type="OVERLAP" senid="37" />
+<TLINK id="TL31" fromID="E95" fromText="His tronponin" toID="E91" toText="a small troponin leak" type="OVERLAP" senid="37" />
+<TLINK id="TL32" fromID="E92" fromText="right heart strain" toID="E93" toText="P-pulmonale" type="OVERLAP" senid="37" />
+<TLINK id="TL33" fromID="E97" fromText="EKG" toID="E89" toText="his cardiac workup" type="AFTER" senid="37" />
+<TLINK id="TL34" fromID="E117" fromText="therapy" toID="E119" toText="an MRI of the knee" type="OVERLAP" senid="46" />
+<TLINK id="TL35" fromID="E120" fromText="seen by physical therapy" toID="E119" toText="an MRI of the knee" type="AFTER" senid="46" />
+<TLINK id="TL36" fromID="E118" fromText="promote mobility" toID="E117" toText="therapy" type="OVERLAP" senid="46" />
+<TLINK id="TL37" fromID="E112" fromText="L knee injury" toID="E115" toText="an injury" type="OVERLAP" senid="44" />
+<TLINK id="TL38" fromID="E15" fromText="saddle PE" toID="E14" toText="CT chest" type="OVERLAP" senid="12" />
+<TLINK id="TL39" fromID="E14" fromText="CT chest" toID="E13" toText="Springfield" type="OVERLAP" senid="12" />
+<TLINK id="TL40" fromID="E16" fromText="VS" toID="E13" toText="Springfield" type="OVERLAP" senid="12" />
+<TLINK id="TL41" fromID="E48" fromText="denied" toID="E49" toText="any bleeding or clotting disorders" type="AFTER" senid="22" />
+<TLINK id="TL42" fromID="E114" fromText="presented" toID="E113" toText="physical exam" type="OVERLAP" senid="45" />
+<TLINK id="TL43" fromID="E119" fromText="an MRI of the knee" toID="E113" toText="physical exam" type="AFTER" senid="45" />
+<TLINK id="TL44" fromID="E115" fromText="an injury" toID="E116" toText="meniscal tear" type="OVERLAP" senid="45" />
+<TLINK id="TL45" fromID="E94" fromText="clot burden" toID="E88" toText="PE" type="OVERLAP" senid="36" />
+<TLINK id="TL46" fromID="E89" fromText="his cardiac workup" toID="E90" toText="negative" type="OVERLAP" senid="36" />
+<TLINK id="TL47" fromID="E6" fromText="lightheaded" toID="E11" toText="lightheaded" type="OVERLAP" senid="10" />
+<TLINK id="TL48" fromID="E52" fromText="denies" toID="E53" toText="LOC" type="AFTER" senid="10" />
+<TLINK id="TL49" fromID="E10" fromText="very short of breath" toID="E8" toText="immediately fell to the kitchen floor" type="AFTER" senid="10" />
+<TLINK id="TL50" fromID="E89" fromText="his cardiac workup" toID="E88" toText="PE" type="OVERLAP" senid="35" />
+<TLINK id="TL51" fromID="E73" fromText="lysis" toID="E72" toText="hemodynamic instability" type="OVERLAP" senid="29" />
+<TLINK id="TL52" fromID="E1" fromText="Discharge" toID="T1" toText="2019-01-15" type="OVERLAP" senid="3" />
+<TLINK id="TL53" fromID="T5" fromText="3 days" toID="E32" toText="from sitting to standing" type="OVERLAP" senid="17" />
+<TLINK id="TL54" fromID="E35" fromText="essentially bed bound" toID="E33" toText="heard his knee" type="OVERLAP" senid="17" />
+<TLINK id="TL55" fromID="T4" fromText="Sunday" toID="T5" toText="3 days" type="OVERLAP" senid="17" />
+<TLINK id="TL56" fromID="E33" fromText="heard his knee" toID="E32" toText="from sitting to standing" type="OVERLAP" senid="17" />
+<TLINK id="TL57" fromID="E106" fromText="anticoagulation" toID="E107" toText="saddle PE" type="OVERLAP" senid="41" />
+<TLINK id="TL58" fromID="E106" fromText="anticoagulation" toID="E105" toText="Dropped" type="OVERLAP" senid="41" />
+<TLINK id="TL59" fromID="E106" fromText="anticoagulation" toID="E108" toText="IV fluids" type="OVERLAP" senid="41" />
+<TLINK id="TL60" fromID="E109" fromText="active bleeding" toID="E106" toText="anticoagulation" type="AFTER" senid="41" />
+<TLINK id="TL61" fromID="E121" fromText="follow up" toID="E123" toText="discharge" type="AFTER" senid="47" />
+<TLINK id="TL62" fromID="E124" fromText="repeat evaluation" toID="E123" toText="discharge" type="AFTER" senid="47" />
+<TLINK id="TL63" fromID="E122" fromText="orthopaedics" toID="E121" toText="follow up" type="OVERLAP" senid="47" />
+<TLINK id="TL64" fromID="E124" fromText="repeat evaluation" toID="E121" toText="follow up" type="OVERLAP" senid="47" />
+<TLINK id="TL65" fromID="T3" fromText="2 weeks" toID="E26" toText="presentation" type="BEFORE" senid="15" />
+<TLINK id="TL66" fromID="E27" fromText="hurt his left knee" toID="T3" toText="2 weeks" type="OVERLAP" senid="15" />
+<TLINK id="TL67" fromID="T3" fromText="2 weeks" toID="E28" toText="stood up" type="BEFORE" senid="15" />
+<TLINK id="TL68" fromID="E30" fromText="heard his knee" toID="E27" toText="hurt his left knee" type="OVERLAP" senid="15" />
+<TLINK id="TL69" fromID="E69" fromText="his hospitalization" toID="E71" toText="discharge" type="OVERLAP" senid="28" />
+<TLINK id="TL70" fromID="E68" fromText="hemodynmically stable" toID="E69" toText="his hospitalization" type="OVERLAP" senid="28" />
+<TLINK id="TL71" fromID="E70" fromText="an oxygen requirement" toID="E71" toText="discharge" type="OVERLAP" senid="28" />
+<TLINK id="TL72" fromID="E72" fromText="hemodynamic instability" toID="E68" toText="hemodynmically stable" type="OVERLAP" senid="28" />
+<TLINK id="TL73" fromID="E0" fromText="Admission" toID="T0" toText="2019-01-09" type="OVERLAP" senid="2" />
+<TLINK id="TL74" fromID="E111" fromText="asymptomatic" toID="E109" toText="active bleeding" type="OVERLAP" senid="42" />
+<TLINK id="TL75" fromID="E3" fromText="Chelseahospital" toID="E5" toText="admission" type="AFTER" senid="8" />
+<TLINK id="TL76" fromID="E2" fromText="presented" toID="E4" toText="a syncopal episode" type="AFTER" senid="8" />
+<TLINK id="TL77" fromID="E3" fromText="Chelseahospital" toID="E2" toText="presented" type="BEFORE" senid="8" />
+<TLINK id="TL78" fromID="E4" fromText="a syncopal episode" toID="T2" toText="the morning of admission" type="OVERLAP" senid="8" />
+<TLINK id="TL79" fromID="E6" fromText="lightheaded" toID="E4" toText="a syncopal episode" type="AFTER" senid="8" />
+<TLINK id="TL80" fromID="E60" fromText="other risk factors" toID="E59" toText="PE" type="OVERLAP" senid="25" />
+<TLINK id="TL81" fromID="E61" fromText="likely causes" toID="E59" toText="PE" type="OVERLAP" senid="25" />
+<TLINK id="TL82" fromID="E59" fromText="PE" toID="E62" toText="his embolus" type="OVERLAP" senid="25" />
+<TLINK id="TL83" fromID="E104" fromText="Hematocrit" toID="E105" toText="Dropped" type="OVERLAP" senid="40" />
+<TLINK id="TL84" fromID="E81" fromText="PE" toID="E80" toText="acute management" type="BEFORE" senid="31" />
+<TLINK id="TL85" fromID="E77" fromText="follow up" toID="E78" toText="hematology" type="OVERLAP" senid="31" />
+<TLINK id="TL86" fromID="E77" fromText="follow up" toID="E79" toText="an outpatient thrombophilia work-up" type="OVERLAP" senid="31" />
+<TLINK id="TL87" fromID="E79" fromText="an outpatient thrombophilia work-up" toID="E78" toText="hematology" type="OVERLAP" senid="31" />
+<TLINK id="TL88" fromID="E46" fromText="f/c/" toID="E47" toText="sweats" type="OVERLAP" senid="21" />
+<TLINK id="TL89" fromID="E48" fromText="denied" toID="E40" toText="denied" type="OVERLAP" senid="21" />
+<TLINK id="TL90" fromID="E75" fromText="heparin" toID="E74" toText="anticoagulated" type="OVERLAP" senid="30" />
+<TLINK id="TL91" fromID="E76" fromText="coumadin" toID="E74" toText="anticoagulated" type="OVERLAP" senid="30" />
+<TLINK id="TL92" fromID="E12" fromText="called 911" toID="E11" toText="lightheaded" type="AFTER" senid="11" />
+<TLINK id="TL93" fromID="E13" fromText="Springfield" toID="E12" toText="called 911" type="AFTER" senid="11" />
+<TLINK id="TL94" fromID="E11" fromText="lightheaded" toID="E10" toText="very short of breath" type="AFTER" senid="11" />
+<TLINK id="TL95" fromID="E20" fromText="Lovenox" toID="E21" toText="transport" type="BEFORE" senid="14" />
+<TLINK id="TL96" fromID="E25" fromText="states" toID="E23" toText="Arbour Hospital" type="OVERLAP" senid="14" />
+<TLINK id="TL97" fromID="E23" fromText="Arbour Hospital" toID="E22" toText="transferred" type="AFTER" senid="14" />
+<TLINK id="TL98" fromID="E21" fromText="transport" toID="E22" toText="transferred" type="BEFORE" senid="14" />
+<TLINK id="TL99" fromID="E23" fromText="Arbour Hospital" toID="E24" toText="further care" type="OVERLAP" senid="14" />
+<TLINK id="TL100" fromID="E67" fromText="stasis" toID="E66" toText="immobility" type="OVERLAP" senid="27" />
+<TLINK id="TL101" fromID="E28" fromText="stood up" toID="T4" toText="Sunday" type="BEFORE" senid="16" />
+<TLINK id="TL102" fromID="E30" fromText="heard his knee" toID="E28" toText="stood up" type="OVERLAP" senid="16" />
+<TLINK id="TL103" fromID="E99" fromText="ischemia" toID="E97" toText="EKG" type="BEFORE" senid="38" />
+<TLINK id="TL104" fromID="E99" fromText="ischemia" toID="E98" toText="evidence" type="OVERLAP" senid="38" />
+<TLINK id="TL105" fromID="E95" fromText="His tronponin" toID="E96" toText="trended down" type="OVERLAP" senid="38" />
+<TLINK id="TL106" fromID="E98" fromText="evidence" toID="E97" toText="EKG" type="OVERLAP" senid="38" />
+<TLINK id="TL107" fromID="E99" fromText="ischemia" toID="E103" toText="ischemia" type="OVERLAP" senid="38" />
+<TLINK id="TL108" fromID="E85" fromText="his coumadin therapy" toID="T9" toText="6 months" type="AFTER" senid="33" />
+<TLINK id="TL109" fromID="E85" fromText="his coumadin therapy" toID="E86" toText="hematology" type="OVERLAP" senid="33" />
+<TLINK id="TL110" fromID="E52" fromText="denies" toID="T2" toText="the morning of admission" type="OVERLAP" senid="9" />
+<TLINK id="TL111" fromID="E6" fromText="lightheaded" toID="E7" toText="faint" type="OVERLAP" senid="9" />
+<TLINK id="TL112" fromID="E8" fromText="immediately fell to the kitchen floor" toID="E6" toText="lightheaded" type="AFTER" senid="9" />
+<TLINK id="TL113" fromID="E8" fromText="immediately fell to the kitchen floor" toID="E7" toText="faint" type="AFTER" senid="9" />
+<TLINK id="TL114" fromID="E53" fromText="LOC" toID="E8" toText="immediately fell to the kitchen floor" type="BEFORE" senid="9" />
+<TLINK id="TL115" fromID="E63" fromText="DVT from the left leg" toID="E62" toText="his embolus" type="OVERLAP" senid="26" />
+<TLINK id="TL116" fromID="E64" fromText="known clotting disorder" toID="E60" toText="other risk factors" type="OVERLAP" senid="26" />
+<TLINK id="TL117" fromID="E82" fromText="follow up" toID="E83" toText="his primary care provider" type="OVERLAP" senid="32" />
+<TLINK id="TL118" fromID="E84" fromText="coumadin management" toID="E82" toText="follow up" type="OVERLAP" senid="32" />
+<TLINK id="TL119" fromID="E84" fromText="coumadin management" toID="E85" toText="his coumadin therapy" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

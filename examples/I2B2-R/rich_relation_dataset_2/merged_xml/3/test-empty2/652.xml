@@ -76,5 +76,55 @@ The patient denies any history of diabetes .
 <TIMEX3 id="T3" start="612" end="628" text="the same evening" type="DATE" val="2012-12-29" mod="END" />
 <SECTIME id="S0" start="18" end="28" text="2013-01-03" type="ADMISSION" dvalue="2013-01-03" />
 <SECTIME id="S1" start="46" end="56" text="2013-01-09" type="DISCHARGE" dvalue="2013-01-09" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2013-01-03" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="T2" fromText="Saturday" toID="T3" toText="the same evening" type="BEFORE" senid="10" />
+<TLINK id="TL3" fromID="E12" fromText="Her symptoms" toID="E13" toText="rest" type="BEFORE" senid="10" />
+<TLINK id="TL4" fromID="E14" fromText="The same symptoms" toID="E12" toText="Her symptoms" type="OVERLAP" senid="10" />
+<TLINK id="TL5" fromID="E1" fromText="Discharge" toID="T1" toText="2013-01-09" type="OVERLAP" senid="3" />
+<TLINK id="TL6" fromID="E3" fromText="Shaugnessy-Kaplan Rehab Hospital Hospital" toID="E2" toText="transferred" type="BEFORE" senid="8" />
+<TLINK id="TL7" fromID="E5" fromText="hypertension" toID="E2" toText="transferred" type="BEFORE" senid="8" />
+<TLINK id="TL8" fromID="E4" fromText="cardiac catheterization" toID="E3" toText="Shaugnessy-Kaplan Rehab Hospital Hospital" type="OVERLAP" senid="8" />
+<TLINK id="TL9" fromID="E33" fromText="Hypertension" toID="E32" toText="tobacco abuse" type="OVERLAP" senid="17" />
+<TLINK id="TL10" fromID="E32" fromText="tobacco abuse" toID="T5" toText="day" type="OVERLAP" senid="17" />
+<TLINK id="TL11" fromID="E32" fromText="tobacco abuse" toID="T6" toText="45 years" type="OVERLAP" senid="17" />
+<TLINK id="TL12" fromID="E34" fromText="coronary artery disease" toID="E31" toText="coronary artery disease" type="OVERLAP" senid="17" />
+<TLINK id="TL13" fromID="E35" fromText="coronary artery disease" toID="E34" toText="coronary artery disease" type="OVERLAP" senid="17" />
+<TLINK id="TL14" fromID="E36" fromText="Hypercholesterolemia" toID="E37" toText="total cholesterol" type="OVERLAP" senid="17" />
+<TLINK id="TL15" fromID="E37" fromText="total cholesterol" toID="E38" toText="admission" type="BEFORE" senid="17" />
+<TLINK id="TL16" fromID="T7" fromText="several years ago" toID="E38" toText="admission" type="OVERLAP" senid="17" />
+<TLINK id="TL17" fromID="E33" fromText="Hypertension" toID="T4" toText="2013-01-04" type="OVERLAP" senid="16" />
+<TLINK id="TL18" fromID="E41" fromText="the operating room" toID="E42" toText="admitted" type="BEFORE" senid="16" />
+<TLINK id="TL19" fromID="E42" fromText="admitted" toID="E43" toText="the operating room" type="BEFORE" senid="16" />
+<TLINK id="TL20" fromID="E43" fromText="the operating room" toID="T4" toText="2013-01-04" type="OVERLAP" senid="16" />
+<TLINK id="TL21" fromID="E40" fromText="diabetes" toID="E39" toText="denies" type="OVERLAP" senid="18" />
+<TLINK id="TL22" fromID="E29" fromText="three vessel disease" toID="E28" toText="the catheterization" type="BEFORE" senid="15" />
+<TLINK id="TL23" fromID="E29" fromText="three vessel disease" toID="E30" toText="coronary artery bypass graft" type="BEFORE" senid="15" />
+<TLINK id="TL24" fromID="E30" fromText="coronary artery bypass graft" toID="E28" toText="the catheterization" type="AFTER" senid="15" />
+<TLINK id="TL25" fromID="E41" fromText="the operating room" toID="E28" toText="the catheterization" type="AFTER" senid="15" />
+<TLINK id="TL26" fromID="E30" fromText="coronary artery bypass graft" toID="E41" toText="the operating room" type="OVERLAP" senid="15" />
+<TLINK id="TL27" fromID="E14" fromText="The same symptoms" toID="E15" toText="rest" type="BEFORE" senid="11" />
+<TLINK id="TL28" fromID="E14" fromText="The same symptoms" toID="T3" toText="the same evening" type="OVERLAP" senid="11" />
+<TLINK id="TL29" fromID="E18" fromText="Aspirin" toID="E17" toText="the outside hospital Emergency Room" type="OVERLAP" senid="12" />
+<TLINK id="TL30" fromID="E19" fromText="Lovenox" toID="E17" toText="the outside hospital Emergency Room" type="OVERLAP" senid="12" />
+<TLINK id="TL31" fromID="E20" fromText="beta blocker" toID="E17" toText="the outside hospital Emergency Room" type="OVERLAP" senid="12" />
+<TLINK id="TL32" fromID="E17" fromText="the outside hospital Emergency Room" toID="E16" toText="presented" type="AFTER" senid="12" />
+<TLINK id="TL33" fromID="E18" fromText="Aspirin" toID="E19" toText="Lovenox" type="OVERLAP" senid="12" />
+<TLINK id="TL34" fromID="E19" fromText="Lovenox" toID="E20" toText="beta blocker" type="OVERLAP" senid="12" />
+<TLINK id="TL35" fromID="E21" fromText="myocardial infarction" toID="E17" toText="the outside hospital Emergency Room" type="BEFORE" senid="12" />
+<TLINK id="TL36" fromID="E9" fromText="the usual state of health" toID="T2" toText="Saturday" type="BEFORE" senid="9" />
+<TLINK id="TL37" fromID="T2" fromText="Saturday" toID="E10" toText="admission" type="BEFORE" senid="9" />
+<TLINK id="TL38" fromID="E11" fromText="bilateral arm and chest discomfort" toID="T2" toText="Saturday" type="AFTER" senid="9" />
+<TLINK id="TL39" fromID="E5" fromText="hypertension" toID="E6" toText="hypercholesterolemia" type="OVERLAP" senid="9" />
+<TLINK id="TL40" fromID="E6" fromText="hypercholesterolemia" toID="E7" toText="tobacco abuse" type="OVERLAP" senid="9" />
+<TLINK id="TL41" fromID="E8" fromText="coronary artery disease" toID="E7" toText="tobacco abuse" type="OVERLAP" senid="9" />
+<TLINK id="TL42" fromID="E11" fromText="bilateral arm and chest discomfort" toID="E12" toText="Her symptoms" type="OVERLAP" senid="9" />
+<TLINK id="TL43" fromID="E17" fromText="the outside hospital Emergency Room" toID="E25" toText="transferred" type="BEFORE" senid="13" />
+<TLINK id="TL44" fromID="E24" fromText="non diagnostic EKG changes" toID="E25" toText="transferred" type="BEFORE" senid="13" />
+<TLINK id="TL45" fromID="E21" fromText="myocardial infarction" toID="E22" toText="CPK" type="OVERLAP" senid="13" />
+<TLINK id="TL46" fromID="E23" fromText="troponin" toID="E21" toText="myocardial infarction" type="OVERLAP" senid="13" />
+<TLINK id="TL47" fromID="E24" fromText="non diagnostic EKG changes" toID="E21" toText="myocardial infarction" type="AFTER" senid="13" />
+<TLINK id="TL48" fromID="E25" fromText="transferred" toID="E26" toText="Arbour-Fuller Hospital" type="BEFORE" senid="14" />
+<TLINK id="TL49" fromID="E26" fromText="Arbour-Fuller Hospital" toID="E27" toText="cardiac catheterization" type="OVERLAP" senid="14" />
+<TLINK id="TL50" fromID="E28" fromText="the catheterization" toID="E27" toText="cardiac catheterization" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

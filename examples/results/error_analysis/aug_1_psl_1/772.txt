@@ -1,0 +1,36 @@
+e1 id: E51; e2 id: E50; e1 text: XRT; e2 text: rehabilitation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E5; e2 id: E39; e1 text: hematuria; e2 text: the Operating Room
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E5; e2 id: E6; e1 text: hematuria; e2 text: a cystoscopy transurethral resection of prostate placement
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E27; e2 id: T7; e1 text: antibiotics; e2 text: postoperative day #7
+ground truth: BEFORE; prediction: AFTER
+This relation involves in OBB
+
+e1 id: E49; e2 id: E19; e1 text: antibiotics; e2 text: his split thickness skin graft
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E57; e2 id: E29; e1 text: Falmouth Hospital; e2 text: discharged
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E22; e2 id: T7; e1 text: Foley; e2 text: postoperative day #7
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E36; e2 id: E4; e1 text: this left facial lesion; e2 text: his hematuria
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E9; e2 id: E41; e1 text: split thickness and full thickness skin grafting; e2 text: the Operating Room
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T5; e2 id: E9; e1 text: 2016-03-14; e2 text: split thickness and full thickness skin grafting
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E14; e2 id: E13; e1 text: significant supraglottic edema; e2 text: scoping
+ground truth: BEFORE; prediction: OVERLAP
+

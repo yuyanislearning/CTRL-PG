@@ -1,0 +1,18 @@
+e1 id: E50; e2 id: E15; e1 text: visualized; e2 text: EGD
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T5; e2 id: E47; e1 text: 15 min; e2 text: consuming a meal
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E19; e2 id: E15; e1 text: H. Pylori positive; e2 text: EGD
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E40; e2 id: T9; e1 text: the antibiotics; e2 text: 26 more days
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: T8; e1 text: tolerating regular diet; e2 text: HD4
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E63; e2 id: E39; e1 text: evaluate biliary system; e2 text: HIDA with CCK challenge
+ground truth: OVERLAP; prediction: AFTER
+

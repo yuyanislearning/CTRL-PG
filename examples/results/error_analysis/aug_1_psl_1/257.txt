@@ -1,0 +1,159 @@
+e1 id: E22; e2 id: E137; e1 text: UAC and UVC lines; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E197; e2 id: E198; e1 text: pituitary tests; e2 text: septic optic dysplasia
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E199; e2 id: E200; e1 text: Pediatrician; e2 text: any signs of pituitary problems
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E39; e2 id: T41; e1 text: hyperglycemia; e2 text: this time
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T16; e2 id: E74; e1 text: day of life six; e2 text: hyperglycemia
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E75; e2 id: T16; e1 text: abdominal distention; e2 text: day of life six
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E78; e2 id: E77; e1 text: a white count; e2 text: blood culture
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E30; e2 id: E31; e1 text: increased abdominal girth; e2 text: CPAP
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E1; e2 id: E139; e1 text: Prenatal screens; e2 text: delivered
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E162; e2 id: T31; e1 text: caffeine; e2 text: time of transfer
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: T5; e1 text: caffeine; e2 text: day of life two
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E241; e2 id: E239; e1 text: bleeding; e2 text: presented
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T0; e2 id: E239; e1 text: the day of delivery; e2 text: presented
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E60; e2 id: E59; e1 text: guaiac; e2 text: CPAP
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E57; e2 id: T43; e1 text: This NPO; e2 text: that day
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E156; e2 id: E154; e1 text: inconsistent respiratory effort; e2 text: intubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E157; e2 id: E154; e1 text: increased work of breathing; e2 text: intubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E194; e2 id: T48; e1 text: The baby &#39;s neurologic examination; e2 text: day of transfer
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E219; e2 id: E215; e1 text: Car seat positioning screening; e2 text: Medications
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E228; e2 id: E222; e1 text: born; e2 text: RSV
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E172; e2 id: T11; e1 text: full feeds; e2 text: day of life 13
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E102; e2 id: E101; e1 text: packed red blood cells; e2 text: blood
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E221; e2 id: T53; e1 text: Synagis RSV prophylaxis; e2 text: March
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E221; e2 id: T52; e1 text: Synagis RSV prophylaxis; e2 text: November
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E227; e2 id: E221; e1 text: born; e2 text: Synagis RSV prophylaxis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E104; e2 id: T23; e1 text: an absent septum pellucidum; e2 text: 12-03
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E105; e2 id: T47; e1 text: An MRI; e2 text: one month of age
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E36; e2 id: E38; e1 text: hyperglycemia; e2 text: sepsis evaluation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E38; e2 id: T12; e1 text: sepsis evaluation; e2 text: day of life six
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E2; e2 id: T37; e1 text: Other prenatal screens; e2 text: time of delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T38; e2 id: E151; e1 text: time of delivery; e2 text: slight meconium stained amniotic fluid
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E152; e2 id: E147; e1 text: emerged; e2 text: delivered
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E210; e2 id: T34; e1 text: Discharge; e2 text: time of transfer
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E62; e2 id: T59; e1 text: phototherapy; e2 text: day of life one
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E63; e2 id: E62; e1 text: a peak serum bilirubin; e2 text: phototherapy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E23; e2 id: E24; e1 text: The UAC; e2 text: dopamine
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E25; e2 id: T9; e1 text: UVC; e2 text: day of life six
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: E89; e1 text: A lumbar puncture; e2 text: meningitis
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E236; e2 id: E235; e1 text: her ophthalmology status; e2 text: Ophthalmology
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E231; e2 id: E233; e1 text: Follow-up appointments; e2 text: the primary pediatrician , Dr. Marilyn Daley of Stockbridge , Village Pediatrics
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E231; e2 id: E234; e1 text: Follow-up appointments; e2 text: Dr. Lynn Warren of Neurology from Emerson Hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E231; e2 id: E235; e1 text: Follow-up appointments; e2 text: Ophthalmology
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E19; e2 id: E18; e1 text: poor perfusion; e2 text: a normal saline bolus
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E247; e2 id: E245; e1 text: betamethasone; e2 text: 5 cm dilated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E136; e2 id: E12; e1 text: extubated; e2 text: a CPAP
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E139; e2 id: E141; e1 text: delivered; e2 text: delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T49; e2 id: T50; e1 text: the week; e2 text: 12/20
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E206; e2 id: T49; e1 text: follow-up examination; e2 text: the week
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E168; e2 id: T7; e1 text: a mean arterial pressure; e2 text: day of life two
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E187; e2 id: E108; e1 text: revealed; e2 text: lesions
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E187; e2 id: E110; e1 text: revealed; e2 text: extracerebral collections
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E109; e2 id: E187; e1 text: signal abnormalities; e2 text: revealed
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E3; e2 id: E134; e1 text: surfactant; e2 text: intubated
+ground truth: AFTER; prediction: OVERLAP
+

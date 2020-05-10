@@ -96,5 +96,60 @@ The patient was instructed to followup with her internist regarding further eval
 <SECTIME id="S0" start="18" end="26" text="09/21/92" type="ADMISSION" dvalue="1992-09-21" />
 <SECTIME id="S1" start="44" end="52" text="09/24/92" type="DISCHARGE" dvalue="1992-09-24" />
 
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="09/21/92" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E11" fromText="an omentectomy" toID="E9" toText="explored" type="OVERLAP" senid="10" />
+<TLINK id="TL3" fromID="T7" fromText="qhs" toID="T6" toText="hospital day 2" type="AFTER" senid="19" />
+<TLINK id="TL4" fromID="T9" fromText="qhs" toID="T7" toText="qhs" type="OVERLAP" senid="19" />
+<TLINK id="TL5" fromID="E53" fromText="further evaluation" toID="E52" toText="followup" type="OVERLAP" senid="21" />
+<TLINK id="TL6" fromID="E54" fromText="her hypertension" toID="E49" toText="some hypertension" type="OVERLAP" senid="21" />
+<TLINK id="TL7" fromID="E55" fromText="further management" toID="E53" toText="further evaluation" type="OVERLAP" senid="21" />
+<TLINK id="TL8" fromID="E1" fromText="DISCHARGE" toID="T1" toText="09/24/92" type="OVERLAP" senid="3" />
+<TLINK id="TL9" fromID="E3" fromText="stenotic area on her mid sigmoid" toID="E4" toText="barium enema" type="BEFORE" senid="8" />
+<TLINK id="TL10" fromID="E5" fromText="The ultrasound" toID="E4" toText="barium enema" type="OVERLAP" senid="8" />
+<TLINK id="TL11" fromID="E36" fromText="chemotherapy" toID="T4" toText="three days" type="OVERLAP" senid="17" />
+<TLINK id="TL12" fromID="E37" fromText="Cisplatin" toID="E36" toText="chemotherapy" type="OVERLAP" senid="17" />
+<TLINK id="TL13" fromID="E38" fromText="VP 16" toID="E37" toText="Cisplatin" type="OVERLAP" senid="17" />
+<TLINK id="TL14" fromID="E40" fromText="tolerated" toID="E39" toText="chemotherapy" type="OVERLAP" senid="17" />
+<TLINK id="TL15" fromID="E39" fromText="chemotherapy" toID="E36" toText="chemotherapy" type="OVERLAP" senid="17" />
+<TLINK id="TL16" fromID="E41" fromText="Serial PTs" toID="E32" toText="the hospital" type="BEFORE" senid="17" />
+<TLINK id="TL17" fromID="E43" fromText="admission" toID="E31" toText="admitted" type="OVERLAP" senid="17" />
+<TLINK id="TL18" fromID="E34" fromText="her hematocrit" toID="E33" toText="packed red blood cells" type="OVERLAP" senid="16" />
+<TLINK id="TL19" fromID="E32" fromText="the hospital" toID="E31" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL20" fromID="E34" fromText="her hematocrit" toID="E31" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL21" fromID="E35" fromText="a magnesium" toID="E31" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL22" fromID="T4" fromText="three days" toID="E31" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL23" fromID="E46" fromText="Anticoagulation Clinic" toID="T10" toText="one week" type="AFTER" senid="20" />
+<TLINK id="TL24" fromID="E47" fromText="further pro time checks" toID="T10" toText="one week" type="AFTER" senid="20" />
+<TLINK id="TL25" fromID="E45" fromText="The patient  apos;s pro time" toID="T8" toText="hospital day # 3" type="OVERLAP" senid="20" />
+<TLINK id="TL26" fromID="E47" fromText="further pro time checks" toID="E48" toText="adjustments" type="OVERLAP" senid="20" />
+<TLINK id="TL27" fromID="E49" fromText="some hypertension" toID="E50" toText="infusion of her VP 16" type="OVERLAP" senid="20" />
+<TLINK id="TL28" fromID="E49" fromText="some hypertension" toID="E51" toText="her prior chemotherapy" type="OVERLAP" senid="20" />
+<TLINK id="TL29" fromID="E2" fromText="DISCHARGE" toID="T2" toText="09/24/92" type="OVERLAP" senid="5" />
+<TLINK id="TL30" fromID="E44" fromText="Coumadin" toID="E43" toText="admission" type="BEFORE" senid="18" />
+<TLINK id="TL31" fromID="E42" fromText="an initial PT" toID="E43" toText="admission" type="OVERLAP" senid="18" />
+<TLINK id="TL32" fromID="E2" fromText="DISCHARGE" toID="E1" toText="DISCHARGE" type="OVERLAP" senid="4" />
+<TLINK id="TL33" fromID="E13" fromText="admitted" toID="E9" toText="explored" type="OVERLAP" senid="11" />
+<TLINK id="TL34" fromID="E12" fromText="ileostomy" toID="E11" toText="an omentectomy" type="OVERLAP" senid="11" />
+<TLINK id="TL35" fromID="E14" fromText="Cytoxan" toID="E13" toText="admitted" type="AFTER" senid="12" />
+<TLINK id="TL36" fromID="E16" fromText="debulking" toID="E15" toText="Cisplatin" type="AFTER" senid="12" />
+<TLINK id="TL37" fromID="E15" fromText="Cisplatin" toID="E14" toText="Cytoxan" type="OVERLAP" senid="12" />
+<TLINK id="TL38" fromID="E16" fromText="debulking" toID="T3" toText="June 1992" type="OVERLAP" senid="12" />
+<TLINK id="TL39" fromID="E17" fromText="a total abdominal hysterectomy/" toID="E16" toText="debulking" type="OVERLAP" senid="12" />
+<TLINK id="TL40" fromID="E18" fromText="bilateral salpingo-oophorectomy" toID="E17" toText="a total abdominal hysterectomy/" type="OVERLAP" senid="12" />
+<TLINK id="TL41" fromID="E19" fromText="omentectomy" toID="E18" toText="bilateral salpingo-oophorectomy" type="OVERLAP" senid="12" />
+<TLINK id="TL42" fromID="E20" fromText="splenectomy" toID="E19" toText="omentectomy" type="OVERLAP" senid="12" />
+<TLINK id="TL43" fromID="E21" fromText="rectosigmoid resection" toID="E20" toText="splenectomy" type="OVERLAP" senid="12" />
+<TLINK id="TL44" fromID="E22" fromText="a take down of the ileostomy" toID="E21" toText="rectosigmoid resection" type="OVERLAP" senid="12" />
+<TLINK id="TL45" fromID="E22" fromText="a take down of the ileostomy" toID="E23" toText="ileal cecal resection" type="OVERLAP" senid="12" />
+<TLINK id="TL46" fromID="E7" fromText="ascites" toID="E5" toText="The ultrasound" type="BEFORE" senid="9" />
+<TLINK id="TL47" fromID="E8" fromText="pelvic mass" toID="E5" toText="The ultrasound" type="BEFORE" senid="9" />
+<TLINK id="TL48" fromID="E9" fromText="explored" toID="E5" toText="The ultrasound" type="AFTER" senid="9" />
+<TLINK id="TL49" fromID="E6" fromText="showed" toID="E5" toText="The ultrasound" type="OVERLAP" senid="9" />
+<TLINK id="TL50" fromID="E10" fromText="the 3C ovarian carcinoma" toID="E8" toText="pelvic mass" type="OVERLAP" senid="9" />
+<TLINK id="TL51" fromID="E26" fromText="Cisplatin" toID="E25" toText="showed" type="BEFORE" senid="13" />
+<TLINK id="TL52" fromID="E23" fromText="ileal cecal resection" toID="E24" toText="MDR" type="OVERLAP" senid="13" />
+<TLINK id="TL53" fromID="E25" fromText="showed" toID="E24" toText="MDR" type="OVERLAP" senid="13" />
+<TLINK id="TL54" fromID="E27" fromText="VP 16" toID="E26" toText="Cisplatin" type="OVERLAP" senid="13" />
+<TLINK id="TL55" fromID="E30" fromText="Cisplatin chemotherapy" toID="E29" toText="VP 16" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

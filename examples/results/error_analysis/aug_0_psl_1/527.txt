@@ -1,0 +1,233 @@
+e1 id: E29; e2 id: E28; e1 text: lasix; e2 text: ABG
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E30; e2 id: E29; e1 text: foley; e2 text: lasix
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E31; e2 id: E23; e1 text: nebulizers; e2 text: labored respirations
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T13; e2 id: E55; e1 text: tid; e2 text: Mannitol
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E181; e2 id: E180; e1 text: multifocal pneumonia; e2 text: the Austen Riggs Center
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E182; e2 id: E180; e1 text: bacteremia; e2 text: the Austen Riggs Center
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E177; e1 text: D50; e2 text: progressive respiratory failure
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E21; e2 id: E198; e1 text: lasix; e2 text: his pulm status improved dramatically
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E22; e2 id: E198; e1 text: continued nebulizer treatments; e2 text: his pulm status improved dramatically
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E115; e2 id: E256; e1 text: the NG tube; e2 text: pulled out
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E256; e2 id: E254; e1 text: pulled out; e2 text: transfer
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E254; e2 id: E114; e1 text: transfer; e2 text: extubation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E18; e2 id: E195; e1 text: reintubation; e2 text: extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E12; e2 id: E186; e1 text: the vent; e2 text: difficulty weaning
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E227; e2 id: E89; e1 text: his prior hospitalization; e2 text: AIN
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E6; e2 id: E175; e1 text: diaphoresis; e2 text: came back
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E176; e2 id: E175; e1 text: Faulkner Hospital Hospital; e2 text: came back
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: T10; e1 text: labored respirations; e2 text: 2017-03-01 at 6 am
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E246; e2 id: E103; e1 text: bleeding; e2 text: 2 head CT
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E126; e2 id: E262; e1 text: his BP; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E169; e2 id: E170; e1 text: intubated; e2 text: an outside hospital
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E172; e2 id: E168; e1 text: CMED CSRU; e2 text: the Wing Memorial   Medical Center
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in BOB
+
+e1 id: E215; e2 id: E58; e1 text: improvement; e2 text: hyperventilated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E45; e2 id: E38; e1 text: stat scan; e2 text: an acutechange in mental status
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E40; e2 id: E38; e1 text: hypertension; e2 text: an acutechange in mental status
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E42; e2 id: E38; e1 text: decerebrate posturing; e2 text: an acutechange in mental status
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E43; e2 id: E38; e1 text: increased tone in bilateral upper extremities; e2 text: an acutechange in mental status
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E44; e2 id: E38; e1 text: unresponsiveness; e2 text: an acutechange in mental status
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E210; e2 id: E38; e1 text: a massive occipital spontaneous hemorrhage into the L ventricle; e2 text: an acutechange in mental status
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E239; e2 id: E238; e1 text: extubated; e2 text: removed
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OBB
+
+e1 id: E186; e2 id: T3; e1 text: difficulty weaning; e2 text: 2017-02-14
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E77; e2 id: E76; e1 text: coag neg staph; e2 text: Pt &#39;s triple lumen catheter
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E232; e2 id: E93; e1 text: acutely decompensated; e2 text: steroid taper
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E229; e2 id: E228; e1 text: Fluoroquinolones; e2 text: this admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E230; e2 id: E228; e1 text: other renal toxins; e2 text: this admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E141; e2 id: E140; e1 text: anemia; e2 text: Labs
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E109; e2 id: E110; e1 text: his dose; e2 text: tube feeds
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E109; e2 id: E253; e1 text: his dose; e2 text: gradually increased
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E208; e2 id: E207; e1 text: intubation; e2 text: aggressively suctioned
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E265; e2 id: E135; e1 text: volume resuscitated; e2 text: FW boluses
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E133; e2 id: E265; e1 text: D5W; e2 text: volume resuscitated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E134; e2 id: E265; e1 text: lasix; e2 text: volume resuscitated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E94; e2 id: E233; e1 text: Foot ulcer; e2 text: followed by podiatry
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: E94; e1 text: several further debridement; e2 text: Foot ulcer
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OOO
+
+e1 id: E95; e2 id: E96; e1 text: several further debridement; e2 text: his R heel wound
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in OOO
+
+e1 id: E236; e2 id: E94; e1 text: changed vac; e2 text: Foot ulcer
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E129; e2 id: E130; e1 text: hypernatremia; e2 text: intravascular volume depletion
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T17; e2 id: T4; e1 text: 3 week; e2 text: 02-09
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E148; e2 id: T1; e1 text: McLean Hospital; e2 text: 2017-01-18
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E148; e2 id: E158; e1 text: McLean Hospital; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E148; e2 id: T6; e1 text: McLean Hospital; e2 text: 2017-01-13
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E33; e2 id: E32; e1 text: fluffy bilateral infiltrates; e2 text: His chest radiograph
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E123; e2 id: E121; e1 text: Metoprolol; e2 text: hypertension
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E111; e2 id: E110; e1 text: an NG tube; e2 text: tube feeds
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E211; e2 id: E47; e1 text: Neurosurgery; e2 text: an EVD
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E49; e2 id: E48; e1 text: hyperventilation; e2 text: intubation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E199; e2 id: T9; e1 text: prepared for discharge; e2 text: 05-29
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E200; e2 id: E199; e1 text: sat &#39; ing in the high 90 &#39;s; e2 text: prepared for discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E211; e2 id: E38; e1 text: Neurosurgery; e2 text: an acutechange in mental status
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E174; e2 id: E173; e1 text: noted; e2 text: his re-admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E206; e2 id: E35; e1 text: a recurrent aspiration event; e2 text: respiratory distress
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E151; e2 id: E205; e1 text: CMED CSRU; e2 text: readmitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E36; e2 id: E205; e1 text: meropenem; e2 text: readmitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E143; e2 id: E271; e1 text: 3 units pRBC; e2 text: the end of his hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E147; e2 id: E146; e1 text: Celexa; e2 text: an anti-depressant
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E185; e2 id: E149; e1 text: worsening PNA; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E266; e2 id: E267; e1 text: fully resolved; e2 text: resumed eating on his own
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E266; e2 id: E268; e1 text: fully resolved; e2 text: had access to free water
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E258; e2 id: T28; e1 text: his mental status improved; e2 text: A few days
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E55; e2 id: E53; e1 text: Mannitol; e2 text: L frontal ICP bolt
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E53; e2 id: E213; e1 text: L frontal ICP bolt; e2 text: neurosurgery
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E214; e2 id: E53; e1 text: sterile conditions; e2 text: L frontal ICP bolt
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E165; e2 id: E164; e1 text: a PICC line; e2 text: sent home
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E166; e2 id: E164; e1 text: IV antibiotics; e2 text: sent home
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E144; e2 id: E274; e1 text: extremely tearful; e2 text: improved to near baseline
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E145; e2 id: E274; e1 text: depression; e2 text: improved to near baseline
+ground truth: OVERLAP; prediction: AFTER
+

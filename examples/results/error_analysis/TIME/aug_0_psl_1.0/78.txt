@@ -1,0 +1,165 @@
+e1 id: E112; e2 id: E113; e1 text: The catheterization tip; e2 text: Serratia
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E114; e2 id: E115; e1 text: a urine culture; e2 text: E. coli
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T30; e2 id: T5; e1 text: the 16th; e2 text: 01-08
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E112; e2 id: T5; e1 text: The catheterization tip; e2 text: 01-08
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T30; e2 id: E197; e1 text: the 16th; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E83; e2 id: E82; e1 text: Liver function tests; e2 text: a little bit icteric
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E171; e2 id: E79; e1 text: diuresed; e2 text: intubated
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T6; e2 id: T3; e1 text: the end of October; e2 text: 2016-06-26
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E127; e2 id: E126; e1 text: relieved; e2 text: increased
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E127; e2 id: E4; e1 text: relieved; e2 text: sublingual nitroglycerin
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E203; e2 id: E119; e1 text: his aortic graft; e2 text: his blood borne infection
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E74; e2 id: E73; e1 text: his sternal wound; e2 text: this procedure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E71; e2 id: E70; e1 text: his blood pressure; e2 text: these drips
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E162; e2 id: E63; e1 text: A psychiatric consult; e2 text: Trazodone
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E66; e2 id: E65; e1 text: his neurologic insults; e2 text: his psychiatric issues
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E155; e2 id: E154; e1 text: confused; e2 text: more awake
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T25; e2 id: E138; e1 text: this postoperative period; e2 text: the unit
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E42; e2 id: E138; e1 text: intubated; e2 text: the unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E203; e2 id: T2; e1 text: his aortic graft; e2 text: 2017-01-13
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E120; e2 id: T2; e1 text: Bactrim; e2 text: 2017-01-13
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E93; e2 id: T24; e1 text: an insulin sliding scale; e2 text: couple of days
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E122; e2 id: T14; e1 text: the cardiac surgery recovery unit; e2 text: postoperative day number seven
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E143; e2 id: T14; e1 text: the floor; e2 text: postoperative day number seven
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: T22; e2 id: T12; e1 text: postoperative day number five; e2 text: postoperative day number five
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: E2; e1 text: dyspnea; e2 text: type II diabetes mellitus
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E187; e2 id: E97; e1 text: adequate hematocrit; e2 text: packed red blood cells
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E60; e2 id: E158; e1 text: a right sided hemiplegia; e2 text: utilize more and more of his right side
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T3; e2 id: E0; e1 text: 2016-06-26; e2 text: Admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E53; e2 id: E147; e1 text: his Propofol drip; e2 text: discontinued
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: T31; e2 id: E197; e1 text: one month; e2 text: discharge
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E36; e2 id: E35; e1 text: a super coronary arch graft; e2 text: saphenous vein grafts
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E98; e2 id: T2; e1 text: hematocrit; e2 text: 2017-01-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T20; e2 id: T12; e1 text: postoperative day number three; e2 text: postoperative day number five
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E194; e2 id: E193; e1 text: improved; e2 text: an aspiration risk
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E195; e2 id: E194; e1 text: more lucid; e2 text: improved
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T21; e2 id: E124; e1 text: this time; e2 text: Discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E199; e2 id: T2; e1 text: a diet; e2 text: 2017-01-13
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T4; e2 id: T27; e1 text: 01-12; e2 text: one day prior
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E101; e2 id: E189; e1 text: his inability to eat; e2 text: well below his baseline
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E102; e2 id: E101; e1 text: his stroke; e2 text: his inability to eat
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E190; e2 id: E101; e1 text: coherent; e2 text: his inability to eat
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T19; e2 id: T16; e1 text: postoperative day number one; e2 text: postoperative day number one
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T28; e2 id: T4; e1 text: 01-05; e2 text: 01-12
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E105; e2 id: T2; e1 text: a cardiac healthy , diabetic diet; e2 text: 2017-01-13
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E174; e2 id: T21; e1 text: his Nexium; e2 text: this time
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E13; e2 id: T1; e1 text: Review of systems; e2 text: 2016-12-30
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E174; e2 id: T2; e1 text: his Nexium; e2 text: 2017-01-13
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E139; e2 id: T2; e1 text: the hospital stay; e2 text: 2017-01-13
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T5; e2 id: E197; e1 text: 01-08; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E48; e2 id: T13; e1 text: supplemental oxygen; e2 text: couple of days
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E40; e2 id: E39; e1 text: pharmacologic circulatory arrest; e2 text: cross clamped
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T28; e2 id: E0; e1 text: 01-05; e2 text: Admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T14; e2 id: T12; e1 text: postoperative day number seven; e2 text: postoperative day number five
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E26; e2 id: E23; e1 text: preoperative evaluation; e2 text: an elected Bental procedure
+ground truth: BEFORE; prediction: OVERLAP
+

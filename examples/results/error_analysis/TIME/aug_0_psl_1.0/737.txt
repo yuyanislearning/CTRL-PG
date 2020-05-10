@@ -1,0 +1,15 @@
+e1 id: E31; e2 id: T1; e1 text: cardiac catheterization; e2 text: 2015-06-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E33; e2 id: T1; e1 text: revealed; e2 text: 2015-06-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E24; e1 text: ischemia; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E34; e2 id: E26; e1 text: LVF; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: T1; e1 text: preop; e2 text: 2015-06-10
+ground truth: OVERLAP; prediction: BEFORE
+

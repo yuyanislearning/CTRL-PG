@@ -1,0 +1,105 @@
+e1 id: E56; e2 id: E198; e1 text: repeated dilantin troughs; e2 text: trough is subtherapeutic
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E8; e1 text: an additional valium; e2 text: valium
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: E9; e1 text: ativan; e2 text: ativan
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E67; e2 id: E68; e1 text: depression; e2 text: escitalopram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E187; e2 id: E67; e1 text: assess need to change medication; e2 text: depression
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E133; e2 id: E134; e1 text: this; e2 text: report
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E57; e2 id: E169; e1 text: atypical MS; e2 text: Boston Medical Center
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E98; e2 id: E97; e1 text: dilantin; e2 text: that hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E99; e2 id: E97; e1 text: keppra; e2 text: that hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T17; e2 id: E79; e1 text: daily; e2 text: discharge
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E107; e2 id: E103; e1 text: keppra; e2 text: her last visit
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E149; e2 id: E46; e1 text: Topamax; e2 text: preexisting cognitive deficits
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E126; e2 id: E78; e1 text: unresponsive; e2 text: presents
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T3; e2 id: E84; e1 text: yesterday; e2 text: an assisted living
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: E19; e1 text: traumatic brain injury; e2 text: seizure disorder
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E137; e2 id: E140; e1 text: these seizures; e2 text: Her seizure management
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E155; e2 id: E47; e1 text: dilantin; e2 text: trough
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E15; e2 id: E14; e1 text: her facial twitching; e2 text: the ativan
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E15; e2 id: E92; e1 text: her facial twitching; e2 text: apparently improved
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E191; e2 id: E199; e1 text: her mental status; e2 text: clear
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E183; e2 id: E182; e1 text: MS; e2 text: MS therapy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E141; e1 text: the higher doses; e2 text: fall
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E142; e1 text: the higher doses; e2 text: slur her speech
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E115; e2 id: E33; e1 text: an urgent care; e2 text: a non-trough level
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E31; e2 id: E111; e1 text: the medication dose; e2 text: changed
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E102; e1 text: a rash; e2 text: this
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: E7; e1 text: valium; e2 text: her valium
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E7; e2 id: E85; e1 text: her valium; e2 text: EMS
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E13; e2 id: E11; e1 text: persistent twitching in her face and right hand; e2 text: an additional valium
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E70; e2 id: E69; e1 text: a swallow evaluation; e2 text: NGT
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E118; e2 id: E117; e1 text: remembering; e2 text: an assisted living facility
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E66; e2 id: E186; e1 text: bactrim; e2 text: defervescence
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E64; e2 id: E82; e1 text: fevers; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E200; e2 id: E194; e1 text: evaluated; e2 text: Reportedly
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E58; e1 text: her last MRI; e2 text: MRI
+ground truth: AFTER; prediction: OVERLAP
+

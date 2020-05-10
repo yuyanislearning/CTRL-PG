@@ -1,0 +1,61 @@
+e1 id: E62; e2 id: E61; e1 text: phototherapy; e2 text: a subsequent bilirubin
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E17; e2 id: E19; e1 text: an AFI; e2 text: decreased fetal movement
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E76; e2 id: E77; e1 text: bolus infusion; e2 text: continued home factor 8 administration
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E79; e2 id: E76; e1 text: factor 8; e2 text: bolus infusion
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: T4; e1 text: increased; e2 text: 24 hours
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E70; e2 id: T18; e1 text: continuous factor 8 infusions; e2 text: 05-10
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E71; e2 id: E67; e1 text: Subsequent factor 8 levels; e2 text: factor 8 level
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E14; e2 id: E12; e1 text: estimated gestational age; e2 text: Estimated date of delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E109; e2 id: E107; e1 text: Teaching; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E110; e2 id: E107; e1 text: the Boviak; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E66; e2 id: E64; e1 text: an elevated PTT level; e2 text: coagulopathy workup
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E105; e2 id: E104; e1 text: a maximum head circumference; e2 text: His head circumference
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T20; e2 id: E80; e1 text: 20 hours; e2 text: A trough level
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E89; e2 id: T17; e1 text: a jugular Broviac; e2 text: 05-15
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E3; e2 id: E2; e1 text: increasing head circumference; e2 text: admitted
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E20; e2 id: E21; e1 text: spontaneous onset of labor; e2 text: vacuum assisted vaginal delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E102; e2 id: E100; e1 text: interventricular hemorrhage; e2 text: His head ultrasound
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E29; e2 id: E28; e1 text: bulb suction; e2 text: delivery
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E29; e2 id: E31; e1 text: bulb suction; e2 text: free flow oxygen
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E6; e2 id: E5; e1 text: prenatal screens; e2 text: born
+ground truth: BEFORE; prediction: AFTER
+

@@ -1,0 +1,48 @@
+e1 id: E36; e2 id: T4; e1 text: an intra-aortic balloon pump; e2 text: 08/02/93
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E71; e2 id: E16; e1 text: distal left main; e2 text: Selective coronary angiography
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E72; e2 id: E16; e1 text: proximal circumflex; e2 text: Selective coronary angiography
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E69; e2 id: E15; e1 text: lowered; e2 text: IV nitroglycerin
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E15; e2 id: E68; e1 text: IV nitroglycerin; e2 text: the cardiac catheterization laboratory
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E40; e1 text: treated; e2 text: A paraphimosis
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E29; e2 id: T3; e1 text: epigastric pain; e2 text: 07/31
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T7; e2 id: E86; e1 text: the following day; e2 text: transferred
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E52; e2 id: T0; e1 text: hospitalized; e2 text: May 1992
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E47; e2 id: E90; e1 text: intravenous Heparin; e2 text: fallen
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E91; e2 id: T5; e1 text: Heparin; e2 text: 08/05
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E93; e2 id: E91; e1 text: his platelet count; e2 text: Heparin
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E28; e2 id: E27; e1 text: Holter monitor; e2 text: some ventricular ectopy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: E75; e1 text: diuretics; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E24; e2 id: E75; e1 text: nitrates; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E35; e2 id: E79; e1 text: surgery; e2 text: the operating room
+ground truth: OVERLAP; prediction: BEFORE
+

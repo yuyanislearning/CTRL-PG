@@ -198,5 +198,118 @@ While in the hospital , the patient received initial work-up including echocardi
 <TIMEX3 id="T4" start="993" end="1003" text="2009-08-17" type="DATE" val="2009-08-17" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2009-08-17" type="ADMISSION" dvalue="2009-08-17" />
 <SECTIME id="S1" start="46" end="56" text="2009-09-10" type="DISCHARGE" dvalue="2009-09-10" />
+<TLINK id="TL1" fromID="E33" fromText="distentions of the abdomen" toID="T12" toText="the same time" type="OVERLAP" senid="34" />
+<TLINK id="TL2" fromID="E33" fromText="distentions of the abdomen" toID="E34" toText="accumulation of ascitic fluid" type="OVERLAP" senid="34" />
+<TLINK id="TL3" fromID="E95" fromText="leakage at the anastomosis site" toID="E82" toText="showed" type="OVERLAP" senid="24" />
+<TLINK id="TL4" fromID="E21" fromText="Cholangiogram" toID="T6" toText="postoperative day number two" type="OVERLAP" senid="24" />
+<TLINK id="TL5" fromID="E21" fromText="Cholangiogram" toID="E82" toText="showed" type="OVERLAP" senid="24" />
+<TLINK id="TL6" fromID="E92" fromText="the distal and proximal common bile duct" toID="E94" toText="pathology" type="BEFORE" senid="20" />
+<TLINK id="TL7" fromID="E92" fromText="the distal and proximal common bile duct" toID="E18" toText="endoscopic retrograde cholangiopancreatography" type="BEFORE" senid="20" />
+<TLINK id="TL8" fromID="E43" fromText="white blood cell count" toID="E79" toText="revealed" type="BEFORE" senid="39" />
+<TLINK id="TL9" fromID="E43" fromText="white blood cell count" toID="E44" toText="the ascites" type="OVERLAP" senid="39" />
+<TLINK id="TL10" fromID="E43" fromText="white blood cell count" toID="E45" toText="SVT" type="OVERLAP" senid="39" />
+<TLINK id="TL11" fromID="E15" fromText="exploration of the abdomen" toID="E73" toText="revealed" type="OVERLAP" senid="19" />
+<TLINK id="TL12" fromID="E16" fromText="significant nodularity of the liver" toID="E128" toText="advanced cirrhosis" type="OVERLAP" senid="19" />
+<TLINK id="TL13" fromID="E72" fromText="the Operating Room" toID="T5" toText="2009-08-24" type="OVERLAP" senid="18" />
+<TLINK id="TL14" fromID="E90" fromText="a Whipple procedure" toID="E72" toText="the Operating Room" type="OVERLAP" senid="18" />
+<TLINK id="TL15" fromID="E91" fromText="hepaticojejunostomy" toID="E72" toText="the Operating Room" type="OVERLAP" senid="18" />
+<TLINK id="TL16" fromID="E15" fromText="exploration of the abdomen" toID="E72" toText="the Operating Room" type="OVERLAP" senid="18" />
+<TLINK id="TL17" fromID="E40" fromText="100% nonrebreather" toID="E41" toText="his oxygenation" type="OVERLAP" senid="37" />
+<TLINK id="TL18" fromID="E38" fromText="Chest x-ray" toID="T13" toText="the time" type="OVERLAP" senid="37" />
+<TLINK id="TL19" fromID="E39" fromText="sputum culture" toID="T13" toText="the time" type="OVERLAP" senid="37" />
+<TLINK id="TL20" fromID="E40" fromText="100% nonrebreather" toID="T13" toText="the time" type="AFTER" senid="37" />
+<TLINK id="TL21" fromID="E78" fromText="the Surgical Intensive Care Unit" toID="E77" toText="the Surgical Intensive Care Unit" type="OVERLAP" senid="37" />
+<TLINK id="TL22" fromID="E113" fromText="the midodrine" toID="E114" toText="discontinued" type="OVERLAP" senid="46" />
+<TLINK id="TL23" fromID="E56" fromText="Lasix" toID="E115" toText="started" type="AFTER" senid="46" />
+<TLINK id="TL24" fromID="E57" fromText="spironolactone" toID="E115" toText="started" type="AFTER" senid="46" />
+<TLINK id="TL25" fromID="E115" fromText="started" toID="E114" toText="discontinued" type="OVERLAP" senid="46" />
+<TLINK id="TL26" fromID="E115" fromText="started" toID="E116" toText="diuresis" type="BEFORE" senid="46" />
+<TLINK id="TL27" fromID="E106" fromText="Somatostatin" toID="E107" toText="midodrine" type="OVERLAP" senid="44" />
+<TLINK id="TL28" fromID="E107" fromText="midodrine" toID="E108" toText="this condition" type="AFTER" senid="44" />
+<TLINK id="TL29" fromID="E109" fromText="packed red blood cells" toID="E108" toText="this condition" type="OVERLAP" senid="44" />
+<TLINK id="TL30" fromID="E6" fromText="Nodularities in the common bile duct" toID="E7" toText="endoscopic retrograde cholangiopancreatography" type="OVERLAP" senid="12" />
+<TLINK id="TL31" fromID="E69" fromText="admitted" toID="E7" toText="endoscopic retrograde cholangiopancreatography" type="AFTER" senid="12" />
+<TLINK id="TL32" fromID="E70" fromText="the Blue General Surgery Service" toID="E69" toText="admitted" type="AFTER" senid="12" />
+<TLINK id="TL33" fromID="E6" fromText="Nodularities in the common bile duct" toID="E88" toText="cholangiocarcinoma" type="OVERLAP" senid="12" />
+<TLINK id="TL34" fromID="E8" fromText="surgical interventions" toID="E70" toText="the Blue General Surgery Service" type="OVERLAP" senid="12" />
+<TLINK id="TL35" fromID="E19" fromText="malignancy" toID="E20" toText="a hepaticojejunostomy" type="BEFORE" senid="22" />
+<TLINK id="TL36" fromID="E110" fromText="improved renal function" toID="E80" toText="the floor" type="OVERLAP" senid="45" />
+<TLINK id="TL37" fromID="E111" fromText="oxygen requirement" toID="E80" toText="the floor" type="OVERLAP" senid="45" />
+<TLINK id="TL38" fromID="E80" fromText="the floor" toID="T9" toText="postoperative day number ten" type="AFTER" senid="45" />
+<TLINK id="TL39" fromID="E112" fromText="The somatostatin" toID="E106" toText="Somatostatin" type="OVERLAP" senid="45" />
+<TLINK id="TL40" fromID="E113" fromText="the midodrine" toID="E107" toText="midodrine" type="OVERLAP" senid="45" />
+<TLINK id="TL41" fromID="E114" fromText="discontinued" toID="E80" toText="the floor" type="BEFORE" senid="45" />
+<TLINK id="TL42" fromID="E115" fromText="started" toID="E80" toText="the floor" type="AFTER" senid="45" />
+<TLINK id="TL43" fromID="E76" fromText="transferred" toID="E37" toText="fluid management" type="BEFORE" senid="36" />
+<TLINK id="TL44" fromID="E76" fromText="transferred" toID="E36" toText="the patient &#39;s oxygen saturation" type="AFTER" senid="36" />
+<TLINK id="TL45" fromID="E77" fromText="the Surgical Intensive Care Unit" toID="E76" toText="transferred" type="AFTER" senid="36" />
+<TLINK id="TL46" fromID="E36" fromText="the patient &#39;s oxygen saturation" toID="T8" toText="postoperative day number eight" type="OVERLAP" senid="36" />
+<TLINK id="TL47" fromID="E76" fromText="transferred" toID="T8" toText="postoperative day number eight" type="AFTER" senid="36" />
+<TLINK id="TL48" fromID="E3" fromText="an 8 Caucasian catheter" toID="T0" toText="the time" type="OVERLAP" senid="10" />
+<TLINK id="TL49" fromID="E4" fromText="external drainage" toID="E3" toText="an 8 Caucasian catheter" type="OVERLAP" senid="10" />
+<TLINK id="TL50" fromID="E26" fromText="any pneumonia" toID="E25" toText="A chest x-ray" type="OVERLAP" senid="29" />
+<TLINK id="TL51" fromID="E84" fromText="Discharge" toID="T2" toText="2009-09-10" type="OVERLAP" senid="3" />
+<TLINK id="TL52" fromID="E13" fromText="nodularity in the common bile duct" toID="E14" toText="cholangiocarcinoma" type="OVERLAP" senid="17" />
+<TLINK id="TL53" fromID="E48" fromText="Gram stain" toID="E50" toText="the ascites" type="OVERLAP" senid="41" />
+<TLINK id="TL54" fromID="E49" fromText="culture" toID="E50" toText="the ascites" type="OVERLAP" senid="41" />
+<TLINK id="TL55" fromID="E50" fromText="the ascites" toID="E51" toText="any organism" type="OVERLAP" senid="41" />
+<TLINK id="TL56" fromID="E63" fromText="initial work-up" toID="E124" toText="liver transplant" type="BEFORE" senid="50" />
+<TLINK id="TL57" fromID="E63" fromText="initial work-up" toID="E123" toText="the hospital" type="OVERLAP" senid="50" />
+<TLINK id="TL58" fromID="E64" fromText="echocardiogram" toID="E63" toText="initial work-up" type="OVERLAP" senid="50" />
+<TLINK id="TL59" fromID="E65" fromText="electrocardiogram" toID="E63" toText="initial work-up" type="OVERLAP" senid="50" />
+<TLINK id="TL60" fromID="E66" fromText="serology studies" toID="E63" toText="initial work-up" type="OVERLAP" senid="50" />
+<TLINK id="TL61" fromID="E58" fromText="His creatinine levels" toID="E117" toText="trended toward normal" type="OVERLAP" senid="47" />
+<TLINK id="TL62" fromID="E59" fromText="the fractional excretion of sodium" toID="E118" toText="increased indicating" type="OVERLAP" senid="47" />
+<TLINK id="TL63" fromID="E117" fromText="trended toward normal" toID="E118" toText="increased indicating" type="OVERLAP" senid="47" />
+<TLINK id="TL64" fromID="E118" fromText="increased indicating" toID="E119" toText="the prerenal kidney failure" type="AFTER" senid="47" />
+<TLINK id="TL65" fromID="E11" fromText="a distal stricture of the common bile duct" toID="E10" toText="cholangiogram" type="BEFORE" senid="15" />
+<TLINK id="TL66" fromID="T10" fromText="that time" toID="E10" toText="cholangiogram" type="OVERLAP" senid="15" />
+<TLINK id="TL67" fromID="E89" fromText="similar findings" toID="E11" toText="a distal stricture of the common bile duct" type="OVERLAP" senid="15" />
+<TLINK id="TL68" fromID="E55" fromText="prerenal azotemia" toID="E54" toText="intravenous albumin" type="OVERLAP" senid="43" />
+<TLINK id="TL69" fromID="E98" fromText="blood" toID="E101" toText="culture" type="BEFORE" senid="28" />
+<TLINK id="TL70" fromID="E99" fromText="urine" toID="E101" toText="culture" type="BEFORE" senid="28" />
+<TLINK id="TL71" fromID="E100" fromText="bile" toID="E101" toText="culture" type="BEFORE" senid="28" />
+<TLINK id="TL72" fromID="E101" fromText="culture" toID="T11" toText="the time" type="OVERLAP" senid="28" />
+<TLINK id="TL73" fromID="E102" fromText="all negative" toID="E101" toText="culture" type="OVERLAP" senid="28" />
+<TLINK id="TL74" fromID="E0" fromText="Admission" toID="T1" toText="2009-08-17" type="OVERLAP" senid="2" />
+<TLINK id="TL75" fromID="E52" fromText="oxygen requirement" toID="E105" toText="weaned" type="BEFORE" senid="42" />
+<TLINK id="TL76" fromID="E53" fromText="normal saline boluses" toID="E55" toText="prerenal azotemia" type="OVERLAP" senid="42" />
+<TLINK id="TL77" fromID="E1" fromText="primary sclerosing cholangitis" toID="E67" toText="presented" type="BEFORE" senid="8" />
+<TLINK id="TL78" fromID="E86" fromText="endoscopic retrograde cholangiopancreatography" toID="E85" toText="chief complaint" type="OVERLAP" senid="8" />
+<TLINK id="TL79" fromID="E87" fromText="percutaneous transhepatic cholangiogram" toID="E85" toText="chief complaint" type="OVERLAP" senid="8" />
+<TLINK id="TL80" fromID="E67" fromText="presented" toID="E85" toText="chief complaint" type="AFTER" senid="8" />
+<TLINK id="TL81" fromID="E74" fromText="the floor" toID="E22" toText="the procedure" type="AFTER" senid="25" />
+<TLINK id="TL82" fromID="E75" fromText="stable condition" toID="E22" toText="the procedure" type="AFTER" senid="25" />
+<TLINK id="TL83" fromID="E96" fromText="postoperative course" toID="E22" toText="the procedure" type="AFTER" senid="25" />
+<TLINK id="TL84" fromID="E75" fromText="stable condition" toID="E74" toText="the floor" type="BEFORE" senid="25" />
+<TLINK id="TL85" fromID="E46" fromText="Zosyn" toID="E47" toText="empiric treatment" type="OVERLAP" senid="40" />
+<TLINK id="TL86" fromID="E28" fromText="Fractional excretion of sodium" toID="E103" toText="a prerenal etiology" type="AFTER" senid="31" />
+<TLINK id="TL87" fromID="E93" fromText="regional lymph nodes" toID="E94" toText="pathology" type="OVERLAP" senid="21" />
+<TLINK id="TL88" fromID="E19" fromText="malignancy" toID="E94" toText="pathology" type="BEFORE" senid="21" />
+<TLINK id="TL89" fromID="E125" fromText="proximal common bile duct" toID="E68" toText="showed" type="BEFORE" senid="11" />
+<TLINK id="TL90" fromID="E5" fromText="The endoscopic retrograde cholangiopancreatography" toID="E68" toText="showed" type="OVERLAP" senid="11" />
+<TLINK id="TL91" fromID="E9" fromText="a replacement of transhepatic biliary drainage catheter" toID="E71" toText="admitted" type="BEFORE" senid="14" />
+<TLINK id="TL92" fromID="E71" fromText="admitted" toID="T4" toText="2009-08-17" type="OVERLAP" senid="14" />
+<TLINK id="TL93" fromID="E23" fromText="Unasyn" toID="E24" toText="empiric antibiotic treatment" type="OVERLAP" senid="27" />
+<TLINK id="TL94" fromID="T15" fromText="the time" toID="E121" toText="good po" type="OVERLAP" senid="49" />
+<TLINK id="TL95" fromID="E60" fromText="a PICC line" toID="E61" toText="Rocephin" type="BEFORE" senid="49" />
+<TLINK id="TL96" fromID="E122" fromText="help him to administer" toID="E62" toText="these medications" type="OVERLAP" senid="49" />
+<TLINK id="TL97" fromID="E12" fromText="An endoscopic retrograde cholangiopancreatography" toID="E81" toText="demonstrated" type="OVERLAP" senid="16" />
+<TLINK id="TL98" fromID="E81" fromText="demonstrated" toID="E12" toText="An endoscopic retrograde cholangiopancreatography" type="OVERLAP" senid="16" />
+<TLINK id="TL99" fromID="E89" fromText="similar findings" toID="E81" toText="demonstrated" type="BEFORE" senid="16" />
+<TLINK id="TL100" fromID="E89" fromText="similar findings" toID="E13" toText="nodularity in the common bile duct" type="OVERLAP" senid="16" />
+<TLINK id="TL101" fromID="E42" fromText="paracentesis" toID="E78" toText="the Surgical Intensive Care Unit" type="OVERLAP" senid="38" />
+<TLINK id="TL102" fromID="E79" fromText="revealed" toID="E42" toText="paracentesis" type="OVERLAP" senid="38" />
+<TLINK id="TL103" fromID="T14" fromText="postoperative day number 17" toID="E120" toText="discharged" type="OVERLAP" senid="48" />
+<TLINK id="TL104" fromID="E83" fromText="responded well" toID="E32" toText="this regimen" type="AFTER" senid="33" />
+<TLINK id="TL105" fromID="E104" fromText="adequate urine output" toID="E83" toText="responded well" type="AFTER" senid="33" />
+<TLINK id="TL106" fromID="E2" fromText="The most recent percutaneous transluminal coronary angioplasty" toID="T3" toText="2009-07-25" type="OVERLAP" senid="9" />
+<TLINK id="TL107" fromID="E97" fromText="white blood cell count" toID="E96" toText="postoperative course" type="OVERLAP" senid="26" />
+<TLINK id="TL108" fromID="E97" fromText="white blood cell count" toID="T7" toText="postoperative day number two" type="OVERLAP" senid="26" />
+<TLINK id="TL109" fromID="E23" fromText="Unasyn" toID="E96" toText="postoperative course" type="AFTER" senid="26" />
+<TLINK id="TL110" fromID="E30" fromText="boluses of intravenous fluid" toID="E29" toText="The sodium creatinine" type="AFTER" senid="32" />
+<TLINK id="TL111" fromID="E31" fromText="intravenous albumin infusion" toID="E29" toText="The sodium creatinine" type="AFTER" senid="32" />
+<TLINK id="TL112" fromID="E32" fromText="this regimen" toID="E30" toText="boluses of intravenous fluid" type="OVERLAP" senid="32" />
+<TLINK id="TL113" fromID="E32" fromText="this regimen" toID="E31" toText="intravenous albumin infusion" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

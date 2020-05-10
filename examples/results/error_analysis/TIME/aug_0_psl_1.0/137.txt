@@ -1,0 +1,128 @@
+e1 id: E26; e2 id: E27; e1 text: zosyn; e2 text: culture
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: E22; e1 text: deep venous thrombosis; e2 text: A left lower extremity ultrasound
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E102; e2 id: E47; e1 text: cardioverted; e2 text: The TEE
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E100; e1 text: cardioversion; e2 text: The EP service
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E47; e2 id: E48; e1 text: The TEE; e2 text: thrombus
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E82; e1 text: denied; e2 text: chest pain
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E83; e1 text: denied; e2 text: shortness of breath
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E84; e1 text: denied; e2 text: palpitations
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E85; e1 text: denied; e2 text: abdominal pain
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E86; e1 text: denied; e2 text: N/V
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E30; e2 id: E31; e1 text: oral levofloxacin; e2 text: the infection
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E31; e2 id: E94; e1 text: the infection; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E16; e2 id: E92; e1 text: cellulitis; e2 text: admissions
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E17; e2 id: E92; e1 text: bacteremia; e2 text: admissions
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E19; e2 id: E18; e1 text: Beta streptococcus Group B; e2 text: Blood cultures
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E53; e2 id: E52; e1 text: inadequate absorption; e2 text: several asymptomatic electrolyte deficiecies
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E52; e2 id: E55; e1 text: several asymptomatic electrolyte deficiecies; e2 text: repletion
+ground truth: AFTER; prediction: BEFORE
+This relation involves in BBB
+
+e1 id: E110; e2 id: E107; e1 text: amiodarone; e2 text: EKG
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E51; e2 id: E106; e1 text: amiodarone; e2 text: effect
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E79; e2 id: E78; e1 text: painful urination; e2 text: Review of systems
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E80; e2 id: E78; e1 text: a reduction in urine output; e2 text: Review of systems
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E95; e1 text: intravenous diltiazam; e2 text: atrial fibrillation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E38; e2 id: E95; e1 text: metoprolol; e2 text: atrial fibrillation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E11; e2 id: E12; e1 text: a diltiazam drip; e2 text: atrial fibrillation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E116; e2 id: T7; e1 text: parathyroid tests; e2 text: the time
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E74; e2 id: T1; e1 text: noted; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E71; e2 id: T1; e1 text: fever; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E72; e2 id: T1; e1 text: chills; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E73; e2 id: T1; e1 text: left lower extemity redness; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T5; e2 id: E33; e1 text: 2 week course; e2 text: a PICC line
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E115; e2 id: T2; e1 text: Vitamin D; e2 text: 2015-10-21
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E116; e2 id: T2; e1 text: parathyroid tests; e2 text: 2015-10-21
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E118; e2 id: T2; e1 text: a King of Hearts monitor; e2 text: 2015-10-21
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E42; e2 id: E41; e1 text: IV metoprolol; e2 text: rapid atrial fibrillation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E82; e2 id: T1; e1 text: chest pain; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E83; e2 id: T1; e1 text: shortness of breath; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E84; e2 id: T1; e1 text: palpitations; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E85; e2 id: T1; e1 text: abdominal pain; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E86; e2 id: T1; e1 text: N/V; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E87; e2 id: T1; e1 text: penile discharge; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E78; e2 id: T1; e1 text: Review of systems; e2 text: 2015-10-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E68; e2 id: T2; e1 text: discharged; e2 text: 2015-10-21
+ground truth: OVERLAP; prediction: BEFORE
+

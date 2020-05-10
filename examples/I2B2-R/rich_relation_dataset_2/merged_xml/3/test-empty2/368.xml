@@ -149,5 +149,87 @@ She will be discharged to home and will be seen in follow-up by her regular phys
 <TIMEX3 id="T4" start="746" end="753" text="1/12/92" type="DATE" val="1992-01-12" mod="NA" />
 <SECTIME id="S0" start="18" end="26" text="01-11-92" type="ADMISSION" dvalue="1992-01-11" />
 <SECTIME id="S1" start="44" end="52" text="01-22-92" type="DISCHARGE" dvalue="1992-01-22" />
+<TLINK id="TL1" fromID="E52" fromText="the needle jejunostomy tube" toID="T7" toText="the time" type="BEFORE" senid="23" />
+<TLINK id="TL2" fromID="E52" fromText="the needle jejunostomy tube" toID="E53" toText="discharge" type="BEFORE" senid="23" />
+<TLINK id="TL3" fromID="E52" fromText="the needle jejunostomy tube" toID="T6" toText="the first postoperative day" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E49" fromText="Her wounds" toID="E50" toText="healed" type="OVERLAP" senid="23" />
+<TLINK id="TL5" fromID="E49" fromText="Her wounds" toID="E51" toText="incident" type="OVERLAP" senid="23" />
+<TLINK id="TL6" fromID="E54" fromText="Vivonex T.E.N." toID="E52" toText="the needle jejunostomy tube" type="OVERLAP" senid="23" />
+<TLINK id="TL7" fromID="E87" fromText="discharge" toID="T12" toText="the 11th postoperative day" type="OVERLAP" senid="34" />
+<TLINK id="TL8" fromID="E23" fromText="admitted" toID="E24" toText="the operating room" type="BEFORE" senid="13" />
+<TLINK id="TL9" fromID="T4" fromText="1/12/92" toID="E23" toText="admitted" type="AFTER" senid="13" />
+<TLINK id="TL10" fromID="E56" fromText="this" toID="E55" toText="tolerated" type="OVERLAP" senid="24" />
+<TLINK id="TL11" fromID="E57" fromText="difficulty" toID="E55" toText="tolerated" type="OVERLAP" senid="24" />
+<TLINK id="TL12" fromID="E41" fromText="unremarkable" toID="E115" toText="metastatic spread" type="OVERLAP" senid="20" />
+<TLINK id="TL13" fromID="E35" fromText="the cancer" toID="E101" toText="a large mass" type="OVERLAP" senid="18" />
+<TLINK id="TL14" fromID="E101" fromText="a large mass" toID="E37" toText="perigastric lymph nodes" type="OVERLAP" senid="18" />
+<TLINK id="TL15" fromID="E38" fromText="the specimen" toID="E37" toText="perigastric lymph nodes" type="OVERLAP" senid="18" />
+<TLINK id="TL16" fromID="E38" fromText="the specimen" toID="E40" toText="the specimen" type="OVERLAP" senid="18" />
+<TLINK id="TL17" fromID="E49" fromText="Her wounds" toID="E47" toText="postoperative course" type="OVERLAP" senid="22" />
+<TLINK id="TL18" fromID="E47" fromText="postoperative course" toID="E48" toText="unremarkable" type="OVERLAP" senid="22" />
+<TLINK id="TL19" fromID="E97" fromText="follow-up" toID="E96" toText="discharged to home" type="AFTER" senid="36" />
+<TLINK id="TL20" fromID="T3" fromText="the past several months" toID="E19" toText="reports" type="BEFORE" senid="10" />
+<TLINK id="TL21" fromID="E20" fromText="a 10 pound weight loss" toID="T3" toText="the past several months" type="OVERLAP" senid="10" />
+<TLINK id="TL22" fromID="E88" fromText="some dysuria" toID="E89" toText="a urine specimen" type="BEFORE" senid="35" />
+<TLINK id="TL23" fromID="E90" fromText="numerous white cells" toID="E89" toText="a urine specimen" type="OVERLAP" senid="35" />
+<TLINK id="TL24" fromID="E91" fromText="a urinary tract infection" toID="E92" toText="Bactrim" type="BEFORE" senid="35" />
+<TLINK id="TL25" fromID="E92" fromText="Bactrim" toID="E92" toText="Bactrim" type="OVERLAP" senid="35" />
+<TLINK id="TL26" fromID="E92" fromText="Bactrim" toID="T13" toText="the day prior to discharge" type="OVERLAP" senid="35" />
+<TLINK id="TL27" fromID="E92" fromText="Bactrim" toID="E92" toText="Bactrim" type="OVERLAP" senid="35" />
+<TLINK id="TL28" fromID="E88" fromText="some dysuria" toID="T13" toText="the day prior to discharge" type="BEFORE" senid="35" />
+<TLINK id="TL29" fromID="E90" fromText="numerous white cells" toID="E91" toText="a urinary tract infection" type="OVERLAP" senid="35" />
+<TLINK id="TL30" fromID="E93" fromText="culture" toID="E94" toText="sensitivity" type="OVERLAP" senid="35" />
+<TLINK id="TL31" fromID="E94" fromText="sensitivity" toID="E95" toText="pending" type="BEFORE" senid="35" />
+<TLINK id="TL32" fromID="E95" fromText="pending" toID="T13" toText="the day prior to discharge" type="AFTER" senid="35" />
+<TLINK id="TL33" fromID="E74" fromText="confusion" toID="T11" toText="the early postoperative period" type="OVERLAP" senid="29" />
+<TLINK id="TL34" fromID="E75" fromText="a sundowning effect" toID="E74" toText="confusion" type="OVERLAP" senid="29" />
+<TLINK id="TL35" fromID="E113" fromText="jejunostomy catheter" toID="E34" toText="postoperative nutrition" type="OVERLAP" senid="17" />
+<TLINK id="TL36" fromID="E113" fromText="jejunostomy catheter" toID="E33" toText="her operation" type="OVERLAP" senid="17" />
+<TLINK id="TL37" fromID="E8" fromText="healthy" toID="E3" toText="dysphagia" type="OVERLAP" senid="6" />
+<TLINK id="TL38" fromID="T2" fromText="3 month" toID="E1" toText="presents" type="BEFORE" senid="6" />
+<TLINK id="TL39" fromID="E3" fromText="dysphagia" toID="T2" toText="3 month" type="OVERLAP" senid="6" />
+<TLINK id="TL40" fromID="E107" fromText="a small ventral hernia" toID="E28" toText="abdominal exploration" type="BEFORE" senid="15" />
+<TLINK id="TL41" fromID="E107" fromText="a small ventral hernia" toID="E30" toText="This" type="OVERLAP" senid="15" />
+<TLINK id="TL42" fromID="E28" fromText="abdominal exploration" toID="E29" toText="a previous surgical incision" type="AFTER" senid="15" />
+<TLINK id="TL43" fromID="E69" fromText="her wounds" toID="E72" toText="the staples" type="OVERLAP" senid="28" />
+<TLINK id="TL44" fromID="E72" fromText="the staples" toID="T10" toText="the 10th postoperative day" type="BEFORE" senid="28" />
+<TLINK id="TL45" fromID="E69" fromText="her wounds" toID="E70" toText="healed" type="OVERLAP" senid="28" />
+<TLINK id="TL46" fromID="E70" fromText="healed" toID="E71" toText="incident" type="OVERLAP" senid="28" />
+<TLINK id="TL47" fromID="E13" fromText="Endoscopy" toID="E16" toText="referred" type="BEFORE" senid="8" />
+<TLINK id="TL48" fromID="E13" fromText="Endoscopy" toID="E14" toText="biopsy" type="OVERLAP" senid="8" />
+<TLINK id="TL49" fromID="E18" fromText="this carcinoma" toID="E15" toText="gastric carcinoma" type="OVERLAP" senid="8" />
+<TLINK id="TL50" fromID="E116" fromText="nasogastric tube" toID="T9" toText="the 3rd postoperative day" type="BEFORE" senid="25" />
+<TLINK id="TL51" fromID="E59" fromText="the passage of flatus" toID="E116" toText="nasogastric tube" type="AFTER" senid="25" />
+<TLINK id="TL52" fromID="E61" fromText="a liquid diet" toID="E117" toText="bowel sounds" type="AFTER" senid="25" />
+<TLINK id="TL53" fromID="E59" fromText="the passage of flatus" toID="E117" toText="bowel sounds" type="OVERLAP" senid="25" />
+<TLINK id="TL54" fromID="E80" fromText="Surgical pathology report" toID="E81" toText="discharge" type="OVERLAP" senid="31" />
+<TLINK id="TL55" fromID="E82" fromText="poorly differentiated adenocarcinoma" toID="E80" toText="Surgical pathology report" type="BEFORE" senid="31" />
+<TLINK id="TL56" fromID="E82" fromText="poorly differentiated adenocarcinoma" toID="E85" toText="Metastatic carcinoma" type="OVERLAP" senid="31" />
+<TLINK id="TL57" fromID="E83" fromText="ulcerating" toID="E82" toText="poorly differentiated adenocarcinoma" type="OVERLAP" senid="31" />
+<TLINK id="TL58" fromID="E84" fromText="extending" toID="E83" toText="ulcerating" type="OVERLAP" senid="31" />
+<TLINK id="TL59" fromID="E44" fromText="the procedure" toID="E45" toText="the recovery room" type="BEFORE" senid="21" />
+<TLINK id="TL60" fromID="E44" fromText="the procedure" toID="E47" toText="postoperative course" type="BEFORE" senid="21" />
+<TLINK id="TL61" fromID="E44" fromText="the procedure" toID="E43" toText="tolerated" type="OVERLAP" senid="21" />
+<TLINK id="TL62" fromID="E45" fromText="the recovery room" toID="E46" toText="good condition" type="AFTER" senid="21" />
+<TLINK id="TL63" fromID="E76" fromText="These problems" toID="T14" toText="the 4th or 5th postoperative day" type="BEFORE" senid="30" />
+<TLINK id="TL64" fromID="E77" fromText="lucid" toID="T14" toText="the 4th or 5th postoperative day" type="AFTER" senid="30" />
+<TLINK id="TL65" fromID="E78" fromText="alert" toID="E77" toText="lucid" type="OVERLAP" senid="30" />
+<TLINK id="TL66" fromID="E21" fromText="denies" toID="E22" toText="any abdominal pain" type="AFTER" senid="11" />
+<TLINK id="TL67" fromID="T4" fromText="1/12/92" toID="E24" toText="the operating room" type="OVERLAP" senid="14" />
+<TLINK id="TL68" fromID="E25" fromText="a neart total gastrectomy" toID="E24" toText="the operating room" type="OVERLAP" senid="14" />
+<TLINK id="TL69" fromID="E26" fromText="a retrocolic Bill-Roth II gastrojejunostomy reconstruction" toID="E25" toText="a neart total gastrectomy" type="OVERLAP" senid="14" />
+<TLINK id="TL70" fromID="E68" fromText="assistance" toID="E66" toText="discharge" type="BEFORE" senid="27" />
+<TLINK id="TL71" fromID="E63" fromText="Her ambulation" toID="E64" toText="mobilization" type="OVERLAP" senid="27" />
+<TLINK id="TL72" fromID="E64" fromText="mobilization" toID="E65" toText="increased" type="OVERLAP" senid="27" />
+<TLINK id="TL73" fromID="E66" fromText="discharge" toID="E67" toText="walking" type="AFTER" senid="27" />
+<TLINK id="TL74" fromID="E68" fromText="assistance" toID="E67" toText="walking" type="OVERLAP" senid="27" />
+<TLINK id="TL75" fromID="E30" fromText="This" toID="E31" toText="repaired" type="BEFORE" senid="16" />
+<TLINK id="TL76" fromID="E16" fromText="referred" toID="E17" toText="resection" type="BEFORE" senid="9" />
+<TLINK id="TL77" fromID="E18" fromText="this carcinoma" toID="E17" toText="resection" type="BEFORE" senid="9" />
+<TLINK id="TL78" fromID="E12" fromText="a gastric mass" toID="E10" toText="upper gastrointestinal series" type="OVERLAP" senid="7" />
+<TLINK id="TL79" fromID="E12" fromText="a gastric mass" toID="E11" toText="abdominal computerized tomography scan" type="BEFORE" senid="7" />
+<TLINK id="TL80" fromID="E102" fromText="A subsequent workup" toID="E11" toText="abdominal computerized tomography scan" type="OVERLAP" senid="7" />
+<TLINK id="TL81" fromID="E10" fromText="upper gastrointestinal series" toID="E102" toText="A subsequent workup" type="OVERLAP" senid="7" />
+<TLINK id="TL82" fromID="E12" fromText="a gastric mass" toID="E15" toText="gastric carcinoma" type="OVERLAP" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

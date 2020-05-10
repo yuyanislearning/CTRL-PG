@@ -214,5 +214,97 @@ Contacts - son 506-1596
 <TIMEX3 id="T2" start="46" end="56" text="2015-07-09" type="DATE" val="2015-07-09" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2015-06-29" type="ADMISSION" dvalue="2015-06-29" />
 <SECTIME id="S1" start="46" end="56" text="2015-07-09" type="DISCHARGE" dvalue="2015-07-09" />
+<TLINK id="TL1" fromID="E35" fromText="Hicks" toID="E34" toText="bblocker" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E36" fromText="statin" toID="E34" toText="bblocker" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E37" fromText="plavix" toID="E34" toText="bblocker" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E80" fromText="DVT" toID="E81" toText="heparin" type="OVERLAP" senid="53" />
+<TLINK id="TL5" fromID="E82" fromText="clots" toID="E80" toText="DVT" type="AFTER" senid="53" />
+<TLINK id="TL6" fromID="E57" fromText="Shortness of Breath" toID="E60" toText="chronic shortness of breath" type="OVERLAP" senid="34" />
+<TLINK id="TL7" fromID="E58" fromText="loculated Effusion" toID="E57" toText="Shortness of Breath" type="OVERLAP" senid="34" />
+<TLINK id="TL8" fromID="E58" fromText="loculated Effusion" toID="E59" toText="increaing loculated pleural effusion" type="OVERLAP" senid="34" />
+<TLINK id="TL9" fromID="E9" fromText="the patients pain" toID="E10" toText="NTG" type="BEFORE" senid="13" />
+<TLINK id="TL10" fromID="E11" fromText="morphine" toID="E10" toText="NTG" type="OVERLAP" senid="13" />
+<TLINK id="TL11" fromID="E12" fromText="ASA" toID="E100" toText="the Amanda" type="AFTER" senid="13" />
+<TLINK id="TL12" fromID="E13" fromText="bblocker" toID="E100" toText="the Amanda" type="AFTER" senid="13" />
+<TLINK id="TL13" fromID="E38" fromText="BP meds" toID="E39" toText="unstable" type="OVERLAP" senid="24" />
+<TLINK id="TL14" fromID="E40" fromText="ASA" toID="E33" toText="asa" type="OVERLAP" senid="24" />
+<TLINK id="TL15" fromID="E41" fromText="plavix" toID="E37" toText="plavix" type="OVERLAP" senid="24" />
+<TLINK id="TL16" fromID="E27" fromText="EKG" toID="E28" toText="pain" type="OVERLAP" senid="20" />
+<TLINK id="TL17" fromID="E26" fromText="changes" toID="E27" toText="EKG" type="OVERLAP" senid="20" />
+<TLINK id="TL18" fromID="E27" fromText="EKG" toID="E110" toText="EKG" type="OVERLAP" senid="20" />
+<TLINK id="TL19" fromID="E24" fromText="pain" toID="E25" toText="his anginal equivalent" type="OVERLAP" senid="19" />
+<TLINK id="TL20" fromID="E24" fromText="pain" toID="E28" toText="pain" type="OVERLAP" senid="19" />
+<TLINK id="TL21" fromID="E20" fromText="Chest Pain" toID="E21" toText="Ischemia" type="OVERLAP" senid="18" />
+<TLINK id="TL22" fromID="E20" fromText="Chest Pain" toID="E24" toText="pain" type="OVERLAP" senid="18" />
+<TLINK id="TL23" fromID="E62" fromText="serous exudative fluid" toID="E61" toText="thoracentesis" type="BEFORE" senid="37" />
+<TLINK id="TL24" fromID="E118" fromText="improved breathing" toID="E61" toText="thoracentesis" type="BEFORE" senid="37" />
+<TLINK id="TL25" fromID="E61" fromText="thoracentesis" toID="T6" toText="2015-07-01" type="OVERLAP" senid="37" />
+<TLINK id="TL26" fromID="E117" fromText="revealing" toID="E61" toText="thoracentesis" type="OVERLAP" senid="37" />
+<TLINK id="TL27" fromID="E125" fromText="continued to bleed" toID="E70" toText="the tube" type="OVERLAP" senid="46" />
+<TLINK id="TL28" fromID="E68" fromText="chest tube" toID="E124" toText="Thoracics consulted" type="AFTER" senid="44" />
+<TLINK id="TL29" fromID="E69" fromText="Frank blood" toID="E68" toText="chest tube" type="BEFORE" senid="44" />
+<TLINK id="TL30" fromID="E6" fromText="the pain" toID="E9" toText="the patients pain" type="OVERLAP" senid="12" />
+<TLINK id="TL31" fromID="E135" fromText="PE" toID="E84" toText="CTA" type="BEFORE" senid="55" />
+<TLINK id="TL32" fromID="E31" fromText="an irreversible deficit" toID="E30" toText="a stress test" type="BEFORE" senid="22" />
+<TLINK id="TL33" fromID="E31" fromText="an irreversible deficit" toID="E32" toText="his prior known IMI" type="AFTER" senid="22" />
+<TLINK id="TL34" fromID="E30" fromText="a stress test" toID="E111" toText="revealed" type="OVERLAP" senid="22" />
+<TLINK id="TL35" fromID="E68" fromText="chest tube" toID="E70" toText="the tube" type="OVERLAP" senid="45" />
+<TLINK id="TL36" fromID="E79" fromText="Hct" toID="E133" toText="removed" type="AFTER" senid="51" />
+<TLINK id="TL37" fromID="E77" fromText="serial CXR" toID="E78" toText="reaccumulation" type="AFTER" senid="51" />
+<TLINK id="TL38" fromID="E85" fromText="Anticoagulaiton" toID="E86" toText="hemothorax" type="OVERLAP" senid="56" />
+<TLINK id="TL39" fromID="E5" fromText="The pain" toID="E98" toText="radiate" type="OVERLAP" senid="10" />
+<TLINK id="TL40" fromID="E5" fromText="The pain" toID="E6" toText="the pain" type="OVERLAP" senid="10" />
+<TLINK id="TL41" fromID="E114" fromText="worsened" toID="T5" toText="the past few days" type="OVERLAP" senid="35" />
+<TLINK id="TL42" fromID="E95" fromText="Discharge" toID="T2" toText="2015-07-09" type="OVERLAP" senid="3" />
+<TLINK id="TL43" fromID="E82" fromText="clots" toID="E83" toText="LENI" type="OVERLAP" senid="54" />
+<TLINK id="TL44" fromID="E16" fromText="CAD" toID="E22" toText="CAD" type="OVERLAP" senid="17" />
+<TLINK id="TL45" fromID="E17" fromText="MI" toID="E23" toText="MI" type="OVERLAP" senid="17" />
+<TLINK id="TL46" fromID="E18" fromText="chest pain" toID="E20" toText="Chest Pain" type="OVERLAP" senid="17" />
+<TLINK id="TL47" fromID="E66" fromText="hemothorax" toID="E65" toText="CT" type="BEFORE" senid="41" />
+<TLINK id="TL48" fromID="E67" fromText="All anticoagulation" toID="E65" toText="CT" type="BEFORE" senid="41" />
+<TLINK id="TL49" fromID="E65" fromText="CT" toID="E120" toText="revealed" type="OVERLAP" senid="41" />
+<TLINK id="TL50" fromID="E76" fromText="the tube" toID="E133" toText="removed" type="BEFORE" senid="50" />
+<TLINK id="TL51" fromID="E133" fromText="removed" toID="E77" toText="serial CXR" type="BEFORE" senid="50" />
+<TLINK id="TL52" fromID="E126" fromText="CMED" toID="E72" toText="Hct" type="AFTER" senid="47" />
+<TLINK id="TL53" fromID="E71" fromText="observation" toID="E126" toText="CMED" type="OVERLAP" senid="47" />
+<TLINK id="TL54" fromID="E72" fromText="Hct" toID="E127" toText="continued to drop" type="OVERLAP" senid="47" />
+<TLINK id="TL55" fromID="E73" fromText="CT" toID="E70" toText="the tube" type="AFTER" senid="47" />
+<TLINK id="TL56" fromID="E103" fromText="nausea" toID="E102" toText="denied" type="BEFORE" senid="15" />
+<TLINK id="TL57" fromID="E104" fromText="vomitting" toID="E102" toText="denied" type="BEFORE" senid="15" />
+<TLINK id="TL58" fromID="E105" fromText="abdominal pain" toID="E102" toText="denied" type="BEFORE" senid="15" />
+<TLINK id="TL59" fromID="E106" fromText="dysuria" toID="E102" toText="denied" type="BEFORE" senid="15" />
+<TLINK id="TL60" fromID="E107" fromText="dizziness" toID="E102" toText="denied" type="BEFORE" senid="15" />
+<TLINK id="TL61" fromID="E108" fromText="changes in vision /hearing" toID="E102" toText="denied" type="BEFORE" senid="15" />
+<TLINK id="TL62" fromID="E102" fromText="denied" toID="E101" toText="my evaluation" type="OVERLAP" senid="15" />
+<TLINK id="TL63" fromID="E49" fromText="EF" toID="E48" toText="Last Echo" type="OVERLAP" senid="28" />
+<TLINK id="TL64" fromID="E87" fromText="coumadin" toID="E94" toText="discharged" type="BEFORE" senid="57" />
+<TLINK id="TL65" fromID="E87" fromText="coumadin" toID="E136" toText="coumadin" type="OVERLAP" senid="57" />
+<TLINK id="TL66" fromID="E136" fromText="coumadin" toID="T7" toText="qday" type="OVERLAP" senid="57" />
+<TLINK id="TL67" fromID="E0" fromText="Admission" toID="T1" toText="2015-06-29" type="OVERLAP" senid="2" />
+<TLINK id="TL68" fromID="E79" fromText="Hct" toID="E134" toText="remained stable" type="OVERLAP" senid="52" />
+<TLINK id="TL69" fromID="E123" fromText="discussed" toID="E65" toText="CT" type="AFTER" senid="42" />
+<TLINK id="TL70" fromID="E2" fromText="DVT" toID="E96" toText="presents" type="BEFORE" senid="8" />
+<TLINK id="TL71" fromID="E3" fromText="substernal chest pain" toID="T0" toText="1 day" type="OVERLAP" senid="8" />
+<TLINK id="TL72" fromID="E3" fromText="substernal chest pain" toID="E4" toText="chest pain" type="OVERLAP" senid="8" />
+<TLINK id="TL73" fromID="E40" fromText="ASA" toID="E42" toText="hemothorax" type="OVERLAP" senid="25" />
+<TLINK id="TL74" fromID="E41" fromText="plavix" toID="E42" toText="hemothorax" type="OVERLAP" senid="25" />
+<TLINK id="TL75" fromID="E65" fromText="CT" toID="E119" toText="dropped" type="OVERLAP" senid="40" />
+<TLINK id="TL76" fromID="E64" fromText="Hct" toID="T3" toText="07-02" type="OVERLAP" senid="40" />
+<TLINK id="TL77" fromID="E119" fromText="dropped" toID="E64" toText="Hct" type="OVERLAP" senid="40" />
+<TLINK id="TL78" fromID="E7" fromText="his prior MI" toID="E6" toText="the pain" type="BEFORE" senid="11" />
+<TLINK id="TL79" fromID="E101" fromText="my evaluation" toID="E100" toText="the Amanda" type="OVERLAP" senid="14" />
+<TLINK id="TL80" fromID="E46" fromText="swelling" toID="E47" toText="DVT" type="OVERLAP" senid="27" />
+<TLINK id="TL81" fromID="E133" fromText="removed" toID="E131" toText="discharge" type="AFTER" senid="49" />
+<TLINK id="TL82" fromID="E74" fromText="Output" toID="E75" toText="cytology" type="BEFORE" senid="49" />
+<TLINK id="TL83" fromID="E132" fromText="output" toID="E74" toText="Output" type="OVERLAP" senid="49" />
+<TLINK id="TL84" fromID="E63" fromText="Cytology" toID="E61" toText="thoracentesis" type="OVERLAP" senid="38" />
+<TLINK id="TL85" fromID="E128" fromText="stablized" toID="E129" toText="output" type="BEFORE" senid="48" />
+<TLINK id="TL86" fromID="E130" fromText="serous" toID="E128" toText="stablized" type="AFTER" senid="48" />
+<TLINK id="TL87" fromID="E74" fromText="Output" toID="E129" toText="output" type="OVERLAP" senid="48" />
+<TLINK id="TL88" fromID="E88" fromText="Lung Cancer" toID="E90" toText="neoadjuvant chemo/XRT" type="BEFORE" senid="58" />
+<TLINK id="TL89" fromID="E88" fromText="Lung Cancer" toID="E89" toText="disease" type="OVERLAP" senid="58" />
+<TLINK id="TL90" fromID="E4" fromText="chest pain" toID="T4" toText="the night" type="OVERLAP" senid="9" />
+<TLINK id="TL91" fromID="E4" fromText="chest pain" toID="E5" toText="The pain" type="OVERLAP" senid="9" />
+<TLINK id="TL92" fromID="E43" fromText="CHF" toID="E112" toText="volume overloaded" type="OVERLAP" senid="26" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

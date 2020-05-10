@@ -1,0 +1,129 @@
+e1 id: E22; e2 id: E15; e1 text: cardiac catheterization data; e2 text: a cardiac catheterization
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E33; e2 id: E63; e1 text: hypertension; e2 text: managed medically
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E93; e2 id: E22; e1 text: a consultation; e2 text: cardiac catheterization data
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E23; e2 id: E93; e1 text: coronary artery bypass grafting; e2 text: a consultation
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E90; e2 id: E60; e1 text: the CCU at the Mass. Eye   Ear Infirmary; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E112; e2 id: E111; e1 text: successfully extubated; e2 text: a very slow wean
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E12; e2 id: E86; e1 text: myocardial infarction; e2 text: EKG changes
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E87; e2 id: E86; e1 text: transferred; e2 text: EKG changes
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E88; e2 id: E87; e1 text: the Mass. Eye   Ear Infirmary; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E34; e2 id: E36; e1 text: intubation; e2 text: a prolonged postoperative intubation
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E41; e2 id: E40; e1 text: a formal tracheostomy; e2 text: an emergent cricothyroidotomy
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E40; e2 id: E121; e1 text: an emergent cricothyroidotomy; e2 text: the outside hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E131; e2 id: E66; e1 text: reduced; e2 text: the outside institution
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: E92; e1 text: CHF; e2 text: medically managed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E109; e2 id: E108; e1 text: a stable antihypertensive regimen; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: E53; e1 text: much edema; e2 text: coronary artery bypass grafting
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E54; e2 id: E132; e1 text: His cast; e2 text: casted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E59; e2 id: T3; e1 text: His hospital course; e2 text: 2014-02-13
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E5; e2 id: E1; e1 text: hematoma formation; e2 text: a right carotid endarterectomy
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E2; e2 id: T3; e1 text: 95% stenosis of the carotid artery; e2 text: 2014-02-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E87; e2 id: E81; e1 text: transferred; e2 text: admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E88; e2 id: E82; e1 text: the Mass. Eye   Ear Infirmary; e2 text: Mass. Eye   Ear Infirmary
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E43; e2 id: E42; e1 text: The study; e2 text: a swallowing study
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E80; e1 text: his tracheostomy; e2 text: decannulated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E118; e2 id: E119; e1 text: the regular patient care floor; e2 text: transfer
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E57; e2 id: E140; e1 text: his injury; e2 text: reassessment
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E142; e2 id: E141; e1 text: the splint; e2 text: removal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E136; e2 id: E54; e1 text: compartment syndrome; e2 text: His cast
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E72; e2 id: E71; e1 text: the St. Anne &#39;s Hospital; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E73; e2 id: E71; e1 text: a transfer; e2 text: admitted
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E95; e2 id: E96; e1 text: CHF; e2 text: managed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E143; e2 id: T9; e1 text: sufficiently stable; e2 text: day number 23
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E144; e2 id: E145; e1 text: His hypertension; e2 text: well controlled
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E146; e2 id: T9; e1 text: tolerating; e2 text: day number 23
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E62; e2 id: E32; e1 text: transferred; e2 text: the procedure
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E101; e2 id: E62; e1 text: the Cardiac Surgery Recovery Unit; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E91; e2 id: E69; e1 text: treated; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E45; e1 text: a formal percutaneous endoscopic gastrostomy tube; e2 text: nasogastric tube
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E82; e2 id: E81; e1 text: Mass. Eye   Ear Infirmary; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E85; e2 id: E84; e1 text: emergent intubation; e2 text: CHF exacerbation
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E148; e2 id: E68; e1 text: rehabilitation .; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E137; e2 id: E56; e1 text: a plaster splint; e2 text: The cast
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E103; e2 id: E32; e1 text: a long postoperative course; e2 text: the procedure
+ground truth: AFTER; prediction: BEFORE
+

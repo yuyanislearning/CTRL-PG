@@ -209,5 +209,118 @@ She may be reached at ( 756 ) 599-4849 .
 <TIMEX3 id="T10" start="888" end="900" text="five minutes" type="TIME" val="2017-09-22T00:05" mod="APPROX" />
 <SECTIME id="S0" start="18" end="28" text="2017-09-22" type="ADMISSION" dvalue="2017-09-22" />
 <SECTIME id="S1" start="46" end="56" text="2017-09-27" type="DISCHARGE" dvalue="2017-09-27" />
+<TLINK id="TL1" fromID="E7" fromText="A second episode" toID="E5" toText="This episode" type="AFTER" senid="23" />
+<TLINK id="TL2" fromID="E5" fromText="This episode" toID="E6" toText="gagging motions" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E15" fromText="pale episodes" toID="E16" toText="AP s" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E67" fromText="depression" toID="E66" toText="Pregnancy" type="OVERLAP" senid="13" />
+<TLINK id="TL5" fromID="E67" fromText="depression" toID="E68" toText="Zoloft" type="OVERLAP" senid="13" />
+<TLINK id="TL6" fromID="E7" fromText="A second episode" toID="E8" toText="pale" type="OVERLAP" senid="24" />
+<TLINK id="TL7" fromID="E113" fromText="appeared well" toID="E112" toText="the newborn nursery" type="BEFORE" senid="20" />
+<TLINK id="TL8" fromID="E112" fromText="the newborn nursery" toID="E3" toText="routine newborn care" type="OVERLAP" senid="20" />
+<TLINK id="TL9" fromID="E114" fromText="the newborn nursery" toID="E112" toText="the newborn nursery" type="OVERLAP" senid="20" />
+<TLINK id="TL10" fromID="E90" fromText="feed ad lib" toID="E91" toText="the Newborn Intensive Care Unit" type="OVERLAP" senid="39" />
+<TLINK id="TL11" fromID="E92" fromText="fed with a bottle" toID="E90" toText="feed ad lib" type="OVERLAP" senid="39" />
+<TLINK id="TL12" fromID="E42" fromText="An EEG" toID="E104" toText="neurological examination" type="OVERLAP" senid="62" />
+<TLINK id="TL13" fromID="E79" fromText="Apgars" toID="E78" toText="repeat cesarean section" type="OVERLAP" senid="19" />
+<TLINK id="TL14" fromID="E113" fromText="appeared well" toID="E78" toText="repeat cesarean section" type="AFTER" senid="19" />
+<TLINK id="TL15" fromID="E77" fromText="Delivery" toID="E78" toText="repeat cesarean section" type="OVERLAP" senid="19" />
+<TLINK id="TL16" fromID="E79" fromText="Apgars" toID="T9" toText="one" type="OVERLAP" senid="19" />
+<TLINK id="TL17" fromID="E79" fromText="Apgars" toID="T10" toText="five minutes" type="OVERLAP" senid="19" />
+<TLINK id="TL18" fromID="E106" fromText="electrographic evidence" toID="E45" toText="seizure activity" type="OVERLAP" senid="65" />
+<TLINK id="TL19" fromID="E75" fromText="Rupture of membranes" toID="T8" toText="time" type="OVERLAP" senid="18" />
+<TLINK id="TL20" fromID="T8" fromText="time" toID="E76" toText="delivery" type="OVERLAP" senid="18" />
+<TLINK id="TL21" fromID="E76" fromText="delivery" toID="E77" toText="Delivery" type="OVERLAP" senid="18" />
+<TLINK id="TL22" fromID="E23" fromText="Head circumference" toID="E22" toText="Birth weight" type="OVERLAP" senid="44" />
+<TLINK id="TL23" fromID="E1" fromText="uncomplicated" toID="E2" toText="HSV outbreak" type="BEFORE" senid="12" />
+<TLINK id="TL24" fromID="T6" fromText="one week" toID="E65" toText="delivery" type="BEFORE" senid="12" />
+<TLINK id="TL25" fromID="E64" fromText="Pregnancy" toID="E1" toText="uncomplicated" type="OVERLAP" senid="12" />
+<TLINK id="TL26" fromID="E2" fromText="HSV outbreak" toID="E64" toText="Pregnancy" type="AFTER" senid="12" />
+<TLINK id="TL27" fromID="E2" fromText="HSV outbreak" toID="T3" toText="2017-09-13" type="OVERLAP" senid="12" />
+<TLINK id="TL28" fromID="T6" fromText="one week" toID="T3" toText="2017-09-13" type="OVERLAP" senid="12" />
+<TLINK id="TL29" fromID="E66" fromText="Pregnancy" toID="E64" toText="Pregnancy" type="OVERLAP" senid="12" />
+<TLINK id="TL30" fromID="E102" fromText="hospitalization" toID="E53" toText="admission" type="OVERLAP" senid="55" />
+<TLINK id="TL31" fromID="E5" fromText="This episode" toID="E4" toText="dusky" type="OVERLAP" senid="22" />
+<TLINK id="TL32" fromID="E24" fromText="length" toID="E23" toText="Head circumference" type="OVERLAP" senid="45" />
+<TLINK id="TL33" fromID="E17" fromText="Blood pressure" toID="E18" toText="a mean" type="OVERLAP" senid="36" />
+<TLINK id="TL34" fromID="E99" fromText="Infant &#39;s blood type" toID="E28" toText="a serum bilirubin" type="OVERLAP" senid="51" />
+<TLINK id="TL35" fromID="E101" fromText="blood products" toID="E102" toText="hospitalization" type="OVERLAP" senid="56" />
+<TLINK id="TL36" fromID="E61" fromText="Hepatitis B surface antigen" toID="E62" toText="rubella" type="OVERLAP" senid="10" />
+<TLINK id="TL37" fromID="E62" fromText="rubella" toID="E63" toText="Group B strep screening" type="OVERLAP" senid="10" />
+<TLINK id="TL38" fromID="E17" fromText="Blood pressure" toID="E16" toText="AP s" type="OVERLAP" senid="35" />
+<TLINK id="TL39" fromID="E54" fromText="Discharge" toID="T2" toText="2017-09-27" type="OVERLAP" senid="3" />
+<TLINK id="TL40" fromID="E53" fromText="admission" toID="E29" toText="a complete blood count" type="OVERLAP" senid="54" />
+<TLINK id="TL41" fromID="E30" fromText="a white count" toID="E29" toText="a complete blood count" type="OVERLAP" senid="54" />
+<TLINK id="TL42" fromID="E31" fromText="polys" toID="E29" toText="a complete blood count" type="OVERLAP" senid="54" />
+<TLINK id="TL43" fromID="E32" fromText="bands ." toID="E29" toText="a complete blood count" type="OVERLAP" senid="54" />
+<TLINK id="TL44" fromID="E33" fromText="Hematocrit" toID="E29" toText="a complete blood count" type="OVERLAP" senid="54" />
+<TLINK id="TL45" fromID="E34" fromText="platelets" toID="E29" toText="a complete blood count" type="OVERLAP" senid="54" />
+<TLINK id="TL46" fromID="E27" fromText="mild physiologic jaundice" toID="E28" toText="a serum bilirubin" type="OVERLAP" senid="50" />
+<TLINK id="TL47" fromID="E28" fromText="a serum bilirubin" toID="T4" toText="day of life three" type="OVERLAP" senid="50" />
+<TLINK id="TL48" fromID="E97" fromText="a direct" toID="E28" toText="a serum bilirubin" type="OVERLAP" senid="50" />
+<TLINK id="TL49" fromID="E96" fromText="frequent spitting episodes" toID="E25" toText="limitation of volume at each feed" type="OVERLAP" senid="47" />
+<TLINK id="TL50" fromID="E72" fromText="sepsis risk factors" toID="E73" toText="GBS" type="OVERLAP" senid="15" />
+<TLINK id="TL51" fromID="E94" fromText="Weight" toID="T12" toText="time" type="OVERLAP" senid="43" />
+<TLINK id="TL52" fromID="T12" fromText="time" toID="E95" toText="discharge" type="OVERLAP" senid="43" />
+<TLINK id="TL53" fromID="E39" fromText="Antibiotics" toID="T15" toText="day of life three" type="BEFORE" senid="59" />
+<TLINK id="TL54" fromID="E39" fromText="Antibiotics" toID="E103" toText="antibiotics" type="OVERLAP" senid="59" />
+<TLINK id="TL55" fromID="E0" fromText="Admission" toID="T1" toText="2017-09-22" type="OVERLAP" senid="2" />
+<TLINK id="TL56" fromID="E46" fromText="Hearing screening" toID="T5" toText="09-23" type="OVERLAP" senid="67" />
+<TLINK id="TL57" fromID="E108" fromText="this left Martha coloboma" toID="E109" toText="an isolated anomaly" type="OVERLAP" senid="71" />
+<TLINK id="TL58" fromID="E109" fromText="an isolated anomaly" toID="E110" toText="other pathology" type="OVERLAP" senid="71" />
+<TLINK id="TL59" fromID="E99" fromText="Infant &#39;s blood type" toID="E100" toText="Coombs" type="OVERLAP" senid="52" />
+<TLINK id="TL60" fromID="E20" fromText="their evaluation" toID="E52" toText="Breast feeding" type="BEFORE" senid="42" />
+<TLINK id="TL61" fromID="E52" fromText="Breast feeding" toID="T11" toText="four to five minutes" type="OVERLAP" senid="42" />
+<TLINK id="TL62" fromID="E21" fromText="gastroesophageal reflux" toID="E52" toText="Breast feeding" type="OVERLAP" senid="42" />
+<TLINK id="TL63" fromID="T0" fromText="38 1/7 weeks" toID="E111" toText="born" type="BEFORE" senid="8" />
+<TLINK id="TL64" fromID="E56" fromText="Serologies" toID="E55" toText="repeat cesarean section" type="OVERLAP" senid="8" />
+<TLINK id="TL65" fromID="E55" fromText="repeat cesarean section" toID="E111" toText="born" type="OVERLAP" senid="8" />
+<TLINK id="TL66" fromID="E8" fromText="pale" toID="E80" toText="blue" type="OVERLAP" senid="25" />
+<TLINK id="TL67" fromID="E19" fromText="some discoordination of his suck" toID="E93" toText="removal of the bottle" type="BEFORE" senid="40" />
+<TLINK id="TL68" fromID="E92" fromText="fed with a bottle" toID="E19" toText="some discoordination of his suck" type="OVERLAP" senid="40" />
+<TLINK id="TL69" fromID="E11" fromText="desaturation" toID="E86" toText="the bottle was pulled" type="OVERLAP" senid="31" />
+<TLINK id="TL70" fromID="E11" fromText="desaturation" toID="E12" toText="desaturations" type="OVERLAP" senid="31" />
+<TLINK id="TL71" fromID="E116" fromText="feeding" toID="E11" toText="desaturation" type="OVERLAP" senid="31" />
+<TLINK id="TL72" fromID="E114" fromText="the newborn nursery" toID="E4" toText="dusky" type="OVERLAP" senid="21" />
+<TLINK id="TL73" fromID="E4" fromText="dusky" toID="E115" toText="feeding" type="OVERLAP" senid="21" />
+<TLINK id="TL74" fromID="E9" fromText="a cardiopulmonary monitor" toID="E49" toText="admission" type="OVERLAP" senid="30" />
+<TLINK id="TL75" fromID="E85" fromText="the Newborn Intensive Care Unit" toID="E49" toText="admission" type="AFTER" senid="30" />
+<TLINK id="TL76" fromID="E85" fromText="the Newborn Intensive Care Unit" toID="E10" toText="pulse oximetry" type="OVERLAP" senid="30" />
+<TLINK id="TL77" fromID="E11" fromText="desaturation" toID="E9" toText="a cardiopulmonary monitor" type="OVERLAP" senid="30" />
+<TLINK id="TL78" fromID="E107" fromText="a coloboma" toID="E108" toText="this left Martha coloboma" type="OVERLAP" senid="70" />
+<TLINK id="TL79" fromID="T7" fromText="day" toID="E69" toText="delivery" type="OVERLAP" senid="14" />
+<TLINK id="TL80" fromID="T7" fromText="day" toID="E71" toText="spontaneous labor" type="AFTER" senid="14" />
+<TLINK id="TL81" fromID="E70" fromText="presented" toID="T7" toText="day" type="OVERLAP" senid="14" />
+<TLINK id="TL82" fromID="E71" fromText="spontaneous labor" toID="E72" toText="sepsis risk factors" type="OVERLAP" senid="14" />
+<TLINK id="TL83" fromID="E83" fromText="the Newborn Intensive Care Unit" toID="E82" toText="transferred" type="AFTER" senid="27" />
+<TLINK id="TL84" fromID="E81" fromText="The Neonatal Intensive Care Unit" toID="E83" toText="the Newborn Intensive Care Unit" type="BEFORE" senid="27" />
+<TLINK id="TL85" fromID="E84" fromText="further evaluation" toID="E83" toText="the Newborn Intensive Care Unit" type="OVERLAP" senid="27" />
+<TLINK id="TL86" fromID="E73" fromText="GBS" toID="E74" toText="maternal fever" type="OVERLAP" senid="16" />
+<TLINK id="TL87" fromID="E40" fromText="seizures" toID="E104" toText="neurological examination" type="BEFORE" senid="61" />
+<TLINK id="TL88" fromID="E40" fromText="seizures" toID="E41" toText="dusky episodes" type="OVERLAP" senid="61" />
+<TLINK id="TL89" fromID="E44" fromText="transient sharp waves in the left front" toID="E43" toText="The EEG" type="BEFORE" senid="64" />
+<TLINK id="TL90" fromID="E105" fromText="showed" toID="E43" toText="The EEG" type="OVERLAP" senid="64" />
+<TLINK id="TL91" fromID="E106" fromText="electrographic evidence" toID="E43" toText="The EEG" type="OVERLAP" senid="64" />
+<TLINK id="TL92" fromID="E90" fromText="feed ad lib" toID="E88" toText="breast feeding ad lib" type="OVERLAP" senid="38" />
+<TLINK id="TL93" fromID="E88" fromText="breast feeding ad lib" toID="E89" toText="the Newborn Nursery" type="OVERLAP" senid="38" />
+<TLINK id="TL94" fromID="E25" fromText="limitation of volume at each feed" toID="E26" toText="frequent feeding" type="OVERLAP" senid="48" />
+<TLINK id="TL95" fromID="T13" fromText="the 48 hours" toID="E87" toText="discharge" type="BEFORE" senid="33" />
+<TLINK id="TL96" fromID="E14" fromText="any further dusky spells" toID="E13" toText="respiratory distress" type="OVERLAP" senid="33" />
+<TLINK id="TL97" fromID="E14" fromText="any further dusky spells" toID="E15" toText="pale episodes" type="OVERLAP" senid="33" />
+<TLINK id="TL98" fromID="E14" fromText="any further dusky spells" toID="T13" toText="the 48 hours" type="OVERLAP" senid="33" />
+<TLINK id="TL99" fromID="E15" fromText="pale episodes" toID="T13" toText="the 48 hours" type="OVERLAP" senid="33" />
+<TLINK id="TL100" fromID="E35" fromText="A blood culture" toID="E38" toText="blood cultures" type="OVERLAP" senid="58" />
+<TLINK id="TL101" fromID="T14" fromText="48 hours" toID="T15" toText="day of life three" type="BEFORE" senid="58" />
+<TLINK id="TL102" fromID="E35" fromText="A blood culture" toID="E51" toText="admission" type="OVERLAP" senid="58" />
+<TLINK id="TL103" fromID="E36" fromText="Ampicillin" toID="T14" toText="48 hours" type="OVERLAP" senid="58" />
+<TLINK id="TL104" fromID="E37" fromText="Gentamicin" toID="T14" toText="48 hours" type="OVERLAP" senid="58" />
+<TLINK id="TL105" fromID="T14" fromText="48 hours" toID="E38" toText="blood cultures" type="OVERLAP" senid="58" />
+<TLINK id="TL106" fromID="E39" fromText="Antibiotics" toID="E36" toText="Ampicillin" type="OVERLAP" senid="58" />
+<TLINK id="TL107" fromID="E56" fromText="Serologies" toID="E58" toText="blood type" type="OVERLAP" senid="9" />
+<TLINK id="TL108" fromID="E59" fromText="antibody" toID="E58" toText="blood type" type="OVERLAP" senid="9" />
+<TLINK id="TL109" fromID="E60" fromText="RPR" toID="E59" toText="antibody" type="OVERLAP" senid="9" />
+<TLINK id="TL110" fromID="E60" fromText="RPR" toID="E61" toText="Hepatitis B surface antigen" type="OVERLAP" senid="9" />
+<TLINK id="TL111" fromID="E42" fromText="An EEG" toID="E43" toText="The EEG" type="OVERLAP" senid="63" />
+<TLINK id="TL112" fromID="E43" fromText="The EEG" toID="E42" toText="An EEG" type="OVERLAP" senid="63" />
+<TLINK id="TL113" fromID="E86" fromText="the bottle was pulled" toID="E13" toText="respiratory distress" type="BEFORE" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

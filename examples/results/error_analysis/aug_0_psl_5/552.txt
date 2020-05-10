@@ -1,0 +1,42 @@
+e1 id: E61; e2 id: E65; e1 text: her blood cultures; e2 text: Further identification
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E77; e2 id: E82; e1 text: an Infectious Disease consult; e2 text: a pelvic ultrasound
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E75; e2 id: E73; e1 text: Her white blood cell count; e2 text: a temperature spike
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E101; e2 id: E100; e1 text: surgical management; e2 text: obtain a second opinion
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E74; e2 id: E73; e1 text: Repeat blood cultures; e2 text: a temperature spike
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E7; e2 id: T3; e1 text: bacterial vaginosis; e2 text: one day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: E89; e1 text: an infected abscess; e2 text: post-surgical change
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E26; e1 text: a CT scan of her abdomen; e2 text: the office
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E87; e2 id: E82; e1 text: Discussion; e2 text: a pelvic ultrasound
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E39; e2 id: E37; e1 text: Periods regular; e2 text: Last menstrual period
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: E11; e1 text: noted; e2 text: increasing abdominal pain
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E23; e2 id: T7; e1 text: nausea; e2 text: the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: T7; e1 text: vomiting; e2 text: the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E32; e2 id: E34; e1 text: Pinewood , Norfolk; e2 text: admission
+ground truth: AFTER; prediction: BEFORE
+

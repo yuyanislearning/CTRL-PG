@@ -152,5 +152,60 @@ Potassium replacement has caused , according to the patient , marked hyperkalemi
 <TIMEX3 id="T7" start="695" end="702" text="per day" type="FREQUENCY" val="RPT24H" mod="NA" />
 <SECTIME id="S0" start="18" end="26" text="11-03-93" type="ADMISSION" dvalue="1993-11-03" />
 <SECTIME id="S1" start="44" end="52" text="11-06-93" type="DISCHARGE" dvalue="1993-11-06" />
+<TLINK id="TL1" fromID="E20" fromText="lowered her cholesterol" toID="E21" toText="changing her diet" type="OVERLAP" senid="13" />
+<TLINK id="TL2" fromID="E31" fromText="Digoxin" toID="T9" toText="q.d." type="OVERLAP" senid="20" />
+<TLINK id="TL3" fromID="E32" fromText="Lasix" toID="T10" toText="b.i.d." type="OVERLAP" senid="20" />
+<TLINK id="TL4" fromID="E34" fromText="Vanceril" toID="T11" toText="b.i.d." type="OVERLAP" senid="20" />
+<TLINK id="TL5" fromID="E63" fromText="a mechanical valve" toID="E64" toText="valve replacement" type="OVERLAP" senid="39" />
+<TLINK id="TL6" fromID="E63" fromText="a mechanical valve" toID="E65" toText="commissurotomy" type="OVERLAP" senid="39" />
+<TLINK id="TL7" fromID="E68" fromText="bleeding source" toID="E67" toText="epistaxis" type="OVERLAP" senid="39" />
+<TLINK id="TL8" fromID="E61" fromText="FEV1" toID="E60" toText="FVC" type="OVERLAP" senid="37" />
+<TLINK id="TL9" fromID="E83" fromText="Lasix" toID="E75" toText="discharged" type="BEFORE" senid="44" />
+<TLINK id="TL10" fromID="E84" fromText="increased" toID="E75" toText="discharged" type="AFTER" senid="44" />
+<TLINK id="TL11" fromID="E80" fromText="mitral commissurotomy" toID="E79" toText="Coumadin" type="AFTER" senid="44" />
+<TLINK id="TL12" fromID="E81" fromText="replacement" toID="E80" toText="mitral commissurotomy" type="OVERLAP" senid="44" />
+<TLINK id="TL13" fromID="E81" fromText="replacement" toID="E82" toText="tricuspid annuloplasty" type="AFTER" senid="44" />
+<TLINK id="TL14" fromID="E15" fromText="smoking" toID="T6" toText="two years" type="OVERLAP" senid="12" />
+<TLINK id="TL15" fromID="E14" fromText="cut down" toID="T6" toText="two years" type="OVERLAP" senid="12" />
+<TLINK id="TL16" fromID="E15" fromText="smoking" toID="E16" toText="smoke" type="OVERLAP" senid="12" />
+<TLINK id="TL17" fromID="E16" fromText="smoke" toID="T7" toText="per day" type="OVERLAP" senid="12" />
+<TLINK id="TL18" fromID="E17" fromText="two puffs" toID="T6" toText="two years" type="OVERLAP" senid="12" />
+<TLINK id="TL19" fromID="E35" fromText="Transdermal nitroglycerin" toID="E36" toText="headache" type="OVERLAP" senid="22" />
+<TLINK id="TL20" fromID="E85" fromText="Potassium replacement" toID="E86" toText="marked hyperkalemia" type="AFTER" senid="45" />
+<TLINK id="TL21" fromID="E45" fromText="markedly elevated" toID="E44" toText="Pulmonary artery pressure" type="OVERLAP" senid="29" />
+<TLINK id="TL22" fromID="E1" fromText="DISCHARGE" toID="T1" toText="11-06-93" type="OVERLAP" senid="3" />
+<TLINK id="TL23" fromID="E28" fromText="a  quot; tumor  quot;" toID="E27" toText="a partial gastrectomy" type="BEFORE" senid="17" />
+<TLINK id="TL24" fromID="E27" fromText="a partial gastrectomy" toID="T8" toText="1972" type="OVERLAP" senid="17" />
+<TLINK id="TL25" fromID="E71" fromText="interventional neuroradiology occlusion" toID="E73" toText="The procedure" type="BEFORE" senid="41" />
+<TLINK id="TL26" fromID="E2" fromText="rheumatic fever" toID="E3" toText="chronic atrial fibrillation" type="OVERLAP" senid="6" />
+<TLINK id="TL27" fromID="T2" fromText="two" toID="E2" toText="rheumatic fever" type="OVERLAP" senid="6" />
+<TLINK id="TL28" fromID="E23" fromText="Vanceril" toID="E24" toText="chronic obstructive pulmonary disease" type="AFTER" senid="15" />
+<TLINK id="TL29" fromID="T13" fromText="three day" toID="E75" toText="discharged" type="BEFORE" senid="43" />
+<TLINK id="TL30" fromID="E77" fromText="re-admission" toID="E75" toText="discharged" type="AFTER" senid="43" />
+<TLINK id="TL31" fromID="E79" fromText="Coumadin" toID="E78" toText="the neuroradiology procedure" type="OVERLAP" senid="43" />
+<TLINK id="TL32" fromID="E76" fromText="hospitalization" toID="T13" toText="three day" type="OVERLAP" senid="43" />
+<TLINK id="TL33" fromID="E77" fromText="re-admission" toID="E78" toText="the neuroradiology procedure" type="OVERLAP" senid="43" />
+<TLINK id="TL34" fromID="T0" fromText="11-03-93" toID="E0" toText="ADMISSION" type="OVERLAP" senid="2" />
+<TLINK id="TL35" fromID="E73" fromText="The procedure" toID="E78" toText="the neuroradiology procedure" type="OVERLAP" senid="42" />
+<TLINK id="TL36" fromID="E7" fromText="anti-platelet agents" toID="E4" toText="Coumadin" type="AFTER" senid="8" />
+<TLINK id="TL37" fromID="E7" fromText="anti-platelet agents" toID="E6" toText="prothrombin time" type="AFTER" senid="8" />
+<TLINK id="TL38" fromID="E4" fromText="Coumadin" toID="E5" toText="bleeding from the mouth and nose" type="OVERLAP" senid="8" />
+<TLINK id="TL39" fromID="E5" fromText="bleeding from the mouth and nose" toID="T3" toText="two" type="OVERLAP" senid="8" />
+<TLINK id="TL40" fromID="T4" fromText="one" toID="E5" toText="bleeding from the mouth and nose" type="OVERLAP" senid="8" />
+<TLINK id="TL41" fromID="E6" fromText="prothrombin time" toID="T4" toText="one" type="OVERLAP" senid="8" />
+<TLINK id="TL42" fromID="E71" fromText="interventional neuroradiology occlusion" toID="E70" toText="Coumadin" type="OVERLAP" senid="40" />
+<TLINK id="TL43" fromID="E72" fromText="referred" toID="E66" toText="seen" type="AFTER" senid="40" />
+<TLINK id="TL44" fromID="E69" fromText="nasal hemorrhage" toID="E70" toText="Coumadin" type="OVERLAP" senid="40" />
+<TLINK id="TL45" fromID="E47" fromText="markedly elevated" toID="E46" toText="Pulmonary capillary wedge pressure" type="OVERLAP" senid="30" />
+<TLINK id="TL46" fromID="E48" fromText="a very large mitral valve gradient" toID="E46" toText="Pulmonary capillary wedge pressure" type="OVERLAP" senid="30" />
+<TLINK id="TL47" fromID="E10" fromText="A Holter" toID="E11" toText="showed" type="OVERLAP" senid="11" />
+<TLINK id="TL48" fromID="E13" fromText="ventricular bigemini" toID="E10" toText="A Holter" type="BEFORE" senid="11" />
+<TLINK id="TL49" fromID="E43" fromText="tricuspid valve gradient" toID="E41" toText="Right atrial pressure" type="OVERLAP" senid="27" />
+<TLINK id="TL50" fromID="E25" fromText="proteinuria" toID="E26" toText="normal creatinine" type="OVERLAP" senid="16" />
+<TLINK id="TL51" fromID="E8" fromText="recurrent syncope" toID="T14" toText="age 6" type="AFTER" senid="9" />
+<TLINK id="TL52" fromID="E42" fromText="tricuspid regurgitation" toID="E38" toText="Cardiac catheterization" type="OVERLAP" senid="26" />
+<TLINK id="TL53" fromID="E38" fromText="Cardiac catheterization" toID="E39" toText="complication" type="OVERLAP" senid="26" />
+<TLINK id="TL54" fromID="E38" fromText="Cardiac catheterization" toID="T12" toText="the day" type="OVERLAP" senid="26" />
+<TLINK id="TL55" fromID="E41" fromText="Right atrial pressure" toID="E38" toText="Cardiac catheterization" type="OVERLAP" senid="26" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

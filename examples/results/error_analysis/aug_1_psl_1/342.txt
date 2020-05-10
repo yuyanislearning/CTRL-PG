@@ -1,0 +1,39 @@
+e1 id: E41; e2 id: E39; e1 text: increasing respiratory distress; e2 text: continuous positive airway pressure
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E20; e2 id: E19; e1 text: Zoloft; e2 text: depression
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E43; e2 id: E42; e1 text: conventional ventilation; e2 text: intubated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E49; e2 id: E43; e1 text: ventilator settings; e2 text: conventional ventilation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E37; e2 id: E36; e1 text: free flow oxygen; e2 text: bulb suctioned
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E35; e2 id: E34; e1 text: dried; e2 text: delivery
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E83; e2 id: E82; e1 text: bilirubin; e2 text: Phototherapy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E8; e2 id: E2; e1 text: Birth weight; e2 text: delivered
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T4; e2 id: E38; e1 text: one minute; e2 text: Apgar scores
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T5; e2 id: E38; e1 text: 5 minutes; e2 text: Apgar scores
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E53; e2 id: E52; e1 text: comfortable work of breathing; e2 text: room air
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: E27; e1 text: spinal anesthesia; e2 text: cesarean section
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E30; e2 id: E26; e1 text: labor or maternal fever; e2 text: Delivery
+ground truth: BEFORE; prediction: AFTER
+

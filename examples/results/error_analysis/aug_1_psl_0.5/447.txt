@@ -1,0 +1,49 @@
+e1 id: E41; e2 id: E107; e1 text: the patient &#39;s hematocrit; e2 text: a repeat
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E19; e2 id: E62; e1 text: her IFEX; e2 text: completed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E69; e2 id: T16; e1 text: held; e2 text: 9-8
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E96; e2 id: E60; e1 text: started; e2 text: Wellla Uxinny : mount Medical Center
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E9; e2 id: E8; e1 text: Cytoxan; e2 text: the fourth cycle
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E116; e2 id: T22; e1 text: chemotherapy; e2 text: 9-28-92
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E28; e2 id: T11; e1 text: 8-10 RBC &#39;s in her urine; e2 text: 1 day
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E28; e2 id: E27; e1 text: 8-10 RBC &#39;s in her urine; e2 text: chemotherapy
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E115; e2 id: E114; e1 text: her attending physiciana; e2 text: discharged
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E113; e2 id: E49; e1 text: significant bump; e2 text: The patient &#39;s hematocrit
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in OOO
+
+e1 id: E113; e2 id: T18; e1 text: significant bump; e2 text: the day of discharge
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in OOO
+
+e1 id: E112; e2 id: T24; e1 text: Coumadin; e2 text: the time of discharge
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E48; e2 id: T24; e1 text: her PT; e2 text: the time of discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E39; e2 id: E66; e1 text: packed RBC; e2 text: counselled
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E66; e2 id: T14; e1 text: counselled; e2 text: 9-10
+ground truth: OVERLAP; prediction: AFTER
+

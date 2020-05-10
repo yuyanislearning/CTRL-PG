@@ -1,0 +1,51 @@
+e1 id: E7; e2 id: E6; e1 text: first trimester ultrasound; e2 text: The baby &#39;s autopsy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E14; e2 id: T9; e1 text: magnesium sulfate; e2 text: 04-12
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E33; e2 id: T13; e1 text: premature Enfamil; e2 text: currently
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E44; e2 id: E90; e1 text: any blood transfusions; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E5; e2 id: E94; e1 text: hydramnios; e2 text: This pregnancy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T12; e2 id: E31; e1 text: day of life No.1; e2 text: D10W
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E70; e2 id: E57; e1 text: increasing polyhydramnios; e2 text: transferred
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E41; e2 id: E40; e1 text: a gavage tube; e2 text: an incidental pass
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: E87; e1 text: good position; e2 text: revealed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E84; e2 id: E39; e1 text: Surgery; e2 text: Bilirubin
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E85; e1 text: Echocardiogram results; e2 text: Cardiology
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T6; e2 id: E11; e1 text: 17; e2 text: fetal surveys
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T7; e2 id: E11; e1 text: 21 weeks; e2 text: fetal surveys
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E82; e1 text: a sodium; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E91; e2 id: T17; e1 text: blood cultures; e2 text: 48 hours
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E30; e2 id: E29; e1 text: Discharge weight; e2 text: Birth weight
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E2; e2 id: E63; e1 text: rubella; e2 text: RPR
+ground truth: BEFORE; prediction: OVERLAP
+

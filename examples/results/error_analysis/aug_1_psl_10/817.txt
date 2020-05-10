@@ -1,0 +1,135 @@
+e1 id: E31; e2 id: E78; e1 text: Digoxin; e2 text: his admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E57; e2 id: E114; e1 text: biliary dilatation; e2 text: reveal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E13; e2 id: E14; e1 text: an increasing heart rate; e2 text: a heart rate
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E13; e2 id: T9; e1 text: an increasing heart rate; e2 text: the two weeks
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E32; e2 id: E106; e1 text: his beta blocker; e2 text: increased
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E103; e2 id: E23; e1 text: his rapid ventricular response; e2 text: the patient &#39;s hypotension
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: E21; e1 text: treatment; e2 text: intravenous fluids
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E120; e2 id: T12; e1 text: extremely fatigued; e2 text: all the night
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E21; e2 id: E102; e1 text: intravenous fluids; e2 text: a dramatic response
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E77; e1 text: intravenous fluids; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E63; e2 id: E62; e1 text: his congestive heart failure; e2 text: vascular congestion
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: T8; e1 text: weaned off; e2 text: early in February
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T9; e2 id: T7; e1 text: the two weeks; e2 text: two weeks prior
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T11; e2 id: T4; e1 text: 20 years; e2 text: mid 1970s
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T11; e2 id: T3; e1 text: 20 years; e2 text: the mid 1950s
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E84; e2 id: E132; e1 text: the Emergency Department; e2 text: sent
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E10; e2 id: E84; e1 text: further evaluation; e2 text: the Emergency Department
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E16; e2 id: E77; e1 text: Hypotension; e2 text: admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E66; e2 id: E124; e1 text: His neurological examination; e2 text: bumped his head
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E95; e2 id: E94; e1 text: fevers; e2 text: denied
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E128; e2 id: E127; e1 text: any extra or intracranial hemorrhage; e2 text: reveal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E70; e2 id: E71; e1 text: rectal bleeding; e2 text: his brachytherapy
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E44; e2 id: E42; e1 text: a cardiac catheterization; e2 text: Chest x-rays
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E67; e2 id: E66; e1 text: atraumatic; e2 text: His neurological examination
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E34; e1 text: his heart rate; e2 text: Verapamil
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E65; e2 id: E121; e1 text: his intravenous pole; e2 text: tripped
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E122; e2 id: E121; e1 text: lost his balance; e2 text: tripped
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E123; e2 id: E122; e1 text: fell; e2 text: lost his balance
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E25; e2 id: E24; e1 text: his rate; e2 text: treatment
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E111; e2 id: E110; e1 text: ischemic cardiomyopathy; e2 text: evaluate the patient &#39;s cardiac arteries
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: E11; e1 text: weaned off; e2 text: chronic mild dyspnea
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E15; e2 id: E92; e1 text: a 10 pound weight gain; e2 text: pillow orthopnea
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E40; e2 id: E79; e1 text: symptomatic; e2 text: diuresed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: E39; e1 text: diuresed; e2 text: intravenous fluids
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E79; e2 id: E40; e1 text: diuresed; e2 text: symptomatic
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E42; e2 id: E41; e1 text: Chest x-rays; e2 text: short of breath
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T12; e2 id: E118; e1 text: all the night; e2 text: a mechanical fall
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E120; e2 id: E118; e1 text: extremely fatigued; e2 text: a mechanical fall
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T6; e2 id: E83; e1 text: two weeks; e2 text: complained
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E132; e2 id: E83; e1 text: sent; e2 text: complained
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E37; e2 id: E108; e1 text: volume overloaded; e2 text: the patient &#39;s admission
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E39; e2 id: E108; e1 text: intravenous fluids; e2 text: the patient &#39;s admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E51; e2 id: E112; e1 text: any cholelithiasis; e2 text: reveal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: E50; e1 text: an magnetic resonance cholangiopancreatography; e2 text: An ultrasound of the right upper quadrant
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E52; e2 id: E113; e1 text: an irregular hepatic contour; e2 text: cholecystitis
+ground truth: OVERLAP; prediction: BEFORE
+

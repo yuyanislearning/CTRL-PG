@@ -1,0 +1,52 @@
+e1 id: E31; e2 id: E29; e1 text: his Digoxin; e2 text: His digoxin
+ground truth: BEFORE; prediction: AFTER
+This relation involves in BOB
+
+e1 id: E31; e2 id: E83; e1 text: his Digoxin; e2 text: found
+ground truth: BEFORE; prediction: AFTER
+This relation involves in BOB
+
+e1 id: E29; e2 id: E31; e1 text: His digoxin; e2 text: his Digoxin
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in BOB
+
+e1 id: E29; e2 id: E83; e1 text: His digoxin; e2 text: found
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in BOB
+
+e1 id: E32; e2 id: E29; e1 text: levels; e2 text: His digoxin
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T9; e2 id: E67; e1 text: several days; e2 text: returned to normal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: E78; e1 text: An echocardiogram; e2 text: found
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T13; e2 id: E59; e1 text: 12/30/09; e2 text: Discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E72; e2 id: T0; e1 text: presented; e2 text: 12/23/2009
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E86; e1 text: abnormalities; e2 text: demonstrated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: T5; e1 text: discharged; e2 text: 12/30/2009
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E82; e2 id: T5; e1 text: the floor; e2 text: 12/30/2009
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E68; e2 id: E52; e1 text: Retelk County Medical Center; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E43; e2 id: E91; e1 text: pO2; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E40; e1 text: An arterial blood gas; e2 text: A chest X-Ray
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T6; e2 id: E0; e1 text: 10/17/09; e2 text: Admission
+ground truth: BEFORE; prediction: OVERLAP
+

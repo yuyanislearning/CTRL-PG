@@ -1,0 +1,60 @@
+e1 id: E67; e2 id: E54; e1 text: Taunton; e2 text: Presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E68; e2 id: E54; e1 text: found; e2 text: Presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E69; e2 id: E54; e1 text: Ct; e2 text: Presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E23; e2 id: E22; e1 text: PPI; e2 text: GERD
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: E66; e1 text: pain in her R arm and hip; e2 text: fell
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E20; e2 id: E19; e1 text: transfusion dependant; e2 text: Anemia
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E13; e2 id: E12; e1 text: injuries to her shoulder and hip; e2 text: Fall
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E2; e2 id: E1; e1 text: a hip and arm fracture; e2 text: a mechanical fall
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E25; e2 id: E24; e1 text: glipizide; e2 text: DM
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E41; e2 id: E40; e1 text: intra-abdominal abscess; e2 text: drainage
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E46; e2 id: E43; e1 text: perforated posterior duodenal ulcer; e2 text: gross soilage with bile and gastric contents
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E7; e2 id: E65; e1 text: the fall; e2 text: dizziness
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E78; e2 id: E29; e1 text: right ORIF of the hip; e2 text: a recent fall
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E56; e2 id: E55; e1 text: noted; e2 text: right wrist fracture ORIF
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E35; e2 id: E29; e1 text: CT scan; e2 text: a recent fall
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E36; e2 id: E30; e1 text: free air; e2 text: abdominal pain
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E81; e2 id: E50; e1 text: spiking fevers; e2 text: ventilatory support
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E83; e2 id: E82; e1 text: mental staus; e2 text: improvement
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E4; e2 id: E1; e1 text: Nicholas seizures; e2 text: a mechanical fall
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E28; e1 text: PMR; e2 text: prednisone
+ground truth: BEFORE; prediction: OVERLAP
+

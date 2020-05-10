@@ -1,0 +1,51 @@
+e1 id: E18; e2 id: T5; e1 text: pacing wires; e2 text: the next day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E15; e2 id: T4; e1 text: scattered rales; e2 text: POD #2
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E16; e2 id: T4; e1 text: temp; e2 text: POD #2
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E45; e2 id: E47; e1 text: Gentle diuresis; e2 text: started
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E47; e1 text: beta blockade; e2 text: started
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E13; e2 id: E25; e1 text: chest tubes; e2 text: Extubated
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E9; e2 id: T0; e1 text: Severe systolic HTN; e2 text: today
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E41; e2 id: T1; e1 text: cabg; e2 text: 2017-06-13
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E40; e2 id: T1; e1 text: Transferred in; e2 text: 2017-06-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E29; e2 id: E20; e1 text: EF; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E3; e2 id: E4; e1 text: abnormal stress test; e2 text: pefusion imaging
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E44; e2 id: E24; e1 text: stable condition; e2 text: Transferred
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E42; e2 id: T2; e1 text: ambulance transfer; e2 text: 2017-06-17
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E52; e2 id: T2; e1 text: VNA services; e2 text: 2017-06-17
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E39; e2 id: T1; e1 text: noted; e2 text: 2017-06-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E36; e2 id: T1; e1 text: Kindred/North Shore; e2 text: 2017-06-13
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: T1; e1 text: showed; e2 text: 2017-06-13
+ground truth: OVERLAP; prediction: BEFORE
+

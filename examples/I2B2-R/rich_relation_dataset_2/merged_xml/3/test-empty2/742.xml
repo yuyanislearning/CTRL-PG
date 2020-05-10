@@ -90,5 +90,60 @@ He is to follow up with providers as per discharge instructions .
 <TIMEX3 id="T4" start="977" end="983" text="POD #2" type="DATE" val="2017-06-15" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2017-06-13" type="ADMISSION" dvalue="2017-06-13" />
 <SECTIME id="S1" start="46" end="56" text="2017-06-17" type="DISCHARGE" dvalue="2017-06-17" />
+<TLINK id="TL1" fromID="E19" fromText="Admission" toID="T1" toText="2017-06-13" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E6" fromText="Echo" toID="E30" toText="scheduled cath" type="BEFORE" senid="10" />
+<TLINK id="TL3" fromID="E31" fromText="mild LVH" toID="E21" toText="showed" type="OVERLAP" senid="10" />
+<TLINK id="TL4" fromID="E7" fromText="inferior HK" toID="E21" toText="showed" type="OVERLAP" senid="10" />
+<TLINK id="TL5" fromID="E32" fromText="EF" toID="E21" toText="showed" type="OVERLAP" senid="10" />
+<TLINK id="TL6" fromID="E33" fromText="mild MR" toID="E21" toText="showed" type="OVERLAP" senid="10" />
+<TLINK id="TL7" fromID="E34" fromText="mild LAE" toID="E21" toText="showed" type="OVERLAP" senid="10" />
+<TLINK id="TL8" fromID="E6" fromText="Echo" toID="E21" toText="showed" type="OVERLAP" senid="10" />
+<TLINK id="TL9" fromID="E35" fromText="Cath" toID="E30" toText="scheduled cath" type="OVERLAP" senid="10" />
+<TLINK id="TL10" fromID="E14" fromText="Foley" toID="T4" toText="POD #2" type="BEFORE" senid="19" />
+<TLINK id="TL11" fromID="E15" fromText="scattered rales" toID="T4" toText="POD #2" type="BEFORE" senid="19" />
+<TLINK id="TL12" fromID="E16" fromText="temp" toID="T4" toText="POD #2" type="BEFORE" senid="19" />
+<TLINK id="TL13" fromID="E53" fromText="follow up" toID="E54" toText="providers" type="OVERLAP" senid="21" />
+<TLINK id="TL14" fromID="E0" fromText="Discharge" toID="T2" toText="2017-06-17" type="OVERLAP" senid="3" />
+<TLINK id="TL15" fromID="E2" fromText="pre-op eval." toID="E28" toText="ventral hernia repair" type="OVERLAP" senid="8" />
+<TLINK id="TL16" fromID="E3" fromText="abnormal stress test" toID="E1" toText="abnormal EKG" type="AFTER" senid="8" />
+<TLINK id="TL17" fromID="E2" fromText="pre-op eval." toID="E1" toText="abnormal EKG" type="OVERLAP" senid="8" />
+<TLINK id="TL18" fromID="E43" fromText="the CSRU" toID="E26" toText="transferred" type="BEFORE" senid="17" />
+<TLINK id="TL19" fromID="E47" fromText="started" toID="E13" toText="chest tubes" type="AFTER" senid="17" />
+<TLINK id="TL20" fromID="E25" fromText="Extubated" toID="T7" toText="early the next morning" type="OVERLAP" senid="17" />
+<TLINK id="TL21" fromID="E13" fromText="chest tubes" toID="E25" toText="Extubated" type="OVERLAP" senid="17" />
+<TLINK id="TL22" fromID="E43" fromText="the CSRU" toID="E24" toText="Transferred" type="AFTER" senid="16" />
+<TLINK id="TL23" fromID="E44" fromText="stable condition" toID="E24" toText="Transferred" type="OVERLAP" senid="16" />
+<TLINK id="TL24" fromID="E11" fromText="phenylephrine" toID="E44" toText="stable condition" type="OVERLAP" senid="16" />
+<TLINK id="TL25" fromID="E12" fromText="propofol drips" toID="E44" toText="stable condition" type="OVERLAP" senid="16" />
+<TLINK id="TL26" fromID="E18" fromText="pacing wires" toID="T5" toText="the next day" type="OVERLAP" senid="20" />
+<TLINK id="TL27" fromID="E51" fromText="excellent progress" toID="E27" toText="discharged" type="BEFORE" senid="20" />
+<TLINK id="TL28" fromID="E17" fromText="Afebrile" toID="T5" toText="the next day" type="OVERLAP" senid="20" />
+<TLINK id="TL29" fromID="E50" fromText="incident" toID="E18" toText="pacing wires" type="OVERLAP" senid="20" />
+<TLINK id="TL30" fromID="E52" fromText="VNA services" toID="T6" toText="POD #4" type="AFTER" senid="20" />
+<TLINK id="TL31" fromID="E45" fromText="Gentle diuresis" toID="E47" toText="started" type="AFTER" senid="18" />
+<TLINK id="TL32" fromID="E46" fromText="beta blockade" toID="E47" toText="started" type="AFTER" senid="18" />
+<TLINK id="TL33" fromID="E26" fromText="transferred" toID="E47" toText="started" type="AFTER" senid="18" />
+<TLINK id="TL34" fromID="E48" fromText="the floor" toID="E26" toText="transferred" type="AFTER" senid="18" />
+<TLINK id="TL35" fromID="E49" fromText="increasing his activity level" toID="E48" toText="the floor" type="AFTER" senid="18" />
+<TLINK id="TL36" fromID="E23" fromText="OR" toID="E24" toText="Transferred" type="BEFORE" senid="15" />
+<TLINK id="TL37" fromID="E23" fromText="OR" toID="E22" toText="Admitted" type="AFTER" senid="15" />
+<TLINK id="TL38" fromID="E23" fromText="OR" toID="E42" toText="ambulance transfer" type="AFTER" senid="15" />
+<TLINK id="TL39" fromID="E10" fromText="cabg" toID="E23" toText="OR" type="OVERLAP" senid="15" />
+<TLINK id="TL40" fromID="E10" fromText="cabg" toID="T3" toText="06-13" type="OVERLAP" senid="15" />
+<TLINK id="TL41" fromID="E8" fromText="80% LM lesion" toID="E37" toText="showed" type="BEFORE" senid="11" />
+<TLINK id="TL42" fromID="E38" fromText="normal LAD , CX , RCA" toID="E37" toText="showed" type="BEFORE" senid="11" />
+<TLINK id="TL43" fromID="E35" fromText="Cath" toID="E36" toText="Kindred/North Shore" type="OVERLAP" senid="11" />
+<TLINK id="TL44" fromID="E35" fromText="Cath" toID="T0" toText="today" type="OVERLAP" senid="11" />
+<TLINK id="TL45" fromID="E35" fromText="Cath" toID="E37" toText="showed" type="OVERLAP" senid="11" />
+<TLINK id="TL46" fromID="E9" fromText="Severe systolic HTN" toID="T0" toText="today" type="BEFORE" senid="11" />
+<TLINK id="TL47" fromID="E40" fromText="Transferred in" toID="E39" toText="noted" type="AFTER" senid="12" />
+<TLINK id="TL48" fromID="E9" fromText="Severe systolic HTN" toID="E39" toText="noted" type="OVERLAP" senid="12" />
+<TLINK id="TL49" fromID="E29" fromText="EF" toID="E20" toText="showed" type="BEFORE" senid="9" />
+<TLINK id="TL50" fromID="E3" fromText="abnormal stress test" toID="E4" toText="pefusion imaging" type="OVERLAP" senid="9" />
+<TLINK id="TL51" fromID="E4" fromText="pefusion imaging" toID="E20" toText="showed" type="OVERLAP" senid="9" />
+<TLINK id="TL52" fromID="E29" fromText="EF" toID="E5" toText="perfusion defects" type="OVERLAP" senid="9" />
+<TLINK id="TL53" fromID="E41" fromText="cabg" toID="E40" toText="Transferred in" type="AFTER" senid="13" />
+<TLINK id="TL54" fromID="E22" fromText="Admitted" toID="E40" toText="Transferred in" type="AFTER" senid="14" />
+<TLINK id="TL55" fromID="E10" fromText="cabg" toID="E41" toText="cabg" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

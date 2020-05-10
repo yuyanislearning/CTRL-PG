@@ -1,0 +1,63 @@
+e1 id: E41; e2 id: E37; e1 text: the floor; e2 text: transfered
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E74; e2 id: E73; e1 text: trough level of prograf; e2 text: labs
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: E53; e1 text: recent transplant biopsy; e2 text: related
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E7; e2 id: E6; e1 text: the renal transplant; e2 text: retroperitoneal hemorrhage
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E5; e2 id: E33; e1 text: a CT scan of his abdomen / pelvis; e2 text: the emergency room
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E21; e2 id: E20; e1 text: 1 unit pRBC; e2 text: his am Hct
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E21; e2 id: T6; e1 text: 1 unit pRBC; e2 text: 08-10
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E62; e2 id: T13; e1 text: improvement; e2 text: 08-07
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E12; e2 id: E11; e1 text: IVIG; e2 text: plasmaphersis
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E33; e2 id: E31; e1 text: the emergency room; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E18; e2 id: T4; e1 text: plasmapheresis; e2 text: 08-09
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E19; e2 id: E18; e1 text: IVIG; e2 text: plasmapheresis
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E27; e2 id: T8; e1 text: new issues; e2 text: 08-15
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E28; e2 id: E66; e1 text: LLQ pain; e2 text: improved
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E16; e2 id: E15; e1 text: a Hct; e2 text: 1 unit pRBC
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E36; e2 id: E56; e1 text: admitted; e2 text: aware
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E57; e2 id: E36; e1 text: CMED; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E65; e2 id: T16; e1 text: stable; e2 text: 08-13
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E2; e2 id: T1; e1 text: his Cr; e2 text: 2018-07-30
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E63; e1 text: 10 mg IVIG; e2 text: plasmapheresis
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E23; e2 id: T15; e1 text: 10 mg IVIG; e2 text: 08-11
+ground truth: OVERLAP; prediction: BEFORE
+

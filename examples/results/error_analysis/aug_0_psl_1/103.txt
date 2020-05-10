@@ -1,0 +1,14 @@
+e1 id: E7; e2 id: E9; e1 text: revascularization; e2 text: a CABG
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E5; e2 id: E2; e1 text: severe three-vessel disease; e2 text: worsening anginal symptoms
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in OBB
+
+e1 id: E20; e2 id: E18; e1 text: stable condition; e2 text: transferred
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: T4; e1 text: transferred; e2 text: post-op day #2
+ground truth: OVERLAP; prediction: AFTER
+This relation involves in BOB
+

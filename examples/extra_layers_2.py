@@ -259,7 +259,7 @@ class BertForRelationClassification(BertPreTrainedModel):
 
         self.init_weights()
 
-    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None, node_pos_ids=None,
+    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None, node_pos_ids=None, psllda = None,
                 position_ids=None, head_mask=None, inputs_embeds=None, labels=None, rules = None, evaluate = False):
 
         outputs = self.bert(input_ids,
@@ -289,7 +289,7 @@ class BertForRelationClassification(BertPreTrainedModel):
 
 
         psl_loss = True
-        lda = 0
+        lda = psllda
         if labels is not None:
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))

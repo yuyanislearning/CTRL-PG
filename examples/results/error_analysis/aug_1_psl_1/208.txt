@@ -1,0 +1,51 @@
+e1 id: E86; e2 id: E872; e1 text: CT placement; e2 text: resolution
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E87; e2 id: E872; e1 text: her PTX; e2 text: resolution
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E85; e2 id: E831; e1 text: a PTX; e2 text: her pacer
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E830; e2 id: T84; e1 text: her NH; e2 text: a few days
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E831; e2 id: T85; e1 text: her pacer; e2 text: 05-08
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E872; e2 id: E813; e1 text: resolution; e2 text: the hospital
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E177; e2 id: E183; e1 text: IV Ceftriaxone; e2 text: CTX
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E828; e2 id: E829; e1 text: Cambridge Hospital; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: E828; e1 text: ARF; e2 text: Cambridge Hospital
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E813; e2 id: E828; e1 text: the hospital; e2 text: Cambridge Hospital
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E843; e2 id: E840; e1 text: RV diastolic collapse; e2 text: a TTE
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E844; e2 id: E840; e1 text: tamponade; e2 text: a TTE
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E852; e2 id: T89; e1 text: some SOB; e2 text: Today
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E852; e2 id: E853; e1 text: some SOB; e2 text: largely unchanged
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E814; e2 id: E839; e1 text: her ARF; e2 text: IVF
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E841; e2 id: E836; e1 text: Erich Lindemann Mental Health Center; e2 text: Erich Lindemann Mental Health Center
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E835; e2 id: T87; e1 text: Franklin Medical Center; e2 text: 05-24
+ground truth: AFTER; prediction: OVERLAP
+

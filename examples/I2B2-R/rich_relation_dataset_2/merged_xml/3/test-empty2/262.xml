@@ -139,5 +139,78 @@ He was instructed to have labs drawn on 08-17 to check trough level of prograf a
 <TIMEX3 id="T11" start="476" end="481" text="08-04" type="DATE" val="2018-08-04" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2018-08-04" type="ADMISSION" dvalue="2018-08-04" />
 <SECTIME id="S1" start="46" end="56" text="2018-08-16" type="DISCHARGE" dvalue="2018-08-16" />
+<TLINK id="TL1" fromID="E41" fromText="the floor" toID="E37" toText="transfered" type="AFTER" senid="23" />
+<TLINK id="TL2" fromID="E37" fromText="transfered" toID="T5" toText="08-09" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E74" fromText="trough level of prograf" toID="E73" toText="labs" type="OVERLAP" senid="34" />
+<TLINK id="TL4" fromID="E73" fromText="labs" toID="T20" toText="08-17" type="OVERLAP" senid="34" />
+<TLINK id="TL5" fromID="E75" fromText="cbc" toID="E73" toText="labs" type="OVERLAP" senid="34" />
+<TLINK id="TL6" fromID="E76" fromText="chem 10" toID="E75" toText="cbc" type="OVERLAP" senid="34" />
+<TLINK id="TL7" fromID="E77" fromText="coags" toID="E76" toText="chem 10" type="OVERLAP" senid="34" />
+<TLINK id="TL8" fromID="E4" fromText="mild hydronephrosis" toID="E34" toText="showed" type="BEFORE" senid="13" />
+<TLINK id="TL9" fromID="E6" fromText="retroperitoneal hemorrhage" toID="E35" toText="showed" type="BEFORE" senid="13" />
+<TLINK id="TL10" fromID="E52" fromText="recent transplant biopsy" toID="E53" toText="related" type="BEFORE" senid="13" />
+<TLINK id="TL11" fromID="E7" fromText="the renal transplant" toID="E6" toText="retroperitoneal hemorrhage" type="OVERLAP" senid="13" />
+<TLINK id="TL12" fromID="E3" fromText="his ultrasound" toID="E33" toText="the emergency room" type="OVERLAP" senid="13" />
+<TLINK id="TL13" fromID="E3" fromText="his ultrasound" toID="E34" toText="showed" type="OVERLAP" senid="13" />
+<TLINK id="TL14" fromID="E4" fromText="mild hydronephrosis" toID="E51" toText="new perinephric fluid" type="OVERLAP" senid="13" />
+<TLINK id="TL15" fromID="E5" fromText="a CT scan of his abdomen / pelvis" toID="E33" toText="the emergency room" type="AFTER" senid="13" />
+<TLINK id="TL16" fromID="E5" fromText="a CT scan of his abdomen / pelvis" toID="E35" toText="showed" type="OVERLAP" senid="13" />
+<TLINK id="TL17" fromID="E7" fromText="the renal transplant" toID="E53" toText="related" type="OVERLAP" senid="13" />
+<TLINK id="TL18" fromID="E21" fromText="1 unit pRBC" toID="E20" toText="his am Hct" type="AFTER" senid="24" />
+<TLINK id="TL19" fromID="E20" fromText="his am Hct" toID="T6" toText="08-10" type="OVERLAP" senid="24" />
+<TLINK id="TL20" fromID="E21" fromText="1 unit pRBC" toID="T6" toText="08-10" type="OVERLAP" senid="24" />
+<TLINK id="TL21" fromID="E62" fromText="improvement" toID="T13" toText="08-07" type="OVERLAP" senid="20" />
+<TLINK id="TL22" fromID="E62" fromText="improvement" toID="E14" toText="his labs" type="OVERLAP" senid="20" />
+<TLINK id="TL23" fromID="E13" fromText="another unit pRBC" toID="T12" toText="08-07" type="OVERLAP" senid="19" />
+<TLINK id="TL24" fromID="E12" fromText="IVIG" toID="E11" toText="plasmaphersis" type="AFTER" senid="18" />
+<TLINK id="TL25" fromID="E10" fromText="pRBC" toID="T2" toText="08-06" type="OVERLAP" senid="18" />
+<TLINK id="TL26" fromID="E11" fromText="plasmaphersis" toID="T2" toText="08-06" type="OVERLAP" senid="18" />
+<TLINK id="TL27" fromID="E49" fromText="a recent discharge" toID="E31" toText="admitted" type="BEFORE" senid="12" />
+<TLINK id="TL28" fromID="E32" fromText="the hospital" toID="E49" toText="a recent discharge" type="BEFORE" senid="12" />
+<TLINK id="TL29" fromID="E33" fromText="the emergency room" toID="E31" toText="admitted" type="AFTER" senid="12" />
+<TLINK id="TL30" fromID="E31" fromText="admitted" toID="T11" toText="08-04" type="OVERLAP" senid="12" />
+<TLINK id="TL31" fromID="E18" fromText="plasmapheresis" toID="T4" toText="08-09" type="OVERLAP" senid="22" />
+<TLINK id="TL32" fromID="E19" fromText="IVIG" toID="E18" toText="plasmapheresis" type="AFTER" senid="22" />
+<TLINK id="TL33" fromID="E17" fromText="His Hct" toID="T3" toText="08-09" type="OVERLAP" senid="22" />
+<TLINK id="TL34" fromID="E47" fromText="HCT" toID="E48" toText="admission" type="OVERLAP" senid="10" />
+<TLINK id="TL35" fromID="E27" fromText="new issues" toID="T8" toText="08-15" type="OVERLAP" senid="29" />
+<TLINK id="TL36" fromID="E25" fromText="pheresis" toID="T8" toText="08-15" type="OVERLAP" senid="29" />
+<TLINK id="TL37" fromID="E26" fromText="IVIG" toID="T8" toText="08-15" type="OVERLAP" senid="29" />
+<TLINK id="TL38" fromID="E42" fromText="Discharge" toID="T10" toText="2018-08-16" type="OVERLAP" senid="3" />
+<TLINK id="TL39" fromID="E61" fromText="taken" toID="E60" toText="the OR" type="OVERLAP" senid="17" />
+<TLINK id="TL40" fromID="E58" fromText="the ICU" toID="E57" toText="CMED" type="OVERLAP" senid="15" />
+<TLINK id="TL41" fromID="E24" fromText="Hct" toID="E65" toText="stable" type="OVERLAP" senid="28" />
+<TLINK id="TL42" fromID="E0" fromText="Admission" toID="T0" toText="2018-08-04" type="OVERLAP" senid="2" />
+<TLINK id="TL43" fromID="E30" fromText="Mediplex Rehab Hospital" toID="E43" toText="recently discharged" type="BEFORE" senid="8" />
+<TLINK id="TL44" fromID="E45" fromText="abdominal pain" toID="E44" toText="presents" type="BEFORE" senid="8" />
+<TLINK id="TL45" fromID="E46" fromText="sudden onset left-sided abdominal pain" toID="E45" toText="abdominal pain" type="OVERLAP" senid="8" />
+<TLINK id="TL46" fromID="E22" fromText="class I and II antibody levels" toID="T7" toText="08-10" type="OVERLAP" senid="25" />
+<TLINK id="TL47" fromID="E28" fromText="LLQ pain" toID="E66" toText="improved" type="BEFORE" senid="31" />
+<TLINK id="TL48" fromID="E66" fromText="improved" toID="E67" toText="this hospitalization" type="OVERLAP" senid="31" />
+<TLINK id="TL49" fromID="E16" fromText="a Hct" toID="E15" toText="1 unit pRBC" type="OVERLAP" senid="21" />
+<TLINK id="TL50" fromID="E15" fromText="1 unit pRBC" toID="T14" toText="the am of 8-08" type="OVERLAP" senid="21" />
+<TLINK id="TL51" fromID="E36" fromText="admitted" toID="E56" toText="aware" type="OVERLAP" senid="14" />
+<TLINK id="TL52" fromID="E57" fromText="CMED" toID="E36" toText="admitted" type="OVERLAP" senid="14" />
+<TLINK id="TL53" fromID="E54" fromText="Renal transplant medicine" toID="E56" toText="aware" type="OVERLAP" senid="14" />
+<TLINK id="TL54" fromID="E55" fromText="transplant surgery" toID="E56" toText="aware" type="OVERLAP" senid="14" />
+<TLINK id="TL55" fromID="E65" fromText="stable" toID="T16" toText="08-13" type="OVERLAP" senid="27" />
+<TLINK id="TL56" fromID="E64" fromText="repeated" toID="T16" toText="08-13" type="OVERLAP" senid="27" />
+<TLINK id="TL57" fromID="E8" fromText="Serial hematocrits" toID="E59" toText="performed" type="OVERLAP" senid="16" />
+<TLINK id="TL58" fromID="E9" fromText="abdominal exams" toID="E59" toText="performed" type="OVERLAP" senid="16" />
+<TLINK id="TL59" fromID="E69" fromText="Pheresis" toID="E70" toText="continue" type="OVERLAP" senid="33" />
+<TLINK id="TL60" fromID="E70" fromText="continue" toID="T9" toText="08-17" type="OVERLAP" senid="33" />
+<TLINK id="TL61" fromID="E70" fromText="continue" toID="T17" toText="08-20" type="OVERLAP" senid="33" />
+<TLINK id="TL62" fromID="E70" fromText="continue" toID="T18" toText="08-22" type="OVERLAP" senid="33" />
+<TLINK id="TL63" fromID="E71" fromText="transplant nephrology" toID="E69" toText="Pheresis" type="OVERLAP" senid="33" />
+<TLINK id="TL64" fromID="E72" fromText="Prograf" toID="E40" toText="increased" type="BEFORE" senid="33" />
+<TLINK id="TL65" fromID="E40" fromText="increased" toID="T19" toText="08-16" type="OVERLAP" senid="33" />
+<TLINK id="TL66" fromID="E29" fromText="a trough level" toID="T19" toText="08-16" type="OVERLAP" senid="33" />
+<TLINK id="TL67" fromID="E2" fromText="his Cr" toID="T1" toText="2018-07-30" type="BEFORE" senid="9" />
+<TLINK id="TL68" fromID="E1" fromText="a recent kidney biopsy" toID="T1" toText="2018-07-30" type="OVERLAP" senid="9" />
+<TLINK id="TL69" fromID="E23" fromText="10 mg IVIG" toID="E63" toText="plasmapheresis" type="AFTER" senid="26" />
+<TLINK id="TL70" fromID="E63" fromText="plasmapheresis" toID="T15" toText="08-11" type="OVERLAP" senid="26" />
+<TLINK id="TL71" fromID="E23" fromText="10 mg IVIG" toID="T15" toText="08-11" type="AFTER" senid="26" />
+<TLINK id="TL72" fromID="E39" fromText="eating" toID="E68" toText="difficulties" type="OVERLAP" senid="32" />
+<TLINK id="TL73" fromID="E38" fromText="ambulating" toID="E68" toText="difficulties" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

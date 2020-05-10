@@ -1,0 +1,34 @@
+e1 id: E32; e2 id: E34; e1 text: evaluated; e2 text: the trauma bay
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E44; e2 id: E45; e1 text: closed treated; e2 text: weight bearing as tolerated
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E36; e2 id: E35; e1 text: splinted; e2 text: reduced
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E27; e2 id: E26; e1 text: He fell; e2 text: climbing up
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E33; e2 id: E34; e1 text: intoxicated; e2 text: the trauma bay
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E2; e2 id: E34; e1 text: tachycardic; e2 text: the trauma bay
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T6; e2 id: E54; e1 text: 2 weeks; e2 text: follow up
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E56; e2 id: E58; e1 text: his heart rate; e2 text: follow
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E57; e2 id: E55; e1 text: lopressor; e2 text: the Louis Schubert Community Health Center
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E38; e2 id: E37; e1 text: splinted; e2 text: reduced
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E19; e2 id: E18; e1 text: his pain; e2 text: his labs
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+

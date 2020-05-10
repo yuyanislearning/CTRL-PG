@@ -1,0 +1,63 @@
+e1 id: E121; e2 id: T11; e1 text: full volume feedings; e2 text: day of life seven
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E120; e2 id: E35; e1 text: advanced; e2 text: enteral feedings
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E103; e2 id: E102; e1 text: admitted; e2 text: presented
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E102; e2 id: T23; e1 text: presented; e2 text: 23 and 1/7 weeks
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E113; e2 id: E112; e1 text: facial CPAP; e2 text: Neonatal Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E124; e2 id: T30; e1 text: breast milk; e2 text: day of life 11
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E123; e2 id: E124; e1 text: advanced; e2 text: breast milk
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E88; e2 id: E124; e1 text: breast milk; e2 text: breast milk
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E55; e2 id: E125; e1 text: a maximum bilirubin level; e2 text: double phototherapy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E126; e2 id: E125; e1 text: single phototherapy; e2 text: double phototherapy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E100; e2 id: E99; e1 text: gestational diabetes mellitus; e2 text: Pregnancy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E89; e2 id: E126; e1 text: phototherapy; e2 text: single phototherapy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T26; e2 id: E16; e1 text: one minute; e2 text: Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T27; e2 id: E16; e1 text: five minutes; e2 text: Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E61; e2 id: E68; e1 text: The most recent hematocrit; e2 text: Repeat CBC
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E81; e2 id: E80; e1 text: a slight increase of echogenicity in the caudothalamic groove; e2 text: A repeat head ultrasound
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: T34; e2 id: E133; e1 text: one month; e2 text: A repeat head ultrasound
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: T24; e1 text: a full course of betamethasone; e2 text: 24 weeks
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E107; e2 id: E11; e1 text: delivered; e2 text: delivery
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E85; e2 id: E136; e1 text: ROP; e2 text: eyes examined
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E33; e2 id: T10; e1 text: nothing by mouth; e2 text: day of life four
+ground truth: BEFORE; prediction: AFTER
+

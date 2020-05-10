@@ -1,0 +1,45 @@
+e1 id: E42; e2 id: E41; e1 text: his anticoagulation; e2 text: fresh frozen plasma
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E53; e2 id: E50; e1 text: a repeat colonoscopy; e2 text: His last BUN
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E63; e2 id: E57; e1 text: his aspirin; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E85; e2 id: E83; e1 text: diuresed; e2 text: his diuretics
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E28; e2 id: E27; e1 text: this; e2 text: an Endoclip
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E61; e2 id: E60; e1 text: his GI bleed; e2 text: demand ischemia
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E62; e2 id: E60; e1 text: acute coronary syndrome; e2 text: demand ischemia
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E87; e2 id: E86; e1 text: torsemide; e2 text: Lasix
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E90; e2 id: E89; e1 text: Lasix; e2 text: a prior admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E91; e2 id: E85; e1 text: diuresed; e2 text: diuresed
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E24; e2 id: E23; e1 text: A small polyp; e2 text: edematous
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E58; e2 id: E59; e1 text: Ischemia; e2 text: Patient  apos;s troponin bump
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E31; e2 id: E29; e1 text: a small AVM; e2 text: Another polyp
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E78; e2 id: E79; e1 text: his Coumadin; e2 text: therapeutic INR levels
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E71; e2 id: E72; e1 text: his INR; e2 text: a therapeutic level
+ground truth: BEFORE; prediction: OVERLAP
+

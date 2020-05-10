@@ -1,0 +1,30 @@
+e1 id: E65; e2 id: E33; e1 text: uptake; e2 text: tagged scan
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E86; e2 id: E87; e1 text: talked; e2 text: discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E50; e2 id: E59; e1 text: transfused; e2 text: type and crossed
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E22; e1 text: guiaiac positive maroon stool; e2 text: Rectal examination
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E22; e1 text: type and crossed; e2 text: Rectal examination
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E45; e2 id: E46; e1 text: The metoprolol; e2 text: acute bleeding phase
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E39; e2 id: E73; e1 text: AVM &#39;s; e2 text: hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E77; e2 id: E76; e1 text: APL from the fundus; e2 text: argon photocoagulation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E19; e2 id: E18; e1 text: her baseline hematocrit; e2 text: Her hematocrit
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E5; e2 id: T0; e1 text: black stools; e2 text: Three days
+ground truth: OVERLAP; prediction: AFTER
+

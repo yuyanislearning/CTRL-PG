@@ -1,0 +1,33 @@
+e1 id: E32; e2 id: E33; e1 text: phenothiazides; e2 text: jitteryness
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E32; e2 id: E54; e1 text: phenothiazides; e2 text: antiemetics
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E30; e2 id: E29; e1 text: mucositis; e2 text: pain
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E31; e2 id: E54; e1 text: recalcitrant nausea and vomiting; e2 text: antiemetics
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E44; e1 text: the Santusli Hospital; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E39; e2 id: E59; e1 text: TPN; e2 text: unable to tolerate adequate p.o. apos;s
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E51; e2 id: E50; e1 text: autologous bone marrow transplantation; e2 text: sufficient cells
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E22; e2 id: E21; e1 text: His most recent bone marrow biopsy; e2 text: his harvest
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E10; e2 id: T6; e1 text: 90% involvement of his intratrabecular space; e2 text: three cycles
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E4; e2 id: E46; e1 text: a white blood cell count; e2 text: noted
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E7; e2 id: E46; e1 text: his initial diagnosis; e2 text: noted
+ground truth: OVERLAP; prediction: AFTER
+

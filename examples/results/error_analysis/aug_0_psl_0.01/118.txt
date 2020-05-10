@@ -1,0 +1,21 @@
+e1 id: E31; e2 id: E51; e1 text: recommended; e2 text: Follow up
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T13; e2 id: E51; e1 text: eight months; e2 text: Follow up
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E33; e2 id: E54; e1 text: recommended; e2 text: A follow up examination
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T14; e2 id: E54; e1 text: six to eight months; e2 text: A follow up examination
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E3; e2 id: T3; e1 text: caffeine; e2 text: day of life #1
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E1; e2 id: E35; e1 text: nasal cannula oxygen; e2 text: born
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E19; e2 id: E20; e1 text: hematocrit; e2 text: blood products
+ground truth: BEFORE; prediction: OVERLAP
+

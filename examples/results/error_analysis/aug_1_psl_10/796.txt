@@ -1,0 +1,48 @@
+e1 id: E5; e2 id: T4; e1 text: this pain; e2 text: Thursday
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T5; e2 id: E47; e1 text: 15 min; e2 text: consuming a meal
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E54; e2 id: E53; e1 text: stable condition; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: E53; e1 text: voiding; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E26; e2 id: E53; e1 text: outpatient MRA; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E28; e2 id: E53; e1 text: HIDA with CK challenge; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E58; e2 id: E54; e1 text: difficulty; e2 text: stable condition
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E19; e2 id: E15; e1 text: H. Pylori positive; e2 text: EGD
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E20; e2 id: E15; e1 text: empiric treatment; e2 text: EGD
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E40; e2 id: T9; e1 text: the antibiotics; e2 text: 26 more days
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: T8; e1 text: tolerating regular diet; e2 text: HD4
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E44; e2 id: E43; e1 text: the ED; e2 text: presenting
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E43; e2 id: T3; e1 text: presenting; e2 text: this AM
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: E62; e1 text: evaluation; e2 text: proceed to ER
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E61; e2 id: E36; e1 text: call; e2 text: increasing pain with food
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E62; e2 id: E36; e1 text: proceed to ER; e2 text: increasing pain with food
+ground truth: AFTER; prediction: BEFORE
+

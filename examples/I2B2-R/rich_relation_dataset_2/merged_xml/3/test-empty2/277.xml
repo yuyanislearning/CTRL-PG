@@ -199,5 +199,86 @@ The attending was notified as well .
 <TIMEX3 id="T5" start="796" end="801" text="12:30" type="TIME" val="2013-11-11T12:30" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2013-11-11" type="ADMISSION" dvalue="2013-11-11" />
 <SECTIME id="S1" start="46" end="56" text="2013-11-13" type="DISCHARGE" dvalue="2013-11-13" />
+<TLINK id="TL1" fromID="E88" fromText="2 units FFP" toID="E87" toText="10 mg SC Vitamin K" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E107" fromText="bradycardic" toID="T14" toText="06:00 on 2013-11-13" type="OVERLAP" senid="53" />
+<TLINK id="TL3" fromID="E108" fromText="a junctional rhythm" toID="E107" toText="bradycardic" type="OVERLAP" senid="53" />
+<TLINK id="TL4" fromID="E110" fromText="telemetry" toID="E107" toText="bradycardic" type="AFTER" senid="53" />
+<TLINK id="TL5" fromID="E67" fromText="Hahnemann General Hospital" toID="E65" toText="Hahnemann General Hospital" type="OVERLAP" senid="13" />
+<TLINK id="TL6" fromID="E90" fromText="fixed" toID="T7" toText="14:10" type="BEFORE" senid="24" />
+<TLINK id="TL7" fromID="E92" fromText="Dilantin" toID="E89" toText="Gary" type="OVERLAP" senid="24" />
+<TLINK id="TL8" fromID="E91" fromText="dilated" toID="E90" toText="fixed" type="OVERLAP" senid="24" />
+<TLINK id="TL9" fromID="E77" fromText="large right intracerebral hemorrhage" toID="E75" toText="Head CT" type="BEFORE" senid="20" />
+<TLINK id="TL10" fromID="E76" fromText="showed" toID="E75" toText="Head CT" type="OVERLAP" senid="20" />
+<TLINK id="TL11" fromID="E75" fromText="Head CT" toID="E73" toText="Seen" type="OVERLAP" senid="19" />
+<TLINK id="TL12" fromID="E74" fromText="Initial NIH stroke scale" toID="E73" toText="Seen" type="OVERLAP" senid="18" />
+<TLINK id="TL13" fromID="E22" fromText="neuro checks" toID="E100" toText="the ICU" type="OVERLAP" senid="37" />
+<TLINK id="TL14" fromID="E22" fromText="neuro checks" toID="T11" toText="every 1 hour" type="OVERLAP" senid="37" />
+<TLINK id="TL15" fromID="E24" fromText="frequent exams" toID="E22" toText="neuro checks" type="OVERLAP" senid="37" />
+<TLINK id="TL16" fromID="E103" fromText="No corneal , gag , oculocephalic , and oculovestibular reflexes" toID="E33" toText="unresponsive" type="OVERLAP" senid="46" />
+<TLINK id="TL17" fromID="E32" fromText="no clinical signs of brainstem activity" toID="E31" toText="serial exams" type="OVERLAP" senid="44" />
+<TLINK id="TL18" fromID="E31" fromText="serial exams" toID="T13" toText="the morning on 2013-11-12" type="OVERLAP" senid="44" />
+<TLINK id="TL19" fromID="E33" fromText="unresponsive" toID="E32" toText="no clinical signs of brainstem activity" type="OVERLAP" senid="44" />
+<TLINK id="TL20" fromID="E66" fromText="evaluation" toID="E65" toText="Hahnemann General Hospital" type="OVERLAP" senid="12" />
+<TLINK id="TL21" fromID="E112" fromText="resuscitated" toID="E111" toText="asystolic" type="AFTER" senid="55" />
+<TLINK id="TL22" fromID="E84" fromText="Nipride drip" toID="E86" toText="goal BP" type="BEFORE" senid="22" />
+<TLINK id="TL23" fromID="E84" fromText="Nipride drip" toID="E83" toText="Labetalol" type="AFTER" senid="22" />
+<TLINK id="TL24" fromID="E85" fromText="BP control" toID="E84" toText="Nipride drip" type="OVERLAP" senid="22" />
+<TLINK id="TL25" fromID="E98" fromText="a surgical intervention" toID="E45" toText="evaluated" type="OVERLAP" senid="36" />
+<TLINK id="TL26" fromID="E99" fromText="ventriculary drain" toID="E45" toText="evaluated" type="BEFORE" senid="36" />
+<TLINK id="TL27" fromID="E106" fromText="test" toID="T9" toText="2013-11-13" type="OVERLAP" senid="51" />
+<TLINK id="TL28" fromID="E62" fromText="left sided weakness" toID="E61" toText="severe headache" type="OVERLAP" senid="10" />
+<TLINK id="TL29" fromID="E61" fromText="severe headache" toID="E60" toText="complained" type="BEFORE" senid="10" />
+<TLINK id="TL30" fromID="E45" fromText="evaluated" toID="E96" toText="the Neurology / Neurosurgery ICU" type="OVERLAP" senid="35" />
+<TLINK id="TL31" fromID="E13" fromText="hypertension" toID="E12" toText="a large right intracerebral hemorrhage" type="BEFORE" senid="29" />
+<TLINK id="TL32" fromID="E47" fromText="Discharge" toID="T2" toText="2013-11-13" type="OVERLAP" senid="3" />
+<TLINK id="TL33" fromID="E109" fromText="very infrequent ventricular escape beats" toID="E111" toText="asystolic" type="BEFORE" senid="54" />
+<TLINK id="TL34" fromID="E109" fromText="very infrequent ventricular escape beats" toID="E108" toText="a junctional rhythm" type="OVERLAP" senid="54" />
+<TLINK id="TL35" fromID="E105" fromText="discussion" toID="E104" toText="apnea testing" type="OVERLAP" senid="50" />
+<TLINK id="TL36" fromID="E106" fromText="test" toID="E104" toText="apnea testing" type="OVERLAP" senid="50" />
+<TLINK id="TL37" fromID="E69" fromText="vitals" toID="E68" toText="Finger stick blood glucose" type="OVERLAP" senid="15" />
+<TLINK id="TL38" fromID="E29" fromText="fresh frozen plasma" toID="T8" toText="Overnight" type="OVERLAP" senid="43" />
+<TLINK id="TL39" fromID="E30" fromText="goal INR" toID="E29" toText="fresh frozen plasma" type="AFTER" senid="43" />
+<TLINK id="TL40" fromID="E115" fromText="notified" toID="E114" toText="dead" type="AFTER" senid="57" />
+<TLINK id="TL41" fromID="E114" fromText="dead" toID="T15" toText="06:59 am" type="OVERLAP" senid="57" />
+<TLINK id="TL42" fromID="E0" fromText="Admission" toID="T1" toText="2013-11-11" type="OVERLAP" senid="2" />
+<TLINK id="TL43" fromID="T10" fromText="overnight" toID="T14" toText="06:00 on 2013-11-13" type="BEFORE" senid="52" />
+<TLINK id="TL44" fromID="E38" fromText="Full medical care" toID="E39" toText="managment" type="OVERLAP" senid="52" />
+<TLINK id="TL45" fromID="E39" fromText="managment" toID="T10" toText="overnight" type="OVERLAP" senid="52" />
+<TLINK id="TL46" fromID="E101" fromText="lengthy discussion" toID="E102" toText="DNR" type="BEFORE" senid="42" />
+<TLINK id="TL47" fromID="E102" fromText="DNR" toID="T12" toText="afternoon of 2013-11-11" type="OVERLAP" senid="42" />
+<TLINK id="TL48" fromID="E1" fromText="NQWMI" toID="T3" toText="02-25" type="OVERLAP" senid="8" />
+<TLINK id="TL49" fromID="E3" fromText="stent" toID="T4" toText="05-26" type="OVERLAP" senid="8" />
+<TLINK id="TL50" fromID="E53" fromText="coumadin" toID="E52" toText="atrial fibrillation" type="OVERLAP" senid="8" />
+<TLINK id="TL51" fromID="E56" fromText="dysarthria" toID="E55" toText="acute onset left sided weakness" type="OVERLAP" senid="8" />
+<TLINK id="TL52" fromID="E93" fromText="50 grams Mannitol" toID="E92" toText="Dilantin" type="OVERLAP" senid="25" />
+<TLINK id="TL53" fromID="E26" fromText="systolic blood pressure" toID="E25" toText="Labetalol continuous infusion" type="OVERLAP" senid="40" />
+<TLINK id="TL54" fromID="E14" fromText="rapid decompensation" toID="E95" toText="the emergency department" type="OVERLAP" senid="31" />
+<TLINK id="TL55" fromID="E43" fromText="intubation" toID="E42" toText="intubation" type="OVERLAP" senid="31" />
+<TLINK id="TL56" fromID="E79" fromText="Fentanyl" toID="E40" toText="Intubated" type="BEFORE" senid="21" />
+<TLINK id="TL57" fromID="E78" fromText="airway protection" toID="E40" toText="Intubated" type="AFTER" senid="21" />
+<TLINK id="TL58" fromID="E40" fromText="Intubated" toID="T6" toText="13:35" type="OVERLAP" senid="21" />
+<TLINK id="TL59" fromID="E80" fromText="Etomidate" toID="E79" toText="Fentanyl" type="OVERLAP" senid="21" />
+<TLINK id="TL60" fromID="E81" fromText="Vecuronium" toID="E79" toText="Fentanyl" type="OVERLAP" senid="21" />
+<TLINK id="TL61" fromID="E82" fromText="Succhinylcholine" toID="E79" toText="Fentanyl" type="OVERLAP" senid="21" />
+<TLINK id="TL62" fromID="E65" fromText="Hahnemann General Hospital" toID="E59" toText="this doctor &#39;s office" type="AFTER" senid="11" />
+<TLINK id="TL63" fromID="E63" fromText="facial droop" toID="E62" toText="left sided weakness" type="OVERLAP" senid="11" />
+<TLINK id="TL64" fromID="E64" fromText="slurring of speech" toID="E62" toText="left sided weakness" type="OVERLAP" senid="11" />
+<TLINK id="TL65" fromID="E67" fromText="Hahnemann General Hospital" toID="T5" toText="12:30" type="AFTER" senid="14" />
+<TLINK id="TL66" fromID="E68" fromText="Finger stick blood glucose" toID="E67" toText="Hahnemann General Hospital" type="BEFORE" senid="14" />
+<TLINK id="TL67" fromID="E70" fromText="BP" toID="E69" toText="vitals" type="OVERLAP" senid="16" />
+<TLINK id="TL68" fromID="E71" fromText="HR" toID="E69" toText="vitals" type="OVERLAP" senid="16" />
+<TLINK id="TL69" fromID="E72" fromText="Blood pressure" toID="E69" toText="vitals" type="OVERLAP" senid="16" />
+<TLINK id="TL70" fromID="E23" fromText="Sedation" toID="E24" toText="frequent exams" type="OVERLAP" senid="38" />
+<TLINK id="TL71" fromID="E46" fromText="overbreathing" toID="E36" toText="his ventilator" type="OVERLAP" senid="48" />
+<TLINK id="TL72" fromID="E116" fromText="notified" toID="E115" toText="notified" type="OVERLAP" senid="58" />
+<TLINK id="TL73" fromID="E57" fromText="his usual state of health" toID="T0" toText="12:15 on day" type="BEFORE" senid="9" />
+<TLINK id="TL74" fromID="E59" fromText="this doctor &#39;s office" toID="E54" toText="his CMED CSRU doctor &#39;s office" type="OVERLAP" senid="9" />
+<TLINK id="TL75" fromID="E60" fromText="complained" toID="T0" toText="12:15 on day" type="AFTER" senid="9" />
+<TLINK id="TL76" fromID="E94" fromText="intensive care unit" toID="E118" toText="Transferred" type="AFTER" senid="26" />
+<TLINK id="TL77" fromID="E18" fromText="elevated intracranial pressure" toID="E16" toText="Examination" type="BEFORE" senid="32" />
+<TLINK id="TL78" fromID="E19" fromText="brainstem compression" toID="E16" toText="Examination" type="BEFORE" senid="32" />
+<TLINK id="TL79" fromID="E16" fromText="Examination" toID="E43" toText="intubation" type="AFTER" senid="32" />
+<TLINK id="TL80" fromID="E17" fromText="intubations" toID="E16" toText="Examination" type="OVERLAP" senid="32" />
+<TLINK id="TL81" fromID="E44" fromText="showed" toID="E16" toText="Examination" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

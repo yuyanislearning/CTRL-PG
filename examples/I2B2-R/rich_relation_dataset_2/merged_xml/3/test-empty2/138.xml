@@ -69,5 +69,40 @@ She is also started on marinol 2.5 mg p.o. b.i.d. and encouraged p.o. intake .
 <TIMEX3 id="T0" start="989" end="1009" text="the morning of 12-01" type="DATE" val="2011-12-01" mod="START" />
 <SECTIME id="S0" start="18" end="28" text="2011-10-28" type="ADMISSION" dvalue="2011-10-28" />
 <SECTIME id="S1" start="46" end="56" text="2011-12-01" type="DISCHARGE" dvalue="2011-12-01" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T1" toText="2011-10-28" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E10" fromText="hepatic candidiasis" toID="E9" toText="these cysts" type="OVERLAP" senid="10" />
+<TLINK id="TL3" fromID="E10" fromText="hepatic candidiasis" toID="E11" toText="lymphoma" type="OVERLAP" senid="10" />
+<TLINK id="TL4" fromID="E11" fromText="lymphoma" toID="E4" toText="Burkitt&#39;s" type="AFTER" senid="10" />
+<TLINK id="TL5" fromID="E31" fromText="Her blood pressures" toID="E32" toText="her vital signs" type="OVERLAP" senid="19" />
+<TLINK id="TL6" fromID="E32" fromText="her vital signs" toID="E33" toText="stable" type="OVERLAP" senid="19" />
+<TLINK id="TL7" fromID="E34" fromText="TPN" toID="E35" toText="marinol" type="BEFORE" senid="21" />
+<TLINK id="TL8" fromID="E35" fromText="marinol" toID="T4" toText="b.i.d." type="OVERLAP" senid="21" />
+<TLINK id="TL9" fromID="E6" fromText="Discharge" toID="T2" toText="2011-12-01" type="OVERLAP" senid="3" />
+<TLINK id="TL10" fromID="E1" fromText="Liver lesions" toID="E2" toText="a repeat MRI" type="BEFORE" senid="8" />
+<TLINK id="TL11" fromID="E27" fromText="hypotension" toID="E30" toText="two IV fluid boluses" type="BEFORE" senid="17" />
+<TLINK id="TL12" fromID="E29" fromText="Her captopril" toID="E27" toText="hypotension" type="BEFORE" senid="17" />
+<TLINK id="TL13" fromID="E27" fromText="hypotension" toID="T0" toText="the morning of 12-01" type="OVERLAP" senid="17" />
+<TLINK id="TL14" fromID="E27" fromText="hypotension" toID="E28" toText="SBP s" type="OVERLAP" senid="17" />
+<TLINK id="TL15" fromID="E26" fromText="her white count" toID="E25" toText="febrile" type="OVERLAP" senid="16" />
+<TLINK id="TL16" fromID="E34" fromText="TPN" toID="T3" toText="the past couple days" type="OVERLAP" senid="20" />
+<TLINK id="TL17" fromID="E5" fromText="her G-CSF" toID="E23" toText="elevated" type="BEFORE" senid="15" />
+<TLINK id="TL18" fromID="E22" fromText="Her white count" toID="E26" toText="her white count" type="OVERLAP" senid="15" />
+<TLINK id="TL19" fromID="E23" fromText="elevated" toID="E22" toText="Her white count" type="OVERLAP" senid="15" />
+<TLINK id="TL20" fromID="E25" fromText="febrile" toID="E23" toText="elevated" type="OVERLAP" senid="15" />
+<TLINK id="TL21" fromID="E13" fromText="AmBisome" toID="E12" toText="discharged" type="BEFORE" senid="11" />
+<TLINK id="TL22" fromID="E14" fromText="her hepatic candidiasis" toID="E13" toText="AmBisome" type="BEFORE" senid="11" />
+<TLINK id="TL23" fromID="E13" fromText="AmBisome" toID="T5" toText="q.d." type="OVERLAP" senid="11" />
+<TLINK id="TL24" fromID="E13" fromText="AmBisome" toID="E15" toText="This regimen" type="OVERLAP" senid="11" />
+<TLINK id="TL25" fromID="E16" fromText="AmBisome" toID="E13" toText="AmBisome" type="OVERLAP" senid="11" />
+<TLINK id="TL26" fromID="E17" fromText="AmBisome" toID="E16" toText="AmBisome" type="OVERLAP" senid="12" />
+<TLINK id="TL27" fromID="E18" fromText="fluconazole" toID="E17" toText="AmBisome" type="OVERLAP" senid="12" />
+<TLINK id="TL28" fromID="E3" fromText="the previously noted enumerable hepatic cyst in her liver" toID="E2" toText="a repeat MRI" type="BEFORE" senid="9" />
+<TLINK id="TL29" fromID="E7" fromText="showed" toID="E2" toText="a repeat MRI" type="OVERLAP" senid="9" />
+<TLINK id="TL30" fromID="E8" fromText="change" toID="E2" toText="a repeat MRI" type="OVERLAP" senid="9" />
+<TLINK id="TL31" fromID="E3" fromText="the previously noted enumerable hepatic cyst in her liver" toID="E8" toText="change" type="BEFORE" senid="9" />
+<TLINK id="TL32" fromID="E3" fromText="the previously noted enumerable hepatic cyst in her liver" toID="E9" toText="these cysts" type="OVERLAP" senid="9" />
+<TLINK id="TL33" fromID="E19" fromText="The patient &#39;s platelets" toID="E20" toText="white count" type="OVERLAP" senid="14" />
+<TLINK id="TL34" fromID="E20" fromText="white count" toID="E21" toText="hematocrit" type="OVERLAP" senid="14" />
+<TLINK id="TL35" fromID="E21" fromText="hematocrit" toID="E24" toText="stable" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

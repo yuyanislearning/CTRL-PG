@@ -64,5 +64,33 @@ He is on Coumadin which is to be continued for six weeks .
 <TIMEX3 id="T2" start="44" end="51" text="11-1-93" type="DATE" val="1993-11-01" mod="NA" />
 <SECTIME id="S0" start="18" end="26" text="10-27-93" type="ADMISSION" dvalue="1993-10-27" />
 <SECTIME id="S1" start="44" end="51" text="11-1-93" type="DISCHARGE" dvalue="1993-11-1" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T1" toText="10-27-93" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E8" fromText="calcification densities in the suprapatellar bursa region" toID="E7" toText="an magnetic resonance imaging study" type="BEFORE" senid="10" />
+<TLINK id="TL3" fromID="E9" fromText="hypertrophia of the synovium" toID="E7" toText="an magnetic resonance imaging study" type="BEFORE" senid="10" />
+<TLINK id="TL4" fromID="E25" fromText="demonstrated" toID="E7" toText="an magnetic resonance imaging study" type="OVERLAP" senid="10" />
+<TLINK id="TL5" fromID="E26" fromText="synovial chondromatosis" toID="E9" toText="hypertrophia of the synovium" type="OVERLAP" senid="10" />
+<TLINK id="TL6" fromID="E21" fromText="DISCHARGE" toID="T2" toText="11-1-93" type="OVERLAP" senid="3" />
+<TLINK id="TL7" fromID="E4" fromText="some fullness in the suprapatellar pouch" toID="E23" toText="intermittent symptoms" type="OVERLAP" senid="8" />
+<TLINK id="TL8" fromID="E33" fromText="the Percocet" toID="E31" toText="His discharge" type="OVERLAP" senid="17" />
+<TLINK id="TL9" fromID="E31" fromText="His discharge" toID="E32" toText="range of motion" type="OVERLAP" senid="17" />
+<TLINK id="TL10" fromID="E17" fromText="pain medication" toID="E19" toText="Percocet" type="OVERLAP" senid="17" />
+<TLINK id="TL11" fromID="E33" fromText="the Percocet" toID="E19" toText="Percocet" type="OVERLAP" senid="17" />
+<TLINK id="TL12" fromID="E15" fromText="physical therapy" toID="E30" toText="mobilized" type="BEFORE" senid="16" />
+<TLINK id="TL13" fromID="E16" fromText="a continuous passive motion machine" toID="E15" toText="physical therapy" type="OVERLAP" senid="16" />
+<TLINK id="TL14" fromID="E34" fromText="Coumadin" toID="E31" toText="His discharge" type="AFTER" senid="18" />
+<TLINK id="TL15" fromID="E34" fromText="Coumadin" toID="T5" toText="six weeks" type="OVERLAP" senid="18" />
+<TLINK id="TL16" fromID="E22" fromText="knee pain" toID="T0" toText="seven to eight year" type="OVERLAP" senid="6" />
+<TLINK id="TL17" fromID="E30" fromText="mobilized" toID="E12" toText="right knee open synovectomy" type="AFTER" senid="15" />
+<TLINK id="TL18" fromID="E10" fromText="an open synovectomy" toID="E11" toText="debridement" type="OVERLAP" senid="11" />
+<TLINK id="TL19" fromID="E28" fromText="that procedure" toID="E10" toText="an open synovectomy" type="OVERLAP" senid="11" />
+<TLINK id="TL20" fromID="E5" fromText="Plain films" toID="E24" toText="revealed" type="OVERLAP" senid="9" />
+<TLINK id="TL21" fromID="E6" fromText="some soft tissue calcification" toID="E8" toText="calcification densities in the suprapatellar bursa region" type="OVERLAP" senid="9" />
+<TLINK id="TL22" fromID="E1" fromText="uric acid crystals" toID="E20" toText="aspirated" type="OVERLAP" senid="7" />
+<TLINK id="TL23" fromID="T3" fromText="1984" toID="E20" toText="aspirated" type="OVERLAP" senid="7" />
+<TLINK id="TL24" fromID="E2" fromText="serum uric acid" toID="E20" toText="aspirated" type="OVERLAP" senid="7" />
+<TLINK id="TL25" fromID="E3" fromText="erythrocyte sedimentation rate" toID="E20" toText="aspirated" type="OVERLAP" senid="7" />
+<TLINK id="TL26" fromID="E23" fromText="intermittent symptoms" toID="E22" toText="knee pain" type="OVERLAP" senid="7" />
+<TLINK id="TL27" fromID="E29" fromText="done well" toID="E12" toText="right knee open synovectomy" type="AFTER" senid="14" />
+<TLINK id="TL28" fromID="E12" fromText="right knee open synovectomy" toID="T4" toText="10-28-93" type="OVERLAP" senid="14" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

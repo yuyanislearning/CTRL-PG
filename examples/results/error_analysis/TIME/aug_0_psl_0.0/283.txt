@@ -1,0 +1,24 @@
+e1 id: E34; e2 id: E31; e1 text: Coumadin; e2 text: His discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E31; e2 id: E32; e1 text: His discharge; e2 text: range of motion
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T5; e2 id: T2; e1 text: six weeks; e2 text: 11-1-93
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E15; e2 id: E30; e1 text: physical therapy; e2 text: mobilized
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E31; e2 id: T2; e1 text: His discharge; e2 text: 11-1-93
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E1; e2 id: E20; e1 text: uric acid crystals; e2 text: aspirated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E28; e2 id: T1; e1 text: that procedure; e2 text: 10-27-93
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E11; e2 id: T1; e1 text: debridement; e2 text: 10-27-93
+ground truth: AFTER; prediction: BEFORE
+

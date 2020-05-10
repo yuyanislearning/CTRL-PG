@@ -1,0 +1,66 @@
+e1 id: E73; e2 id: E74; e1 text: Taxus stents; e2 text: This restored flow
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E113; e2 id: E39; e1 text: intact sensation; e2 text: examination
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: E130; e1 text: elevations in I , aVL , and V1 through V2; e2 text: found
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E15; e2 id: E130; e1 text: ST depressions in II , III , and aVF; e2 text: found
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E67; e2 id: E68; e1 text: A TP3A inhibitor; e2 text: concern for dissection
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E108; e2 id: T1; e1 text: sudden cardiac death; e2 text: 2015-07-24
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E109; e2 id: T1; e1 text: ICD placement; e2 text: 2015-07-24
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E6; e2 id: E43; e1 text: The pain; e2 text: increased
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E52; e2 id: T8; e1 text: follow-up; e2 text: one months time
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E28; e2 id: E84; e1 text: further management; e2 text: Cardiology
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E45; e1 text: the Emergency Room; e2 text: arrived
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E122; e2 id: E42; e1 text: followed-up; e2 text: examination
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E126; e2 id: E123; e1 text: stroke risk; e2 text: discharged
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E121; e2 id: E42; e1 text: neurologic deficit; e2 text: examination
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E87; e2 id: E30; e1 text: assess her LV function; e2 text: an echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E31; e2 id: E30; e1 text: an ejection fraction; e2 text: an echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: E30; e1 text: an akinetic apex; e2 text: an echocardiogram
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: E79; e1 text: Maxine ACE inhibitor; e2 text: started
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E3; e2 id: E63; e1 text: the pain; e2 text: essentially started
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E77; e2 id: E76; e1 text: intervened upon; e2 text: a mid RCA lesion of 80-90%
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E91; e2 id: E93; e1 text: heparin; e2 text: a transition
+ground truth: BEFORE; prediction: OVERLAP
+

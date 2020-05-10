@@ -1,0 +1,60 @@
+e1 id: E53; e2 id: E50; e1 text: a repeat colonoscopy; e2 text: His last BUN
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E70; e2 id: E72; e1 text: Heparin; e2 text: a therapeutic level
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E71; e2 id: E72; e1 text: his INR; e2 text: a therapeutic level
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E12; e2 id: T4; e1 text: the bleeding; e2 text: the time
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E42; e2 id: E41; e1 text: his anticoagulation; e2 text: fresh frozen plasma
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E78; e2 id: E79; e1 text: his Coumadin; e2 text: therapeutic INR levels
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E31; e2 id: E32; e1 text: a small AVM; e2 text: cauterized
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E78; e2 id: E76; e1 text: his Coumadin; e2 text: his anticoagulation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E8; e2 id: E6; e1 text: a proton pump inhibitor; e2 text: hemodynamically stable
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E35; e2 id: E29; e1 text: a hyperplastic polyp; e2 text: Another polyp
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E85; e2 id: E83; e1 text: diuresed; e2 text: his diuretics
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E84; e2 id: E83; e1 text: blood products; e2 text: his diuretics
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E90; e2 id: E89; e1 text: Lasix; e2 text: a prior admission
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E24; e2 id: E23; e1 text: A small polyp; e2 text: edematous
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E29; e2 id: E24; e1 text: Another polyp; e2 text: A small polyp
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E91; e2 id: E85; e1 text: diuresed; e2 text: diuresed
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E48; e2 id: T1; e1 text: His last recorded hematocrit; e2 text: 11/16/2003
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E73; e2 id: T1; e1 text: His last reported INR; e2 text: 11/16/2003
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E68; e2 id: E69; e1 text: his Coumadin; e2 text: heparin
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T4; e2 id: E0; e1 text: the time; e2 text: Admission
+ground truth: OVERLAP; prediction: BEFORE
+

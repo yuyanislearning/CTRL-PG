@@ -1,0 +1,49 @@
+e1 id: E62; e2 id: E61; e1 text: phototherapy; e2 text: a subsequent bilirubin
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E109; e2 id: E107; e1 text: Teaching; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E110; e2 id: E107; e1 text: the Boviak; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E105; e2 id: E104; e1 text: a maximum head circumference; e2 text: His head circumference
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E102; e2 id: E100; e1 text: interventricular hemorrhage; e2 text: His head ultrasound
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E89; e2 id: T17; e1 text: a jugular Broviac; e2 text: 05-15
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E57; e2 id: T1; e1 text: His weight on discharge; e2 text: 2012-05-18
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E70; e2 id: E75; e1 text: continuous factor 8 infusions; e2 text: increased factor 8 infusion rate
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E70; e2 id: T18; e1 text: continuous factor 8 infusions; e2 text: 05-10
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E36; e2 id: E37; e1 text: bruising; e2 text: increased
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T20; e2 id: E80; e1 text: 20 hours; e2 text: A trough level
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E29; e2 id: E28; e1 text: bulb suction; e2 text: delivery
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E28; e2 id: E32; e1 text: delivery; e2 text: Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E50; e2 id: T0; e1 text: this admission; e2 text: 2012-05-08
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E66; e2 id: E64; e1 text: an elevated PTT level; e2 text: coagulopathy workup
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E12; e2 id: T0; e1 text: Estimated date of delivery; e2 text: 2012-05-08
+ground truth: BEFORE; prediction: OVERLAP
+

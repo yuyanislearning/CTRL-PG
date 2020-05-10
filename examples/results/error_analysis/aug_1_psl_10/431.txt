@@ -1,0 +1,15 @@
+e1 id: E26; e2 id: E6; e1 text: Postoperative course; e2 text: the procedure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E8; e2 id: E16; e1 text: diagnosed; e2 text: presented
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T4; e2 id: T3; e1 text: 8/17/93; e2 text: June , 1992
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E20; e2 id: E19; e1 text: left axillary node dissection; e2 text: presents
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E18; e2 id: E17; e1 text: a Grade III / III infiltrating ductal carcinoma; e2 text: a left breast mass
+ground truth: OVERLAP; prediction: AFTER
+

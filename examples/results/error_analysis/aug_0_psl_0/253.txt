@@ -1,0 +1,48 @@
+e1 id: E7; e2 id: E5; e1 text: A second episode; e2 text: This episode
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E67; e2 id: E66; e1 text: depression; e2 text: Pregnancy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: E78; e1 text: Apgars; e2 text: repeat cesarean section
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E106; e2 id: E45; e1 text: electrographic evidence; e2 text: seizure activity
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E2; e2 id: E64; e1 text: HSV outbreak; e2 text: Pregnancy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E96; e2 id: E25; e1 text: frequent spitting episodes; e2 text: limitation of volume at each feed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E21; e2 id: E52; e1 text: gastroesophageal reflux; e2 text: Breast feeding
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E56; e2 id: E55; e1 text: Serologies; e2 text: repeat cesarean section
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E55; e2 id: E111; e1 text: repeat cesarean section; e2 text: born
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E9; e2 id: E49; e1 text: a cardiopulmonary monitor; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T7; e2 id: E71; e1 text: day; e2 text: spontaneous labor
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E81; e2 id: E83; e1 text: The Neonatal Intensive Care Unit; e2 text: the Newborn Intensive Care Unit
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E40; e2 id: E41; e1 text: seizures; e2 text: dusky episodes
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E90; e2 id: E88; e1 text: feed ad lib; e2 text: breast feeding ad lib
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E35; e2 id: E38; e1 text: A blood culture; e2 text: blood cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E86; e2 id: E13; e1 text: the bottle was pulled; e2 text: respiratory distress
+ground truth: BEFORE; prediction: OVERLAP
+

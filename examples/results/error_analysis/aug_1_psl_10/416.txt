@@ -1,0 +1,125 @@
+e1 id: E27; e2 id: E97; e1 text: five Jackson-Pratt drains; e2 text: a gastrojejunostomy
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E27; e2 id: E98; e1 text: five Jackson-Pratt drains; e2 text: cholecystotomy tube
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E27; e2 id: E99; e1 text: five Jackson-Pratt drains; e2 text: gastrostomy tube
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E27; e2 id: E100; e1 text: five Jackson-Pratt drains; e2 text: jejunostomy tube
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E101; e2 id: E29; e1 text: an extensive estimated blood loss; e2 text: multiple blood products
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E101; e2 id: E30; e1 text: an extensive estimated blood loss; e2 text: fluid resuscitation therapy
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E31; e2 id: E96; e1 text: elevations; e2 text: the operating room
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E107; e2 id: T9; e1 text: remained; e2 text: 01/06/98
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E118; e2 id: E66; e1 text: an ischemic bowel; e2 text: multiple enteric fistulae
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E18; e2 id: E72; e1 text: retroperitoneal collection; e2 text: demonstrated
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E65; e2 id: E64; e1 text: his increasingly distended abdomen; e2 text: Bloody drainage
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E69; e2 id: E8; e1 text: transfer; e2 text: substantial auto PEEP
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E4; e2 id: E69; e1 text: sedated; e2 text: transfer
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E95; e2 id: E73; e1 text: extravasating through a posterior duodenum; e2 text: demonstrated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E96; e2 id: E73; e1 text: the operating room; e2 text: demonstrated
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E62; e2 id: E110; e1 text: his Jackson-Pratt site; e2 text: stool
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E63; e2 id: E110; e1 text: right oblique incision; e2 text: stool
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E1; e2 id: E83; e1 text: aspiration; e2 text: recurrent pneumonias
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E57; e2 id: E58; e1 text: an ongoing requirement; e2 text: high volume resuscitation
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E44; e2 id: E45; e1 text: an underlying hypercoagulable state; e2 text: the repeated clots
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E123; e2 id: E124; e1 text: comfortable; e2 text: death
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E89; e2 id: E90; e1 text: An inferior vena cava filter; e2 text: placed
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E43; e2 id: E41; e1 text: his abdominal process; e2 text: appropriate antibiotics
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E120; e2 id: E119; e1 text: this problem; e2 text: surgical approach
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E120; e2 id: E121; e1 text: this problem; e2 text: further intervention
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E120; e2 id: E122; e1 text: this problem; e2 text: radiologic procedures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E67; e2 id: E74; e1 text: comfort measures; e2 text: agreement
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E24; e2 id: T9; e1 text: fluoroscopy; e2 text: 01/06/98
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E46; e2 id: E102; e1 text: the bleeding problems; e2 text: full heparinization
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E47; e2 id: E46; e1 text: pneumo-boots; e2 text: the bleeding problems
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E3; e2 id: E85; e1 text: hypotension; e2 text: the Medical Intensive Care Unit
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E3; e2 id: E2; e1 text: hypotension; e2 text: ventilatory management
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BOB
+
+e1 id: E85; e2 id: E68; e1 text: the Medical Intensive Care Unit; e2 text: transferred
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E11; e2 id: T7; e1 text: multiple pulmonary emboli; e2 text: one week
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E11; e2 id: E88; e1 text: multiple pulmonary emboli; e2 text: introduced
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E12; e2 id: T6; e1 text: lower extremity noninvasive studies; e2 text: 01/03/98
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E13; e2 id: E91; e1 text: high pressures; e2 text: ventilate adequately
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E115; e2 id: E112; e1 text: condition; e2 text: Extensive discussions
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T5; e2 id: E79; e1 text: 24 hours; e2 text: an attempted cadaveric kidney transplant
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E82; e2 id: T5; e1 text: a transplant nephrectomy; e2 text: 24 hours
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E80; e2 id: T5; e1 text: thrombosis; e2 text: 24 hours
+ground truth: OVERLAP; prediction: BEFORE
+

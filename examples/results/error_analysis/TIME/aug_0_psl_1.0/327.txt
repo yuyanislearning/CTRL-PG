@@ -1,0 +1,128 @@
+e1 id: E75; e2 id: E17; e1 text: embolic etiology; e2 text: infarct
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E27; e2 id: E26; e1 text: aspirin; e2 text: the stroke
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E29; e2 id: E26; e1 text: the severe akinesis of the left ventricle; e2 text: the stroke
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E14; e2 id: E14; e1 text: decreased right sided weakness; e2 text: decreased right sided weakness
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E15; e2 id: E14; e1 text: a global aphasia; e2 text: decreased right sided weakness
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E16; e2 id: E14; e1 text: an anterior aphasia picture; e2 text: decreased right sided weakness
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E104; e2 id: T1; e1 text: outpatient PT; e2 text: 2015-08-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T13; e2 id: E43; e1 text: 2015-08-26; e2 text: Discharge
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E7; e2 id: T8; e1 text: symptoms; e2 text: 6 am
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E12; e2 id: E8; e1 text: IV tpa thrombolytics; e2 text: TPA
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T9; e2 id: T7; e1 text: 3 hours; e2 text: the 3 hour
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E70; e2 id: E69; e1 text: bleed; e2 text: evidence
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: E5; e1 text: MRI; e2 text: head CT
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T7; e2 id: T6; e1 text: the 3 hour; e2 text: 3 hours
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E101; e2 id: E102; e1 text: They; e2 text: restarted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E102; e2 id: E42; e1 text: restarted; e2 text: discharge
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E60; e2 id: E59; e1 text: Hahnemann General Hospital Lydia; e2 text: brought
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E111; e2 id: E59; e1 text: denies; e2 text: brought
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T12; e2 id: E0; e1 text: 2016-08-23; e2 text: Admission
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E101; e2 id: E98; e1 text: They; e2 text: His home hypertensive medications
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E54; e2 id: T0; e1 text: found; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E55; e2 id: T0; e1 text: weak right leg; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E56; e2 id: T0; e1 text: flaccid right arm; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E57; e2 id: T0; e1 text: severe dysarthria; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E86; e2 id: E61; e1 text: his bipolar disorder; e2 text: His depakote
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E88; e2 id: E87; e1 text: strength was nearly intact; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: T0; e1 text: went to the bathroom; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E53; e2 id: T0; e1 text: called for help; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E61; e2 id: E83; e1 text: His depakote; e2 text: the hospital
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T14; e2 id: T13; e1 text: the next morning; e2 text: 2015-08-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E82; e2 id: T13; e1 text: low molecular wt heparin; e2 text: 2015-08-26
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E85; e2 id: E84; e1 text: the Wareham VA primary care clinic; e2 text: close follow-up
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E103; e2 id: T1; e1 text: oupatient speech therapy; e2 text: 2015-08-26
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E50; e2 id: T0; e1 text: acute onset right sided hemiplegia; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E51; e2 id: T0; e1 text: dysarthria; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E52; e2 id: E49; e1 text: went to the bathroom; e2 text: presents
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E92; e2 id: E91; e1 text: risk factor modification; e2 text: mild anterior aphasia
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E82; e2 id: T1; e1 text: low molecular wt heparin; e2 text: 2015-08-26
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E58; e2 id: T0; e1 text: called 911; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E59; e2 id: T0; e1 text: brought; e2 text: 2015-08-22
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E80; e2 id: T1; e1 text: future strokes; e2 text: 2015-08-26
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E101; e2 id: T1; e1 text: They; e2 text: 2015-08-26
+ground truth: OVERLAP; prediction: AFTER
+

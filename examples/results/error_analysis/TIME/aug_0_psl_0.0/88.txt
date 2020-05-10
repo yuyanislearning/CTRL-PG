@@ -1,0 +1,58 @@
+e1 id: E28; e2 id: E27; e1 text: good response; e2 text: a glucagon drip
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E44; e2 id: T4; e1 text: transfer; e2 text: the AM
+ground truth: AFTER; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E36; e2 id: T0; e1 text: the CMED; e2 text: 2012-06-07
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E37; e2 id: E36; e1 text: intubated; e2 text: the CMED
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E37; e2 id: E38; e1 text: intubated; e2 text: airway protection
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E20; e2 id: E21; e1 text: intubated; e2 text: activated charcoal
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E41; e2 id: T0; e1 text: CXR; e2 text: 2012-06-07
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E42; e2 id: T0; e1 text: extubated; e2 text: 2012-06-07
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E43; e2 id: T0; e1 text: incident; e2 text: 2012-06-07
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E44; e2 id: T0; e1 text: transfer; e2 text: 2012-06-07
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E45; e2 id: T0; e1 text: the medicine floor; e2 text: 2012-06-07
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E71; e2 id: E67; e1 text: OOB; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E6; e2 id: T0; e1 text: admit; e2 text: 2012-06-07
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T3; e2 id: E7; e1 text: one hour; e2 text: found alert
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E77; e2 id: T1; e1 text: transfer; e2 text: 2012-06-09
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E28; e2 id: T0; e1 text: good response; e2 text: 2012-06-07
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E69; e2 id: T1; e1 text: stable; e2 text: 2012-06-09
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E46; e2 id: T0; e1 text: CMED; e2 text: 2012-06-07
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E47; e2 id: T0; e1 text: involved in his care; e2 text: 2012-06-07
+ground truth: AFTER; prediction: BEFORE
+

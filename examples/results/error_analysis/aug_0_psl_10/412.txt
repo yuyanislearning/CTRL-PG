@@ -1,0 +1,51 @@
+e1 id: T5; e2 id: E70; e1 text: two days; e2 text: extubated
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E8; e2 id: E4; e1 text: increasing respiratory distress; e2 text: Rocephin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E4; e2 id: E7; e1 text: Rocephin; e2 text: chest x-ray
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E96; e2 id: E22; e1 text: a persistent fairly severe cough; e2 text: face mask
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E110; e2 id: E61; e1 text: low; e2 text: B12
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E62; e2 id: E61; e1 text: IM B12; e2 text: B12
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E55; e2 id: E54; e1 text: inadequate production; e2 text: The patient &#39;s reticulocyte count
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E57; e2 id: E56; e1 text: decreased iron; e2 text: Iron studies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E58; e2 id: E56; e1 text: decreased iron to TIBC ratio; e2 text: Iron studies
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E44; e1 text: breakthrough pain; e2 text: oxycodone
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E29; e2 id: E30; e1 text: identified bacterial pathogen; e2 text: any cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E26; e2 id: E25; e1 text: repeated coughing; e2 text: abdominal muscle pain
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E36; e2 id: T7; e1 text: The vancomycin; e2 text: four days
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E37; e2 id: T7; e1 text: Levaquin; e2 text: four days
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E71; e2 id: E34; e1 text: transferred; e2 text: extubation
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: T0; e2 id: E77; e1 text: one week; e2 text: presented
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E38; e2 id: T8; e1 text: The ceftriaxone; e2 text: four days
+ground truth: OVERLAP; prediction: BEFORE
+

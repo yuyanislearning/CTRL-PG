@@ -113,7 +113,7 @@ def get_relations(tlink_xml,dicsys,dic):
     existing_ids={}
     for tlinkline in tlinklines:
         if re.search('<TLINK', tlinkline):
-            re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+\/>'
+            re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+.*\/>'
             m = re.search(re_exp, tlinkline)
             if m:
                 id, core, fromtext, ref, totext, relType = m.groups()
@@ -174,7 +174,7 @@ def get_relations_from_dictionary(tlink_xml,dic):
     count=0
     for tlinkline in tlinklines:
         if re.search('<TLINK', tlinkline):
-            re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+\/>'
+            re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+.*\/>'
             m = re.search(re_exp, tlinkline)
             if m:
                 id, core, fromtext, ref, totext, relType = m.groups()

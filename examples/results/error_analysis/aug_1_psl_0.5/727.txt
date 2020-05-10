@@ -1,0 +1,33 @@
+e1 id: E27; e2 id: E28; e1 text: epidural; e2 text: Vaginal delivery
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E13; e2 id: E12; e1 text: previous pregnancy; e2 text: Primary cesarean section
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: E12; e1 text: arrest of descent; e2 text: Primary cesarean section
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E52; e2 id: E50; e1 text: a new blood transfusion; e2 text: Hematocrit
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E22; e2 id: E20; e1 text: perineal sepsis risk factors; e2 text: presented
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E20; e2 id: E21; e1 text: presented; e2 text: spontaneous labor .
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E33; e2 id: E31; e1 text: D10W; e2 text: hospital course
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E43; e2 id: E41; e1 text: Urachal duct remnanr; e2 text: OR
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E10; e2 id: E11; e1 text: hypothyroidism; e2 text: Levoxyl
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E17; e2 id: E20; e1 text: This pregnancy; e2 text: presented
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T2; e2 id: E19; e1 text: 18 weeks; e2 text: fetal ultrasound study
+ground truth: OVERLAP; prediction: BEFORE
+

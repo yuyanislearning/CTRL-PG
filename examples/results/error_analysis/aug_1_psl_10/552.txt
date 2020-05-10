@@ -1,0 +1,75 @@
+e1 id: E64; e2 id: E61; e1 text: gram-positive cocci in pairs and clusters; e2 text: her blood cultures
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E61; e2 id: E65; e1 text: her blood cultures; e2 text: Further identification
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E78; e2 id: E77; e1 text: the ampicillin; e2 text: an Infectious Disease consult
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E79; e2 id: E77; e1 text: gentamicin; e2 text: an Infectious Disease consult
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E80; e2 id: E77; e1 text: clindamycin; e2 text: an Infectious Disease consult
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E81; e2 id: E77; e1 text: intravenous Unasyn; e2 text: an Infectious Disease consult
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E75; e2 id: E73; e1 text: Her white blood cell count; e2 text: a temperature spike
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E98; e2 id: E97; e1 text: oral antibiotics; e2 text: discharged
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E74; e2 id: E73; e1 text: Repeat blood cultures; e2 text: a temperature spike
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E7; e2 id: T3; e1 text: bacterial vaginosis; e2 text: one day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E9; e2 id: T3; e1 text: Flagyl; e2 text: one day
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E54; e2 id: E50; e1 text: Her initial white blood cell count; e2 text: admitted
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E28; e2 id: E26; e1 text: a CT scan of her abdomen; e2 text: the office
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E91; e2 id: E90; e1 text: second opinion was obtained; e2 text: Extensive discussion
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E45; e2 id: E46; e1 text: Dilatation and curettage; e2 text: SAB
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E87; e2 id: E82; e1 text: Discussion; e2 text: a pelvic ultrasound
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E39; e2 id: E37; e1 text: Periods regular; e2 text: Last menstrual period
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E56; e2 id: E50; e1 text: Her sedimentation rate; e2 text: admitted
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E11; e2 id: T4; e1 text: increasing abdominal pain; e2 text: two days
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E10; e2 id: E11; e1 text: noted; e2 text: increasing abdominal pain
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: T7; e1 text: nausea; e2 text: the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E24; e2 id: T7; e1 text: vomiting; e2 text: the day
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E32; e2 id: E28; e1 text: Pinewood , Norfolk; e2 text: a CT scan of her abdomen
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E32; e2 id: E34; e1 text: Pinewood , Norfolk; e2 text: admission
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E4; e2 id: E5; e1 text: uterine artery embolization; e2 text: fibroids
+ground truth: AFTER; prediction: BEFORE
+

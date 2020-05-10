@@ -34,5 +34,19 @@ Autopsy permission was declined by the family .
 <TIMEX3 id="T4" start="505" end="518" text="July 1 , 1992" type="DATE" val="1992-07-01" mod="NA" />
 <SECTIME id="S0" start="18" end="25" text="6-30-92" type="ADMISSION" dvalue="1992-06-30" />
 <SECTIME id="S1" start="43" end="49" text="7-1-92" type="DISCHARGE" dvalue="1992-07-01" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="6-30-92" type="OVERLAP" senid="2" />
+<TLINK id="TL2" fromID="E7" fromText="All efforts" toID="E9" toText="died" type="BEFORE" senid="10" />
+<TLINK id="TL3" fromID="E4" fromText="worsened" toID="E5" toText="admission" type="AFTER" senid="10" />
+<TLINK id="TL4" fromID="E4" fromText="worsened" toID="E6" toText="pre-terminal" type="OVERLAP" senid="10" />
+<TLINK id="TL5" fromID="E7" fromText="All efforts" toID="E8" toText="his comfort" type="OVERLAP" senid="10" />
+<TLINK id="TL6" fromID="E9" fromText="died" toID="T4" toText="July 1 , 1992" type="OVERLAP" senid="10" />
+<TLINK id="TL7" fromID="E1" fromText="DISCHARGE" toID="T1" toText="7-1-92" type="OVERLAP" senid="3" />
+<TLINK id="TL8" fromID="E3" fromText="the typed admission note" toID="T3" toText="June 30 , 1992" type="OVERLAP" senid="8" />
+<TLINK id="TL9" fromID="E2" fromText="DISCHARGE" toID="T2" toText="7-1-92" type="OVERLAP" senid="5" />
+<TLINK id="TL10" fromID="T2" fromText="7-1-92" toID="T1" toText="7-1-92" type="OVERLAP" senid="5" />
+<TLINK id="TL11" fromID="E2" fromText="DISCHARGE" toID="T1" toText="7-1-92" type="OVERLAP" senid="4" />
+<TLINK id="TL12" fromID="E1" fromText="DISCHARGE" toID="E2" toText="DISCHARGE" type="OVERLAP" senid="4" />
+<TLINK id="TL13" fromID="E11" fromText="declined" toID="E10" toText="Autopsy" type="OVERLAP" senid="11" />
+<TLINK id="TL14" fromID="E10" fromText="Autopsy" toID="E9" toText="died" type="OVERLAP" senid="11" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

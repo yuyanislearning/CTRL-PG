@@ -1,0 +1,42 @@
+e1 id: E20; e2 id: E21; e1 text: lowered her cholesterol; e2 text: changing her diet
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E83; e2 id: E75; e1 text: Lasix; e2 text: discharged
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E84; e2 id: E75; e1 text: increased; e2 text: discharged
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E15; e2 id: T6; e1 text: smoking; e2 text: two years
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E14; e2 id: T6; e1 text: cut down; e2 text: two years
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E85; e2 id: E86; e1 text: Potassium replacement; e2 text: marked hyperkalemia
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E45; e2 id: E44; e1 text: markedly elevated; e2 text: Pulmonary artery pressure
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E71; e2 id: E73; e1 text: interventional neuroradiology occlusion; e2 text: The procedure
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E2; e2 id: E3; e1 text: rheumatic fever; e2 text: chronic atrial fibrillation
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E23; e2 id: E24; e1 text: Vanceril; e2 text: chronic obstructive pulmonary disease
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E77; e2 id: E78; e1 text: re-admission; e2 text: the neuroradiology procedure
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E71; e2 id: E70; e1 text: interventional neuroradiology occlusion; e2 text: Coumadin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E47; e2 id: E46; e1 text: markedly elevated; e2 text: Pulmonary capillary wedge pressure
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E41; e2 id: E38; e1 text: Right atrial pressure; e2 text: Cardiac catheterization
+ground truth: OVERLAP; prediction: BEFORE
+

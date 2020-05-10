@@ -117,5 +117,88 @@ He was discharged to a rehab facility in fair condition .
 <TIMEX3 id="T5" start="631" end="636" text="03-18" type="DATE" val="2016-03-18" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2016-03-18" type="ADMISSION" dvalue="2016-03-18" />
 <SECTIME id="S1" start="46" end="56" text="2016-04-01" type="DISCHARGE" dvalue="2016-04-01" />
+<TLINK id="TL1" fromID="E39" fromText="severe tibial disease" toID="E37" toText="An angiogram" type="BEFORE" senid="23" />
+<TLINK id="TL2" fromID="E40" fromText="moderate SFA disease" toID="E37" toText="An angiogram" type="BEFORE" senid="23" />
+<TLINK id="TL3" fromID="E42" fromText="a femoral-peroneal bypass" toID="E37" toText="An angiogram" type="AFTER" senid="23" />
+<TLINK id="TL4" fromID="E37" fromText="An angiogram" toID="T8" toText="HD#4" type="OVERLAP" senid="23" />
+<TLINK id="TL5" fromID="E38" fromText="showed" toID="E37" toText="An angiogram" type="OVERLAP" senid="23" />
+<TLINK id="TL6" fromID="E19" fromText="necrotizing fascitis" toID="E18" toText="re-exploration" type="BEFORE" senid="13" />
+<TLINK id="TL7" fromID="E20" fromText="transferred" toID="E18" toText="re-exploration" type="AFTER" senid="13" />
+<TLINK id="TL8" fromID="E18" fromText="re-exploration" toID="T5" toText="03-18" type="OVERLAP" senid="13" />
+<TLINK id="TL9" fromID="E43" fromText="this operation" toID="E42" toText="a femoral-peroneal bypass" type="OVERLAP" senid="24" />
+<TLINK id="TL10" fromID="E43" fromText="this operation" toID="T9" toText="HD#5" type="OVERLAP" senid="24" />
+<TLINK id="TL11" fromID="E43" fromText="this operation" toID="E44" toText="the procedure" type="OVERLAP" senid="24" />
+<TLINK id="TL12" fromID="E34" fromText="silvadine" toID="E33" toText="Plastic surgery" type="OVERLAP" senid="20" />
+<TLINK id="TL13" fromID="E32" fromText="dressing changes" toID="T7" toText="BID" type="OVERLAP" senid="19" />
+<TLINK id="TL14" fromID="E33" fromText="Plastic surgery" toID="E31" toText="the floor" type="OVERLAP" senid="19" />
+<TLINK id="TL15" fromID="E31" fromText="the floor" toID="T6" toText="HD#2" type="AFTER" senid="18" />
+<TLINK id="TL16" fromID="E30" fromText="transferred" toID="E31" toText="the floor" type="BEFORE" senid="18" />
+<TLINK id="TL17" fromID="E30" fromText="transferred" toID="T6" toText="HD#2" type="OVERLAP" senid="18" />
+<TLINK id="TL18" fromID="E31" fromText="the floor" toID="E32" toText="dressing changes" type="OVERLAP" senid="18" />
+<TLINK id="TL19" fromID="E17" fromText="a right foot infection" toID="E16" toText="an I D" type="BEFORE" senid="12" />
+<TLINK id="TL20" fromID="E18" fromText="re-exploration" toID="E16" toText="an I D" type="AFTER" senid="12" />
+<TLINK id="TL21" fromID="E16" fromText="an I D" toID="E15" toText="this hospital" type="OVERLAP" senid="12" />
+<TLINK id="TL22" fromID="E16" fromText="an I D" toID="T4" toText="03-17" type="OVERLAP" senid="12" />
+<TLINK id="TL23" fromID="E9" fromText="prednisone" toID="E10" toText="more pain" type="BEFORE" senid="10" />
+<TLINK id="TL24" fromID="E8" fromText="colchicine" toID="E9" toText="prednisone" type="OVERLAP" senid="10" />
+<TLINK id="TL25" fromID="E57" fromText="a PICC" toID="E58" toText="his long-term antibiotic therapy" type="OVERLAP" senid="29" />
+<TLINK id="TL26" fromID="E62" fromText="a well-healing wound" toID="E59" toText="discharge" type="BEFORE" senid="29" />
+<TLINK id="TL27" fromID="E62" fromText="a well-healing wound" toID="E63" toText="a VAC dressing" type="BEFORE" senid="29" />
+<TLINK id="TL28" fromID="E64" fromText="his IV PCN G" toID="E59" toText="discharge" type="BEFORE" senid="29" />
+<TLINK id="TL29" fromID="E65" fromText="Clindamycin" toID="E59" toText="discharge" type="AFTER" senid="29" />
+<TLINK id="TL30" fromID="E57" fromText="a PICC" toID="T13" toText="POD#7" type="BEFORE" senid="29" />
+<TLINK id="TL31" fromID="E59" fromText="discharge" toID="T13" toText="POD#7" type="OVERLAP" senid="29" />
+<TLINK id="TL32" fromID="E54" fromText="His wound" toID="E62" toText="a well-healing wound" type="OVERLAP" senid="29" />
+<TLINK id="TL33" fromID="T14" fromText="the time" toID="E59" toText="discharge" type="OVERLAP" senid="29" />
+<TLINK id="TL34" fromID="E60" fromText="good pain control" toID="E59" toText="discharge" type="BEFORE" senid="29" />
+<TLINK id="TL35" fromID="E61" fromText="a regular diet" toID="E59" toText="discharge" type="BEFORE" senid="29" />
+<TLINK id="TL36" fromID="E63" fromText="a VAC dressing" toID="E56" toText="a VAC dressing" type="OVERLAP" senid="29" />
+<TLINK id="TL37" fromID="E64" fromText="his IV PCN G" toID="E65" toText="Clindamycin" type="OVERLAP" senid="29" />
+<TLINK id="TL38" fromID="E1" fromText="Discharge" toID="T1" toText="2016-04-01" type="OVERLAP" senid="3" />
+<TLINK id="TL39" fromID="E23" fromText="the TSICU" toID="E30" toText="transferred" type="BEFORE" senid="17" />
+<TLINK id="TL40" fromID="E26" fromText="his wound" toID="E25" toText="Clindamycin" type="BEFORE" senid="17" />
+<TLINK id="TL41" fromID="E27" fromText="Group A strep growth" toID="E25" toText="Clindamycin" type="OVERLAP" senid="17" />
+<TLINK id="TL42" fromID="E27" fromText="Group A strep growth" toID="E29" toText="cultures" type="OVERLAP" senid="17" />
+<TLINK id="TL43" fromID="E24" fromText="Penicillin G" toID="E25" toText="Clindamycin" type="OVERLAP" senid="17" />
+<TLINK id="TL44" fromID="E26" fromText="his wound" toID="E27" toText="Group A strep growth" type="OVERLAP" senid="17" />
+<TLINK id="TL45" fromID="E29" fromText="cultures" toID="E28" toText="the New England Baptist Hospital-Bryce" type="OVERLAP" senid="17" />
+<TLINK id="TL46" fromID="E22" fromText="admitted" toID="E20" toText="transferred" type="OVERLAP" senid="15" />
+<TLINK id="TL47" fromID="E54" fromText="His wound" toID="E56" toText="a VAC dressing" type="BEFORE" senid="28" />
+<TLINK id="TL48" fromID="E56" fromText="a VAC dressing" toID="T12" toText="POD #6" type="AFTER" senid="28" />
+<TLINK id="TL49" fromID="E54" fromText="His wound" toID="E55" toText="heal well" type="OVERLAP" senid="28" />
+<TLINK id="TL50" fromID="E0" fromText="Admission" toID="T0" toText="2016-03-18" type="OVERLAP" senid="2" />
+<TLINK id="TL51" fromID="E2" fromText="transferred" toID="E3" toText="Kindred Park View Specialty Hospital of Springfield-Sample" type="AFTER" senid="8" />
+<TLINK id="TL52" fromID="T10" fromText="POD#1" toID="T9" toText="HD#5" type="AFTER" senid="25" />
+<TLINK id="TL53" fromID="E46" fromText="post-op anemia" toID="E44" toText="the procedure" type="AFTER" senid="25" />
+<TLINK id="TL54" fromID="E34" fromText="silvadine" toID="E35" toText="dessication" type="OVERLAP" senid="21" />
+<TLINK id="TL55" fromID="E33" fromText="Plastic surgery" toID="E36" toText="Vascular surgery" type="OVERLAP" senid="21" />
+<TLINK id="TL56" fromID="E66" fromText="discharged" toID="E59" toText="discharge" type="OVERLAP" senid="30" />
+<TLINK id="TL57" fromID="E66" fromText="discharged" toID="E67" toText="a rehab facility" type="BEFORE" senid="30" />
+<TLINK id="TL58" fromID="E68" fromText="fair condition" toID="E67" toText="a rehab facility" type="BEFORE" senid="30" />
+<TLINK id="TL59" fromID="E10" fromText="more pain" toID="E13" toText="presented" type="BEFORE" senid="11" />
+<TLINK id="TL60" fromID="T3" fromText="the week" toID="E14" toText="the Youville Hospital - Woody Monica" type="BEFORE" senid="11" />
+<TLINK id="TL61" fromID="E10" fromText="more pain" toID="T3" toText="the week" type="AFTER" senid="11" />
+<TLINK id="TL62" fromID="E12" fromText="warmth" toID="T3" toText="the week" type="AFTER" senid="11" />
+<TLINK id="TL63" fromID="E10" fromText="more pain" toID="E12" toText="warmth" type="OVERLAP" senid="11" />
+<TLINK id="TL64" fromID="E14" fromText="the Youville Hospital - Woody Monica" toID="E13" toText="presented" type="AFTER" senid="11" />
+<TLINK id="TL65" fromID="E14" fromText="the Youville Hospital - Woody Monica" toID="E15" toText="this hospital" type="OVERLAP" senid="11" />
+<TLINK id="TL66" fromID="E20" fromText="transferred" toID="E21" toText="Hallmark Health System" type="BEFORE" senid="14" />
+<TLINK id="TL67" fromID="E48" fromText="Infectious Disease" toID="T11" toText="01-28 week" type="AFTER" senid="27" />
+<TLINK id="TL68" fromID="E50" fromText="Clindamycin" toID="E51" toText="debrided" type="AFTER" senid="27" />
+<TLINK id="TL69" fromID="E50" fromText="Clindamycin" toID="E53" toText="the skin flaps" type="AFTER" senid="27" />
+<TLINK id="TL70" fromID="T12" fromText="POD #6" toID="T10" toText="POD#1" type="AFTER" senid="27" />
+<TLINK id="TL71" fromID="E49" fromText="Penicillin G" toID="T11" toText="01-28 week" type="OVERLAP" senid="27" />
+<TLINK id="TL72" fromID="E49" fromText="Penicillin G" toID="E50" toText="Clindamycin" type="OVERLAP" senid="27" />
+<TLINK id="TL73" fromID="E50" fromText="Clindamycin" toID="T11" toText="01-28 week" type="OVERLAP" senid="27" />
+<TLINK id="TL74" fromID="E23" fromText="the TSICU" toID="E22" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL75" fromID="E24" fromText="Penicillin G" toID="E23" toText="the TSICU" type="OVERLAP" senid="16" />
+<TLINK id="TL76" fromID="E4" fromText="right foot pain" toID="E6" toText="his Podiatrist" type="AFTER" senid="9" />
+<TLINK id="TL77" fromID="T2" fromText="the Sunday" toID="E5" toText="admission" type="BEFORE" senid="9" />
+<TLINK id="TL78" fromID="E7" fromText="gout" toID="E8" toText="colchicine" type="OVERLAP" senid="9" />
+<TLINK id="TL79" fromID="E4" fromText="right foot pain" toID="T2" toText="the Sunday" type="OVERLAP" senid="9" />
+<TLINK id="TL80" fromID="E7" fromText="gout" toID="E4" toText="right foot pain" type="OVERLAP" senid="9" />
+<TLINK id="TL81" fromID="E46" fromText="post-op anemia" toID="E45" toText="pRBCs" type="BEFORE" senid="26" />
+<TLINK id="TL82" fromID="E45" fromText="pRBCs" toID="T10" toText="POD#1" type="OVERLAP" senid="26" />
+<TLINK id="TL83" fromID="E47" fromText="Hct" toID="E46" toText="post-op anemia" type="OVERLAP" senid="26" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

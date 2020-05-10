@@ -1,0 +1,190 @@
+e1 id: E55; e2 id: E238; e1 text: Lopressor; e2 text: calcium channel blocker
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E56; e2 id: E238; e1 text: the patient &#39;s pulmonary hypertension; e2 text: calcium channel blocker
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E231; e2 id: E49; e1 text: left atrial hypertension; e2 text: a CT angiogram of the chest
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E311; e2 id: E162; e1 text: worsened significantly; e2 text: chest tightness
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E275; e2 id: E116; e1 text: reported; e2 text: Flolan teaching
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E105; e2 id: E104; e1 text: the bleeding; e2 text: prolonged pressure
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E105; e2 id: E106; e1 text: the bleeding; e2 text: an extra stitch
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E43; e2 id: E225; e1 text: herbal medication; e2 text: drug-induced
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E217; e2 id: E218; e1 text: myocardial infarction; e2 text: three sets of normal enzymes
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E274; e2 id: T22; e1 text: tolerating; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E273; e2 id: T22; e1 text: her Flolan therapy; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E276; e2 id: E273; e1 text: the medication; e2 text: her Flolan therapy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E54; e2 id: E237; e1 text: the patient &#39;s human immunodeficiency virus test; e2 text: a primary pulmonary hypertension
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E197; e2 id: T17; e1 text: A stress thallium; e2 text: the day following admission
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E139; e2 id: E306; e1 text: the patient &#39;s oxygen saturation; e2 text: a 6 - minute walk test
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E239; e2 id: E60; e1 text: awake , alert , and oriented; e2 text: unresponsiveness
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T23; e2 id: E282; e1 text: the time of admission; e2 text: infection
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E179; e2 id: E178; e1 text: any symptoms; e2 text: beginning when she was at rest
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E76; e2 id: E78; e1 text: Flolan therapy; e2 text: Flolan
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E215; e2 id: E37; e1 text: Her stress test; e2 text: an echocardiogram
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E38; e2 id: E212; e1 text: a pulmonary artery pressure; e2 text: demonstrated
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E271; e2 id: T13; e1 text: a pacemaker; e2 text: 12-15
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E141; e2 id: E232; e1 text: CT angiogram; e2 text: Chronic pulmonary embolus
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E130; e2 id: E132; e1 text: the decreased urine output; e2 text: her urine output
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E132; e2 id: E315; e1 text: her urine output; e2 text: adequately hydrated
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E126; e2 id: E127; e1 text: the antibiotic; e2 text: the patient &#39;s white blood cell count
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E288; e2 id: E127; e1 text: afebrile; e2 text: the patient &#39;s white blood cell count
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E30; e2 id: E207; e1 text: a junctional escape rhythm; e2 text: demonstrated
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in BBB
+
+e1 id: E87; e2 id: E86; e1 text: low preload; e2 text: decreased cardiac output
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E83; e2 id: E84; e1 text: the patient &#39;s urine output; e2 text: hydration therapy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E84; e2 id: E85; e1 text: hydration therapy; e2 text: her low urine output
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E287; e2 id: E123; e1 text: levofloxacin therapy; e2 text: positive
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E250; e2 id: E312; e1 text: pacemaker placement; e2 text: This was to be deferred
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E148; e2 id: E1; e1 text: MIBI; e2 text: a previous workup
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E114; e2 id: T13; e1 text: her surgery; e2 text: 12-15
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E304; e2 id: T28; e1 text: a Flolan dose; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E67; e2 id: E66; e1 text: nonsustained ventricular tachycardia; e2 text: telemetry
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E68; e2 id: E66; e1 text: bradycardia; e2 text: telemetry
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E265; e2 id: T21; e1 text: Flolan teaching; e2 text: few days
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E266; e2 id: T21; e1 text: dizziness; e2 text: few days
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E120; e2 id: E314; e1 text: increased urinary frequency; e2 text: near the end of her hospitalization
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E77; e2 id: T10; e1 text: the Hickman catheter; e2 text: 12-08
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E34; e2 id: E32; e1 text: a vagal response; e2 text: Her acute bradycardic event
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E35; e2 id: E32; e1 text: the beta blocker; e2 text: Her acute bradycardic event
+ground truth: BEFORE; prediction: OVERLAP
+This relation involves in OBB
+
+e1 id: E109; e2 id: E108; e1 text: pacemaker placement; e2 text: too stressed
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E278; e2 id: E279; e1 text: home services; e2 text: Flolan therapy
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E289; e2 id: T25; e1 text: a mildly elevated white blood cell count; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E290; e2 id: T25; e1 text: asymptomatic; e2 text: the time of discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E234; e2 id: E233; e1 text: the patient &#39;s normal pulmonary function tests; e2 text: Chronic lung disease
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E53; e2 id: E233; e1 text: DLCO; e2 text: Chronic lung disease
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E142; e2 id: E233; e1 text: CT angiogram; e2 text: Chronic lung disease
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E257; e2 id: E97; e1 text: precipitating symptoms; e2 text: Flolan overdose
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E201; e2 id: E23; e1 text: quickly responded; e2 text: a fluid bolus
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E202; e2 id: E201; e1 text: interactive; e2 text: quickly responded
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E203; e2 id: E201; e1 text: reported; e2 text: quickly responded
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E65; e2 id: E64; e1 text: her systolic blood pressure; e2 text: intravenous fluids
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E308; e2 id: E307; e1 text: Flolan teaching; e2 text: discharged
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E186; e2 id: E184; e1 text: daytime sleepiness; e2 text: reports
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E103; e2 id: E102; e1 text: A surgicel dressing; e2 text: pressure
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: T6; e2 id: E19; e1 text: few minutes; e2 text: Further examination
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E144; e2 id: E98; e1 text: transferred; e2 text: her current Flolan dose
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E90; e2 id: E91; e1 text: the patient &#39;s pulmonary pressures; e2 text: adenosine
+ground truth: BEFORE; prediction: OVERLAP
+

@@ -1,0 +1,36 @@
+e1 id: E16; e2 id: E65; e1 text: supplemental oxygen; e2 text: admission
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: T8; e2 id: E15; e1 text: 1 minute; e2 text: Her Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: T9; e2 id: E15; e1 text: 5 minutes; e2 text: Her Apgars
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E41; e2 id: T14; e1 text: phototherapy; e2 text: day of life 7
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E41; e2 id: T15; e1 text: phototherapy; e2 text: day of life 3
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E59; e2 id: E112; e1 text: immature retinas; e2 text: mature retinas bilaterally
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E96; e2 id: E113; e1 text: cardiac catheterization; e2 text: grows to 3.5 to 4 kg
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E21; e2 id: T11; e1 text: a murmur; e2 text: day of life 15
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E102; e2 id: E101; e1 text: BM; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E104; e2 id: E101; e1 text: adequate intake; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E105; e2 id: E101; e1 text: adequate weight gain; e2 text: discharge
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: T10; e2 id: E83; e1 text: one week; e2 text: very rare spells
+ground truth: AFTER; prediction: OVERLAP
+

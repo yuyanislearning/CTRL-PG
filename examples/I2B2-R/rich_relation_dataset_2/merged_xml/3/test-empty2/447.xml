@@ -190,5 +190,113 @@ On 9-28-92 , the patient will return for chemotherapy and she will follow up wit
 <TIMEX3 id="T4" start="539" end="544" text="10-90" type="DATE" val="1990-10" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="09/07/1992" type="ADMISSION" dvalue="1992-09-07" />
 <SECTIME id="S1" start="46" end="56" text="09/12/1992" type="DISCHARGE" dvalue="1992-09-12" />
+<TLINK id="TL1" fromID="E16" fromText="VP-16" toID="E17" toText="IV fluid" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E16" fromText="VP-16" toID="T10" toText="each day for 3 days ." type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="T9" fromText="1 hour" toID="T10" toText="each day for 3 days ." type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E41" fromText="the patient &#39;s hematocrit" toID="E107" toText="a repeat" type="BEFORE" senid="34" />
+<TLINK id="TL5" fromID="E107" fromText="a repeat" toID="T15" toText="9-11" type="OVERLAP" senid="34" />
+<TLINK id="TL6" fromID="E108" fromText="hematocrit" toID="T15" toText="9-11" type="OVERLAP" senid="34" />
+<TLINK id="TL7" fromID="E109" fromText="transfused" toID="T15" toText="9-11" type="OVERLAP" senid="34" />
+<TLINK id="TL8" fromID="E93" fromText="two primaries" toID="E94" toText="metastatic endometrial cancer" type="OVERLAP" senid="13" />
+<TLINK id="TL9" fromID="E19" fromText="her IFEX" toID="E62" toText="completed" type="OVERLAP" senid="24" />
+<TLINK id="TL10" fromID="E20" fromText="MESNA" toID="E19" toText="her IFEX" type="AFTER" senid="24" />
+<TLINK id="TL11" fromID="E112" fromText="Coumadin" toID="T17" toText="per day" type="OVERLAP" senid="39" />
+<TLINK id="TL12" fromID="E99" fromText="complaints" toID="E98" toText="admission" type="OVERLAP" senid="19" />
+<TLINK id="TL13" fromID="E99" fromText="complaints" toID="E100" toText="anxiety" type="OVERLAP" senid="19" />
+<TLINK id="TL14" fromID="E97" fromText="Coumadin therapy" toID="E61" toText="discharged" type="BEFORE" senid="18" />
+<TLINK id="TL15" fromID="E46" fromText="her Coumadin" toID="E69" toText="held" type="BEFORE" senid="37" />
+<TLINK id="TL16" fromID="E68" fromText="Her repeat" toID="T16" toText="9-8" type="OVERLAP" senid="37" />
+<TLINK id="TL17" fromID="E69" fromText="held" toID="T16" toText="9-8" type="AFTER" senid="37" />
+<TLINK id="TL18" fromID="E90" fromText="papillary serous adeno" toID="E57" toText="showed" type="BEFORE" senid="12" />
+<TLINK id="TL19" fromID="E91" fromText="omental involvement" toID="E90" toText="papillary serous adeno" type="OVERLAP" senid="12" />
+<TLINK id="TL20" fromID="E92" fromText="an endometroid adenocarcinoma" toID="E90" toText="papillary serous adeno" type="OVERLAP" senid="12" />
+<TLINK id="TL21" fromID="E13" fromText="IFEX" toID="T7" toText="3 days" type="OVERLAP" senid="22" />
+<TLINK id="TL22" fromID="E14" fromText="MESNA" toID="T8" toText="3 days" type="OVERLAP" senid="22" />
+<TLINK id="TL23" fromID="E14" fromText="MESNA" toID="E15" toText="continuous IV infusion" type="OVERLAP" senid="22" />
+<TLINK id="TL24" fromID="E43" fromText="her anticoagulation" toID="E67" toText="admission" type="BEFORE" senid="36" />
+<TLINK id="TL25" fromID="E110" fromText="grossly out of control" toID="E43" toText="her anticoagulation" type="OVERLAP" senid="36" />
+<TLINK id="TL26" fromID="E110" fromText="grossly out of control" toID="E67" toText="admission" type="OVERLAP" senid="36" />
+<TLINK id="TL27" fromID="E44" fromText="PT" toID="E67" toText="admission" type="OVERLAP" senid="36" />
+<TLINK id="TL28" fromID="E45" fromText="PTT" toID="E44" toText="PT" type="OVERLAP" senid="36" />
+<TLINK id="TL29" fromID="E81" fromText="tumor" toID="E82" toText="found" type="BEFORE" senid="10" />
+<TLINK id="TL30" fromID="E84" fromText="gross tumor in the omentum and large bowel" toID="E82" toText="found" type="BEFORE" senid="10" />
+<TLINK id="TL31" fromID="E85" fromText="tumor through the uterine serosa" toID="E82" toText="found" type="BEFORE" senid="10" />
+<TLINK id="TL32" fromID="E81" fromText="tumor" toID="E83" toText="studding on the right diaphragm" type="OVERLAP" senid="10" />
+<TLINK id="TL33" fromID="E42" fromText="packed RBC" toID="E109" toText="transfused" type="OVERLAP" senid="35" />
+<TLINK id="TL34" fromID="E32" fromText="her IFEX" toID="E64" toText="stopped" type="BEFORE" senid="29" />
+<TLINK id="TL35" fromID="E64" fromText="stopped" toID="T13" toText="her second day" type="OVERLAP" senid="29" />
+<TLINK id="TL36" fromID="E70" fromText="Discharge" toID="T2" toText="09/12/1992" type="OVERLAP" senid="3" />
+<TLINK id="TL37" fromID="E60" fromText="Wellla Uxinny : mount Medical Center" toID="E61" toText="discharged" type="BEFORE" senid="17" />
+<TLINK id="TL38" fromID="E11" fromText="left leg DVT" toID="E59" toText="admitted" type="BEFORE" senid="17" />
+<TLINK id="TL39" fromID="E60" fromText="Wellla Uxinny : mount Medical Center" toID="E59" toText="admitted" type="AFTER" senid="17" />
+<TLINK id="TL40" fromID="E12" fromText="Heparin therapy" toID="E96" toText="started" type="AFTER" senid="17" />
+<TLINK id="TL41" fromID="E59" fromText="admitted" toID="T6" toText="05-92" type="OVERLAP" senid="17" />
+<TLINK id="TL42" fromID="E96" fromText="started" toID="E60" toText="Wellla Uxinny : mount Medical Center" type="BEFORE" senid="17" />
+<TLINK id="TL43" fromID="E52" fromText="Her PT" toID="T19" toText="the day of discharge" type="OVERLAP" senid="41" />
+<TLINK id="TL44" fromID="E53" fromText="Coumadin" toID="T21" toText="q d" type="OVERLAP" senid="41" />
+<TLINK id="TL45" fromID="E72" fromText="stage IV endometrial cancer" toID="E76" toText="presented" type="BEFORE" senid="6" />
+<TLINK id="TL46" fromID="E9" fromText="Cytoxan" toID="E8" toText="the fourth cycle" type="OVERLAP" senid="15" />
+<TLINK id="TL47" fromID="E116" fromText="chemotherapy" toID="T22" toText="9-28-92" type="AFTER" senid="43" />
+<TLINK id="TL48" fromID="E117" fromText="follow up" toID="E118" toText="her primary doctor" type="OVERLAP" senid="43" />
+<TLINK id="TL49" fromID="E117" fromText="follow up" toID="E119" toText="repeat PT" type="OVERLAP" senid="43" />
+<TLINK id="TL50" fromID="E117" fromText="follow up" toID="E120" toText="Coumadin dosing" type="OVERLAP" senid="43" />
+<TLINK id="TL51" fromID="E117" fromText="follow up" toID="T23" toText="Monday , 9-14-02" type="OVERLAP" senid="43" />
+<TLINK id="TL52" fromID="E28" fromText="8-10 RBC &#39;s in her urine" toID="T11" toText="1 day" type="OVERLAP" senid="28" />
+<TLINK id="TL53" fromID="E28" fromText="8-10 RBC &#39;s in her urine" toID="E27" toText="chemotherapy" type="OVERLAP" senid="28" />
+<TLINK id="TL54" fromID="E27" fromText="chemotherapy" toID="T11" toText="1 day" type="OVERLAP" senid="28" />
+<TLINK id="TL55" fromID="E29" fromText="her IFEX infusion" toID="T12" toText="the second day" type="OVERLAP" senid="28" />
+<TLINK id="TL56" fromID="E30" fromText="50-80 RBC &#39;s in her urine" toID="T12" toText="the second day" type="OVERLAP" senid="28" />
+<TLINK id="TL57" fromID="E31" fromText="a few transitional epithelial cells" toID="T12" toText="the second day" type="OVERLAP" senid="28" />
+<TLINK id="TL58" fromID="E31" fromText="a few transitional epithelial cells" toID="E30" toText="50-80 RBC &#39;s in her urine" type="OVERLAP" senid="28" />
+<TLINK id="TL59" fromID="E33" fromText="infusion" toID="E29" toText="her IFEX infusion" type="OVERLAP" senid="28" />
+<TLINK id="TL60" fromID="E0" fromText="Admission" toID="T0" toText="09/07/1992" type="OVERLAP" senid="2" />
+<TLINK id="TL61" fromID="E114" fromText="discharged" toID="T20" toText="9-12-92" type="OVERLAP" senid="42" />
+<TLINK id="TL62" fromID="E115" fromText="her attending physiciana" toID="E114" toText="discharged" type="AFTER" senid="42" />
+<TLINK id="TL63" fromID="E77" fromText="grade II-III adenocarcinoma" toID="E54" toText="showed" type="BEFORE" senid="8" />
+<TLINK id="TL64" fromID="E2" fromText="D and C" toID="E54" toText="showed" type="OVERLAP" senid="8" />
+<TLINK id="TL65" fromID="E54" fromText="showed" toID="E79" toText="Wellla Uxinny : mount Medical Center" type="OVERLAP" senid="8" />
+<TLINK id="TL66" fromID="E78" fromText="squamous differentiation" toID="E77" toText="grade II-III adenocarcinoma" type="OVERLAP" senid="8" />
+<TLINK id="TL67" fromID="E21" fromText="The patient &#39;s urinalysis" toID="E63" toText="admission" type="OVERLAP" senid="25" />
+<TLINK id="TL68" fromID="E22" fromText="red blood cells" toID="E21" toText="The patient &#39;s urinalysis" type="OVERLAP" senid="25" />
+<TLINK id="TL69" fromID="E22" fromText="red blood cells" toID="E23" toText="uric acid" type="OVERLAP" senid="25" />
+<TLINK id="TL70" fromID="E113" fromText="significant bump" toID="E51" toText="packed RBC" type="AFTER" senid="40" />
+<TLINK id="TL71" fromID="E49" fromText="The patient &#39;s hematocrit" toID="T18" toText="the day of discharge" type="OVERLAP" senid="40" />
+<TLINK id="TL72" fromID="E113" fromText="significant bump" toID="E49" toText="The patient &#39;s hematocrit" type="BEFORE" senid="40" />
+<TLINK id="TL73" fromID="E113" fromText="significant bump" toID="T18" toText="the day of discharge" type="BEFORE" senid="40" />
+<TLINK id="TL74" fromID="E53" fromText="Coumadin" toID="E112" toText="Coumadin" type="OVERLAP" senid="40" />
+<TLINK id="TL75" fromID="E37" fromText="complication" toID="E36" toText="her VP-16" type="OVERLAP" senid="31" />
+<TLINK id="TL76" fromID="E13" fromText="IFEX" toID="E101" toText="chemotherapy" type="OVERLAP" senid="21" />
+<TLINK id="TL77" fromID="E14" fromText="MESNA" toID="E101" toText="chemotherapy" type="OVERLAP" senid="21" />
+<TLINK id="TL78" fromID="E34" fromText="Her MESNA" toID="E105" toText="continued" type="OVERLAP" senid="30" />
+<TLINK id="TL79" fromID="E105" fromText="continued" toID="E35" toText="IV infusion" type="OVERLAP" senid="30" />
+<TLINK id="TL80" fromID="E86" fromText="grade II-III papillary adenocarcinoma of the endometrium" toID="E56" toText="showed" type="BEFORE" senid="11" />
+<TLINK id="TL81" fromID="E89" fromText="superficial myometrium" toID="E56" toText="showed" type="BEFORE" senid="11" />
+<TLINK id="TL82" fromID="E6" fromText="Pathology" toID="E56" toText="showed" type="OVERLAP" senid="11" />
+<TLINK id="TL83" fromID="E87" fromText="squamous differentiation" toID="E86" toText="grade II-III papillary adenocarcinoma of the endometrium" type="OVERLAP" senid="11" />
+<TLINK id="TL84" fromID="E88" fromText="focally invasive" toID="E87" toText="squamous differentiation" type="OVERLAP" senid="11" />
+<TLINK id="TL85" fromID="E7" fromText="CAP" toID="E95" toText="Pemrancetul Tonsst" type="OVERLAP" senid="14" />
+<TLINK id="TL86" fromID="E26" fromText="A repeat straight cath" toID="E104" toText="RBC &#39;s" type="OVERLAP" senid="27" />
+<TLINK id="TL87" fromID="E10" fromText="Her CA-125" toID="T1" toText="6-27-91" type="OVERLAP" senid="16" />
+<TLINK id="TL88" fromID="E10" fromText="Her CA-125" toID="T5" toText="8-29-91" type="OVERLAP" senid="16" />
+<TLINK id="TL89" fromID="E112" fromText="Coumadin" toID="T24" toText="the time of discharge" type="BEFORE" senid="38" />
+<TLINK id="TL90" fromID="E47" fromText="Coumadin" toID="E111" toText="her admission" type="OVERLAP" senid="38" />
+<TLINK id="TL91" fromID="E48" fromText="her PT" toID="T24" toText="the time of discharge" type="BEFORE" senid="38" />
+<TLINK id="TL92" fromID="E39" fromText="packed RBC" toID="E66" toText="counselled" type="OVERLAP" senid="33" />
+<TLINK id="TL93" fromID="E3" fromText="TAH" toID="E55" toText="CTMC" type="OVERLAP" senid="9" />
+<TLINK id="TL94" fromID="E4" fromText="BSO" toID="E55" toText="CTMC" type="OVERLAP" senid="9" />
+<TLINK id="TL95" fromID="E5" fromText="partial omentectomy" toID="E55" toText="CTMC" type="OVERLAP" senid="9" />
+<TLINK id="TL96" fromID="E55" fromText="CTMC" toID="T4" toText="10-90" type="OVERLAP" senid="9" />
+<TLINK id="TL97" fromID="E82" fromText="found" toID="T4" toText="10-90" type="OVERLAP" senid="9" />
+<TLINK id="TL98" fromID="E102" fromText="bleeding" toID="E24" toText="her IFEX" type="BEFORE" senid="26" />
+<TLINK id="TL99" fromID="E102" fromText="bleeding" toID="E103" toText="contaminated" type="OVERLAP" senid="26" />
+<TLINK id="TL100" fromID="E24" fromText="her IFEX" toID="E25" toText="MESNA" type="OVERLAP" senid="26" />
+<TLINK id="TL101" fromID="E1" fromText="heavy bleeding per vagina" toID="E76" toText="presented" type="BEFORE" senid="7" />
+<TLINK id="TL102" fromID="E76" fromText="presented" toID="T3" toText="10-90" type="OVERLAP" senid="7" />
+<TLINK id="TL103" fromID="E2" fromText="D and C" toID="T3" toText="10-90" type="OVERLAP" senid="7" />
+<TLINK id="TL104" fromID="E38" fromText="the patient &#39;s hematocrit" toID="E65" toText="admission" type="OVERLAP" senid="32" />
+<TLINK id="TL105" fromID="E38" fromText="the patient &#39;s hematocrit" toID="E106" toText="dwindled down" type="OVERLAP" senid="32" />
+<TLINK id="TL106" fromID="E106" fromText="dwindled down" toID="T14" toText="9-10" type="OVERLAP" senid="32" />
+<TLINK id="TL107" fromID="E66" fromText="counselled" toID="T14" toText="9-10" type="AFTER" senid="32" />
+<TLINK id="TL108" fromID="E39" fromText="packed RBC" toID="T14" toText="9-10" type="OVERLAP" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

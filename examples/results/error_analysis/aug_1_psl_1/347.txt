@@ -1,0 +1,69 @@
+e1 id: E80; e2 id: E81; e1 text: DVT; e2 text: heparin
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: E80; e1 text: clots; e2 text: DVT
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E12; e2 id: E100; e1 text: ASA; e2 text: the Amanda
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E13; e2 id: E100; e1 text: bblocker; e2 text: the Amanda
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E38; e2 id: E39; e1 text: BP meds; e2 text: unstable
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E27; e2 id: E28; e1 text: EKG; e2 text: pain
+ground truth: AFTER; prediction: BEFORE
+
+e1 id: E69; e2 id: E68; e1 text: Frank blood; e2 text: chest tube
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E77; e2 id: E78; e1 text: serial CXR; e2 text: reaccumulation
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E85; e2 id: E86; e1 text: Anticoagulaiton; e2 text: hemothorax
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E82; e2 id: E83; e1 text: clots; e2 text: LENI
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E67; e2 id: E65; e1 text: All anticoagulation; e2 text: CT
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E73; e2 id: E70; e1 text: CT; e2 text: the tube
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E40; e2 id: E42; e1 text: ASA; e2 text: hemothorax
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E41; e2 id: E42; e1 text: plavix; e2 text: hemothorax
+ground truth: BEFORE; prediction: AFTER
+
+e1 id: E65; e2 id: E119; e1 text: CT; e2 text: dropped
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E101; e2 id: E100; e1 text: my evaluation; e2 text: the Amanda
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E46; e2 id: E47; e1 text: swelling; e2 text: DVT
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E133; e2 id: E131; e1 text: removed; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E74; e2 id: E75; e1 text: Output; e2 text: cytology
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E128; e2 id: E129; e1 text: stablized; e2 text: output
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E130; e2 id: E128; e1 text: serous; e2 text: stablized
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E4; e2 id: T4; e1 text: chest pain; e2 text: the night
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E43; e2 id: E112; e1 text: CHF; e2 text: volume overloaded
+ground truth: OVERLAP; prediction: AFTER
+

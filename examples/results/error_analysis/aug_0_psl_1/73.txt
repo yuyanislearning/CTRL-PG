@@ -1,0 +1,70 @@
+e1 id: E95; e2 id: E82; e1 text: leakage at the anastomosis site; e2 text: showed
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E92; e2 id: E18; e1 text: the distal and proximal common bile duct; e2 text: endoscopic retrograde cholangiopancreatography
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E43; e2 id: E79; e1 text: white blood cell count; e2 text: revealed
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E115; e2 id: E116; e1 text: started; e2 text: diuresis
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E107; e2 id: E108; e1 text: midodrine; e2 text: this condition
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E6; e2 id: E7; e1 text: Nodularities in the common bile duct; e2 text: endoscopic retrograde cholangiopancreatography
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E110; e2 id: E80; e1 text: improved renal function; e2 text: the floor
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E111; e2 id: E80; e1 text: oxygen requirement; e2 text: the floor
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E114; e2 id: E80; e1 text: discontinued; e2 text: the floor
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E115; e2 id: E80; e1 text: started; e2 text: the floor
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E3; e2 id: T0; e1 text: an 8 Caucasian catheter; e2 text: the time
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E49; e2 id: E50; e1 text: culture; e2 text: the ascites
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E58; e2 id: E117; e1 text: His creatinine levels; e2 text: trended toward normal
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E59; e2 id: E118; e1 text: the fractional excretion of sodium; e2 text: increased indicating
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E118; e2 id: E119; e1 text: increased indicating; e2 text: the prerenal kidney failure
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E86; e2 id: E85; e1 text: endoscopic retrograde cholangiopancreatography; e2 text: chief complaint
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E87; e2 id: E85; e1 text: percutaneous transhepatic cholangiogram; e2 text: chief complaint
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E67; e2 id: E85; e1 text: presented; e2 text: chief complaint
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E75; e2 id: E74; e1 text: stable condition; e2 text: the floor
+ground truth: OVERLAP; prediction: BEFORE
+This relation involves in BOB
+
+e1 id: E93; e2 id: E94; e1 text: regional lymph nodes; e2 text: pathology
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E19; e2 id: E94; e1 text: malignancy; e2 text: pathology
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E89; e2 id: E81; e1 text: similar findings; e2 text: demonstrated
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E23; e2 id: E96; e1 text: Unasyn; e2 text: postoperative course
+ground truth: OVERLAP; prediction: AFTER
+

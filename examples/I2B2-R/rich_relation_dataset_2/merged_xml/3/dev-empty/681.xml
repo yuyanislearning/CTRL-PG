@@ -131,74 +131,74 @@ EJEAN NADARC FREIERMCHIRD , M.D.
 <TIMEX3 id="T7" start="719" end="742" text="the subsequent two days" type="DURATION" val="P2D" mod="NA" />
 <SECTIME id="S0" start="18" end="26" text="03/24/97" type="ADMISSION" dvalue="1997-03-24" />
 <SECTIME id="S1" start="44" end="52" text="03/28/97" type="DISCHARGE" dvalue="1997-03-28" />
-<TLINK id="TL0" fromID="E70" fromText="This trend of improvement continued" toID="E68" toText="showed significant improvement" type="OVERLAP" />
-<TLINK id="TL1" fromID="E65" fromText="evaluated" toID="E66" toText="the neurology conferences" type="OVERLAP" />
-<TLINK id="TL2" fromID="E66" fromText="the neurology conferences" toID="T10" toText="several hours" type="OVERLAP" />
-<TLINK id="TL3" fromID="E68" fromText="showed significant improvement" toID="E66" toText="the neurology conferences" type="OVERLAP" />
-<TLINK id="TL4" fromID="E68" fromText="showed significant improvement" toID="E26" toText="gait training" type="OVERLAP" />
-<TLINK id="TL5" fromID="E68" fromText="showed significant improvement" toID="E69" toText="more stable" type="OVERLAP" />
-<TLINK id="TL6" fromID="E27" fromText="evaluation" toID="E65" toText="evaluated" type="OVERLAP" />
-<TLINK id="TL7" fromID="E69" fromText="more stable" toID="E28" toText="counter-balancing methods" type="OVERLAP" />
-<TLINK id="TL8" fromID="E47" fromText="an outside hospital emergency room" toID="E30" toText="transferred" type="BEFORE" />
-<TLINK id="TL9" fromID="E48" fromText="Well General Hospital" toID="E30" toText="transferred" type="AFTER" />
-<TLINK id="TL10" fromID="E71" fromText="stable condition" toID="E35" toText="discharged" type="BEFORE" />
-<TLINK id="TL11" fromID="E24" fromText="acutely suicidal" toID="E60" toText="the Psychiatry Service" type="OVERLAP" />
-<TLINK id="TL12" fromID="E59" fromText="seen" toID="E60" toText="the Psychiatry Service" type="OVERLAP" />
-<TLINK id="TL13" fromID="E21" fromText="her gait" toID="E22" toText="markedly unstable" type="OVERLAP" />
-<TLINK id="TL14" fromID="E22" fromText="markedly unstable" toID="T9" toText="the second hospital day" type="OVERLAP" />
-<TLINK id="TL15" fromID="E55" fromText="consistent pattern" toID="E22" toText="markedly unstable" type="OVERLAP" />
-<TLINK id="TL16" fromID="E56" fromText="weakness" toID="E55" toText="consistent pattern" type="OVERLAP" />
-<TLINK id="TL17" fromID="E57" fromText="falling" toID="E55" toText="consistent pattern" type="OVERLAP" />
-<TLINK id="TL18" fromID="E23" fromText="reproducible upper extremity or lower extremity ataxia" toID="T9" toText="the second hospital day" type="OVERLAP" />
-<TLINK id="TL19" fromID="E58" fromText="dysmetria" toID="T9" toText="the second hospital day" type="OVERLAP" />
-<TLINK id="TL20" fromID="E19" fromText="Posterior transcranial Doppler studies" toID="E33" toText="showed" type="OVERLAP" />
-<TLINK id="TL21" fromID="E33" fromText="showed" toID="E53" toText="normal studies" type="OVERLAP" />
-<TLINK id="TL22" fromID="E20" fromText="carotid non-invasive studies" toID="E34" toText="showed" type="OVERLAP" />
-<TLINK id="TL23" fromID="E34" fromText="showed" toID="E54" toText="normal right and left carotid bifurcations" type="AFTER" />
-<TLINK id="TL24" fromID="E63" fromText="noted" toID="E62" toText="The psychiatrist" type="OVERLAP" />
-<TLINK id="TL25" fromID="E61" fromText="the indifference" toID="E63" toText="noted" type="BEFORE" />
-<TLINK id="TL26" fromID="E61" fromText="the indifference" toID="E64" toText="her own symptomatology" type="AFTER" />
-<TLINK id="TL27" fromID="E41" fromText="remained in bed" toID="T4" toText="The following day" type="OVERLAP" />
-<TLINK id="TL28" fromID="E41" fromText="remained in bed" toID="T6" toText="essentially all of the day" type="OVERLAP" />
-<TLINK id="TL29" fromID="E6" fromText="malaise" toID="E41" toText="remained in bed" type="BEFORE" />
-<TLINK id="TL30" fromID="E42" fromText="specific deficits" toID="T6" toText="essentially all of the day" type="OVERLAP" />
-<TLINK id="TL31" fromID="E36" fromText="DISCHARGE" toID="T2" toText="03/28/97" type="OVERLAP" />
-<TLINK id="TL32" fromID="E17" fromText="heparin" toID="E52" toText="discontinued" type="BEFORE" />
-<TLINK id="TL33" fromID="E52" fromText="discontinued" toID="E18" toText="the magnetic resonance imaging" type="AFTER" />
-<TLINK id="TL34" fromID="E1" fromText="right-sided greater than left-sided weakness" toID="E2" toText="difficulty walking" type="OVERLAP" />
-<TLINK id="TL35" fromID="E2" fromText="difficulty walking" toID="T0" toText="several days" type="OVERLAP" />
-<TLINK id="TL36" fromID="E49" fromText="her gait disorder" toID="E31" toText="admitted" type="BEFORE" />
-<TLINK id="TL37" fromID="E11" fromText="anisocoria" toID="T8" toText="several months earlier" type="OVERLAP" />
-<TLINK id="TL38" fromID="E50" fromText="notable findings" toID="E51" toText="examination" type="OVERLAP" />
-<TLINK id="TL39" fromID="E12" fromText="A magnetic resonance imaging" toID="E51" toText="examination" type="AFTER" />
-<TLINK id="TL40" fromID="E13" fromText="magnetic resonance angiogram study" toID="E51" toText="examination" type="AFTER" />
-<TLINK id="TL41" fromID="E0" fromText="ADMISSION" toID="T1" toText="03/24/97" type="OVERLAP" />
-<TLINK id="TL42" fromID="E38" fromText="standing and walking with her friend" toID="E39" toText="toppled towards the right" type="OVERLAP" />
-<TLINK id="TL43" fromID="E5" fromText="the episode" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" />
-<TLINK id="TL44" fromID="E29" fromText="her previous outpatient medical regimen" toID="E35" toText="discharged" type="AFTER" />
-<TLINK id="TL45" fromID="E72" fromText="will follow up" toID="E73" toText="her psychiatrist" type="OVERLAP" />
-<TLINK id="TL46" fromID="E72" fromText="will follow up" toID="T11" toText="a regular basis" type="OVERLAP" />
-<TLINK id="TL47" fromID="E73" fromText="her psychiatrist" toID="E74" toText="Sone Memorial Hospital" type="OVERLAP" />
-<TLINK id="TL48" fromID="E75" fromText="follow up" toID="E76" toText="the Neurology Service" type="OVERLAP" />
-<TLINK id="TL49" fromID="E75" fromText="follow up" toID="T12" toText="a p.r.n. basis" type="OVERLAP" />
-<TLINK id="TL50" fromID="E24" fromText="acutely suicidal" toID="E25" toText="acute psychiatric treatment" type="OVERLAP" />
-<TLINK id="TL51" fromID="E62" fromText="The psychiatrist" toID="E60" toText="the Psychiatry Service" type="OVERLAP" />
-<TLINK id="TL52" fromID="E7" fromText="small spells of &quot; imbalance" toID="T7" toText="the subsequent two days" type="OVERLAP" />
-<TLINK id="TL53" fromID="E8" fromText="other symptoms" toID="T7" toText="the subsequent two days" type="OVERLAP" />
-<TLINK id="TL54" fromID="E9" fromText="diffuse and mainly frontal headaches" toID="E8" toText="other symptoms" type="OVERLAP" />
-<TLINK id="TL55" fromID="E10" fromText="mild neck soreness" toID="E8" toText="other symptoms" type="OVERLAP" />
-<TLINK id="TL56" fromID="E31" fromText="admitted" toID="E30" toText="transferred" type="OVERLAP" />
-<TLINK id="TL57" fromID="E14" fromText="arterial dissections" toID="E32" toText="showed" type="OVERLAP" />
-<TLINK id="TL58" fromID="E17" fromText="heparin" toID="E31" toText="admitted" type="AFTER" />
-<TLINK id="TL59" fromID="E13" fromText="magnetic resonance angiogram study" toID="E32" toText="showed" type="OVERLAP" />
-<TLINK id="TL60" fromID="E15" fromText="infarction" toID="E32" toText="showed" type="OVERLAP" />
-<TLINK id="TL61" fromID="E16" fromText="other pathologic processes" toID="E32" toText="showed" type="OVERLAP" />
-<TLINK id="TL62" fromID="E18" fromText="the magnetic resonance imaging" toID="E13" toText="magnetic resonance angiogram study" type="OVERLAP" />
-<TLINK id="TL63" fromID="T5" fromText="a number of minutes" toID="E5" toText="the episode" type="BEFORE" />
-<TLINK id="TL64" fromID="E40" fromText="recovered" toID="T5" toText="a number of minutes" type="AFTER" />
-<TLINK id="TL65" fromID="E37" fromText="her usual state of health" toID="T3" toText="3/20/97" type="BEFORE" />
-<TLINK id="TL66" fromID="E3" fromText="right-sided arm and leg weakness" toID="T3" toText="3/20/97" type="AFTER" />
-<TLINK id="TL67" fromID="E4" fromText="ataxia" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" />
-<TLINK id="TL68" fromID="E39" fromText="toppled towards the right" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" />
+<TLINK id="TL1" fromID="E70" fromText="This trend of improvement continued" toID="E68" toText="showed significant improvement" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E65" fromText="evaluated" toID="E66" toText="the neurology conferences" type="OVERLAP" senid="23" />
+<TLINK id="TL3" fromID="E66" fromText="the neurology conferences" toID="T10" toText="several hours" type="OVERLAP" senid="23" />
+<TLINK id="TL4" fromID="E68" fromText="showed significant improvement" toID="E66" toText="the neurology conferences" type="OVERLAP" senid="23" />
+<TLINK id="TL5" fromID="E68" fromText="showed significant improvement" toID="E26" toText="gait training" type="OVERLAP" senid="23" />
+<TLINK id="TL6" fromID="E68" fromText="showed significant improvement" toID="E69" toText="more stable" type="OVERLAP" senid="23" />
+<TLINK id="TL7" fromID="E27" fromText="evaluation" toID="E65" toText="evaluated" type="OVERLAP" senid="23" />
+<TLINK id="TL8" fromID="E69" fromText="more stable" toID="E28" toText="counter-balancing methods" type="OVERLAP" senid="23" />
+<TLINK id="TL9" fromID="E47" fromText="an outside hospital emergency room" toID="E30" toText="transferred" type="BEFORE" senid="13" />
+<TLINK id="TL10" fromID="E48" fromText="Well General Hospital" toID="E30" toText="transferred" type="AFTER" senid="13" />
+<TLINK id="TL11" fromID="E71" fromText="stable condition" toID="E35" toText="discharged" type="BEFORE" senid="24" />
+<TLINK id="TL12" fromID="E24" fromText="acutely suicidal" toID="E60" toText="the Psychiatry Service" type="BEFORE" senid="20" />
+<TLINK id="TL13" fromID="E59" fromText="seen" toID="E60" toText="the Psychiatry Service" type="OVERLAP" senid="20" />
+<TLINK id="TL14" fromID="E21" fromText="her gait" toID="E22" toText="markedly unstable" type="OVERLAP" senid="19" />
+<TLINK id="TL15" fromID="E22" fromText="markedly unstable" toID="T9" toText="the second hospital day" type="OVERLAP" senid="19" />
+<TLINK id="TL16" fromID="E55" fromText="consistent pattern" toID="E22" toText="markedly unstable" type="OVERLAP" senid="19" />
+<TLINK id="TL17" fromID="E56" fromText="weakness" toID="E55" toText="consistent pattern" type="OVERLAP" senid="19" />
+<TLINK id="TL18" fromID="E57" fromText="falling" toID="E55" toText="consistent pattern" type="OVERLAP" senid="19" />
+<TLINK id="TL19" fromID="E23" fromText="reproducible upper extremity or lower extremity ataxia" toID="T9" toText="the second hospital day" type="OVERLAP" senid="19" />
+<TLINK id="TL20" fromID="E58" fromText="dysmetria" toID="T9" toText="the second hospital day" type="OVERLAP" senid="19" />
+<TLINK id="TL21" fromID="E19" fromText="Posterior transcranial Doppler studies" toID="E33" toText="showed" type="OVERLAP" senid="18" />
+<TLINK id="TL22" fromID="E33" fromText="showed" toID="E53" toText="normal studies" type="OVERLAP" senid="18" />
+<TLINK id="TL23" fromID="E20" fromText="carotid non-invasive studies" toID="E34" toText="showed" type="OVERLAP" senid="18" />
+<TLINK id="TL24" fromID="E34" fromText="showed" toID="E54" toText="normal right and left carotid bifurcations" type="AFTER" senid="18" />
+<TLINK id="TL25" fromID="E63" fromText="noted" toID="E62" toText="The psychiatrist" type="OVERLAP" senid="22" />
+<TLINK id="TL26" fromID="E61" fromText="the indifference" toID="E63" toText="noted" type="OVERLAP" senid="22" />
+<TLINK id="TL27" fromID="E61" fromText="the indifference" toID="E64" toText="her own symptomatology" type="AFTER" senid="22" />
+<TLINK id="TL28" fromID="E41" fromText="remained in bed" toID="T4" toText="The following day" type="OVERLAP" senid="10" />
+<TLINK id="TL29" fromID="E41" fromText="remained in bed" toID="T6" toText="essentially all of the day" type="OVERLAP" senid="10" />
+<TLINK id="TL30" fromID="E6" fromText="malaise" toID="E41" toText="remained in bed" type="BEFORE" senid="10" />
+<TLINK id="TL31" fromID="E42" fromText="specific deficits" toID="T6" toText="essentially all of the day" type="OVERLAP" senid="10" />
+<TLINK id="TL32" fromID="E36" fromText="DISCHARGE" toID="T2" toText="03/28/97" type="OVERLAP" senid="3" />
+<TLINK id="TL33" fromID="E17" fromText="heparin" toID="E52" toText="discontinued" type="BEFORE" senid="17" />
+<TLINK id="TL34" fromID="E52" fromText="discontinued" toID="E18" toText="the magnetic resonance imaging" type="AFTER" senid="17" />
+<TLINK id="TL35" fromID="E1" fromText="right-sided greater than left-sided weakness" toID="E2" toText="difficulty walking" type="OVERLAP" senid="6" />
+<TLINK id="TL36" fromID="E2" fromText="difficulty walking" toID="T0" toText="several days" type="OVERLAP" senid="6" />
+<TLINK id="TL37" fromID="E49" fromText="her gait disorder" toID="E31" toText="admitted" type="BEFORE" senid="15" />
+<TLINK id="TL38" fromID="E11" fromText="anisocoria" toID="T8" toText="several months earlier" type="AFTER" senid="15" />
+<TLINK id="TL39" fromID="E50" fromText="notable findings" toID="E51" toText="examination" type="OVERLAP" senid="15" />
+<TLINK id="TL40" fromID="E12" fromText="A magnetic resonance imaging" toID="E51" toText="examination" type="AFTER" senid="15" />
+<TLINK id="TL41" fromID="E13" fromText="magnetic resonance angiogram study" toID="E51" toText="examination" type="AFTER" senid="15" />
+<TLINK id="TL42" fromID="E0" fromText="ADMISSION" toID="T1" toText="03/24/97" type="OVERLAP" senid="2" />
+<TLINK id="TL43" fromID="E38" fromText="standing and walking with her friend" toID="E39" toText="toppled towards the right" type="BEFORE" senid="8" />
+<TLINK id="TL44" fromID="E5" fromText="the episode" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" senid="8" />
+<TLINK id="TL45" fromID="E29" fromText="her previous outpatient medical regimen" toID="E35" toText="discharged" type="BEFORE" senid="25" />
+<TLINK id="TL46" fromID="E72" fromText="will follow up" toID="E73" toText="her psychiatrist" type="OVERLAP" senid="25" />
+<TLINK id="TL47" fromID="E72" fromText="will follow up" toID="T11" toText="a regular basis" type="OVERLAP" senid="25" />
+<TLINK id="TL48" fromID="E73" fromText="her psychiatrist" toID="E74" toText="Sone Memorial Hospital" type="OVERLAP" senid="25" />
+<TLINK id="TL49" fromID="E75" fromText="follow up" toID="E76" toText="the Neurology Service" type="OVERLAP" senid="25" />
+<TLINK id="TL50" fromID="E75" fromText="follow up" toID="T12" toText="a p.r.n. basis" type="OVERLAP" senid="25" />
+<TLINK id="TL51" fromID="E24" fromText="acutely suicidal" toID="E25" toText="acute psychiatric treatment" type="OVERLAP" senid="21" />
+<TLINK id="TL52" fromID="E62" fromText="The psychiatrist" toID="E60" toText="the Psychiatry Service" type="OVERLAP" senid="21" />
+<TLINK id="TL53" fromID="E7" fromText="small spells of  quot; imbalance" toID="T7" toText="the subsequent two days" type="OVERLAP" senid="11" />
+<TLINK id="TL54" fromID="E8" fromText="other symptoms" toID="T7" toText="the subsequent two days" type="OVERLAP" senid="11" />
+<TLINK id="TL55" fromID="E9" fromText="diffuse and mainly frontal headaches" toID="E8" toText="other symptoms" type="OVERLAP" senid="11" />
+<TLINK id="TL56" fromID="E10" fromText="mild neck soreness" toID="E8" toText="other symptoms" type="OVERLAP" senid="11" />
+<TLINK id="TL57" fromID="E31" fromText="admitted" toID="E30" toText="transferred" type="OVERLAP" senid="14" />
+<TLINK id="TL58" fromID="E14" fromText="arterial dissections" toID="E32" toText="showed" type="BEFORE" senid="16" />
+<TLINK id="TL59" fromID="E17" fromText="heparin" toID="E31" toText="admitted" type="AFTER" senid="16" />
+<TLINK id="TL60" fromID="E13" fromText="magnetic resonance angiogram study" toID="E32" toText="showed" type="OVERLAP" senid="16" />
+<TLINK id="TL61" fromID="E15" fromText="infarction" toID="E32" toText="showed" type="BEFORE" senid="16" />
+<TLINK id="TL62" fromID="E16" fromText="other pathologic processes" toID="E32" toText="showed" type="BEFORE" senid="16" />
+<TLINK id="TL63" fromID="E18" fromText="the magnetic resonance imaging" toID="E13" toText="magnetic resonance angiogram study" type="OVERLAP" senid="16" />
+<TLINK id="TL64" fromID="T5" fromText="a number of minutes" toID="E5" toText="the episode" type="AFTER" senid="9" />
+<TLINK id="TL65" fromID="E40" fromText="recovered" toID="T5" toText="a number of minutes" type="AFTER" senid="9" />
+<TLINK id="TL66" fromID="E37" fromText="her usual state of health" toID="T3" toText="3/20/97" type="BEFORE" senid="7" />
+<TLINK id="TL67" fromID="E3" fromText="right-sided arm and leg weakness" toID="T3" toText="3/20/97" type="AFTER" senid="7" />
+<TLINK id="TL68" fromID="E4" fromText="ataxia" toID="E3" toText="right-sided arm and leg weakness" type="OVERLAP" senid="7" />
+<TLINK id="TL69" fromID="E39" fromText="toppled towards the right" toID="E3" toText="right-sided arm and leg weakness" type="AFTER" senid="7" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

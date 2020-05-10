@@ -1,0 +1,21 @@
+e1 id: E22; e2 id: E18; e1 text: Zantac; e2 text: the esophagogastroduodenoscopy
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E23; e2 id: E18; e1 text: H Pylori serology; e2 text: the esophagogastroduodenoscopy
+ground truth: OVERLAP; prediction: AFTER
+
+e1 id: E18; e2 id: E17; e1 text: the esophagogastroduodenoscopy; e2 text: nothing by mouth
+ground truth: AFTER; prediction: OVERLAP
+
+e1 id: E29; e2 id: E28; e1 text: tolerating; e2 text: a full diet
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E13; e2 id: T6; e1 text: emesis of coffee grounds; e2 text: postoperative night #1
+ground truth: OVERLAP; prediction: BEFORE
+
+e1 id: E42; e2 id: E43; e1 text: exceptionally well; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+
+e1 id: E45; e2 id: E43; e1 text: Discharge instructions; e2 text: discharge
+ground truth: BEFORE; prediction: OVERLAP
+

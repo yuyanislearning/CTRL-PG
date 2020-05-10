@@ -115,5 +115,43 @@ He was not taking any PO medications per Hunt Center Rehab so all medications we
 <TIMEX3 id="T4" start="580" end="592" text="430 am today" type="TIME" val="2014-01-20T4:30" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2014-01-20" type="ADMISSION" dvalue="2014-01-20" />
 <SECTIME id="S1" start="46" end="56" text="2014-01-21" type="DISCHARGE" dvalue="2014-01-21" />
+<TLINK id="TL1" fromID="E29" fromText="An ABG" toID="E30" toText="the Deanna" type="OVERLAP" senid="23" />
+<TLINK id="TL2" fromID="E47" fromText="a morphine drip" toID="E48" toText="expired" type="BEFORE" senid="34" />
+<TLINK id="TL3" fromID="E10" fromText="doing well" toID="T4" toText="430 am today" type="BEFORE" senid="13" />
+<TLINK id="TL4" fromID="E34" fromText="the ICU" toID="E33" toText="arrival" type="AFTER" senid="24" />
+<TLINK id="TL5" fromID="E32" fromText="ABG" toID="E34" toText="the ICU" type="BEFORE" senid="24" />
+<TLINK id="TL6" fromID="E22" fromText="Vanco" toID="E21" toText="Zosyn" type="OVERLAP" senid="20" />
+<TLINK id="TL7" fromID="E22" fromText="Vanco" toID="E23" toText="his presumed aspiration" type="AFTER" senid="20" />
+<TLINK id="TL8" fromID="E59" fromText="&#39; hospital &#39; aquired PNA" toID="E23" toText="his presumed aspiration" type="OVERLAP" senid="20" />
+<TLINK id="TL9" fromID="E19" fromText="dyspnea" toID="E20" toText="RLL pneumonia" type="OVERLAP" senid="19" />
+<TLINK id="TL10" fromID="E49" fromText="sepsis" toID="E50" toText="RLL PNA" type="OVERLAP" senid="37" />
+<TLINK id="TL11" fromID="E58" fromText="having a good day" toID="T3" toText="the day PTA" type="OVERLAP" senid="12" />
+<TLINK id="TL12" fromID="E5" fromText="aspiration pneumonia" toID="E7" toText="asp pna" type="OVERLAP" senid="10" />
+<TLINK id="TL13" fromID="E41" fromText="somnolent" toID="E40" toText="noted" type="BEFORE" senid="29" />
+<TLINK id="TL14" fromID="E40" fromText="noted" toID="T7" toText="the evening of the day of admission" type="OVERLAP" senid="29" />
+<TLINK id="TL15" fromID="E1" fromText="Discharge" toID="T1" toText="2014-01-21" type="OVERLAP" senid="3" />
+<TLINK id="TL16" fromID="E15" fromText="unable to communicate" toID="T5" toText="current time" type="OVERLAP" senid="17" />
+<TLINK id="TL17" fromID="E13" fromText="his respiratory status would worsen" toID="E12" toText="comfort measures" type="OVERLAP" senid="15" />
+<TLINK id="TL18" fromID="E14" fromText="a morphine drip" toID="E12" toText="comfort measures" type="OVERLAP" senid="15" />
+<TLINK id="TL19" fromID="E0" fromText="Admission" toID="T0" toText="2014-01-20" type="OVERLAP" senid="2" />
+<TLINK id="TL20" fromID="E60" fromText="PO medications" toID="E57" toText="Hunt Center Rehab" type="OVERLAP" senid="42" />
+<TLINK id="TL21" fromID="E44" fromText="made comfortable" toID="E43" toText="doing worse" type="AFTER" senid="31" />
+<TLINK id="TL22" fromID="E25" fromText="his fevers" toID="E24" toText="PE" type="OVERLAP" senid="21" />
+<TLINK id="TL23" fromID="E25" fromText="his fevers" toID="E26" toText="clear pneumonia" type="OVERLAP" senid="21" />
+<TLINK id="TL24" fromID="E26" fromText="clear pneumonia" toID="E27" toText="CXR" type="OVERLAP" senid="21" />
+<TLINK id="TL25" fromID="E43" fromText="doing worse" toID="E42" toText="A repeat ABG" type="AFTER" senid="30" />
+<TLINK id="TL26" fromID="E9" fromText="symptoms" toID="E8" toText="IV abx" type="BEFORE" senid="11" />
+<TLINK id="TL27" fromID="E7" fromText="asp pna" toID="T2" toText="2 months" type="OVERLAP" senid="11" />
+<TLINK id="TL28" fromID="E7" fromText="asp pna" toID="E8" toText="IV abx" type="OVERLAP" senid="11" />
+<TLINK id="TL29" fromID="E11" fromText="DNR/DNI" toID="E12" toText="comfort measures" type="OVERLAP" senid="14" />
+<TLINK id="TL30" fromID="E38" fromText="decline" toID="T6" toText="the course of the day" type="OVERLAP" senid="27" />
+<TLINK id="TL31" fromID="E39" fromText="Morphine" toID="T6" toText="the course of the day" type="OVERLAP" senid="27" />
+<TLINK id="TL32" fromID="E51" fromText="His blood pressures" toID="E52" toText="hydrated" type="OVERLAP" senid="38" />
+<TLINK id="TL33" fromID="E54" fromText="CHF" toID="E52" toText="hydrated" type="OVERLAP" senid="38" />
+<TLINK id="TL34" fromID="E52" fromText="hydrated" toID="E53" toText="NS" type="OVERLAP" senid="38" />
+<TLINK id="TL35" fromID="E55" fromText="dyspnea" toID="E54" toText="CHF" type="OVERLAP" senid="38" />
+<TLINK id="TL36" fromID="E45" fromText="the BIPAP" toID="E46" toText="nasal cannula" type="BEFORE" senid="33" />
+<TLINK id="TL37" fromID="E36" fromText="Blood cultures" toID="E37" toText="sputum cultures" type="OVERLAP" senid="26" />
+<TLINK id="TL38" fromID="E45" fromText="the BIPAP" toID="E44" toText="made comfortable" type="BEFORE" senid="32" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>
