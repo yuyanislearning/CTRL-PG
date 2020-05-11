@@ -1,0 +1,6 @@
+e1 id: E29; e2 id: E28; e1 text: GI bleeding; e2 text: Blood loss anemia
+ground truth: BEFORE; prediction: BEFORE
+e1 id: E64; e2 id: E30; e1 text: an AVM; e2 text: the bleeding
+ground truth: BEFORE; prediction: BEFORE
+e1 id: E30; e2 id: E29; e1 text: the bleeding; e2 text: GI bleeding
+ground truth: OVERLAP; prediction: OVERLAP

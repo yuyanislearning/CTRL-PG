@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-08-02
+Discharge Date :
+2018-08-08
+Service :
+MEDICINE
+History of Present Illness :
+Patient is a 77 year old female with a past medical history significant for GI bleeding secondary to arteriovenous malformations , who presents with maroon stool and a hematocrit drop .
+Three days ago began to develop black stools .
+There was no clear blood in the toilet bowl .
+In addition , she developed nausea and decreased PO intake .
+She had a cough productive of white sputum and felt warm , although she did not record her temperature .
+At dialysis on day of admission , she related these symptoms for the first time and had a bloody bowel movement .
+Concerned , the staff sent her directly to the Nantucket Cottage Hospital .
+In the Deanna , her temperature was 96.5 , HR 51 , BP 112/60 , RR 18 , and oxygen saturation was 98% on ambient air .
+Her hematocrit was measured at 23.5 , while her baseline hematocrit is in the low 30 s.
+An NG lavage was performed and there was bilious return .
+Rectal examination was notable for guiaiac positive maroon stool .
+She was type and crossed and transfused two units of packed red blood cells .
+IV PPI was given and the GI team was consulted and she was scheduled for colonoscopy and EGD on the morning of 6/8 .
+She was transferred to the CMED CCU for observation .
+Brief Hospital Course :
+Blood loss anemia from GI bleeding - the bleeding was likely from an AVM .
+EGD , colonoscopy and tagged scan results as above .
+eventhough uptake was noted in the rt LQ , no clear site of bleeding was noticed on colonoscopy .
+hence , no intervention was performed .
+she was transfused with 5 units of PRBC in the ICU andsent to the Lahey Clinic - North Shore .
+Her hematocrit remained stable for 4 days prior to discharge .
+No further bleeding noted .
+GI consult team followed pt in hospital .
+On discussion with Dr Leigh and Dr White from GI - they recommended that she follow with Dr. Taylor for consideration of argon photocoagulation as out-patient .
+Given the innumerable number of AVM 's , it is diffcult to assess which the culprit lesion is and GI may start APL from the fundus of stomach .
+Patient to get CBC checked with PCP this week as below .
+ASA was held and may be restarted if Hct stable in clinic at the PCP 's discretion .
+Chronic thrombocytopenia was noted , however the patient did not require platelet transfusions .
+Has a h/o HIT .
+The metoprolol was held during acute bleeding phase and restarted prior to discharge as her BP stabilized .
+Other medical problems stable .
+Dialysis was continued 3 / week .
+I personally talked with Dr Pannell at the time of discharge to update him with the hospital events .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1004" end="1022" text="Rectal examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1039" end="1068" text="guiaiac positive maroon stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1079" end="1095" text="type and crossed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1100" end="1110" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1124" end="1146" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1149" end="1155" text="IV PPI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1186" end="1195" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1222" end="1233" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1238" end="1241" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1274" end="1285" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1289" end="1301" text="the CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1306" end="1317" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1344" end="1361" text="Blood loss anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1367" end="1378" text="GI bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1381" end="1393" text="the bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1410" end="1416" text="an AVM" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1419" end="1422" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1425" end="1436" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1441" end="1452" text="tagged scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1483" end="1489" text="uptake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1532" end="1540" text="bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1556" end="1567" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1581" end="1593" text="intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E67" start="1618" end="1628" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1645" end="1649" text="PRBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="1653" end="1660" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1672" end="1702" text="the Lahey Clinic - North Shore" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1705" end="1719" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="1729" end="1735" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1756" end="1765" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1771" end="1787" text="further bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E1" start="181" end="192" text="GI bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1812" end="1820" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="1827" end="1835" text="hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E74" start="1841" end="1851" text="discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="1915" end="1921" text="follow" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="1959" end="1981" text="argon photocoagulation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2031" end="2037" text="AVM 's" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="206" end="233" text="arteriovenous malformations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2071" end="2089" text="the culprit lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2110" end="2129" text="APL from the fundus" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2158" end="2161" text="CBC" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E79" start="2200" end="2203" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2224" end="2233" text="restarted" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2237" end="2240" text="Hct" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2241" end="2247" text="stable" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="2285" end="2309" text="Chronic thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2358" end="2379" text="platelet transfusions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E44" start="2392" end="2395" text="HIT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2398" end="2412" text="The metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="240" end="248" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="2429" end="2449" text="acute bleeding phase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2454" end="2463" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2473" end="2482" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2486" end="2492" text="her BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2493" end="2503" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="2506" end="2528" text="Other medical problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2529" end="2535" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="254" end="266" text="maroon stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2538" end="2546" text="Dialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2585" end="2591" text="talked" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2623" end="2632" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2652" end="2671" text="the hospital events" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="271" end="288" text="a hematocrit drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="323" end="335" text="black stools" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="351" end="362" text="clear blood" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="412" end="418" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="423" end="442" text="decreased PO intake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="453" end="460" text="a cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="475" end="487" text="white sputum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="492" end="501" text="felt warm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="532" end="547" text="her temperature" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E11" start="553" end="561" text="dialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="572" end="581" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="588" end="595" text="related" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="638" end="661" text="a bloody bowel movement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="707" end="737" text="the Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="743" end="753" text="the Deanna" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="756" end="771" text="her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="783" end="785" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="791" end="793" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="803" end="805" text="RR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="815" end="832" text="oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="858" end="872" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="902" end="925" text="her baseline hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="946" end="958" text="An NG lavage" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="987" end="1001" text="bilious return" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1245" end="1263" text="the morning of 6/8" type="DATE" val="2018-08-06" mod="START" />
+<TIMEX3 id="T5" start="1740" end="1746" text="4 days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2018-08-02" type="DATE" val="2018-08-02" mod="NA" />
+<TIMEX3 id="T6" start="2179" end="2188" text="this week" type="DURATION" val="P1W" mod="NA" />
+<TIMEX3 id="T7" start="2561" end="2569" text="3 / week" type="FREQUENCY" val="RP2.5D" mod="APPROX" />
+<TIMEX3 id="T0" start="291" end="301" text="Three days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2018-08-08" type="DATE" val="2018-08-08" mod="NA" />
+<TIMEX3 id="T3" start="565" end="568" text="day" type="DATE" val="2018-08-02" mod="NA" />
+<SECTIME id="S0" start="18" end="28" text="2018-08-02" type="ADMISSION" dvalue="2018-08-02" />
+<SECTIME id="S1" start="46" end="56" text="2018-08-08" type="DISCHARGE" dvalue="2018-08-08" />
+<TLINK id="TL1" fromID="E29" fromText="GI bleeding" toID="E28" toText="Blood loss anemia" type="BEFORE" senid="31" />
+<TLINK id="TL2" fromID="E64" fromText="an AVM" toID="E30" toText="the bleeding" type="BEFORE" senid="32" />
+<TLINK id="TL3" fromID="E30" fromText="the bleeding" toID="E29" toText="GI bleeding" type="OVERLAP" senid="33" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
