@@ -15,10 +15,11 @@ class evaluation:
 		self.dev = dev
 		self.xml_folder = xml_folder
 
-	def eval(self, preds, event_ids, sen_ids):
+	def eval(self, labels, event_ids, sen_ids, preds):
 
 		# read the corresponding xml file without tlinks
 		xml_file = os.path.join(self.xml_folder, str(self.document_id)+'.xml')
+		#print(xml_file)
 		#print(xml_file) #document, _ = tidy_document(xml_file.read(), {"input_xml": True})
 		#print(xml_file)
 		text=open(xml_file).read()
@@ -50,13 +51,13 @@ class evaluation:
 			elif "</TAGS>" not in line:# and "<TLINK" not in line:
 				writefile.write(line)
 			else:
-				for i,([id1, id2], label, sen_id) in enumerate(zip(event_ids, preds, sen_ids)):
+				for i,([id1, id2], label, sen_id, pred) in enumerate(zip(event_ids, labels, sen_ids, preds)):
 
 					#label = label_dict[label_ids]
 					event1 = (self.events[id1] if "E" in id1 else self.timex3[id1]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 					event2 = (self.events[id2] if "E" in id2 else self.timex3[id2]).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
 
-					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" senid="{}" />'.format(str(i+1), id1, event1, id2, event2, label.upper(), sen_id[1]) + '\n')
+					writefile.write('<TLINK id="TL{}" fromID="{}" fromText="{}" toID="{}" toText="{}" type="{}" senid="{}" pred="{}" />'.format(str(i+1), id1, event1, id2, event2, label.upper(), sen_id[1], pred) + '\n')
 				writefile.write(line)
 		writefile.close()
 		

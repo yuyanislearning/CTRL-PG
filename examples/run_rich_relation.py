@@ -253,7 +253,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     plt.plot(best_f1s[:,0], best_f1s[:,1], 'ro')
     plt.xlabel("global steps")
     plt.ylabel("micro f1")
-    fig.savefig('/workspace/NLP/f1.png')
+    fig.savefig('/workspace/ACROBAT/f1.png')
 
     return global_step, tr_loss / global_step, best_check
 
@@ -262,6 +262,7 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
     '''
     evaluate on the dev or test data, update best f1 score 
     '''
+    softmax = torch.nn.Softmax(dim=1)
     # Loop to handle MNLI double evaluation (matched, mis-matched)
     eval_task_names = ("mnli", "mnli-mm") if args.task_name == "mnli" else (args.task_name,)
     eval_outputs_dirs = (args.output_dir, args.output_dir + '-MM') if args.task_name == "mnli" else (args.output_dir,)
@@ -322,17 +323,18 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                     inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
                 #print(batch[0].size())
                 #print(batch[4].size())
-                outputs = model(**inputs)
+                outputs = model(**inputs) 
                 tmp_eval_loss, logits = outputs[:2]
+
 
                 eval_loss += tmp_eval_loss.mean().item()
             nb_eval_steps += 1
 
             if preds is None:
-                preds = logits.detach().cpu().numpy()
+                preds = softmax(logits).detach().cpu().numpy()
                 out_label_ids = inputs['labels'].detach().cpu().numpy()
             else:
-                preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+                preds = np.append(preds, softmax(logits).detach().cpu().numpy(), axis=0)
                 out_label_ids = np.append(out_label_ids, inputs['labels'].detach().cpu().numpy(), axis=0)
 
             if events is None:
@@ -353,10 +355,12 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
 
         eval_loss = eval_loss / nb_eval_steps
         if args.output_mode == "classification":
-            preds = np.argmax(preds, axis=1)
+            labels = np.argmax(preds, axis=1)
+            preds = np.max(preds, axis = 1)
         elif args.output_mode == "regression":
-            preds = np.squeeze(preds)
-        result = compute_metrics(eval_task, preds, out_label_ids)
+            labels = np.squeeze(preds)
+            preds = np.max(preds, axis = 1)
+        result = compute_metrics(eval_task, labels , out_label_ids)
         results.update(result)
 
         '''
@@ -425,28 +429,41 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 writer.write("%s = %s\n" % (key, str(result[key])))
         if args.tempeval:
             doc_dict = {}
-            for doc_id, sen_id, pred, event in zip(doc_ids, sent_ids, preds, events):
+            for doc_id, sen_id, label, event, pred in zip(doc_ids, sent_ids, labels, events, preds):
                 #print(doc_id,sent_id,pred,event)
                 if doc_id not in doc_dict:
-                    doc_dict[doc_id] = {"preds":[], "events":[], "sen_ids":[]}
+                    doc_dict[doc_id] = {"labels":[], "events":[], "sen_ids":[], 'preds':[]}
                 event = [dict_IndenToID[str(doc_id)+str(tuple(sen_id))][x] for x in event]
                 doc_dict[doc_id]["preds"].append(pred)
                 doc_dict[doc_id]["events"].append(event)
                 doc_dict[doc_id]["sen_ids"].append(sen_id)
+                doc_dict[doc_id]['labels'].append(label)
             
             for doc_id in doc_dict.keys():
-                preds = doc_dict[doc_id]["preds"]
-                preds = [label_dict[x] for x in preds]
+                labels = doc_dict[doc_id]["labels"]
+                labels = [label_dict[x] for x in labels]
+                #print(labels)
+                #print(preds)
                 events = doc_dict[doc_id]["events"]
                 sen_ids = doc_dict[doc_id]["sen_ids"]
                 #print(preds)
                 #print(events)
                 if final_evaluate:
                     ce = closure_evaluate(doc_id, args.final_xml_folder)
-                    ce.eval(preds, events, sen_ids)
+                    ce.eval(labels, events, sen_ids, preds)
+                    fw = open(args.output_dir + 'aug_'+ str(args.aug_round)+'psl_' + str(args.psllda) +'_'+str(doc_id)+ '.output.txt', 'w')
+                    for [id1, id2], label,  pred in zip(events, labels,  preds):
+                        fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
+                    fw.close()
+
                 else:
                     ce = closure_evaluate(doc_id, args.xml_folder)
-                    ce.eval(preds, events, sen_ids)
+                    ce.eval(labels, events, sen_ids, preds)
+                    # for test
+                    fw = open(args.output_dir + 'aug_'+ str(args.aug_round)+'psl_' + str(args.psllda) +'_'+str(doc_id)+ '.output.txt', 'w')
+                    for [id1, id2], label,  pred in zip(events, labels,  preds):
+                        fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
+                    fw.close()
             if final_evaluate:# temporal evaluation
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
@@ -467,7 +484,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()

@@ -168,7 +168,7 @@ def attr_by_line(tlinkline, ground_truth):
     if ground_truth:
         re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+\/>'
     else:
-        re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+senid=\"([^"]*)\"\s+\/>'
+        re_exp = 'id=\"([^"]*)\"\s+fromID=\"([^"]*)\"\s+fromText=\"([^"]*)\"\s+toID=\"([^"]*)\"\s+toText=\"([^"]*)\"\s+type=\"([^"]*)\"\s+senid=\"([^"]*)\"\s+.*\/>'
     m = re.search(re_exp, tlinkline)
     if m and ground_truth:
         lid, fromid, fromtext, toid, totext, attr_type = m.groups()
