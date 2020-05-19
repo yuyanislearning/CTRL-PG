@@ -22,6 +22,7 @@ import glob
 import logging
 import os
 import random
+import sys
 
 import numpy as np
 import torch
@@ -116,12 +117,17 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
 
     # Prepare optimizer and schedule (linear warmup and decay)
+    #print([n for n,p in model.named_parameters()])
     no_decay = ['bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
         ]
 
+    for n,p in model.named_parameters():
+        if 'layer' in n:
+            p.requires_grad = False
+    
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
     if args.fp16:
@@ -427,7 +433,7 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             for key in sorted(result.keys()):
                 logger.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
-        if args.tempeval:
+        if True:
             doc_dict = {}
             for doc_id, sen_id, label, event, pred in zip(doc_ids, sent_ids, labels, events, preds):
                 #print(doc_id,sent_id,pred,event)
@@ -449,23 +455,26 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 #print(preds)
                 #print(events)
                 if final_evaluate:
-                    ce = closure_evaluate(doc_id, args.final_xml_folder)
-                    ce.eval(labels, events, sen_ids, preds)
+                    if args.tempeval:
+                        ce = closure_evaluate(doc_id, args.final_xml_folder)
+                        ce.eval(labels, events, sen_ids, preds)
                     fw = open(args.output_dir + 'aug_'+ str(args.aug_round)+'psl_' + str(args.psllda) +'_'+str(doc_id)+ '.output.txt', 'w')
                     for [id1, id2], label,  pred in zip(events, labels,  preds):
                         fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
                     fw.close()
 
                 else:
-                    ce = closure_evaluate(doc_id, args.xml_folder)
-                    ce.eval(labels, events, sen_ids, preds)
+                    if args.tempeval:
+                        ce = closure_evaluate(doc_id, args.xml_folder)
+                        ce.eval(labels, events, sen_ids, preds)
                     # for test
                     fw = open(args.output_dir + 'aug_'+ str(args.aug_round)+'psl_' + str(args.psllda) +'_'+str(doc_id)+ '.output.txt', 'w')
                     for [id1, id2], label,  pred in zip(events, labels,  preds):
                         fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
                     fw.close()
-            if final_evaluate:# temporal evaluation
-                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
+            if final_evaluate and args.tempeval:# temporal evaluation
+                #print(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
+                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return best_mif1, best_maf1, best_check,results
