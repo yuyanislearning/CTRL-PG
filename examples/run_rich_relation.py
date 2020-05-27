@@ -124,10 +124,11 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
         ]
 
+    '''
     for n,p in model.named_parameters():
         if 'layer' in n:
             p.requires_grad = False
-    
+    '''
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
     if args.fp16:
@@ -170,6 +171,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
             # TODO make sure there is only case 3 and 4
             batch = tuple(t.view(-1).to(args.device) if len(t.size()) ==2 else t.view(t.size()[0]*t.size()[1],-1).to(args.device) for t in batch) 
 
+            class_weights = args.class_weight.split('~')
             if args.node_embed:
                 inputs = {'input_ids':      batch[0],
                           'attention_mask': batch[1],
@@ -177,6 +179,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                           'labels':         batch[4],
                           'rules':          batch[7],
                           'psllda':         args.psllda,
+                          'class_weights':  class_weights,
                           }
             else:
                 inputs = {'input_ids':      batch[0],
@@ -184,6 +187,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                           'labels':         batch[4],
                           'rules':          batch[7],
                           'psllda':         args.psllda,
+                          'class_weights':  class_weights,
                           }
 
 
@@ -418,7 +422,6 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                     temp.append([preds[i], doc_ids[i], events[i],  sent_ids[i]])
                 
         '''
-
         if best_mif1 < results['micro-f1']:
             best_mif1 = results['micro-f1']
             best_maf1 = results['macro-f1']
@@ -437,9 +440,12 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             doc_dict = {}
             for doc_id, sen_id, label, event, pred in zip(doc_ids, sent_ids, labels, events, preds):
                 #print(doc_id,sent_id,pred,event)
+                while len(str(doc_id))<4:
+                    doc_id = '0' + str(doc_id)
                 if doc_id not in doc_dict:
                     doc_dict[doc_id] = {"labels":[], "events":[], "sen_ids":[], 'preds':[]}
-                event = [dict_IndenToID[str(doc_id)+str(tuple(sen_id))][x] for x in event]
+
+                event = [dict_IndenToID[str(doc_id)+"[" + str(sen_id[0])+":"+str(sen_id[1]) + ")"][x] for x in event]
                 doc_dict[doc_id]["preds"].append(pred)
                 doc_dict[doc_id]["events"].append(event)
                 doc_dict[doc_id]["sen_ids"].append(sen_id)
@@ -493,7 +499,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
@@ -501,7 +507,10 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
     else:
         logger.info("Creating features from dataset file at %s", args.data_dir)
         label_list = processor.get_labels()
-        label_dict = {x:y for x,y in enumerate(label_list)}
+        if not args.tbd:
+            label_dict = {x:y for x,y in enumerate(label_list)}
+        else:
+            label_dict = {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
         if task in ['mnli', 'mnli-mm'] and args.model_type in ['roberta']:
             # HACK(label indices are swapped in RoBERTa pretrained model)
             label_list[1], label_list[2] = label_list[2], label_list[1] 
@@ -520,6 +529,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
                                                 evaluate = evaluate,
                                                 aug_round = args.aug_round,
                                                 tbd = args.tbd,
+                                                acrobat = args.acrobat,
         )
         if args.local_rank in [-1, 0]:
             logger.info("Saving features into cached file %s", cached_features_file)
@@ -536,26 +546,35 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
     #all_node_pos = torch.tensor([f.node_pos for f in features], dtype=torch.long)
     if output_mode == "classification":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.long)
+        #print("o:", sum(all_labels==5))
+        #print("b:", sum(all_labels==1))
+        #print("a:", sum(all_labels==2))
     elif output_mode == "regression":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.float)
+    #print(features[0].doc_id)
     all_doc_ids = torch.tensor([f.doc_id for f in features], dtype = torch.int)
     #print(features[0].rules)
     all_sources = [f.sources for f in features] 
     if not evaluate:
         all_rules = torch.tensor([f.rules for f in features], dtype = torch.int)
-        #if args.tbd:
-        #    all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(", ")] for s in f.sen_id] for f in features])    
-        #try:            
-
-        all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].replace(':',', ').split(", ")] for s in f.sen_id] for f in features])
+        
+        if not args.tbd:
+            all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].replace(':',', ').split(", ")] for s in f.sen_id] for f in features])
+        else:
+            #print(features[0].sen_id)
+            all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(":")] for s in f.sen_id] for f in features])    
+            #[2:5)
         #except:
 
         data_type = None
     
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids,  all_rules)#,all_node_pos , all_event_ids)
     else:
-
-        all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].replace(':',', ').split(", ")] for f in features])
+        if not args.tbd:
+            all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].replace(':',', ').split(", ")] for f in features])
+        else:
+            #print(features[0].sen_id)
+            all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(":")] for f in features])    
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#,all_node_pos , all_event_ids)
     return dataset, dict_IndenToID, label_dict
 
@@ -645,6 +664,8 @@ def main():
                         help="Whether to run training.")
     parser.add_argument("--data_aug", default=None, type=str,
                         help="Whether to run data aug.")
+    parser.add_argument("--class_weight", default=None, type=str,
+                        help="class weights of overlap before after.")
     
     parser.add_argument("--do_eval", action='store_true',
                         help="Whether to run eval on the dev set.")
@@ -656,6 +677,8 @@ def main():
                         help="Set this flag if you are using a temporal evaluation.")
     parser.add_argument("--tbd", action='store_true',
                         help="Set this flag if you are using a TBDense data.")
+    parser.add_argument("--acrobat", action='store_true',
+                        help="Set this flag if you are using a ACROBAT data.")
 
     parser.add_argument("--per_gpu_train_batch_size", default=8, type=int,
                         help="Batch size per GPU/CPU for training.")
@@ -834,10 +857,12 @@ def main():
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
         '''
-    os.system('mkdir -p ' + str(args.error_output_dir) + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda))
-    os.system(' '.join(["python error_analysis.py --gold_file_des",str(args.test_gold_file), '--system_file_des', str(args.final_xml_folder),
+    #TODO change back to True
+    if False:
+        os.system('mkdir -p ' + str(args.error_output_dir) + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda))
+        os.system(' '.join(["python error_analysis.py --gold_file_des",str(args.test_gold_file), '--system_file_des', str(args.final_xml_folder),
     '--data_path', str(args.data_dir), '--output_dir', str(args.error_output_dir) + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '/']))
-    return results
+    return results, args.class_weight
 
 
 

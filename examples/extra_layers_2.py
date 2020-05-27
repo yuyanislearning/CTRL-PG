@@ -249,18 +249,20 @@ class BertForRelationClassification(BertPreTrainedModel):
     '''
     def __init__(self, config):
         super().__init__(config)
-        self.num_labels = config.num_labels
+        #TODO change the num 
+        self.num_labels = config.num_labels + 3
 
         self.bert = BertModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
+        # TODO change the number of labels
+        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels+3)
         #self.converter = nn.Linear(2*config.hidden_size, config.hidden_size)
         #self.hidden_size = config.hidden_size
 
         self.init_weights()
 
     def forward(self, input_ids=None, attention_mask=None, token_type_ids=None, node_pos_ids=None, psllda = None,
-                position_ids=None, head_mask=None, inputs_embeds=None, labels=None, rules = None, evaluate = False):
+                position_ids=None, head_mask=None, inputs_embeds=None, labels=None, rules = None, evaluate = False, class_weights = [1,1,1,1,1,1]):
 
         outputs = self.bert(input_ids,
                             attention_mask=attention_mask,
@@ -283,6 +285,10 @@ class BertForRelationClassification(BertPreTrainedModel):
             # pooled_output += self.converter(node_embedding)
         '''
 
+        # for class imbalanced
+        
+        class_weights = torch.tensor([float(cw) for cw in class_weights]).cuda()
+ 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
         outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
@@ -291,10 +297,10 @@ class BertForRelationClassification(BertPreTrainedModel):
         psl_loss = True
         lda = psllda
         if labels is not None:
-            loss_fct = CrossEntropyLoss()
+            loss_fct = CrossEntropyLoss(weight=class_weights)#) 
             loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
             if psl_loss and not evaluate:
-                loss = loss + lda * PSL_loss( logits=logits, rules = rules,loss = loss)
+                loss = loss  + lda * PSL_loss( logits=logits, rules = rules,loss = loss)
             outputs = (loss,) + outputs
 
         return outputs  # (loss), logits, (hidden_states), (attentions)

@@ -473,6 +473,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
                                       evaluate = False,
                                       aug_round = 0,
                                       tbd = False,
+                                      acrobat = False,
                                       ):#max_node_size=650
     """
     Loads a data file into a list of ``InputFeatures``
@@ -533,13 +534,14 @@ def sb_convert_examples_to_features(examples, tokenizer,
             example = processor.tfds_map(example)
 
         input_ids, token_type_ids, attention_masks = [], [], []
-
+        example.doc_id = str(example.doc_id)
         # for one document
         #rel = build_sb_relations(rel = example.relations)
 
         # construct dict to store the transformation from relation id to index of the matrix and vice versa
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
-        dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID
+        #print(str(example.doc_id)+example.sen_idss)
+        dict_IndenToID[str(example.doc_id[len(example.doc_id)-4:len(example.doc_id)])+example.sen_id] = IndexToID
         # data_aug is how the data is augmented
         # only use data_aug = triple_rules or evaluate for now
         if evaluate: 
@@ -605,6 +607,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 for text in example.text:
                     texts.extend(text)
                 texts = texts[0:rel[0]] + ['<e2>'] + texts[rel[0]:(rel[1]+1)] + ['</e2>'] + texts[(rel[1]+1):rel[3]] + ['<e1>'] + texts[rel[3]:(rel[4]+1)] + ['</e1>'] + texts[(rel[4]+1):len(texts)]
+
                 #print("This is texts:",texts)
                 #print("This is rel",rel)
                 
@@ -700,11 +703,43 @@ def sb_convert_examples_to_features(examples, tokenizer,
             add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
         elif data_aug == "triple_rules":
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+            #print(example.relations)
+            if tbd:
+                BM, OM, IDM, pos_dict, VM, IM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+            else:
+                BM, OM, IDM, pos_dict, VM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count)
             AM = BM.transpose()
             IDM = np.zeros(BM.shape)
-            IDM = IDM + BM + AM + OM
+            IDM = IDM + BM + AM + OM + VM + IM + IM.transpose()
+            IDM[np.where(IDM>0)] = 1
+            #VM = VM + VM.transpose()
+            #VM[np.where(VM>0)] = 1
+
+            # merge three sentences
+            if tbd:
+                texts = example.text
+            else:
+                texts = []
+                for text in example.text:
+                    texts.extend(text)
+                #print(texts)
+            
+            if acrobat:
+                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple_ACROBAT(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+            if tbd:
+                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,VM,IM,  pos_dict,IDM,  tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left, tbd=True)
+            else:
+                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,VM, None, pos_dict,IDM,  tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left,tbd=False)
+
+        elif data_aug == 'evaluate':
+            if tbd:
+                BM, OM, IDM, pos_dict, VM, IM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+            else:
+                BM, OM, IDM, pos_dict, VM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+            #print("origin BM", BM)
+            BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count)
+            IDM = IDM + BM + BM.transpose() + OM + VM + IM + IM.transpose()
             IDM[np.where(IDM>0)] = 1
 
             # merge three sentences
@@ -715,28 +750,19 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 for text in example.text:
                     texts.extend(text)
             
-            sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
-
-        elif data_aug == 'evaluate':
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
-            #print("origin BM", BM)
-            BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count)
-
-
-            # merge three sentences
-            if tbd:
-                texts = example.text
-            else:
-                texts = []
-                for text in example.text:
-                    texts.extend(text)
-            
-            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
  
             AM = BM.transpose()
-            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            add_features(features, VM, pos_dict,IDM, 'VM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            
+            TIM = IM.transpose()
+            #print(TIM)
+            add_features(features, IM, pos_dict,IDM, 'IM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            add_features(features, TIM, pos_dict,IDM, 'TIM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+
 
         # if ex_index < 5:
         #     logger.info("*** Example ***")
@@ -1628,7 +1654,7 @@ class I2b2_SB_Processor(DataProcessor):
 
     def _read_json(self, path):
         """Reads a tab separated value file."""
-        return json.load(open(path))
+        return json.load(open(path, encoding='utf-8'))
 
 
 def build_PSL_dataset(adj = None, rel = None, no_rule = True ,random_sampling = False, n_rule = 100):
@@ -1732,14 +1758,22 @@ def build_PSL_dataset(adj = None, rel = None, no_rule = True ,random_sampling = 
     return emb
 
 def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left):
-    
+    #print(doc_id)
     if M_type == "BM":
         r = 1
     if M_type == 'OM':
         r = 0
     if M_type == "AM":
         r = 2
+    if M_type == "VM":
+        r = 3
+    if M_type == "IM":
+        r = 4
+    if M_type == "TIM":
+        r = 5
+        #print("This is TIM")
     all_x, all_y = np.where(M>0)
+
 
     for i in range(all_x.size):
         x1, x2 = pos_dict[all_x[i]]
@@ -1843,7 +1877,7 @@ def add_features(features,M, pos_dict,IDM, M_type, tokenizer , texts,doc_id ,sen
         #assert IDM[all_x[i],all_y[i]]==1 or IDM[all_x[i],all_y[i]]==2, 'Error with IDM'
 
 
-def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos_dict,IDM, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left):
+def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM,VM,IM, pos_dict,IDM, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left, tbd):
     '''
     add the features in triple form where all rules will be included and cases not inclued in any rule 
     will be combined together as a triple
@@ -1880,7 +1914,266 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
     O_x, O_y = np.where(OM>0)
     O_xy = np.concatenate((O_x.reshape(O_x.shape[0],1), O_y.reshape(O_y.shape[0], 1)), axis = 1)
 
+    V_x, V_y = np.where(VM>0)
     
+    # complete the not used index to mod3=0
+    if len(V_x) % 3 == 2:
+        V_x = np.append(V_x, V_x[0:1])
+        V_y = np.append(V_y, V_y[0:1])
+    if len(V_x) % 3 ==1:
+        V_x = np.append(V_x, V_x[0:1])
+        V_y = np.append(V_y, V_y[0:1])
+        V_x = np.append(V_x, V_x[0:1])
+        V_y = np.append(V_y, V_y[0:1])
+    #print(len(V_index)/3)
+
+    # add the no rules data
+    if len(V_x)==0:
+        pass
+    else:
+        for k in range(int(len(V_x)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                #print(i,k, len(B_x))
+                ids.append((V_x[i],V_y[i]))
+                x1, x2 = pos_dict[V_x[i]]
+                y1, y2 = pos_dict[V_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                    #print(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                    new_text = ' '.join(new_text)
+                    #print(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[3,3,3],
+                        doc_id=[int(doc_id),int(doc_id),int(doc_id)],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = [0,0,0],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+
+    if tbd:
+        I_x, I_y = np.where(IM>0)
+        
+        # complete the not used index to mod3=0
+        if len(I_x) % 3 == 2:
+            I_x = np.append(I_x, I_x[0:1])
+            I_y = np.append(I_y, I_y[0:1])
+        if len(I_x) % 3 ==1:
+            I_x = np.append(I_x, I_x[0:1])
+            I_y = np.append(I_y, I_y[0:1])
+            I_x = np.append(I_x, I_x[0:1])
+            I_y = np.append(I_y, I_y[0:1])
+        #print(len(I_index)/3)
+
+        # add the no rules data
+        if len(I_x)==0:
+            pass
+        else:
+            for k in range(int(len(I_x)/3)):
+                input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+                for i in [3*k, 3*k+1, 3*k+2]:
+                    ids.append((I_x[i],I_y[i]))
+                    x1, x2 = pos_dict[I_x[i]]
+                    y1, y2 = pos_dict[I_y[i]]
+                    # in case x>y
+                    if x1 > y1:
+                        x1,x2,y1,y2 = y1,y2,x1,x2
+                        new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                        new_text = ' '.join(new_text)
+                        #print(new_text)
+                    else:
+                        new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                        new_text = ' '.join(new_text)
+                        #print(new_text)
+                    
+                    inputs = tokenizer.encode_plus(
+                        new_text,
+                        add_special_tokens=True,
+                        max_length=max_length,
+                    )
+                    node_pos_1 = node_pos_2 = -1
+                    text = tokenizer.tokenize(new_text)
+                    for j in range(len(text)-4):
+                        if text[:4] == ['[', 'e', '##1', ']']:
+                            node_pos_1 = j + 4
+                        elif text[:4] == ['[', 'e', '##2', ']']:
+                            node_pos_2 = j + 4
+
+                    input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                    attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                    # Zero-pad up to the sequence length.
+                    padding_length = max_length - len(input_id)
+
+                    if pad_on_left:
+                        input_id = ([pad_token] * padding_length) + input_id
+                        attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                        token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                    else:
+                        input_id = input_id + ([pad_token] * padding_length)
+                        attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                        token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                    assert len(input_id) == max_length, "Error with input length {} Is {}".format(len(input_id), max_length)
+                    assert len(attention_mask) == max_length, "Error with input length {} Is {}".format(len(attention_mask), max_length)
+                    assert len(token_type_id) == max_length, "Error with input length {} Is {}".format(len(token_type_id), max_length)
+
+                    input_ids.append(input_id)
+                    token_type_ids.append(token_type_id)
+                    attention_masks.append(attention_mask)
+
+                sources = 1
+                features.append(
+                Input_SB_Features(input_ids=input_ids,
+                            attention_masks=attention_masks,
+                            token_type_ids=token_type_ids,
+                            #matrix=example.matrix,
+                            relations=[4,4,4],
+                            doc_id=[int(doc_id),int(doc_id),int(doc_id)],
+                            sen_id=[sen_id,sen_id,sen_id],
+                            ids=ids,
+                            sources = [sources,sources,sources],
+                            rules = [0,0,0],
+                            #node_pos = (node_pos_1, node_pos_2),
+                            ))
+
+        TIM = IM.transpose()
+        TI_x, TI_y = np.where(TIM>0)
+        
+        # complete the not used index to mod3=0
+        if len(TI_x) % 3 == 2:
+            TI_x = np.append(TI_x, TI_x[0:1])
+            TI_y = np.append(TI_y, TI_y[0:1])
+        if len(TI_x) % 3 ==1:
+            TI_x = np.append(TI_x, TI_x[0:1])
+            TI_y = np.append(TI_y, TI_y[0:1])
+            TI_x = np.append(TI_x, TI_x[0:1])
+            TI_y = np.append(TI_y, TI_y[0:1])
+        #print(len(TI_index)/3)
+
+        # add the no rules data
+        if len(TI_x)==0:
+            pass
+        else:
+            for k in range(int(len(TI_x)/3)):
+                input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+                for i in [3*k, 3*k+1, 3*k+2]:
+                    #print(i,k, len(B_x))
+                    ids.append((TI_x[i],TI_y[i]))
+                    x1, x2 = pos_dict[TI_x[i]]
+                    y1, y2 = pos_dict[TI_y[i]]
+                    # in case x>y
+                    if x1 > y1:
+                        x1,x2,y1,y2 = y1,y2,x1,x2
+                        new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
+                        new_text = ' '.join(new_text)
+                        #print(new_text)
+                    else:
+                        new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
+                        new_text = ' '.join(new_text)
+                        #print(new_text)
+                    
+                    inputs = tokenizer.encode_plus(
+                        new_text,
+                        add_special_tokens=True,
+                        max_length=max_length,
+                    )
+                    node_pos_1 = node_pos_2 = -1
+                    text = tokenizer.tokenize(new_text)
+                    for j in range(len(text)-4):
+                        if text[:4] == ['[', 'e', '##1', ']']:
+                            node_pos_1 = j + 4
+                        elif text[:4] == ['[', 'e', '##2', ']']:
+                            node_pos_2 = j + 4
+
+                    input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                    attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                    # Zero-pad up to the sequence length.
+                    padding_length = max_length - len(input_id)
+
+                    if pad_on_left:
+                        input_id = ([pad_token] * padding_length) + input_id
+                        attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                        token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                    else:
+                        input_id = input_id + ([pad_token] * padding_length)
+                        attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                        token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                    assert len(input_id) == max_length, "Error with input length {} TIs {}".format(len(input_id), max_length)
+                    assert len(attention_mask) == max_length, "Error with input length {} TIs {}".format(len(attention_mask), max_length)
+                    assert len(token_type_id) == max_length, "Error with input length {} TIs {}".format(len(token_type_id), max_length)
+
+                    input_ids.append(input_id)
+                    token_type_ids.append(token_type_id)
+                    attention_masks.append(attention_mask)
+
+                sources = 1
+                features.append(
+                Input_SB_Features(input_ids=input_ids,
+                            attention_masks=attention_masks,
+                            token_type_ids=token_type_ids,
+                            #matrix=example.matrix,
+                            relations=[5,5,5],
+                            doc_id=[int(doc_id),int(doc_id),int(doc_id)],
+                            sen_id=[sen_id,sen_id,sen_id],
+                            ids=ids,
+                            sources = [sources,sources,sources],
+                            rules = [0,0,0],
+                            #node_pos = (node_pos_1, node_pos_2),
+                            ))
+
+
 
     # get relations that not used
     B_list = [any([x[0] in y and x[1] in y for y in all_xyz]) for x in B_xy]
@@ -1916,12 +2209,15 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
                 y1, y2 = pos_dict[B_y[i]]
                 # in case x>y
                 if x1 > y1:
+                    #TODO changed the join to ' ', change the ' ' after e tag
                     x1,x2,y1,y2 = y1,y2,x1,x2
                     new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
                     new_text = ' '.join(new_text)
+                    #print(new_text)
                 else:
                     new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
                     new_text = ' '.join(new_text)
+                    #print(new_text)
                 
                 inputs = tokenizer.encode_plus(
                     new_text,
@@ -1966,7 +2262,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
                         token_type_ids=token_type_ids,
                         #matrix=example.matrix,
                         relations=[1,1,1],
-                        doc_id=[doc_id,doc_id,doc_id],
+                        doc_id=[int(doc_id),int(doc_id),int(doc_id)],
                         sen_id=[sen_id,sen_id,sen_id],
                         ids=ids,
                         sources = [sources,sources,sources],
@@ -1991,9 +2287,11 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
                     x1,x2,y1,y2 = y1,y2,x1,x2
                     new_text = texts[0:x1] + ['<e2>'] + texts[x1:(x2+1)] + ['</e2>'] + texts[(x2+1):y1] + ['<e1>'] + texts[y1:(y2+1)] + ['</e1>'] + texts[(y2+1):len(texts)]
                     new_text = ' '.join(new_text)
+                    #print(new_text)
                 else:
                     new_text = texts[0:x1] + ['<e1>'] + texts[x1:(x2+1)] + ['</e1>'] + texts[(x2+1):y1] + ['<e2>'] + texts[y1:(y2+1)] + ['</e2>'] + texts[(y2+1):len(texts)]
                     new_text = ' '.join(new_text)
+                    #print(new_text)
                 
                 inputs = tokenizer.encode_plus(
                     new_text,
@@ -2038,7 +2336,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
                         token_type_ids=token_type_ids,
                         #matrix=example.matrix,
                         relations=[2,2,2],
-                        doc_id=[doc_id,doc_id,doc_id],
+                        doc_id=[int(doc_id),int(doc_id),int(doc_id)],
                         sen_id=[sen_id,sen_id,sen_id],
                         ids=ids,
                         sources = [sources,sources,sources],
@@ -2117,6 +2415,318 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
                 token_type_ids.append(token_type_id)
                 attention_masks.append(attention_mask)
 
+            sources = 1 
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[0,0,0],
+                        doc_id=[int(doc_id)]*3,
+                        sen_id=[sen_id]*3,
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = [0,0,0],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+            O_count+=3
+            O_red+=3
+
+
+    # add triple for rules
+    B_count, O_count = add_rules(BBB, 1,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+    B_count, O_count = add_rules(BBB, 2,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+    B_count, O_count = add_rules(BOB, 3,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+    B_count, O_count = add_rules(BOB, 4,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+    B_count, O_count = add_rules(OBB, 5,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+    B_count, O_count = add_rules(OBB, 6,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+    B_count, O_count = add_rules(OOO, 7,B_count, O_count, features,doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id)
+
+    #print("Afterward there are %d B and A, and %d O relations, among which %d B are redundant, %d O are redundant"%(B_count, O_count, B_red, O_red))
+
+
+    return sum_BBB, sum_BOB, sum_OBB, sum_OOO
+ 
+
+def add_features_triple_ACROBAT(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos_dict,IDM, tokenizer , texts,doc_id ,sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left):
+    '''
+    add the features in triple form where all rules will be included and cases not inclued in any rule 
+    will be combined together as a triple
+    '''
+    #print("Originally there is %f B and A, and %f O relations"%(np.sum(BM), np.sum(OM)))
+    #print("BM,",BM)
+    #print("OM",OM)
+    B_count, O_count, B_red, O_red = 0, 0, 0, 0
+    # convert BM to a 3d tensor that BT[:,i,:] = BM for any i 
+    BT = np.tile(BM,(BM.shape[0],1,1))
+    BT = np.moveaxis(BT, 0,1)
+    OT = np.tile(OM,(OM.shape[0],1,1))
+    OT = np.moveaxis(OT, 0,1)
+    
+    # rule tensor find where ij, jk has link, BT find ik has link
+    BBB = rule_tensor(BM, BM) * BT
+    BOB = rule_tensor(BM, OM) * BT
+    OBB = rule_tensor(OM, BM) * BT
+    OOO = rule_tensor(OM, OM) * OT
+    #print(np.sum(BBB),np.sum(BOB),np.sum(OBB),np.sum(OOO))
+
+    
+    sum_BBB += np.sum(BBB)
+    sum_BOB += np.sum(BOB)
+    sum_OBB += np.sum(OBB)
+    sum_OOO += np.sum(OOO)
+    All_rules = BBB+BOB+OBB+OOO
+    all_x, all_y, all_z = np.where(All_rules>0)
+    all_xyz = np.concatenate( (all_x.reshape(all_x.shape[0],1), all_y.reshape(all_y.shape[0],1), all_z.reshape(all_z.shape[0],1)), axis = 1)
+    #print("all_xyz", all_xyz.shape)
+
+    B_x, B_y = np.where(BM>0)
+    B_xy = np.concatenate((B_x.reshape(B_x.shape[0],1), B_y.reshape(B_y.shape[0], 1)), axis = 1)
+    O_x, O_y = np.where(OM>0)
+    O_xy = np.concatenate((O_x.reshape(O_x.shape[0],1), O_y.reshape(O_y.shape[0], 1)), axis = 1)
+
+    
+
+    # get relations that not used
+    B_list = [any([x[0] in y and x[1] in y for y in all_xyz]) for x in B_xy]
+    B_index = [i for i, x in enumerate(B_list) if x == False]
+    O_list = [any([x[0] in y and x[1] in y for y in all_xyz]) for x in O_xy]
+    O_index = [i for i, x in enumerate(O_list) if x == False]
+
+
+    # complete the not used index to mod3=0
+    if len(B_index) % 3 == 2:
+        B_index.append(B_index[len(B_index)-1])
+        B_x = np.append(B_x, B_x[0:1])
+        B_y = np.append(B_y, B_y[0:1])
+    if len(B_index) % 3 ==1:
+        B_index.append(B_index[len(B_index)-1])
+        B_index.append(B_index[len(B_index)-1])
+        B_x = np.append(B_x, B_x[0:1])
+        B_y = np.append(B_y, B_y[0:1])
+        B_x = np.append(B_x, B_x[0:1])
+        B_y = np.append(B_y, B_y[0:1])
+    #print(len(B_index)/3)
+
+    # add the no rules data
+    if len(B_index)==0:
+        pass
+    else:
+        for k in range(int(len(B_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                #print(i,k, len(B_x))
+                ids.append((B_x[i],B_y[i]))
+                x1, x2 = pos_dict[B_x[i]]
+                y1, y2 = pos_dict[B_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    #TODO changed the join to ' ', change the ' ' after e tag
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2> '] + texts[x1:(x2+1)] + ['</e2> '] + texts[(x2+1):y1] + ['<e1> '] + texts[y1:(y2+1)] + ['</e1> '] + texts[(y2+1):len(texts)]
+                    new_text = ''.join(new_text)
+                    print(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1> '] + texts[x1:(x2+1)] + ['</e1> '] + texts[(x2+1):y1] + ['<e2> '] + texts[y1:(y2+1)] + ['</e2> '] + texts[(y2+1):len(texts)]
+                    new_text = ''.join(new_text)
+                    print(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[1,1,1],
+                        doc_id=[int(doc_id),int(doc_id),int(doc_id)],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = [0,0,0],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+            B_count+=3
+            B_red+=3
+
+    # add A no rules
+    if len(B_index)==0:
+        pass
+    else:
+        for k in range(int(len(B_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                ids.append((B_y[i],B_x[i]))
+                x1, x2 = pos_dict[B_y[i]]
+                y1, y2 = pos_dict[B_x[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2> '] + texts[x1:(x2+1)] + ['</e2> '] + texts[(x2+1):y1] + ['<e1> '] + texts[y1:(y2+1)] + ['</e1> '] + texts[(y2+1):len(texts)]
+                    new_text = ''.join(new_text)
+                    #print(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1> '] + texts[x1:(x2+1)] + ['</e1> '] + texts[(x2+1):y1] + ['<e2> '] + texts[y1:(y2+1)] + ['</e2> '] + texts[(y2+1):len(texts)]
+                    new_text = ''.join(new_text)
+                    #print(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
+            sources = 1
+            features.append(
+            Input_SB_Features(input_ids=input_ids,
+                        attention_masks=attention_masks,
+                        token_type_ids=token_type_ids,
+                        #matrix=example.matrix,
+                        relations=[2,2,2],
+                        doc_id=[int(doc_id),int(doc_id),int(doc_id)],
+                        sen_id=[sen_id,sen_id,sen_id],
+                        ids=ids,
+                        sources = [sources,sources,sources],
+                        rules = [0,0, 0],
+                        #node_pos = (node_pos_1, node_pos_2),
+                        ))
+            B_count+=3
+            B_red+=3
+
+
+   # complete the O no rules
+    if len(O_index) % 3 == 2:
+        O_index.append(O_index[len(O_index)-1])
+        O_x = np.append(O_x, O_x[0:1])
+        O_y = np.append(O_y, O_y[0:1])
+    if len(O_index) % 3 ==1:
+        O_index.append(O_index[len(O_index)-1])
+        O_x = np.append(O_x, O_x[0:1])
+        O_y = np.append(O_y, O_y[0:1])
+        O_x = np.append(O_x, O_x[0:1])
+        O_y = np.append(O_y, O_y[0:1])
+    #print(len(O_index)/3)
+
+    # add O no rules
+    if len(O_index)==0:
+        pass
+    else:
+        for k in range(int(len(O_index)/3)):
+            input_ids, token_type_ids, attention_masks, ids = [], [], [], []
+            for i in [3*k, 3*k+1, 3*k+2]:
+                ids.append((O_x[i],O_y[i]))
+                x1, x2 = pos_dict[O_x[i]]
+                y1, y2 = pos_dict[O_y[i]]
+                # in case x>y
+                if x1 > y1:
+                    x1,x2,y1,y2 = y1,y2,x1,x2
+                    new_text = texts[0:x1] + ['<e2> '] + texts[x1:(x2+1)] + ['</e2> '] + texts[(x2+1):y1] + ['<e1> '] + texts[y1:(y2+1)] + ['</e1> '] + texts[(y2+1):len(texts)]
+                    new_text = ''.join(new_text)
+                else:
+                    new_text = texts[0:x1] + ['<e1> '] + texts[x1:(x2+1)] + ['</e1> '] + texts[(x2+1):y1] + ['<e2> '] + texts[y1:(y2+1)] + ['</e2> '] + texts[(y2+1):len(texts)]
+                    new_text = ''.join(new_text)
+                
+                inputs = tokenizer.encode_plus(
+                    new_text,
+                    add_special_tokens=True,
+                    max_length=max_length,
+                )
+                node_pos_1 = node_pos_2 = -1
+                text = tokenizer.tokenize(new_text)
+                for j in range(len(text)-4):
+                    if text[:4] == ['[', 'e', '##1', ']']:
+                        node_pos_1 = j + 4
+                    elif text[:4] == ['[', 'e', '##2', ']']:
+                        node_pos_2 = j + 4
+
+                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+
+                # Zero-pad up to the sequence length.
+                padding_length = max_length - len(input_id)
+
+                if pad_on_left:
+                    input_id = ([pad_token] * padding_length) + input_id
+                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+                else:
+                    input_id = input_id + ([pad_token] * padding_length)
+                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+
+                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+
+                input_ids.append(input_id)
+                token_type_ids.append(token_type_id)
+                attention_masks.append(attention_mask)
+
             sources = 1
             features.append(
             Input_SB_Features(input_ids=input_ids,
@@ -2149,6 +2759,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM, pos
 
     return sum_BBB, sum_BOB, sum_OBB, sum_OOO
  
+
 
 def add_rules(rule_tensor, rule, B_count, O_count, features, doc_id, sen_id,  pos_dict, texts, tokenizer, mask_padding_with_zero, max_length, pad_on_left, pad_token, pad_token_segment_id):
     '''
@@ -2315,7 +2926,7 @@ def build_rules(rule = None, rule_tensor = None, n_rule = None):
     return emb, labels
 
 
-def iter_rule_update(BM= None, OM=None,n_iter= 3,  wrong_count=None):
+def iter_rule_update(BM= None, OM=None,  n_iter= 3,  wrong_count=None):
     '''
     iteratively find the ground truth by applying rules
     rules: 
@@ -2429,6 +3040,9 @@ def build_BO(rel = None, IDToIndex= None, tbd = False):
     BM = np.zeros((n,n))
     OM = np.zeros((n,n))
     IDM = np.zeros((n,n))
+    VM = np.zeros((n,n))
+    if tbd:
+        IM = np.zeros((n,n))
     pos_dict = {}
     if tbd:
         for r in rel:
@@ -2443,6 +3057,18 @@ def build_BO(rel = None, IDToIndex= None, tbd = False):
             if r[6] == "AFTER":
                 BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
                 IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "VAGUE":
+                VM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "INCLUDES":
+                IM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "IS_INCLUDED":
+                IM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1
+                IDM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1
+        return BM,OM, IDM, pos_dict, VM, IM
+                
+            
 
     else:
         for r in rel:
@@ -2457,7 +3083,7 @@ def build_BO(rel = None, IDToIndex= None, tbd = False):
             if r[6] == "AFTER":
                 BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
                 IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
-    return BM, OM, IDM, pos_dict
+    return BM, OM, IDM, pos_dict, VM
 
 
 def judge_rule(BM):
