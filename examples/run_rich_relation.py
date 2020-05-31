@@ -259,11 +259,11 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     print("best checkpoint", best_check)
     print("best f1s", best_f1s)
     best_f1s = np.array(best_f1s)
-    fig = plt.figure()
-    plt.plot(best_f1s[:,0], best_f1s[:,1], 'ro')
-    plt.xlabel("global steps")
-    plt.ylabel("micro f1")
-    fig.savefig('/workspace/ACROBAT/f1.png')
+    #fig = plt.figure()
+    #plt.plot(best_f1s[:,0], best_f1s[:,1], 'ro')
+    #plt.xlabel("global steps")
+    ##plt.ylabel("micro f1")
+    #fig.savefig('/workspace/ACROBAT/f1.png')
 
     return global_step, tr_loss / global_step, best_check
 
@@ -336,8 +336,11 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 outputs = model(**inputs) 
                 tmp_eval_loss, logits = outputs[:2]
 
+                if args.tbd:
+                    eval_loss = 0
+                else:
+                    eval_loss += tmp_eval_loss.mean().item()
 
-                eval_loss += tmp_eval_loss.mean().item()
             nb_eval_steps += 1
 
             if preds is None:
@@ -366,7 +369,11 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
         eval_loss = eval_loss / nb_eval_steps
         if args.output_mode == "classification":
             labels = np.argmax(preds, axis=1)
-            preds = np.max(preds, axis = 1)
+            if not args.tbd:
+                preds = np.max(preds, axis = 1)
+            if args.tbd:
+                labels = out_label_ids
+
         elif args.output_mode == "regression":
             labels = np.squeeze(preds)
             preds = np.max(preds, axis = 1)
@@ -444,8 +451,10 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                     doc_id = '0' + str(doc_id)
                 if doc_id not in doc_dict:
                     doc_dict[doc_id] = {"labels":[], "events":[], "sen_ids":[], 'preds':[]}
-
-                event = [dict_IndenToID[str(doc_id)+"[" + str(sen_id[0])+":"+str(sen_id[1]) + ")"][x] for x in event]
+                if args.tbd:
+                    event = [dict_IndenToID[str(doc_id)+"[" + str(sen_id[0])+":"+str(sen_id[1]) + ")"][x] for x in event]
+                else:
+                    event = [dict_IndenToID[str(doc_id)+"(" + str(sen_id[0])+", "+str(sen_id[1]) +", " +str(sen_id[2]) + ")"][x] for x in event]
                 doc_dict[doc_id]["preds"].append(pred)
                 doc_dict[doc_id]["events"].append(event)
                 doc_dict[doc_id]["sen_ids"].append(sen_id)
@@ -453,6 +462,9 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             
             for doc_id in doc_dict.keys():
                 labels = doc_dict[doc_id]["labels"]
+                if args.tbd:
+                    temp_label_dict =  {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
+                    labels = [temp_label_dict[x] for x in labels]
                 labels = [label_dict[x] for x in labels]
                 #print(labels)
                 #print(preds)
@@ -465,9 +477,11 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                         ce = closure_evaluate(doc_id, args.final_xml_folder)
                         ce.eval(labels, events, sen_ids, preds)
                     fw = open(args.output_dir + 'aug_'+ str(args.aug_round)+'psl_' + str(args.psllda) +'_'+str(doc_id)+ '.output.txt', 'w')
+                    #print(preds[0])
                     for [id1, id2], label,  pred in zip(events, labels,  preds):
                         fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
                     fw.close()
+
 
                 else:
                     if args.tempeval:
@@ -478,6 +492,8 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                     for [id1, id2], label,  pred in zip(events, labels,  preds):
                         fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
                     fw.close()
+            if final_evaluate and args.tbd:
+                os.system('for thres in 0.1 0.3 0.5 0.7 0.9 ; do python3 vague_processing.py $thres; done')
             if final_evaluate and args.tempeval:# temporal evaluation
                 #print(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
@@ -499,7 +515,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
@@ -510,7 +526,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         if not args.tbd:
             label_dict = {x:y for x,y in enumerate(label_list)}
         else:
-            label_dict = {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
+            label_dict = {0: 'overlap', 1: 'before', 2: 'after'}#,  3:'includs', 4:'is_included'} TODO
         if task in ['mnli', 'mnli-mm'] and args.model_type in ['roberta']:
             # HACK(label indices are swapped in RoBERTa pretrained model)
             label_list[1], label_list[2] = label_list[2], label_list[1] 
@@ -546,9 +562,13 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
     #all_node_pos = torch.tensor([f.node_pos for f in features], dtype=torch.long)
     if output_mode == "classification":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.long)
-        #print("o:", sum(all_labels==5))
-        #print("b:", sum(all_labels==1))
-        #print("a:", sum(all_labels==2))
+        '''
+        print("o:", sum(all_labels==0))
+        print("b:", sum(all_labels==1))
+        print("a:", sum(all_labels==2))
+        print("v:", sum(all_labels==3))
+        print("i:", sum(all_labels==4))
+        print("ti:", sum(all_labels==5))'''
     elif output_mode == "regression":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.float)
     #print(features[0].doc_id)
@@ -557,9 +577,9 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
     all_sources = [f.sources for f in features] 
     if not evaluate:
         all_rules = torch.tensor([f.rules for f in features], dtype = torch.int)
-        
         if not args.tbd:
             all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].replace(':',', ').split(", ")] for s in f.sen_id] for f in features])
+            print(all_sen_ids[0])
         else:
             #print(features[0].sen_id)
             all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(":")] for s in f.sen_id] for f in features])    
@@ -567,7 +587,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         #except:
 
         data_type = None
-    
+
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids,  all_rules)#,all_node_pos , all_event_ids)
     else:
         if not args.tbd:

@@ -250,19 +250,19 @@ class BertForRelationClassification(BertPreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
         #TODO change the num 
-        self.num_labels = config.num_labels + 3
+        self.num_labels = config.num_labels #TODO +2
 
         self.bert = BertModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         # TODO change the number of labels
-        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels+3)
+        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)#TODO +2
         #self.converter = nn.Linear(2*config.hidden_size, config.hidden_size)
         #self.hidden_size = config.hidden_size
 
         self.init_weights()
 
     def forward(self, input_ids=None, attention_mask=None, token_type_ids=None, node_pos_ids=None, psllda = None,
-                position_ids=None, head_mask=None, inputs_embeds=None, labels=None, rules = None, evaluate = False, class_weights = [1,1,1,1,1,1]):
+                position_ids=None, head_mask=None, inputs_embeds=None, labels=None, rules = None, evaluate = False, class_weights = [1,1,1,1,1]):
 
         outputs = self.bert(input_ids,
                             attention_mask=attention_mask,
@@ -296,12 +296,14 @@ class BertForRelationClassification(BertPreTrainedModel):
 
         psl_loss = True
         lda = psllda
-        if labels is not None:
-            loss_fct = CrossEntropyLoss(weight=class_weights)#) 
+        if labels is not None: #and not evaluate: TODO
+            loss_fct = CrossEntropyLoss()#weight=class_weights) 
             loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
             if psl_loss and not evaluate:
-                loss = loss  + lda * PSL_loss( logits=logits, rules = rules,loss = loss)
+                loss = loss  + lda * PSL_loss(logits=logits, rules = rules,loss = loss)
             outputs = (loss,) + outputs
+        #if evaluate: TODO
+        #    outputs = (loss,) + outputs # tbd: (0, )
 
         return outputs  # (loss), logits, (hidden_states), (attentions)
 

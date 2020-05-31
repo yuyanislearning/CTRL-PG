@@ -541,7 +541,9 @@ def sb_convert_examples_to_features(examples, tokenizer,
         # construct dict to store the transformation from relation id to index of the matrix and vice versa
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
         #print(str(example.doc_id)+example.sen_idss)
-        dict_IndenToID[str(example.doc_id[len(example.doc_id)-4:len(example.doc_id)])+example.sen_id] = IndexToID
+        dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID 
+        # dict_IndenToID[str(example.doc_id[len(example.doc_id)-4:len(example.doc_id)])+example.sen_id] = IndexToID #tbd TODO
+
         # data_aug is how the data is augmented
         # only use data_aug = triple_rules or evaluate for now
         if evaluate: 
@@ -708,10 +710,13 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 BM, OM, IDM, pos_dict, VM, IM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             else:
                 BM, OM, IDM, pos_dict, VM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+            VM = np.zeros(VM.shape)
+            # IM = np.zeros(IM.shape)#TODO tbd
             BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count)
             AM = BM.transpose()
             IDM = np.zeros(BM.shape)
-            IDM = IDM + BM + AM + OM + VM + IM + IM.transpose()
+            # IDM = IDM + BM + AM + OM + VM + IM + IM.transpose()# TODO tbd
+            IDM = IDM + BM + AM + OM + VM
             IDM[np.where(IDM>0)] = 1
             #VM = VM + VM.transpose()
             #VM[np.where(VM>0)] = 1
@@ -734,16 +739,19 @@ def sb_convert_examples_to_features(examples, tokenizer,
 
         elif data_aug == 'evaluate':
             if tbd:
-                BM, OM, IDM, pos_dict, VM, IM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+                BM,AM, OM, IDM, pos_dict, VM, IM, TIM = build_BO_evaluate(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             else:
-                BM, OM, IDM, pos_dict, VM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+                BM,AM, OM, IDM, pos_dict, VM = build_BO_evaluate(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             #print("origin BM", BM)
             BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count)
             IDM = IDM + BM + BM.transpose() + OM + VM + IM + IM.transpose()
             IDM[np.where(IDM>0)] = 1
+            IM = np.zeros(IM.shape)#TODO
+            TIM = np.zeros(TIM.shape)#TODO
+            VM = np.zeros(VM.shape)#TODO
 
             # merge three sentences
-            if tbd:
+            if tbd: 
                 texts = example.text
             else:
                 texts = []
@@ -752,7 +760,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
             
             add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
  
-            AM = BM.transpose()
+            #AM = BM.transpose()
             add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
             add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
@@ -2077,7 +2085,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM,VM,I
                             attention_masks=attention_masks,
                             token_type_ids=token_type_ids,
                             #matrix=example.matrix,
-                            relations=[4,4,4],
+                            relations=[3,3,3],
                             doc_id=[int(doc_id),int(doc_id),int(doc_id)],
                             sen_id=[sen_id,sen_id,sen_id],
                             ids=ids,
@@ -2164,7 +2172,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM,VM,I
                             attention_masks=attention_masks,
                             token_type_ids=token_type_ids,
                             #matrix=example.matrix,
-                            relations=[5,5,5],
+                            relations=[4,4,4],
                             doc_id=[int(doc_id),int(doc_id),int(doc_id)],
                             sen_id=[sen_id,sen_id,sen_id],
                             ids=ids,
@@ -2525,11 +2533,11 @@ def add_features_triple_ACROBAT(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM,
                     x1,x2,y1,y2 = y1,y2,x1,x2
                     new_text = texts[0:x1] + ['<e2> '] + texts[x1:(x2+1)] + ['</e2> '] + texts[(x2+1):y1] + ['<e1> '] + texts[y1:(y2+1)] + ['</e1> '] + texts[(y2+1):len(texts)]
                     new_text = ''.join(new_text)
-                    print(new_text)
+                    #print(new_text)
                 else:
                     new_text = texts[0:x1] + ['<e1> '] + texts[x1:(x2+1)] + ['</e1> '] + texts[(x2+1):y1] + ['<e2> '] + texts[y1:(y2+1)] + ['</e2> '] + texts[(y2+1):len(texts)]
                     new_text = ''.join(new_text)
-                    print(new_text)
+                    #print(new_text)
                 
                 inputs = tokenizer.encode_plus(
                     new_text,
@@ -3084,6 +3092,64 @@ def build_BO(rel = None, IDToIndex= None, tbd = False):
                 BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
                 IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
     return BM, OM, IDM, pos_dict, VM
+
+
+def build_BO_evaluate(rel = None, IDToIndex= None, tbd = False):
+    '''
+    convert the relations to before matrix and overlap matrix, not distinguished before and after
+    later will construct after matrix by transverse
+    '''
+    n = len(IDToIndex)
+    BM = np.zeros((n,n))
+    AM = np.zeros((n,n))
+    OM = np.zeros((n,n))
+    IDM = np.zeros((n,n))
+    VM = np.zeros((n,n))
+    
+    if tbd:
+        IM = np.zeros((n,n))
+        TIM = np.zeros((n,n))
+    pos_dict = {}
+    if tbd:
+        for r in rel:
+            pos_dict[IDToIndex[r[2]]] = (r[0],r[1])
+            pos_dict[IDToIndex[r[5]]] = (r[3],r[4])
+            if r[6] == "SIMULTANEOUS":
+                OM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "BEFORE":
+                BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "AFTER":
+                AM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1 
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "VAGUE":
+                VM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "INCLUDES":
+                IM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "IS_INCLUDED":
+                TIM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1
+        return BM,AM, OM, IDM, pos_dict, VM, IM, TIM
+                
+            
+
+    else:
+        for r in rel:
+            pos_dict[IDToIndex[r[2]]] = (r[0],r[1])
+            pos_dict[IDToIndex[r[5]]] = (r[3],r[4])
+            if r[6] == "OVERLAP":
+                OM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "BEFORE":
+                BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+            if r[6] == "AFTER":
+                BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
+                IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
+    return BM,AM, OM, IDM, pos_dict, VM
 
 
 def judge_rule(BM):
