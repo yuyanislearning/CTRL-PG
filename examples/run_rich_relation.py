@@ -447,8 +447,9 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             doc_dict = {}
             for doc_id, sen_id, label, event, pred in zip(doc_ids, sent_ids, labels, events, preds):
                 #print(doc_id,sent_id,pred,event)
-                while len(str(doc_id))<4:
-                    doc_id = '0' + str(doc_id)
+                if args.tbd:
+                    while len(str(doc_id))<4:
+                        doc_id = '0' + str(doc_id)
                 if doc_id not in doc_dict:
                     doc_dict[doc_id] = {"labels":[], "events":[], "sen_ids":[], 'preds':[]}
                 if args.tbd:
