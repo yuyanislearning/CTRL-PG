@@ -25,7 +25,7 @@ from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
 import torch.nn.functional as F
 
-from transformers import  BertPreTrainedModel, BertModel, BertForSequenceClassification
+from transformers import  BertPreTrainedModel, BertModel#, BertForSequenceClassification
 
 import numpy as np
 from torch_geometric.nn import SAGEConv, GATConv
@@ -33,167 +33,167 @@ from scipy.sparse import coo_matrix
 
 
 
-class GraphConvClassification(nn.Module):
+# class GraphConvClassification(nn.Module):
 
-    def __init__(self, config, GAT = False):
-        super(GraphConvClassification, self).__init__()
-        self.dim_emb = 768
-        #self.dim_emb = config.hidden_size
-        self.linear = nn.Linear(config.hidden_size, self.dim_emb)
-        self.linear2 = nn.Linear(self.dim_emb, self.dim_emb)
-        self.num_labels = config.num_labels
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
-        #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
-        if not GAT:
-            self.Graphmodel = SAGEConv(self.dim_emb,self.dim_emb,aggr = "mean")
-            #self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
-        else:
-            self.Graphmodel = GATConv(self.dim_emb,self.dim_emb,heads=1) # GAT
-
-
-    def forward(
-        self, idx= None, adjacency_matrix=None, node_embeddings = None,
-        label=None
-    ):
-        """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
-
-        #TODO: remove to outside
-        A = adjacency_matrix
-        # transfor A into sparse matrix, to get desired model input
-        A_coo = coo_matrix(A)
-        row = A_coo.row
-        column = A_coo.col
-        edge_index = np.asarray([row,column])
-
-        # model input
-        edge_index = torch.LongTensor(edge_index).cuda()
-        #print("number of links: ",edge_index.size())
-        node_embeddings = F.relu(self.linear(node_embeddings))
-        node_out = self.Graphmodel(node_embeddings,edge_index)  
-        # residual block
-        node_embeddings = node_out + node_embeddings
-        # second layer of graph
-        #node_out = self.Graphmodel(node_embeddings,edge_index) 
-        #node_embeddings = node_out + node_embeddings
-
-        # select nodes to be classify
-        outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
-        inputs = self.dropout(outputs)
-        logits = self.classifier(inputs)
-        outputs = logits
-
-        if label is not None:
-
-            loss_fct = CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
-            #outputs = (loss,) + outputs
-
-        loss = loss + PSL_loss(label, logits)
+#     def __init__(self, config, GAT = False):
+#         super(GraphConvClassification, self).__init__()
+#         self.dim_emb = 768
+#         #self.dim_emb = config.hidden_size
+#         self.linear = nn.Linear(config.hidden_size, self.dim_emb)
+#         self.linear2 = nn.Linear(self.dim_emb, self.dim_emb)
+#         self.num_labels = config.num_labels
+#         self.dropout = nn.Dropout(config.hidden_dropout_prob)
+#         self.classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+#         #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+#         if not GAT:
+#             self.Graphmodel = SAGEConv(self.dim_emb,self.dim_emb,aggr = "mean")
+#             #self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
+#         else:
+#             self.Graphmodel = GATConv(self.dim_emb,self.dim_emb,heads=1) # GAT
 
 
-        return (loss, outputs)  
+#     def forward(
+#         self, idx= None, adjacency_matrix=None, node_embeddings = None,
+#         label=None
+#     ):
+#         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
 
-class NoGraphClassification(nn.Module):
+#         #TODO: remove to outside
+#         A = adjacency_matrix
+#         # transfor A into sparse matrix, to get desired model input
+#         A_coo = coo_matrix(A)
+#         row = A_coo.row
+#         column = A_coo.col
+#         edge_index = np.asarray([row,column])
 
-    def __init__(self, config, cal_hidden_loss = True):
-        super(NoGraphClassification, self).__init__()
-        self.num_labels = config.num_labels
-        self.dim_emb = 768
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(self.dim_emb, config.num_labels)
-        self.hidden_classifier = nn.Linear(self.dim_emb*2, config.num_labels)
-        #self.cal_hidden_loss = cal_hidden_loss
-        #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+#         # model input
+#         edge_index = torch.LongTensor(edge_index).cuda()
+#         #print("number of links: ",edge_index.size())
+#         node_embeddings = F.relu(self.linear(node_embeddings))
+#         node_out = self.Graphmodel(node_embeddings,edge_index)  
+#         # residual block
+#         node_embeddings = node_out + node_embeddings
+#         # second layer of graph
+#         #node_out = self.Graphmodel(node_embeddings,edge_index) 
+#         #node_embeddings = node_out + node_embeddings
 
-    def forward(
-        self, adjacency_matrix = None, idx = None, node_embeddings = None,
-        label=None, cal_hidden_loss = True, weight =0.3
-    ):
-        """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
+#         # select nodes to be classify
+#         outputs = torch.cat((node_embeddings[idx[:, 0]], node_embeddings[idx[:,1]]), dim = 1)
+#         inputs = self.dropout(outputs)
+#         logits = self.classifier(inputs)
+#         outputs = logits
 
-        inputs = self.dropout(node_embeddings)
-        logits = self.classifier(inputs)
-        outputs = logits
+#         if label is not None:
 
-        if label is not None:
+#             loss_fct = CrossEntropyLoss()
+#             loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
+#             #outputs = (loss,) + outputs
 
-            loss_fct = CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
-            #outputs = (loss,) + outputs
+#         loss = loss + PSL_loss(label, logits)
+
+
+#         return (loss, outputs)  
+
+# class NoGraphClassification(nn.Module):
+
+#     def __init__(self, config, cal_hidden_loss = True):
+#         super(NoGraphClassification, self).__init__()
+#         self.num_labels = config.num_labels
+#         self.dim_emb = 768
+#         self.dropout = nn.Dropout(config.hidden_dropout_prob)
+#         self.classifier = nn.Linear(self.dim_emb, config.num_labels)
+#         self.hidden_classifier = nn.Linear(self.dim_emb*2, config.num_labels)
+#         #self.cal_hidden_loss = cal_hidden_loss
+#         #self.classifier = nn.Linear(config.hidden_size*2, config.num_labels)
+
+#     def forward(
+#         self, adjacency_matrix = None, idx = None, node_embeddings = None,
+#         label=None, cal_hidden_loss = True, weight =0.3
+#     ):
+#         """inputs could be (doc_size, number_node_pair,2*embeding_size)"""
+
+#         inputs = self.dropout(node_embeddings)
+#         logits = self.classifier(inputs)
+#         outputs = logits
+
+#         if label is not None:
+
+#             loss_fct = CrossEntropyLoss()
+#             loss = loss_fct(logits.view(-1, self.num_labels), label.view(-1))
+#             #outputs = (loss,) + outputs
         
-        #print(label)
+#         #print(label)
 
-        if cal_hidden_loss:
-            hidden_loss = torch.tensor(0, dtype = torch.float64).cuda()
-            for n_batch in range(int(label.size()[0]/2)):
-                #print(node_embeddings.size())
-                #print(label.size())
-                #print(node_embeddings[n_batch*2,:].size())
-                hidden_inputs = torch.cat((node_embeddings[n_batch*2,:], node_embeddings[n_batch*2+1,:]))
-                hidden_inputs = self.dropout(hidden_inputs)
-                hidden_logits = self.hidden_classifier(hidden_inputs)
-                hidden_label = torch.tensor(identify_label(label[n_batch*2], label[n_batch*2+1]))
-                loss_fct = CrossEntropyLoss()
-                hidden_loss = hidden_loss + loss_fct(hidden_logits.view(-1, self.num_labels), hidden_label.view(-1).cuda())
-            loss = loss + weight * hidden_loss
+#         if cal_hidden_loss:
+#             hidden_loss = torch.tensor(0, dtype = torch.float64).cuda()
+#             for n_batch in range(int(label.size()[0]/2)):
+#                 #print(node_embeddings.size())
+#                 #print(label.size())
+#                 #print(node_embeddings[n_batch*2,:].size())
+#                 hidden_inputs = torch.cat((node_embeddings[n_batch*2,:], node_embeddings[n_batch*2+1,:]))
+#                 hidden_inputs = self.dropout(hidden_inputs)
+#                 hidden_logits = self.hidden_classifier(hidden_inputs)
+#                 hidden_label = torch.tensor(identify_label(label[n_batch*2], label[n_batch*2+1]))
+#                 loss_fct = CrossEntropyLoss()
+#                 hidden_loss = hidden_loss + loss_fct(hidden_logits.view(-1, self.num_labels), hidden_label.view(-1).cuda())
+#             loss = loss + weight * hidden_loss
 
-        return (loss, outputs)  
-
-
-
-class BertForNodeEmbedding(BertPreTrainedModel):
-
-    def __init__(self, config):
-        super(BertForNodeEmbedding, self).__init__(config)
-        self.num_labels = config.num_labels
-
-        self.bert = BertModel(config)
-        self.weight = nn.Linear(config.hidden_size, 100)
-
-        self.init_weights()
-
-    def forward(self, input_ids=None, attention_mask=None, token_type_ids=None ):
-        input_ids = torch.squeeze(input_ids, 1)
-        attention_mask = torch.squeeze(attention_mask, 1)
-        token_type_ids = torch.squeeze(token_type_ids, 1)
-
-        outputs = self.bert(input_ids,
-                            attention_mask=attention_mask,
-                            token_type_ids=token_type_ids)
-        # outputs[0] is loss; outputs[1] is pooled output
-        # should be ( node_size, (1), feature_size)
+#         return (loss, outputs)  
 
 
-        pooled_output = outputs[1]
+
+# class BertForNodeEmbedding(BertPreTrainedModel):
+
+#     def __init__(self, config):
+#         super(BertForNodeEmbedding, self).__init__(config)
+#         self.num_labels = config.num_labels
+
+#         self.bert = BertModel(config)
+#         self.weight = nn.Linear(config.hidden_size, 100)
+
+#         self.init_weights()
+
+#     def forward(self, input_ids=None, attention_mask=None, token_type_ids=None ):
+#         input_ids = torch.squeeze(input_ids, 1)
+#         attention_mask = torch.squeeze(attention_mask, 1)
+#         token_type_ids = torch.squeeze(token_type_ids, 1)
+
+#         outputs = self.bert(input_ids,
+#                             attention_mask=attention_mask,
+#                             token_type_ids=token_type_ids)
+#         # outputs[0] is loss; outputs[1] is pooled output
+#         # should be ( node_size, (1), feature_size)
+
+
+#         pooled_output = outputs[1]
         
-        return pooled_output 
+#         return pooled_output 
     
 
 
-class ConvGraph(nn.Module):
+# class ConvGraph(nn.Module):
 
-    def __init__(self, config, GAT=False):
-        super(ConvGraph, self).__init__()
-        if not GAT:
-            self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
-        else:
-            self.Graphmodel = GATConv(config.hidden_size,config.hidden_size,heads=1) # GAT
+#     def __init__(self, config, GAT=False):
+#         super(ConvGraph, self).__init__()
+#         if not GAT:
+#             self.Graphmodel = SAGEConv(config.hidden_size,config.hidden_size) # SAGEConv
+#         else:
+#             self.Graphmodel = GATConv(config.hidden_size,config.hidden_size,heads=1) # GAT
 
-    def forward(self, features, adjacency_matrix):
+#     def forward(self, features, adjacency_matrix):
 
-        A = adjacency_matrix
-        # transfor A into sparse matrix, to get desired model input
-        A_coo = coo_matrix(A)
-        row = A_coo.row
-        column = A_coo.col
-        edge_index = np.asarray([row,column])
+#         A = adjacency_matrix
+#         # transfor A into sparse matrix, to get desired model input
+#         A_coo = coo_matrix(A)
+#         row = A_coo.row
+#         column = A_coo.col
+#         edge_index = np.asarray([row,column])
 
-        # model input
-        edge_index = torch.LongTensor(edge_index).cuda()
-        outputs = self.Graphmodel(features,edge_index)  
+#         # model input
+#         edge_index = torch.LongTensor(edge_index).cuda()
+#         outputs = self.Graphmodel(features,edge_index)  
 
-        return outputs
+#         return outputs
 
 
 def PSL_loss( logits=None, rules = None, stick_rule = True, loss = None):
@@ -307,54 +307,54 @@ class BertForRelationClassification(BertPreTrainedModel):
 
         return outputs  # (loss), logits, (hidden_states), (attentions)
 
-class BertForSequenceClassification(BertPreTrainedModel):
-    def __init__(self, config):
-        super().__init__(config)
-        self.num_labels = config.num_labels
+# class BertForSequenceClassification(BertPreTrainedModel):
+#     def __init__(self, config):
+#         super().__init__(config)
+#         self.num_labels = config.num_labels
 
-        self.bert = BertModel(config)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
+#         self.bert = BertModel(config)
+#         self.dropout = nn.Dropout(config.hidden_dropout_prob)
+#         self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
 
-        self.init_weights()
+#         self.init_weights()
 
-    def forward(
-        self,
-        input_ids=None,
-        attention_mask=None,
-        token_type_ids=None,
-        position_ids=None,
-        head_mask=None,
-        inputs_embeds=None,
-        labels=None,
-    ):
+#     def forward(
+#         self,
+#         input_ids=None,
+#         attention_mask=None,
+#         token_type_ids=None,
+#         position_ids=None,
+#         head_mask=None,
+#         inputs_embeds=None,
+#         labels=None,
+#     ):
 
-        outputs = self.bert(
-            input_ids,
-            attention_mask=attention_mask,
-            token_type_ids=token_type_ids,
-            position_ids=position_ids,
-            head_mask=head_mask,
-            inputs_embeds=inputs_embeds,
-        )
+#         outputs = self.bert(
+#             input_ids,
+#             attention_mask=attention_mask,
+#             token_type_ids=token_type_ids,
+#             position_ids=position_ids,
+#             head_mask=head_mask,
+#             inputs_embeds=inputs_embeds,
+#         )
 
-        pooled_output = outputs[1]
+#         pooled_output = outputs[1]
 
-        pooled_output = self.dropout(pooled_output)
-        logits = self.classifier(pooled_output)
+#         pooled_output = self.dropout(pooled_output)
+#         logits = self.classifier(pooled_output)
 
-        outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
+#         outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
 
-        if labels is not None:
-            if self.num_labels == 1:
-                #  We are doing regression
-                loss_fct = MSELoss()
-                loss = loss_fct(logits.view(-1), labels.view(-1))
-            else:
-                loss_fct = CrossEntropyLoss()
-                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
-            outputs = (loss,) + outputs
+#         if labels is not None:
+#             if self.num_labels == 1:
+#                 #  We are doing regression
+#                 loss_fct = MSELoss()
+#                 loss = loss_fct(logits.view(-1), labels.view(-1))
+#             else:
+#                 loss_fct = CrossEntropyLoss()
+#                 loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+#             outputs = (loss,) + outputs
 
-        return outputs  # (loss), logits, (hidden_states), (attentions)
+#         return outputs  # (loss), logits, (hidden_states), (attentions)
 
-### End
+# ### End

@@ -37,7 +37,6 @@ except:
     from tensorboardX import SummaryWriter
 
 from tqdm import tqdm, trange
-from knockknock import slack_sender
 import matplotlib.pyplot as plt
 plt.style.use('seaborn-whitegrid')
 
@@ -60,7 +59,7 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                   AlbertTokenizer,
                                 )
 
-from extra_layers_2 import BertForRelationClassification,BertForSequenceClassification
+from extra_layers_2 import BertForRelationClassification#,BertForSequenceClassification
 
 from transformers import AdamW, get_linear_schedule_with_warmup
 #from utils_relation import *
