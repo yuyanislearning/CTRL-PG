@@ -513,7 +513,6 @@ def sb_convert_examples_to_features(examples, tokenizer,
     label_map = {label.lower(): i for i, label in enumerate(label_list)}    
 
     features = []
-    #max_length_input = 0
 
     dict_IndenToID = {}
     
@@ -535,14 +534,14 @@ def sb_convert_examples_to_features(examples, tokenizer,
 
         input_ids, token_type_ids, attention_masks = [], [], []
         example.doc_id = str(example.doc_id)
-        # for one document
-        #rel = build_sb_relations(rel = example.relations)
 
         # construct dict to store the transformation from relation id to index of the matrix and vice versa
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
-        #print(str(example.doc_id)+example.sen_idss)
-        dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID 
-        # dict_IndenToID[str(example.doc_id[len(example.doc_id)-4:len(example.doc_id)])+example.sen_id] = IndexToID #tbd TODO
+        
+        if tbd: 
+            dict_IndenToID[str(example.doc_id[len(example.doc_id)-4:len(example.doc_id)])+example.sen_id] = IndexToID #tbd TODO
+        else:
+            dict_IndenToID[str(example.doc_id)+example.sen_id] = IndexToID
 
         # data_aug is how the data is augmented
         # only use data_aug = triple_rules or evaluate for now
@@ -712,7 +711,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 BM, OM, IDM, pos_dict, VM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             VM = np.zeros(VM.shape)
             # IM = np.zeros(IM.shape)#TODO tbd
-            BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count)
+            BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count, evaluate = False)
             AM = BM.transpose()
             IDM = np.zeros(BM.shape)
             # IDM = IDM + BM + AM + OM + VM + IM + IM.transpose()# TODO tbd
@@ -731,11 +730,11 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 #print(texts)
             
             if acrobat:
-                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple_ACROBAT(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple_ACROBAT(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
             if tbd:
                 sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,VM,IM,  pos_dict,IDM,  tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left, tbd=True)
             else:
-                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,VM, None, pos_dict,IDM,  tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left,tbd=False)
+                sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,VM, None, pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left,tbd=False)
 
         elif data_aug == 'evaluate':
             if tbd:
@@ -743,12 +742,15 @@ def sb_convert_examples_to_features(examples, tokenizer,
             else:
                 BM,AM, OM, IDM, pos_dict, VM = build_BO_evaluate(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             #print("origin BM", BM)
-            BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count)
-            IDM = IDM + BM + BM.transpose() + OM + VM + IM + IM.transpose()
+            BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count, evaluate = True)
+            if tbd:
+                IDM = IDM + BM + AM+ OM + VM + IM + IM.transpose()
+            else:
+                IDM = IDM + BM + AM + OM
             IDM[np.where(IDM>0)] = 1
-            IM = np.zeros(IM.shape)#TODO
-            TIM = np.zeros(TIM.shape)#TODO
-            VM = np.zeros(VM.shape)#TODO
+            #IM = np.zeros(IM.shape)#TODO
+            ##TIM = np.zeros(TIM.shape)#TODO
+            #VM = np.zeros(VM.shape)#TODO
 
             # merge three sentences
             if tbd: 
@@ -758,18 +760,20 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 for text in example.text:
                     texts.extend(text)
             
-            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+            # TODO for tbd, modify doc_id
+            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
  
             #AM = BM.transpose()
-            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
-            add_features(features, VM, pos_dict,IDM, 'VM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+            if tbd:
+                add_features(features, VM, pos_dict,IDM, 'VM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
             
-            TIM = IM.transpose()
-            #print(TIM)
-            add_features(features, IM, pos_dict,IDM, 'IM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
-            add_features(features, TIM, pos_dict,IDM, 'TIM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+                TIM = IM.transpose()
+                #print(TIM)
+                add_features(features, IM, pos_dict,IDM, 'IM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+                add_features(features, TIM, pos_dict,IDM, 'TIM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
 
         # if ex_index < 5:
@@ -2934,7 +2938,7 @@ def build_rules(rule = None, rule_tensor = None, n_rule = None):
     return emb, labels
 
 
-def iter_rule_update(BM= None, OM=None,  n_iter= 3,  wrong_count=None):
+def iter_rule_update(BM= None, OM=None,  n_iter= 3,  wrong_count=None, evaluate=False):
     '''
     iteratively find the ground truth by applying rules
     rules: 
@@ -2945,9 +2949,10 @@ def iter_rule_update(BM= None, OM=None,  n_iter= 3,  wrong_count=None):
     if Oij, then Oji
     '''
     # first complete OM
-    OOM = np.copy(OM)
+    OOM = np.copy(OM) 
     OBM = np.copy(BM)
-    OM = OM + OM.transpose()
+    if not evaluate:
+        OM = OM + OM.transpose()
     #OM = OM + np.matmul(OM, OM)
 
     # iteratively update BM
@@ -3147,7 +3152,7 @@ def build_BO_evaluate(rel = None, IDToIndex= None, tbd = False):
                 BM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
                 IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
             if r[6] == "AFTER":
-                BM[IDToIndex[r[5]],IDToIndex[r[2]]] = 1 
+                AM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1 
                 IDM[IDToIndex[r[2]],IDToIndex[r[5]]] = 1
     return BM,AM, OM, IDM, pos_dict, VM
 

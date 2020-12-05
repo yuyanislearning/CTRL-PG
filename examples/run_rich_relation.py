@@ -20,7 +20,7 @@ from __future__ import absolute_import, division, print_function
 import argparse
 import glob
 import logging
-import os
+import os, sys
 import random
 import sys
 
@@ -77,11 +77,11 @@ ALL_MODELS = sum((tuple(conf.pretrained_config_archive_map.keys()) for conf in (
 
 MODEL_CLASSES = {
     'bert': (BertConfig, BertForRelationClassification, BertTokenizer),
-    'xlnet': (XLNetConfig, XLNetForSequenceClassification, XLNetTokenizer),
-    'xlm': (XLMConfig, XLMForSequenceClassification, XLMTokenizer),
-    'roberta': (RobertaConfig, RobertaForSequenceClassification, RobertaTokenizer),
-    'distilbert': (DistilBertConfig, DistilBertForSequenceClassification, DistilBertTokenizer),
-    'albert': (AlbertConfig, AlbertForSequenceClassification, AlbertTokenizer)
+    # 'xlnet': (XLNetConfig, XLNetForSequenceClassification, XLNetTokenizer),
+    # 'xlm': (XLMConfig, XLMForSequenceClassification, XLMTokenizer),
+    # 'roberta': (RobertaConfig, RobertaForSequenceClassification, RobertaTokenizer),
+    # 'distilbert': (DistilBertConfig, DistilBertForSequenceClassification, DistilBertTokenizer),
+    # 'albert': (AlbertConfig, AlbertForSequenceClassification, AlbertTokenizer)
 }
 
 
@@ -100,7 +100,6 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     best_check = None
     best_f1s = []
 
-
     if args.local_rank in [-1, 0]:
         tb_writer = SummaryWriter()
 
@@ -117,14 +116,14 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
 
     # Prepare optimizer and schedule (linear warmup and decay)
-    #print([n for n,p in model.named_parameters()])
+    # print([n for n,p in model.named_parameters()])
     no_decay = ['bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
         ]
 
-    '''
+    ''' fixed bert
     for n,p in model.named_parameters():
         if 'layer' in n:
             p.requires_grad = False
@@ -168,27 +167,26 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
         for step, batch in enumerate(epoch_iterator):
             model.train()
             # convert the example from three cases one example to one case one exsample
-            # TODO make sure there is only case 3 and 4
             batch = tuple(t.view(-1).to(args.device) if len(t.size()) ==2 else t.view(t.size()[0]*t.size()[1],-1).to(args.device) for t in batch) 
 
             class_weights = args.class_weight.split('~')
-            if args.node_embed:
-                inputs = {'input_ids':      batch[0],
-                          'attention_mask': batch[1],
-                          'node_pos_ids':   batch[8],
-                          'labels':         batch[4],
-                          'rules':          batch[7],
-                          'psllda':         args.psllda,
-                          'class_weights':  class_weights,
-                          }
-            else:
-                inputs = {'input_ids':      batch[0],
-                          'attention_mask': batch[1],
-                          'labels':         batch[4],
-                          'rules':          batch[7],
-                          'psllda':         args.psllda,
-                          'class_weights':  class_weights,
-                          }
+            # if args.node_embed:
+            #     inputs = {'input_ids':      batch[0],
+            #               'attention_mask': batch[1],
+            #               'node_pos_ids':   batch[8],
+            #               'labels':         batch[4],
+            #               'rules':          batch[7],
+            #               'psllda':         args.psllda,
+            #               'class_weights':  class_weights,
+            #               }
+            # else:
+            inputs = {'input_ids':      batch[0],
+                        'attention_mask': batch[1],
+                        'labels':         batch[4],
+                        'rules':          batch[7],
+                        'psllda':         args.psllda,
+                        'class_weights':  class_weights,
+                        }
 
 
             if args.model_type != 'distilbert':
@@ -200,7 +198,6 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
                 loss = loss.mean() # mean() to average on multi-gpu parallel training
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
-            #print("loss:", loss)
 
             if args.fp16:
                 with amp.scale_loss(loss, optimizer) as scaled_loss:
@@ -259,11 +256,7 @@ def train(args, train_dataset, model, tokenizer, dict_IndenToID, label_dict):
     print("best checkpoint", best_check)
     print("best f1s", best_f1s)
     best_f1s = np.array(best_f1s)
-    #fig = plt.figure()
-    #plt.plot(best_f1s[:,0], best_f1s[:,1], 'ro')
-    #plt.xlabel("global steps")
-    ##plt.ylabel("micro f1")
-    #fig.savefig('/workspace/ACROBAT/f1.png')
+
 
     return global_step, tr_loss / global_step, best_check
 
@@ -310,29 +303,27 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             batch = tuple(t.to(args.device) for t in batch)
 
             with torch.no_grad():
-                if args.node_embed:
-                    inputs = {'input_ids':      batch[0],
-                              'attention_mask': batch[1],
-                              'node_pos_ids':   batch[7],
-                              'labels':         batch[4],
-                              'evaluate': True,
-                              'psllda':         args.psllda,
-                              }
-                else:
-                    inputs = {'input_ids':      batch[0],
-                              'attention_mask': batch[1],
-                              'labels':         batch[4],
-                              'evaluate': True,
-                              'psllda':         args.psllda,
-                              }
+                # if args.node_embed:
+                #     inputs = {'input_ids':      batch[0],
+                #               'attention_mask': batch[1],
+                #               'node_pos_ids':   batch[7],
+                #               'labels':         batch[4],
+                #               'evaluate': True,
+                #               'psllda':         args.psllda,
+                #               }
+                # else:
+                inputs = {'input_ids':      batch[0],
+                            'attention_mask': batch[1],
+                            'labels':         batch[4],
+                            'evaluate': True,
+                            'psllda':         args.psllda,
+                            }
 
                 event_ids = batch[3]
                 document_ids = batch[5]
                 sentence_ids = batch[6]
                 if args.model_type != 'distilbert':
                     inputs['token_type_ids'] = batch[2] if args.model_type in ['bert', 'xlnet'] else None  # XLM, DistilBERT and RoBERTa don't use segment_ids
-                #print(batch[0].size())
-                #print(batch[4].size())
                 outputs = model(**inputs) 
                 tmp_eval_loss, logits = outputs[:2]
 
@@ -447,14 +438,17 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             doc_dict = {}
             for doc_id, sen_id, label, event, pred in zip(doc_ids, sent_ids, labels, events, preds):
                 #print(doc_id,sent_id,pred,event)
+                # if args.tbd:
+                #     while len(str(doc_id))<4:
+                #         doc_id = '0' + str(doc_id)
                 if args.tbd:
-                    while len(str(doc_id))<4:
-                        doc_id = '0' + str(doc_id)
+                    doc_id = doc_id.zfill(4)
                 if doc_id not in doc_dict:
                     doc_dict[doc_id] = {"labels":[], "events":[], "sen_ids":[], 'preds':[]}
                 if args.tbd:
                     event = [dict_IndenToID[str(doc_id)+"[" + str(sen_id[0])+":"+str(sen_id[1]) + ")"][x] for x in event]
                 else:
+                    #print(str(doc_id))
                     event = [dict_IndenToID[str(doc_id)+"(" + str(sen_id[0])+", "+str(sen_id[1]) +", " +str(sen_id[2]) + ")"][x] for x in event]
                 doc_dict[doc_id]["preds"].append(pred)
                 doc_dict[doc_id]["events"].append(event)
@@ -467,18 +461,14 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                     temp_label_dict =  {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
                     labels = [temp_label_dict[x] for x in labels]
                 labels = [label_dict[x] for x in labels]
-                #print(labels)
-                #print(preds)
                 events = doc_dict[doc_id]["events"]
                 sen_ids = doc_dict[doc_id]["sen_ids"]
-                #print(preds)
-                #print(events)
+
                 if final_evaluate:
                     if args.tempeval:
                         ce = closure_evaluate(doc_id, args.final_xml_folder)
                         ce.eval(labels, events, sen_ids, preds)
                     fw = open(args.output_dir + 'aug_'+ str(args.aug_round)+'psl_' + str(args.psllda) +'_'+str(doc_id)+ '.output.txt', 'w')
-                    #print(preds[0])
                     for [id1, id2], label,  pred in zip(events, labels,  preds):
                         fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
                     fw.close()
@@ -496,7 +486,6 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             if final_evaluate and args.tbd:
                 os.system('for thres in 0.1 0.3 0.5 0.7 0.9 ; do python3 vague_processing.py $thres; done')
             if final_evaluate and args.tempeval:# temporal evaluation
-                #print(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
                 os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
@@ -504,6 +493,12 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
 
 
 def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluate = False):
+    '''
+    To load and cache examples
+    if final_evaluate == T, it will load test data
+    else if evaluate == T, it will load dev data
+    else it will load training data
+    '''
     if args.local_rank not in [-1, 0] and not evaluate:
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
 
@@ -517,6 +512,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(task),
         str(args.aug_round)))
     if os.path.exists(cached_features_file) and not args.overwrite_cache: 
+        # load cache if exists
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
         label_list = processor.get_labels()
@@ -563,29 +559,17 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
     #all_node_pos = torch.tensor([f.node_pos for f in features], dtype=torch.long)
     if output_mode == "classification":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.long)
-        '''
-        print("o:", sum(all_labels==0))
-        print("b:", sum(all_labels==1))
-        print("a:", sum(all_labels==2))
-        print("v:", sum(all_labels==3))
-        print("i:", sum(all_labels==4))
-        print("ti:", sum(all_labels==5))'''
     elif output_mode == "regression":
         all_labels = torch.tensor([f.relations for f in features], dtype=torch.float)
-    #print(features[0].doc_id)
     all_doc_ids = torch.tensor([f.doc_id for f in features], dtype = torch.int)
-    #print(features[0].rules)
     all_sources = [f.sources for f in features] 
     if not evaluate:
         all_rules = torch.tensor([f.rules for f in features], dtype = torch.int)
         if not args.tbd:
             all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].replace(':',', ').split(", ")] for s in f.sen_id] for f in features])
-            print(all_sen_ids[0])
         else:
-            #print(features[0].sen_id)
             all_sen_ids = torch.tensor([[[int(i) for i in s[1:len(s)-1].split(":")] for s in f.sen_id] for f in features])    
-            #[2:5)
-        #except:
+
 
         data_type = None
 
@@ -594,57 +578,12 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         if not args.tbd:
             all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].replace(':',', ').split(", ")] for f in features])
         else:
-            #print(features[0].sen_id)
             all_sen_ids = torch.tensor([[int(i) for i in f.sen_id[1:len(f.sen_id)-1].split(":")] for f in features])    
         dataset = TensorDataset(all_input_ids, all_attention_mask, all_token_type_ids, all_event_ids, all_labels, all_doc_ids, all_sen_ids)#,all_node_pos , all_event_ids)
     return dataset, dict_IndenToID, label_dict
 
 
-def iter_rule_update(BM= None, OM=None,n_iter= 3):
-    # TODO: currently assuming they have considered the cases of duplicate prediction
-    '''
-    iteratively find the ground truth by applying rules
-    rules: 
-    if Bij Ojk, then Bik
-    if Oij Bjk, then Bik
-    if Bij Bjk, then Bik
-    if Oij Ojk, then Oik
-    if Oij, then Oji
-    '''
-    # first complete OM
 
-    OM = OM + OM.transpose()
-    OM = OM + np.matmul(OM, OM)
-
-    for i in range(OM.shape[0]):
-        OM[i,i] = 0
-
-    # iteratively update BM
-    for _ in range(n_iter):
-        BM = BM + np.matmul(BM, OM)
-        BM = BM + np.matmul(OM, BM)
-        BM = BM + np.matmul(BM, BM)
-    
-    # normalize
-    BM[np.where(BM>0)] = 1
-    OM[np.where(OM>0)] = 1
-
-
-    BM = judge_BM(BM)
-
-    return BM, OM
-
-def judge_BM(BM):
-    for i in range(BM.shape[0]):
-        if BM[i,i] == 1:
-            BM[i,i] = 0
-    # if np.sum(np.sum(BM* BM.transpose())):
-    #     return True
-    return BM
-
-# TODO: remove it 
-webhook_url = "https://hooks.slack.com/services/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"
-@slack_sender(webhook_url=webhook_url, channel="coding-notification")
 def main():
     parser = argparse.ArgumentParser()
 
@@ -652,13 +591,13 @@ def main():
     parser.add_argument("--data_dir", default=None, type=str, required=True,
                         help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
     parser.add_argument("--gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
-                        help="The input data dir. ")
+                        help="The gold standard file. ")
     parser.add_argument("--test_gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
-                        help="The input data dir. ")
+                        help="The test set gold standard file. ")
     parser.add_argument("--xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str, required=True,
-                        help="The input data dir. ")
+                        help="The xml data dir to put result for dev set. ")
     parser.add_argument("--final_xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/test-empty/", type=str, required=True,
-                        help="The final input data dir. ")                        
+                        help="The xml data dir to put result for test set. ")                        
     parser.add_argument("--model_type", default=None, type=str, required=True,
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
     parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
@@ -684,9 +623,9 @@ def main():
     parser.add_argument("--do_train", action='store_true',
                         help="Whether to run training.")
     parser.add_argument("--data_aug", default=None, type=str,
-                        help="Whether to run data aug.")
+                        help="Whether to run data augmentation.")
     parser.add_argument("--class_weight", default=None, type=str,
-                        help="class weights of overlap before after.")
+                        help="class weights of the three classes: overlap; before and after.")
     
     parser.add_argument("--do_eval", action='store_true',
                         help="Whether to run eval on the dev set.")
@@ -722,7 +661,7 @@ def main():
     parser.add_argument("--warmup_steps", default=0, type=int,
                         help="Linear warmup over warmup_steps.")
     parser.add_argument('--psllda', type=float, default=0,
-                        help="lambda for soft probabilistic logit")
+                        help="lambda for controlling soft probabilistic logit loss")
 
     parser.add_argument('--logging_steps', type=int, default=500,
                         help="Log every X updates steps.")
@@ -750,20 +689,20 @@ def main():
                              "See details at https://nvidia.github.io/apex/amp.html")
     parser.add_argument("--local_rank", type=int, default=-1,
                         help="For distributed training: local_rank")
-    parser.add_argument('--server_ip', type=str, default='', help="For distant debugging.")
-    parser.add_argument('--server_port', type=str, default='', help="For distant debugging.")
+    # parser.add_argument('--server_ip', type=str, default='', help="For distant debugging.")
+    # parser.add_argument('--server_port', type=str, default='', help="For distant debugging.")
     args = parser.parse_args()
 
     if os.path.exists(args.output_dir) and os.listdir(args.output_dir) and args.do_train and not args.overwrite_output_dir:
         raise ValueError("Output directory ({}) already exists and is not empty. Use --overwrite_output_dir to overcome.".format(args.output_dir))
 
-    # Setup distant debugging if needed
-    if args.server_ip and args.server_port:
-        # Distant debugging - see https://code.visualstudio.com/docs/python/debugging#_attach-to-a-local-script
-        import ptvsd
-        print("Waiting for debugger attach")
-        ptvsd.enable_attach(address=(args.server_ip, args.server_port), redirect_output=True)
-        ptvsd.wait_for_attach()
+    # # Setup distant debugging if needed
+    # if args.server_ip and args.server_port:
+    #     # Distant debugging - see https://code.visualstudio.com/docs/python/debugging#_attach-to-a-local-script
+    #     import ptvsd
+    #     print("Waiting for debugger attach")
+    #     ptvsd.enable_attach(address=(args.server_ip, args.server_port), redirect_output=True)
+    #     ptvsd.wait_for_attach()
 
     # Setup CUDA, GPU & distributed training
     if args.local_rank == -1 or args.no_cuda:
@@ -856,8 +795,7 @@ def main():
 
 
     # Evaluation
-    #TODO: add test
-    results = {}
+    results = {} 
     if args.do_eval and args.local_rank in [-1, 0]:
         #tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
         checkpoints = [args.output_dir]
@@ -866,6 +804,9 @@ def main():
             logging.getLogger("transformers.modeling_utils").setLevel(logging.WARN)  # Reduce logging
         logger.info("Evaluate the following checkpoints: %s", checkpoints)
         _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  final_evaluate =True)
+        results.update(result)
+        # get the dev TODO remove it
+        _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  final_evaluate =False)
         results.update(result)
         '''
         for checkpoint in checkpoints:
@@ -878,8 +819,7 @@ def main():
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
         '''
-    #TODO change back to True
-    if False:
+    if True:
         os.system('mkdir -p ' + str(args.error_output_dir) + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda))
         os.system(' '.join(["python error_analysis.py --gold_file_des",str(args.test_gold_file), '--system_file_des', str(args.final_xml_folder),
     '--data_path', str(args.data_dir), '--output_dir', str(args.error_output_dir) + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '/']))
