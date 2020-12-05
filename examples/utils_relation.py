@@ -547,161 +547,162 @@ def sb_convert_examples_to_features(examples, tokenizer,
         # only use data_aug = triple_rules or evaluate for now
         if evaluate: 
             data_aug = 'evaluate'
-        if data_aug == "reverse":
-            for rel in example.relations:
-                texts = [] 
-                for text in example.text:
-                    texts.extend(text)
-                texts = texts[0:rel[0]] + ['<e1>'] + texts[rel[0]:(rel[1]+1)] + ['</e1>'] + texts[(rel[1]+1):rel[3]] + ['<e2>'] + texts[rel[3]:(rel[4]+1)] + ['</e2>'] + texts[(rel[4]+1):len(texts)]
-                #print("This is texts:",texts)
-                #print("This is rel",rel)
+
+        # if data_aug == "reverse":
+        #     for rel in example.relations:
+        #         texts = [] 
+        #         for text in example.text:
+        #             texts.extend(text)
+        #         texts = texts[0:rel[0]] + ['<e1>'] + texts[rel[0]:(rel[1]+1)] + ['</e1>'] + texts[(rel[1]+1):rel[3]] + ['<e2>'] + texts[rel[3]:(rel[4]+1)] + ['</e2>'] + texts[(rel[4]+1):len(texts)]
+        #         #print("This is texts:",texts)
+        #         #print("This is rel",rel)
                 
-                texts = ' '.join(texts)
-                inputs = tokenizer.encode_plus(
-                    texts,
-                    add_special_tokens=True,
-                    max_length=max_length,
-                )
+        #         texts = ' '.join(texts)
+        #         inputs = tokenizer.encode_plus(
+        #             texts,
+        #             add_special_tokens=True,
+        #             max_length=max_length,
+        #         )
 
-                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+        #         input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
 
 
-                # The mask has 1 for real tokens and 0 for padding tokens. Only real
-                # tokens are attended to.
-                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+        #         # The mask has 1 for real tokens and 0 for padding tokens. Only real
+        #         # tokens are attended to.
+        #         attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
 
-                # Zero-pad up to the sequence length.
-                padding_length = max_length - len(input_id)
+        #         # Zero-pad up to the sequence length.
+        #         padding_length = max_length - len(input_id)
 
-                if pad_on_left:
-                    input_id = ([pad_token] * padding_length) + input_id
-                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
-                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
-                else:
-                    input_id = input_id + ([pad_token] * padding_length)
-                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
-                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+        #         if pad_on_left:
+        #             input_id = ([pad_token] * padding_length) + input_id
+        #             attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+        #             token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+        #         else:
+        #             input_id = input_id + ([pad_token] * padding_length)
+        #             attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+        #             token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
 
-                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
-                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
-                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+        #         assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+        #         assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+        #         assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
 
-                # print("texts:",texts)
-                # print("label", rel[6])
-                # print("label", reltonum(rel[6]))
-                # print("input_ids", input_id)
-                # print("attention_mask", attention_mask)
-                # print("token_type_id", token_type_id)
-                # print("")
+        #         # print("texts:",texts)
+        #         # print("label", rel[6])
+        #         # print("label", reltonum(rel[6]))
+        #         # print("input_ids", input_id)
+        #         # print("attention_mask", attention_mask)
+        #         # print("token_type_id", token_type_id)
+        #         # print("")
 
-                features.append(
-                    Input_SB_Features(input_ids=input_id,
-                                attention_masks=attention_mask,
-                                token_type_ids=token_type_id,
-                                #matrix=example.matrix,
-                                relations=reltonum(rel[6]),
-                                doc_id=example.doc_id,
-                                sen_id=example.sen_id,
-                                ids=(IDToIndex[rel[2]], IDToIndex[rel[5]])
-                                ))           
-                texts = [] 
-                for text in example.text:
-                    texts.extend(text)
-                texts = texts[0:rel[0]] + ['<e2>'] + texts[rel[0]:(rel[1]+1)] + ['</e2>'] + texts[(rel[1]+1):rel[3]] + ['<e1>'] + texts[rel[3]:(rel[4]+1)] + ['</e1>'] + texts[(rel[4]+1):len(texts)]
+        #         features.append(
+        #             Input_SB_Features(input_ids=input_id,
+        #                         attention_masks=attention_mask,
+        #                         token_type_ids=token_type_id,
+        #                         #matrix=example.matrix,
+        #                         relations=reltonum(rel[6]),
+        #                         doc_id=example.doc_id,
+        #                         sen_id=example.sen_id,
+        #                         ids=(IDToIndex[rel[2]], IDToIndex[rel[5]])
+        #                         ))           
+        #         texts = [] 
+        #         for text in example.text:
+        #             texts.extend(text)
+        #         texts = texts[0:rel[0]] + ['<e2>'] + texts[rel[0]:(rel[1]+1)] + ['</e2>'] + texts[(rel[1]+1):rel[3]] + ['<e1>'] + texts[rel[3]:(rel[4]+1)] + ['</e1>'] + texts[(rel[4]+1):len(texts)]
 
-                #print("This is texts:",texts)
-                #print("This is rel",rel)
+        #         #print("This is texts:",texts)
+        #         #print("This is rel",rel)
                 
-                texts = ' '.join(texts)
-                inputs = tokenizer.encode_plus(
-                    texts,
-                    add_special_tokens=True,
-                    max_length=max_length,
-                )
+        #         texts = ' '.join(texts)
+        #         inputs = tokenizer.encode_plus(
+        #             texts,
+        #             add_special_tokens=True,
+        #             max_length=max_length,
+        #         )
 
-                input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
+        #         input_id, token_type_id = inputs["input_ids"], inputs["token_type_ids"]
 
-                # The mask has 1 for real tokens and 0 for padding tokens. Only real
-                # tokens are attended to.
-                attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
+        #         # The mask has 1 for real tokens and 0 for padding tokens. Only real
+        #         # tokens are attended to.
+        #         attention_mask = [1 if mask_padding_with_zero else 0] * len(input_id)
 
-                # Zero-pad up to the sequence length.
-                padding_length = max_length - len(input_id)
+        #         # Zero-pad up to the sequence length.
+        #         padding_length = max_length - len(input_id)
 
-                if pad_on_left:
-                    input_id = ([pad_token] * padding_length) + input_id
-                    attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
-                    token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
-                else:
-                    input_id = input_id + ([pad_token] * padding_length)
-                    attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
-                    token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
+        #         if pad_on_left:
+        #             input_id = ([pad_token] * padding_length) + input_id
+        #             attention_mask = ([0 if mask_padding_with_zero else 1] * padding_length) + attention_mask
+        #             token_type_id = ([pad_token_segment_id] * padding_length) + token_type_id
+        #         else:
+        #             input_id = input_id + ([pad_token] * padding_length)
+        #             attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
+        #             token_type_id = token_type_id + ([pad_token_segment_id] * padding_length)
 
-                assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
-                assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
-                assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
+        #         assert len(input_id) == max_length, "Error with input length {} vs {}".format(len(input_id), max_length)
+        #         assert len(attention_mask) == max_length, "Error with input length {} vs {}".format(len(attention_mask), max_length)
+        #         assert len(token_type_id) == max_length, "Error with input length {} vs {}".format(len(token_type_id), max_length)
 
-                features.append(
-                    Input_SB_Features(input_ids=input_id,
-                                attention_masks=attention_mask,
-                                token_type_ids=token_type_id,
-                                #matrix=example.matrix,
-                                relations=reverse(reltonum(rel[6])),
-                                doc_id=example.doc_id,
-                                sen_id=example.sen_id,
-                                ids=(IDToIndex[rel[5]], IDToIndex[rel[2]])
-                                )) 
+        #         features.append(
+        #             Input_SB_Features(input_ids=input_id,
+        #                         attention_masks=attention_mask,
+        #                         token_type_ids=token_type_id,
+        #                         #matrix=example.matrix,
+        #                         relations=reverse(reltonum(rel[6])),
+        #                         doc_id=example.doc_id,
+        #                         sen_id=example.sen_id,
+        #                         ids=(IDToIndex[rel[5]], IDToIndex[rel[2]])
+        #                         )) 
  
-        elif data_aug == "rules":
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
-            #print("origin BM", BM)
-            BM, OM, wrong_count = iter_rule_update(BM, OM,  aug_round,wrong_count)
-            #print("wrong count ",wrong_count)
-            #print("number of sentence", sen_count)
-            #print("update BM", BM)
-            AM = BM.transpose()
-            temp_BM = (BM - IDM)*2
-            temp_OM = (OM - IDM)*2
-            temp_AM = (AM - IDM)*2
-            temp_BM[np.where(temp_BM<0)] = 0
-            temp_OM[np.where(temp_OM<0)] = 0
-            temp_AM[np.where(temp_AM<0)] = 0
-            IDM = IDM + temp_BM + temp_OM + temp_AM# TODO modify case 4
+        # elif data_aug == "rules":
+        #     BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+        #     #print("origin BM", BM)
+        #     BM, OM, wrong_count = iter_rule_update(BM, OM,  aug_round,wrong_count)
+        #     #print("wrong count ",wrong_count)
+        #     #print("number of sentence", sen_count)
+        #     #print("update BM", BM)
+        #     AM = BM.transpose()
+        #     temp_BM = (BM - IDM)*2
+        #     temp_OM = (OM - IDM)*2
+        #     temp_AM = (AM - IDM)*2
+        #     temp_BM[np.where(temp_BM<0)] = 0
+        #     temp_OM[np.where(temp_OM<0)] = 0
+        #     temp_AM[np.where(temp_AM<0)] = 0
+        #     IDM = IDM + temp_BM + temp_OM + temp_AM# TODO modify case 4
 
 
 
-            texts = []
-            for text in example.text:
-                texts.extend(text)
+        #     texts = []
+        #     for text in example.text:
+        #         texts.extend(text)
             
-            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+        #     add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
  
-            AM = BM.transpose()
-            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+        #     AM = BM.transpose()
+        #     add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+        #     add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-        elif data_aug == "reduce":
-            '''reduce edges generated by rules'''
-            BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
-            #print("origin BM", BM)
-            BM, OM, remove_count = reduce_rule(BM, OM,  remove_count)
-            #print("Remove count ",remove_count)
-            #print("number of sentence", sen_count)
-            #print("update BM", BM)
-            AM = BM.transpose()
-            IDM = np.zeros(BM.shape)
-            IDM = IDM + BM + AM + OM
-            IDM[np.where(IDM>0)] = 1
-            #print("IDM", IDM)
+        # elif data_aug == "reduce":
+        #     '''reduce edges generated by rules'''
+        #     BM, OM, IDM, pos_dict = build_BO(rel = example.relations, IDToIndex= IDToIndex)
+        #     #print("origin BM", BM)
+        #     BM, OM, remove_count = reduce_rule(BM, OM,  remove_count)
+        #     #print("Remove count ",remove_count)
+        #     #print("number of sentence", sen_count)
+        #     #print("update BM", BM)
+        #     AM = BM.transpose()
+        #     IDM = np.zeros(BM.shape)
+        #     IDM = IDM + BM + AM + OM
+        #     IDM[np.where(IDM>0)] = 1
+        #     #print("IDM", IDM)
 
-            texts = []
-            for text in example.text:
-                texts.extend(text)
+        #     texts = []
+        #     for text in example.text:
+        #         texts.extend(text)
             
-            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
-            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
-            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+        #     add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+        #     add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+        #     add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
         elif data_aug == "triple_rules":
             #print(example.relations)
@@ -803,11 +804,11 @@ def sb_convert_examples_to_features(examples, tokenizer,
             #logger.info("attention_mask: %s" % " ".join([str(x) for x in attention_mask]))
             #logger.info("token_type_ids: %s" % " ".join([str(x) for x in token_type_ids]))
     print("remove number", remove_count)
-    print("sucessfully loading data!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-    print("sum_BBB",sum_BBB)
-    print("sum_BOB",sum_BOB)
-    print("sum_OBB",sum_OBB)
-    print("sum_OOO",sum_OOO)
+    print("sucessfully loading data!!!!!!!!!!!!!!!!!!!")
+    print("sum of rule BBB",sum_BBB)
+    print("sum of rule BOB",sum_BOB)
+    print("sum of rule OBB",sum_OBB)
+    print("sum of rule OOO",sum_OOO)
     #exit()
     return features, dict_IndenToID
 
@@ -3180,33 +3181,33 @@ glue_tasks_num_labels = {
 }
 
 glue_processors = {
-    "cola": ColaProcessor,
-    "mnli": MnliProcessor,
-    "mnli-mm": MnliMismatchedProcessor,
-    "mrpc": MrpcProcessor,
-    "sst-2": Sst2Processor,
-    "sts-b": StsbProcessor,
-    "qqp": QqpProcessor,
-    "qnli": QnliProcessor,
-    "rte": RteProcessor,
-    "wnli": WnliProcessor,
-    "i2b2-m": I2b2Processor,
+    # "cola": ColaProcessor,
+    # "mnli": MnliProcessor,
+    # "mnli-mm": MnliMismatchedProcessor,
+    # "mrpc": MrpcProcessor,
+    # "sst-2": Sst2Processor,
+    # "sts-b": StsbProcessor,
+    # "qqp": QqpProcessor,
+    # "qnli": QnliProcessor,
+    # "rte": RteProcessor,
+    # "wnli": WnliProcessor,
+    # "i2b2-m": I2b2Processor,
     #"i2b2-g": I2b2_Graph_Processor,
     'i2b2-g': I2b2_SB_Processor,
 }
 
 glue_output_modes = {
-    "cola": "classification",
-    "mnli": "classification",
-    "mnli-mm": "classification",
-    "mrpc": "classification",
-    "sst-2": "classification",
-    "sts-b": "regression",
-    "qqp": "classification",
-    "qnli": "classification",
-    "rte": "classification",
-    "wnli": "classification",
-    "i2b2-m": "classification",
+    # "cola": "classification",
+    # "mnli": "classification",
+    # "mnli-mm": "classification",
+    # "mrpc": "classification",
+    # "sst-2": "classification",
+    # "sts-b": "regression",
+    # "qqp": "classification",
+    # "qnli": "classification",
+    # "rte": "classification",
+    # "wnli": "classification",
+    # "i2b2-m": "classification",
     "i2b2-g": "classification",
 }
 
@@ -3266,29 +3267,29 @@ if _has_sklearn:
 
     def glue_compute_metrics(task_name, preds, labels):
         assert len(preds) == len(labels)
-        if task_name == "cola":
-            return {"mcc": matthews_corrcoef(labels, preds)}
-        elif task_name == "sst-2":
-            return {"acc": simple_accuracy(preds, labels)}
-        elif task_name == "mrpc":
-            return acc_and_f1(preds, labels)
-        elif task_name == "sts-b":
-            return pearson_and_spearman(preds, labels)
-        elif task_name == "qqp":
-            return acc_and_f1(preds, labels)
-        elif task_name == "mnli":
-            return {"acc": simple_accuracy(preds, labels)}
-        elif task_name == "mnli-mm":
-            return {"acc": simple_accuracy(preds, labels)}
-        elif task_name == "qnli":
-            return {"acc": simple_accuracy(preds, labels)}
-        elif task_name == "rte":
-            return {"acc": simple_accuracy(preds, labels)}
-        elif task_name == "wnli":
-            return {"acc": simple_accuracy(preds, labels)}
-        elif task_name == "i2b2-m":
-            return p_r_f1(preds, labels)
-        elif task_name == "i2b2-g":
+        # if task_name == "cola":
+        #     return {"mcc": matthews_corrcoef(labels, preds)}
+        # elif task_name == "sst-2":
+        #     return {"acc": simple_accuracy(preds, labels)}
+        # elif task_name == "mrpc":
+        #     return acc_and_f1(preds, labels)
+        # elif task_name == "sts-b":
+        #     return pearson_and_spearman(preds, labels)
+        # elif task_name == "qqp":
+        #     return acc_and_f1(preds, labels)
+        # elif task_name == "mnli":
+        #     return {"acc": simple_accuracy(preds, labels)}
+        # elif task_name == "mnli-mm":
+        #     return {"acc": simple_accuracy(preds, labels)}
+        # elif task_name == "qnli":
+        #     return {"acc": simple_accuracy(preds, labels)}
+        # elif task_name == "rte":
+        #     return {"acc": simple_accuracy(preds, labels)}
+        # elif task_name == "wnli":
+        #     return {"acc": simple_accuracy(preds, labels)}
+        # elif task_name == "i2b2-m":
+        #     return p_r_f1(preds, labels)
+        if task_name == "i2b2-g":
             return p_r_f1(preds, labels)
         else:
             raise KeyError(task_name)

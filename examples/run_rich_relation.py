@@ -510,7 +510,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
         # load cache if exists
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
