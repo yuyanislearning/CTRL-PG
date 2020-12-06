@@ -1,16 +1,47 @@
 # Examples
 
-In this section a few examples are put together. All of these examples work for several models, making use of the very
-similar API between the different models.
+In this section a few examples are put together. 
 
-**Important**  
-To run the latest versions of the examples, you have to install from source. Execute the following steps in a new virtual environment:
+## Usage
 
+
+
+## Examples
+
+### I2b2 dataset:
+
+
+### TBDense dataset:
+
+
+### ACROBAT dataset:
 ```bash
-git clone git@github.com:huggingface/transformers
-cd transformers
-pip install [--editable] .
+export DATA_DIR=../acrobat/3-up5/
+export OUTPUT_DIR=../../temp
+
+python run_rich_relation.py   \
+     --do_train  \
+     --do_eval   \
+     --evaluate_during_training  \
+     --do_lower_case  \
+     --data_dir $DATA_DIR  \
+     --max_seq_length 128  \
+     --per_gpu_eval_batch_size=8   \
+     --per_gpu_train_batch_size=8   \
+     --learning_rate 2e-5  \
+     --num_train_epochs 3.0  \
+     --output_dir   \
+     --overwrite_output_dir  \
+     --psllda 0    \
+     --acrobat     \
+     --class_weight 1~1~1
 ```
+
+
+
+
+
+
 
 | Section                    | Description                                                                                                                                                |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
