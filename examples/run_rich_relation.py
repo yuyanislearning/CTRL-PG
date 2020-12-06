@@ -510,7 +510,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
         # load cache if exists
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
@@ -597,11 +597,11 @@ def main():
                         help="The xml data dir to put result for dev set. ")
     parser.add_argument("--final_xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/test-empty/", type=str, required=True,
                         help="The xml data dir to put result for test set. ")                        
-    parser.add_argument("--model_type", default=None, type=str, required=True,
+    parser.add_argument("--model_type", default='bert', type=str, required=True,
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
-    parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
+    parser.add_argument("--model_name_or_path", default='bert-base-uncased', type=str, required=True,
                         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS))
-    parser.add_argument("--task_name", default=None, type=str, required=True,
+    parser.add_argument("--task_name", default='I2B2-G', type=str, required=True,
                         help="The name of the task to train selected in the list: " + ", ".join(processors.keys()))
     parser.add_argument("--output_dir", default=None, type=str, required=True,
                         help="The output directory where the model predictions and checkpoints will be written.")
@@ -621,7 +621,7 @@ def main():
                              "than this will be truncated, sequences shorter will be padded.")
     parser.add_argument("--do_train", action='store_true',
                         help="Whether to run training.")
-    parser.add_argument("--data_aug", default=None, type=str,
+    parser.add_argument("--data_aug", default='triple_rules', type=str,
                         help="Whether to run data augmentation.")
     parser.add_argument("--class_weight", default=None, type=str,
                         help="class weights of the three classes: overlap; before and after.")
