@@ -30,7 +30,7 @@ python run_rich_relation.py   \
      --per_gpu_train_batch_size=8   \
      --learning_rate 2e-5  \
      --num_train_epochs 3.0  \
-     --output_dir   \
+     --output_dir  $OUTPUT_DIR \
      --overwrite_output_dir  \
      --psllda 0    \
      --acrobat     \
