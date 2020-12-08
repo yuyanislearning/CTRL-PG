@@ -9,7 +9,38 @@ In this section a few examples are put together.
 ## Examples
 
 ### I2b2 dataset:
+```bash
+export DATA_DIR=../I2B2-R/rich_relation_dataset_2/merged_xml/3/
+export OUTPUT_DIR=/your/output/path/
+export GOLD_FILE=../I2B2-R/ground-truth/dev/merged_xml/ 
+export XML_DIR=../I2B2-R/rich_relation_dataset_2/merged_xml/3/dev-empty/
+export FINAL_XML_FOLDER=../I2B2-R/rich_relation_dataset_2/merged_xml/3/test-empty/
+export TEST_GOLD_FILE=../I2B2-R/ground-truth/test/merged_xml/
 
+python run_rich_relation.py   \
+     --do_train    \
+     --do_eval     \
+     --evaluate_during_training   \
+     --do_lower_case   \
+     --tempeval    \
+     --data_dir $DATA_DIR    \
+     --max_seq_length 128    \
+     --per_gpu_eval_batch_size=8   \
+     --per_gpu_train_batch_size=8   \
+     --learning_rate 2e-5   \
+     --num_train_epochs 3.0    \
+     --output_dir $OUTPUT_DIR   \
+     --overwrite_output_dir     \
+     --data_aug  triple_rules   \
+     --aug_round 0    \
+     --gold_file $GOLD_FILE   \
+     --xml_folder  $XML_DIR   \
+     --final_xml_folder   $FINAL_XML_FOLDER   \
+     --test_gold_file   $TEST_GOLD_FILE    \ 
+     --psllda 0   \
+     --class_weight 1~1~1
+
+```
 
 ### TBDense dataset:
 
