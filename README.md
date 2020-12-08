@@ -38,35 +38,10 @@ python run_rich_relation.py   \
      --final_xml_folder   $FINAL_XML_FOLDER   \
      --test_gold_file   $TEST_GOLD_FILE    \ 
      --psllda 0   \
-     --class_weight 1~1~1
 
 ```
 
 ### TBDense dataset:
-
-
-### ACROBAT dataset:
-```bash
-export DATA_DIR=../acrobat/3-up5/
-export OUTPUT_DIR=../../temp
-
-python run_rich_relation.py   \
-     --do_train  \
-     --do_eval   \
-     --evaluate_during_training  \
-     --do_lower_case  \
-     --data_dir $DATA_DIR  \
-     --max_seq_length 128  \
-     --per_gpu_eval_batch_size=8   \
-     --per_gpu_train_batch_size=8   \
-     --learning_rate 2e-5  \
-     --num_train_epochs 3.0  \
-     --output_dir  $OUTPUT_DIR \
-     --overwrite_output_dir  \
-     --psllda 0    \
-     --acrobat     \
-     --class_weight 1~1~1
-```
 
 
 
