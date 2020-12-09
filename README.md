@@ -8,6 +8,7 @@ In this section a few examples are put together.
 
 ## Examples
 
+To run temporal relation extraction
 ### I2b2 dataset:
 ```bash
 export DATA_DIR=../I2B2-R/rich_relation_dataset_2/merged_xml/3/
@@ -46,7 +47,10 @@ python run_rich_relation.py   \
 
 
 
+To perform error analysis
 
+
+To
 
 
 | Section                    | Description                                                                                                                                                |
