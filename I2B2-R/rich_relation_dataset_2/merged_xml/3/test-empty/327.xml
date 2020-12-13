@@ -171,8 +171,118 @@ Residual deficits include right side facial droop from previous stroke and moder
 <TIMEX3 id="T6" start="891" end="898" text="3 hours" type="DURATION" val="PT3H" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2015-08-22" type="ADMISSION" dvalue="2015-08-22" />
 <SECTIME id="S1" start="46" end="56" text="2015-08-26" type="DISCHARGE" dvalue="2015-08-26" />
-<TLINK id="TL1" fromID="E77" fromText="hemodynamically significant lesions bilaterally" toID="E76" toText="revealed" type="BEFORE" senid="31" />
-<TLINK id="TL2" fromID="E75" fromText="embolic etiology" toID="E22" toText="emboli" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E76" fromText="revealed" toID="E20" toText="Doppler" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E77" fromText="hemodynamically significant lesions bilaterally" toID="E76" toText="revealed" type="BEFORE" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E75" fromText="embolic etiology" toID="E22" toText="emboli" type="OVERLAP" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E76" fromText="revealed" toID="E20" toText="Doppler" type="OVERLAP" senid="23" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E21" fromText="Echo" toID="E19" toText="TTE" type="OVERLAP" senid="23" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E62" fromText="any recent bleeding" toID="E111" toText="denies" type="BEFORE" senid="13" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E63" fromText="surgeries" toID="E111" toText="denies" type="BEFORE" senid="13" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E64" fromText="upper respiratory infection" toID="E62" toText="any recent bleeding" type="OVERLAP" senid="13" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E23" fromText="striking left ventricle akinesis" toID="E79" toText="showed" type="BEFORE" senid="24" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E78" fromText="reveal" toID="E21" toText="Echo" type="OVERLAP" senid="24" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E79" fromText="showed" toID="E78" toText="reveal" type="OVERLAP" senid="24" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E24" fromText="hypokinesis" toID="E23" toText="striking left ventricle akinesis" type="OVERLAP" senid="24" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E25" fromText="past MI" toID="T11" toText="x 2" type="OVERLAP" senid="24" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E29" fromText="the severe akinesis of the left ventricle" toID="E23" toText="striking left ventricle akinesis" type="OVERLAP" senid="24" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E12" fromText="IV tpa thrombolytics" toID="T10" toText="minutes" type="BEFORE" senid="20" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E10" fromText="diffusion abnormalities" toID="E71" toText="showed" type="BEFORE" senid="19" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E71" fromText="showed" toID="E9" toText="MRI" type="OVERLAP" senid="19" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E72" fromText="hyperintensity" toID="E10" toText="diffusion abnormalities" type="OVERLAP" senid="19" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E11" fromText="T2 / FLAIR imaging" toID="E9" toText="MRI" type="OVERLAP" senid="19" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E12" fromText="IV tpa thrombolytics" toID="E8" toText="TPA" type="AFTER" senid="19" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="T9" fromText="3 hours" toID="T7" toText="the 3 hour" type="AFTER" senid="19" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E13" fromText="symptom onset" toID="E73" toText="the acute onset" type="OVERLAP" senid="19" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E7" fromText="symptoms" toID="T8" toText="6 am" type="OVERLAP" senid="18" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E9" fromText="MRI" toID="E5" toText="head CT" type="OVERLAP" senid="18" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E7" fromText="symptoms" toID="E6" toText="symptomatic" type="OVERLAP" senid="18" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E8" fromText="TPA" toID="T7" toText="the 3 hour" type="OVERLAP" senid="18" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E39" fromText="his previous strokes" toID="E105" toText="his gait difficulties" type="BEFORE" senid="37" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E104" fromText="outpatient PT" toID="E103" toText="oupatient speech therapy" type="OVERLAP" senid="37" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E111" fromText="denies" toID="E59" toText="brought" type="OVERLAP" senid="12" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E75" fromText="embolic etiology" toID="E17" toText="infarct" type="OVERLAP" senid="22" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E17" fromText="infarct" toID="E18" toText="carotid doppler" type="BEFORE" senid="22" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E18" fromText="carotid doppler" toID="E19" toText="TTE" type="OVERLAP" senid="22" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E18" fromText="carotid doppler" toID="E20" toText="Doppler" type="OVERLAP" senid="22" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E101" fromText="They" toID="E102" toText="restarted" type="BEFORE" senid="36" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E103" fromText="oupatient speech therapy" toID="E42" toText="discharge" type="AFTER" senid="36" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E102" fromText="restarted" toID="E42" toText="discharge" type="AFTER" senid="36" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E55" fromText="weak right leg" toID="E54" toText="found" type="BEFORE" senid="10" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E58" fromText="called 911" toID="E54" toText="found" type="AFTER" senid="10" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E56" fromText="flaccid right arm" toID="E55" toText="weak right leg" type="OVERLAP" senid="10" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E57" fromText="severe dysarthria" toID="E56" toText="flaccid right arm" type="OVERLAP" senid="10" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E98" fromText="His home hypertensive medications" toID="E99" toText="the hospital" type="OVERLAP" senid="35" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E100" fromText="further ischemia" toID="E98" toText="His home hypertensive medications" type="OVERLAP" senid="35" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E101" fromText="They" toID="E98" toText="His home hypertensive medications" type="OVERLAP" senid="35" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E88" fromText="strength was nearly intact" toID="E87" toText="discharge" type="OVERLAP" senid="29" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E89" fromText="a right-sided facial droop" toID="E88" toText="strength was nearly intact" type="OVERLAP" senid="29" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E90" fromText="mild dysarthria" toID="E88" toText="strength was nearly intact" type="OVERLAP" senid="29" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E43" fromText="Discharge" toID="T1" toText="2015-08-26" type="OVERLAP" senid="3" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E70" fromText="bleed" toID="E69" toText="evidence" type="OVERLAP" senid="17" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E5" fromText="head CT" toID="T6" toText="3 hours" type="AFTER" senid="17" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E68" fromText="showed" toID="E5" toText="head CT" type="OVERLAP" senid="17" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E69" fromText="evidence" toID="E68" toText="showed" type="OVERLAP" senid="17" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E6" fromText="symptomatic" toID="E4" toText="symptom onset" type="OVERLAP" senid="17" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="T7" fromText="the 3 hour" toID="T6" toText="3 hours" type="AFTER" senid="17" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E86" fromText="his bipolar disorder" toID="E61" toText="His depakote" type="BEFORE" senid="28" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E0" fromText="Admission" toID="T0" toText="2015-08-22" type="OVERLAP" senid="2" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E50" fromText="acute onset right sided hemiplegia" toID="E49" toText="presents" type="BEFORE" senid="8" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E52" fromText="went to the bathroom" toID="E49" toText="presents" type="BEFORE" senid="8" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E45" fromText="strokes" toID="E44" toText="multiple vascular risk factors" type="OVERLAP" senid="8" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E45" fromText="strokes" toID="T2" toText="2" type="BEFORE" senid="8" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E46" fromText="myocardial infarctions" toID="E45" toText="strokes" type="OVERLAP" senid="8" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E46" fromText="myocardial infarctions" toID="T3" toText="two" type="OVERLAP" senid="8" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E47" fromText="hypertension" toID="E46" toText="myocardial infarctions" type="OVERLAP" senid="8" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E48" fromText="hypercholesterolemia" toID="E47" toText="hypertension" type="OVERLAP" senid="8" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E51" fromText="dysarthria" toID="E50" toText="acute onset right sided hemiplegia" type="OVERLAP" senid="8" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="E26" fromText="the stroke" toID="E80" toText="future strokes" type="BEFORE" senid="25" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E27" fromText="aspirin" toID="E26" toText="the stroke" type="AFTER" senid="25" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="E31" fromText="warfarin" toID="E80" toText="future strokes" type="OVERLAP" senid="25" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E30" fromText="anticoagulation" toID="E26" toText="the stroke" type="AFTER" senid="25" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="E27" fromText="aspirin" toID="E28" toText="plavix" type="OVERLAP" senid="25" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E29" fromText="the severe akinesis of the left ventricle" toID="E26" toText="the stroke" type="OVERLAP" senid="25" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E30" fromText="anticoagulation" toID="E31" toText="warfarin" type="OVERLAP" senid="25" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="E32" fromText="Anticoagulation therapy" toID="E30" toText="anticoagulation" type="OVERLAP" senid="25" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E35" fromText="Lipid panel" toID="E92" toText="risk factor modification" type="OVERLAP" senid="31" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E14" fromText="decreased right sided weakness" toID="E14" toText="decreased right sided weakness" type="OVERLAP" senid="21" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E15" fromText="a global aphasia" toID="E14" toText="decreased right sided weakness" type="BEFORE" senid="21" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E74" fromText="showed" toID="T10" toText="minutes" type="OVERLAP" senid="21" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E16" fromText="an anterior aphasia picture" toID="E14" toText="decreased right sided weakness" type="AFTER" senid="21" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E91" fromText="mild anterior aphasia" toID="E90" toText="mild dysarthria" type="OVERLAP" senid="30" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="E92" fromText="risk factor modification" toID="E91" toText="mild anterior aphasia" type="OVERLAP" senid="30" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E59" fromText="brought" toID="E58" toText="called 911" type="OVERLAP" senid="11" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="E60" fromText="Hahnemann General Hospital Lydia" toID="E59" toText="brought" type="OVERLAP" senid="11" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E61" fromText="His depakote" toID="E83" toText="the hospital" type="BEFORE" senid="27" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E84" fromText="close follow-up" toID="E83" toText="the hospital" type="AFTER" senid="27" pred="0.9998857975006104" />
+<TLINK id="TL83" fromID="T14" fromText="the next morning" toID="T13" toText="2015-08-26" type="AFTER" senid="27" pred="0.9998766183853149" />
+<TLINK id="TL84" fromID="E82" fromText="low molecular wt heparin" toID="E83" toText="the hospital" type="OVERLAP" senid="27" pred="0.9998466968536377" />
+<TLINK id="TL85" fromID="E82" fromText="low molecular wt heparin" toID="T13" toText="2015-08-26" type="AFTER" senid="27" pred="0.9998082518577576" />
+<TLINK id="TL86" fromID="E85" fromText="the Wareham VA primary care clinic" toID="E84" toText="close follow-up" type="OVERLAP" senid="27" pred="0.9999080896377563" />
+<TLINK id="TL87" fromID="E85" fromText="the Wareham VA primary care clinic" toID="T14" toText="the next morning" type="OVERLAP" senid="27" pred="0.9999300241470337" />
+<TLINK id="TL88" fromID="E1" fromText="acute onset right-sided hemiparesis" toID="E2" toText="dysarthria" type="OVERLAP" senid="16" pred="0.9998291730880737" />
+<TLINK id="TL89" fromID="E2" fromText="dysarthria" toID="E3" toText="aphasia" type="OVERLAP" senid="16" pred="0.9998787641525269" />
+<TLINK id="TL90" fromID="E3" fromText="aphasia" toID="E2" toText="dysarthria" type="OVERLAP" senid="16" pred="0.991712212562561" />
+<TLINK id="TL91" fromID="E67" fromText="acute left MCA infarct" toID="E3" toText="aphasia" type="BEFORE" senid="16" pred="0.9999217987060547" />
+<TLINK id="TL92" fromID="E106" fromText="Residual deficits" toID="E107" toText="right side facial droop" type="OVERLAP" senid="38" pred="0.9842959642410278" />
+<TLINK id="TL93" fromID="E108" fromText="moderately severe dysarthria" toID="E107" toText="right side facial droop" type="OVERLAP" senid="38" pred="0.9998949766159058" />
+<TLINK id="TL94" fromID="E108" fromText="moderately severe dysarthria" toID="E109" toText="anterior aphasia" type="OVERLAP" senid="38" pred="0.9997454285621643" />
+<TLINK id="TL95" fromID="E110" fromText="word finding difficulties" toID="E109" toText="anterior aphasia" type="OVERLAP" senid="38" pred="0.9999433755874634" />
+<TLINK id="TL96" fromID="E97" fromText="further glucose monitoring" toID="E36" toText="fasting glucose" type="AFTER" senid="33" pred="0.9998795986175537" />
+<TLINK id="TL97" fromID="E36" fromText="fasting glucose" toID="E37" toText="A1C" type="OVERLAP" senid="33" pred="0.999790608882904" />
+<TLINK id="TL98" fromID="E37" fromText="A1C" toID="E36" toText="fasting glucose" type="OVERLAP" senid="33" pred="0.9999343156814575" />
+<TLINK id="TL99" fromID="E37" fromText="A1C" toID="E38" toText="slightly elevated" type="OVERLAP" senid="33" pred="0.9963036775588989" />
+<TLINK id="TL100" fromID="E38" fromText="slightly elevated" toID="E37" toText="A1C" type="OVERLAP" senid="33" pred="0.9997921586036682" />
+<TLINK id="TL101" fromID="E53" fromText="called for help" toID="E52" toText="went to the bathroom" type="AFTER" senid="9" pred="0.9997902512550354" />
+<TLINK id="TL102" fromID="E54" fromText="found" toID="E53" toText="called for help" type="OVERLAP" senid="9" pred="0.9999057054519653" />
+<TLINK id="TL103" fromID="E52" fromText="went to the bathroom" toID="T4" toText="6:12 AM" type="OVERLAP" senid="9" pred="0.9999415874481201" />
+<TLINK id="TL104" fromID="E53" fromText="called for help" toID="T5" toText="6:15 AM" type="OVERLAP" senid="9" pred="0.999921441078186" />
+<TLINK id="TL105" fromID="E32" fromText="Anticoagulation therapy" toID="T12" toText="2016-08-23" type="AFTER" senid="26" pred="0.9999399185180664" />
+<TLINK id="TL106" fromID="E33" fromText="heparin" toID="E32" toText="Anticoagulation therapy" type="OVERLAP" senid="26" pred="0.9999487400054932" />
+<TLINK id="TL107" fromID="E33" fromText="heparin" toID="E34" toText="coumadin" type="OVERLAP" senid="26" pred="0.9999151229858398" />
+<TLINK id="TL108" fromID="E34" fromText="coumadin" toID="E33" toText="heparin" type="OVERLAP" senid="26" pred="0.9999330043792725" />
+<TLINK id="TL109" fromID="E81" fromText="educated" toID="T12" toText="2016-08-23" type="OVERLAP" senid="26" pred="0.999893069267273" />
+<TLINK id="TL110" fromID="E94" fromText="good control of lipids" toID="E93" toText="showed" type="BEFORE" senid="32" pred="0.9999210834503174" />
+<TLINK id="TL111" fromID="E93" fromText="showed" toID="E35" toText="Lipid panel" type="OVERLAP" senid="32" pred="0.9999397993087769" />
+<TLINK id="TL112" fromID="E95" fromText="his home dose of zocor" toID="E94" toText="good control of lipids" type="OVERLAP" senid="32" pred="0.9996252059936523" />
+<TLINK id="TL113" fromID="E36" fromText="fasting glucose" toID="E94" toText="good control of lipids" type="OVERLAP" senid="32" pred="0.9998996257781982" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

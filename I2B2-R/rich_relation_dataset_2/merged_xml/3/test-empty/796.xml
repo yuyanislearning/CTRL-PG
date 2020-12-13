@@ -108,8 +108,55 @@ Please continue taking the antibiotics for H. Pylori for full course ( 26 more d
 <TIMEX3 id="T9" start="1940" end="1952" text="26 more days" type="DURATION" val="P26D" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="01/22/2005" type="ADMISSION" dvalue="2005-01-22" />
 <SECTIME id="S1" start="46" end="56" text="01/24/2005" type="DISCHARGE" dvalue="2005-01-24" />
-<TLINK id="TL1" fromID="E27" fromText="post prandial pain" toID="E26" toText="outpatient MRA" type="BEFORE" senid="31" />
-<TLINK id="TL2" fromID="E29" fromText="biliary dyskinesia" toID="E28" toText="HIDA with CK challenge" type="BEFORE" senid="32" />
-<TLINK id="TL3" fromID="E59" fromText="ischemic causes" toID="E27" toText="post prandial pain" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E27" fromText="post prandial pain" toID="E26" toText="outpatient MRA" type="BEFORE" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E29" fromText="biliary dyskinesia" toID="E28" toText="HIDA with CK challenge" type="BEFORE" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E59" fromText="ischemic causes" toID="E27" toText="post prandial pain" type="OVERLAP" senid="23" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E60" fromText="stasis" toID="E29" toText="biliary dyskinesia" type="OVERLAP" senid="23" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E7" fromText="an outpt EGD" toID="T6" toText="2/8" type="OVERLAP" senid="13" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E9" fromText="the pain" toID="E5" toText="this pain" type="OVERLAP" senid="13" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E23" fromText="obstruction" toID="E22" toText="HIDA scan" type="BEFORE" senid="20" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E50" fromText="visualized" toID="E15" toText="EGD" type="AFTER" senid="18" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E51" fromText="explored" toID="E15" toText="EGD" type="OVERLAP" senid="18" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E6" fromText="intermittent post-prandial nausea / satiety" toID="E43" toText="presenting" type="BEFORE" senid="12" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E5" fromText="this pain" toID="T4" toText="Thursday" type="AFTER" senid="12" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="T5" fromText="15 min" toID="E47" toText="consuming a meal" type="OVERLAP" senid="12" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E46" fromText="becomes much worse" toID="T5" toText="15 min" type="OVERLAP" senid="12" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E54" fromText="stable condition" toID="E53" toText="discharged" type="BEFORE" senid="22" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E55" fromText="voiding" toID="E53" toText="discharged" type="BEFORE" senid="22" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E56" fromText="ambulating" toID="E53" toText="discharged" type="BEFORE" senid="22" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E57" fromText="eating" toID="E53" toText="discharged" type="BEFORE" senid="22" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E26" fromText="outpatient MRA" toID="E53" toText="discharged" type="AFTER" senid="22" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E28" fromText="HIDA with CK challenge" toID="E53" toText="discharged" type="AFTER" senid="22" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E58" fromText="difficulty" toID="E54" toText="stable condition" type="OVERLAP" senid="22" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E42" fromText="Discharge" toID="T1" toText="01/24/2005" type="OVERLAP" senid="3" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E16" fromText="gastritis" toID="E15" toText="EGD" type="BEFORE" senid="17" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E17" fromText="stricture" toID="E15" toText="EGD" type="BEFORE" senid="17" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E18" fromText="ulcer" toID="E15" toText="EGD" type="BEFORE" senid="17" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E19" fromText="H. Pylori positive" toID="E15" toText="EGD" type="OVERLAP" senid="17" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E20" fromText="empiric treatment" toID="E15" toText="EGD" type="AFTER" senid="17" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E49" fromText="seen by GI" toID="E15" toText="EGD" type="OVERLAP" senid="17" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E15" fromText="EGD" toID="T7" toText="HD2" type="OVERLAP" senid="17" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E40" fromText="the antibiotics" toID="T9" toText="26 more days" type="OVERLAP" senid="28" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E8" fromText="Admission" toID="T0" toText="01/22/2005" type="OVERLAP" senid="2" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E52" fromText="tolerating regular diet" toID="T8" toText="HD4" type="AFTER" senid="21" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E4" fromText="mod severe midepigastric pain" toID="E43" toText="presenting" type="BEFORE" senid="11" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E44" fromText="the ED" toID="E43" toText="presenting" type="AFTER" senid="11" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E3" fromText="Roux en Y GBP" toID="T2" toText="12/20" type="OVERLAP" senid="11" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E43" fromText="presenting" toID="T3" toText="this AM" type="OVERLAP" senid="11" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E4" fromText="mod severe midepigastric pain" toID="E5" toText="this pain" type="OVERLAP" senid="11" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E45" fromText="notes" toID="E43" toText="presenting" type="OVERLAP" senid="11" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E5" fromText="this pain" toID="E4" toText="mod severe midepigastric pain" type="OVERLAP" senid="11" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E47" fromText="consuming a meal" toID="E4" toText="mod severe midepigastric pain" type="OVERLAP" senid="11" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E9" fromText="the pain" toID="E10" toText="Her pain" type="OVERLAP" senid="14" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E48" fromText="radiating to both sides" toID="E9" toText="the pain" type="OVERLAP" senid="14" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E37" fromText="evaluation" toID="E62" toText="proceed to ER" type="AFTER" senid="27" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E63" fromText="evaluate biliary system" toID="E39" toText="HIDA with CCK challenge" type="AFTER" senid="27" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E61" fromText="call" toID="E36" toText="increasing pain with food" type="AFTER" senid="26" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E62" fromText="proceed to ER" toID="E36" toText="increasing pain with food" type="AFTER" senid="26" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E32" fromText="chills" toID="E31" toText="fevers" type="OVERLAP" senid="26" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E33" fromText="nausea" toID="E32" toText="chills" type="OVERLAP" senid="26" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E34" fromText="vomiting" toID="E33" toText="nausea" type="OVERLAP" senid="26" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E35" fromText="diarrhea" toID="E34" toText="vomiting" type="OVERLAP" senid="26" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E36" fromText="increasing pain with food" toID="E35" toText="diarrhea" type="OVERLAP" senid="26" pred="0.9997196793556213" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

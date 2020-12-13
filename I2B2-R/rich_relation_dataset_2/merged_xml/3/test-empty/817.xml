@@ -195,8 +195,135 @@ The patient has been treated with Argon laser therapy in the past for his rectal
 <TIMEX3 id="T9" start="857" end="870" text="the two weeks" type="DURATION" val="P2W" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2012-04-20" type="ADMISSION" dvalue="2012-04-20" />
 <SECTIME id="S1" start="46" end="56" text="2012-05-01" type="DISCHARGE" dvalue="2012-05-01" />
-<TLINK id="TL1" fromID="E31" fromText="Digoxin" toID="E78" toText="his admission" type="AFTER" senid="31" />
-<TLINK id="TL2" fromID="E28" fromText="his atrial flutter" toID="E29" toText="atrial fibrillation" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E30" fromText="rapid ventricular response" toID="E29" toText="atrial fibrillation" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E31" fromText="Digoxin" toID="E78" toText="his admission" type="AFTER" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E28" fromText="his atrial flutter" toID="E29" toText="atrial fibrillation" type="OVERLAP" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E30" fromText="rapid ventricular response" toID="E29" toText="atrial fibrillation" type="OVERLAP" senid="23" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E57" fromText="biliary dilatation" toID="E114" toText="reveal" type="OVERLAP" senid="34" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E114" fromText="reveal" toID="E56" toText="Magnetic resonance cholangiopancreatography" type="OVERLAP" senid="34" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E58" fromText="any obstructing pancreatic mass" toID="E57" toText="biliary dilatation" type="OVERLAP" senid="34" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="T9" fromText="the two weeks" toID="E89" toText="admission" type="BEFORE" senid="13" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E13" fromText="an increasing heart rate" toID="E14" toText="a heart rate" type="BEFORE" senid="13" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E13" fromText="an increasing heart rate" toID="T9" toText="the two weeks" type="OVERLAP" senid="13" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E91" fromText="some increased shortness of breath" toID="E13" toText="an increasing heart rate" type="OVERLAP" senid="13" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E32" fromText="his beta blocker" toID="E106" toText="increased" type="OVERLAP" senid="24" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E106" fromText="increased" toID="E31" toText="Digoxin" type="AFTER" senid="24" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E33" fromText="Lopressor" toID="E32" toText="his beta blocker" type="OVERLAP" senid="24" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E33" fromText="Lopressor" toID="T10" toText="three times a day" type="OVERLAP" senid="24" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E34" fromText="Verapamil" toID="E31" toText="Digoxin" type="AFTER" senid="24" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E103" fromText="his rapid ventricular response" toID="E23" toText="the patient &#39;s hypotension" type="OVERLAP" senid="20" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E104" fromText="right heart failure" toID="E103" toText="his rapid ventricular response" type="OVERLAP" senid="20" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E24" fromText="treatment" toID="E21" toText="intravenous fluids" type="OVERLAP" senid="20" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E120" fromText="extremely fatigued" toID="T12" toText="all the night" type="AFTER" senid="39" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E119" fromText="sleep" toID="T12" toText="all the night" type="OVERLAP" senid="39" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E65" fromText="his intravenous pole" toID="E120" toText="extremely fatigued" type="OVERLAP" senid="39" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E21" fromText="intravenous fluids" toID="E102" toText="a dramatic response" type="BEFORE" senid="19" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E22" fromText="his systolic blood pressure" toID="E102" toText="a dramatic response" type="OVERLAP" senid="19" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E21" fromText="intravenous fluids" toID="E77" toText="admission" type="AFTER" senid="18" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E20" fromText="volume depleted" toID="E19" toText="volume overloaded" type="OVERLAP" senid="18" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E63" fromText="his congestive heart failure" toID="E62" toText="vascular congestion" type="BEFORE" senid="37" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E117" fromText="alcohol use" toID="E64" toText="some mild cirrhotic changes" type="BEFORE" senid="37" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E64" fromText="some mild cirrhotic changes" toID="E62" toText="vascular congestion" type="OVERLAP" senid="37" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E74" fromText="his rectal bleeding" toID="E73" toText="Argon laser therapy" type="BEFORE" senid="44" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E74" fromText="his rectal bleeding" toID="E70" toText="rectal bleeding" type="OVERLAP" senid="44" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E130" fromText="repeat Argon laser therapy" toID="E129" toText="follow up" type="OVERLAP" senid="44" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E12" fromText="his Digoxin" toID="E88" toText="weaned off" type="BEFORE" senid="12" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E88" fromText="weaned off" toID="T8" toText="early in February" type="OVERLAP" senid="12" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="T9" fromText="the two weeks" toID="T7" toText="two weeks prior" type="OVERLAP" senid="12" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E89" fromText="admission" toID="E87" toText="admission" type="OVERLAP" senid="12" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E90" fromText="his baseline" toID="E86" toText="his baseline" type="OVERLAP" senid="12" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E27" fromText="The patient &#39;s Digoxin" toID="E105" toText="weaned off" type="BEFORE" senid="22" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E105" fromText="weaned off" toID="E78" toText="his admission" type="BEFORE" senid="22" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E29" fromText="atrial fibrillation" toID="E26" toText="Atrial fibrillation" type="OVERLAP" senid="22" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="T11" fromText="20 years" toID="T4" toText="mid 1970s" type="OVERLAP" senid="36" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="T11" fromText="20 years" toID="T3" toText="the mid 1950s" type="OVERLAP" senid="36" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E116" fromText="alcohol use" toID="T11" toText="20 years" type="OVERLAP" senid="36" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E62" fromText="vascular congestion" toID="E61" toText="chronic hepatic vascular congestion" type="OVERLAP" senid="36" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E84" fromText="the Emergency Department" toID="E132" toText="sent" type="AFTER" senid="10" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E10" fromText="further evaluation" toID="E84" toText="the Emergency Department" type="OVERLAP" senid="10" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E60" fromText="dilated hepatic veins" toID="E59" toText="a slightly irregular contour of the liver" type="OVERLAP" senid="35" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E115" fromText="revealed" toID="E56" toText="Magnetic resonance cholangiopancreatography" type="OVERLAP" senid="35" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E110" fromText="evaluate the patient &#39;s cardiac arteries" toID="E44" toText="a cardiac catheterization" type="OVERLAP" senid="29" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E76" fromText="Discharge" toID="T2" toText="2012-05-01" type="OVERLAP" senid="3" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E16" fromText="Hypotension" toID="E77" toText="admission" type="BEFORE" senid="17" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E101" fromText="mildly hypotensive" toID="E16" toText="Hypotension" type="OVERLAP" senid="17" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E18" fromText="systolic blood pressures" toID="E101" toText="mildly hypotensive" type="OVERLAP" senid="17" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E19" fromText="volume overloaded" toID="E18" toText="systolic blood pressures" type="AFTER" senid="17" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E66" fromText="His neurological examination" toID="E124" toText="bumped his head" type="OVERLAP" senid="41" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E124" fromText="bumped his head" toID="E123" toText="fell" type="OVERLAP" senid="41" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E95" fromText="fevers" toID="E94" toText="denied" type="BEFORE" senid="15" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E96" fromText="chills" toID="E95" toText="fevers" type="OVERLAP" senid="15" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E97" fromText="nausea" toID="E96" toText="chills" type="OVERLAP" senid="15" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E98" fromText="vomiting" toID="E97" toText="nausea" type="OVERLAP" senid="15" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E99" fromText="chest pain" toID="E98" toText="vomiting" type="OVERLAP" senid="15" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E100" fromText="diaphoresis" toID="E99" toText="chest pain" type="OVERLAP" senid="15" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E128" fromText="any extra or intracranial hemorrhage" toID="E127" toText="reveal" type="BEFORE" senid="43" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E72" fromText="his prostate cancer" toID="E71" toText="his brachytherapy" type="BEFORE" senid="43" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="E70" fromText="rectal bleeding" toID="E71" toText="his brachytherapy" type="AFTER" senid="43" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E127" fromText="reveal" toID="E68" toText="A computerized axial tomography scan of his head" type="OVERLAP" senid="43" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="E69" fromText="Rectal bleeding" toID="E70" toText="rectal bleeding" type="OVERLAP" senid="43" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E70" fromText="rectal bleeding" toID="E69" toText="Rectal bleeding" type="OVERLAP" senid="43" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="E43" fromText="congestive heart failure" toID="E109" toText="revealed" type="BEFORE" senid="28" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E44" fromText="a cardiac catheterization" toID="E42" toText="Chest x-rays" type="AFTER" senid="28" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E109" fromText="revealed" toID="E42" toText="Chest x-rays" type="OVERLAP" senid="28" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="E45" fromText="the patient &#39;s heart failure" toID="E43" toText="congestive heart failure" type="OVERLAP" senid="28" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E75" fromText="Admission" toID="T1" toText="2012-04-20" type="OVERLAP" senid="2" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E67" fromText="atraumatic" toID="E66" toText="His neurological examination" type="OVERLAP" senid="42" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E126" fromText="evidence" toID="E66" toText="His neurological examination" type="OVERLAP" senid="42" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E125" fromText="a hematoma" toID="E67" toText="atraumatic" type="OVERLAP" senid="42" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E68" fromText="A computerized axial tomography scan of his head" toID="E66" toText="His neurological examination" type="OVERLAP" senid="42" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E1" fromText="an atrioseptal defect repair" toID="T0" toText="age 18" type="OVERLAP" senid="8" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="E1" fromText="an atrioseptal defect repair" toID="E2" toText="congestive heart failure" type="OVERLAP" senid="8" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E2" fromText="congestive heart failure" toID="E3" toText="an ejection fraction" type="OVERLAP" senid="8" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="E4" fromText="a recent cardiac myocardial infarction" toID="E2" toText="congestive heart failure" type="OVERLAP" senid="8" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E4" fromText="a recent cardiac myocardial infarction" toID="E0" toText="pulmonary hypertension" type="OVERLAP" senid="8" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E81" fromText="mitral regurgitation" toID="E0" toText="pulmonary hypertension" type="OVERLAP" senid="8" pred="0.9998857975006104" />
+<TLINK id="TL83" fromID="E5" fromText="atrial fibrillation" toID="E81" toText="mitral regurgitation" type="OVERLAP" senid="8" pred="0.9998766183853149" />
+<TLINK id="TL84" fromID="E35" fromText="his heart rate" toID="E34" toText="Verapamil" type="BEFORE" senid="25" pred="0.9998466968536377" />
+<TLINK id="TL85" fromID="E107" fromText="mildly tachycardiac" toID="E35" toText="his heart rate" type="OVERLAP" senid="25" pred="0.9998082518577576" />
+<TLINK id="TL86" fromID="E65" fromText="his intravenous pole" toID="E121" toText="tripped" type="BEFORE" senid="40" pred="0.9999080896377563" />
+<TLINK id="TL87" fromID="E122" fromText="lost his balance" toID="E121" toText="tripped" type="OVERLAP" senid="40" pred="0.9999300241470337" />
+<TLINK id="TL88" fromID="E123" fromText="fell" toID="E122" toText="lost his balance" type="OVERLAP" senid="40" pred="0.9998291730880737" />
+<TLINK id="TL89" fromID="E47" fromText="an isolated , elevated alkaline phosphatase" toID="E46" toText="Abnormal liver function tests" type="OVERLAP" senid="31" pred="0.9998787641525269" />
+<TLINK id="TL90" fromID="E48" fromText="a confirmatory elevation" toID="E47" toText="an isolated , elevated alkaline phosphatase" type="OVERLAP" senid="31" pred="0.991712212562561" />
+<TLINK id="TL91" fromID="E49" fromText="his gamma glutamyl transferase" toID="E48" toText="a confirmatory elevation" type="OVERLAP" senid="31" pred="0.9999217987060547" />
+<TLINK id="TL92" fromID="E50" fromText="An ultrasound of the right upper quadrant" toID="E46" toText="Abnormal liver function tests" type="OVERLAP" senid="31" pred="0.9842959642410278" />
+<TLINK id="TL93" fromID="E25" fromText="his rate" toID="E24" toText="treatment" type="OVERLAP" senid="21" pred="0.9998949766159058" />
+<TLINK id="TL94" fromID="E111" fromText="ischemic cardiomyopathy" toID="E110" toText="evaluate the patient &#39;s cardiac arteries" type="BEFORE" senid="30" pred="0.9997454285621643" />
+<TLINK id="TL95" fromID="E86" fromText="his baseline" toID="E85" toText="reported" type="BEFORE" senid="11" pred="0.9999433755874634" />
+<TLINK id="TL96" fromID="E11" fromText="chronic mild dyspnea" toID="T7" toText="two weeks prior" type="BEFORE" senid="11" pred="0.9998795986175537" />
+<TLINK id="TL97" fromID="T7" fromText="two weeks prior" toID="E87" toText="admission" type="BEFORE" senid="11" pred="0.999790608882904" />
+<TLINK id="TL98" fromID="E11" fromText="chronic mild dyspnea" toID="E86" toText="his baseline" type="OVERLAP" senid="11" pred="0.9999343156814575" />
+<TLINK id="TL99" fromID="E88" fromText="weaned off" toID="E11" toText="chronic mild dyspnea" type="AFTER" senid="11" pred="0.9963036775588989" />
+<TLINK id="TL100" fromID="E15" fromText="a 10 pound weight gain" toID="E92" toText="pillow orthopnea" type="OVERLAP" senid="14" pred="0.9997921586036682" />
+<TLINK id="TL101" fromID="E15" fromText="a 10 pound weight gain" toID="E91" toText="some increased shortness of breath" type="OVERLAP" senid="14" pred="0.9997902512550354" />
+<TLINK id="TL102" fromID="E93" fromText="a dry cough" toID="E92" toText="pillow orthopnea" type="OVERLAP" senid="14" pred="0.9999057054519653" />
+<TLINK id="TL103" fromID="E40" fromText="symptomatic" toID="E79" toText="diuresed" type="BEFORE" senid="27" pred="0.9999415874481201" />
+<TLINK id="TL104" fromID="E79" fromText="diuresed" toID="E39" toText="intravenous fluids" type="AFTER" senid="27" pred="0.999921441078186" />
+<TLINK id="TL105" fromID="E79" fromText="diuresed" toID="E40" toText="symptomatic" type="AFTER" senid="27" pred="0.9999399185180664" />
+<TLINK id="TL106" fromID="E42" fromText="Chest x-rays" toID="E41" toText="short of breath" type="AFTER" senid="27" pred="0.9999487400054932" />
+<TLINK id="TL107" fromID="E41" fromText="short of breath" toID="E40" toText="symptomatic" type="OVERLAP" senid="27" pred="0.9999151229858398" />
+<TLINK id="TL108" fromID="T12" fromText="all the night" toID="E118" toText="a mechanical fall" type="OVERLAP" senid="38" pred="0.9999330043792725" />
+<TLINK id="TL109" fromID="E120" fromText="extremely fatigued" toID="E118" toText="a mechanical fall" type="OVERLAP" senid="38" pred="0.999893069267273" />
+<TLINK id="TL110" fromID="E133" fromText="Fall" toID="E118" toText="a mechanical fall" type="OVERLAP" senid="38" pred="0.9999210834503174" />
+<TLINK id="TL111" fromID="E118" fromText="a mechanical fall" toID="E80" toText="his admission" type="OVERLAP" senid="38" pred="0.9999397993087769" />
+<TLINK id="TL112" fromID="E56" fromText="Magnetic resonance cholangiopancreatography" toID="E55" toText="an magnetic resonance cholangiopancreatography" type="OVERLAP" senid="33" pred="0.9996252059936523" />
+<TLINK id="TL113" fromID="T13" fromText="the day" toID="E82" toText="admission" type="BEFORE" senid="9" pred="0.9998996257781982" />
+<TLINK id="TL114" fromID="T6" fromText="two weeks" toID="E83" toText="complained" type="BEFORE" senid="9" pred="0.9998968839645386" />
+<TLINK id="TL115" fromID="E132" fromText="sent" toID="E83" toText="complained" type="AFTER" senid="9" pred="0.9999085664749146" />
+<TLINK id="TL116" fromID="E83" fromText="complained" toID="T13" toText="the day" type="OVERLAP" senid="9" pred="0.9998847246170044" />
+<TLINK id="TL117" fromID="E6" fromText="increasing shortness of breath" toID="T6" toText="two weeks" type="OVERLAP" senid="9" pred="0.9993637204170227" />
+<TLINK id="TL118" fromID="E7" fromText="fatigue" toID="E6" toText="increasing shortness of breath" type="OVERLAP" senid="9" pred="0.9998555183410645" />
+<TLINK id="TL119" fromID="E8" fromText="weight gain" toID="E7" toText="fatigue" type="OVERLAP" senid="9" pred="0.9999136924743652" />
+<TLINK id="TL120" fromID="E9" fromText="abdominal fullness" toID="E8" toText="weight gain" type="OVERLAP" senid="9" pred="0.9999196529388428" />
+<TLINK id="TL121" fromID="E37" fromText="volume overloaded" toID="E108" toText="the patient &#39;s admission" type="OVERLAP" senid="26" pred="0.9597350358963013" />
+<TLINK id="TL122" fromID="E39" fromText="intravenous fluids" toID="E108" toText="the patient &#39;s admission" type="OVERLAP" senid="26" pred="0.9970231652259827" />
+<TLINK id="TL123" fromID="E38" fromText="volume depleted" toID="E37" toText="volume overloaded" type="OVERLAP" senid="26" pred="0.7635254859924316" />
+<TLINK id="TL124" fromID="E51" fromText="any cholelithiasis" toID="E112" toText="reveal" type="BEFORE" senid="32" pred="0.9999074935913086" />
+<TLINK id="TL125" fromID="E55" fromText="an magnetic resonance cholangiopancreatography" toID="E50" toText="An ultrasound of the right upper quadrant" type="AFTER" senid="32" pred="0.9999088048934937" />
+<TLINK id="TL126" fromID="E112" fromText="reveal" toID="E50" toText="An ultrasound of the right upper quadrant" type="OVERLAP" senid="32" pred="0.9999338388442993" />
+<TLINK id="TL127" fromID="E113" fromText="cholecystitis" toID="E51" toText="any cholelithiasis" type="OVERLAP" senid="32" pred="0.9994088411331177" />
+<TLINK id="TL128" fromID="E52" fromText="an irregular hepatic contour" toID="E113" toText="cholecystitis" type="OVERLAP" senid="32" pred="0.9998562335968018" />
+<TLINK id="TL129" fromID="E53" fromText="underlying chronic liver disease" toID="E52" toText="an irregular hepatic contour" type="BEFORE" senid="32" pred="0.9999150037765503" />
+<TLINK id="TL130" fromID="E54" fromText="a partial biliary obstruction" toID="E53" toText="underlying chronic liver disease" type="OVERLAP" senid="32" pred="0.9998714923858643" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

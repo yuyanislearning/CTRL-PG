@@ -93,8 +93,66 @@ She will follow up with Dr. Top in his office .
 <TIMEX3 id="T5" start="824" end="827" text="day" type="DATE" val="1994-06-26" mod="NA" />
 <SECTIME id="S0" start="18" end="26" text="06/26/94" type="ADMISSION" dvalue="1994-06-26" />
 <SECTIME id="S1" start="44" end="52" text="06/30/94" type="DISCHARGE" dvalue="1994-06-30" />
-<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="06/26/94" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E21" fromText="her local cancer recurrence" toID="E19" toText="presents" type="BEFORE" senid="32" />
-<TLINK id="TL3" fromID="E20" fromText="excision" toID="E19" toText="presents" type="AFTER" senid="33" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="06/26/94" type="OVERLAP" senid="2" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E21" fromText="her local cancer recurrence" toID="E19" toText="presents" type="BEFORE" senid="10" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E20" fromText="excision" toID="E19" toText="presents" type="OVERLAP" senid="10" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E45" fromText="Her Jackson-Pratt drain" toID="E46" toText="removed" type="BEFORE" senid="19" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E46" fromText="removed" toID="T8" toText="June 30 , 1994" type="OVERLAP" senid="19" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="T8" fromText="June 30 , 1994" toID="T9" toText="postoperative day four" type="OVERLAP" senid="19" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="T10" fromText="day" toID="T9" toText="postoperative day four" type="OVERLAP" senid="19" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E51" fromText="discharged" toID="T11" toText="June 30 , 1994" type="OVERLAP" senid="21" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E1" fromText="DISCHARGE" toID="T1" toText="06/30/94" type="OVERLAP" senid="3" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E12" fromText="an apicovaginal lesion" toID="E10" toText="An examination" type="BEFORE" senid="8" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E14" fromText="A computerized tomography scan" toID="E10" toText="An examination" type="OVERLAP" senid="8" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E11" fromText="revealed" toID="E10" toText="An examination" type="OVERLAP" senid="8" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E12" fromText="an apicovaginal lesion" toID="E18" toText="this lesion" type="OVERLAP" senid="8" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E13" fromText="recurrent tumor" toID="E12" toText="an apicovaginal lesion" type="OVERLAP" senid="8" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E13" fromText="recurrent tumor" toID="E16" toText="a central recurrence" type="OVERLAP" senid="8" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E38" fromText="Her vaginal pack" toID="E39" toText="removed" type="BEFORE" senid="17" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E39" fromText="removed" toID="T6" toText="the second postoperative day" type="OVERLAP" senid="17" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E40" fromText="the Foley catheter" toID="E38" toText="Her vaginal pack" type="AFTER" senid="17" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E38" fromText="Her vaginal pack" toID="E35" toText="the procedure" type="AFTER" senid="16" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E51" fromText="discharged" toID="E46" toText="removed" type="AFTER" senid="20" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E47" fromText="feeling well" toID="T10" toText="day" type="OVERLAP" senid="20" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E48" fromText="eating well" toID="E47" toText="feeling well" type="OVERLAP" senid="20" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E49" fromText="voiding" toID="E48" toText="eating well" type="OVERLAP" senid="20" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E50" fromText="difficulty" toID="E49" toText="voiding" type="OVERLAP" senid="20" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E52" fromText="follow up" toID="E51" toText="discharged" type="AFTER" senid="22" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E41" fromText="return of normal bowel function" toID="T7" toText="postoperative day three" type="AFTER" senid="18" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E42" fromText="tolerate" toID="E43" toText="a regular diet" type="OVERLAP" senid="18" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E43" fromText="a regular diet" toID="E41" toText="return of normal bowel function" type="AFTER" senid="18" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E44" fromText="any difficulty" toID="E43" toText="a regular diet" type="OVERLAP" senid="18" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E3" fromText="a mixed mesodermal cancer" toID="E2" toText="total abdominal hysterectomy-bilateral salpingo-oophorectomy" type="BEFORE" senid="6" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E3" fromText="a mixed mesodermal cancer" toID="E4" toText="presents" type="BEFORE" senid="6" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E5" fromText="vaginal apex recurrence" toID="E4" toText="presents" type="BEFORE" senid="6" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E3" fromText="a mixed mesodermal cancer" toID="E5" toText="vaginal apex recurrence" type="OVERLAP" senid="6" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E37" fromText="Her postoperative course" toID="E33" toText="repaired" type="AFTER" senid="15" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E34" fromText="tolerated" toID="E35" toText="the procedure" type="OVERLAP" senid="15" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E35" fromText="the procedure" toID="E36" toText="any complications" type="OVERLAP" senid="15" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E19" fromText="presents" toID="E22" toText="admitted" type="OVERLAP" senid="11" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E20" fromText="excision" toID="E22" toText="admitted" type="OVERLAP" senid="11" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E23" fromText="the GYN / Oncology Service" toID="E22" toText="admitted" type="AFTER" senid="12" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E22" fromText="admitted" toID="T4" toText="June 26 , 1994" type="OVERLAP" senid="12" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="T5" fromText="day" toID="T4" toText="June 26 , 1994" type="OVERLAP" senid="12" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E17" fromText="biopsy" toID="E14" toText="A computerized tomography scan" type="OVERLAP" senid="9" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E15" fromText="showed" toID="E14" toText="A computerized tomography scan" type="OVERLAP" senid="9" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E16" fromText="a central recurrence" toID="E21" toText="her local cancer recurrence" type="OVERLAP" senid="9" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E18" fromText="this lesion" toID="E16" toText="a central recurrence" type="OVERLAP" senid="9" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E32" fromText="An abdominal wall hernia" toID="E24" toText="the operating room" type="BEFORE" senid="13" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="T5" fromText="day" toID="E24" toText="the operating room" type="OVERLAP" senid="13" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E25" fromText="an exam" toID="E26" toText="anesthesia" type="OVERLAP" senid="13" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E26" fromText="anesthesia" toID="E24" toText="the operating room" type="OVERLAP" senid="13" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E27" fromText="an exploratory laparotomy" toID="E26" toText="anesthesia" type="OVERLAP" senid="13" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E27" fromText="an exploratory laparotomy" toID="E28" toText="lysis" type="OVERLAP" senid="13" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E30" fromText="tumor debulking" toID="E27" toText="an exploratory laparotomy" type="OVERLAP" senid="13" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E31" fromText="bilateral pelvic lymph node dissection" toID="E30" toText="tumor debulking" type="OVERLAP" senid="13" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E33" fromText="repaired" toID="E24" toText="the operating room" type="OVERLAP" senid="13" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E9" fromText="bleeding per vagina" toID="T3" toText="one month" type="AFTER" senid="7" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E10" fromText="An examination" toID="E9" toText="bleeding per vagina" type="AFTER" senid="7" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E5" fromText="vaginal apex recurrence" toID="E13" toText="recurrent tumor" type="OVERLAP" senid="7" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E6" fromText="pelvic examination" toID="T2" toText="February of 1993" type="OVERLAP" senid="7" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E7" fromText="CT scan" toID="T2" toText="February of 1993" type="OVERLAP" senid="7" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E32" fromText="An abdominal wall hernia" toID="E33" toText="repaired" type="BEFORE" senid="14" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E35" fromText="the procedure" toID="E26" toText="anesthesia" type="OVERLAP" senid="14" pred="0.999930739402771" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

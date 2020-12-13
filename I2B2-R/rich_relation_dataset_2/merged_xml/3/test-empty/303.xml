@@ -60,8 +60,39 @@ Additionally on the night before discharge , flexion and extension views of the 
 <TIMEX3 id="T3" start="864" end="887" text="her second hospital day" type="DATE" val="1992-01-24" mod="START" />
 <SECTIME id="S0" start="18" end="28" text="01/23/1992" type="ADMISSION" dvalue="1992-01-23" />
 <SECTIME id="S1" start="46" end="56" text="01/26/1992" type="DISCHARGE" dvalue="1992-01-26" />
-<TLINK id="TL1" fromID="E13" fromText="Admission" toID="T1" toText="01/23/1992" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E22" fromText="intravenous steroids" toID="E21" toText="A Neurosurgery consultation" type="AFTER" senid="32" />
-<TLINK id="TL3" fromID="E2" fromText="the patient  apos;s paraplegia" toID="E3" toText="a cord concussion" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E13" fromText="Admission" toID="T1" toText="01/23/1992" type="OVERLAP" senid="2" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E22" fromText="intravenous steroids" toID="E21" toText="A Neurosurgery consultation" type="AFTER" senid="10" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E2" fromText="the patient  apos;s paraplegia" toID="E3" toText="a cord concussion" type="AFTER" senid="10" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E22" fromText="intravenous steroids" toID="T0" toText="24 hours" type="OVERLAP" senid="10" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E4" fromText="The patient  apos;s paraplegia" toID="E2" toText="the patient  apos;s paraplegia" type="OVERLAP" senid="10" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E14" fromText="Discharge" toID="T2" toText="01/26/1992" type="OVERLAP" senid="3" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E16" fromText="conscious" toID="E17" toText="evaluated" type="OVERLAP" senid="8" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E19" fromText="paraplegic below the umbilicus" toID="E20" toText="absence of movement and sensation below the umbilicus" type="OVERLAP" senid="8" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E0" fromText="loss of consciousness" toID="E15" toText="struck by a car" type="OVERLAP" senid="6" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="T6" fromText="the night" toID="E31" toText="discharge" type="BEFORE" senid="15" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E11" fromText="fracture" toID="E32" toText="showed" type="BEFORE" senid="15" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E31" fromText="discharge" toID="E29" toText="discharge" type="OVERLAP" senid="15" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E10" fromText="flexion and extension views of the lumbosacral spine" toID="T6" toText="the night" type="OVERLAP" senid="15" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E32" fromText="showed" toID="E10" toText="flexion and extension views of the lumbosacral spine" type="OVERLAP" senid="15" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E12" fromText="instability" toID="E11" toText="fracture" type="OVERLAP" senid="15" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E4" fromText="The patient  apos;s paraplegia" toID="T3" toText="her second hospital day" type="BEFORE" senid="11" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E24" fromText="A Urology consultation" toID="E23" toText="maintained 5/5 motor strength" type="AFTER" senid="11" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="T3" fromText="her second hospital day" toID="E23" toText="maintained 5/5 motor strength" type="OVERLAP" senid="11" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E25" fromText="an IVP" toID="E24" toText="A Urology consultation" type="OVERLAP" senid="12" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E26" fromText="This" toID="E25" toText="an IVP" type="OVERLAP" senid="12" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E19" fromText="paraplegic below the umbilicus" toID="E2" toText="the patient  apos;s paraplegia" type="OVERLAP" senid="9" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E5" fromText="residual contrast in the colon" toID="E6" toText="the patient  apos;s prior abdominal CT scan" type="AFTER" senid="13" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E6" fromText="the patient  apos;s prior abdominal CT scan" toID="E26" toText="This" type="BEFORE" senid="13" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E18" fromText="postponed" toID="E8" toText="a scout film" type="AFTER" senid="13" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E26" fromText="This" toID="T4" toText="the day" type="OVERLAP" senid="13" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="T4" fromText="the day" toID="E27" toText="discharge" type="OVERLAP" senid="13" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E7" fromText="the exam" toID="E26" toText="This" type="OVERLAP" senid="13" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E7" fromText="the exam" toID="E18" toText="postponed" type="OVERLAP" senid="13" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="T5" fromText="the day" toID="T4" toText="the day" type="OVERLAP" senid="13" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E29" fromText="discharge" toID="E27" toText="discharge" type="OVERLAP" senid="13" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E0" fromText="loss of consciousness" toID="E16" toText="conscious" type="OVERLAP" senid="7" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E19" fromText="paraplegic below the umbilicus" toID="E15" toText="struck by a car" type="AFTER" senid="7" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E28" fromText="well" toID="T5" toText="the day" type="OVERLAP" senid="14" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E9" fromText="afebrile" toID="E30" toText="her hospital course" type="OVERLAP" senid="14" pred="0.9999359846115112" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

@@ -338,8 +338,21 @@ She would like to arrange to have her fistula placed at Pre Health and the vascu
 <TIMEX3 id="T44" start="8398" end="8428" text="August 15 , 1998 at 12:30 PM ." type="TIME" val="1998-08-15T12:30" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="06/19/1998" type="ADMISSION" dvalue="1998-06-19" />
 <SECTIME id="S1" start="46" end="56" text="08/01/1998" type="DISCHARGE" dvalue="1998-08-01" />
-<TLINK id="TL1" fromID="E18" fromText="a CT scan of the chest" toID="T3" toText="May 24 , 1998" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E68" fromText="increasing volume overload" toID="E67" toText="a rising Potassium phosphate" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E70" fromText="dialysis" toID="E73" toText="dialysis" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E18" fromText="a CT scan of the chest" toID="T3" toText="May 24 , 1998" type="OVERLAP" senid="13" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E68" fromText="increasing volume overload" toID="E67" toText="a rising Potassium phosphate" type="OVERLAP" senid="44" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E70" fromText="dialysis" toID="E73" toText="dialysis" type="OVERLAP" senid="44" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E16" fromText="an echocardiogram" toID="E15" toText="A VQ scan" type="OVERLAP" senid="12" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E26" fromText="a video assisted thoracoscopic study of the right lung" toID="T4" toText="June 11 , 1998" type="OVERLAP" senid="17" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E78" fromText="her oxygen saturation" toID="E77" toText="her lower extremity edema" type="OVERLAP" senid="47" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E39" fromText="supplemental oxygen" toID="E45" toText="supplemental oxygen" type="OVERLAP" senid="28" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E43" fromText="significant volume removal" toID="E44" toText="dialysis" type="OVERLAP" senid="28" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E15" fromText="A VQ scan" toID="E12" toText="Chest x-ray" type="OVERLAP" senid="11" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E14" fromText="increasing pleural effusion" toID="E13" toText="bilateral pulmonary infiltrates" type="OVERLAP" senid="11" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E24" fromText="ANCA" toID="E23" toText="her rheumatoid factor" type="OVERLAP" senid="14" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E38" fromText="dialysis" toID="E44" toText="dialysis" type="OVERLAP" senid="27" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E79" fromText="multiple line infections" toID="E111" toText="her admission" type="OVERLAP" senid="49" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E80" fromText="a confirmed coag. negative Staphylococcus line infection" toID="E79" toText="multiple line infections" type="OVERLAP" senid="49" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E1" fromText="fever" toID="E100" toText="presented" type="BEFORE" senid="7" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E2" fromText="cough" toID="E1" toText="fever" type="OVERLAP" senid="7" pred="0.9999239444732666" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

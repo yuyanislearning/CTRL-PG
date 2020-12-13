@@ -202,8 +202,131 @@ There are no active ongoing issues at this time .
 <TIMEX3 id="T6" start="901" end="916" text="5 hours of life" type="TIME" val="2015-04-25T05:00" mod="APPROX" />
 <SECTIME id="S0" start="18" end="28" text="2015-04-21" type="ADMISSION" dvalue="2015-04-21" />
 <SECTIME id="S1" start="46" end="56" text="2015-04-29" type="DISCHARGE" dvalue="2015-04-29" />
-<TLINK id="TL1" fromID="E33" fromText="observed" toID="E34" toText="the nursery" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E35" fromText="progression of symptoms" toID="E33" toText="observed" type="BEFORE" senid="32" />
-<TLINK id="TL3" fromID="E120" fromText="Hearing screen" toID="E121" toText="automated auditory brain stem responses" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E33" fromText="observed" toID="E34" toText="the nursery" type="OVERLAP" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E35" fromText="progression of symptoms" toID="E33" toText="observed" type="OVERLAP" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E120" fromText="Hearing screen" toID="E121" toText="automated auditory brain stem responses" type="OVERLAP" senid="53" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E75" fromText="further electrolytes" toID="E73" toText="Electrolytes" type="OVERLAP" senid="34" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E73" fromText="Electrolytes" toID="T17" toText="day of life 2" type="OVERLAP" senid="34" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="T17" fromText="day of life 2" toID="T16" toText="that time" type="OVERLAP" senid="34" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E74" fromText="stable" toID="E73" toText="Electrolytes" type="OVERLAP" senid="34" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E16" fromText="epidural" toID="E15" toText="the delivery" type="OVERLAP" senid="13" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E36" fromText="increased work of breathing" toID="T7" toText="16 hours of life" type="OVERLAP" senid="24" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E37" fromText="tachypnea" toID="E36" toText="increased work of breathing" type="OVERLAP" senid="24" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E38" fromText="flaring" toID="E36" toText="increased work of breathing" type="OVERLAP" senid="24" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E39" fromText="grunting" toID="E36" toText="increased work of breathing" type="OVERLAP" senid="24" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E40" fromText="axillary temperature" toID="E36" toText="increased work of breathing" type="OVERLAP" senid="24" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E80" fromText="peaked" toID="E79" toText="Bilirubin level" type="OVERLAP" senid="39" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E80" fromText="peaked" toID="T13" toText="day of life 4" type="OVERLAP" senid="39" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E80" fromText="peaked" toID="E81" toText="phototherapy" type="BEFORE" senid="39" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E26" fromText="large for gestational age" toID="E27" toText="a weight" type="OVERLAP" senid="19" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E24" fromText="the newborn nursery" toID="E25" toText="PO feedings" type="OVERLAP" senid="18" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E93" fromText="blood culture" toID="E94" toText="admission ." type="OVERLAP" senid="46" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E94" fromText="admission ." toID="E92" toText="CBC" type="OVERLAP" senid="46" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E95" fromText="CBC" toID="E92" toText="CBC" type="OVERLAP" senid="46" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E90" fromText="The baby &#39;s blood type" toID="E89" toText="Blood typing" type="OVERLAP" senid="44" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E14" fromText="artificial rupture of membranes" toID="E15" toText="the delivery" type="OVERLAP" senid="12" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="T12" fromText="this time" toID="E122" toText="active ongoing issues" type="OVERLAP" senid="55" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E31" fromText="mild respiratory distress" toID="E33" toText="observed" type="BEFORE" senid="22" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E31" fromText="mild respiratory distress" toID="E32" toText="transient tachypnea of the newborn" type="BEFORE" senid="22" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E90" fromText="The baby &#39;s blood type" toID="E91" toText="antibody" type="OVERLAP" senid="45" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E76" fromText="Enteral feedings" toID="T14" toText="day of life 3" type="AFTER" senid="36" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E77" fromText="ad lib PO feeding" toID="T15" toText="that time" type="AFTER" senid="36" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E77" fromText="ad lib PO feeding" toID="E76" toText="Enteral feedings" type="AFTER" senid="36" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="T15" fromText="that time" toID="T14" toText="day of life 3" type="OVERLAP" senid="36" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E118" fromText="Antibiotics" toID="T10" toText="the evening of 2015-04-28" type="BEFORE" senid="51" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E6" fromText="blood type" toID="E5" toText="Prenatal screens" type="OVERLAP" senid="10" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E7" fromText="antibody" toID="E5" toText="Prenatal screens" type="OVERLAP" senid="10" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E8" fromText="rubella" toID="E5" toText="Prenatal screens" type="OVERLAP" senid="10" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E9" fromText="RPR" toID="E5" toText="Prenatal screens" type="OVERLAP" senid="10" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E10" fromText="hepatitis B surface antigen" toID="E5" toText="Prenatal screens" type="OVERLAP" senid="10" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E11" fromText="GBS" toID="E5" toText="Prenatal screens" type="OVERLAP" senid="10" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E51" fromText="room air" toID="E53" toText="apnea" type="BEFORE" senid="29" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E51" fromText="room air" toID="E54" toText="desaturation" type="BEFORE" senid="29" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E51" fromText="room air" toID="E123" toText="room air" type="OVERLAP" senid="29" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E1" fromText="Discharge" toID="T1" toText="2015-04-29" type="OVERLAP" senid="3" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E22" fromText="the newborn nursery" toID="E21" toText="transferred" type="AFTER" senid="17" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E22" fromText="the newborn nursery" toID="E23" toText="further care" type="OVERLAP" senid="17" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E24" fromText="the newborn nursery" toID="E22" toText="the newborn nursery" type="OVERLAP" senid="17" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E84" fromText="the CMED" toID="E83" toText="admission" type="BEFORE" senid="41" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E82" fromText="Hematocrit" toID="E83" toText="admission" type="OVERLAP" senid="41" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E85" fromText="Hematocrit" toID="E82" toText="Hematocrit" type="OVERLAP" senid="41" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="T11" fromText="7 days" toID="T10" toText="the evening of 2015-04-28" type="BEFORE" senid="50" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E115" fromText="pneumonia" toID="E114" toText="treated" type="BEFORE" senid="50" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E114" fromText="treated" toID="T11" toText="7 days" type="OVERLAP" senid="50" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E116" fromText="ampicillin" toID="T11" toText="7 days" type="OVERLAP" senid="50" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E117" fromText="gentamycin" toID="T11" toText="7 days" type="OVERLAP" senid="50" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E95" fromText="CBC" toID="E96" toText="whites" type="OVERLAP" senid="47" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E96" fromText="whites" toID="E97" toText="poly &#39;s," type="OVERLAP" senid="47" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E98" fromText="bands" toID="E97" toText="poly &#39;s," type="OVERLAP" senid="47" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E98" fromText="bands" toID="E99" toText="lymphs" type="OVERLAP" senid="47" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E102" fromText="admission" toID="E94" toText="admission ." type="OVERLAP" senid="47" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E106" fromText="admission" toID="E94" toText="admission ." type="OVERLAP" senid="47" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E18" fromText="vigorous" toID="E19" toText="birth" type="OVERLAP" senid="15" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E85" fromText="Hematocrit" toID="E89" toText="Blood typing" type="OVERLAP" senid="43" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E48" fromText="CPAP" toID="T8" toText="day of life 2" type="BEFORE" senid="28" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E48" fromText="CPAP" toID="E49" toText="nasal cannula" type="BEFORE" senid="28" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="E49" fromText="nasal cannula" toID="E50" toText="room air" type="BEFORE" senid="28" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E49" fromText="nasal cannula" toID="T9" toText="day of life 3" type="BEFORE" senid="28" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="E45" fromText="CPAP" toID="E46" toText="admission" type="OVERLAP" senid="28" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E47" fromText="the CMED" toID="E46" toText="admission" type="BEFORE" senid="28" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="E49" fromText="nasal cannula" toID="T8" toText="day of life 2" type="OVERLAP" senid="28" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E48" fromText="CPAP" toID="E45" toText="CPAP" type="OVERLAP" senid="28" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E51" fromText="room air" toID="E50" toText="room air" type="OVERLAP" senid="28" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="T18" fromText="that time" toID="T9" toText="day of life 3" type="OVERLAP" senid="28" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E0" fromText="Admission" toID="T0" toText="2015-04-21" type="OVERLAP" senid="2" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E120" fromText="Hearing screen" toID="E119" toText="a normal neurologic examination" type="OVERLAP" senid="52" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E87" fromText="hematocrit" toID="E85" toText="Hematocrit" type="OVERLAP" senid="42" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E88" fromText="platelets" toID="E86" toText="platelet count" type="OVERLAP" senid="42" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E86" fromText="platelet count" toID="E85" toText="Hematocrit" type="OVERLAP" senid="42" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E3" fromText="gestation" toID="E2" toText="born" type="BEFORE" senid="8" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="E3" fromText="gestation" toID="E4" toText="EDC" type="BEFORE" senid="8" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E3" fromText="gestation" toID="T2" toText="39 and 3/7 weeks" type="OVERLAP" senid="8" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="E4" fromText="EDC" toID="T3" toText="2015-04-25" type="OVERLAP" senid="8" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E36" fromText="increased work of breathing" toID="E42" toText="transferred" type="BEFORE" senid="25" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E40" fromText="axillary temperature" toID="E41" toText="a rectal temperature" type="OVERLAP" senid="25" pred="0.9998857975006104" />
+<TLINK id="TL83" fromID="E61" fromText="pneumonia" toID="E64" toText="treated" type="BEFORE" senid="31" pred="0.9998766183853149" />
+<TLINK id="TL84" fromID="E64" fromText="treated" toID="E62" toText="admission" type="AFTER" senid="31" pred="0.9998466968536377" />
+<TLINK id="TL85" fromID="E63" fromText="the CMED" toID="E62" toText="admission" type="AFTER" senid="31" pred="0.9998082518577576" />
+<TLINK id="TL86" fromID="E63" fromText="the CMED" toID="E65" toText="stable cardiovascular status" type="OVERLAP" senid="31" pred="0.9999080896377563" />
+<TLINK id="TL87" fromID="E29" fromText="grunting" toID="T6" toText="5 hours of life" type="OVERLAP" senid="21" pred="0.9999300241470337" />
+<TLINK id="TL88" fromID="E30" fromText="flaring" toID="T6" toText="5 hours of life" type="OVERLAP" senid="21" pred="0.9998291730880737" />
+<TLINK id="TL89" fromID="E31" fromText="mild respiratory distress" toID="E29" toText="grunting" type="BEFORE" senid="21" pred="0.9998787641525269" />
+<TLINK id="TL90" fromID="E58" fromText="haziness in the left lower lobe" toID="E55" toText="Initial chest x-ray" type="BEFORE" senid="30" pred="0.991712212562561" />
+<TLINK id="TL91" fromID="E59" fromText="patchy areas on the right side" toID="E55" toText="Initial chest x-ray" type="BEFORE" senid="30" pred="0.9999217987060547" />
+<TLINK id="TL92" fromID="E55" fromText="Initial chest x-ray" toID="E56" toText="the CMED" type="OVERLAP" senid="30" pred="0.9842959642410278" />
+<TLINK id="TL93" fromID="E57" fromText="showed" toID="E55" toText="Initial chest x-ray" type="OVERLAP" senid="30" pred="0.9998949766159058" />
+<TLINK id="TL94" fromID="E59" fromText="patchy areas on the right side" toID="E60" toText="pneumonia" type="OVERLAP" senid="30" pred="0.9997454285621643" />
+<TLINK id="TL95" fromID="E61" fromText="pneumonia" toID="E60" toText="pneumonia" type="OVERLAP" senid="30" pred="0.9999433755874634" />
+<TLINK id="TL96" fromID="E13" fromText="repeat C-section" toID="E12" toText="born" type="OVERLAP" senid="11" pred="0.9998795986175537" />
+<TLINK id="TL97" fromID="E13" fromText="repeat C-section" toID="E15" toText="the delivery" type="OVERLAP" senid="11" pred="0.999790608882904" />
+<TLINK id="TL98" fromID="E16" fromText="epidural" toID="E17" toText="spinal anesthesia" type="OVERLAP" senid="14" pred="0.9999343156814575" />
+<TLINK id="TL99" fromID="E47" fromText="the CMED" toID="E43" toText="the CMED triage" type="OVERLAP" senid="27" pred="0.9963036775588989" />
+<TLINK id="TL100" fromID="E100" fromText="Ampicillin" toID="E116" toText="ampicillin" type="OVERLAP" senid="49" pred="0.9997921586036682" />
+<TLINK id="TL101" fromID="E101" fromText="gentamycin" toID="E117" toText="gentamycin" type="OVERLAP" senid="49" pred="0.9997902512550354" />
+<TLINK id="TL102" fromID="E108" fromText="CSF" toID="E109" toText="showed" type="OVERLAP" senid="49" pred="0.9999057054519653" />
+<TLINK id="TL103" fromID="E110" fromText="white count" toID="E108" toText="CSF" type="OVERLAP" senid="49" pred="0.9999415874481201" />
+<TLINK id="TL104" fromID="E111" fromText="reds" toID="E108" toText="CSF" type="OVERLAP" senid="49" pred="0.999921441078186" />
+<TLINK id="TL105" fromID="E112" fromText="protein" toID="E108" toText="CSF" type="OVERLAP" senid="49" pred="0.9999399185180664" />
+<TLINK id="TL106" fromID="E113" fromText="glucose" toID="E108" toText="CSF" type="OVERLAP" senid="49" pred="0.9999487400054932" />
+<TLINK id="TL107" fromID="E21" fromText="transferred" toID="E20" toText="Apgars" type="AFTER" senid="16" pred="0.9999151229858398" />
+<TLINK id="TL108" fromID="E20" fromText="Apgars" toID="T4" toText="1" type="OVERLAP" senid="16" pred="0.9999330043792725" />
+<TLINK id="TL109" fromID="E20" fromText="Apgars" toID="T5" toText="5 minutes" type="OVERLAP" senid="16" pred="0.999893069267273" />
+<TLINK id="TL110" fromID="E104" fromText="respiratory distress" toID="E103" toText="an LP" type="BEFORE" senid="48" pred="0.9999210834503174" />
+<TLINK id="TL111" fromID="E104" fromText="respiratory distress" toID="E106" toText="admission" type="BEFORE" senid="48" pred="0.9999397993087769" />
+<TLINK id="TL112" fromID="E105" fromText="fever" toID="E103" toText="an LP" type="BEFORE" senid="48" pred="0.9996252059936523" />
+<TLINK id="TL113" fromID="E105" fromText="fever" toID="E106" toText="admission" type="BEFORE" senid="48" pred="0.9998996257781982" />
+<TLINK id="TL114" fromID="E100" fromText="Ampicillin" toID="E102" toText="admission" type="AFTER" senid="48" pred="0.9998968839645386" />
+<TLINK id="TL115" fromID="E101" fromText="gentamycin" toID="E102" toText="admission" type="AFTER" senid="48" pred="0.9999085664749146" />
+<TLINK id="TL116" fromID="E107" fromText="the CMED" toID="E106" toText="admission" type="BEFORE" senid="48" pred="0.9998847246170044" />
+<TLINK id="TL117" fromID="E70" fromText="IV fluids" toID="E71" toText="admission" type="BEFORE" senid="33" pred="0.9993637204170227" />
+<TLINK id="TL118" fromID="E72" fromText="the CMED" toID="E71" toText="admission" type="AFTER" senid="33" pred="0.9998555183410645" />
+<TLINK id="TL119" fromID="E5" fromText="Prenatal screens" toID="E2" toText="born" type="BEFORE" senid="9" pred="0.9999136924743652" />
+<TLINK id="TL120" fromID="E43" fromText="the CMED triage" toID="E42" toText="transferred" type="AFTER" senid="26" pred="0.9999196529388428" />
+<TLINK id="TL121" fromID="E43" fromText="the CMED triage" toID="E44" toText="further care" type="OVERLAP" senid="26" pred="0.9597350358963013" />
+<TLINK id="TL122" fromID="E65" fromText="stable cardiovascular status" toID="E67" toText="normal heart rates" type="OVERLAP" senid="32" pred="0.9970231652259827" />
+<TLINK id="TL123" fromID="E68" fromText="blood pressures" toID="E65" toText="stable cardiovascular status" type="OVERLAP" senid="32" pred="0.7635254859924316" />
+<TLINK id="TL124" fromID="E69" fromText="murmurs" toID="E65" toText="stable cardiovascular status" type="OVERLAP" senid="32" pred="0.9999074935913086" />
+<TLINK id="TL125" fromID="E71" fromText="admission" toID="E62" toText="admission" type="OVERLAP" senid="32" pred="0.9999088048934937" />
+<TLINK id="TL126" fromID="E72" fromText="the CMED" toID="E63" toText="the CMED" type="OVERLAP" senid="32" pred="0.9999338388442993" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

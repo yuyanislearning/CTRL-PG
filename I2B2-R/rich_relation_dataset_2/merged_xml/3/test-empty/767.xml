@@ -85,8 +85,42 @@ We will arrange to have a copy of the MRI scans sent to him .
 <TIMEX3 id="T2" start="46" end="56" text="2009-12-31" type="DATE" val="2009-12-31" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2009-12-28" type="ADMISSION" dvalue="2009-12-28" />
 <SECTIME id="S1" start="46" end="56" text="2009-12-31" type="DISCHARGE" dvalue="2009-12-31" />
-<TLINK id="TL1" fromID="E21" fromText="unsteady on her feet" toID="E22" toText="described" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E24" fromText="trouble knowing if her feet were touching the ground" toID="E21" toText="unsteady on her feet" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E12" fromText="several prior bleeding events" toID="E35" toText="presented" type="BEFORE" senid="33" />
+<TLINK id="TL1" fromID="E21" fromText="unsteady on her feet" toID="E22" toText="described" type="BEFORE" senid="13" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E24" fromText="trouble knowing if her feet were touching the ground" toID="E21" toText="unsteady on her feet" type="OVERLAP" senid="13" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E12" fromText="several prior bleeding events" toID="E35" toText="presented" type="BEFORE" senid="24" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E36" fromText="a subacute bleed in the mid to lower pons" toID="E35" toText="presented" type="BEFORE" senid="24" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E36" fromText="a subacute bleed in the mid to lower pons" toID="E37" toText="right-sided predominance" type="OVERLAP" senid="24" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E31" fromText="an outside hospital" toID="E16" toText="transferred" type="BEFORE" senid="20" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E11" fromText="a 1.5 cm diameter hyperdense mass in the pons" toID="E10" toText="head CT" type="BEFORE" senid="20" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E31" fromText="an outside hospital" toID="E10" toText="head CT" type="OVERLAP" senid="20" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E10" fromText="head CT" toID="E32" toText="revealed" type="OVERLAP" senid="20" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E30" fromText="very fatigued" toID="E31" toText="an outside hospital" type="BEFORE" senid="19" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E28" fromText="the sound of static" toID="E29" toText="increased" type="OVERLAP" senid="18" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E28" fromText="the sound of static" toID="E30" toText="very fatigued" type="OVERLAP" senid="18" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E4" fromText="dizziness" toID="T3" toText="A few days later" type="OVERLAP" senid="12" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E20" fromText="complained" toID="T3" toText="A few days later" type="OVERLAP" senid="12" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E21" fromText="unsteady on her feet" toID="E4" toText="dizziness" type="OVERLAP" senid="12" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E18" fromText="her usual state of health" toID="T0" toText="one and a half weeks" type="BEFORE" senid="10" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="T0" fromText="one and a half weeks" toID="E19" toText="admission" type="BEFORE" senid="10" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E2" fromText="an ear ache" toID="T0" toText="one and a half weeks" type="AFTER" senid="10" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E17" fromText="Discharge" toID="T2" toText="2009-12-31" type="OVERLAP" senid="3" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E27" fromText="This unsteady gait" toID="E8" toText="a pins and needle feeling in the face , hands and feet bilaterally" type="BEFORE" senid="17" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E5" fromText="dizziness" toID="E6" toText="decreased hearing" type="OVERLAP" senid="15" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E6" fromText="decreased hearing" toID="E7" toText="an oral prednisone taper" type="BEFORE" senid="15" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E6" fromText="decreased hearing" toID="E25" toText="static in her ears" type="OVERLAP" senid="15" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E25" fromText="static in her ears" toID="E26" toText="meniere &#39;s disease" type="OVERLAP" senid="15" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E42" fromText="an Acute Rehabilitation Center" toID="E15" toText="aggressive Physical Therapy" type="OVERLAP" senid="28" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E0" fromText="Admission" toID="T1" toText="2009-12-28" type="OVERLAP" senid="2" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E35" fromText="presented" toID="E13" toText="Her physical examination" type="OVERLAP" senid="25" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E16" fromText="transferred" toID="E33" toText="further care" type="BEFORE" senid="21" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E44" fromText="the MRI scans" toID="E43" toText="follow-up" type="OVERLAP" senid="30" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E2" fromText="an ear ache" toID="E3" toText="cortisone drops" type="OVERLAP" senid="11" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E24" fromText="trouble knowing if her feet were touching the ground" toID="E23" toText="stated" type="BEFORE" senid="14" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E40" fromText="severely ataxic" toID="E15" toText="aggressive Physical Therapy" type="BEFORE" senid="27" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E14" fromText="sensory deafferentation" toID="E40" toText="severely ataxic" type="BEFORE" senid="27" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E41" fromText="crossing pontine cerebellar fibers" toID="E40" toText="severely ataxic" type="BEFORE" senid="27" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E13" fromText="Her physical examination" toID="E38" toText="the subtle left hand weakness" type="OVERLAP" senid="26" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E38" fromText="the subtle left hand weakness" toID="E39" toText="right facial weakness" type="OVERLAP" senid="26" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E40" fromText="severely ataxic" toID="E13" toText="Her physical examination" type="OVERLAP" senid="26" pred="0.9998083710670471" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

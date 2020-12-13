@@ -93,8 +93,53 @@ On the day prior to discharge , his intravenous antibiotics were discontinued an
 <TIMEX3 id="T4" start="928" end="931" text="2/3" type="DATE" val="1992-02-03" mod="NA" />
 <SECTIME id="S0" start="19" end="29" text="02/03/1992" type="ADMISSION" dvalue="1992-02-03" />
 <SECTIME id="S1" start="49" end="59" text="02/07/1992" type="DISCHARGE" dvalue="1992-02-07" />
-<TLINK id="TL1" fromID="E44" fromText="his sugars" toID="E45" toText="a sliding scale" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E21" fromText="fevers" toID="E20" toText="home" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E22" fromText="chills" toID="E20" toText="home" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E44" fromText="his sugars" toID="E45" toText="a sliding scale" type="OVERLAP" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E21" fromText="fevers" toID="E20" toText="home" type="OVERLAP" senid="13" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E22" fromText="chills" toID="E20" toText="home" type="OVERLAP" senid="13" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E23" fromText="rigors" toID="E20" toText="home" type="OVERLAP" senid="13" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E24" fromText="rashes" toID="E21" toText="fevers" type="OVERLAP" senid="13" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E48" fromText="additional insulin coverage" toID="T7" toText="day three" type="OVERLAP" senid="24" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E47" fromText="14 and 22 units of additional coverage" toID="T6" toText="two days" type="OVERLAP" senid="24" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E38" fromText="vancomycin" toID="E39" toText="ceftazidime" type="OVERLAP" senid="20" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E37" fromText="pancultured" toID="E36" toText="admitted" type="OVERLAP" senid="19" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E38" fromText="vancomycin" toID="E36" toText="admitted" type="AFTER" senid="19" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E40" fromText="wound cultures" toID="E37" toText="pancultured" type="AFTER" senid="19" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E19" fromText="a predischarge biopsy" toID="E20" toText="home" type="OVERLAP" senid="12" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E46" fromText="Surgery" toID="E42" toText="house" type="BEFORE" senid="22" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E43" fromText="Cyclosporin levels" toID="E42" toText="house" type="OVERLAP" senid="22" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E44" fromText="his sugars" toID="E42" toText="house" type="OVERLAP" senid="22" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E16" fromText="extubted" toID="E14" toText="hyperglycemia" type="AFTER" senid="10" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E14" fromText="hyperglycemia" toID="E13" toText="His post transplant course" type="OVERLAP" senid="10" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E15" fromText="seizure" toID="T9" toText="postoperative day number one" type="OVERLAP" senid="10" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E16" fromText="extubted" toID="E13" toText="His post transplant course" type="OVERLAP" senid="10" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E1" fromText="Discharge" toID="T1" toText="02/07/1992" type="OVERLAP" senid="3" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E32" fromText="the wound" toID="E31" toText="the Surgical Clinic" type="BEFORE" senid="17" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E31" fromText="the Surgical Clinic" toID="E34" toText="admitted" type="OVERLAP" senid="17" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E35" fromText="intravenous antibiotics" toID="E31" toText="the Surgical Clinic" type="OVERLAP" senid="17" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E33" fromText="opened" toID="E31" toText="the Surgical Clinic" type="OVERLAP" senid="17" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E2" fromText="orthotopic cardiac transplant" toID="E3" toText="readmitted" type="BEFORE" senid="6" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E4" fromText="sternal wound infection" toID="E3" toText="readmitted" type="BEFORE" senid="6" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="T2" fromText="20 days" toID="E2" toText="orthotopic cardiac transplant" type="AFTER" senid="6" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E4" fromText="sternal wound infection" toID="E2" toText="orthotopic cardiac transplant" type="AFTER" senid="6" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E25" fromText="chest pain" toID="E26" toText="shortness of breath" type="OVERLAP" senid="15" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E0" fromText="Admission" toID="T0" toText="02/03/1992" type="OVERLAP" senid="2" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E7" fromText="congestive heart failure" toID="E8" toText="his evaluation" type="BEFORE" senid="8" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E8" fromText="his evaluation" toID="E9" toText="his cardiac transplant" type="OVERLAP" senid="8" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E9" fromText="his cardiac transplant" toID="T3" toText="Jan , of 1992" type="OVERLAP" senid="8" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E49" fromText="his intravenous antibiotics" toID="T8" toText="the day" type="BEFORE" senid="25" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E50" fromText="tetracycline" toID="T8" toText="the day" type="AFTER" senid="25" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="T8" fromText="the day" toID="E51" toText="discharge" type="BEFORE" senid="25" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E41" fromText="dressing changes" toID="T5" toText="twice a day" type="OVERLAP" senid="21" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E17" fromText="difficulty" toID="E18" toText="did quite well" type="BEFORE" senid="11" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E17" fromText="difficulty" toID="E16" toText="extubted" type="OVERLAP" senid="11" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E28" fromText="his incision" toID="T4" toText="2/3" type="BEFORE" senid="16" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E29" fromText="noted" toID="E31" toText="the Surgical Clinic" type="BEFORE" senid="16" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E30" fromText="more erythematous" toID="T4" toText="2/3" type="OVERLAP" senid="16" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E31" fromText="the Surgical Clinic" toID="E27" toText="the Transplant Clinic" type="AFTER" senid="16" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E27" fromText="the Transplant Clinic" toID="T4" toText="2/3" type="OVERLAP" senid="16" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E13" fromText="His post transplant course" toID="E9" toText="his cardiac transplant" type="AFTER" senid="9" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="T9" fromText="postoperative day number one" toID="E9" toText="his cardiac transplant" type="AFTER" senid="9" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E12" fromText="markedly diminished function" toID="E11" toText="a severely dilated left ventricle" type="OVERLAP" senid="9" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E2" fromText="orthotopic cardiac transplant" toID="E9" toText="his cardiac transplant" type="OVERLAP" senid="7" pred="0.9999467134475708" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

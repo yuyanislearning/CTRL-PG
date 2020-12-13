@@ -132,8 +132,63 @@ The patient was discharged home with Santea Gehawhi General Hospital care and in
 <TIMEX3 id="T3" start="677" end="687" text="five hours" type="DURATION" val="PT5H" mod="APPROX" />
 <SECTIME id="S0" start="18" end="25" text="6-15-94" type="ADMISSION" dvalue="1994-6-15" />
 <SECTIME id="S1" start="43" end="50" text="6-26-94" type="DISCHARGE" dvalue="1994-6-26" />
-<TLINK id="TL1" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E46" toText="showed" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E48" toText="The MRA" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E68" fromText="PO Bactrim" toID="E67" toText="urinary tract infection" type="AFTER" senid="33" />
+<TLINK id="TL1" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E46" toText="showed" type="OVERLAP" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E48" toText="The MRA" type="OVERLAP" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E68" fromText="PO Bactrim" toID="E67" toText="urinary tract infection" type="AFTER" senid="34" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E17" fromText="denied" toID="E21" toText="denies" type="OVERLAP" senid="13" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E50" fromText="mild narrowing of the left ICA" toID="E48" toText="The MRA" type="BEFORE" senid="24" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E51" fromText="scattered T2 hyperintense foci within the periventricular and left frontal white matter" toID="E48" toText="The MRA" type="BEFORE" senid="24" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E48" fromText="The MRA" toID="E49" toText="showed" type="OVERLAP" senid="24" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E39" fromText="a magnetic resonance imaging study" toID="E38" toText="tests" type="OVERLAP" senid="20" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E79" fromText="Santea Gehawhi General Hospital care" toID="E78" toText="discharged" type="AFTER" senid="39" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E80" fromText="follow up" toID="E78" toText="discharged" type="AFTER" senid="39" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E37" fromText="surgical intervention" toID="E36" toText="A Neurosurgery Service consultation" type="AFTER" senid="19" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E35" fromText="stable" toID="E34" toText="her examination" type="OVERLAP" senid="18" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E14" fromText="Symptoms" toID="T3" toText="five hours" type="OVERLAP" senid="12" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E15" fromText="gradually resolved" toID="T3" toText="five hours" type="AFTER" senid="12" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E17" fromText="denied" toID="E12" toText="complained" type="OVERLAP" senid="12" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E42" fromText="a large hemorrhagic lesion on the occipital lobe" toID="E47" toText="the right parietal occipital hemorrhage" type="OVERLAP" senid="22" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E45" fromText="an magnetic resonance imaging angiogram" toID="E40" toText="magnetic resonance imaging angiogram" type="AFTER" senid="22" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E73" fromText="tolerating a regular diet" toID="T4" toText="6-26-94" type="OVERLAP" senid="36" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E71" fromText="her vital signs" toID="E72" toText="stable" type="OVERLAP" senid="36" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E69" fromText="ready for discharge" toID="T4" toText="6-26-94" type="AFTER" senid="35" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E70" fromText="afebrile" toID="T4" toText="6-26-94" type="OVERLAP" senid="35" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E71" fromText="her vital signs" toID="T4" toText="6-26-94" type="OVERLAP" senid="35" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E1" fromText="DISCHARGE" toID="T1" toText="6-26-94" type="OVERLAP" senid="3" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E31" fromText="the Intermediate Care Unit" toID="E33" toText="moved out" type="BEFORE" senid="17" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E31" fromText="the Intermediate Care Unit" toID="E30" toText="admitted" type="AFTER" senid="17" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E32" fromText="the Neurology Intensive Care Unit" toID="E31" toText="the Intermediate Care Unit" type="OVERLAP" senid="17" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E34" fromText="her examination" toID="E31" toText="the Intermediate Care Unit" type="OVERLAP" senid="17" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E4" fromText="bumping into objects" toID="E3" toText="dizzy" type="OVERLAP" senid="6" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="T0" fromText="6-15-94" toID="E0" toText="ADMISSION" type="OVERLAP" senid="2" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E7" fromText="eating breakfast" toID="T2" toText="This morning" type="OVERLAP" senid="8" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E8" fromText="could not see" toID="E7" toText="eating breakfast" type="AFTER" senid="8" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E9" fromText="dizzy" toID="T2" toText="This morning" type="OVERLAP" senid="8" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E51" fromText="scattered T2 hyperintense foci within the periventricular and left frontal white matter" toID="E52" toText="small vessel disease" type="OVERLAP" senid="25" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E52" fromText="small vessel disease" toID="E53" toText="gliosis" type="OVERLAP" senid="25" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E53" fromText="gliosis" toID="E54" toText="demyelination" type="OVERLAP" senid="25" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E42" fromText="a large hemorrhagic lesion on the occipital lobe" toID="E40" toText="magnetic resonance imaging angiogram" type="BEFORE" senid="21" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E44" fromText="follow up" toID="E39" toText="a magnetic resonance imaging study" type="OVERLAP" senid="21" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E39" fromText="a magnetic resonance imaging study" toID="E40" toText="magnetic resonance imaging angiogram" type="OVERLAP" senid="21" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E40" fromText="magnetic resonance imaging angiogram" toID="E41" toText="showed" type="OVERLAP" senid="21" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E43" fromText="clear enhancing mass" toID="E42" toText="a large hemorrhagic lesion on the occipital lobe" type="AFTER" senid="21" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E64" fromText="thrombus" toID="E61" toText="An echocardiogram" type="BEFORE" senid="30" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E61" fromText="An echocardiogram" toID="E62" toText="showed" type="OVERLAP" senid="30" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E63" fromText="the ejection fraction" toID="E61" toText="An echocardiogram" type="OVERLAP" senid="30" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E13" fromText="a dull , right sided headache over the right eyebrow" toID="T3" toText="five hours" type="OVERLAP" senid="11" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E59" fromText="some very rare atrial premature contractions" toID="E55" toText="A Holter monitor" type="OVERLAP" senid="27" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E27" fromText="the hospital" toID="E26" toText="admitted" type="AFTER" senid="16" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E26" fromText="admitted" toID="E30" toText="admitted" type="OVERLAP" senid="16" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E28" fromText="further evaluation" toID="E27" toText="the hospital" type="OVERLAP" senid="16" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E29" fromText="work up" toID="E27" toText="the hospital" type="OVERLAP" senid="16" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E74" fromText="awake" toID="E75" toText="alert and oriented to person , place , and time" type="OVERLAP" senid="38" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E77" fromText="neurologically intact" toID="E76" toText="a dense left hemianopsia" type="OVERLAP" senid="38" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E9" fromText="dizzy" toID="E10" toText="the room was spinning" type="OVERLAP" senid="9" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E55" fromText="A Holter monitor" toID="E56" toText="showed" type="OVERLAP" senid="26" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E57" fromText="normal sinus rhythm" toID="E55" toText="A Holter monitor" type="BEFORE" senid="26" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E58" fromText="The heart rate" toID="E55" toText="A Holter monitor" type="OVERLAP" senid="26" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E6" fromText="otherwise good health" toID="T2" toText="This morning" type="AFTER" senid="7" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E65" fromText="confusion" toID="E66" toText="gradually resolved" type="OVERLAP" senid="32" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E65" fromText="confusion" toID="T5" toText="the ensuing days" type="OVERLAP" senid="32" pred="0.9997901320457458" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

@@ -31,8 +31,17 @@ by private physician .
 <TIMEX3 id="T2" start="43" end="50" text="12/8/95" type="DATE" val="1995-12-08" mod="NA" />
 <SECTIME id="S0" start="18" end="25" text="12/4/95" type="ADMISSION" dvalue="1995-12-4" />
 <SECTIME id="S1" start="43" end="50" text="12/8/95" type="DISCHARGE" dvalue="1995-12-8" />
-<TLINK id="TL1" fromID="E6" fromText="ADMISSION" toID="T1" toText="12/4/95" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E7" fromText="DISCHARGE" toID="T2" toText="12/8/95" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E5" fromText="treatment" toID="E10" toText="discharged" type="BEFORE" senid="33" />
+<TLINK id="TL1" fromID="E6" fromText="ADMISSION" toID="T1" toText="12/4/95" type="OVERLAP" senid="2" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E7" fromText="DISCHARGE" toID="T2" toText="12/8/95" type="OVERLAP" senid="3" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E5" fromText="treatment" toID="E10" toText="discharged" type="BEFORE" senid="8" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E11" fromText="good condition" toID="E10" toText="discharged" type="BEFORE" senid="8" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E8" fromText="tolerated" toID="E5" toText="treatment" type="OVERLAP" senid="8" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E9" fromText="well" toID="E8" toText="tolerated" type="OVERLAP" senid="8" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E0" fromText="hydrated" toID="E1" toText="Adriamycin" type="OVERLAP" senid="6" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E1" fromText="Adriamycin" toID="E2" toText="DTIC" type="OVERLAP" senid="6" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E2" fromText="DTIC" toID="T0" toText="daily for four days" type="OVERLAP" senid="6" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E3" fromText="ifosfamide" toID="E2" toText="DTIC" type="OVERLAP" senid="6" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E3" fromText="ifosfamide" toID="T3" toText="a day" type="OVERLAP" senid="7" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E4" fromText="mesna" toID="E3" toText="ifosfamide" type="OVERLAP" senid="7" pred="0.9998272061347961" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

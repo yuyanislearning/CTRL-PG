@@ -174,8 +174,87 @@ She was also to obtain a second opinion regarding the question of possible surgi
 <TIMEX3 id="T7" start="869" end="876" text="the day" type="DATE" val="2009-03-27" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2009-03-27" type="ADMISSION" dvalue="2009-03-27" />
 <SECTIME id="S1" start="46" end="56" text="2009-04-03" type="DISCHARGE" dvalue="2009-04-03" />
-<TLINK id="TL1" fromID="T12" fromText="three months" toID="E42" toText="embolization" type="BEFORE" senid="31" />
-<TLINK id="TL2" fromID="E41" fromText="Lupron" toID="T12" toText="three months" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E44" fromText="embolization" toID="E42" toText="embolization" type="AFTER" senid="33" />
+<TLINK id="TL1" fromID="T12" fromText="three months" toID="E42" toText="embolization" type="BEFORE" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E41" fromText="Lupron" toID="T12" toText="three months" type="OVERLAP" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E44" fromText="embolization" toID="E42" toText="embolization" type="OVERLAP" senid="23" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E64" fromText="gram-positive cocci in pairs and clusters" toID="E61" toText="her blood cultures" type="BEFORE" senid="34" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E61" fromText="her blood cultures" toID="T16" toText="hospital day number three" type="OVERLAP" senid="34" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E61" fromText="her blood cultures" toID="E62" toText="positive" type="OVERLAP" senid="34" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E61" fromText="her blood cultures" toID="E65" toText="Further identification" type="BEFORE" senid="34" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E63" fromText="the anaerobic culture" toID="E61" toText="her blood cultures" type="OVERLAP" senid="34" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E67" fromText="staphylococcus coag-negative" toID="E64" toText="gram-positive cocci in pairs and clusters" type="AFTER" senid="34" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E68" fromText="sensitive" toID="E61" toText="her blood cultures" type="AFTER" senid="34" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E19" fromText="stated" toID="E20" toText="complained" type="OVERLAP" senid="13" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E44" fromText="embolization" toID="T13" toText="2009-01-07" type="OVERLAP" senid="24" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E37" fromText="Last menstrual period" toID="T10" toText="2009-02-21" type="OVERLAP" senid="20" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E77" fromText="an Infectious Disease consult" toID="E82" toText="a pelvic ultrasound" type="BEFORE" senid="39" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E78" fromText="the ampicillin" toID="E77" toText="an Infectious Disease consult" type="BEFORE" senid="39" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E79" fromText="gentamicin" toID="E77" toText="an Infectious Disease consult" type="BEFORE" senid="39" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E80" fromText="clindamycin" toID="E77" toText="an Infectious Disease consult" type="BEFORE" senid="39" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E81" fromText="intravenous Unasyn" toID="E77" toText="an Infectious Disease consult" type="AFTER" senid="39" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E35" fromText="Cesarean section" toID="T8" toText="x 2" type="OVERLAP" senid="18" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E36" fromText="spontaneous abortion" toID="T9" toText="x 1" type="OVERLAP" senid="18" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E75" fromText="Her white blood cell count" toID="E73" toText="a temperature spike" type="AFTER" senid="37" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E101" fromText="surgical management" toID="E100" toText="obtain a second opinion" type="OVERLAP" senid="46" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E15" fromText="her primary care physician &#39;s office" toID="T6" toText="the day" type="OVERLAP" senid="12" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E15" fromText="her primary care physician &#39;s office" toID="E17" toText="complaining" type="OVERLAP" senid="12" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E17" fromText="complaining" toID="E19" toText="stated" type="OVERLAP" senid="12" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E98" fromText="oral antibiotics" toID="E97" toText="discharged" type="OVERLAP" senid="45" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E97" fromText="discharged" toID="T18" toText="hospital day number eight" type="OVERLAP" senid="45" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E99" fromText="a repeat CT scan" toID="T19" toText="one week" type="OVERLAP" senid="45" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E72" fromText="afebrile" toID="T17" toText="hospital day number five" type="BEFORE" senid="36" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E74" fromText="Repeat blood cultures" toID="E73" toText="a temperature spike" type="AFTER" senid="36" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E73" fromText="a temperature spike" toID="T17" toText="hospital day number five" type="OVERLAP" senid="36" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E6" fromText="continuing vaginal discharge" toID="T3" toText="one day" type="BEFORE" senid="10" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E7" fromText="bacterial vaginosis" toID="T3" toText="one day" type="AFTER" senid="10" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E9" fromText="Flagyl" toID="T3" toText="one day" type="AFTER" senid="10" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E65" fromText="Further identification" toID="E66" toText="revealed" type="OVERLAP" senid="35" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E69" fromText="gentamicin" toID="E68" toText="sensitive" type="OVERLAP" senid="35" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E70" fromText="clindamycin" toID="E68" toText="sensitive" type="OVERLAP" senid="35" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E54" fromText="Her initial white blood cell count" toID="E50" toText="admitted" type="AFTER" senid="29" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E52" fromText="gentamicin" toID="E51" toText="intravenous ampicillin" type="OVERLAP" senid="29" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E53" fromText="clindamycin" toID="E52" toText="gentamicin" type="OVERLAP" senid="29" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="T1" fromText="2009-04-03" toID="E1" toText="Discharge" type="OVERLAP" senid="3" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E88" fromText="an infected abscess" toID="E89" toText="post-surgical change" type="OVERLAP" senid="41" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E90" fromText="Extensive discussion" toID="E87" toText="Discussion" type="OVERLAP" senid="41" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E28" fromText="a CT scan of her abdomen" toID="E26" toText="the office" type="AFTER" senid="15" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E25" fromText="Her temperature" toID="E26" toText="the office" type="OVERLAP" senid="15" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E27" fromText="chills" toID="E25" toText="Her temperature" type="OVERLAP" senid="15" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E92" fromText="drainage" toID="E94" toText="hysterectomy" type="OVERLAP" senid="43" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E96" fromText="hysterectomy" toID="E94" toText="hysterectomy" type="OVERLAP" senid="43" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E0" fromText="Admission" toID="T0" toText="2009-03-27" type="OVERLAP" senid="2" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E91" fromText="second opinion was obtained" toID="E90" toText="Extensive discussion" type="AFTER" senid="42" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E92" fromText="drainage" toID="E90" toText="Extensive discussion" type="AFTER" senid="42" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E88" fromText="an infected abscess" toID="E93" toText="the abscess" type="OVERLAP" senid="42" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E45" fromText="Dilatation and curettage" toID="E46" toText="SAB" type="AFTER" senid="25" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E45" fromText="Dilatation and curettage" toID="T14" toText="x 1" type="OVERLAP" senid="25" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E85" fromText="continued air in the endometrial cavity" toID="E83" toText="an abdomen and pelvis CT" type="BEFORE" senid="40" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E87" fromText="Discussion" toID="E82" toText="a pelvic ultrasound" type="OVERLAP" senid="40" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E82" fromText="a pelvic ultrasound" toID="E83" toText="an abdomen and pelvis CT" type="OVERLAP" senid="40" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E83" fromText="an abdomen and pelvis CT" toID="E84" toText="revealed" type="OVERLAP" senid="40" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E86" fromText="the fundal fibroid" toID="E85" toText="continued air in the endometrial cavity" type="OVERLAP" senid="40" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E88" fromText="an infected abscess" toID="E85" toText="continued air in the endometrial cavity" type="OVERLAP" senid="40" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E56" fromText="Her sedimentation rate" toID="E57" toText="elevated" type="OVERLAP" senid="31" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E39" fromText="Periods regular" toID="E37" toText="Last menstrual period" type="OVERLAP" senid="21" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E38" fromText="Some spotting" toID="T11" toText="the day" type="OVERLAP" senid="21" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="E56" fromText="Her sedimentation rate" toID="E50" toText="admitted" type="AFTER" senid="30" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E54" fromText="Her initial white blood cell count" toID="E55" toText="a normal differential" type="OVERLAP" senid="30" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="E11" fromText="increasing abdominal pain" toID="T4" toText="two days" type="AFTER" senid="11" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E10" fromText="noted" toID="E11" toText="increasing abdominal pain" type="AFTER" senid="11" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="E13" fromText="became more severe" toID="T5" toText="the day" type="OVERLAP" senid="11" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E23" fromText="nausea" toID="T7" toText="the day" type="AFTER" senid="14" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E24" fromText="vomiting" toID="T7" toText="the day" type="AFTER" senid="14" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="E21" fromText="some loose stools" toID="T7" toText="the day" type="BEFORE" senid="14" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E30" fromText="fluid" toID="E28" toText="a CT scan of her abdomen" type="BEFORE" senid="16" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E31" fromText="gas in the endometrial cavity" toID="E28" toText="a CT scan of her abdomen" type="BEFORE" senid="16" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E32" fromText="Pinewood , Norfolk" toID="E28" toText="a CT scan of her abdomen" type="AFTER" senid="16" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E32" fromText="Pinewood , Norfolk" toID="E34" toText="admission" type="BEFORE" senid="16" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E29" fromText="revealed" toID="E28" toText="a CT scan of her abdomen" type="OVERLAP" senid="16" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E33" fromText="treatment" toID="E32" toText="Pinewood , Norfolk" type="OVERLAP" senid="16" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="E75" fromText="Her white blood cell count" toID="E76" toText="a normal differential" type="OVERLAP" senid="38" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E4" fromText="uterine artery embolization" toID="E5" toText="fibroids" type="AFTER" senid="9" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="T2" fromText="2009-01-07" toID="E4" toText="uterine artery embolization" type="AFTER" senid="9" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E48" fromText="last outbreak" toID="T15" toText="2000" type="OVERLAP" senid="26" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E58" fromText="Her electrolytes" toID="E59" toText="normal limits" type="OVERLAP" senid="32" pred="0.9998857975006104" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

@@ -70,8 +70,40 @@ He was discharged home on Neupogen .
 <TIMEX3 id="T5" start="970" end="978" text="10/20/95" type="DATE" val="1995-10-20" mod="NA" />
 <SECTIME id="S0" start="18" end="26" text="10/17/95" type="ADMISSION" dvalue="1995-10-17" />
 <SECTIME id="S1" start="44" end="52" text="10/20/95" type="DISCHARGE" dvalue="1995-10-20" />
-<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="10/17/95" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="T2" fromText="q.d." toID="E17" toText="Neupogen" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E37" fromText="Neupogen" toID="E36" toText="discharged" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T0" toText="10/17/95" type="OVERLAP" senid="2" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="T2" fromText="q.d." toID="E17" toText="Neupogen" type="OVERLAP" senid="10" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E37" fromText="Neupogen" toID="E36" toText="discharged" type="BEFORE" senid="19" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E35" fromText="discharge" toID="E36" toText="discharged" type="OVERLAP" senid="19" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E1" fromText="DISCHARGE" toID="T1" toText="10/20/95" type="OVERLAP" senid="3" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E15" fromText="neuropathy" toID="E16" toText="Taxol" type="AFTER" senid="8" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E11" fromText="Other medical problems" toID="E12" toText="hypothyroidism" type="OVERLAP" senid="8" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E12" fromText="hypothyroidism" toID="E13" toText="hypercholesterolemia" type="OVERLAP" senid="8" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E13" fromText="hypercholesterolemia" toID="E14" toText="hypertension" type="OVERLAP" senid="8" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E14" fromText="hypertension" toID="E15" toText="neuropathy" type="OVERLAP" senid="8" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E30" fromText="diarrhea" toID="T4" toText="10/20" type="OVERLAP" senid="17" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E30" fromText="diarrhea" toID="E31" toText="well" type="OVERLAP" senid="17" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E30" fromText="diarrhea" toID="E29" toText="some diarrhea" type="OVERLAP" senid="16" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E33" fromText="The neutropenia" toID="E38" toText="resolved" type="BEFORE" senid="18" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E34" fromText="satisfactory condition" toID="E35" toText="discharge" type="OVERLAP" senid="18" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E31" fromText="well" toID="E32" toText="afebrile" type="OVERLAP" senid="18" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E38" fromText="resolved" toID="E34" toText="satisfactory condition" type="AFTER" senid="18" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E35" fromText="discharge" toID="T5" toText="10/20/95" type="OVERLAP" senid="18" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E2" fromText="squamous cell carcinoma of the lung" toID="E3" toText="lobectomy" type="BEFORE" senid="6" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E5" fromText="left cervical recurrence" toID="E6" toText="admitted" type="BEFORE" senid="6" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E6" fromText="admitted" toID="E7" toText="fever" type="AFTER" senid="6" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E8" fromText="neutropenia" toID="E6" toText="admitted" type="BEFORE" senid="6" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E3" fromText="lobectomy" toID="E4" toText="resection" type="OVERLAP" senid="6" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E5" fromText="left cervical recurrence" toID="E4" toText="resection" type="BEFORE" senid="6" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E7" fromText="fever" toID="E8" toText="neutropenia" type="OVERLAP" senid="6" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E28" fromText="WBC" toID="T3" toText="10/19" type="OVERLAP" senid="15" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E21" fromText="nodule in the right lower lobe" toID="E19" toText="Chest x-ray" type="BEFORE" senid="12" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E19" fromText="Chest x-ray" toID="E20" toText="showed" type="OVERLAP" senid="12" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E21" fromText="nodule in the right lower lobe" toID="E22" toText="stable" type="BEFORE" senid="12" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E23" fromText="Calcium" toID="E24" toText="bilirubin" type="OVERLAP" senid="13" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E24" fromText="bilirubin" toID="E25" toText="creatinine" type="OVERLAP" senid="13" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E25" fromText="creatinine" toID="E26" toText="glucose" type="OVERLAP" senid="13" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E26" fromText="glucose" toID="E27" toText="Hematocrit" type="OVERLAP" senid="13" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E9" fromText="outpatient chemotherapy" toID="E10" toText="the CAMP Program" type="OVERLAP" senid="7" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E27" fromText="Hematocrit" toID="E28" toText="WBC" type="OVERLAP" senid="14" pred="0.9999250173568726" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

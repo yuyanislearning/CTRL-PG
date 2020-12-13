@@ -112,8 +112,68 @@ Potassium was given with her intravenous fluids and phosphate will be repleted a
 <TIMEX3 id="T6" start="787" end="795" text="per hour" type="FREQUENCY" val="RPT1H" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2010-07-15" type="ADMISSION" dvalue="2010-07-15" />
 <SECTIME id="S1" start="46" end="56" text="2010-07-18" type="DISCHARGE" dvalue="2010-07-18" />
-<TLINK id="TL1" fromID="E54" fromText="intravenous fluids" toID="E55" toText="good po" type="BEFORE" senid="31" />
-<TLINK id="TL2" fromID="E30" fromText="Her fingersticks" toID="E32" toText="the insulin drip" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E31" fromText="decreased" toID="E32" toText="the insulin drip" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E54" fromText="intravenous fluids" toID="E55" toText="good po" type="BEFORE" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E30" fromText="Her fingersticks" toID="E32" toText="the insulin drip" type="AFTER" senid="13" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E31" fromText="decreased" toID="E32" toText="the insulin drip" type="AFTER" senid="13" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E36" fromText="an insulin drip" toID="E32" toText="the insulin drip" type="AFTER" senid="13" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E49" fromText="the floor" toID="E48" toText="transferred" type="OVERLAP" senid="20" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E50" fromText="fingersticks" toID="E49" toText="the floor" type="OVERLAP" senid="20" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E50" fromText="fingersticks" toID="T2" toText="every four hours" type="OVERLAP" senid="20" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E50" fromText="fingersticks" toID="E51" toText="a sliding scale" type="OVERLAP" senid="20" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E52" fromText="fingersticks" toID="E50" toText="fingersticks" type="OVERLAP" senid="20" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E46" fromText="denied" toID="E47" toText="any more gastrointestinal symptoms" type="AFTER" senid="18" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E28" fromText="an insulin drip" toID="E27" toText="two boluses of 15 units of regular insulin" type="OVERLAP" senid="12" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E28" fromText="an insulin drip" toID="T6" toText="per hour" type="OVERLAP" senid="12" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E32" fromText="the insulin drip" toID="E28" toText="an insulin drip" type="OVERLAP" senid="12" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E33" fromText="the intravenous fluids" toID="E29" toText="a total of five liters of normal saline" type="OVERLAP" senid="12" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E16" fromText="fevers" toID="E14" toText="denied" type="BEFORE" senid="10" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E17" fromText="chills" toID="E14" toText="denied" type="BEFORE" senid="10" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E18" fromText="chest pain" toID="E14" toText="denied" type="BEFORE" senid="10" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E19" fromText="shortness of breath" toID="E14" toText="denied" type="BEFORE" senid="10" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E20" fromText="dysuria" toID="E14" toText="denied" type="BEFORE" senid="10" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E21" fromText="state" toID="E14" toText="denied" type="OVERLAP" senid="10" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E22" fromText="her usual migraine headache" toID="T5" toText="the night" type="BEFORE" senid="10" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E1" fromText="Discharge" toID="T1" toText="2010-07-18" type="OVERLAP" senid="3" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E45" fromText="her drip" toID="E44" toText="a regular sliding scale" type="BEFORE" senid="17" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E43" fromText="Her NPH" toID="E44" toText="a regular sliding scale" type="OVERLAP" senid="17" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E41" fromText="Her anion gap" toID="T3" toText="overnight" type="OVERLAP" senid="15" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E39" fromText="did well" toID="T3" toText="overnight" type="OVERLAP" senid="15" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E42" fromText="her fingersticks" toID="T3" toText="overnight" type="OVERLAP" senid="15" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="T0" fromText="2010-07-15" toID="E0" toText="Admission" type="OVERLAP" senid="2" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="T4" fromText="24 hours" toID="E4" toText="presented" type="BEFORE" senid="8" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E4" fromText="presented" toID="E5" toText="complaints" type="OVERLAP" senid="8" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E6" fromText="nausea" toID="T4" toText="24 hours" type="OVERLAP" senid="8" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E7" fromText="diarrhea" toID="T4" toText="24 hours" type="OVERLAP" senid="8" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E8" fromText="vomiting" toID="T4" toText="24 hours" type="OVERLAP" senid="8" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E10" fromText="states" toID="E4" toText="presented" type="OVERLAP" senid="8" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E12" fromText="her usual insulin regimen" toID="E2" toText="diabetes type 1" type="OVERLAP" senid="8" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E13" fromText="vomiting" toID="E8" toText="vomiting" type="OVERLAP" senid="8" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E58" fromText="white count" toID="E59" toText="discharge" type="BEFORE" senid="25" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E60" fromText="afebrile" toID="E59" toText="discharge" type="BEFORE" senid="25" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E63" fromText="short gastrointestinal infection" toID="E61" toText="elevated white blood cell" type="BEFORE" senid="25" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E64" fromText="symptom free" toID="E65" toText="discharge" type="OVERLAP" senid="25" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E58" fromText="white count" toID="E56" toText="an elevated white count" type="OVERLAP" senid="25" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E56" fromText="an elevated white count" toID="E57" toText="admission" type="OVERLAP" senid="25" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E56" fromText="an elevated white count" toID="E61" toText="elevated white blood cell" type="OVERLAP" senid="25" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E57" fromText="admission" toID="E62" toText="admission" type="OVERLAP" senid="25" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E65" fromText="discharge" toID="E59" toText="discharge" type="OVERLAP" senid="25" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E53" fromText="Sliding scale" toID="E51" toText="a sliding scale" type="OVERLAP" senid="21" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E27" fromText="two boluses of 15 units of regular insulin" toID="E26" toText="a fingerstick" type="OVERLAP" senid="11" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E23" fromText="The patient &#39;s arterial blood gases" toID="E24" toText="the Emergency Department" type="OVERLAP" senid="11" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E23" fromText="The patient &#39;s arterial blood gases" toID="E25" toText="a bicarbonate" type="OVERLAP" senid="11" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E26" fromText="a fingerstick" toID="E24" toText="the Emergency Department" type="OVERLAP" senid="11" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E29" fromText="a total of five liters of normal saline" toID="E24" toText="the Emergency Department" type="OVERLAP" senid="11" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E36" fromText="an insulin drip" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" senid="14" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E35" fromText="the Intensive Care Unit" toID="E34" toText="admitted" type="AFTER" senid="14" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="T3" fromText="overnight" toID="E34" toText="admitted" type="AFTER" senid="14" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E37" fromText="frequent blood sugar monitoring" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" senid="14" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E38" fromText="Chem-7 monitoring" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" senid="14" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E40" fromText="the Medical Intensive Care Unit" toID="E35" toText="the Intensive Care Unit" type="OVERLAP" senid="14" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E71" fromText="repleted" toID="E72" toText="her po intake" type="OVERLAP" senid="27" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E68" fromText="Potassium" toID="E69" toText="her intravenous fluids" type="OVERLAP" senid="27" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E70" fromText="phosphate" toID="E71" toText="repleted" type="OVERLAP" senid="27" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E10" fromText="states" toID="E14" toText="denied" type="OVERLAP" senid="9" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E11" fromText="unable to take" toID="E13" toText="vomiting" type="AFTER" senid="9" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E67" fromText="repleted" toID="E66" toText="The patient &#39;s electrolytes" type="OVERLAP" senid="26" pred="0.9999316930770874" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

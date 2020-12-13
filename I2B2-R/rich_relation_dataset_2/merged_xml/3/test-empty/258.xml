@@ -164,8 +164,88 @@ Calcium carbonate 500 mg p.o. t.i.d. , Mag oxide 400 mg p.o. times one dose , po
 <TIMEX3 id="T1" start="46" end="56" text="2011-02-08" type="DATE" val="2011-02-08" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2011-02-06" type="ADMISSION" dvalue="2011-02-06" />
 <SECTIME id="S1" start="46" end="56" text="2011-02-08" type="DISCHARGE" dvalue="2011-02-08" />
-<TLINK id="TL1" fromID="E48" fromText="any chest pain" toID="E47" toText="denies" type="BEFORE" senid="31" />
-<TLINK id="TL2" fromID="E49" fromText="shortness of breath" toID="E47" toText="denies" type="BEFORE" senid="32" />
-<TLINK id="TL3" fromID="E50" fromText="dysuria" toID="E47" toText="denies" type="BEFORE" senid="33" />
+<TLINK id="TL1" fromID="E48" fromText="any chest pain" toID="E47" toText="denies" type="BEFORE" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E49" fromText="shortness of breath" toID="E47" toText="denies" type="BEFORE" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E50" fromText="dysuria" toID="E47" toText="denies" type="BEFORE" senid="23" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E51" fromText="diarrhea" toID="E47" toText="denies" type="BEFORE" senid="23" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E52" fromText="bright red blood per rectum" toID="E47" toText="denies" type="BEFORE" senid="23" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E53" fromText="complain" toID="E47" toText="denies" type="OVERLAP" senid="23" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E73" fromText="Blood pressure" toID="E74" toText="The patient &#39;s blood pressure" type="OVERLAP" senid="34" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E17" fromText="does not recall walking home" toID="E14" toText="ran into some friends" type="OVERLAP" senid="13" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E18" fromText="states" toID="E97" toText="denies" type="OVERLAP" senid="13" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E54" fromText="cold symptoms" toID="T4" toText="one week" type="OVERLAP" senid="24" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E37" fromText="a normal saline bolus" toID="E35" toText="a systolic blood pressure" type="OVERLAP" senid="20" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E35" fromText="a systolic blood pressure" toID="E33" toText="hypotensive" type="OVERLAP" senid="20" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E35" fromText="a systolic blood pressure" toID="E36" toText="decreased respiratory rate" type="OVERLAP" senid="20" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E84" fromText="mild tremor on hands" toID="T10" toText="hospital day #3" type="OVERLAP" senid="39" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E84" fromText="mild tremor on hands" toID="T9" toText="Hospital day #2" type="OVERLAP" senid="39" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E86" fromText="hospital stay" toID="E99" toText="hospital course" type="OVERLAP" senid="39" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E33" fromText="hypotensive" toID="E31" toText="Haldol" type="OVERLAP" senid="19" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E28" fromText="Agitated" toID="E29" toText="emergency room" type="OVERLAP" senid="19" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E28" fromText="Agitated" toID="E30" toText="4 leather restraints" type="BEFORE" senid="19" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E31" fromText="Haldol" toID="E30" toText="4 leather restraints" type="OVERLAP" senid="19" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E32" fromText="Ativan" toID="E31" toText="Haldol" type="OVERLAP" senid="19" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E34" fromText="the emergency room" toID="E29" toText="emergency room" type="OVERLAP" senid="19" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E79" fromText="asymptomatic" toID="E80" toText="chest pain" type="OVERLAP" senid="37" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E81" fromText="shortness of breath" toID="E79" toText="asymptomatic" type="OVERLAP" senid="37" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E82" fromText="mental status changes" toID="E79" toText="asymptomatic" type="OVERLAP" senid="37" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="T12" fromText="t.i.d." toID="E94" toText="Calcium carbonate" type="OVERLAP" senid="44" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E95" fromText="Mag oxide" toID="T13" toText="times one dose" type="OVERLAP" senid="44" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E96" fromText="potassium chloride" toID="T14" toText="times one dose" type="OVERLAP" senid="44" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E12" fromText="a few cocktails" toID="E13" toText="a few more glasses of wine" type="OVERLAP" senid="12" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E14" fromText="ran into some friends" toID="E13" toText="a few more glasses of wine" type="BEFORE" senid="12" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E97" fromText="denies" toID="E11" toText="told" type="OVERLAP" senid="12" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E15" fromText="other drug" toID="E13" toText="a few more glasses of wine" type="BEFORE" senid="12" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E16" fromText="toxin ingestion" toID="E13" toText="a few more glasses of wine" type="BEFORE" senid="12" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E40" fromText="the medical Intensive Care Unit" toID="E43" toText="transferred" type="BEFORE" senid="22" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E40" fromText="the medical Intensive Care Unit" toID="E39" toText="admitted" type="AFTER" senid="22" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E43" fromText="transferred" toID="T3" toText="overnight" type="BEFORE" senid="22" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E44" fromText="service on medicine" toID="E43" toText="transferred" type="AFTER" senid="22" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E41" fromText="observation" toID="E40" toText="the medical Intensive Care Unit" type="OVERLAP" senid="22" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E42" fromText="his blood pressure" toID="E41" toText="observation" type="OVERLAP" senid="22" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E45" fromText="the blood pressures" toID="T3" toText="overnight" type="OVERLAP" senid="22" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E46" fromText="stable" toID="T3" toText="overnight" type="OVERLAP" senid="22" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E47" fromText="denies" toID="E43" toText="transferred" type="OVERLAP" senid="22" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E79" fromText="asymptomatic" toID="E74" toText="The patient &#39;s blood pressure" type="OVERLAP" senid="36" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E10" fromText="two glasses of red wine" toID="E7" toText="going out alone" type="OVERLAP" senid="10" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E6" fromText="states" toID="E9" toText="admission" type="BEFORE" senid="10" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E7" fromText="going out alone" toID="T2" toText="the evening" type="OVERLAP" senid="10" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E75" fromText="stable" toID="T7" toText="hospital day #2" type="OVERLAP" senid="35" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E75" fromText="stable" toID="E76" toText="IV hydration" type="AFTER" senid="35" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E75" fromText="stable" toID="E74" toText="The patient &#39;s blood pressure" type="OVERLAP" senid="35" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E77" fromText="systolic blood pressures" toID="E74" toText="The patient &#39;s blood pressure" type="OVERLAP" senid="35" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E1" fromText="Discharge" toID="T1" toText="2011-02-08" type="OVERLAP" senid="3" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E27" fromText="Blood alcohol level" toID="E25" toText="EMS was called" type="AFTER" senid="17" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E87" fromText="CIWA scale" toID="T11" toText="over night" type="OVERLAP" senid="41" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E88" fromText="tremor" toID="E87" toText="CIWA scale" type="OVERLAP" senid="41" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E89" fromText="Valium" toID="E90" toText="alcohol withdrawal" type="OVERLAP" senid="41" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E21" fromText="the emergency room" toID="E20" toText="presented" type="AFTER" senid="15" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E22" fromText="emergency room" toID="E21" toText="the emergency room" type="OVERLAP" senid="15" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E0" fromText="Admission" toID="T0" toText="2011-02-06" type="OVERLAP" senid="2" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E93" fromText="Call" toID="E92" toText="follow up" type="OVERLAP" senid="42" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E93" fromText="Call" toID="E91" toText="discharged" type="AFTER" senid="42" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E57" fromText="Star" toID="E56" toText="alcohol treatment programs" type="OVERLAP" senid="25" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E58" fromText="admits" toID="E55" toText="states" type="OVERLAP" senid="25" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E85" fromText="notably less anxious" toID="E86" toText="hospital stay" type="OVERLAP" senid="40" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="T11" fromText="over night" toID="T10" toText="hospital day #3" type="OVERLAP" senid="40" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E90" fromText="alcohol withdrawal" toID="E86" toText="hospital stay" type="OVERLAP" senid="40" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="E66" fromText="very depressed" toID="E67" toText="a counselor" type="BEFORE" senid="31" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E68" fromText="Greenfield Community College Community Health" toID="E67" toText="a counselor" type="OVERLAP" senid="31" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="E38" fromText="good blood pressure response" toID="E37" toText="a normal saline bolus" type="OVERLAP" senid="21" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E39" fromText="admitted" toID="E38" toText="good blood pressure response" type="AFTER" senid="21" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E12" fromText="a few cocktails" toID="E10" toText="two glasses of red wine" type="OVERLAP" senid="11" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="E11" fromText="told" toID="E6" toText="states" type="OVERLAP" senid="11" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E98" fromText="further recollection" toID="E17" toText="does not recall walking home" type="OVERLAP" senid="14" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E61" fromText="mentally handicapped" toID="E60" toText="unstable" type="OVERLAP" senid="27" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E20" fromText="presented" toID="E25" toText="EMS was called" type="BEFORE" senid="16" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E25" fromText="EMS was called" toID="E23" toText="found" type="AFTER" senid="16" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E23" fromText="found" toID="E24" toText="agitated" type="OVERLAP" senid="16" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E26" fromText="the emergency room" toID="E21" toText="the emergency room" type="OVERLAP" senid="16" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="E69" fromText="transferred" toID="T5" toText="hospital day #2" type="OVERLAP" senid="33" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E71" fromText="hemodynamically stable" toID="T6" toText="overnight" type="OVERLAP" senid="33" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="T6" fromText="overnight" toID="T5" toText="hospital day #2" type="BEFORE" senid="33" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E4" fromText="shouting" toID="E5" toText="very agitated" type="OVERLAP" senid="9" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E59" fromText="stressors" toID="E58" toText="admits" type="BEFORE" senid="26" pred="0.9998857975006104" />
+<TLINK id="TL83" fromID="E60" fromText="unstable" toID="E59" toText="stressors" type="OVERLAP" senid="26" pred="0.9998766183853149" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

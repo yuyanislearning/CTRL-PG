@@ -81,8 +81,39 @@ Also , a repeat outpatient CT colonoscopy with better preparation should be cons
 <TIMEX3 id="T2" start="468" end="474" text="Monday" type="DATE" val="2015-12-11" mod="APPROX" />
 <SECTIME id="S0" start="18" end="28" text="2015-12-03" type="ADMISSION" dvalue="2015-12-03" />
 <SECTIME id="S1" start="46" end="56" text="2015-12-08" type="DISCHARGE" dvalue="2015-12-08" />
-<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2015-12-03" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E37" fromText="sigmoid angulation" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE" senid="32" />
-<TLINK id="TL3" fromID="E38" fromText="inadequate preparation" toID="E36" toText="conventional and CT virtual colonoscopy" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2015-12-03" type="OVERLAP" senid="2" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E37" fromText="sigmoid angulation" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE" senid="19" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E38" fromText="inadequate preparation" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE" senid="19" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E39" fromText="Ct scan" toID="E36" toText="conventional and CT virtual colonoscopy" type="OVERLAP" senid="19" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E44" fromText="a mass in the right pelvis" toID="T3" toText="2015-03-28" type="BEFORE" senid="21" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E47" fromText="follow-up" toID="E45" toText="discharged" type="AFTER" senid="21" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E1" fromText="Discharge" toID="T1" toText="2015-12-08" type="OVERLAP" senid="3" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E2" fromText="recurrent bladder ca" toID="E3" toText="cystectomy" type="BEFORE" senid="8" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E5" fromText="BRBPR" toID="E6" toText="OSH" type="BEFORE" senid="8" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E3" fromText="cystectomy" toID="E4" toText="ileal conduit" type="OVERLAP" senid="8" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E31" fromText="Lovenox" toID="E30" toText="recurrent DVT s" type="OVERLAP" senid="17" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E34" fromText="Right lower quadrant source of bleed" toID="E33" toText="lower GI bleeding" type="OVERLAP" senid="17" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E40" fromText="a right psoas mass" toID="E39" toText="Ct scan" type="BEFORE" senid="20" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E41" fromText="a hematoma" toID="E40" toText="a right psoas mass" type="OVERLAP" senid="20" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E44" fromText="a mass in the right pelvis" toID="E40" toText="a right psoas mass" type="OVERLAP" senid="20" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E45" fromText="discharged" toID="E48" toText="a repeat outpatient CT colonoscopy" type="BEFORE" senid="22" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E48" fromText="a repeat outpatient CT colonoscopy" toID="E49" toText="better preparation" type="OVERLAP" senid="22" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E24" fromText="abd pain" toID="E23" toText="feeling well" type="BEFORE" senid="15" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E25" fromText="N/V" toID="E23" toText="feeling well" type="BEFORE" senid="15" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E26" fromText="LH" toID="E23" toText="feeling well" type="BEFORE" senid="15" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E27" fromText="SOB" toID="E23" toText="feeling well" type="BEFORE" senid="15" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E28" fromText="CP" toID="E23" toText="feeling well" type="BEFORE" senid="15" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E10" fromText="Cscope" toID="E13" toText="Tagged RBC" type="OVERLAP" senid="11" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E11" fromText="blood" toID="E10" toText="Cscope" type="BEFORE" senid="11" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E11" fromText="blood" toID="E12" toText="tics" type="OVERLAP" senid="11" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E13" fromText="Tagged RBC" toID="E15" toText="Transferred" type="BEFORE" senid="12" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E13" fromText="Tagged RBC" toID="E14" toText="activity in RLQ" type="OVERLAP" senid="12" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E8" fromText="dropped" toID="E7" toText="Hct" type="OVERLAP" senid="9" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E9" fromText="EGD" toID="E6" toText="OSH" type="AFTER" senid="9" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E16" fromText="Mediplex Rehab Hospital ICU" toID="E15" toText="Transferred" type="AFTER" senid="13" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E20" fromText="Seen" toID="E15" toText="Transferred" type="AFTER" senid="13" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E17" fromText="Hct" toID="E16" toText="Mediplex Rehab Hospital ICU" type="OVERLAP" senid="13" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E19" fromText="remained stable" toID="E17" toText="Hct" type="OVERLAP" senid="13" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E22" fromText="repeat scope" toID="T2" toText="Monday" type="OVERLAP" senid="14" pred="0.9999359846115112" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

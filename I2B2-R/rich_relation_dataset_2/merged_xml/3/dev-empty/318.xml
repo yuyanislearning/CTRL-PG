@@ -66,8 +66,30 @@ If her prothrombin time does not come into therapeutic range promptly , then sur
 
 <SECTIME id="S0" start="18" end="25" text="8/21/93" type="ADMISSION" dvalue="1993-8-21" />
 <SECTIME id="S1" start="43" end="50" text="8/23/93" type="DISCHARGE" dvalue="1993-8-23" />
-<TLINK id="TL1" fromID="E11" fromText="a neuro-interventional radiology procedure" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" senid="6" />
-<TLINK id="TL2" fromID="E5" fromText="the discharge summary" toID="T1" toText="August 10" type="OVERLAP" senid="7" />
-<TLINK id="TL3" fromID="E24" fromText="Coumadin" toID="E23" toText="take her last dose" type="OVERLAP" senid="8" />
+<TLINK id="TL1" fromID="E11" fromText="a neuro-interventional radiology procedure" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" senid="10" pred="0.9681692123413086" />
+<TLINK id="TL2" fromID="E5" fromText="the discharge summary" toID="T1" toText="August 10" type="OVERLAP" senid="8" pred="0.9997650980949402" />
+<TLINK id="TL3" fromID="E24" fromText="Coumadin" toID="E23" toText="take her last dose" type="OVERLAP" senid="17" pred="0.9997848868370056" />
+<TLINK id="TL4" fromID="E22" fromText="observed" toID="E21" toText="therapeutic range" type="AFTER" senid="17" pred="0.9915305376052856" />
+<TLINK id="TL5" fromID="E25" fromText="cardiac surgery" toID="T8" toText="September 1" type="AFTER" senid="17" pred="0.9999067783355713" />
+<TLINK id="TL6" fromID="E20" fromText="her prothrombin time" toID="E21" toText="therapeutic range" type="OVERLAP" senid="17" pred="0.9993411898612976" />
+<TLINK id="TL7" fromID="E22" fromText="observed" toID="E4" toText="epistaxis" type="OVERLAP" senid="17" pred="0.999758780002594" />
+<TLINK id="TL8" fromID="T8" fromText="September 1" toID="E23" toText="take her last dose" type="OVERLAP" senid="17" pred="0.9999129772186279" />
+<TLINK id="TL9" fromID="E19" fromText="Her prothrombin time" toID="T2" toText="August 27" type="OVERLAP" senid="16" pred="0.99993896484375" />
+<TLINK id="TL10" fromID="E19" fromText="Her prothrombin time" toID="E20" toText="her prothrombin time" type="OVERLAP" senid="16" pred="0.9996064305305481" />
+<TLINK id="TL11" fromID="E6" fromText="delayed" toID="E27" toText="come into therapeutic range" type="AFTER" senid="18" pred="0.9998644590377808" />
+<TLINK id="TL12" fromID="E20" fromText="her prothrombin time" toID="E26" toText="her prothrombin time" type="OVERLAP" senid="18" pred="0.999910831451416" />
+<TLINK id="TL13" fromID="E21" fromText="therapeutic range" toID="E27" toText="come into therapeutic range" type="OVERLAP" senid="18" pred="0.9998847246170044" />
+<TLINK id="TL14" fromID="E28" fromText="surgery" toID="E25" toText="cardiac surgery" type="OVERLAP" senid="18" pred="0.9999421834945679" />
+<TLINK id="TL15" fromID="E8" fromText="rheumatic heart disease" toID="E9" toText="Mitral and possibly tricuspid valve surgery" type="BEFORE" senid="6" pred="0.9998132586479187" />
+<TLINK id="TL16" fromID="E18" fromText="discharged" toID="E17" toText="the procedure" type="AFTER" senid="15" pred="0.9989697933197021" />
+<TLINK id="TL17" fromID="E16" fromText="Coumadin" toID="T6" toText="the evening following the procedure" type="OVERLAP" senid="15" pred="0.9984750151634216" />
+<TLINK id="TL18" fromID="E18" fromText="discharged" toID="T7" toText="the next day" type="OVERLAP" senid="15" pred="0.9998949766159058" />
+<TLINK id="TL19" fromID="T5" fromText="August 22" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" senid="11" pred="0.9999228715896606" />
+<TLINK id="TL20" fromID="E2" fromText="embolized" toID="E1" toText="The interventional neuro-radiology procedure" type="OVERLAP" senid="11" pred="0.9998237490653992" />
+<TLINK id="TL21" fromID="E13" fromText="Coumadin" toID="E12" toText="epistaxis" type="OVERLAP" senid="9" pred="0.9998648166656494" />
+<TLINK id="TL22" fromID="E12" fromText="epistaxis" toID="E11" toText="a neuro-interventional radiology procedure" type="OVERLAP" senid="9" pred="0.9995259046554565" />
+<TLINK id="TL23" fromID="E10" fromText="admitted" toID="E11" toText="a neuro-interventional radiology procedure" type="BEFORE" senid="9" pred="0.9998308420181274" />
+<TLINK id="TL24" fromID="E15" fromText="embolization on the left side" toID="E2" toText="embolized" type="OVERLAP" senid="13" pred="0.998977780342102" />
+<TLINK id="TL25" fromID="E9" fromText="Mitral and possibly tricuspid valve surgery" toID="T4" toText="Labor Day" type="OVERLAP" senid="7" pred="0.9999436140060425" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

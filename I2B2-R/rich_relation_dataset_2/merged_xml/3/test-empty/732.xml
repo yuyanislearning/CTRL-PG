@@ -219,8 +219,114 @@ He has been asymptomatic .
 <TIMEX3 id="T0" start="549" end="556" text="2.30 PM" type="TIME" val="2010-08-27T14:30" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2010-08-30" type="ADMISSION" dvalue="2010-08-30" />
 <SECTIME id="S1" start="46" end="56" text="2010-08-31" type="DISCHARGE" dvalue="2010-08-31" />
-<TLINK id="TL1" fromID="E18" fromText="HYPOGLYCEMIA" toID="E19" toText="very hypoglycemic" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E9" fromText="his extra insulin doses" toID="T7" toText="the night" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E86" fromText="kicked him out of the house" toID="T7" toText="the night" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E18" fromText="HYPOGLYCEMIA" toID="E19" toText="very hypoglycemic" type="OVERLAP" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E9" fromText="his extra insulin doses" toID="T7" toText="the night" type="OVERLAP" senid="13" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E86" fromText="kicked him out of the house" toID="T7" toText="the night" type="OVERLAP" senid="13" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E19" fromText="very hypoglycemic" toID="E59" toText="admission" type="BEFORE" senid="24" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E109" fromText="the ICU" toID="E108" toText="the Emergency Department" type="OVERLAP" senid="24" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E109" fromText="the ICU" toID="E22" toText="fingerstick glucoses" type="OVERLAP" senid="24" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E110" fromText="eat" toID="E109" toText="the ICU" type="AFTER" senid="24" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E100" fromText="complains" toID="E102" toText="denied" type="OVERLAP" senid="20" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E98" fromText="increased right upper quadrant / right rib cage pain" toID="E97" toText="complains" type="BEFORE" senid="19" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E99" fromText="new headache" toID="E97" toText="complains" type="BEFORE" senid="19" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E97" fromText="complains" toID="E100" toText="complains" type="OVERLAP" senid="19" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E95" fromText="His fingersticks" toID="E97" toText="complains" type="BEFORE" senid="18" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E132" fromText="his admission" toID="E133" toText="transferred" type="BEFORE" senid="37" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E135" fromText="further antidepressant treatment" toID="E134" toText="the Psychiatry HealthSouth New England Rehab Hospital" type="OVERLAP" senid="37" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E134" fromText="the Psychiatry HealthSouth New England Rehab Hospital" toID="E133" toText="transferred" type="AFTER" senid="37" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E131" fromText="a one-to-one sitter" toID="E132" toText="his admission" type="OVERLAP" senid="37" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E136" fromText="close follow-up" toID="E135" toText="further antidepressant treatment" type="OVERLAP" senid="37" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E50" fromText="Pepcid" toID="E51" toText="GI prophylaxis" type="OVERLAP" senid="46" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E47" fromText="a muscle strain" toID="E48" toText="other musculoskeletal cause" type="OVERLAP" senid="44" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E77" fromText="any seizure activity" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E78" fromText="loss of consciousness" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E79" fromText="incontinence" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E80" fromText="shortness of breath" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E81" fromText="fevers" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E82" fromText="chills" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E83" fromText="chest pain" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E84" fromText="change in urinary or bowel habits" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E85" fromText="suicidal ideation" toID="E76" toText="denied" type="BEFORE" senid="12" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E49" fromText="PROPHYLAXIS" toID="E51" toText="GI prophylaxis" type="OVERLAP" senid="45" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E128" fromText="admissions" toID="E33" toText="attempted suicide" type="OVERLAP" senid="36" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E33" fromText="attempted suicide" toID="E34" toText="overdose" type="OVERLAP" senid="36" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E34" fromText="overdose" toID="E35" toText="his insulin" type="OVERLAP" senid="36" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E72" fromText="improved" toID="E73" toText="eating a candy bar" type="AFTER" senid="10" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E74" fromText="called" toID="E72" toText="improved" type="AFTER" senid="10" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E57" fromText="Discharge" toID="T2" toText="2010-08-31" type="OVERLAP" senid="3" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E95" fromText="His fingersticks" toID="E16" toText="slow to increase" type="OVERLAP" senid="17" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E40" fromText="a right upper quadrant ultrasound" toID="E142" toText="his admission" type="OVERLAP" senid="41" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E149" fromText="asymptomatic" toID="E53" toText="hyperphosphatemic" type="OVERLAP" senid="50" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E91" fromText="states" toID="E89" toText="states" type="OVERLAP" senid="15" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E115" fromText="insulin" toID="E26" toText="poor compliance" type="AFTER" senid="28" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E26" fromText="poor compliance" toID="E27" toText="Richard Natalie diet" type="OVERLAP" senid="28" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E56" fromText="Admission" toID="T1" toText="2010-08-30" type="OVERLAP" senid="2" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E44" fromText="cholecystitis" toID="E40" toText="a right upper quadrant ultrasound" type="OVERLAP" senid="42" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E46" fromText="any abnormalities with the liver or kidneys" toID="E40" toText="a right upper quadrant ultrasound" type="BEFORE" senid="42" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E40" fromText="a right upper quadrant ultrasound" toID="E41" toText="LFTs" type="OVERLAP" senid="42" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E41" fromText="LFTs" toID="E42" toText="amylase" type="OVERLAP" senid="42" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E42" fromText="amylase" toID="E43" toText="lipase" type="OVERLAP" senid="42" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E65" fromText="persistent hypoglycemia" toID="E64" toText="admitted" type="BEFORE" senid="8" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E64" fromText="admitted" toID="T3" toText="2010-08-28" type="OVERLAP" senid="8" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E66" fromText="complained" toID="E64" toText="admitted" type="OVERLAP" senid="8" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E70" fromText="presentation" toID="E64" toText="admitted" type="AFTER" senid="8" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E22" fromText="fingerstick glucoses" toID="T9" toText="q.i.d." type="OVERLAP" senid="25" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E22" fromText="fingerstick glucoses" toID="T10" toText="3:00 a.m." type="OVERLAP" senid="25" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E38" fromText="his lisinopril" toID="E141" toText="fairly low" type="BEFORE" senid="40" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E140" fromText="His blood pressure" toID="E141" toText="fairly low" type="OVERLAP" senid="40" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E140" fromText="His blood pressure" toID="E142" toText="his admission" type="OVERLAP" senid="40" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="T14" fromText="three years" toID="T5" toText="2009-09-03" type="BEFORE" senid="31" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E119" fromText="alcoholism" toID="E120" toText="a half a pint of brandy" type="OVERLAP" senid="31" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E120" fromText="a half a pint of brandy" toID="T13" toText="per day" type="OVERLAP" senid="31" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E120" fromText="a half a pint of brandy" toID="T14" toText="three years" type="OVERLAP" senid="31" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E103" fromText="visual changes" toID="E102" toText="denied" type="BEFORE" senid="21" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E104" fromText="lightheadedness" toID="E102" toText="denied" type="BEFORE" senid="21" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E105" fromText="dizziness" toID="E102" toText="denied" type="BEFORE" senid="21" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="E106" fromText="neck stiffness" toID="E102" toText="denied" type="BEFORE" senid="21" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E107" fromText="pain in any other area" toID="E102" toText="denied" type="BEFORE" senid="21" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="E7" fromText="his blood sugar" toID="E74" toText="called" type="OVERLAP" senid="11" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E75" fromText="the Emergency Department" toID="E76" toText="denied" type="OVERLAP" senid="11" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="T8" fromText="four" toID="E87" toText="hospitalizations" type="OVERLAP" senid="14" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E87" fromText="hospitalizations" toID="E10" toText="attempted suicide" type="OVERLAP" senid="14" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E10" fromText="attempted suicide" toID="E11" toText="insulin overdosing" type="OVERLAP" senid="14" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="E88" fromText="denied" toID="E87" toText="hospitalizations" type="OVERLAP" senid="14" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E114" fromText="a snack" toID="T12" toText="midnight" type="OVERLAP" senid="27" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E144" fromText="overadministration" toID="E55" toText="calcium carbonate" type="BEFORE" senid="49" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E53" fromText="hyperphosphatemic" toID="E144" toText="overadministration" type="AFTER" senid="49" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E146" fromText="normalize" toID="E55" toText="calcium carbonate" type="OVERLAP" senid="49" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E144" fromText="overadministration" toID="E145" toText="his ICU stay" type="OVERLAP" senid="49" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E54" fromText="Neutra-Phos" toID="E144" toText="overadministration" type="OVERLAP" senid="49" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="T15" fromText="two" toID="E55" toText="calcium carbonate" type="OVERLAP" senid="49" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E147" fromText="calcium binding" toID="E146" toText="normalize" type="BEFORE" senid="49" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="E147" fromText="calcium binding" toID="E148" toText="urinary excretion" type="OVERLAP" senid="49" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E12" fromText="D50" toID="E13" toText="D5 normal saline" type="OVERLAP" senid="16" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E12" fromText="D50" toID="E92" toText="the Emergency Department" type="OVERLAP" senid="16" pred="0.9998857975006104" />
+<TLINK id="TL83" fromID="E13" fromText="D5 normal saline" toID="E14" toText="D10 normal saline" type="OVERLAP" senid="16" pred="0.9998766183853149" />
+<TLINK id="TL84" fromID="E14" fromText="D10 normal saline" toID="E15" toText="blood sugars" type="OVERLAP" senid="16" pred="0.9998466968536377" />
+<TLINK id="TL85" fromID="E15" fromText="blood sugars" toID="E16" toText="slow to increase" type="OVERLAP" senid="16" pred="0.9998082518577576" />
+<TLINK id="TL86" fromID="E17" fromText="tox screen" toID="E92" toText="the Emergency Department" type="OVERLAP" senid="16" pred="0.9999080896377563" />
+<TLINK id="TL87" fromID="E139" fromText="followed through" toID="E138" toText="set up" type="OVERLAP" senid="38" pred="0.9999300241470337" />
+<TLINK id="TL88" fromID="E52" fromText="Linda Chad diet" toID="E143" toText="hospitalized" type="OVERLAP" senid="48" pred="0.9998291730880737" />
+<TLINK id="TL89" fromID="E125" fromText="further addressed" toID="E124" toText="the Psychiatry Quincy Medical Center" type="OVERLAP" senid="33" pred="0.9998787641525269" />
+<TLINK id="TL90" fromID="E69" fromText="reported" toID="E66" toText="complained" type="OVERLAP" senid="9" pred="0.991712212562561" />
+<TLINK id="TL91" fromID="E71" fromText="not eating dinner" toID="E58" toText="insulin" type="AFTER" senid="9" pred="0.9999217987060547" />
+<TLINK id="TL92" fromID="E6" fromText="His symptoms" toID="E67" toText="drinking a 24 ounce beer" type="AFTER" senid="9" pred="0.9842959642410278" />
+<TLINK id="TL93" fromID="E73" fromText="eating a candy bar" toID="E58" toText="insulin" type="OVERLAP" senid="9" pred="0.9998949766159058" />
+<TLINK id="TL94" fromID="E1" fromText="diaphoresis" toID="E6" toText="His symptoms" type="BEFORE" senid="9" pred="0.9997454285621643" />
+<TLINK id="TL95" fromID="E2" fromText="confusion" toID="E6" toText="His symptoms" type="BEFORE" senid="9" pred="0.9999433755874634" />
+<TLINK id="TL96" fromID="E3" fromText="dizziness" toID="E6" toText="His symptoms" type="OVERLAP" senid="9" pred="0.9998795986175537" />
+<TLINK id="TL97" fromID="E4" fromText="lightheadedness" toID="E6" toText="His symptoms" type="OVERLAP" senid="9" pred="0.999790608882904" />
+<TLINK id="TL98" fromID="E5" fromText="NPH insulin" toID="E67" toText="drinking a 24 ounce beer" type="OVERLAP" senid="9" pred="0.9999343156814575" />
+<TLINK id="TL99" fromID="E5" fromText="NPH insulin" toID="T4" toText="the evening of 2010-08-27" type="OVERLAP" senid="9" pred="0.9963036775588989" />
+<TLINK id="TL100" fromID="E58" fromText="insulin" toID="E5" toText="NPH insulin" type="OVERLAP" senid="9" pred="0.9997921586036682" />
+<TLINK id="TL101" fromID="E25" fromText="sliding scale insulin" toID="E113" toText="discharge" type="BEFORE" senid="26" pred="0.9997902512550354" />
+<TLINK id="TL102" fromID="E112" fromText="decrease" toID="E23" toText="His glucose" type="AFTER" senid="26" pred="0.9999057054519653" />
+<TLINK id="TL103" fromID="E24" fromText="his p.m. NPH dose" toID="E112" toText="decrease" type="BEFORE" senid="26" pred="0.9999415874481201" />
+<TLINK id="TL104" fromID="E23" fromText="His glucose" toID="T11" toText="the morning of discharge" type="OVERLAP" senid="26" pred="0.999921441078186" />
+<TLINK id="TL105" fromID="E113" fromText="discharge" toID="E111" toText="discharge" type="OVERLAP" senid="26" pred="0.9999399185180664" />
+<TLINK id="TL106" fromID="E28" fromText="a diazepam CIWA scale prophylaxis" toID="E121" toText="his entire admission" type="OVERLAP" senid="32" pred="0.9999487400054932" />
+<TLINK id="TL107" fromID="E29" fromText="DT s;" toID="E28" toText="a diazepam CIWA scale prophylaxis" type="OVERLAP" senid="32" pred="0.9999151229858398" />
+<TLINK id="TL108" fromID="E30" fromText="a very low CIWA scale" toID="E121" toText="his entire admission" type="OVERLAP" senid="32" pred="0.9999330043792725" />
+<TLINK id="TL109" fromID="E31" fromText="any benzodiazepines" toID="E121" toText="his entire admission" type="OVERLAP" senid="32" pred="0.999893069267273" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

@@ -96,8 +96,62 @@ Following her recovery from chemotherapy , she will proceed to surgical resectio
 <SECTIME id="S0" start="18" end="25" text="5-30-93" type="ADMISSION" dvalue="1993-05-30" />
 <SECTIME id="S1" start="43" end="49" text="6-2-93" type="DISCHARGE" dvalue="1993-06-02" />
 
-<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T1" toText="5-30-93" type="OVERLAP" senid="6" />
-<TLINK id="TL2" fromID="E7" fromText="lung carcinoma" toID="T4" toText="April 1993" type="BEFORE" senid="7" />
-<TLINK id="TL3" fromID="E38" fromText="diagnosed" toID="T4" toText="April 1993" type="OVERLAP" senid="8" />
+<TLINK id="TL1" fromID="E0" fromText="ADMISSION" toID="T1" toText="5-30-93" type="OVERLAP" senid="2" pred="0.9681692123413086" />
+<TLINK id="TL2" fromID="E7" fromText="lung carcinoma" toID="T4" toText="April 1993" type="BEFORE" senid="10" pred="0.9997650980949402" />
+<TLINK id="TL3" fromID="E38" fromText="diagnosed" toID="T4" toText="April 1993" type="OVERLAP" senid="10" pred="0.9997848868370056" />
+<TLINK id="TL4" fromID="E8" fromText="Bronchoscopy" toID="E38" toText="diagnosed" type="AFTER" senid="10" pred="0.9915305376052856" />
+<TLINK id="TL5" fromID="E55" fromText="fluid overload" toID="E31" toText="mild increase" type="BEFORE" senid="19" pred="0.9999067783355713" />
+<TLINK id="TL6" fromID="E31" fromText="mild increase" toID="E32" toText="her hypertension" type="AFTER" senid="19" pred="0.9993411898612976" />
+<TLINK id="TL7" fromID="E31" fromText="mild increase" toID="E54" toText="the hospitalization" type="OVERLAP" senid="19" pred="0.999758780002594" />
+<TLINK id="TL8" fromID="E56" fromText="modest anemia" toID="E31" toText="mild increase" type="OVERLAP" senid="19" pred="0.9999129772186279" />
+<TLINK id="TL9" fromID="E58" fromText="her recovery" toID="E36" toText="this chemotherapy" type="AFTER" senid="21" pred="0.99993896484375" />
+<TLINK id="TL10" fromID="E59" fromText="surgical resection" toID="E58" toText="her recovery" type="AFTER" senid="21" pred="0.9996064305305481" />
+<TLINK id="TL11" fromID="E36" fromText="this chemotherapy" toID="E37" toText="chemotherapy" type="OVERLAP" senid="21" pred="0.9998644590377808" />
+<TLINK id="TL12" fromID="E37" fromText="chemotherapy" toID="E36" toText="this chemotherapy" type="OVERLAP" senid="21" pred="0.999910831451416" />
+<TLINK id="TL13" fromID="E42" fromText="DISCHARGE" toID="T2" toText="6-2-93" type="OVERLAP" senid="3" pred="0.9998847246170044" />
+<TLINK id="TL14" fromID="E3" fromText="Neoadjuvant chemotherapy" toID="E43" toText="admitted" type="AFTER" senid="8" pred="0.9999421834945679" />
+<TLINK id="TL15" fromID="E2" fromText="large cell carcinoma of the left upper lobe" toID="E1" toText="mixed adenocarcinoma" type="OVERLAP" senid="8" pred="0.9998132586479187" />
+<TLINK id="TL16" fromID="E4" fromText="Cisplatinum" toID="E3" toText="Neoadjuvant chemotherapy" type="OVERLAP" senid="8" pred="0.9989697933197021" />
+<TLINK id="TL17" fromID="E5" fromText="5-FU" toID="E4" toText="Cisplatinum" type="OVERLAP" senid="8" pred="0.9984750151634216" />
+<TLINK id="TL18" fromID="E6" fromText="Velban" toID="E5" toText="5-FU" type="OVERLAP" senid="8" pred="0.9998949766159058" />
+<TLINK id="TL19" fromID="E40" fromText="the Oncology Service" toID="E39" toText="admitted" type="AFTER" senid="17" pred="0.9999228715896606" />
+<TLINK id="TL20" fromID="E25" fromText="intravenous chemotherapy" toID="E40" toText="the Oncology Service" type="OVERLAP" senid="17" pred="0.9998237490653992" />
+<TLINK id="TL21" fromID="E25" fromText="intravenous chemotherapy" toID="E28" toText="the chemotherapy" type="OVERLAP" senid="17" pred="0.9998648166656494" />
+<TLINK id="TL22" fromID="E51" fromText="infusion of 5-FU , Vinblastine" toID="E25" toText="intravenous chemotherapy" type="OVERLAP" senid="17" pred="0.9995259046554565" />
+<TLINK id="TL23" fromID="E51" fromText="infusion of 5-FU , Vinblastine" toID="T0" toText="72 hour" type="OVERLAP" senid="17" pred="0.9998308420181274" />
+<TLINK id="TL24" fromID="E26" fromText="Vinblastine" toID="E51" toText="infusion of 5-FU , Vinblastine" type="OVERLAP" senid="17" pred="0.998977780342102" />
+<TLINK id="TL25" fromID="E26" fromText="Vinblastine" toID="T5" toText="day 1" type="OVERLAP" senid="17" pred="0.9999436140060425" />
+<TLINK id="TL26" fromID="E26" fromText="Vinblastine" toID="T6" toText="day 3" type="OVERLAP" senid="17" pred="0.9999185800552368" />
+<TLINK id="TL27" fromID="E26" fromText="Vinblastine" toID="E27" toText="Cisplatinum" type="OVERLAP" senid="17" pred="0.9998680353164673" />
+<TLINK id="TL28" fromID="E27" fromText="Cisplatinum" toID="T7" toText="day 1" type="OVERLAP" senid="17" pred="0.996446430683136" />
+<TLINK id="TL29" fromID="E28" fromText="the chemotherapy" toID="E25" toText="intravenous chemotherapy" type="OVERLAP" senid="17" pred="0.9386906623840332" />
+<TLINK id="TL30" fromID="E24" fromText="her second course of that therapy" toID="E25" toText="intravenous chemotherapy" type="OVERLAP" senid="16" pred="0.9999148845672607" />
+<TLINK id="TL31" fromID="E39" fromText="admitted" toID="E50" toText="admitted" type="OVERLAP" senid="16" pred="0.9998016953468323" />
+<TLINK id="TL32" fromID="E36" fromText="this chemotherapy" toID="E35" toText="unanticipated side effects" type="OVERLAP" senid="20" pred="0.9999237060546875" />
+<TLINK id="TL33" fromID="T8" fromText="the time" toID="E57" toText="discharge" type="OVERLAP" senid="20" pred="0.9999098777770996" />
+<TLINK id="TL34" fromID="E34" fromText="her hematocrit" toID="T8" toText="the time" type="OVERLAP" senid="20" pred="0.9999358654022217" />
+<TLINK id="TL35" fromID="E41" fromText="tolerated" toID="E28" toText="the chemotherapy" type="OVERLAP" senid="18" pred="0.9516977071762085" />
+<TLINK id="TL36" fromID="E41" fromText="tolerated" toID="E60" toText="well" type="OVERLAP" senid="18" pred="0.999945878982544" />
+<TLINK id="TL37" fromID="E52" fromText="nausea" toID="E60" toText="well" type="OVERLAP" senid="18" pred="0.9999212026596069" />
+<TLINK id="TL38" fromID="E30" fromText="vomiting" toID="E52" toText="nausea" type="OVERLAP" senid="18" pred="0.999903678894043" />
+<TLINK id="TL39" fromID="E10" fromText="an unresectable mediastinal tumor" toID="E44" toText="revealed" type="BEFORE" senid="11" pred="0.9999189376831055" />
+<TLINK id="TL40" fromID="E9" fromText="mediastinoscopy" toID="E8" toText="Bronchoscopy" type="OVERLAP" senid="11" pred="0.9985107779502869" />
+<TLINK id="TL41" fromID="E44" fromText="revealed" toID="E9" toText="mediastinoscopy" type="OVERLAP" senid="11" pred="0.9990991353988647" />
+<TLINK id="TL42" fromID="E11" fromText="cancer" toID="E10" toText="an unresectable mediastinal tumor" type="OVERLAP" senid="11" pred="0.9999228715896606" />
+<TLINK id="TL43" fromID="E12" fromText="anthracosis" toID="E11" toText="cancer" type="OVERLAP" senid="11" pred="0.9998986721038818" />
+<TLINK id="TL44" fromID="E13" fromText="Formal pathology" toID="E9" toText="mediastinoscopy" type="OVERLAP" senid="11" pred="0.999879002571106" />
+<TLINK id="TL45" fromID="E14" fromText="a poorly differentiated adenocarcinoma" toID="E46" toText="revealed" type="BEFORE" senid="12" pred="0.9999338388442993" />
+<TLINK id="TL46" fromID="E46" fromText="revealed" toID="E13" toText="Formal pathology" type="OVERLAP" senid="12" pred="0.9999068975448608" />
+<TLINK id="TL47" fromID="E15" fromText="focal giant cells" toID="E14" toText="a poorly differentiated adenocarcinoma" type="OVERLAP" senid="12" pred="0.9997511506080627" />
+<TLINK id="TL48" fromID="E16" fromText="Bone scan" toID="E13" toText="Formal pathology" type="OVERLAP" senid="12" pred="0.9998069405555725" />
+<TLINK id="TL49" fromID="E2" fromText="large cell carcinoma of the left upper lobe" toID="E7" toText="lung carcinoma" type="OVERLAP" senid="9" pred="0.9997819066047668" />
+<TLINK id="TL50" fromID="E19" fromText="metastatic disease" toID="E47" toText="staging studies" type="BEFORE" senid="13" pred="0.9999370574951172" />
+<TLINK id="TL51" fromID="E17" fromText="head CT" toID="E16" toText="Bone scan" type="OVERLAP" senid="13" pred="0.999919056892395" />
+<TLINK id="TL52" fromID="E47" fromText="staging studies" toID="E17" toText="head CT" type="OVERLAP" senid="13" pred="0.9999048709869385" />
+<TLINK id="TL53" fromID="E49" fromText="5 FU" toID="E48" toText="preoperative neoadjuvant chemotherapy" type="OVERLAP" senid="14" pred="0.9982442855834961" />
+<TLINK id="TL54" fromID="E21" fromText="Vinblastine" toID="E49" toText="5 FU" type="OVERLAP" senid="14" pred="0.9999157190322876" />
+<TLINK id="TL55" fromID="E22" fromText="Cisplatinum" toID="E21" toText="Vinblastine" type="OVERLAP" senid="14" pred="0.9268530607223511" />
+<TLINK id="TL56" fromID="E23" fromText="concomitant radiation therapy" toID="E22" toText="Cisplatinum" type="OVERLAP" senid="14" pred="0.9995868802070618" />
+<TLINK id="TL57" fromID="E24" fromText="her second course of that therapy" toID="E48" toText="preoperative neoadjuvant chemotherapy" type="AFTER" senid="14" pred="0.9997379183769226" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

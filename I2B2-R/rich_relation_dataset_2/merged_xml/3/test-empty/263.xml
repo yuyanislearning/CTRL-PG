@@ -183,8 +183,118 @@ He was continued on his aspirin , however .
 <TIMEX3 id="T5" start="579" end="587" text="one hour" type="DURATION" val="PT1H" mod="APPROX" />
 <SECTIME id="S0" start="18" end="28" text="2015-03-16" type="ADMISSION" dvalue="2015-03-16" />
 <SECTIME id="S1" start="46" end="56" text="2015-03-19" type="DISCHARGE" dvalue="2015-03-19" />
-<TLINK id="TL1" fromID="E21" fromText="a non-ST elevation MI" toID="E23" toText="angioplasty" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E21" fromText="a non-ST elevation MI" toID="E22" toText="an 80 percent mid LAD lesion" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E23" fromText="angioplasty" toID="E24" toText="stent placement" type="OVERLAP" senid="33" />
+<TLINK id="TL1" fromID="E21" fromText="a non-ST elevation MI" toID="E23" toText="angioplasty" type="BEFORE" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E21" fromText="a non-ST elevation MI" toID="E22" toText="an 80 percent mid LAD lesion" type="OVERLAP" senid="23" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E23" fromText="angioplasty" toID="E24" toText="stent placement" type="OVERLAP" senid="23" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E43" fromText="his MDI" toID="E114" toText="admission" type="BEFORE" senid="34" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E113" fromText="his baseline 02 requirement" toID="E114" toText="admission" type="BEFORE" senid="34" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E17" fromText="similar symptoms" toID="E73" toText="denied" type="BEFORE" senid="13" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="E19" fromText="myocardial infarction" toID="E73" toText="denied" type="BEFORE" senid="13" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E18" fromText="angina" toID="E17" toText="similar symptoms" type="OVERLAP" senid="13" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E25" fromText="aspirin" toID="E26" toText="Plavix" type="OVERLAP" senid="24" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E26" fromText="Plavix" toID="E27" toText="beta blocker" type="OVERLAP" senid="24" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E27" fromText="beta blocker" toID="E28" toText="statin" type="OVERLAP" senid="24" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E28" fromText="statin" toID="E29" toText="ACE inhibitor" type="OVERLAP" senid="24" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E101" fromText="pressors" toID="E58" toText="admitted" type="AFTER" senid="20" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E102" fromText="hemodynamically stable" toID="E58" toText="admitted" type="AFTER" senid="20" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E103" fromText="pain-free" toID="E58" toText="admitted" type="AFTER" senid="20" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E49" fromText="close monitoring" toID="E63" toText="discharge" type="AFTER" senid="39" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E49" fromText="close monitoring" toID="E119" toText="his creatinine" type="OVERLAP" senid="39" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E99" fromText="stents" toID="E100" toText="the catheterization" type="OVERLAP" senid="19" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E115" fromText="His ACE inhibitor" toID="E116" toText="his creatinine" type="OVERLAP" senid="37" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E115" fromText="His ACE inhibitor" toID="E47" toText="MI" type="AFTER" senid="37" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E118" fromText="his ACE inhibitor" toID="E115" toText="His ACE inhibitor" type="OVERLAP" senid="37" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E117" fromText="this" toID="E116" toText="his creatinine" type="OVERLAP" senid="37" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E45" fromText="hypertension" toID="E44" toText="chronic renal insufficiency" type="BEFORE" senid="36" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E46" fromText="a creatinine" toID="E61" toText="admitted" type="OVERLAP" senid="36" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E6" fromText="The symptoms" toID="E7" toText="diaphoresis" type="OVERLAP" senid="10" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E6" fromText="The symptoms" toID="E8" toText="shortness of breath" type="OVERLAP" senid="10" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E6" fromText="The symptoms" toID="E9" toText="nausea" type="OVERLAP" senid="10" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E6" fromText="The symptoms" toID="E10" toText="vomiting" type="OVERLAP" senid="10" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E35" fromText="an underlying right bundle branch block" toID="E109" toText="stable" type="OVERLAP" senid="29" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E36" fromText="first-degree AV block" toID="E109" toText="stable" type="OVERLAP" senid="29" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E109" fromText="stable" toID="E110" toText="this admission" type="OVERLAP" senid="29" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E67" fromText="Discharge" toID="T2" toText="2015-03-19" type="OVERLAP" senid="3" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E94" fromText="a bedside transthoracic echocardiogram" toID="E95" toText="the Cardiac Catheterization laboratory" type="OVERLAP" senid="17" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E97" fromText="an effusion" toID="E94" toText="a bedside transthoracic echocardiogram" type="OVERLAP" senid="17" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E98" fromText="A Swan" toID="E95" toText="the Cardiac Catheterization laboratory" type="OVERLAP" senid="17" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E123" fromText="GI bleed" toID="E50" toText="Guaiac positive stools" type="AFTER" senid="41" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E50" fromText="Guaiac positive stools" toID="E121" toText="Guaiac positive" type="OVERLAP" senid="41" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E121" fromText="Guaiac positive" toID="E122" toText="the outside hospital" type="OVERLAP" senid="41" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E50" fromText="Guaiac positive stools" toID="E124" toText="this admission" type="OVERLAP" senid="41" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E125" fromText="a slight drop in his hematocrit" toID="E124" toText="this admission" type="BEFORE" senid="41" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E81" fromText="a long LAD lesion" toID="E80" toText="revealed" type="BEFORE" senid="15" pred="0.9999388456344604" />
+<TLINK id="TL42" fromID="E78" fromText="the CMI Service" toID="E77" toText="admitted" type="AFTER" senid="15" pred="0.9997408986091614" />
+<TLINK id="TL43" fromID="E78" fromText="the CMI Service" toID="E79" toText="cardiac catheterization" type="AFTER" senid="15" pred="0.9998990297317505" />
+<TLINK id="TL44" fromID="E82" fromText="angioplastied" toID="E81" toText="a long LAD lesion" type="OVERLAP" senid="15" pred="0.999947190284729" />
+<TLINK id="TL45" fromID="E85" fromText="hypotensive" toID="E79" toText="cardiac catheterization" type="AFTER" senid="15" pred="0.9992683529853821" />
+<TLINK id="TL46" fromID="E86" fromText="bradycardiac" toID="E79" toText="cardiac catheterization" type="AFTER" senid="15" pred="0.999920129776001" />
+<TLINK id="TL47" fromID="E77" fromText="admitted" toID="T6" toText="the time of transfer" type="OVERLAP" senid="15" pred="0.9999265670776367" />
+<TLINK id="TL48" fromID="E79" fromText="cardiac catheterization" toID="E82" toText="angioplastied" type="AFTER" senid="15" pred="0.9999467134475708" />
+<TLINK id="TL49" fromID="E80" fromText="revealed" toID="E79" toText="cardiac catheterization" type="OVERLAP" senid="15" pred="0.9999423027038574" />
+<TLINK id="TL50" fromID="E83" fromText="stent placement" toID="E82" toText="angioplastied" type="OVERLAP" senid="15" pred="0.9997196793556213" />
+<TLINK id="TL51" fromID="E84" fromText="a total occlusion of the RCA" toID="E79" toText="cardiac catheterization" type="BEFORE" senid="15" pred="0.995908260345459" />
+<TLINK id="TL52" fromID="E106" fromText="recurrent chest pain" toID="E108" toText="admission" type="OVERLAP" senid="28" pred="0.9998917579650879" />
+<TLINK id="TL53" fromID="E107" fromText="shortness of breath" toID="E108" toText="admission" type="OVERLAP" senid="28" pred="0.9999030828475952" />
+<TLINK id="TL54" fromID="E108" fromText="admission" toID="E110" toText="this admission" type="OVERLAP" senid="28" pred="0.9997531771659851" />
+<TLINK id="TL55" fromID="E0" fromText="Admission" toID="T1" toText="2015-03-16" type="OVERLAP" senid="2" pred="0.9999263286590576" />
+<TLINK id="TL56" fromID="E128" fromText="his PCP" toID="E52" toText="outpatient colonoscopy" type="BEFORE" senid="42" pred="0.9993370175361633" />
+<TLINK id="TL57" fromID="E126" fromText="His Plavix" toID="T9" toText="the time of discharge" type="BEFORE" senid="42" pred="0.999518632888794" />
+<TLINK id="TL58" fromID="E127" fromText="GI bleed" toID="T9" toText="the time of discharge" type="BEFORE" senid="42" pred="0.9997901320457458" />
+<TLINK id="TL59" fromID="E51" fromText="an outpatient GI workup" toID="E52" toText="outpatient colonoscopy" type="OVERLAP" senid="42" pred="0.9948977828025818" />
+<TLINK id="TL60" fromID="E53" fromText="a stent" toID="E54" toText="catheterization" type="OVERLAP" senid="42" pred="0.9999184608459473" />
+<TLINK id="TL61" fromID="E1" fromText="hypertension" toID="E56" toText="admission" type="BEFORE" senid="8" pred="0.999930739402771" />
+<TLINK id="TL62" fromID="E68" fromText="tobacco abuse" toID="E56" toText="admission" type="BEFORE" senid="8" pred="0.9790255427360535" />
+<TLINK id="TL63" fromID="E2" fromText="chronic renal insufficiency" toID="E56" toText="admission" type="BEFORE" senid="8" pred="0.9999316930770874" />
+<TLINK id="TL64" fromID="E3" fromText="a TIA" toID="E56" toText="admission" type="BEFORE" senid="8" pred="0.6971359848976135" />
+<TLINK id="TL65" fromID="E69" fromText="his usual state of health" toID="T3" toText="five nights prior" type="BEFORE" senid="8" pred="0.9997469782829285" />
+<TLINK id="TL66" fromID="T4" fromText="midnight" toID="T3" toText="five nights prior" type="OVERLAP" senid="8" pred="0.9986647367477417" />
+<TLINK id="TL67" fromID="E4" fromText="severe epigastric pain" toID="T4" toText="midnight" type="OVERLAP" senid="8" pred="0.9999222755432129" />
+<TLINK id="TL68" fromID="E4" fromText="severe epigastric pain" toID="E5" toText="bilateral arm numbness" type="OVERLAP" senid="8" pred="0.9999054670333862" />
+<TLINK id="TL69" fromID="E104" fromText="his Plavix" toID="T0" toText="the time of discharge" type="BEFORE" senid="25" pred="0.9973443150520325" />
+<TLINK id="TL70" fromID="E30" fromText="Guaiac positive stools" toID="T0" toText="the time of discharge" type="BEFORE" senid="25" pred="0.9999363422393799" />
+<TLINK id="TL71" fromID="E30" fromText="Guaiac positive stools" toID="E105" toText="admission" type="OVERLAP" senid="25" pred="0.999895453453064" />
+<TLINK id="TL72" fromID="E31" fromText="hematocrit drop" toID="E105" toText="admission" type="OVERLAP" senid="25" pred="0.9992409944534302" />
+<TLINK id="TL73" fromID="E112" fromText="his cardiologist" toID="E60" toText="discharge" type="AFTER" senid="30" pred="0.9195234179496765" />
+<TLINK id="TL74" fromID="E111" fromText="followed-up" toID="E112" toText="his cardiologist" type="OVERLAP" senid="30" pred="0.9993739724159241" />
+<TLINK id="TL75" fromID="E57" fromText="presented" toID="T5" toText="one hour" type="AFTER" senid="11" pred="0.9999349117279053" />
+<TLINK id="TL76" fromID="E70" fromText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" toID="E57" toText="presented" type="AFTER" senid="11" pred="0.9999269247055054" />
+<TLINK id="TL77" fromID="E14" fromText="nitrates" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="AFTER" senid="11" pred="0.9998867511749268" />
+<TLINK id="TL78" fromID="E15" fromText="heparin" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9999392032623291" />
+<TLINK id="TL79" fromID="E16" fromText="Integrelin" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9999179840087891" />
+<TLINK id="TL80" fromID="E11" fromText="a non-ST elevation MI" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9989342093467712" />
+<TLINK id="TL81" fromID="E12" fromText="a CK" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9515256285667419" />
+<TLINK id="TL82" fromID="E13" fromText="a peak CK MB" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9998857975006104" />
+<TLINK id="TL83" fromID="E71" fromText="troponin" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9998766183853149" />
+<TLINK id="TL84" fromID="E72" fromText="pain-free" toID="E70" toText="the Bristol County Tuberculosis Hospital Dana-Farber Cancer Institute Campus" type="OVERLAP" senid="11" pred="0.9998466968536377" />
+<TLINK id="TL85" fromID="E75" fromText="Youville Hospital" toID="E74" toText="transferred" type="AFTER" senid="14" pred="0.9998082518577576" />
+<TLINK id="TL86" fromID="E74" fromText="transferred" toID="T6" toText="the time of transfer" type="OVERLAP" senid="14" pred="0.9999080896377563" />
+<TLINK id="TL87" fromID="E20" fromText="cardiac catheterization" toID="E75" toText="Youville Hospital" type="OVERLAP" senid="14" pred="0.9999300241470337" />
+<TLINK id="TL88" fromID="E87" fromText="the Catheterization Laboratory" toID="E91" toText="transferred" type="BEFORE" senid="16" pred="0.9998291730880737" />
+<TLINK id="TL89" fromID="E86" fromText="bradycardiac" toID="E88" toText="IV fluids" type="BEFORE" senid="16" pred="0.9998787641525269" />
+<TLINK id="TL90" fromID="E92" fromText="the CCU" toID="E91" toText="transferred" type="AFTER" senid="16" pred="0.991712212562561" />
+<TLINK id="TL91" fromID="E85" fromText="hypotensive" toID="E87" toText="the Catheterization Laboratory" type="OVERLAP" senid="16" pred="0.9999217987060547" />
+<TLINK id="TL92" fromID="E86" fromText="bradycardiac" toID="E87" toText="the Catheterization Laboratory" type="OVERLAP" senid="16" pred="0.9842959642410278" />
+<TLINK id="TL93" fromID="E88" fromText="IV fluids" toID="E89" toText="dopamine" type="OVERLAP" senid="16" pred="0.9998949766159058" />
+<TLINK id="TL94" fromID="E89" fromText="dopamine" toID="E90" toText="Atropine" type="OVERLAP" senid="16" pred="0.9997454285621643" />
+<TLINK id="TL95" fromID="E93" fromText="further monitoring" toID="E92" toText="the CCU" type="OVERLAP" senid="16" pred="0.9999433755874634" />
+<TLINK id="TL96" fromID="E95" fromText="the Cardiac Catheterization laboratory" toID="E87" toText="the Catheterization Laboratory" type="OVERLAP" senid="16" pred="0.9998795986175537" />
+<TLINK id="TL97" fromID="E48" fromText="IV fluids" toID="E117" toText="this" type="AFTER" senid="38" pred="0.999790608882904" />
+<TLINK id="TL98" fromID="E118" fromText="his ACE inhibitor" toID="T8" toText="the time of discharge" type="AFTER" senid="38" pred="0.9999343156814575" />
+<TLINK id="TL99" fromID="E39" fromText="nasal cannula" toID="E114" toText="admission" type="BEFORE" senid="33" pred="0.9963036775588989" />
+<TLINK id="TL100" fromID="E40" fromText="Albuterol" toID="E114" toText="admission" type="BEFORE" senid="33" pred="0.9997921586036682" />
+<TLINK id="TL101" fromID="E41" fromText="Atrovent MDI" toID="E114" toText="admission" type="BEFORE" senid="33" pred="0.9997902512550354" />
+<TLINK id="TL102" fromID="E42" fromText="Flovent MDI" toID="E114" toText="admission" type="BEFORE" senid="33" pred="0.9999057054519653" />
+<TLINK id="TL103" fromID="E6" fromText="The symptoms" toID="E5" toText="bilateral arm numbness" type="OVERLAP" senid="9" pred="0.9999415874481201" />
+<TLINK id="TL104" fromID="E33" fromText="an ejection fraction" toID="E66" toText="showing" type="OVERLAP" senid="26" pred="0.999921441078186" />
+<TLINK id="TL105" fromID="E32" fromText="a transthoracic echocardiogram" toID="T7" toText="the day after admission" type="OVERLAP" senid="26" pred="0.9999399185180664" />
+<TLINK id="TL106" fromID="E32" fromText="a transthoracic echocardiogram" toID="E66" toText="showing" type="OVERLAP" senid="26" pred="0.9999487400054932" />
+<TLINK id="TL107" fromID="E66" fromText="showing" toID="E34" toText="focal wall motion abnormalities" type="OVERLAP" senid="26" pred="0.9999151229858398" />
+<TLINK id="TL108" fromID="E37" fromText="COPD" toID="E38" toText="02" type="OVERLAP" senid="32" pred="0.9999330043792725" />
+<TLINK id="TL109" fromID="E38" fromText="02" toID="E39" toText="nasal cannula" type="OVERLAP" senid="32" pred="0.999893069267273" />
+<TLINK id="TL110" fromID="E40" fromText="Albuterol" toID="E37" toText="COPD" type="OVERLAP" senid="32" pred="0.9999210834503174" />
+<TLINK id="TL111" fromID="E40" fromText="Albuterol" toID="T10" toText="p.r.n." type="OVERLAP" senid="32" pred="0.9999397993087769" />
+<TLINK id="TL112" fromID="E41" fromText="Atrovent MDI" toID="E37" toText="COPD" type="OVERLAP" senid="32" pred="0.9996252059936523" />
+<TLINK id="TL113" fromID="E41" fromText="Atrovent MDI" toID="T10" toText="p.r.n." type="OVERLAP" senid="32" pred="0.9998996257781982" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

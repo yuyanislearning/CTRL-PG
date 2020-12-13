@@ -110,8 +110,46 @@ The patient did not qualify for routine ophthalmology exams due to his gestation
 <TIMEX3 id="T2" start="46" end="56" text="2014-12-05" type="DATE" val="2014-12-05" mod="NA" />
 <SECTIME id="S0" start="18" end="28" text="2014-11-13" type="ADMISSION" dvalue="2014-11-13" />
 <SECTIME id="S1" start="46" end="56" text="2014-12-05" type="DISCHARGE" dvalue="2014-12-05" />
-<TLINK id="TL1" fromID="E43" fromText="medications" toID="T8" toText="this time" type="OVERLAP" senid="31" />
-<TLINK id="TL2" fromID="E21" fromText="ampicillin" toID="T6" toText="48 hours" type="OVERLAP" senid="32" />
-<TLINK id="TL3" fromID="E21" fromText="ampicillin" toID="E50" toText="negative" type="BEFORE" senid="33" />
+<TLINK id="TL1" fromID="E43" fromText="medications" toID="T8" toText="this time" type="OVERLAP" senid="23" pred="0.9999387264251709" />
+<TLINK id="TL2" fromID="E21" fromText="ampicillin" toID="T6" toText="48 hours" type="OVERLAP" senid="34" pred="0.9994900226593018" />
+<TLINK id="TL3" fromID="E21" fromText="ampicillin" toID="E50" toText="negative" type="BEFORE" senid="34" pred="0.9999444484710693" />
+<TLINK id="TL4" fromID="E22" fromText="gentamicin" toID="E50" toText="negative" type="BEFORE" senid="34" pred="0.9999339580535889" />
+<TLINK id="TL5" fromID="E23" fromText="blood cultures" toID="E50" toText="negative" type="OVERLAP" senid="34" pred="0.9998999834060669" />
+<TLINK id="TL6" fromID="E22" fromText="gentamicin" toID="T6" toText="48 hours" type="OVERLAP" senid="34" pred="0.9998792409896851" />
+<TLINK id="TL7" fromID="T13" fromText="5 days" toID="T14" toText="the time of discharge" type="AFTER" senid="24" pred="0.973271906375885" />
+<TLINK id="TL8" fromID="E9" fromText="apnea" toID="E10" toText="bradycardia of prematurity" type="OVERLAP" senid="24" pred="0.9999123811721802" />
+<TLINK id="TL9" fromID="E44" fromText="significant apneic or bradycardic spells" toID="T13" toText="5 days" type="OVERLAP" senid="24" pred="0.9046030044555664" />
+<TLINK id="TL10" fromID="E42" fromText="active issues" toID="T0" toText="this time" type="OVERLAP" senid="20" pred="0.9997313618659973" />
+<TLINK id="TL11" fromID="E25" fromText="Hearing screen" toID="E26" toText="automated auditory brainstem responses" type="OVERLAP" senid="39" pred="0.9999266862869263" />
+<TLINK id="TL12" fromID="E25" fromText="Hearing screen" toID="E51" toText="normal" type="OVERLAP" senid="39" pred="0.9998272061347961" />
+<TLINK id="TL13" fromID="E25" fromText="Hearing screen" toID="T7" toText="2014-11-24" type="OVERLAP" senid="39" pred="0.9994606375694275" />
+<TLINK id="TL14" fromID="E41" fromText="stable" toID="T0" toText="this time" type="OVERLAP" senid="19" pred="0.999911904335022" />
+<TLINK id="TL15" fromID="E8" fromText="hypotension" toID="T8" toText="this time" type="OVERLAP" senid="22" pred="0.9999198913574219" />
+<TLINK id="TL16" fromID="E3" fromText="normal spontaneous vaginal delivery" toID="E36" toText="delivered" type="OVERLAP" senid="10" pred="0.9999239444732666" />
+<TLINK id="TL17" fromID="E4" fromText="brief blow by" toID="E3" toText="normal spontaneous vaginal delivery" type="OVERLAP" senid="10" pred="0.5879969000816345" />
+<TLINK id="TL18" fromID="E4" fromText="brief blow by" toID="E5" toText="Apgars" type="OVERLAP" senid="10" pred="0.9998559951782227" />
+<TLINK id="TL19" fromID="E24" fromText="antibiotics" toID="T12" toText="that time" type="AFTER" senid="35" pred="0.9998262524604797" />
+<TLINK id="TL20" fromID="E13" fromText="peak bilirubin" toID="T11" toText="day of life 3" type="OVERLAP" senid="29" pred="0.9998281002044678" />
+<TLINK id="TL21" fromID="E30" fromText="Discharge" toID="T2" toText="2014-12-05" type="OVERLAP" senid="3" pred="0.999356210231781" />
+<TLINK id="TL22" fromID="E38" fromText="further episodes" toID="E6" toText="brief blow by oxygen" type="AFTER" senid="17" pred="0.9999233484268188" />
+<TLINK id="TL23" fromID="E6" fromText="brief blow by oxygen" toID="E37" toText="the delivery room" type="OVERLAP" senid="17" pred="0.9999326467514038" />
+<TLINK id="TL24" fromID="E38" fromText="further episodes" toID="E39" toText="ventilatory assistance" type="OVERLAP" senid="17" pred="0.9996939897537231" />
+<TLINK id="TL25" fromID="E39" fromText="ventilatory assistance" toID="E40" toText="good respiratory rate" type="OVERLAP" senid="17" pred="0.9999101161956787" />
+<TLINK id="TL26" fromID="E0" fromText="Admission" toID="T1" toText="2014-11-13" type="OVERLAP" senid="2" pred="0.9999113082885742" />
+<TLINK id="TL27" fromID="E27" fromText="routine ophthalmology exams" toID="E52" toText="birth" type="AFTER" senid="40" pred="0.9994723200798035" />
+<TLINK id="TL28" fromID="E47" fromText="This" toID="E48" toText="discharge feedings" type="AFTER" senid="27" pred="0.9998816251754761" />
+<TLINK id="TL29" fromID="E53" fromText="taken" toID="T10" toText="the past 5 days" type="OVERLAP" senid="27" pred="0.9999279975891113" />
+<TLINK id="TL30" fromID="E18" fromText="35 polys" toID="E17" toText="Initial differential" type="OVERLAP" senid="33" pred="0.9998836517333984" />
+<TLINK id="TL31" fromID="E19" fromText="zero bands" toID="E17" toText="Initial differential" type="OVERLAP" senid="33" pred="0.9999045133590698" />
+<TLINK id="TL32" fromID="E20" fromText="infectious condition" toID="E17" toText="Initial differential" type="BEFORE" senid="33" pred="0.9998974800109863" />
+<TLINK id="TL33" fromID="E45" fromText="full volume feeds" toID="T9" toText="day of life 6" type="AFTER" senid="26" pred="0.999930739402771" />
+<TLINK id="TL34" fromID="E11" fromText="Similac special care" toID="T5" toText="2014-12-03" type="BEFORE" senid="26" pred="0.9999359846115112" />
+<TLINK id="TL35" fromID="E46" fromText="this" toID="T5" toText="2014-12-03" type="OVERLAP" senid="26" pred="0.9999250173568726" />
+<TLINK id="TL36" fromID="E12" fromText="straight Similac" toID="E46" toText="this" type="OVERLAP" senid="26" pred="0.9998955726623535" />
+<TLINK id="TL37" fromID="E47" fromText="This" toID="E46" toText="this" type="OVERLAP" senid="26" pred="0.9998083710670471" />
+<TLINK id="TL38" fromID="E14" fromText="The patient &#39;s hematocrit" toID="E29" toText="delivery" type="OVERLAP" senid="32" pred="0.9997692704200745" />
+<TLINK id="TL39" fromID="E29" fromText="delivery" toID="E15" toText="a white count" type="OVERLAP" senid="32" pred="0.9999432563781738" />
+<TLINK id="TL40" fromID="E16" fromText="platelets" toID="E29" toText="delivery" type="OVERLAP" senid="32" pred="0.9999339580535889" />
+<TLINK id="TL41" fromID="E17" fromText="Initial differential" toID="E29" toText="delivery" type="OVERLAP" senid="32" pred="0.9999388456344604" />
 </TAGS>
 </ClinicalNarrativeTemporalAnnotation>

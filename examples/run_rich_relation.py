@@ -299,6 +299,8 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
         for batch in tqdm(eval_dataloader, desc="Evaluating"):
             model.eval()
             #batch = tuple(t.view(-1).to(args.device) if len(t.size()) ==2 else t.view(t.size()[0]*t.size()[1],-1).to(args.device) for t in batch) 
+            #print('batch', batch)
+
             batch = tuple(t.to(args.device) for t in batch)
 
             with torch.no_grad():
@@ -337,6 +339,10 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 preds = softmax(logits).detach().cpu().numpy()
                 out_label_ids = inputs['labels'].detach().cpu().numpy()
             else:
+                #print(nb_eval_steps)
+                #print('out_label_ids', out_label_ids)
+                #print('input labels', inputs['labels'].is_cuda)
+
                 preds = np.append(preds, softmax(logits).detach().cpu().numpy(), axis=0)
                 out_label_ids = np.append(out_label_ids, inputs['labels'].detach().cpu().numpy(), axis=0)
 
@@ -361,12 +367,13 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             labels = np.argmax(preds, axis=1)
             if not args.tbd:
                 preds = np.max(preds, axis = 1)
-            if args.tbd:
-                labels = out_label_ids
+            #if args.tbd:
+                #labels = np.max(preds, axis=1)#out_label_ids
 
         elif args.output_mode == "regression":
             labels = np.squeeze(preds)
             preds = np.max(preds, axis = 1)
+
         result = compute_metrics(eval_task, labels , out_label_ids)
         results.update(result)
 
@@ -441,10 +448,12 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 #     while len(str(doc_id))<4:
                 #         doc_id = '0' + str(doc_id)
                 if args.tbd:
-                    doc_id = doc_id.zfill(4)
+                    doc_id = str(doc_id).zfill(4)
+
                 if doc_id not in doc_dict:
                     doc_dict[doc_id] = {"labels":[], "events":[], "sen_ids":[], 'preds':[]}
                 if args.tbd:
+
                     event = [dict_IndenToID[str(doc_id)+"[" + str(sen_id[0])+":"+str(sen_id[1]) + ")"][x] for x in event]
                 else:
                     #print(str(doc_id))
@@ -459,7 +468,8 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 if args.tbd:
                     temp_label_dict =  {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
                     labels = [temp_label_dict[x] for x in labels]
-                labels = [label_dict[x] for x in labels]
+                else:
+                    labels = [label_dict[x] for x in labels]
                 events = doc_dict[doc_id]["events"]
                 sen_ids = doc_dict[doc_id]["sen_ids"]
 
@@ -510,15 +520,15 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if os.path.exists(cached_features_file) and not args.overwrite_cache: 
+    if os.path.exists(cached_features_file) and not args.overwrite_cache and not evaluate: 
         # load cache if exists
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
-        label_list = processor.get_labels()
+        label_list = processor.get_labels(args.tbd)
         label_dict = {x:y for x,y in enumerate(label_list)}
     else:
         logger.info("Creating features from dataset file at %s", args.data_dir)
-        label_list = processor.get_labels()
+        label_list = processor.get_labels(args.tbd)
         if not args.tbd:
             label_dict = {x:y for x,y in enumerate(label_list)}
         else:
@@ -589,23 +599,23 @@ def main():
     ## Required parameters
     parser.add_argument("--data_dir", default=None, type=str, required=True,
                         help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
-    parser.add_argument("--gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
+    parser.add_argument("--gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, 
                         help="The gold standard file. ")
-    parser.add_argument("--test_gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, required=True,
+    parser.add_argument("--test_gold_file", default="glue_data/I2B2-R/ground-truth/dev/merged_xml", type=str, 
                         help="The test set gold standard file. ")
-    parser.add_argument("--xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str, required=True,
+    parser.add_argument("--xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/dev-empty/", type=str,
                         help="The xml data dir to put result for dev set. ")
-    parser.add_argument("--final_xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/test-empty/", type=str, required=True,
+    parser.add_argument("--final_xml_folder", default="glue_data/I2B2-R/rich_relation_dataset_2/merged_xml/3/test-empty/", type=str, 
                         help="The xml data dir to put result for test set. ")                        
-    parser.add_argument("--model_type", default='bert', type=str, required=True,
+    parser.add_argument("--model_type", default='bert', type=str, 
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
-    parser.add_argument("--model_name_or_path", default='bert-base-uncased', type=str, required=True,
+    parser.add_argument("--model_name_or_path", default='bert-base-uncased', type=str, 
                         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS))
-    parser.add_argument("--task_name", default='I2B2-G', type=str, required=True,
+    parser.add_argument("--task_name", default='i2b2-g', type=str, 
                         help="The name of the task to train selected in the list: " + ", ".join(processors.keys()))
     parser.add_argument("--output_dir", default=None, type=str, required=True,
                         help="The output directory where the model predictions and checkpoints will be written.")
-    parser.add_argument("--error_output_dir", default=None, type=str, required=True,
+    parser.add_argument("--error_output_dir", default=None, type=str,
                         help="The output directory where error analysis will be written.")
 
 
@@ -623,7 +633,7 @@ def main():
                         help="Whether to run training.")
     parser.add_argument("--data_aug", default='triple_rules', type=str,
                         help="Whether to run data augmentation.")
-    parser.add_argument("--class_weight", default=None, type=str,
+    parser.add_argument("--class_weight", default='1~1~1', type=str,
                         help="class weights of the three classes: overlap; before and after.")
     
     parser.add_argument("--do_eval", action='store_true',
@@ -730,7 +740,7 @@ def main():
         raise ValueError("Task not found: %s" % (args.task_name))
     processor = processors[args.task_name]()
     args.output_mode = output_modes[args.task_name]
-    label_list = processor.get_labels()
+    label_list = processor.get_labels(args.tbd)
     num_labels = len(label_list)
     label_dict = {i:x for i,x in enumerate(label_list)}
 
@@ -818,11 +828,11 @@ def main():
             result = dict((k + '_{}'.format(global_step), v) for k, v in result.items())
             results.update(result)
         '''
-    if True:
-        os.system('mkdir -p ' + str(args.error_output_dir) + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda))
-        os.system(' '.join(["python error_analysis.py --gold_file_des",str(args.test_gold_file), '--system_file_des', str(args.final_xml_folder),
-    '--data_path', str(args.data_dir), '--output_dir', str(args.error_output_dir) + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '/']))
-    return results, args.class_weight
+    # if True:
+    #     os.system('mkdir -p ' + str(args.error_output_dir) + '/aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda))
+    #     os.system(' '.join(["python error_analysis.py --gold_file_des",str(args.test_gold_file), '--system_file_des', str(args.final_xml_folder),
+    # '--data_path', str(args.data_dir), '--output_dir', str(args.error_output_dir) + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '/']))
+    # return results, args.class_weight
 
 
 

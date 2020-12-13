@@ -532,12 +532,13 @@ def sb_convert_examples_to_features(examples, tokenizer,
             example = processor.get_example_from_tensor_dict(example)
             example = processor.tfds_map(example)
 
+
         input_ids, token_type_ids, attention_masks = [], [], []
         example.doc_id = str(example.doc_id)
 
         # construct dict to store the transformation from relation id to index of the matrix and vice versa
         IDToIndex, IndexToID = IDIndexDic(rel = example.relations)
-        
+
         if tbd: 
             dict_IndenToID[str(example.doc_id[len(example.doc_id)-4:len(example.doc_id)])+example.sen_id] = IndexToID #tbd TODO
         else:
@@ -548,6 +549,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
         if evaluate: 
             data_aug = 'evaluate'
 
+        #print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',data_aug)
         # if data_aug == "reverse":
         #     for rel in example.relations:
         #         texts = [] 
@@ -704,7 +706,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
         #     add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
         #     add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-        elif data_aug == "triple_rules":
+        if data_aug == "triple_rules":
             #print(example.relations)
             if tbd:
                 BM, OM, IDM, pos_dict, VM, IM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
@@ -730,6 +732,8 @@ def sb_convert_examples_to_features(examples, tokenizer,
                     texts.extend(text)
                 #print(texts)
             
+
+
             if acrobat:
                 sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple_ACROBAT(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,  pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
             if tbd:
@@ -738,6 +742,7 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 sum_BBB, sum_BOB, sum_OBB, sum_OOO = add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO,features, BM, OM,VM, None, pos_dict,IDM,  tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left,tbd=False)
 
         elif data_aug == 'evaluate':
+
             if tbd:
                 BM,AM, OM, IDM, pos_dict, VM, IM, TIM = build_BO_evaluate(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
             else:
@@ -749,6 +754,10 @@ def sb_convert_examples_to_features(examples, tokenizer,
             else:
                 IDM = IDM + BM + AM + OM
             IDM[np.where(IDM>0)] = 1
+            # print('evaluate examples', example)
+            # print('sum of BM', np.sum(BM))
+            # print('sum of OM', np.sum(OM))
+
             #IM = np.zeros(IM.shape)#TODO
             ##TIM = np.zeros(TIM.shape)#TODO
             #VM = np.zeros(VM.shape)#TODO
@@ -761,14 +770,21 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 for text in example.text:
                     texts.extend(text)
             
-            # TODO for tbd, modify doc_id
-            add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+            if not tbd:
+                add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id,example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
  
             #AM = BM.transpose()
-            add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+                add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
-            add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+                add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id, example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
             if tbd:
+
+                add_features(features, BM, pos_dict,IDM, 'BM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)],example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id, pad_on_left)
+ 
+            #AM = BM.transpose()
+                add_features(features, AM, pos_dict,IDM,'AM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
+
+                add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
                 add_features(features, VM, pos_dict,IDM, 'VM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
             
                 TIM = IM.transpose()
@@ -1634,9 +1650,12 @@ class I2b2_SB_Processor(DataProcessor):
         return self._create_examples(
             self._read_json(os.path.join(data_dir, "test.json")), "test", tbd)
 
-    def get_labels(self):
+    def get_labels(self, tbd):
         """See base class."""
-        return ["overlap", "before", "after"]
+        if not tbd:
+            return ["overlap", "before", "after"]
+        else:
+            return ['overlap', 'before', 'after', 'vague', 'includs', 'is_included' ]
 
     def _create_examples(self, lines, set_type, tbd):
         """Creates examples for the training and dev sets."""

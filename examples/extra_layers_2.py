@@ -286,9 +286,10 @@ class BertForRelationClassification(BertPreTrainedModel):
         '''
 
         # for class imbalanced
-        
         class_weights = torch.tensor([float(cw) for cw in class_weights]).cuda()
  
+        #print('num labels:', self.num_labels)
+        #print('pooled_output', pooled_output)
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
         outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
