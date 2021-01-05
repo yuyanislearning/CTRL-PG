@@ -2,8 +2,6 @@
 
 In this section a few examples are put together. 
 
-## Usage
-
 
 
 ## Examples
