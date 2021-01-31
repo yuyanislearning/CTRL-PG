@@ -1,18 +1,34 @@
-# Examples
+# CTRL-PG
 
-In this section a few examples are put together. 
+Codes for paper **Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference**.
+Y. Zhou, Y. Yan, R. Han, J. H. Caufield, K. Chang, Y. Sun, P. Ping, W. Wang
 
+### Dependencies
+```
+Python 3.6
+Pytorch 1.0.1+
+CUDA 10.0+
+torch
+numpy
+tqdm
+transformers
+tensorboardX
+glob
+random
+logging
+argparse
+copy
+json
+csv
+```
 
+### Data
+I2B2-2012 dataset and evaluating scripts could be downloaded [here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/). More descriptions about the TB-Dense dataset could be found [here](https://www.usna.edu/Users/cs/nchamber/caevo/). 
 
-## Examples
-
-To run temporal relation extraction
-
-
-### TBDense dataset:
+### Extracting Temporal relations from TBDense dataset:
 ```bash
-
-python run_rich_relation.py
+cd sources
+python run_relation_extraction.py
      --do_train \
      --do_eval \
      --tbd \
