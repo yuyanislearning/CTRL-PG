@@ -11,7 +11,7 @@ CUDA 10.0+
 torch
 numpy
 tqdm
-transformers
+transformers=2.2.0
 tensorboardX
 glob
 random
