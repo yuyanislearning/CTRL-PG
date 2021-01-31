@@ -1,6 +1,6 @@
 # CTRL-PG
 
-Codes for paper **Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference**.
+Codes for paper [**Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference**](https://arxiv.org/pdf/2012.08790.pdf).
 Y. Zhou, Y. Yan, R. Han, J. H. Caufield, K. Chang, Y. Sun, P. Ping, W. Wang
 
 ### Dependencies
@@ -23,7 +23,7 @@ csv
 ```
 
 ### Data
-I2B2-2012 dataset and evaluating scripts could be downloaded [here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/). More descriptions about the TB-Dense dataset could be found [here](https://www.usna.edu/Users/cs/nchamber/caevo/). 
+I2B2-2012 dataset and its complete closure evaluating scripts could be downloaded [here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/). More descriptions about the TB-Dense dataset could be found [here](https://www.usna.edu/Users/cs/nchamber/caevo/). 
 
 ### Extracting Temporal relations from TBDense dataset:
 ```bash
