@@ -28,13 +28,13 @@ I2B2-2012 dataset and its complete closure evaluating scripts could be downloade
 ### Extracting Temporal relations from TBDense dataset:
 ```bash
 cd sources
-python run_relation_extraction.py
+python run_relation_extraction.py \
      --do_train \
      --do_eval \
      --tbd \
      --evaluate_during_training \
      --do_lower_case \
-     --data_dir ../tbd/all_context/ \
+     --data_dir ../data/tbd/all_context/ \
      --max_seq_length 128 \
      --per_gpu_eval_batch_size=8 \
      --per_gpu_train_batch_size=8 \
