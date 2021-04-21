@@ -510,14 +510,21 @@ def sb_convert_examples_to_features(examples, tokenizer,
         if data_aug == "triple_rules":
             if tbd:
                 BM, OM, IDM, pos_dict, VM, IM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
+                BM, OM, IM, VM, remove_count = iter_rule_update_tbd(BM, OM, IM, VM,aug_round, wrong_count, evaluate = False)
+                OM = np.zeros(BM.shape)
+                AM = BM.transpose()
+                TIM = IM.transpose()
+                IDM = np.zeros(BM.shape)
+                IDM = IDM + BM + AM + OM + VM + IM + TIM
+                IDM[np.where(IDM>0)] = 1
             else:
                 BM, OM, IDM, pos_dict, VM = build_BO(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
-            VM = np.zeros(VM.shape)
-            BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count, evaluate = False)
-            AM = BM.transpose()
-            IDM = np.zeros(BM.shape)
-            IDM = IDM + BM + AM + OM + VM
-            IDM[np.where(IDM>0)] = 1
+                VM = np.zeros(VM.shape)
+                BM, OM, remove_count = iter_rule_update(BM, OM, aug_round, wrong_count, evaluate = False)
+                AM = BM.transpose()
+                IDM = np.zeros(BM.shape)
+                IDM = IDM + BM + AM + OM + VM
+                IDM[np.where(IDM>0)] = 1
 
             # merge three sentences
             if tbd:
@@ -541,9 +548,9 @@ def sb_convert_examples_to_features(examples, tokenizer,
             else:
                 BM,AM, OM, IDM, pos_dict, VM = build_BO_evaluate(rel = example.relations, IDToIndex= IDToIndex, tbd = tbd)
 
-            BM, OM, wrong_count = iter_rule_update(BM, OM,  0,wrong_count, evaluate = True)
             if tbd:
-                IDM = IDM + BM + AM+ OM + VM + IM + IM.transpose()
+                OM = np.zeros(BM.shape)
+                IDM = IDM + BM + AM+ OM + VM + IM + TIM
             else:
                 IDM = IDM + BM + AM + OM
             IDM[np.where(IDM>0)] = 1
@@ -570,7 +577,6 @@ def sb_convert_examples_to_features(examples, tokenizer,
                 add_features(features, OM, pos_dict,IDM, 'OM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
                 add_features(features, VM, pos_dict,IDM, 'VM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
             
-                TIM = IM.transpose()
                 add_features(features, IM, pos_dict,IDM, 'IM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
                 add_features(features, TIM, pos_dict,IDM, 'TIM', tokenizer , texts, example.doc_id[len(example.doc_id)-4:len(example.doc_id)], example.sen_id, max_length,mask_padding_with_zero,pad_token,pad_token_segment_id,pad_on_left)
 
@@ -1665,14 +1671,13 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM,VM,I
                 Input_SB_Features(input_ids=input_ids,
                             attention_masks=attention_masks,
                             token_type_ids=token_type_ids,
-                            relations=[3,3,3],
+                            relations=[4,4,4],
                             doc_id=[int(doc_id),int(doc_id),int(doc_id)],
                             sen_id=[sen_id,sen_id,sen_id],
                             ids=ids,
                             sources = [sources,sources,sources],
                             rules = [0,0,0],
                             ))
-
         TIM = IM.transpose()
         TI_x, TI_y = np.where(TIM>0)
         
@@ -1745,7 +1750,7 @@ def add_features_triple(sum_BBB, sum_BOB, sum_OBB, sum_OOO, features,BM, OM,VM,I
                 Input_SB_Features(input_ids=input_ids,
                             attention_masks=attention_masks,
                             token_type_ids=token_type_ids,
-                            relations=[4,4,4],
+                            relations=[5,5,5],
                             doc_id=[int(doc_id),int(doc_id),int(doc_id)],
                             sen_id=[sen_id,sen_id,sen_id],
                             ids=ids,
@@ -2496,6 +2501,54 @@ def iter_rule_update(BM= None, OM=None,  n_iter= 3,  wrong_count=None, evaluate=
 
     return BM, OM, wrong_count
 
+
+
+def iter_rule_update_tbd(BM= None, OM=None, IM=None, VM=None  ,n_iter= 3,  wrong_count=None, evaluate=False):
+    '''
+    iteratively find the ground truth by applying rules
+    rules: 
+    if Bij Ojk, then Bik
+    if Oij Bjk, then Bik
+    if Bij Bjk, then Bik
+    if Oij Ojk, then Oik
+    if Oij, then Oji
+    '''
+    # first complete OM
+    OOM = np.copy(OM) 
+    OBM = np.copy(BM)
+    if not evaluate:
+        OM = OM + OM.transpose()
+        #VM = VM + VM.transpose()
+    #OM = OM + np.matmul(OM, OM)
+
+    # iteratively update BM
+    for _ in range(n_iter):
+        #new_BM = BM + np.matmul(BM, OM)
+        #new_BM = new_BM + np.matmul(OM, BM)
+        #new_BM = new_BM + np.matmul(BM, BM)
+        new_BM = BM + np.matmul(BM,BM)
+        #OM = OM + np.matmul(OM, OM)
+        new_BM[np.where(new_BM>0)] = 1
+        BM = new_BM
+        
+    # normalize
+    BM[np.where(BM>0)] = 1
+    OM[np.where(OM>0)] = 1
+    IM[np.where(IM>0)] = 1
+    VM[np.where(VM>0)] = 1
+    
+
+    for i in range(OM.shape[0]):
+        OM[i,i] = 0
+
+    if judge_rule(BM):
+        wrong_count+=1
+        OM = OOM
+        BM = OBM
+           
+
+    return BM, OM, IM, VM, wrong_count
+
 def reduce_rule(BM, OM, remove_count):
     '''
     find how many edges from origin data are generated by rules and remove them
@@ -2566,6 +2619,7 @@ def build_BO(rel = None, IDToIndex= None, tbd = False):
     VM = np.zeros((n,n))
     if tbd:
         IM = np.zeros((n,n))
+        
     pos_dict = {}
     if tbd:
         for r in rel:

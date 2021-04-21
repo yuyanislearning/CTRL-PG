@@ -5,7 +5,7 @@ import logging
 import os, sys
 import random
 import sys
-import numpy as np
+import numpy as np 
 import torch
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler,
                               TensorDataset)
@@ -340,11 +340,7 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
             
             for doc_id in doc_dict.keys():
                 labels = doc_dict[doc_id]["labels"]
-                if args.tbd:
-                    temp_label_dict =  {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
-                    labels = [temp_label_dict[x] for x in labels]
-                else:
-                    labels = [label_dict[x] for x in labels]
+                labels = [label_dict[x] for x in labels] 
                 events = doc_dict[doc_id]["events"]
                 sen_ids = doc_dict[doc_id]["sen_ids"]
 
@@ -395,7 +391,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if os.path.exists(cached_features_file) and not args.overwrite_cache and not evaluate: 
+    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache and not evaluate: 
         # load cache if exists
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
@@ -407,9 +403,8 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         if not args.tbd:
             label_dict = {x:y for x,y in enumerate(label_list)}
         else:
-            label_dict = {0: 'overlap', 1: 'before', 2: 'after'}#,  3:'includs', 4:'is_included'} TODO
+            label_dict = {0: 'overlap', 1: 'before', 2: 'after', 3:'vague', 4:'includs', 5:'is_included'}
         if task in ['mnli', 'mnli-mm'] and args.model_type in ['roberta']:
-            # HACK(label indices are swapped in RoBERTa pretrained model)
             label_list[1], label_list[2] = label_list[2], label_list[1] 
         # final_evaluate indicate test data; only evaluate indicate dev data
         examples = processor.get_test_examples(args.data_dir, args.tbd) if final_evaluate else processor.get_dev_examples(args.data_dir, args.tbd) if evaluate else processor.get_train_examples(args.data_dir, args.tbd)
