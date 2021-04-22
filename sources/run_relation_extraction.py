@@ -267,7 +267,7 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                 else:
                     eval_loss += tmp_eval_loss.mean().item()
 
-            nb_eval_steps += 1
+            nb_eval_steps += 1 
 
             if preds is None:
                 preds = softmax(logits).detach().cpu().numpy()
@@ -363,11 +363,11 @@ def evaluate(best_mif1, best_maf1, best_check, check,  args, model, tokenizer,  
                     for [id1, id2], label,  pred in zip(events, labels,  preds):
                         fw.write('\t'.join([str(id1),str(id2),label, str(pred)]) + '\n')
                     fw.close()
-            if final_evaluate and args.tbd:
-                os.system('for thres in 0.1 0.3 0.5 0.7 0.9 ; do python3 vague_processing.py $thres; done')
-            if final_evaluate and args.tempeval:# temporal evaluation
-                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
-                os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
+            # if final_evaluate and args.tbd:
+            #     os.system('for thres in 0.1 0.3 0.5 0.7 0.9 ; do python3 vague_processing.py $thres; done')
+            # if final_evaluate and args.tempeval:# temporal evaluation
+            #     os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.test_gold_file),str(args.final_xml_folder)]) + ' > ' + args.output_dir + 'aug_' + str(args.aug_round) + '_psl_'+ str(args.psllda) + '_closure_results.txt')
+            #     os.system(' '.join(["python2 i2b2-evaluate/i2b2Evaluation.py --tempeval",str(args.gold_file),str(args.xml_folder)]))
 
     return best_mif1, best_maf1, best_check,results
 
@@ -391,7 +391,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, final_evaluat
         str(args.max_seq_length),
         str(task),
         str(args.aug_round)))
-    if False:#os.path.exists(cached_features_file) and not args.overwrite_cache and not evaluate: 
+    if os.path.exists(cached_features_file) and not args.overwrite_cache and not evaluate: 
         # load cache if exists
         logger.info("Loading features from cached file %s", cached_features_file)
         features,dict_IndenToID = torch.load(cached_features_file)
@@ -665,9 +665,6 @@ def main():
             logging.getLogger("transformers.modeling_utils").setLevel(logging.WARN)  # Reduce logging
         logger.info("Evaluate the following checkpoints: %s", checkpoints)
         _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  final_evaluate =True)
-        results.update(result)
-        # get the dev TODO remove it
-        _,_,_, result = evaluate(0,0,0,0,args, model, tokenizer,  final_evaluate =False)
         results.update(result)
 
 
