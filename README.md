@@ -43,8 +43,8 @@ python run_relation_extraction.py \
      --output_dir /tmp/tbd \
      --overwrite_output_dir \
      --data_aug triple_rules \
-     --aug_round 0 \
-     --psllda 0
+     --aug_round 2 \
+     --psllda 0.5
 
 ```
 To perform Global inference, two xml file will need for both test and dev data. 
